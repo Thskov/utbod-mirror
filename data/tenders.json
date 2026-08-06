@@ -1,38 +1,12 @@
 {
-  "generated_at": "2026-08-05T07:00:13.470065+00:00",
+  "generated_at": "2026-08-06T07:00:13.298113+00:00",
   "source": {
     "site": "https://www.utbodsvefur.is",
     "posts_api": "https://www.utbodsvefur.is/wp-json/wp/v2/posts",
     "listing": "https://www.utbodsvefur.is"
   },
-  "count": 40,
+  "count": 38,
   "tenders": [
-    {
-      "reference": "6330402",
-      "project": "AUGLÝSING -Brottfararstöð á Suðurnesjum- LEIGUHÚSNÆÐI",
-      "buyer": "FSRE - Framkvæmdasýslan Ríkiseignir",
-      "notice_type": "Leiguhúsnæði",
-      "deadline": "05.08.2026 kl. 13:00",
-      "deadline_local": "2026-08-05T13:00:00+00:00",
-      "deadline_utc": "2026-08-05T13:00:00+00:00",
-      "posted_at": "2026-06-26T11:26:30+00:00",
-      "modified_at": "2026-06-26T11:55:02+00:00",
-      "url": "https://www.utbodsvefur.is/auglysing-brottfararstod-a-sudurnesjum-leiguhusnaedi/",
-      "summary": "Framkvæmdasýslan – Ríkiseignir (FSRE) f.h. ríkissjóðs, óskar eftir upplýsingum um mögulegt húsnæði sem gæti hentað sem brottfararstöð. Kostur er að hú..."
-    },
-    {
-      "reference": "580214",
-      "project": "Hjúkrunarheimili í Vatnshlíð – Hönnun",
-      "buyer": "Vigdísarholt",
-      "notice_type": "Vörukaup Þjónusta",
-      "deadline": "05.08.2026 kl. 13:00",
-      "deadline_local": "2026-08-05T13:00:00+00:00",
-      "deadline_utc": "2026-08-05T13:00:00+00:00",
-      "posted_at": "2026-07-02T09:41:11+00:00",
-      "modified_at": "2026-07-03T10:45:39+00:00",
-      "url": "https://www.utbodsvefur.is/hjukrunarheimili-i-vatnshlid-honnun/",
-      "summary": "JTV fyrir hönd Vigdísarholts ehf, kt. 580214-1180, óskar eftir tilboðum í verkið: „Hjúkrunarheimili í Vatnshlíð – Hönnun“ Verkið fel..."
-    },
     {
       "reference": "M26021",
       "project": "Sláttuvélar fyrir Keflavíkurflugvöll – Markaðskönnun",
@@ -58,19 +32,6 @@
       "modified_at": "2026-07-08T13:23:44+00:00",
       "url": "https://www.utbodsvefur.is/markadskonnun-skrifstofuhusnaedi-a-akureyri-leiguhusnaedi/",
       "summary": "Framkvæmdasýslan – Ríkiseignir f.h. ríkissjóðs stendur fyrir markaðskönnun vegna mögulegra langtímaleigu á nútímalegu, verkefnamiðuðu og sveigja..."
-    },
-    {
-      "reference": "V26020",
-      "project": "Hjólaaðstaða – verðfyrirspurn",
-      "buyer": "Isavia",
-      "notice_type": "Framkvæmd Verðfyrirspurn",
-      "deadline": "07.08.2026 kl. 00:00",
-      "deadline_local": "2026-08-07T00:00:00+00:00",
-      "deadline_utc": "2026-08-07T00:00:00+00:00",
-      "posted_at": "2026-07-03T13:20:16+00:00",
-      "modified_at": "2026-07-03T13:20:16+00:00",
-      "url": "https://www.utbodsvefur.is/hjolaadstada-verdfyrirspurn/",
-      "summary": "Isavia ohf. óskar eftir tilboðum í tilbúna gámalausn, um 200 fm að stærð, til að bæta aðstöðu fyrir hjólandi flugfarþega sem og aðstöðu fyrir hjól og ..."
     },
     {
       "reference": "2026062733",
@@ -266,6 +227,19 @@
       "modified_at": "2026-06-25T10:36:52+00:00",
       "url": "https://www.utbodsvefur.is/ymis-lyf-90-isotopar-ahengjur/",
       "summary": "Landspítali óskar eftir tilboðum í Ísótópa/áhengjur. Um er að ræða lyf í eftirfarandi ATC flokkum: V09FX01, V09IB01, V09IX01, V09AB03, V10XA01, V09DX0..."
+    },
+    {
+      "reference": "V26020",
+      "project": "Hjólaaðstaða – verðfyrirspurn",
+      "buyer": "Isavia",
+      "notice_type": "Framkvæmd Verðfyrirspurn",
+      "deadline": "21.08.2026 kl. 13:00",
+      "deadline_local": "2026-08-21T13:00:00+00:00",
+      "deadline_utc": "2026-08-21T13:00:00+00:00",
+      "posted_at": "2026-07-03T13:20:16+00:00",
+      "modified_at": "2026-08-05T13:57:28+00:00",
+      "url": "https://www.utbodsvefur.is/hjolaadstada-verdfyrirspurn/",
+      "summary": "Isavia ohf. óskar eftir tilboðum í tilbúna gámalausn, um 200 fm að stærð, til að bæta aðstöðu fyrir hjólandi flugfarþega sem og aðstöðu fyrir hjól og ..."
     },
     {
       "reference": "23329",
