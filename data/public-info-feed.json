@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated": "2026-08-14T16:11:19Z",
+  "generated": "2026-08-14T16:32:29Z",
   "window": {
     "from": "2026-08-07",
     "to": "2026-08-14"
@@ -33,9 +33,34 @@
     "kaerunefnd_year": 2026,
     "announcement_sources": [
       "https://www.istak.is/frettir"
-    ]
+    ],
+    "legislation": {
+      "sources": [
+        "samradsgatt",
+        "reglugerd",
+        "byggingarreglugerd"
+      ],
+      "not_covered": {
+        "althingi": "althingi.is returned HTTP 403 from this host for XML and normal HTML endpoints",
+        "hms": "hms.is returned HTTP 429 from this host"
+      },
+      "topics": [
+        "bygging",
+        "mannvirki",
+        "skipulag",
+        "opinber innkaup",
+        "umhverfismat",
+        "orku",
+        "framkvæmd",
+        "samgöngur"
+      ],
+      "samradsgatt_statuses": [
+        "Til umsagnar"
+      ],
+      "reglugerd_window": "2026 current-year keyword search plus newest regulations page"
+    }
   },
-  "count": 264,
+  "count": 275,
   "items": [
     {
       "id": "skgatt:0956/2026",
@@ -62,6 +87,24 @@
       "review_deadline": "2026-09-11",
       "summary": "Á afgreiðslufundi skipulagsfulltrúa þann 12. ágúst 2026 var samþykkt að grenndarkynna í samræmi við 2. mgr. 43. gr. skipulagslaga nr. 123/2010 tillögu að breyttu deiliskipulagi Suðurhafnar Hafnarfjarðar vegna þjónustuhúss skemmtiferðaskipa á Suðurbakka.",
       "url": "https://skipulagsgatt.is/issues/5300"
+    },
+    {
+      "id": "samradsgatt:149/2026",
+      "lane": "legislation",
+      "source": "samradsgatt",
+      "doc_type": "consultation",
+      "proposal_type": "regulation",
+      "title": "Breyting á reglugerð um framkvæmdaleyfi nr. 772/2012, með síðari breytingum",
+      "entity": "Félags- og húsnæðismálaráðuneytið",
+      "status": "Til umsagnar",
+      "date": "2026-08-12",
+      "review_deadline": "2026-09-02",
+      "summary": "Félags- og húsnæðismálaráðuneytið kynnir til umsagnar drög að breytingu á reglugerð um framkvæmdaleyfi nr. 772/2012, með síðari breytingum.",
+      "url": "https://island.is/samradsgatt/mal/4296",
+      "case_number": "149/2026",
+      "keywords_matched": [
+        "framkvæmd"
+      ]
     },
     {
       "id": "skgatt:0940/2026",
@@ -515,6 +558,24 @@
       "url": "https://skipulagsgatt.is/issues/5245"
     },
     {
+      "id": "samradsgatt:136/2026",
+      "lane": "legislation",
+      "source": "samradsgatt",
+      "doc_type": "consultation",
+      "proposal_type": "consultation",
+      "title": "Samráð um drög að leiðbeiningum um viðskipti á heildsöluorkumarkaði",
+      "entity": "Umhverfis-, orku- og loftslagsráðuneytið",
+      "status": "Til umsagnar",
+      "date": "2026-07-17",
+      "review_deadline": "2026-09-18",
+      "summary": "Raforkueftirlitið kynnir til samráðs fyrstu fjóra kafla að leiðbeiningum um framkvæmd ákvæða raforkulaga um innherjaupplýsingar, birtingu innherjaupplýsinga, innherjasvik og markaðsmisnotkun.",
+      "url": "https://island.is/samradsgatt/mal/4283",
+      "case_number": "136/2026",
+      "keywords_matched": [
+        "orku"
+      ]
+    },
+    {
       "id": "skgatt:0883/2026",
       "lane": "eia",
       "title": "Skógrækt í landi Galtalækjar",
@@ -586,6 +647,24 @@
       "url": "https://skipulagsgatt.is/issues/5229"
     },
     {
+      "id": "samradsgatt:127/2026",
+      "lane": "legislation",
+      "source": "samradsgatt",
+      "doc_type": "consultation",
+      "proposal_type": "bill",
+      "title": "Drög að frumvarpi til laga til innleiðingar á tilskipun Evrópuþingsins og ráðsins (ESB) 2018/2001 um að auka notkun orku frá endurnýjanlegum orkugjöfum (EES-réttur)",
+      "entity": "Umhverfis-, orku- og loftslagsráðuneytið",
+      "status": "Til umsagnar",
+      "date": "2026-07-14",
+      "review_deadline": "2026-08-14",
+      "summary": "Umhverfis-, orku- og loftslagsráðuneytið kynnir drög að frumvarpi til laga til innleiðingar á tilskipun Evrópuþingsins og ráðsins (ESB) 2018/2001 um að auka notkun orku frá endurnýjanlegum orkugjöfum",
+      "url": "https://island.is/samradsgatt/mal/4274",
+      "case_number": "127/2026",
+      "keywords_matched": [
+        "umhverfismat"
+      ]
+    },
+    {
       "id": "skgatt:0871/2026",
       "lane": "eia",
       "title": "Breytt fyrirkomulag við hitaveituboranir í Skammadal",
@@ -609,6 +688,61 @@
       "review_deadline": "2026-08-13",
       "summary": "Um er að ræða breytingu á hverfisskipulagi Árbæjar, hverfi 7.2, vegna lóarinnar nr. 32 við Rofabæ, lóð Árbæjarkirkju. Í breytingunni sem lögð er til felst tilfærsla og endurhönnun göngustígs sem liggur að og um kirkjulóðina og hverfisgarðinn austan hennar. Jafnframt er gert ráð fyrir þremur nýjum dvalarsvæðum með bekkjum sem nýtast íbúum og öðrum gestum svæ…",
       "url": "https://skipulagsgatt.is/issues/5225"
+    },
+    {
+      "id": "samradsgatt:131/2026",
+      "lane": "legislation",
+      "source": "samradsgatt",
+      "doc_type": "consultation",
+      "proposal_type": "bill",
+      "title": "Áform um lagasetningu - Frumvarp um breytingu á lögum um mannvirki nr. 160/2010 (einföldun byggingarreglugerðar og breytt byggingareftirlit)",
+      "entity": "Félags- og húsnæðismálaráðuneytið",
+      "status": "Til umsagnar",
+      "date": "2026-07-13",
+      "review_deadline": "2026-08-21",
+      "summary": "Fyrirhugaðar eru breytingar á lögum um mannvirki sem liður í heildstæðri endurskoðun á stjórnsýslu mannvirkjamála með einfaldari byggingarreglugerð, skilvirkara eftirliti og og aukinni neytendavernd.",
+      "url": "https://island.is/samradsgatt/mal/4278",
+      "case_number": "131/2026",
+      "keywords_matched": [
+        "bygging",
+        "mannvirki"
+      ]
+    },
+    {
+      "id": "samradsgatt:130/2026",
+      "lane": "legislation",
+      "source": "samradsgatt",
+      "doc_type": "consultation",
+      "proposal_type": "bill",
+      "title": "Áform um lagasetningu - Frumvarp um breytingu á skipulagslögum nr. 123/2010 (ýmsar breytingar)",
+      "entity": "Félags- og húsnæðismálaráðuneytið",
+      "status": "Til umsagnar",
+      "date": "2026-07-13",
+      "review_deadline": "2026-08-21",
+      "summary": "Fyrirhugaðar eru breytingar á skipulagslögum sem miða að því að bæta málsmeðferð svæðisskipulags höfuðborgarsvæðisins, með einföldun ferlis, stafrænni upplýsingagjöf og skilvirkari lagaframkvæmd.",
+      "url": "https://island.is/samradsgatt/mal/4277",
+      "case_number": "130/2026",
+      "keywords_matched": [
+        "skipulag"
+      ]
+    },
+    {
+      "id": "samradsgatt:113/2026",
+      "lane": "legislation",
+      "source": "samradsgatt",
+      "doc_type": "consultation",
+      "proposal_type": "regulation",
+      "title": "Breytingar á reglugerðum vegna einföldunar eftirlits",
+      "entity": "Umhverfis-, orku- og loftslagsráðuneytið",
+      "status": "Til umsagnar",
+      "date": "2026-07-13",
+      "review_deadline": "2026-08-17",
+      "summary": "Umhverfis-, orku- og loftslagsráðuneytið kynnir til samráðs drög að breytingum á ýmsum reglugerðum á sviði hollustuhátta og mengunarvarna í kjölfar nýsamþykktra laga um einföldun eftirlits.",
+      "url": "https://island.is/samradsgatt/mal/4260",
+      "case_number": "113/2026",
+      "keywords_matched": [
+        "umhverfismat"
+      ]
     },
     {
       "id": "heradsdomur:S-3995/2025",
@@ -636,6 +770,24 @@
       "review_deadline": "2026-08-10",
       "summary": "Með vísan til 5. mgr. 13. gr.,2.mgr 43gr, 1. og 2 mgr. 44. gr. Skipulagslaga nr. 123 frá árinu 2010, gefur Umhverfisráð hér með eigendum húseigna í næsta nágrenni við Hafnargötu 45, 230 Reykjanesbæ kost á að tjá sig um umsóknina. Vegna breytinga á annarri hæð hússins er sótt um nýjar svalir á norðausturhlið hússins vegna endurbættrar flóttaleiðar frá efri h…",
       "url": "https://skipulagsgatt.is/issues/5220"
+    },
+    {
+      "id": "samradsgatt:119/2026",
+      "lane": "legislation",
+      "source": "samradsgatt",
+      "doc_type": "consultation",
+      "proposal_type": "bill",
+      "title": "Frumvarp til laga um fjárfestingar ríkisins",
+      "entity": "Fjármála- og efnahagsráðuneytið",
+      "status": "Til umsagnar",
+      "date": "2026-07-10",
+      "review_deadline": "2026-08-18",
+      "summary": "Um er að ræða heildarendurskoðun á núgildandi fyrirkomulagi um opinberar framkvæmdir til að tryggja að samræmd málsmeðferð og fagleg verkefnastjórnsýsla gildi yfir allar stærri fjárfestingar ríkisins.",
+      "url": "https://island.is/samradsgatt/mal/4266",
+      "case_number": "119/2026",
+      "keywords_matched": [
+        "framkvæmd"
+      ]
     },
     {
       "id": "kaerunefnd:65/2025",
@@ -711,6 +863,44 @@
       "date": "2026-07-09",
       "summary": "Aflétting sjálfkrafa stöðvunar samningsgerðar.",
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/?newsid=88e2a1fc-7b7d-11f1-b8a4-005056bcde1f&cname=Kærunefnd útboðsmála&cid=e219adb9-4214-11e7-941a-005056bc530c"
+    },
+    {
+      "id": "samradsgatt:123/2026",
+      "lane": "legislation",
+      "source": "samradsgatt",
+      "doc_type": "consultation",
+      "proposal_type": "consultation",
+      "title": "Drög að þingsályktun um stefnu stjórnvalda um uppbyggingu flutningskerfis raforku",
+      "entity": "Umhverfis-, orku- og loftslagsráðuneytið",
+      "status": "Til umsagnar",
+      "date": "2026-07-08",
+      "review_deadline": "2026-08-19",
+      "summary": "Umhverfis-, orku- og loftslagsráðuneytið kynnir til samráðs drög að þingsályktun um stefnu stjórnvalda um uppbyggingu flutningskerfis raforku.",
+      "url": "https://island.is/samradsgatt/mal/4270",
+      "case_number": "123/2026",
+      "keywords_matched": [
+        "orku",
+        "umhverfismat"
+      ]
+    },
+    {
+      "id": "samradsgatt:122/2026",
+      "lane": "legislation",
+      "source": "samradsgatt",
+      "doc_type": "consultation",
+      "proposal_type": "regulation",
+      "title": "Drög að reglugerð um framkvæmd 20. gr. a–20. gr. i raforkulaga nr. 65/2003",
+      "entity": "Umhverfis-, orku- og loftslagsráðuneytið",
+      "status": "Til umsagnar",
+      "date": "2026-07-08",
+      "review_deadline": "2026-09-04",
+      "summary": "Umhverfis-, orku- og loftslagsráðuneytið kynnir til samráðs drög að reglugerð um framkvæmd 20. gr. a–20. gr. i raforkulaga nr. 65/2003.",
+      "url": "https://island.is/samradsgatt/mal/4269",
+      "case_number": "122/2026",
+      "keywords_matched": [
+        "orku",
+        "umhverfismat"
+      ]
     },
     {
       "id": "kaerunefnd:46/2025",
@@ -1568,6 +1758,22 @@
       "review_deadline": "2026-08-13",
       "summary": "Um er að ræða tillögu að nýju deiliskipulagi fyrir Ártúnshöfða svæði 2C, Þórðarhöfða. Í tillögunni sem lögð er til felst skilgreining nýrrar skólalóðar fyrir u.þ.b. 300 grunnskólabörn (1.-4. bekk) og 180 leikskólabörn. Auk skólalóðar er nýr íbúðarreitur með allt að 185 nýjum íbúðum. Fjölbreytt dvalarsvæði eru í inngarði, bílakjallari er undir reitnum og mög…",
       "url": "https://skipulagsgatt.is/issues/4985"
+    },
+    {
+      "id": "reglugerd:0495-2026",
+      "lane": "legislation",
+      "source": "reglugerd",
+      "doc_type": "regulation",
+      "title": "Reglugerð um breytingu á reglugerð nr. 360/2022, um útboðsvef, viðmiðunarfjárhæðir og innkaup samkvæmt samningi Alþjóðaviðskiptastofnunarinnar (WTO) vegna opinberra innkaupa.",
+      "entity": "Fjármála- og efnahagsráðuneyti",
+      "status": "published",
+      "date": "2026-05-19",
+      "summary": "Reglugerð um breytingu á reglugerð nr. 360/2022, um útboðsvef, viðmiðunarfjárhæðir og innkaup samkvæmt samningi Alþjóðaviðskiptastofnunarinnar (WTO) vegna opinberra innkaupa.",
+      "url": "https://island.is/reglugerdir/nr/0495-2026",
+      "case_number": "0495/2026",
+      "keywords_matched": [
+        "opinber innkaup"
+      ]
     },
     {
       "id": "heradsdomur:E-7450/2025",
@@ -2551,6 +2757,22 @@
       "date": "2026-01-20",
       "summary": "Riftun stefnda á ráðningarsamningum stefnenda var talin ólögmæt og var því fallist á kröfur stefnenda um greiðslu launa í uppsagnarfresti ásamt dráttarvöxtum. Ennfremur var fallist á að annar stefnenda ætti rétt á greiðslu mismunar á fullum launum og greiðslum í fæðingarorlofi. Kröfu stefnenda um miskabætur var hins vegar hafnað.",
       "url": "https://island.is/domar/g-5a574383-8194-4919-96c4-35699f473644"
+    },
+    {
+      "id": "byggingarreglugerd:0011-2026",
+      "lane": "legislation",
+      "source": "byggingarreglugerd",
+      "doc_type": "regulation",
+      "title": "Reglugerð um breytingu á byggingarreglugerð nr. 112/2012.",
+      "entity": "Félags- og húsnæðismálaráðuneyti",
+      "status": "published",
+      "date": "2026-01-12",
+      "summary": "Reglugerð um breytingu á byggingarreglugerð nr. 112/2012.",
+      "url": "https://island.is/reglugerdir/nr/0011-2026",
+      "case_number": "0011/2026",
+      "keywords_matched": [
+        "bygging"
+      ]
     },
     {
       "id": "kaerunefnd:53/2025",
