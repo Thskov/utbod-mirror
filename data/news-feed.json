@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated": "2026-08-14T17:12:58Z",
+  "generated": "2026-08-14T18:36:31Z",
   "window": {
     "from": "2026-07-15",
     "to": "2026-08-14"
@@ -53,6 +53,11 @@
         "url": "https://www.landsvirkjun.is/frettir"
       },
       {
+        "source": "landsvirkjun-utbod",
+        "outlet": "Landsvirkjun",
+        "url": "https://www.landsvirkjun.is/innkaup/utbod"
+      },
+      {
         "source": "vegagerdin",
         "outlet": "Vegagerðin",
         "url": "https://www.vegagerdin.is/upplysingar-og-utgafa/frettir/"
@@ -65,7 +70,7 @@
       {
         "source": "isavia",
         "outlet": "Isavia",
-        "url": "https://www.isavia.is/"
+        "url": "https://www.kefairport.is/frettir"
       },
       {
         "source": "fsre",
@@ -86,6 +91,61 @@
         "source": "orkuveitan",
         "outlet": "Orkuveitan",
         "url": "https://www.orkuveitan.is/um-or/frettir/"
+      },
+      {
+        "source": "kadeco",
+        "outlet": "Kadeco",
+        "url": "https://www.kadeco.is/frettir"
+      },
+      {
+        "source": "kadeco-throunarreitir",
+        "outlet": "Kadeco",
+        "url": "https://www.kadeco.is/throunarreitir"
+      },
+      {
+        "source": "kadeco-throunaraaetlun",
+        "outlet": "Kadeco",
+        "url": "https://www.kadeco.is/throunaraaetlun"
+      },
+      {
+        "source": "carbfix",
+        "outlet": "Carbfix",
+        "url": "https://www.carbfix.com/news"
+      },
+      {
+        "source": "iav",
+        "outlet": "ÍAV",
+        "url": "https://www.iav.is/frettir"
+      },
+      {
+        "source": "eykt",
+        "outlet": "Eykt",
+        "url": "https://www.eykt.is/frettir/"
+      },
+      {
+        "source": "javerk",
+        "outlet": "Jáverk",
+        "url": "https://javerk.is/frettir"
+      },
+      {
+        "source": "borgarverk",
+        "outlet": "Borgarverk",
+        "url": "https://borgarverk.is/frettir/"
+      },
+      {
+        "source": "thingvangur",
+        "outlet": "Þingvangur",
+        "url": "https://thingvangur.is/frettir/"
+      },
+      {
+        "source": "colas-is",
+        "outlet": "Colas Iceland",
+        "url": "https://colas.is/frettir/"
+      },
+      {
+        "source": "munck",
+        "outlet": "Munck",
+        "url": "https://munck.dk/en/news/"
       }
     ],
     "topics": {
@@ -162,9 +222,10 @@
   "sources": {
     "not_covered": {
       "nlsh": "HTTP Error 429: Too Many Requests"
-    }
+    },
+    "source_candidates": []
   },
-  "count": 5,
+  "count": 7,
   "items": [
     {
       "id": "news:reykjavik:menningarnott-2026-naesta-leiti",
@@ -225,6 +286,30 @@
       "url": "https://reykjavik.is/frettir/2026/gotumarkadur-i-listasafni-reykjavikur-hafnarhusi",
       "outlet": "Reykjavíkurborg",
       "is_new": true
+    },
+    {
+      "id": "news:vegagerdin:69033-2",
+      "lane": "news",
+      "category": "project",
+      "title": "11. ágúst 2026 Jökulsá á Fjöllum - viðhaldsvinna hefst 17. ágúst",
+      "entity": "Vegagerðin",
+      "date": "2026-08-11",
+      "summary": "__eI5fQ\"> Frétt­ir 11. ágúst 2026 Jökulsá á Fjöllum - viðhaldsvinna hefst 17. ágúst <img alt=\"\" loading=\"lazy\" width=\"300\" height=\"9999\" decoding=\"async\" data-nimg=\"1\" class=\"NextImage_container__yLPzb\" style=\"color:transparent;height:auto\" srcSet=\"/_next/image?url=%2Fmedia%2F2026%2F08%2Fdji_20251210153535_0581_d-aspect-ratio-1600-11",
+      "url": "https://www.vegagerdin.is/vegagerdin/starfsemi/frettir/69033-2",
+      "outlet": "Vegagerðin",
+      "is_new": false
+    },
+    {
+      "id": "news:istak:fjolnota-irottahus-i-borganesi-teki-i-notkun",
+      "lane": "news",
+      "category": "istak",
+      "title": "Fjölnota íþróttahús í Borganesi tekið í notkun",
+      "entity": "ÍSTAK",
+      "date": "2026-08-11",
+      "summary": "20w.webp');\"> Fjölnota íþróttahús í Borganesi tekið í notkun 11. ágúst 2026 Nýtt fjölnota íþróttahús í Borgarnesi hefur nú náð mikilvægum áfanga. Þann 10. ágúst fór fram öryggisúttekt á nýja húsinu sem gekk afar vel og voru engar athugasemdir skráðar. Virkilega ánægjulegt",
+      "url": "https://www.istak.is/fjolnota-irottahus-i-borganesi-teki-i-notkun",
+      "outlet": "ÍSTAK",
+      "is_new": false
     }
   ]
 }
