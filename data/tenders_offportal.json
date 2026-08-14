@@ -1,0 +1,211 @@
+{
+  "schema_version": 1,
+  "generated": "2026-08-14T16:02:18Z",
+  "generated_at": "2026-08-14T16:02:18Z",
+  "sources": {
+    "covered": [
+      {
+        "source": "isavia-intend",
+        "url": "https://utbod.isavia.is/aspx/Tenders/Current",
+        "buyer_fallback": "Isavia"
+      },
+      {
+        "source": "or-intend",
+        "url": "https://in-tendhost.co.uk/reykjavikenergy/aspx/Tenders/Current",
+        "buyer_fallback": "Reykjavík Energy / Veitur"
+      }
+    ],
+    "not_covered": [
+      {
+        "source": "nlsh",
+        "url": "https://www.nlsh.is/utbodi",
+        "reason": "HTTP 429 / Vercel security checkpoint from this host"
+      }
+    ]
+  },
+  "count": 13,
+  "items": [
+    {
+      "reference": "VEU-2607-0053",
+      "project": "VEU-2607-0053 - Raforkukaup fyrir Veitur",
+      "buyer": "Veitur ohf",
+      "notice_type": "$prjTenderProcessServices",
+      "deadline": "17.08.2026 kl. 14:00",
+      "deadline_local": "2026-08-17T14:00:00+00:00",
+      "deadline_utc": "2026-08-17T14:00:00+00:00",
+      "posted_at": null,
+      "modified_at": null,
+      "url": "https://in-tendhost.co.uk/reykjavikenergy/aspx/ProjectManage/697",
+      "summary": "Um er að ræða útboð á innkaupum á raforku til rekstrar veitukerfa kaupanda (innan og utan notkunarferils) auk kaupa á raforku til að mæta töpum í dreifiveitu rafmagns á veitusvæði kaupanda (nr. 200).",
+      "source": "or-intend"
+    },
+    {
+      "reference": "V26020",
+      "project": "Hjólaaðstaða - verðfyrirspurn",
+      "buyer": "Isavia",
+      "notice_type": "Works",
+      "deadline": "21.08.2026 kl. 13:00",
+      "deadline_local": "2026-08-21T13:00:00+00:00",
+      "deadline_utc": "2026-08-21T13:00:00+00:00",
+      "posted_at": null,
+      "modified_at": null,
+      "url": "https://utbod.isavia.is/aspx/ProjectManage/377",
+      "summary": "Isavia ohf. óskar eftir tilboðum í tilbúna gámalausn, um 200 fm að stærð, til að bæta aðstöðu fyrir hjólandi flugfarþega sem og aðstöðu fyrir hjól og rafskútur starfsfólks flugvallarins. Þetta er í takt við aukinn fjölda hjólandi farþega og starfsfólks, sem og sjálfbærnistefnu Isavia sem miðar að því að minnka kolefnisfótspor fyrirtækisins.",
+      "source": "isavia-intend"
+    },
+    {
+      "reference": "VEU-2608-0057",
+      "project": "VEU-2608-0057 Ölfusvegur - stofnlagnir",
+      "buyer": "Veitur ohf",
+      "notice_type": "$prjTenderProcessWorks",
+      "deadline": "28.08.2026 kl. 11:00",
+      "deadline_local": "2026-08-28T11:00:00+00:00",
+      "deadline_utc": "2026-08-28T11:00:00+00:00",
+      "posted_at": null,
+      "modified_at": null,
+      "url": "https://in-tendhost.co.uk/reykjavikenergy/aspx/ProjectManage/700",
+      "summary": "Verkkaupi óskar eftir tilboðum í Ölfusvegur - stofnlagnir í samræmi við útboðsgögn þessi.",
+      "source": "or-intend"
+    },
+    {
+      "reference": "VEU-2604-0038",
+      "project": "VEU-2604-0038 Hreinsun, myndanir og greining fráveitulagna",
+      "buyer": "Veitur ohf",
+      "notice_type": "$prjTenderProcessServices",
+      "deadline": "03.09.2026 kl. 14:00",
+      "deadline_local": "2026-09-03T14:00:00+00:00",
+      "deadline_utc": "2026-09-03T14:00:00+00:00",
+      "posted_at": "2026-06-14T22:00:00+00:00",
+      "modified_at": null,
+      "url": "https://in-tendhost.co.uk/reykjavikenergy/aspx/ProjectManage/692",
+      "summary": "Verkkaupi óskar eftir tilboðum í Hreinsun, myndanir og greining fráveitulagna í samræmi við útboðsgögn. Þjónustan felur í sér vinnu við verkefni í fráveitukerfi Kaupanda: • Fráveita (regnvatn og skólp) Þjónustan felur í sér, í heild eða að hluta, vinnu við eftirfarandi verkþætti: • Hreinsun fráveitulagna og brunna • Myndun fráveitulagna og brunna • Greiningu á ástandi fráveitulagna og brunna • Hreinsun í hreinsistöð…",
+      "source": "or-intend"
+    },
+    {
+      "reference": "U25032",
+      "project": "U25032 Keflavík Airport Unified Security Checkpoint Solution",
+      "buyer": "Isavia",
+      "notice_type": "Works",
+      "deadline": "21.09.2026 kl. 12:00",
+      "deadline_local": "2026-09-21T12:00:00+00:00",
+      "deadline_utc": "2026-09-21T12:00:00+00:00",
+      "posted_at": null,
+      "modified_at": null,
+      "url": "https://utbod.isavia.is/aspx/ProjectManage/380",
+      "summary": "Isavia ohf. is conducting a procurement on behalf of Isavia ohf. and its subsidiaries for a complete passenger security checkpoint solution at Keflavík Airport. The scope includes the supply, installation, integration, commissioning, testing, handover, maintenance and support of airport security screening equipment, related software, interfaces and IT infrastructure, including CT security scanners for cabin baggage…",
+      "source": "isavia-intend"
+    },
+    {
+      "reference": "ONGK-2022-01",
+      "project": "ONGK-2022-01 DC charging stations Dynamic purchasing system",
+      "buyer": "Orka Náttúrunnar ohf",
+      "notice_type": "$prjTenderProcessSupplies",
+      "deadline": "29.09.2026 kl. 14:00",
+      "deadline_local": "2026-09-29T14:00:00+00:00",
+      "deadline_utc": "2026-09-29T14:00:00+00:00",
+      "posted_at": "2022-08-23T22:00:00+00:00",
+      "modified_at": null,
+      "url": "https://in-tendhost.co.uk/reykjavikenergy/aspx/ProjectManage/387",
+      "summary": "With these DPS documents the Purchaser requests participants in a DPS for DC charging stations for EV electrical vehicle in accordance with these documents. Installation DC charging stations is not in the scope of this DPS. The Purchaser, for the purpose of establishing this DPS, has not defined any requirements for the DC charging stations or quantities that will be procured under the DPS. Terms and conditions of e…",
+      "source": "or-intend"
+    },
+    {
+      "reference": "U25033",
+      "project": "Air Traffic Management System Procurement",
+      "buyer": "Isavia ANS",
+      "notice_type": "Services",
+      "deadline": "19.10.2026 kl. 12:00",
+      "deadline_local": "2026-10-19T12:00:00+00:00",
+      "deadline_utc": "2026-10-19T12:00:00+00:00",
+      "posted_at": "2025-12-08T00:00:00+00:00",
+      "modified_at": null,
+      "url": "https://utbod.isavia.is/aspx/ProjectManage/347",
+      "summary": "Isavia ANS ehf. (the “Purchaser”) is a subsidiary of Isavia ohf. and is Iceland’s air navigation service provider. The Purchaser recognises the need to enhance its ATM and ANS through significant technological and strategic improvements to meet future traffic demands and to ensure it can continue its alignment with the NAT Vision and the ICAO’s Global Air Traffic Management Operational Concept. The Purchaser is seek…",
+      "source": "isavia-intend"
+    },
+    {
+      "reference": "VEGK-2024-01",
+      "project": "VEGK-2024-01 Veitulagnir, jarðvinna og yfirborðsfrágangur",
+      "buyer": "Veitur ohf",
+      "notice_type": "$prjTenderProcessWorks",
+      "deadline": "08.04.2028 kl. 14:00",
+      "deadline_local": "2028-04-08T14:00:00+00:00",
+      "deadline_utc": "2028-04-08T14:00:00+00:00",
+      "posted_at": "2024-03-03T23:00:00+00:00",
+      "modified_at": null,
+      "url": "https://in-tendhost.co.uk/reykjavikenergy/aspx/ProjectManage/493",
+      "summary": "Veitur óska eftir þátttakendum í GIK fyrir Veitulagnir, jarðvinnu og yfirborðsfrágang í samræmi við þessi skjöl. Undir gagnvirka innkaupakerfinu falla verkefni sem innifela í sér að hluta eða öllu leyti vinnu við eftirfarandi verkþætti fyrir verkefni verkkaupa á öllum veitusvæðum verkkaupa, hvort sem um er að ræða verkefni sem verkkaupi stendur einn að eða í samstarfi við aðra verkkaupa. 1. Öryggisráðstafanir og vin…",
+      "source": "or-intend"
+    },
+    {
+      "reference": "U22016",
+      "project": "Gagnvirkt innkaupakerfi - Ökutæki (DPS Vehicles )",
+      "buyer": "Isavia",
+      "notice_type": "Supplies",
+      "deadline": "30.01.2030 kl. 23:59",
+      "deadline_local": "2030-01-30T23:59:00+00:00",
+      "deadline_utc": "2030-01-30T23:59:00+00:00",
+      "posted_at": null,
+      "modified_at": null,
+      "url": "https://utbod.isavia.is/aspx/ProjectManage/209",
+      "summary": "Isavia ásamt dótturfélögum óskar eftir aðilum til þátttöku í gagnvirku innkaupakerfi vegna kaupa á nýjum ökutækjum. Gagnvirkt innkaupakerfi er tiltekið fyrirkomulag þar sem stuðst er við rafrænar aðferðir við innkaup sem eru framkvæmd með lokuðum útboðum. Bjóðendur sem fullnægt hafa vissum hæfisskilyrðum eiga rétt á aðild að gagnvirku innkaupkerfi.",
+      "source": "isavia-intend"
+    },
+    {
+      "reference": "U23036",
+      "project": "Gagnvirkt innkaupakerfi LED skjáir (DPS LED Screen solutions)",
+      "buyer": "Isavia",
+      "notice_type": "Supplies",
+      "deadline": "30.01.2030 kl. 23:59",
+      "deadline_local": "2030-01-30T23:59:00+00:00",
+      "deadline_utc": "2030-01-30T23:59:00+00:00",
+      "posted_at": "2023-07-27T23:00:00+00:00",
+      "modified_at": null,
+      "url": "https://utbod.isavia.is/aspx/ProjectManage/253",
+      "summary": "Isavia ohf. ásamt dótturfélögum óskar eftir aðilum til þátttöku í gagnvirku innkaupakerfi vegna kaupa á LED skjálausnum. Gagnvirkt innkaupakerfi er tiltekið fyrirkomulag þar sem óskað er eftir tilboðum í LED skjálausnir, með rafrænum hætti á grundvelli þessara útboðsskilmála og kröfum þeim sem fram koma í lokuðu útboði hverju sinni. Fyrirkomulagið er virkt í þeim skilningi að á meðan gagnvirka innkaupakerfið er í gi…",
+      "source": "isavia-intend"
+    },
+    {
+      "reference": "ORGK-2025-01",
+      "project": "ORGK-2025-01 Laus húsgögn fyrir höfuðstöðvar Orkuveitunnar",
+      "buyer": "Orkuveita Reykjavíkur sef",
+      "notice_type": "$prjTenderProcessSupplies",
+      "deadline": "17.04.2031 kl. 14:00",
+      "deadline_local": "2031-04-17T14:00:00+00:00",
+      "deadline_utc": "2031-04-17T14:00:00+00:00",
+      "posted_at": "2025-03-13T23:00:00+00:00",
+      "modified_at": null,
+      "url": "https://in-tendhost.co.uk/reykjavikenergy/aspx/ProjectManage/580",
+      "summary": "Kaupandi óskar eftir þátttakendum í gagnvirkt innkaupakerfi (GIK) fyrir laus húsgögn fyrir höfuðstöðvar Orkuveitunnar í samræmi við útboðsgögn. Umsóknir opnast í útboðskerfi kaupanda um leið og þær berast og verða þær yfirfarnar af kaupanda eins fljótt og auðið er eftir afhendingu frá umsækjanda. Umsækjendur eru hvattir til að senda inn umsóknir eins fljótt og auðið er eftir birtingu útboðstilkynningar til að tryggj…",
+      "source": "or-intend"
+    },
+    {
+      "reference": "U24020",
+      "project": "DPS for Runway De-Icing Chemicals",
+      "buyer": "Isavia",
+      "notice_type": "Supplies",
+      "deadline": "31.12.2039 kl. 23:59",
+      "deadline_local": "2039-12-31T23:59:00+00:00",
+      "deadline_utc": "2039-12-31T23:59:00+00:00",
+      "posted_at": "2024-07-04T23:00:00+00:00",
+      "modified_at": null,
+      "url": "https://utbod.isavia.is/aspx/ProjectManage/296",
+      "summary": "The Purchaser intends to establish a Dynamic Purchasing System (“DPS”) of qualified suppliers for the supply of runway de-icing chemicals, both solid and liquid. An example of technical requirements for the materials can be found in chapter 5. Interested suppliers are invited to send a request to participate in the system. While the DPS is in effect, it is open to all suppliers that meet the conditions for participa…",
+      "source": "isavia-intend"
+    },
+    {
+      "reference": "U25031",
+      "project": "DPS- Airfield paint; Runways, Taxiways and Aprons, and retro reflective beads",
+      "buyer": "Isavia",
+      "notice_type": "Supplies",
+      "deadline": "31.01.2040 kl. 23:59",
+      "deadline_local": "2040-01-31T23:59:00+00:00",
+      "deadline_utc": "2040-01-31T23:59:00+00:00",
+      "posted_at": "2025-12-23T00:00:00+00:00",
+      "modified_at": null,
+      "url": "https://utbod.isavia.is/aspx/ProjectManage/351",
+      "summary": "Isavia ohf., reg. no. 550210-0370 and Isavia Innanlandsflugvellir ehf., reg. no. 591219-1380 (“Purchaser” or “Isavia”) is a state-owned limited company. Isavia, along with its subsidiaries, operates and maintains all airports in Iceland, and it also operates air traffic control in the Icelandic aviation area. The Purchaser intends to establish a Dynamic Purchasing System (“DPS”) of qualified suppliers for the supply…",
+      "source": "isavia-intend"
+    }
+  ]
+}
