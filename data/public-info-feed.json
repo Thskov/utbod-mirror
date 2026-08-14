@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated": "2026-08-14T17:13:35Z",
+  "generated": "2026-08-14T18:37:20Z",
   "window": {
     "from": "2026-08-07",
     "to": "2026-08-14"
@@ -24,6 +24,12 @@
       "matsáætlun",
       "umhverfismat"
     ],
+    "eia_supplements": [
+      {
+        "source": "ust-eia-opinions",
+        "url": "https://ust.is/atvinnulif/umsagnir/mat-a-umhverfisahrifum/"
+      }
+    ],
     "court_keywords": [
       "útboð",
       "verksamningur",
@@ -40,6 +46,11 @@
       "https://www.veitur.is/frettir",
       "https://www.orkuveitan.is/um-or/frettir/",
       "https://ust.is/umhverfisstofnun/frettir/",
+      "https://www.kefairport.is/frettir",
+      "https://www.kadeco.is/frettir",
+      "https://www.kadeco.is/throunarreitir",
+      "https://www.kadeco.is/throunaraaetlun",
+      "https://www.carbfix.com/news",
       "https://reykjavik.is/frettir",
       "https://www.kopavogur.is/is/frettir-tilkynningar",
       "https://www.hafnarfjordur.is/stjornsysla/frettir/",
@@ -51,7 +62,6 @@
     ],
     "announcement_not_covered": {
       "fsre": "configured news URL returned HTTP 404 from this host",
-      "isavia": "configured news URL returned HTTP 404 from this host",
       "skipulagsstofnun": "configured news URL returned HTTP 404 from this host",
       "gardabaer": "configured news URL returned HTTP 404 from this host",
       "mosfellsbaer": "configured news URL returned HTTP 404 from this host",
@@ -87,7 +97,6 @@
     "not_covered": {
       "announcements": {
         "fsre": "configured news URL returned HTTP 404 from this host",
-        "isavia": "configured news URL returned HTTP 404 from this host",
         "skipulagsstofnun": "configured news URL returned HTTP 404 from this host",
         "gardabaer": "configured news URL returned HTTP 404 from this host",
         "mosfellsbaer": "configured news URL returned HTTP 404 from this host",
@@ -98,10 +107,215 @@
         "hms": "hms.is returned HTTP 429 from this host"
       },
       "planning_supplement": {
-        "municipal_committee_minutes": "not implemented in this pass; Skipulagsgátt remains the planning backbone",
-        "ust_eia_registry": "not implemented in this pass; Umhverfisstofnun news page is covered as announcements"
+        "municipal_committee_minutes": "not implemented in this pass; Skipulagsgátt remains the planning backbone"
       }
-    }
+    },
+    "source_candidates": [
+      {
+        "id": "eia:borgarbyggð",
+        "name": "Borgarbyggð",
+        "suggested_feed": "public-info-feed",
+        "suggested_lane": "eia",
+        "evidence_url": "https://skipulagsgatt.is/issues/4794",
+        "seen_count": 1,
+        "first_seen": "2026-08-14T18:31:05Z",
+        "last_seen": "2026-08-14T18:37:20Z",
+        "reason": "unknown entity found in generated public-info items",
+        "status": "pending"
+      },
+      {
+        "id": "eia:dalabyggð",
+        "name": "Dalabyggð",
+        "suggested_feed": "public-info-feed",
+        "suggested_lane": "eia",
+        "evidence_url": "https://skipulagsgatt.is/issues/3573",
+        "seen_count": 1,
+        "first_seen": "2026-08-14T18:31:05Z",
+        "last_seen": "2026-08-14T18:37:20Z",
+        "reason": "unknown entity found in generated public-info items",
+        "status": "pending"
+      },
+      {
+        "id": "legislation:fjármála-og-efnahagsráðuneyti",
+        "name": "Fjármála- og efnahagsráðuneyti",
+        "suggested_feed": "public-info-feed",
+        "suggested_lane": "legislation",
+        "evidence_url": "https://island.is/reglugerdir/nr/0495-2026",
+        "seen_count": 1,
+        "first_seen": "2026-08-14T18:31:05Z",
+        "last_seen": "2026-08-14T18:37:20Z",
+        "reason": "unknown entity found in generated public-info items",
+        "status": "pending"
+      },
+      {
+        "id": "legislation:fjármála-og-efnahagsráðuneytið",
+        "name": "Fjármála- og efnahagsráðuneytið",
+        "suggested_feed": "public-info-feed",
+        "suggested_lane": "legislation",
+        "evidence_url": "https://island.is/samradsgatt/mal/4266",
+        "seen_count": 1,
+        "first_seen": "2026-08-14T18:31:05Z",
+        "last_seen": "2026-08-14T18:37:20Z",
+        "reason": "unknown entity found in generated public-info items",
+        "status": "pending"
+      },
+      {
+        "id": "legislation:félags-og-húsnæðismálaráðuneyti",
+        "name": "Félags- og húsnæðismálaráðuneyti",
+        "suggested_feed": "public-info-feed",
+        "suggested_lane": "legislation",
+        "evidence_url": "https://island.is/reglugerdir/nr/0011-2026",
+        "seen_count": 1,
+        "first_seen": "2026-08-14T18:31:05Z",
+        "last_seen": "2026-08-14T18:37:20Z",
+        "reason": "unknown entity found in generated public-info items",
+        "status": "pending"
+      },
+      {
+        "id": "legislation:félags-og-húsnæðismálaráðuneytið",
+        "name": "Félags- og húsnæðismálaráðuneytið",
+        "suggested_feed": "public-info-feed",
+        "suggested_lane": "legislation",
+        "evidence_url": "https://island.is/samradsgatt/mal/4296",
+        "seen_count": 3,
+        "first_seen": "2026-08-14T18:31:05Z",
+        "last_seen": "2026-08-14T18:37:20Z",
+        "reason": "repeated unknown entity found in generated public-info items",
+        "status": "pending"
+      },
+      {
+        "id": "eia:hveragerðisbær",
+        "name": "Hveragerðisbær",
+        "suggested_feed": "public-info-feed",
+        "suggested_lane": "eia",
+        "evidence_url": "https://skipulagsgatt.is/issues/4974",
+        "seen_count": 1,
+        "first_seen": "2026-08-14T18:31:05Z",
+        "last_seen": "2026-08-14T18:37:20Z",
+        "reason": "unknown entity found in generated public-info items",
+        "status": "pending"
+      },
+      {
+        "id": "court:héraðsdómur-reykjaness",
+        "name": "Héraðsdómur Reykjaness",
+        "suggested_feed": "public-info-feed",
+        "suggested_lane": "court",
+        "evidence_url": "https://island.is/domar/g-1c59c916-3453-477d-ac68-db4ecc9f7a96",
+        "seen_count": 4,
+        "first_seen": "2026-08-14T18:31:05Z",
+        "last_seen": "2026-08-14T18:37:20Z",
+        "reason": "repeated unknown entity found in generated public-info items",
+        "status": "pending"
+      },
+      {
+        "id": "court:héraðsdómur-reykjavíkur",
+        "name": "Héraðsdómur Reykjavíkur",
+        "suggested_feed": "public-info-feed",
+        "suggested_lane": "court",
+        "evidence_url": "https://island.is/domar/g-d6b28d46-234f-4d1c-8b7e-27266aa8ef35",
+        "seen_count": 8,
+        "first_seen": "2026-08-14T18:31:05Z",
+        "last_seen": "2026-08-14T18:37:20Z",
+        "reason": "repeated unknown entity found in generated public-info items",
+        "status": "pending"
+      },
+      {
+        "id": "court:héraðsdómur-vesturlands",
+        "name": "Héraðsdómur Vesturlands",
+        "suggested_feed": "public-info-feed",
+        "suggested_lane": "court",
+        "evidence_url": "https://island.is/domar/g-c97113b5-4d0c-49c0-828a-6205c6a62761",
+        "seen_count": 2,
+        "first_seen": "2026-08-14T18:31:05Z",
+        "last_seen": "2026-08-14T18:37:20Z",
+        "reason": "repeated unknown entity found in generated public-info items",
+        "status": "pending"
+      },
+      {
+        "id": "eia:norðurþing",
+        "name": "Norðurþing",
+        "suggested_feed": "public-info-feed",
+        "suggested_lane": "eia",
+        "evidence_url": "https://skipulagsgatt.is/issues/5256",
+        "seen_count": 1,
+        "first_seen": "2026-08-14T18:31:05Z",
+        "last_seen": "2026-08-14T18:37:20Z",
+        "reason": "unknown entity found in generated public-info items",
+        "status": "pending"
+      },
+      {
+        "id": "eia:rangárþing-ytra",
+        "name": "Rangárþing ytra",
+        "suggested_feed": "public-info-feed",
+        "suggested_lane": "eia",
+        "evidence_url": "https://skipulagsgatt.is/issues/5238",
+        "seen_count": 1,
+        "first_seen": "2026-08-14T18:31:05Z",
+        "last_seen": "2026-08-14T18:37:20Z",
+        "reason": "unknown entity found in generated public-info items",
+        "status": "pending"
+      },
+      {
+        "id": "eia:reykhólahreppur-árneshreppur-strandabyggð",
+        "name": "Reykhólahreppur, Árneshreppur, Strandabyggð",
+        "suggested_feed": "public-info-feed",
+        "suggested_lane": "eia",
+        "evidence_url": "https://skipulagsgatt.is/issues/5106",
+        "seen_count": 1,
+        "first_seen": "2026-08-14T18:31:05Z",
+        "last_seen": "2026-08-14T18:37:20Z",
+        "reason": "unknown entity found in generated public-info items",
+        "status": "pending"
+      },
+      {
+        "id": "eia:skeiða-og-gnúpverjahreppur",
+        "name": "Skeiða- og Gnúpverjahreppur",
+        "suggested_feed": "public-info-feed",
+        "suggested_lane": "eia",
+        "evidence_url": "https://skipulagsgatt.is/issues/5101",
+        "seen_count": 1,
+        "first_seen": "2026-08-14T18:31:05Z",
+        "last_seen": "2026-08-14T18:37:20Z",
+        "reason": "unknown entity found in generated public-info items",
+        "status": "pending"
+      },
+      {
+        "id": "legislation:umhverfis-orku-og-loftslagsráðuneytið",
+        "name": "Umhverfis-, orku- og loftslagsráðuneytið",
+        "suggested_feed": "public-info-feed",
+        "suggested_lane": "legislation",
+        "evidence_url": "https://island.is/samradsgatt/mal/4283",
+        "seen_count": 5,
+        "first_seen": "2026-08-14T18:31:05Z",
+        "last_seen": "2026-08-14T18:37:20Z",
+        "reason": "repeated unknown entity found in generated public-info items",
+        "status": "pending"
+      },
+      {
+        "id": "eia:vestmannaeyjabær",
+        "name": "Vestmannaeyjabær",
+        "suggested_feed": "public-info-feed",
+        "suggested_lane": "eia",
+        "evidence_url": "https://skipulagsgatt.is/issues/5276",
+        "seen_count": 3,
+        "first_seen": "2026-08-14T18:31:05Z",
+        "last_seen": "2026-08-14T18:37:20Z",
+        "reason": "repeated unknown entity found in generated public-info items",
+        "status": "pending"
+      },
+      {
+        "id": "eia:ísafjarðarbær",
+        "name": "Ísafjarðarbær",
+        "suggested_feed": "public-info-feed",
+        "suggested_lane": "eia",
+        "evidence_url": "https://skipulagsgatt.is/issues/4942",
+        "seen_count": 1,
+        "first_seen": "2026-08-14T18:31:05Z",
+        "last_seen": "2026-08-14T18:37:20Z",
+        "reason": "unknown entity found in generated public-info items",
+        "status": "pending"
+      }
+    ]
   },
   "count": 334,
   "items": [
