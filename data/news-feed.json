@@ -1,0 +1,230 @@
+{
+  "schema_version": 1,
+  "generated": "2026-08-14T17:12:58Z",
+  "window": {
+    "from": "2026-07-15",
+    "to": "2026-08-14"
+  },
+  "coverage": {
+    "sources": [
+      {
+        "source": "byggingar",
+        "outlet": "byggingar.is",
+        "url": "https://byggingar.is/frettir/"
+      },
+      {
+        "source": "si",
+        "outlet": "si.is",
+        "url": "https://www.si.is/frettir/"
+      },
+      {
+        "source": "vb",
+        "outlet": "vb.is",
+        "url": "https://www.vb.is/frettir/"
+      },
+      {
+        "source": "mbl",
+        "outlet": "mbl.is",
+        "url": "https://www.mbl.is/frettir/"
+      },
+      {
+        "source": "visir",
+        "outlet": "visir.is",
+        "url": "https://www.visir.is/"
+      },
+      {
+        "source": "ruv",
+        "outlet": "ruv.is",
+        "url": "https://www.ruv.is/frettir"
+      },
+      {
+        "source": "heimildin",
+        "outlet": "heimildin.is",
+        "url": "https://heimildin.is/frettir/"
+      },
+      {
+        "source": "istak",
+        "outlet": "ÍSTAK",
+        "url": "https://www.istak.is/frettir"
+      },
+      {
+        "source": "landsvirkjun",
+        "outlet": "Landsvirkjun",
+        "url": "https://www.landsvirkjun.is/frettir"
+      },
+      {
+        "source": "vegagerdin",
+        "outlet": "Vegagerðin",
+        "url": "https://www.vegagerdin.is/upplysingar-og-utgafa/frettir/"
+      },
+      {
+        "source": "reykjavik",
+        "outlet": "Reykjavíkurborg",
+        "url": "https://reykjavik.is/frettir"
+      },
+      {
+        "source": "isavia",
+        "outlet": "Isavia",
+        "url": "https://www.isavia.is/"
+      },
+      {
+        "source": "fsre",
+        "outlet": "FSRE",
+        "url": "https://www.fsre.is/"
+      },
+      {
+        "source": "nlsh",
+        "outlet": "Nýr Landspítali",
+        "url": "https://www.nlsh.is/"
+      },
+      {
+        "source": "veitur",
+        "outlet": "Veitur",
+        "url": "https://www.veitur.is/frettir"
+      },
+      {
+        "source": "orkuveitan",
+        "outlet": "Orkuveitan",
+        "url": "https://www.orkuveitan.is/um-or/frettir/"
+      }
+    ],
+    "topics": {
+      "competitors": [
+        "íav",
+        "iav",
+        "lns saga",
+        "munck",
+        "eykt",
+        "jáverk",
+        "javerk",
+        "loftorka",
+        "þingvangur",
+        "colas",
+        "borgarverk"
+      ],
+      "projects": [
+        "hvammsvirkjun",
+        "landspítal",
+        "borgarlína",
+        "vegagerð",
+        "fangels",
+        "höfn",
+        "hafnar",
+        "veitur",
+        "orkuveita",
+        "landsvirkjun",
+        "isavia",
+        "fsre"
+      ],
+      "industrial_demand": [
+        "first water",
+        "samherji fiskeldi",
+        "arnarlax",
+        "kaldvík",
+        "ice fish farm",
+        "arctic fish",
+        "verne",
+        "borealis",
+        "atnorth",
+        "norðurál",
+        "rio tinto",
+        "isal",
+        "alcoa",
+        "fjarðaál",
+        "pcc bakki",
+        "elkem",
+        "vetni",
+        "hydrogen",
+        "rafeldsneyti",
+        "carbfix",
+        "coda",
+        "gagnaver"
+      ],
+      "general": [
+        "ístak",
+        "samning",
+        "samið við",
+        "verksamning",
+        "útboð",
+        "framkvæmd",
+        "bygging",
+        "mannvirki",
+        "skipulag",
+        "orku",
+        "virkjun",
+        "fjárfesting",
+        "uppbygging",
+        "hafnar",
+        "innviðir"
+      ]
+    }
+  },
+  "sources": {
+    "not_covered": {
+      "nlsh": "HTTP Error 429: Too Many Requests"
+    }
+  },
+  "count": 5,
+  "items": [
+    {
+      "id": "news:reykjavik:menningarnott-2026-naesta-leiti",
+      "lane": "news",
+      "category": "project",
+      "title": "Menningarnótt 2026 á næsta leiti",
+      "entity": "Reykjavíkurborg",
+      "date": "2026-08-14",
+      "summary": "1920w, /sites/default/files/styles/landscape_4k/public/2026-08/25082306_menntonlist_137_copy_small_0.jpg?h=34e43602&itok=3dhz6cMt 3840w\" data-sizes=\"auto\" /> 14. ágúst 2026 Menningarnótt 2026 á næsta leiti <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2026-08/24042402_honnunar_355_small.jpg?h=34e...",
+      "url": "https://reykjavik.is/frettir/2026/menningarnott-2026-naesta-leiti",
+      "outlet": "Reykjavíkurborg",
+      "is_new": true
+    },
+    {
+      "id": "news:byggingar:vigdu-nytt-hjukrunarheimili-a-hofn",
+      "lane": "news",
+      "category": "project",
+      "title": "Vígðu nýtt hjúkrunarheimili á Höfn",
+      "entity": "byggingar.is",
+      "date": "2026-08-14",
+      "summary": "l=\"https://byggingar.is/wp-content/uploads/2026/08/14.08.2026-Vigdu-nytt-hjukrunarheimili-a-Hofn-238x178.jpg\" width=\"238\" height=\"178\" /> Vígðu nýtt hjúkrunarheimili á Höfn <i class=\"td-next-prev-icon td-i",
+      "url": "https://byggingar.is/vigdu-nytt-hjukrunarheimili-a-hofn/",
+      "outlet": "byggingar.is",
+      "is_new": true
+    },
+    {
+      "id": "news:byggingar:hafnarfjardarbaer-tekur-hatt-lan-lodasala-gengid-illa",
+      "lane": "news",
+      "category": "project",
+      "title": "Hafnarfjarðarbær tekur hátt lán – Lóðasala gengið illa",
+      "entity": "byggingar.is",
+      "date": "2026-08-14",
+      "summary": ".is/wp-content/uploads/2026/08/14.08.2026-Hafnarfjardarbaer-tekur-hatt-lan-Lodasala-gengid-illa-238x178.webp\" width=\"238\" height=\"178\" /> Hafnarfjarðarbær tekur hátt lán – Lóðasala gengið illa <img class=\"entry-thum",
+      "url": "https://byggingar.is/hafnarfjardarbaer-tekur-hatt-lan-lodasala-gengid-illa/",
+      "outlet": "byggingar.is",
+      "is_new": true
+    },
+    {
+      "id": "news:byggingar:bidur-haestarett-um-graent-ljos-a-veislusalinn",
+      "lane": "news",
+      "category": "project",
+      "title": "Biður hæsta­rétt um grænt ljós á veislu­salinn",
+      "entity": "byggingar.is",
+      "date": "2026-08-14",
+      "summary": "gingar.is/wp-content/uploads/2026/08/14.08.2026-Bidur-haestarett-um-graent-ljos-a-veislusalinn-a-238x178.jpg\" width=\"238\" height=\"178\" /> Biður hæsta­rétt um grænt ljós á veislu­salinn <a href=\"https://byggingar.is/hafnarfjardarbaer-tekur-hatt-lan-lodasala-gengid-illa/\" rel=\"bookmark\" class=\"td-image-wrap \" title=\"Hafnarfjarðarbær tekur hátt lán –",
+      "url": "https://byggingar.is/bidur-haestarett-um-graent-ljos-a-veislusalinn/",
+      "outlet": "byggingar.is",
+      "is_new": true
+    },
+    {
+      "id": "news:reykjavik:gotumarkadur-i-listasafni-reykjavikur-hafnarhusi",
+      "lane": "news",
+      "category": "project",
+      "title": "Götumarkaður í Listasafni Reykjavíkur Hafnarhúsi",
+      "entity": "Reykjavíkurborg",
+      "date": "2026-08-13",
+      "summary": "k=Q7asxZ-u 1920w, /sites/default/files/styles/landscape_4k/public/2026-08/24042402_honnunar_355_small.jpg?h=34e43602&itok=5jXndf3i 3840w\" data-sizes=\"auto\" /> 13. ágúst 2026 Götumarkaður í Listasafni Reykjavíkur Hafnarhúsi <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2026-08/helga_lara_haarde.jp...",
+      "url": "https://reykjavik.is/frettir/2026/gotumarkadur-i-listasafni-reykjavikur-hafnarhusi",
+      "outlet": "Reykjavíkurborg",
+      "is_new": true
+    }
+  ]
+}
