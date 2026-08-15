@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated": "2026-08-15T08:41:58Z",
-  "generated_at": "2026-08-15T08:41:58Z",
+  "generated": "2026-08-15T08:57:12Z",
+  "generated_at": "2026-08-15T08:57:12Z",
   "sources": {
     "covered": [
       {
@@ -64,6 +64,45 @@
         "reason": "no plain public tender endpoint identified in this pass"
       }
     ],
+    "buyer_register": [
+      "betri samgöngur ohf",
+      "fjársýslan",
+      "framkvæmdasýslan ríkiseignir fsre",
+      "garðabær",
+      "isavia",
+      "isavia ans",
+      "landsnet hf",
+      "landspítali",
+      "landsvirkjun",
+      "mosfellsbær",
+      "nýr landspítali nlsh ohf",
+      "orka náttúrunnar on",
+      "orkubú vestfjarða ohf",
+      "orkuveita reykjavíkur",
+      "reykjavíkurborg",
+      "sveitarfélagið hornafjörður",
+      "ted iceland buyer",
+      "vegagerðin",
+      "veitur ohf"
+    ],
+    "buyer_aliases": {
+      "framkvæmdasýslan ríkiseignir": "Framkvæmdasýslan ríkiseignir (FSRE)",
+      "framkvæmdasýslan ríkiseignir fsre": "Framkvæmdasýslan ríkiseignir (FSRE)",
+      "fsre framkvæmdasýslan ríkiseignir": "Framkvæmdasýslan ríkiseignir (FSRE)",
+      "landsnet": "Landsnet hf.",
+      "landsnet hf": "Landsnet hf.",
+      "nlsh ohf": "Nýr Landspítali (NLSH ohf.)",
+      "nýr landspítali": "Nýr Landspítali (NLSH ohf.)",
+      "nýr landspítali nlsh ohf": "Nýr Landspítali (NLSH ohf.)",
+      "orka náttúrunnar ohf": "Orka náttúrunnar (ON)",
+      "orka náttúrunnar on": "Orka náttúrunnar (ON)",
+      "orkuveita reykjavíkur sef": "Orkuveita Reykjavíkur",
+      "orkuveita reykjavíkur": "Orkuveita Reykjavíkur",
+      "reykjavík energy veitur": "Orkuveita Reykjavíkur",
+      "reykjavik energy veitur": "Orkuveita Reykjavíkur",
+      "veitur": "Veitur ohf.",
+      "veitur ohf": "Veitur ohf."
+    },
     "source_candidates": []
   },
   "count": 21,
@@ -85,7 +124,7 @@
     {
       "reference": "VEU-2607-0053",
       "project": "VEU-2607-0053 - Raforkukaup fyrir Veitur",
-      "buyer": "Veitur ohf",
+      "buyer": "Veitur ohf.",
       "notice_type": "$prjTenderProcessServices",
       "deadline": "17.08.2026 kl. 14:00",
       "deadline_local": "2026-08-17T14:00:00+00:00",
@@ -99,7 +138,7 @@
     {
       "reference": "432104-2026",
       "project": "Stora-Hraun Security prison - Earthworks",
-      "buyer": "Framkvæmdasýslan - Ríkiseignir",
+      "buyer": "Framkvæmdasýslan ríkiseignir (FSRE)",
       "notice_type": "cn-standard",
       "deadline": "20.08.2026 kl. 12:00",
       "deadline_local": "2026-08-20T12:00:58+00:00",
@@ -141,7 +180,7 @@
     {
       "reference": "VEU-2608-0057",
       "project": "VEU-2608-0057 Ölfusvegur - stofnlagnir",
-      "buyer": "Veitur ohf",
+      "buyer": "Veitur ohf.",
       "notice_type": "$prjTenderProcessWorks",
       "deadline": "28.08.2026 kl. 11:00",
       "deadline_local": "2026-08-28T11:00:00+00:00",
@@ -169,7 +208,7 @@
     {
       "reference": "VEU-2604-0038",
       "project": "VEU-2604-0038 Hreinsun, myndanir og greining fráveitulagna",
-      "buyer": "Veitur ohf",
+      "buyer": "Veitur ohf.",
       "notice_type": "$prjTenderProcessServices",
       "deadline": "03.09.2026 kl. 14:00",
       "deadline_local": "2026-09-03T14:00:00+00:00",
@@ -197,7 +236,7 @@
     {
       "reference": "482652-2026",
       "project": "Laboratory building - Interior Finish",
-      "buyer": "NLSH ohf.",
+      "buyer": "Nýr Landspítali (NLSH ohf.)",
       "notice_type": "cn-standard",
       "deadline": "10.09.2026 kl. 13:00",
       "deadline_local": "2026-09-10T13:00:58+00:00",
@@ -239,7 +278,7 @@
     {
       "reference": "ONGK-2022-01",
       "project": "ONGK-2022-01 DC charging stations Dynamic purchasing system",
-      "buyer": "Orka Náttúrunnar ohf",
+      "buyer": "Orka náttúrunnar (ON)",
       "notice_type": "$prjTenderProcessSupplies",
       "deadline": "29.09.2026 kl. 14:00",
       "deadline_local": "2026-09-29T14:00:00+00:00",
@@ -267,7 +306,7 @@
     {
       "reference": "485396-2026",
       "project": "Nýtt hjúkrunarheimili í Mosfellsbæ - leiguleið",
-      "buyer": "Framkvæmdasýslan - Ríkiseignir",
+      "buyer": "Framkvæmdasýslan ríkiseignir (FSRE)",
       "notice_type": "cn-standard",
       "deadline": "09.11.2026 kl. 12:00",
       "deadline_local": "2026-11-09T12:00:58+00:00",
@@ -281,7 +320,7 @@
     {
       "reference": "VEGK-2024-01",
       "project": "VEGK-2024-01 Veitulagnir, jarðvinna og yfirborðsfrágangur",
-      "buyer": "Veitur ohf",
+      "buyer": "Veitur ohf.",
       "notice_type": "$prjTenderProcessWorks",
       "deadline": "08.04.2028 kl. 14:00",
       "deadline_local": "2028-04-08T14:00:00+00:00",
@@ -323,7 +362,7 @@
     {
       "reference": "ORGK-2025-01",
       "project": "ORGK-2025-01 Laus húsgögn fyrir höfuðstöðvar Orkuveitunnar",
-      "buyer": "Orkuveita Reykjavíkur sef",
+      "buyer": "Orkuveita Reykjavíkur",
       "notice_type": "$prjTenderProcessSupplies",
       "deadline": "17.04.2031 kl. 14:00",
       "deadline_local": "2031-04-17T14:00:00+00:00",
