@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated": "2026-08-15T08:40:22Z",
+  "generated": "2026-08-15T08:54:34Z",
   "window": {
     "from": "2026-08-08",
     "to": "2026-08-15"
@@ -46,6 +46,11 @@
       "verksamningur",
       "skipulag"
     ],
+    "court_entities": [
+      "Héraðsdómur Reykjaness",
+      "Héraðsdómur Reykjavíkur",
+      "Héraðsdómur Vesturlands"
+    ],
     "court_year": 2026,
     "kaerunefnd_year": 2026,
     "announcement_sources": [
@@ -83,6 +88,11 @@
         "samradsgatt",
         "reglugerd",
         "byggingarreglugerd"
+      ],
+      "entities": [
+        "Fjármála- og efnahagsráðuneytið",
+        "Félags- og húsnæðismálaráðuneytið",
+        "Umhverfis-, orku- og loftslagsráðuneytið"
       ],
       "not_covered": {
         "althingi": "althingi.is returned HTTP 403 from this host for XML and normal HTML endpoints",
