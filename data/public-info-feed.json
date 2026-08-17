@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated": "2026-08-17T06:45:01Z",
+  "generated": "2026-08-17T08:15:13Z",
   "window": {
     "from": "2026-08-10",
     "to": "2026-08-17"
@@ -39,6 +39,10 @@
       {
         "source": "ust-eia-opinions",
         "url": "https://ust.is/atvinnulif/umsagnir/mat-a-umhverfisahrifum/"
+      },
+      {
+        "source": "skipulag-hms-eia",
+        "url": "https://skipulag.is/umhverfismat-framkvaemda/framkvaemdir-hadar-mati"
       }
     ],
     "court_keywords": [
@@ -64,8 +68,6 @@
       "https://ust.is/umhverfisstofnun/frettir/",
       "https://www.kefairport.is/frettir",
       "https://www.kadeco.is/frettir",
-      "https://www.kadeco.is/throunarreitir",
-      "https://www.kadeco.is/throunaraaetlun",
       "https://www.carbfix.com/news",
       "https://reykjavik.is/frettir",
       "https://www.kopavogur.is/is/frettir-tilkynningar",
@@ -74,14 +76,44 @@
       "https://www.sudurnesjabaer.is/is/moya/news",
       "https://www.akureyri.is/is/frettir",
       "https://www.olfus.is/is/frettir",
-      "https://www.vogar.is/is/moya/news"
+      "https://www.vogar.is/is/moya/news",
+      "https://betrisamgongur.is/frettir/",
+      "https://hms.is/frettir",
+      "https://www.fsre.is/s/fsre/frett",
+      "https://www.gardabaer.is/frettir",
+      "https://mos.is/mannlif/um-mosfellsbae/frettir/",
+      "https://www.arborg.is/frettasafn/",
+      "https://www.landsnet.is/frettir",
+      "https://orkustofnun.is/upplysingar/frettir",
+      "https://www.ramma.is/frettasafn/",
+      "https://www.fjardabyggdarhafnir.is/is/fyrirtaekid/frettir",
+      "https://byggingar.is/category/opnun-utboda/",
+      "https://vb.is",
+      "https://fiskifrettir.vb.is/",
+      "https://www.hsorka.is/um-okkur/frettir/",
+      "https://www.verne.co/news",
+      "https://www.atnorth.com/category/news/",
+      "https://www.borealisdc.com/news",
+      "https://www.alvotech.com/newsroom",
+      "https://skipulag.is/umhverfismat-framkvaemda/framkvaemdir-hadar-mati",
+      "https://www.kadeco.is/throunarreitir",
+      "https://www.kadeco.is/throunaraaetlun",
+      "https://betrisamgongur.is/verksja-samgongusattmalans/",
+      "https://hagstofa.is/talnaefni/efnahagur/verdlag/byggingarvisitala/",
+      "https://www.ramma.is/rammaaaetlun/allir-virkjunarkostir",
+      "https://www.ramma.is/rammaaaetlun/5.-afangi",
+      "https://www.byggingarreglugerd.is/",
+      "https://www.landsvirkjun.is/sigalda",
+      "https://www.landsvirkjun.is/hvammsvirkjun/framkvaemdirhvm",
+      "https://www.hsorka.is/audlindagardurinn/",
+      "https://www.reykjaneshofn.is/hafnaradstada",
+      "https://www.fjardabyggdarhafnir.is/is/fjardabyggdarhafnir",
+      "https://www.carbfix.com/coda-terminal"
     ],
     "announcement_not_covered": {
-      "fsre": "configured news URL returned HTTP 404 from this host",
-      "skipulagsstofnun": "configured news URL returned HTTP 404 from this host",
-      "gardabaer": "configured news URL returned HTTP 404 from this host",
-      "mosfellsbaer": "configured news URL returned HTTP 404 from this host",
-      "arborg": "configured news URL returned HTTP 404 from this host"
+      "landsnet_plans": "Landsnet plan/news paths were not identifiable from static HTML; candidate news URL returns HTTP 404",
+      "thingmalaskra": "Stjórnarráðið þingmálaskrá proxy returns a JavaScript shell without static agenda entries",
+      "audlindagardurinn": "audlindagardurinn.is redirects to hsorka.is; using HS Orka Auðlindagarðurinn page instead"
     },
     "legislation": {
       "sources": [
@@ -117,11 +149,9 @@
   "sources": {
     "not_covered": {
       "announcements": {
-        "fsre": "configured news URL returned HTTP 404 from this host",
-        "skipulagsstofnun": "configured news URL returned HTTP 404 from this host",
-        "gardabaer": "configured news URL returned HTTP 404 from this host",
-        "mosfellsbaer": "configured news URL returned HTTP 404 from this host",
-        "arborg": "configured news URL returned HTTP 404 from this host"
+        "landsnet_plans": "Landsnet plan/news paths were not identifiable from static HTML; candidate news URL returns HTTP 404",
+        "thingmalaskra": "Stjórnarráðið þingmálaskrá proxy returns a JavaScript shell without static agenda entries",
+        "audlindagardurinn": "audlindagardurinn.is redirects to hsorka.is; using HS Orka Auðlindagarðurinn page instead"
       },
       "legislation": {
         "althingi": "althingi.is returned HTTP 403 from this host for XML and normal HTML endpoints",
@@ -131,10 +161,194 @@
         "municipal_committee_minutes": "not implemented in this pass; Skipulagsgátt remains the planning backbone"
       }
     },
-    "source_candidates": []
+    "source_candidates": [],
+    "maintenance": {
+      "notes": {
+        "announcement_hygiene": "normal announcement/news sources require a parsed date; explicitly configured project/reference pages may emit stable undated tracker items"
+      },
+      "filtered": {
+        "stjornarradid": {
+          "no_matching_keywords": 36,
+          "undated": 4
+        },
+        "vegagerdin": {
+          "undated": 15,
+          "no_matching_keywords": 25
+        },
+        "landsvirkjun": {
+          "no_matching_keywords": 19,
+          "undated": 6
+        },
+        "faxafloahafnir": {
+          "no_matching_keywords": 38,
+          "undated": 2
+        },
+        "veitur": {
+          "no_matching_keywords": 22
+        },
+        "orkuveitan": {
+          "no_matching_keywords": 12
+        },
+        "ust": {
+          "no_matching_keywords": 40
+        },
+        "isavia": {
+          "no_matching_keywords": 24
+        },
+        "kadeco": {
+          "no_matching_keywords": 38,
+          "outside_window": 2
+        },
+        "reykjavik": {
+          "no_matching_keywords": 37,
+          "undated": 2,
+          "outside_window": 1
+        },
+        "kopavogur": {
+          "no_matching_keywords": 24
+        },
+        "hafnarfjordur": {
+          "no_matching_keywords": 40
+        },
+        "reykjanesbaer": {
+          "no_matching_keywords": 40
+        },
+        "sudurnesjabaer": {
+          "no_matching_keywords": 31,
+          "undated": 9
+        },
+        "akureyri": {
+          "no_matching_keywords": 14
+        },
+        "olfus": {
+          "no_matching_keywords": 40
+        },
+        "vogar": {
+          "no_matching_keywords": 40
+        },
+        "betri-samgongur": {
+          "undated": 2,
+          "no_matching_keywords": 6
+        },
+        "gardabaer": {
+          "no_matching_keywords": 18,
+          "outside_window": 2
+        },
+        "mosfellsbaer": {
+          "no_matching_keywords": 33,
+          "undated": 3
+        },
+        "arborg": {
+          "no_matching_keywords": 21,
+          "outside_window": 2,
+          "undated": 5
+        },
+        "orkustofnun": {
+          "undated": 7,
+          "no_matching_keywords": 10,
+          "outside_window": 2
+        },
+        "ramma-frettasafn": {
+          "no_matching_keywords": 28,
+          "outside_window": 12
+        },
+        "fjardabyggdarhafnir": {
+          "no_matching_keywords": 38,
+          "outside_window": 2
+        },
+        "byggingar-opnun-utboda": {
+          "undated": 18,
+          "outside_window": 12
+        },
+        "vb": {
+          "no_matching_keywords": 40
+        },
+        "fiskifrettir": {
+          "no_matching_keywords": 40
+        },
+        "hsorka": {
+          "no_matching_keywords": 40
+        },
+        "verne": {
+          "no_matching_keywords": 30
+        },
+        "atnorth": {
+          "no_matching_keywords": 40
+        },
+        "alvotech": {
+          "no_matching_keywords": 18
+        },
+        "ramma-framvinda": {
+          "outside_window": 1
+        }
+      },
+      "source_failures": {
+        "hms": {
+          "url": "https://hms.is/frettir",
+          "error": "HTTP 429"
+        },
+        "fsre": {
+          "url": "https://www.fsre.is/s/fsre/frett",
+          "error": "HTTP 404"
+        },
+        "landsnet": {
+          "url": "https://www.landsnet.is/frettir",
+          "error": "HTTP 404"
+        },
+        "skipulag-hms-eia": {
+          "url": "https://skipulag.is/umhverfismat-framkvaemda/framkvaemdir-hadar-mati",
+          "error": "HTTP 404"
+        }
+      }
+    }
   },
-  "count": 381,
+  "count": 349,
   "items": [
+    {
+      "id": "announcement:byggingar-opnun-utboda:storthjofnadur-hja-eignabyggd-thurfum-ad-standa-saman",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "Stórþjófnaður hjá Eignabyggð: „Þurfum að standa saman“",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-08-16",
+      "summary": "rl=\"https://byggingar.is/wp-content/uploads/2026/08/16.08.2026-Storthjofnadur-hja-Eignabyggd-THurfum-ad-standa-saman-a-100x75.jpg\" width=\"100\" height=\"75\" /> Stórþjófnaður hjá Eignabyggð: „Þurfum að standa saman“ 16/08/2026 <div class=\"td_modu",
+      "url": "https://byggingar.is/storthjofnadur-hja-eignabyggd-thurfum-ad-standa-saman/",
+      "keywords_matched": [
+        "bygging",
+        "opinber innkaup"
+      ]
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:myndir-nytt-world-class-hotel",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "Myndir: Nýtt World Class hótel",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-08-16",
+      "summary": "ata-type=\"image_tag\" data-img-url=\"https://byggingar.is/wp-content/uploads/2026/08/16.08.2026-Nytt-World-Class-hotel-a-100x75.jpg\" width=\"100\" height=\"75\" /> Myndir: Nýtt World Class hótel 16/08/2026 <div class=\"td_modu",
+      "url": "https://byggingar.is/myndir-nytt-world-class-hotel/",
+      "keywords_matched": [
+        "bygging",
+        "opinber innkaup"
+      ]
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:bruin-yfir-borgarfjord-lokud-i-tvaer-naetur",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "Brúin yfir Borgarfjörð lokuð í tvær nætur",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-08-16",
+      "summary": "\" data-img-url=\"https://byggingar.is/wp-content/uploads/2026/08/16.07.2026-Bruin-yfir-Borgarfjord-lokud-i-tvaer-naetur-100x75.jpg\" width=\"100\" height=\"75\" /> Brúin yfir Borgarfjörð lokuð í tvær nætur 16/08/2026 <div cl",
+      "url": "https://byggingar.is/bruin-yfir-borgarfjord-lokud-i-tvaer-naetur/",
+      "keywords_matched": [
+        "bygging",
+        "opinber innkaup"
+      ]
+    },
     {
       "id": "skgatt:0956/2026",
       "lane": "planning",
@@ -162,6 +376,34 @@
       "url": "https://skipulagsgatt.is/issues/5300"
     },
     {
+      "id": "announcement:mosfellsbaer:rafmagnslaust-i-mosfellsdal",
+      "lane": "announcement",
+      "source": "mosfellsbaer",
+      "title": "Tilkynningar Veitur 14. ágúst 2026 Rafmagnslaust í Mosfellsdal",
+      "entity": "Mosfellsbær",
+      "status": "published",
+      "date": "2026-08-14",
+      "summary": "Framkvæmdir við heimæðar í Akurholti Tilkynningar Veitur 14. ágúst 2026 Rafmagnslaust í Mosfellsdal <img class=\"bde-image2-53844-101-102190-53844-1 bde-image2 bde",
+      "url": "https://mos.is/mannlif/um-mosfellsbae/frettir/rafmagnslaust-i-mosfellsdal/",
+      "keywords_matched": [
+        "framkvæmd"
+      ]
+    },
+    {
+      "id": "announcement:mosfellsbaer:framkvaemdir-vid-heimaedar-i-akurholti",
+      "lane": "announcement",
+      "source": "mosfellsbaer",
+      "title": "Framkvæmdir Tilkynningar 14. ágúst 2026 Framkvæmdir við heimæðar í Akurholti",
+      "entity": "Mosfellsbær",
+      "status": "published",
+      "date": "2026-08-14",
+      "summary": "Laus pláss í Skólahljómsveitinni Framkvæmdir Tilkynningar 14. ágúst 2026 Framkvæmdir við heimæðar í Akurholti <img class=\"bde-image2-53844-101-102203-53844-1 bde-image2 bde-image2-53844-101",
+      "url": "https://mos.is/mannlif/um-mosfellsbae/frettir/framkvaemdir-vid-heimaedar-i-akurholti/",
+      "keywords_matched": [
+        "framkvæmd"
+      ]
+    },
+    {
       "id": "skgatt:0946/2026",
       "lane": "planning",
       "title": "Búfjárræsi undir Landveg norðan við Landvegamót.",
@@ -172,6 +414,34 @@
       "review_deadline": "2026-09-10",
       "summary": "Landsvirkjun óskar eftir að sveitarstjórn Rangárþings ytra gefi út framkvæmdaleyfi til handa fyrirtækinu fyrir að setja upp búfjárræsi norðan við Landvegamót. Framkvæmdin er hluti af vegabótum á þjóðvegi nr. 1 (Hringvegur) og þjóðvegi nr. 26, Landvegur, við Landvegamót tengt framkvæmdum við vindorkuverið Vaðölduver, samkvæmt 13. gr. skipulagslaga nr. 123/20…",
       "url": "https://skipulagsgatt.is/issues/5301"
+    },
+    {
+      "id": "announcement:mosfellsbaer:utbod-varmarskoli-endurnyjun-skolaloda-3-afangi",
+      "lane": "announcement",
+      "source": "mosfellsbaer",
+      "title": "Auglýst útboð 13. ágúst 2026 Útboð: Varmárskóli – Endurnýjun skólalóða 3. áfangi",
+      "entity": "Mosfellsbær",
+      "status": "published",
+      "date": "2026-08-13",
+      "summary": "s=\"bde-heading-53844-102-102183-53844-1 bde-heading toc-ignore bde-heading-53844-102\"> Háspennubilun – Rafmagnslaust í hluta Mosfellsbæjar Auglýst útboð 13. ágúst 2026 Útboð: Varmárskóli – Endurnýjun skólalóða 3. áfangi <img class=\"bde-image2-53844-101-102154-53844-1 bde-ima",
+      "url": "https://mos.is/mannlif/um-mosfellsbae/frettir/utbod-varmarskoli-endurnyjun-skolaloda-3-afangi/",
+      "keywords_matched": [
+        "opinber innkaup"
+      ]
+    },
+    {
+      "id": "announcement:mosfellsbaer:fjolmenni-a-tungubokkum-thegar-almyrkvinn-gekk-yfir",
+      "lane": "announcement",
+      "source": "mosfellsbaer",
+      "title": "Afturelding Viðburðir 13. ágúst 2026 Fjölmenni á Tungubökkum þegar almyrkvinn gekk yfir",
+      "entity": "Mosfellsbær",
+      "status": "published",
+      "date": "2026-08-13",
+      "summary": "s=\"bde-heading-53844-102-102177-53844-1 bde-heading toc-ignore bde-heading-53844-102\"> Útboð: Varmárskóli – Endurnýjun skólalóða 3. áfangi Afturelding Viðburðir 13. ágúst 2026 Fjölmenni á Tungubökkum þegar almyrkvinn gekk yfir <img class=\"bde-image2-53844-101-1020",
+      "url": "https://mos.is/mannlif/um-mosfellsbae/frettir/fjolmenni-a-tungubokkum-thegar-almyrkvinn-gekk-yfir/",
+      "keywords_matched": [
+        "opinber innkaup"
+      ]
     },
     {
       "id": "skgatt:0944/2026",
@@ -200,6 +470,34 @@
       "summary": "Félags- og húsnæðismálaráðuneytið kynnir til umsagnar drög að breytingu á reglugerð um framkvæmdaleyfi nr. 772/2012, með síðari breytingum.",
       "url": "https://island.is/samradsgatt/mal/4296",
       "case_number": "149/2026",
+      "keywords_matched": [
+        "framkvæmd"
+      ]
+    },
+    {
+      "id": "announcement:gardabaer:skolabyjun-haustid-2026",
+      "lane": "announcement",
+      "source": "gardabaer",
+      "title": "Fréttir 12.08.2026 Skólabyrjun haustið 2026 Grunnskólar í Garðabæ verða settir mánudaginn 24. ágúst.",
+      "entity": "Garðabær",
+      "status": "published",
+      "date": "2026-08-12",
+      "summary": "xt\"> Framkvæmdir við að aðskilja göngu- og hjólastíga við Ásahverfi eru enn í fullum gangi og nú er vinna hafin milli göngubrúar og Lyngáss. Hjáleið er um Stórás. Fréttir 12.08.2026 Skólabyrjun haustið 2026 Grunnskólar í Garðabæ verða settir mánudaginn 24. ágúst. <di",
+      "url": "https://www.gardabaer.is/frettir/skolabyjun-haustid-2026",
+      "keywords_matched": [
+        "framkvæmd"
+      ]
+    },
+    {
+      "id": "announcement:gardabaer:framkvaemdir-vid-gongu-og-hjolastiga-vid-asahverfi",
+      "lane": "announcement",
+      "source": "gardabaer",
+      "title": "Tilkynningar 12.08.2026 Framkvæmdir við göngu- og hjólastíga við Ásahverfi Framkvæmdir við að aðskilja göngu- og hjólastíga við Ásahverfi eru enn í fullum gangi og nú er vinna haf…",
+      "entity": "Garðabær",
+      "status": "published",
+      "date": "2026-08-12",
+      "summary": "íð Garðabæjar verður haldin laugardaginn 29. ágúst á Garðatorgi. Það verður líf og fjör á torginu frá klukkan 13:00 en formleg setning hátíðarinnar er klukkan 14:00. Tilkynningar 12.08.2026 Framkvæmdir við göngu- og hjólastíga við Ásahverfi Framkvæmdir við að aðskilja göngu- og hjólastíga við Ásahverfi eru enn í fullum gangi og nú er vinna hafin milli göngu…",
+      "url": "https://www.gardabaer.is/frettir/framkvaemdir-vid-gongu-og-hjolastiga-vid-asahverfi",
       "keywords_matched": [
         "framkvæmd"
       ]
@@ -251,6 +549,80 @@
       "date": "2026-08-11",
       "summary": "\\n \\n Nýtt fjölnota íþróttahús í Borgarnesi hefur nú náð mikilvægum áfanga. Þann 10. ágúst fór fram öryggisúttekt á nýja húsinu sem gekk afar vel og voru engar athugasemdir skráðar. Virkilega ánægjulegt. Borgarbyggð hefur í kjölfarið tekið húsið formlega í notkun. Mannvirkið mun strax byrja að þjóna nærsamfélaginu, en um næstu helgi mun fara þar fram glæsil…",
       "url": "https://www.istak.is/frettir"
+    },
+    {
+      "id": "announcement:gardabaer:framkvaemdir-vid-hafnarfjardarveg-3-afangi",
+      "lane": "announcement",
+      "source": "gardabaer",
+      "title": "Tilkynningar 11.08.2026 Framkvæmdir við Hafnarfjarðarveg - 3. áfangi Í sumar hefur verið unnið að lagningu á fráveitu- og neysluvatnslögnum þvert undir Hafnarfjarðarveg. Í 3. og s…",
+      "entity": "Garðabær",
+      "status": "published",
+      "date": "2026-08-11",
+      "summary": "dule__SYCyUG__h5\">Skólabyrjun haustið 2026 Grunnskólar í Garðabæ verða settir mánudaginn 24. ágúst. Tilkynningar 11.08.2026 Framkvæmdir við Hafnarfjarðarveg - 3. áfangi Í sumar hefur verið unnið að lagningu á fráveitu- og neysluvatnslögnum þvert undir Hafnarfjarðarveg. Í 3. og síðasta áfanga verksins verður aðrein frá Arnarnesvegi niður að Hafnarfjarðarvegi…",
+      "url": "https://www.gardabaer.is/frettir/framkvaemdir-vid-hafnarfjardarveg-3-afangi",
+      "keywords_matched": [
+        "framkvæmd"
+      ]
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:metatron-ehf-faer-vallarlysingu-i-asgardi-eftir-ad-laegsta-tilbodi-var-hafnad",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "Metatron ehf. fær vallarlýsingu í Ásgarði eftir að lægsta tilboði var hafnað",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-08-11",
+      "summary": "> Metatron ehf. fær vallarlýsingu í Ásgarði eftir að lægsta tilboði var hafnað byggingar - 11/08/2026",
+      "url": "https://byggingar.is/metatron-ehf-faer-vallarlysingu-i-asgardi-eftir-ad-laegsta-tilbodi-var-hafnad/",
+      "keywords_matched": [
+        "bygging",
+        "opinber innkaup"
+      ]
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:fagurverk-ehf-faer-72-3-milljona-verk-i-skogarhverfi-40-undir-kostnadaraaetlun",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "Fagurverk ehf. fær 72.3 milljóna verk í Skógarhverfi – 40% undir kostnaðaráætlun",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-08-11",
+      "summary": "Fagurverk ehf. fær 72.3 milljóna verk í Skógarhverfi – 40% undir kostnaðaráætlun byggingar - 11/08/2026",
+      "url": "https://byggingar.is/fagurverk-ehf-faer-72-3-milljona-verk-i-skogarhverfi-40-undir-kostnadaraaetlun/",
+      "keywords_matched": [
+        "bygging",
+        "opinber innkaup"
+      ]
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:fagurverk-ehf-faer-29-6-milljona-verk-vid-endurnyjun-fraveitulagna-a-arnarnesi",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "Fagurverk ehf. fær 29.6 milljóna verk við endurnýjun fráveitulagna á Arnarnesi",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-08-11",
+      "summary": "Fagurverk ehf. fær 29.6 milljóna verk við endurnýjun fráveitulagna á Arnarnesi byggingar - 11/08/2026",
+      "url": "https://byggingar.is/fagurverk-ehf-faer-29-6-milljona-verk-vid-endurnyjun-fraveitulagna-a-arnarnesi/",
+      "keywords_matched": [
+        "bygging",
+        "opinber innkaup"
+      ]
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:byggingar",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "byggingar",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-08-11",
+      "summary": "sta tilboði var hafnað\">Metatron ehf. fær vallarlýsingu í Ásgarði eftir að lægsta tilboði var hafnað byggingar - 11/08/2026 <a href=\"https://byggingar.is/metatron-ehf-faer-vallarlysingu-i-asgardi-eftir-ad-la",
+      "url": "https://byggingar.is/author/byggingar/",
+      "keywords_matched": [
+        "bygging",
+        "opinber innkaup"
+      ]
     },
     {
       "id": "skgatt:0936/2026",
@@ -4673,765 +5045,169 @@
       "url": "https://skipulagsgatt.is/issues/591"
     },
     {
-      "id": "announcement:vegagerdin:www-vegagerdin-is",
-      "lane": "announcement",
-      "source": "vegagerdin",
-      "title": "Vegagerðin",
-      "entity": "Vegagerðin",
-      "status": "published",
-      "summary": "__s_dEp Layout_withNav__ZYz3d Layout_withFooter__qOicR layout_container__4_jxq __className_92eddb\"> Vegagerðin Umferðin Sjólag Mínar síður <a href=\"https://haskoliislands.eu.qualtrics.com/jfe/form/SV_2c4iTOaRiIUxNnU?Q_Language=ISL&dreifileid=umferdin\" t",
-      "url": "https://www.vegagerdin.is",
+      "id": "legislation:byggingarreglugerd:www-byggingarreglugerd-is",
+      "lane": "legislation",
+      "source": "byggingarreglugerd",
+      "title": "Byggingarreglugerð",
+      "entity": "Byggingarreglugerð",
+      "status": "reference",
+      "summary": "Kaktus Blocks - Hátæknilegt vefumsjónarkerfi",
+      "url": "https://www.byggingarreglugerd.is/",
       "keywords_matched": [
-        "samgöngur"
-      ]
+        "bygging",
+        "mannvirki"
+      ],
+      "doc_type": "reference"
     },
     {
-      "id": "announcement:vegagerdin:utbod",
+      "id": "announcement:reykjaneshofn-hafnaradstada:hafnaradstada",
       "lane": "announcement",
-      "source": "vegagerdin",
-      "title": "Yfirlitssíða",
-      "entity": "Vegagerðin",
-      "status": "published",
-      "summary": "da\">Opnun tilboða Samningum lokið Fyrirhuguð útboð Yfirlitssíða <img alt=\"\" loading=\"lazy\" width=\"400\" height=\"99999\" decoding=\"async\" data-nimg=\"1\" class=\"NextImage_container__yLPzb\" style=\"color:transparent;height:auto\" srcSet=\"/_next/image?url=%2Fmedia%2F2023%2F06%2Fvalthjofdalsvegur_625_og_vestfjardavegur_60__20201-scaled-aspect-ratio-2000-2000-scaled.j…",
-      "url": "https://www.vegagerdin.is/verkefnin/utbod",
-      "keywords_matched": [
-        "opinber innkaup"
-      ]
-    },
-    {
-      "id": "announcement:vegagerdin:umferdin-is",
-      "lane": "announcement",
-      "source": "vegagerdin",
-      "title": "Umferðin",
-      "entity": "Vegagerðin",
-      "status": "published",
-      "summary": "me_92eddb\"> Vegagerðin Umferðin Sjólag Mínar síður Þjónustukönnun <div class=\"GlobalNavigation_alignRigh",
-      "url": "https://umferdin.is",
-      "keywords_matched": [
-        "samgöngur"
-      ]
-    },
-    {
-      "id": "announcement:vegagerdin:sjolag-is",
-      "lane": "announcement",
-      "source": "vegagerdin",
-      "title": "Sjólag Sjólag er upplýsingavefur Vegagerðarinnar fyrir sjófarendur við Ísland.",
-      "entity": "Vegagerðin",
-      "status": "published",
-      "summary": ".49 1.49 5.574 5.571H5.461v2.105h17.461l-5.575 5.571 1.49 1.49 7.677-7.68v-.867z\"> Sjólag Sjólag er upplýsingavefur Vegagerðarinnar fyrir sjófarendur við Ísland. Annað efni <path fill=\"currentColor\" d=\"M12.2",
-      "url": "https://sjolag.is",
-      "keywords_matched": [
-        "samgöngur"
-      ]
-    },
-    {
-      "id": "announcement:vegagerdin:samningum-lokid",
-      "lane": "announcement",
-      "source": "vegagerdin",
-      "title": "Samningum lokið",
-      "entity": "Vegagerðin",
-      "status": "published",
-      "summary": "16.42v-.842z\"> Auglýst útboð Opnun tilboða Samningum lokið Fyrirhuguð útboð <path fill=\"currentColor\" d=\"M27.053 22.842h-4.21v4.21h4.21zM18.105",
-      "url": "https://www.vegagerdin.is/verkefnin/utbod/samningum-lokid",
-      "keywords_matched": [
-        "opinber innkaup"
-      ]
-    },
-    {
-      "id": "announcement:vegagerdin:samgongukerfid",
-      "lane": "announcement",
-      "source": "vegagerdin",
-      "title": "Samgöngukerfið",
-      "entity": "Vegagerðin",
-      "status": "published",
-      "summary": "\" fill=\"black\" transform=\"translate(11.9998,7.26317) translate(-11.9998,-7.26317)\" class=\"reverse \"> Samgöngukerfið <span style=\"flex-gro",
-      "url": "https://www.vegagerdin.is/samgongukerfid",
-      "keywords_matched": [
-        "samgöngur"
-      ]
-    },
-    {
-      "id": "announcement:vegagerdin:opnun-tilboda",
-      "lane": "announcement",
-      "source": "vegagerdin",
-      "title": "Opnun tilboða",
-      "entity": "Vegagerðin",
-      "status": "published",
-      "summary": "ill=\"currentColor\" d=\"M12.253 4.505 10.779 5.98 20.674 16l-9.895 10.021 1.474 1.474L23.326 16.42v-.842z\"> Auglýst útboð Opnun tilboða Samningum lokið Fyrirhuguð útboð <svg xmlns=\"http://www.w3.org/2000/svg\" fill=",
-      "url": "https://www.vegagerdin.is/verkefnin/utbod/opnun-tilboda",
-      "keywords_matched": [
-        "opinber innkaup"
-      ]
-    },
-    {
-      "id": "announcement:vegagerdin:minarsidur-vegagerdin-is",
-      "lane": "announcement",
-      "source": "vegagerdin",
-      "title": "Mínar síður",
-      "entity": "Vegagerðin",
-      "status": "published",
-      "summary": "din.is\" aria-current=\"true\">Vegagerðin Umferðin Sjólag Mínar síður Þjónustukönnun <button role=\"combobox\" aria-expanded=\"false\" aria-haspopup=\"listbox\" aria-autocomplete=\"none\" aria-label=\"Bóka ferð í ferju\" c",
-      "url": "https://minarsidur.vegagerdin.is/",
-      "keywords_matched": [
-        "samgöngur"
-      ]
-    },
-    {
-      "id": "announcement:vegagerdin:i-undirbuningi-status-draft-622",
-      "lane": "announcement",
-      "source": "vegagerdin",
-      "title": "Fyrirhugaðar framkvæmdir",
-      "entity": "Vegagerðin",
-      "status": "published",
-      "summary": "> Í kynningu Umhverfismat Fyrirhugaðar framkvæmdir <path fill=\"currentColor\" d=\"M27.053 22.842h-4.21v4.21h4.21zM18.105 22.842h-4.21v4.21h4.21zM9.158 22.842h-4.21v4.21h4.21zM27.053 13.895h-4.21v4.21h4.21zM18.",
-      "url": "https://www.vegagerdin.is/verkefnin/i-undirbuningi?status_draft=622",
-      "keywords_matched": [
-        "umhverfismat",
-        "framkvæmd"
-      ]
-    },
-    {
-      "id": "announcement:vegagerdin:i-undirbuningi-status-draft-621",
-      "lane": "announcement",
-      "source": "vegagerdin",
-      "title": "Umhverfismat",
-      "entity": "Vegagerðin",
-      "status": "published",
-      "summary": "entColor\" d=\"M12.253 4.505 10.779 5.98 20.674 16l-9.895 10.021 1.474 1.474L23.326 16.42v-.842z\"> Í kynningu Umhverfismat Fyrirhugaðar framkvæmdir <path fill=\"currentColor\" d=\"M27.053 22.8",
-      "url": "https://www.vegagerdin.is/verkefnin/i-undirbuningi?status_draft=621",
-      "keywords_matched": [
-        "umhverfismat",
-        "framkvæmd"
-      ]
-    },
-    {
-      "id": "announcement:vegagerdin:i-undirbuningi-status-draft-620",
-      "lane": "announcement",
-      "source": "vegagerdin",
-      "title": "Í kynningu",
-      "entity": "Vegagerðin",
-      "status": "published",
-      "summary": "con__MMuOi\"> Í kynningu Umhverfismat Fyrirhugaðar framkvæmdir <svg xmlns=",
-      "url": "https://www.vegagerdin.is/verkefnin/i-undirbuningi?status_draft=620",
-      "keywords_matched": [
-        "umhverfismat",
-        "framkvæmd"
-      ]
-    },
-    {
-      "id": "announcement:vegagerdin:i-undirbuningi",
-      "lane": "announcement",
-      "source": "vegagerdin",
-      "title": "Í undirbúningi",
-      "entity": "Vegagerðin",
-      "status": "published",
-      "summary": "2Fmedia%2F2023%2F07%2Fvegagerdin2020_grindavikurvegur_00881-1-scaled-aspect-ratio-2000-2000-scaled-e1774271830452.jpg&w=800&q=75\"/> Í undirbúningi Í kynningu Umhverfismat Fyrirhugaðar framkvæmdir <a class=\"Button_button__",
-      "url": "https://www.vegagerdin.is/verkefnin/i-undirbuningi",
-      "keywords_matched": [
-        "umhverfismat",
-        "framkvæmd"
-      ]
-    },
-    {
-      "id": "announcement:vegagerdin:fyrirhugud-utbod",
-      "lane": "announcement",
-      "source": "vegagerdin",
-      "title": "Fyrirhuguð útboð",
-      "entity": "Vegagerðin",
-      "status": "published",
-      "summary": "k__37OeF\" href=\"/verkefnin/utbod/auglyst-utbod\">Auglýst útboð Opnun tilboða Samningum lokið Fyrirhuguð útboð <path fill=\"currentColor\" d=\"M27.053 22.842h-4.21v4.21h4.21zM18.105 22.842h-4.21v4.21h4.21zM9.158 22.842h-4.21v4.21h4.21zM27.053 13.895h-4.21v4.21h4.21zM18.105 13.89",
-      "url": "https://www.vegagerdin.is/verkefnin/utbod/fyrirhugud-utbod",
-      "keywords_matched": [
-        "opinber innkaup"
-      ]
-    },
-    {
-      "id": "announcement:vegagerdin:framkvaemdir",
-      "lane": "announcement",
-      "source": "vegagerdin",
-      "title": "Framkvæmdir",
-      "entity": "Vegagerðin",
-      "status": "published",
-      "summary": "-scope-start=\"true\" hidden=\"\"> Framkvæmdir Kortasjá Framkvæmda Þjónustu- og viðhaldskortasjá <a class=\"Button_button__ckvrb Button_hasIcon__2FENw Button_small__0Luqv undefined\" aria-disabled=\"false\" href=\"/",
-      "url": "https://www.vegagerdin.is/verkefnin/framkvaemdir",
+      "source": "reykjaneshofn-hafnaradstada",
+      "title": "Hafnaraðstaða",
+      "entity": "Reykjaneshöfn",
+      "status": "reference",
+      "summary": "{\"css\":\"*#dm *.dmBody *.u_1744209651:before\\n{\\n\\topacity:0.5 !important;\\n\\tbackground-color:rgb(255,255,255) !important;\\n}\\n*#dm *.dmBody *.u_1744209651.before\\n{\\n\\topacity:0.5 !important;\\n\\tbackground-color:rgb(255,255,255) !important;\\n}\\n*#dm *.dmBody *.u_1744209651>.bgExtraLayerOverlay\\n{\\n\\topacity:0.5 !important;\\n\\tbackground-color:rgb(255,255,2…",
+      "url": "https://www.reykjaneshofn.is/hafnaradstada",
       "keywords_matched": [
         "framkvæmd"
       ]
     },
     {
-      "id": "announcement:vegagerdin:auglyst-utbod",
+      "id": "announcement:ramma-virkjunarkostir:allir-virkjunarkostir",
       "lane": "announcement",
-      "source": "vegagerdin",
-      "title": "Auglýst útboð",
-      "entity": "Vegagerðin",
-      "status": "published",
-      "summary": "con__MMuOi\"> Auglýst útboð Opnun tilboða Samningum lokið Fyrirhuguð útboð <a class=\"Button_button__ckvrb Button_hasIcon__2FENw Button_small__0Luqv undefined\" aria-d",
-      "url": "https://www.vegagerdin.is/verkefnin/utbod/auglyst-utbod",
+      "source": "ramma-virkjunarkostir",
+      "title": "Virkjunarkostir í rammaáætlun",
+      "entity": "Rammaáætlun",
+      "status": "tracker",
+      "summary": "Virkjunarkostir í rammaáætlun | Allir virkjunarkostir | Rammaáætlun Valmynd Virkjunarkostir í rammaáætlun Yfirlit yfir alla virkjunarkosti frá upphafi Hér er að finna yfirlit yfir alla þá rúmlega 170 virkjunarkosti sem hafa komið inn á borð rammaáætlunar frá upphafi. Ath. að fyrir neðan hverja töflu er að finna excel-skjal með töflunni. Allar upplýsingar á…",
+      "url": "https://www.ramma.is/rammaaaetlun/allir-virkjunarkostir",
       "keywords_matched": [
-        "opinber innkaup"
+        "orku",
+        "umhverfismat"
       ]
     },
     {
-      "id": "announcement:sudurnesjabaer:ósk-um-viðtal-hjá-ráðgjafa-á-velferðarsviði",
+      "id": "announcement:landsvirkjun-sigalda:sigalda",
       "lane": "announcement",
-      "source": "sudurnesjabaer",
-      "title": "Ósk um viðtal hjá ráðgjafa á Velferðarsviði",
-      "entity": "Suðurnesjabær",
-      "status": "published",
-      "summary": "ss=\"ele-upplysingar-fyrir-starfsfolk si level3 ord-8\"> Upplýsingar fyrir starfsfólk Ósk um viðtal hjá ráðgjafa á Velferðarsviði Skipulagsmál Skipulagsfulltrúi <a href=\"/is/thjon",
-      "url": "https://www.sudurnesjabaer.is/is/moya/Ósk um viðtal hjá ráðgjafa á Velferðarsviði",
-      "keywords_matched": [
-        "skipulag"
-      ]
-    },
-    {
-      "id": "announcement:sudurnesjabaer:upplysingar-fyrir-starfsfolk",
-      "lane": "announcement",
-      "source": "sudurnesjabaer",
-      "title": "Upplýsingar fyrir starfsfólk",
-      "entity": "Suðurnesjabær",
-      "status": "published",
-      "summary": "href=\"/is/thjonusta/velferd/farsaeld\"> Farsæld barna Umsóknir Upplýsingar fyrir starfsfólk Ósk um viðtal hjá ráðgjafa á Velferðarsviði Skipulagsmál <ul class=\"menu mmLevel3 \" id",
-      "url": "https://www.sudurnesjabaer.is/is/thjonusta/velferd/upplysingar-fyrir-starfsfolk",
-      "keywords_matched": [
-        "skipulag"
-      ]
-    },
-    {
-      "id": "announcement:sudurnesjabaer:svaedisskipulag-sudurnesja",
-      "lane": "announcement",
-      "source": "sudurnesjabaer",
-      "title": "Svæðisskipulag Suðurnesja",
-      "entity": "Suðurnesjabær",
-      "status": "published",
-      "summary": "> Skipulagsfulltrúi Svæðisskipulag Suðurnesja Aðalskipulag Deiliskipulag Skipulag í kynningu </",
-      "url": "https://www.sudurnesjabaer.is/is/thjonusta/skipulagsmal/svaedisskipulag-sudurnesja",
-      "keywords_matched": [
-        "skipulag"
-      ]
-    },
-    {
-      "id": "announcement:sudurnesjabaer:skipulagsmal",
-      "lane": "announcement",
-      "source": "sudurnesjabaer",
-      "title": "Skipulagsmál",
-      "entity": "Suðurnesjabær",
-      "status": "published",
-      "summary": "svidi si level3 last ord-9\"> Ósk um viðtal hjá ráðgjafa á Velferðarsviði Skipulagsmál Skipulagsfulltrúi Svæðisskipulag Suðurnesja <li class=\"ele-adalskipulag si level3 or",
-      "url": "https://www.sudurnesjabaer.is/is/thjonusta/skipulagsmal",
-      "keywords_matched": [
-        "skipulag"
-      ]
-    },
-    {
-      "id": "announcement:sudurnesjabaer:skipulagsfulltrui",
-      "lane": "announcement",
-      "source": "sudurnesjabaer",
-      "title": "Skipulagsfulltrúi",
-      "entity": "Suðurnesjabær",
-      "status": "published",
-      "summary": "iði Skipulagsmál Skipulagsfulltrúi Svæðisskipulag Suðurnesja Aðalskipulag <",
-      "url": "https://www.sudurnesjabaer.is/is/thjonusta/skipulagsmal/skipulagsfulltrui",
-      "keywords_matched": [
-        "skipulag"
-      ]
-    },
-    {
-      "id": "announcement:sudurnesjabaer:skipulag-i-kynningu",
-      "lane": "announcement",
-      "source": "sudurnesjabaer",
-      "title": "Skipulag í kynningu",
-      "entity": "Suðurnesjabær",
-      "status": "published",
-      "summary": "/thjonusta/skipulagsmal/adalskipulag\"> Aðalskipulag Deiliskipulag Skipulag í kynningu Kortasjá Húsnæðisáætlun Ver",
-      "url": "https://www.sudurnesjabaer.is/is/thjonusta/skipulagsmal/skipulag-i-kynningu",
-      "keywords_matched": [
-        "skipulag"
-      ]
-    },
-    {
-      "id": "announcement:sudurnesjabaer:deiliskipulag",
-      "lane": "announcement",
-      "source": "sudurnesjabaer",
-      "title": "Deiliskipulag",
-      "entity": "Suðurnesjabær",
-      "status": "published",
-      "summary": "kipulag-sudurnesja\"> Svæðisskipulag Suðurnesja Aðalskipulag Deiliskipulag Skipulag í kynningu Kortasjá Húsnæðis",
-      "url": "https://www.sudurnesjabaer.is/is/thjonusta/skipulagsmal/deiliskipulag",
-      "keywords_matched": [
-        "skipulag"
-      ]
-    },
-    {
-      "id": "announcement:sudurnesjabaer:adalskipulag",
-      "lane": "announcement",
-      "source": "sudurnesjabaer",
-      "title": "Aðalskipulag",
-      "entity": "Suðurnesjabær",
-      "status": "published",
-      "summary": "fulltrúi Svæðisskipulag Suðurnesja Aðalskipulag Deiliskipulag Skipulag í kynningu Kortasjá <l",
-      "url": "https://www.sudurnesjabaer.is/is/thjonusta/skipulagsmal/adalskipulag",
-      "keywords_matched": [
-        "skipulag"
-      ]
-    },
-    {
-      "id": "announcement:stjornarradid:stjornskipan-og-thjodartakn",
-      "lane": "announcement",
-      "source": "stjornarradid",
-      "title": "Stjórnskipan og þjóðartákn",
-      "entity": "Stjórnarráðið",
-      "status": "published",
-      "summary": "ndir Verkefni\" class=\"level2\">Sjálfbært Ísland Skipulagsmál Stjórnskipan og þjóðartákn Sveitarstjórnir og byggðamál Trú og lífsskoðun <li clas",
-      "url": "https://www.stjornarradid.is/verkefni/stjornskipan-og-thjodartakn/",
-      "keywords_matched": [
-        "skipulag"
-      ]
-    },
-    {
-      "id": "announcement:stjornarradid:skipulagsmal",
-      "lane": "announcement",
-      "source": "stjornarradid",
-      "title": "Skipulagsmál",
-      "entity": "Stjórnarráðið",
-      "status": "published",
-      "summary": "erkefni\" class=\"level2\">Samgöngur Sjálfbært Ísland Skipulagsmál Stjórnskipan og þjóðartákn Sveitarstjórnir og byggðamál <ul",
-      "url": "https://www.stjornarradid.is/verkefni/skipulagsmal/",
-      "keywords_matched": [
-        "skipulag",
-        "samgöngur"
-      ]
-    },
-    {
-      "id": "announcement:stjornarradid:sjalfbaert-island",
-      "lane": "announcement",
-      "source": "stjornarradid",
-      "title": "Sjálfbært Ísland",
-      "entity": "Stjórnarráðið",
-      "status": "published",
-      "summary": "dir Verkefni\" class=\"level2\">Rekstur og eignir ríkisins Samgöngur Sjálfbært Ísland Skipulagsmál Stjórnskipan og þjóðartákn <a href=\"",
-      "url": "https://www.stjornarradid.is/verkefni/sjalfbaert-island/",
-      "keywords_matched": [
-        "skipulag",
-        "samgöngur"
-      ]
-    },
-    {
-      "id": "announcement:stjornarradid:samgongur",
-      "lane": "announcement",
-      "source": "stjornarradid",
-      "title": "Samgöngur",
-      "entity": "Stjórnarráðið",
-      "status": "published",
-      "summary": "ttur Rekstur og eignir ríkisins Samgöngur Sjálfbært Ísland Skipulagsmál <a href=\"/verkefni/stjornskipan-og-thjo",
-      "url": "https://www.stjornarradid.is/verkefni/samgongur/",
-      "keywords_matched": [
-        "skipulag",
-        "samgöngur"
-      ]
-    },
-    {
-      "id": "announcement:stjornarradid:rekstur-og-eignir-rikisins",
-      "lane": "announcement",
-      "source": "stjornarradid",
-      "title": "Rekstur og eignir ríkisins",
-      "entity": "Stjórnarráðið",
-      "status": "published",
-      "summary": "ir Verkefni\" class=\"level2\">Opinber fjármál Persónuréttur Rekstur og eignir ríkisins Samgöngur Sjálfbært Ísland <a href=\"/verkefni/skipulagsmal/\" aria-label=\"Sk",
-      "url": "https://www.stjornarradid.is/verkefni/rekstur-og-eignir-rikisins/",
-      "keywords_matched": [
-        "samgöngur"
-      ]
-    },
-    {
-      "id": "announcement:stjornarradid:personurettur",
-      "lane": "announcement",
-      "source": "stjornarradid",
-      "title": "Persónuréttur",
-      "entity": "Stjórnarráðið",
-      "status": "published",
-      "summary": "Verkefni\" class=\"level2\">Neytendamál Opinber fjármál Persónuréttur Rekstur og eignir ríkisins Samgöngur <a href=\"/verkefni/",
-      "url": "https://www.stjornarradid.is/verkefni/personurettur/",
-      "keywords_matched": [
-        "samgöngur"
-      ]
-    },
-    {
-      "id": "announcement:reykjavik:utskipting-umferdarljosabunadar-vid-gatnamot-hofdabakka-og-bildshofda",
-      "lane": "announcement",
-      "source": "reykjavik",
-      "title": "Lesa meira",
-      "entity": "Reykjavíkurborg",
-      "status": "published",
-      "summary": "verður ráðist í útskiptingu umferðarljósabúnaðar við gatnamót Höfðabakka og Bíldshöfða. Framkvæmdir hefjast klukkan 21:00 og er áætlað að þær standi fram eftir nóttu. Lesa meira Samgöngur Skoða allar fréttir <ul c",
-      "url": "https://reykjavik.is/frettir/2026/utskipting-umferdarljosabunadar-vid-gatnamot-hofdabakka-og-bildshofda",
+      "source": "landsvirkjun-sigalda",
+      "title": "Stækkun Sigöldustöðvar",
+      "entity": "Landsvirkjun",
+      "status": "project",
+      "summary": "Velkomin á vef um stækkun Sigöldustöðvar. Hér getur þú nálgast allar helstu upplýsingar um verkefnið og framkvæmdir sem því tengjast.",
+      "url": "https://www.landsvirkjun.is/sigalda",
       "keywords_matched": [
         "framkvæmd",
-        "samgöngur"
-      ]
-    },
-    {
-      "id": "announcement:reykjavik:umhverfi-og-skipulag",
-      "lane": "announcement",
-      "source": "reykjavik",
-      "title": "Umhverfi og skipulag",
-      "entity": "Reykjavíkurborg",
-      "status": "published",
-      "summary": "lass=\"news-search__toggle\">Leita Allar fréttir Stjórnsýsla Börn og ungmenni Umhverfi og skipulag Mannlíf og menning Samgöngur Velferð <form class=\"news-list-search-form\" id=\"news-list-search-form\" data-drupal-selector=\"news-list-search-form\" novalidate=\"novalidate\" action=\"/frettir\" method=\"",
-      "url": "https://reykjavik.is/frettir/umhverfi-og-skipulag",
-      "keywords_matched": [
-        "samgöngur"
-      ]
-    },
-    {
-      "id": "announcement:reykjavik:stjornsysla",
-      "lane": "announcement",
-      "source": "reykjavik",
-      "title": "Stjórnsýsla",
-      "entity": "Reykjavíkurborg",
-      "status": "published",
-      "summary": "r og leit Leita Allar fréttir Stjórnsýsla Börn og ungmenni Umhverfi og skipulag Mannlíf og menning Samgöngur Velferð <form class=\"new",
-      "url": "https://reykjavik.is/frettir/stjornsysla",
-      "keywords_matched": [
-        "samgöngur"
-      ]
-    },
-    {
-      "id": "announcement:reykjavik:samgongur",
-      "lane": "announcement",
-      "source": "reykjavik",
-      "title": "Samgöngur",
-      "entity": "Reykjavíkurborg",
-      "status": "published",
-      "summary": "frettir/stjornsysla\">Stjórnsýsla Börn og ungmenni Umhverfi og skipulag Mannlíf og menning Samgöngur Velferð <button class=\"news-search-form__close",
-      "url": "https://reykjavik.is/frettir/samgongur",
-      "keywords_matched": [
-        "samgöngur"
-      ]
-    },
-    {
-      "id": "announcement:reykjavik:mannlif-og-menning",
-      "lane": "announcement",
-      "source": "reykjavik",
-      "title": "Mannlíf og menning",
-      "entity": "Reykjavíkurborg",
-      "status": "published",
-      "summary": "a href=\"/frettir\" class=\"active\">Allar fréttir Stjórnsýsla Börn og ungmenni Umhverfi og skipulag Mannlíf og menning Samgöngur Velferð <div class=\"news-search-form__head",
-      "url": "https://reykjavik.is/frettir/mannlif-og-menning",
-      "keywords_matched": [
-        "samgöngur"
-      ]
-    },
-    {
-      "id": "announcement:reykjavik:frettir",
-      "lane": "announcement",
-      "source": "reykjavik",
-      "title": "Allar fréttir",
-      "entity": "Reykjavíkurborg",
-      "status": "published",
-      "summary": "cle> Flokkar og leit Leita Allar fréttir Stjórnsýsla Börn og ungmenni Umhverfi og skipulag Mannlíf og menning Samgöngur Velferð <div class=\"news-search__form-contai",
-      "url": "https://reykjavik.is/frettir",
-      "keywords_matched": [
-        "samgöngur"
-      ]
-    },
-    {
-      "id": "announcement:reykjavik:born-og-ungmenni",
-      "lane": "announcement",
-      "source": "reykjavik",
-      "title": "Börn og ungmenni",
-      "entity": "Reykjavíkurborg",
-      "status": "published",
-      "summary": "\"> Leita Allar fréttir Stjórnsýsla Börn og ungmenni Umhverfi og skipulag Mannlíf og menning Samgöngur Velferð <form class=\"news-list-search-form\" id=\"news-list-search-form\" data-drupal-selector",
-      "url": "https://reykjavik.is/frettir/born-og-ungmenni",
-      "keywords_matched": [
-        "samgöngur"
-      ]
-    },
-    {
-      "id": "announcement:landsvirkjun:virkjunarkostir",
-      "lane": "announcement",
-      "source": "landsvirkjun",
-      "title": "Virkjunarkostir",
-      "entity": "Landsvirkjun",
-      "status": "published",
-      "summary": "listWrap__rilOY\"> Aflstöðvar Vatn Virkjunarkostir Varmi Erlend starfsemi Vindur <button type=\"butt",
-      "url": "https://www.landsvirkjun.is/virkjunarkostir",
-      "keywords_matched": [
         "orku"
       ]
     },
     {
-      "id": "announcement:landsvirkjun:vidskiptavinir",
+      "id": "announcement:landsvirkjun-hvammsvirkjun-framkvaemdir:framkvaemdirhvm",
       "lane": "announcement",
-      "source": "landsvirkjun",
-      "title": "Viðskiptavinir",
+      "source": "landsvirkjun-hvammsvirkjun-framkvaemdir",
+      "title": "Framkvæmdir",
       "entity": "Landsvirkjun",
-      "status": "published",
-      "summary": "lass=\"NavSection_navSection__list__JWDcy\"> Raforkuviðskipti Heildsala Viðskiptavinir Upprunaábyrgðir Nýsköpun <h2 class=\"NavSection_navSe",
-      "url": "https://www.landsvirkjun.is/vidskiptavinir",
+      "status": "project",
+      "summary": "Hér finnur þú allar helstu upplýsingar um stöðu framkvæmda við Hvammsvirkjun.",
+      "url": "https://www.landsvirkjun.is/hvammsvirkjun/framkvaemdirhvm",
       "keywords_matched": [
+        "framkvæmd",
         "orku"
       ]
     },
     {
-      "id": "announcement:landsvirkjun:vadolduver",
+      "id": "announcement:kadeco-throunarreitir:throunarreitir",
       "lane": "announcement",
-      "source": "landsvirkjun",
-      "title": "Vaðölduver",
-      "entity": "Landsvirkjun",
-      "status": "published",
-      "summary": "J\"> Framkvæmdir Vaðölduver Hvammsvirkjun Sigöldustöð Þeistareykir <bu",
-      "url": "https://www.landsvirkjun.is/vadolduver",
+      "source": "kadeco-throunarreitir",
+      "title": "Svæðisþróun við Keflavíkurflugvöll",
+      "entity": "Kadeco",
+      "status": "tracker",
+      "summary": "Kjarnaverkefni Kadeco er að leiða samstarf íslenska ríkisins, Isavia, Reykjanesbæjar og Suðurnesjabæjar um skipulag, þróun, hagnýtingu og markaðssetningu á landi við Keflavíkurflugvöll. Samstarf þessara aðila er grundvallaratriði til þess að tryggja að til verði heildstæð stefna og framtíðarsýn um þessi verðmætu landsvæði. Slík stefna miðar að því að nýta s…",
+      "url": "https://www.kadeco.is/throunarreitir",
       "keywords_matched": [
-        "framkvæmd"
+        "framkvæmd",
+        "skipulag"
       ]
     },
     {
-      "id": "announcement:landsvirkjun:upprunaabyrgdir",
+      "id": "announcement:kadeco-throunaraaetlun:throunaraaetlun",
       "lane": "announcement",
-      "source": "landsvirkjun",
-      "title": "Upprunaábyrgðir",
-      "entity": "Landsvirkjun",
-      "status": "published",
-      "summary": "=\"/raforkuvidskipti\">Raforkuviðskipti Heildsala Viðskiptavinir Upprunaábyrgðir Nýsköpun Fjármál <ul class=\"NavSect",
-      "url": "https://www.landsvirkjun.is/upprunaabyrgdir",
+      "source": "kadeco-throunaraaetlun",
+      "title": "Þróunaráætlun",
+      "entity": "Kadeco",
+      "status": "tracker",
+      "summary": "Í þróunaráætlun nærumhverfis Keflavíkurflugvallar verður horft fram til ársins 2050. Mikilvægt er að skipulagsyfirvöld og aðrir hagsmunaaðilar hafi augun á heildarmyndinni og samrými verkefni sín við það skipulag sem lagt verður fram í þróunaráætlun.",
+      "url": "https://www.kadeco.is/throunaraaetlun",
       "keywords_matched": [
+        "framkvæmd",
+        "skipulag"
+      ]
+    },
+    {
+      "id": "announcement:hsorka-audlindagardurinn:audlindagardurinn",
+      "lane": "announcement",
+      "source": "hsorka-audlindagardurinn",
+      "title": "Auðlindagarðurinn",
+      "entity": "HS Orka",
+      "status": "tracker",
+      "summary": "HS Orka selur rafmagn til heimila og fyrirtækja um allt land og leggur ríka áherslu á hagkvæm verð og framúrskarandi persónulega þjónustu.",
+      "url": "https://www.hsorka.is/audlindagardurinn/",
+      "keywords_matched": [
+        "framkvæmd",
         "orku"
       ]
     },
     {
-      "id": "announcement:landsvirkjun:umhverfisstarf",
+      "id": "announcement:hagstofa-byggingarvisitala:byggingarvisitala",
       "lane": "announcement",
-      "source": "landsvirkjun",
-      "title": "Umhverfisstarf",
-      "entity": "Landsvirkjun",
-      "status": "published",
-      "summary": "erfi Loftslags- og umhverfisstefna Umhverfisstarf Aðgerðaáætlun Rauntímavöktun Stóra samhengið <a tabindex=\"-1\" class=\"NavSection_navSection__link",
-      "url": "https://www.landsvirkjun.is/umhverfisstarf",
-      "keywords_matched": [
-        "umhverfismat"
-      ]
-    },
-    {
-      "id": "announcement:landsvirkjun:umhverfisrannsoknir-og-voktun",
-      "lane": "announcement",
-      "source": "landsvirkjun",
-      "title": "Umhverfisrannsóknir",
-      "entity": "Landsvirkjun",
-      "status": "published",
-      "summary": "rdaaaetlun\">Aðgerðaáætlun Rauntímavöktun Stóra samhengið Umhverfisrannsóknir Samfélag <a tabindex=\"-1\" class=\"NavSection_navSection__link___x7mm\" href",
-      "url": "https://www.landsvirkjun.is/umhverfisstarf/umhverfisrannsoknir-og-voktun",
-      "keywords_matched": [
-        "umhverfismat"
-      ]
-    },
-    {
-      "id": "announcement:landsvirkjun:stora-samhengid",
-      "lane": "announcement",
-      "source": "landsvirkjun",
-      "title": "Stóra samhengið",
-      "entity": "Landsvirkjun",
-      "status": "published",
-      "summary": "/a> Aðgerðaáætlun Rauntímavöktun Stóra samhengið Umhverfisrannsóknir Samfélag <div class=\"NavSection",
-      "url": "https://www.landsvirkjun.is/stora-samhengid",
-      "keywords_matched": [
-        "umhverfismat"
-      ]
-    },
-    {
-      "id": "announcement:landsvirkjun:rauntimavoktun",
-      "lane": "announcement",
-      "source": "landsvirkjun",
-      "title": "Rauntímavöktun",
-      "entity": "Landsvirkjun",
-      "status": "published",
-      "summary": "/a> Umhverfisstarf Aðgerðaáætlun Rauntímavöktun Stóra samhengið Umhverfisrannsóknir <button type=\"button\" class=\"NavSection_navSection__button__9",
-      "url": "https://www.landsvirkjun.is/rauntimavoktun",
-      "keywords_matched": [
-        "umhverfismat"
-      ]
-    },
-    {
-      "id": "announcement:landsvirkjun:rannsoknir-og-skyrslur",
-      "lane": "announcement",
-      "source": "landsvirkjun",
-      "title": "Útgefið efni",
-      "entity": "Landsvirkjun",
-      "status": "published",
-      "summary": "k___x7mm\" href=\"/oryggi\">Öryggismál Ársskýrslur Fjölmiðlatorg Útgefið efni Framkvæmdir <a tabindex=\"-1\" class=\"NavSection_navSection__link___x7mm\" h",
-      "url": "https://www.landsvirkjun.is/utgefid-efni/rannsoknir-og-skyrslur",
-      "keywords_matched": [
-        "framkvæmd"
-      ]
-    },
-    {
-      "id": "announcement:landsvirkjun:raforkuvidskipti",
-      "lane": "announcement",
-      "source": "landsvirkjun",
-      "title": "Raforkuviðskipti",
-      "entity": "Landsvirkjun",
-      "status": "published",
-      "summary": "rkJ\"> Viðskipti Raforkuviðskipti Heildsala Viðskiptavinir Upprunaábyrgðir Nýsköpun",
-      "url": "https://www.landsvirkjun.is/raforkuvidskipti",
-      "keywords_matched": [
-        "orku"
-      ]
-    },
-    {
-      "id": "announcement:landsvirkjun:loftslags-og-umhverfisstefna",
-      "lane": "announcement",
-      "source": "landsvirkjun",
-      "title": "Loftslags- og umhverfisstefna",
-      "entity": "Landsvirkjun",
-      "status": "published",
-      "summary": "XrkJ\"> Umhverfi Loftslags- og umhverfisstefna Umhverfisstarf Aðgerðaáætlun Rauntímavöktun <a tabindex=\"-1\" class=\"NavSection_navSection__link__",
-      "url": "https://www.landsvirkjun.is/loftslags-og-umhverfisstefna",
-      "keywords_matched": [
-        "umhverfismat"
-      ]
-    },
-    {
-      "id": "announcement:landsvirkjun:lanshaefismat",
-      "lane": "announcement",
-      "source": "landsvirkjun",
-      "title": "Lánshæfismat",
-      "entity": "Landsvirkjun",
-      "status": "published",
-      "summary": "Section__link___x7mm\" href=\"/innkaup\">Innkaup Útboð Fjármögnun Lánshæfismat Uppgjör Reikningar <a tabindex=\"-1\" class=\"NavSecondary_navSe",
-      "url": "https://www.landsvirkjun.is/fjarmognun/lanshaefismat",
-      "keywords_matched": [
-        "opinber innkaup"
-      ]
-    },
-    {
-      "id": "announcement:landsvirkjun:hvammsvirkjun",
-      "lane": "announcement",
-      "source": "landsvirkjun",
-      "title": "Hvammsvirkjun",
-      "entity": "Landsvirkjun",
-      "status": "published",
-      "summary": "ion_navSection__title__wH6TJ\">Framkvæmdir Vaðölduver Hvammsvirkjun Sigöldustöð Þeistareykir <h2 class=\"NavSection_navSecti",
-      "url": "https://www.landsvirkjun.is/hvammsvirkjun",
-      "keywords_matched": [
-        "framkvæmd"
-      ]
-    },
-    {
-      "id": "announcement:landsvirkjun:heildsala",
-      "lane": "announcement",
-      "source": "landsvirkjun",
-      "title": "Heildsala",
-      "entity": "Landsvirkjun",
-      "status": "published",
-      "summary": "tion__title__wH6TJ\">Viðskipti Raforkuviðskipti Heildsala Viðskiptavinir Upprunaábyrgðir Nýsköpun <div class=\"NavSection_navSection__hXrkJ",
-      "url": "https://www.landsvirkjun.is/heildsala",
-      "keywords_matched": [
-        "orku"
-      ]
-    },
-    {
-      "id": "announcement:landsvirkjun:fjolmidlatorg",
-      "lane": "announcement",
-      "source": "landsvirkjun",
-      "title": "Fjölmiðlatorg",
-      "entity": "Landsvirkjun",
-      "status": "published",
-      "summary": "__x7mm\" href=\"/vinnustadurinn\">Vinnustaðurinn Öryggismál Ársskýrslur Fjölmiðlatorg Útgefið efni Framkvæmdir <div class=\"NavSection_navSection__",
-      "url": "https://www.landsvirkjun.is/fjolmidlatorg",
-      "keywords_matched": [
-        "framkvæmd"
-      ]
-    },
-    {
-      "id": "announcement:landsvirkjun:fjarmognun",
-      "lane": "announcement",
-      "source": "landsvirkjun",
-      "title": "Fjármögnun",
-      "entity": "Landsvirkjun",
-      "status": "published",
-      "summary": "Wrap__rilOY\"> Innkaup Útboð Fjármögnun Lánshæfismat Uppgjör Reikningar <ul class=\"NavSecond",
-      "url": "https://www.landsvirkjun.is/fjarmognun",
-      "keywords_matched": [
-        "opinber innkaup"
-      ]
-    },
-    {
-      "id": "announcement:landsvirkjun:erlend-starfsemi",
-      "lane": "announcement",
-      "source": "landsvirkjun",
-      "title": "Erlend starfsemi",
-      "entity": "Landsvirkjun",
-      "status": "published",
-      "summary": "_navSection__link___x7mm\" href=\"/vatn\">Vatn Virkjunarkostir Varmi Erlend starfsemi Vindur Umhverfi <ul class=\"NavSection",
-      "url": "https://www.landsvirkjun.is/erlend-starfsemi",
-      "keywords_matched": [
-        "orku"
-      ]
-    },
-    {
-      "id": "announcement:landsvirkjun:aflstodvar",
-      "lane": "announcement",
-      "source": "landsvirkjun",
-      "title": "Aflstöðvar",
-      "entity": "Landsvirkjun",
-      "status": "published",
-      "summary": "n__hXrkJ\"> Orka Aflstöðvar Vatn Virkjunarkostir Varmi Erlend starfsemi <a",
-      "url": "https://www.landsvirkjun.is/aflstodvar",
-      "keywords_matched": [
-        "orku"
-      ]
-    },
-    {
-      "id": "announcement:landsvirkjun:adgerdaaaetlun",
-      "lane": "announcement",
-      "source": "landsvirkjun",
-      "title": "Aðgerðaáætlun",
-      "entity": "Landsvirkjun",
-      "status": "published",
-      "summary": "JWDcy\"> Loftslags- og umhverfisstefna Umhverfisstarf Aðgerðaáætlun Rauntímavöktun Stóra samhengið Umhverfisrannsóknir <li class=\"Nav_nav__item__",
-      "url": "https://www.landsvirkjun.is/loftslags-og-umhverfisstefna/adgerdaaaetlun",
-      "keywords_matched": [
-        "umhverfismat"
-      ]
-    },
-    {
-      "id": "announcement:hafnarfjordur:ungmennahus",
-      "lane": "announcement",
-      "source": "hafnarfjordur",
-      "title": "Ungmenni",
-      "entity": "Hafnarfjarðarkaupstaður",
-      "status": "published",
-      "summary": "m-type-post_type menu-item-object-page menu-item-404\"> Tónlistarskólar Ungmenni Umhverfi og samgöngur Praktískar upplýsingar um strætó, sorphirðu, götuhreinsanir, umferð, dýrahald og fleira. <li id=\"menu-ite",
-      "url": "https://hafnarfjordur.is/thjonusta/skolar-og-born/ungmennahus/",
-      "keywords_matched": [
-        "samgöngur"
-      ]
-    },
-    {
-      "id": "announcement:faxafloahafnir:uppbygging-a-granda",
-      "lane": "announcement",
-      "source": "faxafloahafnir",
-      "title": "Lesa frétt",
-      "entity": "Faxaflóahafnir",
-      "status": "published",
-      "summary": "a byggingu við Fiskislóð á Granda undir starsfemi sína. Eins og segir í frétt Morgunblaðsins hefur skipulagsfulltrúi Reykjavíkur telkið jákvætt í þessar hugmyndir og komið með ábendingar varðandi frekari vinnu... Lesa frétt <img alt=\"Með öryggi að leiðarljósi\" loading=\"lazy\" width=\"2048\" height=\"1365\" decoding=\"async\" data-nimg=\"1\" style=\"color:transparent\"…",
-      "url": "https://www.faxafloahafnir.is/article/uppbygging-a-granda",
+      "source": "hagstofa-byggingarvisitala",
+      "title": "Byggingarvísitala",
+      "entity": "Hagstofa Íslands",
+      "status": "reference",
+      "summary": "Byggingarvísitala - Hagstofa Íslands Flýtileið yfir á efnissvæði Opna valmynd Valmynd Loka valmynd English Talnagrunnur Talnaefni Þjónusta Um þjónustuna Hafa samband Vefskil Sérsniðnar hagtölur Örgagnaþjónusta Gjaldskrá Útgáfur Útgáfusafn Fréttasafn Tilraunatölfræði Opið gagnaaðgengi Aðferðir, flokkun og gæðamál Greinar og erindi Ársskýrslur Spurt og svarað…",
+      "url": "https://hagstofa.is/talnaefni/efnahagur/verdlag/byggingarvisitala/",
       "keywords_matched": [
         "bygging"
       ]
     },
     {
-      "id": "announcement:faxafloahafnir:matradur-viltu-vera-hluti-af-oflugri-lidsheild",
+      "id": "announcement:fjardabyggdarhafnir-yfirlit:fjardabyggdarhafnir",
       "lane": "announcement",
-      "source": "faxafloahafnir",
-      "title": "Lesa frétt",
-      "entity": "Faxaflóahafnir",
-      "status": "published",
-      "summary": "ndsins þar sem starfa um 80 manns á starfsstöðvum fyrirtækisins í Reykjavík, á Akranesi, Grundartanga og í Borgarnesi. Við leggjum áherslur í að vera leiðandi í umhverfis- og öryggismálum við þróun snjallra og... Lesa frétt <img alt=\"Sjóferð um sundin í 30 ár\" loading=\"lazy\" width=\"3240\" height=\"2160\" decoding=\"async\" data-nimg=\"1\" style=\"color:transparent\"…",
-      "url": "https://www.faxafloahafnir.is/article/matradur-viltu-vera-hluti-af-oflugri-lidsheild",
+      "source": "fjardabyggdarhafnir-yfirlit",
+      "title": "Fjarðabyggðarhafnir",
+      "entity": "Fjarðabyggðarhafnir",
+      "status": "reference",
+      "summary": "Breiðdalsvíkurhöfn | Fjarðabyggðarhafnir Fara í efni Upplýsingar Gjaldskrá Schedule of charges Lög og reglugerðir Veðurstöðvar Farþegaskip Hafnarþjónusta Hafnarvogir Hafnsaga Dráttarbátur Önnur þjónusta - rafmagn, vatn og sorp Höfnin Um okkur 123 forever Starfsmenn Hafnarstjórn Fréttir Fundargerðir Fjarðabyggðarhafnir Breiðdalsvíkurhöfn Eskifjarðarhöfn Fásk…",
+      "url": "https://www.fjardabyggdarhafnir.is/is/fjardabyggdarhafnir",
       "keywords_matched": [
+        "framkvæmd"
+      ]
+    },
+    {
+      "id": "announcement:carbfix-coda-terminal:coda-terminal",
+      "lane": "announcement",
+      "source": "carbfix-coda-terminal",
+      "title": "Coda Terminal",
+      "entity": "Carbfix",
+      "status": "project",
+      "summary": "Carbfix",
+      "url": "https://www.carbfix.com/coda-terminal",
+      "keywords_matched": [
+        "framkvæmd",
         "umhverfismat"
+      ]
+    },
+    {
+      "id": "announcement:betri-samgongur-verksja:verksja-samgongusattmalans",
+      "lane": "announcement",
+      "source": "betri-samgongur-verksja",
+      "title": "Verksjá.is",
+      "entity": "Betri samgöngur",
+      "status": "tracker",
+      "summary": "Verksja.is er upplýsingagátt þar sem finna má upplýsingar um allar helstu framkvæmdir sem heyra undir Samgöngusáttmálann.",
+      "url": "https://betrisamgongur.is/verksja-samgongusattmalans/",
+      "keywords_matched": [
+        "framkvæmd",
+        "samgöngur"
       ]
     }
   ]
