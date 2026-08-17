@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated": "2026-08-17T08:15:13Z",
+  "generated": "2026-08-17T08:49:02Z",
   "window": {
     "from": "2026-08-10",
     "to": "2026-08-17"
@@ -119,7 +119,8 @@
       "sources": [
         "samradsgatt",
         "reglugerd",
-        "byggingarreglugerd"
+        "byggingarreglugerd",
+        "althingi-thingmalaskra"
       ],
       "entities": [
         "Fjármála- og efnahagsráðuneytið",
@@ -127,7 +128,6 @@
         "Umhverfis-, orku- og loftslagsráðuneytið"
       ],
       "not_covered": {
-        "althingi": "althingi.is returned HTTP 403 from this host for XML and normal HTML endpoints",
         "hms": "hms.is returned HTTP 429 from this host"
       },
       "topics": [
@@ -143,7 +143,13 @@
       "samradsgatt_statuses": [
         "Til umsagnar"
       ],
-      "reglugerd_window": "2026 current-year keyword search plus newest regulations page"
+      "reglugerd_window": "2026 current-year keyword search plus newest regulations page",
+      "althingi_thingmalaskra": {
+        "url": "https://www.althingi.is/thingstorf/leidbeiningar-og-yfirlit/thingmalaskra-rikisstjornar/",
+        "access": "r.jina.ai markdown fallback",
+        "max_pdf_links": 4,
+        "max_pdf_snippets": 5
+      }
     }
   },
   "sources": {
@@ -154,7 +160,6 @@
         "audlindagardurinn": "audlindagardurinn.is redirects to hsorka.is; using HS Orka Auðlindagarðurinn page instead"
       },
       "legislation": {
-        "althingi": "althingi.is returned HTTP 403 from this host for XML and normal HTML endpoints",
         "hms": "hms.is returned HTTP 429 from this host"
       },
       "planning_supplement": {
@@ -299,11 +304,41 @@
           "url": "https://skipulag.is/umhverfismat-framkvaemda/framkvaemdir-hadar-mati",
           "error": "HTTP 404"
         }
+      },
+      "source_status": {
+        "althingi-thingmalaskra": {
+          "url": "https://www.althingi.is/thingstorf/leidbeiningar-og-yfirlit/thingmalaskra-rikisstjornar/",
+          "access": "r.jina.ai markdown fallback",
+          "pdf_links_found": 4,
+          "latest_pdf": "https://www.althingi.is/media/uncategorized/Endurskodud-aaetlun-um-framlagningu-thingmala-a-vetrar-og-vorthingi-2026-lokautgafa-leidrettX.pdf"
+        }
       }
     }
   },
-  "count": 349,
+  "count": 350,
   "items": [
+    {
+      "id": "legislation:althingi-thingmalaskra:endurskodud-aaetlun-um-framlagningu-thingmala-a-vetrar-og-vorthingi-2026-lokautg",
+      "lane": "legislation",
+      "source": "althingi-thingmalaskra",
+      "doc_type": "parliamentary",
+      "title": "Endurskoðuð þingmálaskrá fyrir 157. löggjafarþing",
+      "entity": "Alþingi",
+      "status": "tracker",
+      "date": "2026-08-17",
+      "summary": "13. Frumvarp til laga um breytingu á lögum um mannvirki, nr. 160/2010 (einföldun byggingarreglugerðar og endurskoðun byggingareftirlits). / 14. Frumvarp til laga um breytingu á skipulagslögum nr. 123/2010 (raflínuskipulag). / 2. Frumvarp til laga um breytingu á lögum um stefnur og aðgerðaáætlanir á sviði húsnæðis- og skipulagsmála, samgangna og byggðamála, nr. 30/2023 (stefnumörkun).",
+      "url": "https://www.althingi.is/media/uncategorized/Endurskodud-aaetlun-um-framlagningu-thingmala-a-vetrar-og-vorthingi-2026-lokautgafa-leidrettX.pdf",
+      "index_url": "https://www.althingi.is/thingstorf/leidbeiningar-og-yfirlit/thingmalaskra-rikisstjornar/",
+      "keywords_matched": [
+        "bygging",
+        "mannvirki",
+        "samgöngur",
+        "skipulag",
+        "umhverfismat"
+      ],
+      "case_number": "157. löggjafarþing",
+      "period": "2025–2026"
+    },
     {
       "id": "announcement:byggingar-opnun-utboda:storthjofnadur-hja-eignabyggd-thurfum-ad-standa-saman",
       "lane": "announcement",
@@ -359,7 +394,7 @@
       "status": "Grenndarkynning",
       "date": "2026-08-14",
       "review_deadline": "2026-09-11",
-      "summary": "Óveruleg breyting á deiliskipulagi í samræmi við 2. mgr. 43. gr. skipulagslaga. Brynja leigufélag ses. sækir um lóðina Álfadalur 1-7. Í samstarfi við Reykjanesbæ hefur félagið áform um að reisa 7 íbúða raðhús fyrir öryrkja á lóðinni. Einnig er óskað eftir heimild til að gera breytingu á deiliskipulagi umræddrar lóðar til samræmis við fyrirhuguð áform. Samkv…",
+      "summary": "Óveruleg breyting á deiliskipulagi í samræmi við 2. mgr. 43. gr. skipulagslaga. Brynja leigufélag ses. sækir um lóðina Álfadalur 1-7. Í samstarfi við Reykjanesbæ hefur félagið áform um að reisa 6 íbúða raðhús fyrir öryrkja á lóðinni. Einnig er óskað eftir heimild til að gera breytingu á deiliskipulagi umræddrar lóðar til samræmis við fyrirhuguð áform. Samkv…",
       "url": "https://skipulagsgatt.is/issues/5311"
     },
     {
