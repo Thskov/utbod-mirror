@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "generated": "2026-08-17T08:17:13Z",
-  "generated_at": "2026-08-17T08:17:13Z",
+  "generated": "2026-08-17T08:51:10Z",
+  "generated_at": "2026-08-17T08:51:10Z",
   "sources": {
     "utbodsvefur": {
-      "generated_at": "2026-08-17T08:17:13.350874+00:00",
+      "generated_at": "2026-08-17T08:51:10.515649+00:00",
       "count": 49,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders.json"
     },
     "offportal": {
-      "generated": "2026-08-17T08:17:13Z",
-      "count": 21,
+      "generated": "2026-08-17T08:51:10Z",
+      "count": 22,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders_offportal.json"
     },
     "not_covered": [
@@ -22,17 +22,17 @@
       {
         "source": "nlsh",
         "url": "https://www.nlsh.is/utbodi",
-        "reason": "HTTP 429 / Vercel security checkpoint from this host"
+        "reason": "HTTP 429 / Vercel security checkpoint from this host; buyer is approved and covered via utbodsvefur"
       },
       {
         "source": "landsnet",
         "url": "https://utbod.landsnet.is/",
-        "reason": "tender portal returned HTTP 403 from this host"
+        "reason": "tender portal returned HTTP 403 from this host; buyer is approved and covered via utbodsvefur"
       },
       {
         "source": "hsorka",
         "url": "https://www.hsorka.is/um-okkur/utbod/",
-        "reason": "configured tender URL returned HTTP 404"
+        "reason": "configured tender URL returned HTTP 404 and probably is not a current tender source"
       },
       {
         "source": "kadeco",
@@ -40,7 +40,7 @@
         "reason": "configured tender URL returned HTTP 404"
       },
       {
-        "source": "felagsstofnun-studenta",
+        "source": "fjarsyslan-rikisins",
         "url": "https://www.fs.is/utbod",
         "reason": "configured tender URL returned HTTP 404"
       },
@@ -51,47 +51,231 @@
       }
     ],
     "buyer_register": [
+      "akureyrarbær",
+      "alcoa fjarðaál",
+      "atnorth",
       "betri samgöngur ohf",
+      "borealis data center",
+      "climeworks",
+      "faxaflóahafnir",
       "fjársýslan",
+      "fjársýslan ríkisins",
       "framkvæmdasýslan ríkiseignir fsre",
       "garðabær",
+      "geosalmo",
+      "grindavíkurbær",
+      "hs veitur",
+      "hs veitur hf",
+      "hydros",
       "isavia",
       "isavia ans",
       "landsnet hf",
       "landspítali",
       "landsvirkjun",
+      "laxey",
       "mosfellsbær",
+      "norðurorka",
+      "norðurorka hf",
+      "norðurál",
       "nýr landspítali nlsh ohf",
+      "ofanflóðasjóður",
+      "ofanflóðasjóður veðurstofa íslands",
       "orka náttúrunnar on",
       "orkubú vestfjarða ohf",
       "orkuveita reykjavíkur",
+      "rarik",
+      "rarik ohf",
       "reykjavíkurborg",
+      "rio tinto isal",
+      "sjúkrahúsið á akureyri",
       "sveitarfélagið hornafjörður",
+      "sveitarfélagið ölfus",
       "ted iceland buyer",
+      "thor landeldi hydros",
       "vegagerðin",
-      "veitur ohf"
+      "veitur ohf",
+      "verne global",
+      "veðurstofa íslands"
     ],
     "buyer_aliases": {
+      "akureyri": "Akureyrarbær",
+      "akureyrarbær": "Akureyrarbær",
+      "alcoa fjardaál": "Alcoa Fjarðaál",
+      "alcoa fjarðaál": "Alcoa Fjarðaál",
+      "at north": "atNorth",
+      "atnorth": "atNorth",
+      "borealis": "Borealis Data Center",
+      "borealis data center": "Borealis Data Center",
+      "climeworks": "Climeworks",
+      "faxafloahafnir": "Faxaflóahafnir",
+      "faxaflóahafnir": "Faxaflóahafnir",
+      "fjársýslan": "Fjársýslan ríkisins",
+      "fjársýslan ríkisins": "Fjársýslan ríkisins",
       "framkvæmdasýslan ríkiseignir": "Framkvæmdasýslan ríkiseignir (FSRE)",
       "framkvæmdasýslan ríkiseignir fsre": "Framkvæmdasýslan ríkiseignir (FSRE)",
       "fsre framkvæmdasýslan ríkiseignir": "Framkvæmdasýslan ríkiseignir (FSRE)",
+      "geosalmo": "GeoSalmo",
+      "grindavík": "Grindavíkurbær",
+      "grindavíkurbær": "Grindavíkurbær",
+      "grindavik": "Grindavíkurbær",
+      "grindavikurbaer": "Grindavíkurbær",
+      "hs veitur": "HS Veitur",
+      "hs veitur hf": "HS Veitur",
+      "hydros": "Thor Landeldi / Hydros",
       "landsnet": "Landsnet hf.",
       "landsnet hf": "Landsnet hf.",
+      "laxey": "Laxey",
+      "norðurorka": "Norðurorka",
+      "norðurorka hf": "Norðurorka",
+      "norðural": "Norðurál",
+      "norðurál": "Norðurál",
       "nlsh ohf": "Nýr Landspítali (NLSH ohf.)",
       "nýr landspítali": "Nýr Landspítali (NLSH ohf.)",
       "nýr landspítali nlsh ohf": "Nýr Landspítali (NLSH ohf.)",
+      "ofanflóðasjóður": "Ofanflóðasjóður / Veðurstofa Íslands",
       "orka náttúrunnar ohf": "Orka náttúrunnar (ON)",
       "orka náttúrunnar on": "Orka náttúrunnar (ON)",
       "orkuveita reykjavíkur sef": "Orkuveita Reykjavíkur",
       "orkuveita reykjavíkur": "Orkuveita Reykjavíkur",
+      "rarik": "RARIK",
+      "rarik ohf": "RARIK",
       "reykjavík energy veitur": "Orkuveita Reykjavíkur",
       "reykjavik energy veitur": "Orkuveita Reykjavíkur",
+      "rio tinto": "Rio Tinto ISAL",
+      "rio tinto isal": "Rio Tinto ISAL",
+      "sak": "Sjúkrahúsið á Akureyri",
+      "sjúkrahúsið á akureyri": "Sjúkrahúsið á Akureyri",
+      "sveitarfélagið ölfus": "Sveitarfélagið Ölfus",
+      "thor landeldi": "Thor Landeldi / Hydros",
+      "thor landeldi hydros": "Thor Landeldi / Hydros",
+      "þór landeldi": "Thor Landeldi / Hydros",
       "veitur": "Veitur ohf.",
-      "veitur ohf": "Veitur ohf."
+      "veitur ohf": "Veitur ohf.",
+      "vedurstofa islands": "Veðurstofa Íslands",
+      "veðurstofa íslands": "Veðurstofa Íslands",
+      "verne": "Verne Global",
+      "verne global": "Verne Global"
     },
+    "watchlist_tiers": [
+      {
+        "tier": "top",
+        "mode": "direct_source_or_approved_buyer",
+        "entries": [
+          {
+            "name": "RARIK",
+            "url": "https://www.rarik.is/utbod-og-framkvaemdir",
+            "status": "active_direct_source",
+            "source": "rarik-intend"
+          },
+          {
+            "name": "HS Veitur",
+            "url": "https://www.hsveitur.is/um-hs-veitur/utgefid-efni/utbod/",
+            "status": "active_direct_source",
+            "source": "hsveitur-intend"
+          },
+          {
+            "name": "Norðurorka",
+            "url": "https://www.no.is/",
+            "status": "approved_buyer_metadata",
+            "note": "no current tender endpoint identified; historic tender notices appear as news posts"
+          },
+          {
+            "name": "Sveitarfélagið Ölfus",
+            "url": "https://www.olfus.is/",
+            "status": "approved_buyer_metadata",
+            "note": "tender notices appear as municipal news/Ajour links, not a stable current feed"
+          },
+          {
+            "name": "Grindavíkurbær",
+            "url": "https://www.grindavik.is/innkaup-og-utbod",
+            "status": "approved_buyer_metadata",
+            "note": "public procurement information page, not a current tender feed"
+          }
+        ]
+      },
+      {
+        "tier": "second",
+        "mode": "approved_buyer_via_utbodsvefur_or_ted",
+        "entries": [
+          {
+            "name": "Fjársýslan ríkisins"
+          },
+          {
+            "name": "Akureyrarbær"
+          },
+          {
+            "name": "Faxaflóahafnir"
+          },
+          {
+            "name": "Ofanflóðasjóður / Veðurstofa Íslands"
+          }
+        ]
+      },
+      {
+        "tier": "third",
+        "mode": "monitoring_alias_only",
+        "entries": [
+          {
+            "name": "GeoSalmo"
+          },
+          {
+            "name": "Thor Landeldi / Hydros"
+          },
+          {
+            "name": "Laxey"
+          },
+          {
+            "name": "atNorth"
+          },
+          {
+            "name": "Borealis Data Center"
+          },
+          {
+            "name": "Verne Global"
+          },
+          {
+            "name": "Climeworks"
+          },
+          {
+            "name": "Norðurál"
+          },
+          {
+            "name": "Rio Tinto ISAL"
+          },
+          {
+            "name": "Alcoa Fjarðaál"
+          },
+          {
+            "name": "Sjúkrahúsið á Akureyri"
+          }
+        ]
+      }
+    ],
+    "completeness_flags": [
+      {
+        "project": "Endurbygging ofanflóðavarna á Flateyri",
+        "status": "off_feed_watch",
+        "note": "track under Ofanflóðasjóður / Veðurstofa Íslands if absent from active tender feeds"
+      },
+      {
+        "project": "Veitukerfi vegna Mammútsstöðvar",
+        "status": "off_feed_watch",
+        "note": "private/industrial infrastructure watch item; do not synthesize tender rows"
+      },
+      {
+        "project": "Fráveita – Endurbætur",
+        "status": "off_feed_watch",
+        "note": "municipal/utilities completeness check item"
+      },
+      {
+        "project": "Varmárvöllur – aðalvöllur og frjálsíþróttaaðstaða",
+        "status": "off_feed_watch",
+        "note": "municipal project completeness check item"
+      }
+    ],
     "source_candidates": []
   },
-  "count": 63,
+  "count": 64,
   "items": [
     {
       "reference": "478468-2026",
@@ -138,7 +322,7 @@
     {
       "reference": "23376",
       "project": "Rafbílar fyrir Vegagerðina",
-      "buyer": "Fjársýslan",
+      "buyer": "Fjársýslan ríkisins",
       "notice_type": "Vörukaup",
       "deadline": "18.08.2026 kl. 09:00",
       "deadline_local": "2026-08-18T09:00:00+00:00",
@@ -320,7 +504,7 @@
     {
       "reference": "23416",
       "project": "Gagnsæistilkynning (VEAT) vegna upptöku og viðhalds á vél fyrir Hafrannsóknastofnun",
-      "buyer": "Fjársýslan",
+      "buyer": "Fjársýslan ríkisins",
       "notice_type": "Gagnsæistilkynning (VEAT)",
       "deadline": "24.08.2026 kl. 08:00",
       "deadline_local": "2026-08-24T08:00:00+00:00",
@@ -334,7 +518,7 @@
     {
       "reference": "23329",
       "project": "Stafræn skeytamiðlun um PEPPOL-netið",
-      "buyer": "Fjársýslan",
+      "buyer": "Fjársýslan ríkisins",
       "notice_type": "Þjónusta",
       "deadline": "24.08.2026 kl. 09:00",
       "deadline_local": "2026-08-24T09:00:00+00:00",
@@ -530,7 +714,7 @@
     {
       "reference": "23380",
       "project": "Bifreiðakaup fyrir Matvælastofnun",
-      "buyer": "Fjársýslan",
+      "buyer": "Fjársýslan ríkisins",
       "notice_type": "Vörukaup",
       "deadline": "01.09.2026 kl. 09:00",
       "deadline_local": "2026-09-01T09:00:00+00:00",
@@ -544,7 +728,7 @@
     {
       "reference": "23384",
       "project": "Markaðsráðgjöf, framleiðsla auglýsinga og skapandi vinna fyrir Happdrætti Háskóla Íslands",
-      "buyer": "Fjársýslan",
+      "buyer": "Fjársýslan ríkisins",
       "notice_type": "Þjónusta",
       "deadline": "01.09.2026 kl. 12:00",
       "deadline_local": "2026-09-01T12:00:00+00:00",
@@ -796,7 +980,7 @@
     {
       "reference": "23238",
       "project": "Söfnun og flutningur á dýraleifum fyrir Atvinnuvegaráðuneytið",
-      "buyer": "Fjársýslan",
+      "buyer": "Fjársýslan ríkisins",
       "notice_type": "Þjónusta",
       "deadline": "16.09.2026 kl. 12:00",
       "deadline_local": "2026-09-16T12:00:00+00:00",
@@ -946,6 +1130,20 @@
       "url": "https://in-tendhost.co.uk/reykjavikenergy/aspx/ProjectManage/580",
       "summary": "Kaupandi óskar eftir þátttakendum í gagnvirkt innkaupakerfi (GIK) fyrir laus húsgögn fyrir höfuðstöðvar Orkuveitunnar í samræmi við útboðsgögn. Umsóknir opnast í útboðskerfi kaupanda um leið og þær berast og verða þær yfirfarnar af kaupanda eins fljótt og auðið er eftir afhendingu frá umsækjanda. Umsækjendur eru hvattir til að senda inn umsóknir eins fljótt og auðið er eftir birtingu útboðstilkynningar til að tryggj…",
       "source": "or-intend"
+    },
+    {
+      "reference": "RARIK 25040",
+      "project": "25040 GAGNVIRKT INNKAUPAKERFI - RÁÐGJAFAR",
+      "buyer": "RARIK",
+      "notice_type": "$prjTenderProcessSupplies",
+      "deadline": "31.12.2033 kl. 12:00",
+      "deadline_local": "2033-12-31T12:00:00+00:00",
+      "deadline_utc": "2033-12-31T12:00:00+00:00",
+      "posted_at": null,
+      "modified_at": null,
+      "url": "https://utbod.rarik.is/aspx/ProjectManage/54",
+      "summary": "Rarik ohf., kt. 520269-2669, (hér eftir nefnt „kaupandi“), óskar eftir aðilum til þátttöku í samningi um ráðgjafarþjónustu sem fram fer í gegnum gagnvirkt innkaupakerfi eins og það er skilgreint í 55. gr. reglugerðar nr. 340/2017",
+      "source": "rarik-intend"
     },
     {
       "reference": "U24020",
