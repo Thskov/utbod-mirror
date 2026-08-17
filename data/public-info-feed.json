@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated": "2026-08-15T09:03:11Z",
+  "generated": "2026-08-17T06:45:01Z",
   "window": {
-    "from": "2026-08-08",
-    "to": "2026-08-15"
+    "from": "2026-08-10",
+    "to": "2026-08-17"
   },
   "coverage": {
     "municipalities": [
@@ -1599,19 +1599,6 @@
       "review_deadline": "2026-08-28",
       "summary": "Bæjarráð í umboði bæjarstjórnar samþykkti á fundi þann 25. júní 2026 að auglýsa breytingu á deiliskipulagi fyrir Iðjustíg 1 skv 1. mgr 41. greinar skipulagslaga. Reiturinn afmarkast af Hafnargötu, Iðjustíg og Pósthússtræti. Inntak breytingar á deiliskipulagi er sameining lóða Iðjustígs 1 og hluta lóðar Hafnargötu 91, með tillögu að uppbyggingu hornhúss fyri…",
       "url": "https://skipulagsgatt.is/issues/5163"
-    },
-    {
-      "id": "skgatt:0758/2026",
-      "lane": "planning",
-      "title": "Breyting á deiliskipulagi Suðurhafnar vegna smáhýsa við Hvaleyrarlón",
-      "entity": "Hafnarfjörður",
-      "case_number": "0758/2026",
-      "plan_type": "deiliskipulag",
-      "status": "Auglýsing tillögu",
-      "date": "2026-06-25",
-      "review_deadline": "2026-08-09",
-      "summary": "Gerð er breyting á deiliskipulagi Suðurhafnar vegna nýrra lóðar við Lónsbraut. Gert er ráð fyrir að á lóðinni rísi sex smáhýsi að hámarki 35 m2 að stærð fyrir skjólstæðinga fjölskyldu og barnamálasviðs.",
-      "url": "https://skipulagsgatt.is/issues/5113"
     },
     {
       "id": "landsrettur:195/2026",
@@ -3779,6 +3766,19 @@
       "review_deadline": "2026-09-03",
       "summary": "Sveitarfélagið Vogar sækir um framkvæmdaleyfi fyrir um 3 km löngum göngu- og hjólastíg frá þéttbýli Voga til vesturs upp á Vogastapa til móts við mislæg gatnamót Reykjanesbæjar og Grindavíkurvegar. Stígurinn verður malbikaður, 2,5 m að breidd og á honum verður lýsing. Verkið felur í sér gröft fyrir stíg, lagningu burðarlags, jöfnunarlag undir malbik, malbik…",
       "url": "https://skipulagsgatt.is/issues/3424"
+    },
+    {
+      "id": "skgatt:1040/2025",
+      "lane": "planning",
+      "title": "Bergvík, nýtt deiliskipulag",
+      "entity": "Suðurnesjabær",
+      "case_number": "1040/2025",
+      "plan_type": "adalskipulag",
+      "status": "Athugun fyrir auglýsingu",
+      "date": "2025-07-22",
+      "review_deadline": "2026-09-12",
+      "summary": "Áætluð aðalskipulagsbreyting tekur mið af framtíðarsýn aðalskipulags fyrir Helguvík og Bergvík og Þróunaráætlun K64 sem er heildræn sýn á þróun nærsvæðis Keflavíkurflugvallar. Þar er gert ráð fyrir að skapist tækifæri til að byggja upp iðnaðar- og athafnasvæði sem hefur verkefnaheitið K64 Hringrásariðngarður, sem byggir á framsýni, nýsköpun, sjálfbærni og h…",
+      "url": "https://skipulagsgatt.is/issues/3697"
     },
     {
       "id": "kaerunefnd:46/2024",
