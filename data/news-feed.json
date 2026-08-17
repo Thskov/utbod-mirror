@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated": "2026-08-17T08:14:25Z",
+  "generated": "2026-08-17T09:08:36Z",
   "window": {
     "from": "2026-07-18",
     "to": "2026-08-17"
@@ -11,6 +11,16 @@
         "source": "byggingar",
         "outlet": "byggingar.is",
         "url": "https://byggingar.is/frettir/"
+      },
+      {
+        "source": "byggingar-borgarlina",
+        "outlet": "byggingar.is / Borgarlína",
+        "url": "https://byggingar.is/?s=Borgarl%C3%ADna&feed=rss2"
+      },
+      {
+        "source": "byggingar-utbod",
+        "outlet": "byggingar.is / niðurstöður útboða",
+        "url": "https://byggingar.is/category/opnun-utboda/feed/"
       },
       {
         "source": "si",
@@ -33,9 +43,19 @@
         "url": "https://www.visir.is/"
       },
       {
+        "source": "visir-fiskeldi",
+        "outlet": "visir.is / Fiskeldi",
+        "url": "https://www.visir.is/t/1174"
+      },
+      {
         "source": "ruv",
         "outlet": "ruv.is",
         "url": "https://www.ruv.is/frettir"
+      },
+      {
+        "source": "ruv-innlent-rss",
+        "outlet": "ruv.is / innlent",
+        "url": "https://www.ruv.is/rss/innlent"
       },
       {
         "source": "heimildin",
@@ -178,6 +198,10 @@
       ],
       "industrial_demand": [
         "first water",
+        "fiskeldi",
+        "lagareldi",
+        "landeldi",
+        "laxeldi",
         "samherji fiskeldi",
         "arnarlax",
         "kaldvík",
@@ -225,8 +249,20 @@
     },
     "source_candidates": []
   },
-  "count": 7,
+  "count": 23,
   "items": [
+    {
+      "id": "news:ruv-innlent-rss:2026-08-16-bruin-yfir-borgarfjord-lokud-i-tvaer-naetur-484075",
+      "lane": "news",
+      "category": "project",
+      "title": "Brúin yfir Borgarfjörð lokuð í tvær nætur",
+      "entity": "ruv.is / innlent",
+      "date": "2026-08-16",
+      "summary": "Hringvegurinn í gegnum Borgarnes frá Borgarbraut að brúnni yfir Borgarfjörð verður lokuð í kvöld, sunnudag, milli klukkan níu til sjö í fyrramálið, vegna fræsingar. Sama lokun verður annað kvöld og fram á þriðjudagsmorgun. Hjáleið um Borgarfjarðarbraut er merkt sunnan við brúna. Vegagerðin vekur athygli á að viðgerðir og aðrar vegaframkvæmdir eiga sér nú st...",
+      "url": "https://www.ruv.is/frettir/innlent/2026-08-16-bruin-yfir-borgarfjord-lokud-i-tvaer-naetur-484075/",
+      "outlet": "ruv.is / innlent",
+      "is_new": true
+    },
     {
       "id": "news:byggingar:storthjofnadur-hja-eignabyggd-thurfum-ad-standa-saman",
       "lane": "news",
@@ -309,6 +345,186 @@
       "summary": "20w.webp');\"> Fjölnota íþróttahús í Borganesi tekið í notkun 11. ágúst 2026 Nýtt fjölnota íþróttahús í Borgarnesi hefur nú náð mikilvægum áfanga. Þann 10. ágúst fór fram öryggisúttekt á nýja húsinu sem gekk afar vel og voru engar athugasemdir skráðar. Virkilega ánægjulegt",
       "url": "https://www.istak.is/fjolnota-irottahus-i-borganesi-teki-i-notkun",
       "outlet": "ÍSTAK",
+      "is_new": false
+    },
+    {
+      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-metatron-ehf-faer-vallarlysingu-i-asg",
+      "lane": "news",
+      "category": "project",
+      "title": "Metatron ehf. fær vallarlýsingu í Ásgarði eftir að lægsta tilboði var hafnað",
+      "entity": "byggingar.is / niðurstöður útboða",
+      "date": "2026-08-11",
+      "summary": "Metatron ehf. fær vallarlýsingu í Ásgarði eftir að lægsta tilboði var hafnað Bæjarráð Garðabæjar hefur samþykkt að taka 59,7 milljóna króna tilboði Metatron ehf. í vallarlýsingu fyrir nýjan knattspyrnuvöll í Ásgarði. Lægstbjóðandi, Vallarverk ehf., uppfyllti ekki skilmála útboðsins og var því gengið að næstlægsta tilboðinu. Málið var tekið fyrir á fundi bæj...",
+      "url": "https://byggingar.is/metatron-ehf-faer-vallarlysingu-i-asgardi-eftir-ad-laegsta-tilbodi-var-hafnad/?utm_source=rss&utm_medium=rss&utm_campaign=metatron-ehf-faer-vallarlysingu-i-asgardi-eftir-ad-laegsta-tilbodi-var-hafnad",
+      "outlet": "byggingar.is / niðurstöður útboða",
+      "is_new": false
+    },
+    {
+      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-fagurverk-ehf-faer-72-3-milljona-verk",
+      "lane": "news",
+      "category": "project",
+      "title": "Fagurverk ehf. fær 72.3 milljóna verk í Skógarhverfi – 40% undir kostnaðaráætlun",
+      "entity": "byggingar.is / niðurstöður útboða",
+      "date": "2026-08-11",
+      "summary": "Fagurverk ehf. fær 72.3 milljóna verk í Skógarhverfi – 40% undir kostnaðaráætlun Bæjarráð Garðabæjar hefur samþykkt að taka 72,3 milljóna króna tilboði Fagurverks ehf. í annan áfanga framkvæmda við veitulagnir og frágang í Skógarhverfi. Tilboðið er tæplega 49 milljónum króna undir kostnaðaráætlun verkkaupa. Málið var tekið fyrir á fundi bæjarráðs Garðabæjar...",
+      "url": "https://byggingar.is/fagurverk-ehf-faer-72-3-milljona-verk-i-skogarhverfi-40-undir-kostnadaraaetlun/?utm_source=rss&utm_medium=rss&utm_campaign=fagurverk-ehf-faer-72-3-milljona-verk-i-skogarhverfi-40-undir-kostnadaraaetlun",
+      "outlet": "byggingar.is / niðurstöður útboða",
+      "is_new": false
+    },
+    {
+      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-fagurverk-ehf-faer-29-6-milljona-verk",
+      "lane": "news",
+      "category": "project",
+      "title": "Fagurverk ehf. fær 29.6 milljóna verk við endurnýjun fráveitulagna á Arnarnesi",
+      "entity": "byggingar.is / niðurstöður útboða",
+      "date": "2026-08-11",
+      "summary": "Fagurverk ehf. fær 29.6 milljóna verk við endurnýjun fráveitulagna á Arnarnesi Bæjarráð Garðabæjar hefur samþykkt að taka 29,6 milljóna króna tilboði Fagurverks ehf. í jarðvinnu, lagnir og frágang vegna endurnýjunar fráveitulagna á Arnarnesi. Tilboðið er um 39% undir kostnaðaráætlun verkkaupa. Málið var tekið fyrir á fundi bæjarráðs Garðabæjar 11. ágúst 202...",
+      "url": "https://byggingar.is/fagurverk-ehf-faer-29-6-milljona-verk-vid-endurnyjun-fraveitulagna-a-arnarnesi/?utm_source=rss&utm_medium=rss&utm_campaign=fagurverk-ehf-faer-29-6-milljona-verk-vid-endurnyjun-fraveitulagna-a-arnarnesi",
+      "outlet": "byggingar.is / niðurstöður útboða",
+      "is_new": false
+    },
+    {
+      "id": "news:byggingar-borgarlina:utm-source-rss-utm-medium-rss-utm-campaign-samid-fyrir-taeplega-1-5-milljarda-um",
+      "lane": "news",
+      "category": "project",
+      "title": "Samið fyrir tæplega 1.5 milljarða um stöðvar og steinefni fyrir Borgarlínu",
+      "entity": "byggingar.is / Borgarlína",
+      "date": "2026-08-09",
+      "summary": "Samið fyrir tæplega 1.5 milljarða um stöðvar og steinefni fyrir Borgarlínu Betri samgöngur hafa gert tvo stóra efniskaupasamninga vegna uppbyggingar fyrstu lotu Borgarlínu. Samningarnir ná annars vegar til framleiðslu og afhendingar á 26 Borgarlínustöðvum og hins vegar til kaupa á granít- og basaltsteinum fyrir stöðvar, brautarpalla og aðliggjandi almenning...",
+      "url": "https://byggingar.is/samid-fyrir-taeplega-1-5-milljarda-um-stodvar-og-steinefni-fyrir-borgarlinu/?utm_source=rss&utm_medium=rss&utm_campaign=samid-fyrir-taeplega-1-5-milljarda-um-stodvar-og-steinefni-fyrir-borgarlinu",
+      "outlet": "byggingar.is / Borgarlína",
+      "is_new": false
+    },
+    {
+      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-tilbodi-upp-a-31-7-milljonir-i-framkv",
+      "lane": "news",
+      "category": "investment",
+      "title": "Tilboði upp á 31.7 milljónir í framkvæmdir við lóð Grundaskóla hafnað",
+      "entity": "byggingar.is / niðurstöður útboða",
+      "date": "2026-08-07",
+      "summary": "Tilboði upp á 31.7 milljónir í framkvæmdir við lóð Grundaskóla hafnað Skipulags- og umhverfisráð Akraness hefur hafnað eina tilboðinu sem barst í verðkönnun vegna framkvæmda á lóð Grundaskóla. Tilboðið var rúmlega 32% yfir kostnaðaráætlun verksins og verður verkefnið í staðinn endurskoðað með það að markmiði að bjóða það síðar út í heild. Á fundi Skipulags-...",
+      "url": "https://byggingar.is/tilbodi-upp-a-31-7-milljonir-i-framkvaemdir-vid-lod-grundaskola-hafnad/?utm_source=rss&utm_medium=rss&utm_campaign=tilbodi-upp-a-31-7-milljonir-i-framkvaemdir-vid-lod-grundaskola-hafnad",
+      "outlet": "byggingar.is / niðurstöður útboða",
+      "is_new": false
+    },
+    {
+      "id": "news:visir-fiskeldi:island-i-theirri-sjaldgaefu-stodu-ad-geta-i-raun-akvedid-hvada-hagvoxt-vid-vilju",
+      "lane": "news",
+      "category": "industrial-demand",
+      "title": "Ís­land í þeirri sjald­gæfu stöðu að geta í raun á­kveðið hvaða hag­vöxt við viljum",
+      "entity": "visir.is / Fiskeldi",
+      "date": "2026-08-06",
+      "summary": "Forstjóri eins stærsta fjárfestingafélags landsins brýnir stjórnvöld til að taka forystu í að breyta umræðu um efnahagsmál og rekstur fyrirtækja og segir tal um „ofsagróða“ á villigötum heldur hafi þvert móti arðsemi og samkeppnisstaða fyrirtækja „átt undir högg að sækja,“ einkum vegna aukinnar gjaldtöku hins opinbera, hárra launa og hás vaxtastigs. Hann se...",
+      "url": "https://www.visir.is/g/20262918030d/island-i-theirri-sjaldgaefu-stodu-ad-geta-i-raun-akvedid-hvada-hagvoxt-vid-viljum",
+      "outlet": "visir.is / Fiskeldi",
+      "is_new": false
+    },
+    {
+      "id": "news:visir-fiskeldi:fer-fra-laxeldi-i-eldri-borgara",
+      "lane": "news",
+      "category": "industrial-demand",
+      "title": "Fer frá lax­eldi í eldri borgara",
+      "entity": "visir.is / Fiskeldi",
+      "date": "2026-08-06",
+      "summary": "Jónas Heiðar Birgisson hefur verið ráðinn sem fjármálastjóri Sjómannadagsráðs en undir ráðið heyra Hrafnistuheimilin, DAS íbúðir, og Happdrætti Das. Jónas Heiðar tekur við af Kristjáni Björgvinssyni, sem lætur nú af störfum eftir átta ár hjá Sjómannadagsráði.",
+      "url": "https://www.visir.is/g/20262918010d/fer-fra-laxeldi-i-eldri-borgara",
+      "outlet": "visir.is / Fiskeldi",
+      "is_new": false
+    },
+    {
+      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-skering-ehf-med-laegsta-tilbodid-i-ef",
+      "lane": "news",
+      "category": "project",
+      "title": "Skering ehf. með lægsta tilboðið í efnisvinnslu á Vestfjörðum",
+      "entity": "byggingar.is / niðurstöður útboða",
+      "date": "2026-08-05",
+      "summary": "Skering ehf. með lægsta tilboðið í efnisvinnslu á Vestfjörðum Skering ehf. á Hvalseyri átti lægsta tilboðið þegar Vegagerðin opnaði tilboð í efnisvinnslu fyrir malarslitlög á Vestfjörðum fyrir árin 2026–2027. Tilboðið er rúmlega 22% undir kostnaðaráætlun verkkaupa. Tilboð voru opnuð 4. ágúst 2026 í útboði Vegagerðarinnar „Efnisvinnsla á Vestfjörðum 2026–202...",
+      "url": "https://byggingar.is/skering-ehf-med-laegsta-tilbodid-i-efnisvinnslu-a-vestfjordum/?utm_source=rss&utm_medium=rss&utm_campaign=skering-ehf-med-laegsta-tilbodid-i-efnisvinnslu-a-vestfjordum",
+      "outlet": "byggingar.is / niðurstöður útboða",
+      "is_new": false
+    },
+    {
+      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-eitt-tilbod-barst-i-endurgerd-leiksva",
+      "lane": "news",
+      "category": "investment",
+      "title": "Eitt tilboð barst í endurgerð leiksvæðis við Hringbraut 60 í Vesturbæ",
+      "entity": "byggingar.is / niðurstöður útboða",
+      "date": "2026-08-05",
+      "summary": "Eitt tilboð barst í endurgerð leiksvæðis við Hringbraut 60 í Vesturbæ Aðeins eitt tilboð barst í verðfyrirspurn Reykjavíkurborgar vegna endurgerðar opins leiksvæðis við Hringbraut 60 í Vesturbæ. Tilboðið var rúmlega 53% yfir kostnaðaráætlun verkkaupa. Tilboð voru opnuð 5. ágúst 2026 í verðfyrirspurn umhverfis- og skipulagssviðs Reykjavíkurborgar nr. 16343,...",
+      "url": "https://byggingar.is/eitt-tilbod-barst-i-endurgerd-leiksvaedis-vid-hringbraut-60-i-vesturbae/?utm_source=rss&utm_medium=rss&utm_campaign=eitt-tilbod-barst-i-endurgerd-leiksvaedis-vid-hringbraut-60-i-vesturbae",
+      "outlet": "byggingar.is / niðurstöður útboða",
+      "is_new": false
+    },
+    {
+      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-steypustodin-a-dalvik-faer-lika-samni",
+      "lane": "news",
+      "category": "project",
+      "title": "Steypustöðin á Dalvík fær líka samning um gatnagerð í Birkihólum",
+      "entity": "byggingar.is / niðurstöður útboða",
+      "date": "2026-08-04",
+      "summary": "Steypustöðin á Dalvík fær líka samning um gatnagerð í Birkihólum Byggðaráð Dalvíkurbyggðar hefur samþykkt að ganga til samninga við Steypustöðina á Dalvík ehf. um gatnagerð í Birkihólum eftir að tvö tilboð bárust í útboð framkvæmdarinnar. Á fundi byggðaráðs þann 30. júlí 2026 var fjallað um niðurstöðu útboðsins „Birkihólar, gatnagerð“, en tilboð voru opnuð...",
+      "url": "https://byggingar.is/steypustodin-a-dalvik-faer-lika-samning-um-gatnagerd-i-birkiholum/?utm_source=rss&utm_medium=rss&utm_campaign=steypustodin-a-dalvik-faer-lika-samning-um-gatnagerd-i-birkiholum",
+      "outlet": "byggingar.is / niðurstöður útboða",
+      "is_new": false
+    },
+    {
+      "id": "news:byggingar-borgarlina:utm-source-rss-utm-medium-rss-utm-campaign-naeturborun-i-sjo-lokid-og-verktakar-",
+      "lane": "news",
+      "category": "project",
+      "title": "Næturborun í sjó lokið og verk­takar þakka í­búum þolin­mæðina",
+      "entity": "byggingar.is / Borgarlína",
+      "date": "2026-08-04",
+      "summary": "Næturborun í sjó lokið og verk­takar þakka í­búum þolin­mæðina Síðustu vikur hefur borun staðið yfir að næturlagi í sjónum úti fyrir Kársnesi en henni er nú lokið. Borunin er skref í smíði Fossvogsbrúar sem verður 270 metra löng, allt að sautján metra breið og opnar þann 16. júní árið 2028, ef allt fer eftir áætlun. […] The post Næturborun í sjó lokið og ve...",
+      "url": "https://byggingar.is/naeturborun-i-sjo-lokid-og-verktakar-thakka-ibuum-tholinmaedina/?utm_source=rss&utm_medium=rss&utm_campaign=naeturborun-i-sjo-lokid-og-verktakar-thakka-ibuum-tholinmaedina",
+      "outlet": "byggingar.is / Borgarlína",
+      "is_new": false
+    },
+    {
+      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-thrju-tilbod-barust-i-taetara-fyrir-t",
+      "lane": "news",
+      "category": "project",
+      "title": "Þrjú tilboð bárust í tætara fyrir timburúrgang hjá SORPU",
+      "entity": "byggingar.is / niðurstöður útboða",
+      "date": "2026-07-31",
+      "summary": "Þrjú tilboð bárust í tætara fyrir timburúrgang hjá SORPU Þrjú tilboð bárust í EES-útboð Reykjavíkurborgar nr. 16324, sem varðar kaup á tætara fyrir timburúrgang fyrir SORPU bs. Tilboðin voru opnuð í Borgartúni 12–14 þann 31. júlí 2026. Verkefnið felur í sér kaup á tætivél fyrir timburúrgang (Wood Shredding Machine for Wastewood) sem ætlað er að […] The post...",
+      "url": "https://byggingar.is/thrju-tilbod-barust-i-taetara-fyrir-timbururgang-hja-sorpu/?utm_source=rss&utm_medium=rss&utm_campaign=thrju-tilbod-barust-i-taetara-fyrir-timbururgang-hja-sorpu",
+      "outlet": "byggingar.is / niðurstöður útboða",
+      "is_new": false
+    },
+    {
+      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-tvo-tilbod-barust-i-staekkun-seydisfj",
+      "lane": "news",
+      "category": "project",
+      "title": "Tvö tilboð bárust í stækkun Seyðisfjarðarskóla",
+      "entity": "byggingar.is / niðurstöður útboða",
+      "date": "2026-07-30",
+      "summary": "Tvö tilboð bárust í stækkun Seyðisfjarðarskóla Tvö tilboð bárust í útboð vegna byggingar nýrrar skólabyggingar við Seyðisfjarðarskóla. Tilboðin eru nú til yfirferðar hjá Múlaþingi og verður í framhaldinu tekin ákvörðun um næstu skref verkefnisins. Fram kemur í fundargerð Heimastjórnar Seyðisfjarðar frá 30. júlí að útboð vegna nýrrar skólabyggingar hafi veri...",
+      "url": "https://byggingar.is/tvo-tilbod-barust-i-staekkun-seydisfjardarskola/?utm_source=rss&utm_medium=rss&utm_campaign=tvo-tilbod-barust-i-staekkun-seydisfjardarskola",
+      "outlet": "byggingar.is / niðurstöður útboða",
+      "is_new": false
+    },
+    {
+      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-gardyrkjuthjonustan-ehf-med-laegsta-t",
+      "lane": "news",
+      "category": "project",
+      "title": "Garðyrkjuþjónustan ehf. með lægsta tilboðið í yfirborðsfrágang við Frakkastíg 1",
+      "entity": "byggingar.is / niðurstöður útboða",
+      "date": "2026-07-30",
+      "summary": "Garðyrkjuþjónustan ehf. með lægsta tilboðið í yfirborðsfrágang við Frakkastíg 1 Fimm tilboð bárust í verðfyrirspurn Reykjavíkurborgar nr. 16334, sem varðar yfirborðsfrágang borgarlands við Frakkastíg 1. Tilboðin voru opnuð í Borgartúni 12–14 þann 30. júlí 2026. Garðyrkjuþjónustan ehf. lagði fram lægsta tilboðið að fjárhæð 39.554.600 krónur með virðisaukaska...",
+      "url": "https://byggingar.is/gardyrkjuthjonustan-ehf-med-laegsta-tilbodid-i-yfirbordsfragang-vid-frakkastig-1/?utm_source=rss&utm_medium=rss&utm_campaign=gardyrkjuthjonustan-ehf-med-laegsta-tilbodid-i-yfirbordsfragang-vid-frakkastig-1",
+      "outlet": "byggingar.is / niðurstöður útboða",
+      "is_new": false
+    },
+    {
+      "id": "news:visir-fiskeldi:bleikjuvinnslunni-breytt-i-brugghus",
+      "lane": "news",
+      "category": "industrial-demand",
+      "title": "Bleikjuvinnslunni breytt í brugg­hús",
+      "entity": "visir.is / Fiskeldi",
+      "date": "2026-07-22",
+      "summary": "Í byggingu sem áður hýsti vinnslustöð Klausturbleikju er núna verið að innrétta brugghús. Oddviti Skaftárhrepps segist treysta því að bjórinn verði jafngóður og bleikjan var.",
+      "url": "https://www.visir.is/g/20262912614d/bleikjuvinnslunni-breytt-i-brugghus",
+      "outlet": "visir.is / Fiskeldi",
       "is_new": false
     }
   ]
