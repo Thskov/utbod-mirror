@@ -1,23 +1,23 @@
 {
   "schema_version": 1,
-  "generated": "2026-08-17T09:28:21Z",
-  "generated_at": "2026-08-17T09:28:21Z",
+  "generated": "2026-08-17T17:32:06Z",
+  "generated_at": "2026-08-17T17:32:06Z",
   "sources": {
     "utbodsvefur": {
-      "generated_at": "2026-08-17T09:28:21.397996+00:00",
-      "count": 49,
+      "generated_at": "2026-08-17T17:32:05.823732+00:00",
+      "count": 47,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders.json"
     },
     "offportal": {
-      "generated": "2026-08-17T09:28:21Z",
-      "count": 22,
+      "generated": "2026-08-17T17:32:06Z",
+      "count": 20,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders_offportal.json"
     },
     "not_covered": [
       {
         "source": "ted",
         "url": "https://api.ted.europa.eu/v3/notices/search",
-        "reason": "dropped 71 notices: expired deadline"
+        "reason": "dropped 72 notices: expired deadline"
       },
       {
         "source": "nlsh",
@@ -281,50 +281,8 @@
     ],
     "source_candidates": []
   },
-  "count": 64,
+  "count": 61,
   "items": [
-    {
-      "reference": "478468-2026",
-      "project": "IS34-01 Slodagerð, jardvinna og undirstodur",
-      "buyer": "Landsnet hf.",
-      "notice_type": "cn-standard",
-      "deadline": "17.08.2026 kl. 13:00",
-      "deadline_local": "2026-08-17T13:00:00+00:00",
-      "deadline_utc": "2026-08-17T13:00:00+00:00",
-      "posted_at": "2026-07-10",
-      "modified_at": null,
-      "url": "https://ted.europa.eu/en/notice/-/detail/478468-2026",
-      "summary": "TED open Iceland construction contract notice; CPV 45000000, 45000000.",
-      "source": "ted"
-    },
-    {
-      "reference": "IS3&4-01",
-      "project": "IS3&4-01: Slóðagerð, jarðvinna og undirstöður",
-      "buyer": "Landsnet hf.",
-      "notice_type": "Framkvæmd",
-      "deadline": "17.08.2026 kl. 14:00",
-      "deadline_local": "2026-08-17T14:00:00+00:00",
-      "deadline_utc": "2026-08-17T14:00:00+00:00",
-      "posted_at": "2026-07-10T12:53:14+00:00",
-      "modified_at": "2026-07-10T12:53:14+00:00",
-      "url": "https://www.utbodsvefur.is/is34-01-slodagerd-jardvinna-og-undirstodur/",
-      "summary": "Landsnet óskar eftir tilboðum í verkið IS3&4-01. Verkið sem um er fjallað í útboðsgögnum þessum er tvær nýjar loftlínur, Ísallínur 3&4 (IS3 og...",
-      "source": "utbodsvefur"
-    },
-    {
-      "reference": "VEU-2607-0053",
-      "project": "Raforkukaup fyrir Veitur",
-      "buyer": "Veitur ohf.",
-      "notice_type": "Þjónusta",
-      "deadline": "17.08.2026 kl. 14:00",
-      "deadline_local": "2026-08-17T14:00:00+00:00",
-      "deadline_utc": "2026-08-17T14:00:00+00:00",
-      "posted_at": "2026-07-14T09:00:53+00:00",
-      "modified_at": "2026-07-14T09:00:53+00:00",
-      "url": "https://www.utbodsvefur.is/raforkukaup-fyrir-veitur/",
-      "summary": "Um er að ræða útboð á innkaupum á raforku til rekstrar veitukerfa kaupanda (innan og utan notkunarferils) auk kaupa á raforku til að mæta töpum í drei...",
-      "source": "utbodsvefur"
-    },
     {
       "reference": "23376",
       "project": "Rafbílar fyrir Vegagerðina",

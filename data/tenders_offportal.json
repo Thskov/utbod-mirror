@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated": "2026-08-17T09:28:21Z",
-  "generated_at": "2026-08-17T09:28:21Z",
+  "generated": "2026-08-17T17:32:06Z",
+  "generated_at": "2026-08-17T17:32:06Z",
   "sources": {
     "covered": [
       {
@@ -41,7 +41,7 @@
       {
         "source": "ted",
         "url": "https://api.ted.europa.eu/v3/notices/search",
-        "reason": "dropped 71 notices: expired deadline"
+        "reason": "dropped 72 notices: expired deadline"
       },
       {
         "source": "nlsh",
@@ -305,36 +305,8 @@
     ],
     "source_candidates": []
   },
-  "count": 22,
+  "count": 20,
   "items": [
-    {
-      "reference": "478468-2026",
-      "project": "IS34-01 Slodagerð, jardvinna og undirstodur",
-      "buyer": "Landsnet hf.",
-      "notice_type": "cn-standard",
-      "deadline": "17.08.2026 kl. 13:00",
-      "deadline_local": "2026-08-17T13:00:00+00:00",
-      "deadline_utc": "2026-08-17T13:00:00+00:00",
-      "posted_at": "2026-07-10",
-      "modified_at": null,
-      "url": "https://ted.europa.eu/en/notice/-/detail/478468-2026",
-      "summary": "TED open Iceland construction contract notice; CPV 45000000, 45000000.",
-      "source": "ted"
-    },
-    {
-      "reference": "VEU-2607-0053",
-      "project": "VEU-2607-0053 - Raforkukaup fyrir Veitur",
-      "buyer": "Veitur ohf.",
-      "notice_type": "$prjTenderProcessServices",
-      "deadline": "17.08.2026 kl. 14:00",
-      "deadline_local": "2026-08-17T14:00:00+00:00",
-      "deadline_utc": "2026-08-17T14:00:00+00:00",
-      "posted_at": null,
-      "modified_at": null,
-      "url": "https://in-tendhost.co.uk/reykjavikenergy/aspx/ProjectManage/697",
-      "summary": "Um er að ræða útboð á innkaupum á raforku til rekstrar veitukerfa kaupanda (innan og utan notkunarferils) auk kaupa á raforku til að mæta töpum í dreifiveitu rafmagns á veitusvæði kaupanda (nr. 200).",
-      "source": "or-intend"
-    },
     {
       "reference": "432104-2026",
       "project": "Stora-Hraun Security prison - Earthworks",
