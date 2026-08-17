@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated": "2026-08-17T08:49:02Z",
+  "generated": "2026-08-17T09:21:12Z",
   "window": {
     "from": "2026-08-10",
     "to": "2026-08-17"
@@ -113,14 +113,28 @@
     "announcement_not_covered": {
       "landsnet_plans": "Landsnet plan/news paths were not identifiable from static HTML; candidate news URL returns HTTP 404",
       "thingmalaskra": "Stjórnarráðið þingmálaskrá proxy returns a JavaScript shell without static agenda entries",
-      "audlindagardurinn": "audlindagardurinn.is redirects to hsorka.is; using HS Orka Auðlindagarðurinn page instead"
+      "audlindagardurinn": "audlindagardurinn.is redirects to hsorka.is; using HS Orka Auðlindagarðurinn page instead",
+      "hms_browser_collection": "hms.is/frettir remains a browser/alternate-egress candidate; plain fetch from this host returns HTTP 429 and the static page is not scriptable"
     },
+    "strategic_planning_flags": [
+      {
+        "id": "reykjavik-usk-harbour-cluster-2026-08-27",
+        "title_terms": [
+          "Sundahöfn",
+          "Sundagarðar",
+          "Vatnagarðar"
+        ],
+        "label": "Reykjavík USK hafnarskipulagsklasi",
+        "note": "Sundahöfn/Sundagarðar/Vatnagarðar cluster; major harbour planning items with review deadline 2026-08-27"
+      }
+    ],
     "legislation": {
       "sources": [
         "samradsgatt",
         "reglugerd",
         "byggingarreglugerd",
-        "althingi-thingmalaskra"
+        "althingi-thingmalaskra",
+        "althingi-tolfraedi-157"
       ],
       "entities": [
         "Fjármála- og efnahagsráðuneytið",
@@ -149,6 +163,10 @@
         "access": "r.jina.ai markdown fallback",
         "max_pdf_links": 4,
         "max_pdf_snippets": 5
+      },
+      "althingi_tolfraedi_157": {
+        "url": "https://www.althingi.is/thingstorf/tilkynningar/tolfraedi-157.-loggjafarthings-1",
+        "access": "r.jina.ai markdown fallback"
       }
     }
   },
@@ -157,7 +175,8 @@
       "announcements": {
         "landsnet_plans": "Landsnet plan/news paths were not identifiable from static HTML; candidate news URL returns HTTP 404",
         "thingmalaskra": "Stjórnarráðið þingmálaskrá proxy returns a JavaScript shell without static agenda entries",
-        "audlindagardurinn": "audlindagardurinn.is redirects to hsorka.is; using HS Orka Auðlindagarðurinn page instead"
+        "audlindagardurinn": "audlindagardurinn.is redirects to hsorka.is; using HS Orka Auðlindagarðurinn page instead",
+        "hms_browser_collection": "hms.is/frettir remains a browser/alternate-egress candidate; plain fetch from this host returns HTTP 429 and the static page is not scriptable"
       },
       "legislation": {
         "hms": "hms.is returned HTTP 429 from this host"
@@ -311,11 +330,16 @@
           "access": "r.jina.ai markdown fallback",
           "pdf_links_found": 4,
           "latest_pdf": "https://www.althingi.is/media/uncategorized/Endurskodud-aaetlun-um-framlagningu-thingmala-a-vetrar-og-vorthingi-2026-lokautgafa-leidrettX.pdf"
+        },
+        "althingi-tolfraedi-157": {
+          "url": "https://www.althingi.is/thingstorf/tilkynningar/tolfraedi-157.-loggjafarthings-1",
+          "access": "r.jina.ai markdown fallback",
+          "status_lines_found": 4
         }
       }
     }
   },
-  "count": 350,
+  "count": 340,
   "items": [
     {
       "id": "legislation:althingi-thingmalaskra:endurskodud-aaetlun-um-framlagningu-thingmala-a-vetrar-og-vorthingi-2026-lokautg",
@@ -808,7 +832,12 @@
       "date": "2026-07-30",
       "review_deadline": "2026-08-27",
       "summary": "Um er að ræða tillögu að breytingu á skilmálum deiliskipulags Vatnagarða, Eimskips. Í breytingunni felst að heimilt verði að leggja allt að 132 kV jarðstreng í og við götur og gönguleiðir á borgarlandi, samkvæmt tillögu umhverfis- og skipulagsviðs, dags. 30. júní 2026.",
-      "url": "https://skipulagsgatt.is/issues/5271"
+      "url": "https://skipulagsgatt.is/issues/5271",
+      "strategic_flag": "Reykjavík USK hafnarskipulagsklasi",
+      "strategic_note": "Sundahöfn/Sundagarðar/Vatnagarðar cluster; major harbour planning items with review deadline 2026-08-27",
+      "keywords_matched": [
+        "hafnarskipulag"
+      ]
     },
     {
       "id": "skgatt:0915/2026",
@@ -847,7 +876,12 @@
       "date": "2026-07-30",
       "review_deadline": "2026-08-27",
       "summary": "Um er að ræða tillögu að breytingu á skilmálum deiliskipulags Sundahafnar. Í breytingunni felst að heimilt verði að leggja allt að 132 kV jarðstreng í og við götur og gönguleiðir á borgarlandi, samkvæmt tillögu umhverfis- og skipulagsviðs, dags. 30. júní 2026.",
-      "url": "https://skipulagsgatt.is/issues/5268"
+      "url": "https://skipulagsgatt.is/issues/5268",
+      "strategic_flag": "Reykjavík USK hafnarskipulagsklasi",
+      "strategic_note": "Sundahöfn/Sundagarðar/Vatnagarðar cluster; major harbour planning items with review deadline 2026-08-27",
+      "keywords_matched": [
+        "hafnarskipulag"
+      ]
     },
     {
       "id": "skgatt:0912/2026",
@@ -860,7 +894,12 @@
       "date": "2026-07-30",
       "review_deadline": "2026-08-27",
       "summary": "Um er að ræða tillögu að breytingu á skilmálum deiliskipulags Sundagarða 2. Í breytingunni felst að heimilt verði að leggja allt að 132 kV jarðstreng í og við götur og gönguleiðir á borgarlandi, samkvæmt tillögu umhverfis- og skipulagsviðs, dags. 30. júní 2026.",
-      "url": "https://skipulagsgatt.is/issues/5267"
+      "url": "https://skipulagsgatt.is/issues/5267",
+      "strategic_flag": "Reykjavík USK hafnarskipulagsklasi",
+      "strategic_note": "Sundahöfn/Sundagarðar/Vatnagarðar cluster; major harbour planning items with review deadline 2026-08-27",
+      "keywords_matched": [
+        "hafnarskipulag"
+      ]
     },
     {
       "id": "skgatt:0911/2026",
@@ -1206,9 +1245,9 @@
       "entity": "Rangárþing ytra",
       "case_number": "0885/2026",
       "plan_type": "adalskipulag",
-      "status": "Staðfesting",
+      "status": "Endanleg gögn",
       "date": "2026-07-15",
-      "review_deadline": "2026-08-12",
+      "review_deadline": "2026-09-14",
       "summary": "Landsvirkjun hefur óskað eftir að gerð verði minni háttar breyting á staðsetningu efnistökusvæðis við Sigöldu. Um er að ræða efnistökusvæðið E72 sem færist frá núverandi stað og suður fyrir Sigöldugljúfur, á þegar raskað svæði. Skipulagsgögn frá Eflu. Skipulags- og umferðarnefnd samþykkir tillöguna og leggur til að farið verði um málsmeðferð eins og um óver…",
       "url": "https://skipulagsgatt.is/issues/5240"
     },
@@ -1394,21 +1433,6 @@
       "keywords_matched": [
         "umhverfismat"
       ]
-    },
-    {
-      "id": "heradsdomur:S-3995/2025",
-      "lane": "court",
-      "title": "Sækjandi: Héraðssaksóknari (Þorvarður Arnar Ágústsson saksóknarfulltrúi) Ákærðu/sakborningar: Muhammad Younas (Helgi Jóhannesson lögmaður), Iceland tire ehf.",
-      "entity": "Héraðsdómur Reykjaness",
-      "court": "Héraðsdómur Reykjaness",
-      "case_number": "S-3995/2025",
-      "keywords_matched": [
-        "skipulag"
-      ],
-      "status": "ruling",
-      "date": "2026-07-13",
-      "summary": "Sakfellt fyrir skattalagabrot.",
-      "url": "https://island.is/domar/g-1c59c916-3453-477d-ac68-db4ecc9f7a96"
     },
     {
       "id": "skgatt:0865/2026",
@@ -1704,21 +1728,6 @@
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/?newsid=63267ea1-7af0-11f1-b8a4-005056bcde1f&cname=Kærunefnd útboðsmála&cid=e219adb9-4214-11e7-941a-005056bc530c"
     },
     {
-      "id": "heradsdomur:E-1643/2023",
-      "lane": "court",
-      "title": "Stefnendur: Jón Ingvar Pálsson (Gísli Guðni Hall lögmaður) Stefndu: Innheimtustofnun sveitarfélaga (Áslaug Árnadóttir lögmaður)",
-      "entity": "Héraðsdómur Reykjavíkur",
-      "court": "Héraðsdómur Reykjavíkur",
-      "case_number": "E-1643/2023",
-      "keywords_matched": [
-        "skipulag"
-      ],
-      "status": "ruling",
-      "date": "2026-07-08",
-      "summary": "Stefndi var sýknaður af bótakröfu stefnanda vegna brottvikningar úr starfi forstjóra þar sem fallist var á að riftun ráðningarsamnings hefði verið réttmæt.",
-      "url": "https://island.is/domar/g-d6b28d46-234f-4d1c-8b7e-27266aa8ef35"
-    },
-    {
       "id": "skgatt:0848/2026",
       "lane": "planning",
       "title": "Hólagata - breyting á aðalskipulagi M6",
@@ -1980,21 +1989,6 @@
       "url": "https://island.is/domar/g-c97113b5-4d0c-49c0-828a-6205c6a62761"
     },
     {
-      "id": "landsrettur:415/2026",
-      "lane": "court",
-      "title": "A (Þorbjörg Inga Jónsdóttir lögmaður) gegn B (Valgerður Dís Valdimarsdóttir lögmaður)",
-      "entity": "Landsréttur",
-      "court": "Landsréttur",
-      "case_number": "415/2026",
-      "keywords_matched": [
-        "skipulag"
-      ],
-      "status": "ruling",
-      "date": "2026-06-29",
-      "summary": "Kærður var úrskurður héraðsdóms þar sem fallist var á kröfu B um að fram færu opinber skipti til fjárslita milli hans og A. Ágreiningur aðila laut að því hvort bú þeirra skyldi tekið til opinberra skipta til fjárslita hér á landi í tengslum við hjúskaparslit þeirra eða í Bretlandi. Í úrskurði Landsréttar kom fram að A hefði hvorki sýnt fram á að reglur alþjóðlegs einkamálalréttar gætu leitt til þess að málshöfðun he…",
-      "url": "https://island.is/domar/g-257fa35e-d8f7-42fd-aebd-baae901e7bf3"
-    },
-    {
       "id": "skgatt:0808/2026",
       "lane": "planning",
       "title": "Iðjustígur 1",
@@ -2006,21 +2000,6 @@
       "review_deadline": "2026-08-28",
       "summary": "Bæjarráð í umboði bæjarstjórnar samþykkti á fundi þann 25. júní 2026 að auglýsa breytingu á deiliskipulagi fyrir Iðjustíg 1 skv 1. mgr 41. greinar skipulagslaga. Reiturinn afmarkast af Hafnargötu, Iðjustíg og Pósthússtræti. Inntak breytingar á deiliskipulagi er sameining lóða Iðjustígs 1 og hluta lóðar Hafnargötu 91, með tillögu að uppbyggingu hornhúss fyri…",
       "url": "https://skipulagsgatt.is/issues/5163"
-    },
-    {
-      "id": "landsrettur:195/2026",
-      "lane": "court",
-      "title": "A (Oddgeir Einarsson lögmaður) gegn Garðabæ (Magnús Ingvar Magnússon lögmaður), B og C (Ívar Pálsson lögmaður)",
-      "entity": "Landsréttur",
-      "court": "Landsréttur",
-      "case_number": "195/2026",
-      "keywords_matched": [
-        "skipulag"
-      ],
-      "status": "ruling",
-      "date": "2026-06-25",
-      "summary": "A og F eignuðust saman börnin D og E og fór F ein með forsjá barnanna. F afsalaði sér forsjá barnanna til GB og í kjölfarið gerði bærinn varanlega fóstursamninga við B og C um bæði börnin. A höfðaði mál á hendur GB, B og C og krafðist þess að samningarnir yrðu ógiltir með dómi, sem og að ákvörðun barnaverndarþjónustu GB um að synja beiðni A um forsjá barnanna yrði ógilt. Byggði A á því að samningarnir væru haldnir s…",
-      "url": "https://island.is/domar/g-6df7d9d0-db35-48a5-9850-31abd934d7d2"
     },
     {
       "id": "kaerunefnd:9/2025",
@@ -2098,51 +2077,6 @@
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/?newsid=57203fa2-7079-11f1-b8a4-005056bcde1f&cname=Kærunefnd útboðsmála&cid=e219adb9-4214-11e7-941a-005056bc530c"
     },
     {
-      "id": "heradsdomur:E-58/2026",
-      "lane": "court",
-      "title": "Stefnendur: NPA miðstöðin svf. (Guðrún Ásta Lúðvíksdóttir lögmaður) Stefndu: Hafnarfjarðarkaupstaður (Hrafnhildur Kristinsdóttir lögmaður)",
-      "entity": "Héraðsdómur Reykjaness",
-      "court": "Héraðsdómur Reykjaness",
-      "case_number": "E-58/2026",
-      "keywords_matched": [
-        "skipulag"
-      ],
-      "status": "ruling",
-      "date": "2026-06-25",
-      "summary": "Stefnandi höfðaði mál á hendur stefnda þar sem greiðslur stefnda vegna tiltekins einstaklingssamnings um NPA hefðu verið of lágar á árinu 2021. Stefndi var sýknaður af kröfu stefnanda vegna fyrningar.",
-      "url": "https://island.is/domar/g-ed3b0d35-0ef3-4809-bb76-2256822d53dd"
-    },
-    {
-      "id": "heradsdomur:E-3299/2025",
-      "lane": "court",
-      "title": "Stefnendur: A (Marlena Piekarska lögmaður) Stefndu: B (Gunnar Jónsson lögmaður)",
-      "entity": "Héraðsdómur Reykjaness",
-      "court": "Héraðsdómur Reykjaness",
-      "case_number": "E-3299/2025",
-      "keywords_matched": [
-        "skipulag"
-      ],
-      "status": "ruling",
-      "date": "2026-06-25",
-      "summary": "Stefnandi höfðaði mál gegn stefnda og krafðist þess að viðurkennd yrði bótaskylda hans vegna slyss sem stefnandi varð fyrir er hún rann á blautu gólfi við vinnu sína í búningsklefa stefnda og hlaut heilahristing. Kröfu sína reisti stefnandi á því að aðbúnaður á vinnustaðnum hefði verið ófullnægjandi og hálkuviðnámi gólfflísa í búningsklefa ábótavant. Í dómi héraðsdóms var komist að þeirri niðurstöðu að stefnanda haf…",
-      "url": "https://island.is/domar/g-a0dcdd0e-4f04-4338-8166-7d6674d9ba0d"
-    },
-    {
-      "id": "heradsdomur:E-268/2022",
-      "lane": "court",
-      "title": "Stefnendur: Leigufélagið Höfn ehf. (Ingvar Ásmundsson lögmaður) Stefndu: PCC Seaview Residences ehf. (Lúðvík Bergvinsson lögmaður)",
-      "entity": "Héraðsdómur Reykjavíkur",
-      "court": "Héraðsdómur Reykjavíkur",
-      "case_number": "E-268/2022",
-      "keywords_matched": [
-        "skipulag"
-      ],
-      "status": "ruling",
-      "date": "2026-06-24",
-      "summary": "Fallist var á að aðalstefnandi ætti rétt á umsömdum samningsgreiðslum og viðbótargreiðslum vegna aukinnar vinnu og kostnaðar sem leiddu af töfum á afhendingu lóða og ástandi þeirra á verktímanum og sýnt var fram á með fyrirliggjandi matsgerðum. Ekki var talið að aðalstefnandi hefði fært fullnægjandi sönnur fyrir öðrum kostnaði og ekki sýnt fram á að hann hefði áskilið sér rétt til hans með þeim hætti sem verksamning…",
-      "url": "https://island.is/domar/g-7f2826a9-8665-4dde-abda-d362c768887b"
-    },
-    {
       "id": "skgatt:0800/2026",
       "lane": "planning",
       "title": "Breyting á deiliskipulagi Hellnahrauns 1. áfanga vegna Hringhellu 2",
@@ -2154,36 +2088,6 @@
       "review_deadline": "2026-08-12",
       "summary": "Breytingin felur í sér stækkun byggingarreits fyrir núverandi steypustöð og iðnaðarhús um 800 m².",
       "url": "https://skipulagsgatt.is/issues/5155"
-    },
-    {
-      "id": "landsrettur:417/2026",
-      "lane": "court",
-      "title": "Algirdas Skucas (Leó Daðason lögmaður) gegn Geir Gestssyni, skiptastjóra þrotabús PJ ehf. (sjálfur)",
-      "entity": "Landsréttur",
-      "court": "Landsréttur",
-      "case_number": "417/2026",
-      "keywords_matched": [
-        "skipulag"
-      ],
-      "status": "ruling",
-      "date": "2026-06-23",
-      "summary": "Kærður var úrskurður héraðsdóms þar sem A var gert að sæta atvinnurekstrarbanni í tvö ár. Var krafa G meðal annars reist á því að A hefði millifært fjármuni inn á eigin reikning af reikningum félagsins P ehf. á tilteknu tímabili áður en félagið var tekið til gjaldþrotaskipta. Í úrskurði Landsréttar kom meðal annars fram að ekki væru efni til að fallast á með A að umræddar millifærslur yrðu skýrðar sem greiðslur laun…",
-      "url": "https://island.is/domar/g-7cec399d-a147-474d-a55a-fb9057f39533"
-    },
-    {
-      "id": "landsrettur:276/2026",
-      "lane": "court",
-      "title": "A (Daníel Isebarn Ágústsson lögmaður) gegn þrotabúi Vietnam Restaurant ehf. (Arnar Þór Stefánsson lögmaður)",
-      "entity": "Landsréttur",
-      "court": "Landsréttur",
-      "case_number": "276/2026",
-      "keywords_matched": [
-        "skipulag"
-      ],
-      "status": "ruling",
-      "date": "2026-06-23",
-      "summary": "Kærður var úrskurður héraðsdóms þar sem krafa A að fjárhæð 5.194.686 krónur var viðurkennd sem forgangskrafa í þrotabúi VR ehf. en kröfu hans að fjárhæð 4.314.075 krónur var vísað frá dómi. A starfaði á veitingastað VR ehf. þar til aðgerðir lögreglu hófust vegna rannsóknar á fyrirsvarsmanni félagsins og veitingastaðnum lokað. Við gjaldþrotaskipti á VR lýsti A kröfum í þrotabúið á grundvelli 112. gr. laga nr. 21/1991…",
-      "url": "https://island.is/domar/g-6db74a58-e967-4d6e-aa2c-67793becee77"
     },
     {
       "id": "heradsdomur:E-6936/2025",
@@ -2212,6 +2116,22 @@
       "review_deadline": "2026-08-12",
       "summary": "Málsnr. 2025101423",
       "url": "https://skipulagsgatt.is/issues/5138"
+    },
+    {
+      "id": "legislation:althingi-tolfraedi-157",
+      "lane": "legislation",
+      "source": "althingi-tolfraedi-157",
+      "doc_type": "parliamentary_status",
+      "title": "Tölfræði 157. löggjafarþings",
+      "entity": "Alþingi",
+      "status": "tracker",
+      "date": "2026-06-19",
+      "summary": "Þingfundum 157. löggjafarþings var frestað 19. júní. Þingið var að störfum frá 9. september til 18. desember 2025 og frá 14. janúar til 19. júní 2026. Hér hafa verið teknar saman tölfræðilegar upplýsingar um löggjafarþingið. / Af 188 frumvörpum urðu alls 105 að lögum og 83 voru óútrædd og eitt var ekki samþykkt. Af 95 þingsályktunartillögum voru 22 samþykktar og 73 voru óútræddar. / Þingmál til meðferðar í þinginu v…",
+      "url": "https://www.althingi.is/thingstorf/tilkynningar/tolfraedi-157.-loggjafarthings-1",
+      "keywords_matched": [
+        "þingmál",
+        "frumvörp"
+      ]
     },
     {
       "id": "skgatt:0770/2026",
@@ -3050,21 +2970,6 @@
       "url": "https://skipulagsgatt.is/issues/4691"
     },
     {
-      "id": "heradsdomur:31/2025",
-      "lane": "court",
-      "title": "VÍS tryggingar hf. og A hf. (Guðmundur Ómar Hafsteinsson lögmaður) gegn B (Agnar Þór Guðmundsson lögmaður)",
-      "entity": "Hæstiréttur",
-      "court": "Hæstiréttur",
-      "case_number": "31/2025",
-      "keywords_matched": [
-        "skipulag"
-      ],
-      "status": "ruling",
-      "date": "2026-03-18",
-      "summary": "B krafðist viðurkenningar á rétti til skaðabóta úr ábyrgðartryggingu A hf. hjá V hf. vegna líkamstjóns sem hann varð fyrir við störf sín fyrir A hf. á starfsstöð félagsins. Slysið atvikaðist svo að B féll úr 1,55 metra hæð af flatvagni þegar hann var að hífa forsteyptar steypueiningar með bílkrana. Hæstiréttur vísaði til þess að meðal þeirra gagna sem dómarar líti til við frjálst sönnunarmat samkvæmt 1. mgr. 44. gr.…",
-      "url": "https://island.is/domar/s-8D3B40EA-939E-4012-B531-7A4C1F20BEE3"
-    },
-    {
       "id": "skgatt:0290/2026",
       "lane": "planning",
       "title": "Breyting á Deiliskipulagi Miðbær Hraun Vestur - Vitastígur 12a",
@@ -3349,21 +3254,6 @@
       "review_deadline": "2026-09-03",
       "summary": "Áform HS orku felast í meðferð og förgun á útfellingum með aukna náttúrulega geislavirkni (NORM) úr lögnum frá borholum Reykjanesvirkjunar. Hreinsun eigi sér stað við reglubundið viðhald þar sem efnið sé fjarlægt á afmörkuðum hreinsiplönum, en aðalvalkostur framkvæmdaraðila felst í að hýsa úrganginn í aðgangsstýrðu rými í kjallara skiljustöðvarinnar, annaðh…",
       "url": "https://skipulagsgatt.is/issues/4562"
-    },
-    {
-      "id": "heradsdomur:69/2025",
-      "lane": "court",
-      "title": "Sendinefnd Evrópusambandsins á Íslandi (Skúli Bjarnason lögmaður) gegn Tómasi Hilmari Ragnarssyni (Jón Magnússon lögmaður)",
-      "entity": "Hæstiréttur",
-      "court": "Hæstiréttur",
-      "case_number": "69/2025",
-      "keywords_matched": [
-        "skipulag"
-      ],
-      "status": "ruling",
-      "date": "2026-02-13",
-      "summary": "Kærður var úrskurður Landsréttar þar sem máli var vísað frá héraðsdómi á þeim grundvelli að S skorti aðildarhæfi. Hæstiréttur vísaði til þess að ótvírætt væri að Evrópusambandið nyti aðildarhæfis fyrir íslenskum dómstólum. Af gögnum málsins og ákvörðun ráðsins 2010/427 frá 26. júlí 2010 um skipulag og starfshætti evrópsku utanríkisþjónustunnar yrði þó ráðið að S hefði ekki slíkt sjálfstæði að hann nyti aðildarhæfis…",
-      "url": "https://island.is/domar/s-162113B1-863D-4097-955D-9B91D5015730"
     },
     {
       "id": "skgatt:0186/2026",
