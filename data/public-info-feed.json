@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated": "2026-08-17T09:25:11Z",
+  "generated": "2026-08-17T17:30:02Z",
   "window": {
     "from": "2026-08-10",
     "to": "2026-08-17"
@@ -339,8 +339,21 @@
       }
     }
   },
-  "count": 340,
+  "count": 342,
   "items": [
+    {
+      "id": "skgatt:0954/2026",
+      "lane": "planning",
+      "title": "Breyting á deiliskipulagi Kapelluhrauns 2. áfanga vegna Títanhellu 19",
+      "entity": "Hafnarfjörður",
+      "case_number": "0954/2026",
+      "plan_type": "deiliskipulag",
+      "status": "Grenndarkynning",
+      "date": "2026-08-17",
+      "review_deadline": "2026-09-15",
+      "summary": "Á afgreiðslufundi skipulagsfulltrúa þann 12. ágúst 2026 var samþykkt að grenndarkynna í samræmi við 2. mgr. 43. gr. skipulagslaga nr. 123/2010 umsókn eiganda við Títanhellu 19. Breytingin felst í að innkeyrslan inn á lóðina er færð um 21 m, nýtingarhlutfall helst óbreytt.",
+      "url": "https://skipulagsgatt.is/issues/5309"
+    },
     {
       "id": "legislation:althingi-thingmalaskra:endurskodud-aaetlun-um-framlagningu-thingmala-a-vetrar-og-vorthingi-2026-lokautg",
       "lane": "legislation",
@@ -363,45 +376,45 @@
       "case_number": "157. löggjafarþing"
     },
     {
-      "id": "announcement:byggingar-opnun-utboda:storthjofnadur-hja-eignabyggd-thurfum-ad-standa-saman",
+      "id": "announcement:byggingar-opnun-utboda:haustfundur-um-fasteignamarkadinn-hja-hms",
       "lane": "announcement",
       "source": "byggingar-opnun-utboda",
-      "title": "Stórþjófnaður hjá Eignabyggð: „Þurfum að standa saman“",
+      "title": "Haustfundur um fasteignamarkaðinn hjá HMS",
       "entity": "Byggingar.is",
       "status": "published",
-      "date": "2026-08-16",
-      "summary": "rl=\"https://byggingar.is/wp-content/uploads/2026/08/16.08.2026-Storthjofnadur-hja-Eignabyggd-THurfum-ad-standa-saman-a-100x75.jpg\" width=\"100\" height=\"75\" /> Stórþjófnaður hjá Eignabyggð: „Þurfum að standa saman“ 16/08/2026 <div class=\"td_modu",
-      "url": "https://byggingar.is/storthjofnadur-hja-eignabyggd-thurfum-ad-standa-saman/",
+      "date": "2026-08-17",
+      "summary": "ag\" data-img-url=\"https://byggingar.is/wp-content/uploads/2026/08/17.08.2026-Haustfundur-um-fasteignamarkadinn-hja-HMS-100x75.jpg\" width=\"100\" height=\"75\" /> Haustfundur um fasteignamarkaðinn hjá HMS 17/08/2026 <div class=\"td_modu",
+      "url": "https://byggingar.is/haustfundur-um-fasteignamarkadinn-hja-hms/",
       "keywords_matched": [
         "bygging",
         "opinber innkaup"
       ]
     },
     {
-      "id": "announcement:byggingar-opnun-utboda:myndir-nytt-world-class-hotel",
+      "id": "announcement:byggingar-opnun-utboda:hagnadur-breskra-husbyggjenda-dregst-saman",
       "lane": "announcement",
       "source": "byggingar-opnun-utboda",
-      "title": "Myndir: Nýtt World Class hótel",
+      "title": "Hagnaður breskra húsbyggjenda dregst saman",
       "entity": "Byggingar.is",
       "status": "published",
-      "date": "2026-08-16",
-      "summary": "ata-type=\"image_tag\" data-img-url=\"https://byggingar.is/wp-content/uploads/2026/08/16.08.2026-Nytt-World-Class-hotel-a-100x75.jpg\" width=\"100\" height=\"75\" /> Myndir: Nýtt World Class hótel 16/08/2026 <div class=\"td_modu",
-      "url": "https://byggingar.is/myndir-nytt-world-class-hotel/",
+      "date": "2026-08-17",
+      "summary": "g\" data-img-url=\"https://byggingar.is/wp-content/uploads/2026/08/17.08.2026-Hagnadur-breskra-husbyggjenda-dregst-saman-100x75.jpg\" width=\"100\" height=\"75\" /> Hagnaður breskra húsbyggjenda dregst saman 17/08/2026 <div cl",
+      "url": "https://byggingar.is/hagnadur-breskra-husbyggjenda-dregst-saman/",
       "keywords_matched": [
         "bygging",
         "opinber innkaup"
       ]
     },
     {
-      "id": "announcement:byggingar-opnun-utboda:bruin-yfir-borgarfjord-lokud-i-tvaer-naetur",
+      "id": "announcement:byggingar-opnun-utboda:glerjun-hafin-a-ollum-hlidum-huss-heilbrigdisvisindasvids-hi",
       "lane": "announcement",
       "source": "byggingar-opnun-utboda",
-      "title": "Brúin yfir Borgarfjörð lokuð í tvær nætur",
+      "title": "Glerjun hafin á öllum hliðum Húss heilbrigðisvísindasviðs HÍ",
       "entity": "Byggingar.is",
       "status": "published",
-      "date": "2026-08-16",
-      "summary": "\" data-img-url=\"https://byggingar.is/wp-content/uploads/2026/08/16.07.2026-Bruin-yfir-Borgarfjord-lokud-i-tvaer-naetur-100x75.jpg\" width=\"100\" height=\"75\" /> Brúin yfir Borgarfjörð lokuð í tvær nætur 16/08/2026 <div cl",
-      "url": "https://byggingar.is/bruin-yfir-borgarfjord-lokud-i-tvaer-naetur/",
+      "date": "2026-08-17",
+      "summary": "ttps://byggingar.is/wp-content/uploads/2026/08/17.08.2026-Glerjun-hafin-a-ollum-hlidum-Huss-heilbrigdisvisindasvids-HI-100x75.jpg\" width=\"100\" height=\"75\" /> Glerjun hafin á öllum hliðum Húss heilbrigðisvísindasviðs HÍ 17/08/2026 <div class=\"td_modu",
+      "url": "https://byggingar.is/glerjun-hafin-a-ollum-hlidum-huss-heilbrigdisvisindasvids-hi/",
       "keywords_matched": [
         "bygging",
         "opinber innkaup"
@@ -568,7 +581,7 @@
       "case_number": "0940/2026",
       "status": "Grenndarkynning byggingarleyfisumsóknar",
       "date": "2026-08-11",
-      "review_deadline": "2026-09-09",
+      "review_deadline": "2026-09-16",
       "summary": "Um er að ræða umsókn um leyfi til að fjölga eignum með því að byggja nýja hæð og innrétta sem íbúð ofan á einbýlishús á lóð nr. 14 við Tunguveg. Tillagan var grenndarkynnt frá 24. mars 2026 til og með 28. apríl 2026. Athugasemdir bárust. Erindinu var vísað til umsagnar verkefnastjóra á embættisafgreiðslufundi skipulagsfulltrúa 12. maí 2026.",
       "url": "https://skipulagsgatt.is/issues/5295"
     },
@@ -716,7 +729,7 @@
       "plan_type": "adalskipulag",
       "status": "Kynning breytinga",
       "date": "2026-08-10",
-      "review_deadline": "2026-09-10",
+      "review_deadline": "2026-09-24",
       "summary": "Lögð er fram óveruleg breyting á aðalskipulagi Ölfuss vegna framkvæmda við Selfosslínu 1. Línan er í dag loftlína en fyrirhugað er að leggja 132 kv. jarðstreng til að leysa loftlínuna að hólmi.",
       "url": "https://skipulagsgatt.is/issues/5289"
     },
@@ -2690,6 +2703,19 @@
       "review_deadline": "2026-08-20",
       "summary": "Framkvæmdin felur í sér lagningu um 4,23 km 132 kV loftlínu við sunnanverðan Dýrafjörð frá Dýrafjarðargöngum að Dýrafjarðarbrú og er liður í styrkingu flutningskerfisins á Vestfjörðum. Framkvæmdin felst m.a. í slóðagerð, efnistöku, vinnu við plön, undirstöður og stagfestur, reisingu mastra og strengingu leiðara. Einnig er um að ræða sköpun aðstöðu fyrir sta…",
       "url": "https://skipulagsgatt.is/issues/4942"
+    },
+    {
+      "id": "skgatt:0578/2026",
+      "lane": "planning",
+      "title": "Túnin - Miðtún 11 - USK25110361",
+      "entity": "Reykjavík",
+      "case_number": "0578/2026",
+      "plan_type": "deiliskipulag",
+      "status": "Endanleg gögn",
+      "date": "2026-05-11",
+      "review_deadline": "2026-09-14",
+      "summary": "Um er að ræða breytingu á deiliskipulagi Túnanna vegna lóðarinnar nr. 11 við Miðtún. Í breytingunni sem lögð er til felst breyting á stærð bílgeymslu og breyting á skilmálatöflu, bílgeymsla verður vinnustofa, og byggingarreitur fyrir aðalhúsið stækkar til vesturs.",
+      "url": "https://skipulagsgatt.is/issues/4933"
     },
     {
       "id": "skgatt:0424/2026",
