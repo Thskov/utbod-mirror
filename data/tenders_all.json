@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated": "2026-08-17T08:51:10Z",
-  "generated_at": "2026-08-17T08:51:10Z",
+  "generated": "2026-08-17T09:09:39Z",
+  "generated_at": "2026-08-17T09:09:39Z",
   "sources": {
     "utbodsvefur": {
-      "generated_at": "2026-08-17T08:51:10.515649+00:00",
+      "generated_at": "2026-08-17T09:09:39.706809+00:00",
       "count": 49,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders.json"
     },
     "offportal": {
-      "generated": "2026-08-17T08:51:10Z",
+      "generated": "2026-08-17T09:09:39Z",
       "count": 22,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders_offportal.json"
     },
@@ -271,6 +271,12 @@
         "project": "Varmárvöllur – aðalvöllur og frjálsíþróttaaðstaða",
         "status": "off_feed_watch",
         "note": "municipal project completeness check item"
+      },
+      {
+        "project": "Samið fyrir tæplega 1.5 milljarða um stöðvar og steinefni fyrir Borgarlínu",
+        "status": "covered_by_news_source",
+        "url": "https://byggingar.is/samid-fyrir-taeplega-1-5-milljarda-um-stodvar-og-steinefni-fyrir-borgarlinu/",
+        "note": "award/completeness flag from news agent; handled through Byggingar.is tender-results/news coverage rather than synthesized as an active tender"
       }
     ],
     "source_candidates": []
