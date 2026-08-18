@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated": "2026-08-17T17:29:19Z",
+  "generated": "2026-08-18T06:30:01Z",
   "window": {
-    "from": "2026-07-18",
-    "to": "2026-08-17"
+    "from": "2026-07-19",
+    "to": "2026-08-18"
   },
   "coverage": {
     "sources": [
@@ -249,7 +249,7 @@
     },
     "source_candidates": []
   },
-  "count": 24,
+  "count": 23,
   "items": [
     {
       "id": "news:vegagerdin:ny-bok-um-hringveginn",
@@ -276,51 +276,39 @@
       "is_new": true
     },
     {
-      "id": "news:byggingar:haustfundur-um-fasteignamarkadinn-hja-hms",
-      "lane": "news",
-      "category": "project",
-      "title": "Haustfundur um fasteignamarkaðinn hjá HMS",
-      "entity": "byggingar.is",
-      "date": "2026-08-17",
-      "summary": "s://byggingar.is/wp-content/uploads/2026/08/17.08.2026-Haustfundur-um-fasteignamarkadinn-hja-HMS-238x178.jpg\" width=\"238\" height=\"178\" /> Haustfundur um fasteignamarkaðinn hjá HMS <img c",
-      "url": "https://byggingar.is/haustfundur-um-fasteignamarkadinn-hja-hms/",
-      "outlet": "byggingar.is",
-      "is_new": true
-    },
-    {
-      "id": "news:byggingar:hagnadur-breskra-husbyggjenda-dregst-saman",
-      "lane": "news",
-      "category": "project",
-      "title": "Hagnaður breskra húsbyggjenda dregst saman",
-      "entity": "byggingar.is",
-      "date": "2026-08-17",
-      "summary": "://byggingar.is/wp-content/uploads/2026/08/17.08.2026-Hagnadur-breskra-husbyggjenda-dregst-saman-238x178.jpg\" width=\"238\" height=\"178\" /> Hagnaður breskra húsbyggjenda dregst saman <i class=\"td-next-prev-icon td-i",
-      "url": "https://byggingar.is/hagnadur-breskra-husbyggjenda-dregst-saman/",
-      "outlet": "byggingar.is",
-      "is_new": true
-    },
-    {
       "id": "news:byggingar:glerjun-hafin-a-ollum-hlidum-huss-heilbrigdisvisindasvids-hi",
       "lane": "news",
       "category": "project",
       "title": "Glerjun hafin á öllum hliðum Húss heilbrigðisvísindasviðs HÍ",
       "entity": "byggingar.is",
       "date": "2026-08-17",
-      "summary": "-content/uploads/2026/08/17.08.2026-Glerjun-hafin-a-ollum-hlidum-Huss-heilbrigdisvisindasvids-HI-238x178.jpg\" width=\"238\" height=\"178\" /> Glerjun hafin á öllum hliðum Húss heilbrigðisvísindasviðs HÍ <img cla",
+      "summary": "-content/uploads/2026/08/17.08.2026-Glerjun-hafin-a-ollum-hlidum-Huss-heilbrigdisvisindasvids-HI-238x178.jpg\" width=\"238\" height=\"178\" /> Glerjun hafin á öllum hliðum Húss heilbrigðisvísindasviðs HÍ <i class=\"td-next-prev-icon td-i",
       "url": "https://byggingar.is/glerjun-hafin-a-ollum-hlidum-huss-heilbrigdisvisindasvids-hi/",
       "outlet": "byggingar.is",
       "is_new": true
     },
     {
-      "id": "news:ruv-innlent-rss:2026-08-16-bruin-yfir-borgarfjord-lokud-i-tvaer-naetur-484075",
+      "id": "news:byggingar:endurbygging-stridsarasafnsins-a-reydarfirdi-vel-a-veg-komin",
       "lane": "news",
       "category": "project",
-      "title": "Brúin yfir Borgarfjörð lokuð í tvær nætur",
-      "entity": "ruv.is / innlent",
-      "date": "2026-08-16",
-      "summary": "Hringvegurinn í gegnum Borgarnes frá Borgarbraut að brúnni yfir Borgarfjörð verður lokaður í kvöld, sunnudag, milli klukkan níu til sjö í fyrramálið, vegna fræsingar. Sama lokun verður annað kvöld og fram á þriðjudagsmorgun. Hjáleið um Borgarfjarðarbraut er merkt sunnan við brúna. Vegagerðin vekur athygli á að viðgerðir og aðrar vegaframkvæmdir eiga sér nú...",
-      "url": "https://www.ruv.is/frettir/innlent/2026-08-16-bruin-yfir-borgarfjord-lokud-i-tvaer-naetur-484075/",
-      "outlet": "ruv.is / innlent",
+      "title": "Endurbygging stríðsárasafnsins á Reyðarfirði vel á veg komin",
+      "entity": "byggingar.is",
+      "date": "2026-08-17",
+      "summary": "ontent/uploads/2026/08/17.08.2026-Endurbygging-stridsarasafnsins-a-Reydarfirdi-vel-a-veg-komin-a-238x178.jpg\" width=\"238\" height=\"178\" /> Endurbygging stríðsárasafnsins á Reyðarfirði vel á veg komin <a href=\"https://byggingar.is/af-gruppen-byggir-fyrstu-skipagong-heims-fyrir-5-6-milljarda-norskra-krona/\" rel=\"bookmark\" class=\"td-image-wrap \" title=\"AF Grupp...",
+      "url": "https://byggingar.is/endurbygging-stridsarasafnsins-a-reydarfirdi-vel-a-veg-komin/",
+      "outlet": "byggingar.is",
+      "is_new": true
+    },
+    {
+      "id": "news:byggingar:af-gruppen-byggir-fyrstu-skipagong-heims-fyrir-5-6-milljarda-norskra-krona",
+      "lane": "news",
+      "category": "project",
+      "title": "AF Gruppen byggir fyrstu skipagöng heims fyrir 5.6 milljarða norskra króna",
+      "entity": "byggingar.is",
+      "date": "2026-08-17",
+      "summary": "ds/2026/08/17.08.2026-AF-Gruppen-byggir-fyrstu-skipagong-heims-fyrir-5.6-milljarda-norskra-krona-238x178.jpg\" width=\"238\" height=\"178\" /> AF Gruppen byggir fyrstu skipagöng heims fyrir 5.6 milljarða norskra króna <a href=\"https://byggingar.is/glerjun-hafin-a-ollum-hlidum-huss-heilbrigdisvisindasvids-hi/\" rel=\"bookmark\" class=\"td-image-wrap \" title=\"Glerjun...",
+      "url": "https://byggingar.is/af-gruppen-byggir-fyrstu-skipagong-heims-fyrir-5-6-milljarda-norskra-krona/",
+      "outlet": "byggingar.is",
       "is_new": true
     },
     {
