@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated": "2026-08-18T07:00:13Z",
-  "generated_at": "2026-08-18T07:00:13Z",
+  "generated": "2026-08-19T07:00:12Z",
+  "generated_at": "2026-08-19T07:00:12Z",
   "sources": {
     "utbodsvefur": {
-      "generated_at": "2026-08-18T07:00:13.191954+00:00",
+      "generated_at": "2026-08-19T07:00:12.684479+00:00",
       "count": 47,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders.json"
     },
     "offportal": {
-      "generated": "2026-08-18T07:00:13Z",
+      "generated": "2026-08-19T07:00:12Z",
       "count": 20,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders_offportal.json"
     },
@@ -279,52 +279,23 @@
         "note": "award/completeness flag from news agent; handled through Byggingar.is tender-results/news coverage rather than synthesized as an active tender"
       }
     ],
-    "source_candidates": []
+    "source_candidates": [
+      {
+        "id": "tender:buyer:hveragerðisbær",
+        "name": "Hveragerðisbær",
+        "suggested_feed": "tenders_all",
+        "suggested_lane": "tender",
+        "evidence_url": "https://www.utbodsvefur.is/vatryggingautbod-hveragerdisbaejar-2027-2029/",
+        "seen_count": 1,
+        "first_seen": "2026-08-19T07:00:12Z",
+        "last_seen": "2026-08-19T07:00:12Z",
+        "reason": "unknown buyer/source found in tender feed",
+        "status": "pending"
+      }
+    ]
   },
   "count": 61,
   "items": [
-    {
-      "reference": "23376",
-      "project": "Rafbílar fyrir Vegagerðina",
-      "buyer": "Fjársýslan ríkisins",
-      "notice_type": "Vörukaup",
-      "deadline": "18.08.2026 kl. 09:00",
-      "deadline_local": "2026-08-18T09:00:00+00:00",
-      "deadline_utc": "2026-08-18T09:00:00+00:00",
-      "posted_at": "2026-07-06T09:09:16+00:00",
-      "modified_at": "2026-07-06T09:12:03+00:00",
-      "url": "https://www.utbodsvefur.is/rafbilar-fyrir-vegagerdina/",
-      "summary": "Fjársýslan fyrir hönd Vegagerðarinnar kt. 6802692899, óskar eftir tilboðum í 23376 – Rafbílar fyrir Vegagerðina. Um er að ræða almennt útboð, sb...",
-      "source": "utbodsvefur"
-    },
-    {
-      "reference": "70000006",
-      "project": "Menntaskólinn á Akureyri Þakendurnýjun Hólaálmu",
-      "buyer": "Framkvæmdasýslan ríkiseignir (FSRE)",
-      "notice_type": "Framkvæmd",
-      "deadline": "18.08.2026 kl. 12:00",
-      "deadline_local": "2026-08-18T12:00:00+00:00",
-      "deadline_utc": "2026-08-18T12:00:00+00:00",
-      "posted_at": "2026-06-30T10:13:48+00:00",
-      "modified_at": "2026-06-30T10:23:27+00:00",
-      "url": "https://www.utbodsvefur.is/menntaskolinn-a-akureyri-thakendurnyjun-holaalmu-2/",
-      "summary": "Framkvæmdasýslan-Ríkiseignir (FSRE), kt. 510391-2259, fyrir hönd verkkaupa, Ríkiseigna, óska eftir tilboðum í þakendurnýjun Hólaálmu fyrir Menntaskól...",
-      "source": "utbodsvefur"
-    },
-    {
-      "reference": "26-119",
-      "project": "Akrafjallsvegur (51), hringtorg við Akranesveg, eftirlit og ráðgjöf",
-      "buyer": "Vegagerðin",
-      "notice_type": "Þjónusta",
-      "deadline": "18.08.2026 kl. 14:00",
-      "deadline_local": "2026-08-18T14:00:00+00:00",
-      "deadline_utc": "2026-08-18T14:00:00+00:00",
-      "posted_at": "2026-07-22T10:17:03+00:00",
-      "modified_at": "2026-08-06T12:52:43+00:00",
-      "url": "https://www.utbodsvefur.is/akrafjallsvegur-51-hringtorg-vid-akranesveg-eftirlit-og-radgjof/",
-      "summary": "Vegagerðin, í samstarfi við Akraneskaupstað, Veitur, Landsnet og Ljósleiðarann býður hér með út eftirlit og ráðgjöf með útboðsverkinu „Akrafjallsvegur...",
-      "source": "utbodsvefur"
-    },
     {
       "reference": "16307",
       "project": "Innleiðing SharePoint online hjá Reykjavíkurborg. EES útboð nr. 16307",
@@ -519,6 +490,20 @@
       "modified_at": "2026-06-19T15:32:54+00:00",
       "url": "https://www.utbodsvefur.is/borgarlinan-lota-2-honnun-frumdrog/",
       "summary": "Betri samgögnur ohf. óska eftir tilboðum í gerð frumdraga fyrir 2. Lotu Borgarlínu. Gera skal útfærslu af legu Borgarlínu, ásamt staðsetningu og útfær...",
+      "source": "utbodsvefur"
+    },
+    {
+      "reference": "26-119",
+      "project": "Akrafjallsvegur (51), hringtorg við Akranesveg, eftirlit og ráðgjöf",
+      "buyer": "Vegagerðin",
+      "notice_type": "Þjónusta",
+      "deadline": "25.08.2026 kl. 14:00",
+      "deadline_local": "2026-08-25T14:00:00+00:00",
+      "deadline_utc": "2026-08-25T14:00:00+00:00",
+      "posted_at": "2026-07-22T10:17:03+00:00",
+      "modified_at": "2026-08-18T10:53:32+00:00",
+      "url": "https://www.utbodsvefur.is/akrafjallsvegur-51-hringtorg-vid-akranesveg-eftirlit-og-radgjof/",
+      "summary": "Vegagerðin, í samstarfi við Akraneskaupstað, Veitur, Landsnet og Ljósleiðarann býður hér með út eftirlit og ráðgjöf með útboðsverkinu „Akrafjallsvegur...",
       "source": "utbodsvefur"
     },
     {
@@ -788,6 +773,20 @@
       "source": "utbodsvefur"
     },
     {
+      "reference": "I0232",
+      "project": "Markaðskönnun – RFI Rafrænt stjórnunar- og eftirlitskerfi fyrir Ísótópastofu",
+      "buyer": "Nýr Landspítali (NLSH ohf.)",
+      "notice_type": "Markaðskönnun (RFI)",
+      "deadline": "07.09.2026 kl. 12:00",
+      "deadline_local": "2026-09-07T12:00:00+00:00",
+      "deadline_utc": "2026-09-07T12:00:00+00:00",
+      "posted_at": "2026-08-18T08:03:27+00:00",
+      "modified_at": "2026-08-18T08:03:27+00:00",
+      "url": "https://www.utbodsvefur.is/markadskonnun-rfi-rafraent-stjornunar-og-eftirlitskerfi-fyrir-isotopastofu/",
+      "summary": "Nýr Landspítali (NLSH) óskar eftir upplýsingum frá hæfum birgjum varðandi heildarlausn frá einum aðila fyrir rafrænt stjórnunar- og eftirlitskerfi fyr...",
+      "source": "utbodsvefur"
+    },
+    {
       "reference": "23-096",
       "project": "Hringvegur (1) um Kjalarnes, 2. áfangi, Vallá – Hvalfjörður",
       "buyer": "Vegagerðin",
@@ -799,20 +798,6 @@
       "modified_at": "2026-07-15T10:39:22+00:00",
       "url": "https://www.utbodsvefur.is/hringvegur-1-um-kjalarnes-2-afangi-valla-hvalfjordur/",
       "summary": "Vegagerðin býður hér með út breikkun Hringvegar frá Vallá að Hvalfjarðarvegi. Á kaflanum verða tvö hringtorg, tvö ný undirgöng við annars vegar við Gr...",
-      "source": "utbodsvefur"
-    },
-    {
-      "reference": "26-093",
-      "project": "Vestfjarðarvegur (60) um Gufudalssveit Skálanes – Hallsteinsnes",
-      "buyer": "Vegagerðin",
-      "notice_type": "Framkvæmd",
-      "deadline": "08.09.2026 kl. 14:00",
-      "deadline_local": "2026-09-08T14:00:00+00:00",
-      "deadline_utc": "2026-09-08T14:00:00+00:00",
-      "posted_at": "2026-06-10T10:25:59+00:00",
-      "modified_at": "2026-07-31T10:53:50+00:00",
-      "url": "https://www.utbodsvefur.is/vestfjardarvegur-60-um-gufudalssveit-skalanes-hallsteinsnes/",
-      "summary": "Vegagerðin býður hér með út nýbyggingu Vestfjarðavegar á um 4,6 km kafla yfir Djúpa- og Gufufjörð. Innifalið í verkinu er bygging 210 m langrar netbog...",
       "source": "utbodsvefur"
     },
     {
@@ -967,6 +952,34 @@
       "modified_at": "2026-08-14T10:22:32+00:00",
       "url": "https://www.utbodsvefur.is/akstur-almenningsvagna-a-hofudborgarsvaedinu-2028-2036-forval-ees-utbod-nr-16341/",
       "summary": "Óskað er eftir umsóknum í forval vegna Akstur almenningsvagna á höfuðborgarsvæðinu 2028-2036, EES útboð nr. 16341 Skrifstofa fjármálaþjónustu og ráðgj...",
+      "source": "utbodsvefur"
+    },
+    {
+      "reference": "23392",
+      "project": "Afhending skilríkja á höfuðborgarsvæðinu fyrir Þjóðskrá",
+      "buyer": "Fjársýslan ríkisins",
+      "notice_type": "Þjónusta",
+      "deadline": "18.09.2026 kl. 12:00",
+      "deadline_local": "2026-09-18T12:00:00+00:00",
+      "deadline_utc": "2026-09-18T12:00:00+00:00",
+      "posted_at": "2026-08-18T10:46:09+00:00",
+      "modified_at": "2026-08-18T10:46:09+00:00",
+      "url": "https://www.utbodsvefur.is/afhending-skilrikja-a-hofudborgarsvaedinu-fyrir-thjodskra/",
+      "summary": "Fjársýslan (kt. 540269-7509), fyrir hönd Þjóðskrár (kt. 650376-0649), óskar eftir tilboðum í útboð nr. 23392 – Afhending skilríkja á höfuðborgar...",
+      "source": "utbodsvefur"
+    },
+    {
+      "reference": "003",
+      "project": "Vátryggingaútboð Hveragerðisbæjar 2027-2029",
+      "buyer": "Hveragerðisbær",
+      "notice_type": "Þjónusta",
+      "deadline": "21.09.2026 kl. 00:00",
+      "deadline_local": "2026-09-21T00:00:00+00:00",
+      "deadline_utc": "2026-09-21T00:00:00+00:00",
+      "posted_at": "2026-08-15T09:07:37+00:00",
+      "modified_at": "2026-08-15T09:07:37+00:00",
+      "url": "https://www.utbodsvefur.is/vatryggingautbod-hveragerdisbaejar-2027-2029/",
+      "summary": "Hveragerðisbær og tengdir aðilar óska eftir tilboðum í vátryggingar fyrir tímabilið 2027-2029 Um er að ræða lög- og samningsbundnar tryggingar auk ann...",
       "source": "utbodsvefur"
     },
     {
