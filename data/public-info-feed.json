@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated": "2026-08-19T06:45:01Z",
+  "generated": "2026-08-20T06:45:02Z",
   "window": {
-    "from": "2026-08-12",
-    "to": "2026-08-19"
+    "from": "2026-08-13",
+    "to": "2026-08-20"
   },
   "coverage": {
     "municipalities": [
@@ -61,6 +61,8 @@
       "https://www.istak.is/frettir",
       "https://www.stjornarradid.is/efst-a-baugi/frettir/",
       "https://www.vegagerdin.is/upplysingar-og-utgafa/frettir/",
+      "https://www.vegagerdin.is/verkefnin/utbod",
+      "https://www.vegagerdin.is/vegagerdin/lifid-i-vegagerdinni/framkvaemdafrettir",
       "https://www.landsvirkjun.is/frettir",
       "https://www.faxafloahafnir.is/frettir/",
       "https://www.veitur.is/frettir",
@@ -79,11 +81,13 @@
       "https://www.vogar.is/is/moya/news",
       "https://betrisamgongur.is/frettir/",
       "https://hms.is/frettir",
-      "https://www.fsre.is/s/fsre/frett",
+      "https://island.is/s/fsre/auglysingar-og-utbod",
+      "https://island.is/s/fsre/nidurstodur-utboda",
       "https://www.gardabaer.is/frettir",
       "https://mos.is/mannlif/um-mosfellsbae/frettir/",
       "https://www.arborg.is/frettasafn/",
-      "https://www.landsnet.is/frettir",
+      "https://www.landsnet.is/birgjar-og-innkaup/",
+      "https://www.landsnet.is/birgjar-og-innkaup/utbod/",
       "https://orkustofnun.is/upplysingar/frettir",
       "https://www.ramma.is/frettasafn/",
       "https://www.fjardabyggdarhafnir.is/is/fyrirtaekid/frettir",
@@ -108,10 +112,11 @@
       "https://www.hsorka.is/audlindagardurinn/",
       "https://www.reykjaneshofn.is/hafnaradstada",
       "https://www.fjardabyggdarhafnir.is/is/fjardabyggdarhafnir",
-      "https://www.carbfix.com/coda-terminal"
+      "https://www.carbfix.com/coda-terminal",
+      "https://www.isafjardarbaer.is/is/umhverfi/skipulag/utbod-frettir",
+      "https://reykjavik.is/framkvaemdir"
     ],
     "announcement_not_covered": {
-      "landsnet_plans": "Landsnet plan/news paths were not identifiable from static HTML; candidate news URL returns HTTP 404",
       "thingmalaskra": "Stjórnarráðið þingmálaskrá proxy returns a JavaScript shell without static agenda entries",
       "audlindagardurinn": "audlindagardurinn.is redirects to hsorka.is; using HS Orka Auðlindagarðurinn page instead",
       "hms_browser_collection": "hms.is/frettir remains a browser/alternate-egress candidate; plain fetch from this host returns HTTP 429 and the static page is not scriptable"
@@ -173,7 +178,6 @@
   "sources": {
     "not_covered": {
       "announcements": {
-        "landsnet_plans": "Landsnet plan/news paths were not identifiable from static HTML; candidate news URL returns HTTP 404",
         "thingmalaskra": "Stjórnarráðið þingmálaskrá proxy returns a JavaScript shell without static agenda entries",
         "audlindagardurinn": "audlindagardurinn.is redirects to hsorka.is; using HS Orka Auðlindagarðurinn page instead",
         "hms_browser_collection": "hms.is/frettir remains a browser/alternate-egress candidate; plain fetch from this host returns HTTP 429 and the static page is not scriptable"
@@ -256,7 +260,7 @@
         },
         "gardabaer": {
           "no_matching_keywords": 18,
-          "outside_window": 3
+          "outside_window": 5
         },
         "mosfellsbaer": {
           "no_matching_keywords": 32,
@@ -282,7 +286,7 @@
         },
         "byggingar-opnun-utboda": {
           "undated": 18,
-          "outside_window": 14
+          "outside_window": 13
         },
         "vb": {
           "no_matching_keywords": 40
@@ -311,14 +315,6 @@
           "url": "https://hms.is/frettir",
           "error": "HTTP 429"
         },
-        "fsre": {
-          "url": "https://www.fsre.is/s/fsre/frett",
-          "error": "HTTP 404"
-        },
-        "landsnet": {
-          "url": "https://www.landsnet.is/frettir",
-          "error": "HTTP 404"
-        },
         "skipulag-hms-eia": {
           "url": "https://skipulag.is/umhverfismat-framkvaemda/framkvaemdir-hadar-mati",
           "error": "HTTP 404"
@@ -339,7 +335,7 @@
       }
     }
   },
-  "count": 326,
+  "count": 325,
   "items": [
     {
       "id": "legislation:althingi-thingmalaskra:endurskodud-aaetlun-um-framlagningu-thingmala-a-vetrar-og-vorthingi-2026-lokautg",
@@ -349,7 +345,7 @@
       "title": "[Endurskoðuð þingmálaskrá fyrir 157. löggjafarþing",
       "entity": "Alþingi",
       "status": "tracker",
-      "date": "2026-08-19",
+      "date": "2026-08-20",
       "summary": "13. Frumvarp til laga um breytingu á lögum um mannvirki, nr. 160/2010 (einföldun byggingarreglugerðar og endurskoðun byggingareftirlits). / 14. Frumvarp til laga um breytingu á skipulagslögum nr. 123/2010 (raflínuskipulag). / 2. Frumvarp til laga um breytingu á lögum um stefnur og aðgerðaáætlanir á sviði húsnæðis- og skipulagsmála, samgangna og byggðamála, nr. 30/2023 (stefnumörkun).",
       "url": "https://www.althingi.is/media/uncategorized/Endurskodud-aaetlun-um-framlagningu-thingmala-a-vetrar-og-vorthingi-2026-lokautgafa-leidrettX.pdf",
       "index_url": "https://www.althingi.is/thingstorf/leidbeiningar-og-yfirlit/thingmalaskra-rikisstjornar/",
@@ -361,6 +357,105 @@
         "umhverfismat"
       ],
       "case_number": "157. löggjafarþing"
+    },
+    {
+      "id": "announcement:mosfellsbaer:malbikunarframkvaemdir-19-agust-2026-laxatunga-vogatunga-og-sunnukriki",
+      "lane": "announcement",
+      "source": "mosfellsbaer",
+      "title": "Framkvæmdir Tilkynningar 18. ágúst 2026 Malbikunarframkvæmdir 19. ágúst 2026 – Laxatunga, Vogatunga og Sunnukriki",
+      "entity": "Mosfellsbær",
+      "status": "published",
+      "date": "2026-08-20",
+      "summary": "> Lokað fyrir kalt vatn í Akurholti 20. ágúst 2026 Framkvæmdir Tilkynningar 18. ágúst 2026 Malbikunarframkvæmdir 19. ágúst 2026 – Laxatunga, Vogatunga og Sunnukriki <img class=\"bde-image2-53844-101-101910-53844-1 bde-image2 bde-image2-53844-1",
+      "url": "https://mos.is/mannlif/um-mosfellsbae/frettir/malbikunarframkvaemdir-19-agust-2026-laxatunga-vogatunga-og-sunnukriki/",
+      "keywords_matched": [
+        "framkvæmd"
+      ]
+    },
+    {
+      "id": "skgatt:0966/2026",
+      "lane": "eia",
+      "title": "Stækkun ICE03 gagnavers atNorth",
+      "entity": "Akureyri",
+      "case_number": "0966/2026",
+      "plan_type": "matsskyldu",
+      "status": "Tilkynning um framkvæmd",
+      "date": "2026-08-19",
+      "review_deadline": "2026-09-16",
+      "summary": "atNorth áformar að stækka gagnaver sitt, ICE03 við Hlíðarvelli á Akureyri um 16.200 m2 þannig að heildarflatarmál bygginga gagnaversins verði 27.850 m2. Aflþörf mun aukast úr 25 MW í 90 MW. Áformað er að uppbyggingunni ljúki í janúar 2030.",
+      "url": "https://skipulagsgatt.is/issues/5321"
+    },
+    {
+      "id": "skgatt:0959/2026",
+      "lane": "planning",
+      "title": "Hofsbót 1-3 - Deiliskipulagsbreyting",
+      "entity": "Akureyri",
+      "case_number": "0959/2026",
+      "plan_type": "deiliskipulag",
+      "status": "Auglýsing tillögu",
+      "date": "2026-08-19",
+      "review_deadline": "2026-10-01",
+      "summary": "Bæjarstjórn Akureyrarbæjar auglýsir hér með skv. 1. mgr. 41. gr. skipulagslaga nr. 123/2010, tillögu að breytingu á deiliskipulagi fyrir lóðirnar Hofsbót 1-30. Deiliskipulagsbreytingin gerir ráð fyrir að lóðirnar Hofsbót 1 og 3 verði sameinaðar í eina lóð. Inn- og útkeyrsla í bílakjallara færist úr Strandgötu og verður þess í stað á horni Skipagötu og Hofsb…",
+      "url": "https://skipulagsgatt.is/issues/5314"
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:tvo-tilbod-i-staekkun-seydisfjardarskola-baedi-yfir-kostnadaraaetlun",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "Tvö tilboð í stækkun Seyðisfjarðarskóla – bæði yfir kostnaðaráætlun",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-08-19",
+      "summary": "> Tvö tilboð í stækkun Seyðisfjarðarskóla – bæði yfir kostnaðaráætlun byggingar - 19/08/2026",
+      "url": "https://byggingar.is/tvo-tilbod-i-staekkun-seydisfjardarskola-baedi-yfir-kostnadaraaetlun/",
+      "keywords_matched": [
+        "bygging",
+        "opinber innkaup"
+      ]
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:mikill-ahugi-er-a-husunum-vid-hofsbot-a-akureyri",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "„Mikill áhugi“ er á húsunum við Hofsbót á Akureyri",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-08-19",
+      "summary": "_tag\" data-img-url=\"https://byggingar.is/wp-content/uploads/2026/08/19.08.2026-Mikill-ahugi-er-a-husunum-vid-Hofsbot-a-100x75.jpg\" width=\"100\" height=\"75\" /> „Mikill áhugi“ er á húsunum við Hofsbót á Akureyri 19/08/2026 <div class=\"td_modu",
+      "url": "https://byggingar.is/mikill-ahugi-er-a-husunum-vid-hofsbot-a-akureyri/",
+      "keywords_matched": [
+        "bygging",
+        "opinber innkaup"
+      ]
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:kalka-bydur-ut-jardvinnu-og-undirstodur-fyrir-1-440-fermetra-stalgrindarhus",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "31.08.2026 KALKA býður út jarðvinnu og undirstöður fyrir 1.440 fermetra stálgrindarhús",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-08-19",
+      "summary": "r.is/wp-content/uploads/2026/08/19.08.2026-KALKA-bydur-ut-jardvinnu-og-undirstodur-fyrir-1.440-fermetra-stalgrindarhus-100x75.png\" width=\"100\" height=\"75\" /> 31.08.2026 KALKA býður út jarðvinnu og undirstöður fyrir 1.440 fermetra stálgrindarhús 19/08/2026 <div cl",
+      "url": "https://byggingar.is/kalka-bydur-ut-jardvinnu-og-undirstodur-fyrir-1-440-fermetra-stalgrindarhus/",
+      "keywords_matched": [
+        "opinber innkaup"
+      ]
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:byggingar",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "byggingar",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-08-19",
+      "summary": "óla – bæði yfir kostnaðaráætlun\">Tvö tilboð í stækkun Seyðisfjarðarskóla – bæði yfir kostnaðaráætlun byggingar - 19/08/2026 <a href=\"https://byggingar.is/tvo-tilbod-i-staekkun-seydisfjardarskola-baedi-yfir-k",
+      "url": "https://byggingar.is/author/byggingar/",
+      "keywords_matched": [
+        "bygging",
+        "opinber innkaup"
+      ]
     },
     {
       "id": "skgatt:0964/2026",
@@ -376,20 +471,6 @@
       "url": "https://skipulagsgatt.is/issues/5319"
     },
     {
-      "id": "announcement:mosfellsbaer:malbikunarframkvaemdir-19-agust-2026-laxatunga-vogatunga-og-sunnukriki",
-      "lane": "announcement",
-      "source": "mosfellsbaer",
-      "title": "Framkvæmdir Tilkynningar 18. ágúst 2026 Malbikunarframkvæmdir 19. ágúst 2026 – Laxatunga, Vogatunga og Sunnukriki",
-      "entity": "Mosfellsbær",
-      "status": "published",
-      "date": "2026-08-18",
-      "summary": "4.75Z\"/> Framkvæmdir Tilkynningar 18. ágúst 2026 Malbikunarframkvæmdir 19. ágúst 2026 – Laxatunga, Vogatunga og Sunnukriki <img class=\"bde-image2-53844-101-101910-53844-1 bde-image2 bde-image2-53844-1",
-      "url": "https://mos.is/mannlif/um-mosfellsbae/frettir/malbikunarframkvaemdir-19-agust-2026-laxatunga-vogatunga-og-sunnukriki/",
-      "keywords_matched": [
-        "framkvæmd"
-      ]
-    },
-    {
       "id": "announcement:byggingar-opnun-utboda:krafla-ehf-laegst-i-djupgamastod-vid-seljaskola-28-undir-kostnadaraaetlun",
       "lane": "announcement",
       "source": "byggingar-opnun-utboda",
@@ -397,54 +478,8 @@
       "entity": "Byggingar.is",
       "status": "published",
       "date": "2026-08-18",
-      "summary": "> Krafla ehf. lægst í djúpgámastöð við Seljaskóla – 28% undir kostnaðaráætlun byggingar - 18/08/2026",
+      "summary": "Krafla ehf. lægst í djúpgámastöð við Seljaskóla – 28% undir kostnaðaráætlun byggingar - 18/08/2026",
       "url": "https://byggingar.is/krafla-ehf-laegst-i-djupgamastod-vid-seljaskola-28-undir-kostnadaraaetlun/",
-      "keywords_matched": [
-        "bygging",
-        "opinber innkaup"
-      ]
-    },
-    {
-      "id": "announcement:byggingar-opnun-utboda:framkvaemdir-vid-staekkun-hjukrunarheimilisins-soltuns-ganga-vel",
-      "lane": "announcement",
-      "source": "byggingar-opnun-utboda",
-      "title": "Framkvæmdir við stækkun hjúkrunarheimilisins Sóltúns ganga vel",
-      "entity": "Byggingar.is",
-      "status": "published",
-      "date": "2026-08-18",
-      "summary": "/byggingar.is/wp-content/uploads/2026/08/18.08.2026-Framkvaemdir-vid-staekkun-hjukrunarheimilisins-Soltuns-ganga-vel-c-100x75.jpg\" width=\"100\" height=\"75\" /> Framkvæmdir við stækkun hjúkrunarheimilisins Sóltúns ganga vel 18/08/2026 <div class=\"td_modu",
-      "url": "https://byggingar.is/framkvaemdir-vid-staekkun-hjukrunarheimilisins-soltuns-ganga-vel/",
-      "keywords_matched": [
-        "bygging",
-        "framkvæmd",
-        "opinber innkaup"
-      ]
-    },
-    {
-      "id": "announcement:byggingar-opnun-utboda:eik-hagnadist-um-riflega-38-milljarda",
-      "lane": "announcement",
-      "source": "byggingar-opnun-utboda",
-      "title": "Eik hagnaðist um ríflega 3,8 milljarða",
-      "entity": "Byggingar.is",
-      "status": "published",
-      "date": "2026-08-18",
-      "summary": "ge_tag\" data-img-url=\"https://byggingar.is/wp-content/uploads/2026/08/18.08.2026-Eik-hagnadist-um-riflega-38-milljarda-100x75.jpg\" width=\"100\" height=\"75\" /> Eik hagnaðist um ríflega 3,8 milljarða 18/08/2026 <div class=\"td_modu",
-      "url": "https://byggingar.is/eik-hagnadist-um-riflega-38-milljarda/",
-      "keywords_matched": [
-        "bygging",
-        "opinber innkaup"
-      ]
-    },
-    {
-      "id": "announcement:byggingar-opnun-utboda:byggingar",
-      "lane": "announcement",
-      "source": "byggingar-opnun-utboda",
-      "title": "byggingar",
-      "entity": "Byggingar.is",
-      "status": "published",
-      "date": "2026-08-18",
-      "summary": "% undir kostnaðaráætlun\">Krafla ehf. lægst í djúpgámastöð við Seljaskóla – 28% undir kostnaðaráætlun byggingar - 18/08/2026 <a href=\"https://byggingar.is/krafla-ehf-laegst-i-djupgamastod-vid-seljaskola-28-un",
-      "url": "https://byggingar.is/author/byggingar/",
       "keywords_matched": [
         "bygging",
         "opinber innkaup"
@@ -584,34 +619,6 @@
       "summary": "Félags- og húsnæðismálaráðuneytið kynnir til umsagnar drög að breytingu á reglugerð um framkvæmdaleyfi nr. 772/2012, með síðari breytingum.",
       "url": "https://island.is/samradsgatt/mal/4296",
       "case_number": "149/2026",
-      "keywords_matched": [
-        "framkvæmd"
-      ]
-    },
-    {
-      "id": "announcement:gardabaer:skolabyjun-haustid-2026",
-      "lane": "announcement",
-      "source": "gardabaer",
-      "title": "Fréttir 12.08.2026 Skólabyrjun haustið 2026 Grunnskólar í Garðabæ verða settir mánudaginn 24. ágúst.",
-      "entity": "Garðabær",
-      "status": "published",
-      "date": "2026-08-12",
-      "summary": "xt\"> Framkvæmdir við að aðskilja göngu- og hjólastíga við Ásahverfi eru enn í fullum gangi og nú er vinna hafin milli göngubrúar og Lyngáss. Hjáleið er um Stórás. Fréttir 12.08.2026 Skólabyrjun haustið 2026 Grunnskólar í Garðabæ verða settir mánudaginn 24. ágúst. <",
-      "url": "https://www.gardabaer.is/frettir/skolabyjun-haustid-2026",
-      "keywords_matched": [
-        "framkvæmd"
-      ]
-    },
-    {
-      "id": "announcement:gardabaer:framkvaemdir-vid-gongu-og-hjolastiga-vid-asahverfi",
-      "lane": "announcement",
-      "source": "gardabaer",
-      "title": "Tilkynningar 12.08.2026 Framkvæmdir við göngu- og hjólastíga við Ásahverfi Framkvæmdir við að aðskilja göngu- og hjólastíga við Ásahverfi eru enn í fullum gangi og nú er vinna haf…",
-      "entity": "Garðabær",
-      "status": "published",
-      "date": "2026-08-12",
-      "summary": "íð Garðabæjar verður haldin laugardaginn 29. ágúst á Garðatorgi. Það verður líf og fjör á torginu frá klukkan 13:00 en formleg setning hátíðarinnar er klukkan 14:00. Tilkynningar 12.08.2026 Framkvæmdir við göngu- og hjólastíga við Ásahverfi Framkvæmdir við að aðskilja göngu- og hjólastíga við Ásahverfi eru enn í fullum gangi og nú er vinna hafin milli göngu…",
-      "url": "https://www.gardabaer.is/frettir/framkvaemdir-vid-gongu-og-hjolastiga-vid-asahverfi",
       "keywords_matched": [
         "framkvæmd"
       ]
@@ -1185,18 +1192,6 @@
       "url": "https://skipulagsgatt.is/issues/5243"
     },
     {
-      "id": "skgatt:0887/2026",
-      "lane": "planning",
-      "title": "Borg á Mýrum - Rannsóknarhola",
-      "entity": "Borgarbyggð",
-      "case_number": "0887/2026",
-      "status": "Endanleg gögn",
-      "date": "2026-07-15",
-      "review_deadline": "2026-08-12",
-      "summary": "Lögð er fram umsókn Veitna um framkvæmdaleyfi fyrir borun á rannsóknarholu í nágrenni við Borg á Mýrum í Borgarbyggð. Sótt er um leyfið í samræmi við 13. gr. skipulagslaga nr. 123/2010 og 4. gr. reglugerðar nr. 772/2012, um framkvæmdaleyfi. Áætlað er að bora niður á um 800-1.200 m dýpi í þeim tilgangi að skera úr um hitaástand og hvort virkt jarðhitakerfi s…",
-      "url": "https://skipulagsgatt.is/issues/5242"
-    },
-    {
       "id": "skgatt:0886/2026",
       "lane": "planning",
       "title": "Ægissíða 2, Rangárstígur 9. br á dsk",
@@ -1221,32 +1216,6 @@
       "review_deadline": "2026-09-14",
       "summary": "Landsvirkjun hefur óskað eftir að gerð verði minni háttar breyting á staðsetningu efnistökusvæðis við Sigöldu. Um er að ræða efnistökusvæðið E72 sem færist frá núverandi stað og suður fyrir Sigöldugljúfur, á þegar raskað svæði. Skipulagsgögn frá Eflu. Skipulags- og umferðarnefnd samþykkir tillöguna og leggur til að farið verði um málsmeðferð eins og um óver…",
       "url": "https://skipulagsgatt.is/issues/5240"
-    },
-    {
-      "id": "skgatt:0884/2026",
-      "lane": "planning",
-      "title": "Útskálar 1, br á landnotkun",
-      "entity": "Rangárþing ytra",
-      "case_number": "0884/2026",
-      "plan_type": "adalskipulag",
-      "status": "Staðfesting",
-      "date": "2026-07-15",
-      "review_deadline": "2026-08-12",
-      "summary": "Sveitarfélagið óskar eftir að gerð verði breyting á landnotkun fyrir lóðina Útskálar 1 þar sem núverandi samfélagsþjónusta verði íbúðarlóð. Skipulagsgögn frá Eflu dags. 24.6.2026. Skipulags- og umferðarnefnd samþykkir tillöguna og leggur til að farið verði um málsmeðferð eins og um óverulega breytingu sé að ræða í samræmi við 2. mgr. 36. gr. skipulagslaga n…",
-      "url": "https://skipulagsgatt.is/issues/5239"
-    },
-    {
-      "id": "skgatt:0883/2026",
-      "lane": "eia",
-      "title": "Skógrækt í landi Galtalækjar",
-      "entity": "Rangárþing ytra",
-      "case_number": "0883/2026",
-      "plan_type": "matsskyldu",
-      "status": "Tilkynning um framkvæmd",
-      "date": "2026-07-15",
-      "review_deadline": "2026-08-12",
-      "summary": "Um er að ræða skógrækt og landgræðslu á um 415 ha svæði í landi Galtalækjar. Gert er ráð fyrir að planta í misstóra fláka sem dreifast jafnt yfir svæðið þannig að ekki verði um samfellda gróðursetningu að ræða og verður öll gróðursetning unnin handvirkt. Gert er ráð fyrir að planta birki á um 70% af heildarsvæðinu, stafafura á um 20-25% og elri á um 5-10% s…",
-      "url": "https://skipulagsgatt.is/issues/5238"
     },
     {
       "id": "skgatt:0879/2026",
@@ -1288,19 +1257,6 @@
       "url": "https://skipulagsgatt.is/issues/5230"
     },
     {
-      "id": "skgatt:0873/2026",
-      "lane": "planning",
-      "title": "Fossatún - Fauskás 3",
-      "entity": "Borgarbyggð",
-      "case_number": "0873/2026",
-      "plan_type": "deiliskipulag",
-      "status": "Grenndarkynning",
-      "date": "2026-07-13",
-      "review_deadline": "2026-08-12",
-      "summary": "Lögð er fram tillaga að breytingu á deiliskipulagi fyrir Fossatún í Borgarbyggð. Breytingin tekur til lóðarinnar Fauskás 3 þar sem ákvæði um mænisstefnu er fellt niður. Aðrir skilmálar deiliskipulagsins haldast óbreyttir. Breytingin er ekki í ósamræmi við þá byggð sem fyrir er t.d. hvað varðar notkun, nýtingarhlutfall, útlit og form svæðis.",
-      "url": "https://skipulagsgatt.is/issues/5228"
-    },
-    {
       "id": "skgatt:0870/2026",
       "lane": "planning",
       "title": "Árbær, hverfi 7.2 - Rofabær 32 - USK26060377",
@@ -1311,18 +1267,6 @@
       "review_deadline": "2026-08-13",
       "summary": "Um er að ræða breytingu á hverfisskipulagi Árbæjar, hverfi 7.2, vegna lóarinnar nr. 32 við Rofabæ, lóð Árbæjarkirkju. Í breytingunni sem lögð er til felst tilfærsla og endurhönnun göngustígs sem liggur að og um kirkjulóðina og hverfisgarðinn austan hennar. Jafnframt er gert ráð fyrir þremur nýjum dvalarsvæðum með bekkjum sem nýtast íbúum og öðrum gestum svæ…",
       "url": "https://skipulagsgatt.is/issues/5225"
-    },
-    {
-      "id": "skgatt:0868/2026",
-      "lane": "planning",
-      "title": "Súluklettur 1",
-      "entity": "Borgarbyggð",
-      "case_number": "0868/2026",
-      "status": "Grenndarkynning byggingarleyfisumsóknar",
-      "date": "2026-07-13",
-      "review_deadline": "2026-08-12",
-      "summary": "Lögð er fram umsókn um byggingarleyfi fyrir 241,2 m² steinsteyptu íbúðarhúsi á tveimur hæðum að Súlukletti 1 í Borgarnesi (L189383). Um er að ræða breytingar frá uppdrætti dags. 03.05 2007. Sótt var um byggingarleyfi árið 2007 og það samþykkt á fundi skipulags og byggingarnefndar Borgarbyggðar. Neðri hæð var uppsteypt sama ár. Byggingin er í dag á b-stigi 1…",
-      "url": "https://skipulagsgatt.is/issues/5223"
     },
     {
       "id": "samradsgatt:131/2026",
@@ -1360,6 +1304,18 @@
       "keywords_matched": [
         "skipulag"
       ]
+    },
+    {
+      "id": "skgatt:0865/2026",
+      "lane": "planning",
+      "title": "Hafnargata 45 - svalir",
+      "entity": "Reykjanesbær",
+      "case_number": "0865/2026",
+      "status": "Endanleg gögn",
+      "date": "2026-07-10",
+      "review_deadline": "2026-09-16",
+      "summary": "Með vísan til 5. mgr. 13. gr.,2.mgr 43gr, 1. og 2 mgr. 44. gr. Skipulagslaga nr. 123 frá árinu 2010, gefur Umhverfisráð hér með eigendum húseigna í næsta nágrenni við Hafnargötu 45, 230 Reykjanesbæ kost á að tjá sig um umsóknina. Vegna breytinga á annarri hæð hússins er sótt um nýjar svalir á norðausturhlið hússins vegna endurbættrar flóttaleiðar frá efri h…",
+      "url": "https://skipulagsgatt.is/issues/5220"
     },
     {
       "id": "kaerunefnd:65/2025",
@@ -1735,6 +1691,18 @@
       "url": "https://skipulagsgatt.is/issues/5194"
     },
     {
+      "id": "skgatt:0838/2026",
+      "lane": "planning",
+      "title": "Keilisbraut 753 - hjúkrunarheimili",
+      "entity": "Reykjanesbær",
+      "case_number": "0838/2026",
+      "status": "Endanleg gögn",
+      "date": "2026-07-06",
+      "review_deadline": "2026-09-16",
+      "summary": "Icelandic Home ehf. leggja inn erindi varðandi breytingu á tveimur fjölbýlishúsum með 81 íbúð í hjúkrunarheimili með 90 rýmum. Lóðirnar Keilisbraut 753 og 754 eru sameinaðar. Samþykkt með fyrirvara um grenndarkynningu án athugasemda skv. 44. grein skipulagslaga málsgrein 2. Skipulagsráð heimilar að stytta tímabil grenndarkynningar ef þeir sem hagsmuna eiga…",
+      "url": "https://skipulagsgatt.is/issues/5193"
+    },
+    {
       "id": "kaerunefnd:55/2025",
       "lane": "kaerunefnd",
       "title": "Mál nr. 55/2025. Ákvörðun kærunefndar útboðsmála.",
@@ -1961,19 +1929,6 @@
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/?newsid=57203fa2-7079-11f1-b8a4-005056bcde1f&cname=Kærunefnd útboðsmála&cid=e219adb9-4214-11e7-941a-005056bc530c"
     },
     {
-      "id": "skgatt:0800/2026",
-      "lane": "planning",
-      "title": "Breyting á deiliskipulagi Hellnahrauns 1. áfanga vegna Hringhellu 2",
-      "entity": "Hafnarfjörður",
-      "case_number": "0800/2026",
-      "plan_type": "deiliskipulag",
-      "status": "Endanleg gögn",
-      "date": "2026-06-23",
-      "review_deadline": "2026-08-12",
-      "summary": "Breytingin felur í sér stækkun byggingarreits fyrir núverandi steypustöð og iðnaðarhús um 800 m².",
-      "url": "https://skipulagsgatt.is/issues/5155"
-    },
-    {
       "id": "heradsdomur:E-6936/2025",
       "lane": "court",
       "title": "Stefnendur: Gunnar Örn Hauksson (Katrín Oddsdóttir lögmaður) Stefndu: íslenska ríkið (Bragi Dór Hafþórsson lögmaður)",
@@ -1987,19 +1942,6 @@
       "date": "2026-06-23",
       "summary": "Stefnandi höfðaði mál gegn stefnda og krafðist ógildingar á strandsvæðisskipulagi Vestfjarða 2022 auk viðurkenningar á bótaskyldu vegna tjóns sem hann taldi sig hafa orðið fyrir vegna samþykktar skipulagsins. Stefndi krafðist frávísunar málsins frá dómi. Í úrskurði héraðsdóms var talið að stefnanda skorti lögvarða hagsmuni af ógildingu skipulagsins í heild og að viðurkenningarkrafa hans um bótaskyldu væri vanreifuð…",
       "url": "https://island.is/domar/g-fdfc3095-1a50-4a54-900b-7370cb7ffd9a"
-    },
-    {
-      "id": "skgatt:0783/2026",
-      "lane": "planning",
-      "title": "Hlíðarvellir - breyting á deiliskipulagi",
-      "entity": "Akureyri",
-      "case_number": "0783/2026",
-      "plan_type": "deiliskipulag",
-      "status": "Auglýsing tillögu",
-      "date": "2026-06-22",
-      "review_deadline": "2026-08-12",
-      "summary": "Málsnr. 2025101423",
-      "url": "https://skipulagsgatt.is/issues/5138"
     },
     {
       "id": "legislation:althingi-tolfraedi-157",
@@ -2566,19 +2508,6 @@
       "url": "https://skipulagsgatt.is/issues/4900"
     },
     {
-      "id": "skgatt:0424/2026",
-      "lane": "planning",
-      "title": "Breyting á deiliskipulagi Hellnahrauns 3. áfanga vegna Borgahellu 6, 6H og 8",
-      "entity": "Hafnarfjörður",
-      "case_number": "0424/2026",
-      "plan_type": "deiliskipulag",
-      "status": "Endanleg gögn",
-      "date": "2026-05-06",
-      "review_deadline": "2026-08-12",
-      "summary": "Á afgreiðslufundi skipulagsfulltrúa þann 08.04.2026 var samþykkt að grenndarkynna breytingu á deiliskipulagi Hellnahrauns 3. áfanga vegna Borgahella 6, 6H og 8. Lýsing á breytingunni: Lóðirnar nr. 6 og 8 eru sameinaðar í eina lóð. Lóðin er stækkuð til norðurs, um u.þ.b. 4 m. Lóð nr. 6H fyrir veitumannvirki er færð norður fyrir lóð nr. 8. Nýtingarhlutfall ve…",
-      "url": "https://skipulagsgatt.is/issues/4779"
-    },
-    {
       "id": "skgatt:0507/2026",
       "lane": "planning",
       "title": "Valhallarbraut 868 - Verne Global",
@@ -2590,19 +2519,6 @@
       "review_deadline": "2026-09-15",
       "summary": "Reykjanesbær auglýsir breytingu á deiliskipulagi skv. 1. mgr. 43. gr. skipulagslagaVerne Global leggur fram tillögu að breytingu á deiliskipulagi. Sótt er um breytingar á skilgreindum byggingarreitum og -heimildum fyrir lóðina: Reitur 301 verði stækkaður til suðurs og vesturs og reitir 401 og 501 sameinaðir í einn, samanlagt minni reit, 401, og byggingamagn…",
       "url": "https://skipulagsgatt.is/issues/4862"
-    },
-    {
-      "id": "skgatt:0508/2026",
-      "lane": "planning",
-      "title": "Öldur III, br dsk",
-      "entity": "Rangárþing ytra",
-      "case_number": "0508/2026",
-      "plan_type": "deiliskipulag",
-      "status": "Athugun eftir auglýsingu",
-      "date": "2026-04-29",
-      "review_deadline": "2026-08-12",
-      "summary": "Gerð er breyting á samsetningu íbúðartegunda og nokkrum götum breytt í botngötur. Breyting er gerð á skipulagsuppdrætti og greinargerð.",
-      "url": "https://skipulagsgatt.is/issues/4863"
     },
     {
       "id": "landsrettur:343/2025",
@@ -2802,19 +2718,6 @@
       "date": "2026-03-19",
       "summary": "Staðfestur var dómur héraðsdóms þar sem O ehf. og R ehf. voru sýknaðir af kröfu L hf. um ógildingu úrskurðar kærunefndar útboðsmála. Ekki var fallist á að úrskurður nefndarinnar hafi verið haldinn form- eða efnisannmörkum eða að nefndin hafi við meðferð og úrlausn málsins farið út fyrir hlutverk sitt og valdsvið lögum samkvæmt.",
       "url": "https://island.is/domar/g-934a88c6-148e-40eb-92c1-327a66f86165"
-    },
-    {
-      "id": "skgatt:0290/2026",
-      "lane": "planning",
-      "title": "Breyting á Deiliskipulagi Miðbær Hraun Vestur - Vitastígur 12a",
-      "entity": "Hafnarfjörður",
-      "case_number": "0290/2026",
-      "plan_type": "deiliskipulag",
-      "status": "Endanleg gögn",
-      "date": "2026-03-17",
-      "review_deadline": "2026-08-12",
-      "summary": "Skipulags- og byggingarráð samþykkir þann 19.2.2026 að auglýsa tillögu að breytingu á deiliskipulagi Miðbæjar hraun vesturs og vísar erindinu til staðfestingar í bæjarstjórn. Lýsing á breytingunni: Stofnað verður ný lóð fyrir vitann, Vitastígur 12A 243,2 m2 að stærð. Skilmálar: Botnplata vitans er 2,00 x 1,70 m, samtals 3,4 m2. Verði vitinn fjarlægður er óh…",
-      "url": "https://skipulagsgatt.is/issues/4645"
     },
     {
       "id": "skgatt:0320/2026",
@@ -3090,19 +2993,6 @@
       "url": "https://skipulagsgatt.is/issues/4562"
     },
     {
-      "id": "skgatt:0186/2026",
-      "lane": "planning",
-      "title": "Steinkusel DSK. Endurauglýsing",
-      "entity": "Rangárþing ytra",
-      "case_number": "0186/2026",
-      "plan_type": "deiliskipulag",
-      "status": "Athugun eftir auglýsingu",
-      "date": "2026-02-12",
-      "review_deadline": "2026-08-12",
-      "summary": "Eigendur lóða innan Steinkusels, svæðis úr landi Efra-Sels, óska eftir að fá að gera breytingar á gildandi deiliskipulagi dags. september 2010. Lóðirnar sem um ræðir eru Kúfholt I L165021, Kúfholt II L220223, Kötlusel lóð F3 L220224, Fjallasel lóð F4 L220225 og Kúfholt III L220226. Breytingarnar eru þannig að stærðir lóða breytast og lóðunum fjölgar í 8 lan…",
-      "url": "https://skipulagsgatt.is/issues/4541"
-    },
-    {
       "id": "skgatt:0185/2026",
       "lane": "planning",
       "title": "Hagi v/Selfjall 2. DSK. Endurauglýsing",
@@ -3114,19 +3004,6 @@
       "review_deadline": "2026-08-13",
       "summary": "Eigendur lóðarinnar Hagi v/Selfjall 2, L176252, hafa fengið heimild til að fá að gera breytingar á gildandi deiliskipulagi fyrir svæðið, dags. 10.6.1992, þar sem heimiluð verði föst búseta og byggingarheimildir uppfærðar skv. því. Auglýst er samhliða breyting á landnotkun lóðarinnar í aðalskipulagi þar sem henni verði breytt úr frístundasvæði í landbúnaðars…",
       "url": "https://skipulagsgatt.is/issues/4540"
-    },
-    {
-      "id": "skgatt:0183/2026",
-      "lane": "planning",
-      "title": "Steinkusel. Endurauglýsing",
-      "entity": "Rangárþing ytra",
-      "case_number": "0183/2026",
-      "plan_type": "adalskipulag",
-      "status": "Staðfesting",
-      "date": "2026-02-12",
-      "review_deadline": "2026-08-12",
-      "summary": "Landeigendur lóðanna Kúfholts 1 L165021, Kúfholts II L220223, Kúfholts III L220226, Kötlusels F3 L220224 og Fjallasels lóðar F4 L220225 óska eftir að fá að leggja fram tillögu að nýju deiliskipulagi fyrir lóðir sínar. Breytingarnar eru þannig að stærðir lóða breytast og lóðunum fjölgar í 8 landspildur (stærð lóða 0,5-1,0 ha.), heiti á lóðum breytast einnig…",
-      "url": "https://skipulagsgatt.is/issues/4538"
     },
     {
       "id": "skgatt:0171/2026",
@@ -3848,19 +3725,6 @@
       "url": "https://skipulagsgatt.is/issues/3852"
     },
     {
-      "id": "skgatt:1114/2025",
-      "lane": "planning",
-      "title": "Lautir dsk",
-      "entity": "Rangárþing ytra",
-      "case_number": "1114/2025",
-      "plan_type": "deiliskipulag",
-      "status": "Athugun eftir auglýsingu",
-      "date": "2025-08-13",
-      "review_deadline": "2026-08-12",
-      "summary": "Sveitarstjórn Rangárþings ytra samþykkti á fundi sínum 13.8.2025 að kynnt yrði lýsing skipulagsáforma að deiliskipulagi fyrir Lautir, hluta úr Álfaborgum 5. Lautir eru hluti af Álfaborgum en staðsett sunnan Húsagarðsvegar. Áform eru að skilgreina Lautir sem lögbýli. Á jörðinni er fyrirhugað að stunda grænmetisræktun og sjálfbæra vöruþróun. Gert er ráð fyrir…",
-      "url": "https://skipulagsgatt.is/issues/3771"
-    },
-    {
       "id": "skgatt:0767/2025",
       "lane": "planning",
       "title": "Göngu- og hjólreiðastígur Vogastapi",
@@ -4062,6 +3926,19 @@
       "date": "2025-04-04",
       "summary": "Útilokunarástæður. Tilboðsgögn. Tæknilegt hæfi. Skaðabótaskylda. Málskostnaður.",
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/?newsid=b6739d77-1141-11f0-b890-005056bcde1f&cname=Kærunefnd útboðsmála&cid=e219adb9-4214-11e7-941a-005056bc530c"
+    },
+    {
+      "id": "skgatt:0428/2025",
+      "lane": "planning",
+      "title": "Suðurbrekkureitur Ásbrú",
+      "entity": "Reykjanesbær",
+      "case_number": "0428/2025",
+      "plan_type": "deiliskipulag",
+      "status": "Athugun eftir auglýsingu",
+      "date": "2025-04-03",
+      "review_deadline": "2026-09-16",
+      "summary": "Af2 fyrir Kadeco leggur fram nýtt deiliskipualg fyrir Suðurbrekku, svæði sunnan við Skógarhverfi, austan Virkisbrautar að Flugvallarbraut. Byggingar verði 1-3 hæðir og blanda af sérbýli og fjölbýli með um 200 íbúðum alls af fjölbreyttri gerð. Markmiðið er að nýtt deiliskipulag á Suðurbrekkureit skapi heildstæða og hlýlega byggð einbýlishúsa, raðhúsa og líti…",
+      "url": "https://skipulagsgatt.is/issues/3085"
     },
     {
       "id": "skgatt:0387/2025",
@@ -4793,6 +4670,50 @@
       "doc_type": "reference"
     },
     {
+      "id": "announcement:vegagerdin-utbod:utbod",
+      "lane": "announcement",
+      "source": "vegagerdin-utbod",
+      "title": "Auglýst útboð Vegagerðarinnar",
+      "entity": "Vegagerðin",
+      "status": "tracker",
+      "summary": "Vegagerðin vinnur að öruggum og sjálfbærum samgöngum á landsvísu. Hér finnur þú upplýsingar um verkefni, framkvæmdir og samgöngukerfið.",
+      "url": "https://www.vegagerdin.is/verkefnin/utbod",
+      "keywords_matched": [
+        "framkvæmd",
+        "opinber innkaup",
+        "samgöngur",
+        "útboð"
+      ]
+    },
+    {
+      "id": "announcement:vegagerdin-framkvaemdafrettir:framkvaemdafrettir",
+      "lane": "announcement",
+      "source": "vegagerdin-framkvaemdafrettir",
+      "title": "Framkvæmdafréttir Vegagerðarinnar",
+      "entity": "Vegagerðin",
+      "status": "tracker",
+      "summary": "Vegagerðin vinnur að öruggum og sjálfbærum samgöngum á landsvísu. Hér finnur þú upplýsingar um verkefni, framkvæmdir og samgöngukerfið.",
+      "url": "https://www.vegagerdin.is/vegagerdin/lifid-i-vegagerdinni/framkvaemdafrettir",
+      "keywords_matched": [
+        "framkvæmd",
+        "samgöngur",
+        "útboð"
+      ]
+    },
+    {
+      "id": "announcement:reykjavik-framkvaemdir:framkvaemdir",
+      "lane": "announcement",
+      "source": "reykjavik-framkvaemdir",
+      "title": "Framkvæmdir í Reykjavík",
+      "entity": "Reykjavíkurborg",
+      "status": "tracker",
+      "summary": "Framkvæmdir, malbikun, fræsing og afnotaleyfi Hér finnur þú upplýsingar um framkvæmdir, malbikun og afnotaleyfi í Reykjavík. Um lifandi gögn er að ræða sem breytast reglulega og gefa góða mynd af því sem er í gangi í borginni hverju sinni. Veldu það sem þú vilt skoða á kortinu:",
+      "url": "https://reykjavik.is/framkvaemdir",
+      "keywords_matched": [
+        "framkvæmd"
+      ]
+    },
+    {
       "id": "announcement:reykjaneshofn-hafnaradstada:hafnaradstada",
       "lane": "announcement",
       "source": "reykjaneshofn-hafnaradstada",
@@ -4848,6 +4769,33 @@
       ]
     },
     {
+      "id": "announcement:landsnet:birgjar-og-innkaup",
+      "lane": "announcement",
+      "source": "landsnet",
+      "title": "Birgjar og innkaup",
+      "entity": "Landsnet",
+      "status": "reference",
+      "url": "https://www.landsnet.is/birgjar-og-innkaup/",
+      "keywords_matched": [
+        "framkvæmd",
+        "innkaup"
+      ]
+    },
+    {
+      "id": "announcement:landsnet-utbod:utbod",
+      "lane": "announcement",
+      "source": "landsnet-utbod",
+      "title": "Útboð Landsnets",
+      "entity": "Landsnet",
+      "status": "reference",
+      "url": "https://www.landsnet.is/birgjar-og-innkaup/utbod/",
+      "keywords_matched": [
+        "innkaup",
+        "opinber innkaup",
+        "útboð"
+      ]
+    },
+    {
       "id": "announcement:kadeco-throunarreitir:throunarreitir",
       "lane": "announcement",
       "source": "kadeco-throunarreitir",
@@ -4876,6 +4824,21 @@
       ]
     },
     {
+      "id": "announcement:isafjordur-utbod-frettir:utbod-frettir",
+      "lane": "announcement",
+      "source": "isafjordur-utbod-frettir",
+      "title": "Útboð og framkvæmdir Ísafjarðarbæjar",
+      "entity": "Ísafjarðarbær",
+      "status": "tracker",
+      "summary": "Verðkönnun fráveita á Þingeyri Hafnir Ísafjarðarbæjar óska eftir tilboðum í móttökubyggingu við Hrafnatanga Útboð: Slökkvistöð á Suðurtanga -Burðarvirki Ós",
+      "url": "https://www.isafjardarbaer.is/is/umhverfi/skipulag/utbod-frettir",
+      "keywords_matched": [
+        "framkvæmd",
+        "opinber innkaup",
+        "útboð"
+      ]
+    },
+    {
       "id": "announcement:hsorka-audlindagardurinn:audlindagardurinn",
       "lane": "announcement",
       "source": "hsorka-audlindagardurinn",
@@ -4900,6 +4863,34 @@
       "url": "https://hagstofa.is/talnaefni/efnahagur/verdlag/byggingarvisitala/",
       "keywords_matched": [
         "bygging"
+      ]
+    },
+    {
+      "id": "announcement:fsre:auglysingar-og-utbod",
+      "lane": "announcement",
+      "source": "fsre",
+      "title": "Framkvæmdasýslan - Ríkiseignir",
+      "entity": "Framkvæmdasýslan - Ríkiseignir",
+      "status": "reference",
+      "summary": "Ísland.is er upplýsinga- og þjónustuveita opinberra aðila á Íslandi. Þar getur fólk og fyrirtæki fengið upplýsingar og notið margvíslegrar þjónustu hjá opinberum aðilum á einum stað í gegnum eina gátt.",
+      "url": "https://island.is/s/fsre/auglysingar-og-utbod",
+      "keywords_matched": [
+        "framkvæmd",
+        "útboð"
+      ]
+    },
+    {
+      "id": "announcement:fsre-nidurstodur-utboda:nidurstodur-utboda",
+      "lane": "announcement",
+      "source": "fsre-nidurstodur-utboda",
+      "title": "Framkvæmdasýslan - Ríkiseignir",
+      "entity": "Framkvæmdasýslan - Ríkiseignir",
+      "status": "reference",
+      "summary": "Ísland.is er upplýsinga- og þjónustuveita opinberra aðila á Íslandi. Þar getur fólk og fyrirtæki fengið upplýsingar og notið margvíslegrar þjónustu hjá opinberum aðilum á einum stað í gegnum eina gátt.",
+      "url": "https://island.is/s/fsre/nidurstodur-utboda",
+      "keywords_matched": [
+        "framkvæmd",
+        "útboð"
       ]
     },
     {
