@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated": "2026-08-19T06:30:01Z",
+  "generated": "2026-08-20T06:30:02Z",
   "window": {
-    "from": "2026-07-20",
-    "to": "2026-08-19"
+    "from": "2026-07-21",
+    "to": "2026-08-20"
   },
   "coverage": {
     "sources": [
@@ -81,6 +81,16 @@
         "source": "vegagerdin",
         "outlet": "Vegagerðin",
         "url": "https://www.vegagerdin.is/upplysingar-og-utgafa/frettir/"
+      },
+      {
+        "source": "vegagerdin-utbod",
+        "outlet": "Vegagerðin / útboð",
+        "url": "https://www.vegagerdin.is/verkefnin/utbod"
+      },
+      {
+        "source": "vegagerdin-framkvaemdafrettir",
+        "outlet": "Vegagerðin / Framkvæmdafréttir",
+        "url": "https://www.vegagerdin.is/vegagerdin/lifid-i-vegagerdinni/framkvaemdafrettir"
       },
       {
         "source": "reykjavik",
@@ -252,51 +262,63 @@
   "count": 22,
   "items": [
     {
-      "id": "news:byggingar:krafla-ehf-laegst-i-djupgamastod-vid-seljaskola-28-undir-kostnadaraaetlun",
+      "id": "news:vegagerdin:gotulokanir-a-menningarnott",
+      "lane": "news",
+      "category": "project",
+      "title": "19. ágúst 2026 Götulokanir á Menningarnótt",
+      "entity": "Vegagerðin",
+      "date": "2026-08-19",
+      "summary": "__eI5fQ\"> Frétt­ir 19. ágúst 2026 Götulokanir á Menningarnótt <img alt=\"\" loading=\"lazy\" width=\"300\" height=\"9999\" decoding=\"async\" data-nimg=\"1\" class=\"NextImage_container__yLPzb\" style=\"color:transparent;height:auto\" srcSet=\"/_next/image?url=%2Fmedia%2F2026%2F07%2F20260605_143944-scaled-aspect-ratio-1600-1100-scaled.jpg&w=400&q=75 1x, /_next/i",
+      "url": "https://www.vegagerdin.is/vegagerdin/starfsemi/frettir/gotulokanir-a-menningarnott",
+      "outlet": "Vegagerðin",
+      "is_new": true
+    },
+    {
+      "id": "news:byggingar:mikill-ahugi-er-a-husunum-vid-hofsbot-a-akureyri",
+      "lane": "news",
+      "category": "project",
+      "title": "„Mikill áhugi“ er á húsunum við Hofsbót á Akureyri",
+      "entity": "byggingar.is",
+      "date": "2026-08-19",
+      "summary": "tps://byggingar.is/wp-content/uploads/2026/08/19.08.2026-Mikill-ahugi-er-a-husunum-vid-Hofsbot-a-238x178.jpg\" width=\"238\" height=\"178\" /> „Mikill áhugi“ er á húsunum við Hofsbót á Akureyri <a href=\"https://byggingar.is/tvo-tilbod-i-staekkun-seydisfjardarskola-baedi-yfir-kostnadaraaetlun/\" rel=\"bookmark\" class=\"td-image-wrap \" title=\"Tvö tilboð í stækkun Seyð",
+      "url": "https://byggingar.is/mikill-ahugi-er-a-husunum-vid-hofsbot-a-akureyri/",
+      "outlet": "byggingar.is",
+      "is_new": true
+    },
+    {
+      "id": "news:byggingar:kalka-bydur-ut-jardvinnu-og-undirstodur-fyrir-1-440-fermetra-stalgrindarhus",
+      "lane": "news",
+      "category": "project",
+      "title": "31.08.2026 KALKA býður út jarðvinnu og undirstöður fyrir 1.440 fermetra stálgrindarhús",
+      "entity": "byggingar.is",
+      "date": "2026-08-19",
+      "summary": "s/2026/08/19.08.2026-KALKA-bydur-ut-jardvinnu-og-undirstodur-fyrir-1.440-fermetra-stalgrindarhus-238x178.png\" width=\"238\" height=\"178\" /> 31.08.2026 KALKA býður út jarðvinnu og undirstöður fyrir 1.440 fermetra stálgrindarhús <i class=\"td-next-prev-icon td-i",
+      "url": "https://byggingar.is/kalka-bydur-ut-jardvinnu-og-undirstodur-fyrir-1-440-fermetra-stalgrindarhus/",
+      "outlet": "byggingar.is",
+      "is_new": true
+    },
+    {
+      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-tvo-tilbod-i-staekkun-seydisfjardarsk",
+      "lane": "news",
+      "category": "project",
+      "title": "Tvö tilboð í stækkun Seyðisfjarðarskóla – bæði yfir kostnaðaráætlun",
+      "entity": "byggingar.is / niðurstöður útboða",
+      "date": "2026-08-19",
+      "summary": "Tvö tilboð í stækkun Seyðisfjarðarskóla – bæði yfir kostnaðaráætlun Tvö tilboð bárust í stækkun Seyðisfjarðarskóla og voru þau bæði yfir kostnaðaráætlun Múlaþings. Lægra tilboðið hljóðaði upp á rúman 1,06 milljarð króna og var um 123 milljónum króna yfir áætlun. Niðurstaða útboðsins var lögð fyrir Umhverfis- og framkvæmdaráð Múlaþings á fundi þess 17. ágúst...",
+      "url": "https://byggingar.is/tvo-tilbod-i-staekkun-seydisfjardarskola-baedi-yfir-kostnadaraaetlun/?utm_source=rss&utm_medium=rss&utm_campaign=tvo-tilbod-i-staekkun-seydisfjardarskola-baedi-yfir-kostnadaraaetlun",
+      "outlet": "byggingar.is / niðurstöður útboða",
+      "is_new": true
+    },
+    {
+      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-krafla-ehf-laegst-i-djupgamastod-vid-",
       "lane": "news",
       "category": "project",
       "title": "Krafla ehf. lægst í djúpgámastöð við Seljaskóla – 28% undir kostnaðaráætlun",
-      "entity": "byggingar.is",
+      "entity": "byggingar.is / niðurstöður útboða",
       "date": "2026-08-18",
-      "summary": "/2026/08/18.08.2026-Krafla-ehf.-laegst-i-djupgamastod-vid-Seljaskola-–-28-undir-kostnadaraaetlun-238x178.jpg\" width=\"238\" height=\"178\" /> Krafla ehf. lægst í djúpgámastöð við Seljaskóla – 28% undir kostnaðaráætlun <i class=\"td-next-prev-icon td-i",
-      "url": "https://byggingar.is/krafla-ehf-laegst-i-djupgamastod-vid-seljaskola-28-undir-kostnadaraaetlun/",
-      "outlet": "byggingar.is",
-      "is_new": true
-    },
-    {
-      "id": "news:byggingar:framkvaemdir-vid-staekkun-hjukrunarheimilisins-soltuns-ganga-vel",
-      "lane": "news",
-      "category": "project",
-      "title": "Framkvæmdir við stækkun hjúkrunarheimilisins Sóltúns ganga vel",
-      "entity": "byggingar.is",
-      "date": "2026-08-18",
-      "summary": "nt/uploads/2026/08/18.08.2026-Framkvaemdir-vid-staekkun-hjukrunarheimilisins-Soltuns-ganga-vel-c-238x178.jpg\" width=\"238\" height=\"178\" /> Framkvæmdir við stækkun hjúkrunarheimilisins Sóltúns ganga vel <a href=\"https://byggingar.is/krafla-ehf-laegst-i-djupgamastod-vid-seljaskola-28-undir-kostnadaraaetlun/\" rel=\"bookmark\" class=\"td-image-wrap \" title=\"Krafla...",
-      "url": "https://byggingar.is/framkvaemdir-vid-staekkun-hjukrunarheimilisins-soltuns-ganga-vel/",
-      "outlet": "byggingar.is",
-      "is_new": true
-    },
-    {
-      "id": "news:byggingar:eik-hagnadist-um-riflega-38-milljarda",
-      "lane": "news",
-      "category": "project",
-      "title": "Eik hagnaðist um ríflega 3,8 milljarða",
-      "entity": "byggingar.is",
-      "date": "2026-08-18",
-      "summary": "https://byggingar.is/wp-content/uploads/2026/08/18.08.2026-Eik-hagnadist-um-riflega-38-milljarda-238x178.jpg\" width=\"238\" height=\"178\" /> Eik hagnaðist um ríflega 3,8 milljarða <a href=\"https://byggingar.is/framkvaemdir-vid-staekkun-hjukrunarheimilisins-soltuns-ganga-vel/\" rel=\"bookmark\" class=\"td-image-wrap \" title=\"Framkvæmdir við stækkun hjúkr",
-      "url": "https://byggingar.is/eik-hagnadist-um-riflega-38-milljarda/",
-      "outlet": "byggingar.is",
-      "is_new": true
-    },
-    {
-      "id": "news:vegagerdin:ny-bok-um-hringveginn",
-      "lane": "news",
-      "category": "project",
-      "title": "17. ágúst 2026 Ný bók um Hringveginn",
-      "entity": "Vegagerðin",
-      "date": "2026-08-17",
-      "summary": "__eI5fQ\"> Frétt­ir 17. ágúst 2026 Ný bók um Hringveginn <img alt=\"\" loading=\"lazy\" width=\"300\" height=\"9999\" decoding=\"async\" data-nimg=\"1\" class=\"NextImage_container__yLPzb\" style=\"color:transparent;height:auto\" srcSet=\"/_next/image?url=%2Fmedia%2F2026%2F08%2Fdji_0145-scaled-aspect-ratio-1600-1100-scaled.jpg&w=400&q=75 1x, /_next/image?url=%2Fmedia%2F2026%...",
-      "url": "https://www.vegagerdin.is/vegagerdin/starfsemi/frettir/ny-bok-um-hringveginn",
-      "outlet": "Vegagerðin",
+      "summary": "Krafla ehf. lægst í djúpgámastöð við Seljaskóla – 28% undir kostnaðaráætlun Reykjavíkurborg opnaði 14. ágúst 2026 tilboð í verðfyrirspurn nr. 16345, „Grenndargámar við Seljaskóla – Djúpgámastöð“. Tvö tilboð bárust. Bjóðandi Tilboð Hlutfall af áætlun Krafla ehf. 9.062.250 kr. 71,98% Berg verktakar 10.526.767 kr. 83,61% Kostnaðaráætlun 12.590.400 kr. 100% Kra...",
+      "url": "https://byggingar.is/krafla-ehf-laegst-i-djupgamastod-vid-seljaskola-28-undir-kostnadaraaetlun/?utm_source=rss&utm_medium=rss&utm_campaign=krafla-ehf-laegst-i-djupgamastod-vid-seljaskola-28-undir-kostnadaraaetlun",
+      "outlet": "byggingar.is / niðurstöður útboða",
       "is_new": false
     },
     {
@@ -330,7 +352,7 @@
       "title": "Götumarkaður í Listasafni Reykjavíkur Hafnarhúsi",
       "entity": "Reykjavíkurborg",
       "date": "2026-08-13",
-      "summary": "k=Q7asxZ-u 1920w, /sites/default/files/styles/landscape_4k/public/2026-08/24042402_honnunar_355_small.jpg?h=34e43602&itok=5jXndf3i 3840w\" data-sizes=\"auto\" /> 13. ágúst 2026 Götumarkaður í Listasafni Reykjavíkur Hafnarhúsi <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2026-08/skjamynd_2026-08-11_...",
+      "summary": "k=Q7asxZ-u 1920w, /sites/default/files/styles/landscape_4k/public/2026-08/24042402_honnunar_355_small.jpg?h=34e43602&itok=5jXndf3i 3840w\" data-sizes=\"auto\" /> 13. ágúst 2026 Götumarkaður í Listasafni Reykjavíkur Hafnarhúsi <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2026-08/helga_lara_haarde.jp...",
       "url": "https://reykjavik.is/frettir/2026/gotumarkadur-i-listasafni-reykjavikur-hafnarhusi",
       "outlet": "Reykjavíkurborg",
       "is_new": false
@@ -488,18 +510,6 @@
       "date": "2026-07-31",
       "summary": "Þrjú tilboð bárust í tætara fyrir timburúrgang hjá SORPU Þrjú tilboð bárust í EES-útboð Reykjavíkurborgar nr. 16324, sem varðar kaup á tætara fyrir timburúrgang fyrir SORPU bs. Tilboðin voru opnuð í Borgartúni 12–14 þann 31. júlí 2026. Verkefnið felur í sér kaup á tætivél fyrir timburúrgang (Wood Shredding Machine for Wastewood) sem ætlað er að […] The post...",
       "url": "https://byggingar.is/thrju-tilbod-barust-i-taetara-fyrir-timbururgang-hja-sorpu/?utm_source=rss&utm_medium=rss&utm_campaign=thrju-tilbod-barust-i-taetara-fyrir-timbururgang-hja-sorpu",
-      "outlet": "byggingar.is / niðurstöður útboða",
-      "is_new": false
-    },
-    {
-      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-tvo-tilbod-barust-i-staekkun-seydisfj",
-      "lane": "news",
-      "category": "project",
-      "title": "Tvö tilboð bárust í stækkun Seyðisfjarðarskóla",
-      "entity": "byggingar.is / niðurstöður útboða",
-      "date": "2026-07-30",
-      "summary": "Tvö tilboð bárust í stækkun Seyðisfjarðarskóla Tvö tilboð bárust í útboð vegna byggingar nýrrar skólabyggingar við Seyðisfjarðarskóla. Tilboðin eru nú til yfirferðar hjá Múlaþingi og verður í framhaldinu tekin ákvörðun um næstu skref verkefnisins. Fram kemur í fundargerð Heimastjórnar Seyðisfjarðar frá 30. júlí að útboð vegna nýrrar skólabyggingar hafi veri...",
-      "url": "https://byggingar.is/tvo-tilbod-barust-i-staekkun-seydisfjardarskola/?utm_source=rss&utm_medium=rss&utm_campaign=tvo-tilbod-barust-i-staekkun-seydisfjardarskola",
       "outlet": "byggingar.is / niðurstöður útboða",
       "is_new": false
     },
