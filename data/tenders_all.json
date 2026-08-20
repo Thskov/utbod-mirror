@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated": "2026-08-19T07:00:12Z",
-  "generated_at": "2026-08-19T07:00:12Z",
+  "generated": "2026-08-20T07:00:13Z",
+  "generated_at": "2026-08-20T07:00:13Z",
   "sources": {
     "utbodsvefur": {
-      "generated_at": "2026-08-19T07:00:12.684479+00:00",
+      "generated_at": "2026-08-20T07:00:13.753666+00:00",
       "count": 47,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders.json"
     },
     "offportal": {
-      "generated": "2026-08-19T07:00:12Z",
+      "generated": "2026-08-20T07:00:13Z",
       "count": 20,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders_offportal.json"
     },
@@ -66,6 +66,7 @@
       "grindavíkurbær",
       "hs veitur",
       "hs veitur hf",
+      "hveragerðisbær",
       "hydros",
       "isavia",
       "isavia ans",
@@ -119,6 +120,8 @@
       "grindavíkurbær": "Grindavíkurbær",
       "grindavik": "Grindavíkurbær",
       "grindavikurbaer": "Grindavíkurbær",
+      "hveragerði": "Hveragerðisbær",
+      "hveragerðisbær": "Hveragerðisbær",
       "hs veitur": "HS Veitur",
       "hs veitur hf": "HS Veitur",
       "hydros": "Thor Landeldi / Hydros",
@@ -281,14 +284,14 @@
     ],
     "source_candidates": [
       {
-        "id": "tender:buyer:hveragerðisbær",
-        "name": "Hveragerðisbær",
+        "id": "tender:buyer:kalka",
+        "name": "Kalka",
         "suggested_feed": "tenders_all",
         "suggested_lane": "tender",
-        "evidence_url": "https://www.utbodsvefur.is/vatryggingautbod-hveragerdisbaejar-2027-2029/",
+        "evidence_url": "https://www.utbodsvefur.is/kalka-jardvinna-og-undirstodur-stalgrindarhuss/",
         "seen_count": 1,
-        "first_seen": "2026-08-19T07:00:12Z",
-        "last_seen": "2026-08-19T07:00:12Z",
+        "first_seen": "2026-08-20T07:00:13Z",
+        "last_seen": "2026-08-20T07:00:13Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       }
@@ -296,20 +299,6 @@
   },
   "count": 61,
   "items": [
-    {
-      "reference": "16307",
-      "project": "Innleiðing SharePoint online hjá Reykjavíkurborg. EES útboð nr. 16307",
-      "buyer": "Reykjavíkurborg",
-      "notice_type": "Þjónusta",
-      "deadline": "19.08.2026 kl. 10:00",
-      "deadline_local": "2026-08-19T10:00:00+00:00",
-      "deadline_utc": "2026-08-19T10:00:00+00:00",
-      "posted_at": "2026-06-22T13:57:35+00:00",
-      "modified_at": "2026-06-22T13:57:35+00:00",
-      "url": "https://www.utbodsvefur.is/innleiding-sharepoint-online-hja-reykjavikurborg-ees-utbod-nr-16307/",
-      "summary": "Óskað er eftir tilboðum í Innleiðing SharePoint Online hjá Reykjavíkurborg, EES útboð nr. 16307 Skrifstofa fjármálaþjónustu og ráðgjafar f.h. þjónust...",
-      "source": "utbodsvefur"
-    },
     {
       "reference": "16319",
       "project": "Þjónusta við trjáfellingar í borgarlandinu. Rammasamingur, EES útboð nr. 16319",
@@ -647,6 +636,20 @@
       "source": "utbodsvefur"
     },
     {
+      "reference": "202632",
+      "project": "Kalka – Jarðvinna og undirstöður stálgrindarhúss",
+      "buyer": "Kalka",
+      "notice_type": "Framkvæmd",
+      "deadline": "31.08.2026 kl. 12:00",
+      "deadline_local": "2026-08-31T12:00:00+00:00",
+      "deadline_utc": "2026-08-31T12:00:00+00:00",
+      "posted_at": "2026-08-19T15:12:12+00:00",
+      "modified_at": "2026-08-19T15:12:12+00:00",
+      "url": "https://www.utbodsvefur.is/kalka-jardvinna-og-undirstodur-stalgrindarhuss/",
+      "summary": "Consensa, fyrir hönd Kölku sf., óskar eftir tilboðum í jarðvinnu og gerð undirstaðna fyrir 1.440 m² stálgrindarhús samkvæmt skilmálum útboðsgagna. Ver...",
+      "source": "utbodsvefur"
+    },
+    {
       "reference": "2026­-10",
       "project": "Kaplan Upgrade at Steingrímsstöð",
       "buyer": "Landsvirkjun",
@@ -787,20 +790,6 @@
       "source": "utbodsvefur"
     },
     {
-      "reference": "23-096",
-      "project": "Hringvegur (1) um Kjalarnes, 2. áfangi, Vallá – Hvalfjörður",
-      "buyer": "Vegagerðin",
-      "notice_type": "Framkvæmd",
-      "deadline": "08.09.2026 kl. 14:00",
-      "deadline_local": "2026-09-08T14:00:00+00:00",
-      "deadline_utc": "2026-09-08T14:00:00+00:00",
-      "posted_at": "2026-07-15T10:39:22+00:00",
-      "modified_at": "2026-07-15T10:39:22+00:00",
-      "url": "https://www.utbodsvefur.is/hringvegur-1-um-kjalarnes-2-afangi-valla-hvalfjordur/",
-      "summary": "Vegagerðin býður hér með út breikkun Hringvegar frá Vallá að Hvalfjarðarvegi. Á kaflanum verða tvö hringtorg, tvö ný undirgöng við annars vegar við Gr...",
-      "source": "utbodsvefur"
-    },
-    {
       "reference": "487213-2026",
       "project": "Hringvegur (1) around Kjalarnes, 2. áfangi, Vallá – Hvalfjörður",
       "buyer": "Vegagerðin",
@@ -910,6 +899,20 @@
       "modified_at": "2026-08-14T14:13:43+00:00",
       "url": "https://www.utbodsvefur.is/hreinsun-gatna-i-gardabae-2027-2028/",
       "summary": "Garðabær óskar eftir tilboðum í verkið: „Hreinsun gatna í Garðabæ 2027-2028 “ Í verkinu felst hreinsun helstu gatna og húsagatna í Garðabæ 2027-2028....",
+      "source": "utbodsvefur"
+    },
+    {
+      "reference": "23-096",
+      "project": "Hringvegur (1) um Kjalarnes, 2. áfangi, Vallá – Hvalfjörður",
+      "buyer": "Vegagerðin",
+      "notice_type": "Framkvæmd",
+      "deadline": "15.09.2026 kl. 14:00",
+      "deadline_local": "2026-09-15T14:00:00+00:00",
+      "deadline_utc": "2026-09-15T14:00:00+00:00",
+      "posted_at": "2026-07-15T10:39:22+00:00",
+      "modified_at": "2026-08-19T10:29:41+00:00",
+      "url": "https://www.utbodsvefur.is/hringvegur-1-um-kjalarnes-2-afangi-valla-hvalfjordur/",
+      "summary": "Vegagerðin býður hér með út breikkun Hringvegar frá Vallá að Hvalfjarðarvegi. Á kaflanum verða tvö hringtorg, tvö ný undirgöng við annars vegar við Gr...",
       "source": "utbodsvefur"
     },
     {
