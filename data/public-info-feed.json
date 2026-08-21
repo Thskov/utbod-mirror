@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated": "2026-08-21T15:06:42Z",
+  "generated": "2026-08-21T15:19:53Z",
   "window": {
     "from": "2026-08-14",
     "to": "2026-08-21"
@@ -31,10 +31,13 @@
       "Árneshreppur"
     ],
     "eia_searches": [
+      "Fjölnota íþróttahús í Borgarnesi",
       "Fossvogsbrú",
       "matsskyldu",
       "matsáætlun",
-      "umhverfismat"
+      "Skjólgarður Höfn",
+      "umhverfismat",
+      "Vaðölduver"
     ],
     "eia_supplements": [
       {
@@ -160,7 +163,10 @@
         "orku",
         "framkvæmd",
         "samgöngur",
-        "ístak project: Fossvogsbrú"
+        "ístak project: Fjölnota íþróttahús í Borgarnesi",
+        "ístak project: Fossvogsbrú",
+        "ístak project: Skjólgarður Höfn",
+        "ístak project: Vaðölduver"
       ],
       "samradsgatt_statuses": [
         "Til umsagnar"
@@ -181,12 +187,12 @@
   "learning": {
     "register": "../data/istak-learned-projects.json",
     "active_istak_projects": [
-      "Aðalskipulagi Rangárþings",
-      "Fossvogsbrú"
+      "Fjölnota íþróttahús í Borgarnesi",
+      "Fossvogsbrú",
+      "Skjólgarður Höfn",
+      "Vaðölduver"
     ],
-    "new_or_seen_istak_projects": [
-      "Aðalskipulagi Rangárþings"
-    ]
+    "new_or_seen_istak_projects": []
   },
   "sources": {
     "not_covered": {
@@ -211,7 +217,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/5338",
         "seen_count": 1,
         "first_seen": "2026-08-21T15:06:42Z",
-        "last_seen": "2026-08-21T15:06:42Z",
+        "last_seen": "2026-08-21T15:19:53Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       }
@@ -230,8 +236,8 @@
           "no_matching_keywords": 25
         },
         "landsvirkjun": {
-          "no_matching_keywords": 19,
-          "undated": 6
+          "no_matching_keywords": 17,
+          "undated": 8
         },
         "faxafloahafnir": {
           "undated": 3,
@@ -315,7 +321,8 @@
           "outside_window": 11
         },
         "vb": {
-          "no_matching_keywords": 40
+          "no_matching_keywords": 39,
+          "undated": 1
         },
         "fiskifrettir": {
           "no_matching_keywords": 40
