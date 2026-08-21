@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated": "2026-08-20T06:45:02Z",
+  "generated": "2026-08-21T06:45:01Z",
   "window": {
-    "from": "2026-08-13",
-    "to": "2026-08-20"
+    "from": "2026-08-14",
+    "to": "2026-08-21"
   },
   "coverage": {
     "municipalities": [
@@ -74,6 +74,7 @@
       "https://reykjavik.is/frettir",
       "https://www.kopavogur.is/is/frettir-tilkynningar",
       "https://www.hafnarfjordur.is/stjornsysla/frettir/",
+      "https://hafnarfjordur.is/skipulag-i-kynningu-flokkur/utbod/",
       "https://www.reykjanesbaer.is/is/stjornsysla/frettir",
       "https://www.sudurnesjabaer.is/is/moya/news",
       "https://www.akureyri.is/is/frettir",
@@ -208,8 +209,8 @@
           "undated": 6
         },
         "faxafloahafnir": {
-          "no_matching_keywords": 38,
-          "undated": 2
+          "undated": 3,
+          "no_matching_keywords": 37
         },
         "veitur": {
           "no_matching_keywords": 22
@@ -228,8 +229,8 @@
           "outside_window": 2
         },
         "reykjavik": {
-          "no_matching_keywords": 37,
-          "undated": 2,
+          "no_matching_keywords": 38,
+          "undated": 1,
           "outside_window": 1
         },
         "kopavogur": {
@@ -263,7 +264,8 @@
           "outside_window": 5
         },
         "mosfellsbaer": {
-          "no_matching_keywords": 32,
+          "no_matching_keywords": 31,
+          "outside_window": 1,
           "undated": 3
         },
         "arborg": {
@@ -286,7 +288,7 @@
         },
         "byggingar-opnun-utboda": {
           "undated": 18,
-          "outside_window": 13
+          "outside_window": 12
         },
         "vb": {
           "no_matching_keywords": 40
@@ -335,7 +337,7 @@
       }
     }
   },
-  "count": 325,
+  "count": 322,
   "items": [
     {
       "id": "legislation:althingi-thingmalaskra:endurskodud-aaetlun-um-framlagningu-thingmala-a-vetrar-og-vorthingi-2026-lokautg",
@@ -345,7 +347,7 @@
       "title": "[Endurskoðuð þingmálaskrá fyrir 157. löggjafarþing",
       "entity": "Alþingi",
       "status": "tracker",
-      "date": "2026-08-20",
+      "date": "2026-08-21",
       "summary": "13. Frumvarp til laga um breytingu á lögum um mannvirki, nr. 160/2010 (einföldun byggingarreglugerðar og endurskoðun byggingareftirlits). / 14. Frumvarp til laga um breytingu á skipulagslögum nr. 123/2010 (raflínuskipulag). / 2. Frumvarp til laga um breytingu á lögum um stefnur og aðgerðaáætlanir á sviði húsnæðis- og skipulagsmála, samgangna og byggðamála, nr. 30/2023 (stefnumörkun).",
       "url": "https://www.althingi.is/media/uncategorized/Endurskodud-aaetlun-um-framlagningu-thingmala-a-vetrar-og-vorthingi-2026-lokautgafa-leidrettX.pdf",
       "index_url": "https://www.althingi.is/thingstorf/leidbeiningar-og-yfirlit/thingmalaskra-rikisstjornar/",
@@ -359,6 +361,19 @@
       "case_number": "157. löggjafarþing"
     },
     {
+      "id": "skgatt:0925/2026",
+      "lane": "planning",
+      "title": "Vífilsstaðir",
+      "entity": "Garðabær",
+      "case_number": "0925/2026",
+      "plan_type": "deiliskipulag",
+      "status": "Kynning tillögu á vinnslustigi",
+      "date": "2026-08-20",
+      "review_deadline": "2026-09-17",
+      "summary": "Á skipulagssvæðinu er gert er ráð fyrir atvinnuhúsnæði (skrifstofuhúsnæði), samanlagt um 6000 m² að stærð. Gert er ráð fyrir 10 nýbyggingum í tveimur samstæðum. Auk þess yrðu fjósið, vélageymsluhúsið og Búshúsið nýtt sem atvinnu- eða þjónustuhúsnæði og þau gerð upp með tilhlýðilegri virðingu. Leitast er við að nýjar byggingar falli sem best að anda staðar o…",
+      "url": "https://skipulagsgatt.is/issues/5280"
+    },
+    {
       "id": "announcement:mosfellsbaer:malbikunarframkvaemdir-19-agust-2026-laxatunga-vogatunga-og-sunnukriki",
       "lane": "announcement",
       "source": "mosfellsbaer",
@@ -370,6 +385,109 @@
       "url": "https://mos.is/mannlif/um-mosfellsbae/frettir/malbikunarframkvaemdir-19-agust-2026-laxatunga-vogatunga-og-sunnukriki/",
       "keywords_matched": [
         "framkvæmd"
+      ]
+    },
+    {
+      "id": "announcement:mosfellsbaer:endurnyjun-gangstetta-vid-alfatanga",
+      "lane": "announcement",
+      "source": "mosfellsbaer",
+      "title": "Framkvæmdir 20. ágúst 2026 Endurnýjun gangstétta við Álfatanga",
+      "entity": "Mosfellsbær",
+      "status": "published",
+      "date": "2026-08-20",
+      "summary": "4.75Z\"/> Framkvæmdir 20. ágúst 2026 Endurnýjun gangstétta við Álfatanga <img class=\"bde-image2-53844-101-102399-53844-1 bde-image2 bde-image",
+      "url": "https://mos.is/mannlif/um-mosfellsbae/frettir/endurnyjun-gangstetta-vid-alfatanga/",
+      "keywords_matched": [
+        "framkvæmd"
+      ]
+    },
+    {
+      "id": "announcement:mosfellsbaer:endabidstod-straeto-vid-tunguveg-faerd",
+      "lane": "announcement",
+      "source": "mosfellsbaer",
+      "title": "Samgöngur 20. ágúst 2026 Endabiðstöð strætó við Tunguveg færð",
+      "entity": "Mosfellsbær",
+      "status": "published",
+      "date": "2026-08-20",
+      "summary": "Endurnýjun gangstétta við Álfatanga Samgöngur 20. ágúst 2026 Endabiðstöð strætó við Tunguveg færð <img class=\"bde-image2-53844-101-102361-53844-1 bde-image2",
+      "url": "https://mos.is/mannlif/um-mosfellsbae/frettir/endabidstod-straeto-vid-tunguveg-faerd/",
+      "keywords_matched": [
+        "samgöngur"
+      ]
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:vex-kaupir-73-i-rafmidlun",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "VEX kaupir 73% í Rafmiðlun",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-08-20",
+      "summary": "ta-type=\"image_tag\" data-img-url=\"https://byggingar.is/wp-content/uploads/2026/08/20.08.2026-VEX-kaupir-73-i-Rafmidlun-100x75.jpg\" width=\"100\" height=\"75\" /> VEX kaupir 73% í Rafmiðlun 20/08/2026 <div class=\"td_modu",
+      "url": "https://byggingar.is/vex-kaupir-73-i-rafmidlun/",
+      "keywords_matched": [
+        "bygging",
+        "opinber innkaup"
+      ]
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:steypuvinna-hafin-vid-nyja-heilsulind-a-siglufirdi",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "Steypuvinna hafin við nýja heilsulind á Siglufirði",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-08-20",
+      "summary": "g-url=\"https://byggingar.is/wp-content/uploads/2026/08/20.08.2026-Steypuvinna-hafin-vid-nyja-heilsulind-a-Siglufirdi-a-100x75.jpg\" width=\"100\" height=\"75\" /> Steypuvinna hafin við nýja heilsulind á Siglufirði 20/08/2026 <div cl",
+      "url": "https://byggingar.is/steypuvinna-hafin-vid-nyja-heilsulind-a-siglufirdi/",
+      "keywords_matched": [
+        "bygging",
+        "opinber innkaup"
+      ]
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:krefur-byggingarfulltrua-svara",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "Krefur byggingarfulltrúa svara",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-08-20",
+      "summary": "pe=\"image_tag\" data-img-url=\"https://byggingar.is/wp-content/uploads/2026/08/20.08.2026-Krefur-byggingarfulltrua-svara-100x75.jpg\" width=\"100\" height=\"75\" /> Krefur byggingarfulltrúa svara 20/08/2026 <div class=\"td_modu",
+      "url": "https://byggingar.is/krefur-byggingarfulltrua-svara/",
+      "keywords_matched": [
+        "bygging",
+        "opinber innkaup"
+      ]
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:byggingar",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "byggingar",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-08-20",
+      "summary": "annsóknardeild HVEST á Ísafirði\">All Verk ehf. lægst í endurbætur á rannsóknardeild HVEST á Ísafirði byggingar - 20/08/2026 <a href=\"https://byggingar.is/all-verk-ehf-laegst-i-endurbaetur-a-rannsoknardeild-h",
+      "url": "https://byggingar.is/author/byggingar/",
+      "keywords_matched": [
+        "bygging",
+        "opinber innkaup"
+      ]
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:all-verk-ehf-laegst-i-endurbaetur-a-rannsoknardeild-hvest-a-isafirdi",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "All Verk ehf. lægst í endurbætur á rannsóknardeild HVEST á Ísafirði",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-08-20",
+      "summary": "> All Verk ehf. lægst í endurbætur á rannsóknardeild HVEST á Ísafirði byggingar - 20/08/2026",
+      "url": "https://byggingar.is/all-verk-ehf-laegst-i-endurbaetur-a-rannsoknardeild-hvest-a-isafirdi/",
+      "keywords_matched": [
+        "bygging",
+        "opinber innkaup"
       ]
     },
     {
@@ -406,52 +524,8 @@
       "entity": "Byggingar.is",
       "status": "published",
       "date": "2026-08-19",
-      "summary": "> Tvö tilboð í stækkun Seyðisfjarðarskóla – bæði yfir kostnaðaráætlun byggingar - 19/08/2026",
+      "summary": "Tvö tilboð í stækkun Seyðisfjarðarskóla – bæði yfir kostnaðaráætlun byggingar - 19/08/2026",
       "url": "https://byggingar.is/tvo-tilbod-i-staekkun-seydisfjardarskola-baedi-yfir-kostnadaraaetlun/",
-      "keywords_matched": [
-        "bygging",
-        "opinber innkaup"
-      ]
-    },
-    {
-      "id": "announcement:byggingar-opnun-utboda:mikill-ahugi-er-a-husunum-vid-hofsbot-a-akureyri",
-      "lane": "announcement",
-      "source": "byggingar-opnun-utboda",
-      "title": "„Mikill áhugi“ er á húsunum við Hofsbót á Akureyri",
-      "entity": "Byggingar.is",
-      "status": "published",
-      "date": "2026-08-19",
-      "summary": "_tag\" data-img-url=\"https://byggingar.is/wp-content/uploads/2026/08/19.08.2026-Mikill-ahugi-er-a-husunum-vid-Hofsbot-a-100x75.jpg\" width=\"100\" height=\"75\" /> „Mikill áhugi“ er á húsunum við Hofsbót á Akureyri 19/08/2026 <div class=\"td_modu",
-      "url": "https://byggingar.is/mikill-ahugi-er-a-husunum-vid-hofsbot-a-akureyri/",
-      "keywords_matched": [
-        "bygging",
-        "opinber innkaup"
-      ]
-    },
-    {
-      "id": "announcement:byggingar-opnun-utboda:kalka-bydur-ut-jardvinnu-og-undirstodur-fyrir-1-440-fermetra-stalgrindarhus",
-      "lane": "announcement",
-      "source": "byggingar-opnun-utboda",
-      "title": "31.08.2026 KALKA býður út jarðvinnu og undirstöður fyrir 1.440 fermetra stálgrindarhús",
-      "entity": "Byggingar.is",
-      "status": "published",
-      "date": "2026-08-19",
-      "summary": "r.is/wp-content/uploads/2026/08/19.08.2026-KALKA-bydur-ut-jardvinnu-og-undirstodur-fyrir-1.440-fermetra-stalgrindarhus-100x75.png\" width=\"100\" height=\"75\" /> 31.08.2026 KALKA býður út jarðvinnu og undirstöður fyrir 1.440 fermetra stálgrindarhús 19/08/2026 <div cl",
-      "url": "https://byggingar.is/kalka-bydur-ut-jardvinnu-og-undirstodur-fyrir-1-440-fermetra-stalgrindarhus/",
-      "keywords_matched": [
-        "opinber innkaup"
-      ]
-    },
-    {
-      "id": "announcement:byggingar-opnun-utboda:byggingar",
-      "lane": "announcement",
-      "source": "byggingar-opnun-utboda",
-      "title": "byggingar",
-      "entity": "Byggingar.is",
-      "status": "published",
-      "date": "2026-08-19",
-      "summary": "óla – bæði yfir kostnaðaráætlun\">Tvö tilboð í stækkun Seyðisfjarðarskóla – bæði yfir kostnaðaráætlun byggingar - 19/08/2026 <a href=\"https://byggingar.is/tvo-tilbod-i-staekkun-seydisfjardarskola-baedi-yfir-k",
-      "url": "https://byggingar.is/author/byggingar/",
       "keywords_matched": [
         "bygging",
         "opinber innkaup"
@@ -563,34 +637,6 @@
       "review_deadline": "2026-09-10",
       "summary": "Landsvirkjun óskar eftir að sveitarstjórn Rangárþings ytra gefi út framkvæmdaleyfi til handa fyrirtækinu fyrir að setja upp búfjárræsi norðan við Landvegamót. Framkvæmdin er hluti af vegabótum á þjóðvegi nr. 1 (Hringvegur) og þjóðvegi nr. 26, Landvegur, við Landvegamót tengt framkvæmdum við vindorkuverið Vaðölduver, samkvæmt 13. gr. skipulagslaga nr. 123/20…",
       "url": "https://skipulagsgatt.is/issues/5301"
-    },
-    {
-      "id": "announcement:mosfellsbaer:utbod-varmarskoli-endurnyjun-skolaloda-3-afangi",
-      "lane": "announcement",
-      "source": "mosfellsbaer",
-      "title": "Auglýst útboð 13. ágúst 2026 Útboð: Varmárskóli – Endurnýjun skólalóða 3. áfangi",
-      "entity": "Mosfellsbær",
-      "status": "published",
-      "date": "2026-08-13",
-      "summary": "s=\"bde-heading-53844-102-102183-53844-1 bde-heading toc-ignore bde-heading-53844-102\"> Háspennubilun – Rafmagnslaust í hluta Mosfellsbæjar Auglýst útboð 13. ágúst 2026 Útboð: Varmárskóli – Endurnýjun skólalóða 3. áfangi <img class=\"bde-image2-53844-101-102154-53844-1 bde-ima",
-      "url": "https://mos.is/mannlif/um-mosfellsbae/frettir/utbod-varmarskoli-endurnyjun-skolaloda-3-afangi/",
-      "keywords_matched": [
-        "opinber innkaup"
-      ]
-    },
-    {
-      "id": "announcement:mosfellsbaer:fjolmenni-a-tungubokkum-thegar-almyrkvinn-gekk-yfir",
-      "lane": "announcement",
-      "source": "mosfellsbaer",
-      "title": "Afturelding Viðburðir 13. ágúst 2026 Fjölmenni á Tungubökkum þegar almyrkvinn gekk yfir",
-      "entity": "Mosfellsbær",
-      "status": "published",
-      "date": "2026-08-13",
-      "summary": "s=\"bde-heading-53844-102-102177-53844-1 bde-heading toc-ignore bde-heading-53844-102\"> Útboð: Varmárskóli – Endurnýjun skólalóða 3. áfangi Afturelding Viðburðir 13. ágúst 2026 Fjölmenni á Tungubökkum þegar almyrkvinn gekk yfir <img class=\"bde-image2-53844-101-1020",
-      "url": "https://mos.is/mannlif/um-mosfellsbae/frettir/fjolmenni-a-tungubokkum-thegar-almyrkvinn-gekk-yfir/",
-      "keywords_matched": [
-        "opinber innkaup"
-      ]
     },
     {
       "id": "skgatt:0944/2026",
@@ -1255,18 +1301,6 @@
       "review_deadline": "2026-09-11",
       "summary": "Lögð er fram tillaga óverulegrar breytingar á deiliskipulagi sem tekur til deiliskipulags Tryggvagötu 36. Í breytingunni felst fjölgun íbúða og bílastæða úr 36 í 37.",
       "url": "https://skipulagsgatt.is/issues/5230"
-    },
-    {
-      "id": "skgatt:0870/2026",
-      "lane": "planning",
-      "title": "Árbær, hverfi 7.2 - Rofabær 32 - USK26060377",
-      "entity": "Reykjavík",
-      "case_number": "0870/2026",
-      "status": "Grenndarkynning",
-      "date": "2026-07-13",
-      "review_deadline": "2026-08-13",
-      "summary": "Um er að ræða breytingu á hverfisskipulagi Árbæjar, hverfi 7.2, vegna lóarinnar nr. 32 við Rofabæ, lóð Árbæjarkirkju. Í breytingunni sem lögð er til felst tilfærsla og endurhönnun göngustígs sem liggur að og um kirkjulóðina og hverfisgarðinn austan hennar. Jafnframt er gert ráð fyrir þremur nýjum dvalarsvæðum með bekkjum sem nýtast íbúum og öðrum gestum svæ…",
-      "url": "https://skipulagsgatt.is/issues/5225"
     },
     {
       "id": "samradsgatt:131/2026",
@@ -2152,32 +2186,6 @@
       "url": "https://island.is/domar/s-D9014769-BC02-4217-A343-5E715D0366CD"
     },
     {
-      "id": "skgatt:0631/2026",
-      "lane": "planning",
-      "title": "Vesturhöfn (Örfirisey) - Fiskislóð 27 - USK25100348",
-      "entity": "Reykjavík",
-      "case_number": "0631/2026",
-      "plan_type": "deiliskipulag",
-      "status": "Athugun eftir auglýsingu",
-      "date": "2026-05-20",
-      "review_deadline": "2026-08-13",
-      "summary": "Um er að ræða tillögu að breytingu á deiliskipulagi Vesturhafnar (Örfiriseyjar) vegna lóðarinnar nr. 27 við Fiskislóð. Í breytingunni sem lögð er til felst hækkun á nýtingarhlutfalli lóðar og hækkun á hámarkshæð byggingarinnar.",
-      "url": "https://skipulagsgatt.is/issues/4986"
-    },
-    {
-      "id": "skgatt:0630/2026",
-      "lane": "planning",
-      "title": "Elliðaárvogur/Ártúnshöfði – Svæði 2C – USK25110152",
-      "entity": "Reykjavík",
-      "case_number": "0630/2026",
-      "plan_type": "deiliskipulag",
-      "status": "Athugun eftir auglýsingu",
-      "date": "2026-05-20",
-      "review_deadline": "2026-08-13",
-      "summary": "Um er að ræða tillögu að nýju deiliskipulagi fyrir Ártúnshöfða svæði 2C, Þórðarhöfða. Í tillögunni sem lögð er til felst skilgreining nýrrar skólalóðar fyrir u.þ.b. 300 grunnskólabörn (1.-4. bekk) og 180 leikskólabörn. Auk skólalóðar er nýr íbúðarreitur með allt að 185 nýjum íbúðum. Fjölbreytt dvalarsvæði eru í inngarði, bílakjallari er undir reitnum og mög…",
-      "url": "https://skipulagsgatt.is/issues/4985"
-    },
-    {
       "id": "reglugerd:0495-2026",
       "lane": "legislation",
       "source": "reglugerd",
@@ -2454,19 +2462,6 @@
       "review_deadline": "2026-09-11",
       "summary": "Eigendur jarðarinnar Austvaðsholt 2 óska eftir heimild til að leggja fram tillögu að deiliskipulagi fyrir hluta jarðarinnar. Í undirbúningi er bygging á nýju íbúðarhúsi á jörðinni fyrir barn eigenda og er ætlunin að skipta út landskika fyrir hann þar sem hann gæti byggt íbúðarhús,bílskúr, skemmu, gestahús, Skipulags- og umferðarnefnd samþykkir framlagða til…",
       "url": "https://skipulagsgatt.is/issues/4964"
-    },
-    {
-      "id": "skgatt:0608/2026",
-      "lane": "planning",
-      "title": "Svínhagi 2 dsk",
-      "entity": "Rangárþing ytra",
-      "case_number": "0608/2026",
-      "plan_type": "deiliskipulag",
-      "status": "Athugun eftir auglýsingu",
-      "date": "2026-05-15",
-      "review_deadline": "2026-08-13",
-      "summary": "Eigandi lóðarinnar Svínhagi 2 óskar eftir að leggja fram tillögu að deiliskipulagi fyrir lóð sína. Markmiðið er að skapa hágæða gistiaðstöðu sem styður við ferðaþjónustu á svæðinu auk þess að flytja lögheimili á lóðina.",
-      "url": "https://skipulagsgatt.is/issues/4963"
     },
     {
       "id": "skgatt:0587/2026",
@@ -2993,19 +2988,6 @@
       "url": "https://skipulagsgatt.is/issues/4562"
     },
     {
-      "id": "skgatt:0185/2026",
-      "lane": "planning",
-      "title": "Hagi v/Selfjall 2. DSK. Endurauglýsing",
-      "entity": "Rangárþing ytra",
-      "case_number": "0185/2026",
-      "plan_type": "deiliskipulag",
-      "status": "Endanleg gögn",
-      "date": "2026-02-12",
-      "review_deadline": "2026-08-13",
-      "summary": "Eigendur lóðarinnar Hagi v/Selfjall 2, L176252, hafa fengið heimild til að fá að gera breytingar á gildandi deiliskipulagi fyrir svæðið, dags. 10.6.1992, þar sem heimiluð verði föst búseta og byggingarheimildir uppfærðar skv. því. Auglýst er samhliða breyting á landnotkun lóðarinnar í aðalskipulagi þar sem henni verði breytt úr frístundasvæði í landbúnaðars…",
-      "url": "https://skipulagsgatt.is/issues/4540"
-    },
-    {
       "id": "skgatt:0171/2026",
       "lane": "planning",
       "title": "Tillaga að breytingu á deiliskipulagi ofan Skagabrautar og Búmannasvæði",
@@ -3131,19 +3113,6 @@
       "review_deadline": "2026-09-09",
       "summary": "Lögð er fram tillaga nýs deiliskipulags sem tekur til Skógarlundar L236998 í Skeiða- og Gnúpverjahreppi. Í deiliskipulaginu felst að landið verði skilgreint fyrir gistiþjónustu í smáhýsum ásamt þjónustubyggingum. Heimild er fyrir 70 gistihúsum og 192 gistirýmum, ásamt þjónustuhúsum fyrir starfsemina. Hámarksbyggingarmagn er 3,000 m2 fyrir svæðið. Deiliskipu…",
       "url": "https://skipulagsgatt.is/issues/4502"
-    },
-    {
-      "id": "skgatt:0120/2026",
-      "lane": "planning",
-      "title": "Leynir 2 endurauglýsing",
-      "entity": "Rangárþing ytra",
-      "case_number": "0120/2026",
-      "plan_type": "deiliskipulag",
-      "status": "Endanleg gögn",
-      "date": "2026-01-30",
-      "review_deadline": "2026-08-13",
-      "summary": "Sett er fram deiliskipulag fyrir Leyni 2, L224463 í samræmi við 1. mgr. 41. gr. skipulagslaga 123/2010. Deiliskipulagið nær yfir um 4 ha af landi Leynis 2. Gert er ráð fyrir gistingu í kúluhúsum fyrir allt að 60 gesti, skv. flokki II. Þá verður áfram heimilt að reka tjaldsvæði eins og hefur verið gert um árabil. Heimilt verður að vera með fasta búsetu. Nýtt…",
-      "url": "https://skipulagsgatt.is/issues/4475"
     },
     {
       "id": "skgatt:0096/2026",
@@ -3822,18 +3791,6 @@
       "url": "https://skipulagsgatt.is/issues/3680"
     },
     {
-      "id": "skgatt:0916/2025",
-      "lane": "planning",
-      "title": "Vindorkuver að Hróðnýjarstöðum",
-      "entity": "Dalabyggð",
-      "case_number": "0916/2025",
-      "status": "Álit HMS um umhverfismatsskýrslu",
-      "date": "2025-07-02",
-      "review_deadline": "2026-08-13",
-      "summary": "Stormorka ehf. áformar að reisa 118,8 MW vindorkuver á 415 ha svæði í landi Hróðnýjarstaða í Dalabyggð. Gert er ráð fyrir að reisa 18 vindmyllur á framkvæmdasvæðinu og að afl hverrar verði 6,6 MW. Hæð vindmyllanna verður að hámarki 167,5 m miðað við spaða í hæstu stöðu með 90 m turnhæð og spaðalengd 77,5 m. Að hverri vindmyllu verður lagður vegur og við hve…",
-      "url": "https://skipulagsgatt.is/issues/3573"
-    },
-    {
       "id": "skgatt:0892/2025",
       "lane": "planning",
       "title": "Suðurlandsvegur - USK23060119",
@@ -3871,6 +3828,19 @@
       "review_deadline": "2026-09-07",
       "summary": "Lögð er fram breying á aðalskipulagi vegna fyrirhugaðrar lagningar jarðstrengs til Þorlákshafnar sem ber nafnið Þorlákshafnarlína 2. Um er að ræða 132 kv jarðstreng sem kemur til með að liggja meðfram Þorlákshafnarvegi milli Hveragerðis og Þorlákshafnar.",
       "url": "https://skipulagsgatt.is/issues/3311"
+    },
+    {
+      "id": "skgatt:0488/2025",
+      "lane": "planning",
+      "title": "Háholt Hnoðraholts - Deiliskipulag",
+      "entity": "Garðabær",
+      "case_number": "0488/2025",
+      "plan_type": "deiliskipulag",
+      "status": "Endanleg gögn",
+      "date": "2025-04-10",
+      "review_deadline": "2026-09-17",
+      "summary": "Tillagan gerir ráð fyrir 15 lóðum fyrir einbýlishús á 1 hæð, 11 lóðum fyrir einbýlishús á 2 hæðum, 18 lóðum fyrir raðhús á 1 hæð og 21 lóð fyrir raðhús á 2 hæðum. Einnig er gert ráð fyrir lóðum fyrir leikskóla og búsetukjarna fyrir fatlað fólk með stuðningsþarfir.",
+      "url": "https://skipulagsgatt.is/issues/3145"
     },
     {
       "id": "skgatt:0465/2025",
@@ -4630,19 +4600,6 @@
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/?newsid=db8f4c65-3f7a-11ef-b886-005056bcde1f&cname=Kærunefnd útboðsmála&cid=e219adb9-4214-11e7-941a-005056bc530c"
     },
     {
-      "id": "skgatt:0463/2024",
-      "lane": "planning",
-      "title": "Skipulagslýsing vegna breytingar á aðalskipulagi reitar AF2 og nýs deiliskipulags",
-      "entity": "Hveragerðisbær",
-      "case_number": "0463/2024",
-      "plan_type": "adalskipulag",
-      "status": "Kynning tillögu á vinnslustigi",
-      "date": "2024-04-18",
-      "review_deadline": "2026-08-13",
-      "summary": "Skipulagslýsing vegna breytingar á reit AF2 í aðalskipulagi Hveragerðisbæjar og nýs deiliskipulags fyrir afþreyingarsvæði í Kömbum ofan við Hveragerði, vegna áforma um uppbyggingu sleðabrautar í Árhólmum. Markmið skipulagsbreytingarinnar er að víkka út afþreyingarmöguleika í hlíðum Kamba með sleðabraut (e. Alpine Coaster) samsíða Zip-line, en nokkru sunnar.…",
-      "url": "https://skipulagsgatt.is/issues/1562"
-    },
-    {
       "id": "skgatt:0591/2023",
       "lane": "planning",
       "title": "Aukið sjókvíaeldi í Arnarfirði á vegum Arnarlax",
@@ -4863,6 +4820,21 @@
       "url": "https://hagstofa.is/talnaefni/efnahagur/verdlag/byggingarvisitala/",
       "keywords_matched": [
         "bygging"
+      ]
+    },
+    {
+      "id": "announcement:hafnarfjordur-utbod:utbod",
+      "lane": "announcement",
+      "source": "hafnarfjordur-utbod",
+      "title": "Útboð Hafnarfjarðarkaupstaðar",
+      "entity": "Hafnarfjarðarkaupstaður",
+      "status": "tracker",
+      "summary": "Útboð | Hafnarfjörður Þjónusta Close sub menu button Íþróttir og útivera Kynntu þér göngu- og hjólaleiðir, fjölbreytt íþróttastarf eða sundlaugar bæjarins en frítt er í sund fyrir 18 ára og yngri. Göngu- og hjólaleiðir Íþróttafélög Íþróttir og tómstundir Leik- og boltavellir Matjurtagarðar Sumarnámskeið Sundlaugar Skóli og frístundastarf Börn og ungmenni ha…",
+      "url": "https://hafnarfjordur.is/skipulag-i-kynningu-flokkur/utbod/",
+      "keywords_matched": [
+        "framkvæmd",
+        "opinber innkaup",
+        "útboð"
       ]
     },
     {
