@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated": "2026-08-21T06:45:01Z",
+  "generated": "2026-08-21T15:06:42Z",
   "window": {
     "from": "2026-08-14",
     "to": "2026-08-21"
@@ -31,6 +31,7 @@
       "Árneshreppur"
     ],
     "eia_searches": [
+      "Fossvogsbrú",
       "matsskyldu",
       "matsáætlun",
       "umhverfismat"
@@ -158,7 +159,8 @@
         "umhverfismat",
         "orku",
         "framkvæmd",
-        "samgöngur"
+        "samgöngur",
+        "ístak project: Fossvogsbrú"
       ],
       "samradsgatt_statuses": [
         "Til umsagnar"
@@ -176,6 +178,16 @@
       }
     }
   },
+  "learning": {
+    "register": "../data/istak-learned-projects.json",
+    "active_istak_projects": [
+      "Aðalskipulagi Rangárþings",
+      "Fossvogsbrú"
+    ],
+    "new_or_seen_istak_projects": [
+      "Aðalskipulagi Rangárþings"
+    ]
+  },
   "sources": {
     "not_covered": {
       "announcements": {
@@ -190,7 +202,20 @@
         "municipal_committee_minutes": "not implemented in this pass; Skipulagsgátt remains the planning backbone"
       }
     },
-    "source_candidates": [],
+    "source_candidates": [
+      {
+        "id": "eia:langanesbyggð",
+        "name": "Langanesbyggð",
+        "suggested_feed": "public-info-feed",
+        "suggested_lane": "eia",
+        "evidence_url": "https://skipulagsgatt.is/issues/5338",
+        "seen_count": 1,
+        "first_seen": "2026-08-21T15:06:42Z",
+        "last_seen": "2026-08-21T15:06:42Z",
+        "reason": "unknown entity found in generated public-info items",
+        "status": "pending"
+      }
+    ],
     "maintenance": {
       "notes": {
         "announcement_hygiene": "normal announcement/news sources require a parsed date; explicitly configured project/reference pages may emit stable undated tracker items"
@@ -264,8 +289,7 @@
           "outside_window": 5
         },
         "mosfellsbaer": {
-          "no_matching_keywords": 31,
-          "outside_window": 1,
+          "no_matching_keywords": 29,
           "undated": 3
         },
         "arborg": {
@@ -288,7 +312,7 @@
         },
         "byggingar-opnun-utboda": {
           "undated": 18,
-          "outside_window": 12
+          "outside_window": 11
         },
         "vb": {
           "no_matching_keywords": 40
@@ -337,8 +361,74 @@
       }
     }
   },
-  "count": 322,
+  "count": 335,
   "items": [
+    {
+      "id": "skgatt:0984/2026",
+      "lane": "planning",
+      "title": "Sjávargata 38 - stækkun",
+      "entity": "Reykjanesbær",
+      "case_number": "0984/2026",
+      "status": "Grenndarkynning byggingarleyfisumsóknar",
+      "date": "2026-08-21",
+      "review_deadline": "2026-09-18",
+      "summary": "Með vísan til 5. mgr. 13. gr.,2.mgr 43gr, 1. og 2 mgr. 44. gr. Skipulagslaga nr. 123 frá árinu 2010, gefur Umhverfisráð hér með eigendum húseigna í næsta nágrenni við Sjávargötu 38, 260 Reykjanesbæ kost á að tjá sig um umsóknina. Kolbrún Garðarsdóttir óskar eftir heimild til breytinga á fasteign sbr. uppdrátt Lúdika dags. 6. mars 2026. Breytingarnar felast…",
+      "url": "https://skipulagsgatt.is/issues/5339"
+    },
+    {
+      "id": "skgatt:0983/2026",
+      "lane": "eia",
+      "title": "Staðarárvirkjun í Bakkafirði",
+      "entity": "Langanesbyggð",
+      "case_number": "0983/2026",
+      "plan_type": "matsskyldu",
+      "status": "Tilkynning um framkvæmd",
+      "date": "2026-08-21",
+      "review_deadline": "2026-09-21",
+      "summary": "Fyrirhuguð framkvæmd felst í að reisa allt að 1 MW vatnsaflsvirkjun í Staðará í Bakkafirði, í Langanesbyggð. Gert er ráð fyrir að mynda 1,2 ha inntakslón með stíflu þvert á árfarveg Staðarár þar sem núverandi vatnsborð er í um 136 m y.s. Fyrirhugað er að veita vatni um 1.600 m leið úr Rauðá í Staðará ofan inntakslóns. Gert er ráð fyrir 2,5 m djúpum og 3 m b…",
+      "url": "https://skipulagsgatt.is/issues/5338",
+      "keywords_matched": [
+        "matsskyldu"
+      ]
+    },
+    {
+      "id": "skgatt:0980/2026",
+      "lane": "planning",
+      "title": "Hafnarsvæði sunnan Glerár - Óveruleg deiliskipulagsbreyting",
+      "entity": "Akureyri",
+      "case_number": "0980/2026",
+      "plan_type": "deiliskipulag",
+      "status": "Grenndarkynning",
+      "date": "2026-08-21",
+      "review_deadline": "2026-09-18",
+      "summary": "Erindi dagsett 5. ágúst 2026 þar sem að Haraldur Sigmar Árnason fh. lóðarhafa Grímseyjargötu 2 og Gránufélagsgötu 51 óskar eftir að umferðarkvöð um að 6m umferðarkvöð um austurhluta lóðanna verði felld úr gildi. Skipulagsráð samþykkir að gerð verði breyting á deiliskipulagi til samræmis við erindið. Er breytingin óveruleg skv. 2. mgr. 43. gr. skipulagslaga…",
+      "url": "https://skipulagsgatt.is/issues/5335"
+    },
+    {
+      "id": "skgatt:0979/2026",
+      "lane": "planning",
+      "title": "Básvegur 9 - stækkun",
+      "entity": "Reykjanesbær",
+      "case_number": "0979/2026",
+      "status": "Grenndarkynning byggingarleyfisumsóknar",
+      "date": "2026-08-21",
+      "review_deadline": "2026-09-18",
+      "summary": "Með vísan til 5. mgr. 13. gr.,2.mgr 43gr, 1. og 2 mgr. 44. gr. Skipulagslaga nr. 123 frá árinu 2010, gefur Umhverfisráð hér með eigendum húseigna í næsta nágrenni við Básveg 9, 230 Reykjanesbæ kost á að tjá sig um umsóknina. Steinsteypusögun/kjarnab ME ehf. óskar eftir heimild til að byggja eina hæð ofan á núverandi húsnæði. Þar er gert ráð fyrir lager og k…",
+      "url": "https://skipulagsgatt.is/issues/5334"
+    },
+    {
+      "id": "skgatt:0977/2026",
+      "lane": "planning",
+      "title": "Hvítárbakki 7",
+      "entity": "Borgarbyggð",
+      "case_number": "0977/2026",
+      "plan_type": "adalskipulag",
+      "status": "Lýsing",
+      "date": "2026-08-21",
+      "review_deadline": "2026-09-13",
+      "summary": "Sveitarstjórn Borgarbyggðar samþykkti þann 13.08.2026 að auglýsa saman lýsingu og vinnslutillögu breytingar á aðalskipulagi og lýsingu á nýju deiliskipulagi Hvítárbakka 7 í Borgarbyggð. \"Sveitarstjórn samþykkir framlagða lýsingu og vinnslutillögu til auglýsingar fyrir Hvítárbakka 7 skv. 30. gr. skipulagslaga 123/2010 og 40. gr sömu laga.\" Breytingin tekur t…",
+      "url": "https://skipulagsgatt.is/issues/5332"
+    },
     {
       "id": "legislation:althingi-thingmalaskra:endurskodud-aaetlun-um-framlagningu-thingmala-a-vetrar-og-vorthingi-2026-lokautg",
       "lane": "legislation",
@@ -359,6 +449,108 @@
         "umhverfismat"
       ],
       "case_number": "157. löggjafarþing"
+    },
+    {
+      "id": "announcement:mosfellsbaer:vesturlandsvegur-malbikadur-sunnudagskvoldid-23-agust-og-fram-eftir-nottu",
+      "lane": "announcement",
+      "source": "mosfellsbaer",
+      "title": "Framkvæmdir Tilkynningar 21. ágúst 2026 Vesturlandsvegur malbikaður sunnudagskvöldið 23. ágúst og fram eftir nóttu",
+      "entity": "Mosfellsbær",
+      "status": "published",
+      "date": "2026-08-21",
+      "summary": "429-53844-1 bde-heading toc-ignore bde-heading-53844-102\"> Álfahlíð lokuð að hluta 24. ágúst frá kl. 11:00 – 15:00 vegna malbiksyfirlagnar Framkvæmdir Tilkynningar 21. ágúst 2026 Vesturlandsvegur malbikaður sunnudagskvöldið 23. ágúst og fram eftir nóttu <img class=\"bde-image2-53844-101-102407-53844-1 bde-image2 bde-image2-5",
+      "url": "https://mos.is/mannlif/um-mosfellsbae/frettir/vesturlandsvegur-malbikadur-sunnudagskvoldid-23-agust-og-fram-eftir-nottu/",
+      "keywords_matched": [
+        "framkvæmd"
+      ]
+    },
+    {
+      "id": "announcement:mosfellsbaer:reykjabyggd-lokud-24-agust-fra-kl-1500-1700-vegna-malbiksyfirlagnar",
+      "lane": "announcement",
+      "source": "mosfellsbaer",
+      "title": "Framkvæmdir Tilkynningar 21. ágúst 2026 Reykjabyggð lokuð 24. ágúst frá kl. 15:00 – 17:00 vegna malbiksyfirlagnar",
+      "entity": "Mosfellsbær",
+      "status": "published",
+      "date": "2026-08-21",
+      "summary": "4.75Z\"/> Framkvæmdir Tilkynningar 21. ágúst 2026 Reykjabyggð lokuð 24. ágúst frá kl. 15:00 – 17:00 vegna malbiksyfirlagnar <img class=\"bde-image2-53844-101-",
+      "url": "https://mos.is/mannlif/um-mosfellsbae/frettir/reykjabyggd-lokud-24-agust-fra-kl-1500-1700-vegna-malbiksyfirlagnar/",
+      "keywords_matched": [
+        "framkvæmd"
+      ]
+    },
+    {
+      "id": "announcement:mosfellsbaer:alfahlid-lokud-ad-hluta-24-agust-fra-kl-1100-1500-vegna-malbiksyfirlagnar",
+      "lane": "announcement",
+      "source": "mosfellsbaer",
+      "title": "Framkvæmdir Tilkynningar 21. ágúst 2026 Álfahlíð lokuð að hluta 24. ágúst frá kl. 11:00 – 15:00 vegna malbiksyfirlagnar",
+      "entity": "Mosfellsbær",
+      "status": "published",
+      "date": "2026-08-21",
+      "summary": "02-102433-53844-1 bde-heading toc-ignore bde-heading-53844-102\"> Reykjabyggð lokuð 24. ágúst frá kl. 15:00 – 17:00 vegna malbiksyfirlagnar Framkvæmdir Tilkynningar 21. ágúst 2026 Álfahlíð lokuð að hluta 24. ágúst frá kl. 11:00 – 15:00 vegna malbiksyfirlagnar <img class=\"bde-image2-53844-101-",
+      "url": "https://mos.is/mannlif/um-mosfellsbae/frettir/alfahlid-lokud-ad-hluta-24-agust-fra-kl-1100-1500-vegna-malbiksyfirlagnar/",
+      "keywords_matched": [
+        "framkvæmd"
+      ]
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:niu-adilar-budu-i-thjonustu-vid-trjafellingar-i-reykjavik",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "Níu aðilar buðu í þjónustu við trjáfellingar í Reykjavík",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-08-21",
+      "summary": "> Níu aðilar buðu í þjónustu við trjáfellingar í Reykjavík byggingar - 21/08/2026",
+      "url": "https://byggingar.is/niu-adilar-budu-i-thjonustu-vid-trjafellingar-i-reykjavik/",
+      "keywords_matched": [
+        "bygging",
+        "opinber innkaup"
+      ]
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:jysk-opnar-nytt-og-glaesilegt-voruhus-i-mosfellsbae",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "JYSK opnar nýtt og glæsi­legt vöru­hús í Mos­fells­bæ",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-08-21",
+      "summary": "-url=\"https://byggingar.is/wp-content/uploads/2026/08/21.08.2026-JYSK-opnar-nytt-og-glaesilegt-voruhus-i-Mosfellsbae-a-100x75.jpg\" width=\"100\" height=\"75\" /> JYSK opnar nýtt og glæsi­legt vöru­hús í Mos­fells­bæ 21/08/2026 <div class=\"td_modu",
+      "url": "https://byggingar.is/jysk-opnar-nytt-og-glaesilegt-voruhus-i-mosfellsbae/",
+      "keywords_matched": [
+        "bygging",
+        "opinber innkaup"
+      ]
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:byggingar",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "byggingar",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-08-21",
+      "summary": "u í þjónustu við trjáfellingar í Reykjavík\">Níu aðilar buðu í þjónustu við trjáfellingar í Reykjavík byggingar - 21/08/2026 <a href=\"https://byggingar.is/niu-adilar-budu-i-thjonustu-vid-trjafellingar-i-reykj",
+      "url": "https://byggingar.is/author/byggingar/",
+      "keywords_matched": [
+        "bygging",
+        "opinber innkaup"
+      ]
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:alda-tekin-ad-risa-ur-fossvoginum",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "Alda tekin að rísa úr Fossvoginum",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-08-21",
+      "summary": "\"image_tag\" data-img-url=\"https://byggingar.is/wp-content/uploads/2026/08/21.08.2026-Alda-tekin-ad-risa-ur-Fossvoginum-100x75.jpg\" width=\"100\" height=\"75\" /> Alda tekin að rísa úr Fossvoginum 21/08/2026 <div class=\"td_modu",
+      "url": "https://byggingar.is/alda-tekin-ad-risa-ur-fossvoginum/",
+      "keywords_matched": [
+        "bygging",
+        "opinber innkaup"
+      ]
     },
     {
       "id": "skgatt:0925/2026",
@@ -395,7 +587,7 @@
       "entity": "Mosfellsbær",
       "status": "published",
       "date": "2026-08-20",
-      "summary": "4.75Z\"/> Framkvæmdir 20. ágúst 2026 Endurnýjun gangstétta við Álfatanga <img class=\"bde-image2-53844-101-102399-53844-1 bde-image2 bde-image",
+      "summary": "844-102-102422-53844-1 bde-heading toc-ignore bde-heading-53844-102\"> Vesturlandsvegur malbikaður sunnudagskvöldið 23. ágúst og fram eftir nóttu Framkvæmdir 20. ágúst 2026 Endurnýjun gangstétta við Álfatanga <img class=\"bde-image2-53844-101-102399-53844-1 bde-image2 bde-image",
       "url": "https://mos.is/mannlif/um-mosfellsbae/frettir/endurnyjun-gangstetta-vid-alfatanga/",
       "keywords_matched": [
         "framkvæmd"
@@ -416,60 +608,15 @@
       ]
     },
     {
-      "id": "announcement:byggingar-opnun-utboda:vex-kaupir-73-i-rafmidlun",
+      "id": "announcement:byggingar-opnun-utboda:selja-thrjar-sogufraegar-fasteignir-i-midbaenum",
       "lane": "announcement",
       "source": "byggingar-opnun-utboda",
-      "title": "VEX kaupir 73% í Rafmiðlun",
+      "title": "Selja þrjár sögu­frægar fast­eignir í miðbænum",
       "entity": "Byggingar.is",
       "status": "published",
       "date": "2026-08-20",
-      "summary": "ta-type=\"image_tag\" data-img-url=\"https://byggingar.is/wp-content/uploads/2026/08/20.08.2026-VEX-kaupir-73-i-Rafmidlun-100x75.jpg\" width=\"100\" height=\"75\" /> VEX kaupir 73% í Rafmiðlun 20/08/2026 <div class=\"td_modu",
-      "url": "https://byggingar.is/vex-kaupir-73-i-rafmidlun/",
-      "keywords_matched": [
-        "bygging",
-        "opinber innkaup"
-      ]
-    },
-    {
-      "id": "announcement:byggingar-opnun-utboda:steypuvinna-hafin-vid-nyja-heilsulind-a-siglufirdi",
-      "lane": "announcement",
-      "source": "byggingar-opnun-utboda",
-      "title": "Steypuvinna hafin við nýja heilsulind á Siglufirði",
-      "entity": "Byggingar.is",
-      "status": "published",
-      "date": "2026-08-20",
-      "summary": "g-url=\"https://byggingar.is/wp-content/uploads/2026/08/20.08.2026-Steypuvinna-hafin-vid-nyja-heilsulind-a-Siglufirdi-a-100x75.jpg\" width=\"100\" height=\"75\" /> Steypuvinna hafin við nýja heilsulind á Siglufirði 20/08/2026 <div cl",
-      "url": "https://byggingar.is/steypuvinna-hafin-vid-nyja-heilsulind-a-siglufirdi/",
-      "keywords_matched": [
-        "bygging",
-        "opinber innkaup"
-      ]
-    },
-    {
-      "id": "announcement:byggingar-opnun-utboda:krefur-byggingarfulltrua-svara",
-      "lane": "announcement",
-      "source": "byggingar-opnun-utboda",
-      "title": "Krefur byggingarfulltrúa svara",
-      "entity": "Byggingar.is",
-      "status": "published",
-      "date": "2026-08-20",
-      "summary": "pe=\"image_tag\" data-img-url=\"https://byggingar.is/wp-content/uploads/2026/08/20.08.2026-Krefur-byggingarfulltrua-svara-100x75.jpg\" width=\"100\" height=\"75\" /> Krefur byggingarfulltrúa svara 20/08/2026 <div class=\"td_modu",
-      "url": "https://byggingar.is/krefur-byggingarfulltrua-svara/",
-      "keywords_matched": [
-        "bygging",
-        "opinber innkaup"
-      ]
-    },
-    {
-      "id": "announcement:byggingar-opnun-utboda:byggingar",
-      "lane": "announcement",
-      "source": "byggingar-opnun-utboda",
-      "title": "byggingar",
-      "entity": "Byggingar.is",
-      "status": "published",
-      "date": "2026-08-20",
-      "summary": "annsóknardeild HVEST á Ísafirði\">All Verk ehf. lægst í endurbætur á rannsóknardeild HVEST á Ísafirði byggingar - 20/08/2026 <a href=\"https://byggingar.is/all-verk-ehf-laegst-i-endurbaetur-a-rannsoknardeild-h",
-      "url": "https://byggingar.is/author/byggingar/",
+      "summary": "-img-url=\"https://byggingar.is/wp-content/uploads/2026/08/20.08.2026-Selja-thrjar-sogufraegar-fasteignir-i-midbaenum-a-100x75.jpg\" width=\"100\" height=\"75\" /> Selja þrjár sögu­frægar fast­eignir í miðbænum 21/08/2026 <div cl",
+      "url": "https://byggingar.is/selja-thrjar-sogufraegar-fasteignir-i-midbaenum/",
       "keywords_matched": [
         "bygging",
         "opinber innkaup"
@@ -483,7 +630,7 @@
       "entity": "Byggingar.is",
       "status": "published",
       "date": "2026-08-20",
-      "summary": "> All Verk ehf. lægst í endurbætur á rannsóknardeild HVEST á Ísafirði byggingar - 20/08/2026",
+      "summary": "All Verk ehf. lægst í endurbætur á rannsóknardeild HVEST á Ísafirði byggingar - 20/08/2026",
       "url": "https://byggingar.is/all-verk-ehf-laegst-i-endurbaetur-a-rannsoknardeild-hvest-a-isafirdi/",
       "keywords_matched": [
         "bygging",
@@ -606,7 +753,7 @@
       "entity": "Mosfellsbær",
       "status": "published",
       "date": "2026-08-14",
-      "summary": "Framkvæmdir við heimæðar í Akurholti Tilkynningar Veitur 14. ágúst 2026 Rafmagnslaust í Mosfellsdal <img class=\"bde-image2-53844-101-102190-53844-1 bde-image2 bde",
+      "summary": "Framkvæmdir við heimæðar í Akurholti Tilkynningar Veitur 14. ágúst 2026 Rafmagnslaust í Mosfellsdal <a href=\"https://mos.is/mannlif/um-mosfellsbae/frettir/?_news_pagination=1\" aria-current=\"true\" aria-label=\"Current Page, Page 1\" dat",
       "url": "https://mos.is/mannlif/um-mosfellsbae/frettir/rafmagnslaust-i-mosfellsdal/",
       "keywords_matched": [
         "framkvæmd"
@@ -2107,6 +2254,19 @@
       "url": "https://skipulagsgatt.is/issues/5091"
     },
     {
+      "id": "skgatt:0728/2026",
+      "lane": "planning",
+      "title": "Strandvegur 63 - Tillaga að breyttu Deiliskipulagi miðbæjar Vestmannaeyja 2. áfangi",
+      "entity": "Vestmannaeyjabær",
+      "case_number": "0728/2026",
+      "plan_type": "deiliskipulag",
+      "status": "Auglýsing tillögu",
+      "date": "2026-06-08",
+      "review_deadline": "2026-10-02",
+      "summary": "Tillagan felur í sér breytingu á Deiliskipulagi miðbæjar Vestmannaeyja 2. áfangi vegna aukinna byggingarheimilda við Strandveg 63. Á gildandi deiliskipulagi er gert ráð fyrir stækkun byggingarreits á lóðinni til austurs. Skipulagsáform gera ráð fyrir að húsnæði við Strandveg 63 geti verið allt að 4 hæðir í stað 2 hæða. Gert er ráð fyrir að 4 hæð sé inndregi…",
+      "url": "https://skipulagsgatt.is/issues/5083"
+    },
+    {
       "id": "skgatt:0691/2026",
       "lane": "planning",
       "title": "Vesturhöfn (Örfirisey) - Breyting á deiliskipulagi - Fiskislóð 2-8 - USK25120263",
@@ -2464,6 +2624,19 @@
       "url": "https://skipulagsgatt.is/issues/4964"
     },
     {
+      "id": "skgatt:0599/2026",
+      "lane": "planning",
+      "title": "Teigahverfi - Reykjavegur, Hofteigur, Kirkjuteigur - USK26040131",
+      "entity": "Reykjavík",
+      "case_number": "0599/2026",
+      "plan_type": "deiliskipulag",
+      "status": "Endanleg gögn",
+      "date": "2026-05-13",
+      "review_deadline": "2026-09-18",
+      "summary": "Um er að ræða tillögu að breytingu á deiliskipulagi Teigahverfis vegna Reykjavegar, Hofteigs og Kirkjuteigs. Í breytingunni sem lögð er til felst að loka fyrir umferð Kirkjuteigs annars vegar og hins vegar Hofteigs inn á Reykjaveg og að minnka óverulega lóð Laugarnesskóla til að koma fyrir snúningssvæði við enda Hofteigs.",
+      "url": "https://skipulagsgatt.is/issues/4954"
+    },
+    {
       "id": "skgatt:0587/2026",
       "lane": "eia",
       "title": "Breyting á Breiðadalslínu 1 í Dýrafirði",
@@ -2475,6 +2648,30 @@
       "review_deadline": "2026-08-20",
       "summary": "Framkvæmdin felur í sér lagningu um 4,23 km 132 kV loftlínu við sunnanverðan Dýrafjörð frá Dýrafjarðargöngum að Dýrafjarðarbrú og er liður í styrkingu flutningskerfisins á Vestfjörðum. Framkvæmdin felst m.a. í slóðagerð, efnistöku, vinnu við plön, undirstöður og stagfestur, reisingu mastra og strengingu leiðara. Einnig er um að ræða sköpun aðstöðu fyrir sta…",
       "url": "https://skipulagsgatt.is/issues/4942"
+    },
+    {
+      "id": "skgatt:0538/2026",
+      "lane": "planning",
+      "title": "Búhamar 56 - Grenndarkynning byggingarleyfisumsóknar",
+      "entity": "Vestmannaeyjabær",
+      "case_number": "0538/2026",
+      "status": "Endanleg gögn",
+      "date": "2026-05-12",
+      "review_deadline": "2026-09-18",
+      "summary": "Lóðarhafi við Búhamar 56 sækir um byggingarleyfi fyrir 207,9 m2 einbýlishúsi á einni hæð, sbr. innsendar teikningar. Erindið var tekið fyrir á 80. afgreiðslufundi byggingarfulltrúa sem vísaði erindinu til umhverfis- og skipulagsráðs Vestmannaeyjabæjar. Umhverfis- og skipulagsráð Vestmannaeyjabæjar tók erindið fyrir á 439 fundi sínum þann 4. maí 2024 og vísa…",
+      "url": "https://skipulagsgatt.is/issues/4893"
+    },
+    {
+      "id": "skgatt:0537/2026",
+      "lane": "planning",
+      "title": "Búahmar 54 - Grenndarkynning byggingarleyfisumsóknar",
+      "entity": "Vestmannaeyjabær",
+      "case_number": "0537/2026",
+      "status": "Endanleg gögn",
+      "date": "2026-05-12",
+      "review_deadline": "2026-09-18",
+      "summary": "Lóðarhafi við Búhamar 54 sækir um byggingarleyfi fyrir 207,9 m2 einbýlishúsi á einni hæð, sbr. innsendar teikningar. Erindið var tekið fyrir á 80. afgreiðslufundi byggingarfulltrúa sem vísaði erindinu til umhverfis- og skipulagsráðs Vestmannaeyjabæjar. Umhverfis- og skipulagsráð Vestmannaeyjabæjar tók erindið fyrir á 439 fundi sínum þann 4. maí 2024 og vísa…",
+      "url": "https://skipulagsgatt.is/issues/4892"
     },
     {
       "id": "skgatt:0578/2026",
