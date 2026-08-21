@@ -1,23 +1,23 @@
 {
   "schema_version": 1,
-  "generated": "2026-08-20T07:00:13Z",
-  "generated_at": "2026-08-20T07:00:13Z",
+  "generated": "2026-08-21T07:00:13Z",
+  "generated_at": "2026-08-21T07:00:13Z",
   "sources": {
     "utbodsvefur": {
-      "generated_at": "2026-08-20T07:00:13.753666+00:00",
-      "count": 47,
+      "generated_at": "2026-08-21T07:00:13.321643+00:00",
+      "count": 41,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders.json"
     },
     "offportal": {
-      "generated": "2026-08-20T07:00:13Z",
-      "count": 20,
+      "generated": "2026-08-21T07:00:13Z",
+      "count": 19,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders_offportal.json"
     },
     "not_covered": [
       {
         "source": "ted",
         "url": "https://api.ted.europa.eu/v3/notices/search",
-        "reason": "dropped 72 notices: expired deadline"
+        "reason": "dropped 73 notices: expired deadline"
       },
       {
         "source": "nlsh",
@@ -70,6 +70,7 @@
       "hydros",
       "isavia",
       "isavia ans",
+      "kalka",
       "landsnet hf",
       "landspítali",
       "landsvirkjun",
@@ -125,6 +126,7 @@
       "hs veitur": "HS Veitur",
       "hs veitur hf": "HS Veitur",
       "hydros": "Thor Landeldi / Hydros",
+      "kalka": "Kalka",
       "landsnet": "Landsnet hf.",
       "landsnet hf": "Landsnet hf.",
       "laxey": "Laxey",
@@ -284,133 +286,21 @@
     ],
     "source_candidates": [
       {
-        "id": "tender:buyer:kalka",
-        "name": "Kalka",
+        "id": "tender:buyer:faxaflóahafnir-sf",
+        "name": "Faxaflóahafnir sf.",
         "suggested_feed": "tenders_all",
         "suggested_lane": "tender",
-        "evidence_url": "https://www.utbodsvefur.is/kalka-jardvinna-og-undirstodur-stalgrindarhuss/",
+        "evidence_url": "https://www.utbodsvefur.is/nytt-hafnarhus-forval-fyrir-honnun/",
         "seen_count": 1,
-        "first_seen": "2026-08-20T07:00:13Z",
-        "last_seen": "2026-08-20T07:00:13Z",
+        "first_seen": "2026-08-21T07:00:13Z",
+        "last_seen": "2026-08-21T07:00:13Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       }
     ]
   },
-  "count": 61,
+  "count": 54,
   "items": [
-    {
-      "reference": "16319",
-      "project": "Þjónusta við trjáfellingar í borgarlandinu. Rammasamingur, EES útboð nr. 16319",
-      "buyer": "Reykjavíkurborg",
-      "notice_type": "Þjónusta",
-      "deadline": "20.08.2026 kl. 10:15",
-      "deadline_local": "2026-08-20T10:15:00+00:00",
-      "deadline_utc": "2026-08-20T10:15:00+00:00",
-      "posted_at": "2026-06-24T10:22:45+00:00",
-      "modified_at": "2026-06-24T10:22:45+00:00",
-      "url": "https://www.utbodsvefur.is/thjonusta-vid-trjafellingar-i-borgarlandinu-rammasamingur-ees-utbod-nr-16319/",
-      "summary": "F.h. Umhverfis- og skipulagssviðs Reykjavíkurborgar er óskað eftir tilboðum í eftirfarandi verk: Þjónusta við trjáfellingar í borgarlandinu. Rammasami...",
-      "source": "utbodsvefur"
-    },
-    {
-      "reference": "24-0462",
-      "project": "Háskólinn á Akureyri Þakendurnýjun",
-      "buyer": "Framkvæmdasýslan ríkiseignir (FSRE)",
-      "notice_type": "Framkvæmd",
-      "deadline": "20.08.2026 kl. 12:00",
-      "deadline_local": "2026-08-20T12:00:00+00:00",
-      "deadline_utc": "2026-08-20T12:00:00+00:00",
-      "posted_at": "2026-07-01T16:54:43+00:00",
-      "modified_at": "2026-07-02T14:49:35+00:00",
-      "url": "https://www.utbodsvefur.is/haskolinn-a-akureyri-thakendurnyjun/",
-      "summary": "Framkvæmdasýslan-Ríkiseignir (FSRE), kt. 510391-2259, fyrir hönd verkkaupa, Ríkiseigna, óska eftir tilboðum í þakendurnýjun á Háskólanum á Akureyri. V...",
-      "source": "utbodsvefur"
-    },
-    {
-      "reference": "25-0115",
-      "project": "Stóra-Hraun Öryggisfangelsi – Jarðvinnuframkvæmd",
-      "buyer": "Framkvæmdasýslan ríkiseignir (FSRE)",
-      "notice_type": "Framkvæmd",
-      "deadline": "20.08.2026 kl. 12:00",
-      "deadline_local": "2026-08-20T12:00:00+00:00",
-      "deadline_utc": "2026-08-20T12:00:00+00:00",
-      "posted_at": "2026-06-25T10:10:45+00:00",
-      "modified_at": "2026-06-25T10:10:45+00:00",
-      "url": "https://www.utbodsvefur.is/stora-hraun-oryggisfangelsi-jardvinnuframkvaemd/",
-      "summary": "Framkvæmdasýslan – Ríkiseignir (FSRE), f.h. Dómsmálaráðuneytis kt. 580417-0510, óskar eftir tilboðum fyrirtækja eða teyma fyrirtækja í almennu ...",
-      "source": "utbodsvefur"
-    },
-    {
-      "reference": "35062",
-      "project": "Ýmis lyf 90 – Ísótópar/áhengjur",
-      "buyer": "Landspítali",
-      "notice_type": "Vörukaup",
-      "deadline": "20.08.2026 kl. 12:00",
-      "deadline_local": "2026-08-20T12:00:00+00:00",
-      "deadline_utc": "2026-08-20T12:00:00+00:00",
-      "posted_at": "2026-06-25T10:36:52+00:00",
-      "modified_at": "2026-06-25T10:36:52+00:00",
-      "url": "https://www.utbodsvefur.is/ymis-lyf-90-isotopar-ahengjur/",
-      "summary": "Landspítali óskar eftir tilboðum í Ísótópa/áhengjur. Um er að ræða lyf í eftirfarandi ATC flokkum: V09FX01, V09IB01, V09IX01, V09AB03, V10XA01, V09DX0...",
-      "source": "utbodsvefur"
-    },
-    {
-      "reference": "432104-2026",
-      "project": "Stora-Hraun Security prison - Earthworks",
-      "buyer": "Framkvæmdasýslan ríkiseignir (FSRE)",
-      "notice_type": "cn-standard",
-      "deadline": "20.08.2026 kl. 12:00",
-      "deadline_local": "2026-08-20T12:00:58+00:00",
-      "deadline_utc": "2026-08-20T12:00:58+00:00",
-      "posted_at": "2026-06-25",
-      "modified_at": null,
-      "url": "https://ted.europa.eu/en/notice/-/detail/432104-2026",
-      "summary": "TED open Iceland construction contract notice; CPV 45000000, 45110000, 45000000, 45110000.",
-      "source": "ted"
-    },
-    {
-      "reference": "202506071",
-      "project": "Verðfyrirspurn – Leikvöllur í Nesjum",
-      "buyer": "Sveitarfélagið Hornafjörður",
-      "notice_type": "Verðfyrirspurn",
-      "deadline": "20.08.2026 kl. 14:00",
-      "deadline_local": "2026-08-20T14:00:00+00:00",
-      "deadline_utc": "2026-08-20T14:00:00+00:00",
-      "posted_at": "2026-08-08T09:57:22+00:00",
-      "modified_at": "2026-08-08T09:57:22+00:00",
-      "url": "https://www.utbodsvefur.is/verdfyrirspurn-leikvollur-i-nesjum/",
-      "summary": "Sveitarfélagið Hornafjörður, hér eftir nefnt verkkaupi, óskar eftir tilboðum í verkið „Leikvöllur í Nesjum“ eins og því er lýst í meðfylgjandi gögnum....",
-      "source": "utbodsvefur"
-    },
-    {
-      "reference": "26-110",
-      "project": "Reykjanesbraut (41), gatnamót Reykjanesbrautar og Bústaðavegar og hluti 3. lotu Borgarlínu, hönnun",
-      "buyer": "Vegagerðin",
-      "notice_type": "Þjónusta",
-      "deadline": "20.08.2026 kl. 14:00",
-      "deadline_local": "2026-08-20T14:00:00+00:00",
-      "deadline_utc": "2026-08-20T14:00:00+00:00",
-      "posted_at": "2026-07-07T13:35:01+00:00",
-      "modified_at": "2026-08-10T12:43:22+00:00",
-      "url": "https://www.utbodsvefur.is/reykjanesbraut-41-gatnamot-reykjanesbrautar-og-bustadavegar-og-hluti-3-lotu-borgarlinu-honnun-2/",
-      "summary": "Vegagerðin og Veitur ohf. óska eftir tilboði í for- og verkhönnun á endurgerð gatnamóta Reykjanesbrautar og Bústaðavegar auk hönnunar á legu Borgarlín...",
-      "source": "utbodsvefur"
-    },
-    {
-      "reference": "202604060",
-      "project": "Verðfyrirspurn – SÆBRAUT – JARÐVINNA OG LAGNIR",
-      "buyer": "Sveitarfélagið Hornafjörður",
-      "notice_type": "Verðfyrirspurn",
-      "deadline": "20.08.2026 kl. 14:45",
-      "deadline_local": "2026-08-20T14:45:00+00:00",
-      "deadline_utc": "2026-08-20T14:45:00+00:00",
-      "posted_at": "2026-08-11T22:22:57+00:00",
-      "modified_at": "2026-08-11T22:22:57+00:00",
-      "url": "https://www.utbodsvefur.is/verdfyrirspurn-saebraut-jardvinna-og-lagnir/",
-      "summary": "Sveitarfélagið Hornafjörður, hér eftir nefnt verkkaupi, óskar eftir tilboðum í verkið „SÆBRAUT – JARÐVINNA OG LAGNIR“ eins og því er lýst í meðfylgjan...",
-      "source": "utbodsvefur"
-    },
     {
       "reference": "V26020",
       "project": "Hjólaaðstaða – verðfyrirspurn",
@@ -1008,7 +898,7 @@
       "deadline_local": "2026-09-22T14:00:00+00:00",
       "deadline_utc": "2026-09-22T14:00:00+00:00",
       "posted_at": "2026-07-17T11:10:46+00:00",
-      "modified_at": "2026-07-21T10:21:16+00:00",
+      "modified_at": "2026-08-20T16:32:39+00:00",
       "url": "https://www.utbodsvefur.is/budafossvegur-23-thjorsardalsvegur-landvegur/",
       "summary": "Vegagerðin býður hér með út nýbyggingu Búðafossvegar, á um 7,4 km löngum kafla frá Þjórsárdalsvegi í Skeiða- og Gnúpverjahreppi að Landvegi í Rangárþi...",
       "source": "utbodsvefur"
@@ -1026,6 +916,20 @@
       "url": "https://in-tendhost.co.uk/reykjavikenergy/aspx/ProjectManage/387",
       "summary": "With these DPS documents the Purchaser requests participants in a DPS for DC charging stations for EV electrical vehicle in accordance with these documents. Installation DC charging stations is not in the scope of this DPS. The Purchaser, for the purpose of establishing this DPS, has not defined any requirements for the DC charging stations or quantities that will be procured under the DPS. Terms and conditions of e…",
       "source": "or-intend"
+    },
+    {
+      "reference": "260820",
+      "project": "Nýtt Hafnarhús – Forval fyrir hönnun",
+      "buyer": "Faxaflóahafnir sf.",
+      "notice_type": "Þjónusta",
+      "deadline": "01.10.2026 kl. 14:00",
+      "deadline_local": "2026-10-01T14:00:00+00:00",
+      "deadline_utc": "2026-10-01T14:00:00+00:00",
+      "posted_at": "2026-08-20T11:07:46+00:00",
+      "modified_at": "2026-08-20T14:07:50+00:00",
+      "url": "https://www.utbodsvefur.is/nytt-hafnarhus-forval-fyrir-honnun/",
+      "summary": "Faxaflóahafnir auglýsir eftir umsóknum um þátttökurétt í lokuðu útboði á hönnun á nýju Hafnarhúsi. Um er að ræða fullnaðarhönnun á um 3.000 m2 bygging...",
+      "source": "utbodsvefur"
     },
     {
       "reference": "U25033",

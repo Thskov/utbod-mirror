@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated": "2026-08-20T07:00:13Z",
-  "generated_at": "2026-08-20T07:00:13Z",
+  "generated": "2026-08-21T07:00:13Z",
+  "generated_at": "2026-08-21T07:00:13Z",
   "sources": {
     "covered": [
       {
@@ -41,7 +41,7 @@
       {
         "source": "ted",
         "url": "https://api.ted.europa.eu/v3/notices/search",
-        "reason": "dropped 72 notices: expired deadline"
+        "reason": "dropped 73 notices: expired deadline"
       },
       {
         "source": "nlsh",
@@ -94,6 +94,7 @@
       "hydros",
       "isavia",
       "isavia ans",
+      "kalka",
       "landsnet hf",
       "landspítali",
       "landsvirkjun",
@@ -149,6 +150,7 @@
       "hs veitur": "HS Veitur",
       "hs veitur hf": "HS Veitur",
       "hydros": "Thor Landeldi / Hydros",
+      "kalka": "Kalka",
       "landsnet": "Landsnet hf.",
       "landsnet hf": "Landsnet hf.",
       "laxey": "Laxey",
@@ -308,22 +310,8 @@
     ],
     "source_candidates": []
   },
-  "count": 20,
+  "count": 19,
   "items": [
-    {
-      "reference": "432104-2026",
-      "project": "Stora-Hraun Security prison - Earthworks",
-      "buyer": "Framkvæmdasýslan ríkiseignir (FSRE)",
-      "notice_type": "cn-standard",
-      "deadline": "20.08.2026 kl. 12:00",
-      "deadline_local": "2026-08-20T12:00:58+00:00",
-      "deadline_utc": "2026-08-20T12:00:58+00:00",
-      "posted_at": "2026-06-25",
-      "modified_at": null,
-      "url": "https://ted.europa.eu/en/notice/-/detail/432104-2026",
-      "summary": "TED open Iceland construction contract notice; CPV 45000000, 45110000, 45000000, 45110000.",
-      "source": "ted"
-    },
     {
       "reference": "V26020",
       "project": "Hjólaaðstaða - verðfyrirspurn",
