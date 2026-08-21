@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated": "2026-08-20T06:30:02Z",
+  "generated": "2026-08-21T06:30:01Z",
   "window": {
-    "from": "2026-07-21",
-    "to": "2026-08-20"
+    "from": "2026-07-22",
+    "to": "2026-08-21"
   },
   "coverage": {
     "sources": [
@@ -259,42 +259,78 @@
     },
     "source_candidates": []
   },
-  "count": 22,
+  "count": 24,
   "items": [
     {
-      "id": "news:vegagerdin:gotulokanir-a-menningarnott",
+      "id": "news:vegagerdin:umferdaroryggi-baett-vid-gatnamot-miklubrautar-og-grensasvegar",
       "lane": "news",
       "category": "project",
-      "title": "19. ágúst 2026 Götulokanir á Menningarnótt",
+      "title": "20. ágúst 2026 Umferðaröryggi bætt við gatnamót Miklubrautar og Grensásvegar",
       "entity": "Vegagerðin",
-      "date": "2026-08-19",
-      "summary": "__eI5fQ\"> Frétt­ir 19. ágúst 2026 Götulokanir á Menningarnótt <img alt=\"\" loading=\"lazy\" width=\"300\" height=\"9999\" decoding=\"async\" data-nimg=\"1\" class=\"NextImage_container__yLPzb\" style=\"color:transparent;height:auto\" srcSet=\"/_next/image?url=%2Fmedia%2F2026%2F07%2F20260605_143944-scaled-aspect-ratio-1600-1100-scaled.jpg&w=400&q=75 1x, /_next/i",
-      "url": "https://www.vegagerdin.is/vegagerdin/starfsemi/frettir/gotulokanir-a-menningarnott",
+      "date": "2026-08-20",
+      "summary": "__eI5fQ\"> Frétt­ir 20. ágúst 2026 Umferðaröryggi bætt við gatnamót Miklubrautar og Grensásvegar <img alt=\"\" loading=\"lazy\" width=\"300\" height=\"9999\" decoding=\"async\" data-nimg=\"1\" class=\"NextImage_container__yLPzb\" style=\"color:transparent;height:auto\" srcSet=\"/_next/image?url=%2Fmedia%2F2026%2F08%2Frm_kort-scaled-aspect-ratio-1600-1100-scaled.jpg&w=400&q=7...",
+      "url": "https://www.vegagerdin.is/vegagerdin/starfsemi/frettir/umferdaroryggi-baett-vid-gatnamot-miklubrautar-og-grensasvegar",
       "outlet": "Vegagerðin",
       "is_new": true
     },
     {
-      "id": "news:byggingar:mikill-ahugi-er-a-husunum-vid-hofsbot-a-akureyri",
+      "id": "news:istak:ny-rafdrifinn-drattarbill-i-flota-istaks",
+      "lane": "news",
+      "category": "istak",
+      "title": "Ný rafdrifinn dráttarbíll í flota Ístaks",
+      "entity": "ÍSTAK",
+      "date": "2026-08-20",
+      "summary": "c=\"https://irp.cdn-website.com/24b0782e/dms3rep/multi/opt/ISTAK+Mercedes-Benz+eActros+rafmagnsvorubill+2026-22+copy-1920w.jpg\" alt=\"\" onerror=\"handleImageLoadError(this)\"/> Ný rafdrifinn dráttarbíll í flota Ístaks 20. ágúst 2026 Nýlega bættist rafdrifinn Mercedes-Benz eActros 600 við tækjaflota Ístaks. Um er að ræða þriggja öxla 6x2 dráttarbíl sem verður ný...",
+      "url": "https://www.istak.is/ny-rafdrifinn-drattarbill-i-flota-istaks",
+      "outlet": "ÍSTAK",
+      "is_new": true
+    },
+    {
+      "id": "news:byggingar:vex-kaupir-73-i-rafmidlun",
       "lane": "news",
       "category": "project",
-      "title": "„Mikill áhugi“ er á húsunum við Hofsbót á Akureyri",
+      "title": "VEX kaupir 73% í Rafmiðlun",
       "entity": "byggingar.is",
-      "date": "2026-08-19",
-      "summary": "tps://byggingar.is/wp-content/uploads/2026/08/19.08.2026-Mikill-ahugi-er-a-husunum-vid-Hofsbot-a-238x178.jpg\" width=\"238\" height=\"178\" /> „Mikill áhugi“ er á húsunum við Hofsbót á Akureyri <a href=\"https://byggingar.is/tvo-tilbod-i-staekkun-seydisfjardarskola-baedi-yfir-kostnadaraaetlun/\" rel=\"bookmark\" class=\"td-image-wrap \" title=\"Tvö tilboð í stækkun Seyð",
-      "url": "https://byggingar.is/mikill-ahugi-er-a-husunum-vid-hofsbot-a-akureyri/",
+      "date": "2026-08-20",
+      "summary": "ta-img-url=\"https://byggingar.is/wp-content/uploads/2026/08/20.08.2026-VEX-kaupir-73-i-Rafmidlun-238x178.jpg\" width=\"238\" height=\"178\" /> VEX kaupir 73% í Rafmiðlun <img class=\"entry-thumb\" src=\"",
+      "url": "https://byggingar.is/vex-kaupir-73-i-rafmidlun/",
       "outlet": "byggingar.is",
       "is_new": true
     },
     {
-      "id": "news:byggingar:kalka-bydur-ut-jardvinnu-og-undirstodur-fyrir-1-440-fermetra-stalgrindarhus",
+      "id": "news:byggingar:steypuvinna-hafin-vid-nyja-heilsulind-a-siglufirdi",
       "lane": "news",
       "category": "project",
-      "title": "31.08.2026 KALKA býður út jarðvinnu og undirstöður fyrir 1.440 fermetra stálgrindarhús",
+      "title": "Steypuvinna hafin við nýja heilsulind á Siglufirði",
       "entity": "byggingar.is",
-      "date": "2026-08-19",
-      "summary": "s/2026/08/19.08.2026-KALKA-bydur-ut-jardvinnu-og-undirstodur-fyrir-1.440-fermetra-stalgrindarhus-238x178.png\" width=\"238\" height=\"178\" /> 31.08.2026 KALKA býður út jarðvinnu og undirstöður fyrir 1.440 fermetra stálgrindarhús <i class=\"td-next-prev-icon td-i",
-      "url": "https://byggingar.is/kalka-bydur-ut-jardvinnu-og-undirstodur-fyrir-1-440-fermetra-stalgrindarhus/",
+      "date": "2026-08-20",
+      "summary": "ar.is/wp-content/uploads/2026/08/20.08.2026-Steypuvinna-hafin-vid-nyja-heilsulind-a-Siglufirdi-a-238x178.jpg\" width=\"238\" height=\"178\" /> Steypuvinna hafin við nýja heilsulind á Siglufirði <i class=\"td-next-prev-icon td-i",
+      "url": "https://byggingar.is/steypuvinna-hafin-vid-nyja-heilsulind-a-siglufirdi/",
       "outlet": "byggingar.is",
+      "is_new": true
+    },
+    {
+      "id": "news:byggingar:krefur-byggingarfulltrua-svara",
+      "lane": "news",
+      "category": "project",
+      "title": "Krefur byggingarfulltrúa svara",
+      "entity": "byggingar.is",
+      "date": "2026-08-20",
+      "summary": "g-url=\"https://byggingar.is/wp-content/uploads/2026/08/20.08.2026-Krefur-byggingarfulltrua-svara-238x178.jpg\" width=\"238\" height=\"178\" /> Krefur byggingarfulltrúa svara <a href=\"https://byggingar.is/steypuvinna-hafin-vid-nyja-heilsulind-a-siglufirdi/\" rel=\"bookmark\" class=\"td-image-wrap \" title=\"Steypuvinna hafin við nýja heilsulind á Sig",
+      "url": "https://byggingar.is/krefur-byggingarfulltrua-svara/",
+      "outlet": "byggingar.is",
+      "is_new": true
+    },
+    {
+      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-all-verk-ehf-laegst-i-endurbaetur-a-r",
+      "lane": "news",
+      "category": "project",
+      "title": "All Verk ehf. lægst í endurbætur á rannsóknardeild HVEST á Ísafirði",
+      "entity": "byggingar.is / niðurstöður útboða",
+      "date": "2026-08-20",
+      "summary": "All Verk ehf. lægst í endurbætur á rannsóknardeild HVEST á Ísafirði Tvö tilboð bárust í útboð Framkvæmdasýslunnar – Ríkiseigna vegna endurbóta á rannsóknardeild Heilbrigðisstofnunar Vestfjarða á Ísafirði. All Verk ehf. átti lægra tilboðið, rúmar 78,2 milljónir króna með virðisaukaskatti. Tilboð í verkið „Endurbætur á rannsóknardeild HVEST Ísafirði“ voru opn...",
+      "url": "https://byggingar.is/all-verk-ehf-laegst-i-endurbaetur-a-rannsoknardeild-hvest-a-isafirdi/?utm_source=rss&utm_medium=rss&utm_campaign=all-verk-ehf-laegst-i-endurbaetur-a-rannsoknardeild-hvest-a-isafirdi",
+      "outlet": "byggingar.is / niðurstöður útboða",
       "is_new": true
     },
     {
@@ -307,7 +343,7 @@
       "summary": "Tvö tilboð í stækkun Seyðisfjarðarskóla – bæði yfir kostnaðaráætlun Tvö tilboð bárust í stækkun Seyðisfjarðarskóla og voru þau bæði yfir kostnaðaráætlun Múlaþings. Lægra tilboðið hljóðaði upp á rúman 1,06 milljarð króna og var um 123 milljónum króna yfir áætlun. Niðurstaða útboðsins var lögð fyrir Umhverfis- og framkvæmdaráð Múlaþings á fundi þess 17. ágúst...",
       "url": "https://byggingar.is/tvo-tilbod-i-staekkun-seydisfjardarskola-baedi-yfir-kostnadaraaetlun/?utm_source=rss&utm_medium=rss&utm_campaign=tvo-tilbod-i-staekkun-seydisfjardarskola-baedi-yfir-kostnadaraaetlun",
       "outlet": "byggingar.is / niðurstöður útboða",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-krafla-ehf-laegst-i-djupgamastod-vid-",
@@ -352,7 +388,7 @@
       "title": "Götumarkaður í Listasafni Reykjavíkur Hafnarhúsi",
       "entity": "Reykjavíkurborg",
       "date": "2026-08-13",
-      "summary": "k=Q7asxZ-u 1920w, /sites/default/files/styles/landscape_4k/public/2026-08/24042402_honnunar_355_small.jpg?h=34e43602&itok=5jXndf3i 3840w\" data-sizes=\"auto\" /> 13. ágúst 2026 Götumarkaður í Listasafni Reykjavíkur Hafnarhúsi <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2026-08/helga_lara_haarde.jp...",
+      "summary": "k=Q7asxZ-u 1920w, /sites/default/files/styles/landscape_4k/public/2026-08/24042402_honnunar_355_small.jpg?h=34e43602&itok=5jXndf3i 3840w\" data-sizes=\"auto\" /> 13. ágúst 2026 Götumarkaður í Listasafni Reykjavíkur Hafnarhúsi <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2026-08/24060101_kosningar_0...",
       "url": "https://reykjavik.is/frettir/2026/gotumarkadur-i-listasafni-reykjavikur-hafnarhusi",
       "outlet": "Reykjavíkurborg",
       "is_new": false
@@ -499,18 +535,6 @@
       "summary": "Næturborun í sjó lokið og verk­takar þakka í­búum þolin­mæðina Síðustu vikur hefur borun staðið yfir að næturlagi í sjónum úti fyrir Kársnesi en henni er nú lokið. Borunin er skref í smíði Fossvogsbrúar sem verður 270 metra löng, allt að sautján metra breið og opnar þann 16. júní árið 2028, ef allt fer eftir áætlun. […] The post Næturborun í sjó lokið og ve...",
       "url": "https://byggingar.is/naeturborun-i-sjo-lokid-og-verktakar-thakka-ibuum-tholinmaedina/?utm_source=rss&utm_medium=rss&utm_campaign=naeturborun-i-sjo-lokid-og-verktakar-thakka-ibuum-tholinmaedina",
       "outlet": "byggingar.is / Borgarlína",
-      "is_new": false
-    },
-    {
-      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-thrju-tilbod-barust-i-taetara-fyrir-t",
-      "lane": "news",
-      "category": "project",
-      "title": "Þrjú tilboð bárust í tætara fyrir timburúrgang hjá SORPU",
-      "entity": "byggingar.is / niðurstöður útboða",
-      "date": "2026-07-31",
-      "summary": "Þrjú tilboð bárust í tætara fyrir timburúrgang hjá SORPU Þrjú tilboð bárust í EES-útboð Reykjavíkurborgar nr. 16324, sem varðar kaup á tætara fyrir timburúrgang fyrir SORPU bs. Tilboðin voru opnuð í Borgartúni 12–14 þann 31. júlí 2026. Verkefnið felur í sér kaup á tætivél fyrir timburúrgang (Wood Shredding Machine for Wastewood) sem ætlað er að […] The post...",
-      "url": "https://byggingar.is/thrju-tilbod-barust-i-taetara-fyrir-timbururgang-hja-sorpu/?utm_source=rss&utm_medium=rss&utm_campaign=thrju-tilbod-barust-i-taetara-fyrir-timbururgang-hja-sorpu",
-      "outlet": "byggingar.is / niðurstöður útboða",
       "is_new": false
     },
     {
