@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated": "2026-08-21T07:00:13Z",
-  "generated_at": "2026-08-21T07:00:13Z",
+  "generated": "2026-08-21T15:09:24Z",
+  "generated_at": "2026-08-21T15:09:24Z",
   "sources": {
     "covered": [
       {
@@ -308,24 +308,23 @@
         "note": "award/completeness flag from news agent; handled through Byggingar.is tender-results/news coverage rather than synthesized as an active tender"
       }
     ],
-    "source_candidates": []
+    "source_candidates": [
+      {
+        "id": "tender:buyer:faxaflóahafnir-sf",
+        "name": "Faxaflóahafnir sf.",
+        "suggested_feed": "tenders_all",
+        "suggested_lane": "tender",
+        "evidence_url": "https://www.utbodsvefur.is/nytt-hafnarhus-forval-fyrir-honnun/",
+        "seen_count": 1,
+        "first_seen": "2026-08-21T07:00:13Z",
+        "last_seen": "2026-08-21T07:00:13Z",
+        "reason": "unknown buyer/source found in tender feed",
+        "status": "pending"
+      }
+    ]
   },
-  "count": 19,
+  "count": 18,
   "items": [
-    {
-      "reference": "V26020",
-      "project": "Hjólaaðstaða - verðfyrirspurn",
-      "buyer": "Isavia",
-      "notice_type": "Works",
-      "deadline": "21.08.2026 kl. 13:00",
-      "deadline_local": "2026-08-21T13:00:00+00:00",
-      "deadline_utc": "2026-08-21T13:00:00+00:00",
-      "posted_at": null,
-      "modified_at": null,
-      "url": "https://utbod.isavia.is/aspx/ProjectManage/377",
-      "summary": "Isavia ohf. óskar eftir tilboðum í tilbúna gámalausn, um 200 fm að stærð, til að bæta aðstöðu fyrir hjólandi flugfarþega sem og aðstöðu fyrir hjól og rafskútur starfsfólks flugvallarins. Þetta er í takt við aukinn fjölda hjólandi farþega og starfsfólks, sem og sjálfbærnistefnu Isavia sem miðar að því að minnka kolefnisfótspor fyrirtækisins.",
-      "source": "isavia-intend"
-    },
     {
       "reference": "428549-2026",
       "project": "Vestfjarðarvegur (60) around Gufudalssveit Skálanes - Hallsteinsnes",

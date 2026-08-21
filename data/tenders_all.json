@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "generated": "2026-08-21T07:00:13Z",
-  "generated_at": "2026-08-21T07:00:13Z",
+  "generated": "2026-08-21T15:09:24Z",
+  "generated_at": "2026-08-21T15:09:24Z",
   "sources": {
     "utbodsvefur": {
-      "generated_at": "2026-08-21T07:00:13.321643+00:00",
-      "count": 41,
+      "generated_at": "2026-08-21T15:09:24.084654+00:00",
+      "count": 44,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders.json"
     },
     "offportal": {
-      "generated": "2026-08-21T07:00:13Z",
-      "count": 19,
+      "generated": "2026-08-21T15:09:24Z",
+      "count": 18,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders_offportal.json"
     },
     "not_covered": [
@@ -293,28 +293,14 @@
         "evidence_url": "https://www.utbodsvefur.is/nytt-hafnarhus-forval-fyrir-honnun/",
         "seen_count": 1,
         "first_seen": "2026-08-21T07:00:13Z",
-        "last_seen": "2026-08-21T07:00:13Z",
+        "last_seen": "2026-08-21T15:09:24Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       }
     ]
   },
-  "count": 54,
+  "count": 56,
   "items": [
-    {
-      "reference": "V26020",
-      "project": "Hjólaaðstaða – verðfyrirspurn",
-      "buyer": "Isavia",
-      "notice_type": "Framkvæmd Verðfyrirspurn",
-      "deadline": "21.08.2026 kl. 13:00",
-      "deadline_local": "2026-08-21T13:00:00+00:00",
-      "deadline_utc": "2026-08-21T13:00:00+00:00",
-      "posted_at": "2026-07-03T13:20:16+00:00",
-      "modified_at": "2026-08-05T13:57:28+00:00",
-      "url": "https://www.utbodsvefur.is/hjolaadstada-verdfyrirspurn/",
-      "summary": "Isavia ohf. óskar eftir tilboðum í tilbúna gámalausn, um 200 fm að stærð, til að bæta aðstöðu fyrir hjólandi flugfarþega sem og aðstöðu fyrir hjól og ...",
-      "source": "utbodsvefur"
-    },
     {
       "reference": "23416",
       "project": "Gagnsæistilkynning (VEAT) vegna upptöku og viðhalds á vél fyrir Hafrannsóknastofnun",
@@ -828,7 +814,7 @@
       "deadline_local": "2026-09-16T12:00:00+00:00",
       "deadline_utc": "2026-09-16T12:00:00+00:00",
       "posted_at": "2026-08-14T09:12:27+00:00",
-      "modified_at": "2026-08-14T09:12:27+00:00",
+      "modified_at": "2026-08-21T12:33:00+00:00",
       "url": "https://www.utbodsvefur.is/sofnun-og-flutningur-a-dyraleifum-fyrir-atvinnuvegaraduneytid/",
       "summary": "Fjársýslan fyrir hönd Atvinnuvegaráðuneytisins, kt. 7108120-2120, óskar eftir tilboðum í þjónustu á söfnun og flutningi dýraleifa á landsvísu. Skiptin...",
       "source": "utbodsvefur"
@@ -845,6 +831,20 @@
       "modified_at": "2026-08-14T10:22:32+00:00",
       "url": "https://www.utbodsvefur.is/akstur-almenningsvagna-a-hofudborgarsvaedinu-2028-2036-forval-ees-utbod-nr-16341/",
       "summary": "Óskað er eftir umsóknum í forval vegna Akstur almenningsvagna á höfuðborgarsvæðinu 2028-2036, EES útboð nr. 16341 Skrifstofa fjármálaþjónustu og ráðgj...",
+      "source": "utbodsvefur"
+    },
+    {
+      "reference": "MÁL-26-0108",
+      "project": "Raforkukaup fyrir veitukerfi Norðurorku",
+      "buyer": "Norðurorka",
+      "notice_type": "Vörukaup",
+      "deadline": "17.09.2026 kl. 14:00",
+      "deadline_local": "2026-09-17T14:00:00+00:00",
+      "deadline_utc": "2026-09-17T14:00:00+00:00",
+      "posted_at": "2026-08-21T07:39:52+00:00",
+      "modified_at": "2026-08-21T07:39:52+00:00",
+      "url": "https://www.utbodsvefur.is/raforkukaup-fyrir-veitukerfi-nordurorku/",
+      "summary": "Norðurorka óskar eftir tilboðum í raforkukaup fyrir fyrirtækið. Um er að ræða innkaup á forgangsorku til rekstrar veitukerfa fyrirtækisins. Um er að r...",
       "source": "utbodsvefur"
     },
     {
@@ -904,6 +904,20 @@
       "source": "utbodsvefur"
     },
     {
+      "reference": "23402",
+      "project": "NTA búnaður með Zeta möguleika",
+      "buyer": "Fjársýslan ríkisins",
+      "notice_type": "Vörukaup",
+      "deadline": "25.09.2026 kl. 09:00",
+      "deadline_local": "2026-09-25T09:00:00+00:00",
+      "deadline_utc": "2026-09-25T09:00:00+00:00",
+      "posted_at": "2026-08-21T08:22:22+00:00",
+      "modified_at": "2026-08-21T08:22:22+00:00",
+      "url": "https://www.utbodsvefur.is/nta-bunadur-med-zeta-moguleika/",
+      "summary": "Fjársýslan, fyrir hönd Háskóla Íslands, kt. 6001692039, auglýsir eftir tilboðum í útboði nr. 23402 – NTA búnaður með Zeta möguleika. Tilgangur þessa ú...",
+      "source": "utbodsvefur"
+    },
+    {
       "reference": "ONGK-2022-01",
       "project": "ONGK-2022-01 DC charging stations Dynamic purchasing system",
       "buyer": "Orka náttúrunnar (ON)",
@@ -929,6 +943,20 @@
       "modified_at": "2026-08-20T14:07:50+00:00",
       "url": "https://www.utbodsvefur.is/nytt-hafnarhus-forval-fyrir-honnun/",
       "summary": "Faxaflóahafnir auglýsir eftir umsóknum um þátttökurétt í lokuðu útboði á hönnun á nýju Hafnarhúsi. Um er að ræða fullnaðarhönnun á um 3.000 m2 bygging...",
+      "source": "utbodsvefur"
+    },
+    {
+      "reference": "16200",
+      "project": "Rammasamningur um mötuneytisþjónustu SFS, EES útboð nr. 16200",
+      "buyer": "Reykjavíkurborg",
+      "notice_type": "Þjónusta",
+      "deadline": "06.10.2026 kl. 10:00",
+      "deadline_local": "2026-10-06T10:00:00+00:00",
+      "deadline_utc": "2026-10-06T10:00:00+00:00",
+      "posted_at": "2026-08-21T09:54:05+00:00",
+      "modified_at": "2026-08-21T09:54:05+00:00",
+      "url": "https://www.utbodsvefur.is/rammasamningur-um-motuneytisthjonustu-sfs-ees-utbod-nr-16200/",
+      "summary": "f.h. Skóla- og frístundasviðs Reykjavíkurborgar er óskað eftir hæfum aðilum til að taka þátt í rammasamning um mötuneytisþjónustu SFS: Rammasamningur ...",
       "source": "utbodsvefur"
     },
     {
