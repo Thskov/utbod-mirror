@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated": "2026-08-21T06:30:01Z",
+  "generated": "2026-08-21T15:05:38Z",
   "window": {
     "from": "2026-07-22",
     "to": "2026-08-21"
@@ -204,7 +204,11 @@
         "orkuveita",
         "landsvirkjun",
         "isavia",
-        "fsre"
+        "fsre",
+        "fossvogsbrú"
+      ],
+      "learned_istak_projects": [
+        "Fossvogsbrú"
       ],
       "industrial_demand": [
         "first water",
@@ -253,6 +257,10 @@
       ]
     }
   },
+  "learning": {
+    "register": "../data/istak-learned-projects.json",
+    "new_or_seen_istak_projects": []
+  },
   "sources": {
     "not_covered": {
       "nlsh": "HTTP Error 429: Too Many Requests"
@@ -262,15 +270,51 @@
   "count": 24,
   "items": [
     {
-      "id": "news:vegagerdin:umferdaroryggi-baett-vid-gatnamot-miklubrautar-og-grensasvegar",
+      "id": "news:vegagerdin:thekktur-bikblaedingakafli-malbikadur",
       "lane": "news",
       "category": "project",
-      "title": "20. ágúst 2026 Umferðaröryggi bætt við gatnamót Miklubrautar og Grensásvegar",
+      "title": "21. ágúst 2026 Þekktur bikblæðingakafli malbikaður",
       "entity": "Vegagerðin",
-      "date": "2026-08-20",
-      "summary": "__eI5fQ\"> Frétt­ir 20. ágúst 2026 Umferðaröryggi bætt við gatnamót Miklubrautar og Grensásvegar <img alt=\"\" loading=\"lazy\" width=\"300\" height=\"9999\" decoding=\"async\" data-nimg=\"1\" class=\"NextImage_container__yLPzb\" style=\"color:transparent;height:auto\" srcSet=\"/_next/image?url=%2Fmedia%2F2026%2F08%2Frm_kort-scaled-aspect-ratio-1600-1100-scaled.jpg&w=400&q=7...",
-      "url": "https://www.vegagerdin.is/vegagerdin/starfsemi/frettir/umferdaroryggi-baett-vid-gatnamot-miklubrautar-og-grensasvegar",
+      "date": "2026-08-21",
+      "summary": "__eI5fQ\"> Frétt­ir 21. ágúst 2026 Þekktur bikblæðingakafli malbikaður <img alt=\"\" loading=\"lazy\" width=\"300\" height=\"9999\" decoding=\"async\" data-nimg=\"1\" class=\"NextImage_container__yLPzb\" style=\"color:transparent;height:auto\" srcSet=\"/_next/image?url=%2Fmedia%2F2026%2F08%2Fskjamynd-2026-08-14-130808-aspect-ratio-1600-1100.png&",
+      "url": "https://www.vegagerdin.is/vegagerdin/starfsemi/frettir/thekktur-bikblaedingakafli-malbikadur",
       "outlet": "Vegagerðin",
+      "is_new": true
+    },
+    {
+      "id": "news:byggingar:jysk-opnar-nytt-og-glaesilegt-voruhus-i-mosfellsbae",
+      "lane": "news",
+      "category": "project",
+      "title": "JYSK opnar nýtt og glæsi­legt vöru­hús í Mos­fells­bæ",
+      "entity": "byggingar.is",
+      "date": "2026-08-21",
+      "summary": "r.is/wp-content/uploads/2026/08/21.08.2026-JYSK-opnar-nytt-og-glaesilegt-voruhus-i-Mosfellsbae-a-238x178.jpg\" width=\"238\" height=\"178\" /> JYSK opnar nýtt og glæsi­legt vöru­hús í Mos­fells­bæ <img class=\"entry-thumb\"",
+      "url": "https://byggingar.is/jysk-opnar-nytt-og-glaesilegt-voruhus-i-mosfellsbae/",
+      "outlet": "byggingar.is",
+      "is_new": true
+    },
+    {
+      "id": "news:byggingar:alda-tekin-ad-risa-ur-fossvoginum",
+      "lane": "news",
+      "category": "project",
+      "title": "Alda tekin að rísa úr Fossvoginum",
+      "entity": "byggingar.is",
+      "date": "2026-08-21",
+      "summary": "rl=\"https://byggingar.is/wp-content/uploads/2026/08/21.08.2026-Alda-tekin-ad-risa-ur-Fossvoginum-238x178.jpg\" width=\"238\" height=\"178\" /> Alda tekin að rísa úr Fossvoginum <a href=\"https://byggingar.is/selja-thrjar-sogufraegar-fasteignir-i-midbaenum/\" rel=\"bookmark\" class=\"td-image-wrap \" title=\"Selja þrjár sögu­frægar fast­eignir í miðbænum",
+      "url": "https://byggingar.is/alda-tekin-ad-risa-ur-fossvoginum/",
+      "outlet": "byggingar.is",
+      "is_new": true
+    },
+    {
+      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-niu-adilar-budu-i-thjonustu-vid-trjaf",
+      "lane": "news",
+      "category": "project",
+      "title": "Níu aðilar buðu í þjónustu við trjáfellingar í Reykjavík",
+      "entity": "byggingar.is / niðurstöður útboða",
+      "date": "2026-08-21",
+      "summary": "Níu aðilar buðu í þjónustu við trjáfellingar í Reykjavík Níu aðilar skiluðu tilboðum í EES-útboð Reykjavíkurborgar vegna þjónustu við trjáfellingar í borgarlandinu. Um er að ræða rammasamning um hirðingu skógar- og gróðursvæða borgarinnar, meðal annars grisjun, trjáklifur, kjarrsögun, stubbatætingu og kurlun. Tilboð voru opnuð hjá Reykjavíkurborg í dag, 20....",
+      "url": "https://byggingar.is/niu-adilar-budu-i-thjonustu-vid-trjafellingar-i-reykjavik/?utm_source=rss&utm_medium=rss&utm_campaign=niu-adilar-budu-i-thjonustu-vid-trjafellingar-i-reykjavik",
+      "outlet": "byggingar.is / niðurstöður útboða",
       "is_new": true
     },
     {
@@ -286,38 +330,14 @@
       "is_new": true
     },
     {
-      "id": "news:byggingar:vex-kaupir-73-i-rafmidlun",
+      "id": "news:byggingar:selja-thrjar-sogufraegar-fasteignir-i-midbaenum",
       "lane": "news",
       "category": "project",
-      "title": "VEX kaupir 73% í Rafmiðlun",
+      "title": "Selja þrjár sögu­frægar fast­eignir í miðbænum",
       "entity": "byggingar.is",
       "date": "2026-08-20",
-      "summary": "ta-img-url=\"https://byggingar.is/wp-content/uploads/2026/08/20.08.2026-VEX-kaupir-73-i-Rafmidlun-238x178.jpg\" width=\"238\" height=\"178\" /> VEX kaupir 73% í Rafmiðlun <img class=\"entry-thumb\" src=\"",
-      "url": "https://byggingar.is/vex-kaupir-73-i-rafmidlun/",
-      "outlet": "byggingar.is",
-      "is_new": true
-    },
-    {
-      "id": "news:byggingar:steypuvinna-hafin-vid-nyja-heilsulind-a-siglufirdi",
-      "lane": "news",
-      "category": "project",
-      "title": "Steypuvinna hafin við nýja heilsulind á Siglufirði",
-      "entity": "byggingar.is",
-      "date": "2026-08-20",
-      "summary": "ar.is/wp-content/uploads/2026/08/20.08.2026-Steypuvinna-hafin-vid-nyja-heilsulind-a-Siglufirdi-a-238x178.jpg\" width=\"238\" height=\"178\" /> Steypuvinna hafin við nýja heilsulind á Siglufirði <i class=\"td-next-prev-icon td-i",
-      "url": "https://byggingar.is/steypuvinna-hafin-vid-nyja-heilsulind-a-siglufirdi/",
-      "outlet": "byggingar.is",
-      "is_new": true
-    },
-    {
-      "id": "news:byggingar:krefur-byggingarfulltrua-svara",
-      "lane": "news",
-      "category": "project",
-      "title": "Krefur byggingarfulltrúa svara",
-      "entity": "byggingar.is",
-      "date": "2026-08-20",
-      "summary": "g-url=\"https://byggingar.is/wp-content/uploads/2026/08/20.08.2026-Krefur-byggingarfulltrua-svara-238x178.jpg\" width=\"238\" height=\"178\" /> Krefur byggingarfulltrúa svara <a href=\"https://byggingar.is/steypuvinna-hafin-vid-nyja-heilsulind-a-siglufirdi/\" rel=\"bookmark\" class=\"td-image-wrap \" title=\"Steypuvinna hafin við nýja heilsulind á Sig",
-      "url": "https://byggingar.is/krefur-byggingarfulltrua-svara/",
+      "summary": "ingar.is/wp-content/uploads/2026/08/20.08.2026-Selja-thrjar-sogufraegar-fasteignir-i-midbaenum-a-238x178.jpg\" width=\"238\" height=\"178\" /> Selja þrjár sögu­frægar fast­eignir í miðbænum <i class=\"td-next-prev-icon td-i",
+      "url": "https://byggingar.is/selja-thrjar-sogufraegar-fasteignir-i-midbaenum/",
       "outlet": "byggingar.is",
       "is_new": true
     },
@@ -510,18 +530,6 @@
       "date": "2026-08-05",
       "summary": "Eitt tilboð barst í endurgerð leiksvæðis við Hringbraut 60 í Vesturbæ Aðeins eitt tilboð barst í verðfyrirspurn Reykjavíkurborgar vegna endurgerðar opins leiksvæðis við Hringbraut 60 í Vesturbæ. Tilboðið var rúmlega 53% yfir kostnaðaráætlun verkkaupa. Tilboð voru opnuð 5. ágúst 2026 í verðfyrirspurn umhverfis- og skipulagssviðs Reykjavíkurborgar nr. 16343,...",
       "url": "https://byggingar.is/eitt-tilbod-barst-i-endurgerd-leiksvaedis-vid-hringbraut-60-i-vesturbae/?utm_source=rss&utm_medium=rss&utm_campaign=eitt-tilbod-barst-i-endurgerd-leiksvaedis-vid-hringbraut-60-i-vesturbae",
-      "outlet": "byggingar.is / niðurstöður útboða",
-      "is_new": false
-    },
-    {
-      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-steypustodin-a-dalvik-faer-lika-samni",
-      "lane": "news",
-      "category": "project",
-      "title": "Steypustöðin á Dalvík fær líka samning um gatnagerð í Birkihólum",
-      "entity": "byggingar.is / niðurstöður útboða",
-      "date": "2026-08-04",
-      "summary": "Steypustöðin á Dalvík fær líka samning um gatnagerð í Birkihólum Byggðaráð Dalvíkurbyggðar hefur samþykkt að ganga til samninga við Steypustöðina á Dalvík ehf. um gatnagerð í Birkihólum eftir að tvö tilboð bárust í útboð framkvæmdarinnar. Á fundi byggðaráðs þann 30. júlí 2026 var fjallað um niðurstöðu útboðsins „Birkihólar, gatnagerð“, en tilboð voru opnuð...",
-      "url": "https://byggingar.is/steypustodin-a-dalvik-faer-lika-samning-um-gatnagerd-i-birkiholum/?utm_source=rss&utm_medium=rss&utm_campaign=steypustodin-a-dalvik-faer-lika-samning-um-gatnagerd-i-birkiholum",
       "outlet": "byggingar.is / niðurstöður útboða",
       "is_new": false
     },
