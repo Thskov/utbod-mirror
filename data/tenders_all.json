@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated": "2026-08-21T15:09:24Z",
-  "generated_at": "2026-08-21T15:09:24Z",
+  "generated": "2026-08-24T07:00:13Z",
+  "generated_at": "2026-08-24T07:00:13Z",
   "sources": {
     "utbodsvefur": {
-      "generated_at": "2026-08-21T15:09:24.084654+00:00",
+      "generated_at": "2026-08-24T07:00:13.376030+00:00",
       "count": 44,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders.json"
     },
     "offportal": {
-      "generated": "2026-08-21T15:09:24Z",
+      "generated": "2026-08-24T07:00:13Z",
       "count": 18,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders_offportal.json"
     },
@@ -293,7 +293,7 @@
         "evidence_url": "https://www.utbodsvefur.is/nytt-hafnarhus-forval-fyrir-honnun/",
         "seen_count": 1,
         "first_seen": "2026-08-21T07:00:13Z",
-        "last_seen": "2026-08-21T15:09:24Z",
+        "last_seen": "2026-08-24T07:00:13Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       }
