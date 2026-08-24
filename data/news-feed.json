@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated": "2026-08-21T15:18:46Z",
+  "generated": "2026-08-24T06:30:01Z",
   "window": {
-    "from": "2026-07-22",
-    "to": "2026-08-21"
+    "from": "2026-07-25",
+    "to": "2026-08-24"
   },
   "coverage": {
     "sources": [
@@ -273,8 +273,32 @@
     },
     "source_candidates": []
   },
-  "count": 24,
+  "count": 22,
   "items": [
+    {
+      "id": "news:byggingar:thyrlupallurinn-i-surtsey-verdur-naestum-threfaldadur-ad-staerd",
+      "lane": "news",
+      "category": "project",
+      "title": "Þyrlupallurinn í Surtsey verður næstum þrefaldaður að stærð",
+      "entity": "byggingar.is",
+      "date": "2026-08-23",
+      "summary": "ent/uploads/2026/08/23.08.2026-THyrlupallurinn-i-Surtsey-verdur-naestum-threfaldadur-ad-staerd-a-238x178.jpg\" width=\"238\" height=\"178\" /> Þyrlupallurinn í Surtsey verður næstum þrefaldaður að stærð <a href=\"https://byggingar.is/skagafjordur-skuldbatt-sig-til-hundrud-milljona-framkvaemda/\" rel=\"bookmark\" class=\"td-image-wrap \" title=\"Skagafjörður skuldbatt s...",
+      "url": "https://byggingar.is/thyrlupallurinn-i-surtsey-verdur-naestum-threfaldadur-ad-staerd/",
+      "outlet": "byggingar.is",
+      "is_new": true
+    },
+    {
+      "id": "news:byggingar:skagafjordur-skuldbatt-sig-til-hundrud-milljona-framkvaemda",
+      "lane": "news",
+      "category": "project",
+      "title": "Skagafjörður skuldbatt sig til hundruð milljóna framkvæmda",
+      "entity": "byggingar.is",
+      "date": "2026-08-23",
+      "summary": "p-content/uploads/2026/08/23.08.2026-Skagafjordur-skuldbatt-sig-til-hundrud-milljona-framkvaemda-238x178.jpg\" width=\"238\" height=\"178\" /> Skagafjörður skuldbatt sig til hundruð milljóna framkvæmda <a href=\"https://byggingar.is/efla-hefur-eftirlit-med-staekkun-sigoldustodvar/\" rel=\"bookmark\" class=\"td-image-wrap \" title=\"EFLA hefur eftirlit með stækkun Sig­ö...",
+      "url": "https://byggingar.is/skagafjordur-skuldbatt-sig-til-hundrud-milljona-framkvaemda/",
+      "outlet": "byggingar.is",
+      "is_new": true
+    },
     {
       "id": "news:vegagerdin:thekktur-bikblaedingakafli-malbikadur",
       "lane": "news",
@@ -285,31 +309,19 @@
       "summary": "__eI5fQ\"> Frétt­ir 21. ágúst 2026 Þekktur bikblæðingakafli malbikaður <img alt=\"\" loading=\"lazy\" width=\"300\" height=\"9999\" decoding=\"async\" data-nimg=\"1\" class=\"NextImage_container__yLPzb\" style=\"color:transparent;height:auto\" srcSet=\"/_next/image?url=%2Fmedia%2F2026%2F08%2Fskjamynd-2026-08-14-130808-aspect-ratio-1600-1100.png&",
       "url": "https://www.vegagerdin.is/vegagerdin/starfsemi/frettir/thekktur-bikblaedingakafli-malbikadur",
       "outlet": "Vegagerðin",
-      "is_new": true
+      "is_new": false
     },
     {
-      "id": "news:byggingar:jysk-opnar-nytt-og-glaesilegt-voruhus-i-mosfellsbae",
+      "id": "news:byggingar:efla-hefur-eftirlit-med-staekkun-sigoldustodvar",
       "lane": "news",
       "category": "project",
-      "title": "JYSK opnar nýtt og glæsi­legt vöru­hús í Mos­fells­bæ",
+      "title": "EFLA hefur eftirlit með stækkun Sig­öldu­stöðvar",
       "entity": "byggingar.is",
       "date": "2026-08-21",
-      "summary": "r.is/wp-content/uploads/2026/08/21.08.2026-JYSK-opnar-nytt-og-glaesilegt-voruhus-i-Mosfellsbae-a-238x178.jpg\" width=\"238\" height=\"178\" /> JYSK opnar nýtt og glæsi­legt vöru­hús í Mos­fells­bæ <img class=\"entry-thumb\"",
-      "url": "https://byggingar.is/jysk-opnar-nytt-og-glaesilegt-voruhus-i-mosfellsbae/",
+      "summary": "ggingar.is/wp-content/uploads/2026/08/21.08.2026-EFLA-hefur-eftirlit-med-staekkun-Sigoldustodvar-238x178.jpg\" width=\"238\" height=\"178\" /> EFLA hefur eftirlit með stækkun Sig­öldu­stöðvar <i class=\"td-next-prev-icon td-i",
+      "url": "https://byggingar.is/efla-hefur-eftirlit-med-staekkun-sigoldustodvar/",
       "outlet": "byggingar.is",
-      "is_new": true
-    },
-    {
-      "id": "news:byggingar:alda-tekin-ad-risa-ur-fossvoginum",
-      "lane": "news",
-      "category": "project",
-      "title": "Alda tekin að rísa úr Fossvoginum",
-      "entity": "byggingar.is",
-      "date": "2026-08-21",
-      "summary": "rl=\"https://byggingar.is/wp-content/uploads/2026/08/21.08.2026-Alda-tekin-ad-risa-ur-Fossvoginum-238x178.jpg\" width=\"238\" height=\"178\" /> Alda tekin að rísa úr Fossvoginum <a href=\"https://byggingar.is/selja-thrjar-sogufraegar-fasteignir-i-midbaenum/\" rel=\"bookmark\" class=\"td-image-wrap \" title=\"Selja þrjár sögu­frægar fast­eignir í miðbænum",
-      "url": "https://byggingar.is/alda-tekin-ad-risa-ur-fossvoginum/",
-      "outlet": "byggingar.is",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-niu-adilar-budu-i-thjonustu-vid-trjaf",
@@ -321,7 +333,7 @@
       "summary": "Níu aðilar buðu í þjónustu við trjáfellingar í Reykjavík Níu aðilar skiluðu tilboðum í EES-útboð Reykjavíkurborgar vegna þjónustu við trjáfellingar í borgarlandinu. Um er að ræða rammasamning um hirðingu skógar- og gróðursvæða borgarinnar, meðal annars grisjun, trjáklifur, kjarrsögun, stubbatætingu og kurlun. Tilboð voru opnuð hjá Reykjavíkurborg í dag, 20....",
       "url": "https://byggingar.is/niu-adilar-budu-i-thjonustu-vid-trjafellingar-i-reykjavik/?utm_source=rss&utm_medium=rss&utm_campaign=niu-adilar-budu-i-thjonustu-vid-trjafellingar-i-reykjavik",
       "outlet": "byggingar.is / niðurstöður útboða",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "news:istak:ny-rafdrifinn-drattarbill-i-flota-istaks",
@@ -333,19 +345,7 @@
       "summary": "c=\"https://irp.cdn-website.com/24b0782e/dms3rep/multi/opt/ISTAK+Mercedes-Benz+eActros+rafmagnsvorubill+2026-22+copy-1920w.jpg\" alt=\"\" onerror=\"handleImageLoadError(this)\"/> Ný rafdrifinn dráttarbíll í flota Ístaks 20. ágúst 2026 Nýlega bættist rafdrifinn Mercedes-Benz eActros 600 við tækjaflota Ístaks. Um er að ræða þriggja öxla 6x2 dráttarbíl sem verður ný...",
       "url": "https://www.istak.is/ny-rafdrifinn-drattarbill-i-flota-istaks",
       "outlet": "ÍSTAK",
-      "is_new": true
-    },
-    {
-      "id": "news:byggingar:selja-thrjar-sogufraegar-fasteignir-i-midbaenum",
-      "lane": "news",
-      "category": "project",
-      "title": "Selja þrjár sögu­frægar fast­eignir í miðbænum",
-      "entity": "byggingar.is",
-      "date": "2026-08-20",
-      "summary": "ingar.is/wp-content/uploads/2026/08/20.08.2026-Selja-thrjar-sogufraegar-fasteignir-i-midbaenum-a-238x178.jpg\" width=\"238\" height=\"178\" /> Selja þrjár sögu­frægar fast­eignir í miðbænum <i class=\"td-next-prev-icon td-i",
-      "url": "https://byggingar.is/selja-thrjar-sogufraegar-fasteignir-i-midbaenum/",
-      "outlet": "byggingar.is",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-all-verk-ehf-laegst-i-endurbaetur-a-r",
@@ -357,7 +357,7 @@
       "summary": "All Verk ehf. lægst í endurbætur á rannsóknardeild HVEST á Ísafirði Tvö tilboð bárust í útboð Framkvæmdasýslunnar – Ríkiseigna vegna endurbóta á rannsóknardeild Heilbrigðisstofnunar Vestfjarða á Ísafirði. All Verk ehf. átti lægra tilboðið, rúmar 78,2 milljónir króna með virðisaukaskatti. Tilboð í verkið „Endurbætur á rannsóknardeild HVEST Ísafirði“ voru opn...",
       "url": "https://byggingar.is/all-verk-ehf-laegst-i-endurbaetur-a-rannsoknardeild-hvest-a-isafirdi/?utm_source=rss&utm_medium=rss&utm_campaign=all-verk-ehf-laegst-i-endurbaetur-a-rannsoknardeild-hvest-a-isafirdi",
       "outlet": "byggingar.is / niðurstöður útboða",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-tvo-tilbod-i-staekkun-seydisfjardarsk",
@@ -396,25 +396,13 @@
       "is_new": false
     },
     {
-      "id": "news:reykjavik:menningarnott-2026-naesta-leiti",
-      "lane": "news",
-      "category": "project",
-      "title": "Menningarnótt 2026 á næsta leiti",
-      "entity": "Reykjavíkurborg",
-      "date": "2026-08-14",
-      "summary": "1920w, /sites/default/files/styles/landscape_4k/public/2026-08/25082306_menntonlist_137_copy_small_0.jpg?h=34e43602&itok=3dhz6cMt 3840w\" data-sizes=\"auto\" /> 14. ágúst 2026 Menningarnótt 2026 á næsta leiti <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2026-08/24042402_honnunar_355_small.jpg?h=34e...",
-      "url": "https://reykjavik.is/frettir/2026/menningarnott-2026-naesta-leiti",
-      "outlet": "Reykjavíkurborg",
-      "is_new": false
-    },
-    {
       "id": "news:reykjavik:gotumarkadur-i-listasafni-reykjavikur-hafnarhusi",
       "lane": "news",
       "category": "project",
       "title": "Götumarkaður í Listasafni Reykjavíkur Hafnarhúsi",
       "entity": "Reykjavíkurborg",
       "date": "2026-08-13",
-      "summary": "k=Q7asxZ-u 1920w, /sites/default/files/styles/landscape_4k/public/2026-08/24042402_honnunar_355_small.jpg?h=34e43602&itok=5jXndf3i 3840w\" data-sizes=\"auto\" /> 13. ágúst 2026 Götumarkaður í Listasafni Reykjavíkur Hafnarhúsi <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2026-08/24060101_kosningar_0...",
+      "summary": "k=Q7asxZ-u 1920w, /sites/default/files/styles/landscape_4k/public/2026-08/24042402_honnunar_355_small.jpg?h=34e43602&itok=5jXndf3i 3840w\" data-sizes=\"auto\" /> 13. ágúst 2026 Götumarkaður í Listasafni Reykjavíkur Hafnarhúsi <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2026-08/10366-157-7104_gledi...",
       "url": "https://reykjavik.is/frettir/2026/gotumarkadur-i-listasafni-reykjavikur-hafnarhusi",
       "outlet": "Reykjavíkurborg",
       "is_new": false
@@ -549,18 +537,6 @@
       "summary": "Næturborun í sjó lokið og verk­takar þakka í­búum þolin­mæðina Síðustu vikur hefur borun staðið yfir að næturlagi í sjónum úti fyrir Kársnesi en henni er nú lokið. Borunin er skref í smíði Fossvogsbrúar sem verður 270 metra löng, allt að sautján metra breið og opnar þann 16. júní árið 2028, ef allt fer eftir áætlun. […] The post Næturborun í sjó lokið og ve...",
       "url": "https://byggingar.is/naeturborun-i-sjo-lokid-og-verktakar-thakka-ibuum-tholinmaedina/?utm_source=rss&utm_medium=rss&utm_campaign=naeturborun-i-sjo-lokid-og-verktakar-thakka-ibuum-tholinmaedina",
       "outlet": "byggingar.is / Borgarlína",
-      "is_new": false
-    },
-    {
-      "id": "news:visir-fiskeldi:bleikjuvinnslunni-breytt-i-brugghus",
-      "lane": "news",
-      "category": "industrial-demand",
-      "title": "Bleikjuvinnslunni breytt í brugg­hús",
-      "entity": "visir.is / Fiskeldi",
-      "date": "2026-07-22",
-      "summary": "Í byggingu sem áður hýsti vinnslustöð Klausturbleikju er núna verið að innrétta brugghús. Oddviti Skaftárhrepps segist treysta því að bjórinn verði jafngóður og bleikjan var.",
-      "url": "https://www.visir.is/g/20262912614d/bleikjuvinnslunni-breytt-i-brugghus",
-      "outlet": "visir.is / Fiskeldi",
       "is_new": false
     }
   ]
