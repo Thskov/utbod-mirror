@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated": "2026-08-24T06:30:01Z",
+  "generated": "2026-08-25T06:30:01Z",
   "window": {
-    "from": "2026-07-25",
-    "to": "2026-08-24"
+    "from": "2026-07-26",
+    "to": "2026-08-25"
   },
   "coverage": {
     "sources": [
@@ -276,52 +276,64 @@
   "count": 22,
   "items": [
     {
-      "id": "news:byggingar:thyrlupallurinn-i-surtsey-verdur-naestum-threfaldadur-ad-staerd",
+      "id": "news:vegagerdin:lagfaera-tharf-nyjan-klaedingarkafla-a-snaefellsnesvegi",
       "lane": "news",
       "category": "project",
-      "title": "Þyrlupallurinn í Surtsey verður næstum þrefaldaður að stærð",
-      "entity": "byggingar.is",
-      "date": "2026-08-23",
-      "summary": "ent/uploads/2026/08/23.08.2026-THyrlupallurinn-i-Surtsey-verdur-naestum-threfaldadur-ad-staerd-a-238x178.jpg\" width=\"238\" height=\"178\" /> Þyrlupallurinn í Surtsey verður næstum þrefaldaður að stærð <a href=\"https://byggingar.is/skagafjordur-skuldbatt-sig-til-hundrud-milljona-framkvaemda/\" rel=\"bookmark\" class=\"td-image-wrap \" title=\"Skagafjörður skuldbatt s...",
-      "url": "https://byggingar.is/thyrlupallurinn-i-surtsey-verdur-naestum-threfaldadur-ad-staerd/",
-      "outlet": "byggingar.is",
-      "is_new": true
-    },
-    {
-      "id": "news:byggingar:skagafjordur-skuldbatt-sig-til-hundrud-milljona-framkvaemda",
-      "lane": "news",
-      "category": "project",
-      "title": "Skagafjörður skuldbatt sig til hundruð milljóna framkvæmda",
-      "entity": "byggingar.is",
-      "date": "2026-08-23",
-      "summary": "p-content/uploads/2026/08/23.08.2026-Skagafjordur-skuldbatt-sig-til-hundrud-milljona-framkvaemda-238x178.jpg\" width=\"238\" height=\"178\" /> Skagafjörður skuldbatt sig til hundruð milljóna framkvæmda <a href=\"https://byggingar.is/efla-hefur-eftirlit-med-staekkun-sigoldustodvar/\" rel=\"bookmark\" class=\"td-image-wrap \" title=\"EFLA hefur eftirlit með stækkun Sig­ö...",
-      "url": "https://byggingar.is/skagafjordur-skuldbatt-sig-til-hundrud-milljona-framkvaemda/",
-      "outlet": "byggingar.is",
-      "is_new": true
-    },
-    {
-      "id": "news:vegagerdin:thekktur-bikblaedingakafli-malbikadur",
-      "lane": "news",
-      "category": "project",
-      "title": "21. ágúst 2026 Þekktur bikblæðingakafli malbikaður",
+      "title": "24. ágúst 2026 Lagfæra þarf nýjan klæðingarkafla á Snæfellsnesvegi",
       "entity": "Vegagerðin",
-      "date": "2026-08-21",
-      "summary": "__eI5fQ\"> Frétt­ir 21. ágúst 2026 Þekktur bikblæðingakafli malbikaður <img alt=\"\" loading=\"lazy\" width=\"300\" height=\"9999\" decoding=\"async\" data-nimg=\"1\" class=\"NextImage_container__yLPzb\" style=\"color:transparent;height:auto\" srcSet=\"/_next/image?url=%2Fmedia%2F2026%2F08%2Fskjamynd-2026-08-14-130808-aspect-ratio-1600-1100.png&",
-      "url": "https://www.vegagerdin.is/vegagerdin/starfsemi/frettir/thekktur-bikblaedingakafli-malbikadur",
+      "date": "2026-08-24",
+      "summary": "__eI5fQ\"> Frétt­ir 24. ágúst 2026 Lagfæra þarf nýjan klæðingarkafla á Snæfellsnesvegi <img alt=\"\" loading=\"lazy\" width=\"300\" height=\"9999\" decoding=\"async\" data-nimg=\"1\" class=\"NextImage_container__yLPzb\" style=\"color:transparent;height:auto\" srcSet=\"/_next/image?url=%2Fmedia%2F2026%2F08%2F20260818_122154-scaled-aspect-ratio-1600-1100.jpg&w=400&q=75 1x, /_n...",
+      "url": "https://www.vegagerdin.is/vegagerdin/starfsemi/frettir/lagfaera-tharf-nyjan-klaedingarkafla-a-snaefellsnesvegi",
       "outlet": "Vegagerðin",
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "news:byggingar:efla-hefur-eftirlit-med-staekkun-sigoldustodvar",
+      "id": "news:fsre:vidbygging-hjukrunarheimilisins-vid-skjolgard-a-hoefn-i-hornafirdi",
       "lane": "news",
       "category": "project",
-      "title": "EFLA hefur eftirlit með stækkun Sig­öldu­stöðvar",
+      "title": "24. ágúst 2026 Viðbygging hjúkrunarheimilisins við Skjólgarð á Höfn í Hornafirði Viðbygging Hjúkrunarheimilisins við Skjólgarðá á Höfn í Hornafirði var vígð þann ...",
+      "entity": "FSRE",
+      "date": "2026-08-24",
+      "summary": "l=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"32\" d=\"M268 112l144 144-144 144m124-144H100\"> 24. ágúst 2026 Viðbygging hjúkrunarheimilisins við Skjólgarð á Höfn í Hornafirði Viðbygging Hjúkrunarheimilisins við Skjólgarðá á Höfn í Hornafirði var vígð þann ... <d",
+      "url": "https://www.fsre.is/s/fsre/frett/vidbygging-hjukrunarheimilisins-vid-skjolgard-a-hoefn-i-hornafirdi",
+      "outlet": "FSRE",
+      "is_new": true
+    },
+    {
+      "id": "news:byggingar:tvo-tilbod-barust-i-staekkun-skolans",
+      "lane": "news",
+      "category": "project",
+      "title": "Tvö tilboð bárust í stækkun skólans",
       "entity": "byggingar.is",
-      "date": "2026-08-21",
-      "summary": "ggingar.is/wp-content/uploads/2026/08/21.08.2026-EFLA-hefur-eftirlit-med-staekkun-Sigoldustodvar-238x178.jpg\" width=\"238\" height=\"178\" /> EFLA hefur eftirlit með stækkun Sig­öldu­stöðvar <i class=\"td-next-prev-icon td-i",
-      "url": "https://byggingar.is/efla-hefur-eftirlit-med-staekkun-sigoldustodvar/",
+      "date": "2026-08-24",
+      "summary": "\"https://byggingar.is/wp-content/uploads/2026/08/24.08.2026-Tvo-tilbod-barust-i-staekkun-skolans-238x178.jpg\" width=\"238\" height=\"178\" /> Tvö tilboð bárust í stækkun skólans <i class=\"td-next-prev-icon td-i",
+      "url": "https://byggingar.is/tvo-tilbod-barust-i-staekkun-skolans/",
       "outlet": "byggingar.is",
-      "is_new": false
+      "is_new": true
+    },
+    {
+      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-milljardstilbodum-i-staekkun-seydisfj",
+      "lane": "news",
+      "category": "project",
+      "title": "Milljarðstilboðum í stækkun Seyðisfjarðarskóla hafnað – yfir kostnaðaráætlun",
+      "entity": "byggingar.is / niðurstöður útboða",
+      "date": "2026-08-24",
+      "summary": "Milljarðstilboðum í stækkun Seyðisfjarðarskóla hafnað – yfir kostnaðaráætlun Múlaþing hefur ákveðið að hafna báðum tilboðum sem bárust í stækkun Seyðisfjarðarskóla þar sem þau voru yfir kostnaðaráætlun sveitarfélagsins. Lægsta tilboðið hljóðaði upp á rúmlega 1,06 milljarða króna, eða um 123 milljónum króna yfir kostnaðaráætlun. Umhverfis- og framkvæmdaráð M...",
+      "url": "https://byggingar.is/milljardstilbodum-i-staekkun-seydisfjardarskola-hafnad-yfir-kostnadaraaetlun/?utm_source=rss&utm_medium=rss&utm_campaign=milljardstilbodum-i-staekkun-seydisfjardarskola-hafnad-yfir-kostnadaraaetlun",
+      "outlet": "byggingar.is / niðurstöður útboða",
+      "is_new": true
+    },
+    {
+      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-borgarverk-laegst-i-jardvinnu-vid-nyt",
+      "lane": "news",
+      "category": "competitor",
+      "title": "Borgarverk lægst í jarðvinnu við nýtt öryggisfangelsi á Stóra-Hrauni",
+      "entity": "byggingar.is / niðurstöður útboða",
+      "date": "2026-08-24",
+      "summary": "Borgarverk lægst í jarðvinnu við nýtt öryggisfangelsi á Stóra-Hrauni Borgarverk ehf. átti lægsta tilboðið í jarðvinnu vegna nýs öryggisfangelsis á Stóra-Hrauni, tæplega 993,1 milljón króna. Alls bárust sjö tilboð í verkið og voru sex þeirra yfir einum milljarði króna. Framkvæmdasýslan – Ríkiseignir opnaði 20. ágúst tilboð í jarðvinnu vegna fyrirhugaðs örygg...",
+      "url": "https://byggingar.is/borgarverk-laegst-i-jardvinnu-vid-nytt-oryggisfangelsi-a-stora-hrauni/?utm_source=rss&utm_medium=rss&utm_campaign=borgarverk-laegst-i-jardvinnu-vid-nytt-oryggisfangelsi-a-stora-hrauni",
+      "outlet": "byggingar.is / niðurstöður útboða",
+      "is_new": true
     },
     {
       "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-niu-adilar-budu-i-thjonustu-vid-trjaf",
@@ -393,6 +405,18 @@
       "summary": "920w.jpg');\"> Nýtt hjúkrunarheimili opnað á Höfn 17. ágúst 2026 Nýtt hjúkrunarheimili var vígt við Skjólgarð á Höfn í Hornafirði föstudaginn 14. ágúst 2026. Nýbyggingin sem nú hefur verið tekin í no",
       "url": "https://www.istak.is/nytt-hjukrunarheimili-opna-a-hofn",
       "outlet": "ÍSTAK",
+      "is_new": false
+    },
+    {
+      "id": "news:reykjavik:menningarnott-2026-naesta-leiti",
+      "lane": "news",
+      "category": "project",
+      "title": "Menningarnótt 2026 á næsta leiti",
+      "entity": "Reykjavíkurborg",
+      "date": "2026-08-14",
+      "summary": "1920w, /sites/default/files/styles/landscape_4k/public/2026-08/25082306_menntonlist_137_copy_small_0.jpg?h=34e43602&itok=3dhz6cMt 3840w\" data-sizes=\"auto\" /> 14. ágúst 2026 Menningarnótt 2026 á næsta leiti <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2026-08/24042402_honnunar_355_small.jpg?h=34e...",
+      "url": "https://reykjavik.is/frettir/2026/menningarnott-2026-naesta-leiti",
+      "outlet": "Reykjavíkurborg",
       "is_new": false
     },
     {
@@ -501,30 +525,6 @@
       "summary": "Jónas Heiðar Birgisson hefur verið ráðinn sem fjármálastjóri Sjómannadagsráðs en undir ráðið heyra Hrafnistuheimilin, DAS íbúðir, og Happdrætti Das. Jónas Heiðar tekur við af Kristjáni Björgvinssyni, sem lætur nú af störfum eftir átta ár hjá Sjómannadagsráði.",
       "url": "https://www.visir.is/g/20262918010d/fer-fra-laxeldi-i-eldri-borgara",
       "outlet": "visir.is / Fiskeldi",
-      "is_new": false
-    },
-    {
-      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-skering-ehf-med-laegsta-tilbodid-i-ef",
-      "lane": "news",
-      "category": "project",
-      "title": "Skering ehf. með lægsta tilboðið í efnisvinnslu á Vestfjörðum",
-      "entity": "byggingar.is / niðurstöður útboða",
-      "date": "2026-08-05",
-      "summary": "Skering ehf. með lægsta tilboðið í efnisvinnslu á Vestfjörðum Skering ehf. á Hvalseyri átti lægsta tilboðið þegar Vegagerðin opnaði tilboð í efnisvinnslu fyrir malarslitlög á Vestfjörðum fyrir árin 2026–2027. Tilboðið er rúmlega 22% undir kostnaðaráætlun verkkaupa. Tilboð voru opnuð 4. ágúst 2026 í útboði Vegagerðarinnar „Efnisvinnsla á Vestfjörðum 2026–202...",
-      "url": "https://byggingar.is/skering-ehf-med-laegsta-tilbodid-i-efnisvinnslu-a-vestfjordum/?utm_source=rss&utm_medium=rss&utm_campaign=skering-ehf-med-laegsta-tilbodid-i-efnisvinnslu-a-vestfjordum",
-      "outlet": "byggingar.is / niðurstöður útboða",
-      "is_new": false
-    },
-    {
-      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-eitt-tilbod-barst-i-endurgerd-leiksva",
-      "lane": "news",
-      "category": "investment",
-      "title": "Eitt tilboð barst í endurgerð leiksvæðis við Hringbraut 60 í Vesturbæ",
-      "entity": "byggingar.is / niðurstöður útboða",
-      "date": "2026-08-05",
-      "summary": "Eitt tilboð barst í endurgerð leiksvæðis við Hringbraut 60 í Vesturbæ Aðeins eitt tilboð barst í verðfyrirspurn Reykjavíkurborgar vegna endurgerðar opins leiksvæðis við Hringbraut 60 í Vesturbæ. Tilboðið var rúmlega 53% yfir kostnaðaráætlun verkkaupa. Tilboð voru opnuð 5. ágúst 2026 í verðfyrirspurn umhverfis- og skipulagssviðs Reykjavíkurborgar nr. 16343,...",
-      "url": "https://byggingar.is/eitt-tilbod-barst-i-endurgerd-leiksvaedis-vid-hringbraut-60-i-vesturbae/?utm_source=rss&utm_medium=rss&utm_campaign=eitt-tilbod-barst-i-endurgerd-leiksvaedis-vid-hringbraut-60-i-vesturbae",
-      "outlet": "byggingar.is / niðurstöður útboða",
       "is_new": false
     },
     {
