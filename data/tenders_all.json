@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated": "2026-08-24T07:00:13Z",
-  "generated_at": "2026-08-24T07:00:13Z",
+  "generated": "2026-08-25T07:00:13Z",
+  "generated_at": "2026-08-25T07:00:13Z",
   "sources": {
     "utbodsvefur": {
-      "generated_at": "2026-08-24T07:00:13.376030+00:00",
-      "count": 44,
+      "generated_at": "2026-08-25T07:00:13.512203+00:00",
+      "count": 41,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders.json"
     },
     "offportal": {
-      "generated": "2026-08-24T07:00:13Z",
+      "generated": "2026-08-25T07:00:13Z",
       "count": 18,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders_offportal.json"
     },
@@ -293,42 +293,14 @@
         "evidence_url": "https://www.utbodsvefur.is/nytt-hafnarhus-forval-fyrir-honnun/",
         "seen_count": 1,
         "first_seen": "2026-08-21T07:00:13Z",
-        "last_seen": "2026-08-24T07:00:13Z",
+        "last_seen": "2026-08-25T07:00:13Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       }
     ]
   },
-  "count": 56,
+  "count": 54,
   "items": [
-    {
-      "reference": "23416",
-      "project": "Gagnsæistilkynning (VEAT) vegna upptöku og viðhalds á vél fyrir Hafrannsóknastofnun",
-      "buyer": "Fjársýslan ríkisins",
-      "notice_type": "Gagnsæistilkynning (VEAT)",
-      "deadline": "24.08.2026 kl. 08:00",
-      "deadline_local": "2026-08-24T08:00:00+00:00",
-      "deadline_utc": "2026-08-24T08:00:00+00:00",
-      "posted_at": "2026-08-13T08:53:38+00:00",
-      "modified_at": "2026-08-13T08:53:38+00:00",
-      "url": "https://www.utbodsvefur.is/gagnsaeistilkynning-veat-vegna-upptoku-og-vidhalds-a-vel-fyrir-hafrannsoknastofnun/",
-      "summary": "Fjársýslan (kt. 540269-7509) birtir gagnsæistilkynningu (VEAT) fyrir hönd Hafrannsóknastofnunar (kt. 470616-0830). Tilkynningin varðar fyrirhugaðan sa...",
-      "source": "utbodsvefur"
-    },
-    {
-      "reference": "23329",
-      "project": "Stafræn skeytamiðlun um PEPPOL-netið",
-      "buyer": "Fjársýslan ríkisins",
-      "notice_type": "Þjónusta",
-      "deadline": "24.08.2026 kl. 09:00",
-      "deadline_local": "2026-08-24T09:00:00+00:00",
-      "deadline_utc": "2026-08-24T09:00:00+00:00",
-      "posted_at": "2026-07-13T08:21:05+00:00",
-      "modified_at": "2026-07-13T08:31:14+00:00",
-      "url": "https://www.utbodsvefur.is/stafraen-skeytamidlun-um-peppol-netid/",
-      "summary": "Fjársýslan, kt. 540269-7509, óskar eftir tilboðum í útboð nr. 23329 – Stafræn skeytamiðlun um PEPPOL-netið. Innkaupin varða veitingu stafrænnar skeyta...",
-      "source": "utbodsvefur"
-    },
     {
       "reference": "16326",
       "project": "Forritun á vef Reykjavíkurborgar, rammasamningur, EES útboð nr. 16326",
@@ -456,18 +428,18 @@
       "source": "utbodsvefur"
     },
     {
-      "reference": "VEU-2608-0057",
-      "project": "Ölfusvegur – stofnlagnir",
+      "reference": "699",
+      "project": "HÆTT VIÐ - VEU-2608-0057 Ölfusvegur - stofnlagnir",
       "buyer": "Veitur ohf.",
-      "notice_type": "Framkvæmd",
+      "notice_type": "$prjTenderProcessWorks",
       "deadline": "28.08.2026 kl. 11:00",
       "deadline_local": "2026-08-28T11:00:00+00:00",
       "deadline_utc": "2026-08-28T11:00:00+00:00",
-      "posted_at": "2026-08-06T13:28:41+00:00",
-      "modified_at": "2026-08-06T13:28:41+00:00",
-      "url": "https://www.utbodsvefur.is/olfusvegur-stofnlagnir/",
-      "summary": "Verkkaupi óskar eftir tilboðum í Ölfusvegur – stofnlagnir í samræmi við útboðsgögn. Leggja skal 1. áfanga af nýrri DN200 stofnlögn hitaveitu með...",
-      "source": "utbodsvefur"
+      "posted_at": null,
+      "modified_at": null,
+      "url": "https://in-tendhost.co.uk/reykjavikenergy/aspx/ProjectManage/700",
+      "summary": "Verkkaupi óskar eftir tilboðum í Ölfusvegur - stofnlagnir í samræmi við útboðsgögn þessi.",
+      "source": "or-intend"
     },
     {
       "reference": "2607171",
