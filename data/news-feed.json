@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated": "2026-08-25T06:30:01Z",
+  "generated": "2026-08-26T06:30:01Z",
   "window": {
-    "from": "2026-07-26",
-    "to": "2026-08-25"
+    "from": "2026-07-27",
+    "to": "2026-08-26"
   },
   "coverage": {
     "sources": [
@@ -273,18 +273,66 @@
     },
     "source_candidates": []
   },
-  "count": 22,
+  "count": 24,
   "items": [
     {
-      "id": "news:vegagerdin:lagfaera-tharf-nyjan-klaedingarkafla-a-snaefellsnesvegi",
+      "id": "news:vegagerdin:skemmd-klaeding-a-snaefellsnesvegi-fraest-upp",
       "lane": "news",
       "category": "project",
-      "title": "24. ágúst 2026 Lagfæra þarf nýjan klæðingarkafla á Snæfellsnesvegi",
+      "title": "25. ágúst 2026 Skemmd klæðing á Snæfellsnesvegi fræst upp",
       "entity": "Vegagerðin",
-      "date": "2026-08-24",
-      "summary": "__eI5fQ\"> Frétt­ir 24. ágúst 2026 Lagfæra þarf nýjan klæðingarkafla á Snæfellsnesvegi <img alt=\"\" loading=\"lazy\" width=\"300\" height=\"9999\" decoding=\"async\" data-nimg=\"1\" class=\"NextImage_container__yLPzb\" style=\"color:transparent;height:auto\" srcSet=\"/_next/image?url=%2Fmedia%2F2026%2F08%2F20260818_122154-scaled-aspect-ratio-1600-1100.jpg&w=400&q=75 1x, /_n...",
-      "url": "https://www.vegagerdin.is/vegagerdin/starfsemi/frettir/lagfaera-tharf-nyjan-klaedingarkafla-a-snaefellsnesvegi",
+      "date": "2026-08-25",
+      "summary": "__eI5fQ\"> Frétt­ir 25. ágúst 2026 Skemmd klæðing á Snæfellsnesvegi fræst upp <img alt=\"\" loading=\"lazy\" width=\"300\" height=\"9999\" decoding=\"async\" data-nimg=\"1\" class=\"NextImage_container__yLPzb\" style=\"color:transparent;height:auto\" srcSet=\"/_next/image?url=%2Fmedia%2F2026%2F08%2Fskjamynd-2026-08-25-131514-aspect-ratio-1600-1100.png&w=400&q=75 1x,",
+      "url": "https://www.vegagerdin.is/vegagerdin/starfsemi/frettir/skemmd-klaeding-a-snaefellsnesvegi-fraest-upp",
       "outlet": "Vegagerðin",
+      "is_new": true
+    },
+    {
+      "id": "news:byggingar:nytt-8-9-milljarda-hjukrunarheimili-a-akureyri-faerist-naer-framkvaemdum-2",
+      "lane": "news",
+      "category": "project",
+      "title": "Nýtt 8.9 milljarða hjúkrunarheimili á Akureyri færist nær framkvæmdum",
+      "entity": "byggingar.is",
+      "date": "2026-08-25",
+      "summary": "=\"image_tag\" data-img-url=\"https://byggingar.is/wp-content/uploads/2026/08/25.08.2026-THursaholt-238x178.jpg\" width=\"238\" height=\"178\" /> Nýtt 8.9 milljarða hjúkrunarheimili á Akureyri færist nær framkvæmdum <i class=\"td-next-prev-icon td-i",
+      "url": "https://byggingar.is/nytt-8-9-milljarda-hjukrunarheimili-a-akureyri-faerist-naer-framkvaemdum-2/",
+      "outlet": "byggingar.is",
+      "is_new": true
+    },
+    {
+      "id": "news:byggingar:kaupa-hluta-af-lod-gamla-kisilversins-a-12-milljarda",
+      "lane": "news",
+      "category": "project",
+      "title": "Kaupa hluta af lóð gamla kísilversins á 1,2 milljarða",
+      "entity": "byggingar.is",
+      "date": "2026-08-25",
+      "summary": "ar.is/wp-content/uploads/2026/08/25.08.2026-Kaupa-hluta-af-lod-gamla-kisilversins-a-12-milljarda-238x178.jpg\" width=\"238\" height=\"178\" /> Kaupa hluta af lóð gamla kísilversins á 1,2 milljarða <img class=\"entry-thumb\" sr",
+      "url": "https://byggingar.is/kaupa-hluta-af-lod-gamla-kisilversins-a-12-milljarda/",
+      "outlet": "byggingar.is",
+      "is_new": true
+    },
+    {
+      "id": "news:byggingar:arborg-laekkar-gjold-a-byggingar",
+      "lane": "news",
+      "category": "project",
+      "title": "Árborg lækkar gjöld á byggingar",
+      "entity": "byggingar.is",
+      "date": "2026-08-25",
+      "summary": "url=\"https://byggingar.is/wp-content/uploads/2026/08/25.08.2026-Arborg-laekkar-gjold-a-byggingar-238x178.jpg\" width=\"238\" height=\"178\" /> Árborg lækkar gjöld á byggingar <a href=\"https://byggingar.is/nytt-8-9-milljarda-hjukrunarheimili-a-akureyri-faerist-naer-framkvaemdum-2/\" rel=\"bookmark\" class=\"td-image-wrap \" title=\"Nýtt 8.9 milljarða",
+      "url": "https://byggingar.is/arborg-laekkar-gjold-a-byggingar/",
+      "outlet": "byggingar.is",
+      "is_new": true
+    },
+    {
+      "id": "news:byggingar-borgarlina:utm-source-rss-utm-medium-rss-utm-campaign-fimm-verkfraedistofur-vilja-hanna-3-l",
+      "lane": "news",
+      "category": "project",
+      "title": "Fimm verkfræðistofur vilja hanna 3. lotu Borgarlínu og ný gatnamót við Bústaðaveg",
+      "entity": "byggingar.is / Borgarlína",
+      "date": "2026-08-25",
+      "summary": "Fimm verkfræðistofur vilja hanna 3. lotu Borgarlínu og ný gatnamót við Bústaðaveg Fimm verkfræðistofur skiluðu tilboðum í umfangsmikið hönnunarverkefni Vegagerðarinnar vegna endurgerðar gatnamóta Reykjanesbrautar og Bústaðavegar og hluta þriðju lotu Borgarlínu. Verkefnið felur meðal annars í sér hönnun þriggja nýrra brúarmannvirkja og færslu Reykjanesbrauta...",
+      "url": "https://byggingar.is/fimm-verkfraedistofur-vilja-hanna-3-lotu-borgarlinu-og-ny-gatnamot-vid-bustadaveg/?utm_source=rss&utm_medium=rss&utm_campaign=fimm-verkfraedistofur-vilja-hanna-3-lotu-borgarlinu-og-ny-gatnamot-vid-bustadaveg",
+      "outlet": "byggingar.is / Borgarlína",
       "is_new": true
     },
     {
@@ -297,19 +345,7 @@
       "summary": "l=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"32\" d=\"M268 112l144 144-144 144m124-144H100\"> 24. ágúst 2026 Viðbygging hjúkrunarheimilisins við Skjólgarð á Höfn í Hornafirði Viðbygging Hjúkrunarheimilisins við Skjólgarðá á Höfn í Hornafirði var vígð þann ... <d",
       "url": "https://www.fsre.is/s/fsre/frett/vidbygging-hjukrunarheimilisins-vid-skjolgard-a-hoefn-i-hornafirdi",
       "outlet": "FSRE",
-      "is_new": true
-    },
-    {
-      "id": "news:byggingar:tvo-tilbod-barust-i-staekkun-skolans",
-      "lane": "news",
-      "category": "project",
-      "title": "Tvö tilboð bárust í stækkun skólans",
-      "entity": "byggingar.is",
-      "date": "2026-08-24",
-      "summary": "\"https://byggingar.is/wp-content/uploads/2026/08/24.08.2026-Tvo-tilbod-barust-i-staekkun-skolans-238x178.jpg\" width=\"238\" height=\"178\" /> Tvö tilboð bárust í stækkun skólans <i class=\"td-next-prev-icon td-i",
-      "url": "https://byggingar.is/tvo-tilbod-barust-i-staekkun-skolans/",
-      "outlet": "byggingar.is",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-milljardstilbodum-i-staekkun-seydisfj",
@@ -321,7 +357,7 @@
       "summary": "Milljarðstilboðum í stækkun Seyðisfjarðarskóla hafnað – yfir kostnaðaráætlun Múlaþing hefur ákveðið að hafna báðum tilboðum sem bárust í stækkun Seyðisfjarðarskóla þar sem þau voru yfir kostnaðaráætlun sveitarfélagsins. Lægsta tilboðið hljóðaði upp á rúmlega 1,06 milljarða króna, eða um 123 milljónum króna yfir kostnaðaráætlun. Umhverfis- og framkvæmdaráð M...",
       "url": "https://byggingar.is/milljardstilbodum-i-staekkun-seydisfjardarskola-hafnad-yfir-kostnadaraaetlun/?utm_source=rss&utm_medium=rss&utm_campaign=milljardstilbodum-i-staekkun-seydisfjardarskola-hafnad-yfir-kostnadaraaetlun",
       "outlet": "byggingar.is / niðurstöður útboða",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-borgarverk-laegst-i-jardvinnu-vid-nyt",
@@ -333,7 +369,7 @@
       "summary": "Borgarverk lægst í jarðvinnu við nýtt öryggisfangelsi á Stóra-Hrauni Borgarverk ehf. átti lægsta tilboðið í jarðvinnu vegna nýs öryggisfangelsis á Stóra-Hrauni, tæplega 993,1 milljón króna. Alls bárust sjö tilboð í verkið og voru sex þeirra yfir einum milljarði króna. Framkvæmdasýslan – Ríkiseignir opnaði 20. ágúst tilboð í jarðvinnu vegna fyrirhugaðs örygg...",
       "url": "https://byggingar.is/borgarverk-laegst-i-jardvinnu-vid-nytt-oryggisfangelsi-a-stora-hrauni/?utm_source=rss&utm_medium=rss&utm_campaign=borgarverk-laegst-i-jardvinnu-vid-nytt-oryggisfangelsi-a-stora-hrauni",
       "outlet": "byggingar.is / niðurstöður útboða",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-niu-adilar-budu-i-thjonustu-vid-trjaf",
@@ -489,18 +525,6 @@
       "summary": "Samið fyrir tæplega 1.5 milljarða um stöðvar og steinefni fyrir Borgarlínu Betri samgöngur hafa gert tvo stóra efniskaupasamninga vegna uppbyggingar fyrstu lotu Borgarlínu. Samningarnir ná annars vegar til framleiðslu og afhendingar á 26 Borgarlínustöðvum og hins vegar til kaupa á granít- og basaltsteinum fyrir stöðvar, brautarpalla og aðliggjandi almenning...",
       "url": "https://byggingar.is/samid-fyrir-taeplega-1-5-milljarda-um-stodvar-og-steinefni-fyrir-borgarlinu/?utm_source=rss&utm_medium=rss&utm_campaign=samid-fyrir-taeplega-1-5-milljarda-um-stodvar-og-steinefni-fyrir-borgarlinu",
       "outlet": "byggingar.is / Borgarlína",
-      "is_new": false
-    },
-    {
-      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-tilbodi-upp-a-31-7-milljonir-i-framkv",
-      "lane": "news",
-      "category": "investment",
-      "title": "Tilboði upp á 31.7 milljónir í framkvæmdir við lóð Grundaskóla hafnað",
-      "entity": "byggingar.is / niðurstöður útboða",
-      "date": "2026-08-07",
-      "summary": "Tilboði upp á 31.7 milljónir í framkvæmdir við lóð Grundaskóla hafnað Skipulags- og umhverfisráð Akraness hefur hafnað eina tilboðinu sem barst í verðkönnun vegna framkvæmda á lóð Grundaskóla. Tilboðið var rúmlega 32% yfir kostnaðaráætlun verksins og verður verkefnið í staðinn endurskoðað með það að markmiði að bjóða það síðar út í heild. Á fundi Skipulags-...",
-      "url": "https://byggingar.is/tilbodi-upp-a-31-7-milljonir-i-framkvaemdir-vid-lod-grundaskola-hafnad/?utm_source=rss&utm_medium=rss&utm_campaign=tilbodi-upp-a-31-7-milljonir-i-framkvaemdir-vid-lod-grundaskola-hafnad",
-      "outlet": "byggingar.is / niðurstöður útboða",
       "is_new": false
     },
     {
