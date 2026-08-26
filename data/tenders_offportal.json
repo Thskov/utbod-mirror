@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated": "2026-08-25T07:00:13Z",
-  "generated_at": "2026-08-25T07:00:13Z",
+  "generated": "2026-08-26T07:00:13Z",
+  "generated_at": "2026-08-26T07:00:13Z",
   "sources": {
     "covered": [
       {
@@ -41,7 +41,7 @@
       {
         "source": "ted",
         "url": "https://api.ted.europa.eu/v3/notices/search",
-        "reason": "dropped 73 notices: expired deadline"
+        "reason": "dropped 74 notices: expired deadline"
       },
       {
         "source": "nlsh",
@@ -317,7 +317,7 @@
         "evidence_url": "https://www.utbodsvefur.is/nytt-hafnarhus-forval-fyrir-honnun/",
         "seen_count": 1,
         "first_seen": "2026-08-21T07:00:13Z",
-        "last_seen": "2026-08-24T07:00:13Z",
+        "last_seen": "2026-08-25T07:00:13Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       }
@@ -325,20 +325,6 @@
   },
   "count": 18,
   "items": [
-    {
-      "reference": "428549-2026",
-      "project": "Vestfjarðarvegur (60) around Gufudalssveit Skálanes - Hallsteinsnes",
-      "buyer": "Vegagerðin",
-      "notice_type": "cn-standard",
-      "deadline": "25.08.2026 kl. 14:00",
-      "deadline_local": "2026-08-25T14:00:58+00:00",
-      "deadline_utc": "2026-08-25T14:00:58+00:00",
-      "posted_at": "2026-06-24",
-      "modified_at": null,
-      "url": "https://ted.europa.eu/en/notice/-/detail/428549-2026",
-      "summary": "TED open Iceland construction contract notice; CPV 45221100, 45221100.",
-      "source": "ted"
-    },
     {
       "reference": "699",
       "project": "HÆTT VIÐ - VEU-2608-0057 Ölfusvegur - stofnlagnir",
@@ -393,6 +379,20 @@
       "modified_at": null,
       "url": "https://ted.europa.eu/en/notice/-/detail/487213-2026",
       "summary": "TED open Iceland construction contract notice; CPV 45233120, 45233120.",
+      "source": "ted"
+    },
+    {
+      "reference": "536364-2026",
+      "project": "Vestfjarðarvegur (60) around Gufudalssveit Skálanes - Hallsteinsnes",
+      "buyer": "Vegagerðin",
+      "notice_type": "cn-standard",
+      "deadline": "08.09.2026 kl. 14:00",
+      "deadline_local": "2026-09-08T14:00:58+00:00",
+      "deadline_utc": "2026-09-08T14:00:58+00:00",
+      "posted_at": "2026-08-03",
+      "modified_at": null,
+      "url": "https://ted.europa.eu/en/notice/-/detail/536364-2026",
+      "summary": "TED open Iceland construction contract notice; CPV 45221100, 45221100.",
       "source": "ted"
     },
     {
