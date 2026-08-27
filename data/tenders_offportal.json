@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated": "2026-08-26T07:00:13Z",
-  "generated_at": "2026-08-26T07:00:13Z",
+  "generated": "2026-08-27T07:00:14Z",
+  "generated_at": "2026-08-27T07:00:14Z",
   "sources": {
     "covered": [
       {
@@ -317,7 +317,7 @@
         "evidence_url": "https://www.utbodsvefur.is/nytt-hafnarhus-forval-fyrir-honnun/",
         "seen_count": 1,
         "first_seen": "2026-08-21T07:00:13Z",
-        "last_seen": "2026-08-25T07:00:13Z",
+        "last_seen": "2026-08-26T07:00:13Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       }
@@ -325,20 +325,6 @@
   },
   "count": 18,
   "items": [
-    {
-      "reference": "699",
-      "project": "HÆTT VIÐ - VEU-2608-0057 Ölfusvegur - stofnlagnir",
-      "buyer": "Veitur ohf.",
-      "notice_type": "$prjTenderProcessWorks",
-      "deadline": "28.08.2026 kl. 11:00",
-      "deadline_local": "2026-08-28T11:00:00+00:00",
-      "deadline_utc": "2026-08-28T11:00:00+00:00",
-      "posted_at": null,
-      "modified_at": null,
-      "url": "https://in-tendhost.co.uk/reykjavikenergy/aspx/ProjectManage/700",
-      "summary": "Verkkaupi óskar eftir tilboðum í Ölfusvegur - stofnlagnir í samræmi við útboðsgögn þessi.",
-      "source": "or-intend"
-    },
     {
       "reference": "498894-2026",
       "project": "HVM36 - Penstocks",
@@ -435,6 +421,20 @@
       "modified_at": null,
       "url": "https://ted.europa.eu/en/notice/-/detail/497272-2026",
       "summary": "TED open Iceland construction contract notice; CPV 45233120, 45233120.",
+      "source": "ted"
+    },
+    {
+      "reference": "590432-2026",
+      "project": "Nursing home in Vetrarmyri in Gardabaer",
+      "buyer": "Garðabær",
+      "notice_type": "cn-standard",
+      "deadline": "28.09.2026 kl. 14:00",
+      "deadline_local": "2026-09-28T14:00:00+00:00",
+      "deadline_utc": "2026-09-28T14:00:00+00:00",
+      "posted_at": "2026-08-27",
+      "modified_at": null,
+      "url": "https://ted.europa.eu/en/notice/-/detail/590432-2026",
+      "summary": "TED open Iceland construction contract notice; CPV 45000000, 45000000, 70200000.",
       "source": "ted"
     },
     {

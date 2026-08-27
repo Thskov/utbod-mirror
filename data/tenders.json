@@ -1,38 +1,12 @@
 {
-  "generated_at": "2026-08-26T07:00:12.880030+00:00",
+  "generated_at": "2026-08-27T07:00:14.197358+00:00",
   "source": {
     "site": "https://www.utbodsvefur.is",
     "posts_api": "https://www.utbodsvefur.is/wp-json/wp/v2/posts",
     "listing": "https://www.utbodsvefur.is"
   },
-  "count": 37,
+  "count": 39,
   "tenders": [
-    {
-      "reference": "16344",
-      "project": "Laugasól – Niðurrifgerð, útboð nr. 16344",
-      "buyer": "Reykjavíkurborg",
-      "notice_type": "Framkvæmd",
-      "deadline": "26.08.2026 kl. 10:00",
-      "deadline_local": "2026-08-26T10:00:00+00:00",
-      "deadline_utc": "2026-08-26T10:00:00+00:00",
-      "posted_at": "2026-08-06T15:28:54+00:00",
-      "modified_at": "2026-08-06T15:28:54+00:00",
-      "url": "https://www.utbodsvefur.is/laugasol-nidurrifgerd-utbod-nr-16344/",
-      "summary": "F.h. Umhverfis- og skipulagssviðs Reykjavíkurborgar er óskað eftir tilboðum í eftirfarandi verk: Laugasól – Niðurrifgerð, útboð nr. 16344. Lausl..."
-    },
-    {
-      "reference": "35066",
-      "project": "Ýmis lyf 91 – Ýmsir ATC flokkar",
-      "buyer": "Landspítali",
-      "notice_type": "Vörukaup",
-      "deadline": "26.08.2026 kl. 12:00",
-      "deadline_local": "2026-08-26T12:00:00+00:00",
-      "deadline_utc": "2026-08-26T12:00:00+00:00",
-      "posted_at": "2026-06-29T12:30:58+00:00",
-      "modified_at": "2026-06-29T12:30:58+00:00",
-      "url": "https://www.utbodsvefur.is/ymis-lyf-91-ymsir-atc-flokkar/",
-      "summary": "Landspítali óskar eftir tilboðum í lyf í ýmsum ATC flokkum. Um er að ræða lyf í eftirfarandi ATC flokkum: A16AX08, C03XA01, J05AF10, J06BB01, L01CA02,..."
-    },
     {
       "reference": "2026-37",
       "project": "HVM33 – Lokur",
@@ -242,6 +216,32 @@
       "summary": "Nýr Landspítali ohf. – The New Landspitali University Hospital (hereinafter referred to as the “NLSH” or the “Purchaser”), and Landspitali ̵..."
     },
     {
+      "reference": "108-2026",
+      "project": "Markaðskönnun – PCR-greiningarkerfi fyrir sýklafræðirannsóknir",
+      "buyer": "Landspítali",
+      "notice_type": "Markaðskönnun (RFI)",
+      "deadline": "11.09.2026 kl. 12:00",
+      "deadline_local": "2026-09-11T12:00:00+00:00",
+      "deadline_utc": "2026-09-11T12:00:00+00:00",
+      "posted_at": "2026-08-26T10:52:11+00:00",
+      "modified_at": "2026-08-26T10:52:11+00:00",
+      "url": "https://www.utbodsvefur.is/markadskonnun-pcr-greiningarkerfi-fyrir-syklafraedirannsoknir/",
+      "summary": "Landspítali óskar eftir upplýsingum frá framleiðendum og birgjum um sjálfvirk PCR-greiningarkerfi fyrir sýklafræðirannsóknir. Markmið þessarar markaðs..."
+    },
+    {
+      "reference": "I0068",
+      "project": "Markaðskönnun – RFI Rafrænt dreifingarkerfi fyrir fatnað starfsfólks",
+      "buyer": "Nýr Landspítali",
+      "notice_type": "Markaðskönnun (RFI)",
+      "deadline": "11.09.2026 kl. 13:00",
+      "deadline_local": "2026-09-11T13:00:00+00:00",
+      "deadline_utc": "2026-09-11T13:00:00+00:00",
+      "posted_at": "2026-08-26T08:12:08+00:00",
+      "modified_at": "2026-08-26T08:12:08+00:00",
+      "url": "https://www.utbodsvefur.is/markadskonnun-rfi-rafraent-dreifingarkerfi-fyrir-fatnad-starfsfolks/",
+      "summary": "Nýr Landspítali (NLSH) óskar eftir upplýsingum frá hæfum birgjum varðandi heildarlausn frá einum aðila fyrir rafrænt dreifingarkerfi til að afhenda fa..."
+    },
+    {
       "reference": "16322",
       "project": "Mötuneytisþjónusta í stjórnsýsluhúsum Reykjavíkurborgar. Forval, EES útboð nr. 16322",
       "buyer": "Reykjavíkurborg",
@@ -372,6 +372,19 @@
       "summary": "Norðurorka óskar eftir tilboðum í raforkukaup fyrir fyrirtækið. Um er að ræða innkaup á raforku vegna tapa í raforkudreifikerfi fyrirtækisins. Árleg á..."
     },
     {
+      "reference": "16347",
+      "project": "Markaðskönnun (RFI) fyrir nemenda- og námsumsjónarkerfi SFS, nr. 16347",
+      "buyer": "Reykjavíkurborg",
+      "notice_type": "Vörukaup",
+      "deadline": "17.09.2026 kl. 23:59",
+      "deadline_local": "2026-09-17T23:59:00+00:00",
+      "deadline_utc": "2026-09-17T23:59:00+00:00",
+      "posted_at": "2026-08-26T09:24:53+00:00",
+      "modified_at": "2026-08-26T09:24:53+00:00",
+      "url": "https://www.utbodsvefur.is/markadskonnun-rfi-fyrir-nemenda-og-namsumsjonarkerfi-sfs-nr-16347/",
+      "summary": "Þjónustu- og nýsköpunarsvið Reykjavíkurborgar óskar eftir upplýsingum í: Markaðskönnun (RFI) fyrir nemenda- og námsumsjónarkerfi SFS, nr. 16347. Þess..."
+    },
+    {
       "reference": "23392",
       "project": "Afhending skilríkja á höfuðborgarsvæðinu fyrir Þjóðskrá",
       "buyer": "Fjársýslan",
@@ -396,6 +409,19 @@
       "modified_at": "2026-08-15T09:07:37+00:00",
       "url": "https://www.utbodsvefur.is/vatryggingautbod-hveragerdisbaejar-2027-2029/",
       "summary": "Hveragerðisbær og tengdir aðilar óska eftir tilboðum í vátryggingar fyrir tímabilið 2027-2029 Um er að ræða lög- og samningsbundnar tryggingar auk ann..."
+    },
+    {
+      "reference": "C05959",
+      "project": "Endurnýjun eldhúss og matsala fyrir sameiginlegu herþjálfunarmiðstöð NATO",
+      "buyer": "Fjársýslan",
+      "notice_type": "Framkvæmd",
+      "deadline": "21.09.2026 kl. 10:00",
+      "deadline_local": "2026-09-21T10:00:00+00:00",
+      "deadline_utc": "2026-09-21T10:00:00+00:00",
+      "posted_at": "2026-08-26T12:44:35+00:00",
+      "modified_at": "2026-08-26T12:45:57+00:00",
+      "url": "https://www.utbodsvefur.is/endurnyjun-eldhuss-og-matsala-fyrir-sameiginlegu-herthjalfunarmidstod-nato/",
+      "summary": "Utanríkisráðuneytið, varnarmálaskrifstofa og Landhelgisgæslan, varnarmálasvið vekja athygli á útboði Mannvirkjastofnunar norska varnarmálaráðuneytisin..."
     },
     {
       "reference": "U25032",

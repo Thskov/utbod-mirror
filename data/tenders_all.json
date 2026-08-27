@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated": "2026-08-26T07:00:13Z",
-  "generated_at": "2026-08-26T07:00:13Z",
+  "generated": "2026-08-27T07:00:14Z",
+  "generated_at": "2026-08-27T07:00:14Z",
   "sources": {
     "utbodsvefur": {
-      "generated_at": "2026-08-26T07:00:12.880030+00:00",
-      "count": 37,
+      "generated_at": "2026-08-27T07:00:14.197358+00:00",
+      "count": 39,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders.json"
     },
     "offportal": {
-      "generated": "2026-08-26T07:00:13Z",
+      "generated": "2026-08-27T07:00:14Z",
       "count": 18,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders_offportal.json"
     },
@@ -293,42 +293,14 @@
         "evidence_url": "https://www.utbodsvefur.is/nytt-hafnarhus-forval-fyrir-honnun/",
         "seen_count": 1,
         "first_seen": "2026-08-21T07:00:13Z",
-        "last_seen": "2026-08-26T07:00:13Z",
+        "last_seen": "2026-08-27T07:00:14Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       }
     ]
   },
-  "count": 50,
+  "count": 52,
   "items": [
-    {
-      "reference": "16344",
-      "project": "Laugasól – Niðurrifgerð, útboð nr. 16344",
-      "buyer": "Reykjavíkurborg",
-      "notice_type": "Framkvæmd",
-      "deadline": "26.08.2026 kl. 10:00",
-      "deadline_local": "2026-08-26T10:00:00+00:00",
-      "deadline_utc": "2026-08-26T10:00:00+00:00",
-      "posted_at": "2026-08-06T15:28:54+00:00",
-      "modified_at": "2026-08-06T15:28:54+00:00",
-      "url": "https://www.utbodsvefur.is/laugasol-nidurrifgerd-utbod-nr-16344/",
-      "summary": "F.h. Umhverfis- og skipulagssviðs Reykjavíkurborgar er óskað eftir tilboðum í eftirfarandi verk: Laugasól – Niðurrifgerð, útboð nr. 16344. Lausl...",
-      "source": "utbodsvefur"
-    },
-    {
-      "reference": "35066",
-      "project": "Ýmis lyf 91 – Ýmsir ATC flokkar",
-      "buyer": "Landspítali",
-      "notice_type": "Vörukaup",
-      "deadline": "26.08.2026 kl. 12:00",
-      "deadline_local": "2026-08-26T12:00:00+00:00",
-      "deadline_utc": "2026-08-26T12:00:00+00:00",
-      "posted_at": "2026-06-29T12:30:58+00:00",
-      "modified_at": "2026-06-29T12:30:58+00:00",
-      "url": "https://www.utbodsvefur.is/ymis-lyf-91-ymsir-atc-flokkar/",
-      "summary": "Landspítali óskar eftir tilboðum í lyf í ýmsum ATC flokkum. Um er að ræða lyf í eftirfarandi ATC flokkum: A16AX08, C03XA01, J05AF10, J06BB01, L01CA02,...",
-      "source": "utbodsvefur"
-    },
     {
       "reference": "2026-37",
       "project": "HVM33 – Lokur",
@@ -342,20 +314,6 @@
       "url": "https://www.utbodsvefur.is/hvm33-lokur/",
       "summary": "Útboðið tekur til hönnunar, framleiðslu, verksmiðjuprófana, afhendingar, uppsetningar, vettvangsprófana og gangsetningar loka og tilheyrandi búnaðar. ...",
       "source": "utbodsvefur"
-    },
-    {
-      "reference": "699",
-      "project": "HÆTT VIÐ - VEU-2608-0057 Ölfusvegur - stofnlagnir",
-      "buyer": "Veitur ohf.",
-      "notice_type": "$prjTenderProcessWorks",
-      "deadline": "28.08.2026 kl. 11:00",
-      "deadline_local": "2026-08-28T11:00:00+00:00",
-      "deadline_utc": "2026-08-28T11:00:00+00:00",
-      "posted_at": null,
-      "modified_at": null,
-      "url": "https://in-tendhost.co.uk/reykjavikenergy/aspx/ProjectManage/700",
-      "summary": "Verkkaupi óskar eftir tilboðum í Ölfusvegur - stofnlagnir í samræmi við útboðsgögn þessi.",
-      "source": "or-intend"
     },
     {
       "reference": "2607171",
@@ -624,6 +582,34 @@
       "source": "ted"
     },
     {
+      "reference": "108-2026",
+      "project": "Markaðskönnun – PCR-greiningarkerfi fyrir sýklafræðirannsóknir",
+      "buyer": "Landspítali",
+      "notice_type": "Markaðskönnun (RFI)",
+      "deadline": "11.09.2026 kl. 12:00",
+      "deadline_local": "2026-09-11T12:00:00+00:00",
+      "deadline_utc": "2026-09-11T12:00:00+00:00",
+      "posted_at": "2026-08-26T10:52:11+00:00",
+      "modified_at": "2026-08-26T10:52:11+00:00",
+      "url": "https://www.utbodsvefur.is/markadskonnun-pcr-greiningarkerfi-fyrir-syklafraedirannsoknir/",
+      "summary": "Landspítali óskar eftir upplýsingum frá framleiðendum og birgjum um sjálfvirk PCR-greiningarkerfi fyrir sýklafræðirannsóknir. Markmið þessarar markaðs...",
+      "source": "utbodsvefur"
+    },
+    {
+      "reference": "I0068",
+      "project": "Markaðskönnun – RFI Rafrænt dreifingarkerfi fyrir fatnað starfsfólks",
+      "buyer": "Nýr Landspítali (NLSH ohf.)",
+      "notice_type": "Markaðskönnun (RFI)",
+      "deadline": "11.09.2026 kl. 13:00",
+      "deadline_local": "2026-09-11T13:00:00+00:00",
+      "deadline_utc": "2026-09-11T13:00:00+00:00",
+      "posted_at": "2026-08-26T08:12:08+00:00",
+      "modified_at": "2026-08-26T08:12:08+00:00",
+      "url": "https://www.utbodsvefur.is/markadskonnun-rfi-rafraent-dreifingarkerfi-fyrir-fatnad-starfsfolks/",
+      "summary": "Nýr Landspítali (NLSH) óskar eftir upplýsingum frá hæfum birgjum varðandi heildarlausn frá einum aðila fyrir rafrænt dreifingarkerfi til að afhenda fa...",
+      "source": "utbodsvefur"
+    },
+    {
       "reference": "2607210",
       "project": "Vetrarþjónusta gatna í Garðabæ 2026-2029 (EES)",
       "buyer": "Garðabær",
@@ -750,6 +736,20 @@
       "source": "utbodsvefur"
     },
     {
+      "reference": "16347",
+      "project": "Markaðskönnun (RFI) fyrir nemenda- og námsumsjónarkerfi SFS, nr. 16347",
+      "buyer": "Reykjavíkurborg",
+      "notice_type": "Vörukaup",
+      "deadline": "17.09.2026 kl. 23:59",
+      "deadline_local": "2026-09-17T23:59:00+00:00",
+      "deadline_utc": "2026-09-17T23:59:00+00:00",
+      "posted_at": "2026-08-26T09:24:53+00:00",
+      "modified_at": "2026-08-26T09:24:53+00:00",
+      "url": "https://www.utbodsvefur.is/markadskonnun-rfi-fyrir-nemenda-og-namsumsjonarkerfi-sfs-nr-16347/",
+      "summary": "Þjónustu- og nýsköpunarsvið Reykjavíkurborgar óskar eftir upplýsingum í: Markaðskönnun (RFI) fyrir nemenda- og námsumsjónarkerfi SFS, nr. 16347. Þess...",
+      "source": "utbodsvefur"
+    },
+    {
       "reference": "23392",
       "project": "Afhending skilríkja á höfuðborgarsvæðinu fyrir Þjóðskrá",
       "buyer": "Fjársýslan ríkisins",
@@ -775,6 +775,20 @@
       "modified_at": "2026-08-15T09:07:37+00:00",
       "url": "https://www.utbodsvefur.is/vatryggingautbod-hveragerdisbaejar-2027-2029/",
       "summary": "Hveragerðisbær og tengdir aðilar óska eftir tilboðum í vátryggingar fyrir tímabilið 2027-2029 Um er að ræða lög- og samningsbundnar tryggingar auk ann...",
+      "source": "utbodsvefur"
+    },
+    {
+      "reference": "C05959",
+      "project": "Endurnýjun eldhúss og matsala fyrir sameiginlegu herþjálfunarmiðstöð NATO",
+      "buyer": "Fjársýslan ríkisins",
+      "notice_type": "Framkvæmd",
+      "deadline": "21.09.2026 kl. 10:00",
+      "deadline_local": "2026-09-21T10:00:00+00:00",
+      "deadline_utc": "2026-09-21T10:00:00+00:00",
+      "posted_at": "2026-08-26T12:44:35+00:00",
+      "modified_at": "2026-08-26T12:45:57+00:00",
+      "url": "https://www.utbodsvefur.is/endurnyjun-eldhuss-og-matsala-fyrir-sameiginlegu-herthjalfunarmidstod-nato/",
+      "summary": "Utanríkisráðuneytið, varnarmálaskrifstofa og Landhelgisgæslan, varnarmálasvið vekja athygli á útboði Mannvirkjastofnunar norska varnarmálaráðuneytisin...",
       "source": "utbodsvefur"
     },
     {
@@ -832,6 +846,20 @@
       "url": "https://www.utbodsvefur.is/nta-bunadur-med-zeta-moguleika/",
       "summary": "Fjársýslan, fyrir hönd Háskóla Íslands, kt. 6001692039, auglýsir eftir tilboðum í útboði nr. 23402 – NTA búnaður með Zeta möguleika. Tilgangur þessa ú...",
       "source": "utbodsvefur"
+    },
+    {
+      "reference": "590432-2026",
+      "project": "Nursing home in Vetrarmyri in Gardabaer",
+      "buyer": "Garðabær",
+      "notice_type": "cn-standard",
+      "deadline": "28.09.2026 kl. 14:00",
+      "deadline_local": "2026-09-28T14:00:00+00:00",
+      "deadline_utc": "2026-09-28T14:00:00+00:00",
+      "posted_at": "2026-08-27",
+      "modified_at": null,
+      "url": "https://ted.europa.eu/en/notice/-/detail/590432-2026",
+      "summary": "TED open Iceland construction contract notice; CPV 45000000, 45000000, 70200000.",
+      "source": "ted"
     },
     {
       "reference": "ONGK-2022-01",
