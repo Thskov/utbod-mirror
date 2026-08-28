@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated": "2026-08-27T06:30:01Z",
+  "generated": "2026-08-28T06:30:01Z",
   "window": {
-    "from": "2026-07-28",
-    "to": "2026-08-27"
+    "from": "2026-07-29",
+    "to": "2026-08-28"
   },
   "coverage": {
     "sources": [
@@ -273,8 +273,80 @@
     },
     "source_candidates": []
   },
-  "count": 21,
+  "count": 25,
   "items": [
+    {
+      "id": "news:reykjavik:fimmti-fundur-med-thatttakendum-loftslagsborgarsamnings",
+      "lane": "news",
+      "category": "project",
+      "title": "Fimmti fundur með þátttakendum loftslagsborgarsamnings",
+      "entity": "Reykjavíkurborg",
+      "date": "2026-08-27",
+      "summary": "h=4e7f71fc&itok=cTH-O2b7 1920w, /sites/default/files/styles/landscape_4k/public/2026-08/l1_medium.jpg?h=4e7f71fc&itok=f8-ydNKN 3840w\" data-sizes=\"auto\" /> 27. ágúst 2026 Fimmti fundur með þátttakendum loftslagsborgarsamnings <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2026-08/26050401_myndir_04...",
+      "url": "https://reykjavik.is/frettir/2026/fimmti-fundur-med-thatttakendum-loftslagsborgarsamnings",
+      "outlet": "Reykjavíkurborg",
+      "is_new": true
+    },
+    {
+      "id": "news:istak:fyrsti-skoladagurinn-i-nuuk",
+      "lane": "news",
+      "category": "istak",
+      "title": "Fyrsti skóladagurinn í Nuuk",
+      "entity": "ÍSTAK",
+      "date": "2026-08-27",
+      "summary": "20w.jpg');\"> Fyrsti skóladagurinn í Nuuk 27. ágúst 2026 Fyrsti skóladagurinn er alltaf sérstakur en í Nuuk, Grænlandi var góð ástæða til að fagna þetta árið. Skólabörnin I Nuuk gátu loks stigið inn í glænýjan og langþráðan skóla sinn – Atuarfik Inussuk.",
+      "url": "https://www.istak.is/fyrsti-skoladagurinn-i-nuuk",
+      "outlet": "ÍSTAK",
+      "is_new": true
+    },
+    {
+      "id": "news:byggingar:nordmenn-bjoda-ut-70-milljona-nok-endurnyjun-a-nato-herthjalfunarmidstod",
+      "lane": "news",
+      "category": "project",
+      "title": "21.09.2026 Norðmenn bjóða út 70 milljóna NOK endurnýjun á NATO-herþjálfunarmiðstöð",
+      "entity": "byggingar.is",
+      "date": "2026-08-27",
+      "summary": "g-url=\"https://byggingar.is/wp-content/uploads/2026/08/27.08.2026-Joint-Warfare-Centre-Stavanger-238x178.jpg\" width=\"238\" height=\"178\" /> 21.09.2026 Norðmenn bjóða út 70 milljóna NOK endurnýjun á NATO-herþjálfunarmiðstöð <a href=\"https://byggingar.is/forval-hafid-vegna-100-ryma-hjukrunarheimilis-i-vetrarmyri-i-gardabae/\" rel=\"bookmark\" class=\"td-image-wrap...",
+      "url": "https://byggingar.is/nordmenn-bjoda-ut-70-milljona-nok-endurnyjun-a-nato-herthjalfunarmidstod/",
+      "outlet": "byggingar.is",
+      "is_new": true
+    },
+    {
+      "id": "news:byggingar:jardval-faer-89-3-milljona-stigagerdarverk-vid-vinlandsleid",
+      "lane": "news",
+      "category": "project",
+      "title": "Jarðval fær 89.3 milljóna stígagerðarverk við Vínlandsleið",
+      "entity": "byggingar.is",
+      "date": "2026-08-27",
+      "summary": "ttps://byggingar.is/wp-content/uploads/2026/08/27.08.2026-Vinlandsleid-Laxalon-THusold-Stigagerd-238x178.jpg\" width=\"238\" height=\"178\" /> Jarðval fær 89.3 milljóna stígagerðarverk við Vínlandsleið <a href=\"https://byggingar.is/nordmenn-bjoda-ut-70-milljona-nok-endurnyjun-a-nato-herthjalfunarmidstod/\" rel=\"bookmark\" class=\"td-image-wrap \" title=\"21.09.2026 N...",
+      "url": "https://byggingar.is/jardval-faer-89-3-milljona-stigagerdarverk-vid-vinlandsleid/",
+      "outlet": "byggingar.is",
+      "is_new": true
+    },
+    {
+      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-norconsult-laegst-i-eftirlit-med-nyju",
+      "lane": "news",
+      "category": "project",
+      "title": "Norconsult lægst í eftirlit með nýju hringtorgi við Akranes – 17.3 milljónir",
+      "entity": "byggingar.is / niðurstöður útboða",
+      "date": "2026-08-27",
+      "summary": "Norconsult lægst í eftirlit með nýju hringtorgi við Akranes – 17.3 milljónir Norconsult Íslandi ehf. átti lægsta verðtilboðið þegar tilboð voru opnuð í eftirlit og ráðgjöf vegna fyrirhugaðs hringtorgs á mótum Akrafjallsvegar og Akranesvegar. Sex ráðgjafarfyrirtæki skiluðu verðtilboðum og var tilboð Norconsult 17,36 milljónir króna, eða 17,3% undir kostnaðar...",
+      "url": "https://byggingar.is/norconsult-laegst-i-eftirlit-med-nyju-hringtorgi-vid-akranes/?utm_source=rss&utm_medium=rss&utm_campaign=norconsult-laegst-i-eftirlit-med-nyju-hringtorgi-vid-akranes",
+      "outlet": "byggingar.is / niðurstöður útboða",
+      "is_new": true
+    },
+    {
+      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-colas-med-laegsta-tilbod-i-malbik-a-b",
+      "lane": "news",
+      "category": "competitor",
+      "title": "Colas með lægsta tilboð í malbik á Breiðamerkursandi – 32,3% yfir áætlun",
+      "entity": "byggingar.is / niðurstöður útboða",
+      "date": "2026-08-27",
+      "summary": "Colas með lægsta tilboð í malbik á Breiðamerkursandi – 32,3% yfir áætlun Colas Ísland ehf. átti lægsta tilboðið í malbiksyfirlagnir Vegagerðarinnar vestan Jökulsár á Breiðamerkursandi. Tilboðið hljóðar upp á 328,4 milljónir króna og er rúmum 80 milljónum króna yfir áætluðum verktakakostnaði. Vegagerðin opnaði 25. ágúst tilboð í útboði nr. 26-123 vegna malbi...",
+      "url": "https://byggingar.is/colas-med-laegsta-tilbod-i-malbik-a-breidamerkursandi/?utm_source=rss&utm_medium=rss&utm_campaign=colas-med-laegsta-tilbod-i-malbik-a-breidamerkursandi",
+      "outlet": "byggingar.is / niðurstöður útboða",
+      "is_new": true
+    },
     {
       "id": "news:vegagerdin:ny-askriftarkort-landsbyggdastraeto-komin-i-solu",
       "lane": "news",
@@ -285,19 +357,19 @@
       "summary": "__eI5fQ\"> Frétt­ir 26. ágúst 2026 Ný áskriftarkort landsbyggðastrætó komin í sölu <img alt=\"\" loading=\"lazy\" width=\"300\" height=\"9999\" decoding=\"async\" data-nimg=\"1\" class=\"NextImage_container__yLPzb\" style=\"color:transparent;height:auto\" srcSet=\"/_next/image?url=%2Fmedia%2F2026%2F08%2Fsnaefellsvegur-kort-aspect-ratio-1600-1100-1.png&w=400&q=75 1x, /_n",
       "url": "https://www.vegagerdin.is/vegagerdin/starfsemi/frettir/ny-askriftarkort-landsbyggdastraeto-komin-i-solu",
       "outlet": "Vegagerðin",
-      "is_new": true
+      "is_new": false
     },
     {
-      "id": "news:byggingar:verkrad-ehf-med-eina-tilbodid-i-eftirlit-med-endurbyggingu-jokuldalsvegar",
+      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-verkrad-ehf-med-eina-tilbodid-i-eftir",
       "lane": "news",
       "category": "project",
       "title": "Verkráð ehf. með eina tilboðið í eftirlit með endurbyggingu Jökuldalsvegar",
-      "entity": "byggingar.is",
+      "entity": "byggingar.is / niðurstöður útboða",
       "date": "2026-08-26",
-      "summary": "ds/2026/08/26.08.2026-Verkrad-ehf.-med-eina-tilbodid-i-eftirlit-med-endurbyggingu-Jokuldalsvegar-238x178.jpg\" width=\"238\" height=\"178\" /> Verkráð ehf. með eina tilboðið í eftirlit með endurbyggingu Jökuldalsvegar <a href=\"https://byggingar.is/framkvaemdir-hafnar-vid-arnarland-grafa-og-grjot-med-7928-milljona-gatnagerdarverk/\" rel=\"bookmark\" class=\"td-image-...",
-      "url": "https://byggingar.is/verkrad-ehf-med-eina-tilbodid-i-eftirlit-med-endurbyggingu-jokuldalsvegar/",
-      "outlet": "byggingar.is",
-      "is_new": true
+      "summary": "Verkráð ehf. með eina tilboðið í eftirlit með endurbyggingu Jökuldalsvegar Verkráð ehf. á Egilsstöðum var eina fyrirtækið sem skilaði tilboði í eftirlit og ráðgjöf vegna endurbyggingar á 4,5 kílómetra kafla Jökuldalsvegar milli Langagerðis og Hákonarstaða. Tilboð fyrirtækisins hljóðar upp á 13,02 milljónir króna og er undir kostnaðaráætlun Vegagerðarinnar....",
+      "url": "https://byggingar.is/verkrad-ehf-med-eina-tilbodid-i-eftirlit-med-endurbyggingu-jokuldalsvegar/?utm_source=rss&utm_medium=rss&utm_campaign=verkrad-ehf-med-eina-tilbodid-i-eftirlit-med-endurbyggingu-jokuldalsvegar",
+      "outlet": "byggingar.is / niðurstöður útboða",
+      "is_new": false
     },
     {
       "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-thrju-tilbod-i-nidurrif-laugasolar-la",
@@ -309,7 +381,7 @@
       "summary": "Þrjú tilboð í niðurrif Laugasólar – lægsta tilboð aðeins 35% af kostnaðaráætlun Þrjú tilboð bárust í niðurrif leikskólabyggingarinnar Laugasólar við Leirulæk 6 í Reykjavík. H2Orka ehf. átti lægsta tilboðið, rúmar 25,1 milljón króna, sem nemur aðeins 35,3% af 71,2 milljóna króna kostnaðaráætlun Reykjavíkurborgar. Tilboð voru opnuð hjá Reykjavíkurborg í morgu...",
       "url": "https://byggingar.is/thrju-tilbod-i-nidurrif-laugasolar-laegsta-tilbod-adeins-35-af-kostnadaraaetlun/?utm_source=rss&utm_medium=rss&utm_campaign=thrju-tilbod-i-nidurrif-laugasolar-laegsta-tilbod-adeins-35-af-kostnadaraaetlun",
       "outlet": "byggingar.is / niðurstöður útboða",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-rosaberg-ehf-laegst-i-saebraut-a-hofn",
@@ -321,7 +393,7 @@
       "summary": "Rósaberg ehf. lægst í Sæbraut á Höfn – 30% undir kostnaðaráætlun Bæjarráð Hornafjarðar hefur samþykkt að ganga til samninga við Rósaberg ehf. um jarðvinnu og lagnir við Sæbraut á Höfn. Tilboð félagsins hljóðaði upp á 5.209.200 krónur og var það lægsta af fimm tilboðum sem bárust í verkið. Kostnaðaráætlun sveitarfélagsins nam 7.441.500 krónum, þannig að […]...",
       "url": "https://byggingar.is/rosaberg-ehf-laegst-i-saebraut-a-hofn-30-undir-kostnadaraaetlun/?utm_source=rss&utm_medium=rss&utm_campaign=rosaberg-ehf-laegst-i-saebraut-a-hofn-30-undir-kostnadaraaetlun",
       "outlet": "byggingar.is / niðurstöður útboða",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-ollum-tilbodum-i-leikvoll-i-nesjahver",
@@ -333,7 +405,7 @@
       "summary": "Öllum tilboðum í leikvöll í Nesjahverfi hafnað – lægsta tilboð nær tvöfalt yfir áætlun Bæjarráð Sveitarfélagsins Hornafjarðar hefur ákveðið að hafna öllum tilboðum sem bárust í framkvæmdir við nýjan leikvöll í Nesjahverfi. Lægsta tilboðið var tæplega tvöfalt hærra en kostnaðaráætlun sveitarfélagsins. Málið var tekið fyrir á fundi bæjarráðs 25. ágúst. Kostna...",
       "url": "https://byggingar.is/ollum-tilbodum-i-leikvoll-i-nesjahverfi-hafnad-laegsta-tilbod-naer-tvofalt-yfir-aaetlun/?utm_source=rss&utm_medium=rss&utm_campaign=ollum-tilbodum-i-leikvoll-i-nesjahverfi-hafnad-laegsta-tilbod-naer-tvofalt-yfir-aaetlun",
       "outlet": "byggingar.is / niðurstöður útboða",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "news:byggingar-borgarlina:utm-source-rss-utm-medium-rss-utm-campaign-fimm-verkfraedistofur-vilja-hanna-3-l",
@@ -405,30 +477,6 @@
       "summary": "c=\"https://irp.cdn-website.com/24b0782e/dms3rep/multi/opt/ISTAK+Mercedes-Benz+eActros+rafmagnsvorubill+2026-22+copy-1920w.jpg\" alt=\"\" onerror=\"handleImageLoadError(this)\"/> Ný rafdrifinn dráttarbíll í flota Ístaks 20. ágúst 2026 Nýlega bættist rafdrifinn Mercedes-Benz eActros 600 við tækjaflota Ístaks. Um er að ræða þriggja öxla 6x2 dráttarbíl sem verður ný...",
       "url": "https://www.istak.is/ny-rafdrifinn-drattarbill-i-flota-istaks",
       "outlet": "ÍSTAK",
-      "is_new": false
-    },
-    {
-      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-all-verk-ehf-laegst-i-endurbaetur-a-r",
-      "lane": "news",
-      "category": "project",
-      "title": "All Verk ehf. lægst í endurbætur á rannsóknardeild HVEST á Ísafirði",
-      "entity": "byggingar.is / niðurstöður útboða",
-      "date": "2026-08-20",
-      "summary": "All Verk ehf. lægst í endurbætur á rannsóknardeild HVEST á Ísafirði Tvö tilboð bárust í útboð Framkvæmdasýslunnar – Ríkiseigna vegna endurbóta á rannsóknardeild Heilbrigðisstofnunar Vestfjarða á Ísafirði. All Verk ehf. átti lægra tilboðið, rúmar 78,2 milljónir króna með virðisaukaskatti. Tilboð í verkið „Endurbætur á rannsóknardeild HVEST Ísafirði“ voru opn...",
-      "url": "https://byggingar.is/all-verk-ehf-laegst-i-endurbaetur-a-rannsoknardeild-hvest-a-isafirdi/?utm_source=rss&utm_medium=rss&utm_campaign=all-verk-ehf-laegst-i-endurbaetur-a-rannsoknardeild-hvest-a-isafirdi",
-      "outlet": "byggingar.is / niðurstöður útboða",
-      "is_new": false
-    },
-    {
-      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-tvo-tilbod-i-staekkun-seydisfjardarsk",
-      "lane": "news",
-      "category": "project",
-      "title": "Tvö tilboð í stækkun Seyðisfjarðarskóla – bæði yfir kostnaðaráætlun",
-      "entity": "byggingar.is / niðurstöður útboða",
-      "date": "2026-08-19",
-      "summary": "Tvö tilboð í stækkun Seyðisfjarðarskóla – bæði yfir kostnaðaráætlun Tvö tilboð bárust í stækkun Seyðisfjarðarskóla og voru þau bæði yfir kostnaðaráætlun Múlaþings. Lægra tilboðið hljóðaði upp á rúman 1,06 milljarð króna og var um 123 milljónum króna yfir áætlun. Niðurstaða útboðsins var lögð fyrir Umhverfis- og framkvæmdaráð Múlaþings á fundi þess 17. ágúst...",
-      "url": "https://byggingar.is/tvo-tilbod-i-staekkun-seydisfjardarskola-baedi-yfir-kostnadaraaetlun/?utm_source=rss&utm_medium=rss&utm_campaign=tvo-tilbod-i-staekkun-seydisfjardarskola-baedi-yfir-kostnadaraaetlun",
-      "outlet": "byggingar.is / niðurstöður útboða",
       "is_new": false
     },
     {
