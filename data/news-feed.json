@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated": "2026-08-28T06:30:01Z",
+  "generated": "2026-08-31T06:30:02Z",
   "window": {
-    "from": "2026-07-29",
-    "to": "2026-08-28"
+    "from": "2026-08-01",
+    "to": "2026-08-31"
   },
   "coverage": {
     "sources": [
@@ -273,8 +273,68 @@
     },
     "source_candidates": []
   },
-  "count": 25,
+  "count": 26,
   "items": [
+    {
+      "id": "news:byggingar:uppsetningu-14-vindmylla-er-lokid",
+      "lane": "news",
+      "category": "project",
+      "title": "Uppsetningu 14 vindmylla er lokið",
+      "entity": "byggingar.is",
+      "date": "2026-08-30",
+      "summary": "rl=\"https://byggingar.is/wp-content/uploads/2026/08/30.08.2026-Uppsetningu-14-vindmylla-er-lokid-238x178.jpg\" width=\"238\" height=\"178\" /> Uppsetningu 14 vindmylla er lokið <a href=\"https://byggingar.is/reykjanesbaer-vill-fella-nidur-byggingarrettargjold/\" rel=\"bookmark\" class=\"td-image-wrap \" title=\"Reykjanesbær vill fella niður byggingarrét",
+      "url": "https://byggingar.is/uppsetningu-14-vindmylla-er-lokid/",
+      "outlet": "byggingar.is",
+      "is_new": true
+    },
+    {
+      "id": "news:byggingar-borgarlina:utm-source-rss-utm-medium-rss-utm-campaign-framkvaemdir-vid-borgarlinu-hafnar-vi",
+      "lane": "news",
+      "category": "project",
+      "title": "Framkvæmdir við Borgarlínu hafnar við Nauthólsveg og Háskólann í Reykjavík",
+      "entity": "byggingar.is / Borgarlína",
+      "date": "2026-08-29",
+      "summary": "Framkvæmdir við Borgarlínu hafnar við Nauthólsveg og Háskólann í Reykjavík Framkvæmdir við uppbyggingu innviða Borgarlínu við Nauthólsveg og Háskólann í Reykjavík hófust föstudaginn 28. ágúst. Verkið er hluti af fyrstu lotu Borgarlínu og er gert ráð fyrir að framkvæmdum á svæðinu ljúki í júlí 2028. Framkvæmdir við einn af stærri köflum fyrstu lotu Borgarlín...",
+      "url": "https://byggingar.is/framkvaemdir-vid-borgarlinu-hafnar-vid-nautholsveg-og-haskolann-i-reykjavik/?utm_source=rss&utm_medium=rss&utm_campaign=framkvaemdir-vid-borgarlinu-hafnar-vid-nautholsveg-og-haskolann-i-reykjavik",
+      "outlet": "byggingar.is / Borgarlína",
+      "is_new": false
+    },
+    {
+      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-thaksmidjan-ehf-laegst-i-175-milljona",
+      "lane": "news",
+      "category": "project",
+      "title": "Þaksmiðjan ehf. lægst í 175 milljóna þakendurnýjun Menntaskólans á Akureyri",
+      "entity": "byggingar.is / niðurstöður útboða",
+      "date": "2026-08-28",
+      "summary": "Þaksmiðjan ehf. lægst í 175 milljóna þakendurnýjun Menntaskólans á Akureyri Þaksmiðjan ehf. átti lægsta tilboðið í endurnýjun þaks á Hólaálmu Menntaskólans á Akureyri þegar tilboð voru opnuð hjá Framkvæmdasýslunni – Ríkiseignum (FSRE) þann 18.08.2026 Tilboð fyrirtækisins hljóðar upp á 174,6 milljónir króna með virðisaukaskatti. Tvö tilboð bárust í verkið, s...",
+      "url": "https://byggingar.is/thaksmidjan-ehf-laegst-i-175-milljona-thakendurnyjun-menntaskolans-a-akureyri/?utm_source=rss&utm_medium=rss&utm_campaign=thaksmidjan-ehf-laegst-i-175-milljona-thakendurnyjun-menntaskolans-a-akureyri",
+      "outlet": "byggingar.is / niðurstöður útboða",
+      "is_new": false
+    },
+    {
+      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-k16-ehf-laegst-i-thakendurnyjun-hasko",
+      "lane": "news",
+      "category": "project",
+      "title": "K16 ehf. lægst í þakendurnýjun Háskólans á Akureyri – tvö tilboð bárust",
+      "entity": "byggingar.is / niðurstöður útboða",
+      "date": "2026-08-28",
+      "summary": "K16 ehf. lægst í þakendurnýjun Háskólans á Akureyri – tvö tilboð bárust K16 ehf. átti lægsta tilboðið í þakendurnýjun við Háskólann á Akureyri þegar tilboð í verkið voru opnuð hjá Framkvæmdasýslunni – Ríkiseignum (FSRE) þann 20.08.2026 Tilboð K16 hljóðaði upp á tæpar 64 milljónir króna. Tvö fyrirtæki lögðu fram tilboð í verkefnið „Háskólinn á Akureyri […] T...",
+      "url": "https://byggingar.is/k16-ehf-laegst-i-thakendurnyjun-haskolans-a-akureyri-tvo-tilbod-barust/?utm_source=rss&utm_medium=rss&utm_campaign=k16-ehf-laegst-i-thakendurnyjun-haskolans-a-akureyri-tvo-tilbod-barust",
+      "outlet": "byggingar.is / niðurstöður útboða",
+      "is_new": false
+    },
+    {
+      "id": "news:reykjavik:nytt-gedsvid-nlsh-kynningarfundur-um-skipulag-i-fossvogi",
+      "lane": "news",
+      "category": "investment",
+      "title": "Nýtt geðsvið NLSH - kynningarfundur um skipulag í Fossvogi",
+      "entity": "Reykjavíkurborg",
+      "date": "2026-08-27",
+      "summary": "8ad652c1&itok=L_52Sg7x 1920w, /sites/default/files/styles/landscape_4k/public/2026-08/landspitali.jpg?h=8ad652c1&itok=QqFH2u9s 3840w\" data-sizes=\"auto\" /> 27. ágúst 2026 Nýtt geðsvið NLSH - kynningarfundur um skipulag í Fossvogi <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2026-08/borgar.png.jpg...",
+      "url": "https://reykjavik.is/frettir/2026/nytt-gedsvid-nlsh-kynningarfundur-um-skipulag-i-fossvogi",
+      "outlet": "Reykjavíkurborg",
+      "is_new": false
+    },
     {
       "id": "news:reykjavik:fimmti-fundur-med-thatttakendum-loftslagsborgarsamnings",
       "lane": "news",
@@ -282,10 +342,10 @@
       "title": "Fimmti fundur með þátttakendum loftslagsborgarsamnings",
       "entity": "Reykjavíkurborg",
       "date": "2026-08-27",
-      "summary": "h=4e7f71fc&itok=cTH-O2b7 1920w, /sites/default/files/styles/landscape_4k/public/2026-08/l1_medium.jpg?h=4e7f71fc&itok=f8-ydNKN 3840w\" data-sizes=\"auto\" /> 27. ágúst 2026 Fimmti fundur með þátttakendum loftslagsborgarsamnings <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2026-08/26050401_myndir_04...",
+      "summary": "h=4e7f71fc&itok=cTH-O2b7 1920w, /sites/default/files/styles/landscape_4k/public/2026-08/l1_medium.jpg?h=4e7f71fc&itok=f8-ydNKN 3840w\" data-sizes=\"auto\" /> 27. ágúst 2026 Fimmti fundur með þátttakendum loftslagsborgarsamnings <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2026-08/landspitali.jpg?h=...",
       "url": "https://reykjavik.is/frettir/2026/fimmti-fundur-med-thatttakendum-loftslagsborgarsamnings",
       "outlet": "Reykjavíkurborg",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "news:istak:fyrsti-skoladagurinn-i-nuuk",
@@ -297,31 +357,7 @@
       "summary": "20w.jpg');\"> Fyrsti skóladagurinn í Nuuk 27. ágúst 2026 Fyrsti skóladagurinn er alltaf sérstakur en í Nuuk, Grænlandi var góð ástæða til að fagna þetta árið. Skólabörnin I Nuuk gátu loks stigið inn í glænýjan og langþráðan skóla sinn – Atuarfik Inussuk.",
       "url": "https://www.istak.is/fyrsti-skoladagurinn-i-nuuk",
       "outlet": "ÍSTAK",
-      "is_new": true
-    },
-    {
-      "id": "news:byggingar:nordmenn-bjoda-ut-70-milljona-nok-endurnyjun-a-nato-herthjalfunarmidstod",
-      "lane": "news",
-      "category": "project",
-      "title": "21.09.2026 Norðmenn bjóða út 70 milljóna NOK endurnýjun á NATO-herþjálfunarmiðstöð",
-      "entity": "byggingar.is",
-      "date": "2026-08-27",
-      "summary": "g-url=\"https://byggingar.is/wp-content/uploads/2026/08/27.08.2026-Joint-Warfare-Centre-Stavanger-238x178.jpg\" width=\"238\" height=\"178\" /> 21.09.2026 Norðmenn bjóða út 70 milljóna NOK endurnýjun á NATO-herþjálfunarmiðstöð <a href=\"https://byggingar.is/forval-hafid-vegna-100-ryma-hjukrunarheimilis-i-vetrarmyri-i-gardabae/\" rel=\"bookmark\" class=\"td-image-wrap...",
-      "url": "https://byggingar.is/nordmenn-bjoda-ut-70-milljona-nok-endurnyjun-a-nato-herthjalfunarmidstod/",
-      "outlet": "byggingar.is",
-      "is_new": true
-    },
-    {
-      "id": "news:byggingar:jardval-faer-89-3-milljona-stigagerdarverk-vid-vinlandsleid",
-      "lane": "news",
-      "category": "project",
-      "title": "Jarðval fær 89.3 milljóna stígagerðarverk við Vínlandsleið",
-      "entity": "byggingar.is",
-      "date": "2026-08-27",
-      "summary": "ttps://byggingar.is/wp-content/uploads/2026/08/27.08.2026-Vinlandsleid-Laxalon-THusold-Stigagerd-238x178.jpg\" width=\"238\" height=\"178\" /> Jarðval fær 89.3 milljóna stígagerðarverk við Vínlandsleið <a href=\"https://byggingar.is/nordmenn-bjoda-ut-70-milljona-nok-endurnyjun-a-nato-herthjalfunarmidstod/\" rel=\"bookmark\" class=\"td-image-wrap \" title=\"21.09.2026 N...",
-      "url": "https://byggingar.is/jardval-faer-89-3-milljona-stigagerdarverk-vid-vinlandsleid/",
-      "outlet": "byggingar.is",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-norconsult-laegst-i-eftirlit-med-nyju",
@@ -333,7 +369,7 @@
       "summary": "Norconsult lægst í eftirlit með nýju hringtorgi við Akranes – 17.3 milljónir Norconsult Íslandi ehf. átti lægsta verðtilboðið þegar tilboð voru opnuð í eftirlit og ráðgjöf vegna fyrirhugaðs hringtorgs á mótum Akrafjallsvegar og Akranesvegar. Sex ráðgjafarfyrirtæki skiluðu verðtilboðum og var tilboð Norconsult 17,36 milljónir króna, eða 17,3% undir kostnaðar...",
       "url": "https://byggingar.is/norconsult-laegst-i-eftirlit-med-nyju-hringtorgi-vid-akranes/?utm_source=rss&utm_medium=rss&utm_campaign=norconsult-laegst-i-eftirlit-med-nyju-hringtorgi-vid-akranes",
       "outlet": "byggingar.is / niðurstöður útboða",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-colas-med-laegsta-tilbod-i-malbik-a-b",
@@ -345,7 +381,7 @@
       "summary": "Colas með lægsta tilboð í malbik á Breiðamerkursandi – 32,3% yfir áætlun Colas Ísland ehf. átti lægsta tilboðið í malbiksyfirlagnir Vegagerðarinnar vestan Jökulsár á Breiðamerkursandi. Tilboðið hljóðar upp á 328,4 milljónir króna og er rúmum 80 milljónum króna yfir áætluðum verktakakostnaði. Vegagerðin opnaði 25. ágúst tilboð í útboði nr. 26-123 vegna malbi...",
       "url": "https://byggingar.is/colas-med-laegsta-tilbod-i-malbik-a-breidamerkursandi/?utm_source=rss&utm_medium=rss&utm_campaign=colas-med-laegsta-tilbod-i-malbik-a-breidamerkursandi",
       "outlet": "byggingar.is / niðurstöður útboða",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "news:vegagerdin:ny-askriftarkort-landsbyggdastraeto-komin-i-solu",
@@ -440,30 +476,6 @@
       "date": "2026-08-24",
       "summary": "Milljarðstilboðum í stækkun Seyðisfjarðarskóla hafnað – yfir kostnaðaráætlun Múlaþing hefur ákveðið að hafna báðum tilboðum sem bárust í stækkun Seyðisfjarðarskóla þar sem þau voru yfir kostnaðaráætlun sveitarfélagsins. Lægsta tilboðið hljóðaði upp á rúmlega 1,06 milljarða króna, eða um 123 milljónum króna yfir kostnaðaráætlun. Umhverfis- og framkvæmdaráð M...",
       "url": "https://byggingar.is/milljardstilbodum-i-staekkun-seydisfjardarskola-hafnad-yfir-kostnadaraaetlun/?utm_source=rss&utm_medium=rss&utm_campaign=milljardstilbodum-i-staekkun-seydisfjardarskola-hafnad-yfir-kostnadaraaetlun",
-      "outlet": "byggingar.is / niðurstöður útboða",
-      "is_new": false
-    },
-    {
-      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-borgarverk-laegst-i-jardvinnu-vid-nyt",
-      "lane": "news",
-      "category": "competitor",
-      "title": "Borgarverk lægst í jarðvinnu við nýtt öryggisfangelsi á Stóra-Hrauni",
-      "entity": "byggingar.is / niðurstöður útboða",
-      "date": "2026-08-24",
-      "summary": "Borgarverk lægst í jarðvinnu við nýtt öryggisfangelsi á Stóra-Hrauni Borgarverk ehf. átti lægsta tilboðið í jarðvinnu vegna nýs öryggisfangelsis á Stóra-Hrauni, tæplega 993,1 milljón króna. Alls bárust sjö tilboð í verkið og voru sex þeirra yfir einum milljarði króna. Framkvæmdasýslan – Ríkiseignir opnaði 20. ágúst tilboð í jarðvinnu vegna fyrirhugaðs örygg...",
-      "url": "https://byggingar.is/borgarverk-laegst-i-jardvinnu-vid-nytt-oryggisfangelsi-a-stora-hrauni/?utm_source=rss&utm_medium=rss&utm_campaign=borgarverk-laegst-i-jardvinnu-vid-nytt-oryggisfangelsi-a-stora-hrauni",
-      "outlet": "byggingar.is / niðurstöður útboða",
-      "is_new": false
-    },
-    {
-      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-niu-adilar-budu-i-thjonustu-vid-trjaf",
-      "lane": "news",
-      "category": "project",
-      "title": "Níu aðilar buðu í þjónustu við trjáfellingar í Reykjavík",
-      "entity": "byggingar.is / niðurstöður útboða",
-      "date": "2026-08-21",
-      "summary": "Níu aðilar buðu í þjónustu við trjáfellingar í Reykjavík Níu aðilar skiluðu tilboðum í EES-útboð Reykjavíkurborgar vegna þjónustu við trjáfellingar í borgarlandinu. Um er að ræða rammasamning um hirðingu skógar- og gróðursvæða borgarinnar, meðal annars grisjun, trjáklifur, kjarrsögun, stubbatætingu og kurlun. Tilboð voru opnuð hjá Reykjavíkurborg í dag, 20....",
-      "url": "https://byggingar.is/niu-adilar-budu-i-thjonustu-vid-trjafellingar-i-reykjavik/?utm_source=rss&utm_medium=rss&utm_campaign=niu-adilar-budu-i-thjonustu-vid-trjafellingar-i-reykjavik",
       "outlet": "byggingar.is / niðurstöður útboða",
       "is_new": false
     },
