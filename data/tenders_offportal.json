@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated": "2026-08-28T07:00:13Z",
-  "generated_at": "2026-08-28T07:00:13Z",
+  "generated": "2026-08-31T07:00:13Z",
+  "generated_at": "2026-08-31T07:00:13Z",
   "sources": {
     "covered": [
       {
@@ -134,7 +134,9 @@
       "borealis data center": "Borealis Data Center",
       "climeworks": "Climeworks",
       "faxafloahafnir": "Faxaflóahafnir",
+      "faxafloahafnir sf": "Faxaflóahafnir",
       "faxaflóahafnir": "Faxaflóahafnir",
+      "faxaflóahafnir sf": "Faxaflóahafnir",
       "fjársýslan": "Fjársýslan ríkisins",
       "fjársýslan ríkisins": "Fjársýslan ríkisins",
       "framkvæmdasýslan ríkiseignir": "Framkvæmdasýslan ríkiseignir (FSRE)",
@@ -310,20 +312,20 @@
     ],
     "source_candidates": [
       {
-        "id": "tender:buyer:faxaflóahafnir-sf",
-        "name": "Faxaflóahafnir sf.",
+        "id": "tender:buyer:hvalfjarðarsveit",
+        "name": "Hvalfjarðarsveit",
         "suggested_feed": "tenders_all",
         "suggested_lane": "tender",
-        "evidence_url": "https://www.utbodsvefur.is/nytt-hafnarhus-forval-fyrir-honnun/",
+        "evidence_url": "https://ted.europa.eu/en/notice/-/detail/598894-2026",
         "seen_count": 1,
-        "first_seen": "2026-08-21T07:00:13Z",
-        "last_seen": "2026-08-27T07:00:14Z",
+        "first_seen": "2026-08-31T07:00:13Z",
+        "last_seen": "2026-08-31T07:00:13Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       }
     ]
   },
-  "count": 18,
+  "count": 19,
   "items": [
     {
       "reference": "498894-2026",
@@ -450,6 +452,20 @@
       "url": "https://in-tendhost.co.uk/reykjavikenergy/aspx/ProjectManage/387",
       "summary": "With these DPS documents the Purchaser requests participants in a DPS for DC charging stations for EV electrical vehicle in accordance with these documents. Installation DC charging stations is not in the scope of this DPS. The Purchaser, for the purpose of establishing this DPS, has not defined any requirements for the DC charging stations or quantities that will be procured under the DPS. Terms and conditions of e…",
       "source": "or-intend"
+    },
+    {
+      "reference": "598894-2026",
+      "project": "Skýjaborg - kindergarten",
+      "buyer": "Hvalfjarðarsveit",
+      "notice_type": "cn-standard",
+      "deadline": "06.10.2026 kl. 15:00",
+      "deadline_local": "2026-10-06T15:00:00+00:00",
+      "deadline_utc": "2026-10-06T15:00:00+00:00",
+      "posted_at": "2026-08-31",
+      "modified_at": null,
+      "url": "https://ted.europa.eu/en/notice/-/detail/598894-2026",
+      "summary": "TED open Iceland construction contract notice; CPV 45214100, 45214100.",
+      "source": "ted"
     },
     {
       "reference": "U25033",
