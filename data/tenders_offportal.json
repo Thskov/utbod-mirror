@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated": "2026-08-31T07:00:13Z",
-  "generated_at": "2026-08-31T07:00:13Z",
+  "generated": "2026-09-01T07:00:13Z",
+  "generated_at": "2026-09-01T07:00:13Z",
   "sources": {
     "covered": [
       {
@@ -319,13 +319,13 @@
         "evidence_url": "https://ted.europa.eu/en/notice/-/detail/598894-2026",
         "seen_count": 1,
         "first_seen": "2026-08-31T07:00:13Z",
-        "last_seen": "2026-08-31T07:00:13Z",
+        "last_seen": "2026-09-01T07:00:13Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       }
     ]
   },
-  "count": 19,
+  "count": 20,
   "items": [
     {
       "reference": "498894-2026",
@@ -466,6 +466,20 @@
       "url": "https://ted.europa.eu/en/notice/-/detail/598894-2026",
       "summary": "TED open Iceland construction contract notice; CPV 45214100, 45214100.",
       "source": "ted"
+    },
+    {
+      "reference": "HSV-VF030208802",
+      "project": "HSV-VF030208802 - POWER TRANSFORMER 60 MVA 66/33/ (11) kV",
+      "buyer": "HS Veitur",
+      "notice_type": "Supplies",
+      "deadline": "07.10.2026 kl. 10:00",
+      "deadline_local": "2026-10-07T10:00:00+00:00",
+      "deadline_utc": "2026-10-07T10:00:00+00:00",
+      "posted_at": null,
+      "modified_at": null,
+      "url": "https://utbod.hsveitur.is/aspx/ProjectManage/8",
+      "summary": "The Tender involves production and DAP delivery of one (1) power transformer for a 66 kV substation in Vestmannaeyjar, Iceland.",
+      "source": "hsveitur-intend"
     },
     {
       "reference": "U25033",
