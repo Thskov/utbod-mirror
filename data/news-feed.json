@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated": "2026-08-31T06:30:02Z",
+  "generated": "2026-09-01T06:30:01Z",
   "window": {
-    "from": "2026-08-01",
-    "to": "2026-08-31"
+    "from": "2026-08-02",
+    "to": "2026-09-01"
   },
   "coverage": {
     "sources": [
@@ -273,18 +273,66 @@
     },
     "source_candidates": []
   },
-  "count": 26,
+  "count": 28,
   "items": [
     {
-      "id": "news:byggingar:uppsetningu-14-vindmylla-er-lokid",
+      "id": "news:vegagerdin:gjaldtaka-a-hringvegi-1-um-hornafjord-hefst-i-september",
       "lane": "news",
       "category": "project",
-      "title": "Uppsetningu 14 vindmylla er lokið",
+      "title": "31. ágúst 2026 Gjaldtaka á Hringvegi (1) um Hornafjörð hefst í september",
+      "entity": "Vegagerðin",
+      "date": "2026-08-31",
+      "summary": "__eI5fQ\"> Frétt­ir 31. ágúst 2026 Gjaldtaka á Hringvegi (1) um Hornafjörð hefst í september <img alt=\"\" loading=\"lazy\" width=\"300\" height=\"9999\" decoding=\"async\" data-nimg=\"1\" class=\"NextImage_container__yLPzb\" style=\"color:transparent;height:auto\" srcSet=\"/_next/image?url=%2Fmedia%2F2026%2F08%2Fdsf1194_minni-aspect-ratio-1600-1100.jpg&w=400&q=75 1x, /_next...",
+      "url": "https://www.vegagerdin.is/vegagerdin/starfsemi/frettir/gjaldtaka-a-hringvegi-1-um-hornafjord-hefst-i-september",
+      "outlet": "Vegagerðin",
+      "is_new": true
+    },
+    {
+      "id": "news:ruv-innlent-rss:2026-08-31-samgongustofa-aflettir-farbanni-bandero-485683",
+      "lane": "news",
+      "category": "project",
+      "title": "Samgöngustofa afléttir farbanni Bandero",
+      "entity": "ruv.is / innlent",
+      "date": "2026-08-31",
+      "summary": "Samgöngustofa hefur aflétt farbanni yfir skipinu Bandero, sem er í eigu Paul Watson og var notað til að trufla hvalveiðar í sumar. Íslensk yfirvöld tóku yfir stjórn skipsins í júlí eftir að áhöfn Bandero sigldi án heimildar inn fyrir tólf mílna lögsögu landsins og ógnaði öryggi skipverja hvalveiðiskipsins Hvals 9. Skipið hefur síðan verið við höfn í Reykjav...",
+      "url": "https://www.ruv.is/frettir/innlent/2026-08-31-samgongustofa-aflettir-farbanni-bandero-485683/",
+      "outlet": "ruv.is / innlent",
+      "is_new": true
+    },
+    {
+      "id": "news:byggingar:byggja-nyja-sundlaug-i-lundi-i-oxafirdi",
+      "lane": "news",
+      "category": "project",
+      "title": "Byggja nýja sundlaug í Lundi í Öxafirði",
       "entity": "byggingar.is",
-      "date": "2026-08-30",
-      "summary": "rl=\"https://byggingar.is/wp-content/uploads/2026/08/30.08.2026-Uppsetningu-14-vindmylla-er-lokid-238x178.jpg\" width=\"238\" height=\"178\" /> Uppsetningu 14 vindmylla er lokið <a href=\"https://byggingar.is/reykjanesbaer-vill-fella-nidur-byggingarrettargjold/\" rel=\"bookmark\" class=\"td-image-wrap \" title=\"Reykjanesbær vill fella niður byggingarrét",
-      "url": "https://byggingar.is/uppsetningu-14-vindmylla-er-lokid/",
+      "date": "2026-08-31",
+      "summary": "tps://byggingar.is/wp-content/uploads/2026/08/31.08.2026-Byggja-nyja-sundlaug-i-Lundi-i-Oxafirdi-238x178.jpg\" width=\"238\" height=\"178\" /> Byggja nýja sundlaug í Lundi í Öxafirði <i class=\"td-next-prev-icon td-i",
+      "url": "https://byggingar.is/byggja-nyja-sundlaug-i-lundi-i-oxafirdi/",
       "outlet": "byggingar.is",
+      "is_new": true
+    },
+    {
+      "id": "news:byggingar:4-skref-til-ad-nota-gervigreind-vid-tilbodsgerd",
+      "lane": "news",
+      "category": "project",
+      "title": "4 skref til að nota gervigreind við tilboðsgerð",
+      "entity": "byggingar.is",
+      "date": "2026-08-31",
+      "summary": "ggingar.is/wp-content/uploads/2026/08/31.08.2026-4-skref-til-ad-nota-gervigreind-vid-tilbodsgerd-238x178.png\" width=\"238\" height=\"178\" /> 4 skref til að nota gervigreind við tilboðsgerð <a href=\"https://byggingar.is/varmarskoli-endurnyjun-skolaloda-3-afangi/\" rel=\"bookmark\" class=\"td-image-wrap \" title=\"Opnun útboðs: Varmárskóli – Endurnýjun skólalóða 3.",
+      "url": "https://byggingar.is/4-skref-til-ad-nota-gervigreind-vid-tilbodsgerd/",
+      "outlet": "byggingar.is",
+      "is_new": true
+    },
+    {
+      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-varmarskoli-endurnyjun-skolaloda-3-af",
+      "lane": "news",
+      "category": "project",
+      "title": "Opnun útboðs: Varmárskóli – Endurnýjun skólalóða 3. áfangi",
+      "entity": "byggingar.is / niðurstöður útboða",
+      "date": "2026-08-31",
+      "summary": "Opnun útboðs: Varmárskóli – Endurnýjun skólalóða 3. áfangi Tilboðsfrestur vegna útboðsins Varmárskóli – Endurnýjun skólalóða 3. áfangi rann út þann 31. ágúst kl. 10:30. Átta tilboð bárust og þakkar Mosfellsbær þeim aðilum fyrir þátttökuna. Eftirfarandi tilboð bárust: Sjótækni ehf – 44.412.800 kr. Alma verk ehf – 48.903.106 kr. Vogaklettur ehf – 49.999.900 k...",
+      "url": "https://byggingar.is/varmarskoli-endurnyjun-skolaloda-3-afangi/?utm_source=rss&utm_medium=rss&utm_campaign=varmarskoli-endurnyjun-skolaloda-3-afangi",
+      "outlet": "byggingar.is / niðurstöður útboða",
       "is_new": true
     },
     {
@@ -330,7 +378,7 @@
       "title": "Nýtt geðsvið NLSH - kynningarfundur um skipulag í Fossvogi",
       "entity": "Reykjavíkurborg",
       "date": "2026-08-27",
-      "summary": "8ad652c1&itok=L_52Sg7x 1920w, /sites/default/files/styles/landscape_4k/public/2026-08/landspitali.jpg?h=8ad652c1&itok=QqFH2u9s 3840w\" data-sizes=\"auto\" /> 27. ágúst 2026 Nýtt geðsvið NLSH - kynningarfundur um skipulag í Fossvogi <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2026-08/borgar.png.jpg...",
+      "summary": "8ad652c1&itok=L_52Sg7x 1920w, /sites/default/files/styles/landscape_4k/public/2026-08/landspitali.jpg?h=8ad652c1&itok=QqFH2u9s 3840w\" data-sizes=\"auto\" /> 27. ágúst 2026 Nýtt geðsvið NLSH - kynningarfundur um skipulag í Fossvogi <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2026-08/24052802_kjork...",
       "url": "https://reykjavik.is/frettir/2026/nytt-gedsvid-nlsh-kynningarfundur-um-skipulag-i-fossvogi",
       "outlet": "Reykjavíkurborg",
       "is_new": false
@@ -381,18 +429,6 @@
       "summary": "Colas með lægsta tilboð í malbik á Breiðamerkursandi – 32,3% yfir áætlun Colas Ísland ehf. átti lægsta tilboðið í malbiksyfirlagnir Vegagerðarinnar vestan Jökulsár á Breiðamerkursandi. Tilboðið hljóðar upp á 328,4 milljónir króna og er rúmum 80 milljónum króna yfir áætluðum verktakakostnaði. Vegagerðin opnaði 25. ágúst tilboð í útboði nr. 26-123 vegna malbi...",
       "url": "https://byggingar.is/colas-med-laegsta-tilbod-i-malbik-a-breidamerkursandi/?utm_source=rss&utm_medium=rss&utm_campaign=colas-med-laegsta-tilbod-i-malbik-a-breidamerkursandi",
       "outlet": "byggingar.is / niðurstöður útboða",
-      "is_new": false
-    },
-    {
-      "id": "news:vegagerdin:ny-askriftarkort-landsbyggdastraeto-komin-i-solu",
-      "lane": "news",
-      "category": "project",
-      "title": "26. ágúst 2026 Ný áskriftarkort landsbyggðastrætó komin í sölu",
-      "entity": "Vegagerðin",
-      "date": "2026-08-26",
-      "summary": "__eI5fQ\"> Frétt­ir 26. ágúst 2026 Ný áskriftarkort landsbyggðastrætó komin í sölu <img alt=\"\" loading=\"lazy\" width=\"300\" height=\"9999\" decoding=\"async\" data-nimg=\"1\" class=\"NextImage_container__yLPzb\" style=\"color:transparent;height:auto\" srcSet=\"/_next/image?url=%2Fmedia%2F2026%2F08%2Fsnaefellsvegur-kort-aspect-ratio-1600-1100-1.png&w=400&q=75 1x, /_n",
-      "url": "https://www.vegagerdin.is/vegagerdin/starfsemi/frettir/ny-askriftarkort-landsbyggdastraeto-komin-i-solu",
-      "outlet": "Vegagerðin",
       "is_new": false
     },
     {
@@ -465,18 +501,6 @@
       "summary": "l=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"32\" d=\"M268 112l144 144-144 144m124-144H100\"> 24. ágúst 2026 Viðbygging hjúkrunarheimilisins við Skjólgarð á Höfn í Hornafirði Viðbygging Hjúkrunarheimilisins við Skjólgarðá á Höfn í Hornafirði var vígð þann ... <d",
       "url": "https://www.fsre.is/s/fsre/frett/vidbygging-hjukrunarheimilisins-vid-skjolgard-a-hoefn-i-hornafirdi",
       "outlet": "FSRE",
-      "is_new": false
-    },
-    {
-      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-milljardstilbodum-i-staekkun-seydisfj",
-      "lane": "news",
-      "category": "project",
-      "title": "Milljarðstilboðum í stækkun Seyðisfjarðarskóla hafnað – yfir kostnaðaráætlun",
-      "entity": "byggingar.is / niðurstöður útboða",
-      "date": "2026-08-24",
-      "summary": "Milljarðstilboðum í stækkun Seyðisfjarðarskóla hafnað – yfir kostnaðaráætlun Múlaþing hefur ákveðið að hafna báðum tilboðum sem bárust í stækkun Seyðisfjarðarskóla þar sem þau voru yfir kostnaðaráætlun sveitarfélagsins. Lægsta tilboðið hljóðaði upp á rúmlega 1,06 milljarða króna, eða um 123 milljónum króna yfir kostnaðaráætlun. Umhverfis- og framkvæmdaráð M...",
-      "url": "https://byggingar.is/milljardstilbodum-i-staekkun-seydisfjardarskola-hafnad-yfir-kostnadaraaetlun/?utm_source=rss&utm_medium=rss&utm_campaign=milljardstilbodum-i-staekkun-seydisfjardarskola-hafnad-yfir-kostnadaraaetlun",
-      "outlet": "byggingar.is / niðurstöður útboða",
       "is_new": false
     },
     {
