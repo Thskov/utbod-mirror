@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated": "2026-09-02T07:00:13Z",
-  "generated_at": "2026-09-02T07:00:13Z",
+  "generated": "2026-09-03T07:00:13Z",
+  "generated_at": "2026-09-03T07:00:13Z",
   "sources": {
     "utbodsvefur": {
-      "generated_at": "2026-09-02T07:00:13.702561+00:00",
-      "count": 43,
+      "generated_at": "2026-09-03T07:00:13.264354+00:00",
+      "count": 44,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders.json"
     },
     "offportal": {
-      "generated": "2026-09-02T07:00:13Z",
+      "generated": "2026-09-03T07:00:13Z",
       "count": 20,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders_offportal.json"
     },
@@ -292,16 +292,16 @@
         "name": "Hvalfjarðarsveit",
         "suggested_feed": "tenders_all",
         "suggested_lane": "tender",
-        "evidence_url": "https://ted.europa.eu/en/notice/-/detail/598894-2026",
-        "seen_count": 1,
+        "evidence_url": "https://www.utbodsvefur.is/leikskolinn-skyjaborg/",
+        "seen_count": 2,
         "first_seen": "2026-08-31T07:00:13Z",
-        "last_seen": "2026-09-02T07:00:13Z",
+        "last_seen": "2026-09-03T07:00:13Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       }
     ]
   },
-  "count": 57,
+  "count": 58,
   "items": [
     {
       "reference": "498894-2026",
@@ -945,6 +945,20 @@
       "modified_at": "2026-08-21T09:54:05+00:00",
       "url": "https://www.utbodsvefur.is/rammasamningur-um-motuneytisthjonustu-sfs-ees-utbod-nr-16200/",
       "summary": "f.h. Skóla- og frístundasviðs Reykjavíkurborgar er óskað eftir hæfum aðilum til að taka þátt í rammasamning um mötuneytisþjónustu SFS: Rammasamningur ...",
+      "source": "utbodsvefur"
+    },
+    {
+      "reference": "-",
+      "project": "Leikskólinn Skýjaborg",
+      "buyer": "Hvalfjarðarsveit",
+      "notice_type": "Framkvæmd",
+      "deadline": "06.10.2026 kl. 15:00",
+      "deadline_local": "2026-10-06T15:00:00+00:00",
+      "deadline_utc": "2026-10-06T15:00:00+00:00",
+      "posted_at": "2026-09-01T16:02:05+00:00",
+      "modified_at": "2026-09-01T16:02:05+00:00",
+      "url": "https://www.utbodsvefur.is/leikskolinn-skyjaborg/",
+      "summary": "Hvalfjarðarsveit óskar eftir tilboðum í byggingu nýs leikskóla, Skýjaborg, í Hvalfjarðarsveit. Verkið felst í jarðvinnu, uppsteypu byggingar og fullna...",
       "source": "utbodsvefur"
     },
     {
