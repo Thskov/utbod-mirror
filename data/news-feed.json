@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated": "2026-09-03T06:30:02Z",
+  "generated": "2026-09-04T06:30:01Z",
   "window": {
-    "from": "2026-08-04",
-    "to": "2026-09-03"
+    "from": "2026-08-05",
+    "to": "2026-09-04"
   },
   "coverage": {
     "sources": [
@@ -205,12 +205,14 @@
         "landsvirkjun",
         "isavia",
         "fsre",
+        "atuarfik inussuk",
         "fjölnota íþróttahús í borgarnesi",
         "fossvogsbrú",
         "skjólgarður höfn",
         "vaðölduver"
       ],
       "learned_istak_projects": [
+        "Atuarfik Inussuk",
         "Fjölnota íþróttahús í Borgarnesi",
         "Fossvogsbrú",
         "Skjólgarður Höfn",
@@ -269,22 +271,35 @@
   },
   "sources": {
     "not_covered": {
+      "si": "HTTP Error 404: Not Found",
       "nlsh": "HTTP Error 429: Too Many Requests"
     },
     "source_candidates": []
   },
-  "count": 29,
+  "count": 28,
   "items": [
     {
-      "id": "news:vegagerdin:vegirnir-eru-lifaed-samfelaganna",
+      "id": "news:vegagerdin:umferdarljos-vid-tvenn-gatnamot-ovirk",
       "lane": "news",
       "category": "project",
-      "title": "2. september 2026 Vegirnir eru lífæð samfélaganna",
+      "title": "3. september 2026 Uppfært: Búið að opna. Lokanir vegna bilunar í umferðarljósum",
       "entity": "Vegagerðin",
-      "date": "2026-09-02",
-      "summary": "__eI5fQ\"> Frétt­ir 2. september 2026 Vegirnir eru lífæð samfélaganna <img alt=\"\" loading=\"lazy\" width=\"300\" height=\"9999\" decoding=\"async\" data-nimg=\"1\" class=\"NextImage_container__yLPzb\" style=\"color:transparent;height:auto\" srcSet=\"/_next/image?url=%2Fmedia%2F2026%2F09%2Fdji_20260826135738_0024_v-scaled-aspect-ratio-1600-1100-scaled.jpg&w=400&q=75 1x, /_n...",
-      "url": "https://www.vegagerdin.is/vegagerdin/starfsemi/frettir/vegirnir-eru-lifaed-samfelaganna",
+      "date": "2026-09-03",
+      "summary": "__eI5fQ\"> Frétt­ir 3. september 2026 Uppfært: Búið að opna. Lokanir vegna bilunar í umferðarljósum <img alt=\"\" loading=\"lazy\" width=\"300\" height=\"9999\" decoding=\"async\" data-nimg=\"1\" class=\"NextImage_container__yLPzb\" style=\"color:transparent;height:auto\" srcSet=\"/_next/image?url=%2Fmedia%2F2026%2F07%2Fimg_1197-scaled-aspect-ratio-1600-1100-scaled-e17851668...",
+      "url": "https://www.vegagerdin.is/vegagerdin/starfsemi/frettir/umferdarljos-vid-tvenn-gatnamot-ovirk",
       "outlet": "Vegagerðin",
+      "is_new": true
+    },
+    {
+      "id": "news:byggingar:grimsnes-og-grafningshreppur-bydur-ut-breytingar-a-kerholsskola",
+      "lane": "news",
+      "category": "project",
+      "title": "09.10.2026 Grímsnes- og Grafningshreppur býður út breytingar á Kerhólsskóla",
+      "entity": "byggingar.is",
+      "date": "2026-09-03",
+      "summary": "ntent/uploads/2026/09/03.09.2026-Grimsnes-og-Grafningshreppur-bydur-ut-breytingar-a-Kerholsskola-238x178.png\" width=\"238\" height=\"178\" /> 09.10.2026 Grímsnes- og Grafningshreppur býður út breytingar á Kerhólsskóla <a href=\"https://byggingar.is/4-skref-til-ad-nota-gervigreind-vid-tilbodsgerd/\" rel=\"bookmark\" class=\"td-image-wrap \" title=\"4 skref til að nota...",
+      "url": "https://byggingar.is/grimsnes-og-grafningshreppur-bydur-ut-breytingar-a-kerholsskola/",
+      "outlet": "byggingar.is",
       "is_new": true
     },
     {
@@ -297,19 +312,7 @@
       "summary": "?h=fa7169fd&itok=GJhT_7GX 1920w, /sites/default/files/styles/landscape_4k/public/2026-09/mynd3.jpg?h=fa7169fd&itok=1iQDI593 3840w\" data-sizes=\"auto\" /> 2. september 2026 Borgarspítalareitur í skipulagsgátt <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2023-11/bila1.jpg?h=82f92a78&itok=uwbi9mrq\" a...",
       "url": "https://reykjavik.is/frettir/2026/borgarspitalareitur-i-skipulagsgatt",
       "outlet": "Reykjavíkurborg",
-      "is_new": true
-    },
-    {
-      "id": "news:byggingar:bmw-og-mini-fa-sinar-eigin-hofudstodvar",
-      "lane": "news",
-      "category": "project",
-      "title": "BMW og MINI fá sínar eigin höfuðstöðvar",
-      "entity": "byggingar.is",
-      "date": "2026-09-02",
-      "summary": "tps://byggingar.is/wp-content/uploads/2026/09/02.09.2026-BMW-og-MINI-fa-sinar-eigin-hofudstodvar-238x178.jpg\" width=\"238\" height=\"178\" /> BMW og MINI fá sínar eigin höfuðstöðvar <i class=\"td-next-prev-icon td-i",
-      "url": "https://byggingar.is/bmw-og-mini-fa-sinar-eigin-hofudstodvar/",
-      "outlet": "byggingar.is",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "news:byggingar-borgarlina:utm-source-rss-utm-medium-rss-utm-campaign-byrjad-ad-leggja-borgarlinu-vid-nauth",
@@ -321,7 +324,7 @@
       "summary": "Byrjað að leggja Borgarlínu við Nauthólsveg Framkvæmdir við Borgarlínu eru hafnar við Nauthólsveg og HR. Þar er um að ræða hluta af fyrstu lotu Borgarlínunnar sem felur í sér breytingar á götusniði Nauthólsvegar, Menntavegar og Menntasveigs. Einnig stendur til að breyta gatnamótum og götutengingum en verkinu á að ljúka í júlí 2028. Ekki stendur til […] The...",
       "url": "https://byggingar.is/byrjad-ad-leggja-borgarlinu-vid-nautholsveg/?utm_source=rss&utm_medium=rss&utm_campaign=byrjad-ad-leggja-borgarlinu-vid-nautholsveg",
       "outlet": "byggingar.is / Borgarlína",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "news:byggingar:4-skref-til-ad-nota-gervigreind-vid-tilbodsgerd",
@@ -330,7 +333,7 @@
       "title": "4 skref til að nota gervigreind við tilboðsgerð",
       "entity": "byggingar.is",
       "date": "2026-08-31",
-      "summary": "ggingar.is/wp-content/uploads/2026/08/31.08.2026-4-skref-til-ad-nota-gervigreind-vid-tilbodsgerd-238x178.png\" width=\"238\" height=\"178\" /> 4 skref til að nota gervigreind við tilboðsgerð <img class=\"",
+      "summary": "ggingar.is/wp-content/uploads/2026/08/31.08.2026-4-skref-til-ad-nota-gervigreind-vid-tilbodsgerd-238x178.png\" width=\"238\" height=\"178\" /> 4 skref til að nota gervigreind við tilboðsgerð <i class=\"td-next-prev-icon td-i",
       "url": "https://byggingar.is/4-skref-til-ad-nota-gervigreind-vid-tilbodsgerd/",
       "outlet": "byggingar.is",
       "is_new": false
@@ -558,7 +561,7 @@
       "title": "Götumarkaður í Listasafni Reykjavíkur Hafnarhúsi",
       "entity": "Reykjavíkurborg",
       "date": "2026-08-13",
-      "summary": "k=Q7asxZ-u 1920w, /sites/default/files/styles/landscape_4k/public/2026-08/24042402_honnunar_355_small.jpg?h=34e43602&itok=5jXndf3i 3840w\" data-sizes=\"auto\" /> 13. ágúst 2026 Götumarkaður í Listasafni Reykjavíkur Hafnarhúsi <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2026-08/10366-157-7104_gledi...",
+      "summary": "k=Q7asxZ-u 1920w, /sites/default/files/styles/landscape_4k/public/2026-08/24042402_honnunar_355_small.jpg?h=34e43602&itok=5jXndf3i 3840w\" data-sizes=\"auto\" /> 13. ágúst 2026 Götumarkaður í Listasafni Reykjavíkur Hafnarhúsi <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2023-11/bila1.jpg?h=82f92a78...",
       "url": "https://reykjavik.is/frettir/2026/gotumarkadur-i-listasafni-reykjavikur-hafnarhusi",
       "outlet": "Reykjavíkurborg",
       "is_new": false
@@ -609,18 +612,6 @@
       "summary": "Jónas Heiðar Birgisson hefur verið ráðinn sem fjármálastjóri Sjómannadagsráðs en undir ráðið heyra Hrafnistuheimilin, DAS íbúðir, og Happdrætti Das. Jónas Heiðar tekur við af Kristjáni Björgvinssyni, sem lætur nú af störfum eftir átta ár hjá Sjómannadagsráði.",
       "url": "https://www.visir.is/g/20262918010d/fer-fra-laxeldi-i-eldri-borgara",
       "outlet": "visir.is / Fiskeldi",
-      "is_new": false
-    },
-    {
-      "id": "news:byggingar-borgarlina:utm-source-rss-utm-medium-rss-utm-campaign-naeturborun-i-sjo-lokid-og-verktakar-",
-      "lane": "news",
-      "category": "project",
-      "title": "Næturborun í sjó lokið og verk­takar þakka í­búum þolin­mæðina",
-      "entity": "byggingar.is / Borgarlína",
-      "date": "2026-08-04",
-      "summary": "Næturborun í sjó lokið og verk­takar þakka í­búum þolin­mæðina Síðustu vikur hefur borun staðið yfir að næturlagi í sjónum úti fyrir Kársnesi en henni er nú lokið. Borunin er skref í smíði Fossvogsbrúar sem verður 270 metra löng, allt að sautján metra breið og opnar þann 16. júní árið 2028, ef allt fer eftir áætlun. […] The post Næturborun í sjó lokið og ve...",
-      "url": "https://byggingar.is/naeturborun-i-sjo-lokid-og-verktakar-thakka-ibuum-tholinmaedina/?utm_source=rss&utm_medium=rss&utm_campaign=naeturborun-i-sjo-lokid-og-verktakar-thakka-ibuum-tholinmaedina",
-      "outlet": "byggingar.is / Borgarlína",
       "is_new": false
     }
   ]
