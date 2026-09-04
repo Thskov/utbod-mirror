@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated": "2026-09-03T07:00:13Z",
-  "generated_at": "2026-09-03T07:00:13Z",
+  "generated": "2026-09-04T07:00:13Z",
+  "generated_at": "2026-09-04T07:00:13Z",
   "sources": {
     "covered": [
       {
@@ -41,7 +41,7 @@
       {
         "source": "ted",
         "url": "https://api.ted.europa.eu/v3/notices/search",
-        "reason": "dropped 74 notices: expired deadline"
+        "reason": "dropped 75 notices: expired deadline"
       },
       {
         "source": "nlsh",
@@ -319,42 +319,14 @@
         "evidence_url": "https://ted.europa.eu/en/notice/-/detail/598894-2026",
         "seen_count": 1,
         "first_seen": "2026-08-31T07:00:13Z",
-        "last_seen": "2026-09-03T07:00:13Z",
+        "last_seen": "2026-09-04T07:00:13Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       }
     ]
   },
-  "count": 20,
+  "count": 19,
   "items": [
-    {
-      "reference": "498894-2026",
-      "project": "HVM36 - Penstocks",
-      "buyer": "Landsvirkjun",
-      "notice_type": "cn-standard",
-      "deadline": "03.09.2026 kl. 14:00",
-      "deadline_local": "2026-09-03T14:00:00+00:00",
-      "deadline_utc": "2026-09-03T14:00:00+00:00",
-      "posted_at": "2026-07-20",
-      "modified_at": null,
-      "url": "https://ted.europa.eu/en/notice/-/detail/498894-2026",
-      "summary": "TED open Iceland construction contract notice; CPV 45248000, 45248000.",
-      "source": "ted"
-    },
-    {
-      "reference": "VEU-2604-0038",
-      "project": "VEU-2604-0038 Hreinsun, myndanir og greining fráveitulagna",
-      "buyer": "Veitur ohf.",
-      "notice_type": "$prjTenderProcessServices",
-      "deadline": "03.09.2026 kl. 14:00",
-      "deadline_local": "2026-09-03T14:00:00+00:00",
-      "deadline_utc": "2026-09-03T14:00:00+00:00",
-      "posted_at": "2026-06-14T22:00:00+00:00",
-      "modified_at": null,
-      "url": "https://in-tendhost.co.uk/reykjavikenergy/aspx/ProjectManage/692",
-      "summary": "Verkkaupi óskar eftir tilboðum í Hreinsun, myndanir og greining fráveitulagna í samræmi við útboðsgögn. Þjónustan felur í sér vinnu við verkefni í fráveitukerfi Kaupanda: • Fráveita (regnvatn og skólp) Þjónustan felur í sér, í heild eða að hluta, vinnu við eftirfarandi verkþætti: • Hreinsun fráveitulagna og brunna • Myndun fráveitulagna og brunna • Greiningu á ástandi fráveitulagna og brunna • Hreinsun í hreinsistöð…",
-      "source": "or-intend"
-    },
     {
       "reference": "487213-2026",
       "project": "Hringvegur (1) around Kjalarnes, 2. áfangi, Vallá – Hvalfjörður",
@@ -451,6 +423,20 @@
       "modified_at": null,
       "url": "https://in-tendhost.co.uk/reykjavikenergy/aspx/ProjectManage/387",
       "summary": "With these DPS documents the Purchaser requests participants in a DPS for DC charging stations for EV electrical vehicle in accordance with these documents. Installation DC charging stations is not in the scope of this DPS. The Purchaser, for the purpose of establishing this DPS, has not defined any requirements for the DC charging stations or quantities that will be procured under the DPS. Terms and conditions of e…",
+      "source": "or-intend"
+    },
+    {
+      "reference": "VEU-2606-0052",
+      "project": "VEU-2606-0052 High Voltage Switchgear and accessories",
+      "buyer": "Veitur ohf.",
+      "notice_type": "$prjTenderProcessSupplies",
+      "deadline": "05.10.2026 kl. 14:00",
+      "deadline_local": "2026-10-05T14:00:00+00:00",
+      "deadline_utc": "2026-10-05T14:00:00+00:00",
+      "posted_at": "2026-09-02T22:00:00+00:00",
+      "modified_at": null,
+      "url": "https://in-tendhost.co.uk/reykjavikenergy/aspx/ProjectManage/701",
+      "summary": "Substation A13 Sægarðar 1, 104 Reykjavik: Delivery and installation of High Voltage Switchgear and accessories.",
       "source": "or-intend"
     },
     {

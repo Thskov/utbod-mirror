@@ -1,23 +1,23 @@
 {
   "schema_version": 1,
-  "generated": "2026-09-03T07:00:13Z",
-  "generated_at": "2026-09-03T07:00:13Z",
+  "generated": "2026-09-04T07:00:13Z",
+  "generated_at": "2026-09-04T07:00:13Z",
   "sources": {
     "utbodsvefur": {
-      "generated_at": "2026-09-03T07:00:13.264354+00:00",
-      "count": 44,
+      "generated_at": "2026-09-04T07:00:13.092246+00:00",
+      "count": 46,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders.json"
     },
     "offportal": {
-      "generated": "2026-09-03T07:00:13Z",
-      "count": 20,
+      "generated": "2026-09-04T07:00:13Z",
+      "count": 19,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders_offportal.json"
     },
     "not_covered": [
       {
         "source": "ted",
         "url": "https://api.ted.europa.eu/v3/notices/search",
-        "reason": "dropped 74 notices: expired deadline"
+        "reason": "dropped 75 notices: expired deadline"
       },
       {
         "source": "nlsh",
@@ -288,6 +288,30 @@
     ],
     "source_candidates": [
       {
+        "id": "tender:buyer:grímsnes-og-grafningshreppur",
+        "name": "Grímsnes- og Grafningshreppur",
+        "suggested_feed": "tenders_all",
+        "suggested_lane": "tender",
+        "evidence_url": "https://www.utbodsvefur.is/9661-2/",
+        "seen_count": 1,
+        "first_seen": "2026-09-04T07:00:13Z",
+        "last_seen": "2026-09-04T07:00:13Z",
+        "reason": "unknown buyer/source found in tender feed",
+        "status": "pending"
+      },
+      {
+        "id": "tender:buyer:hafnasamlag-norðurlands",
+        "name": "Hafnasamlag Norðurlands",
+        "suggested_feed": "tenders_all",
+        "suggested_lane": "tender",
+        "evidence_url": "https://www.utbodsvefur.is/torfunef-lagnir-lagnaleidir-og-brunnar/",
+        "seen_count": 1,
+        "first_seen": "2026-09-04T07:00:13Z",
+        "last_seen": "2026-09-04T07:00:13Z",
+        "reason": "unknown buyer/source found in tender feed",
+        "status": "pending"
+      },
+      {
         "id": "tender:buyer:hvalfjarðarsveit",
         "name": "Hvalfjarðarsveit",
         "suggested_feed": "tenders_all",
@@ -295,56 +319,14 @@
         "evidence_url": "https://www.utbodsvefur.is/leikskolinn-skyjaborg/",
         "seen_count": 2,
         "first_seen": "2026-08-31T07:00:13Z",
-        "last_seen": "2026-09-03T07:00:13Z",
+        "last_seen": "2026-09-04T07:00:13Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       }
     ]
   },
-  "count": 58,
+  "count": 59,
   "items": [
-    {
-      "reference": "498894-2026",
-      "project": "HVM36 - Penstocks",
-      "buyer": "Landsvirkjun",
-      "notice_type": "cn-standard",
-      "deadline": "03.09.2026 kl. 14:00",
-      "deadline_local": "2026-09-03T14:00:00+00:00",
-      "deadline_utc": "2026-09-03T14:00:00+00:00",
-      "posted_at": "2026-07-20",
-      "modified_at": null,
-      "url": "https://ted.europa.eu/en/notice/-/detail/498894-2026",
-      "summary": "TED open Iceland construction contract notice; CPV 45248000, 45248000.",
-      "source": "ted"
-    },
-    {
-      "reference": "2026-38",
-      "project": "HVM36 – Þrýstipípur",
-      "buyer": "Landsvirkjun",
-      "notice_type": "Framkvæmd",
-      "deadline": "03.09.2026 kl. 14:00",
-      "deadline_local": "2026-09-03T14:00:00+00:00",
-      "deadline_utc": "2026-09-03T14:00:00+00:00",
-      "posted_at": "2026-07-02T10:59:02+00:00",
-      "modified_at": "2026-07-16T15:49:43+00:00",
-      "url": "https://www.utbodsvefur.is/hvm36-thrystipipur/",
-      "summary": "Útboðið tekur til hönnunar, framleiðslu, verksmiðjuprófana, afhendingar, uppsetningar, vettvangsprófana og gangsetningar tveggja þrýstipípa úr stáli m...",
-      "source": "utbodsvefur"
-    },
-    {
-      "reference": "VEU-2604-0038",
-      "project": "VEU-2604-0038 Hreinsun, myndanir og greining fráveitulagna",
-      "buyer": "Veitur ohf.",
-      "notice_type": "Framkvæmd Þjónusta",
-      "deadline": "03.09.2026 kl. 14:00",
-      "deadline_local": "2026-09-03T14:00:00+00:00",
-      "deadline_utc": "2026-09-03T14:00:00+00:00",
-      "posted_at": "2026-06-23T17:15:18+00:00",
-      "modified_at": "2026-06-23T17:15:18+00:00",
-      "url": "https://www.utbodsvefur.is/veu-2604-0038-hreinsun-myndanir-og-greining-fraveitulagna/",
-      "summary": "Veitur ohf. óska eftir tilboðum í rammasamning „Hreinsun, myndanir og greining fráveitulagna“ Þjónustan felur í sér vinnu við verkefni í f...",
-      "source": "utbodsvefur"
-    },
     {
       "reference": "2026-04",
       "project": "2026-04 Aðrennslisrör fyrir Kvíslatunguvirkjun (GRP og steypujárn)",
@@ -668,6 +650,20 @@
       "source": "utbodsvefur"
     },
     {
+      "reference": "2609001",
+      "project": "Torfunef – Lagnir, lagnaleiðir og brunnar",
+      "buyer": "Hafnasamlag Norðurlands",
+      "notice_type": "Framkvæmd",
+      "deadline": "17.09.2026 kl. 14:00",
+      "deadline_local": "2026-09-17T14:00:00+00:00",
+      "deadline_utc": "2026-09-17T14:00:00+00:00",
+      "posted_at": "2026-09-03T10:49:33+00:00",
+      "modified_at": "2026-09-03T10:49:33+00:00",
+      "url": "https://www.utbodsvefur.is/torfunef-lagnir-lagnaleidir-og-brunnar/",
+      "summary": "Hafnasamlag Norðurlands óskar eftir tilboðum í verkið: Torfunef Lagnir, lagnaleiðir og brunnar í þekju Verkið felst í greftri skurða, lagnavinnu, lögn...",
+      "source": "utbodsvefur"
+    },
+    {
       "reference": "MÁL-26-0108",
       "project": "Raforkukaup fyrir veitukerfi Norðurorku",
       "buyer": "Norðurorka",
@@ -934,6 +930,34 @@
       "source": "utbodsvefur"
     },
     {
+      "reference": "I0228",
+      "project": "Sérhæfður endurhæfingarbúnaður Grensás",
+      "buyer": "Nýr Landspítali (NLSH ohf.)",
+      "notice_type": "Vörukaup",
+      "deadline": "05.10.2026 kl. 13:00",
+      "deadline_local": "2026-10-05T13:00:00+00:00",
+      "deadline_utc": "2026-10-05T13:00:00+00:00",
+      "posted_at": "2026-09-03T08:56:11+00:00",
+      "modified_at": "2026-09-03T08:56:11+00:00",
+      "url": "https://www.utbodsvefur.is/serhaefdur-endurhaefingarbunadur-grensas/",
+      "summary": "Nýr Landspítali ohf. (NLSH) óskar eftir tilboðum í gönguþjálfunartæki og hand- og armþjálfunartæki fyrir endurhæfingardeild við Grensás. Nánari upplýs...",
+      "source": "utbodsvefur"
+    },
+    {
+      "reference": "VEU-2606-0052",
+      "project": "VEU-2606-0052 Háspennurofabúnaður og fylgihlutir (High Voltage Switchgear and accessories)",
+      "buyer": "Veitur ohf.",
+      "notice_type": "Framkvæmd Vörukaup",
+      "deadline": "05.10.2026 kl. 14:00",
+      "deadline_local": "2026-10-05T14:00:00+00:00",
+      "deadline_utc": "2026-10-05T14:00:00+00:00",
+      "posted_at": "2026-09-03T13:53:20+00:00",
+      "modified_at": "2026-09-03T13:53:20+00:00",
+      "url": "https://www.utbodsvefur.is/veu-2606-0052-haspennurofabunadur-og-fylgihlutir-high-voltage-switchgear-and-accessories/",
+      "summary": "Veitur ohf. óska eftir tilboðum í útboðsverkefni: „VEU-2606-0052 Háspennurofabúnaður og fylgihlutir (High Voltage Switchgear and accessories)...",
+      "source": "utbodsvefur"
+    },
+    {
       "reference": "16200",
       "project": "Rammasamningur um mötuneytisþjónustu SFS, EES útboð nr. 16200",
       "buyer": "Reykjavíkurborg",
@@ -987,6 +1011,20 @@
       "modified_at": "2026-09-01T10:21:01+00:00",
       "url": "https://www.utbodsvefur.is/aflspennir-60-mva-66-33-11-kv/",
       "summary": "HS Veitur óskar eftir aðilum til þáttöku í útboði á 60 MVA aflspenni. Tilboðið felur í sér framleiðslu og afhendingu á einum (1) spenni fyrir 66 kV sp...",
+      "source": "utbodsvefur"
+    },
+    {
+      "reference": "2026-02",
+      "project": "Kerhólsskóli – Breytingar 2. hæð og ný loftræsisamstæða",
+      "buyer": "Grímsnes- og Grafningshreppur",
+      "notice_type": "Framkvæmd",
+      "deadline": "09.10.2026 kl. 11:00",
+      "deadline_local": "2026-10-09T11:00:00+00:00",
+      "deadline_utc": "2026-10-09T11:00:00+00:00",
+      "posted_at": "2026-09-03T14:16:45+00:00",
+      "modified_at": "2026-09-03T14:17:00+00:00",
+      "url": "https://www.utbodsvefur.is/9661-2/",
+      "summary": "Sveitarfélagið Grímsnes og Grafningshreppur óskar eftir tilboðum í verkið: Kerhólsskóli – Breytingar 2. hæð og ný loftræsisamstæða Verkið felur ...",
       "source": "utbodsvefur"
     },
     {
