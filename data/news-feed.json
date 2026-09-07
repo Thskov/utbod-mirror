@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated": "2026-09-04T06:30:01Z",
+  "generated": "2026-09-07T06:30:02Z",
   "window": {
-    "from": "2026-08-05",
-    "to": "2026-09-04"
+    "from": "2026-08-08",
+    "to": "2026-09-07"
   },
   "coverage": {
     "sources": [
@@ -272,35 +272,60 @@
   "sources": {
     "not_covered": {
       "si": "HTTP Error 404: Not Found",
-      "nlsh": "HTTP Error 429: Too Many Requests"
+      "nlsh": "HTTP Error 429: Too Many Requests",
+      "borgarverk": "<urlopen error _ssl.c:983: The handshake operation timed out>"
     },
     "source_candidates": []
   },
-  "count": 28,
+  "count": 27,
   "items": [
     {
-      "id": "news:vegagerdin:umferdarljos-vid-tvenn-gatnamot-ovirk",
+      "id": "news:ruv-innlent-rss:2026-09-06-gul-vidvorun-a-sudausturlandi-vegagerdin-varar-vid-hvassvidri-486175",
       "lane": "news",
       "category": "project",
-      "title": "3. september 2026 Uppfært: Búið að opna. Lokanir vegna bilunar í umferðarljósum",
-      "entity": "Vegagerðin",
-      "date": "2026-09-03",
-      "summary": "__eI5fQ\"> Frétt­ir 3. september 2026 Uppfært: Búið að opna. Lokanir vegna bilunar í umferðarljósum <img alt=\"\" loading=\"lazy\" width=\"300\" height=\"9999\" decoding=\"async\" data-nimg=\"1\" class=\"NextImage_container__yLPzb\" style=\"color:transparent;height:auto\" srcSet=\"/_next/image?url=%2Fmedia%2F2026%2F07%2Fimg_1197-scaled-aspect-ratio-1600-1100-scaled-e17851668...",
-      "url": "https://www.vegagerdin.is/vegagerdin/starfsemi/frettir/umferdarljos-vid-tvenn-gatnamot-ovirk",
-      "outlet": "Vegagerðin",
+      "title": "Gul viðvörun á Suðausturlandi – Vegagerðin varar við hvassviðri",
+      "entity": "ruv.is / innlent",
+      "date": "2026-09-06",
+      "summary": "Vegagerðin varar vegfarendur við miklu hvassviðri frá því í kvöld og fram á annað kvöld á Suðausturlandi, einkum í Öræfum. Aðstæður geta orðið varasamar fyrir ökutæki sem taka á sig mikinn vind. Gul viðvörun vegna veðurs verður í gildi á Suðausturlandi frá 21:00 í kvöld til 16:00 á morgun. Skjámynd / Veðurstofa Íslands Í tilkynningu frá Vegagerðinni segir a...",
+      "url": "https://www.ruv.is/frettir/innlent/2026-09-06-gul-vidvorun-a-sudausturlandi-vegagerdin-varar-vid-hvassvidri-486175/",
+      "outlet": "ruv.is / innlent",
       "is_new": true
     },
     {
-      "id": "news:byggingar:grimsnes-og-grafningshreppur-bydur-ut-breytingar-a-kerholsskola",
+      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-cowi-faer-14-9-m-kr-undirbuningsverk",
       "lane": "news",
       "category": "project",
-      "title": "09.10.2026 Grímsnes- og Grafningshreppur býður út breytingar á Kerhólsskóla",
-      "entity": "byggingar.is",
-      "date": "2026-09-03",
-      "summary": "ntent/uploads/2026/09/03.09.2026-Grimsnes-og-Grafningshreppur-bydur-ut-breytingar-a-Kerholsskola-238x178.png\" width=\"238\" height=\"178\" /> 09.10.2026 Grímsnes- og Grafningshreppur býður út breytingar á Kerhólsskóla <a href=\"https://byggingar.is/4-skref-til-ad-nota-gervigreind-vid-tilbodsgerd/\" rel=\"bookmark\" class=\"td-image-wrap \" title=\"4 skref til að nota...",
-      "url": "https://byggingar.is/grimsnes-og-grafningshreppur-bydur-ut-breytingar-a-kerholsskola/",
-      "outlet": "byggingar.is",
+      "title": "COWI fær 14.9 m.kr. undirbúningsverk vegna stórskipakants Vestmannaeyjahafnar",
+      "entity": "byggingar.is / niðurstöður útboða",
+      "date": "2026-09-06",
+      "summary": "COWI fær 14.9 m.kr. undirbúningsverk Framkvæmda- og hafnarráð Vestmannaeyja hefur samþykkt að taka 14,9 milljóna króna tilboði COWI í umhverfismat og vinnu við nýtt aðalskipulag vegna svæðisins við Eiðið og Haugasvæðið. Vinnan er liður í undirbúningi að framtíðaruppbyggingu Vestmannaeyjahafnar, þar á meðal mögulegum stórskipakanti við Eiðið. Fjögur ráðgjafa...",
+      "url": "https://byggingar.is/cowi-faer-14-9-m-kr-undirbuningsverk/?utm_source=rss&utm_medium=rss&utm_campaign=cowi-faer-14-9-m-kr-undirbuningsverk",
+      "outlet": "byggingar.is / niðurstöður útboða",
       "is_new": true
+    },
+    {
+      "id": "news:byggingar:nytt-hjukrunarheimili-ris-a-asbru",
+      "lane": "news",
+      "category": "project",
+      "title": "Nýtt hjúkrunarheimili rís á Ásbrú",
+      "entity": "byggingar.is",
+      "date": "2026-09-05",
+      "summary": "rl=\"https://byggingar.is/wp-content/uploads/2026/09/05.09.2026-Nytt-hjukrunarheimili-ris-a-Asbru-238x178.jpg\" width=\"238\" height=\"178\" /> Nýtt hjúkrunarheimili rís á Ásbrú <i class=\"td-next-prev-icon td-i",
+      "url": "https://byggingar.is/nytt-hjukrunarheimili-ris-a-asbru/",
+      "outlet": "byggingar.is",
+      "is_new": false
+    },
+    {
+      "id": "news:vegagerdin:ny-askriftarkort-og-breytingar-a-akstursleidum",
+      "lane": "news",
+      "category": "project",
+      "title": "4. september 2026 Ný áskriftarkort og breytingar á akstursleiðum",
+      "entity": "Vegagerðin",
+      "date": "2026-09-04",
+      "summary": "__eI5fQ\"> Frétt­ir 4. september 2026 Ný áskriftarkort og breytingar á akstursleiðum <img alt=\"\" loading=\"lazy\" width=\"300\" height=\"9999\" decoding=\"async\" data-nimg=\"1\" class=\"NextImage_container__yLPzb\" style=\"color:transparent;height:auto\" srcSet=\"/_next/image?url=%2Fmedia%2F2026%2F09%2Fuploads_3000101_3001853450_processed_r-f0deq4dz0mlkazb8lsqr9ttjhr5ekav...",
+      "url": "https://www.vegagerdin.is/vegagerdin/starfsemi/frettir/ny-askriftarkort-og-breytingar-a-akstursleidum",
+      "outlet": "Vegagerðin",
+      "is_new": false
     },
     {
       "id": "news:reykjavik:borgarspitalareitur-i-skipulagsgatt",
@@ -324,18 +349,6 @@
       "summary": "Byrjað að leggja Borgarlínu við Nauthólsveg Framkvæmdir við Borgarlínu eru hafnar við Nauthólsveg og HR. Þar er um að ræða hluta af fyrstu lotu Borgarlínunnar sem felur í sér breytingar á götusniði Nauthólsvegar, Menntavegar og Menntasveigs. Einnig stendur til að breyta gatnamótum og götutengingum en verkinu á að ljúka í júlí 2028. Ekki stendur til […] The...",
       "url": "https://byggingar.is/byrjad-ad-leggja-borgarlinu-vid-nautholsveg/?utm_source=rss&utm_medium=rss&utm_campaign=byrjad-ad-leggja-borgarlinu-vid-nautholsveg",
       "outlet": "byggingar.is / Borgarlína",
-      "is_new": false
-    },
-    {
-      "id": "news:byggingar:4-skref-til-ad-nota-gervigreind-vid-tilbodsgerd",
-      "lane": "news",
-      "category": "project",
-      "title": "4 skref til að nota gervigreind við tilboðsgerð",
-      "entity": "byggingar.is",
-      "date": "2026-08-31",
-      "summary": "ggingar.is/wp-content/uploads/2026/08/31.08.2026-4-skref-til-ad-nota-gervigreind-vid-tilbodsgerd-238x178.png\" width=\"238\" height=\"178\" /> 4 skref til að nota gervigreind við tilboðsgerð <i class=\"td-next-prev-icon td-i",
-      "url": "https://byggingar.is/4-skref-til-ad-nota-gervigreind-vid-tilbodsgerd/",
-      "outlet": "byggingar.is",
       "is_new": false
     },
     {
@@ -393,7 +406,7 @@
       "title": "Nýtt geðsvið NLSH - kynningarfundur um skipulag í Fossvogi",
       "entity": "Reykjavíkurborg",
       "date": "2026-08-27",
-      "summary": "8ad652c1&itok=L_52Sg7x 1920w, /sites/default/files/styles/landscape_4k/public/2026-08/landspitali.jpg?h=8ad652c1&itok=QqFH2u9s 3840w\" data-sizes=\"auto\" /> 27. ágúst 2026 Nýtt geðsvið NLSH - kynningarfundur um skipulag í Fossvogi <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2026-08/borgar.png.jpg...",
+      "summary": "8ad652c1&itok=L_52Sg7x 1920w, /sites/default/files/styles/landscape_4k/public/2026-08/landspitali.jpg?h=8ad652c1&itok=QqFH2u9s 3840w\" data-sizes=\"auto\" /> 27. ágúst 2026 Nýtt geðsvið NLSH - kynningarfundur um skipulag í Fossvogi <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2026-08/23070401_fly_0...",
       "url": "https://reykjavik.is/frettir/2026/nytt-gedsvid-nlsh-kynningarfundur-um-skipulag-i-fossvogi",
       "outlet": "Reykjavíkurborg",
       "is_new": false
@@ -405,7 +418,7 @@
       "title": "Fimmti fundur með þátttakendum loftslagsborgarsamnings",
       "entity": "Reykjavíkurborg",
       "date": "2026-08-27",
-      "summary": "h=4e7f71fc&itok=cTH-O2b7 1920w, /sites/default/files/styles/landscape_4k/public/2026-08/l1_medium.jpg?h=4e7f71fc&itok=f8-ydNKN 3840w\" data-sizes=\"auto\" /> 27. ágúst 2026 Fimmti fundur með þátttakendum loftslagsborgarsamnings <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2026-08/23070401_fly_075_s...",
+      "summary": "h=4e7f71fc&itok=cTH-O2b7 1920w, /sites/default/files/styles/landscape_4k/public/2026-08/l1_medium.jpg?h=4e7f71fc&itok=f8-ydNKN 3840w\" data-sizes=\"auto\" /> 27. ágúst 2026 Fimmti fundur með þátttakendum loftslagsborgarsamnings <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2026-08/landspitali.jpg?h=...",
       "url": "https://reykjavik.is/frettir/2026/fimmti-fundur-med-thatttakendum-loftslagsborgarsamnings",
       "outlet": "Reykjavíkurborg",
       "is_new": false
@@ -588,30 +601,6 @@
       "summary": "Samið fyrir tæplega 1.5 milljarða um stöðvar og steinefni fyrir Borgarlínu Betri samgöngur hafa gert tvo stóra efniskaupasamninga vegna uppbyggingar fyrstu lotu Borgarlínu. Samningarnir ná annars vegar til framleiðslu og afhendingar á 26 Borgarlínustöðvum og hins vegar til kaupa á granít- og basaltsteinum fyrir stöðvar, brautarpalla og aðliggjandi almenning...",
       "url": "https://byggingar.is/samid-fyrir-taeplega-1-5-milljarda-um-stodvar-og-steinefni-fyrir-borgarlinu/?utm_source=rss&utm_medium=rss&utm_campaign=samid-fyrir-taeplega-1-5-milljarda-um-stodvar-og-steinefni-fyrir-borgarlinu",
       "outlet": "byggingar.is / Borgarlína",
-      "is_new": false
-    },
-    {
-      "id": "news:visir-fiskeldi:island-i-theirri-sjaldgaefu-stodu-ad-geta-i-raun-akvedid-hvada-hagvoxt-vid-vilju",
-      "lane": "news",
-      "category": "industrial-demand",
-      "title": "Ís­land í þeirri sjald­gæfu stöðu að geta í raun á­kveðið hvaða hag­vöxt við viljum",
-      "entity": "visir.is / Fiskeldi",
-      "date": "2026-08-06",
-      "summary": "Forstjóri eins stærsta fjárfestingafélags landsins brýnir stjórnvöld til að taka forystu í að breyta umræðu um efnahagsmál og rekstur fyrirtækja og segir tal um „ofsagróða“ á villigötum heldur hafi þvert móti arðsemi og samkeppnisstaða fyrirtækja „átt undir högg að sækja,“ einkum vegna aukinnar gjaldtöku hins opinbera, hárra launa og hás vaxtastigs. Hann se...",
-      "url": "https://www.visir.is/g/20262918030d/island-i-theirri-sjaldgaefu-stodu-ad-geta-i-raun-akvedid-hvada-hagvoxt-vid-viljum",
-      "outlet": "visir.is / Fiskeldi",
-      "is_new": false
-    },
-    {
-      "id": "news:visir-fiskeldi:fer-fra-laxeldi-i-eldri-borgara",
-      "lane": "news",
-      "category": "industrial-demand",
-      "title": "Fer frá lax­eldi í eldri borgara",
-      "entity": "visir.is / Fiskeldi",
-      "date": "2026-08-06",
-      "summary": "Jónas Heiðar Birgisson hefur verið ráðinn sem fjármálastjóri Sjómannadagsráðs en undir ráðið heyra Hrafnistuheimilin, DAS íbúðir, og Happdrætti Das. Jónas Heiðar tekur við af Kristjáni Björgvinssyni, sem lætur nú af störfum eftir átta ár hjá Sjómannadagsráði.",
-      "url": "https://www.visir.is/g/20262918010d/fer-fra-laxeldi-i-eldri-borgara",
-      "outlet": "visir.is / Fiskeldi",
       "is_new": false
     }
   ]
