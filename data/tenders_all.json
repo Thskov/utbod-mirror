@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated": "2026-09-04T07:00:13Z",
-  "generated_at": "2026-09-04T07:00:13Z",
+  "generated": "2026-09-07T07:00:13Z",
+  "generated_at": "2026-09-07T07:00:13Z",
   "sources": {
     "utbodsvefur": {
-      "generated_at": "2026-09-04T07:00:13.092246+00:00",
-      "count": 46,
+      "generated_at": "2026-09-07T07:00:13.070970+00:00",
+      "count": 48,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders.json"
     },
     "offportal": {
-      "generated": "2026-09-04T07:00:13Z",
+      "generated": "2026-09-07T07:00:13Z",
       "count": 19,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders_offportal.json"
     },
@@ -288,6 +288,18 @@
     ],
     "source_candidates": [
       {
+        "id": "tender:buyer:fjarðabyggð",
+        "name": "Fjarðabyggð",
+        "suggested_feed": "tenders_all",
+        "suggested_lane": "tender",
+        "evidence_url": "https://www.utbodsvefur.is/fjardabyggdarhollin-loftraestikerfi/",
+        "seen_count": 1,
+        "first_seen": "2026-09-07T07:00:13Z",
+        "last_seen": "2026-09-07T07:00:13Z",
+        "reason": "unknown buyer/source found in tender feed",
+        "status": "pending"
+      },
+      {
         "id": "tender:buyer:grímsnes-og-grafningshreppur",
         "name": "Grímsnes- og Grafningshreppur",
         "suggested_feed": "tenders_all",
@@ -295,7 +307,7 @@
         "evidence_url": "https://www.utbodsvefur.is/9661-2/",
         "seen_count": 1,
         "first_seen": "2026-09-04T07:00:13Z",
-        "last_seen": "2026-09-04T07:00:13Z",
+        "last_seen": "2026-09-07T07:00:13Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       },
@@ -307,7 +319,7 @@
         "evidence_url": "https://www.utbodsvefur.is/torfunef-lagnir-lagnaleidir-og-brunnar/",
         "seen_count": 1,
         "first_seen": "2026-09-04T07:00:13Z",
-        "last_seen": "2026-09-04T07:00:13Z",
+        "last_seen": "2026-09-07T07:00:13Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       },
@@ -319,42 +331,14 @@
         "evidence_url": "https://www.utbodsvefur.is/leikskolinn-skyjaborg/",
         "seen_count": 2,
         "first_seen": "2026-08-31T07:00:13Z",
-        "last_seen": "2026-09-04T07:00:13Z",
+        "last_seen": "2026-09-07T07:00:13Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       }
     ]
   },
-  "count": 59,
+  "count": 61,
   "items": [
-    {
-      "reference": "2026-04",
-      "project": "2026-04 Aðrennslisrör fyrir Kvíslatunguvirkjun (GRP og steypujárn)",
-      "buyer": "Orkubú Vestfjarða ohf.",
-      "notice_type": "Vörukaup",
-      "deadline": "04.09.2026 kl. 12:00",
-      "deadline_local": "2026-09-04T12:00:00+00:00",
-      "deadline_utc": "2026-09-04T12:00:00+00:00",
-      "posted_at": "2026-07-29T11:26:51+00:00",
-      "modified_at": "2026-08-11T16:23:46+00:00",
-      "url": "https://www.utbodsvefur.is/2026-04-adrennslisror-fyrir-kvislatunguvirkjun-grp-og-steypujarn/",
-      "summary": "Orkubú Vestfjarða ohf. óskar eftir tilboðum í hönnun, framleiðslu og afhendingu aðrennslisröra fyrir verkefnið KVÍSLATUNGA HYDROPOWER PROJECT, PENSTOC...",
-      "source": "utbodsvefur"
-    },
-    {
-      "reference": "23431",
-      "project": "Gagnsæistilkynning vegna fyrirhugaðra innkaupa á ráðgjafaþjónustu tengt innleiðingu á snjall-landamærum (EU Smart Borders)",
-      "buyer": "Fjársýslan ríkisins",
-      "notice_type": "Þjónusta Gagnsæistilkynning (VEAT)",
-      "deadline": "04.09.2026 kl. 23:59",
-      "deadline_local": "2026-09-04T23:59:00+00:00",
-      "deadline_utc": "2026-09-04T23:59:00+00:00",
-      "posted_at": "2026-08-25T09:07:52+00:00",
-      "modified_at": "2026-08-25T09:07:52+00:00",
-      "url": "https://www.utbodsvefur.is/gagnsaeistilkynning-vegna-fyrirhugadra-innkaupa-a-radgjafathjonustu-tengt-innleidingu-a-snjall-landamaerum-eu-smart-borders/",
-      "summary": "Fjársýslan (kt. 540269-7509) birtir gagnsæistilkynningu (VEAT) fyrir hönd Ríkislögreglustjóra (kt. 530697-2079). Tilkynningin varðar fyrirhugaðan samn...",
-      "source": "utbodsvefur"
-    },
     {
       "reference": "I0232",
       "project": "Markaðskönnun – RFI Rafrænt stjórnunar- og eftirlitskerfi fyrir Ísótópastofu",
@@ -776,6 +760,34 @@
       "source": "utbodsvefur"
     },
     {
+      "reference": "26-098",
+      "project": "Langanesbyggð, Þórshöfn – Harðviðarbryggja 2026",
+      "buyer": "Vegagerðin",
+      "notice_type": "Framkvæmd",
+      "deadline": "22.09.2026 kl. 14:00",
+      "deadline_local": "2026-09-22T14:00:00+00:00",
+      "deadline_utc": "2026-09-22T14:00:00+00:00",
+      "posted_at": "2026-09-04T15:33:44+00:00",
+      "modified_at": "2026-09-04T15:33:44+00:00",
+      "url": "https://www.utbodsvefur.is/langanesbyggd-thorshofn-hardvidarbryggja-2026/",
+      "summary": "Hafnir Múlaþings óskar eftir tilboðum í verkið „Langanesbyggð, Þórshöfn – Harðviðarbryggja 2026“. Helstu verkþættir eru: Jarðvinna: gröftur fyrir lan...",
+      "source": "utbodsvefur"
+    },
+    {
+      "reference": "26-129",
+      "project": "Súðavík – Miðgarður harðviðarbryggja 2026",
+      "buyer": "Vegagerðin",
+      "notice_type": "Framkvæmd",
+      "deadline": "22.09.2026 kl. 14:00",
+      "deadline_local": "2026-09-22T14:00:00+00:00",
+      "deadline_utc": "2026-09-22T14:00:00+00:00",
+      "posted_at": "2026-09-04T14:31:33+00:00",
+      "modified_at": "2026-09-04T14:31:33+00:00",
+      "url": "https://www.utbodsvefur.is/sudavik-midgardur-hardvidarbryggja-2026/",
+      "summary": "Súðavíkurhöfn óskar eftir tilboðum í verkið „Súðavík – Miðgarður harðviðarbryggja endurbygging 2026“. Helstu verkþættir eru: Endurnýja dekkklæð...",
+      "source": "utbodsvefur"
+    },
+    {
       "reference": "07-2026",
       "project": "Intraoperative blood flow measurement system",
       "buyer": "Landspítali",
@@ -801,6 +813,20 @@
       "modified_at": "2026-08-25T13:24:27+00:00",
       "url": "https://www.utbodsvefur.is/rannsoknahus-innanhussfragangur/",
       "summary": "Nýr Landspítali ohf. óskar eftir tilboðum í útboði nr. I2063 á innanhúsfrágangi í rannsóknahúsi Landspítala við Hringbraut í Reykjavík. Rannsóknahúsið...",
+      "source": "utbodsvefur"
+    },
+    {
+      "reference": "09-2026",
+      "project": "Fjarðabyggðarhöllin – Loftræstikerfi",
+      "buyer": "Fjarðabyggð",
+      "notice_type": "Framkvæmd",
+      "deadline": "24.09.2026 kl. 14:00",
+      "deadline_local": "2026-09-24T14:00:00+00:00",
+      "deadline_utc": "2026-09-24T14:00:00+00:00",
+      "posted_at": "2026-09-04T11:45:52+00:00",
+      "modified_at": "2026-09-04T11:45:52+00:00",
+      "url": "https://www.utbodsvefur.is/fjardabyggdarhollin-loftraestikerfi/",
+      "summary": "Fjarðabyggð óskar eftir tilboðum í verkið: Fjarðabyggðarhöllin – Loftræstikerfi Fjarðabyggðarhöllin er yfirbyggt íþrótta og knattspyrnuhús stað...",
       "source": "utbodsvefur"
     },
     {
@@ -1014,6 +1040,20 @@
       "source": "utbodsvefur"
     },
     {
+      "reference": "16346",
+      "project": "Vetrarþjónusta göngu- og hjólaleiða í Reykjavík 2026 – 2027. Útboðshluti 2, EES útboð nr. 16346",
+      "buyer": "Reykjavíkurborg",
+      "notice_type": "Þjónusta",
+      "deadline": "08.10.2026 kl. 10:00",
+      "deadline_local": "2026-10-08T10:00:00+00:00",
+      "deadline_utc": "2026-10-08T10:00:00+00:00",
+      "posted_at": "2026-09-04T09:04:56+00:00",
+      "modified_at": "2026-09-04T09:04:56+00:00",
+      "url": "https://www.utbodsvefur.is/vetrarthjonusta-gongu-og-hjolaleida-i-reykjavik-2026-2027-utbodshluti-2-ees-utbod-nr-16346/",
+      "summary": "Óskað er eftir tilboðum í Vetrarþjónusta göngu- og hjólaleiða í Reykjavík 2026 – 2027. Útboðshluti 2, EES útboð nr. 16346 Skrifstofa fjármálaþjónustu ...",
+      "source": "utbodsvefur"
+    },
+    {
       "reference": "2026-02",
       "project": "Kerhólsskóli – Breytingar 2. hæð og ný loftræsisamstæða",
       "buyer": "Grímsnes- og Grafningshreppur",
@@ -1022,7 +1062,7 @@
       "deadline_local": "2026-10-09T11:00:00+00:00",
       "deadline_utc": "2026-10-09T11:00:00+00:00",
       "posted_at": "2026-09-03T14:16:45+00:00",
-      "modified_at": "2026-09-03T14:17:00+00:00",
+      "modified_at": "2026-09-04T13:55:37+00:00",
       "url": "https://www.utbodsvefur.is/9661-2/",
       "summary": "Sveitarfélagið Grímsnes og Grafningshreppur óskar eftir tilboðum í verkið: Kerhólsskóli – Breytingar 2. hæð og ný loftræsisamstæða Verkið felur ...",
       "source": "utbodsvefur"
