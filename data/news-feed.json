@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated": "2026-09-07T06:30:02Z",
+  "generated": "2026-09-08T06:30:02Z",
   "window": {
-    "from": "2026-08-08",
-    "to": "2026-09-07"
+    "from": "2026-08-09",
+    "to": "2026-09-08"
   },
   "coverage": {
     "sources": [
@@ -272,23 +272,58 @@
   "sources": {
     "not_covered": {
       "si": "HTTP Error 404: Not Found",
-      "nlsh": "HTTP Error 429: Too Many Requests",
-      "borgarverk": "<urlopen error _ssl.c:983: The handshake operation timed out>"
+      "nlsh": "HTTP Error 429: Too Many Requests"
     },
     "source_candidates": []
   },
-  "count": 27,
+  "count": 28,
   "items": [
     {
-      "id": "news:ruv-innlent-rss:2026-09-06-gul-vidvorun-a-sudausturlandi-vegagerdin-varar-vid-hvassvidri-486175",
+      "id": "news:vegagerdin:ad-verja-verdmaetustu-eign-thjodarinnar",
       "lane": "news",
       "category": "project",
-      "title": "Gul viðvörun á Suðausturlandi – Vegagerðin varar við hvassviðri",
-      "entity": "ruv.is / innlent",
-      "date": "2026-09-06",
-      "summary": "Vegagerðin varar vegfarendur við miklu hvassviðri frá því í kvöld og fram á annað kvöld á Suðausturlandi, einkum í Öræfum. Aðstæður geta orðið varasamar fyrir ökutæki sem taka á sig mikinn vind. Gul viðvörun vegna veðurs verður í gildi á Suðausturlandi frá 21:00 í kvöld til 16:00 á morgun. Skjámynd / Veðurstofa Íslands Í tilkynningu frá Vegagerðinni segir a...",
-      "url": "https://www.ruv.is/frettir/innlent/2026-09-06-gul-vidvorun-a-sudausturlandi-vegagerdin-varar-vid-hvassvidri-486175/",
-      "outlet": "ruv.is / innlent",
+      "title": "7. september 2026 Að verja verðmætustu eign þjóðarinnar",
+      "entity": "Vegagerðin",
+      "date": "2026-09-07",
+      "summary": "__eI5fQ\"> Frétt­ir 7. september 2026 Að verja verðmætustu eign þjóðarinnar <img alt=\"\" loading=\"lazy\" width=\"300\" height=\"9999\" decoding=\"async\" data-nimg=\"1\" class=\"NextImage_container__yLPzb\" style=\"color:transparent;height:auto\" srcSet=\"/_next/image?url=%2Fmedia%2F2026%2F09%2Fdsf1194_minni-aspect-ratio-1600-1100.jpg&w=400&q=75 1x, /_next/ima",
+      "url": "https://www.vegagerdin.is/vegagerdin/starfsemi/frettir/ad-verja-verdmaetustu-eign-thjodarinnar",
+      "outlet": "Vegagerðin",
+      "is_new": true
+    },
+    {
+      "id": "news:byggingar:styttist-i-langthrada-vegtengingu-milli-kopavogs-og-reykjavikur",
+      "lane": "news",
+      "category": "project",
+      "title": "Styttist í langþráða vegtengingu milli Kópavogs og Reykjavíkur",
+      "entity": "byggingar.is",
+      "date": "2026-09-07",
+      "summary": "ntent/uploads/2026/09/07.09.2026-Styttist-i-langthrada-vegtengingu-milli-Kopavogs-og-Reykjavikur-238x178.jpg\" width=\"238\" height=\"178\" /> Styttist í langþráða vegtengingu milli Kópavogs og Reykjavíkur <a href=\"https://byggingar.is/hms-kynnir-breytingar-a-krofum-um-burdarthol-og-stodugleika-mannvirkja/\" rel=\"bookmark\" class=\"td-image-wrap \" title=\"HMS kynnir...",
+      "url": "https://byggingar.is/styttist-i-langthrada-vegtengingu-milli-kopavogs-og-reykjavikur/",
+      "outlet": "byggingar.is",
+      "is_new": true
+    },
+    {
+      "id": "news:byggingar:hms-kynnir-breytingar-a-krofum-um-burdarthol-og-stodugleika-mannvirkja",
+      "lane": "news",
+      "category": "project",
+      "title": "HMS kynnir breytingar á kröfum um burðarþol og stöðugleika mannvirkja",
+      "entity": "byggingar.is",
+      "date": "2026-09-07",
+      "summary": "ploads/2026/09/07.09.2026-HMS-kynnir-breytingar-a-krofum-um-burdarthol-og-stodugleika-mannvirkja-238x178.jpg\" width=\"238\" height=\"178\" /> HMS kynnir breytingar á kröfum um burðarþol og stöðugleika mannvirkja <i class=\"td-next-prev-icon td-i",
+      "url": "https://byggingar.is/hms-kynnir-breytingar-a-krofum-um-burdarthol-og-stodugleika-mannvirkja/",
+      "outlet": "byggingar.is",
+      "is_new": true
+    },
+    {
+      "id": "news:byggingar:aukid-hlutafe-vegna-fljotaganga-til-skodunar",
+      "lane": "news",
+      "category": "project",
+      "title": "Aukið hlutafé vegna Fljótaganga til skoðunar",
+      "entity": "byggingar.is",
+      "date": "2026-09-07",
+      "summary": "image_tag\" data-img-url=\"https://byggingar.is/wp-content/uploads/2026/09/07.09.2026-Siglufjordur-238x178.jpg\" width=\"238\" height=\"178\" /> Aukið hlutafé vegna Fljótaganga til skoðunar <a href=\"https://byggingar.is/styttist-i-langthrada-vegtengingu-milli-kopavogs-og-reykjavikur/\" rel=\"bookmark\" class=\"td-image-wrap \" title=\"Styttist í langþráða vegtengin",
+      "url": "https://byggingar.is/aukid-hlutafe-vegna-fljotaganga-til-skodunar/",
+      "outlet": "byggingar.is",
       "is_new": true
     },
     {
@@ -301,30 +336,6 @@
       "summary": "COWI fær 14.9 m.kr. undirbúningsverk Framkvæmda- og hafnarráð Vestmannaeyja hefur samþykkt að taka 14,9 milljóna króna tilboði COWI í umhverfismat og vinnu við nýtt aðalskipulag vegna svæðisins við Eiðið og Haugasvæðið. Vinnan er liður í undirbúningi að framtíðaruppbyggingu Vestmannaeyjahafnar, þar á meðal mögulegum stórskipakanti við Eiðið. Fjögur ráðgjafa...",
       "url": "https://byggingar.is/cowi-faer-14-9-m-kr-undirbuningsverk/?utm_source=rss&utm_medium=rss&utm_campaign=cowi-faer-14-9-m-kr-undirbuningsverk",
       "outlet": "byggingar.is / niðurstöður útboða",
-      "is_new": true
-    },
-    {
-      "id": "news:byggingar:nytt-hjukrunarheimili-ris-a-asbru",
-      "lane": "news",
-      "category": "project",
-      "title": "Nýtt hjúkrunarheimili rís á Ásbrú",
-      "entity": "byggingar.is",
-      "date": "2026-09-05",
-      "summary": "rl=\"https://byggingar.is/wp-content/uploads/2026/09/05.09.2026-Nytt-hjukrunarheimili-ris-a-Asbru-238x178.jpg\" width=\"238\" height=\"178\" /> Nýtt hjúkrunarheimili rís á Ásbrú <i class=\"td-next-prev-icon td-i",
-      "url": "https://byggingar.is/nytt-hjukrunarheimili-ris-a-asbru/",
-      "outlet": "byggingar.is",
-      "is_new": false
-    },
-    {
-      "id": "news:vegagerdin:ny-askriftarkort-og-breytingar-a-akstursleidum",
-      "lane": "news",
-      "category": "project",
-      "title": "4. september 2026 Ný áskriftarkort og breytingar á akstursleiðum",
-      "entity": "Vegagerðin",
-      "date": "2026-09-04",
-      "summary": "__eI5fQ\"> Frétt­ir 4. september 2026 Ný áskriftarkort og breytingar á akstursleiðum <img alt=\"\" loading=\"lazy\" width=\"300\" height=\"9999\" decoding=\"async\" data-nimg=\"1\" class=\"NextImage_container__yLPzb\" style=\"color:transparent;height:auto\" srcSet=\"/_next/image?url=%2Fmedia%2F2026%2F09%2Fuploads_3000101_3001853450_processed_r-f0deq4dz0mlkazb8lsqr9ttjhr5ekav...",
-      "url": "https://www.vegagerdin.is/vegagerdin/starfsemi/frettir/ny-askriftarkort-og-breytingar-a-akstursleidum",
-      "outlet": "Vegagerðin",
       "is_new": false
     },
     {
@@ -334,7 +345,7 @@
       "title": "Borgarspítalareitur í skipulagsgátt",
       "entity": "Reykjavíkurborg",
       "date": "2026-09-02",
-      "summary": "?h=fa7169fd&itok=GJhT_7GX 1920w, /sites/default/files/styles/landscape_4k/public/2026-09/mynd3.jpg?h=fa7169fd&itok=1iQDI593 3840w\" data-sizes=\"auto\" /> 2. september 2026 Borgarspítalareitur í skipulagsgátt <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2023-11/bila1.jpg?h=82f92a78&itok=uwbi9mrq\" a...",
+      "summary": "?h=fa7169fd&itok=GJhT_7GX 1920w, /sites/default/files/styles/landscape_4k/public/2026-09/mynd3.jpg?h=fa7169fd&itok=1iQDI593 3840w\" data-sizes=\"auto\" /> 2. september 2026 Borgarspítalareitur í skipulagsgátt <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2026-08/23070401_fly_075_small.jpg?h=52d3fcb6...",
       "url": "https://reykjavik.is/frettir/2026/borgarspitalareitur-i-skipulagsgatt",
       "outlet": "Reykjavíkurborg",
       "is_new": false
