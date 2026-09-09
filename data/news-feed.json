@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated": "2026-09-08T06:30:02Z",
+  "generated": "2026-09-09T06:30:02Z",
   "window": {
-    "from": "2026-08-09",
-    "to": "2026-09-08"
+    "from": "2026-08-10",
+    "to": "2026-09-09"
   },
   "coverage": {
     "sources": [
@@ -213,6 +213,7 @@
       ],
       "learned_istak_projects": [
         "Atuarfik Inussuk",
+        "First Water",
         "Fjölnota íþróttahús í Borgarnesi",
         "Fossvogsbrú",
         "Skjólgarður Höfn",
@@ -267,7 +268,9 @@
   },
   "learning": {
     "register": "../data/istak-learned-projects.json",
-    "new_or_seen_istak_projects": []
+    "new_or_seen_istak_projects": [
+      "First Water"
+    ]
   },
   "sources": {
     "not_covered": {
@@ -276,53 +279,77 @@
     },
     "source_candidates": []
   },
-  "count": 28,
+  "count": 29,
   "items": [
     {
-      "id": "news:vegagerdin:ad-verja-verdmaetustu-eign-thjodarinnar",
+      "id": "news:visir-fiskeldi:betri-gogn-minni-stjornsysla",
+      "lane": "news",
+      "category": "industrial-demand",
+      "title": "Betri gögn, minni stjórn­sýsla?",
+      "entity": "visir.is / Fiskeldi",
+      "date": "2026-09-08",
+      "summary": "Stafræn þjónusta dregur ekki sjálfkrafa úr stjórnsýslu. Ef starfsmaður þarf enn að opna skjal, lesa tölur og færa þær í annað kerfi hefur eyðublaðið aðeins færst á skjá. Raunverulegur ávinningur kemur þegar upplýsingar eru skráðar einu sinni, einfaldar athuganir fara fram sjálfvirkt og sérfræðingar geta einbeitt sér að málum sem krefjast mats.",
+      "url": "https://www.visir.is/g/20262932167d/betri-gogn-minni-stjornsysla-",
+      "outlet": "visir.is / Fiskeldi",
+      "is_new": true
+    },
+    {
+      "id": "news:vegagerdin:faekkar-um-einn-i-framkvaemdastjorn-vegagerdarinnar",
       "lane": "news",
       "category": "project",
-      "title": "7. september 2026 Að verja verðmætustu eign þjóðarinnar",
+      "title": "8. september 2026 Fækkar um einn í framkvæmdastjórn Vegagerðarinnar",
       "entity": "Vegagerðin",
-      "date": "2026-09-07",
-      "summary": "__eI5fQ\"> Frétt­ir 7. september 2026 Að verja verðmætustu eign þjóðarinnar <img alt=\"\" loading=\"lazy\" width=\"300\" height=\"9999\" decoding=\"async\" data-nimg=\"1\" class=\"NextImage_container__yLPzb\" style=\"color:transparent;height:auto\" srcSet=\"/_next/image?url=%2Fmedia%2F2026%2F09%2Fdsf1194_minni-aspect-ratio-1600-1100.jpg&w=400&q=75 1x, /_next/ima",
-      "url": "https://www.vegagerdin.is/vegagerdin/starfsemi/frettir/ad-verja-verdmaetustu-eign-thjodarinnar",
+      "date": "2026-09-08",
+      "summary": "__eI5fQ\"> Frétt­ir 8. september 2026 Fækkar um einn í framkvæmdastjórn Vegagerðarinnar <img alt=\"\" loading=\"lazy\" width=\"300\" height=\"9999\" decoding=\"async\" data-nimg=\"1\" class=\"NextImage_container__yLPzb\" style=\"color:transparent;height:auto\" srcSet=\"/_next/image?url=%2Fmedia%2F2026%2F07%2Fsudurlandsvegur1-vid-baejarhals_2020_baldur-kristjansson-scaled-e17...",
+      "url": "https://www.vegagerdin.is/vegagerdin/starfsemi/frettir/faekkar-um-einn-i-framkvaemdastjorn-vegagerdarinnar",
       "outlet": "Vegagerðin",
       "is_new": true
     },
     {
-      "id": "news:byggingar:styttist-i-langthrada-vegtengingu-milli-kopavogs-og-reykjavikur",
+      "id": "news:istak:istak-semur-vi-first-water",
+      "lane": "news",
+      "category": "istak",
+      "title": "Ístak semur við First Water",
+      "entity": "ÍSTAK",
+      "date": "2026-09-08",
+      "summary": "/8M4A6170-8c710275-1920w.png');\"> Ístak semur við First Water 8. september 2026 Ístak semur við First Water um framkvæmdir við lok uppbyggingar á fyrsta áfanga landeldisstöðvar í Þorlákshöfn Ístak hefur undirritað samning við First Water um umfangsmiklar framkvæmdir á athafn",
+      "url": "https://www.istak.is/istak-semur-vi-first-water",
+      "outlet": "ÍSTAK",
+      "is_new": true
+    },
+    {
+      "id": "news:byggingar:vinnumenn-festa-kaup-a-flotun",
       "lane": "news",
       "category": "project",
-      "title": "Styttist í langþráða vegtengingu milli Kópavogs og Reykjavíkur",
+      "title": "Vinnumenn festa kaup á Flotun",
       "entity": "byggingar.is",
-      "date": "2026-09-07",
-      "summary": "ntent/uploads/2026/09/07.09.2026-Styttist-i-langthrada-vegtengingu-milli-Kopavogs-og-Reykjavikur-238x178.jpg\" width=\"238\" height=\"178\" /> Styttist í langþráða vegtengingu milli Kópavogs og Reykjavíkur <a href=\"https://byggingar.is/hms-kynnir-breytingar-a-krofum-um-burdarthol-og-stodugleika-mannvirkja/\" rel=\"bookmark\" class=\"td-image-wrap \" title=\"HMS kynnir...",
-      "url": "https://byggingar.is/styttist-i-langthrada-vegtengingu-milli-kopavogs-og-reykjavikur/",
+      "date": "2026-09-08",
+      "summary": "mg-url=\"https://byggingar.is/wp-content/uploads/2026/09/08.09.2026-Vinnumenn-festa-kaup-a-Flotun-238x178.jpg\" width=\"238\" height=\"178\" /> Vinnumenn festa kaup á Flotun <a href=\"https://byggingar.is/undirbuningsframkvaemdir-vid-fljotagong-hefjast-i-haust/\" rel=\"bookmark\" class=\"td-image-wrap \" title=\"Undirbúningsframkvæmdir við Fljótagöng",
+      "url": "https://byggingar.is/vinnumenn-festa-kaup-a-flotun/",
       "outlet": "byggingar.is",
       "is_new": true
     },
     {
-      "id": "news:byggingar:hms-kynnir-breytingar-a-krofum-um-burdarthol-og-stodugleika-mannvirkja",
+      "id": "news:byggingar:undirbuningsframkvaemdir-vid-fljotagong-hefjast-i-haust",
       "lane": "news",
       "category": "project",
-      "title": "HMS kynnir breytingar á kröfum um burðarþol og stöðugleika mannvirkja",
+      "title": "Undirbúningsframkvæmdir við Fljótagöng hefjast í haust",
       "entity": "byggingar.is",
-      "date": "2026-09-07",
-      "summary": "ploads/2026/09/07.09.2026-HMS-kynnir-breytingar-a-krofum-um-burdarthol-og-stodugleika-mannvirkja-238x178.jpg\" width=\"238\" height=\"178\" /> HMS kynnir breytingar á kröfum um burðarþol og stöðugleika mannvirkja <i class=\"td-next-prev-icon td-i",
-      "url": "https://byggingar.is/hms-kynnir-breytingar-a-krofum-um-burdarthol-og-stodugleika-mannvirkja/",
+      "date": "2026-09-08",
+      "summary": "is/wp-content/uploads/2026/09/08.09.2026-Undirbuningsframkvaemdir-vid-Fljotagong-hefjast-i-haust-238x178.jpg\" width=\"238\" height=\"178\" /> Undirbúningsframkvæmdir við Fljótagöng hefjast í haust <i class=\"td-next-prev-icon td-i",
+      "url": "https://byggingar.is/undirbuningsframkvaemdir-vid-fljotagong-hefjast-i-haust/",
       "outlet": "byggingar.is",
       "is_new": true
     },
     {
-      "id": "news:byggingar:aukid-hlutafe-vegna-fljotaganga-til-skodunar",
+      "id": "news:byggingar:nytt-ithrottahus-stekkjaskola",
       "lane": "news",
       "category": "project",
-      "title": "Aukið hlutafé vegna Fljótaganga til skoðunar",
+      "title": "Nýtt íþróttahús Stekkjaskóla færist nær framkvæmdum á Selfossi",
       "entity": "byggingar.is",
-      "date": "2026-09-07",
-      "summary": "image_tag\" data-img-url=\"https://byggingar.is/wp-content/uploads/2026/09/07.09.2026-Siglufjordur-238x178.jpg\" width=\"238\" height=\"178\" /> Aukið hlutafé vegna Fljótaganga til skoðunar <a href=\"https://byggingar.is/styttist-i-langthrada-vegtengingu-milli-kopavogs-og-reykjavikur/\" rel=\"bookmark\" class=\"td-image-wrap \" title=\"Styttist í langþráða vegtengin",
-      "url": "https://byggingar.is/aukid-hlutafe-vegna-fljotaganga-til-skodunar/",
+      "date": "2026-09-08",
+      "summary": "data-img-url=\"https://byggingar.is/wp-content/uploads/2026/09/08.09.2026-Stekkjaskoli-a-Selfossi-238x178.jpg\" width=\"238\" height=\"178\" /> Nýtt íþróttahús Stekkjaskóla færist nær framkvæmdum á Selfossi <img class=\"entry-thumb\" src=\"\"",
+      "url": "https://byggingar.is/nytt-ithrottahus-stekkjaskola/",
       "outlet": "byggingar.is",
       "is_new": true
     },
@@ -345,7 +372,7 @@
       "title": "Borgarspítalareitur í skipulagsgátt",
       "entity": "Reykjavíkurborg",
       "date": "2026-09-02",
-      "summary": "?h=fa7169fd&itok=GJhT_7GX 1920w, /sites/default/files/styles/landscape_4k/public/2026-09/mynd3.jpg?h=fa7169fd&itok=1iQDI593 3840w\" data-sizes=\"auto\" /> 2. september 2026 Borgarspítalareitur í skipulagsgátt <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2026-08/23070401_fly_075_small.jpg?h=52d3fcb6...",
+      "summary": "?h=fa7169fd&itok=GJhT_7GX 1920w, /sites/default/files/styles/landscape_4k/public/2026-09/mynd3.jpg?h=fa7169fd&itok=1iQDI593 3840w\" data-sizes=\"auto\" /> 2. september 2026 Borgarspítalareitur í skipulagsgátt <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2023-11/bila1.jpg?h=82f92a78&itok=uwbi9mrq\" a...",
       "url": "https://reykjavik.is/frettir/2026/borgarspitalareitur-i-skipulagsgatt",
       "outlet": "Reykjavíkurborg",
       "is_new": false
@@ -600,18 +627,6 @@
       "summary": "20w.webp');\"> Fjölnota íþróttahús í Borganesi tekið í notkun 11. ágúst 2026 Nýtt fjölnota íþróttahús í Borgarnesi hefur nú náð mikilvægum áfanga. Þann 10. ágúst fór fram öryggisúttekt á nýja húsinu sem gekk afar vel og voru engar athugasemdir skráðar. Virkilega ánægjulegt",
       "url": "https://www.istak.is/fjolnota-irottahus-i-borganesi-teki-i-notkun",
       "outlet": "ÍSTAK",
-      "is_new": false
-    },
-    {
-      "id": "news:byggingar-borgarlina:utm-source-rss-utm-medium-rss-utm-campaign-samid-fyrir-taeplega-1-5-milljarda-um",
-      "lane": "news",
-      "category": "project",
-      "title": "Samið fyrir tæplega 1.5 milljarða um stöðvar og steinefni fyrir Borgarlínu",
-      "entity": "byggingar.is / Borgarlína",
-      "date": "2026-08-09",
-      "summary": "Samið fyrir tæplega 1.5 milljarða um stöðvar og steinefni fyrir Borgarlínu Betri samgöngur hafa gert tvo stóra efniskaupasamninga vegna uppbyggingar fyrstu lotu Borgarlínu. Samningarnir ná annars vegar til framleiðslu og afhendingar á 26 Borgarlínustöðvum og hins vegar til kaupa á granít- og basaltsteinum fyrir stöðvar, brautarpalla og aðliggjandi almenning...",
-      "url": "https://byggingar.is/samid-fyrir-taeplega-1-5-milljarda-um-stodvar-og-steinefni-fyrir-borgarlinu/?utm_source=rss&utm_medium=rss&utm_campaign=samid-fyrir-taeplega-1-5-milljarda-um-stodvar-og-steinefni-fyrir-borgarlinu",
-      "outlet": "byggingar.is / Borgarlína",
       "is_new": false
     }
   ]
