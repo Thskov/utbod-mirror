@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated": "2026-09-09T06:30:02Z",
+  "generated": "2026-09-10T06:30:01Z",
   "window": {
-    "from": "2026-08-10",
-    "to": "2026-09-09"
+    "from": "2026-08-11",
+    "to": "2026-09-10"
   },
   "coverage": {
     "sources": [
@@ -206,6 +206,7 @@
         "isavia",
         "fsre",
         "atuarfik inussuk",
+        "first water",
         "fjölnota íþróttahús í borgarnesi",
         "fossvogsbrú",
         "skjólgarður höfn",
@@ -275,12 +276,50 @@
   "sources": {
     "not_covered": {
       "si": "HTTP Error 404: Not Found",
-      "nlsh": "HTTP Error 429: Too Many Requests"
+      "fsre": "HTTP Error 503: Service Unavailable",
+      "nlsh": "HTTP Error 429: Too Many Requests",
+      "javerk": "HTTP Error 404: Not Found"
     },
     "source_candidates": []
   },
-  "count": 29,
+  "count": 25,
   "items": [
+    {
+      "id": "news:vegagerdin:ibuafundur-vegna-fyrirhugadra-framkvaemda-a-vatnsnesi",
+      "lane": "news",
+      "category": "project",
+      "title": "9. september 2026 Íbúafundur vegna fyrirhugaðra framkvæmda á Vatnsnesi",
+      "entity": "Vegagerðin",
+      "date": "2026-09-09",
+      "summary": "__eI5fQ\"> Frétt­ir 9. september 2026 Íbúafundur vegna fyrirhugaðra framkvæmda á Vatnsnesi <img alt=\"\" loading=\"lazy\" width=\"300\" height=\"9999\" decoding=\"async\" data-nimg=\"1\" class=\"NextImage_container__yLPzb\" style=\"color:transparent;height:auto\" srcSet=\"/_next/image?url=%2Fmedia%2F2026%2F09%2Fdsf1317-scaled-aspect-ratio-1600-1100-scaled.jpg&w=400&q=75 1",
+      "url": "https://www.vegagerdin.is/vegagerdin/starfsemi/frettir/ibuafundur-vegna-fyrirhugadra-framkvaemda-a-vatnsnesi",
+      "outlet": "Vegagerðin",
+      "is_new": true
+    },
+    {
+      "id": "news:byggingar:aukin-skattbyrdi-a-ibudaframkvaemdir",
+      "lane": "news",
+      "category": "project",
+      "title": "Aukin skattbyrði á íbúðaframkvæmdir",
+      "entity": "byggingar.is",
+      "date": "2026-09-09",
+      "summary": "\"https://byggingar.is/wp-content/uploads/2026/09/09.09.2026-Aukin-skattbyrdi-a-ibudaframkvaemdir-238x178.jpg\" width=\"238\" height=\"178\" /> Aukin skattbyrði á íbúðaframkvæmdir <i class=\"td-next-prev-icon td-i",
+      "url": "https://byggingar.is/aukin-skattbyrdi-a-ibudaframkvaemdir/",
+      "outlet": "byggingar.is",
+      "is_new": true
+    },
+    {
+      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-borgarverk-faer-993-milljona-jardvinn",
+      "lane": "news",
+      "category": "competitor",
+      "title": "Borgarverk fær 993 milljóna jarðvinnu við nýtt fangelsi á Stóra-Hrauni",
+      "entity": "byggingar.is / niðurstöður útboða",
+      "date": "2026-09-09",
+      "summary": "Borgarverk fær 993 milljóna jarðvinnu við nýtt fangelsi á Stóra-Hrauni Framkvæmdasýslan – Ríkiseignir hefur tekið tilboði Borgarverks ehf. í jarðvinnu vegna nýs öryggisfangelsis sem rísa á að Stóra-Hrauni. Tilboð Borgarverks hljóðar upp á 993.093.626 krónur með virðisaukaskatti og var lægsta gilda tilboðið sem barst í verkið. FSRE birti niðurstöðu útboðsins...",
+      "url": "https://byggingar.is/borgarverk-faer-993-milljona-jardvinnu-vid-nytt-fangelsi-a-stora-hrauni/?utm_source=rss&utm_medium=rss&utm_campaign=borgarverk-faer-993-milljona-jardvinnu-vid-nytt-fangelsi-a-stora-hrauni",
+      "outlet": "byggingar.is / niðurstöður útboða",
+      "is_new": true
+    },
     {
       "id": "news:visir-fiskeldi:betri-gogn-minni-stjornsysla",
       "lane": "news",
@@ -291,19 +330,7 @@
       "summary": "Stafræn þjónusta dregur ekki sjálfkrafa úr stjórnsýslu. Ef starfsmaður þarf enn að opna skjal, lesa tölur og færa þær í annað kerfi hefur eyðublaðið aðeins færst á skjá. Raunverulegur ávinningur kemur þegar upplýsingar eru skráðar einu sinni, einfaldar athuganir fara fram sjálfvirkt og sérfræðingar geta einbeitt sér að málum sem krefjast mats.",
       "url": "https://www.visir.is/g/20262932167d/betri-gogn-minni-stjornsysla-",
       "outlet": "visir.is / Fiskeldi",
-      "is_new": true
-    },
-    {
-      "id": "news:vegagerdin:faekkar-um-einn-i-framkvaemdastjorn-vegagerdarinnar",
-      "lane": "news",
-      "category": "project",
-      "title": "8. september 2026 Fækkar um einn í framkvæmdastjórn Vegagerðarinnar",
-      "entity": "Vegagerðin",
-      "date": "2026-09-08",
-      "summary": "__eI5fQ\"> Frétt­ir 8. september 2026 Fækkar um einn í framkvæmdastjórn Vegagerðarinnar <img alt=\"\" loading=\"lazy\" width=\"300\" height=\"9999\" decoding=\"async\" data-nimg=\"1\" class=\"NextImage_container__yLPzb\" style=\"color:transparent;height:auto\" srcSet=\"/_next/image?url=%2Fmedia%2F2026%2F07%2Fsudurlandsvegur1-vid-baejarhals_2020_baldur-kristjansson-scaled-e17...",
-      "url": "https://www.vegagerdin.is/vegagerdin/starfsemi/frettir/faekkar-um-einn-i-framkvaemdastjorn-vegagerdarinnar",
-      "outlet": "Vegagerðin",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "news:istak:istak-semur-vi-first-water",
@@ -312,46 +339,10 @@
       "title": "Ístak semur við First Water",
       "entity": "ÍSTAK",
       "date": "2026-09-08",
-      "summary": "/8M4A6170-8c710275-1920w.png');\"> Ístak semur við First Water 8. september 2026 Ístak semur við First Water um framkvæmdir við lok uppbyggingar á fyrsta áfanga landeldisstöðvar í Þorlákshöfn Ístak hefur undirritað samning við First Water um umfangsmiklar framkvæmdir á athafn",
+      "summary": "2e/dms3rep/multi/opt/firsrt2-1920w.jpg');\"> Ístak semur við First Water 8. september 2026 Ístak semur við First Water um framkvæmdir við lok uppbyggingar á fyrsta áfanga landeldisstöðvar í Þorlákshöfn Ístak hefur undirritað samning við First Water um umfangsmiklar framkvæmdir á athafn",
       "url": "https://www.istak.is/istak-semur-vi-first-water",
       "outlet": "ÍSTAK",
-      "is_new": true
-    },
-    {
-      "id": "news:byggingar:vinnumenn-festa-kaup-a-flotun",
-      "lane": "news",
-      "category": "project",
-      "title": "Vinnumenn festa kaup á Flotun",
-      "entity": "byggingar.is",
-      "date": "2026-09-08",
-      "summary": "mg-url=\"https://byggingar.is/wp-content/uploads/2026/09/08.09.2026-Vinnumenn-festa-kaup-a-Flotun-238x178.jpg\" width=\"238\" height=\"178\" /> Vinnumenn festa kaup á Flotun <a href=\"https://byggingar.is/undirbuningsframkvaemdir-vid-fljotagong-hefjast-i-haust/\" rel=\"bookmark\" class=\"td-image-wrap \" title=\"Undirbúningsframkvæmdir við Fljótagöng",
-      "url": "https://byggingar.is/vinnumenn-festa-kaup-a-flotun/",
-      "outlet": "byggingar.is",
-      "is_new": true
-    },
-    {
-      "id": "news:byggingar:undirbuningsframkvaemdir-vid-fljotagong-hefjast-i-haust",
-      "lane": "news",
-      "category": "project",
-      "title": "Undirbúningsframkvæmdir við Fljótagöng hefjast í haust",
-      "entity": "byggingar.is",
-      "date": "2026-09-08",
-      "summary": "is/wp-content/uploads/2026/09/08.09.2026-Undirbuningsframkvaemdir-vid-Fljotagong-hefjast-i-haust-238x178.jpg\" width=\"238\" height=\"178\" /> Undirbúningsframkvæmdir við Fljótagöng hefjast í haust <i class=\"td-next-prev-icon td-i",
-      "url": "https://byggingar.is/undirbuningsframkvaemdir-vid-fljotagong-hefjast-i-haust/",
-      "outlet": "byggingar.is",
-      "is_new": true
-    },
-    {
-      "id": "news:byggingar:nytt-ithrottahus-stekkjaskola",
-      "lane": "news",
-      "category": "project",
-      "title": "Nýtt íþróttahús Stekkjaskóla færist nær framkvæmdum á Selfossi",
-      "entity": "byggingar.is",
-      "date": "2026-09-08",
-      "summary": "data-img-url=\"https://byggingar.is/wp-content/uploads/2026/09/08.09.2026-Stekkjaskoli-a-Selfossi-238x178.jpg\" width=\"238\" height=\"178\" /> Nýtt íþróttahús Stekkjaskóla færist nær framkvæmdum á Selfossi <img class=\"entry-thumb\" src=\"\"",
-      "url": "https://byggingar.is/nytt-ithrottahus-stekkjaskola/",
-      "outlet": "byggingar.is",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-cowi-faer-14-9-m-kr-undirbuningsverk",
@@ -372,7 +363,7 @@
       "title": "Borgarspítalareitur í skipulagsgátt",
       "entity": "Reykjavíkurborg",
       "date": "2026-09-02",
-      "summary": "?h=fa7169fd&itok=GJhT_7GX 1920w, /sites/default/files/styles/landscape_4k/public/2026-09/mynd3.jpg?h=fa7169fd&itok=1iQDI593 3840w\" data-sizes=\"auto\" /> 2. september 2026 Borgarspítalareitur í skipulagsgátt <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2023-11/bila1.jpg?h=82f92a78&itok=uwbi9mrq\" a...",
+      "summary": "?h=fa7169fd&itok=GJhT_7GX 1920w, /sites/default/files/styles/landscape_4k/public/2026-09/mynd3.jpg?h=fa7169fd&itok=1iQDI593 3840w\" data-sizes=\"auto\" /> 2. september 2026 Borgarspítalareitur í skipulagsgátt <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2026-09/img_8216_l_small.jpeg.jpg?h=cb5f4eb6&...",
       "url": "https://reykjavik.is/frettir/2026/borgarspitalareitur-i-skipulagsgatt",
       "outlet": "Reykjavíkurborg",
       "is_new": false
@@ -438,25 +429,13 @@
       "is_new": false
     },
     {
-      "id": "news:reykjavik:nytt-gedsvid-nlsh-kynningarfundur-um-skipulag-i-fossvogi",
-      "lane": "news",
-      "category": "investment",
-      "title": "Nýtt geðsvið NLSH - kynningarfundur um skipulag í Fossvogi",
-      "entity": "Reykjavíkurborg",
-      "date": "2026-08-27",
-      "summary": "8ad652c1&itok=L_52Sg7x 1920w, /sites/default/files/styles/landscape_4k/public/2026-08/landspitali.jpg?h=8ad652c1&itok=QqFH2u9s 3840w\" data-sizes=\"auto\" /> 27. ágúst 2026 Nýtt geðsvið NLSH - kynningarfundur um skipulag í Fossvogi <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2026-08/23070401_fly_0...",
-      "url": "https://reykjavik.is/frettir/2026/nytt-gedsvid-nlsh-kynningarfundur-um-skipulag-i-fossvogi",
-      "outlet": "Reykjavíkurborg",
-      "is_new": false
-    },
-    {
       "id": "news:reykjavik:fimmti-fundur-med-thatttakendum-loftslagsborgarsamnings",
       "lane": "news",
       "category": "project",
       "title": "Fimmti fundur með þátttakendum loftslagsborgarsamnings",
       "entity": "Reykjavíkurborg",
       "date": "2026-08-27",
-      "summary": "h=4e7f71fc&itok=cTH-O2b7 1920w, /sites/default/files/styles/landscape_4k/public/2026-08/l1_medium.jpg?h=4e7f71fc&itok=f8-ydNKN 3840w\" data-sizes=\"auto\" /> 27. ágúst 2026 Fimmti fundur með þátttakendum loftslagsborgarsamnings <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2026-08/landspitali.jpg?h=...",
+      "summary": "h=4e7f71fc&itok=cTH-O2b7 1920w, /sites/default/files/styles/landscape_4k/public/2026-08/l1_medium.jpg?h=4e7f71fc&itok=f8-ydNKN 3840w\" data-sizes=\"auto\" /> 27. ágúst 2026 Fimmti fundur með þátttakendum loftslagsborgarsamnings <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2026-08/23070401_fly_075_s...",
       "url": "https://reykjavik.is/frettir/2026/fimmti-fundur-med-thatttakendum-loftslagsborgarsamnings",
       "outlet": "Reykjavíkurborg",
       "is_new": false
@@ -534,18 +513,6 @@
       "is_new": false
     },
     {
-      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-ollum-tilbodum-i-leikvoll-i-nesjahver",
-      "lane": "news",
-      "category": "project",
-      "title": "Öllum tilboðum í leikvöll í Nesjahverfi hafnað – lægsta tilboð nær tvöfalt yfir áætlun",
-      "entity": "byggingar.is / niðurstöður útboða",
-      "date": "2026-08-26",
-      "summary": "Öllum tilboðum í leikvöll í Nesjahverfi hafnað – lægsta tilboð nær tvöfalt yfir áætlun Bæjarráð Sveitarfélagsins Hornafjarðar hefur ákveðið að hafna öllum tilboðum sem bárust í framkvæmdir við nýjan leikvöll í Nesjahverfi. Lægsta tilboðið var tæplega tvöfalt hærra en kostnaðaráætlun sveitarfélagsins. Málið var tekið fyrir á fundi bæjarráðs 25. ágúst. Kostna...",
-      "url": "https://byggingar.is/ollum-tilbodum-i-leikvoll-i-nesjahverfi-hafnad-laegsta-tilbod-naer-tvofalt-yfir-aaetlun/?utm_source=rss&utm_medium=rss&utm_campaign=ollum-tilbodum-i-leikvoll-i-nesjahverfi-hafnad-laegsta-tilbod-naer-tvofalt-yfir-aaetlun",
-      "outlet": "byggingar.is / niðurstöður útboða",
-      "is_new": false
-    },
-    {
       "id": "news:byggingar-borgarlina:utm-source-rss-utm-medium-rss-utm-campaign-fimm-verkfraedistofur-vilja-hanna-3-l",
       "lane": "news",
       "category": "project",
@@ -555,18 +522,6 @@
       "summary": "Fimm verkfræðistofur vilja hanna 3. lotu Borgarlínu og ný gatnamót við Bústaðaveg Fimm verkfræðistofur skiluðu tilboðum í umfangsmikið hönnunarverkefni Vegagerðarinnar vegna endurgerðar gatnamóta Reykjanesbrautar og Bústaðavegar og hluta þriðju lotu Borgarlínu. Verkefnið felur meðal annars í sér hönnun þriggja nýrra brúarmannvirkja og færslu Reykjanesbrauta...",
       "url": "https://byggingar.is/fimm-verkfraedistofur-vilja-hanna-3-lotu-borgarlinu-og-ny-gatnamot-vid-bustadaveg/?utm_source=rss&utm_medium=rss&utm_campaign=fimm-verkfraedistofur-vilja-hanna-3-lotu-borgarlinu-og-ny-gatnamot-vid-bustadaveg",
       "outlet": "byggingar.is / Borgarlína",
-      "is_new": false
-    },
-    {
-      "id": "news:fsre:vidbygging-hjukrunarheimilisins-vid-skjolgard-a-hoefn-i-hornafirdi",
-      "lane": "news",
-      "category": "project",
-      "title": "24. ágúst 2026 Viðbygging hjúkrunarheimilisins við Skjólgarð á Höfn í Hornafirði Viðbygging Hjúkrunarheimilisins við Skjólgarðá á Höfn í Hornafirði var vígð þann ...",
-      "entity": "FSRE",
-      "date": "2026-08-24",
-      "summary": "l=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"32\" d=\"M268 112l144 144-144 144m124-144H100\"> 24. ágúst 2026 Viðbygging hjúkrunarheimilisins við Skjólgarð á Höfn í Hornafirði Viðbygging Hjúkrunarheimilisins við Skjólgarðá á Höfn í Hornafirði var vígð þann ... <d",
-      "url": "https://www.fsre.is/s/fsre/frett/vidbygging-hjukrunarheimilisins-vid-skjolgard-a-hoefn-i-hornafirdi",
-      "outlet": "FSRE",
       "is_new": false
     },
     {
