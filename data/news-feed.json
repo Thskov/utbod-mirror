@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated": "2026-09-10T06:30:01Z",
+  "generated": "2026-09-11T06:30:01Z",
   "window": {
-    "from": "2026-08-11",
-    "to": "2026-09-10"
+    "from": "2026-08-12",
+    "to": "2026-09-11"
   },
   "coverage": {
     "sources": [
@@ -209,6 +209,9 @@
         "first water",
         "fjölnota íþróttahús í borgarnesi",
         "fossvogsbrú",
+        "hamranesskóli",
+        "hringvegur um hornafjörð",
+        "nta25 new terminal apron",
         "skjólgarður höfn",
         "vaðölduver"
       ],
@@ -217,6 +220,9 @@
         "First Water",
         "Fjölnota íþróttahús í Borgarnesi",
         "Fossvogsbrú",
+        "Hamranesskóli",
+        "Hringvegur um Hornafjörð",
+        "NTA25 New terminal apron",
         "Skjólgarður Höfn",
         "Vaðölduver"
       ],
@@ -276,14 +282,49 @@
   "sources": {
     "not_covered": {
       "si": "HTTP Error 404: Not Found",
-      "fsre": "HTTP Error 503: Service Unavailable",
       "nlsh": "HTTP Error 429: Too Many Requests",
       "javerk": "HTTP Error 404: Not Found"
     },
     "source_candidates": []
   },
-  "count": 25,
+  "count": 27,
   "items": [
+    {
+      "id": "news:byggingar:vadolduver-gangsett-i-naestu-viku",
+      "lane": "news",
+      "category": "project",
+      "title": "Vaðölduver gangsett í næstu viku",
+      "entity": "byggingar.is",
+      "date": "2026-09-10",
+      "summary": "rl=\"https://byggingar.is/wp-content/uploads/2026/09/10.09.2026-Vadolduver-gangsett-i-naestu-viku-238x178.jpg\" width=\"238\" height=\"178\" /> Vaðölduver gangsett í næstu viku <i class=\"td-next-prev-icon td-i",
+      "url": "https://byggingar.is/vadolduver-gangsett-i-naestu-viku/",
+      "outlet": "byggingar.is",
+      "is_new": true
+    },
+    {
+      "id": "news:byggingar:framkvaemdir-taka-vid-ser-i-hafnarfirdi",
+      "lane": "news",
+      "category": "project",
+      "title": "Framkvæmdir taka við sér í Hafnarfirði",
+      "entity": "byggingar.is",
+      "date": "2026-09-10",
+      "summary": "tps://byggingar.is/wp-content/uploads/2026/09/10.09.2026-Framkvaemdir-taka-vid-ser-i-Hafnarfirdi-238x178.jpg\" width=\"238\" height=\"178\" /> Framkvæmdir taka við sér í Hafnarfirði <img",
+      "url": "https://byggingar.is/framkvaemdir-taka-vid-ser-i-hafnarfirdi/",
+      "outlet": "byggingar.is",
+      "is_new": true
+    },
+    {
+      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-verkfraedistofa-bjarna-vidarssonar-la",
+      "lane": "news",
+      "category": "project",
+      "title": "Verkfræðistofa Bjarna Viðarssonar lægst í eftirlit með Vífilsstaðavegi",
+      "entity": "byggingar.is / niðurstöður útboða",
+      "date": "2026-09-10",
+      "summary": "Verkfræðistofa Bjarna Viðarssonar lægst í eftirlit með Vífilsstaðavegi Bæjarráð Garðabæjar hefur samþykkt að taka 20,8 milljóna króna tilboði Verkfræðistofu Bjarna Viðarssonar ehf. í eftirlit með umfangsmiklum gatna- og lagnaframkvæmdum á Vífilsstaðavegi. Sex tilboð bárust í eftirlitsverkið og var tilboð Verkfræðistofu Bjarna Viðarssonar það lægsta, 23,1% u...",
+      "url": "https://byggingar.is/verkfraedistofa-bjarna-vidarssonar-laegst-i-eftirlit-med-vifilsstadavegi/?utm_source=rss&utm_medium=rss&utm_campaign=verkfraedistofa-bjarna-vidarssonar-laegst-i-eftirlit-med-vifilsstadavegi",
+      "outlet": "byggingar.is / niðurstöður útboða",
+      "is_new": true
+    },
     {
       "id": "news:vegagerdin:ibuafundur-vegna-fyrirhugadra-framkvaemda-a-vatnsnesi",
       "lane": "news",
@@ -294,19 +335,19 @@
       "summary": "__eI5fQ\"> Frétt­ir 9. september 2026 Íbúafundur vegna fyrirhugaðra framkvæmda á Vatnsnesi <img alt=\"\" loading=\"lazy\" width=\"300\" height=\"9999\" decoding=\"async\" data-nimg=\"1\" class=\"NextImage_container__yLPzb\" style=\"color:transparent;height:auto\" srcSet=\"/_next/image?url=%2Fmedia%2F2026%2F09%2Fdsf1317-scaled-aspect-ratio-1600-1100-scaled.jpg&w=400&q=75 1",
       "url": "https://www.vegagerdin.is/vegagerdin/starfsemi/frettir/ibuafundur-vegna-fyrirhugadra-framkvaemda-a-vatnsnesi",
       "outlet": "Vegagerðin",
-      "is_new": true
+      "is_new": false
     },
     {
-      "id": "news:byggingar:aukin-skattbyrdi-a-ibudaframkvaemdir",
+      "id": "news:isavia:gebr-heinemann-opnar",
       "lane": "news",
       "category": "project",
-      "title": "Aukin skattbyrði á íbúðaframkvæmdir",
-      "entity": "byggingar.is",
+      "title": "→ Lesa meira",
+      "entity": "Isavia",
       "date": "2026-09-09",
-      "summary": "\"https://byggingar.is/wp-content/uploads/2026/09/09.09.2026-Aukin-skattbyrdi-a-ibudaframkvaemdir-238x178.jpg\" width=\"238\" height=\"178\" /> Aukin skattbyrði á íbúðaframkvæmdir <i class=\"td-next-prev-icon td-i",
-      "url": "https://byggingar.is/aukin-skattbyrdi-a-ibudaframkvaemdir/",
-      "outlet": "byggingar.is",
-      "is_new": true
+      "summary": "að fullu fríhafnarverslanirnar á Keflavíkurflugvelli (KEF). Endurhönnunin hefur staðið yfir frá því Gebr. Heinemann tók við rekstri fríhafnarverslananna vorið 2025. Verslanirnar voru opnaðar formlega miðvikudaginn 9. september 2026. → Lesa meira ( <div class=\"GridLayout_gridLayout__item__3GBBE FilterGridControls_filterGridControls__inner__vPzKk GridLayout_w...",
+      "url": "https://www.kefairport.is/frettir/gebr-heinemann-opnar",
+      "outlet": "Isavia",
+      "is_new": false
     },
     {
       "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-borgarverk-faer-993-milljona-jardvinn",
@@ -318,7 +359,7 @@
       "summary": "Borgarverk fær 993 milljóna jarðvinnu við nýtt fangelsi á Stóra-Hrauni Framkvæmdasýslan – Ríkiseignir hefur tekið tilboði Borgarverks ehf. í jarðvinnu vegna nýs öryggisfangelsis sem rísa á að Stóra-Hrauni. Tilboð Borgarverks hljóðar upp á 993.093.626 krónur með virðisaukaskatti og var lægsta gilda tilboðið sem barst í verkið. FSRE birti niðurstöðu útboðsins...",
       "url": "https://byggingar.is/borgarverk-faer-993-milljona-jardvinnu-vid-nytt-fangelsi-a-stora-hrauni/?utm_source=rss&utm_medium=rss&utm_campaign=borgarverk-faer-993-milljona-jardvinnu-vid-nytt-fangelsi-a-stora-hrauni",
       "outlet": "byggingar.is / niðurstöður útboða",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "news:visir-fiskeldi:betri-gogn-minni-stjornsysla",
@@ -363,7 +404,7 @@
       "title": "Borgarspítalareitur í skipulagsgátt",
       "entity": "Reykjavíkurborg",
       "date": "2026-09-02",
-      "summary": "?h=fa7169fd&itok=GJhT_7GX 1920w, /sites/default/files/styles/landscape_4k/public/2026-09/mynd3.jpg?h=fa7169fd&itok=1iQDI593 3840w\" data-sizes=\"auto\" /> 2. september 2026 Borgarspítalareitur í skipulagsgátt <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2026-09/img_8216_l_small.jpeg.jpg?h=cb5f4eb6&...",
+      "summary": "?h=fa7169fd&itok=GJhT_7GX 1920w, /sites/default/files/styles/landscape_4k/public/2026-09/mynd3.jpg?h=fa7169fd&itok=1iQDI593 3840w\" data-sizes=\"auto\" /> 2. september 2026 Borgarspítalareitur í skipulagsgátt <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2023-11/bila1.jpg?h=82f92a78&itok=uwbi9mrq\" a...",
       "url": "https://reykjavik.is/frettir/2026/borgarspitalareitur-i-skipulagsgatt",
       "outlet": "Reykjavíkurborg",
       "is_new": false
@@ -378,6 +419,18 @@
       "summary": "Byrjað að leggja Borgarlínu við Nauthólsveg Framkvæmdir við Borgarlínu eru hafnar við Nauthólsveg og HR. Þar er um að ræða hluta af fyrstu lotu Borgarlínunnar sem felur í sér breytingar á götusniði Nauthólsvegar, Menntavegar og Menntasveigs. Einnig stendur til að breyta gatnamótum og götutengingum en verkinu á að ljúka í júlí 2028. Ekki stendur til […] The...",
       "url": "https://byggingar.is/byrjad-ad-leggja-borgarlinu-vid-nautholsveg/?utm_source=rss&utm_medium=rss&utm_campaign=byrjad-ad-leggja-borgarlinu-vid-nautholsveg",
       "outlet": "byggingar.is / Borgarlína",
+      "is_new": false
+    },
+    {
+      "id": "news:reykjavik:borgarlinuframkvaemdir-hafnar-vid-nautholsveg-hr",
+      "lane": "news",
+      "category": "project",
+      "title": "Borgarlínuframkvæmdir hafnar við Nauthólsveg – HR",
+      "entity": "Reykjavíkurborg",
+      "date": "2026-09-01",
+      "summary": "f&itok=lgVpWBVR 1920w, /sites/default/files/styles/landscape_4k/public/2026-09/1674326bs_small.jpg?h=3807a4ff&itok=q4Pl2cGq 3840w\" data-sizes=\"auto\" /> 1. september 2026 Borgarlínuframkvæmdir hafnar við Nauthólsveg – HR <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2026-08/borgar.png.jpg?h=18da11...",
+      "url": "https://reykjavik.is/frettir/2026/borgarlinuframkvaemdir-hafnar-vid-nautholsveg-hr",
+      "outlet": "Reykjavíkurborg",
       "is_new": false
     },
     {
@@ -426,18 +479,6 @@
       "summary": "K16 ehf. lægst í þakendurnýjun Háskólans á Akureyri – tvö tilboð bárust K16 ehf. átti lægsta tilboðið í þakendurnýjun við Háskólann á Akureyri þegar tilboð í verkið voru opnuð hjá Framkvæmdasýslunni – Ríkiseignum (FSRE) þann 20.08.2026 Tilboð K16 hljóðaði upp á tæpar 64 milljónir króna. Tvö fyrirtæki lögðu fram tilboð í verkefnið „Háskólinn á Akureyri […] T...",
       "url": "https://byggingar.is/k16-ehf-laegst-i-thakendurnyjun-haskolans-a-akureyri-tvo-tilbod-barust/?utm_source=rss&utm_medium=rss&utm_campaign=k16-ehf-laegst-i-thakendurnyjun-haskolans-a-akureyri-tvo-tilbod-barust",
       "outlet": "byggingar.is / niðurstöður útboða",
-      "is_new": false
-    },
-    {
-      "id": "news:reykjavik:fimmti-fundur-med-thatttakendum-loftslagsborgarsamnings",
-      "lane": "news",
-      "category": "project",
-      "title": "Fimmti fundur með þátttakendum loftslagsborgarsamnings",
-      "entity": "Reykjavíkurborg",
-      "date": "2026-08-27",
-      "summary": "h=4e7f71fc&itok=cTH-O2b7 1920w, /sites/default/files/styles/landscape_4k/public/2026-08/l1_medium.jpg?h=4e7f71fc&itok=f8-ydNKN 3840w\" data-sizes=\"auto\" /> 27. ágúst 2026 Fimmti fundur með þátttakendum loftslagsborgarsamnings <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2026-08/23070401_fly_075_s...",
-      "url": "https://reykjavik.is/frettir/2026/fimmti-fundur-med-thatttakendum-loftslagsborgarsamnings",
-      "outlet": "Reykjavíkurborg",
       "is_new": false
     },
     {
@@ -501,18 +542,6 @@
       "is_new": false
     },
     {
-      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-rosaberg-ehf-laegst-i-saebraut-a-hofn",
-      "lane": "news",
-      "category": "project",
-      "title": "Rósaberg ehf. lægst í Sæbraut á Höfn – 30% undir kostnaðaráætlun",
-      "entity": "byggingar.is / niðurstöður útboða",
-      "date": "2026-08-26",
-      "summary": "Rósaberg ehf. lægst í Sæbraut á Höfn – 30% undir kostnaðaráætlun Bæjarráð Hornafjarðar hefur samþykkt að ganga til samninga við Rósaberg ehf. um jarðvinnu og lagnir við Sæbraut á Höfn. Tilboð félagsins hljóðaði upp á 5.209.200 krónur og var það lægsta af fimm tilboðum sem bárust í verkið. Kostnaðaráætlun sveitarfélagsins nam 7.441.500 krónum, þannig að […]...",
-      "url": "https://byggingar.is/rosaberg-ehf-laegst-i-saebraut-a-hofn-30-undir-kostnadaraaetlun/?utm_source=rss&utm_medium=rss&utm_campaign=rosaberg-ehf-laegst-i-saebraut-a-hofn-30-undir-kostnadaraaetlun",
-      "outlet": "byggingar.is / niðurstöður útboða",
-      "is_new": false
-    },
-    {
       "id": "news:byggingar-borgarlina:utm-source-rss-utm-medium-rss-utm-campaign-fimm-verkfraedistofur-vilja-hanna-3-l",
       "lane": "news",
       "category": "project",
@@ -522,6 +551,18 @@
       "summary": "Fimm verkfræðistofur vilja hanna 3. lotu Borgarlínu og ný gatnamót við Bústaðaveg Fimm verkfræðistofur skiluðu tilboðum í umfangsmikið hönnunarverkefni Vegagerðarinnar vegna endurgerðar gatnamóta Reykjanesbrautar og Bústaðavegar og hluta þriðju lotu Borgarlínu. Verkefnið felur meðal annars í sér hönnun þriggja nýrra brúarmannvirkja og færslu Reykjanesbrauta...",
       "url": "https://byggingar.is/fimm-verkfraedistofur-vilja-hanna-3-lotu-borgarlinu-og-ny-gatnamot-vid-bustadaveg/?utm_source=rss&utm_medium=rss&utm_campaign=fimm-verkfraedistofur-vilja-hanna-3-lotu-borgarlinu-og-ny-gatnamot-vid-bustadaveg",
       "outlet": "byggingar.is / Borgarlína",
+      "is_new": false
+    },
+    {
+      "id": "news:fsre:vidbygging-hjukrunarheimilisins-vid-skjolgard-a-hoefn-i-hornafirdi",
+      "lane": "news",
+      "category": "project",
+      "title": "24. ágúst 2026 Viðbygging hjúkrunarheimilisins við Skjólgarð á Höfn í Hornafirði Viðbygging Hjúkrunarheimilisins við Skjólgarðá á Höfn í Hornafirði var vígð þann ...",
+      "entity": "FSRE",
+      "date": "2026-08-24",
+      "summary": "l=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"32\" d=\"M268 112l144 144-144 144m124-144H100\"> 24. ágúst 2026 Viðbygging hjúkrunarheimilisins við Skjólgarð á Höfn í Hornafirði Viðbygging Hjúkrunarheimilisins við Skjólgarðá á Höfn í Hornafirði var vígð þann ... <d",
+      "url": "https://www.fsre.is/s/fsre/frett/vidbygging-hjukrunarheimilisins-vid-skjolgard-a-hoefn-i-hornafirdi",
+      "outlet": "FSRE",
       "is_new": false
     },
     {
@@ -570,18 +611,6 @@
       "summary": "k=Q7asxZ-u 1920w, /sites/default/files/styles/landscape_4k/public/2026-08/24042402_honnunar_355_small.jpg?h=34e43602&itok=5jXndf3i 3840w\" data-sizes=\"auto\" /> 13. ágúst 2026 Götumarkaður í Listasafni Reykjavíkur Hafnarhúsi <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2023-11/bila1.jpg?h=82f92a78...",
       "url": "https://reykjavik.is/frettir/2026/gotumarkadur-i-listasafni-reykjavikur-hafnarhusi",
       "outlet": "Reykjavíkurborg",
-      "is_new": false
-    },
-    {
-      "id": "news:istak:fjolnota-irottahus-i-borganesi-teki-i-notkun",
-      "lane": "news",
-      "category": "istak",
-      "title": "Fjölnota íþróttahús í Borganesi tekið í notkun",
-      "entity": "ÍSTAK",
-      "date": "2026-08-11",
-      "summary": "20w.webp');\"> Fjölnota íþróttahús í Borganesi tekið í notkun 11. ágúst 2026 Nýtt fjölnota íþróttahús í Borgarnesi hefur nú náð mikilvægum áfanga. Þann 10. ágúst fór fram öryggisúttekt á nýja húsinu sem gekk afar vel og voru engar athugasemdir skráðar. Virkilega ánægjulegt",
-      "url": "https://www.istak.is/fjolnota-irottahus-i-borganesi-teki-i-notkun",
-      "outlet": "ÍSTAK",
       "is_new": false
     }
   ]
