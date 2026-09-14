@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated": "2026-09-11T07:00:14Z",
-  "generated_at": "2026-09-11T07:00:14Z",
+  "generated": "2026-09-14T07:00:13Z",
+  "generated_at": "2026-09-14T07:00:13Z",
   "sources": {
     "covered": [
       {
@@ -39,9 +39,24 @@
     ],
     "not_covered": [
       {
+        "source": "isavia-intend",
+        "url": "https://utbod.isavia.is/aspx/Tenders/Current",
+        "error": "Expecting value: line 1 column 1 (char 0)"
+      },
+      {
+        "source": "rarik-intend",
+        "url": "https://utbod.rarik.is/aspx/Tenders/Current",
+        "error": "Expecting value: line 1 column 1 (char 0)"
+      },
+      {
+        "source": "hsveitur-intend",
+        "url": "https://utbod.hsveitur.is/aspx/Tenders/Current",
+        "error": "Expecting value: line 1 column 1 (char 0)"
+      },
+      {
         "source": "ted",
         "url": "https://api.ted.europa.eu/v3/notices/search",
-        "reason": "HTTP Error 429: Too Many Requests"
+        "reason": "dropped 78 notices: expired deadline"
       },
       {
         "source": "nlsh",
@@ -352,30 +367,72 @@
         "name": "Hvalfjarðarsveit",
         "suggested_feed": "tenders_all",
         "suggested_lane": "tender",
-        "evidence_url": "https://www.utbodsvefur.is/leikskolinn-skyjaborg/",
-        "seen_count": 2,
+        "evidence_url": "https://ted.europa.eu/en/notice/-/detail/598894-2026",
+        "seen_count": 1,
         "first_seen": "2026-08-31T07:00:13Z",
-        "last_seen": "2026-09-10T07:00:14Z",
+        "last_seen": "2026-09-14T07:00:13Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       }
     ]
   },
-  "count": 12,
+  "count": 11,
   "items": [
     {
-      "reference": "U25032",
-      "project": "U25032 Keflavík Airport Unified Security Checkpoint Solution",
-      "buyer": "Isavia",
-      "notice_type": "Works",
-      "deadline": "21.09.2026 kl. 12:00",
-      "deadline_local": "2026-09-21T12:00:00+00:00",
-      "deadline_utc": "2026-09-21T12:00:00+00:00",
-      "posted_at": null,
+      "reference": "576364-2026",
+      "project": "Hringvegur (1) around Kjalarnes, 2. áfangi, Vallá – Hvalfjörður",
+      "buyer": "Vegagerðin",
+      "notice_type": "cn-standard",
+      "deadline": "15.09.2026 kl. 14:00",
+      "deadline_local": "2026-09-15T14:00:58+00:00",
+      "deadline_utc": "2026-09-15T14:00:58+00:00",
+      "posted_at": "2026-08-20",
       "modified_at": null,
-      "url": "https://utbod.isavia.is/aspx/ProjectManage/380",
-      "summary": "Isavia ohf. is conducting a procurement on behalf of Isavia ohf. and its subsidiaries for a complete passenger security checkpoint solution at Keflavík Airport. The scope includes the supply, installation, integration, commissioning, testing, handover, maintenance and support of airport security screening equipment, related software, interfaces and IT infrastructure, including CT security scanners for cabin baggage…",
-      "source": "isavia-intend"
+      "url": "https://ted.europa.eu/en/notice/-/detail/576364-2026",
+      "summary": "TED open Iceland construction contract notice; CPV 45233120, 45233120.",
+      "source": "ted"
+    },
+    {
+      "reference": "497272-2026",
+      "project": "Búðafossvegur (23), Þjórsárdalsvegur - Landvegur",
+      "buyer": "Vegagerðin",
+      "notice_type": "cn-standard",
+      "deadline": "22.09.2026 kl. 14:00",
+      "deadline_local": "2026-09-22T14:00:58+00:00",
+      "deadline_utc": "2026-09-22T14:00:58+00:00",
+      "posted_at": "2026-07-17",
+      "modified_at": null,
+      "url": "https://ted.europa.eu/en/notice/-/detail/497272-2026",
+      "summary": "TED open Iceland construction contract notice; CPV 45233120, 45233120.",
+      "source": "ted"
+    },
+    {
+      "reference": "593086-2026",
+      "project": "Laboratory building - Interior Finish",
+      "buyer": "Nýr Landspítali (NLSH ohf.)",
+      "notice_type": "cn-standard",
+      "deadline": "24.09.2026 kl. 13:00",
+      "deadline_local": "2026-09-24T13:00:58+00:00",
+      "deadline_utc": "2026-09-24T13:00:58+00:00",
+      "posted_at": "2026-08-27",
+      "modified_at": null,
+      "url": "https://ted.europa.eu/en/notice/-/detail/593086-2026",
+      "summary": "TED open Iceland construction contract notice; CPV 45210000, 45210000.",
+      "source": "ted"
+    },
+    {
+      "reference": "590432-2026",
+      "project": "Nursing home in Vetrarmyri in Gardabaer",
+      "buyer": "Garðabær",
+      "notice_type": "cn-standard",
+      "deadline": "28.09.2026 kl. 14:00",
+      "deadline_local": "2026-09-28T14:00:00+00:00",
+      "deadline_utc": "2026-09-28T14:00:00+00:00",
+      "posted_at": "2026-08-27",
+      "modified_at": null,
+      "url": "https://ted.europa.eu/en/notice/-/detail/590432-2026",
+      "summary": "TED open Iceland construction contract notice; CPV 45000000, 45000000, 70200000.",
+      "source": "ted"
     },
     {
       "reference": "ONGK-2022-01",
@@ -392,6 +449,20 @@
       "source": "or-intend"
     },
     {
+      "reference": "608884-2026",
+      "project": "Vestfjarðarvegur (60) around Gufudalssveit Skálanes - Hallsteinsnes",
+      "buyer": "Vegagerðin",
+      "notice_type": "cn-standard",
+      "deadline": "29.09.2026 kl. 14:00",
+      "deadline_local": "2026-09-29T14:00:58+00:00",
+      "deadline_utc": "2026-09-29T14:00:58+00:00",
+      "posted_at": "2026-09-03",
+      "modified_at": null,
+      "url": "https://ted.europa.eu/en/notice/-/detail/608884-2026",
+      "summary": "TED open Iceland construction contract notice; CPV 45221100, 45221100.",
+      "source": "ted"
+    },
+    {
       "reference": "VEU-2606-0052",
       "project": "VEU-2606-0052 High Voltage Switchgear and accessories",
       "buyer": "Veitur ohf.",
@@ -406,32 +477,32 @@
       "source": "or-intend"
     },
     {
-      "reference": "HSV-VF030208802",
-      "project": "HSV-VF030208802 - POWER TRANSFORMER 60 MVA 66/33/ (11) kV",
-      "buyer": "HS Veitur",
-      "notice_type": "Supplies",
-      "deadline": "07.10.2026 kl. 10:00",
-      "deadline_local": "2026-10-07T10:00:00+00:00",
-      "deadline_utc": "2026-10-07T10:00:00+00:00",
-      "posted_at": null,
+      "reference": "598894-2026",
+      "project": "Skýjaborg - kindergarten",
+      "buyer": "Hvalfjarðarsveit",
+      "notice_type": "cn-standard",
+      "deadline": "06.10.2026 kl. 15:00",
+      "deadline_local": "2026-10-06T15:00:00+00:00",
+      "deadline_utc": "2026-10-06T15:00:00+00:00",
+      "posted_at": "2026-08-31",
       "modified_at": null,
-      "url": "https://utbod.hsveitur.is/aspx/ProjectManage/8",
-      "summary": "The Tender involves production and DAP delivery of one (1) power transformer for a 66 kV substation in Vestmannaeyjar, Iceland.",
-      "source": "hsveitur-intend"
+      "url": "https://ted.europa.eu/en/notice/-/detail/598894-2026",
+      "summary": "TED open Iceland construction contract notice; CPV 45214100, 45214100.",
+      "source": "ted"
     },
     {
-      "reference": "U25033",
-      "project": "Air Traffic Management System Procurement",
-      "buyer": "Isavia ANS",
-      "notice_type": "Services",
-      "deadline": "19.10.2026 kl. 12:00",
-      "deadline_local": "2026-10-19T12:00:00+00:00",
-      "deadline_utc": "2026-10-19T12:00:00+00:00",
-      "posted_at": "2025-12-08T00:00:00+00:00",
+      "reference": "485396-2026",
+      "project": "Nýtt hjúkrunarheimili í Mosfellsbæ - leiguleið",
+      "buyer": "Framkvæmdasýslan ríkiseignir (FSRE)",
+      "notice_type": "cn-standard",
+      "deadline": "09.11.2026 kl. 12:00",
+      "deadline_local": "2026-11-09T12:00:58+00:00",
+      "deadline_utc": "2026-11-09T12:00:58+00:00",
+      "posted_at": "2026-07-14",
       "modified_at": null,
-      "url": "https://utbod.isavia.is/aspx/ProjectManage/347",
-      "summary": "Isavia ANS ehf. (the “Purchaser”) is a subsidiary of Isavia ohf. and is Iceland’s air navigation service provider. The Purchaser recognises the need to enhance its ATM and ANS through significant technological and strategic improvements to meet future traffic demands and to ensure it can continue its alignment with the NAT Vision and the ICAO’s Global Air Traffic Management Operational Concept. The Purchaser is seek…",
-      "source": "isavia-intend"
+      "url": "https://ted.europa.eu/en/notice/-/detail/485396-2026",
+      "summary": "TED open Iceland construction contract notice; CPV 45000000, 45215000, 70000000, 70310000, 45000000, 45215000, 70000000, 70310000.",
+      "source": "ted"
     },
     {
       "reference": "VEGK-2024-01",
@@ -448,34 +519,6 @@
       "source": "or-intend"
     },
     {
-      "reference": "U22016",
-      "project": "Gagnvirkt innkaupakerfi - Ökutæki (DPS Vehicles )",
-      "buyer": "Isavia",
-      "notice_type": "Supplies",
-      "deadline": "30.01.2030 kl. 23:59",
-      "deadline_local": "2030-01-30T23:59:00+00:00",
-      "deadline_utc": "2030-01-30T23:59:00+00:00",
-      "posted_at": null,
-      "modified_at": null,
-      "url": "https://utbod.isavia.is/aspx/ProjectManage/209",
-      "summary": "Isavia ásamt dótturfélögum óskar eftir aðilum til þátttöku í gagnvirku innkaupakerfi vegna kaupa á nýjum ökutækjum. Gagnvirkt innkaupakerfi er tiltekið fyrirkomulag þar sem stuðst er við rafrænar aðferðir við innkaup sem eru framkvæmd með lokuðum útboðum. Bjóðendur sem fullnægt hafa vissum hæfisskilyrðum eiga rétt á aðild að gagnvirku innkaupkerfi.",
-      "source": "isavia-intend"
-    },
-    {
-      "reference": "U23036",
-      "project": "Gagnvirkt innkaupakerfi LED skjáir (DPS LED Screen solutions)",
-      "buyer": "Isavia",
-      "notice_type": "Supplies",
-      "deadline": "30.01.2030 kl. 23:59",
-      "deadline_local": "2030-01-30T23:59:00+00:00",
-      "deadline_utc": "2030-01-30T23:59:00+00:00",
-      "posted_at": "2023-07-27T23:00:00+00:00",
-      "modified_at": null,
-      "url": "https://utbod.isavia.is/aspx/ProjectManage/253",
-      "summary": "Isavia ohf. ásamt dótturfélögum óskar eftir aðilum til þátttöku í gagnvirku innkaupakerfi vegna kaupa á LED skjálausnum. Gagnvirkt innkaupakerfi er tiltekið fyrirkomulag þar sem óskað er eftir tilboðum í LED skjálausnir, með rafrænum hætti á grundvelli þessara útboðsskilmála og kröfum þeim sem fram koma í lokuðu útboði hverju sinni. Fyrirkomulagið er virkt í þeim skilningi að á meðan gagnvirka innkaupakerfið er í gi…",
-      "source": "isavia-intend"
-    },
-    {
       "reference": "ORGK-2025-01",
       "project": "ORGK-2025-01 Laus húsgögn fyrir höfuðstöðvar Orkuveitunnar",
       "buyer": "Orkuveita Reykjavíkur",
@@ -488,48 +531,6 @@
       "url": "https://in-tendhost.co.uk/reykjavikenergy/aspx/ProjectManage/580",
       "summary": "Kaupandi óskar eftir þátttakendum í gagnvirkt innkaupakerfi (GIK) fyrir laus húsgögn fyrir höfuðstöðvar Orkuveitunnar í samræmi við útboðsgögn. Umsóknir opnast í útboðskerfi kaupanda um leið og þær berast og verða þær yfirfarnar af kaupanda eins fljótt og auðið er eftir afhendingu frá umsækjanda. Umsækjendur eru hvattir til að senda inn umsóknir eins fljótt og auðið er eftir birtingu útboðstilkynningar til að tryggj…",
       "source": "or-intend"
-    },
-    {
-      "reference": "RARIK 25040",
-      "project": "25040 GAGNVIRKT INNKAUPAKERFI - RÁÐGJAFAR",
-      "buyer": "RARIK",
-      "notice_type": "$prjTenderProcessSupplies",
-      "deadline": "31.12.2033 kl. 12:00",
-      "deadline_local": "2033-12-31T12:00:00+00:00",
-      "deadline_utc": "2033-12-31T12:00:00+00:00",
-      "posted_at": null,
-      "modified_at": null,
-      "url": "https://utbod.rarik.is/aspx/ProjectManage/54",
-      "summary": "Rarik ohf., kt. 520269-2669, (hér eftir nefnt „kaupandi“), óskar eftir aðilum til þátttöku í samningi um ráðgjafarþjónustu sem fram fer í gegnum gagnvirkt innkaupakerfi eins og það er skilgreint í 55. gr. reglugerðar nr. 340/2017",
-      "source": "rarik-intend"
-    },
-    {
-      "reference": "U24020",
-      "project": "DPS for Runway De-Icing Chemicals",
-      "buyer": "Isavia",
-      "notice_type": "Supplies",
-      "deadline": "31.12.2039 kl. 23:59",
-      "deadline_local": "2039-12-31T23:59:00+00:00",
-      "deadline_utc": "2039-12-31T23:59:00+00:00",
-      "posted_at": "2024-07-04T23:00:00+00:00",
-      "modified_at": null,
-      "url": "https://utbod.isavia.is/aspx/ProjectManage/296",
-      "summary": "The Purchaser intends to establish a Dynamic Purchasing System (“DPS”) of qualified suppliers for the supply of runway de-icing chemicals, both solid and liquid. An example of technical requirements for the materials can be found in chapter 5. Interested suppliers are invited to send a request to participate in the system. While the DPS is in effect, it is open to all suppliers that meet the conditions for participa…",
-      "source": "isavia-intend"
-    },
-    {
-      "reference": "U25031",
-      "project": "DPS- Airfield paint; Runways, Taxiways and Aprons, and retro reflective beads",
-      "buyer": "Isavia",
-      "notice_type": "Supplies",
-      "deadline": "31.01.2040 kl. 23:59",
-      "deadline_local": "2040-01-31T23:59:00+00:00",
-      "deadline_utc": "2040-01-31T23:59:00+00:00",
-      "posted_at": "2025-12-23T00:00:00+00:00",
-      "modified_at": null,
-      "url": "https://utbod.isavia.is/aspx/ProjectManage/351",
-      "summary": "Isavia ohf., reg. no. 550210-0370 and Isavia Innanlandsflugvellir ehf., reg. no. 591219-1380 (“Purchaser” or “Isavia”) is a state-owned limited company. Isavia, along with its subsidiaries, operates and maintains all airports in Iceland, and it also operates air traffic control in the Icelandic aviation area. The Purchaser intends to establish a Dynamic Purchasing System (“DPS”) of qualified suppliers for the supply…",
-      "source": "isavia-intend"
     }
   ]
 }
