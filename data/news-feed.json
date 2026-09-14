@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated": "2026-09-11T06:30:01Z",
+  "generated": "2026-09-14T06:30:01Z",
   "window": {
-    "from": "2026-08-12",
-    "to": "2026-09-11"
+    "from": "2026-08-15",
+    "to": "2026-09-14"
   },
   "coverage": {
     "sources": [
@@ -211,6 +211,7 @@
         "fossvogsbrú",
         "hamranesskóli",
         "hringvegur um hornafjörð",
+        "hvalárvirkjun",
         "nta25 new terminal apron",
         "skjólgarður höfn",
         "vaðölduver"
@@ -222,6 +223,7 @@
         "Fossvogsbrú",
         "Hamranesskóli",
         "Hringvegur um Hornafjörð",
+        "Hvalárvirkjun",
         "NTA25 New terminal apron",
         "Skjólgarður Höfn",
         "Vaðölduver"
@@ -287,31 +289,91 @@
     },
     "source_candidates": []
   },
-  "count": 27,
+  "count": 28,
   "items": [
     {
-      "id": "news:byggingar:vadolduver-gangsett-i-naestu-viku",
+      "id": "news:visir-fiskeldi:thetta-er-fullkomid-afall",
       "lane": "news",
-      "category": "project",
-      "title": "Vaðölduver gangsett í næstu viku",
-      "entity": "byggingar.is",
-      "date": "2026-09-10",
-      "summary": "rl=\"https://byggingar.is/wp-content/uploads/2026/09/10.09.2026-Vadolduver-gangsett-i-naestu-viku-238x178.jpg\" width=\"238\" height=\"178\" /> Vaðölduver gangsett í næstu viku <i class=\"td-next-prev-icon td-i",
-      "url": "https://byggingar.is/vadolduver-gangsett-i-naestu-viku/",
-      "outlet": "byggingar.is",
-      "is_new": true
+      "category": "industrial-demand",
+      "title": "„Þetta er full­komið á­fall“",
+      "entity": "visir.is / Fiskeldi",
+      "date": "2026-09-12",
+      "summary": "Félag um vernd Seyðisfjarðar er hvergi nærri af baki dottið þrátt fyrir að Kaldvík AS hafi fengið rekstrar-og starfsleyfi í gær til fiskeldis í firðinum. Formaður segir undirskriftarsöfnun hafa sýnt fram á að meirihluti bæjarbúa vilji fara aðrar leiðir til atvinnuuppbyggingar í firðinum.",
+      "url": "https://www.visir.is/g/20262933843d/-thetta-er-fullkomid-afall-",
+      "outlet": "visir.is / Fiskeldi",
+      "is_new": false
     },
     {
-      "id": "news:byggingar:framkvaemdir-taka-vid-ser-i-hafnarfirdi",
+      "id": "news:visir-fiskeldi:hvad-gerir-sveitarstjorn-mulathings-nu",
+      "lane": "news",
+      "category": "industrial-demand",
+      "title": "Hvað gerir sveitar­stjórn Múlaþings nú?",
+      "entity": "visir.is / Fiskeldi",
+      "date": "2026-09-12",
+      "summary": "Er það táknrænt eða tilviljun að ríkisvaldið tók hafnarsvæði Seyðisfjarðar, siglingaleið að samevrópskri ferjuhöfn undir mengandi stóriðju þann 11.09.2026?",
+      "url": "https://www.visir.is/g/20262933833d/hvad-gerir-sveitarstjorn-mulathings-nu-",
+      "outlet": "visir.is / Fiskeldi",
+      "is_new": false
+    },
+    {
+      "id": "news:byggingar:storar-breytingar-bodadar-a-krofum-um-burdarthol-mannvirkja",
       "lane": "news",
       "category": "project",
-      "title": "Framkvæmdir taka við sér í Hafnarfirði",
+      "title": "Stórar breytingar boðaðar á kröfum um burðarþol mannvirkja",
       "entity": "byggingar.is",
-      "date": "2026-09-10",
-      "summary": "tps://byggingar.is/wp-content/uploads/2026/09/10.09.2026-Framkvaemdir-taka-vid-ser-i-Hafnarfirdi-238x178.jpg\" width=\"238\" height=\"178\" /> Framkvæmdir taka við sér í Hafnarfirði <img",
-      "url": "https://byggingar.is/framkvaemdir-taka-vid-ser-i-hafnarfirdi/",
+      "date": "2026-09-12",
+      "summary": "p-content/uploads/2026/09/12.09.2026-Storar-breytingar-bodadar-a-krofum-um-burdarthol-mannvirkja-238x178.jpg\" width=\"238\" height=\"178\" /> Stórar breytingar boðaðar á kröfum um burðarþol mannvirkja <a href=\"https://byggingar.is/enn-eitt-felag-musks-metid-a-tugmilljarda-dala/\" rel=\"bookmark\" class=\"td-image-wrap \" title=\"Enn eitt félag Musks metið á tug­millj...",
+      "url": "https://byggingar.is/storar-breytingar-bodadar-a-krofum-um-burdarthol-mannvirkja/",
       "outlet": "byggingar.is",
-      "is_new": true
+      "is_new": false
+    },
+    {
+      "id": "news:byggingar:ny-flodljos-a-hasteinsvelli-i-vestmannaeyjum",
+      "lane": "news",
+      "category": "project",
+      "title": "Ný flóðljós á Hásteinsvelli í Vestmannaeyjum",
+      "entity": "byggingar.is",
+      "date": "2026-09-12",
+      "summary": "yggingar.is/wp-content/uploads/2026/09/12.09.2026-Ny-flodljos-a-Hasteinsvelli-i-Vestmannaeyjum-a-238x178.jpg\" width=\"238\" height=\"178\" /> Ný flóðljós á Hásteinsvelli í Vestmannaeyjum <a href=\"https://byggingar.is/storar-breytingar-bodadar-a-krofum-um-burdarthol-mannvirkja/\" rel=\"bookmark\" class=\"td-image-wrap \" title=\"Stórar breytingar boðaðar á kröfum",
+      "url": "https://byggingar.is/ny-flodljos-a-hasteinsvelli-i-vestmannaeyjum/",
+      "outlet": "byggingar.is",
+      "is_new": false
+    },
+    {
+      "id": "news:byggingar:enn-eitt-felag-musks-metid-a-tugmilljarda-dala",
+      "lane": "news",
+      "category": "project",
+      "title": "Enn eitt félag Musks metið á tug­milljarða dala",
+      "entity": "byggingar.is",
+      "date": "2026-09-12",
+      "summary": "ggingar.is/wp-content/uploads/2026/09/12.09.2026-Enn-eitt-felag-Musks-metid-a-tug­milljarda-dala-238x178.jpg\" width=\"238\" height=\"178\" /> Enn eitt félag Musks metið á tug­milljarða dala <i class=\"td-next-prev-icon td-i",
+      "url": "https://byggingar.is/enn-eitt-felag-musks-metid-a-tugmilljarda-dala/",
+      "outlet": "byggingar.is",
+      "is_new": false
+    },
+    {
+      "id": "news:visir-fiskeldi:kaldvik-faer-starfs-og-rekstrarleyfi-i-seydisfirdi",
+      "lane": "news",
+      "category": "industrial-demand",
+      "title": "Kaldvík fær starfs- og rekstrar­leyfi í Seyðis­firði",
+      "entity": "visir.is / Fiskeldi",
+      "date": "2026-09-11",
+      "summary": "Félagið Kaldvík AS hefur fengið rekstrar- og starfsleyfi til að ala tíu þúsund tonn af laxi frá Matvælastofnun og Umhverfis- og orkustofnun í Seyðisfirði. Í tilkynningu til Kauphallar segir forstjóri það mikilvægan áfanga.",
+      "url": "https://www.visir.is/g/20262933510d/kaldvik-faer-starfs-og-rekstrarleyfi-i-seydisfirdi",
+      "outlet": "visir.is / Fiskeldi",
+      "is_new": false
+    },
+    {
+      "id": "news:vegagerdin:aukning-umferdar-a-hofudborgarsvaedinu",
+      "lane": "news",
+      "category": "project",
+      "title": "11. september 2026 Aukning umferðar á höfuðborgarsvæðinu",
+      "entity": "Vegagerðin",
+      "date": "2026-09-11",
+      "summary": "__eI5fQ\"> Frétt­ir 11. september 2026 Aukning umferðar á höfuðborgarsvæðinu <img alt=\"\" loading=\"lazy\" width=\"300\" height=\"9999\" decoding=\"async\" data-nimg=\"1\" class=\"NextImage_container__yLPzb\" style=\"color:transparent;height:auto\" srcSet=\"/_next/image?url=%2Fmedia%2F2026%2F09%2Fframkvaemdasvaedi-aspect-ratio-1600-1100.png&w=40",
+      "url": "https://www.vegagerdin.is/vegagerdin/starfsemi/frettir/aukning-umferdar-a-hofudborgarsvaedinu",
+      "outlet": "Vegagerðin",
+      "is_new": false
     },
     {
       "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-verkfraedistofa-bjarna-vidarssonar-la",
@@ -323,30 +385,6 @@
       "summary": "Verkfræðistofa Bjarna Viðarssonar lægst í eftirlit með Vífilsstaðavegi Bæjarráð Garðabæjar hefur samþykkt að taka 20,8 milljóna króna tilboði Verkfræðistofu Bjarna Viðarssonar ehf. í eftirlit með umfangsmiklum gatna- og lagnaframkvæmdum á Vífilsstaðavegi. Sex tilboð bárust í eftirlitsverkið og var tilboð Verkfræðistofu Bjarna Viðarssonar það lægsta, 23,1% u...",
       "url": "https://byggingar.is/verkfraedistofa-bjarna-vidarssonar-laegst-i-eftirlit-med-vifilsstadavegi/?utm_source=rss&utm_medium=rss&utm_campaign=verkfraedistofa-bjarna-vidarssonar-laegst-i-eftirlit-med-vifilsstadavegi",
       "outlet": "byggingar.is / niðurstöður útboða",
-      "is_new": true
-    },
-    {
-      "id": "news:vegagerdin:ibuafundur-vegna-fyrirhugadra-framkvaemda-a-vatnsnesi",
-      "lane": "news",
-      "category": "project",
-      "title": "9. september 2026 Íbúafundur vegna fyrirhugaðra framkvæmda á Vatnsnesi",
-      "entity": "Vegagerðin",
-      "date": "2026-09-09",
-      "summary": "__eI5fQ\"> Frétt­ir 9. september 2026 Íbúafundur vegna fyrirhugaðra framkvæmda á Vatnsnesi <img alt=\"\" loading=\"lazy\" width=\"300\" height=\"9999\" decoding=\"async\" data-nimg=\"1\" class=\"NextImage_container__yLPzb\" style=\"color:transparent;height:auto\" srcSet=\"/_next/image?url=%2Fmedia%2F2026%2F09%2Fdsf1317-scaled-aspect-ratio-1600-1100-scaled.jpg&w=400&q=75 1",
-      "url": "https://www.vegagerdin.is/vegagerdin/starfsemi/frettir/ibuafundur-vegna-fyrirhugadra-framkvaemda-a-vatnsnesi",
-      "outlet": "Vegagerðin",
-      "is_new": false
-    },
-    {
-      "id": "news:isavia:gebr-heinemann-opnar",
-      "lane": "news",
-      "category": "project",
-      "title": "→ Lesa meira",
-      "entity": "Isavia",
-      "date": "2026-09-09",
-      "summary": "að fullu fríhafnarverslanirnar á Keflavíkurflugvelli (KEF). Endurhönnunin hefur staðið yfir frá því Gebr. Heinemann tók við rekstri fríhafnarverslananna vorið 2025. Verslanirnar voru opnaðar formlega miðvikudaginn 9. september 2026. → Lesa meira ( <div class=\"GridLayout_gridLayout__item__3GBBE FilterGridControls_filterGridControls__inner__vPzKk GridLayout_w...",
-      "url": "https://www.kefairport.is/frettir/gebr-heinemann-opnar",
-      "outlet": "Isavia",
       "is_new": false
     },
     {
@@ -404,7 +442,7 @@
       "title": "Borgarspítalareitur í skipulagsgátt",
       "entity": "Reykjavíkurborg",
       "date": "2026-09-02",
-      "summary": "?h=fa7169fd&itok=GJhT_7GX 1920w, /sites/default/files/styles/landscape_4k/public/2026-09/mynd3.jpg?h=fa7169fd&itok=1iQDI593 3840w\" data-sizes=\"auto\" /> 2. september 2026 Borgarspítalareitur í skipulagsgátt <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2023-11/bila1.jpg?h=82f92a78&itok=uwbi9mrq\" a...",
+      "summary": "?h=fa7169fd&itok=GJhT_7GX 1920w, /sites/default/files/styles/landscape_4k/public/2026-09/mynd3.jpg?h=fa7169fd&itok=1iQDI593 3840w\" data-sizes=\"auto\" /> 2. september 2026 Borgarspítalareitur í skipulagsgátt <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2026-09/1674326bs_small.jpg?h=3807a4ff&itok=a...",
       "url": "https://reykjavik.is/frettir/2026/borgarspitalareitur-i-skipulagsgatt",
       "outlet": "Reykjavíkurborg",
       "is_new": false
@@ -428,7 +466,7 @@
       "title": "Borgarlínuframkvæmdir hafnar við Nauthólsveg – HR",
       "entity": "Reykjavíkurborg",
       "date": "2026-09-01",
-      "summary": "f&itok=lgVpWBVR 1920w, /sites/default/files/styles/landscape_4k/public/2026-09/1674326bs_small.jpg?h=3807a4ff&itok=q4Pl2cGq 3840w\" data-sizes=\"auto\" /> 1. september 2026 Borgarlínuframkvæmdir hafnar við Nauthólsveg – HR <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2026-08/borgar.png.jpg?h=18da11...",
+      "summary": "f&itok=lgVpWBVR 1920w, /sites/default/files/styles/landscape_4k/public/2026-09/1674326bs_small.jpg?h=3807a4ff&itok=q4Pl2cGq 3840w\" data-sizes=\"auto\" /> 1. september 2026 Borgarlínuframkvæmdir hafnar við Nauthólsveg – HR <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2026-09/img_8216_l_small.jpeg.j...",
       "url": "https://reykjavik.is/frettir/2026/borgarlinuframkvaemdir-hafnar-vid-nautholsveg-hr",
       "outlet": "Reykjavíkurborg",
       "is_new": false
@@ -587,30 +625,6 @@
       "summary": "920w.jpg');\"> Nýtt hjúkrunarheimili opnað á Höfn 17. ágúst 2026 Nýtt hjúkrunarheimili var vígt við Skjólgarð á Höfn í Hornafirði föstudaginn 14. ágúst 2026. Nýbyggingin sem nú hefur verið tekin í no",
       "url": "https://www.istak.is/nytt-hjukrunarheimili-opna-a-hofn",
       "outlet": "ÍSTAK",
-      "is_new": false
-    },
-    {
-      "id": "news:reykjavik:menningarnott-2026-naesta-leiti",
-      "lane": "news",
-      "category": "project",
-      "title": "Menningarnótt 2026 á næsta leiti",
-      "entity": "Reykjavíkurborg",
-      "date": "2026-08-14",
-      "summary": "1920w, /sites/default/files/styles/landscape_4k/public/2026-08/25082306_menntonlist_137_copy_small_0.jpg?h=34e43602&itok=3dhz6cMt 3840w\" data-sizes=\"auto\" /> 14. ágúst 2026 Menningarnótt 2026 á næsta leiti <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2026-08/24042402_honnunar_355_small.jpg?h=34e...",
-      "url": "https://reykjavik.is/frettir/2026/menningarnott-2026-naesta-leiti",
-      "outlet": "Reykjavíkurborg",
-      "is_new": false
-    },
-    {
-      "id": "news:reykjavik:gotumarkadur-i-listasafni-reykjavikur-hafnarhusi",
-      "lane": "news",
-      "category": "project",
-      "title": "Götumarkaður í Listasafni Reykjavíkur Hafnarhúsi",
-      "entity": "Reykjavíkurborg",
-      "date": "2026-08-13",
-      "summary": "k=Q7asxZ-u 1920w, /sites/default/files/styles/landscape_4k/public/2026-08/24042402_honnunar_355_small.jpg?h=34e43602&itok=5jXndf3i 3840w\" data-sizes=\"auto\" /> 13. ágúst 2026 Götumarkaður í Listasafni Reykjavíkur Hafnarhúsi <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2023-11/bila1.jpg?h=82f92a78...",
-      "url": "https://reykjavik.is/frettir/2026/gotumarkadur-i-listasafni-reykjavikur-hafnarhusi",
-      "outlet": "Reykjavíkurborg",
       "is_new": false
     }
   ]
