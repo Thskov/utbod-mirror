@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated": "2026-09-14T06:45:01Z",
+  "generated": "2026-09-15T06:45:02Z",
   "window": {
-    "from": "2026-09-07",
-    "to": "2026-09-14"
+    "from": "2026-09-08",
+    "to": "2026-09-15"
   },
   "coverage": {
     "municipalities": [
@@ -243,7 +243,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/5377",
         "seen_count": 1,
         "first_seen": "2026-09-11T06:45:01Z",
-        "last_seen": "2026-09-14T06:45:01Z",
+        "last_seen": "2026-09-15T06:45:02Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -255,7 +255,7 @@
         "evidence_url": "https://island.is/reglugerdir/nr/0853-2026",
         "seen_count": 1,
         "first_seen": "2026-09-11T06:45:01Z",
-        "last_seen": "2026-09-14T06:45:01Z",
+        "last_seen": "2026-09-15T06:45:02Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -267,7 +267,7 @@
         "evidence_url": "https://island.is/reglugerdir/nr/0809-2026",
         "seen_count": 1,
         "first_seen": "2026-09-11T06:45:01Z",
-        "last_seen": "2026-09-14T06:45:01Z",
+        "last_seen": "2026-09-15T06:45:02Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       }
@@ -290,8 +290,8 @@
           "undated": 8
         },
         "faxafloahafnir": {
-          "undated": 4,
-          "no_matching_keywords": 36
+          "no_matching_keywords": 36,
+          "undated": 4
         },
         "veitur": {
           "no_matching_keywords": 22
@@ -346,8 +346,8 @@
           "outside_window": 31
         },
         "gardabaer": {
-          "no_matching_keywords": 18,
-          "outside_window": 5
+          "no_matching_keywords": 19,
+          "outside_window": 4
         },
         "mosfellsbaer": {
           "no_matching_keywords": 35,
@@ -355,8 +355,8 @@
           "undated": 2
         },
         "arborg": {
-          "no_matching_keywords": 19,
-          "outside_window": 1,
+          "no_matching_keywords": 20,
+          "outside_window": 2,
           "undated": 5
         },
         "orkustofnun": {
@@ -374,7 +374,7 @@
         },
         "byggingar-opnun-utboda": {
           "undated": 18,
-          "outside_window": 13
+          "outside_window": 14
         },
         "vb": {
           "no_matching_keywords": 40
@@ -424,7 +424,7 @@
       }
     }
   },
-  "count": 301,
+  "count": 298,
   "items": [
     {
       "id": "legislation:althingi-thingmalaskra:endurskodud-aaetlun-um-framlagningu-thingmala-a-vetrar-og-vorthingi-2026-lokautg",
@@ -434,7 +434,7 @@
       "title": "Endurskoðuð þingmálaskrá fyrir 157. löggjafarþing",
       "entity": "Alþingi",
       "status": "tracker",
-      "date": "2026-09-14",
+      "date": "2026-09-15",
       "summary": "13. Frumvarp til laga um breytingu á lögum um mannvirki, nr. 160/2010 (einföldun byggingarreglugerðar og endurskoðun byggingareftirlits). / 14. Frumvarp til laga um breytingu á skipulagslögum nr. 123/2010 (raflínuskipulag). / 2. Frumvarp til laga um breytingu á lögum um stefnur og aðgerðaáætlanir á sviði húsnæðis- og skipulagsmála, samgangna og byggðamála, nr. 30/2023 (stefnumörkun).",
       "url": "https://www.althingi.is/media/uncategorized/Endurskodud-aaetlun-um-framlagningu-thingmala-a-vetrar-og-vorthingi-2026-lokautgafa-leidrettX.pdf",
       "index_url": "https://www.althingi.is/thingstorf/leidbeiningar-og-yfirlit/thingmalaskra-rikisstjornar/",
@@ -449,47 +449,69 @@
       "period": "2025–2026"
     },
     {
-      "id": "announcement:byggingar-opnun-utboda:storar-breytingar-bodadar-a-krofum-um-burdarthol-mannvirkja",
+      "id": "skgatt:1065/2026",
+      "lane": "eia",
+      "title": "Selfosslína 1, breyting á legu vestan Ölfusár",
+      "entity": "Árborg",
+      "case_number": "1065/2026",
+      "plan_type": "matsskyldu",
+      "status": "Tilkynning um framkvæmd",
+      "date": "2026-09-14",
+      "review_deadline": "2026-10-13",
+      "summary": "Framkvæmdin felst í breytingu á framkvæmd sem áður hafði lokið matsskylduferli. Breytingin felst í tilfærslu jarðstrengs út fyrir skógræktarsvæði sem er vestan Ölfusár.",
+      "url": "https://skipulagsgatt.is/issues/5420"
+    },
+    {
+      "id": "skgatt:1064/2026",
+      "lane": "planning",
+      "title": "Undirhlíðanáma við Leiðarendaveg",
+      "entity": "Hafnarfjörður",
+      "case_number": "1064/2026",
+      "plan_type": "deiliskipulag",
+      "status": "Auglýsing tillögu",
+      "date": "2026-09-14",
+      "review_deadline": "2026-10-29",
+      "summary": "Bæjarstjórn Hafnarfjarðar samþykkti á fundi sínum þann 9. september 2026 að auglýsa tillögu að breytingu á deiliskipulagi Undirhlíðanámu við Leiðarendaveg en svæðið er skilgreint sem efnistökusvæði í aðalskipulagi Hafnarfjarðar. Markmið með gerð deiliskipulagsins er að skerpa á heimildum fyrir efnistöku og skipulagsskilmálum í samræmi við stefnu aðalskipula…",
+      "url": "https://skipulagsgatt.is/issues/5419"
+    },
+    {
+      "id": "skgatt:1060/2026",
+      "lane": "planning",
+      "title": "Ísallínur 3 og 4, framkvæmdaleyfi",
+      "entity": "Hafnarfjörður",
+      "case_number": "1060/2026",
+      "status": "Grenndarkynning framkvæmdaleyfis",
+      "date": "2026-09-14",
+      "review_deadline": "2026-10-12",
+      "summary": "Á fundi skipulags- og byggingarráðs þann 19. ágúst sl. var samþykkt að grenndarkynna umsókn Landsnets ásamt fylgigögnum um framkvæmdaleyfi skv. heimild 44. gr. skipulagslaga. Ný gögn um áhrifamat á vatnshlot hafa ekki hlotið kynningu almennings. Auk þess verður leitað umsagnar Náttúruverndarstofnunar á framkvæmdum vegna náttúruminja sem njóta sérstakrar ver…",
+      "url": "https://skipulagsgatt.is/issues/5415"
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:k16-faer-thakendurnyjun-haskolans-a-akureyri-fyrir-64-m-kr",
       "lane": "announcement",
       "source": "byggingar-opnun-utboda",
-      "title": "Stórar breytingar boðaðar á kröfum um burðarþol mannvirkja",
+      "title": "K16 fær þakendurnýjun Háskólans á Akureyri fyrir 64 m.kr.",
       "entity": "Byggingar.is",
       "status": "published",
-      "date": "2026-09-12",
-      "summary": "https://byggingar.is/wp-content/uploads/2026/09/12.09.2026-Storar-breytingar-bodadar-a-krofum-um-burdarthol-mannvirkja-100x75.jpg\" width=\"100\" height=\"75\" /> Stórar breytingar boðaðar á kröfum um burðarþol mannvirkja 12/09/2026 <div class=\"td_modu",
-      "url": "https://byggingar.is/storar-breytingar-bodadar-a-krofum-um-burdarthol-mannvirkja/",
+      "date": "2026-09-14",
+      "summary": ".\" data-type=\"image_tag\" data-img-url=\"https://byggingar.is/wp-content/uploads/2026/09/14.09.2026-Haskolinn-a-Akureyri-100x75.png\" width=\"100\" height=\"75\" /> K16 fær þakendurnýjun Háskólans á Akureyri fyrir 64 m.kr. 14/09/2026 <div class=\"td_modu",
+      "url": "https://byggingar.is/k16-faer-thakendurnyjun-haskolans-a-akureyri-fyrir-64-m-kr/",
       "keywords_matched": [
         "bygging",
         "opinber innkaup"
       ]
     },
     {
-      "id": "announcement:byggingar-opnun-utboda:ny-flodljos-a-hasteinsvelli-i-vestmannaeyjum",
+      "id": "announcement:byggingar-opnun-utboda:baud-naer-milljard-i-jardvinnuframkvaemdir",
       "lane": "announcement",
       "source": "byggingar-opnun-utboda",
-      "title": "Ný flóðljós á Hásteinsvelli í Vestmannaeyjum",
+      "title": "Bauð nær milljarð í jarðvinnuframkvæmdir við nýtt fangelsi á Stóra-Hrauni",
       "entity": "Byggingar.is",
       "status": "published",
-      "date": "2026-09-12",
-      "summary": "ata-img-url=\"https://byggingar.is/wp-content/uploads/2026/09/12.09.2026-Ny-flodljos-a-Hasteinsvelli-i-Vestmannaeyjum-a-100x75.jpg\" width=\"100\" height=\"75\" /> Ný flóðljós á Hásteinsvelli í Vestmannaeyjum 12/09/2026 <div class=\"td_modu",
-      "url": "https://byggingar.is/ny-flodljos-a-hasteinsvelli-i-vestmannaeyjum/",
+      "date": "2026-09-14",
+      "summary": "is/wp-content/uploads/2026/09/14.09.2026-Baud-naer-milljard-i-jardvinnuframkvaemdir-vid-nytt-fangelsi-a-Stora-Hrauni-a-100x75.jpg\" width=\"100\" height=\"75\" /> Bauð nær milljarð í jarðvinnuframkvæmdir við nýtt fangelsi á Stóra-Hrauni 14/09/2026 <div class=\"td_modu",
+      "url": "https://byggingar.is/baud-naer-milljard-i-jardvinnuframkvaemdir/",
       "keywords_matched": [
-        "bygging",
-        "opinber innkaup"
-      ]
-    },
-    {
-      "id": "announcement:byggingar-opnun-utboda:enn-eitt-felag-musks-metid-a-tugmilljarda-dala",
-      "lane": "announcement",
-      "source": "byggingar-opnun-utboda",
-      "title": "Enn eitt félag Musks metið á tug­milljarða dala",
-      "entity": "Byggingar.is",
-      "status": "published",
-      "date": "2026-09-12",
-      "summary": "ta-img-url=\"https://byggingar.is/wp-content/uploads/2026/09/12.09.2026-Enn-eitt-felag-Musks-metid-a-tug­milljarda-dala-100x75.jpg\" width=\"100\" height=\"75\" /> Enn eitt félag Musks metið á tug­milljarða dala 12/09/2026 <div cl",
-      "url": "https://byggingar.is/enn-eitt-felag-musks-metid-a-tugmilljarda-dala/",
-      "keywords_matched": [
-        "bygging",
         "opinber innkaup"
       ]
     },
@@ -758,34 +780,6 @@
       "review_deadline": "2026-10-05",
       "summary": "Lögð er fram breyting á Aðalskipulagi Sveitarfélagsins Árborgar 2020-2036 er varðar skilmála fyrir opin svæði OP1. Í breytingunni felst að skilgreint er aukið byggingarmagn á svæði sem ætlað er sem aðstaða fyrir skátafélagið Fossbúa. Samhliða er unnið að gerð deiliskipulags sem tekur til viðkomandi svæðis. Gerð var breyting 2025 sem tók einnig til aukins by…",
       "url": "https://skipulagsgatt.is/issues/5387"
-    },
-    {
-      "id": "announcement:arborg:vidburdalisti",
-      "lane": "announcement",
-      "source": "arborg",
-      "title": "Viðburðadagatal Hátíðir Fréttasafn Tilkynningar Myndasafn Fjölskyldusumar Nýjustu fréttirnar Fyrirsagnalisti 7. september 2026 : Samþykkt að hefja endurskoðun á aðalskipulagi Árbo…",
-      "entity": "Sveitarfélagið Árborg",
-      "status": "published",
-      "date": "2026-09-07",
-      "summary": "aria-labelledby=\"menu442246302\" > Viðburðir og fréttir Viðburðadagatal Hátíðir Fréttasafn Tilkynningar Myndasafn Fjölskyldusumar Nýjustu fréttirnar Fyrirsagnalisti 7. september 2026 : Samþykkt að hefja endurskoðun á aðalskipulagi Árborgar Bæjarstjórn Árborgar samþykkti samhljóða á fundi sínum 2. september sl. að hefja endurskoðun á aðalskipulagi Sveitarféla…",
-      "url": "https://www.arborg.is/vidburdalisti/",
-      "keywords_matched": [
-        "skipulag"
-      ]
-    },
-    {
-      "id": "announcement:arborg:samthykkt-ad-hefja-endurskodun-a-adalskipulagi-arborgar",
-      "lane": "announcement",
-      "source": "arborg",
-      "title": "Samþykkt að hefja endurskoðun á aðalskipulagi Árborgar",
-      "entity": "Sveitarfélagið Árborg",
-      "status": "published",
-      "date": "2026-09-07",
-      "summary": "data-alt=\"Selfoss yfirlitsmynd\"> 7. september 2026 : Samþykkt að hefja endurskoðun á aðalskipulagi Árborgar Bæjarstjórn Árborgar samþykkti samhljóða á fundi sínum 2. september sl. að hefja endurskoðun á aðalskipulagi Sveitarfélagsins Árborgar. <a href=\"/frettasafn/samthykkt-ad-hefja-endurskodun-a-adalskipulagi-arborgar\" aria-label=\"Lesa meira: Samþykkt að h…",
-      "url": "https://www.arborg.is/frettasafn/samthykkt-ad-hefja-endurskodun-a-adalskipulagi-arborgar",
-      "keywords_matched": [
-        "skipulag"
-      ]
     },
     {
       "id": "skgatt:1026/2026",
@@ -1484,31 +1478,6 @@
       "url": "https://skipulagsgatt.is/issues/5253"
     },
     {
-      "id": "skgatt:0936/2026",
-      "lane": "eia",
-      "title": "Hænsnabú á Tindstöðum",
-      "entity": "Reykjavík",
-      "case_number": "0936/2026",
-      "plan_type": "matsskyldu",
-      "status": "Tilkynning um framkvæmd",
-      "date": "2026-08-10",
-      "review_deadline": "2026-09-07",
-      "summary": "Matfugl ehf. áformar að reisa nýtt hænsnabú í tveimur áföngum með byggingu fjögurra nýrra hænsnahúsa á Tindstöðum. Heildarbyggingarmagn allra bygginga verður samtals 10.000 m². Gera má ráð fyrir að heildarmagn hænsnaskíts frá búinu verði 360-390 tonn á ári þegar búið er komið í fulla starfsemi skv. fyrsta áfanga, þ.e. stæði fyrir 28.000 stofnhænur. Í öðrum…",
-      "url": "https://skipulagsgatt.is/issues/5291"
-    },
-    {
-      "id": "skgatt:0935/2026",
-      "lane": "planning",
-      "title": "Austurveita",
-      "entity": "Sveitarfélagið Ölfus",
-      "case_number": "0935/2026",
-      "status": "Endanleg gögn",
-      "date": "2026-08-10",
-      "review_deadline": "2026-09-07",
-      "summary": "Veitur og Vatnsveita Ölfus sækja um framkvæmdaleyfi til að leggja DN200 hitaveitulögn og og Ø180 vatnslögn samhliða, meðfram Ölfusvegi (370). Lagnaleið vatnsveitu byrjar um 300 m vestan við gatnamót Ölfusvegar og Kirkjuferjuvegar, og endar um 100 m austan við Varmá, við gatnamót að Akurholti.",
-      "url": "https://skipulagsgatt.is/issues/5290"
-    },
-    {
       "id": "skgatt:0934/2026",
       "lane": "planning",
       "title": "Selfosslína 1",
@@ -1533,19 +1502,6 @@
       "review_deadline": "2026-09-24",
       "summary": "Lagt er fram nýtt deiliskipulag fyrir Rauðalæk 3 sem er 1,8 ha. þar sem fyrirhugað er að byggja íbúðarhús ásamt skemmu/gripahúsi.",
       "url": "https://skipulagsgatt.is/issues/5288"
-    },
-    {
-      "id": "skgatt:0923/2026",
-      "lane": "planning",
-      "title": "Grænuborgarhverfi 1. áfangi - Deiliskipulagsbreyting við Gíslaborg",
-      "entity": "Sveitarfélagið Vogar",
-      "case_number": "0923/2026",
-      "plan_type": "deiliskipulag",
-      "status": "Grenndarkynning",
-      "date": "2026-08-10",
-      "review_deadline": "2026-09-07",
-      "summary": "Grænabyggð ehf. óskar eftir breytingu á gildandi deiliskipulagi Grænuborgarhverfis 1. áfanga. Breytingin nær til allra lóða við götuna Gíslaborg en í gildandi deiliskipulagi er gert ráð fyrir tveggja hæða rað- eða fjölbýlishúsum á öllum lóðum. 16 hús eru með 4 íbúðum, eitt hús með 6 íbúðum og eitt hús með 10 íbúðum. Sú breyting er gerð að tveggja hæða rað-…",
-      "url": "https://skipulagsgatt.is/issues/5278"
     },
     {
       "id": "skgatt:0930/2026",
@@ -3171,7 +3127,7 @@
       "plan_type": "deiliskipulag",
       "status": "Endanleg gögn",
       "date": "2026-04-16",
-      "review_deadline": "2026-09-25",
+      "review_deadline": "2026-10-12",
       "summary": "Sveitarstjórn Rangárþings ytra samþykkti á fundi sínum 15.4.2026 að kynnt yrði lýsing skipulagsáforma að deiliskipulagi fyrir Sigöldugljúfur. Með fjölgun ferðamanna við Sigöldugljúfur hefur myndast þörf fyrir skipulagða stíga, útsýnispalla, bílastæði og salerni. Gert verði ráð fyrir endurbættri aðkomu að svæðinu, auk uppbyggingar á útsýnisstöðum á gljúfurba…",
       "url": "https://skipulagsgatt.is/issues/4804"
     },
@@ -3946,19 +3902,6 @@
       "url": "https://skipulagsgatt.is/issues/3664"
     },
     {
-      "id": "skgatt:0654/2025",
-      "lane": "planning",
-      "title": "Þorlákshafnarlína 2 - breyting á aðalskipulagi",
-      "entity": "Sveitarfélagið Ölfus",
-      "case_number": "0654/2025",
-      "plan_type": "adalskipulag",
-      "status": "Endanleg gögn",
-      "date": "2025-05-14",
-      "review_deadline": "2026-09-07",
-      "summary": "Lögð er fram breying á aðalskipulagi vegna fyrirhugaðrar lagningar jarðstrengs til Þorlákshafnar sem ber nafnið Þorlákshafnarlína 2. Um er að ræða 132 kv jarðstreng sem kemur til með að liggja meðfram Þorlákshafnarvegi milli Hveragerðis og Þorlákshafnar.",
-      "url": "https://skipulagsgatt.is/issues/3311"
-    },
-    {
       "id": "skgatt:0634/2025",
       "lane": "eia",
       "title": "Veiting Austurkvíslar Þjórsárkvísla í fyrri farveg",
@@ -4074,6 +4017,19 @@
       "review_deadline": "2026-10-23",
       "summary": "Mál nr. 2023090672",
       "url": "https://skipulagsgatt.is/issues/2863"
+    },
+    {
+      "id": "skgatt:0129/2025",
+      "lane": "planning",
+      "title": "Tunguárvirkjun í Þistilfirði",
+      "entity": "Langanesbyggð",
+      "case_number": "0129/2025",
+      "plan_type": "adalskipulag",
+      "status": "Athugun fyrir auglýsingu",
+      "date": "2025-02-06",
+      "review_deadline": "2026-10-12",
+      "summary": "Tunguárvirkjun ehf. hefur áform um að reisa vatnsaflsvirkjun í Tunguá í Þistilsfirði með áætlað uppsett afl 2,1 MW og árlega orkuframleiðslu upp á 12 GWst. Virkjunin verður tengd við dreifikerfi Rarik. Frumúttekt valkosta smávirkjana í Þingeyjarsýslu, á vegum Atvinnuþróunarfélags Þingeyinga, leiddi í ljósa að Tunguárvirkjun var metin álitlegasti virkjunarko…",
+      "url": "https://skipulagsgatt.is/issues/2786"
     },
     {
       "id": "skgatt:1429/2024",
