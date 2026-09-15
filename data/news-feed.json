@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated": "2026-09-14T06:30:01Z",
+  "generated": "2026-09-15T06:30:01Z",
   "window": {
-    "from": "2026-08-15",
-    "to": "2026-09-14"
+    "from": "2026-08-16",
+    "to": "2026-09-15"
   },
   "coverage": {
     "sources": [
@@ -292,6 +292,42 @@
   "count": 28,
   "items": [
     {
+      "id": "news:visir-fiskeldi:thad-tharf-ad-hreinsa-adeins-loftid",
+      "lane": "news",
+      "category": "industrial-demand",
+      "title": "„Það þarf að hreinsa að­eins loftið“",
+      "entity": "visir.is / Fiskeldi",
+      "date": "2026-09-14",
+      "summary": "Formaður heimastjórnar Múlaþings segir það hafa komið sér og öðrum fulltrúum Múlaþings í opna skjöldu að starfsleyfi hafi verið gefið út til fiskeldis í firðinum. Það séu vonbrigði að frumvarp um breytingar á lögum um lagareldi hafi ekki gengið í gegn á síðasta vorþingi.",
+      "url": "https://www.visir.is/g/20262934369d/-thad-tharf-ad-hreinsa-adeins-loftid-",
+      "outlet": "visir.is / Fiskeldi",
+      "is_new": true
+    },
+    {
+      "id": "news:byggingar:k16-faer-thakendurnyjun-haskolans-a-akureyri-fyrir-64-m-kr",
+      "lane": "news",
+      "category": "project",
+      "title": "K16 fær þakendurnýjun Háskólans á Akureyri fyrir 64 m.kr.",
+      "entity": "byggingar.is",
+      "date": "2026-09-14",
+      "summary": "g\" data-img-url=\"https://byggingar.is/wp-content/uploads/2026/09/14.09.2026-Haskolinn-a-Akureyri-238x178.png\" width=\"238\" height=\"178\" /> K16 fær þakendurnýjun Háskólans á Akureyri fyrir 64 m.kr. <a href=\"https://byggingar.is/all-verk-faer-endurbaetur-a-rannsoknardeild-hvest-fyrir-78-3-milljonir/\" rel=\"bookmark\" class=\"td-image-wrap \" title=\"ALL Verk fær en...",
+      "url": "https://byggingar.is/k16-faer-thakendurnyjun-haskolans-a-akureyri-fyrir-64-m-kr/",
+      "outlet": "byggingar.is",
+      "is_new": true
+    },
+    {
+      "id": "news:byggingar:baud-naer-milljard-i-jardvinnuframkvaemdir",
+      "lane": "news",
+      "category": "project",
+      "title": "Bauð nær milljarð í jarðvinnuframkvæmdir við nýtt fangelsi á Stóra-Hrauni",
+      "entity": "byggingar.is",
+      "date": "2026-09-14",
+      "summary": "2026/09/14.09.2026-Baud-naer-milljard-i-jardvinnuframkvaemdir-vid-nytt-fangelsi-a-Stora-Hrauni-a-238x178.jpg\" width=\"238\" height=\"178\" /> Bauð nær milljarð í jarðvinnuframkvæmdir við nýtt fangelsi á Stóra-Hrauni <a href=\"https://byggingar.is/k16-faer-thakendurnyjun-haskolans-a-akureyri-fyrir-64-m-kr/\" rel=\"bookmark\" class=\"td-image-wrap \" title=\"K16 fær þak...",
+      "url": "https://byggingar.is/baud-naer-milljard-i-jardvinnuframkvaemdir/",
+      "outlet": "byggingar.is",
+      "is_new": true
+    },
+    {
       "id": "news:visir-fiskeldi:thetta-er-fullkomid-afall",
       "lane": "news",
       "category": "industrial-demand",
@@ -313,42 +349,6 @@
       "summary": "Er það táknrænt eða tilviljun að ríkisvaldið tók hafnarsvæði Seyðisfjarðar, siglingaleið að samevrópskri ferjuhöfn undir mengandi stóriðju þann 11.09.2026?",
       "url": "https://www.visir.is/g/20262933833d/hvad-gerir-sveitarstjorn-mulathings-nu-",
       "outlet": "visir.is / Fiskeldi",
-      "is_new": false
-    },
-    {
-      "id": "news:byggingar:storar-breytingar-bodadar-a-krofum-um-burdarthol-mannvirkja",
-      "lane": "news",
-      "category": "project",
-      "title": "Stórar breytingar boðaðar á kröfum um burðarþol mannvirkja",
-      "entity": "byggingar.is",
-      "date": "2026-09-12",
-      "summary": "p-content/uploads/2026/09/12.09.2026-Storar-breytingar-bodadar-a-krofum-um-burdarthol-mannvirkja-238x178.jpg\" width=\"238\" height=\"178\" /> Stórar breytingar boðaðar á kröfum um burðarþol mannvirkja <a href=\"https://byggingar.is/enn-eitt-felag-musks-metid-a-tugmilljarda-dala/\" rel=\"bookmark\" class=\"td-image-wrap \" title=\"Enn eitt félag Musks metið á tug­millj...",
-      "url": "https://byggingar.is/storar-breytingar-bodadar-a-krofum-um-burdarthol-mannvirkja/",
-      "outlet": "byggingar.is",
-      "is_new": false
-    },
-    {
-      "id": "news:byggingar:ny-flodljos-a-hasteinsvelli-i-vestmannaeyjum",
-      "lane": "news",
-      "category": "project",
-      "title": "Ný flóðljós á Hásteinsvelli í Vestmannaeyjum",
-      "entity": "byggingar.is",
-      "date": "2026-09-12",
-      "summary": "yggingar.is/wp-content/uploads/2026/09/12.09.2026-Ny-flodljos-a-Hasteinsvelli-i-Vestmannaeyjum-a-238x178.jpg\" width=\"238\" height=\"178\" /> Ný flóðljós á Hásteinsvelli í Vestmannaeyjum <a href=\"https://byggingar.is/storar-breytingar-bodadar-a-krofum-um-burdarthol-mannvirkja/\" rel=\"bookmark\" class=\"td-image-wrap \" title=\"Stórar breytingar boðaðar á kröfum",
-      "url": "https://byggingar.is/ny-flodljos-a-hasteinsvelli-i-vestmannaeyjum/",
-      "outlet": "byggingar.is",
-      "is_new": false
-    },
-    {
-      "id": "news:byggingar:enn-eitt-felag-musks-metid-a-tugmilljarda-dala",
-      "lane": "news",
-      "category": "project",
-      "title": "Enn eitt félag Musks metið á tug­milljarða dala",
-      "entity": "byggingar.is",
-      "date": "2026-09-12",
-      "summary": "ggingar.is/wp-content/uploads/2026/09/12.09.2026-Enn-eitt-felag-Musks-metid-a-tug­milljarda-dala-238x178.jpg\" width=\"238\" height=\"178\" /> Enn eitt félag Musks metið á tug­milljarða dala <i class=\"td-next-prev-icon td-i",
-      "url": "https://byggingar.is/enn-eitt-felag-musks-metid-a-tugmilljarda-dala/",
-      "outlet": "byggingar.is",
       "is_new": false
     },
     {
@@ -442,7 +442,7 @@
       "title": "Borgarspítalareitur í skipulagsgátt",
       "entity": "Reykjavíkurborg",
       "date": "2026-09-02",
-      "summary": "?h=fa7169fd&itok=GJhT_7GX 1920w, /sites/default/files/styles/landscape_4k/public/2026-09/mynd3.jpg?h=fa7169fd&itok=1iQDI593 3840w\" data-sizes=\"auto\" /> 2. september 2026 Borgarspítalareitur í skipulagsgátt <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2026-09/1674326bs_small.jpg?h=3807a4ff&itok=a...",
+      "summary": "?h=fa7169fd&itok=GJhT_7GX 1920w, /sites/default/files/styles/landscape_4k/public/2026-09/mynd3.jpg?h=fa7169fd&itok=1iQDI593 3840w\" data-sizes=\"auto\" /> 2. september 2026 Borgarspítalareitur í skipulagsgátt <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2023-11/bila1.jpg?h=82f92a78&itok=uwbi9mrq\" a...",
       "url": "https://reykjavik.is/frettir/2026/borgarspitalareitur-i-skipulagsgatt",
       "outlet": "Reykjavíkurborg",
       "is_new": false
