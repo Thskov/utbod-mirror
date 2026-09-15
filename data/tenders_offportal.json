@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated": "2026-09-14T07:00:13Z",
-  "generated_at": "2026-09-14T07:00:13Z",
+  "generated": "2026-09-15T07:00:13Z",
+  "generated_at": "2026-09-15T07:00:13Z",
   "sources": {
     "covered": [
       {
@@ -334,7 +334,7 @@
         "evidence_url": "https://www.utbodsvefur.is/fjardabyggdarhollin-loftraestikerfi/",
         "seen_count": 1,
         "first_seen": "2026-09-07T07:00:13Z",
-        "last_seen": "2026-09-10T07:00:14Z",
+        "last_seen": "2026-09-14T07:00:13Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       },
@@ -346,7 +346,7 @@
         "evidence_url": "https://www.utbodsvefur.is/9661-2/",
         "seen_count": 1,
         "first_seen": "2026-09-04T07:00:13Z",
-        "last_seen": "2026-09-10T07:00:14Z",
+        "last_seen": "2026-09-14T07:00:13Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       },
@@ -358,7 +358,7 @@
         "evidence_url": "https://www.utbodsvefur.is/torfunef-lagnir-lagnaleidir-og-brunnar/",
         "seen_count": 1,
         "first_seen": "2026-09-04T07:00:13Z",
-        "last_seen": "2026-09-10T07:00:14Z",
+        "last_seen": "2026-09-14T07:00:13Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       },
@@ -370,8 +370,20 @@
         "evidence_url": "https://ted.europa.eu/en/notice/-/detail/598894-2026",
         "seen_count": 1,
         "first_seen": "2026-08-31T07:00:13Z",
-        "last_seen": "2026-09-14T07:00:13Z",
+        "last_seen": "2026-09-15T07:00:13Z",
         "reason": "unknown buyer/source found in tender feed",
+        "status": "pending"
+      },
+      {
+        "id": "tender:buyer:áfengis-og-tóbaksverslun-ríkisins-átvr",
+        "name": "Áfengis og tóbaksverslun ríkisins / ÁTVR",
+        "suggested_feed": "tenders_all",
+        "suggested_lane": "tender",
+        "evidence_url": "https://www.utbodsvefur.is/stadbundin-eigna-og-oryggisgaesla-i-verslunum-atvr/",
+        "seen_count": 2,
+        "first_seen": "2026-09-14T07:00:13Z",
+        "last_seen": "2026-09-14T07:00:13Z",
+        "reason": "repeated unknown buyer/source found in tender feed",
         "status": "pending"
       }
     ]
