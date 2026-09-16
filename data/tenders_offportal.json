@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated": "2026-09-15T07:00:13Z",
-  "generated_at": "2026-09-15T07:00:13Z",
+  "generated": "2026-09-16T07:00:12Z",
+  "generated_at": "2026-09-16T07:00:12Z",
   "sources": {
     "covered": [
       {
@@ -56,7 +56,7 @@
       {
         "source": "ted",
         "url": "https://api.ted.europa.eu/v3/notices/search",
-        "reason": "dropped 78 notices: expired deadline"
+        "reason": "dropped 79 notices: expired deadline"
       },
       {
         "source": "nlsh",
@@ -105,6 +105,7 @@
       "grindavíkurbær",
       "hs veitur",
       "hs veitur hf",
+      "hvalfjarðarsveit",
       "hveragerðisbær",
       "hydros",
       "isavia",
@@ -136,7 +137,8 @@
       "vegagerðin",
       "veitur ohf",
       "verne global",
-      "veðurstofa íslands"
+      "veðurstofa íslands",
+      "áfengis og tóbaksverslun ríkisins átvr"
     ],
     "buyer_aliases": {
       "akureyri": "Akureyrarbær",
@@ -334,7 +336,7 @@
         "evidence_url": "https://www.utbodsvefur.is/fjardabyggdarhollin-loftraestikerfi/",
         "seen_count": 1,
         "first_seen": "2026-09-07T07:00:13Z",
-        "last_seen": "2026-09-14T07:00:13Z",
+        "last_seen": "2026-09-15T07:00:13Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       },
@@ -346,7 +348,7 @@
         "evidence_url": "https://www.utbodsvefur.is/9661-2/",
         "seen_count": 1,
         "first_seen": "2026-09-04T07:00:13Z",
-        "last_seen": "2026-09-14T07:00:13Z",
+        "last_seen": "2026-09-15T07:00:13Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       },
@@ -358,52 +360,14 @@
         "evidence_url": "https://www.utbodsvefur.is/torfunef-lagnir-lagnaleidir-og-brunnar/",
         "seen_count": 1,
         "first_seen": "2026-09-04T07:00:13Z",
-        "last_seen": "2026-09-14T07:00:13Z",
-        "reason": "unknown buyer/source found in tender feed",
-        "status": "pending"
-      },
-      {
-        "id": "tender:buyer:hvalfjarðarsveit",
-        "name": "Hvalfjarðarsveit",
-        "suggested_feed": "tenders_all",
-        "suggested_lane": "tender",
-        "evidence_url": "https://ted.europa.eu/en/notice/-/detail/598894-2026",
-        "seen_count": 1,
-        "first_seen": "2026-08-31T07:00:13Z",
         "last_seen": "2026-09-15T07:00:13Z",
         "reason": "unknown buyer/source found in tender feed",
-        "status": "pending"
-      },
-      {
-        "id": "tender:buyer:áfengis-og-tóbaksverslun-ríkisins-átvr",
-        "name": "Áfengis og tóbaksverslun ríkisins / ÁTVR",
-        "suggested_feed": "tenders_all",
-        "suggested_lane": "tender",
-        "evidence_url": "https://www.utbodsvefur.is/stadbundin-eigna-og-oryggisgaesla-i-verslunum-atvr/",
-        "seen_count": 2,
-        "first_seen": "2026-09-14T07:00:13Z",
-        "last_seen": "2026-09-14T07:00:13Z",
-        "reason": "repeated unknown buyer/source found in tender feed",
         "status": "pending"
       }
     ]
   },
-  "count": 11,
+  "count": 10,
   "items": [
-    {
-      "reference": "576364-2026",
-      "project": "Hringvegur (1) around Kjalarnes, 2. áfangi, Vallá – Hvalfjörður",
-      "buyer": "Vegagerðin",
-      "notice_type": "cn-standard",
-      "deadline": "15.09.2026 kl. 14:00",
-      "deadline_local": "2026-09-15T14:00:58+00:00",
-      "deadline_utc": "2026-09-15T14:00:58+00:00",
-      "posted_at": "2026-08-20",
-      "modified_at": null,
-      "url": "https://ted.europa.eu/en/notice/-/detail/576364-2026",
-      "summary": "TED open Iceland construction contract notice; CPV 45233120, 45233120.",
-      "source": "ted"
-    },
     {
       "reference": "497272-2026",
       "project": "Búðafossvegur (23), Þjórsárdalsvegur - Landvegur",

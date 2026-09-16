@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "generated": "2026-09-15T07:00:13Z",
-  "generated_at": "2026-09-15T07:00:13Z",
+  "generated": "2026-09-16T07:00:12Z",
+  "generated_at": "2026-09-16T07:00:12Z",
   "sources": {
     "utbodsvefur": {
-      "generated_at": "2026-09-15T07:00:13.605589+00:00",
-      "count": 49,
+      "generated_at": "2026-09-16T07:00:12.633641+00:00",
+      "count": 43,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders.json"
     },
     "offportal": {
-      "generated": "2026-09-15T07:00:13Z",
-      "count": 11,
+      "generated": "2026-09-16T07:00:12Z",
+      "count": 10,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders_offportal.json"
     },
     "not_covered": [
@@ -32,7 +32,7 @@
       {
         "source": "ted",
         "url": "https://api.ted.europa.eu/v3/notices/search",
-        "reason": "dropped 78 notices: expired deadline"
+        "reason": "dropped 79 notices: expired deadline"
       },
       {
         "source": "nlsh",
@@ -81,6 +81,7 @@
       "grindavíkurbær",
       "hs veitur",
       "hs veitur hf",
+      "hvalfjarðarsveit",
       "hveragerðisbær",
       "hydros",
       "isavia",
@@ -112,7 +113,8 @@
       "vegagerðin",
       "veitur ohf",
       "verne global",
-      "veðurstofa íslands"
+      "veðurstofa íslands",
+      "áfengis og tóbaksverslun ríkisins átvr"
     ],
     "buyer_aliases": {
       "akureyri": "Akureyrarbær",
@@ -310,7 +312,7 @@
         "evidence_url": "https://www.utbodsvefur.is/fjardabyggdarhollin-loftraestikerfi/",
         "seen_count": 1,
         "first_seen": "2026-09-07T07:00:13Z",
-        "last_seen": "2026-09-15T07:00:13Z",
+        "last_seen": "2026-09-16T07:00:12Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       },
@@ -322,7 +324,7 @@
         "evidence_url": "https://www.utbodsvefur.is/9661-2/",
         "seen_count": 1,
         "first_seen": "2026-09-04T07:00:13Z",
-        "last_seen": "2026-09-15T07:00:13Z",
+        "last_seen": "2026-09-16T07:00:12Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       },
@@ -334,136 +336,14 @@
         "evidence_url": "https://www.utbodsvefur.is/torfunef-lagnir-lagnaleidir-og-brunnar/",
         "seen_count": 1,
         "first_seen": "2026-09-04T07:00:13Z",
-        "last_seen": "2026-09-15T07:00:13Z",
+        "last_seen": "2026-09-16T07:00:12Z",
         "reason": "unknown buyer/source found in tender feed",
-        "status": "pending"
-      },
-      {
-        "id": "tender:buyer:hvalfjarðarsveit",
-        "name": "Hvalfjarðarsveit",
-        "suggested_feed": "tenders_all",
-        "suggested_lane": "tender",
-        "evidence_url": "https://www.utbodsvefur.is/leikskolinn-skyjaborg/",
-        "seen_count": 2,
-        "first_seen": "2026-08-31T07:00:13Z",
-        "last_seen": "2026-09-15T07:00:13Z",
-        "reason": "unknown buyer/source found in tender feed",
-        "status": "pending"
-      },
-      {
-        "id": "tender:buyer:áfengis-og-tóbaksverslun-ríkisins-átvr",
-        "name": "Áfengis og tóbaksverslun ríkisins / ÁTVR",
-        "suggested_feed": "tenders_all",
-        "suggested_lane": "tender",
-        "evidence_url": "https://www.utbodsvefur.is/stadbundin-eigna-og-oryggisgaesla-i-verslunum-atvr/",
-        "seen_count": 2,
-        "first_seen": "2026-09-14T07:00:13Z",
-        "last_seen": "2026-09-15T07:00:13Z",
-        "reason": "repeated unknown buyer/source found in tender feed",
         "status": "pending"
       }
     ]
   },
-  "count": 56,
+  "count": 49,
   "items": [
-    {
-      "reference": "2607210",
-      "project": "Vetrarþjónusta gatna í Garðabæ 2026-2029 (EES)",
-      "buyer": "Garðabær",
-      "notice_type": "Þjónusta",
-      "deadline": "15.09.2026 kl. 10:00",
-      "deadline_local": "2026-09-15T10:00:00+00:00",
-      "deadline_utc": "2026-09-15T10:00:00+00:00",
-      "posted_at": "2026-08-14T13:50:10+00:00",
-      "modified_at": "2026-08-14T13:50:10+00:00",
-      "url": "https://www.utbodsvefur.is/vetrarthjonusta-gatna-i-gardabae-2026-2029-ees/",
-      "summary": "Garðabær óskar eftir tilboðum í verkið Vetrarþjónusta gatna í Garðabæ 2026-2029. Verkið felst í snjóruðningi og hálkueyðingu gatna í þrjá vetur, þ.e. ...",
-      "source": "utbodsvefur"
-    },
-    {
-      "reference": "16322",
-      "project": "Mötuneytisþjónusta í stjórnsýsluhúsum Reykjavíkurborgar. Forval, EES útboð nr. 16322",
-      "buyer": "Reykjavíkurborg",
-      "notice_type": "Þjónusta",
-      "deadline": "15.09.2026 kl. 10:00",
-      "deadline_local": "2026-09-15T10:00:00+00:00",
-      "deadline_utc": "2026-09-15T10:00:00+00:00",
-      "posted_at": "2026-08-14T10:49:34+00:00",
-      "modified_at": "2026-08-14T10:49:34+00:00",
-      "url": "https://www.utbodsvefur.is/motuneytisthjonusta-i-stjornsysluhusum-reykjavikurborgar-forval-ees-utbod-nr-16322/",
-      "summary": "Óskað er eftir umsóknum í forval vegna Mötuneytisþjónusta í stjórnsýsluhúsum Reykjavíkurborgar, EES útboð nr. 16322 Skrifstofa fjármálaþjónustu og ráð...",
-      "source": "utbodsvefur"
-    },
-    {
-      "reference": "2607211",
-      "project": "Vetrarþjónusta stofnanalóða og húsagatna í Garðabæ 2026-2029 (EES)",
-      "buyer": "Garðabær",
-      "notice_type": "Þjónusta",
-      "deadline": "15.09.2026 kl. 10:15",
-      "deadline_local": "2026-09-15T10:15:00+00:00",
-      "deadline_utc": "2026-09-15T10:15:00+00:00",
-      "posted_at": "2026-08-14T13:59:59+00:00",
-      "modified_at": "2026-08-14T13:59:59+00:00",
-      "url": "https://www.utbodsvefur.is/vetrarthjonusta-stofnanaloda-og-husagatna-i-gardabae-2026-2029-ees/",
-      "summary": "Garðabær óskar eftir tilboðum í verkið Vetrarþjónusta stofnanalóða og húsagatna í Garðabæ 2026-2029. Verkið felst í snjóruðningi og hálkueyðingu á bíl...",
-      "source": "utbodsvefur"
-    },
-    {
-      "reference": "2603065",
-      "project": "Hreinsun gatna í Garðabæ 2027-2028",
-      "buyer": "Garðabær",
-      "notice_type": "Þjónusta",
-      "deadline": "15.09.2026 kl. 10:30",
-      "deadline_local": "2026-09-15T10:30:00+00:00",
-      "deadline_utc": "2026-09-15T10:30:00+00:00",
-      "posted_at": "2026-08-14T14:13:43+00:00",
-      "modified_at": "2026-08-14T14:13:43+00:00",
-      "url": "https://www.utbodsvefur.is/hreinsun-gatna-i-gardabae-2027-2028/",
-      "summary": "Garðabær óskar eftir tilboðum í verkið: „Hreinsun gatna í Garðabæ 2027-2028 “ Í verkinu felst hreinsun helstu gatna og húsagatna í Garðabæ 2027-2028....",
-      "source": "utbodsvefur"
-    },
-    {
-      "reference": "23-096",
-      "project": "Hringvegur (1) um Kjalarnes, 2. áfangi, Vallá – Hvalfjörður",
-      "buyer": "Vegagerðin",
-      "notice_type": "Framkvæmd",
-      "deadline": "15.09.2026 kl. 14:00",
-      "deadline_local": "2026-09-15T14:00:00+00:00",
-      "deadline_utc": "2026-09-15T14:00:00+00:00",
-      "posted_at": "2026-07-15T10:39:22+00:00",
-      "modified_at": "2026-08-19T10:29:41+00:00",
-      "url": "https://www.utbodsvefur.is/hringvegur-1-um-kjalarnes-2-afangi-valla-hvalfjordur/",
-      "summary": "Vegagerðin býður hér með út breikkun Hringvegar frá Vallá að Hvalfjarðarvegi. Á kaflanum verða tvö hringtorg, tvö ný undirgöng við annars vegar við Gr...",
-      "source": "utbodsvefur"
-    },
-    {
-      "reference": "25-025",
-      "project": "Pickup trucks for The Icelandic Road and Coastal Administration (IRCA) 2026",
-      "buyer": "Vegagerðin",
-      "notice_type": "Vörukaup",
-      "deadline": "15.09.2026 kl. 14:00",
-      "deadline_local": "2026-09-15T14:00:00+00:00",
-      "deadline_utc": "2026-09-15T14:00:00+00:00",
-      "posted_at": "2026-08-07T10:43:41+00:00",
-      "modified_at": "2026-08-07T10:43:41+00:00",
-      "url": "https://www.utbodsvefur.is/pickup-trucks-for-the-icelandic-road-and-coastal-administration-irca-2026/",
-      "summary": "Vegagerðin býður hér með út Innkaup á 3 gerðum pallbifreiða fyrir starfsemi sína. Um er að ræða: Fjórar nýjar 4×4 pallbifreiðar venjulegar Þrjár...",
-      "source": "utbodsvefur"
-    },
-    {
-      "reference": "576364-2026",
-      "project": "Hringvegur (1) around Kjalarnes, 2. áfangi, Vallá – Hvalfjörður",
-      "buyer": "Vegagerðin",
-      "notice_type": "cn-standard",
-      "deadline": "15.09.2026 kl. 14:00",
-      "deadline_local": "2026-09-15T14:00:58+00:00",
-      "deadline_utc": "2026-09-15T14:00:58+00:00",
-      "posted_at": "2026-08-20",
-      "modified_at": null,
-      "url": "https://ted.europa.eu/en/notice/-/detail/576364-2026",
-      "summary": "TED open Iceland construction contract notice; CPV 45233120, 45233120.",
-      "source": "ted"
-    },
     {
       "reference": "113-2026",
       "project": "Markaðskönnun (RFI) – Rannsóknakerfi fyrir þvagfæri og meltingarveg",
@@ -602,20 +482,6 @@
       "modified_at": "2026-08-26T12:45:57+00:00",
       "url": "https://www.utbodsvefur.is/endurnyjun-eldhuss-og-matsala-fyrir-sameiginlegu-herthjalfunarmidstod-nato/",
       "summary": "Utanríkisráðuneytið, varnarmálaskrifstofa og Landhelgisgæslan, varnarmálasvið vekja athygli á útboði Mannvirkjastofnunar norska varnarmálaráðuneytisin...",
-      "source": "utbodsvefur"
-    },
-    {
-      "reference": "U25032",
-      "project": "Öryggisleitarbúnaður fyrir Keflavíkurflugvöll",
-      "buyer": "Isavia",
-      "notice_type": "Vörukaup",
-      "deadline": "21.09.2026 kl. 12:00",
-      "deadline_local": "2026-09-21T12:00:00+00:00",
-      "deadline_utc": "2026-09-21T12:00:00+00:00",
-      "posted_at": "2026-08-05T11:32:54+00:00",
-      "modified_at": "2026-08-06T13:14:29+00:00",
-      "url": "https://www.utbodsvefur.is/keflavik-airport-unified-security-checkpoint-solution/",
-      "summary": "Isavia ohf. ásamt dótturfélögum óskar eftir heildarlausn fyrir öryggisleitarbúnað á Keflavíkurflugvelli. Umfang innkaupanna nær til útvegunar, uppsetn...",
       "source": "utbodsvefur"
     },
     {
@@ -886,16 +752,16 @@
     },
     {
       "reference": "2026-47",
-      "project": "HOV63 Forval – Endurmat á verkefnishönnun Holtavirkjunar",
+      "project": "HOV63 Forval – Endurmat á verkhönnun Holtavirkjunar",
       "buyer": "Landsvirkjun",
       "notice_type": "Þjónusta",
       "deadline": "05.10.2026 kl. 14:00",
       "deadline_local": "2026-10-05T14:00:00+00:00",
       "deadline_utc": "2026-10-05T14:00:00+00:00",
       "posted_at": "2026-09-14T23:27:21+00:00",
-      "modified_at": "2026-09-14T23:27:21+00:00",
+      "modified_at": "2026-09-15T09:21:09+00:00",
       "url": "https://www.utbodsvefur.is/hov63-forval-endurmat-a-verkefnishonnun-holtavirkjunar/",
-      "summary": "Útboðið varðar endurmat á fyrirliggjandi verkefnishönnun (e. Project Planning Design) og felur í sér verkfræðiráðgjöf vegna Holtavirkjunar í Neðri-Þjó...",
+      "summary": "Útboðið varðar endurmat á fyrirliggjandi verkhönnun (e. Project Planning Design) og felur í sér verkfræðiráðgjöf vegna Holtavirkjunar í Neðri-Þjórsá. ...",
       "source": "utbodsvefur"
     },
     {
@@ -1092,6 +958,20 @@
       "modified_at": "2026-09-11T09:56:46+00:00",
       "url": "https://www.utbodsvefur.is/fjarvoktun-og-thjonustuuttektir-bruna-og-innbrotavidvorunarkerfa-eftirlit-og-vidhald-slokkvitaekja/",
       "summary": "Fjarvöktun og þjónustuúttektir bruna- og innbrotaviðvörunarkerfa – Eftirlit og viðhald slökkvitækja Áfengis- og tóbaksverslun ríkisins óskar eft...",
+      "source": "utbodsvefur"
+    },
+    {
+      "reference": "U25032",
+      "project": "Öryggisleitarbúnaður fyrir Keflavíkurflugvöll",
+      "buyer": "Isavia",
+      "notice_type": "Vörukaup",
+      "deadline": "19.10.2026 kl. 12:00",
+      "deadline_local": "2026-10-19T12:00:00+00:00",
+      "deadline_utc": "2026-10-19T12:00:00+00:00",
+      "posted_at": "2026-08-05T11:32:54+00:00",
+      "modified_at": "2026-09-15T14:55:30+00:00",
+      "url": "https://www.utbodsvefur.is/keflavik-airport-unified-security-checkpoint-solution/",
+      "summary": "Isavia ohf. ásamt dótturfélögum óskar eftir heildarlausn fyrir öryggisleitarbúnað á Keflavíkurflugvelli. Umfang innkaupanna nær til útvegunar, uppsetn...",
       "source": "utbodsvefur"
     },
     {
