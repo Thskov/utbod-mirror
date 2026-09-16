@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated": "2026-09-15T06:30:01Z",
+  "generated": "2026-09-16T06:30:01Z",
   "window": {
-    "from": "2026-08-16",
-    "to": "2026-09-15"
+    "from": "2026-08-17",
+    "to": "2026-09-16"
   },
   "coverage": {
     "sources": [
@@ -21,11 +21,6 @@
         "source": "byggingar-utbod",
         "outlet": "byggingar.is / niðurstöður útboða",
         "url": "https://byggingar.is/category/opnun-utboda/feed/"
-      },
-      {
-        "source": "si",
-        "outlet": "si.is",
-        "url": "https://www.si.is/frettir/"
       },
       {
         "source": "vb",
@@ -108,11 +103,6 @@
         "url": "https://www.fsre.is/"
       },
       {
-        "source": "nlsh",
-        "outlet": "Nýr Landspítali",
-        "url": "https://www.nlsh.is/"
-      },
-      {
         "source": "veitur",
         "outlet": "Veitur",
         "url": "https://www.veitur.is/frettir"
@@ -153,11 +143,6 @@
         "url": "https://www.eykt.is/frettir/"
       },
       {
-        "source": "javerk",
-        "outlet": "Jáverk",
-        "url": "https://javerk.is/frettir"
-      },
-      {
         "source": "borgarverk",
         "outlet": "Borgarverk",
         "url": "https://borgarverk.is/frettir/"
@@ -176,6 +161,11 @@
         "source": "munck",
         "outlet": "Munck",
         "url": "https://munck.dk/en/news/"
+      },
+      {
+        "source": "braggi",
+        "outlet": "braggi.is",
+        "url": "https://braggi.is/rss/"
       }
     ],
     "topics": {
@@ -212,6 +202,7 @@
         "hamranesskóli",
         "hringvegur um hornafjörð",
         "hvalárvirkjun",
+        "meðferðarkjari nlsh",
         "nta25 new terminal apron",
         "skjólgarður höfn",
         "vaðölduver"
@@ -224,6 +215,7 @@
         "Hamranesskóli",
         "Hringvegur um Hornafjörð",
         "Hvalárvirkjun",
+        "Meðferðarkjari NLSH",
         "NTA25 New terminal apron",
         "Skjólgarður Höfn",
         "Vaðölduver"
@@ -282,15 +274,203 @@
     ]
   },
   "sources": {
-    "not_covered": {
-      "si": "HTTP Error 404: Not Found",
-      "nlsh": "HTTP Error 429: Too Many Requests",
-      "javerk": "HTTP Error 404: Not Found"
-    },
+    "not_covered": {},
     "source_candidates": []
   },
-  "count": 28,
+  "count": 40,
   "items": [
+    {
+      "id": "news:braggi:tugthusundir-fyrirhugadra-ibuda-i-haettu-vegna-natturuverndar-5dddb7eb",
+      "lane": "news",
+      "category": "investment",
+      "title": "Tugþúsundir fyrirhugaðra íbúða í hættu vegna náttúruverndar",
+      "entity": "braggi.is",
+      "date": "2026-09-16",
+      "summary": "Nærri 160.000 fyrirhugaðar íbúðir í Noregi eru í hættu vegna náttúruverndarsjónarmiða samkvæmt nýrri skýrslu. Sveitarfélög hafa skipulagt íbúðir á svæðum með mikilvæg náttúruverðmæti, sem leiðir til markmiðsátaka.",
+      "url": "https://braggi.is/tugthusundir-fyrirhugadra-ibuda-i-haettu-vegna-natturuverndar-5dddb7eb/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:90-ryma-hataekni-hjukrunarheimli-opnar-a-asbru-sumarid-2028",
+      "lane": "news",
+      "category": "project",
+      "title": "90 rýma hátækni hjúkrunarheimli opnar á Ásbrú sumarið 2028",
+      "entity": "braggi.is",
+      "date": "2026-09-16",
+      "summary": "Nýtt og glæsilegt 90 rýma hátækni hjúkrunarheimili er í smíðum á Ásbrú og áætlað er að það opni sumarið 2028. Verkefnið felur í sér endurbyggingu og stækkun tveggja eldri fjölbýlishúsa við Keilisbraut.",
+      "url": "https://braggi.is/90-ryma-hataekni-hjukrunarheimli-opnar-a-asbru-sumarid-2028/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:vegagerdin:god-maeting-a-ibuafund-um-framkvaemdir-a-vatnsnesi",
+      "lane": "news",
+      "category": "project",
+      "title": "15. september 2026 Góð mæting á íbúafund um framkvæmdir á Vatnsnesi",
+      "entity": "Vegagerðin",
+      "date": "2026-09-15",
+      "summary": "__eI5fQ\"> Frétt­ir 15. september 2026 Góð mæting á íbúafund um framkvæmdir á Vatnsnesi <img alt=\"\" loading=\"lazy\" width=\"300\" height=\"9999\" decoding=\"async\" data-nimg=\"1\" class=\"NextImage_container__yLPzb\" style=\"color:transparent;height:auto\" srcSet=\"/_next/image?url=%2Fmedia%2F2026%2F09%2Fdji_20260804172647_0270_d-aspect-ratio-1600-1100.jpg&w=400&q=75 1x,...",
+      "url": "https://www.vegagerdin.is/vegagerdin/starfsemi/frettir/god-maeting-a-ibuafund-um-framkvaemdir-a-vatnsnesi",
+      "outlet": "Vegagerðin",
+      "is_new": true
+    },
+    {
+      "id": "news:byggingar:sudurverk-og-fossvelar-laegst-med-4-68-milljarda-tilbod-i-kjalarnesveg",
+      "lane": "news",
+      "category": "project",
+      "title": "Suðurverk og Fossvélar lægst með 4.68 milljarða tilboð í Kjalarnesveg",
+      "entity": "byggingar.is",
+      "date": "2026-09-15",
+      "summary": "ploads/2026/09/15.09.2026-Sudurverk-og-Fossvelar-laegst-med-4.68-milljarda-tilbod-i-Kjalarnesveg-238x178.jpg\" width=\"238\" height=\"178\" /> Suðurverk og Fossvélar lægst með 4.68 milljarða tilboð í Kjalarnesveg <img class=\"entry-thumb\" src=\"",
+      "url": "https://byggingar.is/sudurverk-og-fossvelar-laegst-med-4-68-milljarda-tilbod-i-kjalarnesveg/",
+      "outlet": "byggingar.is",
+      "is_new": true
+    },
+    {
+      "id": "news:byggingar:120-milljarda-gagnaver-a-bakka",
+      "lane": "news",
+      "category": "industrial-demand",
+      "title": "120 milljarða gagnaver á Bakka",
+      "entity": "byggingar.is",
+      "date": "2026-09-15",
+      "summary": "url=\"https://byggingar.is/wp-content/uploads/2026/09/15.09.2026-120-milljarda-gagnaver-a-Bakka-a-238x178.jpg\" width=\"238\" height=\"178\" /> 120 milljarða gagnaver á Bakka <i class=\"td-next-prev-icon td-i",
+      "url": "https://byggingar.is/120-milljarda-gagnaver-a-bakka/",
+      "outlet": "byggingar.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:tillogur-hms-markvissari-husnaedisstudningur-og-moguleiki-a-kaupum-i-almennum-ib",
+      "lane": "news",
+      "category": "investment",
+      "title": "Tillögur HMS: Markvissari húsnæðisstuðningur og möguleiki á kaupum í almennum íbúðum",
+      "entity": "braggi.is",
+      "date": "2026-09-15",
+      "summary": "Húsnæðis- og mannvirkjastofnun (HMS) hefur gefið út vegvísi með tillögum að markvissari húsnæðisstuðningi til leigjenda. Meðal annars er lagt til að fjármagni sem varið er til húsnæðisbóta verði ráðstafað til uppbyggingar íbúða.",
+      "url": "https://braggi.is/tillogur-hms-markvissari-husnaedisstudningur-og-moguleiki-a-kaupum-i-almennum-ibudum/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:skammtimadvol-fyrir-fotlud-born-i-holti-a-framkvaemdastig",
+      "lane": "news",
+      "category": "project",
+      "title": "Skammtímadvöl fyrir fötluð börn í Holti á framkvæmdastig",
+      "entity": "braggi.is",
+      "date": "2026-09-15",
+      "summary": "Sveitarstjórn Borgarbyggðar hefur samþykkt kostnaðarskiptingu vegna reksturs skammtímadvalar fyrir fötluð börn og ungmenni í Holti. Verkefnið er nú komið á framkvæmdastig og vonir standa til að starfsemin geti hafist fljótlega eftir áramót.",
+      "url": "https://braggi.is/skammtimadvol-fyrir-fotlud-born-i-holti-a-framkvaemdastig/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:johann-nyr-kafli-i-islenskri-orkusogu-ba3e6b4c",
+      "lane": "news",
+      "category": "project",
+      "title": "Jóhann: „Nýr kafli í íslenskri orkusögu“",
+      "entity": "braggi.is",
+      "date": "2026-09-15",
+      "summary": "„Þetta er stór dagur. Þetta er svona nýr kafli í íslenskri orkusögu,“ segir Jóhann Páll Jóhannsson, umhverfis-, orku- og loftslagsráðherra, um gangsetningu vindorkuversins, Vaðöldu.",
+      "url": "https://braggi.is/johann-nyr-kafli-i-islenskri-orkusogu-ba3e6b4c/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:ihuga-ad-krefja-hafnarfjord-um-baetur-55c6147b",
+      "lane": "news",
+      "category": "project",
+      "title": "Íhuga að krefja Hafnarfjörð um bætur",
+      "entity": "braggi.is",
+      "date": "2026-09-15",
+      "summary": "Samkomulag Hafnarfjarðarbæjar og Tækniskólans um nýjan skóla hefur runnið út í sandinn vegna þess að bærinn gat ekki útvegað lóð. Tækniskólinn íhugar nú að krefja Hafnarfjörð um bætur vegna tafa.",
+      "url": "https://braggi.is/ihuga-ad-krefja-hafnarfjord-um-baetur-55c6147b/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:gridarlega-stor-dagur-i-islenskri-orkusogu-2b081961",
+      "lane": "news",
+      "category": "project",
+      "title": "„Gríðarlega stór dagur í íslenskri orkusögu“",
+      "entity": "braggi.is",
+      "date": "2026-09-15",
+      "summary": "Fyrsta vindorkuver Íslands hefur verið gangsett í Vaðöldu. Umhverfis-, orku- og loftslagsráðherra segir daginn marka tímamót í íslenskri orkusögu.",
+      "url": "https://braggi.is/gridarlega-stor-dagur-i-islenskri-orkusogu-2b081961/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:fyrsta-vindorkuverid-gangsett-i-blidvidri-113436f3",
+      "lane": "news",
+      "category": "project",
+      "title": "Fyrsta vindorkuverið gangsett í blíðviðri",
+      "entity": "braggi.is",
+      "date": "2026-09-15",
+      "summary": "Fyrsta vindorkuver landsins, Vaðölduver, var gangsett í dag við hátíðlega athöfn. Ásbjörg Kristinsdóttir, framkvæmdastjóri framkvæmdasviðs Landsvirkjunnar flutti ávarp ásamt Brynju Baldursdóttur stjórnarformanni og Herði Arnarsyni forstjóra Landsvirk",
+      "url": "https://braggi.is/fyrsta-vindorkuverid-gangsett-i-blidvidri-113436f3/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:fyrsta-vindorkuver-landsins-gangsett-b00f0e07",
+      "lane": "news",
+      "category": "project",
+      "title": "Fyrsta vindorkuver landsins gangsett",
+      "entity": "braggi.is",
+      "date": "2026-09-15",
+      "summary": "Gangsetning Vaðölduvers, fyrsta vindorkuvers landsins, fer fram í dag.",
+      "url": "https://braggi.is/fyrsta-vindorkuver-landsins-gangsett-b00f0e07/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:byggingar-og-skipulagsfulltruum-hafnarfjardar-sagt-upp",
+      "lane": "news",
+      "category": "project",
+      "title": "Byggingar- og skipulagsfulltrúum Hafnarfjarðar sagt upp",
+      "entity": "braggi.is",
+      "date": "2026-09-15",
+      "summary": "Vegna skipulagsbreytinga hefur Hafnarfjarðarbær sagt bæði skipulagsfulltrúa og byggingarfulltrúa bæjarins upp störfum.DV barst ábending um að byggingarfulltrúanum hefði verið sagt upp og leitaði svara hjá Hafnarfjarðarbæ.",
+      "url": "https://braggi.is/byggingar-og-skipulagsfulltruum-hafnarfjardar-sagt-upp/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:breyting-a-deiliskipulagi-borga-1-vegna-fristundahuss",
+      "lane": "news",
+      "category": "investment",
+      "title": "Breyting á deiliskipulagi Borga 1 vegna frístundahúss",
+      "entity": "braggi.is",
+      "date": "2026-09-15",
+      "summary": "Grýtubakkahreppur hefur samþykkt breytingu á deiliskipulagi Borga 1 til að mæta nýrri byggingu frístundahúss. Breytingin felur í sér hliðrun á byggingarreit um tvo metra.",
+      "url": "https://braggi.is/breyting-a-deiliskipulagi-borga-1-vegna-fristundahuss/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:aforma-gagnaver-a-bakka-fyrir-um-120-milljarda-krona-735b5de3",
+      "lane": "news",
+      "category": "industrial-demand",
+      "title": "Áforma gagnaver á Bakka fyrir um 120 milljarða króna",
+      "entity": "braggi.is",
+      "date": "2026-09-15",
+      "summary": "Áform um stórt gagnaver á iðnaðarsvæðinu á Bakka við Húsavík voru kynnt á opnum fundi á Fosshótel Húsavík í dag.",
+      "url": "https://braggi.is/aforma-gagnaver-a-bakka-fyrir-um-120-milljarda-krona-735b5de3/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:600-mkr-lan-til-endurbyggingar-grunnskola-og-byggingar-ithrottahuss",
+      "lane": "news",
+      "category": "project",
+      "title": "600 m.kr. lán til endurbyggingar grunnskóla og byggingar íþróttahúss",
+      "entity": "braggi.is",
+      "date": "2026-09-15",
+      "summary": "Sveitarstjórn Borgarbyggðar hefur samþykkt að taka 600 milljóna króna lán hjá Lánasjóði sveitarfélaga til að greiða upp skammtímalán vegna endurbyggingar grunnskóla á Kleppjárnsreykjum og byggingu íþróttahúss í Borgarnesi.",
+      "url": "https://braggi.is/600-mkr-lan-til-endurbyggingar-grunnskola-og-byggingar-ithrottahuss/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
     {
       "id": "news:visir-fiskeldi:thad-tharf-ad-hreinsa-adeins-loftid",
       "lane": "news",
@@ -301,31 +481,7 @@
       "summary": "Formaður heimastjórnar Múlaþings segir það hafa komið sér og öðrum fulltrúum Múlaþings í opna skjöldu að starfsleyfi hafi verið gefið út til fiskeldis í firðinum. Það séu vonbrigði að frumvarp um breytingar á lögum um lagareldi hafi ekki gengið í gegn á síðasta vorþingi.",
       "url": "https://www.visir.is/g/20262934369d/-thad-tharf-ad-hreinsa-adeins-loftid-",
       "outlet": "visir.is / Fiskeldi",
-      "is_new": true
-    },
-    {
-      "id": "news:byggingar:k16-faer-thakendurnyjun-haskolans-a-akureyri-fyrir-64-m-kr",
-      "lane": "news",
-      "category": "project",
-      "title": "K16 fær þakendurnýjun Háskólans á Akureyri fyrir 64 m.kr.",
-      "entity": "byggingar.is",
-      "date": "2026-09-14",
-      "summary": "g\" data-img-url=\"https://byggingar.is/wp-content/uploads/2026/09/14.09.2026-Haskolinn-a-Akureyri-238x178.png\" width=\"238\" height=\"178\" /> K16 fær þakendurnýjun Háskólans á Akureyri fyrir 64 m.kr. <a href=\"https://byggingar.is/all-verk-faer-endurbaetur-a-rannsoknardeild-hvest-fyrir-78-3-milljonir/\" rel=\"bookmark\" class=\"td-image-wrap \" title=\"ALL Verk fær en...",
-      "url": "https://byggingar.is/k16-faer-thakendurnyjun-haskolans-a-akureyri-fyrir-64-m-kr/",
-      "outlet": "byggingar.is",
-      "is_new": true
-    },
-    {
-      "id": "news:byggingar:baud-naer-milljard-i-jardvinnuframkvaemdir",
-      "lane": "news",
-      "category": "project",
-      "title": "Bauð nær milljarð í jarðvinnuframkvæmdir við nýtt fangelsi á Stóra-Hrauni",
-      "entity": "byggingar.is",
-      "date": "2026-09-14",
-      "summary": "2026/09/14.09.2026-Baud-naer-milljard-i-jardvinnuframkvaemdir-vid-nytt-fangelsi-a-Stora-Hrauni-a-238x178.jpg\" width=\"238\" height=\"178\" /> Bauð nær milljarð í jarðvinnuframkvæmdir við nýtt fangelsi á Stóra-Hrauni <a href=\"https://byggingar.is/k16-faer-thakendurnyjun-haskolans-a-akureyri-fyrir-64-m-kr/\" rel=\"bookmark\" class=\"td-image-wrap \" title=\"K16 fær þak...",
-      "url": "https://byggingar.is/baud-naer-milljard-i-jardvinnuframkvaemdir/",
-      "outlet": "byggingar.is",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "news:visir-fiskeldi:thetta-er-fullkomid-afall",
@@ -361,18 +517,6 @@
       "summary": "Félagið Kaldvík AS hefur fengið rekstrar- og starfsleyfi til að ala tíu þúsund tonn af laxi frá Matvælastofnun og Umhverfis- og orkustofnun í Seyðisfirði. Í tilkynningu til Kauphallar segir forstjóri það mikilvægan áfanga.",
       "url": "https://www.visir.is/g/20262933510d/kaldvik-faer-starfs-og-rekstrarleyfi-i-seydisfirdi",
       "outlet": "visir.is / Fiskeldi",
-      "is_new": false
-    },
-    {
-      "id": "news:vegagerdin:aukning-umferdar-a-hofudborgarsvaedinu",
-      "lane": "news",
-      "category": "project",
-      "title": "11. september 2026 Aukning umferðar á höfuðborgarsvæðinu",
-      "entity": "Vegagerðin",
-      "date": "2026-09-11",
-      "summary": "__eI5fQ\"> Frétt­ir 11. september 2026 Aukning umferðar á höfuðborgarsvæðinu <img alt=\"\" loading=\"lazy\" width=\"300\" height=\"9999\" decoding=\"async\" data-nimg=\"1\" class=\"NextImage_container__yLPzb\" style=\"color:transparent;height:auto\" srcSet=\"/_next/image?url=%2Fmedia%2F2026%2F09%2Fframkvaemdasvaedi-aspect-ratio-1600-1100.png&w=40",
-      "url": "https://www.vegagerdin.is/vegagerdin/starfsemi/frettir/aukning-umferdar-a-hofudborgarsvaedinu",
-      "outlet": "Vegagerðin",
       "is_new": false
     },
     {
@@ -442,7 +586,7 @@
       "title": "Borgarspítalareitur í skipulagsgátt",
       "entity": "Reykjavíkurborg",
       "date": "2026-09-02",
-      "summary": "?h=fa7169fd&itok=GJhT_7GX 1920w, /sites/default/files/styles/landscape_4k/public/2026-09/mynd3.jpg?h=fa7169fd&itok=1iQDI593 3840w\" data-sizes=\"auto\" /> 2. september 2026 Borgarspítalareitur í skipulagsgátt <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2023-11/bila1.jpg?h=82f92a78&itok=uwbi9mrq\" a...",
+      "summary": "?h=fa7169fd&itok=GJhT_7GX 1920w, /sites/default/files/styles/landscape_4k/public/2026-09/mynd3.jpg?h=fa7169fd&itok=1iQDI593 3840w\" data-sizes=\"auto\" /> 2. september 2026 Borgarspítalareitur í skipulagsgátt <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2026-09/26060102_myndir_011_copy_small.jpg?h=...",
       "url": "https://reykjavik.is/frettir/2026/borgarspitalareitur-i-skipulagsgatt",
       "outlet": "Reykjavíkurborg",
       "is_new": false
@@ -466,7 +610,7 @@
       "title": "Borgarlínuframkvæmdir hafnar við Nauthólsveg – HR",
       "entity": "Reykjavíkurborg",
       "date": "2026-09-01",
-      "summary": "f&itok=lgVpWBVR 1920w, /sites/default/files/styles/landscape_4k/public/2026-09/1674326bs_small.jpg?h=3807a4ff&itok=q4Pl2cGq 3840w\" data-sizes=\"auto\" /> 1. september 2026 Borgarlínuframkvæmdir hafnar við Nauthólsveg – HR <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2026-09/img_8216_l_small.jpeg.j...",
+      "summary": "f&itok=lgVpWBVR 1920w, /sites/default/files/styles/landscape_4k/public/2026-09/1674326bs_small.jpg?h=3807a4ff&itok=q4Pl2cGq 3840w\" data-sizes=\"auto\" /> 1. september 2026 Borgarlínuframkvæmdir hafnar við Nauthólsveg – HR <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2026-08/skjamynd_2026-08-14_130...",
       "url": "https://reykjavik.is/frettir/2026/borgarlinuframkvaemdir-hafnar-vid-nautholsveg-hr",
       "outlet": "Reykjavíkurborg",
       "is_new": false
@@ -552,18 +696,6 @@
       "date": "2026-08-27",
       "summary": "Colas með lægsta tilboð í malbik á Breiðamerkursandi – 32,3% yfir áætlun Colas Ísland ehf. átti lægsta tilboðið í malbiksyfirlagnir Vegagerðarinnar vestan Jökulsár á Breiðamerkursandi. Tilboðið hljóðar upp á 328,4 milljónir króna og er rúmum 80 milljónum króna yfir áætluðum verktakakostnaði. Vegagerðin opnaði 25. ágúst tilboð í útboði nr. 26-123 vegna malbi...",
       "url": "https://byggingar.is/colas-med-laegsta-tilbod-i-malbik-a-breidamerkursandi/?utm_source=rss&utm_medium=rss&utm_campaign=colas-med-laegsta-tilbod-i-malbik-a-breidamerkursandi",
-      "outlet": "byggingar.is / niðurstöður útboða",
-      "is_new": false
-    },
-    {
-      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-verkrad-ehf-med-eina-tilbodid-i-eftir",
-      "lane": "news",
-      "category": "project",
-      "title": "Verkráð ehf. með eina tilboðið í eftirlit með endurbyggingu Jökuldalsvegar",
-      "entity": "byggingar.is / niðurstöður útboða",
-      "date": "2026-08-26",
-      "summary": "Verkráð ehf. með eina tilboðið í eftirlit með endurbyggingu Jökuldalsvegar Verkráð ehf. á Egilsstöðum var eina fyrirtækið sem skilaði tilboði í eftirlit og ráðgjöf vegna endurbyggingar á 4,5 kílómetra kafla Jökuldalsvegar milli Langagerðis og Hákonarstaða. Tilboð fyrirtækisins hljóðar upp á 13,02 milljónir króna og er undir kostnaðaráætlun Vegagerðarinnar....",
-      "url": "https://byggingar.is/verkrad-ehf-med-eina-tilbodid-i-eftirlit-med-endurbyggingu-jokuldalsvegar/?utm_source=rss&utm_medium=rss&utm_campaign=verkrad-ehf-med-eina-tilbodid-i-eftirlit-med-endurbyggingu-jokuldalsvegar",
       "outlet": "byggingar.is / niðurstöður útboða",
       "is_new": false
     },
