@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated": "2026-09-16T06:45:01Z",
+  "generated": "2026-09-17T06:45:01Z",
   "window": {
-    "from": "2026-09-09",
-    "to": "2026-09-16"
+    "from": "2026-09-10",
+    "to": "2026-09-17"
   },
   "coverage": {
     "municipalities": [
@@ -39,6 +39,9 @@
       "Hamranesskóli",
       "Hringvegur um Hornafjörð",
       "Hvalárvirkjun",
+      "Hvammsvirkjun",
+      "Hvammsvirkjunar",
+      "Landsvirkjun",
       "matsskyldu",
       "matsáætlun",
       "Meðferðarkjari NLSH",
@@ -184,6 +187,9 @@
         "ístak project: Hamranesskóli",
         "ístak project: Hringvegur um Hornafjörð",
         "ístak project: Hvalárvirkjun",
+        "ístak project: Hvammsvirkjun",
+        "ístak project: Hvammsvirkjunar",
+        "ístak project: Landsvirkjun",
         "ístak project: Meðferðarkjari NLSH",
         "ístak project: NTA25 New terminal apron",
         "ístak project: Skjólgarður Höfn",
@@ -253,7 +259,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/5377",
         "seen_count": 1,
         "first_seen": "2026-09-11T06:45:01Z",
-        "last_seen": "2026-09-16T06:45:01Z",
+        "last_seen": "2026-09-17T06:45:01Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -265,7 +271,7 @@
         "evidence_url": "https://island.is/reglugerdir/nr/0809-2026",
         "seen_count": 1,
         "first_seen": "2026-09-11T06:45:01Z",
-        "last_seen": "2026-09-16T06:45:01Z",
+        "last_seen": "2026-09-17T06:45:01Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       }
@@ -284,8 +290,8 @@
           "no_matching_keywords": 25
         },
         "landsvirkjun": {
-          "no_matching_keywords": 16,
-          "undated": 8
+          "undated": 14,
+          "no_matching_keywords": 10
         },
         "faxafloahafnir": {
           "no_matching_keywords": 36,
@@ -301,15 +307,16 @@
           "no_matching_keywords": 40
         },
         "isavia": {
-          "no_matching_keywords": 24
+          "no_matching_keywords": 23,
+          "undated": 1
         },
         "kadeco": {
           "no_matching_keywords": 38,
           "outside_window": 2
         },
         "reykjavik": {
-          "no_matching_keywords": 36,
-          "undated": 2,
+          "no_matching_keywords": 37,
+          "undated": 1,
           "outside_window": 1
         },
         "kopavogur": {
@@ -344,12 +351,12 @@
           "outside_window": 31
         },
         "gardabaer": {
-          "no_matching_keywords": 19,
+          "no_matching_keywords": 17,
           "outside_window": 4
         },
         "mosfellsbaer": {
-          "no_matching_keywords": 35,
-          "outside_window": 2,
+          "no_matching_keywords": 33,
+          "outside_window": 3,
           "undated": 2
         },
         "arborg": {
@@ -372,7 +379,7 @@
         },
         "byggingar-opnun-utboda": {
           "undated": 18,
-          "outside_window": 13
+          "outside_window": 12
         },
         "vb": {
           "no_matching_keywords": 40
@@ -422,7 +429,7 @@
       }
     }
   },
-  "count": 298,
+  "count": 300,
   "items": [
     {
       "id": "legislation:althingi-thingmalaskra:endurskodud-aaetlun-um-framlagningu-thingmala-a-vetrar-og-vorthingi-2026-lokautg",
@@ -432,7 +439,7 @@
       "title": "Endurskoðuð þingmálaskrá fyrir 157. löggjafarþing",
       "entity": "Alþingi",
       "status": "tracker",
-      "date": "2026-09-16",
+      "date": "2026-09-17",
       "summary": "13. Frumvarp til laga um breytingu á lögum um mannvirki, nr. 160/2010 (einföldun byggingarreglugerðar og endurskoðun byggingareftirlits). / 14. Frumvarp til laga um breytingu á skipulagslögum nr. 123/2010 (raflínuskipulag). / 2. Frumvarp til laga um breytingu á lögum um stefnur og aðgerðaáætlanir á sviði húsnæðis- og skipulagsmála, samgangna og byggðamála, nr. 30/2023 (stefnumörkun).",
       "url": "https://www.althingi.is/media/uncategorized/Endurskodud-aaetlun-um-framlagningu-thingmala-a-vetrar-og-vorthingi-2026-lokautgafa-leidrettX.pdf",
       "index_url": "https://www.althingi.is/thingstorf/leidbeiningar-og-yfirlit/thingmalaskra-rikisstjornar/",
@@ -445,6 +452,136 @@
       ],
       "case_number": "157. löggjafarþing",
       "period": "2025–2026"
+    },
+    {
+      "id": "skgatt:1073/2026",
+      "lane": "planning",
+      "title": "Fitjabakki 3 og Fitjabraut 32 - sameining lóða",
+      "entity": "Reykjanesbær",
+      "case_number": "1073/2026",
+      "plan_type": "deiliskipulag",
+      "status": "Grenndarkynning",
+      "date": "2026-09-16",
+      "review_deadline": "2026-10-14",
+      "summary": "Með vísan til 5. mgr. 13. gr.,2.mgr 43gr, 1. og 2 mgr. 44. gr. Skipulagslaga nr. 123 frá árinu 2010, gefur Skipulagsráð hér með eigendum húseigna í næsta nágrenni við Fitjabakka 3 og Fitjabraut 32, 260 Reykjanesbæ kost á að tjá sig um umsóknina. Fagfasteignir ehf. óska heimildar til sameiningar lóðanna Fitjabakka 3 og Fitjabrautar 32 og breytingar á aðkomu…",
+      "url": "https://skipulagsgatt.is/issues/5428"
+    },
+    {
+      "id": "announcement:mosfellsbaer:samgonguvika-16-22-september-2026",
+      "lane": "announcement",
+      "source": "mosfellsbaer",
+      "title": "Evr­ópsk sam­göngu­vika 16. september 2026 Samgönguvika 16. – 22. september 2026",
+      "entity": "Mosfellsbær",
+      "status": "published",
+      "date": "2026-09-16",
+      "summary": "4.75Z\"/> Evr­ópsk sam­göngu­vika 16. september 2026 Samgönguvika 16. – 22. september 2026 <img class=\"bde-image2-53844-101-103707-",
+      "url": "https://mos.is/mannlif/um-mosfellsbae/frettir/samgonguvika-16-22-september-2026/",
+      "keywords_matched": [
+        "samgöngur"
+      ]
+    },
+    {
+      "id": "announcement:gardabaer:starfsemi-thorlaksskola-hafin",
+      "lane": "announcement",
+      "source": "gardabaer",
+      "title": "Fréttir 16.09.2026 Starfsemi Þorláksskóla hafin Samningur um Þorláksskóla, nýjan sérhæfðan grunnskóla fyrir einhverf börn í Garðabæ, hefur verið undirritaður og starfsemi skólans…",
+      "entity": "Garðabær",
+      "status": "published",
+      "date": "2026-09-16",
+      "summary": "r Vegagerðin hefur gefið heimild til eftirtalinna verka ef veður leyfir fimmtudaginn 17. september: Fréttir 16.09.2026 Starfsemi Þorláksskóla hafin Samningur um Þorláksskóla, nýjan sérhæfðan grunnskóla fyrir einhverf börn í Garðabæ, hefur verið undirritaður og starfsemi skólans er farin af stað. Skólinn er sjálfstætt starfandi og rekinn af Jónsvegi ehf. í n…",
+      "url": "https://www.gardabaer.is/frettir/starfsemi-thorlaksskola-hafin",
+      "keywords_matched": [
+        "samgöngur"
+      ]
+    },
+    {
+      "id": "announcement:gardabaer:lokanir-vegna-malbikunar-a-flottamannavegi",
+      "lane": "announcement",
+      "source": "gardabaer",
+      "title": "Tilkynningar 16.09.2026 Lokanir á Flóttamannavegi vegna malbikunar 17. september Vegagerðin hefur gefið heimild til eftirtalinna verka ef veður leyfir fimmtudaginn 17. september:",
+      "entity": "Garðabær",
+      "status": "published",
+      "date": "2026-09-16",
+      "summary": "odule-scss-module___iNLsG__featured CardList-module-scss-module___iNLsG__container CardList-module-scss-module___iNLsG__plainCards\"> Tilkynningar 16.09.2026 Lokanir á Flóttamannavegi vegna malbikunar 17. september Vegagerðin hefur gefið heimild til eftirtalinna verka ef veður leyfir fimmtudaginn 17. september: <div class=\"Ca",
+      "url": "https://www.gardabaer.is/frettir/lokanir-vegna-malbikunar-a-flottamannavegi",
+      "keywords_matched": [
+        "samgöngur"
+      ]
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:tilbod-opnud-i-varaaflskerfi-nys-landspitala",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "Tilboð opnuð í varaaflskerfi Nýs Landspítala",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-09-16",
+      "summary": "> Tilboð opnuð í varaaflskerfi Nýs Landspítala byggingar - 16/09/2026",
+      "url": "https://byggingar.is/tilbod-opnud-i-varaaflskerfi-nys-landspitala/",
+      "keywords_matched": [
+        "bygging",
+        "opinber innkaup"
+      ]
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:gardabaer-bydur-ut-600-fermetra-busetukjarna-vid-haustbraut",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "06.10.2026 Garðabær býður út 600 fermetra búsetukjarna við Haustbraut",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-09-16",
+      "summary": "https://byggingar.is/wp-content/uploads/2026/09/16.09.2026-Gardabaer-bydur-ut-600-fermetra-busetukjarna-vid-Haustbraut-100x75.jpg\" width=\"100\" height=\"75\" /> 06.10.2026 Garðabær býður út 600 fermetra búsetukjarna við Haustbraut 16/09/2026 <div cl",
+      "url": "https://byggingar.is/gardabaer-bydur-ut-600-fermetra-busetukjarna-vid-haustbraut/",
+      "keywords_matched": [
+        "bygging",
+        "opinber innkaup"
+      ]
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:fimm-aukaibudir-thar-sem-adeins-matti-vera-ein",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "Fimm aukaíbúðir þar sem að­eins mátti vera ein",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-09-16",
+      "summary": "ata-img-url=\"https://byggingar.is/wp-content/uploads/2026/09/16.09.2026-Fimm-aukaibudir-thar-sem-adeins-matti-vera-ein-100x75.jpg\" width=\"100\" height=\"75\" /> Fimm aukaíbúðir þar sem að­eins mátti vera ein 17/09/2026 <div class=\"td_modu",
+      "url": "https://byggingar.is/fimm-aukaibudir-thar-sem-adeins-matti-vera-ein/",
+      "keywords_matched": [
+        "bygging",
+        "opinber innkaup"
+      ]
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:byggingar",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "byggingar",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-09-16",
+      "summary": "k\" title=\"Tilboð opnuð í varaaflskerfi Nýs Landspítala\">Tilboð opnuð í varaaflskerfi Nýs Landspítala byggingar - 16/09/2026 <a href=\"https://byggingar.is/tilbod-opnud-i-varaaflskerfi-nys-landspitala/#respond",
+      "url": "https://byggingar.is/author/byggingar/",
+      "keywords_matched": [
+        "bygging",
+        "opinber innkaup"
+      ]
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:brjota-land-undir-keflavikurborgir",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "Brjóta land undir Keflavíkurborgir",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-09-16",
+      "summary": "age_tag\" data-img-url=\"https://byggingar.is/wp-content/uploads/2026/09/16.09.2026-Brjota-land-undir-Keflavikurborgir-a-100x75.jpg\" width=\"100\" height=\"75\" /> Brjóta land undir Keflavíkurborgir 17/09/2026 <div class=\"td_modu",
+      "url": "https://byggingar.is/brjota-land-undir-keflavikurborgir/",
+      "keywords_matched": [
+        "bygging",
+        "opinber innkaup"
+      ]
     },
     {
       "id": "skgatt:1070/2026",
@@ -503,7 +640,7 @@
       "entity": "Reykjavíkurborg",
       "status": "published",
       "date": "2026-09-15",
-      "summary": "/sites/default/files/styles/landscape_4k/public/2026-09/samgonguvika_-_afrit2.png?h=8665f5ac&itok=4wAgcKoz 3840w\" data-sizes=\"auto\" /> 15. september 2026 Evrópsk samgönguvika 2026 <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2026-09/skjamynd_2026-09-15_103623.png.jpg?h=c8b21590&itok=-Re4SBoD\" al…",
+      "summary": "1920w, /sites/default/files/styles/landscape_4k/public/2026-06/folk_ad_hjola.jpg?h=1c9b88c9&itok=f3hQcAWZ 3840w\" data-sizes=\"auto\" /> 15. september 2026 Evrópsk samgönguvika 2026 <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2026-09/skjamynd_2026-09-15_103623.png.jpg?h=c8b21590&itok=-Re4SBoD\" alt…",
       "url": "https://reykjavik.is/frettir/2026/evropsk-samgonguvika-2026",
       "keywords_matched": [
         "samgöngur"
@@ -517,38 +654,8 @@
       "entity": "Byggingar.is",
       "status": "published",
       "date": "2026-09-15",
-      "summary": "> Suðurverk og Fossvélar lægst með 4.68 milljarða tilboð í Kjalarnesveg byggingar - 15/09/2026",
+      "summary": "Suðurverk og Fossvélar lægst með 4.68 milljarða tilboð í Kjalarnesveg byggingar - 15/09/2026",
       "url": "https://byggingar.is/sudurverk-og-fossvelar-laegst-med-4-68-milljarda-tilbod-i-kjalarnesveg/",
-      "keywords_matched": [
-        "bygging",
-        "opinber innkaup"
-      ]
-    },
-    {
-      "id": "announcement:byggingar-opnun-utboda:byggingar",
-      "lane": "announcement",
-      "source": "byggingar-opnun-utboda",
-      "title": "byggingar",
-      "entity": "Byggingar.is",
-      "status": "published",
-      "date": "2026-09-15",
-      "summary": "lljarða tilboð í Kjalarnesveg\">Suðurverk og Fossvélar lægst með 4.68 milljarða tilboð í Kjalarnesveg byggingar - 15/09/2026 <a href=\"https://byggingar.is/sudurverk-og-fossvelar-laegst-med-4-68-milljarda-tilb",
-      "url": "https://byggingar.is/author/byggingar/",
-      "keywords_matched": [
-        "bygging",
-        "opinber innkaup"
-      ]
-    },
-    {
-      "id": "announcement:byggingar-opnun-utboda:120-milljarda-gagnaver-a-bakka",
-      "lane": "announcement",
-      "source": "byggingar-opnun-utboda",
-      "title": "120 milljarða gagnaver á Bakka",
-      "entity": "Byggingar.is",
-      "status": "published",
-      "date": "2026-09-15",
-      "summary": "=\"image_tag\" data-img-url=\"https://byggingar.is/wp-content/uploads/2026/09/15.09.2026-120-milljarda-gagnaver-a-Bakka-a-100x75.jpg\" width=\"100\" height=\"75\" /> 120 milljarða gagnaver á Bakka 15/09/2026 <div cl",
-      "url": "https://byggingar.is/120-milljarda-gagnaver-a-bakka/",
       "keywords_matched": [
         "bygging",
         "opinber innkaup"
@@ -736,21 +843,6 @@
       "review_deadline": "2026-10-22",
       "summary": "Deiliskipulag Hafnarfjarðarvegar frá Lyngási að Engidal. Deiliskipulag fyrir Hafnarfjarðarveg frá Lyngási að Vífilsstöðum var samþykkt árið 2019.",
       "url": "https://skipulagsgatt.is/issues/5405"
-    },
-    {
-      "id": "announcement:byggingar-opnun-utboda:borgarverk-faer-993-milljona-jardvinnu-vid-nytt-fangelsi-a-stora-hrauni",
-      "lane": "announcement",
-      "source": "byggingar-opnun-utboda",
-      "title": "Borgarverk fær 993 milljóna jarðvinnu við nýtt fangelsi á Stóra-Hrauni",
-      "entity": "Byggingar.is",
-      "status": "published",
-      "date": "2026-09-09",
-      "summary": "Borgarverk fær 993 milljóna jarðvinnu við nýtt fangelsi á Stóra-Hrauni byggingar - 09/09/2026",
-      "url": "https://byggingar.is/borgarverk-faer-993-milljona-jardvinnu-vid-nytt-fangelsi-a-stora-hrauni/",
-      "keywords_matched": [
-        "bygging",
-        "opinber innkaup"
-      ]
     },
     {
       "id": "skgatt:1048/2026",
@@ -1566,6 +1658,18 @@
       "url": "https://skipulagsgatt.is/issues/5285"
     },
     {
+      "id": "skgatt:0928/2026",
+      "lane": "planning",
+      "title": "Búhamar 22 - Umsókn um byggingarleyfi",
+      "entity": "Vestmannaeyjabær",
+      "case_number": "0928/2026",
+      "status": "Endanleg gögn",
+      "date": "2026-08-07",
+      "review_deadline": "2026-10-14",
+      "summary": "Umsókn um byggingarleyfi fyrir einbýlishúsi við Búhamar 22 hefur borist byggingarfulltrúa Vestmannaeyjabæjar. Sigurður Smári Benónýsson sækir, fyrir hönd lóðarhafa að Búhamri 22, um byggingarleyfi fyrir einbýlishúsi ásamt stakstæðri bílgeymslu. Húsið er einnar hæðar með risþaki. Heildarstærð mannvirkjanna er 183,8 m² brúttó (íbúð 133,3 m² og bílgeymsla 50,5…",
+      "url": "https://skipulagsgatt.is/issues/5283"
+    },
+    {
       "id": "skgatt:0823/2026",
       "lane": "planning",
       "title": "Gljúfurárholt land 10 - breyttir byggingaskilmálar",
@@ -2059,19 +2163,6 @@
       "status": "ruling",
       "date": "2026-07-07",
       "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-07-07-Mal-nr.-20-2026.-Akvordun-kaerunefndar-utbodsmala"
-    },
-    {
-      "id": "skgatt:0839/2026",
-      "lane": "planning",
-      "title": "Fagrahvarf 2-8",
-      "entity": "Kópavogur",
-      "case_number": "0839/2026",
-      "plan_type": "deiliskipulag",
-      "status": "Endanleg gögn",
-      "date": "2026-07-06",
-      "review_deadline": "2026-09-09",
-      "summary": "Í breytingunni felst stækkun byggingarreits um 1,65 m til suðurs til að koma fyrir 9m² utanáliggjandi svölum.",
-      "url": "https://skipulagsgatt.is/issues/5194"
     },
     {
       "id": "skgatt:0838/2026",
@@ -2576,19 +2667,6 @@
       "review_deadline": "2026-09-30",
       "summary": "Lóðarhafar leggja fram tillögu að deiliskipulagi fyrir lóðir sínar. Lóðrirnar eru samliggjandi, samtals 12,6 ha að stærð, en afmörkun deiliskipulagsins nær til um 10,5 ha svæðis innan þeirra. Svæðið er skilgreint sem verslunar- og þjónustusvæði skv. aðalskipulagsbreytingu sem auglýst er samhliða. Gert er ráð fyrir gistingu fyrir allt að 100 gesti í allt að…",
       "url": "https://skipulagsgatt.is/issues/5031"
-    },
-    {
-      "id": "skgatt:0675/2026",
-      "lane": "planning",
-      "title": "Ægissíða 3 lóð 3, dsk",
-      "entity": "Rangárþing ytra",
-      "case_number": "0675/2026",
-      "plan_type": "deiliskipulag",
-      "status": "Athugun eftir auglýsingu",
-      "date": "2026-05-28",
-      "review_deadline": "2026-09-09",
-      "summary": "Landeigandi óskar eftir heimild til að leggja fram tillögu að deiliskipulagi fyrir land sitt, Ægissíðu 3 lóð 3. Gert verði ráð fyrir byggingu þriggja íbúðarhúsa, fimm gestahúsa, geymslu og skemmu. Skipulags- og umferðarnefnd samþykkir að veita heimild til deiliskipulagsgerðar og leggur til að fallið verði frá kynningu lýsingar þar sem skipulagsáætlun samræm…",
-      "url": "https://skipulagsgatt.is/issues/5030"
     },
     {
       "id": "skgatt:0665/2026",
@@ -3100,19 +3178,6 @@
       "review_deadline": "2026-10-13",
       "summary": "Tillaga vegna breytingar á deiliskipulagi íbúðabyggðar í landi Jórvíkur I lögð fram. Markmið með deiliskipulagsbreytingunni er að bæta nýtingu fjölbýlishúsalóða með fjölgun íbúða, stækkun á byggingareit, bílastæðum fækkað og hámarks vegg/mænishæð er hækkuð. Breytingar: Á fjölbýlishúsalóðum F2 er bílastæðum fækkað niður í 1 stæði á íbúð og hámarks vegg / mæn…",
       "url": "https://skipulagsgatt.is/issues/4820"
-    },
-    {
-      "id": "skgatt:0439/2026",
-      "lane": "eia",
-      "title": "Strengvæðing Vatnshamrar - Ferjubakki, Borgarbyggð",
-      "entity": "Borgarbyggð",
-      "case_number": "0439/2026",
-      "plan_type": "matsskyldu",
-      "status": "Ákvörðun HMS",
-      "date": "2026-04-17",
-      "review_deadline": "2026-09-09",
-      "summary": "Framkvæmdin felur í sér að leggja núverandi 19 kV loftlínu í jörð á milli tengivirkisins á Vatnshömrum og Ferjubakka og undir Hvítá. Strengleiðin er í heildina um 6,8 km löng. Sex 33 kV strengir verða plægðir niður, í tveimur plógförum. Við plægingu er notast við plógvél og aðrar vinnuvélar sem hefur nægilegt flot, spyrnu og togkraft til þess að komist sé h…",
-      "url": "https://skipulagsgatt.is/issues/4794"
     },
     {
       "id": "skgatt:0449/2026",
@@ -3683,17 +3748,17 @@
       "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-02-06-Mal-nr.-23-2025.-Urskurdur-kaerunefndar-utbodsmala"
     },
     {
-      "id": "skgatt:0147/2026",
+      "id": "skgatt:0082/2026",
       "lane": "planning",
-      "title": "Skógarlundur L236998; Uppbygging ferðaþjónustu; Deiliskipulag - 2512005",
-      "entity": "Skeiða- og Gnúpverjahreppur",
-      "case_number": "0147/2026",
-      "plan_type": "deiliskipulag",
-      "status": "Athugun eftir auglýsingu",
-      "date": "2026-02-05",
-      "review_deadline": "2026-09-09",
-      "summary": "Lögð er fram tillaga nýs deiliskipulags sem tekur til Skógarlundar L236998 í Skeiða- og Gnúpverjahreppi. Í deiliskipulaginu felst að landið verði skilgreint fyrir gistiþjónustu í smáhýsum ásamt þjónustubyggingum. Heimild er fyrir 70 gistihúsum og 192 gistirýmum, ásamt þjónustuhúsum fyrir starfsemina. Hámarksbyggingarmagn er 3,000 m2 fyrir svæðið. Deiliskipu…",
-      "url": "https://skipulagsgatt.is/issues/4502"
+      "title": "Helguvíkurhöfn - óveruleg breyting á aðalskipulagi",
+      "entity": "Reykjanesbær",
+      "case_number": "0082/2026",
+      "plan_type": "adalskipulag",
+      "status": "Endanleg gögn",
+      "date": "2026-01-30",
+      "review_deadline": "2026-10-14",
+      "summary": "óveruleg breytingu á Aðalskipulagi Reykjanesbæjar skv. 2. mgr. 36. gr. skipulagslaga nr. 123/2010. Breytingin felst í að innan H1 er reitur I10 undir skipaolíu felldur niður og reit I8 undir skolpdælustöð er hliðrað sbr. uppdrátt Verkís dags 8. desember 2025",
+      "url": "https://skipulagsgatt.is/issues/4437"
     },
     {
       "id": "skgatt:0094/2026",
@@ -3781,19 +3846,6 @@
       "url": "https://skipulagsgatt.is/issues/4350"
     },
     {
-      "id": "skgatt:1632/2025",
-      "lane": "planning",
-      "title": "Stóra-Mástunga 1 L166603; Efnistökusvæði; Aðalskipulagsbreyting - 2511005",
-      "entity": "Skeiða- og Gnúpverjahreppur",
-      "case_number": "1632/2025",
-      "plan_type": "adalskipulag",
-      "status": "Staðfesting",
-      "date": "2025-12-11",
-      "review_deadline": "2026-09-09",
-      "summary": "Lögð er fram umsókn sem tekur til breytinga á aðalskipulagi Skeiða- og Gnúpverjahrepps 2017-2029. Svæðið sem breytingin nær til er Stóra-Mástunga 1 L166603. Í breytingunni felst að sett er inn ný náma í landi Stóru-Mástungu, á svæði fyrir norðaustan bæinn, þar sem landeigandi hefur tekið lítilsháttar af efni til eigin nota. Svæðið er skilgreint sem landbúna…",
-      "url": "https://skipulagsgatt.is/issues/4289"
-    },
-    {
       "id": "skgatt:1564/2025",
       "lane": "planning",
       "title": "Iðavellir 14b og Vatnsholt 2 VÞ12 - breyting á aðalskipulagi",
@@ -3831,19 +3883,6 @@
       "review_deadline": "2026-10-01",
       "summary": "Landeigendur Stekkhóla L165069 óskar eftir heimild til að leggja fram deiliskipulag úr jörð sinni. Um er að ræða uppbyggingu á þremur byggingarreitum, þar sem heimit verði að byggja íbúðarhús, frístundahús, hesthús með reiðhöll og skemmu. Aðkoma að jörðinni er frá Árbæjarvegi og um vegi innan jarðar.",
       "url": "https://skipulagsgatt.is/issues/4042"
-    },
-    {
-      "id": "skgatt:1352/2025",
-      "lane": "planning",
-      "title": "Reykjavíkurflugvöllur - Skilgreining nýrra lóða - USK25090065",
-      "entity": "Reykjavík",
-      "case_number": "1352/2025",
-      "plan_type": "deiliskipulag",
-      "status": "Athugun eftir auglýsingu",
-      "date": "2025-09-30",
-      "review_deadline": "2026-09-09",
-      "summary": "Í breytingunni sem lögð er til felst að skilgreind er ný lóð, Nauthólsvegur 64-66, þar sem flugstjórnarmiðstöðin og spennistöð standa í dag. Auk þess er skilgreind lóð á reit Nauthólsvegar 56-60, Nauthólsvegur 58E. Áður skilgreindir byggingarreitir innan nýrrar lóðar 64-66 haldast óbreyttir og helst heildarbyggingarmagn á reitnum/nýrri lóð óbreytt, bæði ofa…",
-      "url": "https://skipulagsgatt.is/issues/4009"
     },
     {
       "id": "skgatt:1251/2025",
@@ -3963,19 +4002,6 @@
       "url": "https://skipulagsgatt.is/issues/3085"
     },
     {
-      "id": "skgatt:0443/2025",
-      "lane": "planning",
-      "title": "Rangárbakkar 8",
-      "entity": "Rangárþing ytra",
-      "case_number": "0443/2025",
-      "plan_type": "deiliskipulag",
-      "status": "Athugun eftir auglýsingu",
-      "date": "2025-03-28",
-      "review_deadline": "2026-09-09",
-      "summary": "Lóðarhafi Rangárbakka 8a, 8b og 8c óskar eftir að fá að leggja fram tillögu að breytingu á gildandi deiliskipulagi fyrir svæðið, dags. 11.10.2012. Bætt verði við allt að sjö gistiskálum á svæði A, svæðið B og C verða óbreytt, fallið verði frá fyrirhugaðri breytingu á svæði D og núverandi gistiskálar látnir halda sér. Á svæði E verði gert ráð fyrir hótelbygg…",
-      "url": "https://skipulagsgatt.is/issues/3100"
-    },
-    {
       "id": "skgatt:0346/2025",
       "lane": "planning",
       "title": "Aðalskipulag Reykjavíkur 2040 - Háspennulagnir í jörðu. Styrking kerfis - Nýjar lagnaleiðir (132kV) í Laugardal - USK25030006",
@@ -4078,6 +4104,19 @@
       "review_deadline": "2026-10-22",
       "summary": "Lagt er fram nýtt deiliskipulag fyrir lóðirnar Hraunstjörn og Hraunsland. Á svæðinu er hraun sem rann eftir ísöld og er því friðað samkvæmt náttúruverndarlögum. Byggingarreitum hefur verið fundinn staður þar sem hraunið er gróið og hefur takmarkað verndargildi.",
       "url": "https://skipulagsgatt.is/issues/2347"
+    },
+    {
+      "id": "skgatt:0914/2024",
+      "lane": "planning",
+      "title": "Hóll í Firði, Stekkjarlæksbakkar",
+      "entity": "Ísafjarðarbær",
+      "case_number": "0914/2024",
+      "plan_type": "deiliskipulag",
+      "status": "Endanleg gögn",
+      "date": "2024-07-12",
+      "review_deadline": "2026-10-14",
+      "summary": "Um er að ræða nýtt deiliskipulag á svæði við bæinn Hól í firði L141006 sem skilgreint er sem frístundabyggð í Aðalskipulagi Ísafjarðarbæjar 2008-2020 merkt F37. Heimilt er að reisa 5 sumarhús á svæðinu. Sér lóð er um svæðið og er hún nefnd Stekkjarlæksbakkar. Hóll í firði er innsti bær i byggð í Önundarfirði. Deiliskipulagssvæðið er norðvestan við bæjarstæð…",
+      "url": "https://skipulagsgatt.is/issues/2013"
     },
     {
       "id": "skgatt:0853/2024",
@@ -4258,7 +4297,8 @@
       "url": "https://www.landsvirkjun.is/hvammsvirkjun/framkvaemdirhvm",
       "keywords_matched": [
         "framkvæmd",
-        "orku"
+        "orku",
+        "ístak project: Hvammsvirkjun"
       ]
     },
     {
