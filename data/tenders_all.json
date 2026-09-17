@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated": "2026-09-16T07:00:12Z",
-  "generated_at": "2026-09-16T07:00:12Z",
+  "generated": "2026-09-17T07:00:12Z",
+  "generated_at": "2026-09-17T07:00:12Z",
   "sources": {
     "utbodsvefur": {
-      "generated_at": "2026-09-16T07:00:12.633641+00:00",
+      "generated_at": "2026-09-17T07:00:12.321518+00:00",
       "count": 43,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders.json"
     },
     "offportal": {
-      "generated": "2026-09-16T07:00:12Z",
+      "generated": "2026-09-17T07:00:12Z",
       "count": 10,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders_offportal.json"
     },
@@ -312,7 +312,7 @@
         "evidence_url": "https://www.utbodsvefur.is/fjardabyggdarhollin-loftraestikerfi/",
         "seen_count": 1,
         "first_seen": "2026-09-07T07:00:13Z",
-        "last_seen": "2026-09-16T07:00:12Z",
+        "last_seen": "2026-09-17T07:00:12Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       },
@@ -324,7 +324,7 @@
         "evidence_url": "https://www.utbodsvefur.is/9661-2/",
         "seen_count": 1,
         "first_seen": "2026-09-04T07:00:13Z",
-        "last_seen": "2026-09-16T07:00:12Z",
+        "last_seen": "2026-09-17T07:00:12Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       },
@@ -336,7 +336,7 @@
         "evidence_url": "https://www.utbodsvefur.is/torfunef-lagnir-lagnaleidir-og-brunnar/",
         "seen_count": 1,
         "first_seen": "2026-09-04T07:00:13Z",
-        "last_seen": "2026-09-16T07:00:12Z",
+        "last_seen": "2026-09-17T07:00:12Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       }
@@ -344,20 +344,6 @@
   },
   "count": 49,
   "items": [
-    {
-      "reference": "113-2026",
-      "project": "Markaðskönnun (RFI) – Rannsóknakerfi fyrir þvagfæri og meltingarveg",
-      "buyer": "Landspítali",
-      "notice_type": "Markaðskönnun (RFI)",
-      "deadline": "17.09.2026 kl. 00:00",
-      "deadline_local": "2026-09-17T00:00:00+00:00",
-      "deadline_utc": "2026-09-17T00:00:00+00:00",
-      "posted_at": "2026-08-31T13:37:05+00:00",
-      "modified_at": "2026-08-31T13:37:16+00:00",
-      "url": "https://www.utbodsvefur.is/markadskonnun-rfi-rannsoknakerfi-fyrir-thvagfaeri-og-meltingarveg/",
-      "summary": "Markaðskönnun – Rannsóknakerfi fyrir þvagfæri og meltingarveg. Landspítali óskar eftir upplýsingum frá framleiðendum og birgjum um rannsóknarkef...",
-      "source": "utbodsvefur"
-    },
     {
       "reference": "16341",
       "project": "Akstur almenningsvagna á höfuðborgarsvæðinu 2028-2036. Forval, EES útboð nr. 16341",
@@ -552,20 +538,6 @@
       "modified_at": "2026-09-01T07:41:47+00:00",
       "url": "https://www.utbodsvefur.is/intraoperative-blood-flow-measurement-system/",
       "summary": "Landspítali óskar eftir upplýsingum um verð og gæði á kerfi til að mælingar á blóðflæði við skurðaðgerðir (e. Intraoperative blood flow measurement sy...",
-      "source": "utbodsvefur"
-    },
-    {
-      "reference": "I2063",
-      "project": "Rannsóknahús – Innanhússfrágangur",
-      "buyer": "Nýr Landspítali (NLSH ohf.)",
-      "notice_type": "Framkvæmd",
-      "deadline": "24.09.2026 kl. 13:00",
-      "deadline_local": "2026-09-24T13:00:00+00:00",
-      "deadline_utc": "2026-09-24T13:00:00+00:00",
-      "posted_at": "2026-07-13T09:42:50+00:00",
-      "modified_at": "2026-08-25T13:24:27+00:00",
-      "url": "https://www.utbodsvefur.is/rannsoknahus-innanhussfragangur/",
-      "summary": "Nýr Landspítali ohf. óskar eftir tilboðum í útboði nr. I2063 á innanhúsfrágangi í rannsóknahúsi Landspítala við Hringbraut í Reykjavík. Rannsóknahúsið...",
       "source": "utbodsvefur"
     },
     {
@@ -779,6 +751,20 @@
       "source": "utbodsvefur"
     },
     {
+      "reference": "16352",
+      "project": "Könnunarhugbúnað fyrir Reykjavíkurborg, markaðskönnun (RFI) nr. 16352 / Survey Software for the City of Reykjavík, market survey (RFI) nr. 16352",
+      "buyer": "Reykjavíkurborg",
+      "notice_type": "Vörukaup Markaðskönnun (RFI)",
+      "deadline": "05.10.2026 kl. 23:59",
+      "deadline_local": "2026-10-05T23:59:00+00:00",
+      "deadline_utc": "2026-10-05T23:59:00+00:00",
+      "posted_at": "2026-09-16T10:09:27+00:00",
+      "modified_at": "2026-09-16T10:38:30+00:00",
+      "url": "https://www.utbodsvefur.is/konnunarhugbunad-fyrir-reykjavikurborg-markadskonnun-rfi-nr-16352-survey-software-for-the-city-of-reykjavik-market-survey-rfi-nr-16352/",
+      "summary": "Þjónustu- og nýsköpunarsvið Reykjavíkurborgar óskar eftir upplýsingum um: Könnunarhugbúnað fyrir Reykjavíkurborg, markaðskönnun (RFI) nr. 16352. Ma...",
+      "source": "utbodsvefur"
+    },
+    {
       "reference": "16200",
       "project": "Rammasamningur um mötuneytisþjónustu SFS, EES útboð nr. 16200",
       "buyer": "Reykjavíkurborg",
@@ -874,6 +860,20 @@
       "modified_at": "2026-09-07T13:21:01+00:00",
       "url": "https://www.utbodsvefur.is/raesting-thjorsarsvaedi/",
       "summary": "Landsvirkjun óskar eftir tilboðum í ræstingar á húsnæði Landsvirkjunar á Búrfellssvæði og upp með Þjórsá: virkjanir, vinnubúðir, starfsmannabústaðir o...",
+      "source": "utbodsvefur"
+    },
+    {
+      "reference": "I2063",
+      "project": "Rannsóknahús – Innanhússfrágangur",
+      "buyer": "Nýr Landspítali (NLSH ohf.)",
+      "notice_type": "Framkvæmd",
+      "deadline": "08.10.2026 kl. 13:00",
+      "deadline_local": "2026-10-08T13:00:00+00:00",
+      "deadline_utc": "2026-10-08T13:00:00+00:00",
+      "posted_at": "2026-07-13T09:42:50+00:00",
+      "modified_at": "2026-09-16T10:41:57+00:00",
+      "url": "https://www.utbodsvefur.is/rannsoknahus-innanhussfragangur/",
+      "summary": "Nýr Landspítali ohf. óskar eftir tilboðum í útboði nr. I2063 á innanhúsfrágangi í rannsóknahúsi Landspítala við Hringbraut í Reykjavík. Rannsóknahúsið...",
       "source": "utbodsvefur"
     },
     {
