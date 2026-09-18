@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated": "2026-09-17T06:45:01Z",
+  "generated": "2026-09-18T06:45:01Z",
   "window": {
-    "from": "2026-09-10",
-    "to": "2026-09-17"
+    "from": "2026-09-11",
+    "to": "2026-09-18"
   },
   "coverage": {
     "municipalities": [
@@ -41,6 +41,7 @@
       "Hvalárvirkjun",
       "Hvammsvirkjun",
       "Hvammsvirkjunar",
+      "Hús íslenskra fræða",
       "Landsvirkjun",
       "matsskyldu",
       "matsáætlun",
@@ -189,6 +190,7 @@
         "ístak project: Hvalárvirkjun",
         "ístak project: Hvammsvirkjun",
         "ístak project: Hvammsvirkjunar",
+        "ístak project: Hús íslenskra fræða",
         "ístak project: Landsvirkjun",
         "ístak project: Meðferðarkjari NLSH",
         "ístak project: NTA25 New terminal apron",
@@ -223,6 +225,7 @@
       "Hvalárvirkjun",
       "Hvammsvirkjun",
       "Hvammsvirkjunar",
+      "Hús íslenskra fræða",
       "Landsvirkjun",
       "Meðferðarkjari NLSH",
       "NTA25 New terminal apron",
@@ -259,7 +262,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/5377",
         "seen_count": 1,
         "first_seen": "2026-09-11T06:45:01Z",
-        "last_seen": "2026-09-17T06:45:01Z",
+        "last_seen": "2026-09-18T06:45:01Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -271,7 +274,7 @@
         "evidence_url": "https://island.is/reglugerdir/nr/0809-2026",
         "seen_count": 1,
         "first_seen": "2026-09-11T06:45:01Z",
-        "last_seen": "2026-09-17T06:45:01Z",
+        "last_seen": "2026-09-18T06:45:01Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       }
@@ -298,7 +301,8 @@
           "undated": 4
         },
         "veitur": {
-          "no_matching_keywords": 22
+          "no_matching_keywords": 21,
+          "undated": 1
         },
         "orkuveitan": {
           "no_matching_keywords": 12
@@ -316,12 +320,11 @@
         },
         "reykjavik": {
           "no_matching_keywords": 37,
-          "undated": 1,
+          "undated": 2,
           "outside_window": 1
         },
         "kopavogur": {
-          "no_matching_keywords": 23,
-          "undated": 1
+          "no_matching_keywords": 24
         },
         "hafnarfjordur": {
           "no_matching_keywords": 40
@@ -348,14 +351,14 @@
         },
         "borgarlinan": {
           "undated": 9,
-          "outside_window": 31
+          "outside_window": 30
         },
         "gardabaer": {
-          "no_matching_keywords": 17,
-          "outside_window": 4
+          "no_matching_keywords": 16,
+          "outside_window": 3
         },
         "mosfellsbaer": {
-          "no_matching_keywords": 33,
+          "no_matching_keywords": 34,
           "outside_window": 3,
           "undated": 2
         },
@@ -379,7 +382,7 @@
         },
         "byggingar-opnun-utboda": {
           "undated": 18,
-          "outside_window": 12
+          "outside_window": 13
         },
         "vb": {
           "no_matching_keywords": 40
@@ -432,26 +435,103 @@
   "count": 300,
   "items": [
     {
-      "id": "legislation:althingi-thingmalaskra:endurskodud-aaetlun-um-framlagningu-thingmala-a-vetrar-og-vorthingi-2026-lokautg",
-      "lane": "legislation",
-      "source": "althingi-thingmalaskra",
-      "doc_type": "parliamentary",
-      "title": "Endurskoðuð þingmálaskrá fyrir 157. löggjafarþing",
-      "entity": "Alþingi",
-      "status": "tracker",
+      "id": "skgatt:1078/2026",
+      "lane": "planning",
+      "title": "Suðurgata 5 L190347 - Viðbygging við leikskóla",
+      "entity": "Sveitarfélagið Vogar",
+      "case_number": "1078/2026",
+      "status": "Grenndarkynning byggingarleyfisumsóknar",
       "date": "2026-09-17",
-      "summary": "13. Frumvarp til laga um breytingu á lögum um mannvirki, nr. 160/2010 (einföldun byggingarreglugerðar og endurskoðun byggingareftirlits). / 14. Frumvarp til laga um breytingu á skipulagslögum nr. 123/2010 (raflínuskipulag). / 2. Frumvarp til laga um breytingu á lögum um stefnur og aðgerðaáætlanir á sviði húsnæðis- og skipulagsmála, samgangna og byggðamála, nr. 30/2023 (stefnumörkun).",
-      "url": "https://www.althingi.is/media/uncategorized/Endurskodud-aaetlun-um-framlagningu-thingmala-a-vetrar-og-vorthingi-2026-lokautgafa-leidrettX.pdf",
-      "index_url": "https://www.althingi.is/thingstorf/leidbeiningar-og-yfirlit/thingmalaskra-rikisstjornar/",
+      "review_deadline": "2026-10-15",
+      "summary": "Fyrir liggja áform Sveitarfélagsins um stækkun leikskólans við Suðurgötu 5 með uppsetningu færanlegra kennslustofa. Gert er ráð fyrir að húsnæðið verði nýtt tímabundið, a.m.k. þar til nýr leikskóli rís við Grænuborg, sem stefnt er að verði innan 5-7 ára. Samkvæmt fyrirliggjandi gögnum er gert ráð fyrir þremur leikskóladeildum auk aukinnar starfsmannaaðstöðu…",
+      "url": "https://skipulagsgatt.is/issues/5433"
+    },
+    {
+      "id": "announcement:gardabaer:vinna-vid-umferdarljos-a-hafnarfjardarvegi",
+      "lane": "announcement",
+      "source": "gardabaer",
+      "title": "Tilkynningar 17.09.2026 Vinna við umferðarljós á Hafnarfjarðarvegi Uppfært: Vinna sem átti að fara fram í kvöld við umferðarljós á Hafnarfjarðarvegi frestast.",
+      "entity": "Garðabær",
+      "status": "published",
+      "date": "2026-09-17",
+      "summary": "ika stendur nú yfir en er hún haldin 16. – 22. september ár hvert. Um samstillt átak sveitarfélaga í Evrópu er að ræða þar sem vistvænar samgöngur eru í brennidepli. Tilkynningar 17.09.2026 Vinna við umferðarljós á Hafnarfjarðarvegi Uppfært: Vinna sem átti að fara fram í kvöld við umferðarljós á Hafnarfjarðarvegi frestast. <di",
+      "url": "https://www.gardabaer.is/frettir/vinna-vid-umferdarljos-a-hafnarfjardarvegi",
+      "keywords_matched": [
+        "samgöngur"
+      ]
+    },
+    {
+      "id": "announcement:gardabaer:evropsk-samgonguvika-16-22-september",
+      "lane": "announcement",
+      "source": "gardabaer",
+      "title": "Fréttir 17.09.2026 Evrópsk Samgönguvika 16. – 22. september Evrópsk Samgönguvika stendur nú yfir en er hún haldin 16. – 22. september ár hvert. Um samstillt átak sveitarfélaga í E…",
+      "entity": "Garðabær",
+      "status": "published",
+      "date": "2026-09-17",
+      "summary": "odule-scss-module___iNLsG__featured CardList-module-scss-module___iNLsG__container CardList-module-scss-module___iNLsG__plainCards\"> Fréttir 17.09.2026 Evrópsk Samgönguvika 16. – 22. september Evrópsk Samgönguvika stendur nú yfir en er hún haldin 16. – 22. september ár hvert. Um samstillt átak sveitarfélaga í Evrópu er að ræða þar sem vistvænar samgöngur er…",
+      "url": "https://www.gardabaer.is/frettir/evropsk-samgonguvika-16-22-september",
+      "keywords_matched": [
+        "samgöngur"
+      ]
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:thjotandi-ehf-borar-85-metra-undir-miklubraut-med-nyjum-vermeer-linubor",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "Þjótandi ehf. borar 85 metra undir Miklubraut með nýjum Vermeer línubor",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-09-17",
+      "summary": "ar.is/wp-content/uploads/2026/09/17.09.2026-THjotandi-ehf.-borar-85-metra-undir-Miklubraut-med-nyjum-Vermeer-linubor-a-100x75.jpg\" width=\"100\" height=\"75\" /> Þjótandi ehf. borar 85 metra undir Miklubraut með nýjum Vermeer línubor 17/09/2026 <div cl",
+      "url": "https://byggingar.is/thjotandi-ehf-borar-85-metra-undir-miklubraut-med-nyjum-vermeer-linubor/",
+      "keywords_matched": [
+        "opinber innkaup"
+      ]
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:hofnudu-radgjof-um-ad-gong-undir-klettshals-yrdu-i-forgangi",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "Höfnuðu ráð­gjöf um að göng undir Klettsháls yrðu í for­gangi",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-09-17",
+      "summary": "tps://byggingar.is/wp-content/uploads/2026/09/17.09.2026-Hofnudu-radgjof-um-ad-gong-undir-Klettshals-yrdu-i-forgangi-a-100x75.jpg\" width=\"100\" height=\"75\" /> Höfnuðu ráð­gjöf um að göng undir Klettsháls yrðu í for­gangi 17/09/2026 <div class=\"td_modu",
+      "url": "https://byggingar.is/hofnudu-radgjof-um-ad-gong-undir-klettshals-yrdu-i-forgangi/",
       "keywords_matched": [
         "bygging",
-        "mannvirki",
-        "samgöngur",
-        "skipulag",
-        "umhverfismat"
-      ],
-      "case_number": "157. löggjafarþing",
-      "period": "2025–2026"
+        "opinber innkaup"
+      ]
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:borgarbyggd-vill-ekki-ad-alvidra-fari-i-nytingarflokk",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "Borgarbyggð vill ekki að Alviðra fari í nýtingarflokk",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-09-17",
+      "summary": "-url=\"https://byggingar.is/wp-content/uploads/2026/09/17.09.2026-Borgarbyggd-vill-ekki-ad-Alvidra-fari-i-nytingarflokk-100x75.jpg\" width=\"100\" height=\"75\" /> Borgarbyggð vill ekki að Alviðra fari í nýtingarflokk 17/09/2026 <div class=\"td_modu",
+      "url": "https://byggingar.is/borgarbyggd-vill-ekki-ad-alvidra-fari-i-nytingarflokk/",
+      "keywords_matched": [
+        "bygging",
+        "opinber innkaup"
+      ]
+    },
+    {
+      "id": "announcement:borgarlinan:upplysingafundur-i-hr-vegna-framkvaemda",
+      "lane": "announcement",
+      "source": "borgarlinan",
+      "title": "17. september 2026 Upplýsingafundur í HR vegna framkvæmda Betri samgöngur héldu upplýsingafund í Háskólanum í Reykjavík í vikunni vegna framkvæmda við Borgarlínu við Nauthólsveg.…",
+      "entity": "Borgarlínan",
+      "status": "published",
+      "date": "2026-09-17",
+      "summary": "a> 17. september 2026 Upplýsingafundur í HR vegna framkvæmda Betri samgöngur héldu upplýsingafund í Háskólanum í Reykjavík í vikunni vegna framkvæmda við Borgarlínu við Nauthólsveg. Farið var yfir stöðu framkvæmdanna, næstu áfanga og hvernig aðgengi að svæðinu … <img alt=\"\" srcSet=\"/media/responsive/5842/nautholsvegur-goturammi-400x210.jpeg 400w\" src=\"/medi…",
+      "url": "https://www.borgarlinan.is/utgefid-efni/frettir/upplysingafundur-i-hr-vegna-framkvaemda",
+      "keywords_matched": [
+        "framkvæmd",
+        "samgöngur"
+      ]
     },
     {
       "id": "skgatt:1073/2026",
@@ -474,7 +554,7 @@
       "entity": "Mosfellsbær",
       "status": "published",
       "date": "2026-09-16",
-      "summary": "4.75Z\"/> Evr­ópsk sam­göngu­vika 16. september 2026 Samgönguvika 16. – 22. september 2026 <img class=\"bde-image2-53844-101-103707-",
+      "summary": "ul> Veitur undirbúa borplan fyrir tvær nýjar holur Evr­ópsk sam­göngu­vika 16. september 2026 Samgönguvika 16. – 22. september 2026 <img class=\"bde-image2-53844-101-103707-",
       "url": "https://mos.is/mannlif/um-mosfellsbae/frettir/samgonguvika-16-22-september-2026/",
       "keywords_matched": [
         "samgöngur"
@@ -488,24 +568,24 @@
       "entity": "Garðabær",
       "status": "published",
       "date": "2026-09-16",
-      "summary": "r Vegagerðin hefur gefið heimild til eftirtalinna verka ef veður leyfir fimmtudaginn 17. september: Fréttir 16.09.2026 Starfsemi Þorláksskóla hafin Samningur um Þorláksskóla, nýjan sérhæfðan grunnskóla fyrir einhverf börn í Garðabæ, hefur verið undirritaður og starfsemi skólans er farin af stað. Skólinn er sjálfstætt starfandi og rekinn af Jónsvegi ehf. í n…",
+      "summary": "=\"RichText-module-scss-module__3WoRJW__richText\"> Uppfært: Hætt var við framkvæmdir á Flóttamannavegi 17. september vegna veðurs. Reynt verður aftur 18. september. Fréttir 16.09.2026 Starfsemi Þorláksskóla hafin Samningur um Þorláksskóla, nýjan sérhæfðan grunnskóla fyrir einhverf börn í Garðabæ, hefur verið undirritaður og starfsemi skólans er farin af stað…",
       "url": "https://www.gardabaer.is/frettir/starfsemi-thorlaksskola-hafin",
       "keywords_matched": [
-        "samgöngur"
+        "framkvæmd"
       ]
     },
     {
       "id": "announcement:gardabaer:lokanir-vegna-malbikunar-a-flottamannavegi",
       "lane": "announcement",
       "source": "gardabaer",
-      "title": "Tilkynningar 16.09.2026 Lokanir á Flóttamannavegi vegna malbikunar 17. september Vegagerðin hefur gefið heimild til eftirtalinna verka ef veður leyfir fimmtudaginn 17. september:",
+      "title": "Tilkynningar 16.09.2026 Lokanir á Flóttamannavegi vegna malbikunar 17. september Uppfært: Hætt var við framkvæmdir á Flóttamannavegi 17. september vegna veðurs. Reynt verður aftur…",
       "entity": "Garðabær",
       "status": "published",
       "date": "2026-09-16",
-      "summary": "odule-scss-module___iNLsG__featured CardList-module-scss-module___iNLsG__container CardList-module-scss-module___iNLsG__plainCards\"> Tilkynningar 16.09.2026 Lokanir á Flóttamannavegi vegna malbikunar 17. september Vegagerðin hefur gefið heimild til eftirtalinna verka ef veður leyfir fimmtudaginn 17. september: <div class=\"Ca",
+      "summary": "ðarvegi Uppfært: Vinna sem átti að fara fram í kvöld við umferðarljós á Hafnarfjarðarvegi frestast. Tilkynningar 16.09.2026 Lokanir á Flóttamannavegi vegna malbikunar 17. september Uppfært: Hætt var við framkvæmdir á Flóttamannavegi 17. september vegna veðurs. Reynt verður aftur 18. september. <div class=\"Ca",
       "url": "https://www.gardabaer.is/frettir/lokanir-vegna-malbikunar-a-flottamannavegi",
       "keywords_matched": [
-        "samgöngur"
+        "framkvæmd"
       ]
     },
     {
@@ -524,36 +604,6 @@
       ]
     },
     {
-      "id": "announcement:byggingar-opnun-utboda:gardabaer-bydur-ut-600-fermetra-busetukjarna-vid-haustbraut",
-      "lane": "announcement",
-      "source": "byggingar-opnun-utboda",
-      "title": "06.10.2026 Garðabær býður út 600 fermetra búsetukjarna við Haustbraut",
-      "entity": "Byggingar.is",
-      "status": "published",
-      "date": "2026-09-16",
-      "summary": "https://byggingar.is/wp-content/uploads/2026/09/16.09.2026-Gardabaer-bydur-ut-600-fermetra-busetukjarna-vid-Haustbraut-100x75.jpg\" width=\"100\" height=\"75\" /> 06.10.2026 Garðabær býður út 600 fermetra búsetukjarna við Haustbraut 16/09/2026 <div cl",
-      "url": "https://byggingar.is/gardabaer-bydur-ut-600-fermetra-busetukjarna-vid-haustbraut/",
-      "keywords_matched": [
-        "bygging",
-        "opinber innkaup"
-      ]
-    },
-    {
-      "id": "announcement:byggingar-opnun-utboda:fimm-aukaibudir-thar-sem-adeins-matti-vera-ein",
-      "lane": "announcement",
-      "source": "byggingar-opnun-utboda",
-      "title": "Fimm aukaíbúðir þar sem að­eins mátti vera ein",
-      "entity": "Byggingar.is",
-      "status": "published",
-      "date": "2026-09-16",
-      "summary": "ata-img-url=\"https://byggingar.is/wp-content/uploads/2026/09/16.09.2026-Fimm-aukaibudir-thar-sem-adeins-matti-vera-ein-100x75.jpg\" width=\"100\" height=\"75\" /> Fimm aukaíbúðir þar sem að­eins mátti vera ein 17/09/2026 <div class=\"td_modu",
-      "url": "https://byggingar.is/fimm-aukaibudir-thar-sem-adeins-matti-vera-ein/",
-      "keywords_matched": [
-        "bygging",
-        "opinber innkaup"
-      ]
-    },
-    {
       "id": "announcement:byggingar-opnun-utboda:byggingar",
       "lane": "announcement",
       "source": "byggingar-opnun-utboda",
@@ -563,21 +613,6 @@
       "date": "2026-09-16",
       "summary": "k\" title=\"Tilboð opnuð í varaaflskerfi Nýs Landspítala\">Tilboð opnuð í varaaflskerfi Nýs Landspítala byggingar - 16/09/2026 <a href=\"https://byggingar.is/tilbod-opnud-i-varaaflskerfi-nys-landspitala/#respond",
       "url": "https://byggingar.is/author/byggingar/",
-      "keywords_matched": [
-        "bygging",
-        "opinber innkaup"
-      ]
-    },
-    {
-      "id": "announcement:byggingar-opnun-utboda:brjota-land-undir-keflavikurborgir",
-      "lane": "announcement",
-      "source": "byggingar-opnun-utboda",
-      "title": "Brjóta land undir Keflavíkurborgir",
-      "entity": "Byggingar.is",
-      "status": "published",
-      "date": "2026-09-16",
-      "summary": "age_tag\" data-img-url=\"https://byggingar.is/wp-content/uploads/2026/09/16.09.2026-Brjota-land-undir-Keflavikurborgir-a-100x75.jpg\" width=\"100\" height=\"75\" /> Brjóta land undir Keflavíkurborgir 17/09/2026 <div class=\"td_modu",
-      "url": "https://byggingar.is/brjota-land-undir-keflavikurborgir/",
       "keywords_matched": [
         "bygging",
         "opinber innkaup"
@@ -631,20 +666,6 @@
       "review_deadline": "2026-10-21",
       "summary": "Lögð er fram tillaga deiliskipulagsbreytingar sem tekur til Hvammsvirkjunar í Skeiða- og Gnúpverjahreppi og Rangárþingi ytra. Landsvirkjun hefur unnið að útboðshönnun á mannvirkjum tengdum Hvammsvirkjun í og við Þjórsá innan beggja sveitarfélaga. Ýmsar forsendur hafa breyst og er því gerð breyting á nokkrum þáttum deiliskipulagsins.",
       "url": "https://skipulagsgatt.is/issues/5421"
-    },
-    {
-      "id": "announcement:reykjavik:evropsk-samgonguvika-2026",
-      "lane": "announcement",
-      "source": "reykjavik",
-      "title": "Evrópsk samgönguvika 2026",
-      "entity": "Reykjavíkurborg",
-      "status": "published",
-      "date": "2026-09-15",
-      "summary": "1920w, /sites/default/files/styles/landscape_4k/public/2026-06/folk_ad_hjola.jpg?h=1c9b88c9&itok=f3hQcAWZ 3840w\" data-sizes=\"auto\" /> 15. september 2026 Evrópsk samgönguvika 2026 <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2026-09/skjamynd_2026-09-15_103623.png.jpg?h=c8b21590&itok=-Re4SBoD\" alt…",
-      "url": "https://reykjavik.is/frettir/2026/evropsk-samgonguvika-2026",
-      "keywords_matched": [
-        "samgöngur"
-      ]
     },
     {
       "id": "announcement:byggingar-opnun-utboda:sudurverk-og-fossvelar-laegst-med-4-68-milljarda-tilbod-i-kjalarnesveg",
@@ -788,35 +809,6 @@
       "review_deadline": "2026-10-09",
       "summary": "Skipulags- og umhverfisnefnd samþykkti á fundi þann 25.08.2026 að grenndarkynna í samræmi við 1. og 2. mgr. 44. gr. skipulagslaga nr. 123/2010, umsókn eigenda Brekkutanga 5. Sótt er um leyfi til að byggja yfir svalir á suðurhlið þar sem þak verður framlengt yfir svalirnar og gluggar færðir í útbrún veggja við núverandi útbrún svala. Einnig er óskað eftir þv…",
       "url": "https://skipulagsgatt.is/issues/5401"
-    },
-    {
-      "id": "announcement:mosfellsbaer:rynihopur-skipadur-um-stukubyggingu-ad-varma",
-      "lane": "announcement",
-      "source": "mosfellsbaer",
-      "title": "Afturelding Framkvæmdir Ráð og nefndir 10. september 2026 Rýnihópur skipaður um stúkubyggingu að Varmá",
-      "entity": "Mosfellsbær",
-      "status": "published",
-      "date": "2026-09-10",
-      "summary": "e-heading-53844-102-103639-53844-1 bde-heading toc-ignore bde-heading-53844-102\"> Aðgerðir Veitna til úrbóta vegna rafmagnstruflana í Mosfellsbæ Afturelding Framkvæmdir Ráð og nefndir 10. september 2026 Rýnihópur skipaður um stúkubyggingu að Varmá <img class=\"bde-image2-53844-101-103376-53844-1 bde-ima",
-      "url": "https://mos.is/mannlif/um-mosfellsbae/frettir/rynihopur-skipadur-um-stukubyggingu-ad-varma/",
-      "keywords_matched": [
-        "framkvæmd"
-      ]
-    },
-    {
-      "id": "announcement:byggingar-opnun-utboda:verkfraedistofa-bjarna-vidarssonar-laegst-i-eftirlit-med-vifilsstadavegi",
-      "lane": "announcement",
-      "source": "byggingar-opnun-utboda",
-      "title": "Verkfræðistofa Bjarna Viðarssonar lægst í eftirlit með Vífilsstaðavegi",
-      "entity": "Byggingar.is",
-      "status": "published",
-      "date": "2026-09-10",
-      "summary": "Verkfræðistofa Bjarna Viðarssonar lægst í eftirlit með Vífilsstaðavegi byggingar - 10/09/2026",
-      "url": "https://byggingar.is/verkfraedistofa-bjarna-vidarssonar-laegst-i-eftirlit-med-vifilsstadavegi/",
-      "keywords_matched": [
-        "bygging",
-        "opinber innkaup"
-      ]
     },
     {
       "id": "skgatt:1051/2026",
@@ -1121,7 +1113,7 @@
       ],
       "status": "ruling",
       "date": "2026-08-28",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-08-28-Mal-nr.-37-2026.-Akvordun-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-08-28-Mal-nr.-37-2026.-Akvordun-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:36/2026",
@@ -1135,7 +1127,7 @@
       ],
       "status": "ruling",
       "date": "2026-08-28",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-08-28-Mal-nr.-36-2026.-Akvordun-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-08-28-Mal-nr.-36-2026.-Akvordun-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:32/2026",
@@ -1149,7 +1141,7 @@
       ],
       "status": "ruling",
       "date": "2026-08-28",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-08-28-Mal-nr.-32-2026.-Akvordun-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-08-28-Mal-nr.-32-2026.-Akvordun-kaerunefndar-utbodsmala"
     },
     {
       "id": "skgatt:1010/2026",
@@ -1215,7 +1207,7 @@
       ],
       "status": "ruling",
       "date": "2026-08-27",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-08-27-Mal-nr.-53-2025.-Akvordun-kaerunefndar-utbodsmala-endurupptaka"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-08-27-Mal-nr.-53-2025.-Akvordun-kaerunefndar-utbodsmala-endurupptaka"
     },
     {
       "id": "kaerunefnd:36/2025",
@@ -1229,7 +1221,7 @@
       ],
       "status": "ruling",
       "date": "2026-08-27",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-08-27-Mal-nr.-36-2025.-Urskurdur-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-08-27-Mal-nr.-36-2025.-Urskurdur-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:34/2026",
@@ -1243,7 +1235,7 @@
       ],
       "status": "ruling",
       "date": "2026-08-27",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-08-27-Mal-nr.-34-2026.-Akvordun-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-08-27-Mal-nr.-34-2026.-Akvordun-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:21/2026",
@@ -1257,7 +1249,7 @@
       ],
       "status": "ruling",
       "date": "2026-08-27",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-08-27-Mal-nr.-21-2026.-Urskurdur-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-08-27-Mal-nr.-21-2026.-Urskurdur-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:10/2026",
@@ -1271,7 +1263,7 @@
       ],
       "status": "ruling",
       "date": "2026-08-27",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-08-27-Mal-nr.-10-2026.-Urskurdur-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-08-27-Mal-nr.-10-2026.-Urskurdur-kaerunefndar-utbodsmala"
     },
     {
       "id": "skgatt:0981/2026",
@@ -1556,18 +1548,6 @@
       "url": "https://skipulagsgatt.is/issues/5300"
     },
     {
-      "id": "skgatt:0946/2026",
-      "lane": "planning",
-      "title": "Búfjárræsi undir Landveg norðan við Landvegamót.",
-      "entity": "Rangárþing ytra",
-      "case_number": "0946/2026",
-      "status": "Endanleg gögn",
-      "date": "2026-08-13",
-      "review_deadline": "2026-09-10",
-      "summary": "Landsvirkjun óskar eftir að sveitarstjórn Rangárþings ytra gefi út framkvæmdaleyfi til handa fyrirtækinu fyrir að setja upp búfjárræsi norðan við Landvegamót. Framkvæmdin er hluti af vegabótum á þjóðvegi nr. 1 (Hringvegur) og þjóðvegi nr. 26, Landvegur, við Landvegamót tengt framkvæmdum við vindorkuverið Vaðölduver, samkvæmt 13. gr. skipulagslaga nr. 123/20…",
-      "url": "https://skipulagsgatt.is/issues/5301"
-    },
-    {
       "id": "skgatt:0943/2026",
       "lane": "planning",
       "title": "Lækur 2 Óv br dsk",
@@ -1737,7 +1717,7 @@
       ],
       "status": "ruling",
       "date": "2026-07-20",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-07-20-Mal-nr.-59-2025.-Urskurdur-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-07-20-Mal-nr.-59-2025.-Urskurdur-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:58/2025",
@@ -1751,7 +1731,7 @@
       ],
       "status": "ruling",
       "date": "2026-07-20",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-07-20-Mal-nr.-58-2025.-Urskurdur-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-07-20-Mal-nr.-58-2025.-Urskurdur-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:35/2026",
@@ -1765,7 +1745,7 @@
       ],
       "status": "ruling",
       "date": "2026-07-20",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-07-20-Mal-nr.-35-2026.-Akvordun-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-07-20-Mal-nr.-35-2026.-Akvordun-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:31/2026",
@@ -1779,7 +1759,7 @@
       ],
       "status": "ruling",
       "date": "2026-07-20",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-07-20-Mal-nr.-31-2026.-Akvordun-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-07-20-Mal-nr.-31-2026.-Akvordun-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:1/2026",
@@ -1793,7 +1773,7 @@
       ],
       "status": "ruling",
       "date": "2026-07-20",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-07-20-Mal-nr.-1-2026.-Urskurdur-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-07-20-Mal-nr.-1-2026.-Urskurdur-kaerunefndar-utbodsmala"
     },
     {
       "id": "skgatt:0892/2026",
@@ -1877,6 +1857,19 @@
       "url": "https://skipulagsgatt.is/issues/5230"
     },
     {
+      "id": "skgatt:0874/2026",
+      "lane": "planning",
+      "title": "Selfosslína 1 - breyting í Hellisskógi - Aðalskipulagsbreyting",
+      "entity": "Árborg",
+      "case_number": "0874/2026",
+      "plan_type": "adalskipulag",
+      "status": "Endanleg gögn",
+      "date": "2026-07-14",
+      "review_deadline": "2026-10-15",
+      "summary": "Lögð er fram tillaga óverulegrar breytingar á aðalskipulagi Árborgar 2020-2036 er varðar breytta legu Selfosslínu 1 í Hellisskógi. Jarðstrengur fyrir Selfosslínu 1 í Hellisskógi er færður til vesturs auk smávægilegrar tilfærslu við sv. félagamörk Flóahrepps. Breytingin er norðan þéttbýlismarka Árborgar. Í gildandi skipulagi er lega hans skilgreind nærri bak…",
+      "url": "https://skipulagsgatt.is/issues/5229"
+    },
+    {
       "id": "skgatt:0868/2026",
       "lane": "planning",
       "title": "Súluklettur 1",
@@ -1925,7 +1918,7 @@
       ],
       "status": "ruling",
       "date": "2026-07-09",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-07-09-Mal-nr.-65-2025.-Urskurdur-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-07-09-Mal-nr.-65-2025.-Urskurdur-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:48/2025",
@@ -1939,7 +1932,7 @@
       ],
       "status": "ruling",
       "date": "2026-07-09",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-07-09-Mal-nr.-48-2025.-Urskurdur-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-07-09-Mal-nr.-48-2025.-Urskurdur-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:30/2026",
@@ -1953,7 +1946,7 @@
       ],
       "status": "ruling",
       "date": "2026-07-09",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-07-09-Mal-nr.-30-2026.-Akvordun-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-07-09-Mal-nr.-30-2026.-Akvordun-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:29/2026",
@@ -1967,7 +1960,7 @@
       ],
       "status": "ruling",
       "date": "2026-07-09",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-07-09-Mal-nr.-29-2026.-Akvordun-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-07-09-Mal-nr.-29-2026.-Akvordun-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:26/2026",
@@ -1981,7 +1974,7 @@
       ],
       "status": "ruling",
       "date": "2026-07-09",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-07-09-Mal-nr.-26-2026.-Akvordun-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-07-09-Mal-nr.-26-2026.-Akvordun-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:46/2025",
@@ -1995,7 +1988,7 @@
       ],
       "status": "ruling",
       "date": "2026-07-08",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-07-08-Mal-nr.-46-2025.-Urskurdur-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-07-08-Mal-nr.-46-2025.-Urskurdur-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:32/2025",
@@ -2009,7 +2002,7 @@
       ],
       "status": "ruling",
       "date": "2026-07-08",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-07-08-Mal-nr.-32-2025.-Urskurdur-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-07-08-Mal-nr.-32-2025.-Urskurdur-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:28/2026",
@@ -2023,7 +2016,7 @@
       ],
       "status": "ruling",
       "date": "2026-07-08",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-07-08-Mal-nr.-28-2026.-Akvordun-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-07-08-Mal-nr.-28-2026.-Akvordun-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:27/2026",
@@ -2037,7 +2030,7 @@
       ],
       "status": "ruling",
       "date": "2026-07-08",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-07-08-Mal-nr.-27-2026.-Akvordun-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-07-08-Mal-nr.-27-2026.-Akvordun-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:24/2026",
@@ -2051,7 +2044,7 @@
       ],
       "status": "ruling",
       "date": "2026-07-08",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-07-08-Mal-nr.-24-2026.-Akvordun-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-07-08-Mal-nr.-24-2026.-Akvordun-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:23/2026",
@@ -2065,7 +2058,7 @@
       ],
       "status": "ruling",
       "date": "2026-07-08",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-07-08-Mal-nr.-23-2026.-Akvordun-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-07-08-Mal-nr.-23-2026.-Akvordun-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:22/2026",
@@ -2079,7 +2072,7 @@
       ],
       "status": "ruling",
       "date": "2026-07-08",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-07-08-Mal-nr.-22-2026.-Akvordun-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-07-08-Mal-nr.-22-2026.-Akvordun-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:19/2026",
@@ -2093,7 +2086,7 @@
       ],
       "status": "ruling",
       "date": "2026-07-08",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-07-08-Mal-nr.-19-2026.-Akvordun-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-07-08-Mal-nr.-19-2026.-Akvordun-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:11/2026",
@@ -2107,7 +2100,7 @@
       ],
       "status": "ruling",
       "date": "2026-07-08",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-07-08-Mal-nr.-11-2026.-Urskurdur-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-07-08-Mal-nr.-11-2026.-Urskurdur-kaerunefndar-utbodsmala"
     },
     {
       "id": "skgatt:0846/2026",
@@ -2134,7 +2127,7 @@
       ],
       "status": "ruling",
       "date": "2026-07-07",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-07-07-Mal-nr.-38-2025.-Urskurdur-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-07-07-Mal-nr.-38-2025.-Urskurdur-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:33/2025",
@@ -2148,7 +2141,7 @@
       ],
       "status": "ruling",
       "date": "2026-07-07",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-07-07-Mal-nr.-33-2025.-Akvordun-kaerunefndar-utbodsmala-adgangur-ad-gognum"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-07-07-Mal-nr.-33-2025.-Akvordun-kaerunefndar-utbodsmala-adgangur-ad-gognum"
     },
     {
       "id": "kaerunefnd:20/2026",
@@ -2162,7 +2155,7 @@
       ],
       "status": "ruling",
       "date": "2026-07-07",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-07-07-Mal-nr.-20-2026.-Akvordun-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-07-07-Mal-nr.-20-2026.-Akvordun-kaerunefndar-utbodsmala"
     },
     {
       "id": "skgatt:0838/2026",
@@ -2188,7 +2181,7 @@
       ],
       "status": "ruling",
       "date": "2026-07-06",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-07-06-Mal-nr.-55-2025.-Akvordun-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-07-06-Mal-nr.-55-2025.-Akvordun-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:17/2026",
@@ -2202,7 +2195,7 @@
       ],
       "status": "ruling",
       "date": "2026-07-06",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-07-06-Mal-nr.-17-2026.-Akvordun-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-07-06-Mal-nr.-17-2026.-Akvordun-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:15/2026",
@@ -2216,7 +2209,7 @@
       ],
       "status": "ruling",
       "date": "2026-07-06",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-07-06-Mal-nr.-15-2026.-Akvordun-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-07-06-Mal-nr.-15-2026.-Akvordun-kaerunefndar-utbodsmala"
     },
     {
       "id": "skgatt:0827/2026",
@@ -2271,7 +2264,7 @@
       ],
       "status": "ruling",
       "date": "2026-06-25",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-06-25-Mal-nr.-9-2025.-Urskurdur-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-06-25-Mal-nr.-9-2025.-Urskurdur-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:61/2025",
@@ -2285,7 +2278,7 @@
       ],
       "status": "ruling",
       "date": "2026-06-25",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-06-25-Mal-nr.-61-2025.-Akvordun-kaerunefndar-utbodsmala-adgangur-ad-gognum"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-06-25-Mal-nr.-61-2025.-Akvordun-kaerunefndar-utbodsmala-adgangur-ad-gognum"
     },
     {
       "id": "kaerunefnd:6/2026",
@@ -2299,7 +2292,7 @@
       ],
       "status": "ruling",
       "date": "2026-06-25",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-06-25-Mal-nr.-6-2026.-Urskurdur-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-06-25-Mal-nr.-6-2026.-Urskurdur-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:56/2025",
@@ -2313,7 +2306,7 @@
       ],
       "status": "ruling",
       "date": "2026-06-25",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-06-25-Mal-nr.-56-2025.-Urskurdur-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-06-25-Mal-nr.-56-2025.-Urskurdur-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:50/2025",
@@ -2327,7 +2320,7 @@
       ],
       "status": "ruling",
       "date": "2026-06-25",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-06-25-Mal-nr.-50-2025.-Urskurdur-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-06-25-Mal-nr.-50-2025.-Urskurdur-kaerunefndar-utbodsmala"
     },
     {
       "id": "skgatt:0802/2026",
@@ -2512,19 +2505,6 @@
       "review_deadline": "2026-09-22",
       "summary": "Á afgreiðslufundi skipulagsfulltrúa þann 10.06.2026 var samþykkt að grenndarkynna breytingu á deiliskipulagi Miðbær Hafnarfjarðar. Breytingin felst í nýrri lóð, Víkingastræti 1h, fyrir dreifistöð/spennistöð HS veitna á milli lóða við Suðurgötu 14 og 18. Stærð lóðar er 5x6m eða 30m2 og stærð byggingarreits 3x4m eða 12m2. Aðkoma að lóð er um Víkingastræti. Hú…",
       "url": "https://skipulagsgatt.is/issues/5098"
-    },
-    {
-      "id": "skgatt:0740/2026",
-      "lane": "planning",
-      "title": "Breyting á deiliskipulagi Mjólkárvirkjunar vegna Mjólkárlínu 2 í Arnarfirði",
-      "entity": "Ísafjarðarbær",
-      "case_number": "0740/2026",
-      "plan_type": "deiliskipulag",
-      "status": "Endanleg gögn",
-      "date": "2026-06-10",
-      "review_deadline": "2026-09-10",
-      "summary": "Landsnet vinnur að lagningu Mjólkárlínu 2 milli Mjólkár og Bíldudals. Meginmarkmið framkvæmdarinnar er að auka áreiðanleika raforkuafhendingar á sunnanverðum Vestfjörðum. Fyrirhugað er að Mjólkárlína 2 liggi í jarðstreng frá nýju tengivirki við Mjólká og þaðan út með firðinum að Hrafnseyri. Tengivirkið og lítill hluti jarðstrengsins eru innan marka deiliski…",
-      "url": "https://skipulagsgatt.is/issues/5095"
     },
     {
       "id": "skgatt:0736/2026",
@@ -2718,7 +2698,7 @@
       "plan_type": "deiliskipulag",
       "status": "Endanleg gögn",
       "date": "2026-05-21",
-      "review_deadline": "2026-10-13",
+      "review_deadline": "2026-10-15",
       "summary": "Á afgreiðslufundi skipulagsfulltrúa þann 20. maí 2026. var samþykkt að grenndarkynna í samræmi við 2. mgr. 43. gr. skipulagslaga nr. 123/2010 tillögu að breytingu á deiliskipulagi vegna stækkunar lóðar fyrir Hólshraun 5.",
       "url": "https://skipulagsgatt.is/issues/4988"
     },
@@ -2803,7 +2783,7 @@
       ],
       "status": "ruling",
       "date": "2026-05-17",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-05-17-Mal-nr.-9-2026.-Akvordun-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-05-17-Mal-nr.-9-2026.-Akvordun-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:8/2026",
@@ -2817,7 +2797,7 @@
       ],
       "status": "ruling",
       "date": "2026-05-17",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-05-17-Mal-nr.-8-2026.-Akvordun-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-05-17-Mal-nr.-8-2026.-Akvordun-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:64/2025",
@@ -2831,7 +2811,7 @@
       ],
       "status": "ruling",
       "date": "2026-05-17",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-05-17-Mal-nr.-64-2025.-Akvordun-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-05-17-Mal-nr.-64-2025.-Akvordun-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:63/2025",
@@ -2845,7 +2825,7 @@
       ],
       "status": "ruling",
       "date": "2026-05-17",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-05-17-Mal-nr.-63-2025.-Akvordun-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-05-17-Mal-nr.-63-2025.-Akvordun-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:62/2025",
@@ -2859,7 +2839,7 @@
       ],
       "status": "ruling",
       "date": "2026-05-17",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-05-17-Mal-nr.-62-2025.-Akvordun-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-05-17-Mal-nr.-62-2025.-Akvordun-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:5/2026",
@@ -2873,7 +2853,7 @@
       ],
       "status": "ruling",
       "date": "2026-05-17",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-05-17-Mal-nr.-5-2026.-Akvordun-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-05-17-Mal-nr.-5-2026.-Akvordun-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:45/2025",
@@ -2887,7 +2867,7 @@
       ],
       "status": "ruling",
       "date": "2026-05-17",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-05-17-Mal-nr.-45-2025.-Urskurdur-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-05-17-Mal-nr.-45-2025.-Urskurdur-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:39/2025",
@@ -2901,7 +2881,7 @@
       ],
       "status": "ruling",
       "date": "2026-05-17",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-05-17-Mal-nr.-39-2025.-Urskurdur-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-05-17-Mal-nr.-39-2025.-Urskurdur-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:34/2025",
@@ -2915,7 +2895,7 @@
       ],
       "status": "ruling",
       "date": "2026-05-17",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-05-17-Mal-nr.-34-2025.-Urskurdur-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-05-17-Mal-nr.-34-2025.-Urskurdur-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:3/2026",
@@ -2929,7 +2909,7 @@
       ],
       "status": "ruling",
       "date": "2026-05-17",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-05-17-Mal-nr.-3-2026.-Akvordun-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-05-17-Mal-nr.-3-2026.-Akvordun-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:14/2026",
@@ -2943,7 +2923,7 @@
       ],
       "status": "ruling",
       "date": "2026-05-17",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-05-17-Mal-nr.-14-2026.-Akvordun-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-05-17-Mal-nr.-14-2026.-Akvordun-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:12/2026",
@@ -2957,7 +2937,7 @@
       ],
       "status": "ruling",
       "date": "2026-05-17",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-05-17-Mal-nr.-12-2026.-Akvordun-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-05-17-Mal-nr.-12-2026.-Akvordun-kaerunefndar-utbodsmala"
     },
     {
       "id": "skgatt:0609/2026",
@@ -2979,9 +2959,9 @@
       "entity": "Reykjavík",
       "case_number": "0599/2026",
       "plan_type": "deiliskipulag",
-      "status": "Athugun eftir auglýsingu",
+      "status": "Endanleg gögn",
       "date": "2026-05-13",
-      "review_deadline": "2026-09-18",
+      "review_deadline": "2026-10-15",
       "summary": "Um er að ræða tillögu að breytingu á deiliskipulagi Teigahverfis vegna Reykjavegar, Hofteigs og Kirkjuteigs. Í breytingunni sem lögð er til felst að loka fyrir umferð Kirkjuteigs annars vegar og hins vegar Hofteigs inn á Reykjaveg og að minnka óverulega lóð Laugarnesskóla til að koma fyrir snúningssvæði við enda Hofteigs.",
       "url": "https://skipulagsgatt.is/issues/4954"
     },
@@ -3284,7 +3264,7 @@
       ],
       "status": "ruling",
       "date": "2026-03-30",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-03-30-Mal-nr.-38-2024.-Urskurdur-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-03-30-Mal-nr.-38-2024.-Urskurdur-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:41/2025",
@@ -3298,7 +3278,7 @@
       ],
       "status": "ruling",
       "date": "2026-03-25",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-03-25-Mal-nr.-41-2025.-Urskurdur-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-03-25-Mal-nr.-41-2025.-Urskurdur-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:40/2025",
@@ -3312,7 +3292,7 @@
       ],
       "status": "ruling",
       "date": "2026-03-25",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-03-25-Mal-nr.-40-2025.-Urskurdur-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-03-25-Mal-nr.-40-2025.-Urskurdur-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:4/2026",
@@ -3326,7 +3306,7 @@
       ],
       "status": "ruling",
       "date": "2026-03-25",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-03-25-Mal-nr.-4-2026.-Akvordun-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-03-25-Mal-nr.-4-2026.-Akvordun-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:2/2026",
@@ -3340,7 +3320,7 @@
       ],
       "status": "ruling",
       "date": "2026-03-25",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-03-25-Mal-nr.-2-2026.-Urskurdur-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-03-25-Mal-nr.-2-2026.-Urskurdur-kaerunefndar-utbodsmala"
     },
     {
       "id": "heradsdomur:E-2753/2025",
@@ -3494,7 +3474,7 @@
       ],
       "status": "ruling",
       "date": "2026-03-09",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-03-09-Mal-nr.-24-2025.-Urskurdur-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-03-09-Mal-nr.-24-2025.-Urskurdur-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:21/2025",
@@ -3508,7 +3488,7 @@
       ],
       "status": "ruling",
       "date": "2026-03-09",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-03-09-Mal-nr.-21-2025.-Urskurdur-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-03-09-Mal-nr.-21-2025.-Urskurdur-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:20/2025",
@@ -3522,7 +3502,7 @@
       ],
       "status": "ruling",
       "date": "2026-03-09",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-03-09-Mal-nr.-20-2025.-Urskurdur-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-03-09-Mal-nr.-20-2025.-Urskurdur-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:26/2025",
@@ -3536,7 +3516,7 @@
       ],
       "status": "ruling",
       "date": "2026-03-06",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-03-06-Mal-nr.-26-2025.-Urskurdur-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-03-06-Mal-nr.-26-2025.-Urskurdur-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:25/2025",
@@ -3550,7 +3530,7 @@
       ],
       "status": "ruling",
       "date": "2026-03-06",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-03-06-Mal-nr.-25-2025.-Urskurdur-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-03-06-Mal-nr.-25-2025.-Urskurdur-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:10/2025",
@@ -3564,7 +3544,7 @@
       ],
       "status": "ruling",
       "date": "2026-03-06",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-03-06-Mal-nr.-10-2025.-Urskurdur-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-03-06-Mal-nr.-10-2025.-Urskurdur-kaerunefndar-utbodsmala"
     },
     {
       "id": "heradsdomur:E-3612/2025",
@@ -3608,7 +3588,7 @@
       ],
       "status": "ruling",
       "date": "2026-02-24",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-02-24-Mal-nr.-29-2025.-Urskurdur-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-02-24-Mal-nr.-29-2025.-Urskurdur-kaerunefndar-utbodsmala"
     },
     {
       "id": "heradsdomur:E-3893/2024",
@@ -3689,7 +3669,7 @@
       ],
       "status": "ruling",
       "date": "2026-02-12",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-02-12-Mal-nr.-60-2025.-Akvordun-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-02-12-Mal-nr.-60-2025.-Akvordun-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:44/2025",
@@ -3703,7 +3683,7 @@
       ],
       "status": "ruling",
       "date": "2026-02-12",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-02-12-Mal-nr.-44-2025.-Urskurdur-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-02-12-Mal-nr.-44-2025.-Urskurdur-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:43/2025",
@@ -3717,7 +3697,7 @@
       ],
       "status": "ruling",
       "date": "2026-02-12",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-02-12-Mal-nr.-43-2025.-Urskurdur-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-02-12-Mal-nr.-43-2025.-Urskurdur-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:28/2025",
@@ -3731,7 +3711,7 @@
       ],
       "status": "ruling",
       "date": "2026-02-12",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-02-12-Mal-nr.-28-2025.-Urskurdur-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-02-12-Mal-nr.-28-2025.-Urskurdur-kaerunefndar-utbodsmala"
     },
     {
       "id": "kaerunefnd:23/2025",
@@ -3745,7 +3725,7 @@
       ],
       "status": "ruling",
       "date": "2026-02-06",
-      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-02-06-Mal-nr.-23-2025.-Urskurdur-kaerunefndar-utbodsmala"
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-02-06-Mal-nr.-23-2025.-Urskurdur-kaerunefndar-utbodsmala"
     },
     {
       "id": "skgatt:0082/2026",
@@ -4200,6 +4180,27 @@
         "mannvirki"
       ],
       "doc_type": "reference"
+    },
+    {
+      "id": "legislation:althingi-thingmalaskra:endurskodud-aaetlun-um-framlagningu-thingmala-a-vetrar-og-vorthingi-2026-lokautg",
+      "lane": "legislation",
+      "source": "althingi-thingmalaskra",
+      "doc_type": "parliamentary",
+      "title": "Endurskoðuð þingmálaskrá fyrir 157. löggjafarþing",
+      "entity": "Alþingi",
+      "status": "tracker",
+      "summary": "13. Frumvarp til laga um breytingu á lögum um mannvirki, nr. 160/2010 (einföldun byggingarreglugerðar og endurskoðun byggingareftirlits). / 14. Frumvarp til laga um breytingu á skipulagslögum nr. 123/2010 (raflínuskipulag). / 2. Frumvarp til laga um breytingu á lögum um stefnur og aðgerðaáætlanir á sviði húsnæðis- og skipulagsmála, samgangna og byggðamála, nr. 30/2023 (stefnumörkun).",
+      "url": "https://www.althingi.is/media/uncategorized/Endurskodud-aaetlun-um-framlagningu-thingmala-a-vetrar-og-vorthingi-2026-lokautgafa-leidrettX.pdf",
+      "index_url": "https://www.althingi.is/thingstorf/leidbeiningar-og-yfirlit/thingmalaskra-rikisstjornar/",
+      "keywords_matched": [
+        "bygging",
+        "mannvirki",
+        "samgöngur",
+        "skipulag",
+        "umhverfismat"
+      ],
+      "case_number": "157. löggjafarþing",
+      "period": "2025–2026"
     },
     {
       "id": "announcement:vegagerdin-utbod:utbod",
