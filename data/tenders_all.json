@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated": "2026-09-18T07:00:31Z",
-  "generated_at": "2026-09-18T07:00:31Z",
+  "generated": "2026-09-21T07:00:32Z",
+  "generated_at": "2026-09-21T07:00:32Z",
   "sources": {
     "utbodsvefur": {
-      "generated_at": "2026-09-18T07:00:31.481328+00:00",
-      "count": 41,
+      "generated_at": "2026-09-21T07:00:32.514651+00:00",
+      "count": 38,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders.json"
     },
     "offportal": {
-      "generated": "2026-09-18T07:00:31Z",
+      "generated": "2026-09-21T07:00:32Z",
       "count": 12,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders_offportal.json"
     },
@@ -297,7 +297,7 @@
         "evidence_url": "https://www.utbodsvefur.is/fjardabyggdarhollin-loftraestikerfi/",
         "seen_count": 1,
         "first_seen": "2026-09-07T07:00:13Z",
-        "last_seen": "2026-09-18T07:00:31Z",
+        "last_seen": "2026-09-21T07:00:32Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       },
@@ -309,7 +309,7 @@
         "evidence_url": "https://www.utbodsvefur.is/9661-2/",
         "seen_count": 1,
         "first_seen": "2026-09-04T07:00:13Z",
-        "last_seen": "2026-09-18T07:00:31Z",
+        "last_seen": "2026-09-21T07:00:32Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       },
@@ -327,53 +327,8 @@
       }
     ]
   },
-  "count": 50,
+  "count": 47,
   "items": [
-    {
-      "reference": "23392",
-      "project": "Afhending skilríkja á höfuðborgarsvæðinu fyrir Þjóðskrá",
-      "buyer": "Fjársýslan ríkisins",
-      "notice_type": "Þjónusta",
-      "deadline": "18.09.2026 kl. 12:00",
-      "deadline_local": "2026-09-18T12:00:00+00:00",
-      "deadline_utc": "2026-09-18T12:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-08-18T10:46:09+00:00",
-      "modified_at": "2026-08-18T10:46:09+00:00",
-      "url": "https://www.utbodsvefur.is/afhending-skilrikja-a-hofudborgarsvaedinu-fyrir-thjodskra/",
-      "summary": "Fjársýslan (kt. 540269-7509), fyrir hönd Þjóðskrár (kt. 650376-0649), óskar eftir tilboðum í útboð nr. 23392 – Afhending skilríkja á höfuðborgar...",
-      "source": "utbodsvefur"
-    },
-    {
-      "reference": "I0235",
-      "project": "Markaðskönnun – RFI Stafrænt meinafræðikerfi fyrir NLSH",
-      "buyer": "Nýr Landspítali (NLSH ohf.)",
-      "notice_type": "Markaðskönnun (RFI)",
-      "deadline": "18.09.2026 kl. 12:00",
-      "deadline_local": "2026-09-18T12:00:00+00:00",
-      "deadline_utc": "2026-09-18T12:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-08-31T09:29:34+00:00",
-      "modified_at": "2026-08-31T10:30:44+00:00",
-      "url": "https://www.utbodsvefur.is/stafraent-meinafraedikerfi-fyrir-nlsh/",
-      "summary": "Nýr Landspítali (NLSH) óskar eftir upplýsingum frá hæfum birgjum varðandi heildarlausn frá einum aðila fyrir starfrænt meinafræðikerfi. Nánari upplýsi...",
-      "source": "utbodsvefur"
-    },
-    {
-      "reference": "003",
-      "project": "Vátryggingaútboð Hveragerðisbæjar 2027-2029",
-      "buyer": "Hveragerðisbær",
-      "notice_type": "Þjónusta",
-      "deadline": "21.09.2026 kl. 00:00",
-      "deadline_local": "2026-09-21T00:00:00+00:00",
-      "deadline_utc": "2026-09-21T00:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-08-15T09:07:37+00:00",
-      "modified_at": "2026-08-15T09:07:37+00:00",
-      "url": "https://www.utbodsvefur.is/vatryggingautbod-hveragerdisbaejar-2027-2029/",
-      "summary": "Hveragerðisbær og tengdir aðilar óska eftir tilboðum í vátryggingar fyrir tímabilið 2027-2029 Um er að ræða lög- og samningsbundnar tryggingar auk ann...",
-      "source": "utbodsvefur"
-    },
     {
       "reference": "C05959",
       "project": "Endurnýjun eldhúss og matsala fyrir sameiginlegu herþjálfunarmiðstöð NATO",
