@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated": "2026-09-21T07:00:32Z",
-  "generated_at": "2026-09-21T07:00:32Z",
+  "generated": "2026-09-22T07:00:27Z",
+  "generated_at": "2026-09-22T07:00:27Z",
   "sources": {
     "covered": [
       {
@@ -321,7 +321,7 @@
         "evidence_url": "https://www.utbodsvefur.is/fjardabyggdarhollin-loftraestikerfi/",
         "seen_count": 1,
         "first_seen": "2026-09-07T07:00:13Z",
-        "last_seen": "2026-09-18T07:00:31Z",
+        "last_seen": "2026-09-21T07:00:32Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       },
@@ -333,7 +333,7 @@
         "evidence_url": "https://www.utbodsvefur.is/9661-2/",
         "seen_count": 1,
         "first_seen": "2026-09-04T07:00:13Z",
-        "last_seen": "2026-09-18T07:00:31Z",
+        "last_seen": "2026-09-21T07:00:32Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       },
@@ -351,23 +351,8 @@
       }
     ]
   },
-  "count": 12,
+  "count": 11,
   "items": [
-    {
-      "reference": "U25032",
-      "project": "U25032 Keflavík Airport Unified Security Checkpoint Solution",
-      "buyer": "Isavia",
-      "notice_type": "Works",
-      "deadline": "21.09.2026 kl. 12:00",
-      "deadline_local": "2026-09-21T12:00:00+00:00",
-      "deadline_utc": "2026-09-21T12:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": null,
-      "modified_at": null,
-      "url": "https://in-tendhost.co.uk/isavia/aspx/ProjectManage/380",
-      "summary": "Isavia ohf. is conducting a procurement on behalf of Isavia ohf. and its subsidiaries for a complete passenger security checkpoint solution at Keflavík Airport. The scope includes the supply, installation, integration, commissioning, testing, handover, maintenance and support of airport security screening equipment, related software, interfaces and IT infrastructure, including CT security scanners for cabin baggage…",
-      "source": "isavia-intend"
-    },
     {
       "reference": "ONGK-2022-01",
       "project": "ONGK-2022-01 DC charging stations Dynamic purchasing system",
