@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated": "2026-09-21T06:45:01Z",
+  "generated": "2026-09-22T06:45:01Z",
   "window": {
-    "from": "2026-09-14",
-    "to": "2026-09-21"
+    "from": "2026-09-15",
+    "to": "2026-09-22"
   },
   "coverage": {
     "municipalities": [
@@ -262,7 +262,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/5437",
         "seen_count": 1,
         "first_seen": "2026-09-21T06:45:01Z",
-        "last_seen": "2026-09-21T06:45:01Z",
+        "last_seen": "2026-09-22T06:45:01Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -274,7 +274,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/5377",
         "seen_count": 1,
         "first_seen": "2026-09-11T06:45:01Z",
-        "last_seen": "2026-09-21T06:45:01Z",
+        "last_seen": "2026-09-22T06:45:01Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -286,7 +286,7 @@
         "evidence_url": "https://island.is/reglugerdir/nr/0809-2026",
         "seen_count": 1,
         "first_seen": "2026-09-11T06:45:01Z",
-        "last_seen": "2026-09-21T06:45:01Z",
+        "last_seen": "2026-09-22T06:45:01Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       }
@@ -323,7 +323,7 @@
           "no_matching_keywords": 40
         },
         "isavia": {
-          "no_matching_keywords": 23,
+          "no_matching_keywords": 24,
           "undated": 1
         },
         "kadeco": {
@@ -332,7 +332,7 @@
         },
         "reykjavik": {
           "no_matching_keywords": 37,
-          "undated": 2,
+          "undated": 1,
           "outside_window": 1
         },
         "kopavogur": {
@@ -366,12 +366,11 @@
           "outside_window": 30
         },
         "gardabaer": {
-          "no_matching_keywords": 17,
-          "outside_window": 2
+          "no_matching_keywords": 19
         },
         "mosfellsbaer": {
           "no_matching_keywords": 35,
-          "outside_window": 2,
+          "outside_window": 1,
           "undated": 2
         },
         "arborg": {
@@ -400,7 +399,8 @@
           "no_matching_keywords": 40
         },
         "fiskifrettir": {
-          "no_matching_keywords": 40
+          "no_matching_keywords": 39,
+          "undated": 1
         },
         "hsorka": {
           "no_matching_keywords": 38,
@@ -444,7 +444,7 @@
       }
     }
   },
-  "count": 294,
+  "count": 300,
   "items": [
     {
       "id": "legislation:althingi-thingmalaskra:endurskodud-aaetlun-um-framlagningu-thingmala-a-vetrar-og-vorthingi-2026-lokautg",
@@ -454,7 +454,7 @@
       "title": "Endurskoðuð þingmálaskrá fyrir 157. löggjafarþing",
       "entity": "Alþingi",
       "status": "tracker",
-      "date": "2026-09-21",
+      "date": "2026-09-22",
       "summary": "13. Frumvarp til laga um breytingu á lögum um mannvirki, nr. 160/2010 (einföldun byggingarreglugerðar og endurskoðun byggingareftirlits). / 14. Frumvarp til laga um breytingu á skipulagslögum nr. 123/2010 (raflínuskipulag). / 2. Frumvarp til laga um breytingu á lögum um stefnur og aðgerðaáætlanir á sviði húsnæðis- og skipulagsmála, samgangna og byggðamála, nr. 30/2023 (stefnumörkun).",
       "url": "https://www.althingi.is/media/uncategorized/Endurskodud-aaetlun-um-framlagningu-thingmala-a-vetrar-og-vorthingi-2026-lokautgafa-leidrettX.pdf",
       "index_url": "https://www.althingi.is/thingstorf/leidbeiningar-og-yfirlit/thingmalaskra-rikisstjornar/",
@@ -469,15 +469,72 @@
       "period": "2025–2026"
     },
     {
-      "id": "announcement:byggingar-opnun-utboda:skrifstofa-logmanna-verdi-hotel",
+      "id": "announcement:mosfellsbaer:umsokn-um-styrk-til-nams-verkfaera-og-taekjakaupa-2026",
+      "lane": "announcement",
+      "source": "mosfellsbaer",
+      "title": "Styrkir 14. september 2026 Umsókn um styrk til náms, verkfæra- og tækjakaupa 2026",
+      "entity": "Mosfellsbær",
+      "status": "published",
+      "date": "2026-09-22",
+      "summary": "Samgönguvika 16. – 22. september 2026 Styrkir 14. september 2026 Umsókn um styrk til náms, verkfæra- og tækjakaupa 2026 <img class=\"bde-image2-53844-101-103642-53844-",
+      "url": "https://mos.is/mannlif/um-mosfellsbae/frettir/umsokn-um-styrk-til-nams-verkfaera-og-taekjakaupa-2026/",
+      "keywords_matched": [
+        "samgöngur"
+      ]
+    },
+    {
+      "id": "skgatt:1087/2026",
+      "lane": "planning",
+      "title": "Kumlamýri 21-23, grenndarkynning tillögu að óverulegri breytingu deiliskipulags Kumlamýrar.",
+      "entity": "Garðabær",
+      "case_number": "1087/2026",
+      "plan_type": "deiliskipulag",
+      "status": "Grenndarkynning",
+      "date": "2026-09-21",
+      "review_deadline": "2026-10-19",
+      "summary": "Skipulagsstjóri hefur samþykkt að fram fari grenndarkynning vegna tillögu að óverulegri breytingu á deiliskipulagi Kumlamýrar í samræmi við 2. mgr. 43. gr. skipulagslaga nr. 123/2010. Um ákvörðun skipulagsstjóra vísast til viðauka II við samþykkt um stjórn Garðabæjar nr. 1182/2022. Breytingartillagan nær til lóðanna Kumlamýri 21-23. Tillagan gerir ráð fyrir…",
+      "url": "https://skipulagsgatt.is/issues/5442"
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:sprengja-bratt-fyrir-endurnyjudum-midbae-i-kopavogi",
       "lane": "announcement",
       "source": "byggingar-opnun-utboda",
-      "title": "Skrifstofa lögmanna verði hótel",
+      "title": "Sprengja brátt fyrir endurnýjuðum miðbæ í Kópavogi",
       "entity": "Byggingar.is",
       "status": "published",
-      "date": "2026-09-20",
-      "summary": "e=\"image_tag\" data-img-url=\"https://byggingar.is/wp-content/uploads/2026/09/20.09.2026-Skrifstofa-logmanna-verdi-hotel-100x75.jpg\" width=\"100\" height=\"75\" /> Skrifstofa lögmanna verði hótel 20/09/2026 <div class=\"td_modu",
-      "url": "https://byggingar.is/skrifstofa-logmanna-verdi-hotel/",
+      "date": "2026-09-21",
+      "summary": "mg-url=\"https://byggingar.is/wp-content/uploads/2026/09/21.09.2026-Sprengja-bratt-fyrir-endurnyjudum-midbae-i-Kopavogi-100x75.jpg\" width=\"100\" height=\"75\" /> Sprengja brátt fyrir endurnýjuðum miðbæ í Kópavogi 21/09/2026 <div class=\"td_modu",
+      "url": "https://byggingar.is/sprengja-bratt-fyrir-endurnyjudum-midbae-i-kopavogi/",
+      "keywords_matched": [
+        "bygging",
+        "opinber innkaup"
+      ]
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:spa-aukinni-veltu-eftir-kaupin",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "Spá aukinni veltu eftir kaupin",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-09-21",
+      "summary": "pe=\"image_tag\" data-img-url=\"https://byggingar.is/wp-content/uploads/2026/09/21.09.2026-Spa-aukinni-veltu-eftir-kaupin-100x75.jpg\" width=\"100\" height=\"75\" /> Spá aukinni veltu eftir kaupin 21/09/2026 <div cl",
+      "url": "https://byggingar.is/spa-aukinni-veltu-eftir-kaupin/",
+      "keywords_matched": [
+        "bygging",
+        "opinber innkaup"
+      ]
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:2-8-milljarda-uppbygging-hja-reykjagardi-a-hellu",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "2.8 milljarða uppbygging hjá Reykjagarði á Hellu",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-09-21",
+      "summary": "a-img-url=\"https://byggingar.is/wp-content/uploads/2026/09/21.09.2026-2.8-milljarda-uppbygging-hja-Reykjagardi-a-Hellu-100x75.jpg\" width=\"100\" height=\"75\" /> 2.8 milljarða uppbygging hjá Reykjagarði á Hellu 21/09/2026 <div class=\"td_modu",
+      "url": "https://byggingar.is/2-8-milljarda-uppbygging-hja-reykjagardi-a-hellu/",
       "keywords_matched": [
         "bygging",
         "opinber innkaup"
@@ -499,21 +556,6 @@
       ]
     },
     {
-      "id": "announcement:byggingar-opnun-utboda:ollum-tilbodum-i-lod-bildudalsskola-hafnad",
-      "lane": "announcement",
-      "source": "byggingar-opnun-utboda",
-      "title": "Öllum tilboðum í lóð Bíldudalsskóla hafnað – lægstbjóðandi dró sig síðan...",
-      "entity": "Byggingar.is",
-      "status": "published",
-      "date": "2026-09-20",
-      "summary": "g\" data-img-url=\"https://byggingar.is/wp-content/uploads/2026/09/20.09.2026-Ollum-tilbodum-i-lod-Bildudalsskola-hafnad-100x75.jpg\" width=\"100\" height=\"75\" /> Öllum tilboðum í lóð Bíldudalsskóla hafnað – lægstbjóðandi dró sig síðan... 20/09/2026 <div class=\"td_modu",
-      "url": "https://byggingar.is/ollum-tilbodum-i-lod-bildudalsskola-hafnad/",
-      "keywords_matched": [
-        "bygging",
-        "opinber innkaup"
-      ]
-    },
-    {
       "id": "announcement:byggingar-opnun-utboda:byggingar",
       "lane": "announcement",
       "source": "byggingar-opnun-utboda",
@@ -523,21 +565,6 @@
       "date": "2026-09-20",
       "summary": "if-leikskolans/\" rel=\"bookmark\" title=\"Samið um niðurrif leikskólans\">Samið um niðurrif leikskólans byggingar - 20/09/2026 0",
       "url": "https://byggingar.is/author/byggingar/",
-      "keywords_matched": [
-        "bygging",
-        "opinber innkaup"
-      ]
-    },
-    {
-      "id": "announcement:byggingar-opnun-utboda:armar-hagnast-um-780-milljonir",
-      "lane": "announcement",
-      "source": "byggingar-opnun-utboda",
-      "title": "Armar hagnast um 780 milljónir",
-      "entity": "Byggingar.is",
-      "status": "published",
-      "date": "2026-09-20",
-      "summary": "pe=\"image_tag\" data-img-url=\"https://byggingar.is/wp-content/uploads/2026/09/20.09.2026-Armar-hagnast-um-780-milljonir-100x75.jpg\" width=\"100\" height=\"75\" /> Armar hagnast um 780 milljónir 20/09/2026 <div cl",
-      "url": "https://byggingar.is/armar-hagnast-um-780-milljonir/",
       "keywords_matched": [
         "bygging",
         "opinber innkaup"
@@ -593,7 +620,7 @@
       "entity": "Garðabær",
       "status": "published",
       "date": "2026-09-17",
-      "summary": "le__3WoRJW__richText\"> Á mánudaginn nk. 21. september mun Loftorka vinna á nokkrum stöðum í Garðabæ, ef veður leyfir. Lokanir verða settar upp vegna framkvæmdanna. Fréttir 17.09.2026 Evrópsk Samgönguvika 16. – 22. september Evrópsk Samgönguvika stendur nú yfir en er hún haldin 16. – 22. september ár hvert. Um samstillt átak sveitarfélaga í Evrópu er að ræða…",
+      "summary": "scss-module__3WoRJW__richText\"> Uppfært: Fræsun á Holtsvegi hefur verið frestað vegna veðurs. Stefnt er að því að reyna aftur á morgun, 22. september, á sama tíma. Fréttir 17.09.2026 Evrópsk Samgönguvika 16. – 22. september Evrópsk Samgönguvika stendur nú yfir en er hún haldin 16. – 22. september ár hvert. Um samstillt átak sveitarfélaga í Evrópu er að ræða…",
       "url": "https://www.gardabaer.is/frettir/evropsk-samgonguvika-16-22-september",
       "keywords_matched": [
         "samgöngur"
@@ -732,6 +759,20 @@
       "review_deadline": "2026-10-21",
       "summary": "Lögð er fram tillaga deiliskipulagsbreytingar sem tekur til Hvammsvirkjunar í Skeiða- og Gnúpverjahreppi og Rangárþingi ytra. Landsvirkjun hefur unnið að útboðshönnun á mannvirkjum tengdum Hvammsvirkjun í og við Þjórsá innan beggja sveitarfélaga. Ýmsar forsendur hafa breyst og er því gerð breyting á nokkrum þáttum deiliskipulagsins.",
       "url": "https://skipulagsgatt.is/issues/5421"
+    },
+    {
+      "id": "announcement:reykjavik:evropsk-samgonguvika-2026",
+      "lane": "announcement",
+      "source": "reykjavik",
+      "title": "Evrópsk samgönguvika 2026",
+      "entity": "Reykjavíkurborg",
+      "status": "published",
+      "date": "2026-09-15",
+      "summary": "1920w, /sites/default/files/styles/landscape_4k/public/2026-06/folk_ad_hjola.jpg?h=1c9b88c9&itok=f3hQcAWZ 3840w\" data-sizes=\"auto\" /> 15. september 2026 Evrópsk samgönguvika 2026 <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2025-10/reykjavik_bensinstodvaskyrsla.png.jpg?h=4d45c99f&itok=Ecjf53zV\"…",
+      "url": "https://reykjavik.is/frettir/2026/evropsk-samgonguvika-2026",
+      "keywords_matched": [
+        "samgöngur"
+      ]
     },
     {
       "id": "announcement:byggingar-opnun-utboda:sudurverk-og-fossvelar-laegst-med-4-68-milljarda-tilbod-i-kjalarnesveg",
@@ -1555,9 +1596,9 @@
       "entity": "Hafnarfjörður",
       "case_number": "0954/2026",
       "plan_type": "deiliskipulag",
-      "status": "Grenndarkynning",
+      "status": "Endanleg gögn",
       "date": "2026-08-17",
-      "review_deadline": "2026-09-15",
+      "review_deadline": "2026-10-19",
       "summary": "Á afgreiðslufundi skipulagsfulltrúa þann 12. ágúst 2026 var samþykkt að grenndarkynna í samræmi við 2. mgr. 43. gr. skipulagslaga nr. 123/2010 umsókn eiganda við Títanhellu 19. Breytingin felst í að innkeyrslan inn á lóðina er færð um 21 m, nýtingarhlutfall helst óbreytt.",
       "url": "https://skipulagsgatt.is/issues/5309"
     },
@@ -1677,6 +1718,19 @@
       "url": "https://skipulagsgatt.is/issues/5178"
     },
     {
+      "id": "skgatt:0903/2026",
+      "lane": "planning",
+      "title": "Fálkagötureitir - Tómasarhagi 7 - USK26050324",
+      "entity": "Reykjavík",
+      "case_number": "0903/2026",
+      "plan_type": "deiliskipulag",
+      "status": "Endanleg gögn",
+      "date": "2026-07-29",
+      "review_deadline": "2026-10-19",
+      "summary": "Um er að ræða breytingu á deiliskipulagi Fálkagötureita vegna lóðarinnar nr. 7 við Tómasarhaga. Í breytingunni sem lögð er til felst að breyta lögun byggingarreits á lóð fyrir bílskúr ásamt því að breyta notkun hans í garðhýsi sem mun innihalda eldunaraðstöðu, saunu, baðherbergi og geymslu, ásamt potti og útisturtu.",
+      "url": "https://skipulagsgatt.is/issues/5258"
+    },
+    {
       "id": "skgatt:0901/2026",
       "lane": "eia",
       "title": "Framleiðsluaukning Silfurstjörnunnar á Núpsmýri í Öxarfirði",
@@ -1718,6 +1772,18 @@
       "review_deadline": "2026-09-28",
       "summary": "Á afgreiðslufundi skipulagsfulltrúa þann 21. júlí 2026 var samþykkt að grenndarkynna í samræmi við 2. mgr. 43. gr. skipulagslaga nr. 123/2010 umsókn eiganda við Óseyrarbraut 12B. Breytingin felst í að skipta lóðinni Óseyrarbraut 12B í tvær lóðir, 12B og 12C.",
       "url": "https://skipulagsgatt.is/issues/5252"
+    },
+    {
+      "id": "skgatt:0895/2026",
+      "lane": "planning",
+      "title": "Mosfellsbær - Markholt 22",
+      "entity": "Mosfellsbær",
+      "case_number": "0895/2026",
+      "status": "Endanleg gögn",
+      "date": "2026-07-22",
+      "review_deadline": "2026-10-19",
+      "summary": "Á afgreiðslufundi skipulagsfulltrúa þann 15. júlí sl. var samþykkt að grenndarkynna í samræmi við 1. og 2. mgr. 44. gr. skipulagslaga nr. 123/2010, umsókn eigenda Markholts 22. Sótt er um leyfi til að byggja 30 m² stakstætt hús úr timbri með mænishæð 3,30 m.",
+      "url": "https://skipulagsgatt.is/issues/5250"
     },
     {
       "id": "kaerunefnd:59/2025",
@@ -1790,17 +1856,17 @@
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-07-20-Mal-nr.-1-2026.-Urskurdur-kaerunefndar-utbodsmala"
     },
     {
-      "id": "skgatt:0885/2026",
+      "id": "skgatt:0890/2026",
       "lane": "planning",
-      "title": "Sigölduvirkjun óv br. Færsla á efnistökusvæði.",
-      "entity": "Rangárþing ytra",
-      "case_number": "0885/2026",
-      "plan_type": "adalskipulag",
+      "title": "Breyting á deiliskipulagi Hellnahrauns 2. áfanga vegna Breiðhellu 14",
+      "entity": "Hafnarfjörður",
+      "case_number": "0890/2026",
+      "plan_type": "deiliskipulag",
       "status": "Endanleg gögn",
-      "date": "2026-07-15",
-      "review_deadline": "2026-09-14",
-      "summary": "Landsvirkjun hefur óskað eftir að gerð verði minni háttar breyting á staðsetningu efnistökusvæðis við Sigöldu. Um er að ræða efnistökusvæðið E72 sem færist frá núverandi stað og suður fyrir Sigöldugljúfur, á þegar raskað svæði. Skipulagsgögn frá Eflu. Skipulags- og umferðarnefnd samþykkir tillöguna og leggur til að farið verði um málsmeðferð eins og um óver…",
-      "url": "https://skipulagsgatt.is/issues/5240"
+      "date": "2026-07-17",
+      "review_deadline": "2026-10-19",
+      "summary": "Á afgreiðslufundi skipulagsfulltrúa þann 15.07.2026 var samþykkt að grenndarkynna breytingu á deiliskipulagi Hellnahrauns 2. áfanga vegna Breiðhellu 14. Tillaga gerir ráð fyrir að annari innkeyrslu er bætt við vestan megin á lóðinni, til að bæta aðkomu slökkviliðs og tryggja betra aðgengi að iðnaðarbilum á þeirri hlið byggingar.",
+      "url": "https://skipulagsgatt.is/issues/5245"
     },
     {
       "id": "reglugerd:0809-2026",
@@ -2238,6 +2304,18 @@
       "review_deadline": "2026-09-29",
       "summary": "Á afgreiðslufundi skipulagsfulltrúa þann 24. júní 2026 sl. var samþykkt að grenndarkynna í samræmi við 2. mgr. 43. gr. skipulagslaga nr. 123/2010 umsókn eiganda við Álfaskeið 16. Breytingin felst í því að heimilt hámarks byggingarmagn er hækkað úr 300 m2 í 393 m2 og nýtingarhlutfall er hækkað á lóðinni úr 0,23 í 0,31 í samræmi við samþykkta aðaluppdrætti, d…",
       "url": "https://skipulagsgatt.is/issues/5169"
+    },
+    {
+      "id": "skgatt:0813/2026",
+      "lane": "planning",
+      "title": "Ártúnsholt, hverfi 7.1 - Rafstöðvarvegur 33 og 33A - USK26060195",
+      "entity": "Reykjavík",
+      "case_number": "0813/2026",
+      "status": "Endanleg gögn",
+      "date": "2026-06-29",
+      "review_deadline": "2026-10-19",
+      "summary": "Um er að ræða tillögu að breytingu á hverfisskipulagi Ártúnsholts, hverfi 7.1 begma lóðarinnar nr. 33 og 33A við Rafstöðvarveg. í hverfisskipulagi. Í breytingunni sem lögð er til felst leiðrétting á skráningu yfirfærðra byggingarheimilda og hámarksbyggingarheimilda fyrir lóðina.",
+      "url": "https://skipulagsgatt.is/issues/5168"
     },
     {
       "id": "kaerunefnd:9/2025",
@@ -2977,19 +3055,6 @@
       "url": "https://skipulagsgatt.is/issues/4892"
     },
     {
-      "id": "skgatt:0578/2026",
-      "lane": "planning",
-      "title": "Túnin - Miðtún 11 - USK25110361",
-      "entity": "Reykjavík",
-      "case_number": "0578/2026",
-      "plan_type": "deiliskipulag",
-      "status": "Endanleg gögn",
-      "date": "2026-05-11",
-      "review_deadline": "2026-09-14",
-      "summary": "Um er að ræða breytingu á deiliskipulagi Túnanna vegna lóðarinnar nr. 11 við Miðtún. Í breytingunni sem lögð er til felst breyting á stærð bílgeymslu og breyting á skilmálatöflu, bílgeymsla verður vinnustofa, og byggingarreitur fyrir aðalhúsið stækkar til vesturs.",
-      "url": "https://skipulagsgatt.is/issues/4933"
-    },
-    {
       "id": "skgatt:0568/2026",
       "lane": "planning",
       "title": "Hestahúsasvæði - Deiliskipulag (Hestamannafélagið Sleipnir)",
@@ -3209,7 +3274,7 @@
       "plan_type": "deiliskipulag",
       "status": "Endanleg gögn",
       "date": "2026-04-01",
-      "review_deadline": "2026-10-13",
+      "review_deadline": "2026-10-19",
       "summary": "Á afgreiðslufundi skipulagsfulltrúa þann 26. mars 2026 var samþykkt að kynna og auglýsa deiliskipulagsbreytingu fyrir frístundalóðina Selmerkurveg 68, í samræmi við. 2. mgr. 43. gr. skipu­lagslaga nr. 123/2010. Breytingin fjallar um að samræma skipulagið við aðalskipulag Mosfellsbæjar svo heimilt verði að byggja allt að 200 m² á lóðinni. Eitt frístundahús m…",
       "url": "https://skipulagsgatt.is/issues/4713"
     },
@@ -3798,6 +3863,19 @@
       "review_deadline": "2026-10-09",
       "summary": "Óverulega breyting á aðal- og deiliskipulagi VÞ9; Norðurhólar 5. Lagðar eru fram tillögur óverulegra breyting á skilmálum aðalskipulags er varðar VÞ9 og deiliskipulags Suðurbyggðar við Nauthól. Í breytingunni felst að heimilt verði að staðsetja færanlegar kennslustofur innan svæðisins til bráðabirgða.",
       "url": "https://skipulagsgatt.is/issues/4350"
+    },
+    {
+      "id": "skgatt:1608/2025",
+      "lane": "planning",
+      "title": "Reitur 1.240.2, Bankareitur - Laugavegur 120 - USK25100343",
+      "entity": "Reykjavík",
+      "case_number": "1608/2025",
+      "plan_type": "deiliskipulag",
+      "status": "Endanleg gögn",
+      "date": "2025-12-03",
+      "review_deadline": "2026-10-19",
+      "summary": "Um er að ræða breytingu á deiliskipulagi reits 1.240.2, Bankareits, vegna lóðarinnar nr. 120 við Laugaveg. Í breytingunni sem lögð er til felst að heimilt verði að stækka hótelið með því að bæta inndreginn þakhæð ofan á nýbyggingu hótelsins sem liggur að Rauðarárstíg, Stórholti og Þverholti, bílastæðum ætluðum hreyfihömluðum verður komið fyrir á lóð hótelsi…",
+      "url": "https://skipulagsgatt.is/issues/4265"
     },
     {
       "id": "skgatt:1564/2025",
