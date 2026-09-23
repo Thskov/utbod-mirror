@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated": "2026-09-22T07:00:27Z",
-  "generated_at": "2026-09-22T07:00:27Z",
+  "generated": "2026-09-23T07:00:26Z",
+  "generated_at": "2026-09-23T07:00:26Z",
   "sources": {
     "utbodsvefur": {
-      "generated_at": "2026-09-22T07:00:27.037889+00:00",
-      "count": 39,
+      "generated_at": "2026-09-23T07:00:25.931579+00:00",
+      "count": 38,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders.json"
     },
     "offportal": {
-      "generated": "2026-09-22T07:00:27Z",
+      "generated": "2026-09-23T07:00:26Z",
       "count": 11,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders_offportal.json"
     },
@@ -17,7 +17,7 @@
       {
         "source": "ted",
         "url": "https://api.ted.europa.eu/v3/notices/search",
-        "reason": "dropped 79 notices: expired deadline"
+        "reason": "dropped 80 notices: expired deadline"
       },
       {
         "source": "nlsh",
@@ -297,7 +297,7 @@
         "evidence_url": "https://www.utbodsvefur.is/fjardabyggdarhollin-loftraestikerfi/",
         "seen_count": 1,
         "first_seen": "2026-09-07T07:00:13Z",
-        "last_seen": "2026-09-22T07:00:27Z",
+        "last_seen": "2026-09-23T07:00:26Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       },
@@ -309,7 +309,7 @@
         "evidence_url": "https://www.utbodsvefur.is/9661-2/",
         "seen_count": 1,
         "first_seen": "2026-09-04T07:00:13Z",
-        "last_seen": "2026-09-22T07:00:27Z",
+        "last_seen": "2026-09-23T07:00:26Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       },
@@ -326,6 +326,18 @@
         "status": "pending"
       },
       {
+        "id": "tender:buyer:hrunamannahreppur",
+        "name": "Hrunamannahreppur",
+        "suggested_feed": "tenders_all",
+        "suggested_lane": "tender",
+        "evidence_url": "https://www.utbodsvefur.is/blakvisl-vatnsveita-efnisutbod/",
+        "seen_count": 1,
+        "first_seen": "2026-09-23T07:00:26Z",
+        "last_seen": "2026-09-23T07:00:26Z",
+        "reason": "unknown buyer/source found in tender feed",
+        "status": "pending"
+      },
+      {
         "id": "tender:buyer:kópavogsbær",
         "name": "Kópavogsbær",
         "suggested_feed": "tenders_all",
@@ -333,59 +345,14 @@
         "evidence_url": "https://www.utbodsvefur.is/markadskonnun-fyrir-hreinsun-gatna-og-stiga-hja-kopavogsbae/",
         "seen_count": 1,
         "first_seen": "2026-09-22T07:00:27Z",
-        "last_seen": "2026-09-22T07:00:27Z",
+        "last_seen": "2026-09-23T07:00:26Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       }
     ]
   },
-  "count": 48,
+  "count": 47,
   "items": [
-    {
-      "reference": "24-029",
-      "project": "Búðafossvegur (23), Þjórsárdalsvegur – Landvegur",
-      "buyer": "Vegagerðin",
-      "notice_type": "Framkvæmd",
-      "deadline": "22.09.2026 kl. 14:00",
-      "deadline_local": "2026-09-22T14:00:00+00:00",
-      "deadline_utc": "2026-09-22T14:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-07-17T11:10:46+00:00",
-      "modified_at": "2026-08-20T16:32:39+00:00",
-      "url": "https://www.utbodsvefur.is/budafossvegur-23-thjorsardalsvegur-landvegur/",
-      "summary": "Vegagerðin býður hér með út nýbyggingu Búðafossvegar, á um 7,4 km löngum kafla frá Þjórsárdalsvegi í Skeiða- og Gnúpverjahreppi að Landvegi í Rangárþi...",
-      "source": "utbodsvefur"
-    },
-    {
-      "reference": "26-098",
-      "project": "Langanesbyggð, Þórshöfn – Harðviðarbryggja 2026",
-      "buyer": "Vegagerðin",
-      "notice_type": "Framkvæmd",
-      "deadline": "22.09.2026 kl. 14:00",
-      "deadline_local": "2026-09-22T14:00:00+00:00",
-      "deadline_utc": "2026-09-22T14:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-09-04T15:33:44+00:00",
-      "modified_at": "2026-09-07T09:50:23+00:00",
-      "url": "https://www.utbodsvefur.is/langanesbyggd-thorshofn-hardvidarbryggja-2026/",
-      "summary": "Hafnir Langanebyggð óskar eftir tilboðum í verkið „Langanesbyggð, Þórshöfn – Harðviðarbryggja 2026“. Helstu verkþættir eru: Jarðvinna: gröftur fyrir ...",
-      "source": "utbodsvefur"
-    },
-    {
-      "reference": "26-129",
-      "project": "Súðavík – Miðgarður harðviðarbryggja 2026",
-      "buyer": "Vegagerðin",
-      "notice_type": "Framkvæmd",
-      "deadline": "22.09.2026 kl. 14:00",
-      "deadline_local": "2026-09-22T14:00:00+00:00",
-      "deadline_utc": "2026-09-22T14:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-09-04T14:31:33+00:00",
-      "modified_at": "2026-09-07T09:28:12+00:00",
-      "url": "https://www.utbodsvefur.is/sudavik-midgardur-hardvidarbryggja-2026/",
-      "summary": "Súðavíkurhöfn óskar eftir tilboðum í verkið „Súðavík – Miðgarður harðviðarbryggja endurbygging 2026“. Helstu verkþættir eru: Endurnýja dekkklæð...",
-      "source": "utbodsvefur"
-    },
     {
       "reference": "23238",
       "project": "Söfnun og flutningur á dýraleifum fyrir Atvinnuvegaráðuneytið",
@@ -561,7 +528,7 @@
       "deadline_utc": "2026-09-30T23:58:00+00:00",
       "deadline_confirmed": true,
       "posted_at": "2026-09-21T14:48:07+00:00",
-      "modified_at": "2026-09-21T14:48:07+00:00",
+      "modified_at": "2026-09-22T09:56:44+00:00",
       "url": "https://www.utbodsvefur.is/markadskonnun-fyrir-hreinsun-gatna-og-stiga-hja-kopavogsbae/",
       "summary": "Kópavogsbær er að undirbúa innkaupaferil vegna hreinsunar (vélsópun) á götum, bílastæðum við götur, gönguleiðum, bílastæðum við skóla, leikskóla, hlut...",
       "source": "utbodsvefur"
@@ -669,6 +636,21 @@
       "modified_at": "2026-09-17T09:49:29+00:00",
       "url": "https://www.utbodsvefur.is/haustbraut-2-busetukjarni/",
       "summary": "Garðabær, auglýsir eftir tilboðum í verkið: Haustbraut 2, búsetukjarni fullbúið hús. Verkið felur í sér byggja 600 m² búsetukjarna við Haustbraut 2 í ...",
+      "source": "utbodsvefur"
+    },
+    {
+      "reference": "2609344",
+      "project": "ÁLFTANES, MIÐSVÆÐI, Svæði 1 – Breiðamýri, Stígar – yfirborðsfrágangur.",
+      "buyer": "Garðabær",
+      "notice_type": "Framkvæmd",
+      "deadline": "06.10.2026 kl. 14:00",
+      "deadline_local": "2026-10-06T14:00:00+00:00",
+      "deadline_utc": "2026-10-06T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-09-22T14:10:58+00:00",
+      "modified_at": "2026-09-22T14:10:58+00:00",
+      "url": "https://www.utbodsvefur.is/alftanes-midsvaedi-svaedi-1-breidamyri-stigar-yfirbordsfragangur/",
+      "summary": "Verkið felst í að ljúka yfirborðsfrágangi í miðsvæði hverfisins Breiðumýrar á Álftanesi. Um er að ræða malbikun á aðalstíg í gegnum svæðið, gröft, fyl...",
       "source": "utbodsvefur"
     },
     {
@@ -924,6 +906,21 @@
       "modified_at": "2026-09-21T17:16:35+00:00",
       "url": "https://www.utbodsvefur.is/upplysingataeknithjonusta-fyrir-stafraena-heilbrigdisthjonustu/",
       "summary": "Fjársýslan fyrir hönd heilbrigðisráðuneytisins, kt. 521218-0530, óskar eftir tilboðum í tækniþjónustu fyrir Stafræna heilsu og Sjúkratryggingar Ísland...",
+      "source": "utbodsvefur"
+    },
+    {
+      "reference": "HRUN-BL01",
+      "project": "Blákvísl – Vatnsveita efnisútboð",
+      "buyer": "Hrunamannahreppur",
+      "notice_type": "Vörukaup",
+      "deadline": "23.10.2026 kl. 14:00",
+      "deadline_local": "2026-10-23T14:00:00+00:00",
+      "deadline_utc": "2026-10-23T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-09-21T16:39:00+00:00",
+      "modified_at": "2026-09-21T16:39:00+00:00",
+      "url": "https://www.utbodsvefur.is/blakvisl-vatnsveita-efnisutbod/",
+      "summary": "Verkefnið felst í útvegun og afhendingu á efni í vatnsveitu, þ.e. lögnum, tengistykkjum og öðrum tilheyrandi búnaði og flutning þess til kaupanda. Efn...",
       "source": "utbodsvefur"
     },
     {

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated": "2026-09-22T07:00:27Z",
-  "generated_at": "2026-09-22T07:00:27Z",
+  "generated": "2026-09-23T07:00:26Z",
+  "generated_at": "2026-09-23T07:00:26Z",
   "sources": {
     "covered": [
       {
@@ -41,7 +41,7 @@
       {
         "source": "ted",
         "url": "https://api.ted.europa.eu/v3/notices/search",
-        "reason": "dropped 79 notices: expired deadline"
+        "reason": "dropped 80 notices: expired deadline"
       },
       {
         "source": "nlsh",
@@ -321,7 +321,7 @@
         "evidence_url": "https://www.utbodsvefur.is/fjardabyggdarhollin-loftraestikerfi/",
         "seen_count": 1,
         "first_seen": "2026-09-07T07:00:13Z",
-        "last_seen": "2026-09-21T07:00:32Z",
+        "last_seen": "2026-09-22T07:00:27Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       },
@@ -333,7 +333,7 @@
         "evidence_url": "https://www.utbodsvefur.is/9661-2/",
         "seen_count": 1,
         "first_seen": "2026-09-04T07:00:13Z",
-        "last_seen": "2026-09-21T07:00:32Z",
+        "last_seen": "2026-09-22T07:00:27Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       },
@@ -346,6 +346,18 @@
         "seen_count": 1,
         "first_seen": "2026-09-04T07:00:13Z",
         "last_seen": "2026-09-17T19:55:23Z",
+        "reason": "unknown buyer/source found in tender feed",
+        "status": "pending"
+      },
+      {
+        "id": "tender:buyer:kópavogsbær",
+        "name": "Kópavogsbær",
+        "suggested_feed": "tenders_all",
+        "suggested_lane": "tender",
+        "evidence_url": "https://www.utbodsvefur.is/markadskonnun-fyrir-hreinsun-gatna-og-stiga-hja-kopavogsbae/",
+        "seen_count": 1,
+        "first_seen": "2026-09-22T07:00:27Z",
+        "last_seen": "2026-09-22T07:00:27Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       }
