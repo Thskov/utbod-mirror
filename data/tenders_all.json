@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated": "2026-09-24T07:00:24Z",
-  "generated_at": "2026-09-24T07:00:24Z",
+  "generated": "2026-09-24T07:50:03Z",
+  "generated_at": "2026-09-24T07:50:03Z",
   "sources": {
     "utbodsvefur": {
-      "generated_at": "2026-09-24T07:00:24.815589+00:00",
+      "generated_at": "2026-09-24T07:50:03.247677+00:00",
       "count": 38,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders.json"
     },
     "offportal": {
-      "generated": "2026-09-24T07:00:24Z",
+      "generated": "2026-09-24T07:50:03Z",
       "count": 11,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders_offportal.json"
     },
@@ -58,12 +58,16 @@
       "borealis data center",
       "climeworks",
       "faxaflóahafnir",
+      "fjarðabyggð",
       "fjársýslan",
       "fjársýslan ríkisins",
       "framkvæmdasýslan ríkiseignir fsre",
       "garðabær",
       "geosalmo",
       "grindavíkurbær",
+      "grímsnes og grafningshreppur",
+      "hafnasamlag norðurlands",
+      "hrunamannahreppur",
       "hs veitur",
       "hs veitur hf",
       "hvalfjarðarsveit",
@@ -72,6 +76,7 @@
       "isavia",
       "isavia ans",
       "kalka",
+      "kópavogsbær",
       "landsnet hf",
       "landspítali",
       "landsvirkjun",
@@ -115,6 +120,7 @@
       "faxafloahafnir sf": "Faxaflóahafnir",
       "faxaflóahafnir": "Faxaflóahafnir",
       "faxaflóahafnir sf": "Faxaflóahafnir",
+      "fjarðabyggð": "Fjarðabyggð",
       "fjársýslan": "Fjársýslan ríkisins",
       "fjársýslan ríkisins": "Fjársýslan ríkisins",
       "framkvæmdasýslan ríkiseignir": "Framkvæmdasýslan ríkiseignir (FSRE)",
@@ -125,12 +131,16 @@
       "grindavíkurbær": "Grindavíkurbær",
       "grindavik": "Grindavíkurbær",
       "grindavikurbaer": "Grindavíkurbær",
+      "grímsnes og grafningshreppur": "Grímsnes- og Grafningshreppur",
+      "hafnasamlag norðurlands": "Hafnasamlag Norðurlands",
+      "hrunamannahreppur": "Hrunamannahreppur",
       "hveragerði": "Hveragerðisbær",
       "hveragerðisbær": "Hveragerðisbær",
       "hs veitur": "HS Veitur",
       "hs veitur hf": "HS Veitur",
       "hydros": "Thor Landeldi / Hydros",
       "kalka": "Kalka",
+      "kópavogsbær": "Kópavogsbær",
       "landsnet": "Landsnet hf.",
       "landsnet hf": "Landsnet hf.",
       "laxey": "Laxey",
@@ -288,68 +298,7 @@
         "note": "award/completeness flag from news agent; handled through Byggingar.is tender-results/news coverage rather than synthesized as an active tender"
       }
     ],
-    "source_candidates": [
-      {
-        "id": "tender:buyer:fjarðabyggð",
-        "name": "Fjarðabyggð",
-        "suggested_feed": "tenders_all",
-        "suggested_lane": "tender",
-        "evidence_url": "https://www.utbodsvefur.is/fjardabyggdarhollin-loftraestikerfi/",
-        "seen_count": 1,
-        "first_seen": "2026-09-07T07:00:13Z",
-        "last_seen": "2026-09-24T07:00:24Z",
-        "reason": "unknown buyer/source found in tender feed",
-        "status": "pending"
-      },
-      {
-        "id": "tender:buyer:grímsnes-og-grafningshreppur",
-        "name": "Grímsnes- og Grafningshreppur",
-        "suggested_feed": "tenders_all",
-        "suggested_lane": "tender",
-        "evidence_url": "https://www.utbodsvefur.is/9661-2/",
-        "seen_count": 1,
-        "first_seen": "2026-09-04T07:00:13Z",
-        "last_seen": "2026-09-24T07:00:24Z",
-        "reason": "unknown buyer/source found in tender feed",
-        "status": "pending"
-      },
-      {
-        "id": "tender:buyer:hafnasamlag-norðurlands",
-        "name": "Hafnasamlag Norðurlands",
-        "suggested_feed": "tenders_all",
-        "suggested_lane": "tender",
-        "evidence_url": "https://www.utbodsvefur.is/torfunef-lagnir-lagnaleidir-og-brunnar/",
-        "seen_count": 1,
-        "first_seen": "2026-09-04T07:00:13Z",
-        "last_seen": "2026-09-17T19:55:23Z",
-        "reason": "unknown buyer/source found in tender feed",
-        "status": "pending"
-      },
-      {
-        "id": "tender:buyer:hrunamannahreppur",
-        "name": "Hrunamannahreppur",
-        "suggested_feed": "tenders_all",
-        "suggested_lane": "tender",
-        "evidence_url": "https://www.utbodsvefur.is/blakvisl-vatnsveita-efnisutbod/",
-        "seen_count": 1,
-        "first_seen": "2026-09-23T07:00:26Z",
-        "last_seen": "2026-09-24T07:00:24Z",
-        "reason": "unknown buyer/source found in tender feed",
-        "status": "pending"
-      },
-      {
-        "id": "tender:buyer:kópavogsbær",
-        "name": "Kópavogsbær",
-        "suggested_feed": "tenders_all",
-        "suggested_lane": "tender",
-        "evidence_url": "https://www.utbodsvefur.is/markadskonnun-fyrir-hreinsun-gatna-og-stiga-hja-kopavogsbae/",
-        "seen_count": 1,
-        "first_seen": "2026-09-22T07:00:27Z",
-        "last_seen": "2026-09-24T07:00:24Z",
-        "reason": "unknown buyer/source found in tender feed",
-        "status": "pending"
-      }
-    ]
+    "source_candidates": []
   },
   "count": 47,
   "items": [
