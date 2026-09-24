@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated": "2026-09-23T07:00:26Z",
-  "generated_at": "2026-09-23T07:00:26Z",
+  "generated": "2026-09-24T07:00:24Z",
+  "generated_at": "2026-09-24T07:00:24Z",
   "sources": {
     "utbodsvefur": {
-      "generated_at": "2026-09-23T07:00:25.931579+00:00",
+      "generated_at": "2026-09-24T07:00:24.815589+00:00",
       "count": 38,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders.json"
     },
     "offportal": {
-      "generated": "2026-09-23T07:00:26Z",
+      "generated": "2026-09-24T07:00:24Z",
       "count": 11,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders_offportal.json"
     },
@@ -17,7 +17,7 @@
       {
         "source": "ted",
         "url": "https://api.ted.europa.eu/v3/notices/search",
-        "reason": "dropped 80 notices: expired deadline"
+        "reason": "dropped 81 notices: expired deadline"
       },
       {
         "source": "nlsh",
@@ -297,7 +297,7 @@
         "evidence_url": "https://www.utbodsvefur.is/fjardabyggdarhollin-loftraestikerfi/",
         "seen_count": 1,
         "first_seen": "2026-09-07T07:00:13Z",
-        "last_seen": "2026-09-23T07:00:26Z",
+        "last_seen": "2026-09-24T07:00:24Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       },
@@ -309,7 +309,7 @@
         "evidence_url": "https://www.utbodsvefur.is/9661-2/",
         "seen_count": 1,
         "first_seen": "2026-09-04T07:00:13Z",
-        "last_seen": "2026-09-23T07:00:26Z",
+        "last_seen": "2026-09-24T07:00:24Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       },
@@ -333,7 +333,7 @@
         "evidence_url": "https://www.utbodsvefur.is/blakvisl-vatnsveita-efnisutbod/",
         "seen_count": 1,
         "first_seen": "2026-09-23T07:00:26Z",
-        "last_seen": "2026-09-23T07:00:26Z",
+        "last_seen": "2026-09-24T07:00:24Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       },
@@ -345,7 +345,7 @@
         "evidence_url": "https://www.utbodsvefur.is/markadskonnun-fyrir-hreinsun-gatna-og-stiga-hja-kopavogsbae/",
         "seen_count": 1,
         "first_seen": "2026-09-22T07:00:27Z",
-        "last_seen": "2026-09-23T07:00:26Z",
+        "last_seen": "2026-09-24T07:00:24Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       }
@@ -353,36 +353,6 @@
   },
   "count": 47,
   "items": [
-    {
-      "reference": "23238",
-      "project": "Söfnun og flutningur á dýraleifum fyrir Atvinnuvegaráðuneytið",
-      "buyer": "Fjársýslan ríkisins",
-      "notice_type": "Þjónusta",
-      "deadline": "23.09.2026 kl. 12:00",
-      "deadline_local": "2026-09-23T12:00:00+00:00",
-      "deadline_utc": "2026-09-23T12:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-08-14T09:12:27+00:00",
-      "modified_at": "2026-09-10T15:52:35+00:00",
-      "url": "https://www.utbodsvefur.is/sofnun-og-flutningur-a-dyraleifum-fyrir-atvinnuvegaraduneytid/",
-      "summary": "Fjársýslan fyrir hönd Atvinnuvegaráðuneytisins, kt. 7108120-2120, óskar eftir tilboðum í þjónustu á söfnun og flutningi dýraleifa á landsvísu. Skiptin...",
-      "source": "utbodsvefur"
-    },
-    {
-      "reference": "07-2026",
-      "project": "Intraoperative blood flow measurement system",
-      "buyer": "Landspítali",
-      "notice_type": "Verðfyrirspurn",
-      "deadline": "23.09.2026 kl. 12:00",
-      "deadline_local": "2026-09-23T12:00:00+00:00",
-      "deadline_utc": "2026-09-23T12:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-09-01T07:41:39+00:00",
-      "modified_at": "2026-09-01T07:41:47+00:00",
-      "url": "https://www.utbodsvefur.is/intraoperative-blood-flow-measurement-system/",
-      "summary": "Landspítali óskar eftir upplýsingum um verð og gæði á kerfi til að mælingar á blóðflæði við skurðaðgerðir (e. Intraoperative blood flow measurement sy...",
-      "source": "utbodsvefur"
-    },
     {
       "reference": "09-2026",
       "project": "Fjarðabyggðarhöllin – Loftræstikerfi",
@@ -513,9 +483,9 @@
       "deadline_utc": "2026-09-30T12:00:00+00:00",
       "deadline_confirmed": true,
       "posted_at": "2026-09-10T15:38:53+00:00",
-      "modified_at": "2026-09-10T15:44:11+00:00",
+      "modified_at": "2026-09-23T13:11:30+00:00",
       "url": "https://www.utbodsvefur.is/pappir-og-pokar-fyrir-daudhreinsun-landspitala/",
-      "summary": "Landspítali (kt.500-300-2130), óskar eftir upplýsingum um verð og gæði á pappír og pokum fyrir Dauðhreinsun Landspítala og aðrar heilbrigðisstofnanir....",
+      "summary": "Landspítali óskar eftir upplýsingum um verð og gæði á pappír og pokum fyrir Dauðhreinsun Landspítala og aðrar heilbrigðisstofnanir. Nánari upplýsingar...",
       "source": "utbodsvefur"
     },
     {
@@ -591,6 +561,21 @@
       "modified_at": "2026-09-03T13:53:20+00:00",
       "url": "https://www.utbodsvefur.is/veu-2606-0052-haspennurofabunadur-og-fylgihlutir-high-voltage-switchgear-and-accessories/",
       "summary": "Veitur ohf. óska eftir tilboðum í útboðsverkefni: „VEU-2606-0052 Háspennurofabúnaður og fylgihlutir (High Voltage Switchgear and accessories)...",
+      "source": "utbodsvefur"
+    },
+    {
+      "reference": "23420",
+      "project": "Gagnsæistilkynning (VEAT) vegna fyrirhugaðra samninga um sértæka þjónustu við einstaklinga sem gert er að sæta öryggisráðstöfunum",
+      "buyer": "Fjársýslan ríkisins",
+      "notice_type": "Þjónusta Gagnsæistilkynning (VEAT)",
+      "deadline": "05.10.2026 kl. 23:59",
+      "deadline_local": "2026-10-05T23:59:00+00:00",
+      "deadline_utc": "2026-10-05T23:59:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-09-23T10:20:25+00:00",
+      "modified_at": "2026-09-23T10:20:25+00:00",
+      "url": "https://www.utbodsvefur.is/gagnsaeistilkynning-veat-vegna-fyrirhugadra-samninga-um-sertaeka-thjonustu-vid-einstaklinga-sem-gert-er-ad-saeta-oryggisradstofunum/",
+      "summary": "Fjársýslan (kt. 540269-7509), birtir gagnsæistilkynningu (VEAT) fyrir hönd félags- og húsnæðismálaráðuneytisins (kt. 521218-0610). Tilkynningin varðar...",
       "source": "utbodsvefur"
     },
     {
@@ -921,6 +906,21 @@
       "modified_at": "2026-09-21T16:39:00+00:00",
       "url": "https://www.utbodsvefur.is/blakvisl-vatnsveita-efnisutbod/",
       "summary": "Verkefnið felst í útvegun og afhendingu á efni í vatnsveitu, þ.e. lögnum, tengistykkjum og öðrum tilheyrandi búnaði og flutning þess til kaupanda. Efn...",
+      "source": "utbodsvefur"
+    },
+    {
+      "reference": "35069",
+      "project": "Diagnostic Coronary Angiographic Catheters",
+      "buyer": "Landspítali",
+      "notice_type": "Vörukaup",
+      "deadline": "29.10.2026 kl. 12:00",
+      "deadline_local": "2026-10-29T12:00:00+00:00",
+      "deadline_utc": "2026-10-29T12:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-09-23T13:06:53+00:00",
+      "modified_at": "2026-09-23T13:12:22+00:00",
+      "url": "https://www.utbodsvefur.is/diagnostic-coronary-angiographic-catheters/",
+      "summary": "Landspítali óskar eftir tilboðum í Diagnostic Coronary Angiographic Catheters fyrir Hjarta- og æðaþræðingardeild Landspítala. Nánari lýsing er í útboð...",
       "source": "utbodsvefur"
     },
     {

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated": "2026-09-23T07:00:26Z",
-  "generated_at": "2026-09-23T07:00:26Z",
+  "generated": "2026-09-24T07:00:24Z",
+  "generated_at": "2026-09-24T07:00:24Z",
   "sources": {
     "covered": [
       {
@@ -41,7 +41,7 @@
       {
         "source": "ted",
         "url": "https://api.ted.europa.eu/v3/notices/search",
-        "reason": "dropped 80 notices: expired deadline"
+        "reason": "dropped 81 notices: expired deadline"
       },
       {
         "source": "nlsh",
@@ -321,7 +321,7 @@
         "evidence_url": "https://www.utbodsvefur.is/fjardabyggdarhollin-loftraestikerfi/",
         "seen_count": 1,
         "first_seen": "2026-09-07T07:00:13Z",
-        "last_seen": "2026-09-22T07:00:27Z",
+        "last_seen": "2026-09-23T07:00:26Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       },
@@ -333,7 +333,7 @@
         "evidence_url": "https://www.utbodsvefur.is/9661-2/",
         "seen_count": 1,
         "first_seen": "2026-09-04T07:00:13Z",
-        "last_seen": "2026-09-22T07:00:27Z",
+        "last_seen": "2026-09-23T07:00:26Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       },
@@ -350,6 +350,18 @@
         "status": "pending"
       },
       {
+        "id": "tender:buyer:hrunamannahreppur",
+        "name": "Hrunamannahreppur",
+        "suggested_feed": "tenders_all",
+        "suggested_lane": "tender",
+        "evidence_url": "https://www.utbodsvefur.is/blakvisl-vatnsveita-efnisutbod/",
+        "seen_count": 1,
+        "first_seen": "2026-09-23T07:00:26Z",
+        "last_seen": "2026-09-23T07:00:26Z",
+        "reason": "unknown buyer/source found in tender feed",
+        "status": "pending"
+      },
+      {
         "id": "tender:buyer:kópavogsbær",
         "name": "Kópavogsbær",
         "suggested_feed": "tenders_all",
@@ -357,7 +369,7 @@
         "evidence_url": "https://www.utbodsvefur.is/markadskonnun-fyrir-hreinsun-gatna-og-stiga-hja-kopavogsbae/",
         "seen_count": 1,
         "first_seen": "2026-09-22T07:00:27Z",
-        "last_seen": "2026-09-22T07:00:27Z",
+        "last_seen": "2026-09-23T07:00:26Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       }
