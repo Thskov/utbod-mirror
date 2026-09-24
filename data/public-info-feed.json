@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated": "2026-09-24T06:45:01Z",
+  "generated": "2026-09-24T07:46:51Z",
   "window": {
     "from": "2026-09-17",
     "to": "2026-09-24"
@@ -40,9 +40,7 @@
       "Hringvegur um Hornafjörð",
       "Hvalárvirkjun",
       "Hvammsvirkjun",
-      "Hvammsvirkjunar",
       "Hús íslenskra fræða",
-      "Landsvirkjun",
       "matsskyldu",
       "matsáætlun",
       "Meðferðarkjari NLSH",
@@ -108,6 +106,7 @@
       "https://www.gardabaer.is/frettir",
       "https://mos.is/mannlif/um-mosfellsbae/frettir/",
       "https://www.arborg.is/frettasafn/",
+      "https://www.gogg.is/is/frettir/utbod-skogartun",
       "https://www.landsnet.is/birgjar-og-innkaup/",
       "https://www.landsnet.is/birgjar-og-innkaup/utbod/",
       "https://orkustofnun.is/upplysingar/frettir",
@@ -189,9 +188,7 @@
         "ístak project: Hringvegur um Hornafjörð",
         "ístak project: Hvalárvirkjun",
         "ístak project: Hvammsvirkjun",
-        "ístak project: Hvammsvirkjunar",
         "ístak project: Hús íslenskra fræða",
-        "ístak project: Landsvirkjun",
         "ístak project: Meðferðarkjari NLSH",
         "ístak project: NTA25 New terminal apron",
         "ístak project: Skjólgarður Höfn",
@@ -224,9 +221,7 @@
       "Hringvegur um Hornafjörð",
       "Hvalárvirkjun",
       "Hvammsvirkjun",
-      "Hvammsvirkjunar",
       "Hús íslenskra fræða",
-      "Landsvirkjun",
       "Meðferðarkjari NLSH",
       "NTA25 New terminal apron",
       "Skjólgarður Höfn",
@@ -234,9 +229,7 @@
     ],
     "new_or_seen_istak_projects": [
       "Hvalárvirkjun",
-      "Hvammsvirkjun",
-      "Hvammsvirkjunar",
-      "Landsvirkjun"
+      "Hvammsvirkjun"
     ]
   },
   "sources": {
@@ -262,7 +255,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/5437",
         "seen_count": 1,
         "first_seen": "2026-09-21T06:45:01Z",
-        "last_seen": "2026-09-24T06:45:01Z",
+        "last_seen": "2026-09-24T07:46:51Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -274,7 +267,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/5377",
         "seen_count": 1,
         "first_seen": "2026-09-11T06:45:01Z",
-        "last_seen": "2026-09-24T06:45:01Z",
+        "last_seen": "2026-09-24T07:46:51Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -286,7 +279,7 @@
         "evidence_url": "https://island.is/reglugerdir/nr/0809-2026",
         "seen_count": 1,
         "first_seen": "2026-09-11T06:45:01Z",
-        "last_seen": "2026-09-24T06:45:01Z",
+        "last_seen": "2026-09-24T07:46:51Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       }
@@ -305,8 +298,8 @@
           "no_matching_keywords": 25
         },
         "landsvirkjun": {
-          "undated": 13,
-          "no_matching_keywords": 11
+          "no_matching_keywords": 17,
+          "undated": 7
         },
         "faxafloahafnir": {
           "no_matching_keywords": 36,
@@ -426,6 +419,224 @@
         "hms-eia": {
           "url": "https://hms.is/frettir/alit-um-umhverfismat",
           "error": "HTTP 429"
+        },
+        "samradsgatt-atuarfik-inussuk": {
+          "url": "https://island.is/api/graphql",
+          "error": "RuntimeError"
+        },
+        "samradsgatt-bygging": {
+          "url": "https://island.is/api/graphql",
+          "error": "RuntimeError"
+        },
+        "samradsgatt-byggingarreglugerð": {
+          "url": "https://island.is/api/graphql",
+          "error": "RuntimeError"
+        },
+        "samradsgatt-first-water": {
+          "url": "https://island.is/api/graphql",
+          "error": "RuntimeError"
+        },
+        "samradsgatt-fjölnota-íþróttahús-í-borgarnesi": {
+          "url": "https://island.is/api/graphql",
+          "error": "RuntimeError"
+        },
+        "samradsgatt-fossvogsbrú": {
+          "url": "https://island.is/api/graphql",
+          "error": "RuntimeError"
+        },
+        "samradsgatt-framkvæmd": {
+          "url": "https://island.is/api/graphql",
+          "error": "RuntimeError"
+        },
+        "samradsgatt-hamranesskóli": {
+          "url": "https://island.is/api/graphql",
+          "error": "RuntimeError"
+        },
+        "samradsgatt-hringvegur-um-hornafjörð": {
+          "url": "https://island.is/api/graphql",
+          "error": "RuntimeError"
+        },
+        "samradsgatt-hvalárvirkjun": {
+          "url": "https://island.is/api/graphql",
+          "error": "RuntimeError"
+        },
+        "samradsgatt-hvammsvirkjun": {
+          "url": "https://island.is/api/graphql",
+          "error": "RuntimeError"
+        },
+        "samradsgatt-hús-íslenskra-fræða": {
+          "url": "https://island.is/api/graphql",
+          "error": "RuntimeError"
+        },
+        "samradsgatt-mannvirki": {
+          "url": "https://island.is/api/graphql",
+          "error": "RuntimeError"
+        },
+        "samradsgatt-mannvirkjalög": {
+          "url": "https://island.is/api/graphql",
+          "error": "RuntimeError"
+        },
+        "samradsgatt-meðferðarkjari-nlsh": {
+          "url": "https://island.is/api/graphql",
+          "error": "RuntimeError"
+        },
+        "samradsgatt-nta25-new-terminal-apron": {
+          "url": "https://island.is/api/graphql",
+          "error": "RuntimeError"
+        },
+        "samradsgatt-opinber-innkaup": {
+          "url": "https://island.is/api/graphql",
+          "error": "RuntimeError"
+        },
+        "samradsgatt-orku": {
+          "url": "https://island.is/api/graphql",
+          "error": "RuntimeError"
+        },
+        "samradsgatt-raforku": {
+          "url": "https://island.is/api/graphql",
+          "error": "RuntimeError"
+        },
+        "samradsgatt-samgöngur": {
+          "url": "https://island.is/api/graphql",
+          "error": "RuntimeError"
+        },
+        "samradsgatt-skipulag": {
+          "url": "https://island.is/api/graphql",
+          "error": "RuntimeError"
+        },
+        "samradsgatt-skjólgarður-höfn": {
+          "url": "https://island.is/api/graphql",
+          "error": "RuntimeError"
+        },
+        "samradsgatt-umhverfismat": {
+          "url": "https://island.is/api/graphql",
+          "error": "RuntimeError"
+        },
+        "samradsgatt-vaðölduver": {
+          "url": "https://island.is/api/graphql",
+          "error": "RuntimeError"
+        }
+      },
+      "not_covered": {
+        "samradsgatt-atuarfik-inussuk": {
+          "url": "https://island.is/api/graphql",
+          "reason": "RuntimeError",
+          "term": "Atuarfik Inussuk"
+        },
+        "samradsgatt-bygging": {
+          "url": "https://island.is/api/graphql",
+          "reason": "RuntimeError",
+          "term": "bygging"
+        },
+        "samradsgatt-byggingarreglugerð": {
+          "url": "https://island.is/api/graphql",
+          "reason": "RuntimeError",
+          "term": "byggingarreglugerð"
+        },
+        "samradsgatt-first-water": {
+          "url": "https://island.is/api/graphql",
+          "reason": "RuntimeError",
+          "term": "First Water"
+        },
+        "samradsgatt-fjölnota-íþróttahús-í-borgarnesi": {
+          "url": "https://island.is/api/graphql",
+          "reason": "RuntimeError",
+          "term": "Fjölnota íþróttahús í Borgarnesi"
+        },
+        "samradsgatt-fossvogsbrú": {
+          "url": "https://island.is/api/graphql",
+          "reason": "RuntimeError",
+          "term": "Fossvogsbrú"
+        },
+        "samradsgatt-framkvæmd": {
+          "url": "https://island.is/api/graphql",
+          "reason": "RuntimeError",
+          "term": "framkvæmd"
+        },
+        "samradsgatt-hamranesskóli": {
+          "url": "https://island.is/api/graphql",
+          "reason": "RuntimeError",
+          "term": "Hamranesskóli"
+        },
+        "samradsgatt-hringvegur-um-hornafjörð": {
+          "url": "https://island.is/api/graphql",
+          "reason": "RuntimeError",
+          "term": "Hringvegur um Hornafjörð"
+        },
+        "samradsgatt-hvalárvirkjun": {
+          "url": "https://island.is/api/graphql",
+          "reason": "RuntimeError",
+          "term": "Hvalárvirkjun"
+        },
+        "samradsgatt-hvammsvirkjun": {
+          "url": "https://island.is/api/graphql",
+          "reason": "RuntimeError",
+          "term": "Hvammsvirkjun"
+        },
+        "samradsgatt-hús-íslenskra-fræða": {
+          "url": "https://island.is/api/graphql",
+          "reason": "RuntimeError",
+          "term": "Hús íslenskra fræða"
+        },
+        "samradsgatt-mannvirki": {
+          "url": "https://island.is/api/graphql",
+          "reason": "RuntimeError",
+          "term": "mannvirki"
+        },
+        "samradsgatt-mannvirkjalög": {
+          "url": "https://island.is/api/graphql",
+          "reason": "RuntimeError",
+          "term": "mannvirkjalög"
+        },
+        "samradsgatt-meðferðarkjari-nlsh": {
+          "url": "https://island.is/api/graphql",
+          "reason": "RuntimeError",
+          "term": "Meðferðarkjari NLSH"
+        },
+        "samradsgatt-nta25-new-terminal-apron": {
+          "url": "https://island.is/api/graphql",
+          "reason": "RuntimeError",
+          "term": "NTA25 New terminal apron"
+        },
+        "samradsgatt-opinber-innkaup": {
+          "url": "https://island.is/api/graphql",
+          "reason": "RuntimeError",
+          "term": "opinber innkaup"
+        },
+        "samradsgatt-orku": {
+          "url": "https://island.is/api/graphql",
+          "reason": "RuntimeError",
+          "term": "orku"
+        },
+        "samradsgatt-raforku": {
+          "url": "https://island.is/api/graphql",
+          "reason": "RuntimeError",
+          "term": "raforku"
+        },
+        "samradsgatt-samgöngur": {
+          "url": "https://island.is/api/graphql",
+          "reason": "RuntimeError",
+          "term": "samgöngur"
+        },
+        "samradsgatt-skipulag": {
+          "url": "https://island.is/api/graphql",
+          "reason": "RuntimeError",
+          "term": "skipulag"
+        },
+        "samradsgatt-skjólgarður-höfn": {
+          "url": "https://island.is/api/graphql",
+          "reason": "RuntimeError",
+          "term": "Skjólgarður Höfn"
+        },
+        "samradsgatt-umhverfismat": {
+          "url": "https://island.is/api/graphql",
+          "reason": "RuntimeError",
+          "term": "umhverfismat"
+        },
+        "samradsgatt-vaðölduver": {
+          "url": "https://island.is/api/graphql",
+          "reason": "RuntimeError",
+          "term": "Vaðölduver"
         }
       },
       "source_status": {
@@ -443,30 +654,8 @@
       }
     }
   },
-  "count": 301,
+  "count": 302,
   "items": [
-    {
-      "id": "legislation:althingi-thingmalaskra:endurskodud-aaetlun-um-framlagningu-thingmala-a-vetrar-og-vorthingi-2026-lokautg",
-      "lane": "legislation",
-      "source": "althingi-thingmalaskra",
-      "doc_type": "parliamentary",
-      "title": "Endurskoðuð þingmálaskrá fyrir 157. löggjafarþing",
-      "entity": "Alþingi",
-      "status": "tracker",
-      "date": "2026-09-24",
-      "summary": "13. Frumvarp til laga um breytingu á lögum um mannvirki, nr. 160/2010 (einföldun byggingarreglugerðar og endurskoðun byggingareftirlits). / 14. Frumvarp til laga um breytingu á skipulagslögum nr. 123/2010 (raflínuskipulag). / 2. Frumvarp til laga um breytingu á lögum um stefnur og aðgerðaáætlanir á sviði húsnæðis- og skipulagsmála, samgangna og byggðamála, nr. 30/2023 (stefnumörkun).",
-      "url": "https://www.althingi.is/media/uncategorized/Endurskodud-aaetlun-um-framlagningu-thingmala-a-vetrar-og-vorthingi-2026-lokautgafa-leidrettX.pdf",
-      "index_url": "https://www.althingi.is/thingstorf/leidbeiningar-og-yfirlit/thingmalaskra-rikisstjornar/",
-      "keywords_matched": [
-        "bygging",
-        "mannvirki",
-        "samgöngur",
-        "skipulag",
-        "umhverfismat"
-      ],
-      "case_number": "157. löggjafarþing",
-      "period": "2025–2026"
-    },
     {
       "id": "skgatt:1103/2026",
       "lane": "planning",
@@ -4233,6 +4422,27 @@
       "doc_type": "reference"
     },
     {
+      "id": "legislation:althingi-thingmalaskra:endurskodud-aaetlun-um-framlagningu-thingmala-a-vetrar-og-vorthingi-2026-lokautg",
+      "lane": "legislation",
+      "source": "althingi-thingmalaskra",
+      "doc_type": "parliamentary",
+      "title": "Endurskoðuð þingmálaskrá fyrir 157. löggjafarþing",
+      "entity": "Alþingi",
+      "status": "tracker",
+      "summary": "13. Frumvarp til laga um breytingu á lögum um mannvirki, nr. 160/2010 (einföldun byggingarreglugerðar og endurskoðun byggingareftirlits). / 14. Frumvarp til laga um breytingu á skipulagslögum nr. 123/2010 (raflínuskipulag). / 2. Frumvarp til laga um breytingu á lögum um stefnur og aðgerðaáætlanir á sviði húsnæðis- og skipulagsmála, samgangna og byggðamála, nr. 30/2023 (stefnumörkun).",
+      "url": "https://www.althingi.is/media/uncategorized/Endurskodud-aaetlun-um-framlagningu-thingmala-a-vetrar-og-vorthingi-2026-lokautgafa-leidrettX.pdf",
+      "index_url": "https://www.althingi.is/thingstorf/leidbeiningar-og-yfirlit/thingmalaskra-rikisstjornar/",
+      "keywords_matched": [
+        "bygging",
+        "mannvirki",
+        "samgöngur",
+        "skipulag",
+        "umhverfismat"
+      ],
+      "case_number": "157. löggjafarþing",
+      "period": "2025–2026"
+    },
+    {
       "id": "announcement:vegagerdin-utbod:utbod",
       "lane": "announcement",
       "source": "vegagerdin-utbod",
@@ -4438,6 +4648,21 @@
       "status": "tracker",
       "summary": "Útboð | Hafnarfjörður Þjónusta Close sub menu button Íþróttir og útivera Kynntu þér göngu- og hjólaleiðir, fjölbreytt íþróttastarf eða sundlaugar bæjarins en frítt er í sund fyrir 18 ára og yngri. Göngu- og hjólaleiðir Íþróttafélög Íþróttir og tómstundir Leik- og boltavellir Matjurtagarðar Sumarnámskeið Sundlaugar Skóli og frístundastarf Börn og ungmenni ha…",
       "url": "https://hafnarfjordur.is/skipulag-i-kynningu-flokkur/utbod/",
+      "keywords_matched": [
+        "framkvæmd",
+        "opinber innkaup",
+        "útboð"
+      ]
+    },
+    {
+      "id": "announcement:grimsnes:utbod-skogartun",
+      "lane": "announcement",
+      "source": "grimsnes",
+      "title": "Útboð Grímsnes- og Grafningshrepps",
+      "entity": "Grímsnes- og Grafningshreppur",
+      "status": "tracker",
+      "summary": "Grímsnes- og Grafningshreppur óskar eftir tilboðum í verkið: Vesturbyggð Skógartún 2026 Útboðsgögn verða afhent frá og með 18. febrúar.",
+      "url": "https://www.gogg.is/is/frettir/utbod-skogartun",
       "keywords_matched": [
         "framkvæmd",
         "opinber innkaup",
