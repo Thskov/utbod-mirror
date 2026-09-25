@@ -1,26 +1,12 @@
 {
-  "generated_at": "2026-09-24T07:50:03.247677+00:00",
+  "generated_at": "2026-09-25T07:00:25.355151+00:00",
   "source": {
     "site": "https://www.utbodsvefur.is",
     "posts_api": "https://www.utbodsvefur.is/wp-json/wp/v2/posts",
     "listing": "https://www.utbodsvefur.is"
   },
-  "count": 38,
+  "count": 41,
   "tenders": [
-    {
-      "reference": "09-2026",
-      "project": "Fjarðabyggðarhöllin – Loftræstikerfi",
-      "buyer": "Fjarðabyggð",
-      "notice_type": "Framkvæmd",
-      "deadline": "24.09.2026 kl. 14:00",
-      "deadline_local": "2026-09-24T14:00:00+00:00",
-      "deadline_utc": "2026-09-24T14:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-09-04T11:45:52+00:00",
-      "modified_at": "2026-09-04T11:45:52+00:00",
-      "url": "https://www.utbodsvefur.is/fjardabyggdarhollin-loftraestikerfi/",
-      "summary": "Fjarðabyggð óskar eftir tilboðum í verkið: Fjarðabyggðarhöllin – Loftræstikerfi Fjarðabyggðarhöllin er yfirbyggt íþrótta og knattspyrnuhús stað..."
-    },
     {
       "reference": "23402",
       "project": "NTA búnaður með Zeta möguleika",
@@ -414,6 +400,20 @@
       "summary": "Áfengis- og tóbaksverslun ríkisins óskar eftir tilboðum í staðbundna eigna- og öryggisgæslu í verslunum ÁTVR (Vínbúðum). Verslanirnar sem útboðið teku..."
     },
     {
+      "reference": "2026-10",
+      "project": "Endurbætur á Kaplan vélum í Steingrímsstöð",
+      "buyer": "Landsvirkjun",
+      "notice_type": "Vörukaup",
+      "deadline": "15.10.2026 kl. 14:00",
+      "deadline_local": "2026-10-15T14:00:00+00:00",
+      "deadline_utc": "2026-10-15T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-09-24T08:57:52+00:00",
+      "modified_at": "2026-09-24T08:57:52+00:00",
+      "url": "https://www.utbodsvefur.is/endurbaetur-a-kaplan-velum-i-steingrimsstod/",
+      "summary": "Landsvirkjun auglýsir forval fyrir samkeppnisviðræður vegna endurbóta á Kaplan vélum í Steingrímsstöð. Sjá nánari upplýsingar í útboðsgögnum."
+    },
+    {
       "reference": "03/2026",
       "project": "Fjarvöktun, þjónustuúttektir og eftirlit fyrir ÁTVR",
       "buyer": "Áfengis og tóbaksverslun ríkisins / ÁTVR",
@@ -496,6 +496,48 @@
       "modified_at": "2026-09-21T16:39:00+00:00",
       "url": "https://www.utbodsvefur.is/blakvisl-vatnsveita-efnisutbod/",
       "summary": "Verkefnið felst í útvegun og afhendingu á efni í vatnsveitu, þ.e. lögnum, tengistykkjum og öðrum tilheyrandi búnaði og flutning þess til kaupanda. Efn..."
+    },
+    {
+      "reference": "BSVK-20216-15",
+      "project": "Supply of Street light poles – Ljósastaurar fyrir Borgarlínu",
+      "buyer": "Betri samgöngur ohf.",
+      "notice_type": "Vörukaup",
+      "deadline": "26.10.2026 kl. 14:00",
+      "deadline_local": "2026-10-26T14:00:00+00:00",
+      "deadline_utc": "2026-10-26T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-09-24T09:36:57+00:00",
+      "modified_at": "2026-09-24T09:43:52+00:00",
+      "url": "https://www.utbodsvefur.is/supply-of-street-light-poles-ljosastaurar-fyrir-borgarlinu/",
+      "summary": "Betri samgöngur ohf. invites tenders for the manufacture and delivery of street lighting poles, brackets and associated accessories for streets and pa..."
+    },
+    {
+      "reference": "16348",
+      "project": "Rammasamningur um ferskt grænmeti og ávexti, EES útboð nr. 16348",
+      "buyer": "Reykjavíkurborg",
+      "notice_type": "Vörukaup",
+      "deadline": "27.10.2026 kl. 10:00",
+      "deadline_local": "2026-10-27T10:00:00+00:00",
+      "deadline_utc": "2026-10-27T10:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-09-24T12:03:32+00:00",
+      "modified_at": "2026-09-24T12:03:32+00:00",
+      "url": "https://www.utbodsvefur.is/rammasamningur-um-ferskt-graenmeti-og-avexti-ees-utbod-nr-16348/",
+      "summary": "Skrifstofa fjármálaþjónustu og ráðgjafar óskar eftir aðilum til þátttöku í útboði um rammasamning um ferskt grænmeti og ávexti fyrir Reykjavíkurborg R..."
+    },
+    {
+      "reference": "BSVK-2026-17",
+      "project": "Supply of BRT Street light poles – Ljósastaurar og lampar fyrir Borgarlínustöðvar",
+      "buyer": "Betri samgöngur ohf.",
+      "notice_type": "Vörukaup",
+      "deadline": "27.10.2026 kl. 14:00",
+      "deadline_local": "2026-10-27T14:00:00+00:00",
+      "deadline_utc": "2026-10-27T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-09-24T09:39:04+00:00",
+      "modified_at": "2026-09-24T09:45:33+00:00",
+      "url": "https://www.utbodsvefur.is/supply-of-brt-street-light-poles-ljosastaurar-og-lampar-fyrir-borgarlinustodvar/",
+      "summary": "Betri samgöngur ohf. invites tenders for light poles and luminaires for Borgarlína stations. The contract covers the purchase and delivery of light po..."
     },
     {
       "reference": "35069",

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated": "2026-09-24T07:50:03Z",
-  "generated_at": "2026-09-24T07:50:03Z",
+  "generated": "2026-09-25T07:00:25Z",
+  "generated_at": "2026-09-25T07:00:25Z",
   "sources": {
     "covered": [
       {
@@ -41,7 +41,7 @@
       {
         "source": "ted",
         "url": "https://api.ted.europa.eu/v3/notices/search",
-        "reason": "dropped 81 notices: expired deadline"
+        "reason": "dropped 82 notices: expired deadline"
       },
       {
         "source": "nlsh",
