@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated": "2026-09-24T07:46:04Z",
+  "generated": "2026-09-25T06:30:01Z",
   "window": {
-    "from": "2026-08-25",
-    "to": "2026-09-24"
+    "from": "2026-08-26",
+    "to": "2026-09-25"
   },
   "coverage": {
     "sources": [
@@ -199,6 +199,7 @@
         "first water",
         "fjölnota íþróttahús í borgarnesi",
         "fossvogsbrú",
+        "göngu- og hjólabrú yfir sæbraut",
         "hamranesskóli",
         "hringvegur um hornafjörð",
         "hvalárvirkjun",
@@ -214,6 +215,7 @@
         "First Water",
         "Fjölnota íþróttahús í Borgarnesi",
         "Fossvogsbrú",
+        "Göngu- og hjólabrú yfir Sæbraut",
         "Hamranesskóli",
         "Hringvegur um Hornafjörð",
         "Hvalárvirkjun",
@@ -284,50 +286,182 @@
   "count": 41,
   "items": [
     {
-      "id": "news:braggi:vidburdur-idan-1858",
-      "lane": "news",
-      "category": "project",
-      "title": "CE merkingar byggingarvara",
-      "entity": "braggi.is",
-      "date": "2026-09-24",
-      "summary": "2026-11-10 · Stórhöfði 27 · Námskeið fyrir starfsmenn verktakafyrirtækja, iðnmeistara, hönnuði og aðra sem annast val og innkaup á byggingarvörum.",
-      "url": "https://braggi.is/vidburdur-idan-1858/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:vidburdur-idan-1856",
-      "lane": "news",
-      "category": "project",
-      "title": "Grunnnámskeið í Bluebeam Revu - Mælingar og magntökur",
-      "entity": "braggi.is",
-      "date": "2026-09-24",
-      "summary": "2026-12-16 · NTI · Á þessu námskeiði fæst góð yfirsýn yfir Bluebeam Revu og hvernig hægt er að nýta hugbúnaðinn til að vinna markvisst með PDF-skjöl í byggingargeiranum. Sérstök áhersla er lögð á mælingar og magntökur og hvernig draga má út gögn yfir í Excel og PDF.",
-      "url": "https://braggi.is/vidburdur-idan-1856/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:vidburdur-idan-1855",
-      "lane": "news",
-      "category": "project",
-      "title": "Grunnnámskeið í Bluebeam Revu - Mælingar og magntökur",
-      "entity": "braggi.is",
-      "date": "2026-09-24",
-      "summary": "2026-11-24 · NTI · Á þessu námskeiði fæst góð yfirsýn yfir Bluebeam Revu og hvernig hægt er að nýta hugbúnaðinn til að vinna markvisst með PDF-skjöl í byggingargeiranum. Sérstök áhersla er lögð á mælingar og magntökur og hvernig draga má út gögn yfir í Excel og PDF.",
-      "url": "https://braggi.is/vidburdur-idan-1855/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:norsk-kjernekraft-med-storfelldar-kjarnorkuaaetlanir-fyrir-gagnaver-4d56151d",
+      "id": "news:braggi:40-milljarda-fiskeldisverkefni-samherja-tekur-a-sig-mynd-a-reykjanesi",
       "lane": "news",
       "category": "industrial-demand",
-      "title": "Norsk Kjernekraft með stórfelldar kjarnorkuáætlanir fyrir gagnaver",
+      "title": "40 milljarða fiskeldisverkefni Samherja tekur á sig mynd á Reykjanesi",
+      "entity": "braggi.is",
+      "date": "2026-09-25",
+      "summary": "Framkvæmdir við Eldisgarð, stórt landeldisverkefni Samherja á Reykjanesi, ganga samkvæmt áætlun og er gert ráð fyrir að fyrstu laxaseðunum verði tekið í apríl. Verkefnið, sem hefur verið í undirbúningi í sjö ár, mun framleiða allt að 30.000 tonn af laxi á ári þegar því lýkur.",
+      "url": "https://braggi.is/40-milljarda-fiskeldisverkefni-samherja-tekur-a-sig-mynd-a-reykjanesi/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:vegagerdin:opid-hus-hja-vegagerdinni-i-fellabae",
+      "lane": "news",
+      "category": "project",
+      "title": "24. september 2026 Opið hús hjá Vegagerðinni í Fellabæ",
+      "entity": "Vegagerðin",
+      "date": "2026-09-24",
+      "summary": "Frétt­ir 24. september 2026 Opið hús hjá Vegagerðinni í Fellabæ",
+      "url": "https://www.vegagerdin.is/vegagerdin/starfsemi/frettir/opid-hus-hja-vegagerdinni-i-fellabae",
+      "outlet": "Vegagerðin",
+      "is_new": true
+    },
+    {
+      "id": "news:reykjavik:byggingarrettur-i-sudurholum-og-hraunbergi",
+      "lane": "news",
+      "category": "project",
+      "title": "Byggingarréttur í Suðurhólum og Hraunbergi",
+      "entity": "Reykjavíkurborg",
+      "date": "2026-09-24",
+      "summary": "24. september 2026 Byggingarréttur í Suðurhólum og Hraunbergi",
+      "url": "https://reykjavik.is/frettir/2026/byggingarrettur-i-sudurholum-og-hraunbergi",
+      "outlet": "Reykjavíkurborg",
+      "is_new": true
+    },
+    {
+      "id": "news:byggingar:adstada-akraneshafnar-storbaett",
+      "lane": "news",
+      "category": "project",
+      "title": "Aðstaða Akraneshafnar stórbætt",
+      "entity": "byggingar.is",
+      "date": "2026-09-24",
+      "summary": "Aðstaða Akraneshafnar stórbætt",
+      "url": "https://byggingar.is/adstada-akraneshafnar-storbaett/",
+      "outlet": "byggingar.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:vetrarthjonusta-gongu-og-hjolaleida-gardathjonusta-sigurjons-ehf-og-fleiri",
+      "lane": "news",
+      "category": "project",
+      "title": "Vetrarþjónusta göngu- og hjólaleiða: Garðaþjónusta Sigurjóns ehf. og fleiri",
       "entity": "braggi.is",
       "date": "2026-09-24",
-      "summary": "Norska fyrirtækið Norsk Kjernekraft hefur lagt fram umfangsmiklar áætlanir um kjarnorkuver sem gætu mætt orkuþörf gagnavera og bætt ímynd þeirra.",
-      "url": "https://braggi.is/norsk-kjernekraft-med-storfelldar-kjarnorkuaaetlanir-fyrir-gagnaver-4d56151d/",
+      "summary": "Reykjavíkurborg hefur samþykkt tilboð Garðaþjónustu Sigurjóns ehf. í vetrarþjónustu göngu- og hjólaleiða fyrir árin 2026-2027. Öll tilboð í útboðshluta 2 voru hins vegar höfnuð.",
+      "url": "https://braggi.is/vetrarthjonusta-gongu-og-hjolaleida-gardathjonusta-sigurjons-ehf-og-fleiri/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:urbaetur-a-leiksvaedi-oxarfjardarskola-og-vidhaldsaaetlun-fyrir-leikvelli",
+      "lane": "news",
+      "category": "investment",
+      "title": "Úrbætur á leiksvæði Öxarfjarðarskóla og viðhaldsáætlun fyrir leikvelli",
+      "entity": "braggi.is",
+      "date": "2026-09-24",
+      "summary": "Skipulags- og framkvæmdaráð Norðurþings hefur samþykkt að ráðast í úrbætur á leiksvæði Öxarfjarðarskóla. Einnig verður unnin viðhalds- og kostnaðaráætlun fyrir alla leikvelli sveitarfélagsins.",
+      "url": "https://braggi.is/urbaetur-a-leiksvaedi-oxarfjardarskola-og-vidhaldsaaetlun-fyrir-leikvelli/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:spurningar-um-vernd-og-vind-60fce39e",
+      "lane": "news",
+      "category": "project",
+      "title": "Spurningar um vernd og vind",
+      "entity": "braggi.is",
+      "date": "2026-09-24",
+      "summary": "Fyrsta vindorkuver Íslands, Vaðölduver, var gangsett 15. september síðastliðinn. Í sumar var frumvarp umhverfis-, orku- og loftslagsráðherra sem snéri að breytingum á lögum um vindorku auk þess samþykkt. Umræðan um vindorku hefur mikið snúist um í hv",
+      "url": "https://braggi.is/spurningar-um-vernd-og-vind-60fce39e/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:risauppbygging-a-vollunum-i-hafnarfirdi-fellur-i-gryttan-jardveg-thad-verdur-erf",
+      "lane": "news",
+      "category": "project",
+      "title": "Risauppbygging á Völlunum í Hafnarfirði fellur í grýttan jarðveg – „Það verður erfitt að losa sig héðan“",
+      "entity": "braggi.is",
+      "date": "2026-09-24",
+      "summary": "Uppbygging 260 íbúða fyrir tímabundna búsetu á Völlunum sem Hafnarfjarðarbær tilkynnti hefur fallið í grýttan jarðveg hjá íbúum í hverfinu. Hrundið hefur verið af stað undirskriftalista gegn verkefninu og segir fólk að verið sé að gjaldfella hús íbúanna í hverfinu.",
+      "url": "https://braggi.is/risauppbygging-a-vollunum-i-hafnarfirdi-fellur-i-gryttan-jardveg-thad-verdur-erfitt-ad-losa-sig-hedan/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:pk-verk-ehf-laegstbjodandi-i-utbodi-fyrir-gatna-og-stigagerd-i-vogabyggd",
+      "lane": "news",
+      "category": "project",
+      "title": "PK verk ehf. lægstbjóðandi í útboði fyrir gatna- og stígagerð í Vogabyggð",
+      "entity": "braggi.is",
+      "date": "2026-09-24",
+      "summary": "Innkaupa- og framkvæmdaráð Reykjavíkurborgar samþykkti á fundi sínum þann 13. ágúst 2026 að ganga að tilboði PK verk ehf. sem lægstbjóðanda í útboði 16328 fyrir gatna- og stígagerð á 1. strandstíg í Vogabyggð. Þetta verkefni felur í sér mikilvægar in",
+      "url": "https://braggi.is/pk-verk-ehf-laegstbjodandi-i-utbodi-fyrir-gatna-og-stigagerd-i-vogabyggd/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:milljonir-tonna-af-byggingarurgangi-hverfa-sporlaust-i-danmorku-9a4315cb",
+      "lane": "news",
+      "category": "project",
+      "title": "Milljónir tonna af byggingarúrgangi hverfa sporlaust í Danmörku",
+      "entity": "braggi.is",
+      "date": "2026-09-24",
+      "summary": "Milljónir tonna af byggingarúrgangi í Danmörku skráast ekki í opinbera tölfræði, sem vekur upp áhyggjur af umhverfisáhrifum og svikum. Vandamálið virðist vera að aukast og sérfræðingar telja að auðvelt sé að svíkja í kerfinu.",
+      "url": "https://braggi.is/milljonir-tonna-af-byggingarurgangi-hverfa-sporlaust-i-danmorku-9a4315cb/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:hlidarvellir-staekkun-athafnasvaedis-og-havadagreining",
+      "lane": "news",
+      "category": "investment",
+      "title": "Hlíðarvellir: Stækkun athafnasvæðis og hávaðagreining",
+      "entity": "braggi.is",
+      "date": "2026-09-24",
+      "summary": "Skipulagsráð Akureyrarbæjar hefur frestað afgreiðslu á breytingum á deiliskipulagi vegna stækkunar athafnasvæðis við Hlíðarvelli. Málið snýst um áframhaldandi stækkun svæðisins og hefur verið lagt fram gögn um hávaðadreifingu og útreikninga því tengdu.",
+      "url": "https://braggi.is/hlidarvellir-staekkun-athafnasvaedis-og-havadagreining/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:herzog-de-meuron-endurnytir-grunna-fyrir-nyja-haskolabyggingu-ur-timbr-76ebef80",
+      "lane": "news",
+      "category": "project",
+      "title": "Herzog & de Meuron endurnýtir grunna fyrir nýja háskólabyggingu úr timbri",
+      "entity": "braggi.is",
+      "date": "2026-09-24",
+      "summary": "Svissneska arkitektastofan Herzog & de Meuron hefur lokið við nýja nemendamiðstöð og matsalsbyggingu við Amherst College í Massachusetts, þar sem endurnýting eldri grunna var í forgrunni.",
+      "url": "https://braggi.is/herzog-de-meuron-endurnytir-grunna-fyrir-nyja-haskolabyggingu-ur-timbr-76ebef80/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:deiliskipulagsbreyting-hvannavalla-10-husnaedid-verdur-ekki-rifid-og-bilastaedi",
+      "lane": "news",
+      "category": "investment",
+      "title": "Deiliskipulagsbreyting Hvannavalla 10: Húsnæðið verður ekki rifið og bílastæði útfærð",
+      "entity": "braggi.is",
+      "date": "2026-09-24",
+      "summary": "Akureyrarbær hefur frestað afgreiðslu á umsókn Vesturkants ehf. um breytingu á deiliskipulagi Hvannavalla 10. Húsið á lóðinni verður ekki rifið og verða bílastæði útfærð á baklóð.",
+      "url": "https://braggi.is/deiliskipulagsbreyting-hvannavalla-10-husnaedid-verdur-ekki-rifid-og-bilastaedi/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:byggingarrettur-i-sudurholum-og-hraunbergi",
+      "lane": "news",
+      "category": "project",
+      "title": "Byggingarréttur í Suðurhólum og Hraunbergi",
+      "entity": "braggi.is",
+      "date": "2026-09-24",
+      "summary": "Reykjavíkurborg býður út byggingarrétt á tveimur íbúðarhúsalóðum í Breiðholti, Suðurhólum 27 og Hraunbergi 1. Á lóðunum er gert ráð fyrir fjölbýlishúsum með áherslu á vandað útlit og grænt umhverfi.",
+      "url": "https://braggi.is/byggingarrettur-i-sudurholum-og-hraunbergi/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:adalskipulag-tjorneshrepps-nordurthing-hefur-engar-athugasemdir",
+      "lane": "news",
+      "category": "investment",
+      "title": "Aðalskipulag Tjörneshrepps: Norðurþing hefur engar athugasemdir",
+      "entity": "braggi.is",
+      "date": "2026-09-24",
+      "summary": "Skipulags- og framkvæmdaráð Norðurþings hefur engar athugasemdir við fyrirliggjandi tillögu að nýju aðalskipulagi Tjörneshrepps á vinnslustigi. Þetta var niðurstaða ráðsins á 244. fundi þess sem haldinn var 22. september 2026 í fundarsal GB5.",
+      "url": "https://braggi.is/adalskipulag-tjorneshrepps-nordurthing-hefur-engar-athugasemdir/",
       "outlet": "braggi.is",
       "is_new": true
     },
@@ -341,31 +475,31 @@
       "summary": "Yfir 120 matreiðslumenn frá 26 löndum hafa skrifað undir sameiginlegt bréf þar sem þeir lýsa því yfir að þær ætli ekki lengur að bjóða upp á lax úr sjókvíaeldi. Meðal þeirra eru nokkrir af þekktustu kokkum heims og nokkrir stjörnukokkar frá Íslandi.",
       "url": "https://www.visir.is/g/20262938823d/islenskir-stjornukokkar-medal-kokka-sem-motmaela-fiski-ur-sjokviaeldi",
       "outlet": "visir.is / Fiskeldi",
-      "is_new": true
+      "is_new": false
     },
     {
-      "id": "news:byggingar:vilja-ad-23-lodir-verdi-seldar-undan-vatnsendaerfingja",
-      "lane": "news",
-      "category": "competitor",
-      "title": "Vilja að 23 lóðir verði seldar undan Vatns­enda­erfingja",
-      "entity": "byggingar.is",
-      "date": "2026-09-23",
-      "summary": "Vilja að 23 lóðir verði seldar undan Vatns­enda­erfingja",
-      "url": "https://byggingar.is/vilja-ad-23-lodir-verdi-seldar-undan-vatnsendaerfingja/",
-      "outlet": "byggingar.is",
-      "is_new": true
-    },
-    {
-      "id": "news:byggingar:husnaedismarkadurinn-eins-og-villta-vestrid",
+      "id": "news:byggingar:sjotaekni-laegst-i-nyja-hardvidarbryggju-a-thorshofn-bydur-97-3-milljonir",
       "lane": "news",
       "category": "project",
-      "title": "Húsnæðismarkaðurinn eins og villta vestrið",
+      "title": "Sjótækni lægst í nýja harðviðarbryggju á Þórshöfn – býður 97.3 milljónir",
       "entity": "byggingar.is",
       "date": "2026-09-23",
-      "summary": "Húsnæðismarkaðurinn eins og villta vestrið",
-      "url": "https://byggingar.is/husnaedismarkadurinn-eins-og-villta-vestrid/",
+      "summary": "Sjótækni lægst í nýja harðviðarbryggju á Þórshöfn – býður 97.3 milljónir",
+      "url": "https://byggingar.is/sjotaekni-laegst-i-nyja-hardvidarbryggju-a-thorshofn-bydur-97-3-milljonir/",
       "outlet": "byggingar.is",
-      "is_new": true
+      "is_new": false
+    },
+    {
+      "id": "news:byggingar:eik-kaupir-fasteign-kraftvela-a-1-4-milljarda",
+      "lane": "news",
+      "category": "project",
+      "title": "Eik kaupir fast­eign Kraft­véla á 1.4 milljarða",
+      "entity": "byggingar.is",
+      "date": "2026-09-23",
+      "summary": "Eik kaupir fast­eign Kraft­véla á 1.4 milljarða",
+      "url": "https://byggingar.is/eik-kaupir-fasteign-kraftvela-a-1-4-milljarda/",
+      "outlet": "byggingar.is",
+      "is_new": false
     },
     {
       "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-hreinsitaekni-laegst-i-hreinsun-gatna",
@@ -377,7 +511,7 @@
       "summary": "Hreinsitækni lægst í hreinsun gatna í Garðabæ – býður 55,3 milljónir Bæjarráð Garðabæjar samþykkti á fundi sínum í gær þann 22. september að taka tilboði Hreinsitækni ehf. í hreinsun gatna í sveitarfélaginu. Hreinsitækni bauð 55.263.204 krónur í verkið, sem er 95,1% af kostnaðaráætlun verkkaupa. Kostnaðaráætlunin nam 58,1 milljón króna. Tilboðið er því um 2...",
       "url": "https://byggingar.is/hreinsitaekni-laegst-i-hreinsun-gatna-i-gardabae-bydur-553-milljonir/?utm_source=rss&utm_medium=rss&utm_campaign=hreinsitaekni-laegst-i-hreinsun-gatna-i-gardabae-bydur-553-milljonir",
       "outlet": "byggingar.is / niðurstöður útboða",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-drattarbilar-velaleiga-fa-vetrarthjon",
@@ -389,7 +523,7 @@
       "summary": "Dráttarbílar Vélaleiga fá vetrarþjónustu Garðabæjar fyrir 61,2 milljónir Bæjarráð Garðabæjar samþykkti á fundi sínum í gær þann 22. september að taka tilboði Dráttarbíla Vélaleigu ehf. í vetrarþjónustu stofnanalóða og húsagatna í Garðabæ næstu þrjá vetur. Dráttarbílar Vélaleiga buðu 61.174.585 krónur í verkið, eða 76,1% af kostnaðaráætlun Garðabæjar sem hlj...",
       "url": "https://byggingar.is/drattarbilar-velaleiga-fa-vetrarthjonustu-gardabaejar/?utm_source=rss&utm_medium=rss&utm_campaign=drattarbilar-velaleiga-fa-vetrarthjonustu-gardabaejar",
       "outlet": "byggingar.is / niðurstöður útboða",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-borgarverk-laegst-i-budafossveg-og-ny",
@@ -401,7 +535,7 @@
       "summary": "Borgarverk lægst í Búðafossveg og nýja Þjórsárbrú – býður 2.53 milljarða Borgarverk ehf. átti lægsta tilboðið þegar Vegagerðin opnaði 23. september tilboð í nýbyggingu Búðafossvegar milli Þjórsárdalsvegar og Landvegar, ásamt smíði nýrrar 204 metra langrar brúar yfir Þjórsá. Fimm tilboð bárust í verkið. Tilboð Borgarverks hljóðaði upp á 2.532.331.206 krónur,...",
       "url": "https://byggingar.is/borgarverk-laegst-i-budafossveg-og-nyja-thjorsarbru-bydur-2-53-milljarda/?utm_source=rss&utm_medium=rss&utm_campaign=borgarverk-laegst-i-budafossveg-og-nyja-thjorsarbru-bydur-2-53-milljarda",
       "outlet": "byggingar.is / niðurstöður útboða",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "news:byggingar-borgarlina:utm-source-rss-utm-medium-rss-utm-campaign-grafa-og-grjot-ehf-faer-hlemms-og-bor",
@@ -413,114 +547,6 @@
       "summary": "Grafa og grjót ehf. fær Hlemms- og Borgarlínuverkið fyrir 760 milljónir Umhverfis- og skipulagssvið Reykjavíkurborgar hefur ákveðið að ganga til samninga við Gröfu og grjót – INVIT ehf. um umfangsmiklar framkvæmdir við Hlemmtorg norður og Borgarlínu um Hlemm. Samningsupphæðin er 760.334.961 krónur með virðisaukaskatti, eða um 86,7% af 877 milljóna króna kos...",
       "url": "https://byggingar.is/grafa-og-grjot-ehf-faer-hlemms-og-borgarlinuverkid-fyrir-760-milljonir/?utm_source=rss&utm_medium=rss&utm_campaign=grafa-og-grjot-ehf-faer-hlemms-og-borgarlinuverkid-fyrir-760-milljonir",
       "outlet": "byggingar.is / Borgarlína",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:umsoknir-opnadar-fyrir-stofnframlog-til-leiguibuda",
-      "lane": "news",
-      "category": "investment",
-      "title": "Umsóknir opnaðar fyrir stofnframlög til leiguíbúða",
-      "entity": "braggi.is",
-      "date": "2026-09-23",
-      "summary": "Húsnæðis- og mannvirkjastofnun hefur opnað fyrir umsóknir um stofnframlög til uppbyggingar á almennum leiguíbúðum. Markmiðið er að fjölga hagkvæmum leiguíbúðum og bæta húsnæðisöryggi.",
-      "url": "https://braggi.is/umsoknir-opnadar-fyrir-stofnframlog-til-leiguibuda/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:umsogn-um-umhverfismat-reykjanesbrautar-ahersla-a-undirgong-og-thungaflutninga",
-      "lane": "news",
-      "category": "investment",
-      "title": "Umsögn um umhverfismat Reykjanesbrautar: Áhersla á undirgöng og þungaflutninga",
-      "entity": "braggi.is",
-      "date": "2026-09-23",
-      "summary": "Framkvæmda- og skipulagsráð Suðurnesjabæjar leggur áherslu á undirgöng fyrir gangandi og hjólandi og að hæðatakmarkanir hindri ekki þungaflutninga í umsögn sinni vegna umhverfismats vegna tvöföldunar Reykjanesbrautar.",
-      "url": "https://braggi.is/umsogn-um-umhverfismat-reykjanesbrautar-ahersla-a-undirgong-og-thungaflutninga/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:skorid-verulega-nidur-i-framkvaemdum-hja-hveragerdisbae-eftir-skyrsluna-kolsvort",
-      "lane": "news",
-      "category": "investment",
-      "title": "Skorið verulega niður í framkvæmdum hjá Hveragerðisbæ eftir skýrsluna kolsvörtu - Áætluð rekstrarniðurstaða versnar um nærri milljarð",
-      "entity": "braggi.is",
-      "date": "2026-09-23",
-      "summary": "Bæjarstjórn Hveragerðis hefur sammælst um að skera töluvert niður í fjárfestingum þessa árs. Er þá aðallega skorið niður í framkvæmdum sem átti að ráðast í samkvæmt fjárhagsáætlun. Kemur þessi ákvörðun í kjölfar skýrslu þar sem dregin var upp verulega dökk mynd af fjárhag bæjarins.",
-      "url": "https://braggi.is/skorid-verulega-nidur-i-framkvaemdum-hja-hveragerdisbae-eftir-skyrsluna-kolsvortu-aaetlud-rekstrarnidurstada-versnar-um-naerri-milljard/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:mortenson-sparadi-2-milljonir-dollara-med-notkun-timburs-og-bim-54d5ea02",
-      "lane": "news",
-      "category": "project",
-      "title": "Mortenson sparaði 2 milljónir dollara með notkun timburs og BIM",
-      "entity": "braggi.is",
-      "date": "2026-09-23",
-      "summary": "Mortenson verktakafyrirtækið sparaði tvær milljónir dollara og stytti byggingartíma á Kaiser Borsari Hall verkefninu með notkun timburs og BIM.",
-      "url": "https://braggi.is/mortenson-sparadi-2-milljonir-dollara-med-notkun-timburs-og-bim-54d5ea02/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:hs-veitur-undirbua-nyja-stofnlogn-hitaveitu-fra-fitjum",
-      "lane": "news",
-      "category": "project",
-      "title": "HS Veitur undirbúa nýja stofnlögn hitaveitu frá Fitjum",
-      "entity": "braggi.is",
-      "date": "2026-09-23",
-      "summary": "HS Veitur undirbúa lagningu tveggja nýrra stofnlagna hitaveitu, framrásar og bakrásar, frá Fitjum að FLE, Helguvík og Sandgerðis/Garðs tengingu, samkvæmt fundargerð Framkvæmda- og skipulagsráðs Suðurnesjabæjar frá 22. september 2026. Málið var lagt f",
-      "url": "https://braggi.is/hs-veitur-undirbua-nyja-stofnlogn-hitaveitu-fra-fitjum/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:heimili-landsins-gaetu-thurft-ad-faera-fornir-19e1b09f",
-      "lane": "news",
-      "category": "project",
-      "title": "Heimili landsins gætu þurft að færa fórnir",
-      "entity": "braggi.is",
-      "date": "2026-09-23",
-      "summary": "Seðlabankastjóri bendir á að íslenskir launþegar gætu þurft að sæta hækkun olíuverðs vegna stöðu efnahagsmála. Fjármálastöðugleikanefnd Seðlabankans hefur áhyggjur af umróti á alþjóðamörkuðum og auknum vanskilum í byggingariðnaði.",
-      "url": "https://braggi.is/heimili-landsins-gaetu-thurft-ad-faera-fornir-19e1b09f/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:byggingarleyfi-fyrir-staekkun-og-endurbyggingu-bilgeymslu-i-ibudarrymi-a-gardbra",
-      "lane": "news",
-      "category": "investment",
-      "title": "Byggingarleyfi fyrir stækkun og endurbyggingu bílgeymslu í íbúðarrými á Garðbraut 49",
-      "entity": "braggi.is",
-      "date": "2026-09-23",
-      "summary": "Framkvæmda- og skipulagsráð Suðurnesjabæjar hefur samþykkt umsókn um byggingarleyfi til stækkunar og endurbyggingar á bílgeymslu á Garðbraut 49, með það að markmiði að breyta henni í íbúðarrými.",
-      "url": "https://braggi.is/byggingarleyfi-fyrir-staekkun-og-endurbyggingu-bilgeymslu-i-ibudarrymi-a-gardbra/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:borgarverk-baud-laegst-i-budafossveg-og-nyja-thjorsarbru",
-      "lane": "news",
-      "category": "competitor",
-      "title": "Borgarverk bauð lægst í Búðafossveg og nýja Þjórsárbrú",
-      "entity": "braggi.is",
-      "date": "2026-09-23",
-      "summary": "Borgarverk bauð lægst í nýbyggingu Búðafossvegar og nýrrar brúar yfir Þjórsá, með tilboði upp á rúma 2,5 milljarða króna. Tilboð fyrirtækisins var eina tilboðið sem var undir áætluðum verktakakostnaði Vegagerðarinnar.",
-      "url": "https://braggi.is/borgarverk-baud-laegst-i-budafossveg-og-nyja-thjorsarbru/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:vegagerdin:tilbodsfrestur-framlengdur-um-einn-solarhring",
-      "lane": "news",
-      "category": "project",
-      "title": "22. september 2026 Tilboðsfrestur framlengdur um einn sólarhring",
-      "entity": "Vegagerðin",
-      "date": "2026-09-22",
-      "summary": "Frétt­ir 22. september 2026 Tilboðsfrestur framlengdur um einn sólarhring",
-      "url": "https://www.vegagerdin.is/vegagerdin/starfsemi/frettir/tilbodsfrestur-framlengdur-um-einn-solarhring",
-      "outlet": "Vegagerðin",
       "is_new": false
     },
     {
@@ -686,7 +712,7 @@
       "title": "Ístak semur við First Water",
       "entity": "ÍSTAK",
       "date": "2026-09-08",
-      "summary": "Ístak semur við First Water 8. september 2026 Ístak semur við First Water um framkvæmdir við lok uppbyggingar á fyrsta áfanga landeldisstöðvar í Þorlákshöfn Ístak hefur undirritað samning við First Water um umfangsmiklar framkvæmdir á athafn",
+      "summary": "Ístak semur við First Water 8. september 2026 Ístak semur við First Water um framkvæmdir við lok uppbyggingar á fyrsta áfanga landeldisstöðvar í Þorlákshöfn Ístak hefur undirritað samning við",
       "url": "https://www.istak.is/istak-semur-vi-first-water",
       "outlet": "ÍSTAK",
       "is_new": false
@@ -728,18 +754,6 @@
       "is_new": false
     },
     {
-      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-varmarskoli-endurnyjun-skolaloda-3-af",
-      "lane": "news",
-      "category": "project",
-      "title": "Opnun útboðs: Varmárskóli – Endurnýjun skólalóða 3. áfangi",
-      "entity": "byggingar.is / niðurstöður útboða",
-      "date": "2026-08-31",
-      "summary": "Opnun útboðs: Varmárskóli – Endurnýjun skólalóða 3. áfangi Tilboðsfrestur vegna útboðsins Varmárskóli – Endurnýjun skólalóða 3. áfangi rann út þann 31. ágúst kl. 10:30. Átta tilboð bárust og þakkar Mosfellsbær þeim aðilum fyrir þátttökuna. Eftirfarandi tilboð bárust: Sjótækni ehf – 44.412.800 kr. Alma verk ehf – 48.903.106 kr. Vogaklettur ehf – 49.999.900 k...",
-      "url": "https://byggingar.is/varmarskoli-endurnyjun-skolaloda-3-afangi/?utm_source=rss&utm_medium=rss&utm_campaign=varmarskoli-endurnyjun-skolaloda-3-afangi",
-      "outlet": "byggingar.is / niðurstöður útboða",
-      "is_new": false
-    },
-    {
       "id": "news:byggingar-borgarlina:utm-source-rss-utm-medium-rss-utm-campaign-framkvaemdir-vid-borgarlinu-hafnar-vi",
       "lane": "news",
       "category": "project",
@@ -758,21 +772,9 @@
       "title": "Fyrsti skóladagurinn í Nuuk",
       "entity": "ÍSTAK",
       "date": "2026-08-27",
-      "summary": "Fyrsti skóladagurinn í Nuuk 27. ágúst 2026 Fyrsti skóladagurinn er alltaf sérstakur en í Nuuk, Grænlandi var góð ástæða til að fagna þetta árið. Skólabörnin I Nuuk gátu loks stigið inn í glænýjan og langþráðan skóla sinn – Atuarfik Inussuk.",
+      "summary": "onerror=\"handleImageLoadError(this)\"/ Fyrsti skóladagurinn í Nuuk 27. ágúst 2026 Fyrsti skóladagurinn er alltaf sérstakur en í Nuuk, Grænlandi var góð ástæða til að fagna þetta árið. Skólabörnin I Nuuk gátu loks stigið inn í glænýjan og langþrá",
       "url": "https://www.istak.is/fyrsti-skoladagurinn-i-nuuk",
       "outlet": "ÍSTAK",
-      "is_new": false
-    },
-    {
-      "id": "news:byggingar-borgarlina:utm-source-rss-utm-medium-rss-utm-campaign-fimm-verkfraedistofur-vilja-hanna-3-l",
-      "lane": "news",
-      "category": "project",
-      "title": "Fimm verkfræðistofur vilja hanna 3. lotu Borgarlínu og ný gatnamót við Bústaðaveg",
-      "entity": "byggingar.is / Borgarlína",
-      "date": "2026-08-25",
-      "summary": "Fimm verkfræðistofur vilja hanna 3. lotu Borgarlínu og ný gatnamót við Bústaðaveg Fimm verkfræðistofur skiluðu tilboðum í umfangsmikið hönnunarverkefni Vegagerðarinnar vegna endurgerðar gatnamóta Reykjanesbrautar og Bústaðavegar og hluta þriðju lotu Borgarlínu. Verkefnið felur meðal annars í sér hönnun þriggja nýrra brúarmannvirkja og færslu Reykjanesbrauta...",
-      "url": "https://byggingar.is/fimm-verkfraedistofur-vilja-hanna-3-lotu-borgarlinu-og-ny-gatnamot-vid-bustadaveg/?utm_source=rss&utm_medium=rss&utm_campaign=fimm-verkfraedistofur-vilja-hanna-3-lotu-borgarlinu-og-ny-gatnamot-vid-bustadaveg",
-      "outlet": "byggingar.is / Borgarlína",
       "is_new": false
     }
   ]
