@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated": "2026-09-28T07:00:26Z",
-  "generated_at": "2026-09-28T07:00:26Z",
+  "generated": "2026-09-29T07:00:25Z",
+  "generated_at": "2026-09-29T07:00:25Z",
   "sources": {
     "utbodsvefur": {
-      "generated_at": "2026-09-28T07:00:26.709277+00:00",
+      "generated_at": "2026-09-29T07:00:25.188926+00:00",
       "count": 41,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders.json"
     },
     "offportal": {
-      "generated": "2026-09-28T07:00:26Z",
+      "generated": "2026-09-29T07:00:25Z",
       "count": 11,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders_offportal.json"
     },
@@ -17,7 +17,7 @@
       {
         "source": "ted",
         "url": "https://api.ted.europa.eu/v3/notices/search",
-        "reason": "dropped 82 notices: expired deadline"
+        "reason": "dropped 83 notices: expired deadline"
       },
       {
         "source": "nlsh",
@@ -303,36 +303,6 @@
   "count": 50,
   "items": [
     {
-      "reference": "2607147",
-      "project": "Hjúkrunarheimili í Vetrarmýri, Garðabæ – Uppbygging og útleiga – Forval",
-      "buyer": "Garðabær",
-      "notice_type": "Framkvæmd Leiguhúsnæði Forauglýsing",
-      "deadline": "28.09.2026 kl. 14:00",
-      "deadline_local": "2026-09-28T14:00:00+00:00",
-      "deadline_utc": "2026-09-28T14:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-08-27T13:31:07+00:00",
-      "modified_at": "2026-09-01T11:24:59+00:00",
-      "url": "https://www.utbodsvefur.is/hjukrunarheimili-i-vetrarmyri-gardabae-uppbygging-og-utleiga-forval/",
-      "summary": "HJÚKRUNARHEIMILI Í VETRARMÝRI, GARÐABÆ Uppbygging og útleiga – Forval Sveitarfélagið Garðabær óskar eftir umsóknum frá áhugasömum aðilum um þátt...",
-      "source": "utbodsvefur"
-    },
-    {
-      "reference": "2026-51",
-      "project": "Markaðskönnun um lokur í Búrfelli 1/PMC regarding sealing butterfly valves",
-      "buyer": "Landsvirkjun",
-      "notice_type": "Vörukaup",
-      "deadline": "28.09.2026 kl. 17:00",
-      "deadline_local": "2026-09-28T17:00:00+00:00",
-      "deadline_utc": "2026-09-28T17:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-08-28T10:52:22+00:00",
-      "modified_at": "2026-08-31T10:24:05+00:00",
-      "url": "https://www.utbodsvefur.is/markadskonnun-um-lokur-i-burfelli-1/",
-      "summary": "Landsvirkjun hyggst bjóða út skipti á lokum í Búrfelli og býður því væntanlegum birgjum til að svara spurningakönnun sem finna má á útboðsvef Landsvir...",
-      "source": "utbodsvefur"
-    },
-    {
       "reference": "2026-32",
       "project": "Ráðgjöf í Workpoint/Sharepoint",
       "buyer": "Landsvirkjun",
@@ -465,21 +435,6 @@
       "modified_at": "2026-09-15T09:21:09+00:00",
       "url": "https://www.utbodsvefur.is/hov63-forval-endurmat-a-verkefnishonnun-holtavirkjunar/",
       "summary": "Útboðið varðar endurmat á fyrirliggjandi verkhönnun (e. Project Planning Design) og felur í sér verkfræðiráðgjöf vegna Holtavirkjunar í Neðri-Þjórsá. ...",
-      "source": "utbodsvefur"
-    },
-    {
-      "reference": "VEU-2606-0052",
-      "project": "VEU-2606-0052 Háspennurofabúnaður og fylgihlutir (High Voltage Switchgear and accessories)",
-      "buyer": "Veitur ohf.",
-      "notice_type": "Framkvæmd Vörukaup",
-      "deadline": "05.10.2026 kl. 14:00",
-      "deadline_local": "2026-10-05T14:00:00+00:00",
-      "deadline_utc": "2026-10-05T14:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-09-03T13:53:20+00:00",
-      "modified_at": "2026-09-03T13:53:20+00:00",
-      "url": "https://www.utbodsvefur.is/veu-2606-0052-haspennurofabunadur-og-fylgihlutir-high-voltage-switchgear-and-accessories/",
-      "summary": "Veitur ohf. óska eftir tilboðum í útboðsverkefni: „VEU-2606-0052 Háspennurofabúnaður og fylgihlutir (High Voltage Switchgear and accessories)...",
       "source": "utbodsvefur"
     },
     {
@@ -708,6 +663,36 @@
       "source": "utbodsvefur"
     },
     {
+      "reference": "5402697509",
+      "project": "Verðfyrirspurn – Þróun þjónustulags gagnavistkerfis og Model Context Protocol (MCP) viðmóts.",
+      "buyer": "Fjársýslan ríkisins",
+      "notice_type": "Þjónusta Markaðskönnun (RFI) Verðfyrirspurn",
+      "deadline": "14.10.2026 kl. 00:00",
+      "deadline_local": "2026-10-14T00:00:00+00:00",
+      "deadline_utc": "2026-10-14T00:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-09-28T14:10:46+00:00",
+      "modified_at": "2026-09-28T14:10:46+00:00",
+      "url": "https://www.utbodsvefur.is/verdfyrirspurn-throun-thjonustulags-gagnavistkerfis-og-model-context-protocol-mcp-vidmots/",
+      "summary": "Fjársýsla ríkisins („Fjársýslan“), kt. 540269-7509, í samstarfi við Mennta- og barnamálaráðuneytið („MRN“), kt. 460269-2969, óskar eftir tilboðum í þr...",
+      "source": "utbodsvefur"
+    },
+    {
+      "reference": "VEU-2606-0052",
+      "project": "VEU-2606-0052 Háspennurofabúnaður og fylgihlutir (High Voltage Switchgear and accessories)",
+      "buyer": "Veitur ohf.",
+      "notice_type": "Framkvæmd Vörukaup",
+      "deadline": "14.10.2026 kl. 14:00",
+      "deadline_local": "2026-10-14T14:00:00+00:00",
+      "deadline_utc": "2026-10-14T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-09-03T13:53:20+00:00",
+      "modified_at": "2026-09-28T09:29:41+00:00",
+      "url": "https://www.utbodsvefur.is/veu-2606-0052-haspennurofabunadur-og-fylgihlutir-high-voltage-switchgear-and-accessories/",
+      "summary": "Veitur ohf. óska eftir tilboðum í útboðsverkefni: „VEU-2606-0052 Háspennurofabúnaður og fylgihlutir (High Voltage Switchgear and accessories)...",
+      "source": "utbodsvefur"
+    },
+    {
       "reference": "02/2026",
       "project": "Staðbundin eigna- og öryggisgæsla í verslunum ÁTVR",
       "buyer": "Áfengis og tóbaksverslun ríkisins / ÁTVR",
@@ -874,7 +859,7 @@
     },
     {
       "reference": "BSVK-2026-17",
-      "project": "Supply of BRT Street light poles – Ljósastaurar og lampar fyrir Borgarlínustöðvar",
+      "project": "Supply of BRT Station light poles – Ljósastaurar og lampar fyrir Borgarlínustöðvar",
       "buyer": "Betri samgöngur ohf.",
       "notice_type": "Vörukaup",
       "deadline": "27.10.2026 kl. 14:00",
@@ -882,7 +867,7 @@
       "deadline_utc": "2026-10-27T14:00:00+00:00",
       "deadline_confirmed": true,
       "posted_at": "2026-09-24T09:39:04+00:00",
-      "modified_at": "2026-09-24T09:45:33+00:00",
+      "modified_at": "2026-09-28T14:23:00+00:00",
       "url": "https://www.utbodsvefur.is/supply-of-brt-street-light-poles-ljosastaurar-og-lampar-fyrir-borgarlinustodvar/",
       "summary": "Betri samgöngur ohf. invites tenders for light poles and luminaires for Borgarlína stations. The contract covers the purchase and delivery of light po...",
       "source": "utbodsvefur"
@@ -900,6 +885,21 @@
       "modified_at": "2026-09-25T12:33:31+00:00",
       "url": "https://www.utbodsvefur.is/dam-system-for-the-city-of-reykjavik-ees-utbod-nr-16350/",
       "summary": "Skrifstofa fjármálaþjónustu og ráðgjafar f.h. Þjónustu- og nýsköpunarsviðs Reykjavíkurborgar óskar eftir tilboðum í DAM (digital asset management) ker...",
+      "source": "utbodsvefur"
+    },
+    {
+      "reference": "16313",
+      "project": "Rammasamningur um túlka- og þýðingarþjónustu. EES útboð nr. 16313",
+      "buyer": "Reykjavíkurborg",
+      "notice_type": "Þjónusta",
+      "deadline": "29.10.2026 kl. 10:00",
+      "deadline_local": "2026-10-29T10:00:00+00:00",
+      "deadline_utc": "2026-10-29T10:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-09-28T13:18:10+00:00",
+      "modified_at": "2026-09-28T13:46:47+00:00",
+      "url": "https://www.utbodsvefur.is/rammasamningur-um-tulka-og-thydingarthjonustu-ees-utbod-nr-16313/",
+      "summary": "Skrifstofa fjármálaþjónustu og innkaupa f.h. Þjónustu- og nýsköpunarsviðs Reykjavíkurborgar óskar eftir tilboðum í Túlka- og þýðingarþjónustu Reykjaví...",
       "source": "utbodsvefur"
     },
     {
