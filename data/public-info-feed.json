@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated": "2026-09-29T06:45:01Z",
+  "generated": "2026-09-30T06:45:01Z",
   "window": {
-    "from": "2026-09-22",
-    "to": "2026-09-29"
+    "from": "2026-09-23",
+    "to": "2026-09-30"
   },
   "coverage": {
     "municipalities": [
@@ -258,7 +258,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/5437",
         "seen_count": 1,
         "first_seen": "2026-09-21T06:45:01Z",
-        "last_seen": "2026-09-29T06:45:01Z",
+        "last_seen": "2026-09-30T06:45:01Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -270,7 +270,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/2127",
         "seen_count": 1,
         "first_seen": "2026-09-29T06:45:01Z",
-        "last_seen": "2026-09-29T06:45:01Z",
+        "last_seen": "2026-09-30T06:45:01Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -282,7 +282,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/5377",
         "seen_count": 1,
         "first_seen": "2026-09-11T06:45:01Z",
-        "last_seen": "2026-09-29T06:45:01Z",
+        "last_seen": "2026-09-30T06:45:01Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -294,7 +294,7 @@
         "evidence_url": "https://island.is/reglugerdir/nr/0809-2026",
         "seen_count": 1,
         "first_seen": "2026-09-11T06:45:01Z",
-        "last_seen": "2026-09-29T06:45:01Z",
+        "last_seen": "2026-09-30T06:45:01Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       }
@@ -340,7 +340,8 @@
         },
         "reykjavik": {
           "no_matching_keywords": 37,
-          "undated": 2
+          "undated": 1,
+          "outside_window": 1
         },
         "kopavogur": {
           "no_matching_keywords": 24
@@ -365,8 +366,8 @@
           "no_matching_keywords": 40
         },
         "betri-samgongur": {
-          "undated": 3,
-          "no_matching_keywords": 5
+          "undated": 2,
+          "no_matching_keywords": 6
         },
         "borgarlinan": {
           "undated": 9,
@@ -378,7 +379,7 @@
         },
         "mosfellsbaer": {
           "no_matching_keywords": 34,
-          "outside_window": 2,
+          "outside_window": 4,
           "undated": 2
         },
         "arborg": {
@@ -401,7 +402,7 @@
         },
         "byggingar-opnun-utboda": {
           "undated": 18,
-          "outside_window": 11
+          "outside_window": 10
         },
         "vb": {
           "no_matching_keywords": 40
@@ -678,29 +679,67 @@
       }
     }
   },
-  "count": 301,
+  "count": 294,
   "items": [
     {
-      "id": "legislation:althingi-thingmalaskra:endurskodud-aaetlun-um-framlagningu-thingmala-a-vetrar-og-vorthingi-2026-lokautg",
-      "lane": "legislation",
-      "source": "althingi-thingmalaskra",
-      "doc_type": "parliamentary",
-      "title": "Endurskoðuð þingmálaskrá fyrir 157. löggjafarþing",
-      "entity": "Alþingi",
-      "status": "tracker",
+      "id": "announcement:byggingar-opnun-utboda:varaaflsrafstod-fyrir-hsn-a-blonduosi",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "29.10.2026 Varaaflsrafstöð fyrir HSN á Blönduósi",
+      "entity": "Byggingar.is",
+      "status": "published",
       "date": "2026-09-29",
-      "summary": "13. Frumvarp til laga um breytingu á lögum um mannvirki, nr. 160/2010 (einföldun byggingarreglugerðar og endurskoðun byggingareftirlits). / 14. Frumvarp til laga um breytingu á skipulagslögum nr. 123/2010 (raflínuskipulag). / 2. Frumvarp til laga um breytingu á lögum um stefnur og aðgerðaáætlanir á sviði húsnæðis- og skipulagsmála, samgangna og byggðamála, nr. 30/2023 (stefnumörkun).",
-      "url": "https://www.althingi.is/media/uncategorized/Endurskodud-aaetlun-um-framlagningu-thingmala-a-vetrar-og-vorthingi-2026-lokautgafa-leidrettX.pdf",
-      "index_url": "https://www.althingi.is/thingstorf/leidbeiningar-og-yfirlit/thingmalaskra-rikisstjornar/",
+      "summary": "ge_tag\" data-img-url=\"https://byggingar.is/wp-content/uploads/2026/09/29.09.2026-Varaaflsrafstod-fyrir-HSN-a-Blonduosi-100x75.png\" width=\"100\" height=\"75\" /> 29.10.2026 Varaaflsrafstöð fyrir HSN á Blönduósi 29/09/2026 <div cl",
+      "url": "https://byggingar.is/varaaflsrafstod-fyrir-hsn-a-blonduosi/",
       "keywords_matched": [
         "bygging",
-        "mannvirki",
-        "samgöngur",
-        "skipulag",
-        "umhverfismat"
-      ],
-      "case_number": "157. löggjafarþing",
-      "period": "2025–2026"
+        "opinber innkaup"
+      ]
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:thjodarhollin-a-ad-vera-klar-i-januar-2030",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "Þjóðarhöllin á að vera klár í janúar 2030",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-09-29",
+      "summary": "g\" data-img-url=\"https://byggingar.is/wp-content/uploads/2026/09/29.09.2026-THjodarhollin-a-ad-vera-klar-i-januar-2030-100x75.jpg\" width=\"100\" height=\"75\" /> Þjóðarhöllin á að vera klár í janúar 2030 29/09/2026 <div class=\"td_modu",
+      "url": "https://byggingar.is/thjodarhollin-a-ad-vera-klar-i-januar-2030/",
+      "keywords_matched": [
+        "bygging",
+        "opinber innkaup"
+      ]
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:thg-verktakar-laegstir-i-gufudalssveit-1-46-milljordum-yfir-kostnadaraaetlun",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "ÞG Verktakar lægstir í Gufudalssveit – 1.46 milljörðum yfir kostnaðaráætlun",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-09-29",
+      "summary": "> ÞG Verktakar lægstir í Gufudalssveit – 1.46 milljörðum yfir kostnaðaráætlun byggingar - 29/09/2026",
+      "url": "https://byggingar.is/thg-verktakar-laegstir-i-gufudalssveit-1-46-milljordum-yfir-kostnadaraaetlun/",
+      "keywords_matched": [
+        "bygging",
+        "opinber innkaup"
+      ]
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:byggingar",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "byggingar",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-09-29",
+      "summary": "um yfir kostnaðaráætlun\">ÞG Verktakar lægstir í Gufudalssveit – 1.46 milljörðum yfir kostnaðaráætlun byggingar - 29/09/2026 <a href=\"https://byggingar.is/thg-verktakar-laegstir-i-gufudalssveit-1-46-milljordu",
+      "url": "https://byggingar.is/author/byggingar/",
+      "keywords_matched": [
+        "bygging",
+        "opinber innkaup"
+      ]
     },
     {
       "id": "skgatt:1121/2026",
@@ -715,36 +754,6 @@
       "url": "https://skipulagsgatt.is/issues/5476"
     },
     {
-      "id": "announcement:byggingar-opnun-utboda:ny-gongubru-vigd",
-      "lane": "announcement",
-      "source": "byggingar-opnun-utboda",
-      "title": "Ný göngu­brú vígð",
-      "entity": "Byggingar.is",
-      "status": "published",
-      "date": "2026-09-28",
-      "summary": "vígð\" data-type=\"image_tag\" data-img-url=\"https://byggingar.is/wp-content/uploads/2026/09/28.09.2026-Ny-gongubru-vigd-100x75.jpg\" width=\"100\" height=\"75\" /> Ný göngu­brú vígð 28/09/2026 <div class=\"td_modu",
-      "url": "https://byggingar.is/ny-gongubru-vigd/",
-      "keywords_matched": [
-        "bygging",
-        "opinber innkaup"
-      ]
-    },
-    {
-      "id": "announcement:byggingar-opnun-utboda:betur-for-en-a-horfdist-i-vinnuslysinu",
-      "lane": "announcement",
-      "source": "byggingar-opnun-utboda",
-      "title": "„Betur fór en á horfðist“ í vinnuslysinu",
-      "entity": "Byggingar.is",
-      "status": "published",
-      "date": "2026-09-28",
-      "summary": "e_tag\" data-img-url=\"https://byggingar.is/wp-content/uploads/2026/09/28.09.2026-Betur-for-en-a-horfdist-i-vinnuslysinu-100x75.jpg\" width=\"100\" height=\"75\" /> „Betur fór en á horfðist“ í vinnuslysinu 28/09/2026 <div cl",
-      "url": "https://byggingar.is/betur-for-en-a-horfdist-i-vinnuslysinu/",
-      "keywords_matched": [
-        "bygging",
-        "opinber innkaup"
-      ]
-    },
-    {
       "id": "announcement:byggingar-opnun-utboda:drattarbilar-velaleiga-fa-138-milljona-vetrarthjonustu-i-gardabae",
       "lane": "announcement",
       "source": "byggingar-opnun-utboda",
@@ -752,23 +761,8 @@
       "entity": "Byggingar.is",
       "status": "published",
       "date": "2026-09-25",
-      "summary": "> Dráttarbílar Vélaleiga fá 138 milljóna vetrarþjónustu í Garðabæ byggingar - 25/09/2026",
+      "summary": "Dráttarbílar Vélaleiga fá 138 milljóna vetrarþjónustu í Garðabæ byggingar - 25/09/2026",
       "url": "https://byggingar.is/drattarbilar-velaleiga-fa-138-milljona-vetrarthjonustu-i-gardabae/",
-      "keywords_matched": [
-        "bygging",
-        "opinber innkaup"
-      ]
-    },
-    {
-      "id": "announcement:byggingar-opnun-utboda:byggingar",
-      "lane": "announcement",
-      "source": "byggingar-opnun-utboda",
-      "title": "byggingar",
-      "entity": "Byggingar.is",
-      "status": "published",
-      "date": "2026-09-25",
-      "summary": "8 milljóna vetrarþjónustu í Garðabæ\">Dráttarbílar Vélaleiga fá 138 milljóna vetrarþjónustu í Garðabæ byggingar - 25/09/2026 <a href=\"https://byggingar.is/drattarbilar-velaleiga-fa-138-milljona-vetrarthjonust",
-      "url": "https://byggingar.is/author/byggingar/",
       "keywords_matched": [
         "bygging",
         "opinber innkaup"
@@ -854,7 +848,7 @@
       "entity": "Reykjavíkurborg",
       "status": "published",
       "date": "2026-09-24",
-      "summary": "AqLr 1920w, /sites/default/files/styles/landscape_4k/public/2026-09/breidholt.jpg?h=707772c7&itok=lOKr6kPO 3840w\" data-sizes=\"auto\" /> 24. september 2026 Byggingarréttur í Suðurhólum og Hraunbergi <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2026-08/23070401_fly_075_small.jpg?h=52d3fcb6&itok=Tdx…",
+      "summary": "AqLr 1920w, /sites/default/files/styles/landscape_4k/public/2026-09/breidholt.jpg?h=707772c7&itok=lOKr6kPO 3840w\" data-sizes=\"auto\" /> 24. september 2026 Byggingarréttur í Suðurhólum og Hraunbergi <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2026-09/tjornin1_medium.png.jpg?h=5e392275&itok=qcpE6J…",
       "url": "https://reykjavik.is/frettir/2026/byggingarrettur-i-sudurholum-og-hraunbergi",
       "keywords_matched": [
         "bygging"
@@ -927,21 +921,6 @@
       "url": "https://skipulagsgatt.is/issues/5453"
     },
     {
-      "id": "announcement:byggingar-opnun-utboda:hreinsitaekni-laegst-i-hreinsun-gatna-i-gardabae-bydur-553-milljonir",
-      "lane": "announcement",
-      "source": "byggingar-opnun-utboda",
-      "title": "Hreinsitækni lægst í hreinsun gatna í Garðabæ – býður 55,3 milljónir",
-      "entity": "Byggingar.is",
-      "status": "published",
-      "date": "2026-09-23",
-      "summary": "Hreinsitækni lægst í hreinsun gatna í Garðabæ – býður 55,3 milljónir byggingar - 23/09/2026",
-      "url": "https://byggingar.is/hreinsitaekni-laegst-i-hreinsun-gatna-i-gardabae-bydur-553-milljonir/",
-      "keywords_matched": [
-        "bygging",
-        "opinber innkaup"
-      ]
-    },
-    {
       "id": "announcement:byggingar-opnun-utboda:drattarbilar-velaleiga-fa-vetrarthjonustu-gardabaejar",
       "lane": "announcement",
       "source": "byggingar-opnun-utboda",
@@ -969,34 +948,6 @@
       "keywords_matched": [
         "bygging",
         "opinber innkaup"
-      ]
-    },
-    {
-      "id": "announcement:mosfellsbaer:umsokn-um-styrk-til-nams-verkfaera-og-taekjakaupa-2026",
-      "lane": "announcement",
-      "source": "mosfellsbaer",
-      "title": "Styrkir 14. september 2026 Umsókn um styrk til náms, verkfæra- og tækjakaupa 2026",
-      "entity": "Mosfellsbær",
-      "status": "published",
-      "date": "2026-09-22",
-      "summary": "Samgönguvika 16. – 22. september 2026 Styrkir 14. september 2026 Umsókn um styrk til náms, verkfæra- og tækjakaupa 2026 <img class=\"bde-image2-53844-101-103642-53844-",
-      "url": "https://mos.is/mannlif/um-mosfellsbae/frettir/umsokn-um-styrk-til-nams-verkfaera-og-taekjakaupa-2026/",
-      "keywords_matched": [
-        "samgöngur"
-      ]
-    },
-    {
-      "id": "announcement:mosfellsbaer:sidasti-afangi-lysingar-a-flugvallarhring-hefst-i-haust",
-      "lane": "announcement",
-      "source": "mosfellsbaer",
-      "title": "Framkvæmdir 22. september 2026 Síðasti áfangi lýsingar á Flugvallarhring hefst í haust",
-      "entity": "Mosfellsbær",
-      "status": "published",
-      "date": "2026-09-22",
-      "summary": "4.75Z\"/> Framkvæmdir 22. september 2026 Síðasti áfangi lýsingar á Flugvallarhring hefst í haust <img class=\"bde-image2-53844",
-      "url": "https://mos.is/mannlif/um-mosfellsbae/frettir/sidasti-afangi-lysingar-a-flugvallarhring-hefst-i-haust/",
-      "keywords_matched": [
-        "framkvæmd"
       ]
     },
     {
@@ -1701,32 +1652,6 @@
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-08-27-Mal-nr.-10-2026.-Urskurdur-kaerunefndar-utbodsmala"
     },
     {
-      "id": "skgatt:0995/2026",
-      "lane": "planning",
-      "title": "Borgarspítalareitur. Geðsvið LSH, Fossvogi - USK26060293",
-      "entity": "Reykjavík",
-      "case_number": "0995/2026",
-      "plan_type": "adalskipulag",
-      "status": "Lýsing",
-      "date": "2026-08-25",
-      "review_deadline": "2026-09-22",
-      "summary": "Um er að ræða mögulega breytingu á aðalskipulagi á Borgarspítalasvæðinu, er varðar uppbyggingu geðsviðs LSH sunnan núverandi spítalabyggingar.",
-      "url": "https://skipulagsgatt.is/issues/5350"
-    },
-    {
-      "id": "skgatt:0967/2026",
-      "lane": "planning",
-      "title": "Helgadalsvegur 60, L229080 - deiliskipulagsbreyting L222",
-      "entity": "Mosfellsbær",
-      "case_number": "0967/2026",
-      "plan_type": "deiliskipulag",
-      "status": "Grenndarkynning",
-      "date": "2026-08-25",
-      "review_deadline": "2026-09-22",
-      "summary": "Skipulags- og umhverfisnefnd samþykkti á fundi sínum þann 26.06.2026 að auglýsa og kynna, deiliskipulagsbreytingu fyrir Helgadalsveg 60, í samræmi við 2. mgr. 43. gr. skipulagslaga nr. 123/2010. Breytingin varðar skipulag smábýlis á um 4,93 ha land og felur einkum í sér endurútfærslu byggingarreita og húsakosts, þannig að í stað sambyggðs íbúðarhúss og gróð…",
-      "url": "https://skipulagsgatt.is/issues/5322"
-    },
-    {
       "id": "skgatt:0991/2026",
       "lane": "planning",
       "title": "Leikskólalóð í Bjargslandi í Borgarnesi",
@@ -1751,19 +1676,6 @@
       "review_deadline": "2026-10-07",
       "summary": "Lögð er fram tillaga að breytingu á deiliskipulagi fyrir Fjóluklett við Kveldúlfshöfða. Breytingin tekur til afmörkunar á 103 m² nýrri lóð undir dælustöð fráveitu og þar afmarkaður byggingareitur. Bætt er við texta í greinargerð í samræmi. Breytingin er ekki í ósamræmi við þá byggð sem fyrir er t.d. hvað varðar notkun, nýtingarhlutfall, útlit og form svæðis…",
       "url": "https://skipulagsgatt.is/issues/5342"
-    },
-    {
-      "id": "skgatt:0970/2026",
-      "lane": "planning",
-      "title": "Breyting á deiliskipulagi Vesturbæjar Hafnarfjarðar - Hraunbrún 28",
-      "entity": "Hafnarfjörður",
-      "case_number": "0970/2026",
-      "plan_type": "deiliskipulag",
-      "status": "Grenndarkynning",
-      "date": "2026-08-24",
-      "review_deadline": "2026-09-22",
-      "summary": "Á afgreiðslufundi skipulagsfulltrúa þann 19.08.2026 var samþykkt að grenndarkynna breytingu á deiliskipulagi Vesturbæjar Hafnarfjarðar vegna Hraunbrúnar 28. Lýsing á breytingunni: Gerð er leiðrétting á lóðarstærð í skilmálatöflu, úr 487,1 m² í 717,1 m², til að tryggja samræmi við uppdrátt. Breyting verður á nýtingarhlutfallinu úr 0,34 í 0,23 vegna stækkunar…",
-      "url": "https://skipulagsgatt.is/issues/5325"
     },
     {
       "id": "skgatt:0959/2026",
@@ -1816,19 +1728,6 @@
       "review_deadline": "2026-09-28",
       "summary": "Landeigendur óska eftir að fá að breyta gildandi deiliskipulagi dags. 13.11.2013 m.s.br. Verið er að breyta afmörkun milli lóða Hekluskarðs 1 og 2 svo lóðarmörk liggi betur í landinu og færist aðkoma að Hekluskarði 2 til norðvesturs. Við þetta stækkar lóð Hekluskarðs 1 úr 14,55ha í 15,74ha og lóð Hekluskarðs 2 minnkar úr 4,85 ha í 3,66 ha. Skilmálar fyrir m…",
       "url": "https://skipulagsgatt.is/issues/5297"
-    },
-    {
-      "id": "skgatt:0898/2026",
-      "lane": "planning",
-      "title": "Breyting á deiliskipulagi Suðurbæjar Sunnan Hamars vegna Hlíðarbrautar 2",
-      "entity": "Hafnarfjörður",
-      "case_number": "0898/2026",
-      "plan_type": "deiliskipulag",
-      "status": "Grenndarkynning",
-      "date": "2026-08-11",
-      "review_deadline": "2026-09-22",
-      "summary": "Á afgreiðslufundi skipulagsfulltrúa þann 21. júlí 2026 var samþykkt að grenndarkynna í samræmi við 2. mgr. 43. gr. skipulagslaga nr. 123/2010 umsókn eiganda við Hlíðarbraut 2.",
-      "url": "https://skipulagsgatt.is/issues/5253"
     },
     {
       "id": "skgatt:0934/2026",
@@ -2788,32 +2687,6 @@
       "review_deadline": "2026-09-29",
       "summary": "Landsnet hefur ákveðið að bæta við tveimur valkostum inn í umhverfismat Hvalárlínu 1 og Miðdalslínu 1. Annars vegar verður tekinn til skoðunar sá kostur að Hvalárlína 1 geti verið loftlína alla leið og hins vegar nýr kostur um legu Miðdalslínu 1. Hvalárlína 1. Landsnet hefur ákveðið að bæta við valkosti sem fela í sér loftlínu alla leið í Hvalárlínu 1. Lega…",
       "url": "https://skipulagsgatt.is/issues/5106"
-    },
-    {
-      "id": "skgatt:0743/2026",
-      "lane": "planning",
-      "title": "Breyting á deiliskipulagi Miðbær Hafnarfjarðar vegna Víkingastrætis 1h, ný lóð",
-      "entity": "Hafnarfjörður",
-      "case_number": "0743/2026",
-      "plan_type": "deiliskipulag",
-      "status": "Endanleg gögn",
-      "date": "2026-06-15",
-      "review_deadline": "2026-09-22",
-      "summary": "Á afgreiðslufundi skipulagsfulltrúa þann 10.06.2026 var samþykkt að grenndarkynna breytingu á deiliskipulagi Miðbær Hafnarfjarðar. Breytingin felst í nýrri lóð, Víkingastræti 1h, fyrir dreifistöð/spennistöð HS veitna á milli lóða við Suðurgötu 14 og 18. Stærð lóðar er 5x6m eða 30m2 og stærð byggingarreits 3x4m eða 12m2. Aðkoma að lóð er um Víkingastræti. Hú…",
-      "url": "https://skipulagsgatt.is/issues/5098"
-    },
-    {
-      "id": "skgatt:0736/2026",
-      "lane": "planning",
-      "title": "Dalsmári 1. Smáraskóli",
-      "entity": "Kópavogur",
-      "case_number": "0736/2026",
-      "plan_type": "deiliskipulag",
-      "status": "Endanleg gögn",
-      "date": "2026-06-10",
-      "review_deadline": "2026-09-22",
-      "summary": "Í breytingunni felst að byggingarreitur fyrir núverandi færanlegar skólastofur stækkar til norðausturs um 19,7m x 22m svo hægt sé að koma fyrir 135,1 m² færanlegri skólastofu. Fyrirhuguð skólastofa er á einni hæð með flötu þaki. Hámarks þak- og vegghæð frá gólfi mun vera um 3.06 m.",
-      "url": "https://skipulagsgatt.is/issues/5091"
     },
     {
       "id": "skgatt:0734/2026",
@@ -4412,6 +4285,18 @@
       "url": "https://skipulagsgatt.is/issues/1935"
     },
     {
+      "id": "skgatt:0603/2024",
+      "lane": "planning",
+      "title": "Svæðisskipulag Vestfjarða",
+      "entity": "Reykhólahreppur",
+      "case_number": "0603/2024",
+      "status": "Endanleg gögn",
+      "date": "2024-05-21",
+      "review_deadline": "2026-10-27",
+      "summary": "Svæðisskipulagsnefnd Vestfjarða kynnir tillögu að Svæðisskipulagi Vestfjarða 2025-2050. Um er að ræða fyrsta svæðisskipulagið sem tekur til Vestfjarða í heild og markar sameiginlega stefnu sveitarfélaga til ársins 2050.",
+      "url": "https://skipulagsgatt.is/issues/1702"
+    },
+    {
       "id": "skgatt:0301/2024",
       "lane": "planning",
       "title": "Skógrækt í landi Ljárskóga",
@@ -4468,6 +4353,27 @@
         "mannvirki"
       ],
       "doc_type": "reference"
+    },
+    {
+      "id": "legislation:althingi-thingmalaskra:endurskodud-aaetlun-um-framlagningu-thingmala-a-vetrar-og-vorthingi-2026-lokautg",
+      "lane": "legislation",
+      "source": "althingi-thingmalaskra",
+      "doc_type": "parliamentary",
+      "title": "Endurskoðuð þingmálaskrá fyrir 157. löggjafarþing",
+      "entity": "Alþingi",
+      "status": "tracker",
+      "summary": "13. Frumvarp til laga um breytingu á lögum um mannvirki, nr. 160/2010 (einföldun byggingarreglugerðar og endurskoðun byggingareftirlits). / 14. Frumvarp til laga um breytingu á skipulagslögum nr. 123/2010 (raflínuskipulag). / 2. Frumvarp til laga um breytingu á lögum um stefnur og aðgerðaáætlanir á sviði húsnæðis- og skipulagsmála, samgangna og byggðamála, nr. 30/2023 (stefnumörkun).",
+      "url": "https://www.althingi.is/media/uncategorized/Endurskodud-aaetlun-um-framlagningu-thingmala-a-vetrar-og-vorthingi-2026-lokautgafa-leidrettX.pdf",
+      "index_url": "https://www.althingi.is/thingstorf/leidbeiningar-og-yfirlit/thingmalaskra-rikisstjornar/",
+      "keywords_matched": [
+        "bygging",
+        "mannvirki",
+        "samgöngur",
+        "skipulag",
+        "umhverfismat"
+      ],
+      "case_number": "157. löggjafarþing",
+      "period": "2025–2026"
     },
     {
       "id": "announcement:vegagerdin-utbod:utbod",
