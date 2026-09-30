@@ -1,40 +1,12 @@
 {
-  "generated_at": "2026-09-29T07:00:25.188926+00:00",
+  "generated_at": "2026-09-30T07:00:26.374920+00:00",
   "source": {
     "site": "https://www.utbodsvefur.is",
     "posts_api": "https://www.utbodsvefur.is/wp-json/wp/v2/posts",
     "listing": "https://www.utbodsvefur.is"
   },
-  "count": 41,
+  "count": 43,
   "tenders": [
-    {
-      "reference": "2026-32",
-      "project": "Ráðgjöf í Workpoint/Sharepoint",
-      "buyer": "Landsvirkjun",
-      "notice_type": "Þjónusta",
-      "deadline": "29.09.2026 kl. 11:00",
-      "deadline_local": "2026-09-29T11:00:00+00:00",
-      "deadline_utc": "2026-09-29T11:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-08-28T10:50:22+00:00",
-      "modified_at": "2026-08-28T10:50:22+00:00",
-      "url": "https://www.utbodsvefur.is/radgjof-i-workpoint-sharepoint/",
-      "summary": "Landsvirkjun, hér á eftir nefnt kaupandi, óskar eftir tilboðum í þjónustuna: Ráðgjöf í Workpoint/SharePoint – þróun og rekstur. Kaupandi óskar eftir þ..."
-    },
-    {
-      "reference": "26-093",
-      "project": "Vestfjarðarvegur (60) um Gufudalssveit Skálanes – Hallsteinsnes",
-      "buyer": "Vegagerðin",
-      "notice_type": "Framkvæmd",
-      "deadline": "29.09.2026 kl. 14:00",
-      "deadline_local": "2026-09-29T14:00:00+00:00",
-      "deadline_utc": "2026-09-29T14:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-06-10T10:25:59+00:00",
-      "modified_at": "2026-09-01T13:02:51+00:00",
-      "url": "https://www.utbodsvefur.is/vestfjardarvegur-60-um-gufudalssveit-skalanes-hallsteinsnes/",
-      "summary": "Vegagerðin býður hér með út nýbyggingu Vestfjarðavegar á um 4,6 km kafla yfir Djúpa- og Gufufjörð. Innifalið í verkinu er bygging 210 m langrar netbog..."
-    },
     {
       "reference": "2026060941",
       "project": "Útboð á ræstingu í Brekkuskóla",
@@ -76,6 +48,20 @@
       "modified_at": "2026-09-22T09:56:44+00:00",
       "url": "https://www.utbodsvefur.is/markadskonnun-fyrir-hreinsun-gatna-og-stiga-hja-kopavogsbae/",
       "summary": "Kópavogsbær er að undirbúa innkaupaferil vegna hreinsunar (vélsópun) á götum, bílastæðum við götur, gönguleiðum, bílastæðum við skóla, leikskóla, hlut..."
+    },
+    {
+      "reference": "07-2026",
+      "project": "Intraoperative blood flow measurement system",
+      "buyer": "Landspítali",
+      "notice_type": "Verðfyrirspurn",
+      "deadline": "01.10.2026 kl. 12:00",
+      "deadline_local": "2026-10-01T12:00:00+00:00",
+      "deadline_utc": "2026-10-01T12:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-09-01T07:41:39+00:00",
+      "modified_at": "2026-09-29T12:55:43+00:00",
+      "url": "https://www.utbodsvefur.is/intraoperative-blood-flow-measurement-system/",
+      "summary": "Landspítali óskar eftir upplýsingum um verð og gæði á kerfi til að mælingar á blóðflæði við skurðaðgerðir (e. Intraoperative blood flow measurement sy..."
     },
     {
       "reference": "260820",
@@ -288,6 +274,20 @@
       "summary": "Sveitarfélagið Grímsnes og Grafningshreppur óskar eftir tilboðum í verkið: Kerhólsskóli – Breytingar 2. hæð og ný loftræsisamstæða Verkið felur ..."
     },
     {
+      "reference": "M26029",
+      "project": "Markaðskönnun – Kerrusöfnun á Keflavíkurflugvelli",
+      "buyer": "Isavia",
+      "notice_type": "Markaðskönnun (RFI)",
+      "deadline": "12.10.2026 kl. 12:00",
+      "deadline_local": "2026-10-12T12:00:00+00:00",
+      "deadline_utc": "2026-10-12T12:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-09-29T18:00:05+00:00",
+      "modified_at": "2026-09-29T17:10:26+00:00",
+      "url": "https://www.utbodsvefur.is/markadskonnun-kerrusofnun-a-keflavikurflugvelli/",
+      "summary": "Isavia hefur til skoðunar að bjóða út söfnun og tilfærslu farangurskerra, barnakerra og hjólastóla ásamt annarri tengdri þjónustu á Keflavíkurflugvell..."
+    },
+    {
       "reference": "2026-11",
       "project": "Kaup á eldsneyti 2026",
       "buyer": "Faxaflóahafnir sf.",
@@ -398,6 +398,20 @@
       "modified_at": "2026-09-11T09:56:46+00:00",
       "url": "https://www.utbodsvefur.is/fjarvoktun-og-thjonustuuttektir-bruna-og-innbrotavidvorunarkerfa-eftirlit-og-vidhald-slokkvitaekja/",
       "summary": "Fjarvöktun og þjónustuúttektir bruna- og innbrotaviðvörunarkerfa – Eftirlit og viðhald slökkvitækja Áfengis- og tóbaksverslun ríkisins óskar eft..."
+    },
+    {
+      "reference": "2026002",
+      "project": "Vátryggingaútboð Sveitarfélagsins Skagafjarðar 2027-2029",
+      "buyer": "Sveitarfélagið Skagafjörður",
+      "notice_type": "Þjónusta",
+      "deadline": "19.10.2026 kl. 12:00",
+      "deadline_local": "2026-10-19T12:00:00+00:00",
+      "deadline_utc": "2026-10-19T12:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-09-28T17:22:13+00:00",
+      "modified_at": "2026-09-28T17:22:13+00:00",
+      "url": "https://www.utbodsvefur.is/vatryggingautbod-sveitarfelagsins-skagafjardar-2027-2029/",
+      "summary": "Sveitarfélagið Skagafjörður og tengdir aðilar óska eftir tilboðum í vátryggingar fyrir tímabilið 2027-2029 Um er að ræða lög- og samningsbundnar trygg..."
     },
     {
       "reference": "U25032",
@@ -552,6 +566,20 @@
       "modified_at": "2026-09-23T13:12:22+00:00",
       "url": "https://www.utbodsvefur.is/diagnostic-coronary-angiographic-catheters/",
       "summary": "Landspítali óskar eftir tilboðum í Diagnostic Coronary Angiographic Catheters fyrir Hjarta- og æðaþræðingardeild Landspítala. Nánari lýsing er í útboð..."
+    },
+    {
+      "reference": "202644",
+      "project": "Varaaflsrafstöð fyrir HSN á Blönduósi",
+      "buyer": "Heilbrigðisstofnun Norðurlands",
+      "notice_type": "Vörukaup",
+      "deadline": "29.10.2026 kl. 12:00",
+      "deadline_local": "2026-10-29T12:00:00+00:00",
+      "deadline_utc": "2026-10-29T12:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-09-29T08:28:57+00:00",
+      "modified_at": "2026-09-29T08:28:57+00:00",
+      "url": "https://www.utbodsvefur.is/varaaflsrafstod-fyrir-hsn-a-blonduosi/",
+      "summary": "Consensa, fyrir hönd Heilbrigðisstofnunar Norðurlands (HSN), óskar eftir tilboðum í varaaflsrafstöð fyrir HSN á Blönduósi samkvæmt skilmálum útboðslýs..."
     },
     {
       "reference": "25-0300",

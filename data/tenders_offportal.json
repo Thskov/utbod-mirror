@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated": "2026-09-29T07:00:25Z",
-  "generated_at": "2026-09-29T07:00:25Z",
+  "generated": "2026-09-30T07:00:26Z",
+  "generated_at": "2026-09-30T07:00:26Z",
   "sources": {
     "covered": [
       {
@@ -41,7 +41,7 @@
       {
         "source": "ted",
         "url": "https://api.ted.europa.eu/v3/notices/search",
-        "reason": "dropped 83 notices: expired deadline"
+        "reason": "dropped 84 notices: expired deadline"
       },
       {
         "source": "nlsh",
@@ -324,23 +324,8 @@
     ],
     "source_candidates": []
   },
-  "count": 11,
+  "count": 12,
   "items": [
-    {
-      "reference": "ONGK-2022-01",
-      "project": "ONGK-2022-01 DC charging stations Dynamic purchasing system",
-      "buyer": "Orka náttúrunnar (ON)",
-      "notice_type": "$prjTenderProcessSupplies",
-      "deadline": "29.09.2026 kl. 14:00",
-      "deadline_local": "2026-09-29T14:00:00+00:00",
-      "deadline_utc": "2026-09-29T14:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2022-08-23T22:00:00+00:00",
-      "modified_at": null,
-      "url": "https://in-tendhost.co.uk/reykjavikenergy/aspx/ProjectManage/387",
-      "summary": "With these DPS documents the Purchaser requests participants in a DPS for DC charging stations for EV electrical vehicle in accordance with these documents. Installation DC charging stations is not in the scope of this DPS. The Purchaser, for the purpose of establishing this DPS, has not defined any requirements for the DC charging stations or quantities that will be procured under the DPS. Terms and conditions of e…",
-      "source": "or-intend"
-    },
     {
       "reference": "HSV-VF030208802",
       "project": "HSV-VF030208802 - POWER TRANSFORMER 60 MVA 66/33/ (11) kV",
@@ -355,6 +340,21 @@
       "url": "https://in-tendhost.co.uk/hsveitur/aspx/ProjectManage/8",
       "summary": "The Tender involves production and DAP delivery of one (1) power transformer for a 66 kV substation in Vestmannaeyjar, Iceland.",
       "source": "hsveitur-intend"
+    },
+    {
+      "reference": "M26029",
+      "project": "Markaðskönnun vegna kerrusöfnunar á Keflavíkurflugvelli",
+      "buyer": "Isavia",
+      "notice_type": "Services",
+      "deadline": "12.10.2026 kl. 12:00",
+      "deadline_local": "2026-10-12T12:00:00+00:00",
+      "deadline_utc": "2026-10-12T12:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": null,
+      "modified_at": null,
+      "url": "https://in-tendhost.co.uk/isavia/aspx/ProjectManage/386",
+      "summary": "Isavia hefur til skoðunar að bjóða út söfnun og tilfærslu farangurskerra, barnakerra og hjólastóla ásamt annarri tengdri þjónustu á Keflavíkurflugvelli. Tilgangur markaðskönnunarinnar er að kanna áhuga markaðarins og þjónustugetu mögulegra bjóðenda, afla ábendinga um mögulegt þjónustufyrirkomulag og kanna hvernig best verði staðið að fyrirhuguðum innkaupum.",
+      "source": "isavia-intend"
     },
     {
       "reference": "VEU-2606-0052",
@@ -385,6 +385,21 @@
       "url": "https://in-tendhost.co.uk/isavia/aspx/ProjectManage/347",
       "summary": "Isavia ANS ehf. (the “Purchaser”) is a subsidiary of Isavia ohf. and is Iceland’s air navigation service provider. The Purchaser recognises the need to enhance its ATM and ANS through significant technological and strategic improvements to meet future traffic demands and to ensure it can continue its alignment with the NAT Vision and the ICAO’s Global Air Traffic Management Operational Concept. The Purchaser is seek…",
       "source": "isavia-intend"
+    },
+    {
+      "reference": "672919-2026",
+      "project": "Uppsetning, Strengir og Tengingar (UST)",
+      "buyer": "Nýr Landspítali (NLSH ohf.)",
+      "notice_type": "cn-standard",
+      "deadline": "04.11.2026 kl. 13:00",
+      "deadline_local": "2026-11-04T13:00:58+00:00",
+      "deadline_utc": "2026-11-04T13:00:58+00:00",
+      "deadline_confirmed": false,
+      "posted_at": "2026-09-30",
+      "modified_at": null,
+      "url": "https://ted.europa.eu/en/notice/-/detail/672919-2026",
+      "summary": "TED open Iceland construction contract notice; CPV 44320000, 45315500, 44320000, 45315500.",
+      "source": "ted"
     },
     {
       "reference": "VEGK-2024-01",

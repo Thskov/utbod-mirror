@@ -1,23 +1,23 @@
 {
   "schema_version": 1,
-  "generated": "2026-09-29T07:00:25Z",
-  "generated_at": "2026-09-29T07:00:25Z",
+  "generated": "2026-09-30T07:00:26Z",
+  "generated_at": "2026-09-30T07:00:26Z",
   "sources": {
     "utbodsvefur": {
-      "generated_at": "2026-09-29T07:00:25.188926+00:00",
-      "count": 41,
+      "generated_at": "2026-09-30T07:00:26.374920+00:00",
+      "count": 43,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders.json"
     },
     "offportal": {
-      "generated": "2026-09-29T07:00:25Z",
-      "count": 11,
+      "generated": "2026-09-30T07:00:26Z",
+      "count": 12,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders_offportal.json"
     },
     "not_covered": [
       {
         "source": "ted",
         "url": "https://api.ted.europa.eu/v3/notices/search",
-        "reason": "dropped 83 notices: expired deadline"
+        "reason": "dropped 84 notices: expired deadline"
       },
       {
         "source": "nlsh",
@@ -298,55 +298,35 @@
         "note": "award/completeness flag from news agent; handled through Byggingar.is tender-results/news coverage rather than synthesized as an active tender"
       }
     ],
-    "source_candidates": []
+    "source_candidates": [
+      {
+        "id": "tender:buyer:heilbrigðisstofnun-norðurlands",
+        "name": "Heilbrigðisstofnun Norðurlands",
+        "suggested_feed": "tenders_all",
+        "suggested_lane": "tender",
+        "evidence_url": "https://www.utbodsvefur.is/varaaflsrafstod-fyrir-hsn-a-blonduosi/",
+        "seen_count": 1,
+        "first_seen": "2026-09-30T07:00:26Z",
+        "last_seen": "2026-09-30T07:00:26Z",
+        "reason": "unknown buyer/source found in tender feed",
+        "status": "pending"
+      },
+      {
+        "id": "tender:buyer:sveitarfélagið-skagafjörður",
+        "name": "Sveitarfélagið Skagafjörður",
+        "suggested_feed": "tenders_all",
+        "suggested_lane": "tender",
+        "evidence_url": "https://www.utbodsvefur.is/vatryggingautbod-sveitarfelagsins-skagafjardar-2027-2029/",
+        "seen_count": 1,
+        "first_seen": "2026-09-30T07:00:26Z",
+        "last_seen": "2026-09-30T07:00:26Z",
+        "reason": "unknown buyer/source found in tender feed",
+        "status": "pending"
+      }
+    ]
   },
-  "count": 50,
+  "count": 52,
   "items": [
-    {
-      "reference": "2026-32",
-      "project": "Ráðgjöf í Workpoint/Sharepoint",
-      "buyer": "Landsvirkjun",
-      "notice_type": "Þjónusta",
-      "deadline": "29.09.2026 kl. 11:00",
-      "deadline_local": "2026-09-29T11:00:00+00:00",
-      "deadline_utc": "2026-09-29T11:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-08-28T10:50:22+00:00",
-      "modified_at": "2026-08-28T10:50:22+00:00",
-      "url": "https://www.utbodsvefur.is/radgjof-i-workpoint-sharepoint/",
-      "summary": "Landsvirkjun, hér á eftir nefnt kaupandi, óskar eftir tilboðum í þjónustuna: Ráðgjöf í Workpoint/SharePoint – þróun og rekstur. Kaupandi óskar eftir þ...",
-      "source": "utbodsvefur"
-    },
-    {
-      "reference": "ONGK-2022-01",
-      "project": "ONGK-2022-01 DC charging stations Dynamic purchasing system",
-      "buyer": "Orka náttúrunnar (ON)",
-      "notice_type": "$prjTenderProcessSupplies",
-      "deadline": "29.09.2026 kl. 14:00",
-      "deadline_local": "2026-09-29T14:00:00+00:00",
-      "deadline_utc": "2026-09-29T14:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2022-08-23T22:00:00+00:00",
-      "modified_at": null,
-      "url": "https://in-tendhost.co.uk/reykjavikenergy/aspx/ProjectManage/387",
-      "summary": "With these DPS documents the Purchaser requests participants in a DPS for DC charging stations for EV electrical vehicle in accordance with these documents. Installation DC charging stations is not in the scope of this DPS. The Purchaser, for the purpose of establishing this DPS, has not defined any requirements for the DC charging stations or quantities that will be procured under the DPS. Terms and conditions of e…",
-      "source": "or-intend"
-    },
-    {
-      "reference": "26-093",
-      "project": "Vestfjarðarvegur (60) um Gufudalssveit Skálanes – Hallsteinsnes",
-      "buyer": "Vegagerðin",
-      "notice_type": "Framkvæmd",
-      "deadline": "29.09.2026 kl. 14:00",
-      "deadline_local": "2026-09-29T14:00:00+00:00",
-      "deadline_utc": "2026-09-29T14:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-06-10T10:25:59+00:00",
-      "modified_at": "2026-09-01T13:02:51+00:00",
-      "url": "https://www.utbodsvefur.is/vestfjardarvegur-60-um-gufudalssveit-skalanes-hallsteinsnes/",
-      "summary": "Vegagerðin býður hér með út nýbyggingu Vestfjarðavegar á um 4,6 km kafla yfir Djúpa- og Gufufjörð. Innifalið í verkinu er bygging 210 m langrar netbog...",
-      "source": "utbodsvefur"
-    },
     {
       "reference": "2026060941",
       "project": "Útboð á ræstingu í Brekkuskóla",
@@ -390,6 +370,21 @@
       "modified_at": "2026-09-22T09:56:44+00:00",
       "url": "https://www.utbodsvefur.is/markadskonnun-fyrir-hreinsun-gatna-og-stiga-hja-kopavogsbae/",
       "summary": "Kópavogsbær er að undirbúa innkaupaferil vegna hreinsunar (vélsópun) á götum, bílastæðum við götur, gönguleiðum, bílastæðum við skóla, leikskóla, hlut...",
+      "source": "utbodsvefur"
+    },
+    {
+      "reference": "07-2026",
+      "project": "Intraoperative blood flow measurement system",
+      "buyer": "Landspítali",
+      "notice_type": "Verðfyrirspurn",
+      "deadline": "01.10.2026 kl. 12:00",
+      "deadline_local": "2026-10-01T12:00:00+00:00",
+      "deadline_utc": "2026-10-01T12:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-09-01T07:41:39+00:00",
+      "modified_at": "2026-09-29T12:55:43+00:00",
+      "url": "https://www.utbodsvefur.is/intraoperative-blood-flow-measurement-system/",
+      "summary": "Landspítali óskar eftir upplýsingum um verð og gæði á kerfi til að mælingar á blóðflæði við skurðaðgerðir (e. Intraoperative blood flow measurement sy...",
       "source": "utbodsvefur"
     },
     {
@@ -618,6 +613,21 @@
       "source": "utbodsvefur"
     },
     {
+      "reference": "M26029",
+      "project": "Markaðskönnun – Kerrusöfnun á Keflavíkurflugvelli",
+      "buyer": "Isavia",
+      "notice_type": "Markaðskönnun (RFI)",
+      "deadline": "12.10.2026 kl. 12:00",
+      "deadline_local": "2026-10-12T12:00:00+00:00",
+      "deadline_utc": "2026-10-12T12:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-09-29T18:00:05+00:00",
+      "modified_at": "2026-09-29T17:10:26+00:00",
+      "url": "https://www.utbodsvefur.is/markadskonnun-kerrusofnun-a-keflavikurflugvelli/",
+      "summary": "Isavia hefur til skoðunar að bjóða út söfnun og tilfærslu farangurskerra, barnakerra og hjólastóla ásamt annarri tengdri þjónustu á Keflavíkurflugvell...",
+      "source": "utbodsvefur"
+    },
+    {
       "reference": "2026-11",
       "project": "Kaup á eldsneyti 2026",
       "buyer": "Faxaflóahafnir",
@@ -768,6 +778,21 @@
       "source": "isavia-intend"
     },
     {
+      "reference": "2026002",
+      "project": "Vátryggingaútboð Sveitarfélagsins Skagafjarðar 2027-2029",
+      "buyer": "Sveitarfélagið Skagafjörður",
+      "notice_type": "Þjónusta",
+      "deadline": "19.10.2026 kl. 12:00",
+      "deadline_local": "2026-10-19T12:00:00+00:00",
+      "deadline_utc": "2026-10-19T12:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-09-28T17:22:13+00:00",
+      "modified_at": "2026-09-28T17:22:13+00:00",
+      "url": "https://www.utbodsvefur.is/vatryggingautbod-sveitarfelagsins-skagafjardar-2027-2029/",
+      "summary": "Sveitarfélagið Skagafjörður og tengdir aðilar óska eftir tilboðum í vátryggingar fyrir tímabilið 2027-2029 Um er að ræða lög- og samningsbundnar trygg...",
+      "source": "utbodsvefur"
+    },
+    {
       "reference": "VB043135",
       "project": "Foreinangruð stálrör",
       "buyer": "Norðurorka",
@@ -903,6 +928,21 @@
       "source": "utbodsvefur"
     },
     {
+      "reference": "202644",
+      "project": "Varaaflsrafstöð fyrir HSN á Blönduósi",
+      "buyer": "Heilbrigðisstofnun Norðurlands",
+      "notice_type": "Vörukaup",
+      "deadline": "29.10.2026 kl. 12:00",
+      "deadline_local": "2026-10-29T12:00:00+00:00",
+      "deadline_utc": "2026-10-29T12:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-09-29T08:28:57+00:00",
+      "modified_at": "2026-09-29T08:28:57+00:00",
+      "url": "https://www.utbodsvefur.is/varaaflsrafstod-fyrir-hsn-a-blonduosi/",
+      "summary": "Consensa, fyrir hönd Heilbrigðisstofnunar Norðurlands (HSN), óskar eftir tilboðum í varaaflsrafstöð fyrir HSN á Blönduósi samkvæmt skilmálum útboðslýs...",
+      "source": "utbodsvefur"
+    },
+    {
       "reference": "35069",
       "project": "Diagnostic Coronary Angiographic Catheters",
       "buyer": "Landspítali",
@@ -916,6 +956,21 @@
       "url": "https://www.utbodsvefur.is/diagnostic-coronary-angiographic-catheters/",
       "summary": "Landspítali óskar eftir tilboðum í Diagnostic Coronary Angiographic Catheters fyrir Hjarta- og æðaþræðingardeild Landspítala. Nánari lýsing er í útboð...",
       "source": "utbodsvefur"
+    },
+    {
+      "reference": "672919-2026",
+      "project": "Uppsetning, Strengir og Tengingar (UST)",
+      "buyer": "Nýr Landspítali (NLSH ohf.)",
+      "notice_type": "cn-standard",
+      "deadline": "04.11.2026 kl. 13:00",
+      "deadline_local": "2026-11-04T13:00:58+00:00",
+      "deadline_utc": "2026-11-04T13:00:58+00:00",
+      "deadline_confirmed": false,
+      "posted_at": "2026-09-30",
+      "modified_at": null,
+      "url": "https://ted.europa.eu/en/notice/-/detail/672919-2026",
+      "summary": "TED open Iceland construction contract notice; CPV 44320000, 45315500, 44320000, 45315500.",
+      "source": "ted"
     },
     {
       "reference": "25-0300",
