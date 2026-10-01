@@ -1,23 +1,23 @@
 {
   "schema_version": 1,
-  "generated": "2026-09-30T07:00:26Z",
-  "generated_at": "2026-09-30T07:00:26Z",
+  "generated": "2026-10-01T07:00:25Z",
+  "generated_at": "2026-10-01T07:00:25Z",
   "sources": {
     "utbodsvefur": {
-      "generated_at": "2026-09-30T07:00:26.374920+00:00",
-      "count": 43,
+      "generated_at": "2026-10-01T07:00:25.847173+00:00",
+      "count": 44,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders.json"
     },
     "offportal": {
-      "generated": "2026-09-30T07:00:26Z",
-      "count": 12,
+      "generated": "2026-10-01T07:00:25Z",
+      "count": 11,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders_offportal.json"
     },
     "not_covered": [
       {
         "source": "ted",
         "url": "https://api.ted.europa.eu/v3/notices/search",
-        "reason": "dropped 84 notices: expired deadline"
+        "reason": "The read operation timed out"
       },
       {
         "source": "nlsh",
@@ -307,7 +307,7 @@
         "evidence_url": "https://www.utbodsvefur.is/varaaflsrafstod-fyrir-hsn-a-blonduosi/",
         "seen_count": 1,
         "first_seen": "2026-09-30T07:00:26Z",
-        "last_seen": "2026-09-30T07:00:26Z",
+        "last_seen": "2026-10-01T07:00:25Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       },
@@ -319,7 +319,7 @@
         "evidence_url": "https://www.utbodsvefur.is/vatryggingautbod-sveitarfelagsins-skagafjardar-2027-2029/",
         "seen_count": 1,
         "first_seen": "2026-09-30T07:00:26Z",
-        "last_seen": "2026-09-30T07:00:26Z",
+        "last_seen": "2026-10-01T07:00:25Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       }
@@ -327,51 +327,6 @@
   },
   "count": 52,
   "items": [
-    {
-      "reference": "2026060941",
-      "project": "Útboð á ræstingu í Brekkuskóla",
-      "buyer": "Akureyrarbær",
-      "notice_type": "Þjónusta",
-      "deadline": "30.09.2026 kl. 11:15",
-      "deadline_local": "2026-09-30T11:15:00+00:00",
-      "deadline_utc": "2026-09-30T11:15:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-08-26T14:08:26+00:00",
-      "modified_at": "2026-08-26T14:08:26+00:00",
-      "url": "https://www.utbodsvefur.is/utbod-a-raestingu-i-brekkuskola/",
-      "summary": "Fjársýslusvið Akureyrarbæjar, fyrir hönd fræðslu- og lýðheilsusviðs Akureyrarbæjar, óskar eftir tilboðum í reglulega ræstingu í Brekkuskóla. Um er að ...",
-      "source": "utbodsvefur"
-    },
-    {
-      "reference": "19-2026",
-      "project": "Pappír og pokar fyrir Dauðhreinsun Landspítala",
-      "buyer": "Landspítali",
-      "notice_type": "Verðfyrirspurn",
-      "deadline": "30.09.2026 kl. 12:00",
-      "deadline_local": "2026-09-30T12:00:00+00:00",
-      "deadline_utc": "2026-09-30T12:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-09-10T15:38:53+00:00",
-      "modified_at": "2026-09-23T13:11:30+00:00",
-      "url": "https://www.utbodsvefur.is/pappir-og-pokar-fyrir-daudhreinsun-landspitala/",
-      "summary": "Landspítali óskar eftir upplýsingum um verð og gæði á pappír og pokum fyrir Dauðhreinsun Landspítala og aðrar heilbrigðisstofnanir. Nánari upplýsingar...",
-      "source": "utbodsvefur"
-    },
-    {
-      "reference": "26081260",
-      "project": "Markaðskönnun fyrir hreinsun gatna og stíga hjá Kópavogsbæ",
-      "buyer": "Kópavogsbær",
-      "notice_type": "Markaðskönnun (RFI)",
-      "deadline": "30.09.2026 kl. 23:58",
-      "deadline_local": "2026-09-30T23:58:00+00:00",
-      "deadline_utc": "2026-09-30T23:58:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-09-21T14:48:07+00:00",
-      "modified_at": "2026-09-22T09:56:44+00:00",
-      "url": "https://www.utbodsvefur.is/markadskonnun-fyrir-hreinsun-gatna-og-stiga-hja-kopavogsbae/",
-      "summary": "Kópavogsbær er að undirbúa innkaupaferil vegna hreinsunar (vélsópun) á götum, bílastæðum við götur, gönguleiðum, bílastæðum við skóla, leikskóla, hlut...",
-      "source": "utbodsvefur"
-    },
     {
       "reference": "07-2026",
       "project": "Intraoperative blood flow measurement system",
@@ -400,21 +355,6 @@
       "modified_at": "2026-08-20T14:07:50+00:00",
       "url": "https://www.utbodsvefur.is/nytt-hafnarhus-forval-fyrir-honnun/",
       "summary": "Faxaflóahafnir auglýsir eftir umsóknum um þátttökurétt í lokuðu útboði á hönnun á nýju Hafnarhúsi. Um er að ræða fullnaðarhönnun á um 3.000 m2 bygging...",
-      "source": "utbodsvefur"
-    },
-    {
-      "reference": "I0228",
-      "project": "Sérhæfður endurhæfingarbúnaður Grensás",
-      "buyer": "Nýr Landspítali (NLSH ohf.)",
-      "notice_type": "Vörukaup",
-      "deadline": "05.10.2026 kl. 13:00",
-      "deadline_local": "2026-10-05T13:00:00+00:00",
-      "deadline_utc": "2026-10-05T13:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-09-03T08:56:11+00:00",
-      "modified_at": "2026-09-03T08:56:11+00:00",
-      "url": "https://www.utbodsvefur.is/serhaefdur-endurhaefingarbunadur-grensas/",
-      "summary": "Nýr Landspítali ohf. (NLSH) óskar eftir tilboðum í gönguþjálfunartæki og hand- og armþjálfunartæki fyrir endurhæfingardeild við Grensás. Nánari upplýs...",
       "source": "utbodsvefur"
     },
     {
@@ -538,6 +478,21 @@
       "source": "utbodsvefur"
     },
     {
+      "reference": "Kvíslatunguvirkjun - Vettvangsskoðun",
+      "project": "KVÍSLATUNGUVIRKJUN – VETTVANGSSKOÐUN",
+      "buyer": "Orkubú Vestfjarða ohf.",
+      "notice_type": "Framkvæmd",
+      "deadline": "07.10.2026 kl. 00:00",
+      "deadline_local": "2026-10-07T00:00:00+00:00",
+      "deadline_utc": "2026-10-07T00:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-09-30T16:11:32+00:00",
+      "modified_at": "2026-09-30T16:21:37+00:00",
+      "url": "https://www.utbodsvefur.is/kvislatunguvirkjun-vettvangsskodun/",
+      "summary": "FYRIR VÆNTANLEGT ÚTBOÐ MANNVIRKJAGERÐAR Kvíslatunguvirkjun – Útboð mannvirkjagerðar Orkubú Vestfjarða ohf. undirbýr útboð vegna mannvirkjagerðar Kvísl...",
+      "source": "utbodsvefur"
+    },
+    {
       "reference": "16346",
       "project": "Vetrarþjónusta göngu- og hjólaleiða í Reykjavík 2026 – 2027. Útboðshluti 2, EES útboð nr. 16346",
       "buyer": "Reykjavíkurborg",
@@ -640,6 +595,21 @@
       "modified_at": "2026-09-09T11:02:02+00:00",
       "url": "https://www.utbodsvefur.is/kaup-a-eldsneyti-2026/",
       "summary": "Sölu- og þjónustu útboð vegna kaupa Faxaflóahafna á eldsneyti næstu 3 árin, 2026-2029, með möguleika á framlengingu.",
+      "source": "utbodsvefur"
+    },
+    {
+      "reference": "I0228",
+      "project": "Sérhæfður endurhæfingarbúnaður Grensás",
+      "buyer": "Nýr Landspítali (NLSH ohf.)",
+      "notice_type": "Vörukaup",
+      "deadline": "12.10.2026 kl. 13:00",
+      "deadline_local": "2026-10-12T13:00:00+00:00",
+      "deadline_utc": "2026-10-12T13:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-09-03T08:56:11+00:00",
+      "modified_at": "2026-09-30T13:07:30+00:00",
+      "url": "https://www.utbodsvefur.is/serhaefdur-endurhaefingarbunadur-grensas/",
+      "summary": "Nýr Landspítali ohf. (NLSH) óskar eftir tilboðum í gönguþjálfunartæki og hand- og armþjálfunartæki fyrir endurhæfingardeild við Grensás. Nánari upplýs...",
       "source": "utbodsvefur"
     },
     {
@@ -838,6 +808,21 @@
       "source": "utbodsvefur"
     },
     {
+      "reference": "113-2026",
+      "project": "RFI – Automated Urinanalysis System f. Landspítala",
+      "buyer": "Landspítali",
+      "notice_type": "Markaðskönnun (RFI)",
+      "deadline": "21.10.2026 kl. 12:00",
+      "deadline_local": "2026-10-21T12:00:00+00:00",
+      "deadline_utc": "2026-10-21T12:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-09-30T07:06:06+00:00",
+      "modified_at": "2026-09-30T07:06:06+00:00",
+      "url": "https://www.utbodsvefur.is/rfi-automated-urinanalysis-system-f-landspitala/",
+      "summary": "Landspítali óskar eftir upplýsingum um sjálfvirk þvagrannsóknartæki á markaði vegna fyrirhugaðrar endurnýjunar á núverandi búnaði. Markmið markaðskönn...",
+      "source": "utbodsvefur"
+    },
+    {
       "reference": "HRUN-BL01",
       "project": "Blákvísl – Vatnsveita efnisútboð",
       "buyer": "Hrunamannahreppur",
@@ -937,7 +922,7 @@
       "deadline_utc": "2026-10-29T12:00:00+00:00",
       "deadline_confirmed": true,
       "posted_at": "2026-09-29T08:28:57+00:00",
-      "modified_at": "2026-09-29T08:28:57+00:00",
+      "modified_at": "2026-09-30T08:19:39+00:00",
       "url": "https://www.utbodsvefur.is/varaaflsrafstod-fyrir-hsn-a-blonduosi/",
       "summary": "Consensa, fyrir hönd Heilbrigðisstofnunar Norðurlands (HSN), óskar eftir tilboðum í varaaflsrafstöð fyrir HSN á Blönduósi samkvæmt skilmálum útboðslýs...",
       "source": "utbodsvefur"
@@ -958,19 +943,34 @@
       "source": "utbodsvefur"
     },
     {
-      "reference": "672919-2026",
+      "reference": "23400",
+      "project": "Búnaður fyrir eldhús á sjúkrahúsi",
+      "buyer": "Fjársýslan ríkisins",
+      "notice_type": "Vörukaup",
+      "deadline": "02.11.2026 kl. 09:00",
+      "deadline_local": "2026-11-02T09:00:00+00:00",
+      "deadline_utc": "2026-11-02T09:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-09-30T09:44:23+00:00",
+      "modified_at": "2026-09-30T09:44:23+00:00",
+      "url": "https://www.utbodsvefur.is/bunadur-fyrir-eldhus-a-sjukrahusi/",
+      "summary": "Fjársýslan fyrir hönd Framkvæmdasýslu – Ríkiseigna, kt. 510391-2259, óskar eftir tilboðum í útboð nr. 23400 – Búnaður fyrir eldhús a sjúkr...",
+      "source": "utbodsvefur"
+    },
+    {
+      "reference": "I0054",
       "project": "Uppsetning, Strengir og Tengingar (UST)",
       "buyer": "Nýr Landspítali (NLSH ohf.)",
-      "notice_type": "cn-standard",
+      "notice_type": "Framkvæmd Vörukaup",
       "deadline": "04.11.2026 kl. 13:00",
-      "deadline_local": "2026-11-04T13:00:58+00:00",
-      "deadline_utc": "2026-11-04T13:00:58+00:00",
-      "deadline_confirmed": false,
-      "posted_at": "2026-09-30",
-      "modified_at": null,
-      "url": "https://ted.europa.eu/en/notice/-/detail/672919-2026",
-      "summary": "TED open Iceland construction contract notice; CPV 44320000, 45315500, 44320000, 45315500.",
-      "source": "ted"
+      "deadline_local": "2026-11-04T13:00:00+00:00",
+      "deadline_utc": "2026-11-04T13:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-09-29T13:18:07+00:00",
+      "modified_at": "2026-09-29T13:18:07+00:00",
+      "url": "https://www.utbodsvefur.is/uppsetning-strengir-og-tengingar-ust/",
+      "summary": "Með þessu almenna útboði óskar Nýr Landspítali ohf kt. 500810-0410 (NLSH) eftir tilboðum í uppsetningu og tengingar 11 kV háspennubúnaðar s.s. dreifis...",
+      "source": "utbodsvefur"
     },
     {
       "reference": "25-0300",

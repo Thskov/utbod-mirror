@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated": "2026-09-30T07:00:26Z",
-  "generated_at": "2026-09-30T07:00:26Z",
+  "generated": "2026-10-01T07:00:25Z",
+  "generated_at": "2026-10-01T07:00:25Z",
   "sources": {
     "covered": [
       {
@@ -41,7 +41,7 @@
       {
         "source": "ted",
         "url": "https://api.ted.europa.eu/v3/notices/search",
-        "reason": "dropped 84 notices: expired deadline"
+        "reason": "The read operation timed out"
       },
       {
         "source": "nlsh",
@@ -322,9 +322,34 @@
         "note": "award/completeness flag from news agent; handled through Byggingar.is tender-results/news coverage rather than synthesized as an active tender"
       }
     ],
-    "source_candidates": []
+    "source_candidates": [
+      {
+        "id": "tender:buyer:heilbrigðisstofnun-norðurlands",
+        "name": "Heilbrigðisstofnun Norðurlands",
+        "suggested_feed": "tenders_all",
+        "suggested_lane": "tender",
+        "evidence_url": "https://www.utbodsvefur.is/varaaflsrafstod-fyrir-hsn-a-blonduosi/",
+        "seen_count": 1,
+        "first_seen": "2026-09-30T07:00:26Z",
+        "last_seen": "2026-09-30T07:00:26Z",
+        "reason": "unknown buyer/source found in tender feed",
+        "status": "pending"
+      },
+      {
+        "id": "tender:buyer:sveitarfélagið-skagafjörður",
+        "name": "Sveitarfélagið Skagafjörður",
+        "suggested_feed": "tenders_all",
+        "suggested_lane": "tender",
+        "evidence_url": "https://www.utbodsvefur.is/vatryggingautbod-sveitarfelagsins-skagafjardar-2027-2029/",
+        "seen_count": 1,
+        "first_seen": "2026-09-30T07:00:26Z",
+        "last_seen": "2026-09-30T07:00:26Z",
+        "reason": "unknown buyer/source found in tender feed",
+        "status": "pending"
+      }
+    ]
   },
-  "count": 12,
+  "count": 11,
   "items": [
     {
       "reference": "HSV-VF030208802",
@@ -385,21 +410,6 @@
       "url": "https://in-tendhost.co.uk/isavia/aspx/ProjectManage/347",
       "summary": "Isavia ANS ehf. (the “Purchaser”) is a subsidiary of Isavia ohf. and is Iceland’s air navigation service provider. The Purchaser recognises the need to enhance its ATM and ANS through significant technological and strategic improvements to meet future traffic demands and to ensure it can continue its alignment with the NAT Vision and the ICAO’s Global Air Traffic Management Operational Concept. The Purchaser is seek…",
       "source": "isavia-intend"
-    },
-    {
-      "reference": "672919-2026",
-      "project": "Uppsetning, Strengir og Tengingar (UST)",
-      "buyer": "Nýr Landspítali (NLSH ohf.)",
-      "notice_type": "cn-standard",
-      "deadline": "04.11.2026 kl. 13:00",
-      "deadline_local": "2026-11-04T13:00:58+00:00",
-      "deadline_utc": "2026-11-04T13:00:58+00:00",
-      "deadline_confirmed": false,
-      "posted_at": "2026-09-30",
-      "modified_at": null,
-      "url": "https://ted.europa.eu/en/notice/-/detail/672919-2026",
-      "summary": "TED open Iceland construction contract notice; CPV 44320000, 45315500, 44320000, 45315500.",
-      "source": "ted"
     },
     {
       "reference": "VEGK-2024-01",
