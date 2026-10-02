@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated": "2026-10-01T07:00:25Z",
-  "generated_at": "2026-10-01T07:00:25Z",
+  "generated": "2026-10-02T07:00:23Z",
+  "generated_at": "2026-10-02T07:00:23Z",
   "sources": {
     "covered": [
       {
@@ -41,7 +41,7 @@
       {
         "source": "ted",
         "url": "https://api.ted.europa.eu/v3/notices/search",
-        "reason": "The read operation timed out"
+        "reason": "dropped 84 notices: expired deadline"
       },
       {
         "source": "nlsh",
@@ -331,7 +331,7 @@
         "evidence_url": "https://www.utbodsvefur.is/varaaflsrafstod-fyrir-hsn-a-blonduosi/",
         "seen_count": 1,
         "first_seen": "2026-09-30T07:00:26Z",
-        "last_seen": "2026-09-30T07:00:26Z",
+        "last_seen": "2026-10-01T07:00:25Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       },
@@ -343,14 +343,29 @@
         "evidence_url": "https://www.utbodsvefur.is/vatryggingautbod-sveitarfelagsins-skagafjardar-2027-2029/",
         "seen_count": 1,
         "first_seen": "2026-09-30T07:00:26Z",
-        "last_seen": "2026-09-30T07:00:26Z",
+        "last_seen": "2026-10-01T07:00:25Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       }
     ]
   },
-  "count": 11,
+  "count": 17,
   "items": [
+    {
+      "reference": "598894-2026",
+      "project": "Skýjaborg - kindergarten",
+      "buyer": "Hvalfjarðarsveit",
+      "notice_type": "cn-standard",
+      "deadline": "06.10.2026 kl. 15:00",
+      "deadline_local": "2026-10-06T15:00:00+00:00",
+      "deadline_utc": "2026-10-06T15:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-08-31",
+      "modified_at": null,
+      "url": "https://ted.europa.eu/en/notice/-/detail/598894-2026",
+      "summary": "TED open Iceland construction contract notice; CPV 45214100, 45214100.",
+      "source": "ted"
+    },
     {
       "reference": "HSV-VF030208802",
       "project": "HSV-VF030208802 - POWER TRANSFORMER 60 MVA 66/33/ (11) kV",
@@ -365,6 +380,21 @@
       "url": "https://in-tendhost.co.uk/hsveitur/aspx/ProjectManage/8",
       "summary": "The Tender involves production and DAP delivery of one (1) power transformer for a 66 kV substation in Vestmannaeyjar, Iceland.",
       "source": "hsveitur-intend"
+    },
+    {
+      "reference": "642335-2026",
+      "project": "Laboratory building - Interior Finish",
+      "buyer": "Nýr Landspítali (NLSH ohf.)",
+      "notice_type": "cn-standard",
+      "deadline": "08.10.2026 kl. 13:00",
+      "deadline_local": "2026-10-08T13:00:58+00:00",
+      "deadline_utc": "2026-10-08T13:00:58+00:00",
+      "deadline_confirmed": false,
+      "posted_at": "2026-09-17",
+      "modified_at": null,
+      "url": "https://ted.europa.eu/en/notice/-/detail/642335-2026",
+      "summary": "TED open Iceland construction contract notice; CPV 45210000, 45210000.",
+      "source": "ted"
     },
     {
       "reference": "M26029",
@@ -410,6 +440,66 @@
       "url": "https://in-tendhost.co.uk/isavia/aspx/ProjectManage/347",
       "summary": "Isavia ANS ehf. (the “Purchaser”) is a subsidiary of Isavia ohf. and is Iceland’s air navigation service provider. The Purchaser recognises the need to enhance its ATM and ANS through significant technological and strategic improvements to meet future traffic demands and to ensure it can continue its alignment with the NAT Vision and the ICAO’s Global Air Traffic Management Operational Concept. The Purchaser is seek…",
       "source": "isavia-intend"
+    },
+    {
+      "reference": "680810-2026",
+      "project": "Design and construction of a New Security Prison",
+      "buyer": "Framkvæmdasýslan ríkiseignir (FSRE)",
+      "notice_type": "cn-standard",
+      "deadline": "04.11.2026 kl. 12:00",
+      "deadline_local": "2026-11-04T12:00:58+00:00",
+      "deadline_utc": "2026-11-04T12:00:58+00:00",
+      "deadline_confirmed": false,
+      "posted_at": "2026-10-02",
+      "modified_at": null,
+      "url": "https://ted.europa.eu/en/notice/-/detail/680810-2026",
+      "summary": "TED open Iceland construction contract notice; CPV 45000000, 45216113, 45000000, 45216113.",
+      "source": "ted"
+    },
+    {
+      "reference": "672919-2026",
+      "project": "Uppsetning, Strengir og Tengingar (UST)",
+      "buyer": "Nýr Landspítali (NLSH ohf.)",
+      "notice_type": "cn-standard",
+      "deadline": "04.11.2026 kl. 13:00",
+      "deadline_local": "2026-11-04T13:00:58+00:00",
+      "deadline_utc": "2026-11-04T13:00:58+00:00",
+      "deadline_confirmed": false,
+      "posted_at": "2026-09-30",
+      "modified_at": null,
+      "url": "https://ted.europa.eu/en/notice/-/detail/672919-2026",
+      "summary": "TED open Iceland construction contract notice; CPV 44320000, 45315500, 44320000, 45315500.",
+      "source": "ted"
+    },
+    {
+      "reference": "679193-2026",
+      "project": "Framework Agreement for Fault Response Services, Maintenance and Installation of Mechanical and Electrical Equipment",
+      "buyer": "Veitur ohf.",
+      "notice_type": "cn-standard",
+      "deadline": "05.11.2026 kl. 14:00",
+      "deadline_local": "2026-11-05T14:00:00+00:00",
+      "deadline_utc": "2026-11-05T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-02",
+      "modified_at": null,
+      "url": "https://ted.europa.eu/en/notice/-/detail/679193-2026",
+      "summary": "TED open Iceland construction contract notice; CPV 50710000, 50530000, 51110000, 45310000, 50511000, 71334000, 45259000, 50530000, 50532000, 51110000, 45310000, 71334000, 45259000, 50511000.",
+      "source": "ted"
+    },
+    {
+      "reference": "485396-2026",
+      "project": "Nýtt hjúkrunarheimili í Mosfellsbæ - leiguleið",
+      "buyer": "Framkvæmdasýslan ríkiseignir (FSRE)",
+      "notice_type": "cn-standard",
+      "deadline": "09.11.2026 kl. 12:00",
+      "deadline_local": "2026-11-09T12:00:58+00:00",
+      "deadline_utc": "2026-11-09T12:00:58+00:00",
+      "deadline_confirmed": false,
+      "posted_at": "2026-07-14",
+      "modified_at": null,
+      "url": "https://ted.europa.eu/en/notice/-/detail/485396-2026",
+      "summary": "TED open Iceland construction contract notice; CPV 45000000, 45215000, 70000000, 70310000, 45000000, 45215000, 70000000, 70310000.",
+      "source": "ted"
     },
     {
       "reference": "VEGK-2024-01",
