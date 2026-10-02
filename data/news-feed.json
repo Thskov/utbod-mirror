@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated": "2026-10-01T06:30:01Z",
+  "generated": "2026-10-02T06:30:01Z",
   "window": {
-    "from": "2026-09-01",
-    "to": "2026-10-01"
+    "from": "2026-09-02",
+    "to": "2026-10-02"
   },
   "coverage": {
     "sources": [
@@ -207,6 +207,7 @@
         "hús íslenskra fræða",
         "meðferðarkjari nlsh",
         "nta25 new terminal apron",
+        "sigöldustöð",
         "skjólgarður höfn",
         "vaðölduver"
       ],
@@ -223,6 +224,7 @@
         "Hús íslenskra fræða",
         "Meðferðarkjari NLSH",
         "NTA25 New terminal apron",
+        "Sigöldustöð",
         "Skjólgarður Höfn",
         "Vaðölduver"
       ],
@@ -283,30 +285,162 @@
     "not_covered": {},
     "source_candidates": []
   },
-  "count": 43,
+  "count": 40,
   "items": [
     {
-      "id": "news:braggi:vidburdur-idan-1893",
+      "id": "news:braggi:verksamningur-um-thjodarholl-undirritadur-iav-byggir-i-laugardal-805b383f",
       "lane": "news",
-      "category": "project",
-      "title": "Brunaþéttingar",
+      "category": "competitor",
+      "title": "Verksamningur um Þjóðarhöll undirritaður: ÍAV byggir í Laugardal",
       "entity": "braggi.is",
-      "date": "2026-10-01",
-      "summary": "2026-11-19 · Reyðarfjörður - Austurbrú · Námskeið er fyrir alla sem koma að byggingarframkvæmdum og þurfa að þétta milli brunahólfa. Það er haldið skv. ákvæðum reglugerðar 1067/2011 um þjónustuaðila brunavarna.",
-      "url": "https://braggi.is/vidburdur-idan-1893/",
+      "date": "2026-10-02",
+      "summary": "Borgarráð hefur samþykkt verksamning milli Þjóðarhallar ehf. og ÍAV um byggingu nýrrar Þjóðarhallar í Laugardal. Framkvæmdir hefjast brátt og er áætlað að höllin verði fullbúin fyrir 25. janúar 2030. Þjóðarhöllin er frumskilyrði þess að Ísland geti",
+      "url": "https://braggi.is/verksamningur-um-thjodarholl-undirritadur-iav-byggir-i-laugardal-805b383f/",
       "outlet": "braggi.is",
       "is_new": true
     },
     {
-      "id": "news:vegagerdin:umbaetur-a-adkomu-og-adstodu-fyrir-almenningsvagna-a-keflavikurflugvelli",
+      "id": "news:braggi:skipulagsmal-fiskvinnsla-i-reykjanesbae-stodvud-vegna-adalskipulags-6abdb9dd",
+      "lane": "news",
+      "category": "investment",
+      "title": "Skipulagsmál: Fiskvinnsla í Reykjanesbæ stöðvuð vegna aðalskipulags",
+      "entity": "braggi.is",
+      "date": "2026-10-02",
+      "summary": "Fiskvinnsla Premium of Iceland að Brekkustíg 22-24 í Reykjanesbæ hefur verið stöðvuð eftir ákvörðun úrskurðarnefndar umhverfis- og auðlindamála. Ákvörðunin staðfestir dagsektir heilbrigðisnefndar Suðurnesja og byggir á umsögn skipulagsfulltrúa Reykja",
+      "url": "https://braggi.is/skipulagsmal-fiskvinnsla-i-reykjanesbae-stodvud-vegna-adalskipulags-6abdb9dd/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:forstjoraskipti-hja-landsvirkjun-ahrif-a-storframkvaemdir-orkufyrirtae-cfe06440",
       "lane": "news",
       "category": "project",
-      "title": "30. september 2026 Umbætur á aðkomu og aðstöðu fyrir almenningsvagna á Keflavíkurflugvelli",
+      "title": "Forstjóraskipti hjá Landsvirkjun: Áhrif á stórframkvæmdir orkufyrirtækisins",
+      "entity": "braggi.is",
+      "date": "2026-10-02",
+      "summary": "Hörður Arnarson hefur látið af störfum sem forstjóri Landsvirkjunar. Kristín Linda Árnadóttir, aðstoðarforstjóri, tekur tímabundið við stjórn fyrirtækisins frá 1. nóvember. Þessi breyting gæti haft áhrif á tímalínu og framvindu stórra orkuframkvæmda",
+      "url": "https://braggi.is/forstjoraskipti-hja-landsvirkjun-ahrif-a-storframkvaemdir-orkufyrirtae-cfe06440/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:vegagerdin:meirihluti-umferdar-fer-um-nyjan-hringveg-um-hornafjord",
+      "lane": "news",
+      "category": "project",
+      "title": "1. október 2026 Meirihluti umferðar fer um nýjan Hringveg um Hornafjörð",
       "entity": "Vegagerðin",
-      "date": "2026-09-30",
-      "summary": "Frétt­ir 30. september 2026 Umbætur á aðkomu og aðstöðu fyrir almenningsvagna á Keflavíkurflugvelli",
-      "url": "https://www.vegagerdin.is/vegagerdin/starfsemi/frettir/umbaetur-a-adkomu-og-adstodu-fyrir-almenningsvagna-a-keflavikurflugvelli",
+      "date": "2026-10-01",
+      "summary": "Frétt­ir 1. október 2026 Meirihluti umferðar fer um nýjan Hringveg um Hornafjörð",
+      "url": "https://www.vegagerdin.is/vegagerdin/starfsemi/frettir/meirihluti-umferdar-fer-um-nyjan-hringveg-um-hornafjord",
       "outlet": "Vegagerðin",
+      "is_new": true
+    },
+    {
+      "id": "news:byggingar:idan-setur-af-stad-nytt-hladvarp-um-byggingaridnadinn-vandad-til-verka",
+      "lane": "news",
+      "category": "project",
+      "title": "IÐAN setur af stað nýtt hlaðvarp um byggingariðnaðinn – Vandað til verka",
+      "entity": "byggingar.is",
+      "date": "2026-10-01",
+      "summary": "IÐAN setur af stað nýtt hlaðvarp um byggingariðnaðinn – Vandað til verka",
+      "url": "https://byggingar.is/idan-setur-af-stad-nytt-hladvarp-um-byggingaridnadinn-vandad-til-verka/",
+      "outlet": "byggingar.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:vidauki-vid-fjarhagsaaetlun-2026-samthykktur-falid-ad-sundurlida-framkvaemdir-vi",
+      "lane": "news",
+      "category": "investment",
+      "title": "Viðauki við fjárhagsáætlun 2026 samþykktur, falið að sundurliða framkvæmdir við Austurveg 4",
+      "entity": "braggi.is",
+      "date": "2026-10-01",
+      "summary": "Byggðarráð Rangárþings eystra samþykkti með þremur samhljóða atkvæðum viðauka 1 við fjárhagsáætlun sveitarfélagsins fyrir árið 2026 á fundi sínum þann 1. október 2026 í Ráðhúsi Rangárþings eystra. Viðaukinn nær m.a. til fjárfestingaráætlunar ársins 2",
+      "url": "https://braggi.is/vidauki-vid-fjarhagsaaetlun-2026-samthykktur-falid-ad-sundurlida-framkvaemdir-vi/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:stofnun-lodar-alafesti-i-landi-innri-holms-samthykkt",
+      "lane": "news",
+      "category": "investment",
+      "title": "Stofnun lóðar Álafesti í landi Innri Hólms samþykkt",
+      "entity": "braggi.is",
+      "date": "2026-10-01",
+      "summary": "Umhverfis-, skipulags-, náttúruverndar- og landbúnaðarnefnd Hvalfjarðarsveitar samþykkti á fundi sínum þann 1. október 2026 stofnun 4.809 fermetra lóðar sem mun bera nafnið Álafesti í landi Innri Hólms, L133691. Málið var áður tekið fyrir á 67. fundi",
+      "url": "https://braggi.is/stofnun-lodar-alafesti-i-landi-innri-holms-samthykkt/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:sprengingar-hefjast-vid-solbakka-11-15",
+      "lane": "news",
+      "category": "project",
+      "title": "Sprengingar hefjast við Sólbakka 11-15",
+      "entity": "braggi.is",
+      "date": "2026-10-01",
+      "summary": "Sprengingar hefjast við Sólbakka 11-15 í Borgarbyggð föstudaginn 2. október, en þá er áætlað prufuskot um klukkan 12:00. Frá mánudeginum 5. október verður gert ráð fyrir tveimur sprengingum á dag næstu daga, klukkan 11:30 og 16:00. Framkvæmdin er á v",
+      "url": "https://braggi.is/sprengingar-hefjast-vid-solbakka-11-15/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:slasadist-alvarlega-i-vinnuslysi-i-neskaupstad-c61e8975",
+      "lane": "news",
+      "category": "project",
+      "title": "Slasaðist alvarlega í vinnuslysi í Neskaupstað",
+      "entity": "braggi.is",
+      "date": "2026-10-01",
+      "summary": "Starfsmaður verktakafyrirtækisins Nestaks slasaðist alvarlega í vinnuslysi á þriðjudag. Starfsmaðurinn, sem er karl á fertugsaldri, var fluttur á sjúkrahús í Reykjavík með sjúkraflugi.Ari Benediktsson framkvæmdastjóri Nestaks segir manninn hafa falli",
+      "url": "https://braggi.is/slasadist-alvarlega-i-vinnuslysi-i-neskaupstad-c61e8975/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:skipa-hop-sem-faer-umbod-til-ad-semja-um-byggingu-taekniskola-i-reykja-024c5b4d",
+      "lane": "news",
+      "category": "project",
+      "title": "Borgin hefur viðræður um nýjan Tækniskóla í Reykjavík",
+      "entity": "braggi.is",
+      "date": "2026-10-01",
+      "summary": "Borgarráð samþykkti í dag að skipa viðræðuhóp sem fær umboð til að semja við Tækniskólann og félagið Skólastræti um byggingu nýs Tækniskóla í Reykjavík. Ekki hefur verið ákveðið hvar í borginni skólinn á að rísa.",
+      "url": "https://braggi.is/skipa-hop-sem-faer-umbod-til-ad-semja-um-byggingu-taekniskola-i-reykja-024c5b4d/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:hordur-haettir-hja-landsvirkjun-aaab525c",
+      "lane": "news",
+      "category": "project",
+      "title": "Hörður hættir hjá Landsvirkjun",
+      "entity": "braggi.is",
+      "date": "2026-10-01",
+      "summary": "Kristín Linda Árnadóttir, aðstoðarforstjóri Landsvirkjunar, mun taka tímabundið við starfi forstjóra 1. nóvember.",
+      "url": "https://braggi.is/hordur-haettir-hja-landsvirkjun-aaab525c/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:hefur-heldur-betur-fengid-yfir-sig-gusurnar-b04375ce",
+      "lane": "news",
+      "category": "project",
+      "title": "„Hefur heldur betur fengið yfir sig gusurnar“",
+      "entity": "braggi.is",
+      "date": "2026-10-01",
+      "summary": "Jóhann Páll Jóhannsson umhverfis-, orku- og loftslagsráðherra segir Hörð Arnarson skila Landsvirkjun fjárhagslega sterkari en nokkru sinni eftir sautján ár í forstjórastólnum.",
+      "url": "https://braggi.is/hefur-heldur-betur-fengid-yfir-sig-gusurnar-b04375ce/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:hafnad-ad-stodva-framkvaemdir-i-thjorsarverum-819aac6e",
+      "lane": "news",
+      "category": "project",
+      "title": "Hafnað að stöðva framkvæmdir í Þjórsárverum",
+      "entity": "braggi.is",
+      "date": "2026-10-01",
+      "summary": "Úrskurðarnefnd umhverfis- og auðlindamála hefur hafnað kröfu Náttúrugriða um að stöðva tímabundið fyrirhugaðar framkvæmdir Landsvirkjunar í Þjórsárverum.",
+      "url": "https://braggi.is/hafnad-ad-stodva-framkvaemdir-i-thjorsarverum-819aac6e/",
+      "outlet": "braggi.is",
       "is_new": true
     },
     {
@@ -319,139 +453,7 @@
       "summary": "30. september 2026 Ný viðbygging bætir við 34 leikskólaplássum í Hulduheimum",
       "url": "https://reykjavik.is/frettir/2026/ny-vidbygging-baetir-vid-34-leikskolaplassum-i-hulduheimum",
       "outlet": "Reykjavíkurborg",
-      "is_new": true
-    },
-    {
-      "id": "news:byggingar:ung-kona-flutt-til-noregs-eftir-vinnuslys-i-borgarfirdi",
-      "lane": "news",
-      "category": "project",
-      "title": "Ung kona flutt til Noregs eftir vinnuslys í Borgarfirði",
-      "entity": "byggingar.is",
-      "date": "2026-09-30",
-      "summary": "Ung kona flutt til Noregs eftir vinnuslys í Borgarfirði",
-      "url": "https://byggingar.is/ung-kona-flutt-til-noregs-eftir-vinnuslys-i-borgarfirdi/",
-      "outlet": "byggingar.is",
-      "is_new": true
-    },
-    {
-      "id": "news:byggingar:hr-smidi-ehf-reisir-1-135-fermetra-bjorgunarmidstod-a-borg-golfplatan-steypt",
-      "lane": "news",
-      "category": "project",
-      "title": "HR Smíði ehf. reisir 1.135 fermetra björgunarmiðstöð á Borg – gólfplatan steypt",
-      "entity": "byggingar.is",
-      "date": "2026-09-30",
-      "summary": "HR Smíði ehf. reisir 1.135 fermetra björgunarmiðstöð á Borg – gólfplatan steypt",
-      "url": "https://byggingar.is/hr-smidi-ehf-reisir-1-135-fermetra-bjorgunarmidstod-a-borg-golfplatan-steypt/",
-      "outlet": "byggingar.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:vinnslutillaga-nys-deiliskipulags-fyrir-athafnasvaedi-at9-a-eyrarbakka-kynnt",
-      "lane": "news",
-      "category": "investment",
-      "title": "Vinnslutillaga nýs deiliskipulags fyrir athafnasvæði AT9 á Eyrarbakka kynnt",
-      "entity": "braggi.is",
-      "date": "2026-09-30",
-      "summary": "Skipulagsnefnd Sveitarfélagsins Árborgar hefur samþykkt að vinna áfram með vinnslutillögu nýs deiliskipulags fyrir athafnasvæði AT9 á Eyrarbakka. Skipulagsfulltrúa hefur verið falið að kynna tillöguna fyrir lóðarhöfum og hverfisráði.",
-      "url": "https://braggi.is/vinnslutillaga-nys-deiliskipulags-fyrir-athafnasvaedi-at9-a-eyrarbakka-kynnt/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:utbodsvefur-kvislatunguvirkjun-vettvangsskodun",
-      "lane": "news",
-      "category": "project",
-      "title": "KVÍSLATUNGUVIRKJUN – VETTVANGSSKOÐUN",
-      "entity": "braggi.is",
-      "date": "2026-09-30",
-      "summary": "Orkubú Vestfjarða ohf. undirbýr útboð vegna mannvirkjagerðar Kvíslatunguvirkjunar, 9,9 MW vatnsaflsvirkjunar, sem staðsett verður í Selárdal í Steingrímsfirði, um 20 km frá Hólmavík. Fyrirhugað er að útboðsgögn verði birt um miðjan október 2026 og að",
-      "url": "https://braggi.is/utbodsvefur-kvislatunguvirkjun-vettvangsskodun/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:stada-brimvarnargards-i-njardvikurhofn",
-      "lane": "news",
-      "category": "project",
-      "title": "Staða brimvarnargarðs í Njarðvíkurhöfn",
-      "entity": "braggi.is",
-      "date": "2026-09-30",
-      "summary": "Framkvæmdir við brimvarnargarð í Njarðvíkurhöfn virðast í gangi samkvæmt nýlegum fundargerðum Atvinnu- og hafnarráðs Reykjanesbæjar. Ráðið fylgist grannt með framgangi verksins.",
-      "url": "https://braggi.is/stada-brimvarnargards-i-njardvikurhofn/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:oflugt-atvinnulif-tharf-gott-adgengi-ad-lodum-53ecca31",
-      "lane": "news",
-      "category": "project",
-      "title": "Öflugt atvinnulíf þarf gott aðgengi að lóðum",
-      "entity": "braggi.is",
-      "date": "2026-09-30",
-      "summary": "Meirihluti Framsóknar, Sjálfstæðisflokks og L-lista lagði ríka áherslu á atvinnumál í málefnasamningi sínum og hluti af því er að tryggja nægt framboð atvinnulóða.",
-      "url": "https://braggi.is/oflugt-atvinnulif-tharf-gott-adgengi-ad-lodum-53ecca31/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:norraena-getur-slokkt-a-velunum-i-seydisfirdi-91dfc828",
-      "lane": "news",
-      "category": "project",
-      "title": "Norræna getur slökkt á vélunum í Seyðisfirði",
-      "entity": "braggi.is",
-      "date": "2026-09-30",
-      "summary": "Nýr raftengibúnaður fyrir Norrænu hefur verið tekinn í notkun á Seyðisfirði og á ferjan nú að geta tengst rafmagni úr landi og slökkt á vélum sínum meðan hún liggur við höfn.",
-      "url": "https://braggi.is/norraena-getur-slokkt-a-velunum-i-seydisfirdi-91dfc828/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:norraena-gengur-nu-fyrir-rafmagni-i-hofn-a-seydisfirdi-ae30fa4b",
-      "lane": "news",
-      "category": "project",
-      "title": "Norræna gengur nú fyrir rafmagni í höfn á Seyðisfirði",
-      "entity": "braggi.is",
-      "date": "2026-09-30",
-      "summary": "Landtengingarbúnaður sem gerir ferjunni Norrænu kleift að ganga fyrir rafmagni í höfn á Seyðisfirði hefur verið tekinn í notkun. Verkefnið miðar að því að draga úr mengun á meðan ferjan dvelur í höfn.",
-      "url": "https://braggi.is/norraena-gengur-nu-fyrir-rafmagni-i-hofn-a-seydisfirdi-ae30fa4b/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:kh-felagsbustadir-fjarhagsaaetlun-gerir-rad-fyrir-466340",
-      "lane": "news",
-      "category": "investment",
-      "title": "Félagsbústaðir: Fjárhagsáætlun gerir ráð fyrir fjölgun íbúða og fjárfestingum",
-      "entity": "braggi.is",
-      "date": "2026-09-30",
-      "summary": "Félagsbústaðir hf. hafa samþykkt fjárhagsáætlun fyrir árið 2027 og langtímaáætlun til 2031, sem gerir ráð fyrir áframhaldandi uppbyggingu félagslegs leiguhúsnæðis í Reykjavík.",
-      "url": "https://braggi.is/kh-felagsbustadir-fjarhagsaaetlun-gerir-rad-fyrir-466340/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:gervigreind-afhjupar-gagnavandamal-i-byggingaridnadi-53bbfa69",
-      "lane": "news",
-      "category": "project",
-      "title": "Gervigreind afhjúpar gagnavandamál í byggingariðnaði",
-      "entity": "braggi.is",
-      "date": "2026-09-30",
-      "summary": "Innleiðing gervigreindar hjá bandaríska verktakafyrirtækinu Pacific Pile & Marine hefur afhjúpað djúpstæð gagnastjórnunarvanda í stað þess að leysa þau.",
-      "url": "https://braggi.is/gervigreind-afhjupar-gagnavandamal-i-byggingaridnadi-53bbfa69/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:byggingaraform-samthykkt-fyrir-breytingar-a-innra-skipulagi-a-eyravegi-42",
-      "lane": "news",
-      "category": "investment",
-      "title": "Byggingaráform samþykkt fyrir breytingar á innra skipulagi á Eyravegi 42",
-      "entity": "braggi.is",
-      "date": "2026-09-30",
-      "summary": "Sveitarfélagið Árborg hefur samþykkt byggingaráform og byggingarleyfi fyrir breytingum á innra skipulagi á Eyravegi 42. Eik fasteignafélag ehf. er verktaki.",
-      "url": "https://braggi.is/byggingaraform-samthykkt-fyrir-breytingar-a-innra-skipulagi-a-eyravegi-42/",
-      "outlet": "braggi.is",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-thg-verktakar-laegstir-i-gufudalssvei",
@@ -514,25 +516,13 @@
       "is_new": false
     },
     {
-      "id": "news:reykjavik:byggingarrettur-i-sudurholum-og-hraunbergi",
-      "lane": "news",
-      "category": "project",
-      "title": "Byggingarréttur í Suðurhólum og Hraunbergi",
-      "entity": "Reykjavíkurborg",
-      "date": "2026-09-24",
-      "summary": "24. september 2026 Byggingarréttur í Suðurhólum og Hraunbergi",
-      "url": "https://reykjavik.is/frettir/2026/byggingarrettur-i-sudurholum-og-hraunbergi",
-      "outlet": "Reykjavíkurborg",
-      "is_new": false
-    },
-    {
       "id": "news:kadeco:radstefna-i-hljomaholl-14-oktober-sudurnesin-sem-drifkraftur-vaxtar",
       "lane": "news",
       "category": "investment",
-      "title": "24/9/2026 30/9/2026 Ráðstefna í Hljómahöll 14. október: Suðurnesin sem drifkraftur vaxtar",
+      "title": "24/9/2026 1/10/2026 Ráðstefna í Hljómahöll 14. október: Suðurnesin sem drifkraftur vaxtar",
       "entity": "Kadeco",
       "date": "2026-09-24",
-      "summary": "Fréttir 24/9/2026 30/9/2026 Ráðstefna í Hljómahöll 14. október: Suðurnesin sem drifkraftur vaxtar 17/9/2026 17/9/2026 Ásbrú - nýr vefur og sameiginlegur metnaður um hraðari uppbyggingu",
+      "summary": "Fréttir 24/9/2026 1/10/2026 Ráðstefna í Hljómahöll 14. október: Suðurnesin sem drifkraftur vaxtar 17/9/2026 17/9/2026 Ásbrú - nýr vefur og sameiginlegur metnaður um hraðari uppbyggingu",
       "url": "https://www.kadeco.is/frettir/radstefna-i-hljomaholl-14-oktober-sudurnesin-sem-drifkraftur-vaxtar",
       "outlet": "Kadeco",
       "is_new": false
@@ -766,18 +756,6 @@
       "is_new": false
     },
     {
-      "id": "news:byggingar:launafl-faer-92-4-milljona-loftraestiverk-i-fjardabyggdarhollinni",
-      "lane": "news",
-      "category": "project",
-      "title": "Launafl fær 92.4 milljóna loftræstiverk í Fjarðabyggðarhöllinni",
-      "entity": "byggingar.is",
-      "date": "2026-09-05",
-      "summary": "Launafl fær 92.4 milljóna loftræstiverk í Fjarðabyggðarhöllinni",
-      "url": "https://byggingar.is/launafl-faer-92-4-milljona-loftraestiverk-i-fjardabyggdarhollinni/",
-      "outlet": "byggingar.is",
-      "is_new": false
-    },
-    {
       "id": "news:byggingar-borgarlina:utm-source-rss-utm-medium-rss-utm-campaign-byrjad-ad-leggja-borgarlinu-vid-nauth",
       "lane": "news",
       "category": "project",
@@ -787,18 +765,6 @@
       "summary": "Byrjað að leggja Borgarlínu við Nauthólsveg Framkvæmdir við Borgarlínu eru hafnar við Nauthólsveg og HR. Þar er um að ræða hluta af fyrstu lotu Borgarlínunnar sem felur í sér breytingar á götusniði Nauthólsvegar, Menntavegar og Menntasveigs. Einnig stendur til að breyta gatnamótum og götutengingum en verkinu á að ljúka í júlí 2028. Ekki stendur til […] The....",
       "url": "https://byggingar.is/byrjad-ad-leggja-borgarlinu-vid-nautholsveg/?utm_source=rss&utm_medium=rss&utm_campaign=byrjad-ad-leggja-borgarlinu-vid-nautholsveg",
       "outlet": "byggingar.is / Borgarlína",
-      "is_new": false
-    },
-    {
-      "id": "news:reykjavik:borgarlinuframkvaemdir-hafnar-vid-nautholsveg-hr",
-      "lane": "news",
-      "category": "project",
-      "title": "Borgarlínuframkvæmdir hafnar við Nauthólsveg – HR",
-      "entity": "Reykjavíkurborg",
-      "date": "2026-09-01",
-      "summary": "1. september 2026 Borgarlínuframkvæmdir hafnar við Nauthólsveg – HR",
-      "url": "https://reykjavik.is/frettir/2026/borgarlinuframkvaemdir-hafnar-vid-nautholsveg-hr",
-      "outlet": "Reykjavíkurborg",
       "is_new": false
     }
   ]
