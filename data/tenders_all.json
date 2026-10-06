@@ -1,23 +1,23 @@
 {
   "schema_version": 1,
-  "generated": "2026-10-06T07:00:27Z",
-  "generated_at": "2026-10-06T07:00:27Z",
+  "generated": "2026-10-06T18:45:35Z",
+  "generated_at": "2026-10-06T18:45:35Z",
   "sources": {
     "utbodsvefur": {
-      "generated_at": "2026-10-06T07:00:26.972926+00:00",
-      "count": 70,
+      "generated_at": "2026-10-06T18:45:35.843315+00:00",
+      "count": 69,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders.json"
     },
     "offportal": {
-      "generated": "2026-10-06T07:00:27Z",
-      "count": 163,
+      "generated": "2026-10-06T18:45:35Z",
+      "count": 164,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders_offportal.json"
     },
     "not_covered": [
       {
         "source": "ted",
         "url": "https://api.ted.europa.eu/v3/notices/search",
-        "reason": "dropped 84 notices: expired deadline"
+        "reason": "dropped 85 notices: expired deadline"
       },
       {
         "source": "nlsh",
@@ -315,7 +315,7 @@
         "evidence_url": "https://ted.europa.eu/en/notice/-/detail/688636-2026",
         "seen_count": 1,
         "first_seen": "2026-10-06T07:00:27Z",
-        "last_seen": "2026-10-06T07:00:27Z",
+        "last_seen": "2026-10-06T18:45:35Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       },
@@ -327,13 +327,25 @@
         "evidence_url": "https://www.utbodsvefur.is/fjallabyggd-snjomokstur-og-halkuvarnir-2026-2029/",
         "seen_count": 1,
         "first_seen": "2026-10-06T07:00:27Z",
-        "last_seen": "2026-10-06T07:00:27Z",
+        "last_seen": "2026-10-06T18:45:35Z",
+        "reason": "unknown buyer/source found in tender feed",
+        "status": "pending"
+      },
+      {
+        "id": "tender:buyer:sveitarfélagið-vogar",
+        "name": "Sveitarfélagið Vogar",
+        "suggested_feed": "tenders_all",
+        "suggested_lane": "tender",
+        "evidence_url": "https://www.utbodsvefur.is/kaup-og-uppsetning-faeranlegra-huseininga/",
+        "seen_count": 1,
+        "first_seen": "2026-10-06T18:45:35Z",
+        "last_seen": "2026-10-06T18:45:35Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       }
     ]
   },
-  "count": 224,
+  "count": 223,
   "items": [
     {
       "reference": "",
@@ -2556,51 +2568,6 @@
       "source": "vegagerdin-samningum-lokid"
     },
     {
-      "reference": "2607299",
-      "project": "Haustbraut 2 – búsetukjarni",
-      "buyer": "Garðabær",
-      "notice_type": "Framkvæmd",
-      "deadline": "06.10.2026 kl. 11:00",
-      "deadline_local": "2026-10-06T11:00:00+00:00",
-      "deadline_utc": "2026-10-06T11:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-09-17T09:49:29+00:00",
-      "modified_at": "2026-09-17T09:49:29+00:00",
-      "url": "https://www.utbodsvefur.is/haustbraut-2-busetukjarni/",
-      "summary": "Garðabær, auglýsir eftir tilboðum í verkið: Haustbraut 2, búsetukjarni fullbúið hús. Verkið felur í sér byggja 600 m² búsetukjarna við Haustbraut 2 í ...",
-      "source": "utbodsvefur"
-    },
-    {
-      "reference": "2609344",
-      "project": "ÁLFTANES, MIÐSVÆÐI, Svæði 1 – Breiðamýri, Stígar – yfirborðsfrágangur.",
-      "buyer": "Garðabær",
-      "notice_type": "Framkvæmd",
-      "deadline": "06.10.2026 kl. 14:00",
-      "deadline_local": "2026-10-06T14:00:00+00:00",
-      "deadline_utc": "2026-10-06T14:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-09-22T14:10:58+00:00",
-      "modified_at": "2026-09-22T14:10:58+00:00",
-      "url": "https://www.utbodsvefur.is/alftanes-midsvaedi-svaedi-1-breidamyri-stigar-yfirbordsfragangur/",
-      "summary": "Verkið felst í að ljúka yfirborðsfrágangi í miðsvæði hverfisins Breiðumýrar á Álftanesi. Um er að ræða malbikun á aðalstíg í gegnum svæðið, gröft, fyl...",
-      "source": "utbodsvefur"
-    },
-    {
-      "reference": "-",
-      "project": "Leikskólinn Skýjaborg",
-      "buyer": "Hvalfjarðarsveit",
-      "notice_type": "Framkvæmd",
-      "deadline": "06.10.2026 kl. 15:00",
-      "deadline_local": "2026-10-06T15:00:00+00:00",
-      "deadline_utc": "2026-10-06T15:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-09-01T16:02:05+00:00",
-      "modified_at": "2026-09-01T16:02:05+00:00",
-      "url": "https://www.utbodsvefur.is/leikskolinn-skyjaborg/",
-      "summary": "Hvalfjarðarsveit óskar eftir tilboðum í byggingu nýs leikskóla, Skýjaborg, í Hvalfjarðarsveit. Verkið felst í jarðvinnu, uppsteypu byggingar og fullna...",
-      "source": "utbodsvefur"
-    },
-    {
       "reference": "HSV-VF030208802",
       "project": "Aflspennir 60 MVA 66/33/(11) kV",
       "buyer": "HS Veitur",
@@ -3210,7 +3177,7 @@
       "deadline_utc": "2026-11-03T10:00:00+00:00",
       "deadline_confirmed": true,
       "posted_at": "2026-10-01T11:42:37+00:00",
-      "modified_at": "2026-10-01T11:42:37+00:00",
+      "modified_at": "2026-10-06T15:05:01+00:00",
       "url": "https://www.utbodsvefur.is/utbod-a-thjonustu-og-vidhald-gatnalysingar-i-gardabae/",
       "summary": "Verkið felur í sér þjónustu og viðhald á allri gatnalýsingu í sveitarfélaginu bæði á veitusvæði HS Veitna og Veitna. Gatnalýsingarkerfið samanstendur...",
       "source": "utbodsvefur"
@@ -3291,6 +3258,21 @@
       "source": "utbodsvefur"
     },
     {
+      "reference": "202616",
+      "project": "Kaup og uppsetning færanlegra húseininga",
+      "buyer": "Sveitarfélagið Vogar",
+      "notice_type": "Framkvæmd",
+      "deadline": "05.11.2026 kl. 12:00",
+      "deadline_local": "2026-11-05T12:00:00+00:00",
+      "deadline_utc": "2026-11-05T12:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-06T08:34:44+00:00",
+      "modified_at": "2026-10-06T09:58:04+00:00",
+      "url": "https://www.utbodsvefur.is/kaup-og-uppsetning-faeranlegra-huseininga/",
+      "summary": "Consensa, fyrir hönd Sveitarfélagsins Voga, óskar eftir tilboðum í verkefnið „Kaup og uppsetning færanlegra húseininga við Suðurvelli“, sem vinna skal...",
+      "source": "utbodsvefur"
+    },
+    {
       "reference": "679193-2026",
       "project": "Framework Agreement for Fault Response Services, Maintenance and Installation of Mechanical and Electrical Equipment",
       "buyer": "Veitur ohf.",
@@ -3333,6 +3315,21 @@
       "modified_at": null,
       "url": "https://www.utbodsvefur.is/nytt-hjukrunarheimili-i-mosfellsbae-leiguleid/",
       "summary": "Framkvæmdasýslan – Ríkiseignir (FSRE) f.h. félags- og húsnæðismálaráðuneytis, kt. 521218-0610, sem hér eftir nefnist kaupandi, óskar eftir leigutilboð...",
+      "source": "utbodsvefur"
+    },
+    {
+      "reference": "10-2026",
+      "project": "Mönnun, rekstur og viðhald dráttarbátsins Vattar",
+      "buyer": "Fjarðabyggð",
+      "notice_type": "Þjónusta",
+      "deadline": "10.11.2026 kl. 13:00",
+      "deadline_local": "2026-11-10T13:00:00+00:00",
+      "deadline_utc": "2026-11-10T13:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-06T13:29:11+00:00",
+      "modified_at": "2026-10-06T16:09:09+00:00",
+      "url": "https://www.utbodsvefur.is/monnun-rekstur-og-vidhald-drattarbatsins-vattar/",
+      "summary": "Fjarðarbyggðarhafnir óska eftir tilboðum í mönnun, rekstur og almennt viðhald dráttarbátsins Vattar. Þjónustan nær til eftirfarandi hafna á starfssvæð...",
       "source": "utbodsvefur"
     },
     {
