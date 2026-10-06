@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated": "2026-10-06T18:41:08Z",
+  "generated": "2026-10-06T20:10:16Z",
   "window": {
     "from": "2026-09-06",
     "to": "2026-10-06"
@@ -289,7 +289,7 @@
     "not_covered": {},
     "source_candidates": []
   },
-  "count": 46,
+  "count": 47,
   "items": [
     {
       "id": "news:vegagerdin:umhverfismat-var-kynnt-a-opnu-husi",
@@ -301,6 +301,18 @@
       "summary": "Frétt­ir 6. október 2026 Umhverfismat var kynnt á opnu húsi",
       "url": "https://www.vegagerdin.is/vegagerdin/starfsemi/frettir/umhverfismat-var-kynnt-a-opnu-husi",
       "outlet": "Vegagerðin",
+      "is_new": true
+    },
+    {
+      "id": "news:ruv-innlent-rss:2026-10-06-fa-ekki-ad-afryja-domi-um-virkjunarleyfi-hvammsvirkjunar-beint-til-ha",
+      "lane": "news",
+      "category": "project",
+      "title": "Fá ekki að áfrýja dómi um virkjunarleyfi Hvammsvirkjunar beint til Hæstaréttar",
+      "entity": "ruv.is / innlent",
+      "date": "2026-10-06",
+      "summary": "Hæstiréttur hafnaði í gær beiðni landeigenda um að áfrýja dómi héraðsdóms um virkjunarleyfi Hvammsvirkjunar beint til æðsta dómstigsins. Landeigendur töldu að dæmdi Hæstiréttur í málinu hefði það verulegt fordæmisgildi, meðal annars fyrir skýringu raforkulaga og skýringu á bindandi réttaráhrifum. Héraðsdómur féllst hins vegar ekki á það. Deilan snýr að áfor...",
+      "url": "https://www.ruv.is/frettir/innlent/2026-10-06-fa-ekki-ad-afryja-domi-um-virkjunarleyfi-hvammsvirkjunar-beint-til-haestarettar-489041/",
+      "outlet": "ruv.is / innlent",
       "is_new": true
     },
     {
@@ -337,18 +349,6 @@
       "summary": "Framkvæmdir við Hús Heilbrigðisvísindasviðs Háskóla Íslands",
       "url": "https://byggingar.is/framkvaemdir-vid-hus-heilbrigdisvisindasvids-haskola-islands/",
       "outlet": "byggingar.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:vindorkuver-ad-hnotasteini",
-      "lane": "news",
-      "category": "investment",
-      "title": "Vindorkuver að Hnotasteini",
-      "entity": "braggi.is",
-      "date": "2026-10-06",
-      "summary": "Húsnæðis-, mannvirkja- og skipulagsstofnun hefur til umfjöllunar skipulagsumsókn vegna fyrirhugaðs vindorkuvers að Hnotasteini á Hólaheiði í Núpasveit, en um er að ræða mat á umhverfisáhrifum. Fyrirtækið Qair Ísland áformar að reisa vindorkugarð inna",
-      "url": "https://braggi.is/vindorkuver-ad-hnotasteini/",
-      "outlet": "braggi.is",
       "is_new": true
     },
     {
@@ -412,30 +412,6 @@
       "is_new": true
     },
     {
-      "id": "news:braggi:midhus-byggingarreitur-fyrir-gistihus-170f6a",
-      "lane": "news",
-      "category": "investment",
-      "title": "Miðhús, byggingarreitur fyrir gistihús",
-      "entity": "braggi.is",
-      "date": "2026-10-06",
-      "summary": "Rangárþing eystra hefur auglýst tillögu að nýju deiliskipulagi fyrir Miðhús, sem felur í sér byggingarreit fyrir gistihús. Tillagan, sem dagsett er 5. október 2026, tekur til 3.160 fermetra svæðis úr landi Miðhúsa, L14180.",
-      "url": "https://braggi.is/midhus-byggingarreitur-fyrir-gistihus-170f6a/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:midhus-byggingarreitur-fyrir-gistihus",
-      "lane": "news",
-      "category": "investment",
-      "title": "Miðhús, byggingarreitur fyrir gistihús",
-      "entity": "braggi.is",
-      "date": "2026-10-06",
-      "summary": "Rangárþing eystra hefur auglýst tillögu að nýju deiliskipulagi fyrir Miðhús, sem gerir ráð fyrir byggingarreit fyrir gistihús á svæðinu. Tillagan, sem dagsett er 6. október 2026, tekur til 3.160 fermetra lands úr landi Miðhúsa, L14180, og markar miki",
-      "url": "https://braggi.is/midhus-byggingarreitur-fyrir-gistihus/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
       "id": "news:braggi:malbikun-naestu-daga",
       "lane": "news",
       "category": "project",
@@ -468,6 +444,42 @@
       "date": "2026-10-06",
       "summary": "Frumvarp félags- og húsnæðismálaráðherra bannar mánaðarlega vísitölutengingu húsaleigu og takmarkar reglubundnar hækkanir á samningstíma við vísitölu neysluverðs. Lögin eiga að taka gildi 1. júlí 2027. Samkvæmt greinargerðinni eru 55% gildra leigusamninga í leiguskrá ótímabundnir, og þeir falla að f",
       "url": "https://braggi.is/leigubremsan-stodvar-haekkanir-a-samningstima/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:leigubremsa-tolur-vega-leigufelog-thyngra",
+      "lane": "news",
+      "category": "project",
+      "title": "Tölur frumvarpsins vega leigufélög þyngra en markaðinn",
+      "entity": "braggi.is",
+      "date": "2026-10-06",
+      "summary": "Tölurnar sem frumvarp um leigubremsu byggir á koma úr leiguskrá HMS. Þar eru 36% gildra samninga við einstaklinga, en samkvæmt HMS eru einstaklingar 60% eigenda á leigumarkaði. Leigufélög vega því mun þyngra í tölunum en á markaðnum. Húseigendafélagið varar við að einstaklingar selji íbúðir sínar ef",
+      "url": "https://braggi.is/leigubremsa-tolur-vega-leigufelog-thyngra/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:laxa-aftur-i-gamla-farveginn-krafturinn-i-gljufrinu-magnadur",
+      "lane": "news",
+      "category": "project",
+      "title": "Laxá aftur í gamla farveginn – krafturinn í gljúfrinu magnaður",
+      "entity": "braggi.is",
+      "date": "2026-10-06",
+      "summary": "Verið er að endurnýja gangráð og segulmögnun í Laxárstöð III, sem hefur leitt til þess að vatni Laxár er tímabundið beint í sinn upprunalega farveg í Laxárgljúfri. Þessi framkvæmd gerir það að verkum að sjá má Laxá í sínum gamla farvegi, sem er sjald",
+      "url": "https://braggi.is/laxa-aftur-i-gamla-farveginn-krafturinn-i-gljufrinu-magnadur/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:gotulokun-i-vidigrund-a-saudarkroki",
+      "lane": "news",
+      "category": "project",
+      "title": "Götulokun í Víðigrund á Sauðárkróki",
+      "entity": "braggi.is",
+      "date": "2026-10-06",
+      "summary": "Víðigrund á Sauðárkróki verður lokuð fyrir allri umferð frá síðdegis þriðjudaginn 6. október til síðdegis fimmtudagsins 8. október vegna framkvæmda. Ásta Pálmadóttir hjá Steypustöð Skagafjarðar og Gunnar Páll Ólafsson hjá Skagafirði eru tengiliðir ve",
+      "url": "https://braggi.is/gotulokun-i-vidigrund-a-saudarkroki/",
       "outlet": "braggi.is",
       "is_new": true
     },
