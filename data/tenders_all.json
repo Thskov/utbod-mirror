@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated": "2026-10-06T18:45:35Z",
-  "generated_at": "2026-10-06T18:45:35Z",
+  "generated": "2026-10-06T20:14:53Z",
+  "generated_at": "2026-10-06T20:14:53Z",
   "sources": {
     "utbodsvefur": {
-      "generated_at": "2026-10-06T18:45:35.843315+00:00",
+      "generated_at": "2026-10-06T20:14:53.493267+00:00",
       "count": 69,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders.json"
     },
     "offportal": {
-      "generated": "2026-10-06T18:45:35Z",
+      "generated": "2026-10-06T20:14:53Z",
       "count": 164,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders_offportal.json"
     },
@@ -315,7 +315,7 @@
         "evidence_url": "https://ted.europa.eu/en/notice/-/detail/688636-2026",
         "seen_count": 1,
         "first_seen": "2026-10-06T07:00:27Z",
-        "last_seen": "2026-10-06T18:45:35Z",
+        "last_seen": "2026-10-06T20:14:53Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       },
@@ -327,7 +327,7 @@
         "evidence_url": "https://www.utbodsvefur.is/fjallabyggd-snjomokstur-og-halkuvarnir-2026-2029/",
         "seen_count": 1,
         "first_seen": "2026-10-06T07:00:27Z",
-        "last_seen": "2026-10-06T18:45:35Z",
+        "last_seen": "2026-10-06T20:14:53Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       },
@@ -339,7 +339,7 @@
         "evidence_url": "https://www.utbodsvefur.is/kaup-og-uppsetning-faeranlegra-huseininga/",
         "seen_count": 1,
         "first_seen": "2026-10-06T18:45:35Z",
-        "last_seen": "2026-10-06T18:45:35Z",
+        "last_seen": "2026-10-06T20:14:53Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       }
