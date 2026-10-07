@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated": "2026-10-06T20:10:16Z",
+  "generated": "2026-10-07T06:30:01Z",
   "window": {
-    "from": "2026-09-06",
-    "to": "2026-10-06"
+    "from": "2026-09-07",
+    "to": "2026-10-07"
   },
   "coverage": {
     "sources": [
@@ -286,21 +286,23 @@
     ]
   },
   "sources": {
-    "not_covered": {},
+    "not_covered": {
+      "vegagerdin": "HTTP Error 502: Bad Gateway"
+    },
     "source_candidates": []
   },
-  "count": 47,
+  "count": 45,
   "items": [
     {
-      "id": "news:vegagerdin:umhverfismat-var-kynnt-a-opnu-husi",
+      "id": "news:braggi:nytt-gamasvaedi-og-aukid-oryggi-a-grundartanga",
       "lane": "news",
       "category": "project",
-      "title": "6. október 2026 Umhverfismat var kynnt á opnu húsi",
-      "entity": "Vegagerðin",
-      "date": "2026-10-06",
-      "summary": "Frétt­ir 6. október 2026 Umhverfismat var kynnt á opnu húsi",
-      "url": "https://www.vegagerdin.is/vegagerdin/starfsemi/frettir/umhverfismat-var-kynnt-a-opnu-husi",
-      "outlet": "Vegagerðin",
+      "title": "Nýtt gámasvæði og aukið öryggi á Grundartanga",
+      "entity": "braggi.is",
+      "date": "2026-10-07",
+      "summary": "Framkvæmdum við nýtt gámasvæði Faxaflóahafna á baksvæði Tangabakka á Grundartanga er lokið. Þessar framkvæmdir hafa stórbætt aðstöðu til meðhöndlunar og geymslu gáma á svæðinu. Auk þess hefur ný lýsing verið sett upp á gámasvæðinu, sem eykur öryggi",
+      "url": "https://braggi.is/nytt-gamasvaedi-og-aukid-oryggi-a-grundartanga/",
+      "outlet": "braggi.is",
       "is_new": true
     },
     {
@@ -352,18 +354,6 @@
       "is_new": true
     },
     {
-      "id": "news:braggi:uthlutun-og-sala-loda-a-hnodraholti-sudur-haholti",
-      "lane": "news",
-      "category": "project",
-      "title": "Úthlutun og sala lóða á Hnoðraholti suður - háholti",
-      "entity": "braggi.is",
-      "date": "2026-10-06",
-      "summary": "Bæjarráð Garðabæjar samþykkti á fundi sínum þann 6. október 2026 úthlutunarreglur og úthlutunarskilmála varðandi úthlutun og sölu byggingarréttar lóða á Hnoðraholti suður – háholti. Bæjarstjóra, Almari Guðmundssyni, var falið að auglýsa lóðirnar til",
-      "url": "https://braggi.is/uthlutun-og-sala-loda-a-hnodraholti-sudur-haholti/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
       "id": "news:braggi:utbod-vetrarthjonusta-stofnanaloda-og-husagatna-i-gardabae-2026-2029",
       "lane": "news",
       "category": "project",
@@ -388,6 +378,18 @@
       "is_new": true
     },
     {
+      "id": "news:braggi:rennibrautir-risa-vid-sundlaug-saudarkroks",
+      "lane": "news",
+      "category": "project",
+      "title": "Rennibrautir rísa við Sundlaug Sauðárkróks",
+      "entity": "braggi.is",
+      "date": "2026-10-06",
+      "summary": "Uppsetning rennibrauta við Sundlaug Sauðárkróks er hafin. Framkvæmdirnar geta leitt til tímabundinna lokana á nýja sundlaugarkarinu á vinnutíma. Áætlað er að karið verði opnað að nýju klukkan 18 á þeim dögum sem lokanir eiga sér stað. Tilkynnt verðu",
+      "url": "https://braggi.is/rennibrautir-risa-vid-sundlaug-saudarkroks/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
       "id": "news:braggi:opnir-fundir-um-valkosti-fyrir-vegamotalinu-2",
       "lane": "news",
       "category": "project",
@@ -408,30 +410,6 @@
       "date": "2026-10-06",
       "summary": "Byggðaráð Múlaþings hefur hafnað kaupum á Valaskjálf á Egilsstöðum til að hýsa bæjarskrifstofu, en áætluð heildarfjárfesting vegna kaupa og endurbóta var metin á 2.250 milljónir króna. Á fundi ráðsins þann 6. október 2026 var farið yfir þarfagreining",
       "url": "https://braggi.is/mulathing-hafnar-kaupum-a-valaskjalf-vegna-mikils-kostnadar-og-ahrifa-a-fjarhag/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:malbikun-naestu-daga",
-      "lane": "news",
-      "category": "project",
-      "title": "Malbikun næstu daga",
-      "entity": "braggi.is",
-      "date": "2026-10-06",
-      "summary": "Malbikunarvinnu í Vestmannaeyjum er áætlað að ljúka á næstu dögum, en verkið hófst þriðjudaginn 6. október 2026. Vélar vegna framkvæmdanna komu til eyjanna mánudaginn 5. október. Fyrstu malbikunarframkvæmdirnar fóru fram á Gjábakkabryggju og svæðinu",
-      "url": "https://braggi.is/malbikun-naestu-daga/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:lokun-a-staedi-vid-leikskola-vegna-steypuvinnu-midvikudaginn-7-oktober",
-      "lane": "news",
-      "category": "project",
-      "title": "Lokun á stæði við leikskóla vegna steypuvinnu miðvikudaginn 7. október",
-      "entity": "braggi.is",
-      "date": "2026-10-06",
-      "summary": "Vegna steypuvinnu við nýjan leikskóla á Seltjarnarnesi verður hluta af bílastæðinu við leikskólana Sólbrekku og Mánabrekku lokað miðvikudaginn 7. október. Lokunin mun standa yfir frá klukkan 8:00 til 16:00. Framkvæmdin felur í sér steypuvinnu sem kr",
-      "url": "https://braggi.is/lokun-a-staedi-vid-leikskola-vegna-steypuvinnu-midvikudaginn-7-oktober/",
       "outlet": "braggi.is",
       "is_new": true
     },
@@ -472,6 +450,18 @@
       "is_new": true
     },
     {
+      "id": "news:braggi:husnaedismal-og-kronutolugjold-i-adgerdapakka-rikisstjornarinnar-a76fa14b",
+      "lane": "news",
+      "category": "project",
+      "title": "Húsnæðismál og krónutölugjöld í aðgerðapakka ríkisstjórnarinnar",
+      "entity": "braggi.is",
+      "date": "2026-10-06",
+      "summary": "Ríkisstjórnin vinnur að aðgerðapakka sem miðar að því að liðka fyrir kjarasamningum. Aðgerðirnar beinast að breiðu sviði, þar á meðal húsnæðismálum og krónutölugjöldum. Í síðustu viku var ákveðið að takmarka flestar gjaldskrárhækkanir ríkisins við 2,",
+      "url": "https://braggi.is/husnaedismal-og-kronutolugjold-i-adgerdapakka-rikisstjornarinnar-a76fa14b/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
       "id": "news:braggi:gotulokun-i-vidigrund-a-saudarkroki",
       "lane": "news",
       "category": "project",
@@ -480,18 +470,6 @@
       "date": "2026-10-06",
       "summary": "Víðigrund á Sauðárkróki verður lokuð fyrir allri umferð frá síðdegis þriðjudaginn 6. október til síðdegis fimmtudagsins 8. október vegna framkvæmda. Ásta Pálmadóttir hjá Steypustöð Skagafjarðar og Gunnar Páll Ólafsson hjá Skagafirði eru tengiliðir ve",
       "url": "https://braggi.is/gotulokun-i-vidigrund-a-saudarkroki/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:earthworks-laekjargata-1-samid-vid-karinu-ehf-um-jardvinnu",
-      "lane": "news",
-      "category": "project",
-      "title": "Earthworks - Lækjargata 1: Samið við Karínu ehf. um jarðvinnu",
-      "entity": "braggi.is",
-      "date": "2026-10-06",
-      "summary": "Framkvæmdasýslan Ríkiseignir hefur samið við Karínu ehf. um jarðvinnu við Lækjargötu 1.",
-      "url": "https://braggi.is/earthworks-laekjargata-1-samid-vid-karinu-ehf-um-jardvinnu/",
       "outlet": "braggi.is",
       "is_new": true
     },
@@ -505,7 +483,7 @@
       "summary": "Vegagerðin varar við hrími á vegum og launhálku við vissar aðstæður.Birgir Þór Harðarson Vegagerðin varar við að sums staðar geti orðið vart hríms eða launhálku á vegum í nótt, einkum þar sem vegir liggja í dældum í landslagi nærri sjó, vatni eða ám. Vegir eru þó yfirleitt þurrir. Í nótt verður hæg breytileg átt og víða heiðskírt og frystir víðast hvar á la...",
       "url": "https://www.ruv.is/frettir/innlent/2026-10-05-vegagerdin-varar-vid-hrimi-a-vegum-eda-launhalku-i-nott-488894/",
       "outlet": "ruv.is / innlent",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-ferro-zink-laegst-i-endurnyjun-og-vid",
@@ -517,7 +495,7 @@
       "summary": "Ferro Zink lægst í endurnýjun og viðhald ljósastaura – 35% undir kostnaðaráætlun Ferro Zink hf. átti lægsta tilboðið í verðfyrirspurn Reykjavíkurborgar vegna endurnýjunar og viðhalds ljósastaura. Tilboð fyrirtækisins nam 6,93 milljónum króna og var um 3,74 milljónum undir kostnaðaráætlun. Tilboð í verkefnið, sem ber heitið „Ljósastaurar. Endurnýjun og viðha...",
       "url": "https://byggingar.is/ferro-zink-laegst-i-endurnyjun-og-vidhald-ljosastaura/?utm_source=rss&utm_medium=rss&utm_campaign=ferro-zink-laegst-i-endurnyjun-og-vidhald-ljosastaura",
       "outlet": "byggingar.is / niðurstöður útboða",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "news:byggingar-borgarlina:utm-source-rss-utm-medium-rss-utm-campaign-exa-nordic-faer-honnun-reykjanesbraut",
@@ -529,7 +507,7 @@
       "summary": "Exa Nordic fær hönnun Reykjanesbrautar–Bústaðavegar og hluta 3. lotu Borgarlínu Ráðgjafarfyrirtækið exa nordic ehf. hefur undirritað samning við Vegagerðina um for- og verkhönnun nýrra gatnamóta Reykjanesbrautar og Bústaðavegar ásamt hluta 3. lotu Borgarlínu frá Stekkjarbakka að Vogabyggð. Samningurinn var undirritaður 2. október af Bergþóru Þorkelsdóttur,....",
       "url": "https://byggingar.is/exa-nordic-faer-honnun-reykjanesbrautar-bustadavegar/?utm_source=rss&utm_medium=rss&utm_campaign=exa-nordic-faer-honnun-reykjanesbrautar-bustadavegar",
       "outlet": "byggingar.is / Borgarlína",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "news:reykjavik:utbod-sorphirdu-i-breidholti",
