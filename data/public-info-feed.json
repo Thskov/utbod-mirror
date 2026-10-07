@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated": "2026-10-06T20:11:07Z",
+  "generated": "2026-10-07T06:45:02Z",
   "window": {
-    "from": "2026-09-29",
-    "to": "2026-10-06"
+    "from": "2026-09-30",
+    "to": "2026-10-07"
   },
   "coverage": {
     "municipalities": [
@@ -271,7 +271,7 @@
         "evidence_url": "https://island.is/reglugerdir/nr/0809-2026",
         "seen_count": 1,
         "first_seen": "2026-09-11T06:45:01Z",
-        "last_seen": "2026-10-06T20:11:07Z",
+        "last_seen": "2026-10-07T06:45:02Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       }
@@ -375,7 +375,7 @@
         },
         "byggingar-opnun-utboda": {
           "undated": 18,
-          "outside_window": 13
+          "outside_window": 14
         },
         "vb": {
           "no_matching_keywords": 40
@@ -421,8 +421,30 @@
       }
     }
   },
-  "count": 271,
+  "count": 264,
   "items": [
+    {
+      "id": "legislation:althingi-thingmalaskra:endurskodud-aaetlun-um-framlagningu-thingmala-a-vetrar-og-vorthingi-2026-lokautg",
+      "lane": "legislation",
+      "source": "althingi-thingmalaskra",
+      "doc_type": "parliamentary",
+      "title": "Endurskoðuð þingmálaskrá fyrir 157. löggjafarþing",
+      "entity": "Alþingi",
+      "status": "tracker",
+      "date": "2026-10-07",
+      "summary": "13. Frumvarp til laga um breytingu á lögum um mannvirki, nr. 160/2010 (einföldun byggingarreglugerðar og endurskoðun byggingareftirlits). / 14. Frumvarp til laga um breytingu á skipulagslögum nr. 123/2010 (raflínuskipulag). / 2. Frumvarp til laga um breytingu á lögum um stefnur og aðgerðaáætlanir á sviði húsnæðis- og skipulagsmála, samgangna og byggðamála, nr. 30/2023 (stefnumörkun).",
+      "url": "https://www.althingi.is/media/uncategorized/Endurskodud-aaetlun-um-framlagningu-thingmala-a-vetrar-og-vorthingi-2026-lokautgafa-leidrettX.pdf",
+      "index_url": "https://www.althingi.is/thingstorf/leidbeiningar-og-yfirlit/thingmalaskra-rikisstjornar/",
+      "keywords_matched": [
+        "bygging",
+        "mannvirki",
+        "samgöngur",
+        "skipulag",
+        "umhverfismat"
+      ],
+      "case_number": "157. löggjafarþing",
+      "period": "2025–2026"
+    },
     {
       "id": "skgatt:1158/2026",
       "lane": "planning",
@@ -696,7 +718,7 @@
       "entity": "Reykjavíkurborg",
       "status": "published",
       "date": "2026-10-02",
-      "summary": "es/default/files/styles/landscape_4k/public/2026-10/23080101_sorphirda_090_small.jpg?h=34e43602&itok=OiWjYZCb 3840w\" data-sizes=\"auto\" /> 2. október 2026 Útboð á sorphirðu í Breiðholti <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2026-10/undirritun_rhus_small.jpg?h=58db5454&itok=tIZUN4Z2\" alt=\"F…",
+      "summary": "es/default/files/styles/landscape_4k/public/2026-10/23080101_sorphirda_090_small.jpg?h=34e43602&itok=OiWjYZCb 3840w\" data-sizes=\"auto\" /> 2. október 2026 Útboð á sorphirðu í Breiðholti <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2026-10/0w5a6719_large.jpeg.jpg?h=1c9b88c9&itok=sFuEn8Yw\" alt=\"Hóp…",
       "url": "https://reykjavik.is/frettir/2026/utbod-sorphirdu-i-breidholti",
       "keywords_matched": [
         "opinber innkaup"
@@ -763,21 +785,6 @@
       "review_deadline": "2026-10-15",
       "summary": "málsnr. 2026085585",
       "url": "https://skipulagsgatt.is/issues/5482"
-    },
-    {
-      "id": "announcement:byggingar-opnun-utboda:thg-verktakar-laegstir-i-gufudalssveit-1-46-milljordum-yfir-kostnadaraaetlun",
-      "lane": "announcement",
-      "source": "byggingar-opnun-utboda",
-      "title": "ÞG Verktakar lægstir í Gufudalssveit – 1.46 milljörðum yfir kostnaðaráætlun",
-      "entity": "Byggingar.is",
-      "status": "published",
-      "date": "2026-09-29",
-      "summary": "ÞG Verktakar lægstir í Gufudalssveit – 1.46 milljörðum yfir kostnaðaráætlun byggingar - 29/09/2026",
-      "url": "https://byggingar.is/thg-verktakar-laegstir-i-gufudalssveit-1-46-milljordum-yfir-kostnadaraaetlun/",
-      "keywords_matched": [
-        "bygging",
-        "opinber innkaup"
-      ]
     },
     {
       "id": "skgatt:1121/2026",
@@ -1360,19 +1367,6 @@
       "url": "https://skipulagsgatt.is/issues/5375"
     },
     {
-      "id": "skgatt:1018/2026",
-      "lane": "planning",
-      "title": "Austurvegur 69 - Óveruleg breyting á deiliskipulagi",
-      "entity": "Árborg",
-      "case_number": "1018/2026",
-      "plan_type": "deiliskipulag",
-      "status": "Endanleg gögn",
-      "date": "2026-09-01",
-      "review_deadline": "2026-09-29",
-      "summary": "Lögð er fram breyting á gildandi deiliskipulagi fyrir austurveg 69 sem er skilgreint í gildandi Aðalskipulagi Árborgar 2020-2036, sem verslunar- og þjónustusvæði (VÞ6). Breytingarnar eru eftirfarandi: 1. Allar lóðir við Austurveg 69 fá nýtt staðfangaheiti. Breytingarnar má sjá í töflu 1.2 Eftir breytingu. 2. Lóðunum fjölgar um eina. Lóð 69b er skipt upp í t…",
-      "url": "https://skipulagsgatt.is/issues/5373"
-    },
-    {
       "id": "skgatt:1017/2026",
       "lane": "planning",
       "title": "Hraunbraut 9",
@@ -1794,19 +1788,6 @@
       ]
     },
     {
-      "id": "skgatt:0877/2026",
-      "lane": "planning",
-      "title": "Skógarflöt 9a - gestahús - Óveruleg breyting á deiliskipulagi",
-      "entity": "Árborg",
-      "case_number": "0877/2026",
-      "plan_type": "deiliskipulag",
-      "status": "Endanleg gögn",
-      "date": "2026-07-14",
-      "review_deadline": "2026-09-29",
-      "summary": "Lögð er fram tillaga óverulegrar breytingar á deiliskipulagi sem tekur til lóðar Skógarflatar 9a. Í breytingunni felst að skilgreindar eru byggingarheimildir fyrir stakstæðu gesta- og/eða gistihúsi allt að 50 fm innan byggingarreits íbúðarhúss. Heildar nýtingarhlutfall lóðarinnar helst óbreytt.",
-      "url": "https://skipulagsgatt.is/issues/5232"
-    },
-    {
       "id": "skgatt:0874/2026",
       "lane": "planning",
       "title": "Selfosslína 1 - breyting í Hellisskógi - Aðalskipulagsbreyting",
@@ -2191,19 +2172,6 @@
       "url": "https://island.is/domar/g-c97113b5-4d0c-49c0-828a-6205c6a62761"
     },
     {
-      "id": "skgatt:0814/2026",
-      "lane": "planning",
-      "title": "Breyting skilmálum deiliskipulags „Miðbæ Hraun vestur“ vegna Álfaskeiðs 16.",
-      "entity": "Hafnarfjörður",
-      "case_number": "0814/2026",
-      "plan_type": "deiliskipulag",
-      "status": "Endanleg gögn",
-      "date": "2026-06-29",
-      "review_deadline": "2026-09-29",
-      "summary": "Á afgreiðslufundi skipulagsfulltrúa þann 24. júní 2026 sl. var samþykkt að grenndarkynna í samræmi við 2. mgr. 43. gr. skipulagslaga nr. 123/2010 umsókn eiganda við Álfaskeið 16. Breytingin felst í því að heimilt hámarks byggingarmagn er hækkað úr 300 m2 í 393 m2 og nýtingarhlutfall er hækkað á lóðinni úr 0,23 í 0,31 í samræmi við samþykkta aðaluppdrætti, d…",
-      "url": "https://skipulagsgatt.is/issues/5169"
-    },
-    {
       "id": "skgatt:0813/2026",
       "lane": "planning",
       "title": "Ártúnsholt, hverfi 7.1 - Rafstöðvarvegur 33 og 33A - USK26060195",
@@ -2376,18 +2344,6 @@
       "review_deadline": "2026-10-22",
       "summary": "Sótt er um að 29,9 m² ósamþykkt bátaskýli verði breytt í íbúðarrými og verði hluti af núverandi húsnæði. Ytra byrði hússins breytist, gluggum fjölgar, núverandi gluggar stækkaðir og hurðum bætt við. Hæð hússins helst óbreytt og ekki er verið að breyta hæð lóðarmarka. Byggingarmagn eykst úr 356,2 m² í 386,1 m². Nýtingarhlutfall hækkar úr 0,62 í 0,67.",
       "url": "https://skipulagsgatt.is/issues/5110"
-    },
-    {
-      "id": "skgatt:0751/2026",
-      "lane": "planning",
-      "title": "Hvalárlína 1 og Miðdalslína 1 - Viðbót við fyrri matsáætlun",
-      "entity": "Reykhólahreppur",
-      "case_number": "0751/2026",
-      "status": "Álit HMS um matsáætlun",
-      "date": "2026-06-15",
-      "review_deadline": "2026-09-29",
-      "summary": "Landsnet hefur ákveðið að bæta við tveimur valkostum inn í umhverfismat Hvalárlínu 1 og Miðdalslínu 1. Annars vegar verður tekinn til skoðunar sá kostur að Hvalárlína 1 geti verið loftlína alla leið og hins vegar nýr kostur um legu Miðdalslínu 1. Hvalárlína 1. Landsnet hefur ákveðið að bæta við valkosti sem fela í sér loftlínu alla leið í Hvalárlínu 1. Lega…",
-      "url": "https://skipulagsgatt.is/issues/5106"
     },
     {
       "id": "skgatt:0734/2026",
@@ -2809,19 +2765,6 @@
       "review_deadline": "2026-10-05",
       "summary": "Reykjanesbær auglýsir breytingu á deiliskipulagi skv. 1. mgr. 43. gr. skipulagslagaVerne Global leggur fram tillögu að breytingu á deiliskipulagi. Sótt er um breytingar á skilgreindum byggingarreitum og -heimildum fyrir lóðina: Reitur 301 verði stækkaður til suðurs og vesturs og reitir 401 og 501 sameinaðir í einn, samanlagt minni reit, 401, og byggingamagn…",
       "url": "https://skipulagsgatt.is/issues/4862"
-    },
-    {
-      "id": "skgatt:0513/2026",
-      "lane": "planning",
-      "title": "Dvergasteinar - Deiliskipulagsbreyting",
-      "entity": "Árborg",
-      "case_number": "0513/2026",
-      "plan_type": "deiliskipulag",
-      "status": "Endanleg gögn",
-      "date": "2026-04-30",
-      "review_deadline": "2026-09-29",
-      "summary": "Lögð er fram tillaga deiliskipulagsbreytingar er varðar Dvergasteina á Stokkseyri. Í breytingunni felst að gert er ráð fyrir heimild fyrir raðhús á lóð Dvergasteina 1 og 3 þar sem áður var gert ráð fyrir einbýlishúsum. Samhliða er gert ráð fyrir að gatan verði að botnlanga. Engar aðrar breytingar eru gerðar á byggingaskilmálum annarra lóða deiliskipulagsins.",
-      "url": "https://skipulagsgatt.is/issues/4868"
     },
     {
       "id": "skgatt:0481/2026",
@@ -3492,19 +3435,6 @@
       "url": "https://skipulagsgatt.is/issues/3697"
     },
     {
-      "id": "skgatt:1007/2025",
-      "lane": "planning",
-      "title": "Breyting á deiliskipulagi Suðurhafnar vegna Óseyrarbrautar 1-3",
-      "entity": "Hafnarfjörður",
-      "case_number": "1007/2025",
-      "plan_type": "deiliskipulag",
-      "status": "Endanleg gögn",
-      "date": "2025-07-18",
-      "review_deadline": "2026-09-29",
-      "summary": "Breyting á deiliskipulagi Suðurhafnar vegna Óseyrarbrautar 1-3. Á lóðunum Óseyrarbraut 1-3 er gert ráð fyrir 3-6 hæða byggingum fyrir 123 íbúðir ásamt leikskóla og rými fyrir verslun og þjónustu.",
-      "url": "https://skipulagsgatt.is/issues/3664"
-    },
-    {
       "id": "skgatt:0892/2025",
       "lane": "planning",
       "title": "Suðurlandsvegur - USK23060119",
@@ -3794,27 +3724,6 @@
         "mannvirki"
       ],
       "doc_type": "reference"
-    },
-    {
-      "id": "legislation:althingi-thingmalaskra:endurskodud-aaetlun-um-framlagningu-thingmala-a-vetrar-og-vorthingi-2026-lokautg",
-      "lane": "legislation",
-      "source": "althingi-thingmalaskra",
-      "doc_type": "parliamentary",
-      "title": "Endurskoðuð þingmálaskrá fyrir 157. löggjafarþing",
-      "entity": "Alþingi",
-      "status": "tracker",
-      "summary": "13. Frumvarp til laga um breytingu á lögum um mannvirki, nr. 160/2010 (einföldun byggingarreglugerðar og endurskoðun byggingareftirlits). / 14. Frumvarp til laga um breytingu á skipulagslögum nr. 123/2010 (raflínuskipulag). / 2. Frumvarp til laga um breytingu á lögum um stefnur og aðgerðaáætlanir á sviði húsnæðis- og skipulagsmála, samgangna og byggðamála, nr. 30/2023 (stefnumörkun).",
-      "url": "https://www.althingi.is/media/uncategorized/Endurskodud-aaetlun-um-framlagningu-thingmala-a-vetrar-og-vorthingi-2026-lokautgafa-leidrettX.pdf",
-      "index_url": "https://www.althingi.is/thingstorf/leidbeiningar-og-yfirlit/thingmalaskra-rikisstjornar/",
-      "keywords_matched": [
-        "bygging",
-        "mannvirki",
-        "samgöngur",
-        "skipulag",
-        "umhverfismat"
-      ],
-      "case_number": "157. löggjafarþing",
-      "period": "2025–2026"
     },
     {
       "id": "announcement:vegagerdin-utbod:utbod",
