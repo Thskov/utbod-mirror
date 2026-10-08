@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated": "2026-10-07T07:00:25Z",
-  "generated_at": "2026-10-07T07:00:25Z",
+  "generated": "2026-10-08T07:00:25Z",
+  "generated_at": "2026-10-08T07:00:25Z",
   "sources": {
     "covered": [
       {
@@ -359,7 +359,7 @@
         "evidence_url": "https://ted.europa.eu/en/notice/-/detail/688636-2026",
         "seen_count": 1,
         "first_seen": "2026-10-06T07:00:27Z",
-        "last_seen": "2026-10-07T07:00:25Z",
+        "last_seen": "2026-10-08T07:00:25Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       },
@@ -371,7 +371,7 @@
         "evidence_url": "https://www.utbodsvefur.is/fjallabyggd-snjomokstur-og-halkuvarnir-2026-2029/",
         "seen_count": 1,
         "first_seen": "2026-10-06T07:00:27Z",
-        "last_seen": "2026-10-06T20:14:53Z",
+        "last_seen": "2026-10-07T07:00:25Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       },
@@ -383,7 +383,7 @@
         "evidence_url": "https://www.utbodsvefur.is/kaup-og-uppsetning-faeranlegra-huseininga/",
         "seen_count": 1,
         "first_seen": "2026-10-06T18:45:35Z",
-        "last_seen": "2026-10-06T20:14:53Z",
+        "last_seen": "2026-10-07T07:00:25Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       }
@@ -2612,21 +2612,6 @@
       "source": "vegagerdin-samningum-lokid"
     },
     {
-      "reference": "HSV-VF030208802",
-      "project": "HSV-VF030208802 - POWER TRANSFORMER 60 MVA 66/33/ (11) kV",
-      "buyer": "HS Veitur",
-      "notice_type": "Supplies",
-      "deadline": "07.10.2026 kl. 10:00",
-      "deadline_local": "2026-10-07T10:00:00+00:00",
-      "deadline_utc": "2026-10-07T10:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": null,
-      "modified_at": null,
-      "url": "https://in-tendhost.co.uk/hsveitur/aspx/ProjectManage/8",
-      "summary": "The Tender involves production and DAP delivery of one (1) power transformer for a 66 kV substation in Vestmannaeyjar, Iceland.",
-      "source": "hsveitur-intend"
-    },
-    {
       "reference": "M26029",
       "project": "Markaðskönnun vegna kerrusöfnunar á Keflavíkurflugvelli",
       "buyer": "Isavia",
@@ -2729,6 +2714,21 @@
       "modified_at": null,
       "url": "https://in-tendhost.co.uk/reykjavikenergy/aspx/ProjectManage/705",
       "summary": "Með innkaupaferli þessu hyggst Kaupandi koma á Rammasamningi um vinnu við bilanaþjónustu, viðhald og uppsetningu á vél og rafbúnaði Þjónustan verður boðin út í tveimur flokkum og er bjóðendum heimilt að bjóða í staka eða báða flokka af því gefnu að viðkomandi uppfyllir kröfur fyrir þann flokk sem boðið er í: Flokkur 1 – Rafvirkjavinna Flokkur 2 - Málmiðnaðarvinna og rafmagn vélbúnaðar",
+      "source": "or-intend"
+    },
+    {
+      "reference": "VEU-2609-0066",
+      "project": "VEU-2609-0066 HAB: SKORHOLT, BAKKI",
+      "buyer": "Veitur ohf.",
+      "notice_type": "$prjTenderProcessWorks",
+      "deadline": "05.11.2026 kl. 14:00",
+      "deadline_local": "2026-11-05T14:00:00+00:00",
+      "deadline_utc": "2026-11-05T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": null,
+      "modified_at": null,
+      "url": "https://in-tendhost.co.uk/reykjavikenergy/aspx/ProjectManage/706",
+      "summary": "Verkefnið felur í sér endurnýjun á um 1550m löngum kafla HAB í landi Skorholts og Bakka. Lögð verður ný DN450 foreinangruð hitaveitulögn í nýrri legu frá festu í landi Bakka, merkt DT-362 að hitaveitubrunni í landi Skorholts, merktur DT-370. Ný lagnalega er um 1900m. Einnig felur verkefnið í sér niðurrifi á brunnum merktum DT-363, DT-364, DT-369 OG DT-370. Að tengingu nýrrar lagnar lokinni skal verktaki fjarlægja nú…",
       "source": "or-intend"
     },
     {

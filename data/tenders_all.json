@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated": "2026-10-07T07:00:25Z",
-  "generated_at": "2026-10-07T07:00:25Z",
+  "generated": "2026-10-08T07:00:25Z",
+  "generated_at": "2026-10-08T07:00:25Z",
   "sources": {
     "utbodsvefur": {
-      "generated_at": "2026-10-07T07:00:24.964106+00:00",
-      "count": 67,
+      "generated_at": "2026-10-08T07:00:25.136655+00:00",
+      "count": 69,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders.json"
     },
     "offportal": {
-      "generated": "2026-10-07T07:00:25Z",
+      "generated": "2026-10-08T07:00:25Z",
       "count": 164,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders_offportal.json"
     },
@@ -315,7 +315,7 @@
         "evidence_url": "https://ted.europa.eu/en/notice/-/detail/688636-2026",
         "seen_count": 1,
         "first_seen": "2026-10-06T07:00:27Z",
-        "last_seen": "2026-10-07T07:00:25Z",
+        "last_seen": "2026-10-08T07:00:25Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       },
@@ -327,7 +327,7 @@
         "evidence_url": "https://www.utbodsvefur.is/fjallabyggd-snjomokstur-og-halkuvarnir-2026-2029/",
         "seen_count": 1,
         "first_seen": "2026-10-06T07:00:27Z",
-        "last_seen": "2026-10-07T07:00:25Z",
+        "last_seen": "2026-10-08T07:00:25Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       },
@@ -339,13 +339,13 @@
         "evidence_url": "https://www.utbodsvefur.is/kaup-og-uppsetning-faeranlegra-huseininga/",
         "seen_count": 1,
         "first_seen": "2026-10-06T18:45:35Z",
-        "last_seen": "2026-10-07T07:00:25Z",
+        "last_seen": "2026-10-08T07:00:25Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       }
     ]
   },
-  "count": 222,
+  "count": 223,
   "items": [
     {
       "reference": "",
@@ -2568,21 +2568,6 @@
       "source": "vegagerdin-samningum-lokid"
     },
     {
-      "reference": "HSV-VF030208802",
-      "project": "HSV-VF030208802 - POWER TRANSFORMER 60 MVA 66/33/ (11) kV",
-      "buyer": "HS Veitur",
-      "notice_type": "Supplies",
-      "deadline": "07.10.2026 kl. 10:00",
-      "deadline_local": "2026-10-07T10:00:00+00:00",
-      "deadline_utc": "2026-10-07T10:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": null,
-      "modified_at": null,
-      "url": "https://in-tendhost.co.uk/hsveitur/aspx/ProjectManage/8",
-      "summary": "The Tender involves production and DAP delivery of one (1) power transformer for a 66 kV substation in Vestmannaeyjar, Iceland.",
-      "source": "hsveitur-intend"
-    },
-    {
       "reference": "16346",
       "project": "Vetrarþjónusta göngu- og hjólaleiða í Reykjavík 2026 – 2027. Útboðshluti 2, EES útboð nr. 16346",
       "buyer": "Reykjavíkurborg",
@@ -2640,21 +2625,6 @@
       "modified_at": "2026-09-16T10:41:57+00:00",
       "url": "https://www.utbodsvefur.is/rannsoknahus-innanhussfragangur/",
       "summary": "Nýr Landspítali ohf. óskar eftir tilboðum í útboði nr. I2063 á innanhúsfrágangi í rannsóknahúsi Landspítala við Hringbraut í Reykjavík. Rannsóknahúsið...",
-      "source": "utbodsvefur"
-    },
-    {
-      "reference": "2026-02",
-      "project": "Kerhólsskóli – Breytingar 2. hæð og ný loftræsisamstæða",
-      "buyer": "Grímsnes- og Grafningshreppur",
-      "notice_type": "Framkvæmd",
-      "deadline": "09.10.2026 kl. 11:00",
-      "deadline_local": "2026-10-09T11:00:00+00:00",
-      "deadline_utc": "2026-10-09T11:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-09-03T14:16:45+00:00",
-      "modified_at": "2026-09-04T13:55:37+00:00",
-      "url": "https://www.utbodsvefur.is/9661-2/",
-      "summary": "Sveitarfélagið Grímsnes og Grafningshreppur óskar eftir tilboðum í verkið: Kerhólsskóli – Breytingar 2. hæð og ný loftræsisamstæða Verkið felur ...",
       "source": "utbodsvefur"
     },
     {
@@ -2820,6 +2790,21 @@
       "modified_at": "2026-09-11T09:56:46+00:00",
       "url": "https://www.utbodsvefur.is/fjarvoktun-og-thjonustuuttektir-bruna-og-innbrotavidvorunarkerfa-eftirlit-og-vidhald-slokkvitaekja/",
       "summary": "Fjarvöktun og þjónustuúttektir bruna- og innbrotaviðvörunarkerfa – Eftirlit og viðhald slökkvitækja Áfengis- og tóbaksverslun ríkisins óskar eft...",
+      "source": "utbodsvefur"
+    },
+    {
+      "reference": "2026-02",
+      "project": "Kerhólsskóli – Breytingar 2. hæð og ný loftræsisamstæða",
+      "buyer": "Grímsnes- og Grafningshreppur",
+      "notice_type": "Framkvæmd",
+      "deadline": "16.10.2026 kl. 11:00",
+      "deadline_local": "2026-10-16T11:00:00+00:00",
+      "deadline_utc": "2026-10-16T11:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-09-03T14:16:45+00:00",
+      "modified_at": "2026-10-07T08:50:15+00:00",
+      "url": "https://www.utbodsvefur.is/9661-2/",
+      "summary": "Sveitarfélagið Grímsnes og Grafningshreppur óskar eftir tilboðum í verkið: Kerhólsskóli – Breytingar 2. hæð og ný loftræsisamstæða Verkið felur ...",
       "source": "utbodsvefur"
     },
     {
@@ -3285,6 +3270,36 @@
       "modified_at": "2026-10-05T20:26:53+00:00",
       "url": "https://www.utbodsvefur.is/veu-2609-0063-thjonusta-og-vidhald-vel-og-rafbunadar/",
       "summary": "Veitur ohf. óska eftir þátttakendum í rammasamninga VEU-2609-0063 „Þjónusta og viðhald vél- og rafbúnaðar“ Með innkaupaferli þessu hyggjas...",
+      "source": "utbodsvefur"
+    },
+    {
+      "reference": "VEU-2609-0066",
+      "project": "VEU-2609-0066 HAB: SKORHOLT, BAKKI",
+      "buyer": "Veitur ohf.",
+      "notice_type": "Framkvæmd",
+      "deadline": "05.11.2026 kl. 14:00",
+      "deadline_local": "2026-11-05T14:00:00+00:00",
+      "deadline_utc": "2026-11-05T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-07T10:59:24+00:00",
+      "modified_at": "2026-10-07T10:59:24+00:00",
+      "url": "https://www.utbodsvefur.is/veu-2609-0066-hab-skorholt-bakki/",
+      "summary": "Veitur ohf. óska eftir tilboðum í verkið: VEU-2609-0066 „HAB: SKORHOLT, BAKKI“ Verkefnið felur í sér endurnýjun á um 1550m löngum kafla HA...",
+      "source": "utbodsvefur"
+    },
+    {
+      "reference": "2026-54",
+      "project": "SOG65 Eftirlitsþjónusta",
+      "buyer": "Landsvirkjun",
+      "notice_type": "Þjónusta",
+      "deadline": "06.11.2026 kl. 11:00",
+      "deadline_local": "2026-11-06T11:00:00+00:00",
+      "deadline_utc": "2026-11-06T11:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-07T09:05:06+00:00",
+      "modified_at": "2026-10-06T11:05:37+00:00",
+      "url": "https://www.utbodsvefur.is/sog65-eftirlitsthjonusta/",
+      "summary": "Landsvirkjun óskar eftir tilboðum í eftirlit , rekstur verksamnings og hlutverk Engineer (skv. FIDIC Yellow Book 2017 (Second Edition 2017, reprinted ...",
       "source": "utbodsvefur"
     },
     {
