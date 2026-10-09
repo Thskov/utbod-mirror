@@ -1,23 +1,23 @@
 {
   "schema_version": 1,
-  "generated": "2026-10-08T07:00:25Z",
-  "generated_at": "2026-10-08T07:00:25Z",
+  "generated": "2026-10-09T07:00:26Z",
+  "generated_at": "2026-10-09T07:00:26Z",
   "sources": {
     "utbodsvefur": {
-      "generated_at": "2026-10-08T07:00:25.136655+00:00",
-      "count": 69,
+      "generated_at": "2026-10-09T07:00:26.668279+00:00",
+      "count": 65,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders.json"
     },
     "offportal": {
-      "generated": "2026-10-08T07:00:25Z",
-      "count": 164,
+      "generated": "2026-10-09T07:00:26Z",
+      "count": 163,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders_offportal.json"
     },
     "not_covered": [
       {
         "source": "ted",
         "url": "https://api.ted.europa.eu/v3/notices/search",
-        "reason": "dropped 85 notices: expired deadline"
+        "reason": "dropped 86 notices: expired deadline"
       },
       {
         "source": "nlsh",
@@ -101,6 +101,7 @@
       "skagafjörður",
       "sveitarfélagið hornafjörður",
       "sveitarfélagið skagafjörður",
+      "sveitarfélagið vogar",
       "sveitarfélagið ölfus",
       "ted iceland buyer",
       "thor landeldi hydros",
@@ -172,6 +173,9 @@
       "sjúkrahúsið á akureyri": "Sjúkrahúsið á Akureyri",
       "skagafjörður": "Sveitarfélagið Skagafjörður",
       "sveitarfélagið skagafjörður": "Sveitarfélagið Skagafjörður",
+      "sveitarfélagið vogar": "Sveitarfélagið Vogar",
+      "sveitarfelagid vogar": "Sveitarfélagið Vogar",
+      "vogar": "Sveitarfélagið Vogar",
       "sveitarfélagið ölfus": "Sveitarfélagið Ölfus",
       "thor landeldi": "Thor Landeldi / Hydros",
       "thor landeldi hydros": "Thor Landeldi / Hydros",
@@ -308,18 +312,6 @@
     ],
     "source_candidates": [
       {
-        "id": "tender:buyer:consensa-sveitarfélagið-vogar",
-        "name": "Consensa', 'Sveitarfélagið Vogar",
-        "suggested_feed": "tenders_all",
-        "suggested_lane": "tender",
-        "evidence_url": "https://ted.europa.eu/en/notice/-/detail/688636-2026",
-        "seen_count": 1,
-        "first_seen": "2026-10-06T07:00:27Z",
-        "last_seen": "2026-10-08T07:00:25Z",
-        "reason": "unknown buyer/source found in tender feed",
-        "status": "pending"
-      },
-      {
         "id": "tender:buyer:fjallabyggð",
         "name": "Fjallabyggð",
         "suggested_feed": "tenders_all",
@@ -327,25 +319,13 @@
         "evidence_url": "https://www.utbodsvefur.is/fjallabyggd-snjomokstur-og-halkuvarnir-2026-2029/",
         "seen_count": 1,
         "first_seen": "2026-10-06T07:00:27Z",
-        "last_seen": "2026-10-08T07:00:25Z",
-        "reason": "unknown buyer/source found in tender feed",
-        "status": "pending"
-      },
-      {
-        "id": "tender:buyer:sveitarfélagið-vogar",
-        "name": "Sveitarfélagið Vogar",
-        "suggested_feed": "tenders_all",
-        "suggested_lane": "tender",
-        "evidence_url": "https://www.utbodsvefur.is/kaup-og-uppsetning-faeranlegra-huseininga/",
-        "seen_count": 1,
-        "first_seen": "2026-10-06T18:45:35Z",
-        "last_seen": "2026-10-08T07:00:25Z",
+        "last_seen": "2026-10-09T07:00:26Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       }
     ]
   },
-  "count": 223,
+  "count": 218,
   "items": [
     {
       "reference": "",
@@ -2568,66 +2548,6 @@
       "source": "vegagerdin-samningum-lokid"
     },
     {
-      "reference": "16346",
-      "project": "Vetrarþjónusta göngu- og hjólaleiða í Reykjavík 2026 – 2027. Útboðshluti 2, EES útboð nr. 16346",
-      "buyer": "Reykjavíkurborg",
-      "notice_type": "Þjónusta",
-      "deadline": "08.10.2026 kl. 10:00",
-      "deadline_local": "2026-10-08T10:00:00+00:00",
-      "deadline_utc": "2026-10-08T10:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-09-04T09:04:56+00:00",
-      "modified_at": "2026-09-04T09:04:56+00:00",
-      "url": "https://www.utbodsvefur.is/vetrarthjonusta-gongu-og-hjolaleida-i-reykjavik-2026-2027-utbodshluti-2-ees-utbod-nr-16346/",
-      "summary": "Óskað er eftir tilboðum í Vetrarþjónusta göngu- og hjólaleiða í Reykjavík 2026 – 2027. Útboðshluti 2, EES útboð nr. 16346 Skrifstofa fjármálaþjónustu ...",
-      "source": "utbodsvefur"
-    },
-    {
-      "reference": "35054",
-      "project": "Sýnaglös fyrir rannsóknarstofur",
-      "buyer": "Landspítali",
-      "notice_type": "Vörukaup",
-      "deadline": "08.10.2026 kl. 12:00",
-      "deadline_local": "2026-10-08T12:00:00+00:00",
-      "deadline_utc": "2026-10-08T12:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-09-07T08:30:33+00:00",
-      "modified_at": "2026-09-07T08:30:33+00:00",
-      "url": "https://www.utbodsvefur.is/synaglos-fyrir-rannsoknarstofur/",
-      "summary": "Landspítali, óskar eftir tilboðum í sýnaglös fyrir rannsóknarstofur (Disposable laboratory products) fyrir Landspítala og aðrar heilbrigðistofnanir. N...",
-      "source": "utbodsvefur"
-    },
-    {
-      "reference": "2026-56",
-      "project": "Ræsting – Þjórsársvæði",
-      "buyer": "Landsvirkjun",
-      "notice_type": "Þjónusta",
-      "deadline": "08.10.2026 kl. 13:00",
-      "deadline_local": "2026-10-08T13:00:00+00:00",
-      "deadline_utc": "2026-10-08T13:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-09-07T13:21:01+00:00",
-      "modified_at": "2026-09-07T13:21:01+00:00",
-      "url": "https://www.utbodsvefur.is/raesting-thjorsarsvaedi/",
-      "summary": "Landsvirkjun óskar eftir tilboðum í ræstingar á húsnæði Landsvirkjunar á Búrfellssvæði og upp með Þjórsá: virkjanir, vinnubúðir, starfsmannabústaðir o...",
-      "source": "utbodsvefur"
-    },
-    {
-      "reference": "I2063",
-      "project": "Rannsóknahús – Innanhússfrágangur",
-      "buyer": "Nýr Landspítali (NLSH ohf.)",
-      "notice_type": "Framkvæmd",
-      "deadline": "08.10.2026 kl. 13:00",
-      "deadline_local": "2026-10-08T13:00:00+00:00",
-      "deadline_utc": "2026-10-08T13:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-07-13T09:42:50+00:00",
-      "modified_at": "2026-09-16T10:41:57+00:00",
-      "url": "https://www.utbodsvefur.is/rannsoknahus-innanhussfragangur/",
-      "summary": "Nýr Landspítali ohf. óskar eftir tilboðum í útboði nr. I2063 á innanhúsfrágangi í rannsóknahúsi Landspítala við Hringbraut í Reykjavík. Rannsóknahúsið...",
-      "source": "utbodsvefur"
-    },
-    {
       "reference": "M26029",
       "project": "Markaðskönnun – Kerrusöfnun á Keflavíkurflugvelli",
       "buyer": "Isavia",
@@ -3181,21 +3101,6 @@
       "url": "https://www.utbodsvefur.is/honnun-og-bygging-oryggisfangelsis-forval/",
       "summary": "Framkvæmdasýslan – Ríkiseignir, hér eftir nefnt FSRE, f.h. verkkaupa, Dómsmálaráðuneytisins, óskar eftir umsóknum fyrirtækja eða teyma fyrirtækj...",
       "source": "utbodsvefur"
-    },
-    {
-      "reference": "688636-2026",
-      "project": "Kaup og uppsetning færanlegra húseininga við Suðurvelli",
-      "buyer": "Consensa', 'Sveitarfélagið Vogar",
-      "notice_type": "cn-standard",
-      "deadline": "04.11.2026 kl. 12:00",
-      "deadline_local": "2026-11-04T12:00:58+00:00",
-      "deadline_utc": "2026-11-04T12:00:58+00:00",
-      "deadline_confirmed": false,
-      "posted_at": "2026-10-06",
-      "modified_at": null,
-      "url": "https://ted.europa.eu/en/notice/-/detail/688636-2026",
-      "summary": "TED open Iceland construction contract notice; CPV 45214100, 44211100, 45214100, 44211100.",
-      "source": "ted"
     },
     {
       "reference": "680810-2026",

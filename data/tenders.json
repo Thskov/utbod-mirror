@@ -1,68 +1,19 @@
 {
-  "generated_at": "2026-10-08T07:00:25.136655+00:00",
+  "generated_at": "2026-10-09T07:00:26.668279+00:00",
   "source": {
     "site": "https://www.utbodsvefur.is",
     "posts_api": "https://www.utbodsvefur.is/wp-json/wp/v2/posts",
-    "listing": "https://www.utbodsvefur.is"
+    "listing": "https://www.utbodsvefur.is",
+    "count_drop_guard": {
+      "status": "fresh",
+      "threshold": ">70% source-count collapse",
+      "previous_good_count": 69,
+      "current_count": 65,
+      "minimum_allowed_count": 20
+    }
   },
-  "count": 69,
+  "count": 65,
   "tenders": [
-    {
-      "reference": "16346",
-      "project": "Vetrarþjónusta göngu- og hjólaleiða í Reykjavík 2026 – 2027. Útboðshluti 2, EES útboð nr. 16346",
-      "buyer": "Reykjavíkurborg",
-      "notice_type": "Þjónusta",
-      "deadline": "08.10.2026 kl. 10:00",
-      "deadline_local": "2026-10-08T10:00:00+00:00",
-      "deadline_utc": "2026-10-08T10:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-09-04T09:04:56+00:00",
-      "modified_at": "2026-09-04T09:04:56+00:00",
-      "url": "https://www.utbodsvefur.is/vetrarthjonusta-gongu-og-hjolaleida-i-reykjavik-2026-2027-utbodshluti-2-ees-utbod-nr-16346/",
-      "summary": "Óskað er eftir tilboðum í Vetrarþjónusta göngu- og hjólaleiða í Reykjavík 2026 – 2027. Útboðshluti 2, EES útboð nr. 16346 Skrifstofa fjármálaþjónustu ..."
-    },
-    {
-      "reference": "35054",
-      "project": "Sýnaglös fyrir rannsóknarstofur",
-      "buyer": "Landspítali",
-      "notice_type": "Vörukaup",
-      "deadline": "08.10.2026 kl. 12:00",
-      "deadline_local": "2026-10-08T12:00:00+00:00",
-      "deadline_utc": "2026-10-08T12:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-09-07T08:30:33+00:00",
-      "modified_at": "2026-09-07T08:30:33+00:00",
-      "url": "https://www.utbodsvefur.is/synaglos-fyrir-rannsoknarstofur/",
-      "summary": "Landspítali, óskar eftir tilboðum í sýnaglös fyrir rannsóknarstofur (Disposable laboratory products) fyrir Landspítala og aðrar heilbrigðistofnanir. N..."
-    },
-    {
-      "reference": "I2063",
-      "project": "Rannsóknahús – Innanhússfrágangur",
-      "buyer": "Nýr Landspítali",
-      "notice_type": "Framkvæmd",
-      "deadline": "08.10.2026 kl. 13:00",
-      "deadline_local": "2026-10-08T13:00:00+00:00",
-      "deadline_utc": "2026-10-08T13:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-07-13T09:42:50+00:00",
-      "modified_at": "2026-09-16T10:41:57+00:00",
-      "url": "https://www.utbodsvefur.is/rannsoknahus-innanhussfragangur/",
-      "summary": "Nýr Landspítali ohf. óskar eftir tilboðum í útboði nr. I2063 á innanhúsfrágangi í rannsóknahúsi Landspítala við Hringbraut í Reykjavík. Rannsóknahúsið..."
-    },
-    {
-      "reference": "2026-56",
-      "project": "Ræsting – Þjórsársvæði",
-      "buyer": "Landsvirkjun",
-      "notice_type": "Þjónusta",
-      "deadline": "08.10.2026 kl. 13:00",
-      "deadline_local": "2026-10-08T13:00:00+00:00",
-      "deadline_utc": "2026-10-08T13:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-09-07T13:21:01+00:00",
-      "modified_at": "2026-09-07T13:21:01+00:00",
-      "url": "https://www.utbodsvefur.is/raesting-thjorsarsvaedi/",
-      "summary": "Landsvirkjun óskar eftir tilboðum í ræstingar á húsnæði Landsvirkjunar á Búrfellssvæði og upp með Þjórsá: virkjanir, vinnubúðir, starfsmannabústaðir o..."
-    },
     {
       "reference": "M26029",
       "project": "Markaðskönnun – Kerrusöfnun á Keflavíkurflugvelli",
