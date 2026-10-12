@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T07:00:26.668279+00:00",
+  "generated_at": "2026-10-12T07:00:25.261722+00:00",
   "source": {
     "site": "https://www.utbodsvefur.is",
     "posts_api": "https://www.utbodsvefur.is/wp-json/wp/v2/posts",
@@ -7,12 +7,12 @@
     "count_drop_guard": {
       "status": "fresh",
       "threshold": ">70% source-count collapse",
-      "previous_good_count": 69,
-      "current_count": 65,
-      "minimum_allowed_count": 20
+      "previous_good_count": 65,
+      "current_count": 66,
+      "minimum_allowed_count": 19
     }
   },
-  "count": 65,
+  "count": 66,
   "tenders": [
     {
       "reference": "M26029",
@@ -601,6 +601,20 @@
       "modified_at": null,
       "url": "https://www.utbodsvefur.is/nytt-hjukrunarheimili-i-mosfellsbae-leiguleid/",
       "summary": "Framkvæmdasýslan – Ríkiseignir (FSRE) f.h. félags- og húsnæðismálaráðuneytis, kt. 521218-0610, sem hér eftir nefnist kaupandi, óskar eftir leigutilboð..."
+    },
+    {
+      "reference": "202601",
+      "project": "Innheimtuþjónusta – fruminnheimta ásamt milli- og löginnheimtu",
+      "buyer": "Hafnarfjarðarbær",
+      "notice_type": "Þjónusta",
+      "deadline": "09.11.2026 kl. 14:00",
+      "deadline_local": "2026-11-09T14:00:00+00:00",
+      "deadline_utc": "2026-11-09T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-09T08:48:34+00:00",
+      "modified_at": "2026-10-09T09:36:18+00:00",
+      "url": "https://www.utbodsvefur.is/innheimtuthjonusta-fruminnheimta-asamt-milli-og-loginnheimtu/",
+      "summary": "Fjármálasvið Hafnarfjarðarbæjar óskar eftir tilboðum í innheimtuþjónustu fyrir Hafnarfjarðarbæ og B hluta stofnanir á vegum bæjarins. Útboðinu er ski..."
     },
     {
       "reference": "10-2026",
