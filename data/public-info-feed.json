@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated": "2026-10-09T06:45:01Z",
+  "generated": "2026-10-12T06:45:01Z",
   "window": {
-    "from": "2026-10-02",
-    "to": "2026-10-09"
+    "from": "2026-10-05",
+    "to": "2026-10-12"
   },
   "coverage": {
     "municipalities": [
@@ -288,7 +288,7 @@
         "evidence_url": "https://island.is/samradsgatt/mal/4328",
         "seen_count": 3,
         "first_seen": "2026-10-09T06:45:01Z",
-        "last_seen": "2026-10-09T06:45:01Z",
+        "last_seen": "2026-10-12T06:45:01Z",
         "reason": "repeated unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -300,7 +300,7 @@
         "evidence_url": "https://island.is/reglugerdir/nr/0809-2026",
         "seen_count": 1,
         "first_seen": "2026-09-11T06:45:01Z",
-        "last_seen": "2026-10-09T06:45:01Z",
+        "last_seen": "2026-10-12T06:45:01Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       }
@@ -346,8 +346,8 @@
         },
         "reykjavik": {
           "no_matching_keywords": 35,
-          "outside_window": 2,
-          "undated": 2
+          "undated": 3,
+          "outside_window": 2
         },
         "kopavogur": {
           "no_matching_keywords": 24
@@ -367,10 +367,6 @@
         },
         "vogar": {
           "no_matching_keywords": 40
-        },
-        "betri-samgongur": {
-          "undated": 3,
-          "no_matching_keywords": 5
         },
         "borgarlinan": {
           "undated": 9,
@@ -407,10 +403,11 @@
         },
         "byggingar-opnun-utboda": {
           "undated": 18,
-          "outside_window": 14
+          "outside_window": 13
         },
         "vb": {
-          "no_matching_keywords": 40
+          "no_matching_keywords": 39,
+          "undated": 1
         },
         "fiskifrettir": {
           "no_matching_keywords": 40
@@ -433,6 +430,14 @@
         }
       },
       "source_failures": {
+        "betri-samgongur": {
+          "url": "https://betrisamgongur.is/frettir/",
+          "error": "HTTP 500"
+        },
+        "betri-samgongur-verksja": {
+          "url": "https://betrisamgongur.is/verksja-samgongusattmalans/",
+          "error": "HTTP 500"
+        },
         "althingi-nefndir": {
           "url": "https://www.althingi.is/thingnefndir/fastanefndir/",
           "error": "HTTP 403"
@@ -440,12 +445,85 @@
       }
     }
   },
-  "count": 296,
+  "count": 293,
   "items": [
+    {
+      "id": "announcement:byggingar-opnun-utboda:lodin-hefur-aldrei-verid-yfirgefin",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "„Lóðin hefur aldrei verið yfirgefin“",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-10-10",
+      "summary": "image_tag\" data-img-url=\"https://byggingar.is/wp-content/uploads/2026/10/10.10.2026-Lodin-hefur-aldrei-verid-yfirgefin-100x75.jpg\" width=\"100\" height=\"75\" /> „Lóðin hefur aldrei verið yfirgefin“ 10/10/2026 <div class=\"td_modu",
+      "url": "https://byggingar.is/lodin-hefur-aldrei-verid-yfirgefin/",
+      "keywords_matched": [
+        "bygging",
+        "opinber innkaup"
+      ]
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:hundrad-tonna-bor-veitna-kominn-i-laugardal",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "Hundrað tonna bor Veitna kominn í Laugardal",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-10-10",
+      "summary": "\" data-img-url=\"https://byggingar.is/wp-content/uploads/2026/10/10.10.2026-Hundrad-tonna-bor-Veitna-kominn-i-Laugardal-100x75.jpg\" width=\"100\" height=\"75\" /> Hundrað tonna bor Veitna kominn í Laugardal 10/10/2026 <div class=\"td_modu",
+      "url": "https://byggingar.is/hundrad-tonna-bor-veitna-kominn-i-laugardal/",
+      "keywords_matched": [
+        "bygging",
+        "opinber innkaup"
+      ]
+    },
+    {
+      "id": "skgatt:1179/2026",
+      "lane": "planning",
+      "title": "Skildinganes - Bauganes 40 - USK26090041",
+      "entity": "Reykjavík",
+      "case_number": "1179/2026",
+      "plan_type": "deiliskipulag",
+      "status": "Grenndarkynning",
+      "date": "2026-10-09",
+      "review_deadline": "2026-11-10",
+      "summary": "Um er að ræða tillögu að breytingu á deiliskipulagi Skildinganess vegna lóðarinnar nr. 40 við Bauganes. Í breytingunni sem lögð er til felst að byggingarreitur er stækkaður í átt að götu og að Bauganesi 38 ásamt því að vera stækkaður í átt að Bauganesi 42. Heimilt verður að koma fyrir bílskýli og geymslu innan byggingarreits auk núverandi byggingar.",
+      "url": "https://skipulagsgatt.is/issues/5534"
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:eykt-ehf-laegst-med-10-25-milljarda-tilbod-i-rannsoknahus-nys-landspitala",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "Eykt ehf. lægst með 10.25 milljarða tilboð í rannsóknahús Nýs Landspítala",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-10-09",
+      "summary": "> Eykt ehf. lægst með 10.25 milljarða tilboð í rannsóknahús Nýs Landspítala byggingar - 09/10/2026",
+      "url": "https://byggingar.is/eykt-ehf-laegst-med-10-25-milljarda-tilbod-i-rannsoknahus-nys-landspitala/",
+      "keywords_matched": [
+        "bygging",
+        "opinber innkaup"
+      ]
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:byggingar",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "byggingar",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-10-09",
+      "summary": "nsóknahús Nýs Landspítala\">Eykt ehf. lægst með 10.25 milljarða tilboð í rannsóknahús Nýs Landspítala byggingar - 09/10/2026 <a href=\"https://byggingar.is/eykt-ehf-laegst-med-10-25-milljarda-tilbod-i-rannsokn",
+      "url": "https://byggingar.is/author/byggingar/",
+      "keywords_matched": [
+        "bygging",
+        "opinber innkaup"
+      ]
+    },
     {
       "id": "skgatt:1175/2026",
       "lane": "planning",
-      "title": "Lambalækur",
+      "title": "Hálsabyggð - Lambalækjarflöt",
       "entity": "Borgarbyggð",
       "case_number": "1175/2026",
       "plan_type": "deiliskipulag",
@@ -504,38 +582,8 @@
       "entity": "Byggingar.is",
       "status": "published",
       "date": "2026-10-08",
-      "summary": "> Þrjú fyrirtæki buðu í vetrarþjónustu göngu- og hjólaleiða í Reykjavík byggingar - 08/10/2026",
+      "summary": "Þrjú fyrirtæki buðu í vetrarþjónustu göngu- og hjólaleiða í Reykjavík byggingar - 08/10/2026",
       "url": "https://byggingar.is/thrju-fyrirtaeki-budu-i-vetrarthjonustu-gongu-og-hjolaleida-i-reykjavik/",
-      "keywords_matched": [
-        "bygging",
-        "opinber innkaup"
-      ]
-    },
-    {
-      "id": "announcement:byggingar-opnun-utboda:nidurrif-hafid-a-laugasol",
-      "lane": "announcement",
-      "source": "byggingar-opnun-utboda",
-      "title": "Niður­rif hafið á Laugasól",
-      "entity": "Byggingar.is",
-      "status": "published",
-      "date": "2026-10-08",
-      "summary": "-type=\"image_tag\" data-img-url=\"https://byggingar.is/wp-content/uploads/2026/10/08.10.2026-Nidurrif-hafid-a-Laugasol-a-100x75.jpg\" width=\"100\" height=\"75\" /> Niður­rif hafið á Laugasól 09/10/2026 <div class=\"td_modu",
-      "url": "https://byggingar.is/nidurrif-hafid-a-laugasol/",
-      "keywords_matched": [
-        "bygging",
-        "opinber innkaup"
-      ]
-    },
-    {
-      "id": "announcement:byggingar-opnun-utboda:byggingar",
-      "lane": "announcement",
-      "source": "byggingar-opnun-utboda",
-      "title": "byggingar",
-      "entity": "Byggingar.is",
-      "status": "published",
-      "date": "2026-10-08",
-      "summary": "gu- og hjólaleiða í Reykjavík\">Þrjú fyrirtæki buðu í vetrarþjónustu göngu- og hjólaleiða í Reykjavík byggingar - 08/10/2026 <a href=\"https://byggingar.is/thrju-fyrirtaeki-budu-i-vetrarthjonustu-gongu-og-hjol",
-      "url": "https://byggingar.is/author/byggingar/",
       "keywords_matched": [
         "bygging",
         "opinber innkaup"
@@ -890,20 +938,6 @@
       "case_number": "190/2026",
       "keywords_matched": [
         "skipulag"
-      ]
-    },
-    {
-      "id": "announcement:reykjavik:utbod-sorphirdu-i-breidholti",
-      "lane": "announcement",
-      "source": "reykjavik",
-      "title": "Útboð á sorphirðu í Breiðholti",
-      "entity": "Reykjavíkurborg",
-      "status": "published",
-      "date": "2026-10-02",
-      "summary": "es/default/files/styles/landscape_4k/public/2026-10/23080101_sorphirda_090_small.jpg?h=34e43602&itok=OiWjYZCb 3840w\" data-sizes=\"auto\" /> 2. október 2026 Útboð á sorphirðu í Breiðholti <img loading=\"eager\" width=\"480\" height=\"360\" src=\"/sites/default/files/styles/landscape_placeholder/public/2026-10/0w5a6719_large.jpeg.jpg?h=1c9b88c9&itok=sFuEn8Yw\" alt=\"Hóp…",
-      "url": "https://reykjavik.is/frettir/2026/utbod-sorphirdu-i-breidholti",
-      "keywords_matched": [
-        "opinber innkaup"
       ]
     },
     {
@@ -1515,18 +1549,6 @@
       "url": "https://skipulagsgatt.is/issues/5380"
     },
     {
-      "id": "skgatt:1021/2026",
-      "lane": "planning",
-      "title": "Álfhólsvegur 62",
-      "entity": "Kópavogur",
-      "case_number": "1021/2026",
-      "status": "Grenndarkynning byggingarleyfisumsóknar",
-      "date": "2026-09-02",
-      "review_deadline": "2026-10-02",
-      "summary": "Sótt er um leyfi fyrir hækkun mænis um 260mm með mæniskóta að hámarki 70,51 m.y.s., breytt útlits og breyttrar gluggasetningar á norðurhlið á þegar byggðu húsi á lóð Álfhólsvegar 62. Ástæða breytingarinnar er sú að raunhæð lóðarinnar var upphaflega mæld röng og því var byggt hús yfir leyfilegri hæð, breytt gluggasetning er til að mæta óskum verkkaupa. Árið…",
-      "url": "https://skipulagsgatt.is/issues/5376"
-    },
-    {
       "id": "skgatt:1019/2026",
       "lane": "planning",
       "title": "Vatnagarðar - Sundabakki 2 - USK26020277",
@@ -1724,22 +1746,6 @@
       "review_deadline": "2026-10-07",
       "summary": "Lögð er fram tillaga að breytingu á deiliskipulagi fyrir Fjóluklett við Kveldúlfshöfða. Breytingin tekur til afmörkunar á 103 m² nýrri lóð undir dælustöð fráveitu og þar afmarkaður byggingareitur. Bætt er við texta í greinargerð í samræmi. Breytingin er ekki í ósamræmi við þá byggð sem fyrir er t.d. hvað varðar notkun, nýtingarhlutfall, útlit og form svæðis…",
       "url": "https://skipulagsgatt.is/issues/5342"
-    },
-    {
-      "id": "skgatt:0957/2026",
-      "lane": "eia",
-      "title": "Narfabakki - L203959",
-      "entity": "Hvalfjarðarsveit",
-      "case_number": "0957/2026",
-      "plan_type": "deiliskipulag",
-      "status": "Auglýsing tillögu",
-      "date": "2026-08-17",
-      "review_deadline": "2026-10-02",
-      "summary": "Sveitarstjórn Hvalfjarðarsveitar samþykkti 13. ágúst 2026 að auglýsa breytingu á deiliskipulagi fyrir Narfabakka skv. 1. mgr. 41. gr. skipulagslaga nr. 123/2010. Áform eru um uppsetningu vindmylla fyrir raforkuframleiðslu til eigin nota á jörðinni. Með breyttu skipulagi er skilmálum breytt, lóð nr. 5 er minnkuð og færð sunnar innan deiliskipulagsins og nýtt…",
-      "url": "https://skipulagsgatt.is/issues/5312",
-      "keywords_matched": [
-        "vindmylla"
-      ]
     },
     {
       "id": "skgatt:0954/2026",
@@ -2796,19 +2802,6 @@
       ]
     },
     {
-      "id": "skgatt:0728/2026",
-      "lane": "planning",
-      "title": "Strandvegur 63 - Tillaga að breyttu Deiliskipulagi miðbæjar Vestmannaeyja 2. áfangi",
-      "entity": "Vestmannaeyjabær",
-      "case_number": "0728/2026",
-      "plan_type": "deiliskipulag",
-      "status": "Auglýsing tillögu",
-      "date": "2026-06-08",
-      "review_deadline": "2026-10-02",
-      "summary": "Tillagan felur í sér breytingu á Deiliskipulagi miðbæjar Vestmannaeyja 2. áfangi vegna aukinna byggingarheimilda við Strandveg 63. Á gildandi deiliskipulagi er gert ráð fyrir stækkun byggingarreits á lóðinni til austurs. Skipulagsáform gera ráð fyrir að húsnæði við Strandveg 63 geti verið allt að 4 hæðir í stað 2 hæða. Gert er ráð fyrir að 4 hæð sé inndregi…",
-      "url": "https://skipulagsgatt.is/issues/5083"
-    },
-    {
       "id": "samradsgatt:96/2026",
       "lane": "legislation",
       "source": "samradsgatt",
@@ -3187,19 +3180,6 @@
       "review_deadline": "2026-10-15",
       "summary": "Um er að ræða tillögu að breytingu á deiliskipulagi Teigahverfis vegna Reykjavegar, Hofteigs og Kirkjuteigs. Í breytingunni sem lögð er til felst að loka fyrir umferð Kirkjuteigs annars vegar og hins vegar Hofteigs inn á Reykjaveg og að minnka óverulega lóð Laugarnesskóla til að koma fyrir snúningssvæði við enda Hofteigs.",
       "url": "https://skipulagsgatt.is/issues/4954"
-    },
-    {
-      "id": "skgatt:0568/2026",
-      "lane": "planning",
-      "title": "Hestahúsasvæði - Deiliskipulag (Hestamannafélagið Sleipnir)",
-      "entity": "Árborg",
-      "case_number": "0568/2026",
-      "plan_type": "deiliskipulag",
-      "status": "Athugun eftir auglýsingu",
-      "date": "2026-05-08",
-      "review_deadline": "2026-10-02",
-      "summary": "Tillaga deiliskipulags fyrir hesthúsasvæði ÍÞ2 á Selfossi var felld úr gildi með úrskurði ÚUA þess efnis þann 21. apríl 2026. Að mati Úrskurðarnefndar var ekki fjallað með fullnægjandi hætti um umhverfisáhrif deiliskipulagsins til þátta eins og lyktar, rykmyndunar, hljóðvistar, umferðarálags og áhrifa á sjónræna þætti. Er því lögð fram að nýju tillaga deili…",
-      "url": "https://skipulagsgatt.is/issues/4923"
     },
     {
       "id": "skgatt:0507/2026",
@@ -4562,20 +4542,6 @@
       "keywords_matched": [
         "framkvæmd",
         "umhverfismat"
-      ]
-    },
-    {
-      "id": "announcement:betri-samgongur-verksja:verksja-samgongusattmalans",
-      "lane": "announcement",
-      "source": "betri-samgongur-verksja",
-      "title": "Verksjá.is",
-      "entity": "Betri samgöngur",
-      "status": "tracker",
-      "summary": "Verksja.is er upplýsingagátt þar sem finna má upplýsingar um allar helstu framkvæmdir sem heyra undir Samgöngusáttmálann.",
-      "url": "https://betrisamgongur.is/verksja-samgongusattmalans/",
-      "keywords_matched": [
-        "framkvæmd",
-        "samgöngur"
       ]
     }
   ]
