@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T07:00:25.261722+00:00",
+  "generated_at": "2026-10-13T07:00:24.743428+00:00",
   "source": {
     "site": "https://www.utbodsvefur.is",
     "posts_api": "https://www.utbodsvefur.is/wp-json/wp/v2/posts",
@@ -7,55 +7,13 @@
     "count_drop_guard": {
       "status": "fresh",
       "threshold": ">70% source-count collapse",
-      "previous_good_count": 65,
-      "current_count": 66,
+      "previous_good_count": 66,
+      "current_count": 63,
       "minimum_allowed_count": 19
     }
   },
-  "count": 66,
+  "count": 63,
   "tenders": [
-    {
-      "reference": "M26029",
-      "project": "Markaðskönnun – Kerrusöfnun á Keflavíkurflugvelli",
-      "buyer": "Isavia",
-      "notice_type": "Markaðskönnun (RFI)",
-      "deadline": "12.10.2026 kl. 12:00",
-      "deadline_local": "2026-10-12T12:00:00+00:00",
-      "deadline_utc": "2026-10-12T12:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-09-29T18:00:05+00:00",
-      "modified_at": "2026-09-29T17:10:26+00:00",
-      "url": "https://www.utbodsvefur.is/markadskonnun-kerrusofnun-a-keflavikurflugvelli/",
-      "summary": "Isavia hefur til skoðunar að bjóða út söfnun og tilfærslu farangurskerra, barnakerra og hjólastóla ásamt annarri tengdri þjónustu á Keflavíkurflugvell..."
-    },
-    {
-      "reference": "2026-11",
-      "project": "Kaup á eldsneyti 2026",
-      "buyer": "Faxaflóahafnir sf.",
-      "notice_type": "Vörukaup Þjónusta",
-      "deadline": "12.10.2026 kl. 13:00",
-      "deadline_local": "2026-10-12T13:00:00+00:00",
-      "deadline_utc": "2026-10-12T13:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-09-11T00:01:46+00:00",
-      "modified_at": "2026-09-09T11:02:02+00:00",
-      "url": "https://www.utbodsvefur.is/kaup-a-eldsneyti-2026/",
-      "summary": "Sölu- og þjónustu útboð vegna kaupa Faxaflóahafna á eldsneyti næstu 3 árin, 2026-2029, með möguleika á framlengingu."
-    },
-    {
-      "reference": "I0228",
-      "project": "Sérhæfður endurhæfingarbúnaður Grensás",
-      "buyer": "Nýr Landspítali",
-      "notice_type": "Vörukaup",
-      "deadline": "12.10.2026 kl. 13:00",
-      "deadline_local": "2026-10-12T13:00:00+00:00",
-      "deadline_utc": "2026-10-12T13:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-09-03T08:56:11+00:00",
-      "modified_at": "2026-09-30T13:07:30+00:00",
-      "url": "https://www.utbodsvefur.is/serhaefdur-endurhaefingarbunadur-grensas/",
-      "summary": "Nýr Landspítali ohf. (NLSH) óskar eftir tilboðum í gönguþjálfunartæki og hand- og armþjálfunartæki fyrir endurhæfingardeild við Grensás. Nánari upplýs..."
-    },
     {
       "reference": "16286",
       "project": "Rammasamningur um bifreiðar fyrir Reykjavíkurborg, EES útboð nr. 16286",
@@ -279,20 +237,6 @@
       "modified_at": "2026-09-30T07:06:06+00:00",
       "url": "https://www.utbodsvefur.is/rfi-automated-urinanalysis-system-f-landspitala/",
       "summary": "Landspítali óskar eftir upplýsingum um sjálfvirk þvagrannsóknartæki á markaði vegna fyrirhugaðrar endurnýjunar á núverandi búnaði. Markmið markaðskönn..."
-    },
-    {
-      "reference": "23369",
-      "project": "Upplýsingatækniþjónusta fyrir stafræna heilbrigðisþjónustu",
-      "buyer": "Fjársýslan",
-      "notice_type": "Þjónusta",
-      "deadline": "21.10.2026 kl. 12:00",
-      "deadline_local": "2026-10-21T12:00:00+00:00",
-      "deadline_utc": "2026-10-21T12:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-09-21T09:08:53+00:00",
-      "modified_at": "2026-09-21T17:16:35+00:00",
-      "url": "https://www.utbodsvefur.is/upplysingataeknithjonusta-fyrir-stafraena-heilbrigdisthjonustu/",
-      "summary": "Fjársýslan fyrir hönd heilbrigðisráðuneytisins, kt. 521218-0530, óskar eftir tilboðum í tækniþjónustu fyrir Stafræna heilsu og Sjúkratryggingar Ísland..."
     },
     {
       "reference": "HRUN-BL01",
@@ -629,6 +573,20 @@
       "modified_at": "2026-10-06T16:09:09+00:00",
       "url": "https://www.utbodsvefur.is/monnun-rekstur-og-vidhald-drattarbatsins-vattar/",
       "summary": "Fjarðarbyggðarhafnir óska eftir tilboðum í mönnun, rekstur og almennt viðhald dráttarbátsins Vattar. Þjónustan nær til eftirfarandi hafna á starfssvæð..."
+    },
+    {
+      "reference": "23369",
+      "project": "Upplýsingatækniþjónusta fyrir stafræna heilbrigðisþjónustu",
+      "buyer": "Fjársýslan",
+      "notice_type": "Þjónusta",
+      "deadline": "18.11.2026 kl. 12:00",
+      "deadline_local": "2026-11-18T12:00:00+00:00",
+      "deadline_utc": "2026-11-18T12:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-09-21T09:08:53+00:00",
+      "modified_at": "2026-10-12T10:08:36+00:00",
+      "url": "https://www.utbodsvefur.is/upplysingataeknithjonusta-fyrir-stafraena-heilbrigdisthjonustu/",
+      "summary": "Fjársýslan fyrir hönd heilbrigðisráðuneytisins, kt. 521218-0530, óskar eftir tilboðum í tækniþjónustu fyrir Stafræna heilsu og Sjúkratryggingar Ísland..."
     },
     {
       "reference": "2024-54",

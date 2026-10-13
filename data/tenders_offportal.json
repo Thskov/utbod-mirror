@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated": "2026-10-12T07:00:25Z",
-  "generated_at": "2026-10-12T07:00:25Z",
+  "generated": "2026-10-13T07:00:24Z",
+  "generated_at": "2026-10-13T07:00:24Z",
   "sources": {
     "covered": [
       {
@@ -363,13 +363,25 @@
         "evidence_url": "https://www.utbodsvefur.is/fjallabyggd-snjomokstur-og-halkuvarnir-2026-2029/",
         "seen_count": 1,
         "first_seen": "2026-10-06T07:00:27Z",
-        "last_seen": "2026-10-09T07:00:26Z",
+        "last_seen": "2026-10-12T07:00:25Z",
+        "reason": "unknown buyer/source found in tender feed",
+        "status": "pending"
+      },
+      {
+        "id": "tender:buyer:hafnarfjarðarbær",
+        "name": "Hafnarfjarðarbær",
+        "suggested_feed": "tenders_all",
+        "suggested_lane": "tender",
+        "evidence_url": "https://www.utbodsvefur.is/innheimtuthjonusta-fruminnheimta-asamt-milli-og-loginnheimtu/",
+        "seen_count": 1,
+        "first_seen": "2026-10-12T07:00:25Z",
+        "last_seen": "2026-10-12T07:00:25Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       }
     ]
   },
-  "count": 163,
+  "count": 162,
   "items": [
     {
       "reference": "",
@@ -2590,21 +2602,6 @@
       "url": "https://www.vegagerdin.is/verkefnin/utbod/thurrfraesing-styrking-og-endurbaetur-a-hringvegi-i-oraefum",
       "summary": "Útboð 25-081 · 6. ágúst 2025",
       "source": "vegagerdin-samningum-lokid"
-    },
-    {
-      "reference": "M26029",
-      "project": "Markaðskönnun vegna kerrusöfnunar á Keflavíkurflugvelli",
-      "buyer": "Isavia",
-      "notice_type": "Services",
-      "deadline": "12.10.2026 kl. 12:00",
-      "deadline_local": "2026-10-12T12:00:00+00:00",
-      "deadline_utc": "2026-10-12T12:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": null,
-      "modified_at": null,
-      "url": "https://in-tendhost.co.uk/isavia/aspx/ProjectManage/386",
-      "summary": "Isavia hefur til skoðunar að bjóða út söfnun og tilfærslu farangurskerra, barnakerra og hjólastóla ásamt annarri tengdri þjónustu á Keflavíkurflugvelli. Tilgangur markaðskönnunarinnar er að kanna áhuga markaðarins og þjónustugetu mögulegra bjóðenda, afla ábendinga um mögulegt þjónustufyrirkomulag og kanna hvernig best verði staðið að fyrirhuguðum innkaupum.",
-      "source": "isavia-intend"
     },
     {
       "reference": "VEU-2606-0052",
