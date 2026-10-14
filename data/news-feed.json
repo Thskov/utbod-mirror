@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated": "2026-10-13T06:30:01Z",
+  "generated": "2026-10-14T06:30:02Z",
   "window": {
-    "from": "2026-09-13",
-    "to": "2026-10-13"
+    "from": "2026-09-14",
+    "to": "2026-10-14"
   },
   "coverage": {
     "sources": [
@@ -303,13 +303,191 @@
     "new_or_seen_istak_projects": []
   },
   "sources": {
-    "not_covered": {
-      "orkuveitan": "HTTP Error 500: Internal Server Error"
-    },
+    "not_covered": {},
     "source_candidates": []
   },
   "count": 101,
   "items": [
+    {
+      "id": "news:kadeco:radstefna-i-hljomaholl-14-oktober-sudurnesin-sem-drifkraftur-vaxtar",
+      "lane": "news",
+      "category": "investment",
+      "title": "24/9/2026 1/10/2026 Ráðstefna í Hljómahöll 14. október: Suðurnesin sem drifkraftur vaxtar",
+      "entity": "Kadeco",
+      "date": "2026-10-14",
+      "summary": "Fréttir 24/9/2026 1/10/2026 Ráðstefna í Hljómahöll 14. október: Suðurnesin sem drifkraftur vaxtar 17/9/2026 17/9/2026 Ásbrú - nýr vefur og sameiginlegur metnaður um hraðari uppbyggingu",
+      "url": "https://www.kadeco.is/frettir/radstefna-i-hljomaholl-14-oktober-sudurnesin-sem-drifkraftur-vaxtar",
+      "outlet": "Kadeco",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:vidburdur-idan-1913",
+      "lane": "news",
+      "category": "project",
+      "title": "Aukið öryggi í bygginga- og mannvirkjagreinum",
+      "entity": "braggi.is",
+      "date": "2026-10-14",
+      "summary": "2026-12-04 · Húsnæði Öryggisskólans · Námskeiðið fjallar um hvernig hægt er að efla öryggismenningu í bygginga- og mannvirkjageiranum með nýrri, nútímalegri nálgun sem leggur áherslu á að vinna með aðferðir, aðstæður og vinnuumhverfi. Þátttakendur læra hvernig traust, opnar umræður og m",
+      "url": "https://braggi.is/vidburdur-idan-1913/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:vidburdur-idan-1912",
+      "lane": "news",
+      "category": "project",
+      "title": "Aukið öryggi í bygginga- og mannvirkjagreinum",
+      "entity": "braggi.is",
+      "date": "2026-10-14",
+      "summary": "2026-11-04 · Húsnæði Öryggisskólans · Námskeiðið fjallar um hvernig hægt er að efla öryggismenningu í bygginga- og mannvirkjageiranum með nýrri, nútímalegri nálgun sem leggur áherslu á að vinna með aðferðir, aðstæður og vinnuumhverfi. Þátttakendur læra hvernig traust, opnar umræður og m",
+      "url": "https://braggi.is/vidburdur-idan-1912/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:visir-vidskipti:taka-umdeilda-samninga-til-skodunar",
+      "lane": "news",
+      "category": "project",
+      "title": "Taka um­deilda samninga til skoðunar",
+      "entity": "visir.is / Viðskipti",
+      "date": "2026-10-13",
+      "summary": "Ölgerðin hyggst taka styrktarsamninga við nemendafélög í háskólum til skoðunar eftir umfjöllun Kveiks í kvöld um viðskiptahætti félagsins.",
+      "url": "https://www.visir.is/g/20262948051d/taka-umdeilda-samninga-til-skodunar",
+      "outlet": "visir.is / Viðskipti",
+      "is_new": true
+    },
+    {
+      "id": "news:visir-vidskipti:naeldu-i-lykilfolk-hja-noa-sirius-og-bauhaus",
+      "lane": "news",
+      "category": "project",
+      "title": "Nældu í lykilfólk hjá Nóa Siríus og Bauhaus",
+      "entity": "visir.is / Viðskipti",
+      "date": "2026-10-13",
+      "summary": "Drangar hefur ráðið nýja framkvæmdastjóra þriggja dótturfélaga, Samkaupa, Orkunnar og Lyfjavals. Tveir koma frá Nóa Siríus og Bauhaus en sá þriðji er hækkaður í tign. Auður Daníelsdóttir forstjóri Dranga hefur fram að þessu jafnframt stýrt rekstri Samkaupa og Orkunnar. Nú er orðin breyting þar á.",
+      "url": "https://www.visir.is/g/20262947618d/naeldu-i-lykilfolk-hja-noa-sirius-og-bauhaus",
+      "outlet": "visir.is / Viðskipti",
+      "is_new": true
+    },
+    {
+      "id": "news:visir-fiskeldi:tha-tokum-vid-audvitad-tillit-til-thess-og-hlustum",
+      "lane": "news",
+      "category": "industrial-demand",
+      "title": "„Þá tökum við auð­vitað til­lit til þess og hlustum“",
+      "entity": "visir.is / Fiskeldi",
+      "date": "2026-10-13",
+      "summary": "Atvinnuvegaráðherra segir að ekki hafi verið skoðað að stöðva eða setja hömlur á uppbyggingu sjókvíaeldis í Seyðisfirði. Ráðherra fær fulltrúa náttúruverndarsamtaka á fund til sín á morgun.",
+      "url": "https://www.visir.is/g/20262947708d/-tha-tokum-vid-audvitad-tillit-til-thess-og-hlustum-",
+      "outlet": "visir.is / Fiskeldi",
+      "is_new": true
+    },
+    {
+      "id": "news:visir-fiskeldi:laxeldi-a-seydisfirdi",
+      "lane": "news",
+      "category": "industrial-demand",
+      "title": "Lax­eldi á Seyðis­firði",
+      "entity": "visir.is / Fiskeldi",
+      "date": "2026-10-13",
+      "summary": "Mikil umræða hefur skapast um fyrirhugaða starfsemi Kaldvíkur í Seyðisfirði. Það er eðlilegt enda snertir málið framtíð fjarðarins, atvinnulíf, náttúru og samfélag. Skoðanir eru skiptar og mikilvægt að ólík sjónarmið fái að heyrast.",
+      "url": "https://www.visir.is/g/20262947669d/laxeldi-a-seydisfirdi",
+      "outlet": "visir.is / Fiskeldi",
+      "is_new": true
+    },
+    {
+      "id": "news:vegagerdin:sjor-gaeti-gengid-a-land",
+      "lane": "news",
+      "category": "project",
+      "title": "13. október 2026 Sjór gæti gengið á land",
+      "entity": "Vegagerðin",
+      "date": "2026-10-13",
+      "summary": "Frétt­ir 13. október 2026 Sjór gæti gengið á land",
+      "url": "https://www.vegagerdin.is/vegagerdin/starfsemi/frettir/sjor-gaeti-gengid-a-land",
+      "outlet": "Vegagerðin",
+      "is_new": true
+    },
+    {
+      "id": "news:byggingar:stort-skref-i-framkvaemdum-vid-uppbyggingu-eldisgards",
+      "lane": "news",
+      "category": "investment",
+      "title": "Stórt skref í framkvæmdum við uppbyggingu Eldisgarðs",
+      "entity": "byggingar.is",
+      "date": "2026-10-13",
+      "summary": "Stórt skref í framkvæmdum við uppbyggingu Eldisgarðs",
+      "url": "https://byggingar.is/stort-skref-i-framkvaemdum-vid-uppbyggingu-eldisgards/",
+      "outlet": "byggingar.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:utbod-a-fyrsta-afanga-endurnyjunar-sindravallar-samthykkt",
+      "lane": "news",
+      "category": "investment",
+      "title": "Útboð á fyrsta áfanga endurnýjunar Sindravallar samþykkt",
+      "entity": "braggi.is",
+      "date": "2026-10-13",
+      "summary": "Bæjarráð Sveitarfélagsins Hornafjarðar veitti heimild til að hefja útboðsferli vegna endurnýjunar gervigrass á Sindravelli á fundi sínum þann 13. október 2026. Verkefnastjóri uppbyggingar íþrótta- og skólamannvirkja óskaði eftir heimildinni til að he",
+      "url": "https://braggi.is/utbod-a-fyrsta-afanga-endurnyjunar-sindravallar-samthykkt/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:utbod-a-endurnyjun-gervigrass-i-barunni-samthykkt",
+      "lane": "news",
+      "category": "project",
+      "title": "Útboð á endurnýjun gervigrass í Bárunni samþykkt",
+      "entity": "braggi.is",
+      "date": "2026-10-13",
+      "summary": "Bæjarráð Sveitarfélagsins Hornafjarðar veitti heimild til að hefja útboðsferli vegna endurnýjunar gervigrass í Bárunni á fundi sínum þann 13. október 2026. Deildarstjóri þjónustu og framkvæmda lagði fram minnisblað um ný útboðsgögn og óskaði eftir he",
+      "url": "https://braggi.is/utbod-a-endurnyjun-gervigrass-i-barunni-samthykkt/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:framtid-samkomuhussins-a-husavik-raedd-med-hagsmunaadilum",
+      "lane": "news",
+      "category": "investment",
+      "title": "Framtíð Samkomuhússins á Húsavík rædd með hagsmunaaðilum",
+      "entity": "braggi.is",
+      "date": "2026-10-13",
+      "summary": "Skipulags- og framkvæmdaráð Norðurþings telur skýrslu frá Mannviti frá árinu 2016 um ástand Samkomuhússins á Húsavík fullnægjandi til að taka ákvörðun um framtíð byggingarinnar varðandi viðhald og endurbætur. Ráðið, sem fundaði 13. október 2026, hefu",
+      "url": "https://braggi.is/framtid-samkomuhussins-a-husavik-raedd-med-hagsmunaadilum/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:framkvaemdir-i-icelagoon-hollinni-fyrir-bonus-deildina",
+      "lane": "news",
+      "category": "project",
+      "title": "Framkvæmdir í IceLagoon höllinni fyrir Bónus deildina",
+      "entity": "braggi.is",
+      "date": "2026-10-13",
+      "summary": "Sveitarfélagið Hornafjörður hefur lokið flestum framkvæmdum sem tengjast undirbúningi fyrir fyrsta leik Bónus deildarinnar í IceLagoon höllinni, samkvæmt aðgerðalista sem lagður var fram á 1237. fundi bæjarráðs þann 13. október 2026. Fundurinn, sem f",
+      "url": "https://braggi.is/framkvaemdir-i-icelagoon-hollinni-fyrir-bonus-deildina/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:endurbota-og-vidhaldsaaetlun-fyrir-samkomuhusid-a-husavik",
+      "lane": "news",
+      "category": "investment",
+      "title": "Endurbóta- og viðhaldsáætlun fyrir Samkomuhúsið á Húsavík",
+      "entity": "braggi.is",
+      "date": "2026-10-13",
+      "summary": "Skipulags- og framkvæmdaráð Norðurþings samþykkti á fundi sínum þann 13. október 2026 að hefja ferli vegna endurbóta- og viðhaldsáætlunar fyrir Samkomuhúsið á Húsavík. Ráðið taldi skýrslu frá Mannviti frá árinu 2016 um ástand hússins fullnægjandi til",
+      "url": "https://braggi.is/endurbota-og-vidhaldsaaetlun-fyrir-samkomuhusid-a-husavik/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:boranir-eftir-heitu-vatni-a-landi-husavikur-samthykktar",
+      "lane": "news",
+      "category": "investment",
+      "title": "Boranir eftir heitu vatni á landi Húsavíkur samþykktar",
+      "entity": "braggi.is",
+      "date": "2026-10-13",
+      "summary": "Skipulags- og framkvæmdaráð Norðurþings samþykkti á fundi sínum þann 13. október 2026 að veita Orkuveitu Húsavíkur ohf. leyfi til að bora allt að tíu hitastigulsholur í landi Húsavíkur. Þessar boranir eru ætlaðar til jarðhitarannsókna og leitar að he",
+      "url": "https://braggi.is/boranir-eftir-heitu-vatni-a-landi-husavikur-samthykktar/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
     {
       "id": "news:visir-vidskipti:warren-buffet-raunverulegur-arangur-snyst-um-astina",
       "lane": "news",
@@ -320,7 +498,7 @@
       "summary": "Við eigum nokkra stórmeistara í viðskiptalífi síðustu og þessarar aldar. Warren Buffet er án efa einn þeirra. Moldríkur fjárfestir, 96 ára og þekktur fyrir jarðbundinn lífsstíl og einföld ráð.",
       "url": "https://www.visir.is/g/20262946185d/warren-buffet-raunverulegur-arangur-snyst-um-astina",
       "outlet": "visir.is / Viðskipti",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "news:visir-fiskeldi:hvad-faer-island-fyrir-fiskeldi",
@@ -332,19 +510,19 @@
       "summary": "Það eru ekki nema rétt um 10 ár síðan laxeldi í sjókvíuum hér við land varð að atvinnugrein sem munar um. Aðstæður eru góðar, vaxtarmöguleikar miklir og laxeldið er arðvænlegt.",
       "url": "https://www.visir.is/g/20262947215d/hvad-faer-island-fyrir-fiskeldi-",
       "outlet": "visir.is / Fiskeldi",
-      "is_new": true
+      "is_new": false
     },
     {
-      "id": "news:vegagerdin:allra-vedra-von",
+      "id": "news:vb:adeins-einn-af-sjo-vindorkukostum-i-nytingarflokk",
       "lane": "news",
       "category": "project",
-      "title": "12. október 2026 Allra veðra von",
-      "entity": "Vegagerðin",
+      "title": "Aðeins einn af sjö vindorku­kostum í nýtingar­flokk",
+      "entity": "vb.is",
       "date": "2026-10-12",
-      "summary": "Frétt­ir 12. október 2026 Allra veðra von",
-      "url": "https://www.vegagerdin.is/vegagerdin/starfsemi/frettir/allra-vedra-von",
-      "outlet": "Vegagerðin",
-      "is_new": true
+      "summary": "Innlent 12. okt. 15:12 Aðeins einn af sjö vindorku­kostum í nýtingar­flokk",
+      "url": "https://www.vb.is/frettir/adeins-einn-af-sjo-vindorkukostum-i-nytingarflokk/",
+      "outlet": "vb.is",
+      "is_new": false
     },
     {
       "id": "news:reykjavik:byggingarettur-i-sudurholum-tilbodsfrestur-framlengdur",
@@ -356,31 +534,19 @@
       "summary": "12. október 2026 Byggingaréttur í Suðurhólum - tilboðsfrestur framlengdur",
       "url": "https://reykjavik.is/frettir/2026/byggingarettur-i-sudurholum-tilbodsfrestur-framlengdur",
       "outlet": "Reykjavíkurborg",
-      "is_new": true
+      "is_new": false
     },
     {
-      "id": "news:byggingar:oll-tilbod-yfir-aaetlun",
-      "lane": "news",
-      "category": "project",
-      "title": "Öll tilboð yfir áætlun",
-      "entity": "byggingar.is",
-      "date": "2026-10-12",
-      "summary": "Öll tilboð yfir áætlun",
-      "url": "https://byggingar.is/oll-tilbod-yfir-aaetlun/",
-      "outlet": "byggingar.is",
-      "is_new": true
-    },
-    {
-      "id": "news:byggingar:landslagnir-ehf-bjoda-122-7-milljonir-i-byggingarrett-vid-hraunberg",
+      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-landslagnir-ehf-bjoda-122-7-milljonir",
       "lane": "news",
       "category": "project",
       "title": "Landslagnir ehf. bjóða 122.7 milljónir í byggingarrétt við Hraunberg",
-      "entity": "byggingar.is",
+      "entity": "byggingar.is / niðurstöður útboða",
       "date": "2026-10-12",
-      "summary": "Landslagnir ehf. bjóða 122.7 milljónir í byggingarrétt við Hraunberg",
-      "url": "https://byggingar.is/landslagnir-ehf-bjoda-122-7-milljonir-i-byggingarrett-vid-hraunberg/",
-      "outlet": "byggingar.is",
-      "is_new": true
+      "summary": "Landslagnir ehf. bjóða 122.7 milljónir í byggingarrétt við Hraunberg Landslagnir ehf. áttu hæsta tilboðið í byggingarrétt fyrir allt að 16 íbúðir við Hraunberg 1 í Breiðholti, eða tæplega 122,7 milljónir króna. Tvö tilboð bárust í byggingarréttinn sem Reykjavíkurborg auglýsti til sölu í september. Tilboðin voru opnuð föstudaginn 9. október 2026 klukkan 12 í...",
+      "url": "https://byggingar.is/landslagnir-ehf-bjoda-122-7-milljonir-i-byggingarrett-vid-hraunberg/?utm_source=rss&utm_medium=rss&utm_campaign=landslagnir-ehf-bjoda-122-7-milljonir-i-byggingarrett-vid-hraunberg",
+      "outlet": "byggingar.is / niðurstöður útboða",
+      "is_new": false
     },
     {
       "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-k16-ehf-laegst-med-870-milljona-tilbo",
@@ -392,163 +558,7 @@
       "summary": "K16 ehf. lægst með 870 milljóna tilboð í leikskólann Skýjaborg K16 ehf. átti lægsta tilboðið í byggingu leikskólans Skýjaborgar í Hvalfjarðarsveit, eða tæplega 870 milljónir króna. Alls bárust 14 tilboð í verkið og voru sjö þeirra undir kostnaðaráætlun verkkaupa, sem hljóðaði upp á 984,4 milljónir króna. Tilboð í byggingu leikskólans Skýjaborgar voru opnuð....",
       "url": "https://byggingar.is/k16-ehf-laegst-med-870-milljona-tilbod-i-leikskolann-skyjaborg/?utm_source=rss&utm_medium=rss&utm_campaign=k16-ehf-laegst-med-870-milljona-tilbod-i-leikskolann-skyjaborg",
       "outlet": "byggingar.is / niðurstöður útboða",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:vidhalds-og-framkvaemdaaaetlun-2027-2030-samthykkt-til-fyrri-umraedu",
-      "lane": "news",
-      "category": "project",
-      "title": "Viðhalds- og framkvæmdaáætlun 2027-2030 samþykkt til fyrri umræðu",
-      "entity": "braggi.is",
-      "date": "2026-10-12",
-      "summary": "Mannvirkja- og framkvæmdanefnd Hvalfjarðarsveitar samþykkti viðhalds- og framkvæmdaáætlun fyrir árin 2027-2030 á fundi sínum þann 12. október 2026. Áætlunin var lögð fram til fyrri umræðu vegna fjárhagsáætlunargerðar sveitarstjórnar.",
-      "url": "https://braggi.is/vidhalds-og-framkvaemdaaaetlun-2027-2030-samthykkt-til-fyrri-umraedu/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:tilbod-opnud-i-byggingu-leikskolans-skyjaborgar-14-tilbod-barust",
-      "lane": "news",
-      "category": "project",
-      "title": "Tilboð opnuð í byggingu leikskólans Skýjaborgar, 14 tilboð bárust",
-      "entity": "braggi.is",
-      "date": "2026-10-12",
-      "summary": "Mannvirkja- og framkvæmdanefnd Hvalfjarðarsveitar samþykkti á fundi sínum þann 12. október 2026 að leggja tillögu um val á hagstæðasta tilboði í byggingu leikskólans Skýjaborgar fyrir sveitarstjórn til samþykktar, en tilboð í verkið voru opnuð þann 6",
-      "url": "https://braggi.is/tilbod-opnud-i-byggingu-leikskolans-skyjaborgar-14-tilbod-barust/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:tafir-a-verklokum-ithrottahuss-vid-heidarborg-vegna-brunavarna",
-      "lane": "news",
-      "category": "project",
-      "title": "Tafir á verklokum íþróttahúss við Heiðarborg vegna brunavarna",
-      "entity": "braggi.is",
-      "date": "2026-10-12",
-      "summary": "Mannvirkja- og framkvæmdanefnd Hvalfjarðarsveitar fór yfir stöðu framkvæmda við íþróttahúsið Heiðarborg á fundi sínum þann 12. október 2026, þar sem fram komu tafir á verklokum sem áttu að vera 3. október 2026. Helstu ástæður tafanna eru ólokin verk",
-      "url": "https://braggi.is/tafir-a-verklokum-ithrottahuss-vid-heidarborg-vegna-brunavarna/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:stoduleyfi-fyrir-gami-vid-hvanneyri-fraveitustod-samthykkt",
-      "lane": "news",
-      "category": "investment",
-      "title": "Stöðuleyfi fyrir gámi við Hvanneyri fráveitustöð samþykkt",
-      "entity": "braggi.is",
-      "date": "2026-10-12",
-      "summary": "Afgreiðslufundur byggingarfulltrúa Borgarbyggðar samþykkti þann 25. september 2026 umsókn Veitna ehf. um stöðuleyfi fyrir 10 feta gámi við Hvanneyri fráveitustöð. Gámurinn mun hýsa ECA lausn sem ætlað er að minnka gerlamagn í fráveituvatni. Umsóknin",
-      "url": "https://braggi.is/stoduleyfi-fyrir-gami-vid-hvanneyri-fraveitustod-samthykkt/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:staekkun-lodar-helgastadalands-samthykkt-ur-2500-fm-i-9050-fm",
-      "lane": "news",
-      "category": "investment",
-      "title": "Stækkun lóðar Helgastaðalands samþykkt úr 2.500 fm í 9.050 fm",
-      "entity": "braggi.is",
-      "date": "2026-10-12",
-      "summary": "Skipulags- og byggingarnefnd Borgarbyggðar samþykkti á fundi sínum þann 2. október 2026 að breyta afmörkun og stærð lóðar Helgastaðalands úr 2.500 fermetrum í 9.050 fermetra. Stækkunin kemur úr landi Helgastaða og er lóðin skráð sem sumarbústaðarland",
-      "url": "https://braggi.is/staekkun-lodar-helgastadalands-samthykkt-ur-2500-fm-i-9050-fm/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:skraning-hafin-a-skipulagsdaginn-2026-med-fjolbreyttri-dagskra",
-      "lane": "news",
-      "category": "investment",
-      "title": "Skráning hafin á Skipulagsdaginn 2026 með fjölbreyttri dagskrá",
-      "entity": "braggi.is",
-      "date": "2026-10-12",
-      "summary": "Húsnæðis- og mannvirkjastofnun og Samband íslenskra sveitarfélaga bjóða til Skipulagsdagsins 2026 sem fer fram 5. nóvember. Skráning er nú hafin á viðburðinn sem verður haldinn á Grandhótel og í beinu streymi.",
-      "url": "https://braggi.is/skraning-hafin-a-skipulagsdaginn-2026-med-fjolbreyttri-dagskra/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:rarik-faer-heimild-til-plaegingar-rafstrengja-fra-vatnshomrum-ad-borgarfjardarbr",
-      "lane": "news",
-      "category": "investment",
-      "title": "RARIK fær heimild til plægingar rafstrengja frá Vatnshömrum að Borgarfjarðarbrú",
-      "entity": "braggi.is",
-      "date": "2026-10-12",
-      "summary": "Á afgreiðslufundi skipulagsfulltrúa Borgarbyggðar þann 30. september 2026 var samþykkt umsókn RARIK ohf. um heimild til plægingar sex 33 kV rafstrengja í jörð frá Vatnshömrum að Borgarfjarðarbrú. Framkvæmdin er staðsett utan friðlands Andakíls og fel",
-      "url": "https://braggi.is/rarik-faer-heimild-til-plaegingar-rafstrengja-fra-vatnshomrum-ad-borgarfjardarbr/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:nytt-loftraestikerfi-mun-hita-upp-fjardabyggdarhollina",
-      "lane": "news",
-      "category": "project",
-      "title": "Nýtt loftræstikerfi mun hita upp Fjarðabyggðarhöllina",
-      "entity": "braggi.is",
-      "date": "2026-10-12",
-      "summary": "Fjarðabyggð hefur undirritað verksamning við Launafl um uppsetningu nýs loftræstikerfis í Fjarðabyggðarhöllinni á Reyðarfirði. Kerfið mun sjá um upphitun og loftskipti og er ætlað að bæta aðstæður til íþróttaiðkunar í höllinni, sem hefur verið kölluð",
-      "url": "https://braggi.is/nytt-loftraestikerfi-mun-hita-upp-fjardabyggdarhollina/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:nytt-hus-fristundar-og-felagsmidstodvar-a-husavik-vigt-oll-velkomin",
-      "lane": "news",
-      "category": "project",
-      "title": "Nýtt hús frístundar og félagsmiðstöðvar á Húsavík vígt - öll velkomin!",
-      "entity": "braggi.is",
-      "date": "2026-10-12",
-      "summary": "Nýtt hús fyrir frístundastarf yngstu nemenda grunnskólans og félagsmiðstöð unglinga á Húsavík verður vígt fimmtudaginn 15. október klukkan 16:30. Byggingin mun þjóna sem miðstöð fyrir samveru, sköpun, leiki og félagsstarf barna og unglinga í sveitarf",
-      "url": "https://braggi.is/nytt-hus-fristundar-og-felagsmidstodvar-a-husavik-vigt-oll-velkomin/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:nlsh-f17906821f748a51",
-      "lane": "news",
-      "category": "project",
-      "title": "Saga nýs Landspítala skráð úr lofti",
-      "entity": "braggi.is",
-      "date": "2026-10-12",
-      "summary": "Regluleg loftmyndataka af byggingasvæði Nýs Landspítala hefur verið órjúfanlegur þáttur í framkvæmdunum síðastliðin sjö ár. Tilgangurinn er tvíþættur: að skr…",
-      "url": "https://braggi.is/nlsh-f17906821f748a51/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:gestahus-a-storaborg-11-krefst-breytingar-a-deiliskipulagi",
-      "lane": "news",
-      "category": "investment",
-      "title": "Gestahús á Stóraborg 11 krefst breytingar á deiliskipulagi",
-      "entity": "braggi.is",
-      "date": "2026-10-12",
-      "summary": "Byggingarfulltrúi Borgarbyggðar hafnaði umsókn um byggingarleyfi fyrir gestahúsi á Stóraborg 11 á fundi sínum 25. september 2026, þar sem stærð hússins er umfram það sem deiliskipulag heimilar. Umsækjendur, Edda Rut Þorvaldsdóttir, Kristín Björg Þorv",
-      "url": "https://braggi.is/gestahus-a-storaborg-11-krefst-breytingar-a-deiliskipulagi/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:deiliskipulag-lagt-til-vegna-stofnunar-nyrrar-lodar-i-hvitarholti-3",
-      "lane": "news",
-      "category": "investment",
-      "title": "Deiliskipulag lagt til vegna stofnunar nýrrar lóðar í Hvítárholti 3",
-      "entity": "braggi.is",
-      "date": "2026-10-12",
-      "summary": "Skipulags- og byggingarnefnd Borgarbyggðar lagði til á fundi sínum 2. október 2026 að gert yrði deiliskipulag vegna stofnunar nýrrar 900 fermetra lóðar í Hvítárholti 3. Umsókn um stofnun lóðarinnar var lögð fram og er hún ætluð til að verða hluti af",
-      "url": "https://braggi.is/deiliskipulag-lagt-til-vegna-stofnunar-nyrrar-lodar-i-hvitarholti-3/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:byggingarheimild-fyrir-fristundahusi-a-fauskasi-3-l205405-samthykkt",
-      "lane": "news",
-      "category": "project",
-      "title": "Byggingarheimild fyrir frístundahúsi á Fauskási 3 L205405 samþykkt",
-      "entity": "braggi.is",
-      "date": "2026-10-12",
-      "summary": "Afgreiðslufundur byggingarfulltrúa Borgarbyggðar samþykkti byggingaráform fyrir frístundahúsi á Fauskási 3, L205405, eftir að grenndarkynningu var lokið. Umsækjandi er Hjálmar Stefán Brynjólfsson og er um að ræða frístundahús sem er 52 fermetrar að s",
-      "url": "https://braggi.is/byggingarheimild-fyrir-fristundahusi-a-fauskasi-3-l205405-samthykkt/",
-      "outlet": "braggi.is",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "news:visir-fiskeldi:hafi-verid-beggja-vegna-bordsins",
@@ -899,18 +909,6 @@
       "is_new": false
     },
     {
-      "id": "news:fiskifrettir:reykjavikurhofn-tilnefnd-til-espo-fyrir-vor",
-      "lane": "news",
-      "category": "project",
-      "title": "Reykjavíkurhöfn tilnefnd til ESPO fyrir Vör",
-      "entity": "Fiskifréttir",
-      "date": "2026-09-29",
-      "summary": "Fréttir 29. sept. 15:15 Reykjavíkurhöfn tilnefnd til ESPO fyrir Vör",
-      "url": "https://fiskifrettir.vb.is/reykjavikurhofn-tilnefnd-til-espo-fyrir-vor/",
-      "outlet": "Fiskifréttir",
-      "is_new": false
-    },
-    {
       "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-thg-verktakar-laegstir-i-gufudalssvei",
       "lane": "news",
       "category": "competitor",
@@ -1079,18 +1077,6 @@
       "is_new": false
     },
     {
-      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-drattarbilar-velaleiga-fa-vetrarthjon",
-      "lane": "news",
-      "category": "project",
-      "title": "Dráttarbílar Vélaleiga fá vetrarþjónustu Garðabæjar fyrir 61,2 milljónir",
-      "entity": "byggingar.is / niðurstöður útboða",
-      "date": "2026-09-23",
-      "summary": "Dráttarbílar Vélaleiga fá vetrarþjónustu Garðabæjar fyrir 61,2 milljónir Bæjarráð Garðabæjar samþykkti á fundi sínum í gær þann 22. september að taka tilboði Dráttarbíla Vélaleigu ehf. í vetrarþjónustu stofnanalóða og húsagatna í Garðabæ næstu þrjá vetur. Dráttarbílar Vélaleiga buðu 61.174.585 krónur í verkið, eða 76,1% af kostnaðaráætlun Garðabæjar sem hlj...",
-      "url": "https://byggingar.is/drattarbilar-velaleiga-fa-vetrarthjonustu-gardabaejar/?utm_source=rss&utm_medium=rss&utm_campaign=drattarbilar-velaleiga-fa-vetrarthjonustu-gardabaejar",
-      "outlet": "byggingar.is / niðurstöður útboða",
-      "is_new": false
-    },
-    {
       "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-borgarverk-laegst-i-budafossveg-og-ny",
       "lane": "news",
       "category": "competitor",
@@ -1205,7 +1191,7 @@
       "title": "KAPP og Thor Salmon þróa saman nýja tækni fyrir landeldi",
       "entity": "Fiskifréttir",
       "date": "2026-09-22",
-      "summary": "Nýsköpun og tækni 22. sept. 13:42 KAPP og Thor Salmon þróa saman nýja tækni fyrir landeldi",
+      "summary": "Nýsköpun og tækni 22. sept. 13:42 KAPP og Thor Salmon þróa saman nýja tækni fyrir landeldi Sjá meira",
       "url": "https://fiskifrettir.vb.is/kapp-og-thor-salmon-throa-saman-nyja-taekni-fyrir-landeldi/",
       "outlet": "Fiskifréttir",
       "is_new": false
@@ -1436,6 +1422,18 @@
       "summary": "Það er líklega ekki margt sem sameinar ferskan íslenskan fisk á leið til útlanda, gólfhita í fjölbýlishúsi og grasþak á nýbyggingu. Svarið gæti þó leynst í verksmiðju Tempru þar sem hráefni á stærð við sykurkorn er „poppað“ upp og breytt í allt frá fiskikössum yfir í einangrun fyrir íslensk hús.",
       "url": "https://www.visir.is/g/20262935096d/98-prosent-loft-en-gegnir-lykilhlutverki-i-islensku-atvinnulifi",
       "outlet": "visir.is / Viðskipti",
+      "is_new": false
+    },
+    {
+      "id": "news:byggingar:gardabaer-samthykkir-438-milljona-tilbod-vhe-i-busetukjarna",
+      "lane": "news",
+      "category": "investment",
+      "title": "Garðabær samþykkir 438 milljóna tilboð VHE í búsetukjarna",
+      "entity": "byggingar.is",
+      "date": "2026-09-16",
+      "summary": "Garðabær samþykkir 438 milljóna tilboð VHE í búsetukjarna",
+      "url": "https://byggingar.is/gardabaer-samthykkir-438-milljona-tilbod-vhe-i-busetukjarna/",
+      "outlet": "byggingar.is",
       "is_new": false
     },
     {
