@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "generated": "2026-10-13T07:00:24Z",
-  "generated_at": "2026-10-13T07:00:24Z",
+  "generated": "2026-10-14T07:00:24Z",
+  "generated_at": "2026-10-14T07:00:24Z",
   "sources": {
     "utbodsvefur": {
-      "generated_at": "2026-10-13T07:00:24.743428+00:00",
-      "count": 63,
+      "generated_at": "2026-10-14T07:00:24.291356+00:00",
+      "count": 62,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders.json"
     },
     "offportal": {
-      "generated": "2026-10-13T07:00:24Z",
-      "count": 162,
+      "generated": "2026-10-14T07:00:24Z",
+      "count": 163,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders_offportal.json"
     },
     "not_covered": [
@@ -319,7 +319,7 @@
         "evidence_url": "https://www.utbodsvefur.is/fjallabyggd-snjomokstur-og-halkuvarnir-2026-2029/",
         "seen_count": 1,
         "first_seen": "2026-10-06T07:00:27Z",
-        "last_seen": "2026-10-13T07:00:24Z",
+        "last_seen": "2026-10-14T07:00:24Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       },
@@ -331,13 +331,13 @@
         "evidence_url": "https://www.utbodsvefur.is/innheimtuthjonusta-fruminnheimta-asamt-milli-og-loginnheimtu/",
         "seen_count": 1,
         "first_seen": "2026-10-12T07:00:25Z",
-        "last_seen": "2026-10-13T07:00:24Z",
+        "last_seen": "2026-10-14T07:00:24Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       }
     ]
   },
-  "count": 216,
+  "count": 215,
   "items": [
     {
       "reference": "",
@@ -2560,66 +2560,6 @@
       "source": "vegagerdin-samningum-lokid"
     },
     {
-      "reference": "16286",
-      "project": "Rammasamningur um bifreiðar fyrir Reykjavíkurborg, EES útboð nr. 16286",
-      "buyer": "Reykjavíkurborg",
-      "notice_type": "Vörukaup",
-      "deadline": "13.10.2026 kl. 10:00",
-      "deadline_local": "2026-10-13T10:00:00+00:00",
-      "deadline_utc": "2026-10-13T10:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-09-09T11:14:08+00:00",
-      "modified_at": "2026-09-09T11:14:08+00:00",
-      "url": "https://www.utbodsvefur.is/rammasamningur-um-bifreidar-fyrir-reykjavikurborg-ees-utbod-nr-16286/",
-      "summary": "Óskað er eftir tilboðum í Rammasamningur um bifreiðar fyrir Reykjavíkurborg, EES útboð nr. 16286 Skrifstofa fjármálaþjónustu og ráðgjafar, fyrir hönd ...",
-      "source": "utbodsvefur"
-    },
-    {
-      "reference": "16200",
-      "project": "Rammasamningur um mötuneytisþjónustu SFS, EES útboð nr. 16200",
-      "buyer": "Reykjavíkurborg",
-      "notice_type": "Þjónusta",
-      "deadline": "13.10.2026 kl. 10:00",
-      "deadline_local": "2026-10-13T10:00:00+00:00",
-      "deadline_utc": "2026-10-13T10:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-08-21T09:54:05+00:00",
-      "modified_at": "2026-10-05T11:32:25+00:00",
-      "url": "https://www.utbodsvefur.is/rammasamningur-um-motuneytisthjonustu-sfs-ees-utbod-nr-16200/",
-      "summary": "f.h. Skóla- og frístundasviðs Reykjavíkurborgar er óskað eftir hæfum aðilum til að taka þátt í rammasamning um mötuneytisþjónustu SFS: Rammasamningur ...",
-      "source": "utbodsvefur"
-    },
-    {
-      "reference": "25-034",
-      "project": "Service Truck for The Icelandic Road and Coastal Administration (IRCA) 202",
-      "buyer": "Vegagerðin",
-      "notice_type": "Vörukaup",
-      "deadline": "13.10.2026 kl. 14:00",
-      "deadline_local": "2026-10-13T14:00:00+00:00",
-      "deadline_utc": "2026-10-13T14:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-09-08T14:15:57+00:00",
-      "modified_at": "2026-09-08T14:15:57+00:00",
-      "url": "https://www.utbodsvefur.is/service-truck-for-the-icelandic-road-and-coastal-administration-irca-202/",
-      "summary": "Vegagerðin býður hér með út Innkaup nýrri 4×4 vörubifreið (þjónustubifreið). Heimilt er að framlengja samninginn einu sinni sinnum um eitt ár, þa...",
-      "source": "utbodsvefur"
-    },
-    {
-      "reference": "5402697509",
-      "project": "Verðfyrirspurn – Þróun þjónustulags gagnavistkerfis og Model Context Protocol (MCP) viðmóts.",
-      "buyer": "Fjársýslan ríkisins",
-      "notice_type": "Þjónusta Markaðskönnun (RFI) Verðfyrirspurn",
-      "deadline": "14.10.2026 kl. 00:00",
-      "deadline_local": "2026-10-14T00:00:00+00:00",
-      "deadline_utc": "2026-10-14T00:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-09-28T14:10:46+00:00",
-      "modified_at": "2026-09-28T14:10:46+00:00",
-      "url": "https://www.utbodsvefur.is/verdfyrirspurn-throun-thjonustulags-gagnavistkerfis-og-model-context-protocol-mcp-vidmots/",
-      "summary": "Fjársýsla ríkisins („Fjársýslan“), kt. 540269-7509, í samstarfi við Mennta- og barnamálaráðuneytið („MRN“), kt. 460269-2969, óskar eftir tilboðum í þr...",
-      "source": "utbodsvefur"
-    },
-    {
       "reference": "VEU-2606-0052",
       "project": "VEU-2606-0052 Háspennurofabúnaður og fylgihlutir (High Voltage Switchgear and accessories)",
       "buyer": "Veitur ohf.",
@@ -2845,6 +2785,21 @@
       "source": "utbodsvefur"
     },
     {
+      "reference": "202606032",
+      "project": "Endurnýjun Sindravallar, jarðvinna og yfirborðsfrágangur",
+      "buyer": "Sveitarfélagið Hornafjörður",
+      "notice_type": "Framkvæmd",
+      "deadline": "26.10.2026 kl. 14:00",
+      "deadline_local": "2026-10-26T14:00:00+00:00",
+      "deadline_utc": "2026-10-26T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-13T13:53:47+00:00",
+      "modified_at": "2026-10-13T13:53:47+00:00",
+      "url": "https://www.utbodsvefur.is/endurnyjun-sindravallar-jardvinna-og-yfirbordsfragangur/",
+      "summary": "Sveitarfélagið Hornafjörður, hér eftir nefnt verkkaupi, óskar eftir tilboðum í verkið „Endurnýjun Sindravallar, jarðvinna og yfirborðsfrágangur“ eins ...",
+      "source": "utbodsvefur"
+    },
+    {
       "reference": "16348",
       "project": "Rammasamningur um ferskt grænmeti og ávexti, EES útboð nr. 16348",
       "buyer": "Reykjavíkurborg",
@@ -2887,6 +2842,21 @@
       "modified_at": "2026-09-28T14:23:00+00:00",
       "url": "https://www.utbodsvefur.is/supply-of-brt-street-light-poles-ljosastaurar-og-lampar-fyrir-borgarlinustodvar/",
       "summary": "Betri samgöngur ohf. invites tenders for light poles and luminaires for Borgarlína stations. The contract covers the purchase and delivery of light po...",
+      "source": "utbodsvefur"
+    },
+    {
+      "reference": "26-141",
+      "project": "Húsavík – Þvergarður – Endurbygging og lenging 2026",
+      "buyer": "Vegagerðin",
+      "notice_type": "Framkvæmd",
+      "deadline": "27.10.2026 kl. 14:00",
+      "deadline_local": "2026-10-27T14:00:00+00:00",
+      "deadline_utc": "2026-10-27T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-13T14:14:13+00:00",
+      "modified_at": "2026-10-13T14:16:00+00:00",
+      "url": "https://www.utbodsvefur.is/husavik-thvergardur-endurbygging-og-lenging-2026/",
+      "summary": "Hafnir Norðuþings óska eftir tilboðum í verkið. Helstu magntölur: Brjóta og saga eldri kant, þekju og polla. Rífa tvö masturshús. Jarðvinna, fylling ...",
       "source": "utbodsvefur"
     },
     {
@@ -3217,6 +3187,21 @@
       "modified_at": "2026-10-12T10:08:36+00:00",
       "url": "https://www.utbodsvefur.is/upplysingataeknithjonusta-fyrir-stafraena-heilbrigdisthjonustu/",
       "summary": "Fjársýslan fyrir hönd heilbrigðisráðuneytisins, kt. 521218-0530, óskar eftir tilboðum í tækniþjónustu fyrir Stafræna heilsu og Sjúkratryggingar Ísland...",
+      "source": "utbodsvefur"
+    },
+    {
+      "reference": "TZS26002",
+      "project": "Þotugildrur á Keflavíkurflugvelli",
+      "buyer": "Fjársýslan ríkisins",
+      "notice_type": "Þjónusta",
+      "deadline": "14.12.2026 kl. 12:00",
+      "deadline_local": "2026-12-14T12:00:00+00:00",
+      "deadline_utc": "2026-12-14T12:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-13T10:38:49+00:00",
+      "modified_at": "2026-10-13T10:39:51+00:00",
+      "url": "https://www.utbodsvefur.is/thotugildrur-a-keflavikurflugvelli/",
+      "summary": "Utanríkisráðuneytið, varnarmálaskrifstofa og Landhelgisgæslan, varnarmálasvið, vekja athygli á auglýsingu innkaupastofnunar Atlantshafsbandalagsins (N...",
       "source": "utbodsvefur"
     },
     {

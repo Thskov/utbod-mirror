@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated": "2026-10-13T07:00:24Z",
-  "generated_at": "2026-10-13T07:00:24Z",
+  "generated": "2026-10-14T07:00:24Z",
+  "generated_at": "2026-10-14T07:00:24Z",
   "sources": {
     "covered": [
       {
@@ -363,7 +363,7 @@
         "evidence_url": "https://www.utbodsvefur.is/fjallabyggd-snjomokstur-og-halkuvarnir-2026-2029/",
         "seen_count": 1,
         "first_seen": "2026-10-06T07:00:27Z",
-        "last_seen": "2026-10-12T07:00:25Z",
+        "last_seen": "2026-10-13T07:00:24Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       },
@@ -375,13 +375,13 @@
         "evidence_url": "https://www.utbodsvefur.is/innheimtuthjonusta-fruminnheimta-asamt-milli-og-loginnheimtu/",
         "seen_count": 1,
         "first_seen": "2026-10-12T07:00:25Z",
-        "last_seen": "2026-10-12T07:00:25Z",
+        "last_seen": "2026-10-13T07:00:24Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       }
     ]
   },
-  "count": 162,
+  "count": 163,
   "items": [
     {
       "reference": "",
@@ -2617,6 +2617,21 @@
       "url": "https://in-tendhost.co.uk/reykjavikenergy/aspx/ProjectManage/701",
       "summary": "Substation A13 Sægarðar 1, 104 Reykjavik: Delivery and installation of High Voltage Switchgear and accessories.",
       "source": "or-intend"
+    },
+    {
+      "reference": "U25032",
+      "project": "U25032 Keflavík Airport Unified Security Checkpoint Solution",
+      "buyer": "Isavia",
+      "notice_type": "Works",
+      "deadline": "19.10.2026 kl. 12:00",
+      "deadline_local": "2026-10-19T12:00:00+00:00",
+      "deadline_utc": "2026-10-19T12:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": null,
+      "modified_at": null,
+      "url": "https://in-tendhost.co.uk/isavia/aspx/ProjectManage/380",
+      "summary": "Isavia ohf. is conducting a procurement on behalf of Isavia ohf. and its subsidiaries for a complete passenger security checkpoint solution at Keflavík Airport. The scope includes the supply, installation, integration, commissioning, testing, handover, maintenance and support of airport security screening equipment, related software, interfaces and IT infrastructure, including CT security scanners for cabin baggage…",
+      "source": "isavia-intend"
     },
     {
       "reference": "U25033",
