@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T07:00:24.291356+00:00",
+  "generated_at": "2026-10-15T07:00:25.585313+00:00",
   "source": {
     "site": "https://www.utbodsvefur.is",
     "posts_api": "https://www.utbodsvefur.is/wp-json/wp/v2/posts",
@@ -7,41 +7,13 @@
     "count_drop_guard": {
       "status": "fresh",
       "threshold": ">70% source-count collapse",
-      "previous_good_count": 63,
-      "current_count": 62,
+      "previous_good_count": 62,
+      "current_count": 64,
       "minimum_allowed_count": 18
     }
   },
-  "count": 62,
+  "count": 64,
   "tenders": [
-    {
-      "reference": "VEU-2606-0052",
-      "project": "VEU-2606-0052 Háspennurofabúnaður og fylgihlutir (High Voltage Switchgear and accessories)",
-      "buyer": "Veitur",
-      "notice_type": "Framkvæmd Vörukaup",
-      "deadline": "14.10.2026 kl. 14:00",
-      "deadline_local": "2026-10-14T14:00:00+00:00",
-      "deadline_utc": "2026-10-14T14:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-09-03T13:53:20+00:00",
-      "modified_at": "2026-09-28T09:29:41+00:00",
-      "url": "https://www.utbodsvefur.is/veu-2606-0052-haspennurofabunadur-og-fylgihlutir-high-voltage-switchgear-and-accessories/",
-      "summary": "Veitur ohf. óska eftir tilboðum í útboðsverkefni: „VEU-2606-0052 Háspennurofabúnaður og fylgihlutir (High Voltage Switchgear and accessories)..."
-    },
-    {
-      "reference": "02/2026",
-      "project": "Staðbundin eigna- og öryggisgæsla í verslunum ÁTVR",
-      "buyer": "Áfengis og tóbaksverslun ríkisins / ÁTVR",
-      "notice_type": "Þjónusta",
-      "deadline": "15.10.2026 kl. 00:00",
-      "deadline_local": "2026-10-15T00:00:00+00:00",
-      "deadline_utc": "2026-10-15T00:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-09-11T07:42:07+00:00",
-      "modified_at": "2026-09-11T07:42:16+00:00",
-      "url": "https://www.utbodsvefur.is/stadbundin-eigna-og-oryggisgaesla-i-verslunum-atvr/",
-      "summary": "Áfengis- og tóbaksverslun ríkisins óskar eftir tilboðum í staðbundna eigna- og öryggisgæslu í verslunum ÁTVR (Vínbúðum). Verslanirnar sem útboðið teku..."
-    },
     {
       "reference": "2026-10",
       "project": "Endurbætur á Kaplan vélum í Steingrímsstöð",
@@ -279,6 +251,34 @@
       "modified_at": "2026-09-28T14:23:00+00:00",
       "url": "https://www.utbodsvefur.is/supply-of-brt-street-light-poles-ljosastaurar-og-lampar-fyrir-borgarlinustodvar/",
       "summary": "Betri samgöngur ohf. invites tenders for light poles and luminaires for Borgarlína stations. The contract covers the purchase and delivery of light po..."
+    },
+    {
+      "reference": "26-132",
+      "project": "Þjónusta og viðhald veglýsingar á Reykjanesi",
+      "buyer": "Vegagerðin",
+      "notice_type": "Þjónusta",
+      "deadline": "27.10.2026 kl. 14:00",
+      "deadline_local": "2026-10-27T14:00:00+00:00",
+      "deadline_utc": "2026-10-27T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-14T12:04:05+00:00",
+      "modified_at": "2026-10-14T12:04:05+00:00",
+      "url": "https://www.utbodsvefur.is/thjonusta-og-vidhald-veglysingar-a-reykjanesi/",
+      "summary": "Vegagerðin býður hér með út þjónustu og viðhald veglýsingar á Reykjanesi. Um er að ræða almenna þjónustu og viðhald á veglýsingarkerfinu, niðurtekt o..."
+    },
+    {
+      "reference": "26-133",
+      "project": "Þjónusta og viðhald veglýsingar á höfuðborgarsvæðinu",
+      "buyer": "Vegagerðin",
+      "notice_type": "Þjónusta",
+      "deadline": "27.10.2026 kl. 14:00",
+      "deadline_local": "2026-10-27T14:00:00+00:00",
+      "deadline_utc": "2026-10-27T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-14T12:06:18+00:00",
+      "modified_at": "2026-10-14T12:06:18+00:00",
+      "url": "https://www.utbodsvefur.is/thjonusta-og-vidhald-veglysingar-a-hofudborgarsvaedinu/",
+      "summary": "Vegagerðin býður hér með út þjónustu og viðhald veglýsingar á höfuðborgarsvæðinu. Um er að ræða almenna þjónustu og viðhald á veglýsingarkerfinu, nið..."
     },
     {
       "reference": "16350",
@@ -559,6 +559,34 @@
       "modified_at": "2026-10-12T10:08:36+00:00",
       "url": "https://www.utbodsvefur.is/upplysingataeknithjonusta-fyrir-stafraena-heilbrigdisthjonustu/",
       "summary": "Fjársýslan fyrir hönd heilbrigðisráðuneytisins, kt. 521218-0530, óskar eftir tilboðum í tækniþjónustu fyrir Stafræna heilsu og Sjúkratryggingar Ísland..."
+    },
+    {
+      "reference": "BSVK-2026-18",
+      "project": "Supply of LED Street light luminaires – Lampar fyrir Borgarlínu",
+      "buyer": "Betri samgöngur ohf.",
+      "notice_type": "Vörukaup",
+      "deadline": "19.11.2026 kl. 14:00",
+      "deadline_local": "2026-11-19T14:00:00+00:00",
+      "deadline_utc": "2026-11-19T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-14T08:05:15+00:00",
+      "modified_at": "2026-10-14T08:05:15+00:00",
+      "url": "https://www.utbodsvefur.is/supply-of-led-street-light-luminaires-lampar-fyrir-borgarlinu/",
+      "summary": "Betri samgöngur ohf. invites tenders for the supply and delivery of LED street light luminaires and pedestrian crossing luminaires for Borgarlínan. T..."
+    },
+    {
+      "reference": "202650",
+      "project": "Hópið – Markaðskönnun",
+      "buyer": "Grindavíkurbær",
+      "notice_type": "Markaðskönnun (RFI)",
+      "deadline": "24.11.2026 kl. 12:00",
+      "deadline_local": "2026-11-24T12:00:00+00:00",
+      "deadline_utc": "2026-11-24T12:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-14T08:39:18+00:00",
+      "modified_at": "2026-10-14T08:39:18+00:00",
+      "url": "https://www.utbodsvefur.is/hopid-markadskonnun/",
+      "summary": "Consensa, fyrir hönd Grindavíkurbæjar, óskar eftir upplýsingum og sjónarmiðum áhugasamra markaðsaðila vegna undirbúnings þjónustusérleyfis um uppbyggi..."
     },
     {
       "reference": "TZS26002",
