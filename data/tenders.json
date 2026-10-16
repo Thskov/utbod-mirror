@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T07:00:25.585313+00:00",
+  "generated_at": "2026-10-16T07:00:25.235253+00:00",
   "source": {
     "site": "https://www.utbodsvefur.is",
     "posts_api": "https://www.utbodsvefur.is/wp-json/wp/v2/posts",
@@ -7,41 +7,13 @@
     "count_drop_guard": {
       "status": "fresh",
       "threshold": ">70% source-count collapse",
-      "previous_good_count": 62,
-      "current_count": 64,
-      "minimum_allowed_count": 18
+      "previous_good_count": 64,
+      "current_count": 63,
+      "minimum_allowed_count": 19
     }
   },
-  "count": 64,
+  "count": 63,
   "tenders": [
-    {
-      "reference": "2026-10",
-      "project": "Endurbætur á Kaplan vélum í Steingrímsstöð",
-      "buyer": "Landsvirkjun",
-      "notice_type": "Vörukaup",
-      "deadline": "15.10.2026 kl. 14:00",
-      "deadline_local": "2026-10-15T14:00:00+00:00",
-      "deadline_utc": "2026-10-15T14:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-09-24T08:57:52+00:00",
-      "modified_at": "2026-09-24T08:57:52+00:00",
-      "url": "https://www.utbodsvefur.is/endurbaetur-a-kaplan-velum-i-steingrimsstod/",
-      "summary": "Landsvirkjun auglýsir forval fyrir samkeppnisviðræður vegna endurbóta á Kaplan vélum í Steingrímsstöð. Sjá nánari upplýsingar í útboðsgögnum."
-    },
-    {
-      "reference": "03/2026",
-      "project": "Fjarvöktun, þjónustuúttektir og eftirlit fyrir ÁTVR",
-      "buyer": "Áfengis og tóbaksverslun ríkisins / ÁTVR",
-      "notice_type": "Þjónusta",
-      "deadline": "15.10.2026 kl. 23:00",
-      "deadline_local": "2026-10-15T23:00:00+00:00",
-      "deadline_utc": "2026-10-15T23:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-09-11T07:41:09+00:00",
-      "modified_at": "2026-09-11T09:56:46+00:00",
-      "url": "https://www.utbodsvefur.is/fjarvoktun-og-thjonustuuttektir-bruna-og-innbrotavidvorunarkerfa-eftirlit-og-vidhald-slokkvitaekja/",
-      "summary": "Fjarvöktun og þjónustuúttektir bruna- og innbrotaviðvörunarkerfa – Eftirlit og viðhald slökkvitækja Áfengis- og tóbaksverslun ríkisins óskar eft..."
-    },
     {
       "reference": "2026-02",
       "project": "Kerhólsskóli – Breytingar 2. hæð og ný loftræsisamstæða",
@@ -83,20 +55,6 @@
       "modified_at": "2026-09-28T17:22:13+00:00",
       "url": "https://www.utbodsvefur.is/vatryggingautbod-sveitarfelagsins-skagafjardar-2027-2029/",
       "summary": "Sveitarfélagið Skagafjörður og tengdir aðilar óska eftir tilboðum í vátryggingar fyrir tímabilið 2027-2029 Um er að ræða lög- og samningsbundnar trygg..."
-    },
-    {
-      "reference": "U25032",
-      "project": "Öryggisleitarbúnaður fyrir Keflavíkurflugvöll",
-      "buyer": "Isavia",
-      "notice_type": "Vörukaup",
-      "deadline": "19.10.2026 kl. 12:00",
-      "deadline_local": "2026-10-19T12:00:00+00:00",
-      "deadline_utc": "2026-10-19T12:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-08-05T11:32:54+00:00",
-      "modified_at": "2026-09-15T14:55:30+00:00",
-      "url": "https://www.utbodsvefur.is/keflavik-airport-unified-security-checkpoint-solution/",
-      "summary": "Isavia ohf. ásamt dótturfélögum óskar eftir heildarlausn fyrir öryggisleitarbúnað á Keflavíkurflugvelli. Umfang innkaupanna nær til útvegunar, uppsetn..."
     },
     {
       "reference": "VB043135",
@@ -169,8 +127,22 @@
       "summary": "Verkefnið felst í útvegun og afhendingu á efni í vatnsveitu, þ.e. lögnum, tengistykkjum og öðrum tilheyrandi búnaði og flutning þess til kaupanda. Efn..."
     },
     {
+      "reference": "U25032",
+      "project": "Öryggisleitarbúnaður fyrir Keflavíkurflugvöll",
+      "buyer": "Isavia",
+      "notice_type": "Vörukaup",
+      "deadline": "26.10.2026 kl. 12:00",
+      "deadline_local": "2026-10-26T12:00:00+00:00",
+      "deadline_utc": "2026-10-26T12:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-08-05T11:32:54+00:00",
+      "modified_at": "2026-10-15T17:04:08+00:00",
+      "url": "https://www.utbodsvefur.is/keflavik-airport-unified-security-checkpoint-solution/",
+      "summary": "Isavia ohf. ásamt dótturfélögum óskar eftir heildarlausn fyrir öryggisleitarbúnað á Keflavíkurflugvelli. Umfang innkaupanna nær til útvegunar, uppsetn..."
+    },
+    {
       "reference": "202606032",
-      "project": "Endurnýjun Sindravallar, jarðvinna og yfirborðsfrágangur",
+      "project": "Endurnýjun Jökulfellsvallar, jarðvinna og yfirborðsfrágangur",
       "buyer": "Sveitarfélagið Hornafjörður",
       "notice_type": "Framkvæmd",
       "deadline": "26.10.2026 kl. 14:00",
@@ -178,9 +150,9 @@
       "deadline_utc": "2026-10-26T14:00:00+00:00",
       "deadline_confirmed": true,
       "posted_at": "2026-10-13T13:53:47+00:00",
-      "modified_at": "2026-10-13T13:53:47+00:00",
+      "modified_at": "2026-10-15T11:48:07+00:00",
       "url": "https://www.utbodsvefur.is/endurnyjun-sindravallar-jardvinna-og-yfirbordsfragangur/",
-      "summary": "Sveitarfélagið Hornafjörður, hér eftir nefnt verkkaupi, óskar eftir tilboðum í verkið „Endurnýjun Sindravallar, jarðvinna og yfirborðsfrágangur“ eins ..."
+      "summary": "Sveitarfélagið Hornafjörður, hér eftir nefnt verkkaupi, óskar eftir tilboðum í verkið „Endurnýjun Jökulfellsvallar, jarðvinna og yfirborðsfrágangur“ e..."
     },
     {
       "reference": "BSVK-20216-15",
@@ -463,6 +435,20 @@
       "summary": "Consensa, fyrir hönd Sveitarfélagsins Voga, óskar eftir tilboðum í verkefnið „Kaup og uppsetning færanlegra húseininga við Suðurvelli“, sem vinna skal..."
     },
     {
+      "reference": "24-2026",
+      "project": "Lyfjastaup fyrir Landspítala",
+      "buyer": "Landspítali",
+      "notice_type": "Verðfyrirspurn",
+      "deadline": "05.11.2026 kl. 12:00",
+      "deadline_local": "2026-11-05T12:00:00+00:00",
+      "deadline_utc": "2026-11-05T12:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-15T09:26:35+00:00",
+      "modified_at": "2026-10-15T10:48:16+00:00",
+      "url": "https://www.utbodsvefur.is/lyfjastaup-fyrir-landspitala/",
+      "summary": "Landspítali óskar eftir upplýsingum um verð og gæði á lyfjastaupum úr plasti og pappa. Nánari upplýsingar eru í verðfyrirspurnargögnum sem eru aðgengi..."
+    },
+    {
       "reference": "VEU-2609-0063",
       "project": "VEU-2609-0063 Þjónusta og viðhald vél- og rafbúnaðar",
       "buyer": "Veitur",
@@ -584,7 +570,7 @@
       "deadline_utc": "2026-11-24T12:00:00+00:00",
       "deadline_confirmed": true,
       "posted_at": "2026-10-14T08:39:18+00:00",
-      "modified_at": "2026-10-14T08:39:18+00:00",
+      "modified_at": "2026-10-15T14:25:10+00:00",
       "url": "https://www.utbodsvefur.is/hopid-markadskonnun/",
       "summary": "Consensa, fyrir hönd Grindavíkurbæjar, óskar eftir upplýsingum og sjónarmiðum áhugasamra markaðsaðila vegna undirbúnings þjónustusérleyfis um uppbyggi..."
     },

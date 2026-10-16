@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated": "2026-10-15T07:00:25Z",
-  "generated_at": "2026-10-15T07:00:25Z",
+  "generated": "2026-10-16T07:00:25Z",
+  "generated_at": "2026-10-16T07:00:25Z",
   "sources": {
     "covered": [
       {
@@ -51,6 +51,11 @@
         "note": "official Skagafjörður tender page fallback; deadline-less rows are retained as fallback/reference items"
       },
       {
+        "source": "mosfellsbaer-utbod",
+        "url": "https://mos.is/ibuar/framkvaemdir-og-skipulag/utbod-og-fasteignir/auglyst-utbod/",
+        "note": "supplementary first-party listing; only explicit future submission deadlines qualify as open opportunities"
+      },
+      {
         "source": "ted",
         "url": "https://api.ted.europa.eu/v3/notices/search",
         "query": "classification-cpv=45* AND organisation-country-buyer=ISL AND publication-date >= 20260101 AND notice-type=cn-*",
@@ -59,34 +64,32 @@
     ],
     "not_covered": [
       {
-        "source": "ted",
-        "url": "https://api.ted.europa.eu/v3/notices/search",
-        "reason": "The read operation timed out"
-      },
-      {
         "source": "nlsh",
         "url": "https://www.nlsh.is/utbodi",
-        "reason": "HTTP 429 / Vercel security checkpoint from this host; buyer is approved and covered via utbodsvefur"
+        "reason": "HTTP 429 / Vercel checkpoint; portal supplementation via utbodsvefur does not establish complete direct coverage"
       },
       {
         "source": "landsnet",
         "url": "https://utbod.landsnet.is/",
-        "reason": "tender portal returned HTTP 403 from this host; buyer is approved and covered via utbodsvefur"
+        "reason": "HTTP 403; utbodsvefur and first-party Landsnet supplier pages supplement but do not establish complete direct coverage"
       },
       {
         "source": "hsorka",
-        "url": "https://www.hsorka.is/um-okkur/utbod/",
-        "reason": "configured tender URL returned HTTP 404 and probably is not a current tender source"
+        "url": "https://www.hsorka.is/um-okkur/frettir/",
+        "retired_url": "https://www.hsorka.is/um-okkur/utbod/",
+        "reason": "retired 404 tender URL; verified first-party news is supplementary only; no replacement direct tender listing verified"
       },
       {
         "source": "kadeco",
-        "url": "https://www.kadeco.is/utbod",
-        "reason": "configured tender URL returned HTTP 404"
+        "url": "https://www.kadeco.is/frettir",
+        "retired_url": "https://www.kadeco.is/utbod",
+        "reason": "retired 404 tender URL; verified first-party news is supplementary only; no replacement direct tender listing verified"
       },
       {
         "source": "fjarsyslan-rikisins",
-        "url": "https://www.fs.is/utbod",
-        "reason": "configured tender URL returned HTTP 404"
+        "url": "https://island.is/s/rikiskaup",
+        "retired_url": "https://www.fs.is/utbod",
+        "reason": "retired wrong-entity fs.is URL; official Fjársýslan procurement information is on island.is; notices supplemented by utbodsvefur/TED, not complete direct coverage"
       },
       {
         "source": "keflavik-defence",
@@ -94,6 +97,15 @@
         "reason": "no plain public tender endpoint identified in this pass"
       }
     ],
+    "filtering": [
+      {
+        "source": "ted",
+        "url": "https://api.ted.europa.eu/v3/notices/search",
+        "reason": "dropped 86 notices: expired deadline",
+        "kind": "filtering"
+      }
+    ],
+    "collection_complete": false,
     "buyer_register": [
       "akureyrarbær",
       "alcoa fjarðaál",
@@ -156,6 +168,7 @@
       "áfengis og tóbaksverslun ríkisins átvr"
     ],
     "buyer_aliases": {
+      "hafnarfjarðarbær": "Hafnarfjarðarkaupstaður",
       "akureyri": "Akureyrarbær",
       "akureyrarbær": "Akureyrarbær",
       "alcoa fjardaál": "Alcoa Fjarðaál",
@@ -363,25 +376,20 @@
         "evidence_url": "https://www.utbodsvefur.is/fjallabyggd-snjomokstur-og-halkuvarnir-2026-2029/",
         "seen_count": 1,
         "first_seen": "2026-10-06T07:00:27Z",
-        "last_seen": "2026-10-14T07:00:24Z",
-        "reason": "unknown buyer/source found in tender feed",
-        "status": "pending"
-      },
-      {
-        "id": "tender:buyer:hafnarfjarðarbær",
-        "name": "Hafnarfjarðarbær",
-        "suggested_feed": "tenders_all",
-        "suggested_lane": "tender",
-        "evidence_url": "https://www.utbodsvefur.is/innheimtuthjonusta-fruminnheimta-asamt-milli-og-loginnheimtu/",
-        "seen_count": 1,
-        "first_seen": "2026-10-12T07:00:25Z",
-        "last_seen": "2026-10-14T07:00:24Z",
+        "last_seen": "2026-10-15T07:00:25Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       }
     ]
   },
-  "count": 160,
+  "count": 172,
+  "counts_by_intelligence_type": {
+    "active_tender": 14,
+    "bid_opening": 33,
+    "closed_tender": 1,
+    "historical_award": 96,
+    "unverified_deadline": 28
+  },
   "items": [
     {
       "reference": "",
@@ -396,7 +404,9 @@
       "modified_at": null,
       "url": "https://hafnarfjordur.is/skipulag-i-kynningu/hamranesskoli-lokad-alutbod/",
       "summary": "",
-      "source": "hafnarfjordur-utbod"
+      "source": "hafnarfjordur-utbod",
+      "intelligence_type": "unverified_deadline",
+      "is_open_opportunity": false
     },
     {
       "reference": "",
@@ -411,7 +421,9 @@
       "modified_at": null,
       "url": "https://hafnarfjordur.is/skipulag-i-kynningu/knatthus-hauka-2-afangi-innanhusfragangur/",
       "summary": "",
-      "source": "hafnarfjordur-utbod"
+      "source": "hafnarfjordur-utbod",
+      "intelligence_type": "unverified_deadline",
+      "is_open_opportunity": false
     },
     {
       "reference": "",
@@ -426,7 +438,9 @@
       "modified_at": null,
       "url": "https://hafnarfjordur.is/skipulag-i-kynningu/malbik-yfirlagnir-i-hafnarfirdi-2025/",
       "summary": "",
-      "source": "hafnarfjordur-utbod"
+      "source": "hafnarfjordur-utbod",
+      "intelligence_type": "unverified_deadline",
+      "is_open_opportunity": false
     },
     {
       "reference": "",
@@ -441,7 +455,9 @@
       "modified_at": null,
       "url": "https://hafnarfjordur.is/skipulag-i-kynningu/selhella-steinhella-stofnlogn/",
       "summary": "",
-      "source": "hafnarfjordur-utbod"
+      "source": "hafnarfjordur-utbod",
+      "intelligence_type": "unverified_deadline",
+      "is_open_opportunity": false
     },
     {
       "reference": "",
@@ -456,7 +472,9 @@
       "modified_at": null,
       "url": "https://hafnarfjordur.is/skipulag-i-kynningu/snjo-og-halkuvarnir-a-gonguleidum-2026-2030/",
       "summary": "",
-      "source": "hafnarfjordur-utbod"
+      "source": "hafnarfjordur-utbod",
+      "intelligence_type": "unverified_deadline",
+      "is_open_opportunity": false
     },
     {
       "reference": "",
@@ -471,7 +489,9 @@
       "modified_at": null,
       "url": "https://hafnarfjordur.is/skipulag-i-kynningu/vegmerking-i-hafnarfirdi-2026-29/",
       "summary": "",
-      "source": "hafnarfjordur-utbod"
+      "source": "hafnarfjordur-utbod",
+      "intelligence_type": "unverified_deadline",
+      "is_open_opportunity": false
     },
     {
       "reference": "",
@@ -486,7 +506,9 @@
       "modified_at": null,
       "url": "https://hafnarfjordur.is/skipulag-i-kynningu/vetrarthjonusta-stofnanaloda-2026-2030/",
       "summary": "",
-      "source": "hafnarfjordur-utbod"
+      "source": "hafnarfjordur-utbod",
+      "intelligence_type": "unverified_deadline",
+      "is_open_opportunity": false
     },
     {
       "reference": "",
@@ -501,7 +523,9 @@
       "modified_at": null,
       "url": "https://hafnarfjordur.is/skipulag-i-kynningu/vatryggingautbod-hafnarfjardarkaupstadar-og-tengdra-adila-2026-28/",
       "summary": "",
-      "source": "hafnarfjordur-utbod"
+      "source": "hafnarfjordur-utbod",
+      "intelligence_type": "unverified_deadline",
+      "is_open_opportunity": false
     },
     {
       "reference": "",
@@ -516,7 +540,9 @@
       "modified_at": null,
       "url": "https://hafnarfjordur.is/skipulag-i-kynningu/asland-4-gatnagerd-og-veitur/",
       "summary": "",
-      "source": "hafnarfjordur-utbod"
+      "source": "hafnarfjordur-utbod",
+      "intelligence_type": "unverified_deadline",
+      "is_open_opportunity": false
     },
     {
       "reference": "",
@@ -531,7 +557,128 @@
       "modified_at": null,
       "url": "https://hafnarfjordur.is/skipulag-i-kynningu/60388/",
       "summary": "",
-      "source": "hafnarfjordur-utbod"
+      "source": "hafnarfjordur-utbod",
+      "intelligence_type": "unverified_deadline",
+      "is_open_opportunity": false
+    },
+    {
+      "reference": "",
+      "project": "Endurbætur skólalóðar 2. áfangi – körfuboltavöllur",
+      "buyer": "Mosfellsbær",
+      "notice_type": "Útboð",
+      "deadline": "",
+      "deadline_local": "",
+      "deadline_utc": "",
+      "deadline_confirmed": false,
+      "posted_at": "2026-04-22",
+      "modified_at": null,
+      "url": "https://mos.is/mannlif/um-mosfellsbae/frettir/utbod-endurbaetur-skolalodar-2-afangi-korfuboltavollur/",
+      "summary": "",
+      "source": "mosfellsbaer-utbod",
+      "intelligence_type": "unverified_deadline",
+      "is_open_opportunity": false
+    },
+    {
+      "reference": "",
+      "project": "Endurbætur skólalóðar Lágafellsskóla 2. áfangi",
+      "buyer": "Mosfellsbær",
+      "notice_type": "Útboð",
+      "deadline": "",
+      "deadline_local": "",
+      "deadline_utc": "",
+      "deadline_confirmed": false,
+      "posted_at": "2026-04-08",
+      "modified_at": null,
+      "url": "https://mos.is/mannlif/um-mosfellsbae/frettir/utbod-endurbaetur-skolalodar-lagafellsskola-2-afangi/",
+      "summary": "",
+      "source": "mosfellsbaer-utbod",
+      "intelligence_type": "unverified_deadline",
+      "is_open_opportunity": false
+    },
+    {
+      "reference": "",
+      "project": "Grassláttur og hirðing í Mosfellsbæ 2026-2028",
+      "buyer": "Mosfellsbær",
+      "notice_type": "Útboð",
+      "deadline": "",
+      "deadline_local": "",
+      "deadline_utc": "",
+      "deadline_confirmed": false,
+      "posted_at": "2026-03-18",
+      "modified_at": null,
+      "url": "https://mos.is/mannlif/um-mosfellsbae/frettir/utbod-grasslattur-og-hirding-i-mosfellsbae-2026-2028/",
+      "summary": "",
+      "source": "mosfellsbaer-utbod",
+      "intelligence_type": "unverified_deadline",
+      "is_open_opportunity": false
+    },
+    {
+      "reference": "",
+      "project": "Malbikun í Mosfellsbæ 2026",
+      "buyer": "Mosfellsbær",
+      "notice_type": "Útboð",
+      "deadline": "",
+      "deadline_local": "",
+      "deadline_utc": "",
+      "deadline_confirmed": false,
+      "posted_at": "2026-03-10",
+      "modified_at": null,
+      "url": "https://mos.is/mannlif/um-mosfellsbae/frettir/utbod-malbikun-i-mosfellsbae-2026/",
+      "summary": "",
+      "source": "mosfellsbaer-utbod",
+      "intelligence_type": "unverified_deadline",
+      "is_open_opportunity": false
+    },
+    {
+      "reference": "",
+      "project": "Varmá – Gervigrasvöllur, endurnýjun vallarlýsingar",
+      "buyer": "Mosfellsbær",
+      "notice_type": "Útboð",
+      "deadline": "",
+      "deadline_local": "",
+      "deadline_utc": "",
+      "deadline_confirmed": false,
+      "posted_at": "2026-05-19",
+      "modified_at": null,
+      "url": "https://mos.is/mannlif/um-mosfellsbae/frettir/utbod-varma-gervigrasvollur-endurnyjun-vallarlysingar/",
+      "summary": "",
+      "source": "mosfellsbaer-utbod",
+      "intelligence_type": "unverified_deadline",
+      "is_open_opportunity": false
+    },
+    {
+      "reference": "",
+      "project": "Varmárskóli – Endurnýjun skólalóða 3. áfangi",
+      "buyer": "Mosfellsbær",
+      "notice_type": "Útboð",
+      "deadline": "",
+      "deadline_local": "",
+      "deadline_utc": "",
+      "deadline_confirmed": false,
+      "posted_at": "2026-08-13",
+      "modified_at": null,
+      "url": "https://mos.is/mannlif/um-mosfellsbae/frettir/utbod-varmarskoli-endurnyjun-skolaloda-3-afangi/",
+      "summary": "",
+      "source": "mosfellsbaer-utbod",
+      "intelligence_type": "unverified_deadline",
+      "is_open_opportunity": false
+    },
+    {
+      "reference": "",
+      "project": "Varmárskóli, vesturálma – kjallari",
+      "buyer": "Mosfellsbær",
+      "notice_type": "Útboð",
+      "deadline": "",
+      "deadline_local": "",
+      "deadline_utc": "",
+      "deadline_confirmed": false,
+      "posted_at": "2026-01-21",
+      "modified_at": null,
+      "url": "https://mos.is/mannlif/um-mosfellsbae/frettir/utbod-varmarskoli-vesturalma-kjallari/",
+      "summary": "",
+      "source": "mosfellsbaer-utbod",
+      "intelligence_type": "unverified_deadline",
+      "is_open_opportunity": false
     },
     {
       "reference": "",
@@ -546,7 +693,9 @@
       "modified_at": null,
       "url": "https://www.skagafjordur.is/is/framkvaemdir/utbod/borgarteigur-15-saudarkrokur-idnadarhus-alutbod",
       "summary": "Skagafjörður óskar eftir tilboðum í verkið Borgarteigur 15, Sauðárkrókur – Iðnaðarhús 2025 – Alútboð 2025. Um er að ræða 816m² nýbyggingu iðnaðarhúsnæðis úr límtré- eða stálgrind á lóð núverandi áhaldahúss Skagafjarðar á Borgarteig 15, Sauðárkróki. Í verkinu felst hönnun burðarvirkis, raflagna, fráveitulagna, neysluvatnslagna, hitalagna,...",
-      "source": "skagafjordur-utbod"
+      "source": "skagafjordur-utbod",
+      "intelligence_type": "unverified_deadline",
+      "is_open_opportunity": false
     },
     {
       "reference": "",
@@ -561,7 +710,9 @@
       "modified_at": null,
       "url": "https://www.skagafjordur.is/is/framkvaemdir/utbod/byggdasafn-skagfirdinga-oskar-eftir-tilbodi-i-gardslatt",
       "summary": "Byggðasafn Skagfirðinga óskar eftir tilboði í garðslátt. Um er að ræða umhirðu á lóð safnsins í Glaumbæ, kirkjugarð og nánasta umhverfi. Lóðin er rúmur hektari að stærð. Slá þarf svæðið í heild sinni aðra hvora viku til að halda því snyrtilegu, alls um sex skipti yfir sumarið. Innifalið í þjónustunni þarf að vera: Garðsláttur. Notkun orfs í...",
-      "source": "skagafjordur-utbod"
+      "source": "skagafjordur-utbod",
+      "intelligence_type": "unverified_deadline",
+      "is_open_opportunity": false
     },
     {
       "reference": "",
@@ -576,7 +727,9 @@
       "modified_at": null,
       "url": "https://www.skagafjordur.is/is/framkvaemdir/utbod/hreinsun-rotthroa-a-nordurlandi-vestra",
       "summary": "Consensa fyrirr hönd sveitarfélaganna Skagafjörður, Húnaþing og Húnabyggð óskar eftir tilboðum í hreinsun rotþróa samkvæmt skilmálum útboðslýsingar. Um er að ræða hreinsun á rotþróum sem staðsettar eru við lögbýli, íbúðarhús, frístundarhús og stofnanir innan sveitarfélagsmarka framangreindra sveitarfélaga ásamt meðhöndlun seyru. Hægt er að...",
-      "source": "skagafjordur-utbod"
+      "source": "skagafjordur-utbod",
+      "intelligence_type": "unverified_deadline",
+      "is_open_opportunity": false
     },
     {
       "reference": "",
@@ -591,7 +744,9 @@
       "modified_at": null,
       "url": "https://www.skagafjordur.is/is/framkvaemdir/utbod/menningarhus-i-skagafirdi-jardvinna-2026",
       "summary": "Skagafjörður óskar eftir tilboðum í verkið: Menningarhús í Skagafirði – Jarðvinna 2026. Verkið snýr að jarðvinnu fyrir nýbyggingu sunnan við núverandi Safnahús við Faxatorg á Sauðárkróki. Framkvæmdir fela m.a. í sér uppgröft á óburðarhæfum jarðvegi sem verður fjarlægður og hann fluttur á viðurkenndan losunarstað. Að loknum uppgrefti skal komið...",
-      "source": "skagafjordur-utbod"
+      "source": "skagafjordur-utbod",
+      "intelligence_type": "unverified_deadline",
+      "is_open_opportunity": false
     },
     {
       "reference": "",
@@ -606,7 +761,9 @@
       "modified_at": null,
       "url": "https://www.skagafjordur.is/is/framkvaemdir/utbod/skagafjordur-og-skagafjardarveitur-oska-eftir-tilbodum-i-verkid-vidigrund-saudarkroki-gatnagerd-2026",
       "summary": "Verkið felst m.a. í endurgerð fráveitulagna, götulýsingar, vatnsveitu og hitaveitu í götunni Víðigrund á Sauðárkróki, auk jarðvegsskipta í götunni, með malbikun akbrautar og gangstétta og gerð kantsteina. Helstu magntölur: Skurðgröftur, fráveita: 550 m Fráveitulagnir, plast: 850 m Skurðgröftur, vatns- og hitaveita: 380...",
-      "source": "skagafjordur-utbod"
+      "source": "skagafjordur-utbod",
+      "intelligence_type": "unverified_deadline",
+      "is_open_opportunity": false
     },
     {
       "reference": "",
@@ -621,7 +778,9 @@
       "modified_at": null,
       "url": "https://www.skagafjordur.is/is/framkvaemdir/utbod/skagafjordur-oskar-eftir-tilbodum-i-verkid-varmahlid-leikskoli-afangi-4",
       "summary": "Í verkinu felst uppsteypa og frágangur við stoðvegg, skál í halla, sökkla undir vagnskúr/sorpskýli, ásamt byggingu áðurnefnds skýlis. Jarðvinna undir yfirborðsfrágangur á lóð. Hellulögn, malbikun, gúmmíhellur, þökulagning og flr. Verkið felur í sér fráveitukerfi, snjóbræðslukerfi, neysluvatni á lóð ásamt tenginum. Einnig fullnaðarfrágangur...",
-      "source": "skagafjordur-utbod"
+      "source": "skagafjordur-utbod",
+      "intelligence_type": "unverified_deadline",
+      "is_open_opportunity": false
     },
     {
       "reference": "",
@@ -636,7 +795,9 @@
       "modified_at": null,
       "url": "https://www.skagafjordur.is/is/framkvaemdir/utbod/stadarbjargavik-hofsosi-troppur-og-pallar",
       "summary": "Skagafjörður óskar eftir tilboðum í verkið Staðarbjargavík Hofsósi – Tröppur og pallar. Verkið felst í uppbyggingu útsýnissvæðis við Staðarbjargavík. Um er að ræða jarðvinnu, smíði stoðveggja úr steypu, smíði handriða, útsýnispalla, bekkja og stiga úr völsuðu galvanhúðuðu stáli ásamt göngustígagerð. Helstu magntölur: Stálbitar: þ.b. 123...",
-      "source": "skagafjordur-utbod"
+      "source": "skagafjordur-utbod",
+      "intelligence_type": "unverified_deadline",
+      "is_open_opportunity": false
     },
     {
       "reference": "",
@@ -651,7 +812,9 @@
       "modified_at": null,
       "url": "https://www.skagafjordur.is/is/framkvaemdir/utbod/vidigrund-saudarkroki-gatnagerd-2026",
       "summary": "Skagafjörður og Skagafjarðarveitur óska eftir tilboðum í verkið Víðigrund, Sauðárkróki – Gatnagerð 2026. Verkið felst m.a. í endurgerð fráveitulagna, götulýsingar, vatnsveitu og hitaveitu í götunni Víðigrund á Sauðárkróki, auk jarðvegsskipta í götunni, með malbikun akbrautar og gangstétta og gerð kantsteina. Helstu magntölur: Skurðgröftur,...",
-      "source": "skagafjordur-utbod"
+      "source": "skagafjordur-utbod",
+      "intelligence_type": "unverified_deadline",
+      "is_open_opportunity": false
     },
     {
       "reference": "",
@@ -666,7 +829,9 @@
       "modified_at": null,
       "url": "https://www.skagafjordur.is/is/framkvaemdir/utbod/utbod-akstur-almenningsvagna-a-saudarkroki-1",
       "summary": "Consensa, fyrir hönd Skagafjarðar, óskar eftir tilboðum í akstur almenningsvagna á Sauðárkróki. Um er að ræða akstur almenningsvagna á fjórum skilgreindum akstursleiðum og annan tilfallandi akstur hópbifreiða fyrir sveitarfélagið í samræmi við skálmála útboðslýsingar. Hægt er að sækja öll útboðsgögn án endurgjalds á útboðsvefnum....",
-      "source": "skagafjordur-utbod"
+      "source": "skagafjordur-utbod",
+      "intelligence_type": "unverified_deadline",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-002",
@@ -681,7 +846,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/akrafjallsvegur-51-hringtorg-vid-akranes",
       "summary": "Útboð 26-002 · 21. júlí 2026",
-      "source": "vegagerdin-opnun-tilboda"
+      "source": "vegagerdin-opnun-tilboda",
+      "intelligence_type": "bid_opening",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-119",
@@ -696,7 +863,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/akrafjallsvegur-51-hringtorg-vid-akranesveg-eftirlit-og-radgjof",
       "summary": "Útboð 26-119 · 25. ágúst 2026",
-      "source": "vegagerdin-opnun-tilboda"
+      "source": "vegagerdin-opnun-tilboda",
+      "intelligence_type": "bid_opening",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-099",
@@ -711,7 +880,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/akranes-sjovarnir-2025",
       "summary": "Útboð 25-099 · 20. nóv. 2025",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-071",
@@ -726,7 +897,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/akstur-almenningssamgangna-2026-2028-a-vestfjordum",
       "summary": "Útboð 26-071 · 7. júlí 2026",
-      "source": "vegagerdin-opnun-tilboda"
+      "source": "vegagerdin-opnun-tilboda",
+      "intelligence_type": "bid_opening",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-029",
@@ -741,7 +914,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/almenningssamgongur-a-landi-a-landsbyggdinni-2026-2027",
       "summary": "Útboð 25-029 · 15. júlí 2025",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-097",
@@ -756,7 +931,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/borgarfjordur-eystri-endurbygging-londunarbryggju-2025",
       "summary": "Útboð 25-097 · 26. nóv. 2025",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-018",
@@ -771,7 +948,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/bardardalsvegur-842-hringvegur-oxara",
       "summary": "Útboð 26-018 · 22. maí 2026",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-016",
@@ -786,7 +965,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/bildudalsvegur-63-um-mikladal-endurbaetur-2-afangi",
       "summary": "Útboð 26-016 · 9. júní 2026",
-      "source": "vegagerdin-opnun-tilboda"
+      "source": "vegagerdin-opnun-tilboda",
+      "intelligence_type": "bid_opening",
+      "is_open_opportunity": false
     },
     {
       "reference": "24-029",
@@ -801,7 +982,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/budafossvegur-23-thjorsardalsvegur-landvegur",
       "summary": "Útboð 24-029 · 23. sept. 2026",
-      "source": "vegagerdin-opnun-tilboda"
+      "source": "vegagerdin-opnun-tilboda",
+      "intelligence_type": "bid_opening",
+      "is_open_opportunity": false
     },
     {
       "reference": "24-044",
@@ -816,7 +999,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/budafossvegur-23-thjorsardalsvegur-landvegur-eftirlit-og-radgjof",
       "summary": "Útboð 24-044 · 2. sept. 2026",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "24-054",
@@ -831,7 +1016,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/dalvik-nordurgardur-steypt-thekja-og-lagnir-2025",
       "summary": "Útboð 24-054 · 12. júní 2025",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-082",
@@ -846,7 +1033,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/dalvik-nordurgardur-raforkuvirki-2026",
       "summary": "Útboð 26-082 · 28. maí 2026",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-078",
@@ -861,7 +1050,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/efnisvinnsla-a-austursvaedi-2026-malarslitlag-svartagilslaek",
       "summary": "Útboð 26-078 · 5. maí 2026",
-      "source": "vegagerdin-opnun-tilboda"
+      "source": "vegagerdin-opnun-tilboda",
+      "intelligence_type": "bid_opening",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-034",
@@ -876,7 +1067,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/efnisvinnsla-a-vestfjordum-2026-2027-malarslitlag",
       "summary": "Útboð 26-034 · 4. ágúst 2026",
-      "source": "vegagerdin-opnun-tilboda"
+      "source": "vegagerdin-opnun-tilboda",
+      "intelligence_type": "bid_opening",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-033",
@@ -891,7 +1084,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/efnisvinnsla-a-vesturlandi-2026-2027-malarslitlag",
       "summary": "Útboð 26-033 · 16. júní 2026",
-      "source": "vegagerdin-opnun-tilboda"
+      "source": "vegagerdin-opnun-tilboda",
+      "intelligence_type": "bid_opening",
+      "is_open_opportunity": false
     },
     {
       "reference": "24-060",
@@ -906,7 +1101,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/efnisvinnslu-a-vestfjordum-2024-malarslitlag",
       "summary": "Útboð 24-060 · 24. júlí 2025",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-117",
@@ -921,7 +1118,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/einholtsvegur-358-drumboddsstadavegur-hrunamannavegur",
       "summary": "Útboð 25-117 · 13. feb. 2026",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-071",
@@ -936,7 +1135,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/eyrarbakkavegur-34-stekkar-tjarnarbyggd-styrking-og-malbik-2025",
       "summary": "Útboð 25-071 · 12. ágúst 2025",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-103",
@@ -951,7 +1152,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/fljotagong-76-og-adliggjandi-vegir-honnun-og-mat-a-umhverfisahrifum",
       "summary": "Útboð 25-103 · 28. jan. 2026",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-082",
@@ -966,7 +1169,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/fljotagong-79-rannsoknaboranir-2025",
       "summary": "Útboð 25-082 · 13. júní 2025",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-095",
@@ -981,7 +1186,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/flottamannavegur-410-gatnamot-vid-urridaholtsstraeti",
       "summary": "Útboð 25-095 · 11. nóv. 2025",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-070",
@@ -996,7 +1203,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/gilsarteigsvegur-948-endurbaetur-a-bru-a-heimreid",
       "summary": "Útboð 26-070 · 19. maí 2026",
-      "source": "vegagerdin-opnun-tilboda"
+      "source": "vegagerdin-opnun-tilboda",
+      "intelligence_type": "bid_opening",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-027",
@@ -1011,7 +1220,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/grundarfjordur-grjotvorn-vid-nordurgard-2026",
       "summary": "Útboð 26-027 · 19. mars 2026",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-008",
@@ -1026,7 +1237,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/hardwood-for-icelandic-harbours-2026",
       "summary": "Útboð 26-008 · 20. apríl 2026",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-080",
@@ -1041,7 +1254,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/hauganes-grjotvorn-endurbaetur-2025",
       "summary": "Útboð 25-080 · 12. júní 2025",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-108",
@@ -1056,7 +1271,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/helgustadavegur-954-forsteypt-bru-og-adlogun-a-vegkafla",
       "summary": "Útboð 26-108 · 21. júlí 2026",
-      "source": "vegagerdin-opnun-tilboda"
+      "source": "vegagerdin-opnun-tilboda",
+      "intelligence_type": "bid_opening",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-005",
@@ -1071,7 +1288,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/hjolfarafyllingar-og-axlavidgerdir-a-vestur-nordur-og-austursvaedi-2026",
       "summary": "Útboð 26-005 · 7. maí 2026",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-003",
@@ -1086,7 +1305,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/hjolfarafyllingar-og-axlavidgerdir-a-vestursvaedi-og-nordursvaedi-2025",
       "summary": "Útboð 25-003 · 12. júní 2025",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-045",
@@ -1101,7 +1322,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/holuvidgerdarbill-fyrir-vegagerdina",
       "summary": "Útboð 26-045 · 18. júní 2026",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-110",
@@ -1116,7 +1339,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/hor",
       "summary": "Útboð 25-110 · 11. feb. 2026",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-067",
@@ -1131,7 +1356,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/hreinsun-thjodvega-i-reykjavik-og-hvalfjardargongum-2025-2027",
       "summary": "Útboð 25-067 · 30. maí 2025",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-026",
@@ -1146,7 +1373,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/hringvegur-1-um-holtsnup-hrunvarnir-2026",
       "summary": "Útboð 26-026 · 16. apríl 2026",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "23-096",
@@ -1161,7 +1390,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/hringvegur-1-um-kjalarnes-2-afangi-valla-hvalfjordur",
       "summary": "Útboð 23-096 · 15. sept. 2026",
-      "source": "vegagerdin-opnun-tilboda"
+      "source": "vegagerdin-opnun-tilboda",
+      "intelligence_type": "bid_opening",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-088",
@@ -1176,7 +1407,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/hringvegur-um-hvolsvoll-1-endurbygging-vegar",
       "summary": "Útboð 26-088 · 7. júlí 2026",
-      "source": "vegagerdin-opnun-tilboda"
+      "source": "vegagerdin-opnun-tilboda",
+      "intelligence_type": "bid_opening",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-101",
@@ -1191,7 +1424,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/hvalfjardarsveit-belgsholt-sjovorn-2025",
       "summary": "Útboð 25-101 · 20. nóv. 2025",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-027",
@@ -1206,7 +1441,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/hvammstangi-patreksfjordur-og-rif-vidhaldsdypkun-2025",
       "summary": "Útboð 25-027 · 31. júlí 2025",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-079",
@@ -1221,7 +1458,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/husavik-thilskurdur-vid-thvergard-2025",
       "summary": "Útboð 25-079 · 12. júní 2025",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-106",
@@ -1236,7 +1475,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/jokuldalsvegur-923-langagerdi-hakonarstadir",
       "summary": "Útboð 26-106 · 14. júlí 2026",
-      "source": "vegagerdin-opnun-tilboda"
+      "source": "vegagerdin-opnun-tilboda",
+      "intelligence_type": "bid_opening",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-115",
@@ -1251,7 +1492,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/jokuldalsvegur-923-langagerdi-hakonarstadir-eftirlit-og-radgjof",
       "summary": "Útboð 26-115 · 28. júlí 2026",
-      "source": "vegagerdin-opnun-tilboda"
+      "source": "vegagerdin-opnun-tilboda",
+      "intelligence_type": "bid_opening",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-128",
@@ -1266,7 +1509,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/jokuldalsvegur-923-langagerdi-hakonarstadir-eftirlit-og-radgjof-hradutbod",
       "summary": "Útboð 26-128 · 25. ágúst 2026",
-      "source": "vegagerdin-opnun-tilboda"
+      "source": "vegagerdin-opnun-tilboda",
+      "intelligence_type": "bid_opening",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-113",
@@ -1281,7 +1526,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/kjalarnes-sjovorn-2026",
       "summary": "Útboð 25-113 · 4. feb. 2026",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-122",
@@ -1296,7 +1543,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/landeyjahofn-maintenance-dredging-2026-2029",
       "summary": "Útboð 25-122 · 1. apríl 2026",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-098",
@@ -1311,7 +1560,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/langanesbyggd-thorshofn-hardvidarbryggja-2026",
       "summary": "Útboð 26-098 · 22. sept. 2026",
-      "source": "vegagerdin-opnun-tilboda"
+      "source": "vegagerdin-opnun-tilboda",
+      "intelligence_type": "bid_opening",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-021",
@@ -1326,7 +1577,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/laugarvatnsvegur-37-hjalmsstadir-middalskot-styrking-og-malbik",
       "summary": "Útboð 25-021 · 29. júlí 2025",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-013",
@@ -1341,7 +1594,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/laugarvatnsvegur-37-laugarvatn-hjalmsstadir-styrking-og-malbik",
       "summary": "Útboð 26-013 · 1. apríl 2026",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-094",
@@ -1356,7 +1611,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/sudureyri-flotbryggjur2025",
       "summary": "Útboð 25-094 · 16. des. 2025",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-090",
@@ -1371,7 +1628,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/malbiksframkvaemdir-a-nordursvaedi-2025",
       "summary": "Útboð 25-090 · 14. ágúst 2025",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-092",
@@ -1386,7 +1645,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/65747-2",
       "summary": "Útboð 26-092 · 23. jú",
-      "source": "vegagerdin-opnun-tilboda"
+      "source": "vegagerdin-opnun-tilboda",
+      "intelligence_type": "bid_opening",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-066",
@@ -1401,7 +1662,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/malbiksvidgerdir-sudursvaedi-2026",
       "summary": "Útboð 26-066 · 21. apríl 2026",
-      "source": "vegagerdin-opnun-tilboda"
+      "source": "vegagerdin-opnun-tilboda",
+      "intelligence_type": "bid_opening",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-014",
@@ -1416,7 +1679,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/malbiksyfirlagnir-og-yfirbordsmerkingar",
       "summary": "Útboð 26-014 · 21. apríl 2026",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-107",
@@ -1431,7 +1696,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/njardvikurhofn-sudursvaedi-brimvarnargardur-2025",
       "summary": "Útboð 25-107 · 8. jan. 2026",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-",
@@ -1446,7 +1713,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/pallbifreidar-fyrir-vegagerdina-2025",
       "summary": "Útboð 25-",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-025",
@@ -1461,7 +1730,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/pickup-trucks-for-the-icelandic-road-and-coastal-administration-irca-2026",
       "summary": "Útboð 25-025 · 15. sept. 2026",
-      "source": "vegagerdin-opnun-tilboda"
+      "source": "vegagerdin-opnun-tilboda",
+      "intelligence_type": "bid_opening",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-049",
@@ -1476,7 +1747,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/reykjanesbraut-41-saebraut-i-stokk-undirbuningsframkvaemdir-verkhonnun",
       "summary": "Útboð 26-049 · 30. maí 2026",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-110",
@@ -1491,7 +1764,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/reykjanesbraut-41-gatnamot-reykjanesbrautar-",
       "summary": "Útboð 26-110 · 20. ágúst 2026",
-      "source": "vegagerdin-opnun-tilboda"
+      "source": "vegagerdin-opnun-tilboda",
+      "intelligence_type": "bid_opening",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-055",
@@ -1506,7 +1781,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/cleaning-services-for-",
       "summary": "Útboð 26-055 · 7. júlí 2026",
-      "source": "vegagerdin-opnun-tilboda"
+      "source": "vegagerdin-opnun-tilboda",
+      "intelligence_type": "bid_opening",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-100",
@@ -1521,7 +1798,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/sandgerdishofn-sudurgardur-styrking-2025",
       "summary": "Útboð 25-100 · 5. nóv. 2025",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-091",
@@ -1536,7 +1815,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/saudarkrokur-utgardur-brimvorn-2025",
       "summary": "Útboð 25-091 · 4. sept. 2025",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-116",
@@ -1551,7 +1832,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/saudarkrokur-endurbygging-efri-gards-raforkuvirki-2025",
       "summary": "Útboð 25-116 · 7. jan. 2026",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-007",
@@ -1566,7 +1849,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/sementsfestun-a-nordursvaedi-2025",
       "summary": "Útboð 25-007 · 9. júlí 2025",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-021",
@@ -1581,7 +1866,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/sementsfestun-a-nordursvaedi-2026",
       "summary": "Útboð 26-021 · 6. maí 2026",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-010",
@@ -1596,7 +1883,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/skagastrond-midgardur-endurbygging-milli-asgards",
       "summary": "Útboð 26-010 · 15. apríl 2026",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-104",
@@ -1611,7 +1900,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/skagastrond-asgardur-og-midgardur-rafbunadur",
       "summary": "Útboð 25-104 · 26. nóv. 2025",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-118",
@@ -1626,7 +1917,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/skagavegur-745-harrastadir-brunanama",
       "summary": "Útboð 25-118 · 18. maí 2026",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-074",
@@ -1641,7 +1934,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/smidjusel-1-fellabae-vidhald-og-endurbaetur",
       "summary": "Útboð 25-074 · 28. ágúst 2025",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-011",
@@ -1656,7 +1951,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/snaefellsbaer-sjovorn-vid-utnesveg",
       "summary": "Útboð 26-011 · 16. mars 2026",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-061",
@@ -1671,7 +1968,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/snaefellsnesvegur-54-vestan-vid-grundarfjord-styrking-og-klaeding",
       "summary": "Útboð 25-061 · 22. maí 2025",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-015",
@@ -1686,7 +1985,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/snaefellsnesvegur-54-bruarhraun-hraunsmuli-endurbaetur",
       "summary": "Útboð 26-015 · 12. mars 2026",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-093",
@@ -1701,7 +2002,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/sprungu-og-lagnavidgerdir-i-grindavik-rammasamningur",
       "summary": "Útboð 25-093 · 29. jan. 2026",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-046",
@@ -1716,7 +2019,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/steinefni-fyrir-austursvaedi-2026-midausturland-i",
       "summary": "Útboð 26-046 · 12. júní 2026",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-047",
@@ -1731,7 +2036,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/steinefni-fyrir-austursvaedi-2026-midausturland-ii",
       "summary": "Útboð 26-047 · 12. júní 2026",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-019",
@@ -1746,7 +2053,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/stykkisholmsvegur-58-thingvallavegur-stykkisholmur-endurbaetur",
       "summary": "Útboð 26-019 · 23. mars 2026",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-092",
@@ -1761,7 +2070,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/sudureyri-grjotgardur-og-dypkun-2025",
       "summary": "Útboð 25-092 · 5. sept. 2025",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-029",
@@ -1776,7 +2087,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/sudurnesjabaer-sjovarnir",
       "summary": "Útboð 26-029 · 5. mars 2026",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-129",
@@ -1791,7 +2104,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/sudavik-midgardur-hardvidarbryggja-2026",
       "summary": "Útboð 26-129 · 22. sept. 2026",
-      "source": "vegagerdin-opnun-tilboda"
+      "source": "vegagerdin-opnun-tilboda",
+      "intelligence_type": "bid_opening",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-096",
@@ -1806,7 +2121,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/sudavik-thekja-og-lagnir-2026",
       "summary": "Útboð 25-096 · 14. apríl 2026",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-035",
@@ -1821,7 +2138,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/varaaflgjafar-upc-fyrir-jardgong",
       "summary": "Útboð 25-035 · 3. júní 2025",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-072",
@@ -1836,7 +2155,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/vatnsdalsvegur-722-hringvegur-flaga",
       "summary": "Útboð 25-072 · 23. sept. 2025",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-102",
@@ -1851,7 +2172,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/vatnsleysustrond-sjovarnir-2025",
       "summary": "Útboð 25-102 · 5. nóv. 2025",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-093",
@@ -1866,7 +2189,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/vestfjardavegur-60-um-gufudalssveit-skalanes-hallsteinsnes",
       "summary": "Útboð 26-093 · 29. sept. 2026",
-      "source": "vegagerdin-opnun-tilboda"
+      "source": "vegagerdin-opnun-tilboda",
+      "intelligence_type": "bid_opening",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-047",
@@ -1881,7 +2206,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/vestfjardavegur-60-um-gufudalssveit-bryr-a-djupafjord-vid-grones-og-gufufjord",
       "summary": "Útboð 25-047 · 2. okt. 2025",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-053",
@@ -1896,7 +2223,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/vestfjardavegur-60-um-gufudalssveit",
       "summary": "Útboð 25-053 · 3. mars 2026",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-048",
@@ -1911,7 +2240,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/vestmannaeyjar-gjabakki-thekja-og-lagnir-2026",
       "summary": "Útboð 26-048 · 10. apríl 2026",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-045",
@@ -1926,7 +2257,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/vetrarthjonusta-2025-2028-borgarfjordur-myrar-akrafjallshringur",
       "summary": "Útboð 25-045 · 27. maí 2025",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-042",
@@ -1941,7 +2274,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/vetrarthjonusta-2025-2028-holtavorduheidi-hvammstangavegur",
       "summary": "Útboð 25-042 · 16. júlí 2025",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-069",
@@ -1956,7 +2291,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/olafsvik-nordurbakki-lenging-2025",
       "summary": "Útboð 25-069 · 11. júní 2025",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-039",
@@ -1971,7 +2308,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/vetrarthjonusta-2025-2028-selfoss-nordlingaholt",
       "summary": "Útboð 25-039 · 29. maí 2025",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-044",
@@ -1986,7 +2325,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/vetrarthjonusta-2025-2028-vestur-isafjardarsysla",
       "summary": "Útboð 25-044 · 2. júní 2025",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-043",
@@ -2001,7 +2342,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/vetrarthjonusta-2025-2028-olafsvik-vatnaleid",
       "summary": "Útboð 25-043 · 12. júní 2025",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-097",
@@ -2016,7 +2359,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/vetrarthjonusta-2026-2029-breiddalsvik-djupivogur-hradutbod",
       "summary": "Útboð 26-097 · 23. júní 2026",
-      "source": "vegagerdin-opnun-tilboda"
+      "source": "vegagerdin-opnun-tilboda",
+      "intelligence_type": "bid_opening",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-096",
@@ -2031,7 +2376,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/vetrarthjonusta-2026-2029-djupivogur-hofn-hradutbod",
       "summary": "Útboð 26-096 · 23. júní 2026",
-      "source": "vegagerdin-opnun-tilboda"
+      "source": "vegagerdin-opnun-tilboda",
+      "intelligence_type": "bid_opening",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-099",
@@ -2046,7 +2393,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/vetrarthjonusta-2026-2029-fjardarheidi-hradutbod",
       "summary": "Útboð 26-099 · 23. júní 2026",
-      "source": "vegagerdin-opnun-tilboda"
+      "source": "vegagerdin-opnun-tilboda",
+      "intelligence_type": "bid_opening",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-089",
@@ -2061,7 +2410,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/vetrarthjonusta-2026-2029-hofn-fagurholmsmyri-holmur",
       "summary": "Útboð 26-089 · 23. júní 2026",
-      "source": "vegagerdin-opnun-tilboda"
+      "source": "vegagerdin-opnun-tilboda",
+      "intelligence_type": "bid_opening",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-069",
@@ -2076,7 +2427,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/vetrarthjonusta-2026-2029-steinar-kirkjubaejarklaustur",
       "summary": "Útboð 26-069 · 26. júní 2026",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-054",
@@ -2091,7 +2444,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/vidhald-malarvega-a-sudursvaedi-2025-2027-thjonustustod-i-vik-vegheflun-austur",
       "summary": "Útboð 25-054 · 16. júní 2025",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-065",
@@ -2106,7 +2461,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/vidhald-malarvega-a-sudursvaedi-2026-2028",
       "summary": "Útboð 26-065 · 23. júní 2026",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-064",
@@ -2121,7 +2478,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/vidhald-malarvega-a-sudursvaedi",
       "summary": "Útboð 26-064 · 17. júní 2026",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-063",
@@ -2136,7 +2495,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/vidhald-malarvega-a-sudursvaedi-2026-28",
       "summary": "Útboð 26-063 · 12. júní 2026",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "24-039",
@@ -2151,7 +2512,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/vopnafjordur-lenging-londunarbryggju-dypkun-og-stalthil",
       "summary": "Útboð 24-039 · 16. júlí 2025",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-011",
@@ -2166,7 +2529,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-austursvaedi-2025-blettanir-med-klaedingu",
       "summary": "Útboð 25-011 · 26. maí 2025",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-123",
@@ -2181,7 +2546,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-vestan-jokulsar-a-breidamerkursandi-malbik-hradutbod",
       "summary": "Útboð 26-123 · 25. ágúst 2026",
-      "source": "vegagerdin-opnun-tilboda"
+      "source": "vegagerdin-opnun-tilboda",
+      "intelligence_type": "bid_opening",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-010",
@@ -2196,7 +2563,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-austursvaedi-2025-klaeding",
       "summary": "Útboð 25-010 · 26. maí 2025",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-087",
@@ -2211,7 +2580,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-austursvaedi-2025-malbik-og-malbiksvidgerdir",
       "summary": "Útboð 25-087 · 22. sept. 2025",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-020",
@@ -2226,7 +2597,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-nordursvaedi-2026-klaeding",
       "summary": "Útboð 26-020 · 6. maí 2026",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-056",
@@ -2241,7 +2614,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-sudursvaedi-2026-malbik-hofudborgin",
       "summary": "Útboð 26-056 · 9. júní 2026",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-057",
@@ -2256,7 +2631,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-sudursvaedi-2026-malbik-reykjanes",
       "summary": "Útboð 26-057 · 8. júní 2026",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-058",
@@ -2271,7 +2648,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-sudursvaedi-2026-malbik-sudurland",
       "summary": "Útboð 26-058 · 29. maí 2026",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "24-022",
@@ -2286,7 +2665,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-vestursvaedi-2024-malbik",
       "summary": "Útboð 24-022 · 4. júní 2025",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-084",
@@ -2301,7 +2682,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-vestursvaedi-2025-malbik",
       "summary": "Útboð 25-084 · 22. ágúst 2025",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-001",
@@ -2316,7 +2699,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-nordursvaedi-2025-klaeding",
       "summary": "Útboð 25-001 · 23. maí 2025",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-060",
@@ -2331,7 +2716,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-vestursvaedi-2025-malbik-og-malbiksvidgerdir",
       "summary": "Útboð 25-060 · 2. júní 2025",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-003",
@@ -2346,7 +2733,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-vestursvaedi-2026-klaeding",
       "summary": "Útboð 26-003 · 28. apríl 2026",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-006",
@@ -2361,7 +2750,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-vestursvaedi-2026-malbik-og-malbiksvidgerdir",
       "summary": "Útboð 26-006 · 18. júní 2026",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-004",
@@ -2376,7 +2767,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-vestursvaedi-og-nordursvaedi-2026-blettanir-med-klaedingu",
       "summary": "Útboð 26-004 · 7. maí 2026",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-086",
@@ -2391,7 +2784,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-hofudborgarsvaedinu-2025-malbik",
       "summary": "Útboð 25-086 · 7. ágúst 2025",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-121",
@@ -2406,7 +2801,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/alftanes-sjovarnir-2025",
       "summary": "Útboð 25-121 · 26. jan. 2026",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "24-092",
@@ -2421,7 +2818,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/aaetlunarflug-a-islandi-rvk-hornafjordur-rvk-serleyfi",
       "summary": "Útboð 24-092 · 23. maí 2025",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-120",
@@ -2436,7 +2835,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/aaetlunarflug-a-islandi-serleyfi",
       "summary": "Útboð 25-120 · 21. apríl 2026",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-028",
@@ -2451,7 +2852,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/aaetlunarflug-a-islandi-akureyri-grimsey-akureyri",
       "summary": "Útboð 26-028 · 19. júní 2026",
-      "source": "vegagerdin-opnun-tilboda"
+      "source": "vegagerdin-opnun-tilboda",
+      "intelligence_type": "bid_opening",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-081",
@@ -2466,7 +2869,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/olafsvik-nordurbakki-thekja-og-lagnir-2026",
       "summary": "Útboð 26-081 · 21. júlí 2026",
-      "source": "vegagerdin-opnun-tilboda"
+      "source": "vegagerdin-opnun-tilboda",
+      "intelligence_type": "bid_opening",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-084",
@@ -2481,7 +2886,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/onundarholtsvegur-311-gaulverjabaejarvegur-villingaholtsvegur",
       "summary": "Útboð 26-084 · 26. júní 2026",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-109",
@@ -2496,7 +2903,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/thjonusta-bruarhonnudar",
       "summary": "Útboð 26-109 · 7. júlí 2026",
-      "source": "vegagerdin-opnun-tilboda"
+      "source": "vegagerdin-opnun-tilboda",
+      "intelligence_type": "bid_opening",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-012",
@@ -2511,7 +2920,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/thorlakshafnarvegur-38-laekur-i-olfusi-threngslavegamot-styrking-og-breikkun",
       "summary": "Útboð 26-012 · 27. mars 2026",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-103",
@@ -2526,7 +2937,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/thorlakshofn-dypkun-groftur-2026",
       "summary": "Útboð 26-103 · 30. júní 2026",
-      "source": "vegagerdin-opnun-tilboda"
+      "source": "vegagerdin-opnun-tilboda",
+      "intelligence_type": "bid_opening",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-088",
@@ -2541,7 +2954,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/thurrfraesing-a-nordursvaedi-2025-hringvegur-vid-blonduhlid-i-skagafirdi",
       "summary": "Útboð 25-088 · 5. ágúst 2025",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-089",
@@ -2556,7 +2971,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/thurrfraesing-a-nordursvaedi",
       "summary": "Útboð 25-089 · 5. ágúst 2025",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-008",
@@ -2571,7 +2988,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/thurrfraesing-a-nordursvaedi-2025-klaeding",
       "summary": "Útboð 25-008 · 9. júlí 2025",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
       "reference": "26-022",
@@ -2586,7 +3005,9 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/thurrfraesing-a-nordursvaedi-2026",
       "summary": "Útboð 26-022 · 30. júní 2026",
-      "source": "vegagerdin-opnun-tilboda"
+      "source": "vegagerdin-opnun-tilboda",
+      "intelligence_type": "bid_opening",
+      "is_open_opportunity": false
     },
     {
       "reference": "25-081",
@@ -2601,22 +3022,43 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/thurrfraesing-styrking-og-endurbaetur-a-hringvegi-i-oraefum",
       "summary": "Útboð 25-081 · 6. ágúst 2025",
-      "source": "vegagerdin-samningum-lokid"
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false
     },
     {
-      "reference": "U25032",
-      "project": "U25032 Keflavík Airport Unified Security Checkpoint Solution",
-      "buyer": "Isavia",
-      "notice_type": "Works",
-      "deadline": "19.10.2026 kl. 12:00",
-      "deadline_local": "2026-10-19T12:00:00+00:00",
-      "deadline_utc": "2026-10-19T12:00:00+00:00",
+      "reference": "",
+      "project": "Markholt – endurnýjun veitulagna",
+      "buyer": "Mosfellsbær",
+      "notice_type": "Útboð",
+      "deadline": "11.03.2026 kl. 11:00",
+      "deadline_local": "2026-03-11T11:00:00+00:00",
+      "deadline_utc": "2026-03-11T11:00:00+00:00",
       "deadline_confirmed": true,
-      "posted_at": null,
+      "posted_at": "2026-02-23",
       "modified_at": null,
-      "url": "https://in-tendhost.co.uk/isavia/aspx/ProjectManage/380",
-      "summary": "Isavia ohf. is conducting a procurement on behalf of Isavia ohf. and its subsidiaries for a complete passenger security checkpoint solution at Keflavík Airport. The scope includes the supply, installation, integration, commissioning, testing, handover, maintenance and support of airport security screening equipment, related software, interfaces and IT infrastructure, including CT security scanners for cabin baggage…",
-      "source": "isavia-intend"
+      "url": "https://mos.is/mannlif/um-mosfellsbae/frettir/utbod-markholt-endurnyjun-veitulagna/",
+      "summary": "",
+      "source": "mosfellsbaer-utbod",
+      "intelligence_type": "closed_tender",
+      "is_open_opportunity": false
+    },
+    {
+      "reference": "",
+      "project": "Grjótgildra við Holtastöð",
+      "buyer": "Mosfellsbær",
+      "notice_type": "Útboð",
+      "deadline": "19.10.2026 kl. 11:00",
+      "deadline_local": "2026-10-19T11:00:00+00:00",
+      "deadline_utc": "2026-10-19T11:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-02",
+      "modified_at": null,
+      "url": "https://mos.is/mannlif/um-mosfellsbae/frettir/utbod-grjotgildra-vid-holtastod/",
+      "summary": "",
+      "source": "mosfellsbaer-utbod",
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true
     },
     {
       "reference": "U25033",
@@ -2631,7 +3073,60 @@
       "modified_at": null,
       "url": "https://in-tendhost.co.uk/isavia/aspx/ProjectManage/347",
       "summary": "Isavia ANS ehf. (the “Purchaser”) is a subsidiary of Isavia ohf. and is Iceland’s air navigation service provider. The Purchaser recognises the need to enhance its ATM and ANS through significant technological and strategic improvements to meet future traffic demands and to ensure it can continue its alignment with the NAT Vision and the ICAO’s Global Air Traffic Management Operational Concept. The Purchaser is seek…",
-      "source": "isavia-intend"
+      "source": "isavia-intend",
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true
+    },
+    {
+      "reference": "U25032",
+      "project": "U25032 Keflavík Airport Unified Security Checkpoint Solution",
+      "buyer": "Isavia",
+      "notice_type": "Works",
+      "deadline": "26.10.2026 kl. 12:00",
+      "deadline_local": "2026-10-26T12:00:00+00:00",
+      "deadline_utc": "2026-10-26T12:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": null,
+      "modified_at": null,
+      "url": "https://in-tendhost.co.uk/isavia/aspx/ProjectManage/380",
+      "summary": "Isavia ohf. is conducting a procurement on behalf of Isavia ohf. and its subsidiaries for a complete passenger security checkpoint solution at Keflavík Airport. The scope includes the supply, installation, integration, commissioning, testing, handover, maintenance and support of airport security screening equipment, related software, interfaces and IT infrastructure, including CT security scanners for cabin baggage…",
+      "source": "isavia-intend",
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true
+    },
+    {
+      "reference": "680810-2026",
+      "project": "Design and construction of a New Security Prison",
+      "buyer": "Framkvæmdasýslan ríkiseignir (FSRE)",
+      "notice_type": "cn-standard",
+      "deadline": "04.11.2026 kl. 12:00",
+      "deadline_local": "2026-11-04T12:00:58+00:00",
+      "deadline_utc": "2026-11-04T12:00:58+00:00",
+      "deadline_confirmed": false,
+      "posted_at": "2026-10-02",
+      "modified_at": null,
+      "url": "https://ted.europa.eu/en/notice/-/detail/680810-2026",
+      "summary": "TED open Iceland construction contract notice; CPV 45000000, 45216113, 45000000, 45216113.",
+      "source": "ted",
+      "intelligence_type": "unverified_deadline",
+      "is_open_opportunity": false
+    },
+    {
+      "reference": "679193-2026",
+      "project": "Framework Agreement for Fault Response Services, Maintenance and Installation of Mechanical and Electrical Equipment",
+      "buyer": "Veitur ohf.",
+      "notice_type": "cn-standard",
+      "deadline": "05.11.2026 kl. 14:00",
+      "deadline_local": "2026-11-05T14:00:00+00:00",
+      "deadline_utc": "2026-11-05T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-02",
+      "modified_at": null,
+      "url": "https://ted.europa.eu/en/notice/-/detail/679193-2026",
+      "summary": "TED open Iceland construction contract notice; CPV 50710000, 50530000, 51110000, 45310000, 50511000, 71334000, 45259000, 50530000, 50532000, 51110000, 45310000, 71334000, 45259000, 50511000.",
+      "source": "ted",
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true
     },
     {
       "reference": "VEU-2609-0063",
@@ -2646,7 +3141,9 @@
       "modified_at": null,
       "url": "https://in-tendhost.co.uk/reykjavikenergy/aspx/ProjectManage/705",
       "summary": "Með innkaupaferli þessu hyggst Kaupandi koma á Rammasamningi um vinnu við bilanaþjónustu, viðhald og uppsetningu á vél og rafbúnaði Þjónustan verður boðin út í tveimur flokkum og er bjóðendum heimilt að bjóða í staka eða báða flokka af því gefnu að viðkomandi uppfyllir kröfur fyrir þann flokk sem boðið er í: Flokkur 1 – Rafvirkjavinna Flokkur 2 - Málmiðnaðarvinna og rafmagn vélbúnaðar",
-      "source": "or-intend"
+      "source": "or-intend",
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true
     },
     {
       "reference": "VEU-2609-0066",
@@ -2661,7 +3158,26 @@
       "modified_at": null,
       "url": "https://in-tendhost.co.uk/reykjavikenergy/aspx/ProjectManage/706",
       "summary": "Verkefnið felur í sér endurnýjun á um 1550m löngum kafla HAB í landi Skorholts og Bakka. Lögð verður ný DN450 foreinangruð hitaveitulögn í nýrri legu frá festu í landi Bakka, merkt DT-362 að hitaveitubrunni í landi Skorholts, merktur DT-370. Ný lagnalega er um 1900m. Einnig felur verkefnið í sér niðurrifi á brunnum merktum DT-363, DT-364, DT-369 OG DT-370. Að tengingu nýrrar lagnar lokinni skal verktaki fjarlægja nú…",
-      "source": "or-intend"
+      "source": "or-intend",
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true
+    },
+    {
+      "reference": "715187-2026",
+      "project": "Portable Office Units for Hlíð Nursing Home",
+      "buyer": "Framkvæmdasýslan ríkiseignir (FSRE)",
+      "notice_type": "cn-standard",
+      "deadline": "16.11.2026 kl. 12:00",
+      "deadline_local": "2026-11-16T12:00:58+00:00",
+      "deadline_utc": "2026-11-16T12:00:58+00:00",
+      "deadline_confirmed": false,
+      "posted_at": "2026-10-16",
+      "modified_at": null,
+      "url": "https://ted.europa.eu/en/notice/-/detail/715187-2026",
+      "summary": "TED open Iceland construction contract notice; CPV 44211100, 45000000, 44211100, 45000000.",
+      "source": "ted",
+      "intelligence_type": "unverified_deadline",
+      "is_open_opportunity": false
     },
     {
       "reference": "VEGK-2024-01",
@@ -2676,7 +3192,9 @@
       "modified_at": null,
       "url": "https://in-tendhost.co.uk/reykjavikenergy/aspx/ProjectManage/493",
       "summary": "Veitur óska eftir þátttakendum í GIK fyrir Veitulagnir, jarðvinnu og yfirborðsfrágang í samræmi við þessi skjöl. Undir gagnvirka innkaupakerfinu falla verkefni sem innifela í sér að hluta eða öllu leyti vinnu við eftirfarandi verkþætti fyrir verkefni verkkaupa á öllum veitusvæðum verkkaupa, hvort sem um er að ræða verkefni sem verkkaupi stendur einn að eða í samstarfi við aðra verkkaupa. 1. Öryggisráðstafanir og vin…",
-      "source": "or-intend"
+      "source": "or-intend",
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true
     },
     {
       "reference": "U22016",
@@ -2691,7 +3209,9 @@
       "modified_at": null,
       "url": "https://in-tendhost.co.uk/isavia/aspx/ProjectManage/209",
       "summary": "Isavia ásamt dótturfélögum óskar eftir aðilum til þátttöku í gagnvirku innkaupakerfi vegna kaupa á nýjum ökutækjum. Gagnvirkt innkaupakerfi er tiltekið fyrirkomulag þar sem stuðst er við rafrænar aðferðir við innkaup sem eru framkvæmd með lokuðum útboðum. Bjóðendur sem fullnægt hafa vissum hæfisskilyrðum eiga rétt á aðild að gagnvirku innkaupkerfi.",
-      "source": "isavia-intend"
+      "source": "isavia-intend",
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true
     },
     {
       "reference": "U23036",
@@ -2706,7 +3226,9 @@
       "modified_at": null,
       "url": "https://in-tendhost.co.uk/isavia/aspx/ProjectManage/253",
       "summary": "Isavia ohf. ásamt dótturfélögum óskar eftir aðilum til þátttöku í gagnvirku innkaupakerfi vegna kaupa á LED skjálausnum. Gagnvirkt innkaupakerfi er tiltekið fyrirkomulag þar sem óskað er eftir tilboðum í LED skjálausnir, með rafrænum hætti á grundvelli þessara útboðsskilmála og kröfum þeim sem fram koma í lokuðu útboði hverju sinni. Fyrirkomulagið er virkt í þeim skilningi að á meðan gagnvirka innkaupakerfið er í gi…",
-      "source": "isavia-intend"
+      "source": "isavia-intend",
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true
     },
     {
       "reference": "ORGK-2025-01",
@@ -2721,7 +3243,9 @@
       "modified_at": null,
       "url": "https://in-tendhost.co.uk/reykjavikenergy/aspx/ProjectManage/580",
       "summary": "Kaupandi óskar eftir þátttakendum í gagnvirkt innkaupakerfi (GIK) fyrir laus húsgögn fyrir höfuðstöðvar Orkuveitunnar í samræmi við útboðsgögn. Umsóknir opnast í útboðskerfi kaupanda um leið og þær berast og verða þær yfirfarnar af kaupanda eins fljótt og auðið er eftir afhendingu frá umsækjanda. Umsækjendur eru hvattir til að senda inn umsóknir eins fljótt og auðið er eftir birtingu útboðstilkynningar til að tryggj…",
-      "source": "or-intend"
+      "source": "or-intend",
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true
     },
     {
       "reference": "RARIK 25040",
@@ -2736,7 +3260,9 @@
       "modified_at": null,
       "url": "https://in-tendhost.co.uk/rarik/aspx/ProjectManage/54",
       "summary": "Rarik ohf., kt. 520269-2669, (hér eftir nefnt „kaupandi“), óskar eftir aðilum til þátttöku í samningi um ráðgjafarþjónustu sem fram fer í gegnum gagnvirkt innkaupakerfi eins og það er skilgreint í 55. gr. reglugerðar nr. 340/2017",
-      "source": "rarik-intend"
+      "source": "rarik-intend",
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true
     },
     {
       "reference": "U25041",
@@ -2751,7 +3277,9 @@
       "modified_at": null,
       "url": "https://in-tendhost.co.uk/isavia/aspx/ProjectManage/387",
       "summary": "Kaupandi hyggst koma á fót gagnvirku innkaupakerfi („DPS“) hæfra birgja fyrir afhendingu á hreinni lífdísil olíu (HVO) til notkunar á vinnuvélum og öðrum ökutækjum. Áhugasamir birgjar eru hvattir til að senda beiðni um þátttöku í kerfinu. Á meðan DPS er í gildi er það opið öllum birgjum sem uppfylla skilyrði fyrir þátttöku í samræmi við skilmála þessarar tilkynningar. Öll innkaup innan DPS verða framkvæmd með lokuðu…",
-      "source": "isavia-intend"
+      "source": "isavia-intend",
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true
     },
     {
       "reference": "U24020",
@@ -2766,7 +3294,9 @@
       "modified_at": null,
       "url": "https://in-tendhost.co.uk/isavia/aspx/ProjectManage/296",
       "summary": "The Purchaser intends to establish a Dynamic Purchasing System (“DPS”) of qualified suppliers for the supply of runway de-icing chemicals, both solid and liquid. An example of technical requirements for the materials can be found in chapter 5. Interested suppliers are invited to send a request to participate in the system. While the DPS is in effect, it is open to all suppliers that meet the conditions for participa…",
-      "source": "isavia-intend"
+      "source": "isavia-intend",
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true
     },
     {
       "reference": "U25031",
@@ -2781,7 +3311,9 @@
       "modified_at": null,
       "url": "https://in-tendhost.co.uk/isavia/aspx/ProjectManage/351",
       "summary": "Isavia ohf., reg. no. 550210-0370 and Isavia Innanlandsflugvellir ehf., reg. no. 591219-1380 (“Purchaser” or “Isavia”) is a state-owned limited company. Isavia, along with its subsidiaries, operates and maintains all airports in Iceland, and it also operates air traffic control in the Icelandic aviation area. The Purchaser intends to establish a Dynamic Purchasing System (“DPS”) of qualified suppliers for the supply…",
-      "source": "isavia-intend"
+      "source": "isavia-intend",
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true
     }
   ]
 }
