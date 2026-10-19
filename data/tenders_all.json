@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "generated": "2026-10-19T07:00:26Z",
-  "generated_at": "2026-10-19T07:00:26Z",
+  "generated": "2026-10-19T19:50:01Z",
+  "generated_at": "2026-10-19T19:50:01Z",
   "sources": {
     "utbodsvefur": {
-      "generated_at": "2026-10-19T07:00:26.647365+00:00",
+      "generated_at": "2026-10-19T19:50:01.868838+00:00",
       "count": 65,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders.json"
     },
     "offportal": {
-      "generated": "2026-10-19T07:00:26Z",
-      "count": 174,
+      "generated": "2026-10-19T19:50:01Z",
+      "count": 173,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders_offportal.json"
     },
     "not_covered": [
@@ -327,7 +327,7 @@
         "evidence_url": "https://www.utbodsvefur.is/fjallabyggd-snjomokstur-og-halkuvarnir-2026-2029/",
         "seen_count": 1,
         "first_seen": "2026-10-06T07:00:27Z",
-        "last_seen": "2026-10-19T07:00:26Z",
+        "last_seen": "2026-10-19T19:50:01Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       },
@@ -339,7 +339,7 @@
         "evidence_url": "https://www.utbodsvefur.is/vetrarthjonusta-i-arborg/",
         "seen_count": 1,
         "first_seen": "2026-10-19T07:00:26Z",
-        "last_seen": "2026-10-19T07:00:26Z",
+        "last_seen": "2026-10-19T19:50:01Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       }
@@ -347,9 +347,9 @@
   },
   "count": 229,
   "counts_by_intelligence_type": {
-    "active_tender": 71,
+    "active_tender": 70,
     "bid_opening": 33,
-    "closed_tender": 1,
+    "closed_tender": 2,
     "historical_award": 96,
     "unverified_deadline": 28
   },
@@ -3007,72 +3007,21 @@
       "is_open_opportunity": false
     },
     {
-      "reference": "2026091164",
+      "reference": "",
       "project": "Grjótgildra við Holtastöð",
       "buyer": "Mosfellsbær",
-      "notice_type": "Framkvæmd",
+      "notice_type": "Útboð",
       "deadline": "19.10.2026 kl. 11:00",
       "deadline_local": "2026-10-19T11:00:00+00:00",
       "deadline_utc": "2026-10-19T11:00:00+00:00",
       "deadline_confirmed": true,
-      "posted_at": "2026-10-02T10:00:15+00:00",
-      "modified_at": "2026-10-02T10:00:15+00:00",
-      "url": "https://www.utbodsvefur.is/grjotgildra-vid-holtastod/",
-      "summary": "Mosfellsbær óskar eftir óskar eftir tilboðum í gerð grjótgildru við skólpdælustöðina Holtastöð. Helstu verkþættir eru: Um er að ræða að útbúa nýja grj...",
-      "source": "utbodsvefur",
-      "intelligence_type": "active_tender",
-      "is_open_opportunity": true
-    },
-    {
-      "reference": "U25033",
-      "project": "Air Traffic Management System Procurement",
-      "buyer": "Isavia ANS",
-      "notice_type": "Services",
-      "deadline": "19.10.2026 kl. 12:00",
-      "deadline_local": "2026-10-19T12:00:00+00:00",
-      "deadline_utc": "2026-10-19T12:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2025-12-08T00:00:00+00:00",
+      "posted_at": "2026-10-02",
       "modified_at": null,
-      "url": "https://in-tendhost.co.uk/isavia/aspx/ProjectManage/347",
-      "summary": "Isavia ANS ehf. (the “Purchaser”) is a subsidiary of Isavia ohf. and is Iceland’s air navigation service provider. The Purchaser recognises the need to enhance its ATM and ANS through significant technological and strategic improvements to meet future traffic demands and to ensure it can continue its alignment with the NAT Vision and the ICAO’s Global Air Traffic Management Operational Concept. The Purchaser is seek…",
-      "source": "isavia-intend",
-      "intelligence_type": "active_tender",
-      "is_open_opportunity": true
-    },
-    {
-      "reference": "2026002",
-      "project": "Vátryggingaútboð Sveitarfélagsins Skagafjarðar 2027-2029",
-      "buyer": "Sveitarfélagið Skagafjörður",
-      "notice_type": "Þjónusta",
-      "deadline": "19.10.2026 kl. 12:00",
-      "deadline_local": "2026-10-19T12:00:00+00:00",
-      "deadline_utc": "2026-10-19T12:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-09-28T17:22:13+00:00",
-      "modified_at": "2026-09-28T17:22:13+00:00",
-      "url": "https://www.utbodsvefur.is/vatryggingautbod-sveitarfelagsins-skagafjardar-2027-2029/",
-      "summary": "Sveitarfélagið Skagafjörður og tengdir aðilar óska eftir tilboðum í vátryggingar fyrir tímabilið 2027-2029 Um er að ræða lög- og samningsbundnar trygg...",
-      "source": "utbodsvefur",
-      "intelligence_type": "active_tender",
-      "is_open_opportunity": true
-    },
-    {
-      "reference": "VB043135",
-      "project": "Foreinangruð stálrör",
-      "buyer": "Norðurorka",
-      "notice_type": "Vörukaup",
-      "deadline": "19.10.2026 kl. 13:30",
-      "deadline_local": "2026-10-19T13:30:00+00:00",
-      "deadline_utc": "2026-10-19T13:30:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-09-16T09:59:55+00:00",
-      "modified_at": "2026-09-16T09:59:55+00:00",
-      "url": "https://www.utbodsvefur.is/foreinangrud-stalror/",
-      "summary": "Norðurorka hf., kt. 550978- 0169 óskar eftir tilboðum í foreinangruð stálrör og tilheyrandi beygjum og lokum samkvæmt magnskrá. Gögn eru afhent með að...",
-      "source": "utbodsvefur",
-      "intelligence_type": "active_tender",
-      "is_open_opportunity": true
+      "url": "https://mos.is/mannlif/um-mosfellsbae/frettir/utbod-grjotgildra-vid-holtastod/",
+      "summary": "",
+      "source": "mosfellsbaer-utbod",
+      "intelligence_type": "closed_tender",
+      "is_open_opportunity": false
     },
     {
       "reference": "23396",
@@ -3653,6 +3602,23 @@
       "is_open_opportunity": true
     },
     {
+      "reference": "25-2026",
+      "project": "Ælupokar fyrir Landspítala og heilbrigðisstofnanir",
+      "buyer": "Landspítali",
+      "notice_type": "Verðfyrirspurn",
+      "deadline": "10.11.2026 kl. 12:00",
+      "deadline_local": "2026-11-10T12:00:00+00:00",
+      "deadline_utc": "2026-11-10T12:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-19T13:21:30+00:00",
+      "modified_at": "2026-10-19T13:21:30+00:00",
+      "url": "https://www.utbodsvefur.is/aelupokar-fyrir-landspitala-og-heilbrigdisstofnanir/",
+      "summary": "Landspítali óskar eftir upplýsingum um verð og gæði á ælupokum fyrir Landspítala, heilbrigðisstofnanir og sjúkrabíla SHS",
+      "source": "utbodsvefur",
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true
+    },
+    {
       "reference": "10-2026",
       "project": "Mönnun, rekstur og viðhald dráttarbátsins Vattar",
       "buyer": "Fjarðabyggð",
@@ -3789,6 +3755,23 @@
       "is_open_opportunity": true
     },
     {
+      "reference": "202605839",
+      "project": "Báran – Endurnýjun á gervigrasi",
+      "buyer": "Sveitarfélagið Hornafjörður",
+      "notice_type": "Vörukaup",
+      "deadline": "24.11.2026 kl. 14:00",
+      "deadline_local": "2026-11-24T14:00:00+00:00",
+      "deadline_utc": "2026-11-24T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-19T09:04:42+00:00",
+      "modified_at": "2026-10-19T09:04:42+00:00",
+      "url": "https://www.utbodsvefur.is/baran-endurnyjun-a-gervigrasi/",
+      "summary": "Endurnýjun gervigrass í Bárunni Sveitarfélagið Hornafjörður óskar eftir tilboðum í verkið„Báran – endurnýjun á gervigrasi“. Um er að ræða almennt opið...",
+      "source": "utbodsvefur",
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true
+    },
+    {
       "reference": "TZS26002",
       "project": "Þotugildrur á Keflavíkurflugvelli",
       "buyer": "Fjársýslan ríkisins",
@@ -3836,6 +3819,23 @@
       "url": "https://ted.europa.eu/en/notice/-/detail/720466-2026",
       "summary": "TED open Iceland construction contract notice; CPV 45000000, 45000000.",
       "source": "ted",
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true
+    },
+    {
+      "reference": "2026-35",
+      "project": "HVM10 – Mannvirkjagerð",
+      "buyer": "Landsvirkjun",
+      "notice_type": "Framkvæmd",
+      "deadline": "20.04.2027 kl. 14:00",
+      "deadline_local": "2027-04-20T14:00:00+00:00",
+      "deadline_utc": "2027-04-20T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-19T15:54:49+00:00",
+      "modified_at": "2026-10-19T15:54:49+00:00",
+      "url": "https://www.utbodsvefur.is/hvm10-mannvirkjagerd/",
+      "summary": "Landsvirkjun býður hér með út verk sem felst í byggingu Núpstíflu, þar með talið yfirfallsmannvirkjum með lokum og brúm, fiskvegum, aðrennslisskurði, ...",
+      "source": "utbodsvefur",
       "intelligence_type": "active_tender",
       "is_open_opportunity": true
     },

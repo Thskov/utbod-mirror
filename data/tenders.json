@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T07:00:26.647365+00:00",
+  "generated_at": "2026-10-19T19:50:01.868838+00:00",
   "source": {
     "site": "https://www.utbodsvefur.is",
     "posts_api": "https://www.utbodsvefur.is/wp-json/wp/v2/posts",
@@ -7,55 +7,13 @@
     "count_drop_guard": {
       "status": "fresh",
       "threshold": ">70% source-count collapse",
-      "previous_good_count": 63,
+      "previous_good_count": 65,
       "current_count": 65,
-      "minimum_allowed_count": 18
+      "minimum_allowed_count": 19
     }
   },
   "count": 65,
   "tenders": [
-    {
-      "reference": "2026091164",
-      "project": "Grjótgildra við Holtastöð",
-      "buyer": "Mosfellsbær",
-      "notice_type": "Framkvæmd",
-      "deadline": "19.10.2026 kl. 11:00",
-      "deadline_local": "2026-10-19T11:00:00+00:00",
-      "deadline_utc": "2026-10-19T11:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-10-02T10:00:15+00:00",
-      "modified_at": "2026-10-02T10:00:15+00:00",
-      "url": "https://www.utbodsvefur.is/grjotgildra-vid-holtastod/",
-      "summary": "Mosfellsbær óskar eftir óskar eftir tilboðum í gerð grjótgildru við skólpdælustöðina Holtastöð. Helstu verkþættir eru: Um er að ræða að útbúa nýja grj..."
-    },
-    {
-      "reference": "2026002",
-      "project": "Vátryggingaútboð Sveitarfélagsins Skagafjarðar 2027-2029",
-      "buyer": "Sveitarfélagið Skagafjörður",
-      "notice_type": "Þjónusta",
-      "deadline": "19.10.2026 kl. 12:00",
-      "deadline_local": "2026-10-19T12:00:00+00:00",
-      "deadline_utc": "2026-10-19T12:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-09-28T17:22:13+00:00",
-      "modified_at": "2026-09-28T17:22:13+00:00",
-      "url": "https://www.utbodsvefur.is/vatryggingautbod-sveitarfelagsins-skagafjardar-2027-2029/",
-      "summary": "Sveitarfélagið Skagafjörður og tengdir aðilar óska eftir tilboðum í vátryggingar fyrir tímabilið 2027-2029 Um er að ræða lög- og samningsbundnar trygg..."
-    },
-    {
-      "reference": "VB043135",
-      "project": "Foreinangruð stálrör",
-      "buyer": "Norðurorka",
-      "notice_type": "Vörukaup",
-      "deadline": "19.10.2026 kl. 13:30",
-      "deadline_local": "2026-10-19T13:30:00+00:00",
-      "deadline_utc": "2026-10-19T13:30:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-09-16T09:59:55+00:00",
-      "modified_at": "2026-09-16T09:59:55+00:00",
-      "url": "https://www.utbodsvefur.is/foreinangrud-stalror/",
-      "summary": "Norðurorka hf., kt. 550978- 0169 óskar eftir tilboðum í foreinangruð stálrör og tilheyrandi beygjum og lokum samkvæmt magnskrá. Gögn eru afhent með að..."
-    },
     {
       "reference": "23396",
       "project": "Búnaðarkaup fyrir Fjölbrautaskólann í Breiðholti",
@@ -505,6 +463,20 @@
       "summary": "Fjármálasvið Hafnarfjarðarbæjar óskar eftir tilboðum í innheimtuþjónustu fyrir Hafnarfjarðarbæ og B hluta stofnanir á vegum bæjarins. Útboðinu er ski..."
     },
     {
+      "reference": "25-2026",
+      "project": "Ælupokar fyrir Landspítala og heilbrigðisstofnanir",
+      "buyer": "Landspítali",
+      "notice_type": "Verðfyrirspurn",
+      "deadline": "10.11.2026 kl. 12:00",
+      "deadline_local": "2026-11-10T12:00:00+00:00",
+      "deadline_utc": "2026-11-10T12:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-19T13:21:30+00:00",
+      "modified_at": "2026-10-19T13:21:30+00:00",
+      "url": "https://www.utbodsvefur.is/aelupokar-fyrir-landspitala-og-heilbrigdisstofnanir/",
+      "summary": "Landspítali óskar eftir upplýsingum um verð og gæði á ælupokum fyrir Landspítala, heilbrigðisstofnanir og sjúkrabíla SHS"
+    },
+    {
       "reference": "10-2026",
       "project": "Mönnun, rekstur og viðhald dráttarbátsins Vattar",
       "buyer": "Fjarðabyggð",
@@ -603,6 +575,20 @@
       "summary": "Consensa, fyrir hönd Grindavíkurbæjar, óskar eftir upplýsingum og sjónarmiðum áhugasamra markaðsaðila vegna undirbúnings þjónustusérleyfis um uppbyggi..."
     },
     {
+      "reference": "202605839",
+      "project": "Báran – Endurnýjun á gervigrasi",
+      "buyer": "Sveitarfélagið Hornafjörður",
+      "notice_type": "Vörukaup",
+      "deadline": "24.11.2026 kl. 14:00",
+      "deadline_local": "2026-11-24T14:00:00+00:00",
+      "deadline_utc": "2026-11-24T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-19T09:04:42+00:00",
+      "modified_at": "2026-10-19T09:04:42+00:00",
+      "url": "https://www.utbodsvefur.is/baran-endurnyjun-a-gervigrasi/",
+      "summary": "Endurnýjun gervigrass í Bárunni Sveitarfélagið Hornafjörður óskar eftir tilboðum í verkið„Báran – endurnýjun á gervigrasi“. Um er að ræða almennt opið..."
+    },
+    {
       "reference": "TZS26002",
       "project": "Þotugildrur á Keflavíkurflugvelli",
       "buyer": "Fjársýslan",
@@ -615,6 +601,20 @@
       "modified_at": "2026-10-13T10:39:51+00:00",
       "url": "https://www.utbodsvefur.is/thotugildrur-a-keflavikurflugvelli/",
       "summary": "Utanríkisráðuneytið, varnarmálaskrifstofa og Landhelgisgæslan, varnarmálasvið, vekja athygli á auglýsingu innkaupastofnunar Atlantshafsbandalagsins (N..."
+    },
+    {
+      "reference": "2026-35",
+      "project": "HVM10 – Mannvirkjagerð",
+      "buyer": "Landsvirkjun",
+      "notice_type": "Framkvæmd",
+      "deadline": "20.04.2027 kl. 14:00",
+      "deadline_local": "2027-04-20T14:00:00+00:00",
+      "deadline_utc": "2027-04-20T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-19T15:54:49+00:00",
+      "modified_at": "2026-10-19T15:54:49+00:00",
+      "url": "https://www.utbodsvefur.is/hvm10-mannvirkjagerd/",
+      "summary": "Landsvirkjun býður hér með út verk sem felst í byggingu Núpstíflu, þar með talið yfirfallsmannvirkjum með lokum og brúm, fiskvegum, aðrennslisskurði, ..."
     },
     {
       "reference": "2024-54",
