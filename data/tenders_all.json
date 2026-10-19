@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "generated": "2026-10-16T07:00:25Z",
-  "generated_at": "2026-10-16T07:00:25Z",
+  "generated": "2026-10-19T07:00:26Z",
+  "generated_at": "2026-10-19T07:00:26Z",
   "sources": {
     "utbodsvefur": {
-      "generated_at": "2026-10-16T07:00:25.235253+00:00",
-      "count": 63,
+      "generated_at": "2026-10-19T07:00:26.647365+00:00",
+      "count": 65,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders.json"
     },
     "offportal": {
-      "generated": "2026-10-16T07:00:25Z",
-      "count": 172,
+      "generated": "2026-10-19T07:00:26Z",
+      "count": 174,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders_offportal.json"
     },
     "not_covered": [
@@ -327,15 +327,27 @@
         "evidence_url": "https://www.utbodsvefur.is/fjallabyggd-snjomokstur-og-halkuvarnir-2026-2029/",
         "seen_count": 1,
         "first_seen": "2026-10-06T07:00:27Z",
-        "last_seen": "2026-10-16T07:00:25Z",
+        "last_seen": "2026-10-19T07:00:26Z",
+        "reason": "unknown buyer/source found in tender feed",
+        "status": "pending"
+      },
+      {
+        "id": "tender:buyer:sveitafélagið-árborg",
+        "name": "Sveitafélagið Árborg",
+        "suggested_feed": "tenders_all",
+        "suggested_lane": "tender",
+        "evidence_url": "https://www.utbodsvefur.is/vetrarthjonusta-i-arborg/",
+        "seen_count": 1,
+        "first_seen": "2026-10-19T07:00:26Z",
+        "last_seen": "2026-10-19T07:00:26Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       }
     ]
   },
-  "count": 225,
+  "count": 229,
   "counts_by_intelligence_type": {
-    "active_tender": 67,
+    "active_tender": 71,
     "bid_opening": 33,
     "closed_tender": 1,
     "historical_award": 96,
@@ -2995,23 +3007,6 @@
       "is_open_opportunity": false
     },
     {
-      "reference": "2026-02",
-      "project": "Kerhólsskóli – Breytingar 2. hæð og ný loftræsisamstæða",
-      "buyer": "Grímsnes- og Grafningshreppur",
-      "notice_type": "Framkvæmd",
-      "deadline": "16.10.2026 kl. 11:00",
-      "deadline_local": "2026-10-16T11:00:00+00:00",
-      "deadline_utc": "2026-10-16T11:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-09-03T14:16:45+00:00",
-      "modified_at": "2026-10-07T08:50:15+00:00",
-      "url": "https://www.utbodsvefur.is/9661-2/",
-      "summary": "Sveitarfélagið Grímsnes og Grafningshreppur óskar eftir tilboðum í verkið: Kerhólsskóli – Breytingar 2. hæð og ný loftræsisamstæða Verkið felur ...",
-      "source": "utbodsvefur",
-      "intelligence_type": "active_tender",
-      "is_open_opportunity": true
-    },
-    {
       "reference": "2026091164",
       "project": "Grjótgildra við Holtastöð",
       "buyer": "Mosfellsbær",
@@ -3675,6 +3670,40 @@
       "is_open_opportunity": true
     },
     {
+      "reference": "2507230",
+      "project": "Vetrarþjónusta í Árborg",
+      "buyer": "Sveitafélagið Árborg",
+      "notice_type": "Þjónusta",
+      "deadline": "16.11.2026 kl. 10:00",
+      "deadline_local": "2026-11-16T10:00:00+00:00",
+      "deadline_utc": "2026-11-16T10:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2025-09-22T15:50:37+00:00",
+      "modified_at": "2026-10-16T10:34:42+00:00",
+      "url": "https://www.utbodsvefur.is/vetrarthjonusta-i-arborg/",
+      "summary": "Sveitarfélagið Árborg óskar eftir tilboðum í verkið: „Vetrarþjónusta Árborg 2026-2028“ Í verkinu felst snjóruðningur á götum, gönguleiðum meðfram göt...",
+      "source": "utbodsvefur",
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true
+    },
+    {
+      "reference": "6087175",
+      "project": "Færanlegar húseiningar fyrir Hjúkrunarheimilið Hlíð",
+      "buyer": "Framkvæmdasýslan ríkiseignir (FSRE)",
+      "notice_type": "Framkvæmd Vörukaup",
+      "deadline": "16.11.2026 kl. 12:00",
+      "deadline_local": "2026-11-16T12:00:00+00:00",
+      "deadline_utc": "2026-11-16T12:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-16T09:21:30+00:00",
+      "modified_at": "2026-10-16T09:21:30+00:00",
+      "url": "https://www.utbodsvefur.is/faeranlegar-huseiningar-fyrir-hjukrunarheimilid-hlid/",
+      "summary": "Framkvæmdasýslan – Ríkiseignir (FSRE), f.h. Félags- og húsnæðismálaráðuneytisins, sem hér eftir nefnist kaupandi, óskar eftir tilboðum í að fullnaðarh...",
+      "source": "utbodsvefur",
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true
+    },
+    {
       "reference": "715187-2026",
       "project": "Portable Office Units for Hlíð Nursing Home",
       "buyer": "Framkvæmdasýslan ríkiseignir (FSRE)",
@@ -3726,6 +3755,23 @@
       "is_open_opportunity": true
     },
     {
+      "reference": "2026062652",
+      "project": "Útboð á hýsingu-, rekstrar- og notendaþjónustu fyrir Akureyrarbæ",
+      "buyer": "Akureyrarbær",
+      "notice_type": "Þjónusta",
+      "deadline": "20.11.2026 kl. 11:15",
+      "deadline_local": "2026-11-20T11:15:00+00:00",
+      "deadline_utc": "2026-11-20T11:15:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-15T13:59:51+00:00",
+      "modified_at": "2026-10-15T13:59:51+00:00",
+      "url": "https://www.utbodsvefur.is/utbod-a-hysingu-rekstrar-og-notendathjonustu-fyrir-akureyrarbae/",
+      "summary": "Akureyrarbær óskar eftir tilboðum í hýsingu og rekstur upplýsingatækniumhverfis sveitarfélagsins, auk notendaþjónustu. Samningstími er frá 1.4.2027 &#...",
+      "source": "utbodsvefur",
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true
+    },
+    {
       "reference": "202650",
       "project": "Hópið – Markaðskönnun",
       "buyer": "Grindavíkurbær",
@@ -3756,6 +3802,40 @@
       "url": "https://www.utbodsvefur.is/thotugildrur-a-keflavikurflugvelli/",
       "summary": "Utanríkisráðuneytið, varnarmálaskrifstofa og Landhelgisgæslan, varnarmálasvið, vekja athygli á auglýsingu innkaupastofnunar Atlantshafsbandalagsins (N...",
       "source": "utbodsvefur",
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true
+    },
+    {
+      "reference": "721659-2026",
+      "project": "Framework Agreement for Trenchless Lining of Sewer Pipelines",
+      "buyer": "Veitur ohf.",
+      "notice_type": "cn-standard",
+      "deadline": "18.01.2027 kl. 14:00",
+      "deadline_local": "2027-01-18T14:00:00+00:00",
+      "deadline_utc": "2027-01-18T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-19",
+      "modified_at": null,
+      "url": "https://ted.europa.eu/en/notice/-/detail/721659-2026",
+      "summary": "TED open Iceland construction contract notice; CPV 45232440, 45231300, 45231110, 45231112, 45232400.",
+      "source": "ted",
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true
+    },
+    {
+      "reference": "720466-2026",
+      "project": "HVM10 - Civil Works",
+      "buyer": "Landsvirkjun",
+      "notice_type": "cn-standard",
+      "deadline": "20.04.2027 kl. 14:00",
+      "deadline_local": "2027-04-20T14:00:00+00:00",
+      "deadline_utc": "2027-04-20T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-19",
+      "modified_at": null,
+      "url": "https://ted.europa.eu/en/notice/-/detail/720466-2026",
+      "summary": "TED open Iceland construction contract notice; CPV 45000000, 45000000.",
+      "source": "ted",
       "intelligence_type": "active_tender",
       "is_open_opportunity": true
     },

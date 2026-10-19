@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated": "2026-10-16T07:00:25Z",
-  "generated_at": "2026-10-16T07:00:25Z",
+  "generated": "2026-10-19T07:00:26Z",
+  "generated_at": "2026-10-19T07:00:26Z",
   "sources": {
     "covered": [
       {
@@ -376,15 +376,15 @@
         "evidence_url": "https://www.utbodsvefur.is/fjallabyggd-snjomokstur-og-halkuvarnir-2026-2029/",
         "seen_count": 1,
         "first_seen": "2026-10-06T07:00:27Z",
-        "last_seen": "2026-10-15T07:00:25Z",
+        "last_seen": "2026-10-16T07:00:25Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       }
     ]
   },
-  "count": 172,
+  "count": 174,
   "counts_by_intelligence_type": {
-    "active_tender": 14,
+    "active_tender": 16,
     "bid_opening": 33,
     "closed_tender": 1,
     "historical_award": 96,
@@ -3178,6 +3178,40 @@
       "source": "ted",
       "intelligence_type": "unverified_deadline",
       "is_open_opportunity": false
+    },
+    {
+      "reference": "721659-2026",
+      "project": "Framework Agreement for Trenchless Lining of Sewer Pipelines",
+      "buyer": "Veitur ohf.",
+      "notice_type": "cn-standard",
+      "deadline": "18.01.2027 kl. 14:00",
+      "deadline_local": "2027-01-18T14:00:00+00:00",
+      "deadline_utc": "2027-01-18T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-19",
+      "modified_at": null,
+      "url": "https://ted.europa.eu/en/notice/-/detail/721659-2026",
+      "summary": "TED open Iceland construction contract notice; CPV 45232440, 45231300, 45231110, 45231112, 45232400.",
+      "source": "ted",
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true
+    },
+    {
+      "reference": "720466-2026",
+      "project": "HVM10 - Civil Works",
+      "buyer": "Landsvirkjun",
+      "notice_type": "cn-standard",
+      "deadline": "20.04.2027 kl. 14:00",
+      "deadline_local": "2027-04-20T14:00:00+00:00",
+      "deadline_utc": "2027-04-20T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-19",
+      "modified_at": null,
+      "url": "https://ted.europa.eu/en/notice/-/detail/720466-2026",
+      "summary": "TED open Iceland construction contract notice; CPV 45000000, 45000000.",
+      "source": "ted",
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true
     },
     {
       "reference": "VEGK-2024-01",
