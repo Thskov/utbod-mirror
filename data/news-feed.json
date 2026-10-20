@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated": "2026-10-19T19:48:43Z",
+  "generated": "2026-10-20T06:30:01Z",
   "window": {
-    "from": "2026-09-19",
-    "to": "2026-10-19"
+    "from": "2026-09-20",
+    "to": "2026-10-20"
   },
   "coverage": {
     "sources": [
@@ -217,6 +217,7 @@
         "atuarfik inussuk",
         "boðaþing",
         "endurhæfingarspítali á grensási",
+        "fasteignir háskóla íslands",
         "first water",
         "fjölnota íþróttahús í borgarnesi",
         "fossvogsbrú",
@@ -312,6 +313,18 @@
   "count": 80,
   "items": [
     {
+      "id": "news:braggi:nytt-heilbrigdisurraedi-i-haaleitisbraut-68-maetir-andstodu-radherra-o-c00201f4",
+      "lane": "news",
+      "category": "project",
+      "title": "Nýtt heilbrigðisúrræði í Háaleitisbraut 68 mætir andstöðu ráðherra og forstjóra",
+      "entity": "braggi.is",
+      "date": "2026-10-20",
+      "summary": "Litli spítalinn ehf. hefur tekið á leigu neðstu hæðir Háaleitisbrautar 68, sem áður hýstu að hluta höfuðstöðvar Landsvirkjunar. Fyrirtækið hyggst reka margþætta heilbrigðisþjónustu í húsnæðinu, þar á meðal smáslysamóttöku sem á að vera millistig mill",
+      "url": "https://braggi.is/nytt-heilbrigdisurraedi-i-haaleitisbraut-68-maetir-andstodu-radherra-o-c00201f4/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
       "id": "news:visir-vidskipti:play-komid-i-eignasafn-icelandair",
       "lane": "news",
       "category": "investment",
@@ -332,6 +345,18 @@
       "date": "2026-10-19",
       "summary": "Áfrýjunarnefnd samkeppnismála felldi úr gildi 1,4 milljarða króna sekt sem Samkeppniseftirlitið lagði á Landsvirkjun vegna sölu á raforku til Landsnets. Landsvirkjun segir niðurstöðuna staðfesta að ekki hafi steinn staðið yfir steini í rannsókn Samkeppniseftirlitsins.",
       "url": "https://www.visir.is/g/20262950469d/fella-nidur-1-4-milljarda-sekt-landsvirkjunar",
+      "outlet": "visir.is / Viðskipti",
+      "is_new": true
+    },
+    {
+      "id": "news:visir-vidskipti:afkoman-ur-thremur-milljonum-i-plus-i-tuttugu-i-minus",
+      "lane": "news",
+      "category": "project",
+      "title": "Af­koman úr þremur milljónum í plús í tuttugu í mínus",
+      "entity": "visir.is / Viðskipti",
+      "date": "2026-10-19",
+      "summary": "Hækkun kílómetragjalds á flutningabíla mun skila sér beint út í verðlag hér á landi að sögn framkvæmdastjóra Bílgreinasambandsins. Hann segir breytingarnar koma á óheppilegum tíma þegar heimsmarkaðsverð olíu sé í hæstu hæðum, gleymst hafi að líta til áhrifa hækkunarinnar á vöruflutninga.",
+      "url": "https://www.visir.is/g/20262950781d/afkoman-ur-thremur-milljonum-i-plus-i-tuttugu-i-minus",
       "outlet": "visir.is / Viðskipti",
       "is_new": true
     },
@@ -420,18 +445,6 @@
       "is_new": true
     },
     {
-      "id": "news:braggi:sundlaugin-lokud-vegna-vidgerdar",
-      "lane": "news",
-      "category": "project",
-      "title": "Sundlaugin lokuð vegna viðgerðar",
-      "entity": "braggi.is",
-      "date": "2026-10-19",
-      "summary": "Sundlaug Strandabyggðar verður lokuð frá og með 19. október vegna viðgerðar. Um er að ræða nauðsynlegar framkvæmdir á mannvirkinu sem krefjast lokunar á meðan unnið er að viðhaldi. Ekki hefur verið gefið út hvenær sundlaugin opnar aftur, en tilkynnt",
-      "url": "https://braggi.is/sundlaugin-lokud-vegna-vidgerdar/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
       "id": "news:braggi:steypustodin-hyggur-a-5500-fermetra-staekkun-i-borgarnesi",
       "lane": "news",
       "category": "project",
@@ -440,18 +453,6 @@
       "date": "2026-10-19",
       "summary": "Steypustöðin hefur gert samning við Borgarbyggð um stækkun á starfsemi sinni í Borgarnesi, sem felur í sér byggingu á nýju 5.500 fermetra húsnæði. Þessi framkvæmd er hluti af áformum fyrirtækisins um að auka framleiðslugetu og þjónustu á svæðinu. Sam",
       "url": "https://braggi.is/steypustodin-hyggur-a-5500-fermetra-staekkun-i-borgarnesi/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:sekt-felld-ur-gildi-0fa34797",
-      "lane": "news",
-      "category": "project",
-      "title": "Sekt felld úr gildi",
-      "entity": "braggi.is",
-      "date": "2026-10-19",
-      "summary": "Áfrýjunarnefnd samkeppnismála hefur fellt úr gildi 1,4 milljarða króna sekt sem Samkeppniseftirlitið lagði á Landsvirkjun. Ástæðan er sú að rannsókn eftirlitsins á sölu Landsvirkjunar vegna orkutapa Landsnets var gölluð, þar sem markaðir höfðu ekki v",
-      "url": "https://braggi.is/sekt-felld-ur-gildi-0fa34797/",
       "outlet": "braggi.is",
       "is_new": true
     },
@@ -573,7 +574,7 @@
       "summary": "Áhrifavaldar sem framleiða klámfengið efni á áskriftarmiðlinum Only Fans eru afar ósáttir með nýtt gervigreindarspjallmenni fyrirtækisins Meta. Þeir gagnrýna að fyrirtækið takmarki aðgang notenda að þeirra efni á samfélagsmiðlum Meta en leyfi spjallmenninu að ræða á klámfenginn hátt við notendur. Meta sé að stela af þeim viðskiptavinum.",
       "url": "https://www.visir.is/g/20262950182d/klamfengid-spjallmenni-zuckerbergs-vekur-ugg-innan-klamgeirans",
       "outlet": "visir.is / Viðskipti",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "news:visir-vidskipti:auglysi-sjukdoma-til-ad-komast-fram-hja-reglum",
@@ -585,7 +586,7 @@
       "summary": "Framkvæmdastjóri Neytendasamtakanna segir lyfjafyrirtæki auglýsa sjúkdóma til að komast hjá reglum um bann við því að auglýsa lyfseðilsskyld lyf. Hún segir Lyfjastofnun með málið til skoðunar og telur mikilvægt að lögum sé fylgt.",
       "url": "https://www.visir.is/g/20262949292d/auglysi-sjukdoma-til-ad-komast-fram-hja-reglum",
       "outlet": "visir.is / Viðskipti",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "news:visir-fiskeldi:kynna-vaxtarplan-sem-gaeti-skilad-300-milljarda-vidsnuningi-i-afkomu-rikissjods",
