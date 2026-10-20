@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated": "2026-10-19T19:49:08Z",
+  "generated": "2026-10-20T06:45:01Z",
   "window": {
-    "from": "2026-10-12",
-    "to": "2026-10-19"
+    "from": "2026-10-13",
+    "to": "2026-10-20"
   },
   "coverage": {
     "municipalities": [
@@ -37,6 +37,7 @@
       "Atuarfik Inussuk",
       "Boðaþing",
       "Endurhæfingarspítali á Grensási",
+      "Fasteignir Háskóla Íslands",
       "First Water",
       "Fjölnota íþróttahús í Borgarnesi",
       "Fossvogsbrú",
@@ -213,6 +214,7 @@
         "ístak project: Atuarfik Inussuk",
         "ístak project: Boðaþing",
         "ístak project: Endurhæfingarspítali á Grensási",
+        "ístak project: Fasteignir Háskóla Íslands",
         "ístak project: First Water",
         "ístak project: Fjölnota íþróttahús í Borgarnesi",
         "ístak project: Fossvogsbrú",
@@ -299,7 +301,7 @@
         "evidence_url": "https://island.is/samradsgatt/mal/4328",
         "seen_count": 3,
         "first_seen": "2026-10-09T06:45:01Z",
-        "last_seen": "2026-10-19T19:49:08Z",
+        "last_seen": "2026-10-20T06:45:01Z",
         "reason": "repeated unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -311,7 +313,7 @@
         "evidence_url": "https://www.utu.is/auglysingar/skipulagsauglysing-birt-dags-15-oktober-2026/",
         "seen_count": 5,
         "first_seen": "2026-10-16T06:45:01Z",
-        "last_seen": "2026-10-19T19:49:08Z",
+        "last_seen": "2026-10-20T06:45:01Z",
         "reason": "repeated unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -323,7 +325,7 @@
         "evidence_url": "https://island.is/reglugerdir/nr/0809-2026",
         "seen_count": 1,
         "first_seen": "2026-09-11T06:45:01Z",
-        "last_seen": "2026-10-19T19:49:08Z",
+        "last_seen": "2026-10-20T06:45:01Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       }
@@ -433,7 +435,7 @@
         },
         "byggingar-opnun-utboda": {
           "undated": 18,
-          "outside_window": 12
+          "outside_window": 14
         },
         "vb": {
           "no_matching_keywords": 40
@@ -467,9 +469,9 @@
       }
     }
   },
-  "count": 330,
+  "count": 325,
   "counts_by_intelligence_type": {
-    "public_record": 305,
+    "public_record": 300,
     "reference_tracker": 25
   },
   "items": [
@@ -955,38 +957,6 @@
       "case_number": "202/2026",
       "keywords_matched": [
         "umhverfismat"
-      ],
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "announcement:byggingar-opnun-utboda:landslagnir-ehf-bjoda-122-7-milljonir-i-byggingarrett-vid-hraunberg",
-      "lane": "announcement",
-      "source": "byggingar-opnun-utboda",
-      "title": "Landslagnir ehf. bjóða 122.7 milljónir í byggingarrétt við Hraunberg",
-      "entity": "Byggingar.is",
-      "status": "published",
-      "date": "2026-10-12",
-      "summary": "Landslagnir ehf. bjóða 122.7 milljónir í byggingarrétt við Hraunberg byggingar - 12/10/2026",
-      "url": "https://byggingar.is/landslagnir-ehf-bjoda-122-7-milljonir-i-byggingarrett-vid-hraunberg/",
-      "keywords_matched": [
-        "bygging",
-        "opinber innkaup"
-      ],
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "announcement:byggingar-opnun-utboda:k16-ehf-laegst-med-870-milljona-tilbod-i-leikskolann-skyjaborg",
-      "lane": "announcement",
-      "source": "byggingar-opnun-utboda",
-      "title": "K16 ehf. lægst með 870 milljóna tilboð í leikskólann Skýjaborg",
-      "entity": "Byggingar.is",
-      "status": "published",
-      "date": "2026-10-12",
-      "summary": "K16 ehf. lægst með 870 milljóna tilboð í leikskólann Skýjaborg byggingar - 12/10/2026",
-      "url": "https://byggingar.is/k16-ehf-laegst-med-870-milljona-tilbod-i-leikskolann-skyjaborg/",
-      "keywords_matched": [
-        "bygging",
-        "opinber innkaup"
       ],
       "intelligence_type": "public_record"
     },
@@ -1742,19 +1712,6 @@
       "review_deadline": "2026-10-29",
       "summary": "Bæjarstjórn Hafnarfjarðar samþykkti á fundi sínum þann 9. september 2026 að auglýsa tillögu að breytingu á deiliskipulagi Undirhlíðanámu við Leiðarendaveg en svæðið er skilgreint sem efnistökusvæði í aðalskipulagi Hafnarfjarðar. Markmið með gerð deiliskipulagsins er að skerpa á heimildum fyrir efnistöku og skipulagsskilmálum í samræmi við stefnu aðalskipula…",
       "url": "https://skipulagsgatt.is/issues/5419",
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "skgatt:1060/2026",
-      "lane": "planning",
-      "title": "Ísallínur 3 og 4, framkvæmdaleyfi",
-      "entity": "Hafnarfjarðarkaupstaður",
-      "case_number": "1060/2026",
-      "status": "Grenndarkynning framkvæmdaleyfis",
-      "date": "2026-09-14",
-      "review_deadline": "2026-10-12",
-      "summary": "Á fundi skipulags- og byggingarráðs þann 19. ágúst sl. var samþykkt að grenndarkynna umsókn Landsnets ásamt fylgigögnum um framkvæmdaleyfi skv. heimild 44. gr. skipulagslaga. Ný gögn um áhrifamat á vatnshlot hafa ekki hlotið kynningu almennings. Auk þess verður leitað umsagnar Náttúruverndarstofnunar á framkvæmdum vegna náttúruminja sem njóta sérstakrar ver…",
-      "url": "https://skipulagsgatt.is/issues/5415",
       "intelligence_type": "public_record"
     },
     {
@@ -3941,20 +3898,6 @@
       "intelligence_type": "public_record"
     },
     {
-      "id": "skgatt:0449/2026",
-      "lane": "planning",
-      "title": "Sigöldugljúfur dsk",
-      "entity": "Rangárþing ytra",
-      "case_number": "0449/2026",
-      "plan_type": "deiliskipulag",
-      "status": "Endanleg gögn",
-      "date": "2026-04-16",
-      "review_deadline": "2026-10-12",
-      "summary": "Sveitarstjórn Rangárþings ytra samþykkti á fundi sínum 15.4.2026 að kynnt yrði lýsing skipulagsáforma að deiliskipulagi fyrir Sigöldugljúfur. Með fjölgun ferðamanna við Sigöldugljúfur hefur myndast þörf fyrir skipulagða stíga, útsýnispalla, bílastæði og salerni. Gert verði ráð fyrir endurbættri aðkomu að svæðinu, auk uppbyggingar á útsýnisstöðum á gljúfurba…",
-      "url": "https://skipulagsgatt.is/issues/4804",
-      "intelligence_type": "public_record"
-    },
-    {
       "id": "heradsdomur:E-93/2024",
       "lane": "court",
       "title": "Stefnendur: Straumbrot ehf. (Jónatan Hróbjartsson lögmaður) Stefndu: Alur Álvinnsla ehf. (Friðbjörn Eiríkur Garðarsson lögmaður)",
@@ -4828,20 +4771,6 @@
       "review_deadline": "2026-11-04",
       "summary": "Unnin verður breyting á greinargerð og uppdrætti aðalskipulagsins þar sem gert verður ráð fyrir nýjum landnotkunarreit undir afþreyingar og ferðamannasvæði (AF1), þannig að stefna aðalskipulagsins samræmist uppbyggingaráformum Eyrarkláfs ehf. um kláf á Eyrarfjall. Óbyggt svæði og opin svæði til sérstakra nota minnkar sem því nemur. Landnotkunarreitur i37 fy…",
       "url": "https://skipulagsgatt.is/issues/2827",
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "skgatt:0129/2025",
-      "lane": "planning",
-      "title": "Tunguárvirkjun í Þistilfirði",
-      "entity": "Langanesbyggð",
-      "case_number": "0129/2025",
-      "plan_type": "adalskipulag",
-      "status": "Athugun fyrir auglýsingu",
-      "date": "2025-02-06",
-      "review_deadline": "2026-10-12",
-      "summary": "Tunguárvirkjun ehf. hefur áform um að reisa vatnsaflsvirkjun í Tunguá í Þistilsfirði með áætlað uppsett afl 2,1 MW og árlega orkuframleiðslu upp á 12 GWst. Virkjunin verður tengd við dreifikerfi Rarik. Frumúttekt valkosta smávirkjana í Þingeyjarsýslu, á vegum Atvinnuþróunarfélags Þingeyinga, leiddi í ljósa að Tunguárvirkjun var metin álitlegasti virkjunarko…",
-      "url": "https://skipulagsgatt.is/issues/2786",
       "intelligence_type": "public_record"
     },
     {
