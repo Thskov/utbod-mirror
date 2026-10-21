@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated": "2026-10-20T07:00:25Z",
-  "generated_at": "2026-10-20T07:00:25Z",
+  "generated": "2026-10-21T07:00:26Z",
+  "generated_at": "2026-10-21T07:00:26Z",
   "sources": {
     "covered": [
       {
@@ -376,7 +376,7 @@
         "evidence_url": "https://www.utbodsvefur.is/fjallabyggd-snjomokstur-og-halkuvarnir-2026-2029/",
         "seen_count": 1,
         "first_seen": "2026-10-06T07:00:27Z",
-        "last_seen": "2026-10-19T19:50:01Z",
+        "last_seen": "2026-10-20T07:00:25Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       },
@@ -388,7 +388,7 @@
         "evidence_url": "https://www.utbodsvefur.is/vetrarthjonusta-i-arborg/",
         "seen_count": 1,
         "first_seen": "2026-10-19T07:00:26Z",
-        "last_seen": "2026-10-19T19:50:01Z",
+        "last_seen": "2026-10-20T07:00:25Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       }
@@ -1653,10 +1653,10 @@
       "deadline_local": "",
       "deadline_utc": "",
       "deadline_confirmed": false,
-      "posted_at": null,
+      "posted_at": "2026-06-23",
       "modified_at": null,
-      "url": "https://www.vegagerdin.is/verkefnin/utbod/65747-2",
-      "summary": "Útboð 26-092 · 23. jú",
+      "url": "https://www.vegagerdin.is/verkefnin/utbod/vetrarthjonusta-2026-2029-djupivogur-hofn-hradutbod",
+      "summary": "Útboð 26-092 · 23. júní 2026",
       "source": "vegagerdin-opnun-tilboda",
       "intelligence_type": "bid_opening",
       "is_open_opportunity": false
@@ -2376,23 +2376,6 @@
       "is_open_opportunity": false
     },
     {
-      "reference": "26-096",
-      "project": "Vetrarþjónusta 2026-2029, Djúpivogur – Höfn (Hraðútboð)",
-      "buyer": "Vegagerðin",
-      "notice_type": "Opnun tilboða",
-      "deadline": "",
-      "deadline_local": "",
-      "deadline_utc": "",
-      "deadline_confirmed": false,
-      "posted_at": "2026-06-23",
-      "modified_at": null,
-      "url": "https://www.vegagerdin.is/verkefnin/utbod/vetrarthjonusta-2026-2029-djupivogur-hofn-hradutbod",
-      "summary": "Útboð 26-096 · 23. júní 2026",
-      "source": "vegagerdin-opnun-tilboda",
-      "intelligence_type": "bid_opening",
-      "is_open_opportunity": false
-    },
-    {
       "reference": "26-099",
       "project": "Vetrarþjónusta 2026-2029, Fjarðarheiði (Hraðútboð)",
       "buyer": "Vegagerðin",
@@ -2949,6 +2932,23 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/thorlakshofn-dypkun-groftur-2026",
       "summary": "Útboð 26-103 · 30. júní 2026",
+      "source": "vegagerdin-opnun-tilboda",
+      "intelligence_type": "bid_opening",
+      "is_open_opportunity": false
+    },
+    {
+      "reference": "26-137",
+      "project": "Þorlákshöfn – Skarfaskersbryggja, endurbygging ramps 2026",
+      "buyer": "Vegagerðin",
+      "notice_type": "Opnun tilboða",
+      "deadline": "",
+      "deadline_local": "",
+      "deadline_utc": "",
+      "deadline_confirmed": false,
+      "posted_at": "2026-10-20",
+      "modified_at": null,
+      "url": "https://www.vegagerdin.is/verkefnin/utbod/thorlakshofn-skarfaskersbryggja-endurbygging-ramps-2026",
+      "summary": "Útboð 26-137 · 20. okt. 2026",
       "source": "vegagerdin-opnun-tilboda",
       "intelligence_type": "bid_opening",
       "is_open_opportunity": false

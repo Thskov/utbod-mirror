@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T07:00:24.938735+00:00",
+  "generated_at": "2026-10-21T07:00:26.038404+00:00",
   "source": {
     "site": "https://www.utbodsvefur.is",
     "posts_api": "https://www.utbodsvefur.is/wp-json/wp/v2/posts",
@@ -14,34 +14,6 @@
   },
   "count": 65,
   "tenders": [
-    {
-      "reference": "23396",
-      "project": "Búnaðarkaup fyrir Fjölbrautaskólann í Breiðholti",
-      "buyer": "Fjársýslan",
-      "notice_type": "Vörukaup",
-      "deadline": "20.10.2026 kl. 12:00",
-      "deadline_local": "2026-10-20T12:00:00+00:00",
-      "deadline_utc": "2026-10-20T12:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-09-17T08:50:54+00:00",
-      "modified_at": "2026-09-17T08:54:32+00:00",
-      "url": "https://www.utbodsvefur.is/bunadarkaup-fyrir-fjolbrautaskolann-i-breidholti/",
-      "summary": "Fjársýslan fyrir hönd Framkvæmdasýslunnar – Ríkiseigna (FSRE), kt. 510391-2259, auglýsir útboð fyrir búnað fyrir Fjölbrautaskólann í Breiðholti...."
-    },
-    {
-      "reference": "26-137",
-      "project": "Þorlákshöfn – Skarfaskersbryggja, endurbygging ramps 2026",
-      "buyer": "Vegagerðin",
-      "notice_type": "Framkvæmd",
-      "deadline": "20.10.2026 kl. 14:00",
-      "deadline_local": "2026-10-20T14:00:00+00:00",
-      "deadline_utc": "2026-10-20T14:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-10-05T13:53:07+00:00",
-      "modified_at": "2026-10-05T13:53:07+00:00",
-      "url": "https://www.utbodsvefur.is/thorlakshofn-skarfaskersbryggja-endurbygging-ramps-2026/",
-      "summary": "Hafnarstjórn Þorlákshafnar óskar eftir tilboðum í verkið „Þorlákshöfn – Skarfaskersbryggja Endurbygging ramps 2026“. Helstu verkþættir eru: Rífa upp ..."
-    },
     {
       "reference": "113-2026",
       "project": "RFI – Automated Urinanalysis System f. Landspítala",
@@ -337,6 +309,20 @@
       "summary": "Kópavogsbær óskar eftir tilboðum í rammasamning um ræstingaþjónustu fyrir stofnanir Kópavogsbæjar og heimili á vegum sveitarfélagsins. Útboðsgögn eru ..."
     },
     {
+      "reference": "FRA-26-09-0013",
+      "project": "Glerárvirkjun 1 Akureyri Mokstur úr lóni",
+      "buyer": "Norðurorka",
+      "notice_type": "Verðfyrirspurn",
+      "deadline": "03.11.2026 kl. 14:00",
+      "deadline_local": "2026-11-03T14:00:00+00:00",
+      "deadline_utc": "2026-11-03T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-20T16:24:58+00:00",
+      "modified_at": "2026-10-20T16:24:58+00:00",
+      "url": "https://www.utbodsvefur.is/glerarvirkjun-1-akureyri-mokstur-ur-loni/",
+      "summary": "Norðurorka f.h Fallorku ehf. óskar eftir tilboðum í jarðefni í inntakslóni Glerárvirkjunar I í Glerárhverfi á Akureyri. Bjóðandi greiðir verkkaupa fas..."
+    },
+    {
       "reference": "6061102",
       "project": "Hönnun og bygging öryggisfangelsis – Forval",
       "buyer": "FSRE - Framkvæmdasýslan Ríkiseignir",
@@ -601,6 +587,20 @@
       "modified_at": "2026-10-13T10:39:51+00:00",
       "url": "https://www.utbodsvefur.is/thotugildrur-a-keflavikurflugvelli/",
       "summary": "Utanríkisráðuneytið, varnarmálaskrifstofa og Landhelgisgæslan, varnarmálasvið, vekja athygli á auglýsingu innkaupastofnunar Atlantshafsbandalagsins (N..."
+    },
+    {
+      "reference": "2608-5801",
+      "project": "Leiga á Tjaldsvæðinu í Kalmansvík",
+      "buyer": "Akranesbær",
+      "notice_type": "Þjónusta",
+      "deadline": "21.12.2026 kl. 11:00",
+      "deadline_local": "2026-12-21T11:00:00+00:00",
+      "deadline_utc": "2026-12-21T11:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-14T11:36:19+00:00",
+      "modified_at": "2026-10-14T11:36:19+00:00",
+      "url": "https://www.utbodsvefur.is/leiga-a-tjaldsvaedinu-i-kalmansvik-2/",
+      "summary": "Akraneskaupstaður óskar eftir tilboðum í leigu á tjaldsvæðinu í Kalmansvík. Svæðið þar sem tjaldsvæðið er staðsett er tæplega 2,2 ha að flatarmáli og ..."
     },
     {
       "reference": "2026-35",

@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated": "2026-10-20T07:00:25Z",
-  "generated_at": "2026-10-20T07:00:25Z",
+  "generated": "2026-10-21T07:00:26Z",
+  "generated_at": "2026-10-21T07:00:26Z",
   "sources": {
     "utbodsvefur": {
-      "generated_at": "2026-10-20T07:00:24.938735+00:00",
+      "generated_at": "2026-10-21T07:00:26.038404+00:00",
       "count": 65,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders.json"
     },
     "offportal": {
-      "generated": "2026-10-20T07:00:25Z",
+      "generated": "2026-10-21T07:00:26Z",
       "count": 173,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders_offportal.json"
     },
@@ -320,6 +320,18 @@
     ],
     "source_candidates": [
       {
+        "id": "tender:buyer:akranesbær",
+        "name": "Akranesbær",
+        "suggested_feed": "tenders_all",
+        "suggested_lane": "tender",
+        "evidence_url": "https://www.utbodsvefur.is/leiga-a-tjaldsvaedinu-i-kalmansvik-2/",
+        "seen_count": 1,
+        "first_seen": "2026-10-21T07:00:26Z",
+        "last_seen": "2026-10-21T07:00:26Z",
+        "reason": "unknown buyer/source found in tender feed",
+        "status": "pending"
+      },
+      {
         "id": "tender:buyer:fjallabyggð",
         "name": "Fjallabyggð",
         "suggested_feed": "tenders_all",
@@ -327,7 +339,7 @@
         "evidence_url": "https://www.utbodsvefur.is/fjallabyggd-snjomokstur-og-halkuvarnir-2026-2029/",
         "seen_count": 1,
         "first_seen": "2026-10-06T07:00:27Z",
-        "last_seen": "2026-10-20T07:00:25Z",
+        "last_seen": "2026-10-21T07:00:26Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       },
@@ -339,7 +351,7 @@
         "evidence_url": "https://www.utbodsvefur.is/vetrarthjonusta-i-arborg/",
         "seen_count": 1,
         "first_seen": "2026-10-19T07:00:26Z",
-        "last_seen": "2026-10-20T07:00:25Z",
+        "last_seen": "2026-10-21T07:00:26Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       }
@@ -1604,10 +1616,10 @@
       "deadline_local": "",
       "deadline_utc": "",
       "deadline_confirmed": false,
-      "posted_at": null,
+      "posted_at": "2026-06-23",
       "modified_at": null,
-      "url": "https://www.vegagerdin.is/verkefnin/utbod/65747-2",
-      "summary": "Útboð 26-092 · 23. jú",
+      "url": "https://www.vegagerdin.is/verkefnin/utbod/vetrarthjonusta-2026-2029-djupivogur-hofn-hradutbod",
+      "summary": "Útboð 26-092 · 23. júní 2026",
       "source": "vegagerdin-opnun-tilboda",
       "intelligence_type": "bid_opening",
       "is_open_opportunity": false
@@ -2327,23 +2339,6 @@
       "is_open_opportunity": false
     },
     {
-      "reference": "26-096",
-      "project": "Vetrarþjónusta 2026-2029, Djúpivogur – Höfn (Hraðútboð)",
-      "buyer": "Vegagerðin",
-      "notice_type": "Opnun tilboða",
-      "deadline": "",
-      "deadline_local": "",
-      "deadline_utc": "",
-      "deadline_confirmed": false,
-      "posted_at": "2026-06-23",
-      "modified_at": null,
-      "url": "https://www.vegagerdin.is/verkefnin/utbod/vetrarthjonusta-2026-2029-djupivogur-hofn-hradutbod",
-      "summary": "Útboð 26-096 · 23. júní 2026",
-      "source": "vegagerdin-opnun-tilboda",
-      "intelligence_type": "bid_opening",
-      "is_open_opportunity": false
-    },
-    {
       "reference": "26-099",
       "project": "Vetrarþjónusta 2026-2029, Fjarðarheiði (Hraðútboð)",
       "buyer": "Vegagerðin",
@@ -2905,6 +2900,23 @@
       "is_open_opportunity": false
     },
     {
+      "reference": "26-137",
+      "project": "Þorlákshöfn – Skarfaskersbryggja, endurbygging ramps 2026",
+      "buyer": "Vegagerðin",
+      "notice_type": "Opnun tilboða",
+      "deadline": "",
+      "deadline_local": "",
+      "deadline_utc": "",
+      "deadline_confirmed": false,
+      "posted_at": "2026-10-20",
+      "modified_at": null,
+      "url": "https://www.vegagerdin.is/verkefnin/utbod/thorlakshofn-skarfaskersbryggja-endurbygging-ramps-2026",
+      "summary": "Útboð 26-137 · 20. okt. 2026",
+      "source": "vegagerdin-opnun-tilboda",
+      "intelligence_type": "bid_opening",
+      "is_open_opportunity": false
+    },
+    {
       "reference": "25-088",
       "project": "Þurrfræsing á Norðursvæði 2025, Hringvegur, við Blönduhlíð í Skagafirði",
       "buyer": "Vegagerðin",
@@ -3022,40 +3034,6 @@
       "source": "mosfellsbaer-utbod",
       "intelligence_type": "closed_tender",
       "is_open_opportunity": false
-    },
-    {
-      "reference": "23396",
-      "project": "Búnaðarkaup fyrir Fjölbrautaskólann í Breiðholti",
-      "buyer": "Fjársýslan ríkisins",
-      "notice_type": "Vörukaup",
-      "deadline": "20.10.2026 kl. 12:00",
-      "deadline_local": "2026-10-20T12:00:00+00:00",
-      "deadline_utc": "2026-10-20T12:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-09-17T08:50:54+00:00",
-      "modified_at": "2026-09-17T08:54:32+00:00",
-      "url": "https://www.utbodsvefur.is/bunadarkaup-fyrir-fjolbrautaskolann-i-breidholti/",
-      "summary": "Fjársýslan fyrir hönd Framkvæmdasýslunnar – Ríkiseigna (FSRE), kt. 510391-2259, auglýsir útboð fyrir búnað fyrir Fjölbrautaskólann í Breiðholti....",
-      "source": "utbodsvefur",
-      "intelligence_type": "active_tender",
-      "is_open_opportunity": true
-    },
-    {
-      "reference": "26-137",
-      "project": "Þorlákshöfn – Skarfaskersbryggja, endurbygging ramps 2026",
-      "buyer": "Vegagerðin",
-      "notice_type": "Framkvæmd",
-      "deadline": "20.10.2026 kl. 14:00",
-      "deadline_local": "2026-10-20T14:00:00+00:00",
-      "deadline_utc": "2026-10-20T14:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-10-05T13:53:07+00:00",
-      "modified_at": "2026-10-05T13:53:07+00:00",
-      "url": "https://www.utbodsvefur.is/thorlakshofn-skarfaskersbryggja-endurbygging-ramps-2026/",
-      "summary": "Hafnarstjórn Þorlákshafnar óskar eftir tilboðum í verkið „Þorlákshöfn – Skarfaskersbryggja Endurbygging ramps 2026“. Helstu verkþættir eru: Rífa upp ...",
-      "source": "utbodsvefur",
-      "intelligence_type": "active_tender",
-      "is_open_opportunity": true
     },
     {
       "reference": "113-2026",
@@ -3410,6 +3388,23 @@
       "modified_at": "2026-09-30T13:38:38+00:00",
       "url": "https://www.utbodsvefur.is/raestithjonusta-fyrir-kopavogsbae-rammasamningur/",
       "summary": "Kópavogsbær óskar eftir tilboðum í rammasamning um ræstingaþjónustu fyrir stofnanir Kópavogsbæjar og heimili á vegum sveitarfélagsins. Útboðsgögn eru ...",
+      "source": "utbodsvefur",
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true
+    },
+    {
+      "reference": "FRA-26-09-0013",
+      "project": "Glerárvirkjun 1 Akureyri Mokstur úr lóni",
+      "buyer": "Norðurorka",
+      "notice_type": "Verðfyrirspurn",
+      "deadline": "03.11.2026 kl. 14:00",
+      "deadline_local": "2026-11-03T14:00:00+00:00",
+      "deadline_utc": "2026-11-03T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-20T16:24:58+00:00",
+      "modified_at": "2026-10-20T16:24:58+00:00",
+      "url": "https://www.utbodsvefur.is/glerarvirkjun-1-akureyri-mokstur-ur-loni/",
+      "summary": "Norðurorka f.h Fallorku ehf. óskar eftir tilboðum í jarðefni í inntakslóni Glerárvirkjunar I í Glerárhverfi á Akureyri. Bjóðandi greiðir verkkaupa fas...",
       "source": "utbodsvefur",
       "intelligence_type": "active_tender",
       "is_open_opportunity": true
@@ -3784,6 +3779,23 @@
       "modified_at": "2026-10-13T10:39:51+00:00",
       "url": "https://www.utbodsvefur.is/thotugildrur-a-keflavikurflugvelli/",
       "summary": "Utanríkisráðuneytið, varnarmálaskrifstofa og Landhelgisgæslan, varnarmálasvið, vekja athygli á auglýsingu innkaupastofnunar Atlantshafsbandalagsins (N...",
+      "source": "utbodsvefur",
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true
+    },
+    {
+      "reference": "2608-5801",
+      "project": "Leiga á Tjaldsvæðinu í Kalmansvík",
+      "buyer": "Akranesbær",
+      "notice_type": "Þjónusta",
+      "deadline": "21.12.2026 kl. 11:00",
+      "deadline_local": "2026-12-21T11:00:00+00:00",
+      "deadline_utc": "2026-12-21T11:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-14T11:36:19+00:00",
+      "modified_at": "2026-10-14T11:36:19+00:00",
+      "url": "https://www.utbodsvefur.is/leiga-a-tjaldsvaedinu-i-kalmansvik-2/",
+      "summary": "Akraneskaupstaður óskar eftir tilboðum í leigu á tjaldsvæðinu í Kalmansvík. Svæðið þar sem tjaldsvæðið er staðsett er tæplega 2,2 ha að flatarmáli og ...",
       "source": "utbodsvefur",
       "intelligence_type": "active_tender",
       "is_open_opportunity": true
