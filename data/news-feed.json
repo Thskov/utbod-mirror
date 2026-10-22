@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated": "2026-10-21T06:30:01Z",
+  "generated": "2026-10-22T06:30:01Z",
   "window": {
-    "from": "2026-09-21",
-    "to": "2026-10-21"
+    "from": "2026-09-22",
+    "to": "2026-10-22"
   },
   "coverage": {
     "sources": [
@@ -310,163 +310,247 @@
     "not_covered": {},
     "source_candidates": []
   },
-  "count": 79,
+  "count": 83,
   "items": [
     {
-      "id": "news:braggi:timabundin-lokun-a-gardarsbraut-vid-hjardarhol",
+      "id": "news:braggi:vidburdur-idan-1928",
       "lane": "news",
       "category": "project",
-      "title": "Tímabundin lokun á Garðarsbraut við Hjarðarhól",
+      "title": "Eldsmíði í Höfnum",
       "entity": "braggi.is",
-      "date": "2026-10-21",
-      "summary": "Vegna bilunar í fráveitukerfi verður Garðarsbraut við Hjarðarhól í Norðurþingi lokuð fyrir umferð frá og með 20. október. Framkvæmdir fela í sér uppgröft við Garðarsbraut 46-48 til að gera við bilunina. Gert er ráð fyrir að lokunin vari í einn til t",
-      "url": "https://braggi.is/timabundin-lokun-a-gardarsbraut-vid-hjardarhol/",
+      "date": "2026-10-22",
+      "summary": "2026-11-13 · Hafnir á Suðurnesjum · Námskeið fyrir byrjendur og aðra sem vilja læra vinnuaðferðir í eldsmíði.",
+      "url": "https://braggi.is/vidburdur-idan-1928/",
       "outlet": "braggi.is",
       "is_new": true
     },
     {
-      "id": "news:braggi:taeplega-helmingur-nyrra-ibuda-oseldur-i-69-verkefnum-1359a9f8",
+      "id": "news:braggi:vidburdur-idan-1927",
       "lane": "news",
       "category": "project",
-      "title": "Tæplega helmingur nýrra íbúða óseldur í 69 verkefnum",
+      "title": "Eldsmíði í Höfnum",
       "entity": "braggi.is",
-      "date": "2026-10-21",
-      "summary": "Alls eru 2.124 nýjar íbúðir óseldar í 69 byggingarverkefnum á höfuðborgarsvæðinu. Í þessum verkefnum og áföngum eru 4.597 íbúðir, þar af 2.473 seldar, eða 53,8%. Því er tæplega helmingur íbúðanna óseldur. Talningin byggir á fasteignaskrá og sölusíðu",
-      "url": "https://braggi.is/taeplega-helmingur-nyrra-ibuda-oseldur-i-69-verkefnum-1359a9f8/",
+      "date": "2026-10-22",
+      "summary": "2026-11-06 · Hafnir á Suðurnesjum · Námskeið fyrir byrjendur og aðra sem vilja læra vinnuaðferðir í eldsmíði.",
+      "url": "https://braggi.is/vidburdur-idan-1927/",
       "outlet": "braggi.is",
       "is_new": true
     },
     {
-      "id": "news:braggi:raforkusala-landsvirkjunar-til-landsnets-visad-aftur-til-samkeppniseft-ade94112",
+      "id": "news:braggi:gagnaver-og-vatnsnotkun-ai-tharf-ekki-ad-vera-thyrst-dbcf2080",
       "lane": "news",
-      "category": "project",
-      "title": "Raforkusala Landsvirkjunar til Landsnets vísað aftur til Samkeppniseftirlitsins",
+      "category": "industrial-demand",
+      "title": "Gagnaver og vatnsnotkun: AI þarf ekki að vera þyrst",
       "entity": "braggi.is",
-      "date": "2026-10-21",
-      "summary": "Áfrýjunarnefnd samkeppnismála hefur fellt úr gildi ákvörðun Samkeppniseftirlitsins um 1,4 milljarða króna sekt gegn Landsvirkjun. Málið varðar sölu Landsvirkjunar á raforku til flutningstapa Landsnets og hefur verið vísað til nýrrar meðferðar og ákvö",
-      "url": "https://braggi.is/raforkusala-landsvirkjunar-til-landsnets-visad-aftur-til-samkeppniseft-ade94112/",
+      "date": "2026-10-22",
+      "summary": "Sú hugmynd að rekstur gagnavera krefjist óviðráðanlegs magns af vatni er óþarfa truflun á þeim tíma þegar áherslan ætti að vera á að skapa innviði sem nauðsynlegir eru fyrir þróun gervigreindar. Þetta er mat Jon Harris, forstöðumanns hjá AtkinsRéalis",
+      "url": "https://braggi.is/gagnaver-og-vatnsnotkun-ai-tharf-ekki-ad-vera-thyrst-dbcf2080/",
       "outlet": "braggi.is",
       "is_new": true
     },
     {
-      "id": "news:braggi:nytt-fjolbylishus-a-kirkjusandi-afhendist-i-afongum-fra-juni-2025-6e844e58",
-      "lane": "news",
-      "category": "project",
-      "title": "Nýtt fjölbýlishús á Kirkjusandi afhendist í áföngum frá júní 2025",
-      "entity": "braggi.is",
-      "date": "2026-10-21",
-      "summary": "Nýtt fjölbýlishús, Laugaborg Kirkjusandi, er í byggingu í miðbæ Reykjavíkur og mun samanstanda af 115 íbúðum á 3-6 hæðum. Húsið er randbyggt umhverfis skjólgóðan inngarð og sameiginlegan þakgarð. Miklaborg sér um kynningu og sölu á eignunum. Fyrsti",
-      "url": "https://braggi.is/nytt-fjolbylishus-a-kirkjusandi-afhendist-i-afongum-fra-juni-2025-6e844e58/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:nybygging-i-102-reykjavik-afhent-fullbuin-2027-c4abcf84",
-      "lane": "news",
-      "category": "project",
-      "title": "Nýbygging í 102 Reykjavík afhent fullbúin 2027",
-      "entity": "braggi.is",
-      "date": "2026-10-21",
-      "summary": "Ný íbúð í Hlíðarhorni, nýbyggingu S8 ehf. í Haukahlíð 10 í 102 Reykjavík, er komin í sölu. Íbúðin, sem er á fjórðu hæð, verður afhent fullbúin í febrúar 2027, með fyrirvara um öryggisúttekt. Byggingaraðilinn S8 ehf. heldur eftir 25% af íbúðinni í tíu",
-      "url": "https://braggi.is/nybygging-i-102-reykjavik-afhent-fullbuin-2027-c4abcf84/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:nybygging-hlidarhorns-i-reykjavik-afhendist-i-november-2026-e88286f1",
-      "lane": "news",
-      "category": "project",
-      "title": "Nýbygging Hlíðarhorns í Reykjavík afhendist í nóvember 2026",
-      "entity": "braggi.is",
-      "date": "2026-10-21",
-      "summary": "Íbúð 233 í Hlíðarhorni, nýbyggingu í miðbæ Reykjavíkur, er komin í sölu. Íbúðin verður afhent fullbúin í nóvember 2026, með fyrirvara um öryggisúttekt. Byggingaraðili er S8 ehf. Um er að ræða tveggja herbergja íbúð á annarri hæð, 65,3 fermetrar að s",
-      "url": "https://braggi.is/nybygging-hlidarhorns-i-reykjavik-afhendist-i-november-2026-e88286f1/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:ny-thakibud-i-solu-i-nybyggingu-s8-ehf-e7c36119",
-      "lane": "news",
-      "category": "project",
-      "title": "Ný þakíbúð í sölu í nýbyggingu S8 ehf.",
-      "entity": "braggi.is",
-      "date": "2026-10-21",
-      "summary": "Ný þakíbúð í nýbyggingunni Hlíðarhorni við Haukahlíð 10 í Reykjavík er komin í sölu. Íbúðin, sem er 58 fermetrar að stærð, er staðsett á fimmtu hæð og verður afhent fullbúin í febrúar 2027, með fyrirvara um öryggisúttekt. Byggingaraðili er S8 ehf. Í",
-      "url": "https://braggi.is/ny-thakibud-i-solu-i-nybyggingu-s8-ehf-e7c36119/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:ibud-i-midbaenum-afhent-fljotlega-fd85b3da",
-      "lane": "news",
-      "category": "project",
-      "title": "Íbúð í miðbænum afhent fljótlega",
-      "entity": "braggi.is",
-      "date": "2026-10-21",
-      "summary": "S8 ehf. er byggingaraðili að nýrri íbúð í Hlíðarhorni, glæsilegri nýbyggingu í Haukahlíð 10, 102 Reykjavík. Íbúðin, sem er 59,2 fermetrar að stærð, verður afhent fljótlega. Verð íbúðar miðað við 25% sameign er 52.425.000 krónur, en S8 ehf. heldur eft",
-      "url": "https://braggi.is/ibud-i-midbaenum-afhent-fljotlega-fd85b3da/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:haett-vid-ibudauppbyggingu-vid-krysuvikurveg-i-hafnarfirdi-31a1038c",
-      "lane": "news",
-      "category": "project",
-      "title": "Hætt við íbúðauppbyggingu við Krýsuvíkurveg í Hafnarfirði",
-      "entity": "braggi.is",
-      "date": "2026-10-21",
-      "summary": "Bæjarstjórn Hafnarfjarðar hefur ákveðið að falla frá áformum um uppbyggingu íbúða fyrir tímabundna búsetu við Krýsuvíkurveg og Hvaleyrarvatnsveg. Ákvörðunin er tekin eftir yfirferð á forsendum verkefnisins og í ljósi sjónarmiða íbúa, samkvæmt tilkynn",
-      "url": "https://braggi.is/haett-vid-ibudauppbyggingu-vid-krysuvikurveg-i-hafnarfirdi-31a1038c/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:endurbaetur-a-husi-i-nokkvavogi-31-og-bilskur-breytt-i-ibudarrymi-91f0a49b",
-      "lane": "news",
-      "category": "project",
-      "title": "Endurbætur á húsi í Nökkvavogi 31 og bílskúr breytt í íbúðarrými",
-      "entity": "braggi.is",
-      "date": "2026-10-21",
-      "summary": "Húsið að Nökkvavogi 31 í Reykjavík, sem byggt var árið 1949, var endurnýjað að hluta á árunum 2021-2022. Framkvæmdirnar fólust í endurnýjun á þakjárni, þakrennum, öllum gluggum og gleri í húsi og bílskúr. Húsið og bílskúrinn voru klædd að utan og nýj",
-      "url": "https://braggi.is/endurbaetur-a-husi-i-nokkvavogi-31-og-bilskur-breytt-i-ibudarrymi-91f0a49b/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:bygging-nys-ibudakjarna-a-kirkjusandi-med-115-ibudum-d8d70968",
+      "id": "news:visir-vidskipti:veidigjoldin-laekkad-en-ekki-haekkad-a-thessu-ari",
       "lane": "news",
       "category": "investment",
-      "title": "Bygging nýs íbúðakjarna á Kirkjusandi með 115 íbúðum",
-      "entity": "braggi.is",
+      "title": "Veiðigjöldin lækkað en ekki hækkað á þessu ári",
+      "entity": "visir.is / Viðskipti",
       "date": "2026-10-21",
-      "summary": "Nýr íbúðakjarni, Laugaborg, er í byggingu á Kirkjusandi í 105 Reykjavík. Miklaborg kynnir verkefnið sem felur í sér fjölbýlishús á 3–6 hæðum með skjólgóðum inngarði og sameiginlegum þakgarði. Íbúðirnar eru fjölbreyttar að stærð og skipulagi, allar me",
-      "url": "https://braggi.is/bygging-nys-ibudakjarna-a-kirkjusandi-med-115-ibudum-d8d70968/",
-      "outlet": "braggi.is",
+      "summary": "Guðmundur Kristjánsson forstjóri Brims segir veiðigjöld hafa lækkað í ár frá því í fyrra. Hann segir þetta sýna ófyrirsjáanleika kerfisins, það sé líkt og alþingismenn viti ekkert hvað það sé sem þeir samþykkja. Hann segir enga þora að fjárfesta lengur í sjávarútvegi vegna óvissu í kringum kerfið sem feli ýmist í sér hækkanir eða lækkanir miðað við flókna r...",
+      "url": "https://www.visir.is/g/20262951805d/veidigjoldin-laekkad-en-ekki-haekkad-a-thessu-ari",
+      "outlet": "visir.is / Viðskipti",
       "is_new": true
     },
     {
-      "id": "news:braggi:bretland-tharf-fleiri-verkfraedinga-ahersla-a-endurkomna-starfsmenn-aae6b243",
-      "lane": "news",
-      "category": "investment",
-      "title": "Bretland þarf fleiri verkfræðinga – áhersla á endurkomna starfsmenn",
-      "entity": "braggi.is",
-      "date": "2026-10-21",
-      "summary": "Bretland stendur frammi fyrir miklum skorti á verkfræðingum og tæknimönnum, en talið er að þörf sé á allt að 240.000 nýjum sérfræðingum á hverju ári næsta áratug. Þrátt fyrir miklar fjárfestingar í nýjum námsleiðum og endurmenntun, hefur engin heilds",
-      "url": "https://braggi.is/bretland-tharf-fleiri-verkfraedinga-ahersla-a-endurkomna-starfsmenn-aae6b243/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:vegagerdin:buid-ad-malbika-hringtorg-vid-rjupnaveg",
+      "id": "news:visir-vidskipti:undirbuningur-kolnunar-ekki-endilega-best-ad-byrja-a-nidurskurdi",
       "lane": "news",
       "category": "project",
-      "title": "20. október 2026 Búið að malbika hringtorg við Rjúpnaveg",
+      "title": "Undir­búningur kólnunar: Ekki endi­lega best að byrja á niður­skurði",
+      "entity": "visir.is / Viðskipti",
+      "date": "2026-10-21",
+      "summary": "Í nokkurn tíma hefur blasað við að kólnun er fram undan í efnahagslífinu. Samdrátturinn er þegar orðinn mjög sýnilegur, ekki síst í byggingariðnaði en almennt líka í sölu margra fyrirtækja og róðurinn þyngist bæði í rekstri heimila og fyrirtækja.",
+      "url": "https://www.visir.is/g/20262950988d/undirbuningur-kolnunar-ekki-endilega-best-ad-byrja-a-nidurskurdi",
+      "outlet": "visir.is / Viðskipti",
+      "is_new": true
+    },
+    {
+      "id": "news:visir-vidskipti:samfelagslegt-mal-ad-jafnretti-se-virt",
+      "lane": "news",
+      "category": "project",
+      "title": "Sam­fé­lags­legt mál að jafn­rétti sé virt",
+      "entity": "visir.is / Viðskipti",
+      "date": "2026-10-21",
+      "summary": "Góður rekstrarárangur einn og sér dugar ekki til að teljast framúrskarandi. Creditinfo hefur hert skilyrði vottunarinnar Framúrskarandi fyrirtæki og gerir nú kröfu um að fyrirtæki sem falla undir lög um kynjahlutföll í stjórnum uppfylli þau. Margrét Kristmannsdóttir, framkvæmdastjóri Pfaff, og Hermann Björnsson, forstjóri Sjóvá, fagna ákvörðuninni. Bæði leg...",
+      "url": "https://www.visir.is/g/20262948699d/samfelagslegt-mal-ad-jafnretti-se-virt",
+      "outlet": "visir.is / Viðskipti",
+      "is_new": true
+    },
+    {
+      "id": "news:vegagerdin:haegt-ad-loka-reykjanesbraut-med-fjarstyringu",
+      "lane": "news",
+      "category": "project",
+      "title": "21. október 2026 Hægt að loka Reykjanesbraut með fjarstýringu",
       "entity": "Vegagerðin",
-      "date": "2026-10-20",
-      "summary": "Frétt­ir 20. október 2026 Búið að malbika hringtorg við Rjúpnaveg",
-      "url": "https://www.vegagerdin.is/vegagerdin/starfsemi/frettir/buid-ad-malbika-hringtorg-vid-rjupnaveg",
+      "date": "2026-10-21",
+      "summary": "Frétt­ir 21. október 2026 Hægt að loka Reykjanesbraut með fjarstýringu",
+      "url": "https://www.vegagerdin.is/vegagerdin/starfsemi/frettir/haegt-ad-loka-reykjanesbraut-med-fjarstyringu",
       "outlet": "Vegagerðin",
       "is_new": true
+    },
+    {
+      "id": "news:reykjavik:uppbygging-borgarlinu-vid-hlemmtorg",
+      "lane": "news",
+      "category": "investment",
+      "title": "Uppbygging Borgarlínu við Hlemmtorg",
+      "entity": "Reykjavíkurborg",
+      "date": "2026-10-21",
+      "summary": "21. október 2026 Uppbygging Borgarlínu við Hlemmtorg",
+      "url": "https://reykjavik.is/frettir/2026/uppbygging-borgarlinu-vid-hlemmtorg",
+      "outlet": "Reykjavíkurborg",
+      "is_new": true
+    },
+    {
+      "id": "news:reykjavik:samkeppni-um-ljoslistaverk-vetrarhatid-2027",
+      "lane": "news",
+      "category": "project",
+      "title": "Samkeppni um ljóslistaverk á Vetrarhátíð 2027",
+      "entity": "Reykjavíkurborg",
+      "date": "2026-10-21",
+      "summary": "21. október 2026 Samkeppni um ljóslistaverk á Vetrarhátíð 2027",
+      "url": "https://reykjavik.is/frettir/2026/samkeppni-um-ljoslistaverk-vetrarhatid-2027",
+      "outlet": "Reykjavíkurborg",
+      "is_new": true
+    },
+    {
+      "id": "news:fsre:fyrsta-skoflustungan-tekin-ad-nyju-oeryggisfangelsi-ad-stora-hrauni",
+      "lane": "news",
+      "category": "project",
+      "title": "21. október 2026 Fyrsta skóflustungan tekin að nýju öryggisfangelsi að Stóra-Hrauni Fyrsta skóflustungan að nýju öryggisfangelsi að Stóra-Hrauni var tekin ...",
+      "entity": "FSRE",
+      "date": "2026-10-21",
+      "summary": "21. október 2026 Fyrsta skóflustungan tekin að nýju öryggisfangelsi að Stóra-Hrauni Fyrsta skóflustungan að nýju öryggisfangelsi að Stóra-Hrauni var tekin ...",
+      "url": "https://www.fsre.is/s/fsre/frett/fyrsta-skoflustungan-tekin-ad-nyju-oeryggisfangelsi-ad-stora-hrauni",
+      "outlet": "FSRE",
+      "is_new": true
+    },
+    {
+      "id": "news:byggingar:thusundir-nyrra-ibuda-oseldar",
+      "lane": "news",
+      "category": "project",
+      "title": "Þúsundir nýrra íbúða óseldar",
+      "entity": "byggingar.is",
+      "date": "2026-10-21",
+      "summary": "Þúsundir nýrra íbúða óseldar",
+      "url": "https://byggingar.is/thusundir-nyrra-ibuda-oseldar/",
+      "outlet": "byggingar.is",
+      "is_new": true
+    },
+    {
+      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-gott-verk-ehf-laegst-i-stigagerd-og-y",
+      "lane": "news",
+      "category": "project",
+      "title": "Gott verk ehf. lægst í stígagerð og yfirborðsfrágang í Breiðamýri – 13 tilboð bárust",
+      "entity": "byggingar.is / niðurstöður útboða",
+      "date": "2026-10-21",
+      "summary": "Gott verk ehf. lægst í stígagerð og yfirborðsfrágang í Breiðamýri – 13 tilboð bárust Bæjarráð Garðabæjar samþykkti á fundi sínum 20. október að taka tilboði Gott verks ehf. í stígagerð og yfirborðsfrágang á miðsvæði Álftaness í Breiðamýri. Tilboð fyrirtækisins nam 42.972.500 krónum, eða 82,3% af kostnaðaráætlun verkkaupa. Alls bárust 13 tilboð í framkvæmdin...",
+      "url": "https://byggingar.is/gott-verk-ehf-laegst-i-stigagerd-og-yfirbordsfragang-i-breidamyri-13-tilbod-barust/?utm_source=rss&utm_medium=rss&utm_campaign=gott-verk-ehf-laegst-i-stigagerd-og-yfirbordsfragang-i-breidamyri-13-tilbod-barust",
+      "outlet": "byggingar.is / niðurstöður útboða",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:nyr-saestrengur-kemur-a-land-i-medallandi",
+      "lane": "news",
+      "category": "project",
+      "title": "Nýr sæstrengur kemur á land í Meðallandi",
+      "entity": "braggi.is",
+      "date": "2026-10-21",
+      "summary": "Framkvæmdir við nýjan sæstreng, AUÐUR, sem mun tengja Ísland og Skotland, eru áætlaðar á næstu árum. Strengurinn mun koma á land í Meðallandi, sunnan Kirkjubæjarklausturs, og í Irvine-flóa við Clydefjörð í Skotlandi. Stefnt er að því að strengurinn v",
+      "url": "https://braggi.is/nyr-saestrengur-kemur-a-land-i-medallandi/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:gervigreind-umbreytir-byggingateymum-frekar-en-ad-faekka-storfum-d16baeb3",
+      "lane": "news",
+      "category": "investment",
+      "title": "Gervigreind umbreytir byggingateymum frekar en að fækka störfum",
+      "entity": "braggi.is",
+      "date": "2026-10-21",
+      "summary": "Gervigreind er að breyta skipulagi teyma í byggingariðnaði oftar en hún fækkar störfum, samkvæmt nýrri skýrslu frá Berkeley Research Group. Niðurstöður könnunar meðal norður-amerískra svarenda sýna að 46% hafa breytt teymisskipulagi og 38% endurmennt",
+      "url": "https://braggi.is/gervigreind-umbreytir-byggingateymum-frekar-en-ad-faekka-storfum-d16baeb3/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:faersla-gamasvaedis-samthykkt-i-aegissidu",
+      "lane": "news",
+      "category": "investment",
+      "title": "Færsla gámasvæðis samþykkt í Ægissíðu",
+      "entity": "braggi.is",
+      "date": "2026-10-21",
+      "summary": "Sveitarfélagið Hornafjörður samþykkti á fundi Umhverfis- og skipulagsnefndar þann 21. október 2026 tillögu um færslu á gámasvæði frá Álaugarvegi 13-15 út í Ægissíðu. Nefndin fól starfsmanni að vinna áfram í málinu.",
+      "url": "https://braggi.is/faersla-gamasvaedis-samthykkt-i-aegissidu/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:deiliskipulagsbreyting-skaftafell-iii-og-iv-samthykkt-til-athugunar-hms",
+      "lane": "news",
+      "category": "investment",
+      "title": "Deiliskipulagsbreyting Skaftafell III og IV samþykkt til athugunar HMS",
+      "entity": "braggi.is",
+      "date": "2026-10-21",
+      "summary": "Umhverfis- og skipulagsnefnd Sveitarfélagsins Hornafjarðar samþykkti samhljóða á fundi sínum þann 21. október 2026 að senda uppfærða tillögu að breytingu á deiliskipulagi Skaftafells III og IV til athugunar HMS. Tillagan felur í sér breytingar á stær",
+      "url": "https://braggi.is/deiliskipulagsbreyting-skaftafell-iii-og-iv-samthykkt-til-athugunar-hms/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:byggingartaeknifyrirtaeki-safna-154-milljonum-dollara-i-fjarmognun-2dd60cc0",
+      "lane": "news",
+      "category": "investment",
+      "title": "Byggingartæknifyrirtæki safna 154 milljónum dollara í fjármögnun",
+      "entity": "braggi.is",
+      "date": "2026-10-21",
+      "summary": "Sex byggingartæknifyrirtæki hafa nýlega safnað samtals 154 milljónum dollara í fjármögnun, sem undirstrikar vaxandi áhuga fjárfesta á nýsköpun í byggingariðnaði. Þessi fjárfesting kemur í kjölfar þess að 3D-prentunarfyrirtækið Icon safnaði 200 milljó",
+      "url": "https://braggi.is/byggingartaeknifyrirtaeki-safna-154-milljonum-dollara-i-fjarmognun-2dd60cc0/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:byggingarleyfi-samhjalpar-fellt-ur-gildi-vegna-grenndarahrifa-8f257a50",
+      "lane": "news",
+      "category": "investment",
+      "title": "Byggingarleyfi Samhjálpar fellt úr gildi vegna grenndaráhrifa",
+      "entity": "braggi.is",
+      "date": "2026-10-21",
+      "summary": "Úrskurðarnefnd umhverfis- og auðlindamála felldi í júní úr gildi byggingarleyfi Reykjavíkurborgar fyrir kaffistofu Samhjálpar við Grensásveg. Nefndin taldi að borgin hefði átt að fara í deiliskipulagsferli vegna mögulegra grenndaráhrifa áður en leyfi",
+      "url": "https://braggi.is/byggingarleyfi-samhjalpar-fellt-ur-gildi-vegna-grenndarahrifa-8f257a50/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:vb:friverslunarsamningur-vid-vietnam-undirritadur-i-hanoi",
+      "lane": "news",
+      "category": "project",
+      "title": "Fríverslunar­samningur við Víetnam undir­ritaður í Hanoi",
+      "entity": "vb.is",
+      "date": "2026-10-20",
+      "summary": "Innlent 20. okt. 12:07 Fríverslunar­samningur við Víetnam undir­ritaður í Hanoi",
+      "url": "https://www.vb.is/frettir/friverslunarsamningur-vid-vietnam-undirritadur-i-hanoi/",
+      "outlet": "vb.is",
+      "is_new": false
+    },
+    {
+      "id": "news:vb:bref-gagnaversfyrirtaekis-laekkadi-um-30-a-fyrsta-degi",
+      "lane": "news",
+      "category": "industrial-demand",
+      "title": "Bréf gagnaversfyrirtækis lækkaði um 30% á fyrsta degi",
+      "entity": "vb.is",
+      "date": "2026-10-20",
+      "summary": "Erlent 20. okt. 12:53 Bréf gagnaversfyrirtækis lækkaði um 30% á fyrsta degi",
+      "url": "https://www.vb.is/frettir/bref-gagnaversfyrirtaekis-laekkadi-um-30-a-fyrsta-degi/",
+      "outlet": "vb.is",
+      "is_new": false
     },
     {
       "id": "news:fsre:fsre-hlytur-vidurkenningu-jafnvaegisvogar-fka-2026",
@@ -475,46 +559,22 @@
       "title": "20. október 2026 FSRE hlýtur viðurkenningu jafnvægisvogar FKA 2026 FSRE hlýtur viðurkenningu jafnvægisvogar FKA 2026. Viðurkenningin er veitt ...",
       "entity": "FSRE",
       "date": "2026-10-20",
-      "summary": "20. október 2026 FSRE hlýtur viðurkenningu jafnvægisvogar FKA 2026 FSRE hlýtur viðurkenningu jafnvægisvogar FKA 2026. Viðurkenningin er veitt ...",
+      "summary": "að Stóra-Hrauni var tekin ... 20. október 2026 FSRE hlýtur viðurkenningu jafnvægisvogar FKA 2026 FSRE hlýtur viðurkenningu jafnvægisvogar FKA 2026. Viðurkenningin er veitt ...",
       "url": "https://www.fsre.is/s/fsre/frett/fsre-hlytur-vidurkenningu-jafnvaegisvogar-fka-2026",
       "outlet": "FSRE",
-      "is_new": true
+      "is_new": false
     },
     {
-      "id": "news:byggingar:storverk-ehf-laegst-med-553-milljona-tilbod-i-skarfaskersbryggju",
+      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-storverk-ehf-laegst-med-553-milljona-",
       "lane": "news",
       "category": "project",
       "title": "Stórverk ehf. lægst með 55,3 milljóna tilboð í Skarfaskersbryggju",
-      "entity": "byggingar.is",
+      "entity": "byggingar.is / niðurstöður útboða",
       "date": "2026-10-20",
-      "summary": "Stórverk ehf. lægst með 55,3 milljóna tilboð í Skarfaskersbryggju",
-      "url": "https://byggingar.is/storverk-ehf-laegst-med-553-milljona-tilbod-i-skarfaskersbryggju/",
-      "outlet": "byggingar.is",
-      "is_new": true
-    },
-    {
-      "id": "news:byggingar:fyrsta-skoflustungan-ad-stora-hrauni",
-      "lane": "news",
-      "category": "project",
-      "title": "Fyrsta skóflustungan að Stóra-Hrauni",
-      "entity": "byggingar.is",
-      "date": "2026-10-20",
-      "summary": "Fyrsta skóflustungan að Stóra-Hrauni",
-      "url": "https://byggingar.is/fyrsta-skoflustungan-ad-stora-hrauni/",
-      "outlet": "byggingar.is",
-      "is_new": true
-    },
-    {
-      "id": "news:byggingar:borgarlina-framkvaemdarod-breytt-i-227-milljarda-verki-vid-nautholsveg",
-      "lane": "news",
-      "category": "project",
-      "title": "Borgarlína – framkvæmdaröð breytt í 2,27 milljarða verki við Nauthólsveg",
-      "entity": "byggingar.is",
-      "date": "2026-10-20",
-      "summary": "Borgarlína – framkvæmdaröð breytt í 2,27 milljarða verki við Nauthólsveg",
-      "url": "https://byggingar.is/borgarlina-framkvaemdarod-breytt-i-227-milljarda-verki-vid-nautholsveg/",
-      "outlet": "byggingar.is",
-      "is_new": true
+      "summary": "Stórverk ehf. lægst með 55,3 milljóna tilboð í Skarfaskersbryggju Stórverk ehf. í Þorlákshöfn átti lægsta tilboðið í endurbyggingu ramps á Skarfaskersbryggju í Þorlákshöfn. Tilboð fyrirtækisins nam rúmlega 55,2 milljónum króna, eða 77,9% af áætluðum verktakakostnaði. Sex fyrirtæki skiluðu tilboðum í verkið þegar þau voru opnuð hjá Vegagerðinni þriðjudaginn....",
+      "url": "https://byggingar.is/storverk-ehf-laegst-med-553-milljona-tilbod-i-skarfaskersbryggju/?utm_source=rss&utm_medium=rss&utm_campaign=storverk-ehf-laegst-med-553-milljona-tilbod-i-skarfaskersbryggju",
+      "outlet": "byggingar.is / niðurstöður útboða",
+      "is_new": false
     },
     {
       "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-probygg-ehf-laegst-med-96-milljonir-i",
@@ -526,7 +586,7 @@
       "summary": "Probygg ehf. lægst með 96 milljónir í breytingar á Kerhólsskóla Probygg ehf. átti lægsta tilboðið í breytingar á annarri hæð Kerhólsskóla á Borg í Grímsnes- og Grafningshreppi ásamt uppsetningu nýrrar loftræsisamstæðu. Tilboð fyrirtækisins nam 96,1 milljón króna, eða 16,5% undir kostnaðaráætlun. Alls bárust ellefu tilboð í verkið og voru átta þeirra undir á...",
       "url": "https://byggingar.is/probygg-ehf-laegst-med-96-milljonir-i-breytingar-a-kerholsskola/?utm_source=rss&utm_medium=rss&utm_campaign=probygg-ehf-laegst-med-96-milljonir-i-breytingar-a-kerholsskola",
       "outlet": "byggingar.is / niðurstöður útboða",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-atta-tilbod-i-grjotgildru-vid-holtast",
@@ -538,7 +598,19 @@
       "summary": "Átta tilboð í grjótgildru við Holtastöð – Karína lægst með 17 milljónir Karína ehf. átti lægsta tilboðið í gerð nýrrar grjótgildru við skólpdælustöðina Holtastöð í Mosfellsbæ þegar tilboð voru opnuð mánudaginn 19. október. Tilboð fyrirtækisins nam tæpum 17 milljónum króna og var um 26% undir kostnaðaráætlun verkkaupa. Alls bárust átta tilboð í verkið. Tilbo...",
       "url": "https://byggingar.is/atta-tilbod-i-grjotgildru-vid-holtastod-karina-laegst-med-17-milljonir/?utm_source=rss&utm_medium=rss&utm_campaign=atta-tilbod-i-grjotgildru-vid-holtastod-karina-laegst-med-17-milljonir",
       "outlet": "byggingar.is / niðurstöður útboða",
-      "is_new": true
+      "is_new": false
+    },
+    {
+      "id": "news:byggingar-borgarlina:utm-source-rss-utm-medium-rss-utm-campaign-borgarlina-framkvaemdarod-breytt-i-22",
+      "lane": "news",
+      "category": "project",
+      "title": "Borgarlína – framkvæmdaröð breytt í 2,27 milljarða verki við Nauthólsveg",
+      "entity": "byggingar.is / Borgarlína",
+      "date": "2026-10-20",
+      "summary": "Borgarlína – framkvæmdaröð breytt í 2,27 milljarða verki við Nauthólsveg Framkvæmdaröð við uppbyggingu Borgarlínu við Nauthólsveg og Háskólann í Reykjavík hefur verið endurskoðuð. Helsta breytingin felst í því að framkvæmdum við Menntasveig verður flýtt og götunni lokað tímabundið fyrir umferð. Grafa og Grjót og Malbikunarstöðin Höfði annast verkið samkvæmt...",
+      "url": "https://byggingar.is/borgarlina-framkvaemdarod-breytt-i-227-milljarda-verki-vid-nautholsveg/?utm_source=rss&utm_medium=rss&utm_campaign=borgarlina-framkvaemdarod-breytt-i-227-milljarda-verki-vid-nautholsveg",
+      "outlet": "byggingar.is / Borgarlína",
+      "is_new": false
     },
     {
       "id": "news:visir-vidskipti:play-komid-i-eignasafn-icelandair",
@@ -574,18 +646,6 @@
       "summary": "Hækkun kílómetragjalds á flutningabíla mun skila sér beint út í verðlag hér á landi að sögn framkvæmdastjóra Bílgreinasambandsins. Hann segir breytingarnar koma á óheppilegum tíma þegar heimsmarkaðsverð olíu sé í hæstu hæðum, gleymst hafi að líta til áhrifa hækkunarinnar á vöruflutninga.",
       "url": "https://www.visir.is/g/20262950781d/afkoman-ur-thremur-milljonum-i-plus-i-tuttugu-i-minus",
       "outlet": "visir.is / Viðskipti",
-      "is_new": false
-    },
-    {
-      "id": "news:vb:kria-og-einkafjarfestar-leggja-60-milljonir-i-proceon",
-      "lane": "news",
-      "category": "investment",
-      "title": "Kría og einkafjárfestar leggja 60 milljónir í Proceon",
-      "entity": "vb.is",
-      "date": "2026-10-19",
-      "summary": "Innlent 19. okt. 12:57 Kría og einkafjárfestar leggja 60 milljónir í Proceon",
-      "url": "https://www.vb.is/frettir/kria-og-einkafjarfestar-leggja-60-milljonir-i-proceon/",
-      "outlet": "vb.is",
       "is_new": false
     },
     {
@@ -661,6 +721,18 @@
       "is_new": false
     },
     {
+      "id": "news:reykjavik:borun-hefst-eftir-heitu-vatni-i-hjarta-reykjavikur",
+      "lane": "news",
+      "category": "project",
+      "title": "Borun hefst eftir heitu vatni í hjarta Reykjavíkur",
+      "entity": "Reykjavíkurborg",
+      "date": "2026-10-16",
+      "summary": "16. október 2026 Borun hefst eftir heitu vatni í hjarta Reykjavíkur",
+      "url": "https://reykjavik.is/frettir/2026/borun-hefst-eftir-heitu-vatni-i-hjarta-reykjavikur",
+      "outlet": "Reykjavíkurborg",
+      "is_new": false
+    },
+    {
       "id": "news:visir-vidskipti:thungur-rodur-hja-fyrirtaekjum-en-undirstodurnar-sterkar",
       "lane": "news",
       "category": "industrial-demand",
@@ -718,6 +790,18 @@
       "summary": "Stjórnarformaður móðurfélags Ölgerðarinnar segist ekki vita til þess að einkasöluákvæði hafi verið sett í samninga fyrirtækisins við bari, skemmtistaði og veitingahús sem geri þeim óheimilt að versla drykki af öðrum framleiðendum eða birgjum.",
       "url": "https://www.visir.is/g/20262948539d/-ef-einhver-mistok-hafa-att-ser-stad-tha-gerum-vid-allt-til-thess-ad-leidretta-thad-",
       "outlet": "visir.is / Viðskipti",
+      "is_new": false
+    },
+    {
+      "id": "news:fiskifrettir:verdur-verra-i-nott-segir-hafnarvordur-a-siglufirdi",
+      "lane": "news",
+      "category": "project",
+      "title": "Verður verra í nótt, segir hafnarvörður á Siglufirði",
+      "entity": "Fiskifréttir",
+      "date": "2026-10-14",
+      "summary": "\"100\" Fréttir 14. okt. 15:49 Verður verra í nótt, segir hafnarvörður á Siglufirði",
+      "url": "https://fiskifrettir.vb.is/verdur-verra-i-nott-segir-hafnarvordur-a-siglufirdi/",
+      "outlet": "Fiskifréttir",
       "is_new": false
     },
     {
@@ -997,18 +1081,6 @@
       "is_new": false
     },
     {
-      "id": "news:reykjavik:melaskoli-fagnadi-80-ara-afmaeli",
-      "lane": "news",
-      "category": "project",
-      "title": "Melaskóli fagnaði 80 ára afmæli",
-      "entity": "Reykjavíkurborg",
-      "date": "2026-10-06",
-      "summary": "6. október 2026 Melaskóli fagnaði 80 ára afmæli",
-      "url": "https://reykjavik.is/frettir/2026/melaskoli-fagnadi-80-ara-afmaeli",
-      "outlet": "Reykjavíkurborg",
-      "is_new": false
-    },
-    {
       "id": "news:visir-vidskipti:taeplega-thrjatiu-sagt-upp",
       "lane": "news",
       "category": "project",
@@ -1042,18 +1114,6 @@
       "summary": "Trúnaðarráð VR og stjórn félagsins munu koma saman til funda síðdegis í dag þar sem farið verður yfir stöðuna og næstu skref vegna forsendubrests kjarasamninga. Stjórn VR, sem jafnframt er samninganefnd félagsins, fundar í kjölfarið og tekur afstöðu til þess hvort segja eigi upp kjarasamningum, komi ekki til viðunandi viðbragð frá SA.",
       "url": "https://www.visir.is/g/20262944011d/akveda-i-kvold-hvort-kjarasamningum-verdi-sagt-upp",
       "outlet": "visir.is / Viðskipti",
-      "is_new": false
-    },
-    {
-      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-ferro-zink-laegst-i-endurnyjun-og-vid",
-      "lane": "news",
-      "category": "investment",
-      "title": "Ferro Zink lægst í endurnýjun og viðhald ljósastaura – 35% undir kostnaðaráætlun",
-      "entity": "byggingar.is / niðurstöður útboða",
-      "date": "2026-10-05",
-      "summary": "Ferro Zink lægst í endurnýjun og viðhald ljósastaura – 35% undir kostnaðaráætlun Ferro Zink hf. átti lægsta tilboðið í verðfyrirspurn Reykjavíkurborgar vegna endurnýjunar og viðhalds ljósastaura. Tilboð fyrirtækisins nam 6,93 milljónum króna og var um 3,74 milljónum undir kostnaðaráætlun. Tilboð í verkefnið, sem ber heitið „Ljósastaurar. Endurnýjun og viðha...",
-      "url": "https://byggingar.is/ferro-zink-laegst-i-endurnyjun-og-vidhald-ljosastaura/?utm_source=rss&utm_medium=rss&utm_campaign=ferro-zink-laegst-i-endurnyjun-og-vidhald-ljosastaura",
-      "outlet": "byggingar.is / niðurstöður útboða",
       "is_new": false
     },
     {
@@ -1210,18 +1270,6 @@
       "summary": "25.09.2026 Malbikað við Jökulsárlón Þessa dagana erum við að malbika rúmlega 4 km kafla vestur af Jökulsárlóni og endurnýja burðarlag…",
       "url": "https://colas.is/malbikad-vid-jokulsarlon/",
       "outlet": "Colas Iceland",
-      "is_new": false
-    },
-    {
-      "id": "news:reykjavik:byggingarrettur-i-sudurholum-og-hraunbergi",
-      "lane": "news",
-      "category": "project",
-      "title": "Byggingarréttur í Suðurhólum og Hraunbergi",
-      "entity": "Reykjavíkurborg",
-      "date": "2026-09-24",
-      "summary": "24. september 2026 Byggingarréttur í Suðurhólum og Hraunbergi",
-      "url": "https://reykjavik.is/frettir/2026/byggingarrettur-i-sudurholum-og-hraunbergi",
-      "outlet": "Reykjavíkurborg",
       "is_new": false
     },
     {
