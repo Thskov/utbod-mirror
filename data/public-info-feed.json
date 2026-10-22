@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated": "2026-10-22T06:45:01Z",
+  "generated": "2026-10-22T22:35:48Z",
   "window": {
     "from": "2026-10-15",
     "to": "2026-10-22"
@@ -37,8 +37,6 @@
       "Atuarfik Inussuk",
       "Boðaþing",
       "Endurhæfingarspítali á Grensási",
-      "Fasteignir Háskóla Íslands",
-      "First Water",
       "Fjölnota íþróttahús í Borgarnesi",
       "Fossvogsbrú",
       "Göngu- og hjólabrú yfir Sæbraut",
@@ -52,6 +50,7 @@
       "Meðferðarkjari NLSH",
       "NTA25 New terminal apron",
       "Qair",
+      "Saga",
       "Sigöldustöð",
       "Skjólgarður Höfn",
       "umhverfismat",
@@ -87,7 +86,8 @@
     "court_keywords": [
       "útboð",
       "verksamningur",
-      "skipulag"
+      "skipulag",
+      "Hvammsvirkjun"
     ],
     "court_entities": [
       "Héraðsdómur Reykjaness",
@@ -103,6 +103,8 @@
     "announcement_sources": [
       "https://www.istak.is/frettir",
       "https://www.utu.is/feed/",
+      "https://www.grenivik.is/is/mannlifid/frettir",
+      "https://byggingar.is/category/featured/news/in-news/undirskrift/",
       "https://www.fjallabyggd.is/is/frettir",
       "https://www.stjornarradid.is/efst-a-baugi/frettir/",
       "https://www.vegagerdin.is/upplysingar-og-utgafa/frettir/",
@@ -124,7 +126,7 @@
       "https://www.akureyri.is/is/frettir",
       "https://www.olfus.is/is/frettir",
       "https://www.vogar.is/is/moya/news",
-      "https://betrisamgongur.is/frettir/",
+      "https://betrisamgongur.is/?page_id=30",
       "https://www.borgarlinan.is/frettir",
       "https://island.is/s/fsre/auglysingar-og-utbod",
       "https://island.is/s/fsre/nidurstodur-utboda",
@@ -150,7 +152,7 @@
       "https://www.alvotech.com/newsroom",
       "https://www.kadeco.is/throunarreitir",
       "https://www.kadeco.is/throunaraaetlun",
-      "https://betrisamgongur.is/verksja-samgongusattmalans/",
+      "https://verksja.is/",
       "https://www.althingi.is/thingnefndir/fastanefndir/",
       "https://hagstofa.is/talnaefni/efnahagur/verdlag/byggingarvisitala/",
       "https://www.ramma.is/rammaaaetlun/allir-virkjunarkostir",
@@ -187,6 +189,7 @@
     ],
     "legislation": {
       "sources": [
+        "althingi-bills",
         "samradsgatt",
         "reglugerd",
         "byggingarreglugerd",
@@ -214,8 +217,6 @@
         "ístak project: Atuarfik Inussuk",
         "ístak project: Boðaþing",
         "ístak project: Endurhæfingarspítali á Grensási",
-        "ístak project: Fasteignir Háskóla Íslands",
-        "ístak project: First Water",
         "ístak project: Fjölnota íþróttahús í Borgarnesi",
         "ístak project: Fossvogsbrú",
         "ístak project: Göngu- og hjólabrú yfir Sæbraut",
@@ -226,6 +227,7 @@
         "ístak project: Hús íslenskra fræða",
         "ístak project: Meðferðarkjari NLSH",
         "ístak project: NTA25 New terminal apron",
+        "ístak project: Saga",
         "ístak project: Sigöldustöð",
         "ístak project: Skjólgarður Höfn",
         "ístak project: Vaðölduver"
@@ -246,8 +248,6 @@
       "Atuarfik Inussuk",
       "Boðaþing",
       "Endurhæfingarspítali á Grensási",
-      "Fasteignir Háskóla Íslands",
-      "First Water",
       "Fjölnota íþróttahús í Borgarnesi",
       "Fossvogsbrú",
       "Göngu- og hjólabrú yfir Sæbraut",
@@ -256,15 +256,18 @@
       "Hvalárvirkjun",
       "Hvammsvirkjun",
       "Hús íslenskra fræða",
+      "Kvíslatunguvirkjun",
       "Meðferðarkjari NLSH",
       "NTA25 New terminal apron",
+      "Saga",
       "Sigöldustöð",
       "Skjólgarður Höfn",
       "Vaðölduver"
     ],
     "new_or_seen_istak_projects": [
       "Hvalárvirkjun",
-      "Hvammsvirkjun"
+      "Hvammsvirkjun",
+      "Kvíslatunguvirkjun"
     ]
   },
   "sources": {
@@ -281,24 +284,49 @@
         "hms-eia": "hms.is/frettir/alit-um-umhverfismat returned HTTP 429 from this host; keep as browser/alternate-egress candidate"
       },
       "collection_failures": {
-        "betri-samgongur": {
-          "url": "https://betrisamgongur.is/frettir/",
-          "error": "HTTP 404"
-        },
-        "byggingar-opnun-utboda": {
-          "url": "https://byggingar.is/category/opnun-utboda/",
-          "error": "URL error: [Errno 111] Connection refused"
-        },
-        "betri-samgongur-verksja": {
-          "url": "https://betrisamgongur.is/verksja-samgongusattmalans/",
-          "error": "HTTP 404"
+        "borgarlinan": {
+          "url": "https://www.borgarlinan.is/frettir",
+          "error": "HTTP 500"
         },
         "althingi-nefndir": {
           "url": "https://www.althingi.is/thingnefndir/fastanefndir/",
           "error": "HTTP 403"
         }
       },
-      "collector_gaps": {}
+      "collector_gaps": {
+        "supreme-leave-to-appeal": {
+          "url": "https://www.haestirettur.is/domar/",
+          "reason": "latest decisions supplement only; separate leave-to-appeal endpoint and historical pagination unverified"
+        },
+        "byggingar-signed-contracts-detail-budget": {
+          "url": "https://byggingar.is/category/featured/news/in-news/undirskrift/",
+          "reason": "bounded detail budget exhausted; undated candidates remain"
+        },
+        "byggingar-signed-contracts-undated": {
+          "url": "https://byggingar.is/category/featured/news/in-news/undirskrift/",
+          "reason": "relevant records lack verified publication dates"
+        },
+        "carbfix": {
+          "url": "https://www.carbfix.com/news",
+          "reason": "HTTP success but no extractable records; coverage unverified"
+        },
+        "skagafjordur-skipulagsnefnd-detail-budget": {
+          "url": "https://www.skagafjordur.is/is/fundargerdir/skipulagsnefnd",
+          "reason": "bounded detail budget exhausted; undated candidates remain"
+        },
+        "skagafjordur-skipulagsnefnd-undated": {
+          "url": "https://www.skagafjordur.is/is/fundargerdir/skipulagsnefnd",
+          "reason": "relevant records lack verified publication dates"
+        },
+        "borealis": {
+          "url": "https://www.borealisdc.com/news",
+          "reason": "HTTP success but no extractable records; coverage unverified"
+        },
+        "althingi-bill-3": {
+          "url": "https://www.althingi.is/altext/xml/thingmalalisti/thingmal/?lthing=158&malnr=3",
+          "reason": "tabled bill document absent"
+        }
+      }
     },
     "supplementary_coverage": {
       "skagafjordur_committee_minutes": "first-party minutes; not complete municipal coverage"
@@ -306,15 +334,15 @@
     "collection_complete": false,
     "source_candidates": [
       {
-        "id": "legislation:innviðaráðuneytið",
-        "name": "Innviðaráðuneytið",
+        "id": "eia:skaftárhreppur",
+        "name": "Skaftárhreppur",
         "suggested_feed": "public-info-feed",
-        "suggested_lane": "legislation",
-        "evidence_url": "https://island.is/samradsgatt/mal/4328",
-        "seen_count": 3,
-        "first_seen": "2026-10-09T06:45:01Z",
-        "last_seen": "2026-10-22T06:45:01Z",
-        "reason": "repeated unknown entity found in generated public-info items",
+        "suggested_lane": "eia",
+        "evidence_url": "https://skipulagsgatt.is/issues/5586",
+        "seen_count": 1,
+        "first_seen": "2026-10-22T22:35:48Z",
+        "last_seen": "2026-10-22T22:35:48Z",
+        "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       },
       {
@@ -325,20 +353,8 @@
         "evidence_url": "https://www.utu.is/auglysingar/skipulagsauglysing-birt-dags-15-oktober-2026/",
         "seen_count": 5,
         "first_seen": "2026-10-16T06:45:01Z",
-        "last_seen": "2026-10-22T06:45:01Z",
+        "last_seen": "2026-10-22T22:35:48Z",
         "reason": "repeated unknown entity found in generated public-info items",
-        "status": "pending"
-      },
-      {
-        "id": "legislation:umhverfis-orku-og-loftslagsráðuneyti",
-        "name": "Umhverfis-, orku- og loftslagsráðuneyti",
-        "suggested_feed": "public-info-feed",
-        "suggested_lane": "legislation",
-        "evidence_url": "https://island.is/reglugerdir/nr/0809-2026",
-        "seen_count": 1,
-        "first_seen": "2026-09-11T06:45:01Z",
-        "last_seen": "2026-10-22T06:45:01Z",
-        "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       }
     ],
@@ -346,7 +362,50 @@
       "notes": {
         "announcement_hygiene": "normal announcement/news sources require a parsed date; explicitly configured project/reference pages may emit stable undated tracker items"
       },
+      "not_covered": {
+        "supreme-leave-to-appeal": {
+          "url": "https://www.haestirettur.is/domar/",
+          "reason": "latest decisions supplement only; separate leave-to-appeal endpoint and historical pagination unverified"
+        },
+        "byggingar-signed-contracts-detail-budget": {
+          "url": "https://byggingar.is/category/featured/news/in-news/undirskrift/",
+          "reason": "bounded detail budget exhausted; undated candidates remain"
+        },
+        "byggingar-signed-contracts-undated": {
+          "url": "https://byggingar.is/category/featured/news/in-news/undirskrift/",
+          "reason": "relevant records lack verified publication dates"
+        },
+        "carbfix": {
+          "url": "https://www.carbfix.com/news",
+          "reason": "HTTP success but no extractable records; coverage unverified"
+        },
+        "skagafjordur-skipulagsnefnd-detail-budget": {
+          "url": "https://www.skagafjordur.is/is/fundargerdir/skipulagsnefnd",
+          "reason": "bounded detail budget exhausted; undated candidates remain"
+        },
+        "skagafjordur-skipulagsnefnd-undated": {
+          "url": "https://www.skagafjordur.is/is/fundargerdir/skipulagsnefnd",
+          "reason": "relevant records lack verified publication dates"
+        },
+        "borealis": {
+          "url": "https://www.borealisdc.com/news",
+          "reason": "HTTP success but no extractable records; coverage unverified"
+        },
+        "althingi-bill-3": {
+          "url": "https://www.althingi.is/altext/xml/thingmalalisti/thingmal/?lthing=158&malnr=3",
+          "reason": "tabled bill document absent"
+        }
+      },
       "filtered": {
+        "grenivik": {
+          "out_of_construction_scope": 1,
+          "no_matching_keywords": 59,
+          "outside_window": 1
+        },
+        "byggingar-signed-contracts": {
+          "outside_window": 11,
+          "undated": 2
+        },
         "fjallabyggd": {
           "out_of_construction_scope": 1,
           "no_matching_keywords": 10
@@ -356,16 +415,17 @@
           "undated": 5
         },
         "vegagerdin": {
-          "undated": 15,
-          "no_matching_keywords": 25
+          "undated": 19,
+          "no_matching_keywords": 21
         },
         "landsvirkjun": {
-          "no_matching_keywords": 17,
-          "undated": 7
+          "no_matching_keywords": 4,
+          "outside_window": 1
         },
         "faxafloahafnir": {
           "no_matching_keywords": 35,
-          "undated": 5
+          "outside_window": 3,
+          "no_matching_detail_keywords": 2
         },
         "veitur": {
           "no_matching_keywords": 21,
@@ -385,8 +445,8 @@
           "outside_window": 2
         },
         "reykjavik": {
-          "no_matching_keywords": 36,
-          "outside_window": 3,
+          "no_matching_keywords": 35,
+          "outside_window": 4,
           "undated": 1
         },
         "kopavogur": {
@@ -409,9 +469,9 @@
         "vogar": {
           "no_matching_keywords": 40
         },
-        "borgarlinan": {
-          "undated": 9,
-          "outside_window": 30
+        "betri-samgongur": {
+          "outside_window": 3,
+          "no_matching_keywords": 5
         },
         "gardabaer": {
           "no_matching_keywords": 24
@@ -430,11 +490,12 @@
           "outside_window": 1
         },
         "skagafjordur-skipulagsnefnd": {
-          "outside_window": 107
+          "outside_window": 11,
+          "undated": 96
         },
         "orkustofnun": {
-          "undated": 7,
-          "no_matching_keywords": 10,
+          "undated": 8,
+          "no_matching_keywords": 9,
           "outside_window": 2
         },
         "ramma-frettasafn": {
@@ -442,7 +503,11 @@
           "outside_window": 12
         },
         "fjardabyggdarhafnir": {
-          "no_matching_keywords": 40
+          "no_matching_keywords": 35,
+          "undated": 5
+        },
+        "byggingar-opnun-utboda": {
+          "outside_window": 11
         },
         "vb": {
           "no_matching_keywords": 40
@@ -468,17 +533,9 @@
         }
       },
       "source_failures": {
-        "betri-samgongur": {
-          "url": "https://betrisamgongur.is/frettir/",
-          "error": "HTTP 404"
-        },
-        "byggingar-opnun-utboda": {
-          "url": "https://byggingar.is/category/opnun-utboda/",
-          "error": "URL error: [Errno 111] Connection refused"
-        },
-        "betri-samgongur-verksja": {
-          "url": "https://betrisamgongur.is/verksja-samgongusattmalans/",
-          "error": "HTTP 404"
+        "borgarlinan": {
+          "url": "https://www.borgarlinan.is/frettir",
+          "error": "HTTP 500"
         },
         "althingi-nefndir": {
           "url": "https://www.althingi.is/thingnefndir/fastanefndir/",
@@ -487,12 +544,117 @@
       }
     }
   },
-  "count": 333,
+  "count": 354,
   "counts_by_intelligence_type": {
-    "public_record": 310,
-    "reference_tracker": 23
+    "public_record": 330,
+    "reference_tracker": 24
   },
   "items": [
+    {
+      "id": "skgatt:1232/2026",
+      "lane": "planning",
+      "title": "Sólvallagata 11",
+      "entity": "Reykjanesbær",
+      "case_number": "1232/2026",
+      "status": "Grenndarkynning byggingarleyfisumsóknar",
+      "date": "2026-10-22",
+      "review_deadline": "2026-11-19",
+      "summary": "Með vísan til 5. mgr. 13. gr.,2.mgr 43gr, 1. og 2 mgr. 44. gr. Skipulagslaga nr. 123 frá árinu 2010, gefur Skipulagsráð hér með eigendum húseigna í næsta nágrenni við Sólvallagötu 11, 230 Reykjanesbæ kost á að tjá sig um umsóknina. Haukur Ingi Júlíusson sækir um leyfi til að breyta núverandi gistiheimili í íbúðarhúsnæði. Um er að ræða breytingar á innra ski…",
+      "url": "https://skipulagsgatt.is/issues/5587",
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "skgatt:1231/2026",
+      "lane": "eia",
+      "title": "Lagning fjarskiptastrengs frá Íslandi til Skotlands",
+      "entity": "Skaftárhreppur",
+      "case_number": "1231/2026",
+      "plan_type": "matsskyldu",
+      "status": "Tilkynning um framkvæmd",
+      "date": "2026-10-22",
+      "review_deadline": "2026-11-19",
+      "summary": "Korda ehf. áformar að leggja fjarskiptastreng frá Íslandi til Skotlands og hefur strengurinn fengið nafnið AUÐUR. Markmið framkvæmdarinnar er að efla fjarskipti Íslands við umheiminn. Landtökustöð strengsins verður staðsett á Meðallandssandi í Skaftárhreppi, sunnan Kirkjubæjarklausturs. Strengleiðin á landi verður um 8,5 km og áætlað að heildarrasksvæði ver…",
+      "url": "https://skipulagsgatt.is/issues/5586",
+      "keywords_matched": [
+        "matsskyldu"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "skgatt:1229/2026",
+      "lane": "eia",
+      "title": "Kvíslatunguvirkjun - Breytt efnistaka",
+      "entity": "Strandabyggð",
+      "case_number": "1229/2026",
+      "plan_type": "matsskyldu",
+      "status": "Tilkynning um framkvæmd",
+      "date": "2026-10-22",
+      "review_deadline": "2026-11-19",
+      "summary": "Breyting á framkvæmdinni felur í sér að efnistaka vegna Kvíslatunguvirkjunar færist að hluta úr lónstæðum á svæði utan þeirra en samanlagt efnistökumagn breytist ekki miðað við það sem gert var ráð fyrir í umhverfismati Kvíslatunguvirkjunar. Efnistaka og haugsetning verða samræmd mannvirkjagerð og frágangur byggður á landmótun, endurnýtingu svarðlags og tak…",
+      "url": "https://skipulagsgatt.is/issues/5584",
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "skgatt:1218/2026",
+      "lane": "planning",
+      "title": "Breyting á deiliskipulagi Kapelluhrauns 2. áfanga vegna Títanhellu 12 og 14.",
+      "entity": "Hafnarfjarðarkaupstaður",
+      "case_number": "1218/2026",
+      "plan_type": "deiliskipulag",
+      "status": "Grenndarkynning",
+      "date": "2026-10-22",
+      "review_deadline": "2026-11-19",
+      "summary": "Á afgreiðslufundi skipulags- og byggingarfulltrúa þann 14. október 2026 var samþykkt að grenndarkynna í samræmi við 2. mgr. 43. gr. skipulagslaga nr. 123/2010 umsókn eiganda við Títanhellu 12 og 14. Breytingin felst í því að lóðamörk milli lóðanna Títanhellu 12 og 14 færast til, þannig að lóð nr. 14 stækkar á kostnað lóðar nr. 12. Innkeyrsla á lóð nr. 12 fæ…",
+      "url": "https://skipulagsgatt.is/issues/5573",
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "announcement:landsvirkjun:landsvirkjun-og-elkem-semja-til-2039",
+      "lane": "announcement",
+      "source": "landsvirkjun",
+      "title": "Landsvirkjun og Elkem semja til 2039",
+      "entity": "Landsvirkjun",
+      "status": "published",
+      "date": "2026-10-22",
+      "summary": "Landsvirkjun og Elkem hafa skrifað undir nýjan samning um raforkukaup kísiljárnverksmiðjunnar á Grundartanga.",
+      "url": "https://www.landsvirkjun.is/frettir/landsvirkjun-og-elkem-semja-til-2039",
+      "keywords_matched": [
+        "orku"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:fjolbylishus-vid-tryggvagotu-a-selfossi-svansvottud",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "Fjölbýlishús við Tryggvagötu á Selfossi Svansvottuð",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-10-22",
+      "summary": "-url=\"https://byggingar.is/wp-content/uploads/2026/10/22.10.2026-Fjolbylishus-vid-Tryggvagotu-a-Selfossi-Svansvottud-a-100x75.jpg\" width=\"100\" height=\"75\" /> Fjölbýlishús við Tryggvagötu á Selfossi Svansvottuð 22/10/2026 <div class=\"td_modu",
+      "url": "https://byggingar.is/fjolbylishus-vid-tryggvagotu-a-selfossi-svansvottud/",
+      "keywords_matched": [
+        "bygging",
+        "opinber innkaup"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:endurbotum-a-hlevangi-fyrir-yfir-100-milljonir-krona-lokid",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "Endurbótum á Hlévangi fyrir yfir 100 milljónir króna lokið",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-10-22",
+      "summary": "\"https://byggingar.is/wp-content/uploads/2026/10/22.10.2026-Endurbotum-a-Hlevangi-fyrir-yfir-100-milljonir-krona-lokid-100x75.jpg\" width=\"100\" height=\"75\" /> Endurbótum á Hlévangi fyrir yfir 100 milljónir króna lokið 22/10/2026 <div cl",
+      "url": "https://byggingar.is/endurbotum-a-hlevangi-fyrir-yfir-100-milljonir-krona-lokid/",
+      "keywords_matched": [
+        "bygging",
+        "opinber innkaup"
+      ],
+      "intelligence_type": "public_record"
+    },
     {
       "id": "skgatt:1228/2026",
       "lane": "planning",
@@ -602,6 +764,22 @@
       "url": "https://mos.is/mannlif/um-mosfellsbae/frettir/stada-framkvaemda-i-akur-byggdar-og-markholti/",
       "keywords_matched": [
         "framkvæmd"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:gott-verk-ehf-laegst-i-stigagerd-og-yfirbordsfragang-i-breidamyri-13-tilbod-baru",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "Gott verk ehf. lægst í stígagerð og yfirborðsfrágang í Breiðamýri – 13 tilboð bárust",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-10-21",
+      "summary": "> Gott verk ehf. lægst í stígagerð og yfirborðsfrágang í Breiðamýri – 13 tilboð bárust byggingar - 21/10/2026",
+      "url": "https://byggingar.is/gott-verk-ehf-laegst-i-stigagerd-og-yfirbordsfragang-i-breidamyri-13-tilbod-barust/",
+      "keywords_matched": [
+        "bygging",
+        "opinber innkaup"
       ],
       "intelligence_type": "public_record"
     },
@@ -717,6 +895,86 @@
       "intelligence_type": "public_record"
     },
     {
+      "id": "announcement:landsvirkjun:orkan-i-olgusjo-efnahagsmala",
+      "lane": "announcement",
+      "source": "landsvirkjun",
+      "title": "Orkan í ólgu­sjó efna­hags­mála",
+      "entity": "Landsvirkjun",
+      "status": "published",
+      "date": "2026-10-20",
+      "summary": "Tinna Traustadóttir, framkvæmdastjóri Sölu og viðskiptaþróunar hjá Landsvirkjun, skrifar um stöðu orkumarkaða á Íslandi og á meginlandi Evrópu, stöðugleika íslenska raforkukerfisins og þau tækifæri sem felast í áframhaldandi uppbyggingu þess.",
+      "url": "https://www.landsvirkjun.is/frettir/orkan-i-olgusjo-efnahagsmala",
+      "keywords_matched": [
+        "orku"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "announcement:landsvirkjun:bygging-hvammsvirkjunar-bodin-ut",
+      "lane": "announcement",
+      "source": "landsvirkjun",
+      "title": "Bygging Hvammsvirkjunar boðin út",
+      "entity": "Landsvirkjun",
+      "status": "published",
+      "date": "2026-10-20",
+      "summary": "Jarðvinna og bygging Hvammsvirkjunar í Þjórsá hefur verið boðin út á Evrópska útboðsvefnum.",
+      "url": "https://www.landsvirkjun.is/frettir/bygging-hvammsvirkjunar-bodin-ut",
+      "keywords_matched": [
+        "bygging",
+        "opinber innkaup",
+        "ístak project: Hvammsvirkjun"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:storverk-ehf-laegst-med-553-milljona-tilbod-i-skarfaskersbryggju",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "Stórverk ehf. lægst með 55,3 milljóna tilboð í Skarfaskersbryggju",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-10-20",
+      "summary": "Stórverk ehf. lægst með 55,3 milljóna tilboð í Skarfaskersbryggju byggingar - 20/10/2026",
+      "url": "https://byggingar.is/storverk-ehf-laegst-med-553-milljona-tilbod-i-skarfaskersbryggju/",
+      "keywords_matched": [
+        "bygging",
+        "opinber innkaup"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:probygg-ehf-laegst-med-96-milljonir-i-breytingar-a-kerholsskola",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "Probygg ehf. lægst með 96 milljónir í breytingar á Kerhólsskóla",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-10-20",
+      "summary": "Probygg ehf. lægst með 96 milljónir í breytingar á Kerhólsskóla byggingar - 20/10/2026",
+      "url": "https://byggingar.is/probygg-ehf-laegst-med-96-milljonir-i-breytingar-a-kerholsskola/",
+      "keywords_matched": [
+        "bygging",
+        "opinber innkaup"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:atta-tilbod-i-grjotgildru-vid-holtastod-karina-laegst-med-17-milljonir",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "Átta tilboð í grjótgildru við Holtastöð – Karína lægst með 17 milljónir",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-10-20",
+      "summary": "Átta tilboð í grjótgildru við Holtastöð – Karína lægst með 17 milljónir byggingar - 20/10/2026",
+      "url": "https://byggingar.is/atta-tilbod-i-grjotgildru-vid-holtastod-karina-laegst-med-17-milljonir/",
+      "keywords_matched": [
+        "bygging",
+        "opinber innkaup"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
       "id": "skgatt:1213/2026",
       "lane": "planning",
       "title": "Kvíslatunguvirkjun, breyting á veglínu við inntakslón og á efnistökusvæðum",
@@ -728,6 +986,52 @@
       "review_deadline": "2026-11-16",
       "summary": "Sveitarstjórn Strandabyggðar samþykkti á fundi sínum 13. október 2026 óverulega breytingu á Aðalskipulagi Strandabyggðar 2024-2036. Breytingin felst annars vegar í tilfærslu á veglínu norður fyrir inntakslón (Efri-Kotvötn) í stað núverandi legu suður fyrir lónið og þarf þá ekki að brúa yfirfall og veituskurð. Hins vegar er gerð tilfærsla á efnistökusvæðum o…",
       "url": "https://skipulagsgatt.is/issues/5568",
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "announcement:landsvirkjun:urskurdur-samkeppniseftirlitsins-felldur-ur-gildi",
+      "lane": "announcement",
+      "source": "landsvirkjun",
+      "title": "Úrskurður Samkeppniseftirlitsins felldur úr gildi",
+      "entity": "Landsvirkjun",
+      "status": "published",
+      "date": "2026-10-19",
+      "summary": "Áfrýjunarnefnd samkeppnismála hefur í dag fellt úr gildi ákvörðun Samkeppniseftirlitsins í máli er varðar sölu Landsvirkjunar á raforku til flutningstapa Landsnets og vísað til nýrrar meðferðar og ákvörðunar eftirlitsins.",
+      "url": "https://www.landsvirkjun.is/frettir/urskurdur-samkeppniseftirlitsins-felldur-ur-gildi",
+      "keywords_matched": [
+        "orku"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:e-sigurdsson-bydur-68-milljonir-i-byggingarrett-fyrir-40-ibudir-vid-sudurhola",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "E. Sigurðsson býður 68 milljónir í byggingarrétt fyrir 40 íbúðir við Suðurhóla",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-10-19",
+      "summary": "E. Sigurðsson býður 68 milljónir í byggingarrétt fyrir 40 íbúðir við Suðurhóla byggingar - 19/10/2026",
+      "url": "https://byggingar.is/e-sigurdsson-bydur-68-milljonir-i-byggingarrett-fyrir-40-ibudir-vid-sudurhola/",
+      "keywords_matched": [
+        "bygging",
+        "opinber innkaup"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "announcement:byggingar-signed-contracts:launafl-ehf-faer-924-milljona-loftraestiverk-i-fjardabyggdarhollinni",
+      "lane": "announcement",
+      "source": "byggingar-signed-contracts",
+      "title": "Launafl ehf. fær 92,4 milljóna loftræstiverk í Fjarðabyggðarhöllinni",
+      "entity": "Byggingar.is",
+      "status": "contract_award",
+      "date": "2026-10-17",
+      "summary": "Launafl ehf. fær 92,4 milljóna loftræstiverk í Fjarðabyggðarhöllinni",
+      "url": "https://byggingar.is/launafl-ehf-faer-924-milljona-loftraestiverk-i-fjardabyggdarhollinni/",
+      "keywords_matched": [
+        "opinber innkaup"
+      ],
       "intelligence_type": "public_record"
     },
     {
@@ -800,22 +1104,6 @@
       "keywords_matched": [
         "orku",
         "umhverfismat"
-      ],
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "announcement:borgarlinan:nyr-afangi-vid-nautholsveg-ad-hefjast",
-      "lane": "announcement",
-      "source": "borgarlinan",
-      "title": "16. október 2026 Nýr áfangi við Nauthólsveg að hefjast Framkvæmdir vegna Borgarlínu á Nauthólsvegi halda áfram og nú er undirbúningur hafinn fyrir næsta áfanga verksins. Undanfarn…",
-      "entity": "Borgarlínan",
-      "status": "published",
-      "date": "2026-10-16",
-      "summary": "a> 16. október 2026 Nýr áfangi við Nauthólsveg að hefjast Framkvæmdir vegna Borgarlínu á Nauthólsvegi halda áfram og nú er undirbúningur hafinn fyrir næsta áfanga verksins. Undanfarnar vikur hefur verið unnið að jarðvegsskiptum og gerð bráðabirgðavega á svæð… <img alt=\"Framkvæmdasvæðið í Świnoujście í Póllandi þar sem verið að vinna að brúarstöplum. Mynd: A…",
-      "url": "https://www.borgarlinan.is/utgefid-efni/frettir/nyr-afangi-vid-nautholsveg-ad-hefjast",
-      "keywords_matched": [
-        "framkvæmd",
-        "samgöngur"
       ],
       "intelligence_type": "public_record"
     },
@@ -981,7 +1269,7 @@
       "entity": "Skagafjörður",
       "status": "published",
       "date": "2026-10-15",
-      "summary": "Dagskrá 1. Gamli bærinn Sauðárkróki - Deiliskipulag Málsnúmer 2607033 Vakta málsnúmer Lagðar fram niðurstöður frá samráðs- og vinnufundi vegna deiliskipulags Gamla bæjarins á Sauðárkróki frá 28.09.2026. Skipulagsnefnd samþykkir samhljóða að fela skipulagsfulltrúa að vinna málið áfram í samræmi við umræður fundarins. 2. Lóð 70 við Sauðárhlíð - Minnisblað frá…",
+      "summary": "15.10.2026 - Skipulagsnefnd",
       "url": "https://www.skagafjordur.is/is/fundargerdir/skipulagsnefnd/5853",
       "keywords_matched": [
         "aðalskipulag",
@@ -1722,7 +2010,7 @@
       "doc_type": "consultation",
       "proposal_type": "bill",
       "title": "Breyting á lögum um öryggi net- og upplýsingakerfa mikilvægra innviða, nr. 78/2019",
-      "entity": "Innviðaráðuneytið",
+      "entity": "Innviðaráðuneyti",
       "status": "Niðurstöður í vinnslu",
       "date": "2026-09-23",
       "review_deadline": "2026-10-07",
@@ -1878,6 +2166,23 @@
       "intelligence_type": "public_record"
     },
     {
+      "id": "legislation:althingi:158:38",
+      "lane": "legislation",
+      "source": "althingi-bills",
+      "entity": "Alþingi",
+      "doc_type": "bill",
+      "title": "umhverfismat framkvæmda og áætlana og skipulagslög",
+      "summary": "umsagnarfrestur",
+      "date": "2026-09-11",
+      "status": "tabled",
+      "url": "https://www.althingi.is/altext/158/s/0038.html",
+      "keywords_matched": [
+        "skipulag",
+        "umhverfismat"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
       "id": "skgatt:1049/2026",
       "lane": "planning",
       "title": "Vinastræti 18-26 - Deiliskipulagsbreyting",
@@ -1907,6 +2212,55 @@
       "case_number": "171/2026",
       "keywords_matched": [
         "umhverfismat"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "legislation:althingi:158:7",
+      "lane": "legislation",
+      "source": "althingi-bills",
+      "entity": "Alþingi",
+      "doc_type": "bill",
+      "title": "skipulagslög",
+      "summary": "breytingar á svæðisskipulagi",
+      "date": "2026-09-10",
+      "status": "tabled",
+      "url": "https://www.althingi.is/altext/158/s/0007.html",
+      "keywords_matched": [
+        "skipulag"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "legislation:althingi:158:29",
+      "lane": "legislation",
+      "source": "althingi-bills",
+      "entity": "Alþingi",
+      "doc_type": "bill",
+      "title": "þjóðfáni Íslendinga og ríkisskjaldarmerkið",
+      "summary": "notkun fána á byggingum",
+      "date": "2026-09-10",
+      "status": "tabled",
+      "url": "https://www.althingi.is/altext/158/s/0029.html",
+      "keywords_matched": [
+        "bygging"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "legislation:althingi:158:17",
+      "lane": "legislation",
+      "source": "althingi-bills",
+      "entity": "Alþingi",
+      "doc_type": "bill",
+      "title": "mannvirki",
+      "summary": "byggingarstjórar",
+      "date": "2026-09-10",
+      "status": "tabled",
+      "url": "https://www.althingi.is/altext/158/s/0017.html",
+      "keywords_matched": [
+        "bygging",
+        "mannvirki"
       ],
       "intelligence_type": "public_record"
     },
@@ -2348,7 +2702,7 @@
       "doc_type": "consultation",
       "proposal_type": "bill",
       "title": "Áform um breytingu á lögum um íslensk landshöfuðlén",
-      "entity": "Innviðaráðuneytið",
+      "entity": "Innviðaráðuneyti",
       "status": "Niðurstöður í vinnslu",
       "date": "2026-07-31",
       "review_deadline": "2026-08-20",
@@ -2403,7 +2757,6 @@
       "keywords_matched": [
         "umhverfismat"
       ],
-      "effective_date": "2026-07-25",
       "intelligence_type": "public_record"
     },
     {
@@ -2593,7 +2946,7 @@
       "source": "reglugerd",
       "doc_type": "regulation",
       "title": "Reglugerð um (9.) breytingu á reglugerð nr. 1040/2005, um framkvæmd raforkulaga.",
-      "entity": "Umhverfis-, orku- og loftslagsráðuneyti",
+      "entity": "Umhverfis-, orku- og loftslagsráðuneytið",
       "status": "published",
       "date": "2026-07-15",
       "summary": "Reglugerð um (9.) breytingu á reglugerð nr. 1040/2005, um framkvæmd raforkulaga.",
@@ -3450,6 +3803,22 @@
       "intelligence_type": "public_record"
     },
     {
+      "id": "heradsdomur:E-106/2026",
+      "lane": "court",
+      "title": "Stefnendur: Brynhildur Briem og Hannes Þór Sigurðsson og Jón Benjamín Jónsson og Örn Ingi Ingvarsson og Ólafur Arnar Jónsson og Ölhóll ehf. (Sif Konráðsdóttir lögmaður) Stefndu: Umhverfis-, orku- og loftslagsráðuneyti o…",
+      "entity": "Héraðsdómur Reykjavíkur",
+      "court": "Héraðsdómur Reykjavíkur",
+      "case_number": "E-106/2026",
+      "keywords_matched": [
+        "Hvammsvirkjun"
+      ],
+      "status": "ruling",
+      "date": "2026-06-10",
+      "summary": "﻿Deilt var um gildi tveggja stjórnvaldsákvarðana tengdum áformum stefnda Landsvirkjunar um að reisa vatnsaflsvirkjunina (raforkuverið) Hvammsvirkjun í neðri hluta Þjórsár en þær fyrirhuguðu framkvæmdir hafa áður verið til umfjöllunar í dómi Hæstaréttar 9. júlí 2025 í máli nr. 11/2025. Annars vegar var með síðari dómkröfu stefnenda deilt um gildi úrskurðar úrskurðarnefndar umhverfis- og auðlindamála 15. febrúar 2018…",
+      "url": "https://island.is/domar/g-2670b1a6-71f5-418c-b949-04bad27695c9",
+      "intelligence_type": "public_record"
+    },
+    {
       "id": "skgatt:0716/2026",
       "lane": "planning",
       "title": "Árblik í Suðurdölum",
@@ -3581,7 +3950,7 @@
       "intelligence_type": "public_record"
     },
     {
-      "id": "heradsdomur:41/2025",
+      "id": "haestirettur:41/2025",
       "lane": "court",
       "title": "Eydís Lára Franzdóttir, Guðni Kjartan Franzson, dánarbú Sigríðar Sólrúnar Jónsdóttur, Ólafur Þór Jónsson, Reykjaprent ehf., Jón Gestur Ólafsson, Freygerður Anna Ólafsdóttir og Edda Rún Ólafsdóttir (Sigurður Örn Hilmarss…",
       "entity": "Hæstiréttur",
@@ -3603,7 +3972,7 @@
       "doc_type": "consultation",
       "proposal_type": "bill",
       "title": "Áform um frumvarp til laga um breytingu á hafnalögum (Gjaldaákvæði hafnalaga)",
-      "entity": "Innviðaráðuneytið",
+      "entity": "Innviðaráðuneyti",
       "status": "Niðurstöður í vinnslu",
       "date": "2026-05-22",
       "review_deadline": "2026-06-19",
@@ -5442,7 +5811,8 @@
       "summary": "Breiðdalsvíkurhöfn | Fjarðabyggðarhafnir Fara í efni Skemmtiferðaskip Skemmtiferðaskipakomur Cruise Iceland Cruise Europe Heimsækið Fjarðabyggð Hafnarþjónusta Hafnarvogir Hafnsaga Dráttarbátur Önnur þjónusta - rafmagn, vatn og sorp Veðurstöðvar Lög og reglugerðir Upplýsingar Um okkur 123 forever Starfsmenn Gjaldskrá Schedule of charges Hafnarstjórn Fréttir…",
       "url": "https://www.fjardabyggdarhafnir.is/is/fjardabyggdarhafnir",
       "keywords_matched": [
-        "framkvæmd"
+        "framkvæmd",
+        "ístak project: Saga"
       ],
       "intelligence_type": "reference_tracker"
     },
@@ -5458,6 +5828,21 @@
       "keywords_matched": [
         "framkvæmd",
         "umhverfismat"
+      ],
+      "intelligence_type": "reference_tracker"
+    },
+    {
+      "id": "announcement:betri-samgongur-verksja:verksja-is",
+      "lane": "announcement",
+      "source": "betri-samgongur-verksja",
+      "title": "Betri samgöngur",
+      "entity": "Betri samgöngur",
+      "status": "tracker",
+      "summary": "Betri samgöngur Velkomin á Verksjá.is Upplýsingavettvang Betri Samgangna Hér er hægt að fá upplýsingar um þau verkefni sem falla undir Samgöngusáttmála og framvindu þeirra á auðveldan og aðgengilegan hátt. Góða ferð. Skoða Verksjá Merki Betri Samgangna Valmynd Loka Opna Opna Missing Opna Til baka Opna Lokið Já Staða Sækja Tengill opnast í öðrum glugga Deila…",
+      "url": "https://verksja.is/",
+      "keywords_matched": [
+        "framkvæmd",
+        "samgöngur"
       ],
       "intelligence_type": "reference_tracker"
     }
