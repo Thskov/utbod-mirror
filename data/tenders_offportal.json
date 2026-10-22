@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated": "2026-10-22T07:00:26Z",
-  "generated_at": "2026-10-22T07:00:26Z",
+  "generated": "2026-10-22T22:40:39Z",
+  "generated_at": "2026-10-22T22:40:39Z",
   "sources": {
     "covered": [
       {
@@ -103,6 +103,111 @@
         "url": "https://api.ted.europa.eu/v3/notices/search",
         "reason": "dropped 86 notices: expired deadline",
         "kind": "filtering"
+      },
+      {
+        "kind": "filtering",
+        "source": "utbodsvefur",
+        "reason": "winter_service",
+        "project": "Fjallabyggð. snjómokstur og hálkuvarnir 2026 – 2029",
+        "url": "https://www.utbodsvefur.is/fjallabyggd-snjomokstur-og-halkuvarnir-2026-2029/"
+      },
+      {
+        "kind": "filtering",
+        "source": "utbodsvefur",
+        "reason": "winter_service",
+        "project": "Vetrarþjónusta í Árborg",
+        "url": "https://www.utbodsvefur.is/vetrarthjonusta-i-arborg/"
+      },
+      {
+        "kind": "filtering",
+        "source": "utbodsvefur",
+        "reason": "campsite_lease_or_operation",
+        "project": "Leiga á Tjaldsvæðinu í Kalmansvík",
+        "url": "https://www.utbodsvefur.is/leiga-a-tjaldsvaedinu-i-kalmansvik-2/"
+      },
+      {
+        "kind": "filtering",
+        "source": "hafnarfjordur-utbod",
+        "reason": "winter_service",
+        "project": "Snjó- og hálkuvarnir á gönguleiðum 2026-2030",
+        "url": "https://hafnarfjordur.is/skipulag-i-kynningu/snjo-og-halkuvarnir-a-gonguleidum-2026-2030/"
+      },
+      {
+        "kind": "filtering",
+        "source": "hafnarfjordur-utbod",
+        "reason": "winter_service",
+        "project": "Vetrarþjónusta stofnanalóða 2026 – 2030",
+        "url": "https://hafnarfjordur.is/skipulag-i-kynningu/vetrarthjonusta-stofnanaloda-2026-2030/"
+      },
+      {
+        "kind": "filtering",
+        "source": "vegagerdin-samningum-lokid",
+        "reason": "winter_service",
+        "project": "Vetrarþjónusta 2025-2028, Borgarfjörður – Mýrar – Akrafjallshringur",
+        "url": "https://www.vegagerdin.is/verkefnin/utbod/vetrarthjonusta-2025-2028-borgarfjordur-myrar-akrafjallshringur"
+      },
+      {
+        "kind": "filtering",
+        "source": "vegagerdin-samningum-lokid",
+        "reason": "winter_service",
+        "project": "Vetrarþjónusta 2025-2028, Holtavörðuheiði – Hvammstangavegur",
+        "url": "https://www.vegagerdin.is/verkefnin/utbod/vetrarthjonusta-2025-2028-holtavorduheidi-hvammstangavegur"
+      },
+      {
+        "kind": "filtering",
+        "source": "vegagerdin-samningum-lokid",
+        "reason": "winter_service",
+        "project": "Vetrarþjónusta 2025-2028, Reykjanesbraut – Suðurnes",
+        "url": "https://www.vegagerdin.is/verkefnin/utbod/olafsvik-nordurbakki-lenging-2025"
+      },
+      {
+        "kind": "filtering",
+        "source": "vegagerdin-samningum-lokid",
+        "reason": "winter_service",
+        "project": "Vetrarþjónusta 2025-2028, Selfoss – Norðlingaholt",
+        "url": "https://www.vegagerdin.is/verkefnin/utbod/vetrarthjonusta-2025-2028-selfoss-nordlingaholt"
+      },
+      {
+        "kind": "filtering",
+        "source": "vegagerdin-samningum-lokid",
+        "reason": "winter_service",
+        "project": "Vetrarþjónusta 2025-2028, Vestur-Ísafjarðarsýsla",
+        "url": "https://www.vegagerdin.is/verkefnin/utbod/vetrarthjonusta-2025-2028-vestur-isafjardarsysla"
+      },
+      {
+        "kind": "filtering",
+        "source": "vegagerdin-samningum-lokid",
+        "reason": "winter_service",
+        "project": "Vetrarþjónusta 2025-2028, Ólafsvík – Vatnaleið",
+        "url": "https://www.vegagerdin.is/verkefnin/utbod/vetrarthjonusta-2025-2028-olafsvik-vatnaleid"
+      },
+      {
+        "kind": "filtering",
+        "source": "vegagerdin-opnun-tilboda",
+        "reason": "winter_service",
+        "project": "Vetrarþjónusta 2026-2029, Breiðdalsvík – Djúpivogur (Hraðútboð)",
+        "url": "https://www.vegagerdin.is/verkefnin/utbod/vetrarthjonusta-2026-2029-breiddalsvik-djupivogur-hradutbod"
+      },
+      {
+        "kind": "filtering",
+        "source": "vegagerdin-opnun-tilboda",
+        "reason": "winter_service",
+        "project": "Vetrarþjónusta 2026-2029, Fjarðarheiði (Hraðútboð)",
+        "url": "https://www.vegagerdin.is/verkefnin/utbod/vetrarthjonusta-2026-2029-fjardarheidi-hradutbod"
+      },
+      {
+        "kind": "filtering",
+        "source": "vegagerdin-opnun-tilboda",
+        "reason": "winter_service",
+        "project": "Vetrarþjónusta 2026-2029, Höfn - Fagurhólmsmýri - Hólmur",
+        "url": "https://www.vegagerdin.is/verkefnin/utbod/vetrarthjonusta-2026-2029-hofn-fagurholmsmyri-holmur"
+      },
+      {
+        "kind": "filtering",
+        "source": "vegagerdin-samningum-lokid",
+        "reason": "winter_service",
+        "project": "Vetrarþjónusta 2026-2029, Steinar - Kirkjubæjarklaustur",
+        "url": "https://www.vegagerdin.is/verkefnin/utbod/vetrarthjonusta-2026-2029-steinar-kirkjubaejarklaustur"
       }
     ],
     "collection_complete": false,
@@ -169,6 +274,8 @@
     ],
     "buyer_aliases": {
       "hafnarfjarðarbær": "Hafnarfjarðarkaupstaður",
+      "hafnarfjörður": "Hafnarfjarðarkaupstaður",
+      "hafnarfjordur": "Hafnarfjarðarkaupstaður",
       "akureyri": "Akureyrarbær",
       "akureyrarbær": "Akureyrarbær",
       "alcoa fjardaál": "Alcoa Fjarðaál",
@@ -376,7 +483,7 @@
         "evidence_url": "https://www.utbodsvefur.is/leiga-a-tjaldsvaedinu-i-kalmansvik-2/",
         "seen_count": 1,
         "first_seen": "2026-10-21T07:00:26Z",
-        "last_seen": "2026-10-21T07:00:26Z",
+        "last_seen": "2026-10-22T07:00:26Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       },
@@ -388,7 +495,7 @@
         "evidence_url": "https://www.utbodsvefur.is/fjallabyggd-snjomokstur-og-halkuvarnir-2026-2029/",
         "seen_count": 1,
         "first_seen": "2026-10-06T07:00:27Z",
-        "last_seen": "2026-10-21T07:00:26Z",
+        "last_seen": "2026-10-22T07:00:26Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       },
@@ -400,19 +507,19 @@
         "evidence_url": "https://www.utbodsvefur.is/vetrarthjonusta-i-arborg/",
         "seen_count": 1,
         "first_seen": "2026-10-19T07:00:26Z",
-        "last_seen": "2026-10-21T07:00:26Z",
+        "last_seen": "2026-10-22T07:00:26Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       }
     ]
   },
-  "count": 173,
+  "count": 161,
   "counts_by_intelligence_type": {
     "active_tender": 14,
-    "bid_opening": 33,
+    "bid_opening": 30,
     "closed_tender": 2,
-    "historical_award": 96,
-    "unverified_deadline": 28
+    "historical_award": 89,
+    "unverified_deadline": 26
   },
   "items": [
     {
@@ -485,23 +592,6 @@
     },
     {
       "reference": "",
-      "project": "Snjó- og hálkuvarnir á gönguleiðum 2026-2030",
-      "buyer": "Hafnarfjarðarkaupstaður",
-      "notice_type": "Útboð",
-      "deadline": "",
-      "deadline_local": "",
-      "deadline_utc": "",
-      "deadline_confirmed": false,
-      "posted_at": "2026-07-07",
-      "modified_at": null,
-      "url": "https://hafnarfjordur.is/skipulag-i-kynningu/snjo-og-halkuvarnir-a-gonguleidum-2026-2030/",
-      "summary": "",
-      "source": "hafnarfjordur-utbod",
-      "intelligence_type": "unverified_deadline",
-      "is_open_opportunity": false
-    },
-    {
-      "reference": "",
       "project": "Vegmerking í Hafnarfirði 2026-29",
       "buyer": "Hafnarfjarðarkaupstaður",
       "notice_type": "Útboð",
@@ -512,23 +602,6 @@
       "posted_at": "2026-02-20",
       "modified_at": null,
       "url": "https://hafnarfjordur.is/skipulag-i-kynningu/vegmerking-i-hafnarfirdi-2026-29/",
-      "summary": "",
-      "source": "hafnarfjordur-utbod",
-      "intelligence_type": "unverified_deadline",
-      "is_open_opportunity": false
-    },
-    {
-      "reference": "",
-      "project": "Vetrarþjónusta stofnanalóða 2026 – 2030",
-      "buyer": "Hafnarfjarðarkaupstaður",
-      "notice_type": "Útboð",
-      "deadline": "",
-      "deadline_local": "",
-      "deadline_utc": "",
-      "deadline_confirmed": false,
-      "posted_at": "2026-07-07",
-      "modified_at": null,
-      "url": "https://hafnarfjordur.is/skipulag-i-kynningu/vetrarthjonusta-stofnanaloda-2026-2030/",
       "summary": "",
       "source": "hafnarfjordur-utbod",
       "intelligence_type": "unverified_deadline",
@@ -2264,176 +2337,6 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/vestmannaeyjar-gjabakki-thekja-og-lagnir-2026",
       "summary": "Útboð 26-048 · 10. apríl 2026",
-      "source": "vegagerdin-samningum-lokid",
-      "intelligence_type": "historical_award",
-      "is_open_opportunity": false
-    },
-    {
-      "reference": "25-045",
-      "project": "Vetrarþjónusta 2025-2028, Borgarfjörður – Mýrar – Akrafjallshringur",
-      "buyer": "Vegagerðin",
-      "notice_type": "Samningum lokið",
-      "deadline": "",
-      "deadline_local": "",
-      "deadline_utc": "",
-      "deadline_confirmed": false,
-      "posted_at": "2025-05-27",
-      "modified_at": null,
-      "url": "https://www.vegagerdin.is/verkefnin/utbod/vetrarthjonusta-2025-2028-borgarfjordur-myrar-akrafjallshringur",
-      "summary": "Útboð 25-045 · 27. maí 2025",
-      "source": "vegagerdin-samningum-lokid",
-      "intelligence_type": "historical_award",
-      "is_open_opportunity": false
-    },
-    {
-      "reference": "25-042",
-      "project": "Vetrarþjónusta 2025-2028, Holtavörðuheiði – Hvammstangavegur",
-      "buyer": "Vegagerðin",
-      "notice_type": "Samningum lokið",
-      "deadline": "",
-      "deadline_local": "",
-      "deadline_utc": "",
-      "deadline_confirmed": false,
-      "posted_at": "2025-07-16",
-      "modified_at": null,
-      "url": "https://www.vegagerdin.is/verkefnin/utbod/vetrarthjonusta-2025-2028-holtavorduheidi-hvammstangavegur",
-      "summary": "Útboð 25-042 · 16. júlí 2025",
-      "source": "vegagerdin-samningum-lokid",
-      "intelligence_type": "historical_award",
-      "is_open_opportunity": false
-    },
-    {
-      "reference": "25-069",
-      "project": "Vetrarþjónusta 2025-2028, Reykjanesbraut – Suðurnes",
-      "buyer": "Vegagerðin",
-      "notice_type": "Samningum lokið",
-      "deadline": "",
-      "deadline_local": "",
-      "deadline_utc": "",
-      "deadline_confirmed": false,
-      "posted_at": "2025-06-11",
-      "modified_at": null,
-      "url": "https://www.vegagerdin.is/verkefnin/utbod/olafsvik-nordurbakki-lenging-2025",
-      "summary": "Útboð 25-069 · 11. júní 2025",
-      "source": "vegagerdin-samningum-lokid",
-      "intelligence_type": "historical_award",
-      "is_open_opportunity": false
-    },
-    {
-      "reference": "25-039",
-      "project": "Vetrarþjónusta 2025-2028, Selfoss – Norðlingaholt",
-      "buyer": "Vegagerðin",
-      "notice_type": "Samningum lokið",
-      "deadline": "",
-      "deadline_local": "",
-      "deadline_utc": "",
-      "deadline_confirmed": false,
-      "posted_at": "2025-05-29",
-      "modified_at": null,
-      "url": "https://www.vegagerdin.is/verkefnin/utbod/vetrarthjonusta-2025-2028-selfoss-nordlingaholt",
-      "summary": "Útboð 25-039 · 29. maí 2025",
-      "source": "vegagerdin-samningum-lokid",
-      "intelligence_type": "historical_award",
-      "is_open_opportunity": false
-    },
-    {
-      "reference": "25-044",
-      "project": "Vetrarþjónusta 2025-2028, Vestur-Ísafjarðarsýsla",
-      "buyer": "Vegagerðin",
-      "notice_type": "Samningum lokið",
-      "deadline": "",
-      "deadline_local": "",
-      "deadline_utc": "",
-      "deadline_confirmed": false,
-      "posted_at": "2025-06-02",
-      "modified_at": null,
-      "url": "https://www.vegagerdin.is/verkefnin/utbod/vetrarthjonusta-2025-2028-vestur-isafjardarsysla",
-      "summary": "Útboð 25-044 · 2. júní 2025",
-      "source": "vegagerdin-samningum-lokid",
-      "intelligence_type": "historical_award",
-      "is_open_opportunity": false
-    },
-    {
-      "reference": "25-043",
-      "project": "Vetrarþjónusta 2025-2028, Ólafsvík – Vatnaleið",
-      "buyer": "Vegagerðin",
-      "notice_type": "Samningum lokið",
-      "deadline": "",
-      "deadline_local": "",
-      "deadline_utc": "",
-      "deadline_confirmed": false,
-      "posted_at": "2025-06-12",
-      "modified_at": null,
-      "url": "https://www.vegagerdin.is/verkefnin/utbod/vetrarthjonusta-2025-2028-olafsvik-vatnaleid",
-      "summary": "Útboð 25-043 · 12. júní 2025",
-      "source": "vegagerdin-samningum-lokid",
-      "intelligence_type": "historical_award",
-      "is_open_opportunity": false
-    },
-    {
-      "reference": "26-097",
-      "project": "Vetrarþjónusta 2026-2029, Breiðdalsvík – Djúpivogur (Hraðútboð)",
-      "buyer": "Vegagerðin",
-      "notice_type": "Opnun tilboða",
-      "deadline": "",
-      "deadline_local": "",
-      "deadline_utc": "",
-      "deadline_confirmed": false,
-      "posted_at": "2026-06-23",
-      "modified_at": null,
-      "url": "https://www.vegagerdin.is/verkefnin/utbod/vetrarthjonusta-2026-2029-breiddalsvik-djupivogur-hradutbod",
-      "summary": "Útboð 26-097 · 23. júní 2026",
-      "source": "vegagerdin-opnun-tilboda",
-      "intelligence_type": "bid_opening",
-      "is_open_opportunity": false
-    },
-    {
-      "reference": "26-099",
-      "project": "Vetrarþjónusta 2026-2029, Fjarðarheiði (Hraðútboð)",
-      "buyer": "Vegagerðin",
-      "notice_type": "Opnun tilboða",
-      "deadline": "",
-      "deadline_local": "",
-      "deadline_utc": "",
-      "deadline_confirmed": false,
-      "posted_at": "2026-06-23",
-      "modified_at": null,
-      "url": "https://www.vegagerdin.is/verkefnin/utbod/vetrarthjonusta-2026-2029-fjardarheidi-hradutbod",
-      "summary": "Útboð 26-099 · 23. júní 2026",
-      "source": "vegagerdin-opnun-tilboda",
-      "intelligence_type": "bid_opening",
-      "is_open_opportunity": false
-    },
-    {
-      "reference": "26-089",
-      "project": "Vetrarþjónusta 2026-2029, Höfn - Fagurhólmsmýri - Hólmur",
-      "buyer": "Vegagerðin",
-      "notice_type": "Opnun tilboða",
-      "deadline": "",
-      "deadline_local": "",
-      "deadline_utc": "",
-      "deadline_confirmed": false,
-      "posted_at": "2026-06-23",
-      "modified_at": null,
-      "url": "https://www.vegagerdin.is/verkefnin/utbod/vetrarthjonusta-2026-2029-hofn-fagurholmsmyri-holmur",
-      "summary": "Útboð 26-089 · 23. júní 2026",
-      "source": "vegagerdin-opnun-tilboda",
-      "intelligence_type": "bid_opening",
-      "is_open_opportunity": false
-    },
-    {
-      "reference": "26-069",
-      "project": "Vetrarþjónusta 2026-2029, Steinar - Kirkjubæjarklaustur",
-      "buyer": "Vegagerðin",
-      "notice_type": "Samningum lokið",
-      "deadline": "",
-      "deadline_local": "",
-      "deadline_utc": "",
-      "deadline_confirmed": false,
-      "posted_at": "2026-06-26",
-      "modified_at": null,
-      "url": "https://www.vegagerdin.is/verkefnin/utbod/vetrarthjonusta-2026-2029-steinar-kirkjubaejarklaustur",
-      "summary": "Útboð 26-069 · 26. júní 2026",
       "source": "vegagerdin-samningum-lokid",
       "intelligence_type": "historical_award",
       "is_open_opportunity": false

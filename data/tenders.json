@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T07:00:25.921738+00:00",
+  "generated_at": "2026-10-22T22:40:39.752223+00:00",
   "source": {
     "site": "https://www.utbodsvefur.is",
     "posts_api": "https://www.utbodsvefur.is/wp-json/wp/v2/posts",
@@ -7,12 +7,12 @@
     "count_drop_guard": {
       "status": "fresh",
       "threshold": ">70% source-count collapse",
-      "previous_good_count": 65,
-      "current_count": 67,
-      "minimum_allowed_count": 19
+      "previous_good_count": 67,
+      "current_count": 72,
+      "minimum_allowed_count": 20
     }
   },
-  "count": 67,
+  "count": 72,
   "tenders": [
     {
       "reference": "HRUN-BL01",
@@ -29,8 +29,8 @@
       "summary": "Verkefnið felst í útvegun og afhendingu á efni í vatnsveitu, þ.e. lögnum, tengistykkjum og öðrum tilheyrandi búnaði og flutning þess til kaupanda. Efn..."
     },
     {
-      "reference": "000",
-      "project": "Skautasvell á Ingólfstorgi",
+      "reference": "16364",
+      "project": "Skautasvell á Ingólfstorgi. Markaðskönnun nr. 16364",
       "buyer": "Reykjavíkurborg",
       "notice_type": "Markaðskönnun (RFI)",
       "deadline": "26.10.2026 kl. 12:00",
@@ -38,7 +38,7 @@
       "deadline_utc": "2026-10-26T12:00:00+00:00",
       "deadline_confirmed": true,
       "posted_at": "2026-10-21T20:09:25+00:00",
-      "modified_at": "2026-10-21T20:09:25+00:00",
+      "modified_at": "2026-10-22T09:33:38+00:00",
       "url": "https://www.utbodsvefur.is/skautasvell-a-ingolfstorgi/",
       "summary": "Reykjavíkurborg óskar eftir áhugasömum aðilum til að setja upp og reka skautasvell á Ingólfstorgi frá 28. nóvember 2026 til 3. janúar 2027. Gert er rá..."
     },
@@ -351,6 +351,34 @@
       "summary": "Framkvæmdasýslan – Ríkiseignir, hér eftir nefnt FSRE, f.h. verkkaupa, Dómsmálaráðuneytisins, óskar eftir umsóknum fyrirtækja eða teyma fyrirtækj..."
     },
     {
+      "reference": "I0237",
+      "project": "Markaðskönnun – RFI Sjálfvirkur lyfjalager",
+      "buyer": "Nýr Landspítali",
+      "notice_type": "Markaðskönnun (RFI)",
+      "deadline": "04.11.2026 kl. 13:00",
+      "deadline_local": "2026-11-04T13:00:00+00:00",
+      "deadline_utc": "2026-11-04T13:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-22T11:16:12+00:00",
+      "modified_at": "2026-10-22T11:16:12+00:00",
+      "url": "https://www.utbodsvefur.is/markadskonnun-rfi-sjalfvirkur-lyfjalager/",
+      "summary": "Nýr Landspítali (NLSH) óskar eftir upplýsingum frá hæfum birgjum varðandi heildarlausn frá einum aðila fyrir sjálfvirkan lyfjalager. Nánari upplýsinga..."
+    },
+    {
+      "reference": "I0236",
+      "project": "Markaðskönnun – RFI Stakskömmtunarvél fyrir lyf",
+      "buyer": "Nýr Landspítali",
+      "notice_type": "Markaðskönnun (RFI)",
+      "deadline": "04.11.2026 kl. 13:00",
+      "deadline_local": "2026-11-04T13:00:00+00:00",
+      "deadline_utc": "2026-11-04T13:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-22T14:04:47+00:00",
+      "modified_at": "2026-10-22T14:04:47+00:00",
+      "url": "https://www.utbodsvefur.is/markadskonnun-rfi-stakskommtunarvel-fyrir-lyf/",
+      "summary": "Nýr Landspítali (NLSH) óskar eftir upplýsingum frá hæfum birgjum varðandi heildarlausn fyrir stakskömmtunarvél (Unit Dose Robot System). Nánari upplýs..."
+    },
+    {
       "reference": "I0054",
       "project": "Uppsetning, Strengir og Tengingar (UST)",
       "buyer": "Nýr Landspítali",
@@ -491,6 +519,20 @@
       "summary": "Fjarðarbyggðarhafnir óska eftir tilboðum í mönnun, rekstur og almennt viðhald dráttarbátsins Vattar. Þjónustan nær til eftirfarandi hafna á starfssvæð..."
     },
     {
+      "reference": "27-2026",
+      "project": "Einnota plastsvuntur fyrir Landspítala",
+      "buyer": "Landspítali",
+      "notice_type": "Verðfyrirspurn",
+      "deadline": "12.11.2026 kl. 12:00",
+      "deadline_local": "2026-11-12T12:00:00+00:00",
+      "deadline_utc": "2026-11-12T12:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-22T14:16:34+00:00",
+      "modified_at": "2026-10-22T14:16:34+00:00",
+      "url": "https://www.utbodsvefur.is/einnota-plastsvuntur-fyrir-landspitala/",
+      "summary": "Landspítali óskar eftir upplýsingum um verð og gæði á einnota plastsvuntum. Nánari upplýsingar eru í verðfyrirspurnargögnum sem eru aðgengileg af efti..."
+    },
+    {
       "reference": "2507230",
       "project": "Vetrarþjónusta í Árborg",
       "buyer": "Sveitafélagið Árborg",
@@ -556,9 +598,23 @@
       "deadline_utc": "2026-11-20T11:15:00+00:00",
       "deadline_confirmed": true,
       "posted_at": "2026-10-15T13:59:51+00:00",
-      "modified_at": "2026-10-15T13:59:51+00:00",
+      "modified_at": "2026-10-22T08:17:49+00:00",
       "url": "https://www.utbodsvefur.is/utbod-a-hysingu-rekstrar-og-notendathjonustu-fyrir-akureyrarbae/",
       "summary": "Akureyrarbær óskar eftir tilboðum í hýsingu og rekstur upplýsingatækniumhverfis sveitarfélagsins, auk notendaþjónustu. Samningstími er frá 1.4.2027 &#..."
+    },
+    {
+      "reference": "16342",
+      "project": "Rafræn undirritunarlausn fyrir Reykjavíkurborg. Rammasamningur, EES útboð nr. 16342",
+      "buyer": "Reykjavíkurborg",
+      "notice_type": "Þjónusta",
+      "deadline": "24.11.2026 kl. 10:00",
+      "deadline_local": "2026-11-24T10:00:00+00:00",
+      "deadline_utc": "2026-11-24T10:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-22T12:44:53+00:00",
+      "modified_at": "2026-10-22T12:44:53+00:00",
+      "url": "https://www.utbodsvefur.is/rafraen-undirritunarlausn-fyrir-reykjavikurborg-rammasamningur-ees-utbod-nr-16342/",
+      "summary": "F.h. Reykjavíkurborgar er óskað eftir tilboðum í eftirfarandi verk: Rafræn undirritunarlausn fyrir Reykjavíkurborg. Rammasamningur, EES útboð nr. 1634..."
     },
     {
       "reference": "202650",
@@ -587,6 +643,20 @@
       "modified_at": "2026-10-19T09:04:42+00:00",
       "url": "https://www.utbodsvefur.is/baran-endurnyjun-a-gervigrasi/",
       "summary": "Endurnýjun gervigrass í Bárunni Sveitarfélagið Hornafjörður óskar eftir tilboðum í verkið„Báran – endurnýjun á gervigrasi“. Um er að ræða almennt opið..."
+    },
+    {
+      "reference": "26-102",
+      "project": "Telehandler (telescopic handler) for The Icelandic Road and Coastal Administration (IRCA)",
+      "buyer": "Vegagerðin",
+      "notice_type": "Vörukaup",
+      "deadline": "24.11.2026 kl. 14:00",
+      "deadline_local": "2026-11-24T14:00:00+00:00",
+      "deadline_utc": "2026-11-24T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-22T17:00:05+00:00",
+      "modified_at": "2026-10-22T17:00:05+00:00",
+      "url": "https://www.utbodsvefur.is/telehandler-telescopic-handler-for-the-icelandic-road-and-coastal-administration-irca/",
+      "summary": "Vegagerðin býður hér með út Innkaup á einum nýjum skotbómulyftara fjórhjóladrifinum (4X4) með driflæsingu. Vegagerðin áskilur sér rétt til innkaupa á ..."
     },
     {
       "reference": "2026108663",
