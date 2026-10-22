@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated": "2026-10-21T07:00:26Z",
-  "generated_at": "2026-10-21T07:00:26Z",
+  "generated": "2026-10-22T07:00:26Z",
+  "generated_at": "2026-10-22T07:00:26Z",
   "sources": {
     "utbodsvefur": {
-      "generated_at": "2026-10-21T07:00:26.038404+00:00",
-      "count": 65,
+      "generated_at": "2026-10-22T07:00:25.921738+00:00",
+      "count": 67,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders.json"
     },
     "offportal": {
-      "generated": "2026-10-21T07:00:26Z",
+      "generated": "2026-10-22T07:00:26Z",
       "count": 173,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders_offportal.json"
     },
@@ -327,7 +327,7 @@
         "evidence_url": "https://www.utbodsvefur.is/leiga-a-tjaldsvaedinu-i-kalmansvik-2/",
         "seen_count": 1,
         "first_seen": "2026-10-21T07:00:26Z",
-        "last_seen": "2026-10-21T07:00:26Z",
+        "last_seen": "2026-10-22T07:00:26Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       },
@@ -339,7 +339,7 @@
         "evidence_url": "https://www.utbodsvefur.is/fjallabyggd-snjomokstur-og-halkuvarnir-2026-2029/",
         "seen_count": 1,
         "first_seen": "2026-10-06T07:00:27Z",
-        "last_seen": "2026-10-21T07:00:26Z",
+        "last_seen": "2026-10-22T07:00:26Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       },
@@ -351,15 +351,15 @@
         "evidence_url": "https://www.utbodsvefur.is/vetrarthjonusta-i-arborg/",
         "seen_count": 1,
         "first_seen": "2026-10-19T07:00:26Z",
-        "last_seen": "2026-10-21T07:00:26Z",
+        "last_seen": "2026-10-22T07:00:26Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       }
     ]
   },
-  "count": 229,
+  "count": 231,
   "counts_by_intelligence_type": {
-    "active_tender": 70,
+    "active_tender": 72,
     "bid_opening": 33,
     "closed_tender": 2,
     "historical_award": 96,
@@ -3036,23 +3036,6 @@
       "is_open_opportunity": false
     },
     {
-      "reference": "113-2026",
-      "project": "RFI – Automated Urinanalysis System f. Landspítala",
-      "buyer": "Landspítali",
-      "notice_type": "Markaðskönnun (RFI)",
-      "deadline": "21.10.2026 kl. 12:00",
-      "deadline_local": "2026-10-21T12:00:00+00:00",
-      "deadline_utc": "2026-10-21T12:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-09-30T07:06:06+00:00",
-      "modified_at": "2026-09-30T07:06:06+00:00",
-      "url": "https://www.utbodsvefur.is/rfi-automated-urinanalysis-system-f-landspitala/",
-      "summary": "Landspítali óskar eftir upplýsingum um sjálfvirk þvagrannsóknartæki á markaði vegna fyrirhugaðrar endurnýjunar á núverandi búnaði. Markmið markaðskönn...",
-      "source": "utbodsvefur",
-      "intelligence_type": "active_tender",
-      "is_open_opportunity": true
-    },
-    {
       "reference": "HRUN-BL01",
       "project": "Blákvísl – Vatnsveita efnisútboð",
       "buyer": "Hrunamannahreppur",
@@ -3082,6 +3065,23 @@
       "modified_at": "2026-10-15T17:04:08+00:00",
       "url": "https://www.utbodsvefur.is/keflavik-airport-unified-security-checkpoint-solution/",
       "summary": "Isavia ohf. ásamt dótturfélögum óskar eftir heildarlausn fyrir öryggisleitarbúnað á Keflavíkurflugvelli. Umfang innkaupanna nær til útvegunar, uppsetn...",
+      "source": "utbodsvefur",
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true
+    },
+    {
+      "reference": "000",
+      "project": "Skautasvell á Ingólfstorgi",
+      "buyer": "Reykjavíkurborg",
+      "notice_type": "Markaðskönnun (RFI)",
+      "deadline": "26.10.2026 kl. 12:00",
+      "deadline_local": "2026-10-26T12:00:00+00:00",
+      "deadline_utc": "2026-10-26T12:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-21T20:09:25+00:00",
+      "modified_at": "2026-10-21T20:09:25+00:00",
+      "url": "https://www.utbodsvefur.is/skautasvell-a-ingolfstorgi/",
+      "summary": "Reykjavíkurborg óskar eftir áhugasömum aðilum til að setja upp og reka skautasvell á Ingólfstorgi frá 28. nóvember 2026 til 3. janúar 2027. Gert er rá...",
       "source": "utbodsvefur",
       "intelligence_type": "active_tender",
       "is_open_opportunity": true
@@ -3405,6 +3405,23 @@
       "modified_at": "2026-10-20T16:24:58+00:00",
       "url": "https://www.utbodsvefur.is/glerarvirkjun-1-akureyri-mokstur-ur-loni/",
       "summary": "Norðurorka f.h Fallorku ehf. óskar eftir tilboðum í jarðefni í inntakslóni Glerárvirkjunar I í Glerárhverfi á Akureyri. Bjóðandi greiðir verkkaupa fas...",
+      "source": "utbodsvefur",
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true
+    },
+    {
+      "reference": "26-143",
+      "project": "Vík í Mýrdal, flóðvörn 2026",
+      "buyer": "Vegagerðin",
+      "notice_type": "Framkvæmd",
+      "deadline": "03.11.2026 kl. 14:00",
+      "deadline_local": "2026-11-03T14:00:00+00:00",
+      "deadline_utc": "2026-11-03T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-21T13:50:31+00:00",
+      "modified_at": "2026-10-21T14:08:24+00:00",
+      "url": "https://www.utbodsvefur.is/vik-i-myrdal-flodvorn-2026/",
+      "summary": "Vegagerðin býður hér með út verkið „Vík í Mýrdal, flóðvörn 2026“. Um er að ræða gerð um 900 m langs flóðvarnargarðs, frá fjárhúsavegi að Kötlugarði au...",
       "source": "utbodsvefur",
       "intelligence_type": "active_tender",
       "is_open_opportunity": true
@@ -3767,6 +3784,23 @@
       "is_open_opportunity": true
     },
     {
+      "reference": "2026108663",
+      "project": "Útboð á vátryggingarþjónustu fyrir Akureyrarbæ, Hafnarsjóð Norðurlands og Norðurorku",
+      "buyer": "Akureyrarbær",
+      "notice_type": "Þjónusta",
+      "deadline": "25.11.2026 kl. 11:15",
+      "deadline_local": "2026-11-25T11:15:00+00:00",
+      "deadline_utc": "2026-11-25T11:15:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-19T13:46:50+00:00",
+      "modified_at": "2026-10-19T13:46:50+00:00",
+      "url": "https://www.utbodsvefur.is/utbod-a-vatryggingarthjonustu-fyrir-akureyrarbae-hafnarsjod-nordurlands-og-nordurorku/",
+      "summary": "Akureyrarbær óskar eftir tilboðum í vátryggingarþjónustu sveitarfélagsins, Hafnasamlags Norðurlands og Norðurorku hf. Samningstími er frá 1. janúar 20...",
+      "source": "utbodsvefur",
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true
+    },
+    {
       "reference": "TZS26002",
       "project": "Þotugildrur á Keflavíkurflugvelli",
       "buyer": "Fjársýslan ríkisins",
@@ -3793,7 +3827,7 @@
       "deadline_utc": "2026-12-21T11:00:00+00:00",
       "deadline_confirmed": true,
       "posted_at": "2026-10-14T11:36:19+00:00",
-      "modified_at": "2026-10-14T11:36:19+00:00",
+      "modified_at": "2026-10-21T10:15:15+00:00",
       "url": "https://www.utbodsvefur.is/leiga-a-tjaldsvaedinu-i-kalmansvik-2/",
       "summary": "Akraneskaupstaður óskar eftir tilboðum í leigu á tjaldsvæðinu í Kalmansvík. Svæðið þar sem tjaldsvæðið er staðsett er tæplega 2,2 ha að flatarmáli og ...",
       "source": "utbodsvefur",

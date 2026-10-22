@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T07:00:26.038404+00:00",
+  "generated_at": "2026-10-22T07:00:25.921738+00:00",
   "source": {
     "site": "https://www.utbodsvefur.is",
     "posts_api": "https://www.utbodsvefur.is/wp-json/wp/v2/posts",
@@ -8,26 +8,12 @@
       "status": "fresh",
       "threshold": ">70% source-count collapse",
       "previous_good_count": 65,
-      "current_count": 65,
+      "current_count": 67,
       "minimum_allowed_count": 19
     }
   },
-  "count": 65,
+  "count": 67,
   "tenders": [
-    {
-      "reference": "113-2026",
-      "project": "RFI – Automated Urinanalysis System f. Landspítala",
-      "buyer": "Landspítali",
-      "notice_type": "Markaðskönnun (RFI)",
-      "deadline": "21.10.2026 kl. 12:00",
-      "deadline_local": "2026-10-21T12:00:00+00:00",
-      "deadline_utc": "2026-10-21T12:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-09-30T07:06:06+00:00",
-      "modified_at": "2026-09-30T07:06:06+00:00",
-      "url": "https://www.utbodsvefur.is/rfi-automated-urinanalysis-system-f-landspitala/",
-      "summary": "Landspítali óskar eftir upplýsingum um sjálfvirk þvagrannsóknartæki á markaði vegna fyrirhugaðrar endurnýjunar á núverandi búnaði. Markmið markaðskönn..."
-    },
     {
       "reference": "HRUN-BL01",
       "project": "Blákvísl – Vatnsveita efnisútboð",
@@ -41,6 +27,20 @@
       "modified_at": "2026-09-21T16:39:00+00:00",
       "url": "https://www.utbodsvefur.is/blakvisl-vatnsveita-efnisutbod/",
       "summary": "Verkefnið felst í útvegun og afhendingu á efni í vatnsveitu, þ.e. lögnum, tengistykkjum og öðrum tilheyrandi búnaði og flutning þess til kaupanda. Efn..."
+    },
+    {
+      "reference": "000",
+      "project": "Skautasvell á Ingólfstorgi",
+      "buyer": "Reykjavíkurborg",
+      "notice_type": "Markaðskönnun (RFI)",
+      "deadline": "26.10.2026 kl. 12:00",
+      "deadline_local": "2026-10-26T12:00:00+00:00",
+      "deadline_utc": "2026-10-26T12:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-21T20:09:25+00:00",
+      "modified_at": "2026-10-21T20:09:25+00:00",
+      "url": "https://www.utbodsvefur.is/skautasvell-a-ingolfstorgi/",
+      "summary": "Reykjavíkurborg óskar eftir áhugasömum aðilum til að setja upp og reka skautasvell á Ingólfstorgi frá 28. nóvember 2026 til 3. janúar 2027. Gert er rá..."
     },
     {
       "reference": "U25032",
@@ -323,6 +323,20 @@
       "summary": "Norðurorka f.h Fallorku ehf. óskar eftir tilboðum í jarðefni í inntakslóni Glerárvirkjunar I í Glerárhverfi á Akureyri. Bjóðandi greiðir verkkaupa fas..."
     },
     {
+      "reference": "26-143",
+      "project": "Vík í Mýrdal, flóðvörn 2026",
+      "buyer": "Vegagerðin",
+      "notice_type": "Framkvæmd",
+      "deadline": "03.11.2026 kl. 14:00",
+      "deadline_local": "2026-11-03T14:00:00+00:00",
+      "deadline_utc": "2026-11-03T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-21T13:50:31+00:00",
+      "modified_at": "2026-10-21T14:08:24+00:00",
+      "url": "https://www.utbodsvefur.is/vik-i-myrdal-flodvorn-2026/",
+      "summary": "Vegagerðin býður hér með út verkið „Vík í Mýrdal, flóðvörn 2026“. Um er að ræða gerð um 900 m langs flóðvarnargarðs, frá fjárhúsavegi að Kötlugarði au..."
+    },
+    {
       "reference": "6061102",
       "project": "Hönnun og bygging öryggisfangelsis – Forval",
       "buyer": "FSRE - Framkvæmdasýslan Ríkiseignir",
@@ -575,6 +589,20 @@
       "summary": "Endurnýjun gervigrass í Bárunni Sveitarfélagið Hornafjörður óskar eftir tilboðum í verkið„Báran – endurnýjun á gervigrasi“. Um er að ræða almennt opið..."
     },
     {
+      "reference": "2026108663",
+      "project": "Útboð á vátryggingarþjónustu fyrir Akureyrarbæ, Hafnarsjóð Norðurlands og Norðurorku",
+      "buyer": "Akureyrarbær",
+      "notice_type": "Þjónusta",
+      "deadline": "25.11.2026 kl. 11:15",
+      "deadline_local": "2026-11-25T11:15:00+00:00",
+      "deadline_utc": "2026-11-25T11:15:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-19T13:46:50+00:00",
+      "modified_at": "2026-10-19T13:46:50+00:00",
+      "url": "https://www.utbodsvefur.is/utbod-a-vatryggingarthjonustu-fyrir-akureyrarbae-hafnarsjod-nordurlands-og-nordurorku/",
+      "summary": "Akureyrarbær óskar eftir tilboðum í vátryggingarþjónustu sveitarfélagsins, Hafnasamlags Norðurlands og Norðurorku hf. Samningstími er frá 1. janúar 20..."
+    },
+    {
       "reference": "TZS26002",
       "project": "Þotugildrur á Keflavíkurflugvelli",
       "buyer": "Fjársýslan",
@@ -598,7 +626,7 @@
       "deadline_utc": "2026-12-21T11:00:00+00:00",
       "deadline_confirmed": true,
       "posted_at": "2026-10-14T11:36:19+00:00",
-      "modified_at": "2026-10-14T11:36:19+00:00",
+      "modified_at": "2026-10-21T10:15:15+00:00",
       "url": "https://www.utbodsvefur.is/leiga-a-tjaldsvaedinu-i-kalmansvik-2/",
       "summary": "Akraneskaupstaður óskar eftir tilboðum í leigu á tjaldsvæðinu í Kalmansvík. Svæðið þar sem tjaldsvæðið er staðsett er tæplega 2,2 ha að flatarmáli og ..."
     },
