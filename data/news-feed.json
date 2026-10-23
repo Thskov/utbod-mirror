@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated": "2026-10-22T22:34:42Z",
+  "generated": "2026-10-23T06:30:01Z",
   "window": {
-    "from": "2026-09-22",
-    "to": "2026-10-22"
+    "from": "2026-09-23",
+    "to": "2026-10-23"
   },
   "coverage": {
     "sources": [
@@ -240,6 +240,7 @@
         "hvalárvirkjun",
         "hvammsvirkjun",
         "hús íslenskra fræða",
+        "kvíslatunguvirkjun",
         "meðferðarkjari nlsh",
         "nta25 new terminal apron",
         "saga",
@@ -259,6 +260,7 @@
         "Hvalárvirkjun",
         "Hvammsvirkjun",
         "Hús íslenskra fræða",
+        "Kvíslatunguvirkjun",
         "Meðferðarkjari NLSH",
         "NTA25 New terminal apron",
         "Saga",
@@ -324,7 +326,7 @@
       "fiskifrettir": "Incomplete: 11 relevant records rejected without verified publication dates.",
       "visir": "Incomplete: 3 relevant records rejected without verified publication dates.",
       "visir-fiskeldi": "Incomplete: 9 relevant records rejected without verified publication dates.",
-      "heimildin": "Incomplete: 5 relevant records rejected without verified publication dates.",
+      "heimildin": "Incomplete: 4 relevant records rejected without verified publication dates.",
       "landsvirkjun": "Incomplete: 37 relevant records rejected without verified publication dates.",
       "landsvirkjun-utbod": "Incomplete: 40 relevant records rejected without verified publication dates.",
       "landsnet-news": "Incomplete: no verified in-window relevant records extracted.",
@@ -350,7 +352,7 @@
     },
     "source_candidates": []
   },
-  "count": 97,
+  "count": 95,
   "items": [
     {
       "id": "news:visir-vidskipti:leiguverd-laekkar-ad-raunvirdi-og-ovissa-a-fasteignamarkadi",
@@ -410,18 +412,6 @@
       "summary": "Endurbótum á Hlévangi fyrir yfir 100 milljónir króna lokið",
       "url": "https://byggingar.is/endurbotum-a-hlevangi-fyrir-yfir-100-milljonir-krona-lokid/",
       "outlet": "byggingar.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:virkjun-borholu-a-laugarvatni-bradabirgdatenging-i-vinnslu",
-      "lane": "news",
-      "category": "project",
-      "title": "Virkjun borholu á Laugarvatni: Bráðabirgðatenging í vinnslu",
-      "entity": "braggi.is",
-      "date": "2026-10-22",
-      "summary": "Framkvæmda- og veitunefnd Bláskógabyggðar fól Ólafi Jósef Ólafssyni, veitustjóra, að vinna áfram að verkefni um virkjun borholu á Laugarvatni og leggja fram minnisblað fyrir sveitarstjórn. Þetta var ákveðið á 85. fundi nefndarinnar sem haldinn var í",
-      "url": "https://braggi.is/virkjun-borholu-a-laugarvatni-bradabirgdatenging-i-vinnslu/",
-      "outlet": "braggi.is",
       "is_new": true
     },
     {
@@ -509,18 +499,6 @@
       "is_new": true
     },
     {
-      "id": "news:braggi:forstjori-segir-skorta-traust-stjornar-b7de8205",
-      "lane": "news",
-      "category": "project",
-      "title": "Forstjóri segir skorta traust stjórnar",
-      "entity": "braggi.is",
-      "date": "2026-10-22",
-      "summary": "Hörður Arnarson, fráfarandi forstjóri Landsvirkjunar, sagði í Kastljósi að honum hafi þótt skorta traust frá stjórn ríkisfyrirtækisins. Hann telur slíkt traust nauðsynlegt í starfi forstjóra, sérstaklega þegar kemur að flóknum viðskiptasamningum við",
-      "url": "https://braggi.is/forstjori-segir-skorta-traust-stjornar-b7de8205/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
       "id": "news:braggi:dalvikurbyggd-samthykkir-uthlutun-lodar-vid-karlsraudatorg-an-auglysingar",
       "lane": "news",
       "category": "project",
@@ -602,7 +580,7 @@
       "summary": "Guðmundur Kristjánsson forstjóri Brims segir veiðigjöld hafa lækkað í ár frá því í fyrra. Hann segir þetta sýna ófyrirsjáanleika kerfisins, það sé líkt og alþingismenn viti ekkert hvað það sé sem þeir samþykkja. Hann segir enga þora að fjárfesta lengur í sjávarútvegi vegna óvissu í kringum kerfið sem feli ýmist í sér hækkanir eða lækkanir miðað við flókna r...",
       "url": "https://www.visir.is/g/20262951805d/veidigjoldin-laekkad-en-ekki-haekkad-a-thessu-ari",
       "outlet": "visir.is / Viðskipti",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "news:visir-vidskipti:undirbuningur-kolnunar-ekki-endilega-best-ad-byrja-a-nidurskurdi",
@@ -614,7 +592,7 @@
       "summary": "Í nokkurn tíma hefur blasað við að kólnun er fram undan í efnahagslífinu. Samdrátturinn er þegar orðinn mjög sýnilegur, ekki síst í byggingariðnaði en almennt líka í sölu margra fyrirtækja og róðurinn þyngist bæði í rekstri heimila og fyrirtækja.",
       "url": "https://www.visir.is/g/20262950988d/undirbuningur-kolnunar-ekki-endilega-best-ad-byrja-a-nidurskurdi",
       "outlet": "visir.is / Viðskipti",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "news:visir-vidskipti:samfelagslegt-mal-ad-jafnretti-se-virt",
@@ -626,7 +604,7 @@
       "summary": "Góður rekstrarárangur einn og sér dugar ekki til að teljast framúrskarandi. Creditinfo hefur hert skilyrði vottunarinnar Framúrskarandi fyrirtæki og gerir nú kröfu um að fyrirtæki sem falla undir lög um kynjahlutföll í stjórnum uppfylli þau. Margrét Kristmannsdóttir, framkvæmdastjóri Pfaff, og Hermann Björnsson, forstjóri Sjóvá, fagna ákvörðuninni. Bæði leg...",
       "url": "https://www.visir.is/g/20262948699d/samfelagslegt-mal-ad-jafnretti-se-virt",
       "outlet": "visir.is / Viðskipti",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "news:vegagerdin:haegt-ad-loka-reykjanesbraut-med-fjarstyringu",
@@ -638,7 +616,7 @@
       "summary": "Frétt­ir 21. október 2026 Hægt að loka Reykjanesbraut með fjarstýringu",
       "url": "https://www.vegagerdin.is/vegagerdin/starfsemi/frettir/haegt-ad-loka-reykjanesbraut-med-fjarstyringu",
       "outlet": "Vegagerðin",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "news:reykjavik:uppbygging-borgarlinu-vid-hlemmtorg",
@@ -650,7 +628,7 @@
       "summary": "21. október 2026 Uppbygging Borgarlínu við Hlemmtorg",
       "url": "https://reykjavik.is/frettir/2026/uppbygging-borgarlinu-vid-hlemmtorg",
       "outlet": "Reykjavíkurborg",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "news:reykjavik:samkeppni-um-ljoslistaverk-vetrarhatid-2027",
@@ -662,7 +640,7 @@
       "summary": "21. október 2026 Samkeppni um ljóslistaverk á Vetrarhátíð 2027",
       "url": "https://reykjavik.is/frettir/2026/samkeppni-um-ljoslistaverk-vetrarhatid-2027",
       "outlet": "Reykjavíkurborg",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "news:fsre:fyrsta-skoflustungan-tekin-ad-nyju-oeryggisfangelsi-ad-stora-hrauni",
@@ -674,7 +652,7 @@
       "summary": "21. október 2026 Fyrsta skóflustungan tekin að nýju öryggisfangelsi að Stóra-Hrauni Fyrsta skóflustungan að nýju öryggisfangelsi að Stóra-Hrauni var tekin ...",
       "url": "https://www.fsre.is/s/fsre/frett/fyrsta-skoflustungan-tekin-ad-nyju-oeryggisfangelsi-ad-stora-hrauni",
       "outlet": "FSRE",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-gott-verk-ehf-laegst-i-stigagerd-og-y",
@@ -686,17 +664,17 @@
       "summary": "Gott verk ehf. lægst í stígagerð og yfirborðsfrágang í Breiðamýri – 13 tilboð bárust Bæjarráð Garðabæjar samþykkti á fundi sínum 20. október að taka tilboði Gott verks ehf. í stígagerð og yfirborðsfrágang á miðsvæði Álftaness í Breiðamýri. Tilboð fyrirtækisins nam 42.972.500 krónum, eða 82,3% af kostnaðaráætlun verkkaupa. Alls bárust 13 tilboð í framkvæmdin...",
       "url": "https://byggingar.is/gott-verk-ehf-laegst-i-stigagerd-og-yfirbordsfragang-i-breidamyri-13-tilbod-barust/?utm_source=rss&utm_medium=rss&utm_campaign=gott-verk-ehf-laegst-i-stigagerd-og-yfirbordsfragang-i-breidamyri-13-tilbod-barust",
       "outlet": "byggingar.is / niðurstöður útboða",
-      "is_new": true
+      "is_new": false
     },
     {
-      "id": "news:visir-innherji:vanraekti-ad-rannsaka-raunverulegan-kostnad-keppinauta-landsvirkjunar",
+      "id": "news:visir-innherji:van-raekti-ad-rann-saka-raun-veru-legan-kostnad-keppi-nauta-lands-virkjunar",
       "lane": "news",
       "category": "project",
-      "title": "Van­rækti að rann­saka raun­veru­legan kostnað keppi­nauta Lands­virkjunar",
+      "title": "Vanrækti að rannsaka raunverulegan kostnað keppinauta Landsvirkjunar",
       "entity": "visir.is / Innherji",
       "date": "2026-10-20",
-      "summary": "Van­rækti að rann­saka raun­veru­legan kostnað keppi­nauta Lands­virkjunar Innherji",
-      "url": "https://www.visir.is/g/20262951182d/vanraekti-ad-rannsaka-raunverulegan-kostnad-keppinauta-landsvirkjunar",
+      "summary": "Vanrækti að rannsaka raunverulegan kostnað keppinauta Landsvirkjunar",
+      "url": "https://www.visir.is/g/20262951182d/van-raekti-ad-rann-saka-raun-veru-legan-kostnad-keppi-nauta-lands-virkjunar",
       "outlet": "visir.is / Innherji",
       "is_new": false
     },
