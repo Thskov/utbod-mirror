@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated": "2026-10-22T22:35:48Z",
+  "generated": "2026-10-23T06:45:01Z",
   "window": {
-    "from": "2026-10-15",
-    "to": "2026-10-22"
+    "from": "2026-10-16",
+    "to": "2026-10-23"
   },
   "coverage": {
     "municipalities": [
@@ -45,6 +45,7 @@
       "Hvalárvirkjun",
       "Hvammsvirkjun",
       "Hús íslenskra fræða",
+      "Kvíslatunguvirkjun",
       "matsskyldu",
       "matsáætlun",
       "Meðferðarkjari NLSH",
@@ -225,6 +226,7 @@
         "ístak project: Hvalárvirkjun",
         "ístak project: Hvammsvirkjun",
         "ístak project: Hús íslenskra fræða",
+        "ístak project: Kvíslatunguvirkjun",
         "ístak project: Meðferðarkjari NLSH",
         "ístak project: NTA25 New terminal apron",
         "ístak project: Saga",
@@ -341,7 +343,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/5586",
         "seen_count": 1,
         "first_seen": "2026-10-22T22:35:48Z",
-        "last_seen": "2026-10-22T22:35:48Z",
+        "last_seen": "2026-10-23T06:45:01Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -490,7 +492,7 @@
           "outside_window": 1
         },
         "skagafjordur-skipulagsnefnd": {
-          "outside_window": 11,
+          "outside_window": 12,
           "undated": 96
         },
         "orkustofnun": {
@@ -544,9 +546,9 @@
       }
     }
   },
-  "count": 354,
+  "count": 339,
   "counts_by_intelligence_type": {
-    "public_record": 330,
+    "public_record": 315,
     "reference_tracker": 24
   },
   "items": [
@@ -1108,91 +1110,6 @@
       "intelligence_type": "public_record"
     },
     {
-      "id": "utu:2609027",
-      "lane": "planning",
-      "source": "utu",
-      "entity": "Umhverfis- og tæknisvið Uppsveita",
-      "title": "Vaðholt 2 L219744; Úr frístundabyggð í landbúnaðarsvæði; Aðalskipulagsbreyting – 2609027",
-      "case_number": "2609027",
-      "date": "2026-10-15",
-      "review_deadline": "2026-11-06",
-      "status": "consultation",
-      "summary": "Sveitarstjórn Grímsnes- og Grafningshrepps samþykkti á fundi sínum þann 7. október 2026, að kynna tillögu að aðalskipulagsbreytingu sem tekur til breytinga á aðalskipulagi Grímsnes- og Grafningshrepps 2020-2032. Í breytingunni felst að um 5,3 ha lands í landi Ormsstaða breytist úr frístundabyggð í landbúnaðarsvæði. UPPDRÁTTUR",
-      "url": "https://www.utu.is/auglysingar/skipulagsauglysing-birt-dags-15-oktober-2026/",
-      "keywords_matched": [
-        "skipulag"
-      ],
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "utu:2609013",
-      "lane": "planning",
-      "source": "utu",
-      "entity": "Umhverfis- og tæknisvið Uppsveita",
-      "title": "Súluholtshjáleiga L166391; Efnistaka E13 og E24; Aðalskipulagsbreyting – 2609013",
-      "case_number": "2609013",
-      "date": "2026-10-15",
-      "review_deadline": "2026-11-06",
-      "status": "consultation",
-      "summary": "Sveitarstjórn Flóahrepps samþykkti á fundi sínum þann 6. október 2026, að kynna skipulagslýsingu sem tekur til breytinga á aðalskipulagi Flóahrepps 2017-2029. Í breytingunni felst að efnistökusvæðin E13 og E24 verða stækkuð og heimiluð meiri efnistaka. SKIPULAGSLÝSING MATSSKYLDUFYRIRSPURN Samkvæmt 40. gr. skipulagslaga nr. 123/2010 er hér kynnt tillaga eftirfarandi deiliskipulagsáætlunar:",
-      "url": "https://www.utu.is/auglysingar/skipulagsauglysing-birt-dags-15-oktober-2026/",
-      "keywords_matched": [
-        "skipulag"
-      ],
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "utu:2412025",
-      "lane": "planning",
-      "source": "utu",
-      "entity": "Umhverfis- og tæknisvið Uppsveita",
-      "title": "Heiðargerði 9-19, L166239; Athafnasvæði; Deiliskipulag – 2412025",
-      "case_number": "2412025",
-      "date": "2026-10-15",
-      "review_deadline": "2026-11-06",
-      "status": "consultation",
-      "summary": "Sveitarstjórn Flóahrepps samþykkti á fundi sínum 6. október 2026 að auglýsa að nýju tillögu að deiliskipulagi fyrir athafnasvæðið AT1 við Heiðargerði, L166239, samkvæmt 41. gr. skipulagslaga nr. 123/2010. Tillagan er auglýst að nýju þar sem meira en eitt ár er liðið frá því að athugasemdafrestur vegna fyrri auglýsingar rann út og meginforsendur deiliskipulagsins eiga sér stoð í gildandi aðalskipulagi sveitarfélagsins. Innan skipulagssvæðisins eru afmarkaðar 10 lóðir fyrir uppbyggingu hreinnar atvinnustarfsemi. Jafnframt er gert ráð fyrir geymslusvæði og gámasvæði. UPPDRÁTTUR GREINARGERÐ GÁTLISTI",
-      "url": "https://www.utu.is/auglysingar/skipulagsauglysing-birt-dags-15-oktober-2026/",
-      "keywords_matched": [
-        "skipulag"
-      ],
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "utu:2411063",
-      "lane": "planning",
-      "source": "utu",
-      "entity": "Umhverfis- og tæknisvið Uppsveita",
-      "title": "Reykir L166491; Frístundabyggð; Deiliskipulag – 2411063",
-      "case_number": "2411063",
-      "date": "2026-10-15",
-      "review_deadline": "2026-11-06",
-      "status": "consultation",
-      "summary": "Sveitarstjórn Skeiða- og Gnúpverjahrepps samþykkti á fundi sínum 7. október 2026 að auglýsa að nýju tillögu að deiliskipulagi fyrir Reyki, L166491, samkvæmt 41. gr. skipulagslaga nr. 123/2010. Tillagan er auglýst að nýju þar sem meira en eitt ár er liðið frá því að athugasemdafrestur vegna fyrri auglýsingar rann út og meginforsendur deiliskipulagsins eiga sér stoð í gildandi aðalskipulagi sveitarfélagsins. Deiliskipulagið tekur til Reykja, L166491, í Skeiða- og Gnúpverjahreppi. Innan skipulagssvæðisins eru afmarkaðar fjórar frístundalóðir austast í landi jarðarinnar, að Sandlæk. UPPDRÁTTUR Ofangreindar skipulagstillögur liggja frammi til kynningar á skrifstofu skipulagsfulltrúa, Hverabraut 6, Laugarvatni á skrifstofutíma embættisins. Að auki er hægt að nálgast tillögur á vefslóðinni www.utu.is og á skipulagsgátt Skipulagsstofnunar skipulagsgatt.is/. Mál 1. – 3. innan auglýsingar eru skipulagsmál í kynningu frá 15.10.2026 með athugasemdarfresti til og með 06.11.2026. Mál 4. – 5. innan auglýsingar eru skipulagsmál í auglýsingu frá 15.10.2026 með athugasemdarfresti til og með 27.11.2026. Athugasemdum og ábendingum skal skila inn á skipulagsgátt Skipulagsstofnunar Skipulagsgáttin undi…",
-      "url": "https://www.utu.is/auglysingar/skipulagsauglysing-birt-dags-15-oktober-2026/",
-      "keywords_matched": [
-        "skipulag"
-      ],
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "utu:2403049",
-      "lane": "planning",
-      "source": "utu",
-      "entity": "Umhverfis- og tæknisvið Uppsveita",
-      "title": "Ljósafossskóli L168468; Fjölgun gistirýma; Deiliskipulag – 2403049",
-      "case_number": "2403049",
-      "date": "2026-10-15",
-      "review_deadline": "2026-11-06",
-      "status": "consultation",
-      "summary": "Sveitarstjórn Grímsnes- og Grafningshrepps samþykkti á fundi sínum þann 7. október 2026, að kynna nýtt deiliskipulag sem tekur til viðskipta- og þjónustulóðar Ljósafossskóla L168468. Í deiliskipulaginu felst heimild til frekari uppbyggingar gististarfsemi á svæðinu, þar á meðal fjölgun gistirýma og uppbygging nýrra gistieininga innan afmarkaðs byggingarreits. UPPDRÁTTUR Samkvæmt 41. gr. skipulagslaga nr. 123/2010 eru hér auglýstar tillögur eftirfarandi deiliskipulagsáætlana:",
-      "url": "https://www.utu.is/auglysingar/skipulagsauglysing-birt-dags-15-oktober-2026/",
-      "keywords_matched": [
-        "skipulag"
-      ],
-      "intelligence_type": "public_record"
-    },
-    {
       "id": "skgatt:1199/2026",
       "lane": "planning",
       "title": "Reykir L166491; Frístundabyggð; Deiliskipulag - 2411063",
@@ -1259,23 +1176,6 @@
       "review_deadline": "2026-11-12",
       "summary": "Bæjarstjórn Mosfellsbæjar samþykkti á fundi sínum þann 2. september 2026 að auglýsa og kynna, deiliskipulagsbreytingu vegna stækkunar þjónustu- og aðkomubyggingar að Varmá, í samræmi við 2. mgr. 43. gr. skipulagslaga nr. 123/2010.",
       "url": "https://skipulagsgatt.is/issues/5507",
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "planning:skagafjordur-skipulagsnefnd:5853",
-      "lane": "planning",
-      "source": "skagafjordur-skipulagsnefnd",
-      "title": "15.10.2026 - Skipulagsnefnd",
-      "entity": "Skagafjörður",
-      "status": "published",
-      "date": "2026-10-15",
-      "summary": "15.10.2026 - Skipulagsnefnd",
-      "url": "https://www.skagafjordur.is/is/fundargerdir/skipulagsnefnd/5853",
-      "keywords_matched": [
-        "aðalskipulag",
-        "deiliskipulag",
-        "skipulag"
-      ],
       "intelligence_type": "public_record"
     },
     {
@@ -1848,20 +1748,6 @@
       "intelligence_type": "public_record"
     },
     {
-      "id": "skgatt:1127/2026",
-      "lane": "planning",
-      "title": "Hrappsstaðir - nýtt deiliskipulag",
-      "entity": "Akureyri",
-      "case_number": "1127/2026",
-      "plan_type": "deiliskipulag",
-      "status": "Lýsing",
-      "date": "2026-09-30",
-      "review_deadline": "2026-10-15",
-      "summary": "málsnr. 2026085585",
-      "url": "https://skipulagsgatt.is/issues/5482",
-      "intelligence_type": "public_record"
-    },
-    {
       "id": "skgatt:1121/2026",
       "lane": "planning",
       "title": "Hlíðarvegur 46",
@@ -2067,32 +1953,6 @@
       "keywords_matched": [
         "matsskyldu"
       ],
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "skgatt:1078/2026",
-      "lane": "planning",
-      "title": "Suðurgata 5 L190347 - Viðbygging við leikskóla",
-      "entity": "Sveitarfélagið Vogar",
-      "case_number": "1078/2026",
-      "status": "Grenndarkynning byggingarleyfisumsóknar",
-      "date": "2026-09-17",
-      "review_deadline": "2026-10-15",
-      "summary": "Fyrir liggja áform Sveitarfélagsins um stækkun leikskólans við Suðurgötu 5 með uppsetningu færanlegra kennslustofa. Gert er ráð fyrir að húsnæðið verði nýtt tímabundið, a.m.k. þar til nýr leikskóli rís við Grænuborg, sem stefnt er að verði innan 5-7 ára. Samkvæmt fyrirliggjandi gögnum er gert ráð fyrir þremur leikskóladeildum auk aukinnar starfsmannaaðstöðu…",
-      "url": "https://skipulagsgatt.is/issues/5433",
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "skgatt:1070/2026",
-      "lane": "planning",
-      "title": "Brekkugerði 4 - USK26060115",
-      "entity": "Reykjavík",
-      "case_number": "1070/2026",
-      "status": "Grenndarkynning byggingarleyfisumsóknar",
-      "date": "2026-09-15",
-      "review_deadline": "2026-10-15",
-      "summary": "Um er að ræða byggingarleyfsumsókn þar sem sótt er um leyfi til að byggja stakstæðan bílskúr, mhl.02, á lóð nr. 4 við Brekkugerði.",
-      "url": "https://skipulagsgatt.is/issues/5425",
       "intelligence_type": "public_record"
     },
     {
@@ -2321,20 +2181,6 @@
       "intelligence_type": "public_record"
     },
     {
-      "id": "skgatt:1026/2026",
-      "lane": "planning",
-      "title": "Víkurheiði - AT5 - Endurskoðun deiliskipulags",
-      "entity": "Árborg",
-      "case_number": "1026/2026",
-      "plan_type": "deiliskipulag",
-      "status": "Auglýsing tillögu",
-      "date": "2026-09-04",
-      "review_deadline": "2026-10-15",
-      "summary": "Lögð er fram tillaga að nýju og endurskoðuðu deiliskipulagi fyrir athafnasvæði AT5, í Víkurheiði. Endurskoðaðir verða núverandi skilmálar á núgildandi deiliskipulagi sem tekur til tæplega 46ha svæðis, sem liggur að svæðum ÍB 23 og ÍB 27 auk flugvallarsvæðis. Þá verður bætt við núverandi deiliskipulagssvæði nýju svæði, tæplega 24 ha að stærð, þar sem bætt ve…",
-      "url": "https://skipulagsgatt.is/issues/5381",
-      "intelligence_type": "public_record"
-    },
-    {
       "id": "heradsdomur:E-5406/2025",
       "lane": "court",
       "title": "Stefnendur: Verkþjónusta Sigurjóns slf. (Hannes Júlíus Hafstein lögmaður) Stefndu: B 2001 ehf.",
@@ -2392,25 +2238,6 @@
       "review_deadline": "2026-11-11",
       "summary": "Sótt er um leyfi fyrir hækkun mænis um 260mm með mæniskóta að hámarki 70,51 m.y.s., breytt útlits og breyttrar gluggasetningar á norðurhlið á þegar byggðu húsi á lóð Álfhólsvegar 62. Ástæða breytingarinnar er sú að raunhæð lóðarinnar var upphaflega mæld röng og því var byggt hús yfir leyfilegri hæð, breytt gluggasetning er til að mæta óskum verkkaupa. Árið…",
       "url": "https://skipulagsgatt.is/issues/5376",
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "skgatt:1019/2026",
-      "lane": "planning",
-      "title": "Vatnagarðar - Sundabakki 2 - USK26020277",
-      "entity": "Reykjavík",
-      "case_number": "1019/2026",
-      "plan_type": "deiliskipulag",
-      "status": "Auglýsing tillögu",
-      "date": "2026-09-02",
-      "review_deadline": "2026-10-15",
-      "summary": "Um er að ræða breytingu á deiliskipulagi Vatnagarða vegna lóðarinnar nr. 2 við Sundabakka. Í breytingunni sem lögð er til felst stofnun nýrrar lóðar, Sundabakki 2B, fyrir dreifistöð rafmagns ásamt því að setja inn kvöð um gegnumakstur að nýju lóðinni gegnum lóðina að Sundabakka 2 og 4.",
-      "url": "https://skipulagsgatt.is/issues/5374",
-      "strategic_flag": "Reykjavík USK hafnarskipulagsklasi",
-      "strategic_note": "Sundahöfn/Sundagarðar/Vatnagarðar cluster; major harbour planning items with review deadline 2026-08-27",
-      "keywords_matched": [
-        "hafnarskipulag"
-      ],
       "intelligence_type": "public_record"
     },
     {
@@ -2955,20 +2782,6 @@
       "keywords_matched": [
         "orku"
       ],
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "skgatt:0874/2026",
-      "lane": "planning",
-      "title": "Selfosslína 1 - breyting í Hellisskógi - Aðalskipulagsbreyting",
-      "entity": "Árborg",
-      "case_number": "0874/2026",
-      "plan_type": "adalskipulag",
-      "status": "Endanleg gögn",
-      "date": "2026-07-14",
-      "review_deadline": "2026-10-15",
-      "summary": "Lögð er fram tillaga óverulegrar breytingar á aðalskipulagi Árborgar 2020-2036 er varðar breytta legu Selfosslínu 1 í Hellisskógi. Jarðstrengur fyrir Selfosslínu 1 í Hellisskógi er færður til vesturs auk smávægilegrar tilfærslu við sv. félagamörk Flóahrepps. Breytingin er norðan þéttbýlismarka Árborgar. Í gildandi skipulagi er lega hans skilgreind nærri bak…",
-      "url": "https://skipulagsgatt.is/issues/5229",
       "intelligence_type": "public_record"
     },
     {
@@ -3655,20 +3468,6 @@
       "intelligence_type": "public_record"
     },
     {
-      "id": "skgatt:0802/2026",
-      "lane": "planning",
-      "title": "Hafnarsvæði H3 - DSK",
-      "entity": "Sveitarfélagið Ölfus",
-      "case_number": "0802/2026",
-      "plan_type": "deiliskipulag",
-      "status": "Auglýsing tillögu",
-      "date": "2026-06-24",
-      "review_deadline": "2026-10-15",
-      "summary": "Lagt er fram deiliskipulag fyrir hafnarsvæðið umhverfis Suðurvararbryggju. Á hafnarsvæðinu er gert ráð fyrir athafnasvæðinu AT8 og hafnarsvæði H3. Þar er einnig gert ráð fyrir að útsýnispallur við Suðurvör verði færður sunnar, nær Þorlákshafnarvita og að útbúið verði bílastæði og upphækkaður útsýnispallur þar.",
-      "url": "https://skipulagsgatt.is/issues/5157",
-      "intelligence_type": "public_record"
-    },
-    {
       "id": "skgatt:0784/2026",
       "lane": "planning",
       "title": "Hraunkvíar á Grímslækjarheiði DSK",
@@ -3985,20 +3784,6 @@
       "intelligence_type": "public_record"
     },
     {
-      "id": "skgatt:0633/2026",
-      "lane": "planning",
-      "title": "Breyting á deiliskipulagi Hólshrauns, iðnaðar- og þjónustulóðir vegna Hólshrauns 5.",
-      "entity": "Hafnarfjarðarkaupstaður",
-      "case_number": "0633/2026",
-      "plan_type": "deiliskipulag",
-      "status": "Endanleg gögn",
-      "date": "2026-05-21",
-      "review_deadline": "2026-10-15",
-      "summary": "Á afgreiðslufundi skipulagsfulltrúa þann 20. maí 2026. var samþykkt að grenndarkynna í samræmi við 2. mgr. 43. gr. skipulagslaga nr. 123/2010 tillögu að breytingu á deiliskipulagi vegna stækkunar lóðar fyrir Hólshraun 5.",
-      "url": "https://skipulagsgatt.is/issues/4988",
-      "intelligence_type": "public_record"
-    },
-    {
       "id": "skgatt:0630/2026",
       "lane": "planning",
       "title": "Elliðaárvogur/Ártúnshöfði – Svæði 2C – USK25110152",
@@ -4265,20 +4050,6 @@
       "review_deadline": "2026-11-13",
       "summary": "Um er að ræða tillögu að breytingu á deiliskipulagi Sunda vegna lóðarinnar nr. 18 við Dyngjuveg, Leikskólinn Sunnuás. Í breytingunni sem lögð er til felst að heimilt verði að rífa niður húsið á lóðinni og byggja nýtt stærra hús á lóð.",
       "url": "https://skipulagsgatt.is/issues/4956",
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "skgatt:0599/2026",
-      "lane": "planning",
-      "title": "Teigahverfi - Reykjavegur, Hofteigur, Kirkjuteigur - USK26040131",
-      "entity": "Reykjavík",
-      "case_number": "0599/2026",
-      "plan_type": "deiliskipulag",
-      "status": "Endanleg gögn",
-      "date": "2026-05-13",
-      "review_deadline": "2026-10-15",
-      "summary": "Um er að ræða tillögu að breytingu á deiliskipulagi Teigahverfis vegna Reykjavegar, Hofteigs og Kirkjuteigs. Í breytingunni sem lögð er til felst að loka fyrir umferð Kirkjuteigs annars vegar og hins vegar Hofteigs inn á Reykjaveg og að minnka óverulega lóð Laugarnesskóla til að koma fyrir snúningssvæði við enda Hofteigs.",
-      "url": "https://skipulagsgatt.is/issues/4954",
       "intelligence_type": "public_record"
     },
     {
