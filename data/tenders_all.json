@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "generated": "2026-10-22T22:40:39Z",
-  "generated_at": "2026-10-22T22:40:39Z",
+  "generated": "2026-10-23T07:00:25Z",
+  "generated_at": "2026-10-23T07:00:25Z",
   "sources": {
     "utbodsvefur": {
-      "generated_at": "2026-10-22T22:40:39.752223+00:00",
+      "generated_at": "2026-10-23T07:00:25.220305+00:00",
       "count": 72,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders.json"
     },
     "offportal": {
-      "generated": "2026-10-22T22:40:39Z",
-      "count": 161,
+      "generated": "2026-10-23T07:00:25Z",
+      "count": 156,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders_offportal.json"
     },
     "not_covered": [
+      {
+        "source": "ted",
+        "url": "https://api.ted.europa.eu/v3/notices/search",
+        "reason": "The read operation timed out",
+        "kind": "collection_failure",
+        "attempts": 3,
+        "coverage": "incomplete"
+      },
       {
         "source": "nlsh",
         "url": "https://www.nlsh.is/utbodi",
@@ -49,12 +57,6 @@
       }
     ],
     "filtering": [
-      {
-        "source": "ted",
-        "url": "https://api.ted.europa.eu/v3/notices/search",
-        "reason": "dropped 86 notices: expired deadline",
-        "kind": "filtering"
-      },
       {
         "kind": "filtering",
         "source": "utbodsvefur",
@@ -464,14 +466,14 @@
       }
     ]
   },
-  "count": 221,
+  "count": 216,
   "counts_by_intelligence_type": {
-    "active_tender": 58,
+    "active_tender": 55,
     "bid_opening": 30,
     "closed_tender": 2,
     "dynamic_purchasing_system": 16,
     "historical_award": 89,
-    "unverified_deadline": 26
+    "unverified_deadline": 24
   },
   "items": [
     {
@@ -3331,23 +3333,6 @@
       "is_open_opportunity": true
     },
     {
-      "reference": "680810-2026",
-      "project": "Design and construction of a New Security Prison",
-      "buyer": "Framkvæmdasýslan ríkiseignir (FSRE)",
-      "notice_type": "cn-standard",
-      "deadline": "04.11.2026 kl. 12:00",
-      "deadline_local": "2026-11-04T12:00:58+00:00",
-      "deadline_utc": "2026-11-04T12:00:58+00:00",
-      "deadline_confirmed": false,
-      "posted_at": "2026-10-02",
-      "modified_at": null,
-      "url": "https://ted.europa.eu/en/notice/-/detail/680810-2026",
-      "summary": "TED open Iceland construction contract notice; CPV 45000000, 45216113, 45000000, 45216113.",
-      "source": "ted",
-      "intelligence_type": "unverified_deadline",
-      "is_open_opportunity": false
-    },
-    {
       "reference": "I0237",
       "project": "Markaðskönnun – RFI Sjálfvirkur lyfjalager",
       "buyer": "Nýr Landspítali (NLSH ohf.)",
@@ -3429,23 +3414,6 @@
       "url": "https://www.utbodsvefur.is/kaup-og-uppsetning-faeranlegra-huseininga/",
       "summary": "Consensa, fyrir hönd Sveitarfélagsins Voga, óskar eftir tilboðum í verkefnið „Kaup og uppsetning færanlegra húseininga við Suðurvelli“, sem vinna skal...",
       "source": "utbodsvefur",
-      "intelligence_type": "active_tender",
-      "is_open_opportunity": true
-    },
-    {
-      "reference": "679193-2026",
-      "project": "Framework Agreement for Fault Response Services, Maintenance and Installation of Mechanical and Electrical Equipment",
-      "buyer": "Veitur ohf.",
-      "notice_type": "cn-standard",
-      "deadline": "05.11.2026 kl. 14:00",
-      "deadline_local": "2026-11-05T14:00:00+00:00",
-      "deadline_utc": "2026-11-05T14:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-10-02",
-      "modified_at": null,
-      "url": "https://ted.europa.eu/en/notice/-/detail/679193-2026",
-      "summary": "TED open Iceland construction contract notice; CPV 50710000, 50530000, 51110000, 45310000, 50511000, 71334000, 45259000, 50530000, 50532000, 51110000, 45310000, 71334000, 45259000, 50511000.",
-      "source": "ted",
       "intelligence_type": "active_tender",
       "is_open_opportunity": true
     },
@@ -3603,23 +3571,6 @@
       "is_open_opportunity": true
     },
     {
-      "reference": "715187-2026",
-      "project": "Portable Office Units for Hlíð Nursing Home",
-      "buyer": "Framkvæmdasýslan ríkiseignir (FSRE)",
-      "notice_type": "cn-standard",
-      "deadline": "16.11.2026 kl. 12:00",
-      "deadline_local": "2026-11-16T12:00:58+00:00",
-      "deadline_utc": "2026-11-16T12:00:58+00:00",
-      "deadline_confirmed": false,
-      "posted_at": "2026-10-16",
-      "modified_at": null,
-      "url": "https://ted.europa.eu/en/notice/-/detail/715187-2026",
-      "summary": "TED open Iceland construction contract notice; CPV 44211100, 45000000, 44211100, 45000000.",
-      "source": "ted",
-      "intelligence_type": "unverified_deadline",
-      "is_open_opportunity": false
-    },
-    {
       "reference": "23369",
       "project": "Upplýsingatækniþjónusta fyrir stafræna heilbrigðisþjónustu",
       "buyer": "Fjársýslan ríkisins",
@@ -3769,40 +3720,6 @@
       "url": "https://www.utbodsvefur.is/thotugildrur-a-keflavikurflugvelli/",
       "summary": "Utanríkisráðuneytið, varnarmálaskrifstofa og Landhelgisgæslan, varnarmálasvið, vekja athygli á auglýsingu innkaupastofnunar Atlantshafsbandalagsins (N...",
       "source": "utbodsvefur",
-      "intelligence_type": "active_tender",
-      "is_open_opportunity": true
-    },
-    {
-      "reference": "721659-2026",
-      "project": "Framework Agreement for Trenchless Lining of Sewer Pipelines",
-      "buyer": "Veitur ohf.",
-      "notice_type": "cn-standard",
-      "deadline": "18.01.2027 kl. 14:00",
-      "deadline_local": "2027-01-18T14:00:00+00:00",
-      "deadline_utc": "2027-01-18T14:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-10-19",
-      "modified_at": null,
-      "url": "https://ted.europa.eu/en/notice/-/detail/721659-2026",
-      "summary": "TED open Iceland construction contract notice; CPV 45232440, 45231300, 45231110, 45231112, 45232400.",
-      "source": "ted",
-      "intelligence_type": "active_tender",
-      "is_open_opportunity": true
-    },
-    {
-      "reference": "720466-2026",
-      "project": "HVM10 - Civil Works",
-      "buyer": "Landsvirkjun",
-      "notice_type": "cn-standard",
-      "deadline": "20.04.2027 kl. 14:00",
-      "deadline_local": "2027-04-20T14:00:00+00:00",
-      "deadline_utc": "2027-04-20T14:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-10-19",
-      "modified_at": null,
-      "url": "https://ted.europa.eu/en/notice/-/detail/720466-2026",
-      "summary": "TED open Iceland construction contract notice; CPV 45000000, 45000000.",
-      "source": "ted",
       "intelligence_type": "active_tender",
       "is_open_opportunity": true
     },

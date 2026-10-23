@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T22:40:39.752223+00:00",
+  "generated_at": "2026-10-23T07:00:25.220305+00:00",
   "source": {
     "site": "https://www.utbodsvefur.is",
     "posts_api": "https://www.utbodsvefur.is/wp-json/wp/v2/posts",
@@ -7,9 +7,9 @@
     "count_drop_guard": {
       "status": "fresh",
       "threshold": ">70% source-count collapse",
-      "previous_good_count": 67,
+      "previous_good_count": 72,
       "current_count": 72,
-      "minimum_allowed_count": 20
+      "minimum_allowed_count": 21
     }
   },
   "count": 72,
