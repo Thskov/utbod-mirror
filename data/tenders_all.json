@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "generated": "2026-10-23T07:00:25Z",
-  "generated_at": "2026-10-23T07:00:25Z",
+  "generated": "2026-10-26T07:00:25Z",
+  "generated_at": "2026-10-26T07:00:25Z",
   "sources": {
     "utbodsvefur": {
-      "generated_at": "2026-10-23T07:00:25.220305+00:00",
-      "count": 72,
+      "generated_at": "2026-10-26T07:00:25.058039+00:00",
+      "count": 74,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders.json"
     },
     "offportal": {
-      "generated": "2026-10-23T07:00:25Z",
-      "count": 156,
+      "generated": "2026-10-26T07:00:25Z",
+      "count": 157,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders_offportal.json"
     },
     "not_covered": [
@@ -433,10 +433,10 @@
         "name": "Akranesbær",
         "suggested_feed": "tenders_all",
         "suggested_lane": "tender",
-        "evidence_url": "https://www.utbodsvefur.is/leiga-a-tjaldsvaedinu-i-kalmansvik-2/",
+        "evidence_url": "https://www.utbodsvefur.is/raforkukaup-fyrir-akraneskaupstad-2027-2030/",
         "seen_count": 1,
         "first_seen": "2026-10-21T07:00:26Z",
-        "last_seen": "2026-10-22T07:00:26Z",
+        "last_seen": "2026-10-26T07:00:25Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       },
@@ -466,9 +466,9 @@
       }
     ]
   },
-  "count": 216,
+  "count": 218,
   "counts_by_intelligence_type": {
-    "active_tender": 55,
+    "active_tender": 57,
     "bid_opening": 30,
     "closed_tender": 2,
     "dynamic_purchasing_system": 16,
@@ -2942,23 +2942,6 @@
       "is_open_opportunity": false
     },
     {
-      "reference": "HRUN-BL01",
-      "project": "Blákvísl – Vatnsveita efnisútboð",
-      "buyer": "Hrunamannahreppur",
-      "notice_type": "Vörukaup",
-      "deadline": "23.10.2026 kl. 14:00",
-      "deadline_local": "2026-10-23T14:00:00+00:00",
-      "deadline_utc": "2026-10-23T14:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-09-21T16:39:00+00:00",
-      "modified_at": "2026-09-21T16:39:00+00:00",
-      "url": "https://www.utbodsvefur.is/blakvisl-vatnsveita-efnisutbod/",
-      "summary": "Verkefnið felst í útvegun og afhendingu á efni í vatnsveitu, þ.e. lögnum, tengistykkjum og öðrum tilheyrandi búnaði og flutning þess til kaupanda. Efn...",
-      "source": "utbodsvefur",
-      "intelligence_type": "active_tender",
-      "is_open_opportunity": true
-    },
-    {
       "reference": "U25032",
       "project": "Öryggisleitarbúnaður fyrir Keflavíkurflugvöll",
       "buyer": "Isavia",
@@ -3554,6 +3537,23 @@
       "is_open_opportunity": true
     },
     {
+      "reference": "25071502",
+      "project": "Markaðskönnun: hugbúnaðarlausn fyrir stuðningsþjónustu",
+      "buyer": "Kópavogsbær",
+      "notice_type": "Markaðskönnun (RFI)",
+      "deadline": "16.11.2026 kl. 10:00",
+      "deadline_local": "2026-11-16T10:00:00+00:00",
+      "deadline_utc": "2026-11-16T10:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-23T08:10:12+00:00",
+      "modified_at": "2026-10-23T08:23:13+00:00",
+      "url": "https://www.utbodsvefur.is/markadskonnun-hugbunadarlausn-fyrir-studningsthjonustu/",
+      "summary": "Kópavogsbær óskar eftir upplýsingum frá markaðsaðilum um hugbúnaðarlausnir sem geta stutt við skipulagningu, utanumhald og stafræna veitingu þjónustu ...",
+      "source": "utbodsvefur",
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true
+    },
+    {
       "reference": "6087175",
       "project": "Færanlegar húseiningar fyrir Hjúkrunarheimilið Hlíð",
       "buyer": "Framkvæmdasýslan ríkiseignir (FSRE)",
@@ -3707,6 +3707,23 @@
       "is_open_opportunity": true
     },
     {
+      "reference": "2608-5719",
+      "project": "Raforkukaup fyrir Akraneskaupstað 2027-2030",
+      "buyer": "Akranesbær",
+      "notice_type": "Vörukaup",
+      "deadline": "27.11.2026 kl. 11:00",
+      "deadline_local": "2026-11-27T11:00:00+00:00",
+      "deadline_utc": "2026-11-27T11:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-23T12:00:54+00:00",
+      "modified_at": "2026-10-23T14:39:09+00:00",
+      "url": "https://www.utbodsvefur.is/raforkukaup-fyrir-akraneskaupstad-2027-2030/",
+      "summary": "Akraneskaupstaður óskar eftir tilboði í innkaup á raforku fyrir alla almenna notkun í 4 ár samkvæmt útboðsgögnum. Um er að ræða almennt útboð. Tilboð...",
+      "source": "utbodsvefur",
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true
+    },
+    {
       "reference": "TZS26002",
       "project": "Þotugildrur á Keflavíkurflugvelli",
       "buyer": "Fjársýslan ríkisins",
@@ -3719,6 +3736,23 @@
       "modified_at": "2026-10-13T10:39:51+00:00",
       "url": "https://www.utbodsvefur.is/thotugildrur-a-keflavikurflugvelli/",
       "summary": "Utanríkisráðuneytið, varnarmálaskrifstofa og Landhelgisgæslan, varnarmálasvið, vekja athygli á auglýsingu innkaupastofnunar Atlantshafsbandalagsins (N...",
+      "source": "utbodsvefur",
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true
+    },
+    {
+      "reference": "VEU-2609-0060",
+      "project": "VEU-2609-0060 Fóðrun fráveitulagna",
+      "buyer": "Veitur ohf.",
+      "notice_type": "Framkvæmd Þjónusta",
+      "deadline": "18.01.2027 kl. 14:00",
+      "deadline_local": "2027-01-18T14:00:00+00:00",
+      "deadline_utc": "2027-01-18T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-23T13:34:32+00:00",
+      "modified_at": "2026-10-23T13:35:11+00:00",
+      "url": "https://www.utbodsvefur.is/veu-2609-0060-fodrun-fraveitulagna/",
+      "summary": "Veitur ohf. óskar eftir þátttekendum í rammasamning Veitna vegna verkefnis: „VEU-2609-0060 Fóðrun fráveitulagna“ Með útboðinu hyggst Kaupa...",
       "source": "utbodsvefur",
       "intelligence_type": "active_tender",
       "is_open_opportunity": true

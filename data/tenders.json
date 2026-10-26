@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T07:00:25.220305+00:00",
+  "generated_at": "2026-10-26T07:00:25.058039+00:00",
   "source": {
     "site": "https://www.utbodsvefur.is",
     "posts_api": "https://www.utbodsvefur.is/wp-json/wp/v2/posts",
@@ -8,26 +8,12 @@
       "status": "fresh",
       "threshold": ">70% source-count collapse",
       "previous_good_count": 72,
-      "current_count": 72,
+      "current_count": 74,
       "minimum_allowed_count": 21
     }
   },
-  "count": 72,
+  "count": 74,
   "tenders": [
-    {
-      "reference": "HRUN-BL01",
-      "project": "Blákvísl – Vatnsveita efnisútboð",
-      "buyer": "Hrunamannahreppur",
-      "notice_type": "Vörukaup",
-      "deadline": "23.10.2026 kl. 14:00",
-      "deadline_local": "2026-10-23T14:00:00+00:00",
-      "deadline_utc": "2026-10-23T14:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-09-21T16:39:00+00:00",
-      "modified_at": "2026-09-21T16:39:00+00:00",
-      "url": "https://www.utbodsvefur.is/blakvisl-vatnsveita-efnisutbod/",
-      "summary": "Verkefnið felst í útvegun og afhendingu á efni í vatnsveitu, þ.e. lögnum, tengistykkjum og öðrum tilheyrandi búnaði og flutning þess til kaupanda. Efn..."
-    },
     {
       "reference": "16364",
       "project": "Skautasvell á Ingólfstorgi. Markaðskönnun nr. 16364",
@@ -533,6 +519,20 @@
       "summary": "Landspítali óskar eftir upplýsingum um verð og gæði á einnota plastsvuntum. Nánari upplýsingar eru í verðfyrirspurnargögnum sem eru aðgengileg af efti..."
     },
     {
+      "reference": "25071502",
+      "project": "Markaðskönnun: hugbúnaðarlausn fyrir stuðningsþjónustu",
+      "buyer": "Kópavogsbær",
+      "notice_type": "Markaðskönnun (RFI)",
+      "deadline": "16.11.2026 kl. 10:00",
+      "deadline_local": "2026-11-16T10:00:00+00:00",
+      "deadline_utc": "2026-11-16T10:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-23T08:10:12+00:00",
+      "modified_at": "2026-10-23T08:23:13+00:00",
+      "url": "https://www.utbodsvefur.is/markadskonnun-hugbunadarlausn-fyrir-studningsthjonustu/",
+      "summary": "Kópavogsbær óskar eftir upplýsingum frá markaðsaðilum um hugbúnaðarlausnir sem geta stutt við skipulagningu, utanumhald og stafræna veitingu þjónustu ..."
+    },
+    {
       "reference": "2507230",
       "project": "Vetrarþjónusta í Árborg",
       "buyer": "Sveitafélagið Árborg",
@@ -673,6 +673,20 @@
       "summary": "Akureyrarbær óskar eftir tilboðum í vátryggingarþjónustu sveitarfélagsins, Hafnasamlags Norðurlands og Norðurorku hf. Samningstími er frá 1. janúar 20..."
     },
     {
+      "reference": "2608-5719",
+      "project": "Raforkukaup fyrir Akraneskaupstað 2027-2030",
+      "buyer": "Akranesbær",
+      "notice_type": "Vörukaup",
+      "deadline": "27.11.2026 kl. 11:00",
+      "deadline_local": "2026-11-27T11:00:00+00:00",
+      "deadline_utc": "2026-11-27T11:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-23T12:00:54+00:00",
+      "modified_at": "2026-10-23T14:39:09+00:00",
+      "url": "https://www.utbodsvefur.is/raforkukaup-fyrir-akraneskaupstad-2027-2030/",
+      "summary": "Akraneskaupstaður óskar eftir tilboði í innkaup á raforku fyrir alla almenna notkun í 4 ár samkvæmt útboðsgögnum. Um er að ræða almennt útboð. Tilboð..."
+    },
+    {
       "reference": "TZS26002",
       "project": "Þotugildrur á Keflavíkurflugvelli",
       "buyer": "Fjársýslan",
@@ -699,6 +713,20 @@
       "modified_at": "2026-10-21T10:15:15+00:00",
       "url": "https://www.utbodsvefur.is/leiga-a-tjaldsvaedinu-i-kalmansvik-2/",
       "summary": "Akraneskaupstaður óskar eftir tilboðum í leigu á tjaldsvæðinu í Kalmansvík. Svæðið þar sem tjaldsvæðið er staðsett er tæplega 2,2 ha að flatarmáli og ..."
+    },
+    {
+      "reference": "VEU-2609-0060",
+      "project": "VEU-2609-0060 Fóðrun fráveitulagna",
+      "buyer": "Veitur",
+      "notice_type": "Framkvæmd Þjónusta",
+      "deadline": "18.01.2027 kl. 14:00",
+      "deadline_local": "2027-01-18T14:00:00+00:00",
+      "deadline_utc": "2027-01-18T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-23T13:34:32+00:00",
+      "modified_at": "2026-10-23T13:35:11+00:00",
+      "url": "https://www.utbodsvefur.is/veu-2609-0060-fodrun-fraveitulagna/",
+      "summary": "Veitur ohf. óskar eftir þátttekendum í rammasamning Veitna vegna verkefnis: „VEU-2609-0060 Fóðrun fráveitulagna“ Með útboðinu hyggst Kaupa..."
     },
     {
       "reference": "2026-35",

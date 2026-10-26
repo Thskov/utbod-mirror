@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated": "2026-10-23T07:00:25Z",
-  "generated_at": "2026-10-23T07:00:25Z",
+  "generated": "2026-10-26T07:00:25Z",
+  "generated_at": "2026-10-26T07:00:25Z",
   "sources": {
     "covered": [
       {
@@ -515,9 +515,9 @@
       }
     ]
   },
-  "count": 156,
+  "count": 157,
   "counts_by_intelligence_type": {
-    "active_tender": 11,
+    "active_tender": 12,
     "bid_opening": 30,
     "closed_tender": 2,
     "historical_award": 89,
@@ -3036,6 +3036,23 @@
       "modified_at": null,
       "url": "https://in-tendhost.co.uk/reykjavikenergy/aspx/ProjectManage/706",
       "summary": "Verkefnið felur í sér endurnýjun á um 1550m löngum kafla HAB í landi Skorholts og Bakka. Lögð verður ný DN450 foreinangruð hitaveitulögn í nýrri legu frá festu í landi Bakka, merkt DT-362 að hitaveitubrunni í landi Skorholts, merktur DT-370. Ný lagnalega er um 1900m. Einnig felur verkefnið í sér niðurrifi á brunnum merktum DT-363, DT-364, DT-369 OG DT-370. Að tengingu nýrrar lagnar lokinni skal verktaki fjarlægja nú…",
+      "source": "or-intend",
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true
+    },
+    {
+      "reference": "VEU-2609-0060",
+      "project": "VEU-2609-0060 Fóðrun fráveitulagna",
+      "buyer": "Veitur ohf.",
+      "notice_type": "$prjTenderProcessServices",
+      "deadline": "18.01.2027 kl. 14:00",
+      "deadline_local": "2027-01-18T14:00:00+00:00",
+      "deadline_utc": "2027-01-18T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-18T22:00:00+00:00",
+      "modified_at": null,
+      "url": "https://in-tendhost.co.uk/reykjavikenergy/aspx/ProjectManage/709",
+      "summary": "Með útboði þessu hyggst Kaupandi koma á rammasamningi við tvo samningsaðila um þjónustu vegna fóðrunar lagna án uppgraftar. Megináhersla samningsins er fóðrun fráveitulagna, þ.m.t. lagna fyrir skólp og regnvatn. Kaupandi áskilur sér jafnframt rétt til að nýta samninginn vegna fóðrunar lagna í vatnsveitu og hitaveitu, eftir því sem þörf Kaupanda, tæknilegar forsendur, efnisval, vottanir og aðrar kröfur viðkomandi vei…",
       "source": "or-intend",
       "intelligence_type": "active_tender",
       "is_open_opportunity": true
