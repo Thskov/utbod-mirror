@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated": "2026-10-26T07:00:25Z",
-  "generated_at": "2026-10-26T07:00:25Z",
+  "generated": "2026-10-27T11:55:54Z",
+  "generated_at": "2026-10-27T11:55:54Z",
   "sources": {
     "covered": [
       {
@@ -64,14 +64,6 @@
     ],
     "not_covered": [
       {
-        "source": "ted",
-        "url": "https://api.ted.europa.eu/v3/notices/search",
-        "reason": "The read operation timed out",
-        "kind": "collection_failure",
-        "attempts": 3,
-        "coverage": "incomplete"
-      },
-      {
         "source": "nlsh",
         "url": "https://www.nlsh.is/utbodi",
         "reason": "HTTP 429 / Vercel checkpoint; portal supplementation via utbodsvefur does not establish complete direct coverage"
@@ -106,6 +98,12 @@
       }
     ],
     "filtering": [
+      {
+        "source": "ted",
+        "url": "https://api.ted.europa.eu/v3/notices/search",
+        "reason": "dropped 86 notices: expired deadline",
+        "kind": "filtering"
+      },
       {
         "kind": "filtering",
         "source": "utbodsvefur",
@@ -482,10 +480,10 @@
         "name": "Akranesbær",
         "suggested_feed": "tenders_all",
         "suggested_lane": "tender",
-        "evidence_url": "https://www.utbodsvefur.is/leiga-a-tjaldsvaedinu-i-kalmansvik-2/",
+        "evidence_url": "https://www.utbodsvefur.is/raforkukaup-fyrir-akraneskaupstad-2027-2030/",
         "seen_count": 1,
         "first_seen": "2026-10-21T07:00:26Z",
-        "last_seen": "2026-10-22T07:00:26Z",
+        "last_seen": "2026-10-26T07:00:25Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       },
@@ -515,13 +513,13 @@
       }
     ]
   },
-  "count": 157,
+  "count": 161,
   "counts_by_intelligence_type": {
-    "active_tender": 12,
+    "active_tender": 14,
     "bid_opening": 30,
     "closed_tender": 2,
     "historical_award": 89,
-    "unverified_deadline": 24
+    "unverified_deadline": 26
   },
   "items": [
     {
@@ -2990,19 +2988,36 @@
       "is_open_opportunity": false
     },
     {
-      "reference": "U25032",
-      "project": "U25032 Keflavík Airport Unified Security Checkpoint Solution",
-      "buyer": "Isavia",
-      "notice_type": "Works",
-      "deadline": "26.10.2026 kl. 12:00",
-      "deadline_local": "2026-10-26T12:00:00+00:00",
-      "deadline_utc": "2026-10-26T12:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": null,
+      "reference": "680810-2026",
+      "project": "Design and construction of a New Security Prison",
+      "buyer": "Framkvæmdasýslan ríkiseignir (FSRE)",
+      "notice_type": "cn-standard",
+      "deadline": "04.11.2026 kl. 12:00",
+      "deadline_local": "2026-11-04T12:00:58+00:00",
+      "deadline_utc": "2026-11-04T12:00:58+00:00",
+      "deadline_confirmed": false,
+      "posted_at": "2026-10-02",
       "modified_at": null,
-      "url": "https://in-tendhost.co.uk/isavia/aspx/ProjectManage/380",
-      "summary": "Isavia ohf. is conducting a procurement on behalf of Isavia ohf. and its subsidiaries for a complete passenger security checkpoint solution at Keflavík Airport. The scope includes the supply, installation, integration, commissioning, testing, handover, maintenance and support of airport security screening equipment, related software, interfaces and IT infrastructure, including CT security scanners for cabin baggage…",
-      "source": "isavia-intend",
+      "url": "https://ted.europa.eu/en/notice/-/detail/680810-2026",
+      "summary": "TED open Iceland construction contract notice; CPV 45000000, 45216113, 45000000, 45216113.",
+      "source": "ted",
+      "intelligence_type": "unverified_deadline",
+      "is_open_opportunity": false
+    },
+    {
+      "reference": "679193-2026",
+      "project": "Framework Agreement for Fault Response Services, Maintenance and Installation of Mechanical and Electrical Equipment",
+      "buyer": "Veitur ohf.",
+      "notice_type": "cn-standard",
+      "deadline": "05.11.2026 kl. 14:00",
+      "deadline_local": "2026-11-05T14:00:00+00:00",
+      "deadline_utc": "2026-11-05T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-02",
+      "modified_at": null,
+      "url": "https://ted.europa.eu/en/notice/-/detail/679193-2026",
+      "summary": "TED open Iceland construction contract notice; CPV 50710000, 50530000, 51110000, 45310000, 50511000, 71334000, 45259000, 50530000, 50532000, 51110000, 45310000, 71334000, 45259000, 50511000.",
+      "source": "ted",
       "intelligence_type": "active_tender",
       "is_open_opportunity": true
     },
@@ -3015,7 +3030,7 @@
       "deadline_local": "2026-11-05T14:00:00+00:00",
       "deadline_utc": "2026-11-05T14:00:00+00:00",
       "deadline_confirmed": true,
-      "posted_at": "2026-10-05T19:22:36.963000+00:00",
+      "posted_at": "2026-10-05T20:22:36.963000+00:00",
       "modified_at": null,
       "url": "https://in-tendhost.co.uk/reykjavikenergy/aspx/ProjectManage/705",
       "summary": "Með innkaupaferli þessu hyggst Kaupandi koma á Rammasamningi um vinnu við bilanaþjónustu, viðhald og uppsetningu á vél og rafbúnaði Þjónustan verður boðin út í tveimur flokkum og er bjóðendum heimilt að bjóða í staka eða báða flokka af því gefnu að viðkomandi uppfyllir kröfur fyrir þann flokk sem boðið er í: Flokkur 1 – Rafvirkjavinna Flokkur 2 - Málmiðnaðarvinna og rafmagn vélbúnaðar",
@@ -3041,6 +3056,40 @@
       "is_open_opportunity": true
     },
     {
+      "reference": "715187-2026",
+      "project": "Portable Office Units for Hlíð Nursing Home",
+      "buyer": "Framkvæmdasýslan ríkiseignir (FSRE)",
+      "notice_type": "cn-standard",
+      "deadline": "16.11.2026 kl. 12:00",
+      "deadline_local": "2026-11-16T12:00:58+00:00",
+      "deadline_utc": "2026-11-16T12:00:58+00:00",
+      "deadline_confirmed": false,
+      "posted_at": "2026-10-16",
+      "modified_at": null,
+      "url": "https://ted.europa.eu/en/notice/-/detail/715187-2026",
+      "summary": "TED open Iceland construction contract notice; CPV 44211100, 45000000, 44211100, 45000000.",
+      "source": "ted",
+      "intelligence_type": "unverified_deadline",
+      "is_open_opportunity": false
+    },
+    {
+      "reference": "721659-2026",
+      "project": "Framework Agreement for Trenchless Lining of Sewer Pipelines",
+      "buyer": "Veitur ohf.",
+      "notice_type": "cn-standard",
+      "deadline": "18.01.2027 kl. 14:00",
+      "deadline_local": "2027-01-18T14:00:00+00:00",
+      "deadline_utc": "2027-01-18T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-19",
+      "modified_at": null,
+      "url": "https://ted.europa.eu/en/notice/-/detail/721659-2026",
+      "summary": "TED open Iceland construction contract notice; CPV 45232440, 45231300, 45231110, 45231112, 45232400.",
+      "source": "ted",
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true
+    },
+    {
       "reference": "VEU-2609-0060",
       "project": "VEU-2609-0060 Fóðrun fráveitulagna",
       "buyer": "Veitur ohf.",
@@ -3049,11 +3098,28 @@
       "deadline_local": "2027-01-18T14:00:00+00:00",
       "deadline_utc": "2027-01-18T14:00:00+00:00",
       "deadline_confirmed": true,
-      "posted_at": "2026-10-18T22:00:00+00:00",
+      "posted_at": "2026-10-18T23:00:00+00:00",
       "modified_at": null,
       "url": "https://in-tendhost.co.uk/reykjavikenergy/aspx/ProjectManage/709",
       "summary": "Með útboði þessu hyggst Kaupandi koma á rammasamningi við tvo samningsaðila um þjónustu vegna fóðrunar lagna án uppgraftar. Megináhersla samningsins er fóðrun fráveitulagna, þ.m.t. lagna fyrir skólp og regnvatn. Kaupandi áskilur sér jafnframt rétt til að nýta samninginn vegna fóðrunar lagna í vatnsveitu og hitaveitu, eftir því sem þörf Kaupanda, tæknilegar forsendur, efnisval, vottanir og aðrar kröfur viðkomandi vei…",
       "source": "or-intend",
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true
+    },
+    {
+      "reference": "720466-2026",
+      "project": "HVM10 - Civil Works",
+      "buyer": "Landsvirkjun",
+      "notice_type": "cn-standard",
+      "deadline": "20.04.2027 kl. 14:00",
+      "deadline_local": "2027-04-20T14:00:00+00:00",
+      "deadline_utc": "2027-04-20T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-19",
+      "modified_at": null,
+      "url": "https://ted.europa.eu/en/notice/-/detail/720466-2026",
+      "summary": "TED open Iceland construction contract notice; CPV 45000000, 45000000.",
+      "source": "ted",
       "intelligence_type": "active_tender",
       "is_open_opportunity": true
     },
@@ -3066,7 +3132,7 @@
       "deadline_local": "2028-04-08T14:00:00+00:00",
       "deadline_utc": "2028-04-08T14:00:00+00:00",
       "deadline_confirmed": true,
-      "posted_at": "2024-03-03T23:00:00+00:00",
+      "posted_at": "2024-03-04T00:00:00+00:00",
       "modified_at": null,
       "url": "https://in-tendhost.co.uk/reykjavikenergy/aspx/ProjectManage/493",
       "summary": "Veitur óska eftir þátttakendum í GIK fyrir Veitulagnir, jarðvinnu og yfirborðsfrágang í samræmi við þessi skjöl. Undir gagnvirka innkaupakerfinu falla verkefni sem innifela í sér að hluta eða öllu leyti vinnu við eftirfarandi verkþætti fyrir verkefni verkkaupa á öllum veitusvæðum verkkaupa, hvort sem um er að ræða verkefni sem verkkaupi stendur einn að eða í samstarfi við aðra verkkaupa. 1. Öryggisráðstafanir og vin…",
@@ -3117,7 +3183,7 @@
       "deadline_local": "2031-04-17T14:00:00+00:00",
       "deadline_utc": "2031-04-17T14:00:00+00:00",
       "deadline_confirmed": true,
-      "posted_at": "2025-03-13T23:00:00+00:00",
+      "posted_at": "2025-03-14T00:00:00+00:00",
       "modified_at": null,
       "url": "https://in-tendhost.co.uk/reykjavikenergy/aspx/ProjectManage/580",
       "summary": "Kaupandi óskar eftir þátttakendum í gagnvirkt innkaupakerfi (GIK) fyrir laus húsgögn fyrir höfuðstöðvar Orkuveitunnar í samræmi við útboðsgögn. Umsóknir opnast í útboðskerfi kaupanda um leið og þær berast og verða þær yfirfarnar af kaupanda eins fljótt og auðið er eftir afhendingu frá umsækjanda. Umsækjendur eru hvattir til að senda inn umsóknir eins fljótt og auðið er eftir birtingu útboðstilkynningar til að tryggj…",

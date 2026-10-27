@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T07:00:25.058039+00:00",
+  "generated_at": "2026-10-27T11:55:54.824750+00:00",
   "source": {
     "site": "https://www.utbodsvefur.is",
     "posts_api": "https://www.utbodsvefur.is/wp-json/wp/v2/posts",
@@ -7,83 +7,13 @@
     "count_drop_guard": {
       "status": "fresh",
       "threshold": ">70% source-count collapse",
-      "previous_good_count": 72,
-      "current_count": 74,
-      "minimum_allowed_count": 21
+      "previous_good_count": 74,
+      "current_count": 76,
+      "minimum_allowed_count": 22
     }
   },
-  "count": 74,
+  "count": 76,
   "tenders": [
-    {
-      "reference": "16364",
-      "project": "Skautasvell á Ingólfstorgi. Markaðskönnun nr. 16364",
-      "buyer": "Reykjavíkurborg",
-      "notice_type": "Markaðskönnun (RFI)",
-      "deadline": "26.10.2026 kl. 12:00",
-      "deadline_local": "2026-10-26T12:00:00+00:00",
-      "deadline_utc": "2026-10-26T12:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-10-21T20:09:25+00:00",
-      "modified_at": "2026-10-22T09:33:38+00:00",
-      "url": "https://www.utbodsvefur.is/skautasvell-a-ingolfstorgi/",
-      "summary": "Reykjavíkurborg óskar eftir áhugasömum aðilum til að setja upp og reka skautasvell á Ingólfstorgi frá 28. nóvember 2026 til 3. janúar 2027. Gert er rá..."
-    },
-    {
-      "reference": "U25032",
-      "project": "Öryggisleitarbúnaður fyrir Keflavíkurflugvöll",
-      "buyer": "Isavia",
-      "notice_type": "Vörukaup",
-      "deadline": "26.10.2026 kl. 12:00",
-      "deadline_local": "2026-10-26T12:00:00+00:00",
-      "deadline_utc": "2026-10-26T12:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-08-05T11:32:54+00:00",
-      "modified_at": "2026-10-15T17:04:08+00:00",
-      "url": "https://www.utbodsvefur.is/keflavik-airport-unified-security-checkpoint-solution/",
-      "summary": "Isavia ohf. ásamt dótturfélögum óskar eftir heildarlausn fyrir öryggisleitarbúnað á Keflavíkurflugvelli. Umfang innkaupanna nær til útvegunar, uppsetn..."
-    },
-    {
-      "reference": "202606032",
-      "project": "Endurnýjun Jökulfellsvallar, jarðvinna og yfirborðsfrágangur",
-      "buyer": "Sveitarfélagið Hornafjörður",
-      "notice_type": "Framkvæmd",
-      "deadline": "26.10.2026 kl. 14:00",
-      "deadline_local": "2026-10-26T14:00:00+00:00",
-      "deadline_utc": "2026-10-26T14:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-10-13T13:53:47+00:00",
-      "modified_at": "2026-10-15T11:48:07+00:00",
-      "url": "https://www.utbodsvefur.is/endurnyjun-sindravallar-jardvinna-og-yfirbordsfragangur/",
-      "summary": "Sveitarfélagið Hornafjörður, hér eftir nefnt verkkaupi, óskar eftir tilboðum í verkið „Endurnýjun Jökulfellsvallar, jarðvinna og yfirborðsfrágangur“ e..."
-    },
-    {
-      "reference": "BSVK-20216-15",
-      "project": "Supply of Street light poles – Ljósastaurar fyrir Borgarlínu",
-      "buyer": "Betri samgöngur ohf.",
-      "notice_type": "Vörukaup",
-      "deadline": "26.10.2026 kl. 14:00",
-      "deadline_local": "2026-10-26T14:00:00+00:00",
-      "deadline_utc": "2026-10-26T14:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-09-24T09:36:57+00:00",
-      "modified_at": "2026-09-24T09:43:52+00:00",
-      "url": "https://www.utbodsvefur.is/supply-of-street-light-poles-ljosastaurar-fyrir-borgarlinu/",
-      "summary": "Betri samgöngur ohf. invites tenders for the manufacture and delivery of street lighting poles, brackets and associated accessories for streets and pa..."
-    },
-    {
-      "reference": "16348",
-      "project": "Rammasamningur um ferskt grænmeti og ávexti, EES útboð nr. 16348",
-      "buyer": "Reykjavíkurborg",
-      "notice_type": "Vörukaup",
-      "deadline": "27.10.2026 kl. 10:00",
-      "deadline_local": "2026-10-27T10:00:00+00:00",
-      "deadline_utc": "2026-10-27T10:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-09-24T12:03:32+00:00",
-      "modified_at": "2026-09-24T12:03:32+00:00",
-      "url": "https://www.utbodsvefur.is/rammasamningur-um-ferskt-graenmeti-og-avexti-ees-utbod-nr-16348/",
-      "summary": "Skrifstofa fjármálaþjónustu og ráðgjafar óskar eftir aðilum til þátttöku í útboði um rammasamning um ferskt grænmeti og ávexti fyrir Reykjavíkurborg R..."
-    },
     {
       "reference": "2605038",
       "project": "Fjallabyggð. snjómokstur og hálkuvarnir 2026 – 2029",
@@ -125,48 +55,6 @@
       "modified_at": "2026-09-28T14:23:00+00:00",
       "url": "https://www.utbodsvefur.is/supply-of-brt-street-light-poles-ljosastaurar-og-lampar-fyrir-borgarlinustodvar/",
       "summary": "Betri samgöngur ohf. invites tenders for light poles and luminaires for Borgarlína stations. The contract covers the purchase and delivery of light po..."
-    },
-    {
-      "reference": "26-132",
-      "project": "Þjónusta og viðhald veglýsingar á Reykjanesi",
-      "buyer": "Vegagerðin",
-      "notice_type": "Þjónusta",
-      "deadline": "27.10.2026 kl. 14:00",
-      "deadline_local": "2026-10-27T14:00:00+00:00",
-      "deadline_utc": "2026-10-27T14:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-10-14T12:04:05+00:00",
-      "modified_at": "2026-10-14T12:04:05+00:00",
-      "url": "https://www.utbodsvefur.is/thjonusta-og-vidhald-veglysingar-a-reykjanesi/",
-      "summary": "Vegagerðin býður hér með út þjónustu og viðhald veglýsingar á Reykjanesi. Um er að ræða almenna þjónustu og viðhald á veglýsingarkerfinu, niðurtekt o..."
-    },
-    {
-      "reference": "26-133",
-      "project": "Þjónusta og viðhald veglýsingar á höfuðborgarsvæðinu",
-      "buyer": "Vegagerðin",
-      "notice_type": "Þjónusta",
-      "deadline": "27.10.2026 kl. 14:00",
-      "deadline_local": "2026-10-27T14:00:00+00:00",
-      "deadline_utc": "2026-10-27T14:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-10-14T12:06:18+00:00",
-      "modified_at": "2026-10-14T12:06:18+00:00",
-      "url": "https://www.utbodsvefur.is/thjonusta-og-vidhald-veglysingar-a-hofudborgarsvaedinu/",
-      "summary": "Vegagerðin býður hér með út þjónustu og viðhald veglýsingar á höfuðborgarsvæðinu. Um er að ræða almenna þjónustu og viðhald á veglýsingarkerfinu, nið..."
-    },
-    {
-      "reference": "16350",
-      "project": "DAM system for the City of Reykjavík, EES útboð nr. 16350",
-      "buyer": "Reykjavíkurborg",
-      "notice_type": "Vörukaup",
-      "deadline": "28.10.2026 kl. 10:00",
-      "deadline_local": "2026-10-28T10:00:00+00:00",
-      "deadline_utc": "2026-10-28T10:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-09-25T12:33:31+00:00",
-      "modified_at": "2026-09-25T12:33:31+00:00",
-      "url": "https://www.utbodsvefur.is/dam-system-for-the-city-of-reykjavik-ees-utbod-nr-16350/",
-      "summary": "Skrifstofa fjármálaþjónustu og ráðgjafar f.h. Þjónustu- og nýsköpunarsviðs Reykjavíkurborgar óskar eftir tilboðum í DAM (digital asset management) ker..."
     },
     {
       "reference": "16313",
@@ -239,20 +127,6 @@
       "summary": "Skrifstofa fjármálaþjónustu og ráðgjafar f.h. Þjónustu- og nýsköpunarsviðs Reykjavíkurborgar óskar eftir tilboðum í: Ræsting fyrir stjórnsýsluhús Reyk..."
     },
     {
-      "reference": "23270",
-      "project": "Ræsting fyrir Stjórnarráð, nokkrar byggingar",
-      "buyer": "Fjársýslan",
-      "notice_type": "Þjónusta",
-      "deadline": "02.11.2026 kl. 12:00",
-      "deadline_local": "2026-11-02T12:00:00+00:00",
-      "deadline_utc": "2026-11-02T12:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-10-01T09:31:05+00:00",
-      "modified_at": "2026-10-01T09:36:27+00:00",
-      "url": "https://www.utbodsvefur.is/raesting-fyrir-stjornarrad-nokkrar-byggingar/",
-      "summary": "Fjársýslan, fyrir hönd Ríkiseigna, kt. 690980-0259, óskar eftir tilboðum í ræstiþjónustu fyrir Stjórnarráðið. Um er að ræða skrifstofuhúsnæði Umbru, e..."
-    },
-    {
       "reference": "202633",
       "project": "Slökkvibifreið fyrir slökkvilið Hornafjarðar",
       "buyer": "Sveitarfélagið Hornafjörður",
@@ -279,6 +153,20 @@
       "modified_at": "2026-10-06T15:05:01+00:00",
       "url": "https://www.utbodsvefur.is/utbod-a-thjonustu-og-vidhald-gatnalysingar-i-gardabae/",
       "summary": "Verkið felur í sér þjónustu og viðhald á allri gatnalýsingu í sveitarfélaginu bæði á veitusvæði HS Veitna og Veitna. Gatnalýsingarkerfið samanstendur..."
+    },
+    {
+      "reference": "16350",
+      "project": "DAM system for the City of Reykjavík, EES útboð nr. 16350",
+      "buyer": "Reykjavíkurborg",
+      "notice_type": "Vörukaup",
+      "deadline": "03.11.2026 kl. 10:15",
+      "deadline_local": "2026-11-03T10:15:00+00:00",
+      "deadline_utc": "2026-11-03T10:15:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-09-25T12:33:31+00:00",
+      "modified_at": "2026-10-26T12:30:45+00:00",
+      "url": "https://www.utbodsvefur.is/dam-system-for-the-city-of-reykjavik-ees-utbod-nr-16350/",
+      "summary": "Skrifstofa fjármálaþjónustu og ráðgjafar f.h. Þjónustu- og nýsköpunarsviðs Reykjavíkurborgar óskar eftir tilboðum í DAM (digital asset management) ker..."
     },
     {
       "reference": "2609128",
@@ -505,6 +393,48 @@
       "summary": "Fjarðarbyggðarhafnir óska eftir tilboðum í mönnun, rekstur og almennt viðhald dráttarbátsins Vattar. Þjónustan nær til eftirfarandi hafna á starfssvæð..."
     },
     {
+      "reference": "26-132",
+      "project": "Þjónusta og viðhald veglýsingar á Reykjanesi",
+      "buyer": "Vegagerðin",
+      "notice_type": "Þjónusta",
+      "deadline": "10.11.2026 kl. 14:00",
+      "deadline_local": "2026-11-10T14:00:00+00:00",
+      "deadline_utc": "2026-11-10T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-14T12:04:05+00:00",
+      "modified_at": "2026-10-26T14:19:22+00:00",
+      "url": "https://www.utbodsvefur.is/thjonusta-og-vidhald-veglysingar-a-reykjanesi/",
+      "summary": "Vegagerðin býður hér með út þjónustu og viðhald veglýsingar á Reykjanesi. Um er að ræða almenna þjónustu og viðhald á veglýsingarkerfinu, niðurtekt o..."
+    },
+    {
+      "reference": "26-133",
+      "project": "Þjónusta og viðhald veglýsingar á höfuðborgarsvæðinu",
+      "buyer": "Vegagerðin",
+      "notice_type": "Þjónusta",
+      "deadline": "10.11.2026 kl. 14:00",
+      "deadline_local": "2026-11-10T14:00:00+00:00",
+      "deadline_utc": "2026-11-10T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-14T12:06:18+00:00",
+      "modified_at": "2026-10-26T14:17:40+00:00",
+      "url": "https://www.utbodsvefur.is/thjonusta-og-vidhald-veglysingar-a-hofudborgarsvaedinu/",
+      "summary": "Vegagerðin býður hér með út þjónustu og viðhald veglýsingar á höfuðborgarsvæðinu. Um er að ræða almenna þjónustu og viðhald á veglýsingarkerfinu, nið..."
+    },
+    {
+      "reference": "26-144",
+      "project": "Búðardalur og Borðeyri – Sjóvarnir 2026",
+      "buyer": "Vegagerðin",
+      "notice_type": "Framkvæmd",
+      "deadline": "11.11.2026 kl. 00:00",
+      "deadline_local": "2026-11-11T00:00:00+00:00",
+      "deadline_utc": "2026-11-11T00:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-26T13:46:51+00:00",
+      "modified_at": "2026-10-26T13:46:51+00:00",
+      "url": "https://www.utbodsvefur.is/budardalur-og-bordeyri-sjovarnir-2026/",
+      "summary": "Vegagerðin óskar eftir tilboðum í verkið „Búðardalur og Borðeyri – sjóvarnir 2026”. Gera skal nýjan 200 m sjóvörn við sunnan á Borðeyri og um 70 m len..."
+    },
+    {
       "reference": "27-2026",
       "project": "Einnota plastsvuntur fyrir Landspítala",
       "buyer": "Landspítali",
@@ -517,6 +447,20 @@
       "modified_at": "2026-10-22T14:16:34+00:00",
       "url": "https://www.utbodsvefur.is/einnota-plastsvuntur-fyrir-landspitala/",
       "summary": "Landspítali óskar eftir upplýsingum um verð og gæði á einnota plastsvuntum. Nánari upplýsingar eru í verðfyrirspurnargögnum sem eru aðgengileg af efti..."
+    },
+    {
+      "reference": "2026-07",
+      "project": "2026-07 – Hleðslustöðvar fyrir almenningshleðslu",
+      "buyer": "Orkubú Vestfjarða ohf.",
+      "notice_type": "Vörukaup",
+      "deadline": "16.11.2026 kl. 10:00",
+      "deadline_local": "2026-11-16T10:00:00+00:00",
+      "deadline_utc": "2026-11-16T10:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-27T02:19:47+00:00",
+      "modified_at": "2026-10-27T02:19:47+00:00",
+      "url": "https://www.utbodsvefur.is/2026-07-hledslustodvar-fyrir-almenningshledslu/",
+      "summary": "Orkubú Vestfjarða ohf., kt. 660877-0299, óskar eftir tilboðum í kaup og afhendingu á samtals níu (9) DC hraðhleðslustöðvum fyrir rafbíla, sem skiptast..."
     },
     {
       "reference": "25071502",
@@ -645,6 +589,20 @@
       "summary": "Endurnýjun gervigrass í Bárunni Sveitarfélagið Hornafjörður óskar eftir tilboðum í verkið„Báran – endurnýjun á gervigrasi“. Um er að ræða almennt opið..."
     },
     {
+      "reference": "202601142",
+      "project": "Múlaþing óskar eftir tilboðum í verkefnið: Herðubreið, Austurvegur 4 á Seyðisfirði – Bókasafn og bæjarskrifstofur",
+      "buyer": "Múlaþing",
+      "notice_type": "Framkvæmd",
+      "deadline": "24.11.2026 kl. 14:00",
+      "deadline_local": "2026-11-24T14:00:00+00:00",
+      "deadline_utc": "2026-11-24T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-26T10:45:43+00:00",
+      "modified_at": "2026-10-26T10:45:43+00:00",
+      "url": "https://www.utbodsvefur.is/mulathing-oskar-eftir-tilbodum-i-verkefnid-herdubreid-austurvegur-4-a-seydisfirdi-bokasafn-og-baejarskrifstofur/",
+      "summary": "Herðubreið, Austurvegur 4 á Seyðisfirði – Bókasafn og bæjarskrifstofur Tölvugerð mynd   Verkið felst í að endurnýja innviði annarrar hæðar Herðu..."
+    },
+    {
       "reference": "26-102",
       "project": "Telehandler (telescopic handler) for The Icelandic Road and Coastal Administration (IRCA)",
       "buyer": "Vegagerðin",
@@ -673,6 +631,48 @@
       "summary": "Akureyrarbær óskar eftir tilboðum í vátryggingarþjónustu sveitarfélagsins, Hafnasamlags Norðurlands og Norðurorku hf. Samningstími er frá 1. janúar 20..."
     },
     {
+      "reference": "23270",
+      "project": "Ræsting fyrir Stjórnarráð, nokkrar byggingar",
+      "buyer": "Fjársýslan",
+      "notice_type": "Þjónusta",
+      "deadline": "26.11.2026 kl. 12:00",
+      "deadline_local": "2026-11-26T12:00:00+00:00",
+      "deadline_utc": "2026-11-26T12:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-01T09:31:05+00:00",
+      "modified_at": "2026-10-26T08:52:11+00:00",
+      "url": "https://www.utbodsvefur.is/raesting-fyrir-stjornarrad-nokkrar-byggingar/",
+      "summary": "Fjársýslan, fyrir hönd Ríkiseigna, kt. 690980-0259, óskar eftir tilboðum í ræstiþjónustu fyrir Stjórnarráðið. Um er að ræða skrifstofuhúsnæði Umbru, e..."
+    },
+    {
+      "reference": "23302",
+      "project": "Upplýsingatæknirekstur Hafrannsóknastofnunar",
+      "buyer": "Fjársýslan",
+      "notice_type": "Þjónusta",
+      "deadline": "27.11.2026 kl. 09:00",
+      "deadline_local": "2026-11-27T09:00:00+00:00",
+      "deadline_utc": "2026-11-27T09:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-26T09:44:34+00:00",
+      "modified_at": "2026-10-26T09:44:34+00:00",
+      "url": "https://www.utbodsvefur.is/upplysingataeknirekstur-hafrannsoknastofnunar/",
+      "summary": "Fjársýslan fyrir hönd Hafrannsóknastofnunar, kt. 470616-0830, óskar eftir tilboðum í 23302 – Upplýsingatæknirekstur Hafrannsóknastofnunar (e. IT..."
+    },
+    {
+      "reference": "23442",
+      "project": "Vátryggingar fyrir RÚV",
+      "buyer": "Fjársýslan",
+      "notice_type": "Þjónusta",
+      "deadline": "27.11.2026 kl. 09:00",
+      "deadline_local": "2026-11-27T09:00:00+00:00",
+      "deadline_utc": "2026-11-27T09:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-26T08:33:52+00:00",
+      "modified_at": "2026-10-26T08:33:52+00:00",
+      "url": "https://www.utbodsvefur.is/vatryggingar-fyrir-ruv/",
+      "summary": "Fjársýslan fyrir hönd Ríkisútvarpsins ohf., kt. 600307-0450, óskar eftir tilboðum í vátryggingar fyrir RÚV. Tryggingar skulu gilda frá og með 01.01.20..."
+    },
+    {
       "reference": "2608-5719",
       "project": "Raforkukaup fyrir Akraneskaupstað 2027-2030",
       "buyer": "Akranesbær",
@@ -685,6 +685,34 @@
       "modified_at": "2026-10-23T14:39:09+00:00",
       "url": "https://www.utbodsvefur.is/raforkukaup-fyrir-akraneskaupstad-2027-2030/",
       "summary": "Akraneskaupstaður óskar eftir tilboði í innkaup á raforku fyrir alla almenna notkun í 4 ár samkvæmt útboðsgögnum. Um er að ræða almennt útboð. Tilboð..."
+    },
+    {
+      "reference": "16361",
+      "project": "Autodesk hugbúnaðarleyfi, EES útboð nr. 16361",
+      "buyer": "Reykjavíkurborg",
+      "notice_type": "Vörukaup",
+      "deadline": "30.11.2026 kl. 10:00",
+      "deadline_local": "2026-11-30T10:00:00+00:00",
+      "deadline_utc": "2026-11-30T10:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-27T09:48:08+00:00",
+      "modified_at": "2026-10-27T09:48:08+00:00",
+      "url": "https://www.utbodsvefur.is/autodesk-hugbunadarleyfi-ees-utbod-nr-16361/",
+      "summary": "F.h. Upplýsingatækniþjónustu Reykjavíkurborgar er óskað eftir tilboðum í eftirfarandi verk: Autodesk hugbúnaðarleyfi, EES útboð nr. 16361. Lauslegt yf..."
+    },
+    {
+      "reference": "26-072",
+      "project": "Almenningssamgöngur á landi á Austurlandi 2027-2028",
+      "buyer": "Vegagerðin",
+      "notice_type": "Þjónusta",
+      "deadline": "01.12.2026 kl. 14:00",
+      "deadline_local": "2026-12-01T14:00:00+00:00",
+      "deadline_utc": "2026-12-01T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-26T10:34:07+00:00",
+      "modified_at": "2026-10-26T10:38:13+00:00",
+      "url": "https://www.utbodsvefur.is/almenningssamgongur-a-landi-a-austurlandi-2027-2028/",
+      "summary": "Vegagerðin ókar hér með eftir tilboðum í almenningssamgöngur á landi á Austurlandi 2027-2028. Þjónustuverkefninu er skipt tvo hluta; annars vegar lei..."
     },
     {
       "reference": "TZS26002",
@@ -710,7 +738,7 @@
       "deadline_utc": "2026-12-21T11:00:00+00:00",
       "deadline_confirmed": true,
       "posted_at": "2026-10-14T11:36:19+00:00",
-      "modified_at": "2026-10-21T10:15:15+00:00",
+      "modified_at": "2026-10-26T09:22:57+00:00",
       "url": "https://www.utbodsvefur.is/leiga-a-tjaldsvaedinu-i-kalmansvik-2/",
       "summary": "Akraneskaupstaður óskar eftir tilboðum í leigu á tjaldsvæðinu í Kalmansvík. Svæðið þar sem tjaldsvæðið er staðsett er tæplega 2,2 ha að flatarmáli og ..."
     },
