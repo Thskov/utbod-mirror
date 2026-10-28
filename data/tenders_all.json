@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "generated": "2026-10-27T11:55:54Z",
-  "generated_at": "2026-10-27T11:55:54Z",
+  "generated": "2026-10-28T07:00:25Z",
+  "generated_at": "2026-10-28T07:00:25Z",
   "sources": {
     "utbodsvefur": {
-      "generated_at": "2026-10-27T11:55:54.824750+00:00",
-      "count": 76,
+      "generated_at": "2026-10-28T07:00:25.543003+00:00",
+      "count": 73,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders.json"
     },
     "offportal": {
-      "generated": "2026-10-27T11:55:54Z",
-      "count": 161,
+      "generated": "2026-10-28T07:00:25Z",
+      "count": 162,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders_offportal.json"
     },
     "not_covered": [
@@ -58,9 +58,9 @@
       {
         "kind": "filtering",
         "source": "utbodsvefur",
-        "reason": "winter_service",
-        "project": "Fjallabyggð. snjómokstur og hálkuvarnir 2026 – 2029",
-        "url": "https://www.utbodsvefur.is/fjallabyggd-snjomokstur-og-halkuvarnir-2026-2029/"
+        "reason": "debt_collection_service",
+        "project": "Innheimtuþjónusta – fruminnheimta ásamt milli- og löginnheimtu",
+        "url": "https://www.utbodsvefur.is/innheimtuthjonusta-fruminnheimta-asamt-milli-og-loginnheimtu/"
       },
       {
         "kind": "filtering",
@@ -68,6 +68,13 @@
         "reason": "winter_service",
         "project": "Vetrarþjónusta í Árborg",
         "url": "https://www.utbodsvefur.is/vetrarthjonusta-i-arborg/"
+      },
+      {
+        "kind": "filtering",
+        "source": "utbodsvefur",
+        "reason": "electricity_purchase",
+        "project": "Raforkukaup fyrir Akraneskaupstað 2027-2030",
+        "url": "https://www.utbodsvefur.is/raforkukaup-fyrir-akraneskaupstad-2027-2030/"
       },
       {
         "kind": "filtering",
@@ -427,18 +434,6 @@
     ],
     "source_candidates": [
       {
-        "id": "tender:buyer:akranesbær",
-        "name": "Akranesbær",
-        "suggested_feed": "tenders_all",
-        "suggested_lane": "tender",
-        "evidence_url": "https://www.utbodsvefur.is/raforkukaup-fyrir-akraneskaupstad-2027-2030/",
-        "seen_count": 1,
-        "first_seen": "2026-10-21T07:00:26Z",
-        "last_seen": "2026-10-27T11:55:54Z",
-        "reason": "unknown buyer/source found in tender feed",
-        "status": "pending"
-      },
-      {
         "id": "tender:buyer:fjallabyggð",
         "name": "Fjallabyggð",
         "suggested_feed": "tenders_all",
@@ -458,9 +453,22 @@
         "evidence_url": "https://www.utbodsvefur.is/mulathing-oskar-eftir-tilbodum-i-verkefnid-herdubreid-austurvegur-4-a-seydisfirdi-bokasafn-og-baejarskrifstofur/",
         "seen_count": 1,
         "first_seen": "2026-10-27T11:55:54Z",
-        "last_seen": "2026-10-27T11:55:54Z",
+        "last_seen": "2026-10-28T07:00:25Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
+      },
+      {
+        "id": "tender:buyer:akranesbær",
+        "name": "Akranesbær",
+        "suggested_feed": "tenders_all",
+        "suggested_lane": "tender",
+        "evidence_url": "https://www.utbodsvefur.is/raforkukaup-fyrir-akraneskaupstad-2027-2030/",
+        "seen_count": 1,
+        "first_seen": "2026-10-21T07:00:26Z",
+        "last_seen": "2026-10-27T11:55:54Z",
+        "reason": "exact candidate evidence excluded: electricity_purchase",
+        "status": "out_of_scope_for_now",
+        "last_reviewed": "2026-10-28T07:00:25Z"
       },
       {
         "id": "tender:buyer:sveitafélagið-árborg",
@@ -471,15 +479,16 @@
         "seen_count": 1,
         "first_seen": "2026-10-19T07:00:26Z",
         "last_seen": "2026-10-22T07:00:26Z",
-        "reason": "unknown buyer/source found in tender feed",
-        "status": "pending"
+        "reason": "exact candidate evidence excluded: winter_service",
+        "status": "out_of_scope_for_now",
+        "last_reviewed": "2026-10-28T07:00:25Z"
       }
     ]
   },
-  "count": 225,
+  "count": 222,
   "counts_by_intelligence_type": {
-    "active_tender": 62,
-    "bid_opening": 30,
+    "active_tender": 58,
+    "bid_opening": 31,
     "closed_tender": 2,
     "dynamic_purchasing_system": 16,
     "historical_award": 89,
@@ -1504,6 +1513,23 @@
       "summary": "Útboð 25-027 · 31. júlí 2025",
       "source": "vegagerdin-samningum-lokid",
       "intelligence_type": "historical_award",
+      "is_open_opportunity": false
+    },
+    {
+      "reference": "26-141",
+      "project": "Húsavík - Þvergarður – Endurbygging og lenging 2026",
+      "buyer": "Vegagerðin",
+      "notice_type": "Opnun tilboða",
+      "deadline": "",
+      "deadline_local": "",
+      "deadline_utc": "",
+      "deadline_confirmed": false,
+      "posted_at": "2026-10-27",
+      "modified_at": null,
+      "url": "https://www.vegagerdin.is/verkefnin/utbod/husavik-thvergardur-endurbygging-og-lenging-2026",
+      "summary": "Útboð 26-141 · 27. okt. 2026",
+      "source": "vegagerdin-opnun-tilboda",
+      "intelligence_type": "bid_opening",
       "is_open_opportunity": false
     },
     {
@@ -2952,40 +2978,6 @@
       "is_open_opportunity": false
     },
     {
-      "reference": "BSVK-2026-17",
-      "project": "Supply of BRT Station light poles – Ljósastaurar og lampar fyrir Borgarlínustöðvar",
-      "buyer": "Betri samgöngur ohf.",
-      "notice_type": "Vörukaup",
-      "deadline": "27.10.2026 kl. 14:00",
-      "deadline_local": "2026-10-27T14:00:00+00:00",
-      "deadline_utc": "2026-10-27T14:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-09-24T09:39:04+00:00",
-      "modified_at": "2026-09-28T14:23:00+00:00",
-      "url": "https://www.utbodsvefur.is/supply-of-brt-street-light-poles-ljosastaurar-og-lampar-fyrir-borgarlinustodvar/",
-      "summary": "Betri samgöngur ohf. invites tenders for light poles and luminaires for Borgarlína stations. The contract covers the purchase and delivery of light po...",
-      "source": "utbodsvefur",
-      "intelligence_type": "active_tender",
-      "is_open_opportunity": true
-    },
-    {
-      "reference": "26-141",
-      "project": "Húsavík – Þvergarður – Endurbygging og lenging 2026",
-      "buyer": "Vegagerðin",
-      "notice_type": "Framkvæmd",
-      "deadline": "27.10.2026 kl. 14:00",
-      "deadline_local": "2026-10-27T14:00:00+00:00",
-      "deadline_utc": "2026-10-27T14:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-10-13T14:14:13+00:00",
-      "modified_at": "2026-10-13T14:16:00+00:00",
-      "url": "https://www.utbodsvefur.is/husavik-thvergardur-endurbygging-og-lenging-2026/",
-      "summary": "Hafnir Norðuþings óska eftir tilboðum í verkið. Helstu magntölur: Brjóta og saga eldri kant, þekju og polla. Rífa tvö masturshús. Jarðvinna, fylling ...",
-      "source": "utbodsvefur",
-      "intelligence_type": "active_tender",
-      "is_open_opportunity": true
-    },
-    {
       "reference": "16313",
       "project": "Rammasamningur um túlka- og þýðingarþjónustu. EES útboð nr. 16313",
       "buyer": "Reykjavíkurborg",
@@ -3377,23 +3369,6 @@
       "is_open_opportunity": true
     },
     {
-      "reference": "202601",
-      "project": "Innheimtuþjónusta – fruminnheimta ásamt milli- og löginnheimtu",
-      "buyer": "Hafnarfjarðarkaupstaður",
-      "notice_type": "Þjónusta",
-      "deadline": "09.11.2026 kl. 14:00",
-      "deadline_local": "2026-11-09T14:00:00+00:00",
-      "deadline_utc": "2026-11-09T14:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-10-09T08:48:34+00:00",
-      "modified_at": "2026-10-09T09:36:18+00:00",
-      "url": "https://www.utbodsvefur.is/innheimtuthjonusta-fruminnheimta-asamt-milli-og-loginnheimtu/",
-      "summary": "Fjármálasvið Hafnarfjarðarbæjar óskar eftir tilboðum í innheimtuþjónustu fyrir Hafnarfjarðarbæ og B hluta stofnanir á vegum bæjarins. Útboðinu er ski...",
-      "source": "utbodsvefur",
-      "intelligence_type": "active_tender",
-      "is_open_opportunity": true
-    },
-    {
       "reference": "25-2026",
       "project": "Ælupokar fyrir Landspítala og heilbrigðisstofnanir",
       "buyer": "Landspítali",
@@ -3763,23 +3738,6 @@
       "modified_at": "2026-10-26T08:33:52+00:00",
       "url": "https://www.utbodsvefur.is/vatryggingar-fyrir-ruv/",
       "summary": "Fjársýslan fyrir hönd Ríkisútvarpsins ohf., kt. 600307-0450, óskar eftir tilboðum í vátryggingar fyrir RÚV. Tryggingar skulu gilda frá og með 01.01.20...",
-      "source": "utbodsvefur",
-      "intelligence_type": "active_tender",
-      "is_open_opportunity": true
-    },
-    {
-      "reference": "2608-5719",
-      "project": "Raforkukaup fyrir Akraneskaupstað 2027-2030",
-      "buyer": "Akranesbær",
-      "notice_type": "Vörukaup",
-      "deadline": "27.11.2026 kl. 11:00",
-      "deadline_local": "2026-11-27T11:00:00+00:00",
-      "deadline_utc": "2026-11-27T11:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-10-23T12:00:54+00:00",
-      "modified_at": "2026-10-23T14:39:09+00:00",
-      "url": "https://www.utbodsvefur.is/raforkukaup-fyrir-akraneskaupstad-2027-2030/",
-      "summary": "Akraneskaupstaður óskar eftir tilboði í innkaup á raforku fyrir alla almenna notkun í 4 ár samkvæmt útboðsgögnum. Um er að ræða almennt útboð. Tilboð...",
       "source": "utbodsvefur",
       "intelligence_type": "active_tender",
       "is_open_opportunity": true
