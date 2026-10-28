@@ -1,5 +1,66 @@
 {
-  "generated_at": "2026-10-28T07:00:25.543003+00:00",
+  "coverage": {
+    "industry_focus": {
+      "version": 1,
+      "priority_sectors": [
+        {
+          "id": "tourism-infrastructure",
+          "label": "Iceland tourism infrastructure — airports, hotels, retreats and baths",
+          "search_terms": [
+            "flugvöllur",
+            "flugstöð",
+            "hótel",
+            "gististaður",
+            "baðlón",
+            "jarðböð",
+            "hotel construction",
+            "airport expansion",
+            "retreat development",
+            "gestastofa",
+            "visitor centre"
+          ]
+        },
+        {
+          "id": "aquaculture-fish-production",
+          "label": "Land-based aquaculture, fish processing and production facilities",
+          "search_terms": [
+            "landeldi",
+            "fiskeldisstöð",
+            "seiðaeldisstöð",
+            "fiskvinnsla",
+            "land-based aquaculture",
+            "fish processing plant",
+            "hatchery",
+            "RAS fish facility",
+            "fish cold storage"
+          ]
+        },
+        {
+          "id": "datacentres-infrastructure",
+          "label": "Datacentres and explicitly related power, grid, fibre, cooling and site works",
+          "search_terms": [
+            "gagnaver",
+            "gagnamiðstöð",
+            "data centre",
+            "data center",
+            "datacenter",
+            "gagnaver tengivirki",
+            "gagnaver ljósleiðari"
+          ]
+        }
+      ],
+      "counts_by_sector": {
+        "tourism-infrastructure": 0,
+        "aquaculture-fish-production": 0,
+        "datacentres-infrastructure": 0
+      },
+      "selection_policy": "Prioritise evidenced infrastructure/project signals; preserve general construction, competitors and Ístak; no quotas.",
+      "support_infrastructure_rule": "Requires explicit sector anchor in the same record; unlinked grid/power/fibre remains general infrastructure.",
+      "geography": "Iceland; international trade supplements require explicit Iceland project evidence.",
+      "limits": "Tags are text-derived relevance, not verified project stage or completeness. Existing source/date/detail limits still apply; no sources added."
+    }
+  },
+  "generated_at": "2026-10-28T14:36:04.272425+00:00",
   "source": {
     "site": "https://www.utbodsvefur.is",
     "posts_api": "https://www.utbodsvefur.is/wp-json/wp/v2/posts",
@@ -7,12 +68,12 @@
     "count_drop_guard": {
       "status": "fresh",
       "threshold": ">70% source-count collapse",
-      "previous_good_count": 76,
-      "current_count": 73,
-      "minimum_allowed_count": 22
+      "previous_good_count": 73,
+      "current_count": 76,
+      "minimum_allowed_count": 21
     }
   },
-  "count": 73,
+  "count": 76,
   "tenders": [
     {
       "reference": "16313",
@@ -26,7 +87,8 @@
       "posted_at": "2026-09-28T13:18:10+00:00",
       "modified_at": "2026-09-28T13:46:47+00:00",
       "url": "https://www.utbodsvefur.is/rammasamningur-um-tulka-og-thydingarthjonustu-ees-utbod-nr-16313/",
-      "summary": "Skrifstofa fjármálaþjónustu og innkaupa f.h. Þjónustu- og nýsköpunarsviðs Reykjavíkurborgar óskar eftir tilboðum í Túlka- og þýðingarþjónustu Reykjaví..."
+      "summary": "Skrifstofa fjármálaþjónustu og innkaupa f.h. Þjónustu- og nýsköpunarsviðs Reykjavíkurborgar óskar eftir tilboðum í Túlka- og þýðingarþjónustu Reykjaví...",
+      "sector_tags": []
     },
     {
       "reference": "35069",
@@ -40,7 +102,8 @@
       "posted_at": "2026-09-23T13:06:53+00:00",
       "modified_at": "2026-09-23T13:12:22+00:00",
       "url": "https://www.utbodsvefur.is/diagnostic-coronary-angiographic-catheters/",
-      "summary": "Landspítali óskar eftir tilboðum í Diagnostic Coronary Angiographic Catheters fyrir Hjarta- og æðaþræðingardeild Landspítala. Nánari lýsing er í útboð..."
+      "summary": "Landspítali óskar eftir tilboðum í Diagnostic Coronary Angiographic Catheters fyrir Hjarta- og æðaþræðingardeild Landspítala. Nánari lýsing er í útboð...",
+      "sector_tags": []
     },
     {
       "reference": "202644",
@@ -54,7 +117,8 @@
       "posted_at": "2026-09-29T08:28:57+00:00",
       "modified_at": "2026-09-30T08:19:39+00:00",
       "url": "https://www.utbodsvefur.is/varaaflsrafstod-fyrir-hsn-a-blonduosi/",
-      "summary": "Consensa, fyrir hönd Heilbrigðisstofnunar Norðurlands (HSN), óskar eftir tilboðum í varaaflsrafstöð fyrir HSN á Blönduósi samkvæmt skilmálum útboðslýs..."
+      "summary": "Consensa, fyrir hönd Heilbrigðisstofnunar Norðurlands (HSN), óskar eftir tilboðum í varaaflsrafstöð fyrir HSN á Blönduósi samkvæmt skilmálum útboðslýs...",
+      "sector_tags": []
     },
     {
       "reference": "23400",
@@ -68,7 +132,8 @@
       "posted_at": "2026-09-30T09:44:23+00:00",
       "modified_at": "2026-09-30T09:44:23+00:00",
       "url": "https://www.utbodsvefur.is/bunadur-fyrir-eldhus-a-sjukrahusi/",
-      "summary": "Fjársýslan fyrir hönd Framkvæmdasýslu – Ríkiseigna, kt. 510391-2259, óskar eftir tilboðum í útboð nr. 23400 – Búnaður fyrir eldhús a sjúkr..."
+      "summary": "Fjársýslan fyrir hönd Framkvæmdasýslu – Ríkiseigna, kt. 510391-2259, óskar eftir tilboðum í útboð nr. 23400 – Búnaður fyrir eldhús a sjúkr...",
+      "sector_tags": []
     },
     {
       "reference": "16338",
@@ -82,7 +147,8 @@
       "posted_at": "2026-10-01T10:33:15+00:00",
       "modified_at": "2026-10-01T10:33:15+00:00",
       "url": "https://www.utbodsvefur.is/raesting-fyrir-stjornsysluhus-reykjavikurborgar-ees-utbod-nr-16338/",
-      "summary": "Skrifstofa fjármálaþjónustu og ráðgjafar f.h. Þjónustu- og nýsköpunarsviðs Reykjavíkurborgar óskar eftir tilboðum í: Ræsting fyrir stjórnsýsluhús Reyk..."
+      "summary": "Skrifstofa fjármálaþjónustu og ráðgjafar f.h. Þjónustu- og nýsköpunarsviðs Reykjavíkurborgar óskar eftir tilboðum í: Ræsting fyrir stjórnsýsluhús Reyk...",
+      "sector_tags": []
     },
     {
       "reference": "202633",
@@ -96,7 +162,8 @@
       "posted_at": "2026-10-02T08:13:41+00:00",
       "modified_at": "2026-10-02T08:15:36+00:00",
       "url": "https://www.utbodsvefur.is/slokkvibifreid-fyrir-slokkvilid-hornafjardar/",
-      "summary": "Consensa, fyrir hönd Hornafjarðar, óskar eftir tilboðum í slökkvibifreið fyrir slökkvilið Hornafjarðar samkvæmt skilmálum útboðslýsingar. Um er að ræð..."
+      "summary": "Consensa, fyrir hönd Hornafjarðar, óskar eftir tilboðum í slökkvibifreið fyrir slökkvilið Hornafjarðar samkvæmt skilmálum útboðslýsingar. Um er að ræð...",
+      "sector_tags": []
     },
     {
       "reference": "2610018",
@@ -110,7 +177,8 @@
       "posted_at": "2026-10-01T11:42:37+00:00",
       "modified_at": "2026-10-06T15:05:01+00:00",
       "url": "https://www.utbodsvefur.is/utbod-a-thjonustu-og-vidhald-gatnalysingar-i-gardabae/",
-      "summary": "Verkið felur í sér þjónustu og viðhald á allri gatnalýsingu í sveitarfélaginu bæði á veitusvæði HS Veitna og Veitna. Gatnalýsingarkerfið samanstendur..."
+      "summary": "Verkið felur í sér þjónustu og viðhald á allri gatnalýsingu í sveitarfélaginu bæði á veitusvæði HS Veitna og Veitna. Gatnalýsingarkerfið samanstendur...",
+      "sector_tags": []
     },
     {
       "reference": "16350",
@@ -124,7 +192,8 @@
       "posted_at": "2026-09-25T12:33:31+00:00",
       "modified_at": "2026-10-26T12:30:45+00:00",
       "url": "https://www.utbodsvefur.is/dam-system-for-the-city-of-reykjavik-ees-utbod-nr-16350/",
-      "summary": "Skrifstofa fjármálaþjónustu og ráðgjafar f.h. Þjónustu- og nýsköpunarsviðs Reykjavíkurborgar óskar eftir tilboðum í DAM (digital asset management) ker..."
+      "summary": "Skrifstofa fjármálaþjónustu og ráðgjafar f.h. Þjónustu- og nýsköpunarsviðs Reykjavíkurborgar óskar eftir tilboðum í DAM (digital asset management) ker...",
+      "sector_tags": []
     },
     {
       "reference": "2609128",
@@ -138,7 +207,8 @@
       "posted_at": "2026-09-30T13:38:01+00:00",
       "modified_at": "2026-09-30T13:38:38+00:00",
       "url": "https://www.utbodsvefur.is/raestithjonusta-fyrir-kopavogsbae-rammasamningur/",
-      "summary": "Kópavogsbær óskar eftir tilboðum í rammasamning um ræstingaþjónustu fyrir stofnanir Kópavogsbæjar og heimili á vegum sveitarfélagsins. Útboðsgögn eru ..."
+      "summary": "Kópavogsbær óskar eftir tilboðum í rammasamning um ræstingaþjónustu fyrir stofnanir Kópavogsbæjar og heimili á vegum sveitarfélagsins. Útboðsgögn eru ...",
+      "sector_tags": []
     },
     {
       "reference": "FRA-26-09-0013",
@@ -152,7 +222,8 @@
       "posted_at": "2026-10-20T16:24:58+00:00",
       "modified_at": "2026-10-20T16:24:58+00:00",
       "url": "https://www.utbodsvefur.is/glerarvirkjun-1-akureyri-mokstur-ur-loni/",
-      "summary": "Norðurorka f.h Fallorku ehf. óskar eftir tilboðum í jarðefni í inntakslóni Glerárvirkjunar I í Glerárhverfi á Akureyri. Bjóðandi greiðir verkkaupa fas..."
+      "summary": "Norðurorka f.h Fallorku ehf. óskar eftir tilboðum í jarðefni í inntakslóni Glerárvirkjunar I í Glerárhverfi á Akureyri. Bjóðandi greiðir verkkaupa fas...",
+      "sector_tags": []
     },
     {
       "reference": "26-143",
@@ -166,7 +237,8 @@
       "posted_at": "2026-10-21T13:50:31+00:00",
       "modified_at": "2026-10-21T14:08:24+00:00",
       "url": "https://www.utbodsvefur.is/vik-i-myrdal-flodvorn-2026/",
-      "summary": "Vegagerðin býður hér með út verkið „Vík í Mýrdal, flóðvörn 2026“. Um er að ræða gerð um 900 m langs flóðvarnargarðs, frá fjárhúsavegi að Kötlugarði au..."
+      "summary": "Vegagerðin býður hér með út verkið „Vík í Mýrdal, flóðvörn 2026“. Um er að ræða gerð um 900 m langs flóðvarnargarðs, frá fjárhúsavegi að Kötlugarði au...",
+      "sector_tags": []
     },
     {
       "reference": "6061102",
@@ -180,7 +252,8 @@
       "posted_at": "2026-10-02T10:00:59+00:00",
       "modified_at": "2026-10-02T10:03:19+00:00",
       "url": "https://www.utbodsvefur.is/honnun-og-bygging-oryggisfangelsis-forval/",
-      "summary": "Framkvæmdasýslan – Ríkiseignir, hér eftir nefnt FSRE, f.h. verkkaupa, Dómsmálaráðuneytisins, óskar eftir umsóknum fyrirtækja eða teyma fyrirtækj..."
+      "summary": "Framkvæmdasýslan – Ríkiseignir, hér eftir nefnt FSRE, f.h. verkkaupa, Dómsmálaráðuneytisins, óskar eftir umsóknum fyrirtækja eða teyma fyrirtækj...",
+      "sector_tags": []
     },
     {
       "reference": "I0237",
@@ -194,7 +267,8 @@
       "posted_at": "2026-10-22T11:16:12+00:00",
       "modified_at": "2026-10-22T11:16:12+00:00",
       "url": "https://www.utbodsvefur.is/markadskonnun-rfi-sjalfvirkur-lyfjalager/",
-      "summary": "Nýr Landspítali (NLSH) óskar eftir upplýsingum frá hæfum birgjum varðandi heildarlausn frá einum aðila fyrir sjálfvirkan lyfjalager. Nánari upplýsinga..."
+      "summary": "Nýr Landspítali (NLSH) óskar eftir upplýsingum frá hæfum birgjum varðandi heildarlausn frá einum aðila fyrir sjálfvirkan lyfjalager. Nánari upplýsinga...",
+      "sector_tags": []
     },
     {
       "reference": "I0236",
@@ -208,21 +282,8 @@
       "posted_at": "2026-10-22T14:04:47+00:00",
       "modified_at": "2026-10-22T14:04:47+00:00",
       "url": "https://www.utbodsvefur.is/markadskonnun-rfi-stakskommtunarvel-fyrir-lyf/",
-      "summary": "Nýr Landspítali (NLSH) óskar eftir upplýsingum frá hæfum birgjum varðandi heildarlausn fyrir stakskömmtunarvél (Unit Dose Robot System). Nánari upplýs..."
-    },
-    {
-      "reference": "I0054",
-      "project": "Uppsetning, Strengir og Tengingar (UST)",
-      "buyer": "Nýr Landspítali",
-      "notice_type": "Framkvæmd Vörukaup",
-      "deadline": "04.11.2026 kl. 13:00",
-      "deadline_local": "2026-11-04T13:00:00+00:00",
-      "deadline_utc": "2026-11-04T13:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-09-29T13:18:07+00:00",
-      "modified_at": "2026-09-29T13:18:07+00:00",
-      "url": "https://www.utbodsvefur.is/uppsetning-strengir-og-tengingar-ust/",
-      "summary": "Með þessu almenna útboði óskar Nýr Landspítali ohf kt. 500810-0410 (NLSH) eftir tilboðum í uppsetningu og tengingar 11 kV háspennubúnaðar s.s. dreifis..."
+      "summary": "Nýr Landspítali (NLSH) óskar eftir upplýsingum frá hæfum birgjum varðandi heildarlausn fyrir stakskömmtunarvél (Unit Dose Robot System). Nánari upplýs...",
+      "sector_tags": []
     },
     {
       "reference": "202616",
@@ -236,7 +297,8 @@
       "posted_at": "2026-10-06T08:34:44+00:00",
       "modified_at": "2026-10-06T09:58:04+00:00",
       "url": "https://www.utbodsvefur.is/kaup-og-uppsetning-faeranlegra-huseininga/",
-      "summary": "Consensa, fyrir hönd Sveitarfélagsins Voga, óskar eftir tilboðum í verkefnið „Kaup og uppsetning færanlegra húseininga við Suðurvelli“, sem vinna skal..."
+      "summary": "Consensa, fyrir hönd Sveitarfélagsins Voga, óskar eftir tilboðum í verkefnið „Kaup og uppsetning færanlegra húseininga við Suðurvelli“, sem vinna skal...",
+      "sector_tags": []
     },
     {
       "reference": "24-2026",
@@ -250,7 +312,8 @@
       "posted_at": "2026-10-15T09:26:35+00:00",
       "modified_at": "2026-10-15T10:48:16+00:00",
       "url": "https://www.utbodsvefur.is/lyfjastaup-fyrir-landspitala/",
-      "summary": "Landspítali óskar eftir upplýsingum um verð og gæði á lyfjastaupum úr plasti og pappa. Nánari upplýsingar eru í verðfyrirspurnargögnum sem eru aðgengi..."
+      "summary": "Landspítali óskar eftir upplýsingum um verð og gæði á lyfjastaupum úr plasti og pappa. Nánari upplýsingar eru í verðfyrirspurnargögnum sem eru aðgengi...",
+      "sector_tags": []
     },
     {
       "reference": "VEU-2609-0063",
@@ -264,7 +327,8 @@
       "posted_at": "2026-10-05T20:26:53+00:00",
       "modified_at": "2026-10-05T20:26:53+00:00",
       "url": "https://www.utbodsvefur.is/veu-2609-0063-thjonusta-og-vidhald-vel-og-rafbunadar/",
-      "summary": "Veitur ohf. óska eftir þátttakendum í rammasamninga VEU-2609-0063 „Þjónusta og viðhald vél- og rafbúnaðar“ Með innkaupaferli þessu hyggjas..."
+      "summary": "Veitur ohf. óska eftir þátttakendum í rammasamninga VEU-2609-0063 „Þjónusta og viðhald vél- og rafbúnaðar“ Með innkaupaferli þessu hyggjas...",
+      "sector_tags": []
     },
     {
       "reference": "VEU-2609-0066",
@@ -278,7 +342,8 @@
       "posted_at": "2026-10-07T10:59:24+00:00",
       "modified_at": "2026-10-07T10:59:24+00:00",
       "url": "https://www.utbodsvefur.is/veu-2609-0066-hab-skorholt-bakki/",
-      "summary": "Veitur ohf. óska eftir tilboðum í verkið: VEU-2609-0066 „HAB: SKORHOLT, BAKKI“ Verkefnið felur í sér endurnýjun á um 1550m löngum kafla HA..."
+      "summary": "Veitur ohf. óska eftir tilboðum í verkið: VEU-2609-0066 „HAB: SKORHOLT, BAKKI“ Verkefnið felur í sér endurnýjun á um 1550m löngum kafla HA...",
+      "sector_tags": []
     },
     {
       "reference": "2026-54",
@@ -292,7 +357,8 @@
       "posted_at": "2026-10-07T09:05:06+00:00",
       "modified_at": "2026-10-06T11:05:37+00:00",
       "url": "https://www.utbodsvefur.is/sog65-eftirlitsthjonusta/",
-      "summary": "Landsvirkjun óskar eftir tilboðum í eftirlit , rekstur verksamnings og hlutverk Engineer (skv. FIDIC Yellow Book 2017 (Second Edition 2017, reprinted ..."
+      "summary": "Landsvirkjun óskar eftir tilboðum í eftirlit , rekstur verksamnings og hlutverk Engineer (skv. FIDIC Yellow Book 2017 (Second Edition 2017, reprinted ...",
+      "sector_tags": []
     },
     {
       "reference": "25-0300",
@@ -306,7 +372,8 @@
       "posted_at": null,
       "modified_at": null,
       "url": "https://www.utbodsvefur.is/nytt-hjukrunarheimili-i-mosfellsbae-leiguleid/",
-      "summary": "Framkvæmdasýslan – Ríkiseignir (FSRE) f.h. félags- og húsnæðismálaráðuneytis, kt. 521218-0610, sem hér eftir nefnist kaupandi, óskar eftir leigutilboð..."
+      "summary": "Framkvæmdasýslan – Ríkiseignir (FSRE) f.h. félags- og húsnæðismálaráðuneytis, kt. 521218-0610, sem hér eftir nefnist kaupandi, óskar eftir leigutilboð...",
+      "sector_tags": []
     },
     {
       "reference": "202601",
@@ -320,7 +387,8 @@
       "posted_at": "2026-10-09T08:48:34+00:00",
       "modified_at": "2026-10-09T09:36:18+00:00",
       "url": "https://www.utbodsvefur.is/innheimtuthjonusta-fruminnheimta-asamt-milli-og-loginnheimtu/",
-      "summary": "Fjármálasvið Hafnarfjarðarbæjar óskar eftir tilboðum í innheimtuþjónustu fyrir Hafnarfjarðarbæ og B hluta stofnanir á vegum bæjarins. Útboðinu er ski..."
+      "summary": "Fjármálasvið Hafnarfjarðarbæjar óskar eftir tilboðum í innheimtuþjónustu fyrir Hafnarfjarðarbæ og B hluta stofnanir á vegum bæjarins. Útboðinu er ski...",
+      "sector_tags": []
     },
     {
       "reference": "25-2026",
@@ -334,7 +402,23 @@
       "posted_at": "2026-10-19T13:21:30+00:00",
       "modified_at": "2026-10-19T13:21:30+00:00",
       "url": "https://www.utbodsvefur.is/aelupokar-fyrir-landspitala-og-heilbrigdisstofnanir/",
-      "summary": "Landspítali óskar eftir upplýsingum um verð og gæði á ælupokum fyrir Landspítala, heilbrigðisstofnanir og sjúkrabíla SHS"
+      "summary": "Landspítali óskar eftir upplýsingum um verð og gæði á ælupokum fyrir Landspítala, heilbrigðisstofnanir og sjúkrabíla SHS",
+      "sector_tags": []
+    },
+    {
+      "reference": "I0088",
+      "project": "Markaðskönnun – RFI Sjálfvirk rúmþvottavél",
+      "buyer": "Nýr Landspítali",
+      "notice_type": "Markaðskönnun (RFI)",
+      "deadline": "10.11.2026 kl. 13:00",
+      "deadline_local": "2026-11-10T13:00:00+00:00",
+      "deadline_utc": "2026-11-10T13:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-28T08:40:55+00:00",
+      "modified_at": "2026-10-28T09:22:10+00:00",
+      "url": "https://www.utbodsvefur.is/markadskonnun-rfi-sjalfvirk-rumthvottavel/",
+      "summary": "Nýr Landspítali (NLSH) óskar eftir upplýsingum frá hæfum birgjum varðandi heildarlausn fyrir sjálfvirka rúmþvottavél. Nánari upplýsingar eru í markaðs...",
+      "sector_tags": []
     },
     {
       "reference": "10-2026",
@@ -348,7 +432,8 @@
       "posted_at": "2026-10-06T13:29:11+00:00",
       "modified_at": "2026-10-06T16:09:09+00:00",
       "url": "https://www.utbodsvefur.is/monnun-rekstur-og-vidhald-drattarbatsins-vattar/",
-      "summary": "Fjarðarbyggðarhafnir óska eftir tilboðum í mönnun, rekstur og almennt viðhald dráttarbátsins Vattar. Þjónustan nær til eftirfarandi hafna á starfssvæð..."
+      "summary": "Fjarðarbyggðarhafnir óska eftir tilboðum í mönnun, rekstur og almennt viðhald dráttarbátsins Vattar. Þjónustan nær til eftirfarandi hafna á starfssvæð...",
+      "sector_tags": []
     },
     {
       "reference": "26-132",
@@ -362,7 +447,8 @@
       "posted_at": "2026-10-14T12:04:05+00:00",
       "modified_at": "2026-10-26T14:19:22+00:00",
       "url": "https://www.utbodsvefur.is/thjonusta-og-vidhald-veglysingar-a-reykjanesi/",
-      "summary": "Vegagerðin býður hér með út þjónustu og viðhald veglýsingar á Reykjanesi. Um er að ræða almenna þjónustu og viðhald á veglýsingarkerfinu, niðurtekt o..."
+      "summary": "Vegagerðin býður hér með út þjónustu og viðhald veglýsingar á Reykjanesi. Um er að ræða almenna þjónustu og viðhald á veglýsingarkerfinu, niðurtekt o...",
+      "sector_tags": []
     },
     {
       "reference": "26-133",
@@ -376,7 +462,8 @@
       "posted_at": "2026-10-14T12:06:18+00:00",
       "modified_at": "2026-10-26T14:17:40+00:00",
       "url": "https://www.utbodsvefur.is/thjonusta-og-vidhald-veglysingar-a-hofudborgarsvaedinu/",
-      "summary": "Vegagerðin býður hér með út þjónustu og viðhald veglýsingar á höfuðborgarsvæðinu. Um er að ræða almenna þjónustu og viðhald á veglýsingarkerfinu, nið..."
+      "summary": "Vegagerðin býður hér með út þjónustu og viðhald veglýsingar á höfuðborgarsvæðinu. Um er að ræða almenna þjónustu og viðhald á veglýsingarkerfinu, nið...",
+      "sector_tags": []
     },
     {
       "reference": "26-144",
@@ -390,7 +477,8 @@
       "posted_at": "2026-10-26T13:46:51+00:00",
       "modified_at": "2026-10-26T13:46:51+00:00",
       "url": "https://www.utbodsvefur.is/budardalur-og-bordeyri-sjovarnir-2026/",
-      "summary": "Vegagerðin óskar eftir tilboðum í verkið „Búðardalur og Borðeyri – sjóvarnir 2026”. Gera skal nýjan 200 m sjóvörn við sunnan á Borðeyri og um 70 m len..."
+      "summary": "Vegagerðin óskar eftir tilboðum í verkið „Búðardalur og Borðeyri – sjóvarnir 2026”. Gera skal nýjan 200 m sjóvörn við sunnan á Borðeyri og um 70 m len...",
+      "sector_tags": []
     },
     {
       "reference": "27-2026",
@@ -404,7 +492,8 @@
       "posted_at": "2026-10-22T14:16:34+00:00",
       "modified_at": "2026-10-22T14:16:34+00:00",
       "url": "https://www.utbodsvefur.is/einnota-plastsvuntur-fyrir-landspitala/",
-      "summary": "Landspítali óskar eftir upplýsingum um verð og gæði á einnota plastsvuntum. Nánari upplýsingar eru í verðfyrirspurnargögnum sem eru aðgengileg af efti..."
+      "summary": "Landspítali óskar eftir upplýsingum um verð og gæði á einnota plastsvuntum. Nánari upplýsingar eru í verðfyrirspurnargögnum sem eru aðgengileg af efti...",
+      "sector_tags": []
     },
     {
       "reference": "2026-07",
@@ -418,7 +507,8 @@
       "posted_at": "2026-10-27T02:19:47+00:00",
       "modified_at": "2026-10-27T02:19:47+00:00",
       "url": "https://www.utbodsvefur.is/2026-07-hledslustodvar-fyrir-almenningshledslu/",
-      "summary": "Orkubú Vestfjarða ohf., kt. 660877-0299, óskar eftir tilboðum í kaup og afhendingu á samtals níu (9) DC hraðhleðslustöðvum fyrir rafbíla, sem skiptast..."
+      "summary": "Orkubú Vestfjarða ohf., kt. 660877-0299, óskar eftir tilboðum í kaup og afhendingu á samtals níu (9) DC hraðhleðslustöðvum fyrir rafbíla, sem skiptast...",
+      "sector_tags": []
     },
     {
       "reference": "25071502",
@@ -432,7 +522,8 @@
       "posted_at": "2026-10-23T08:10:12+00:00",
       "modified_at": "2026-10-23T08:23:13+00:00",
       "url": "https://www.utbodsvefur.is/markadskonnun-hugbunadarlausn-fyrir-studningsthjonustu/",
-      "summary": "Kópavogsbær óskar eftir upplýsingum frá markaðsaðilum um hugbúnaðarlausnir sem geta stutt við skipulagningu, utanumhald og stafræna veitingu þjónustu ..."
+      "summary": "Kópavogsbær óskar eftir upplýsingum frá markaðsaðilum um hugbúnaðarlausnir sem geta stutt við skipulagningu, utanumhald og stafræna veitingu þjónustu ...",
+      "sector_tags": []
     },
     {
       "reference": "2507230",
@@ -446,7 +537,8 @@
       "posted_at": "2025-09-22T15:50:37+00:00",
       "modified_at": "2026-10-16T10:34:42+00:00",
       "url": "https://www.utbodsvefur.is/vetrarthjonusta-i-arborg/",
-      "summary": "Sveitarfélagið Árborg óskar eftir tilboðum í verkið: „Vetrarþjónusta Árborg 2026-2028“ Í verkinu felst snjóruðningur á götum, gönguleiðum meðfram göt..."
+      "summary": "Sveitarfélagið Árborg óskar eftir tilboðum í verkið: „Vetrarþjónusta Árborg 2026-2028“ Í verkinu felst snjóruðningur á götum, gönguleiðum meðfram göt...",
+      "sector_tags": []
     },
     {
       "reference": "6087175",
@@ -460,7 +552,8 @@
       "posted_at": "2026-10-16T09:21:30+00:00",
       "modified_at": "2026-10-16T09:21:30+00:00",
       "url": "https://www.utbodsvefur.is/faeranlegar-huseiningar-fyrir-hjukrunarheimilid-hlid/",
-      "summary": "Framkvæmdasýslan – Ríkiseignir (FSRE), f.h. Félags- og húsnæðismálaráðuneytisins, sem hér eftir nefnist kaupandi, óskar eftir tilboðum í að fullnaðarh..."
+      "summary": "Framkvæmdasýslan – Ríkiseignir (FSRE), f.h. Félags- og húsnæðismálaráðuneytisins, sem hér eftir nefnist kaupandi, óskar eftir tilboðum í að fullnaðarh...",
+      "sector_tags": []
     },
     {
       "reference": "23369",
@@ -474,7 +567,23 @@
       "posted_at": "2026-09-21T09:08:53+00:00",
       "modified_at": "2026-10-12T10:08:36+00:00",
       "url": "https://www.utbodsvefur.is/upplysingataeknithjonusta-fyrir-stafraena-heilbrigdisthjonustu/",
-      "summary": "Fjársýslan fyrir hönd heilbrigðisráðuneytisins, kt. 521218-0530, óskar eftir tilboðum í tækniþjónustu fyrir Stafræna heilsu og Sjúkratryggingar Ísland..."
+      "summary": "Fjársýslan fyrir hönd heilbrigðisráðuneytisins, kt. 521218-0530, óskar eftir tilboðum í tækniþjónustu fyrir Stafræna heilsu og Sjúkratryggingar Ísland...",
+      "sector_tags": []
+    },
+    {
+      "reference": "I0054",
+      "project": "Uppsetning, Strengir og Tengingar (UST)",
+      "buyer": "Nýr Landspítali",
+      "notice_type": "Framkvæmd Vörukaup",
+      "deadline": "18.11.2026 kl. 13:00",
+      "deadline_local": "2026-11-18T13:00:00+00:00",
+      "deadline_utc": "2026-11-18T13:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-09-29T13:18:07+00:00",
+      "modified_at": "2026-10-28T14:12:20+00:00",
+      "url": "https://www.utbodsvefur.is/uppsetning-strengir-og-tengingar-ust/",
+      "summary": "Með þessu almenna útboði óskar Nýr Landspítali ohf kt. 500810-0410 (NLSH) eftir tilboðum í uppsetningu og tengingar 11 kV háspennubúnaðar s.s. dreifis...",
+      "sector_tags": []
     },
     {
       "reference": "BSVK-2026-18",
@@ -488,7 +597,8 @@
       "posted_at": "2026-10-14T08:05:15+00:00",
       "modified_at": "2026-10-14T08:05:15+00:00",
       "url": "https://www.utbodsvefur.is/supply-of-led-street-light-luminaires-lampar-fyrir-borgarlinu/",
-      "summary": "Betri samgöngur ohf. invites tenders for the supply and delivery of LED street light luminaires and pedestrian crossing luminaires for Borgarlínan. T..."
+      "summary": "Betri samgöngur ohf. invites tenders for the supply and delivery of LED street light luminaires and pedestrian crossing luminaires for Borgarlínan. T...",
+      "sector_tags": []
     },
     {
       "reference": "2026062652",
@@ -502,7 +612,8 @@
       "posted_at": "2026-10-15T13:59:51+00:00",
       "modified_at": "2026-10-22T08:17:49+00:00",
       "url": "https://www.utbodsvefur.is/utbod-a-hysingu-rekstrar-og-notendathjonustu-fyrir-akureyrarbae/",
-      "summary": "Akureyrarbær óskar eftir tilboðum í hýsingu og rekstur upplýsingatækniumhverfis sveitarfélagsins, auk notendaþjónustu. Samningstími er frá 1.4.2027 &#..."
+      "summary": "Akureyrarbær óskar eftir tilboðum í hýsingu og rekstur upplýsingatækniumhverfis sveitarfélagsins, auk notendaþjónustu. Samningstími er frá 1.4.2027 &#...",
+      "sector_tags": []
     },
     {
       "reference": "16342",
@@ -516,7 +627,8 @@
       "posted_at": "2026-10-22T12:44:53+00:00",
       "modified_at": "2026-10-22T12:44:53+00:00",
       "url": "https://www.utbodsvefur.is/rafraen-undirritunarlausn-fyrir-reykjavikurborg-rammasamningur-ees-utbod-nr-16342/",
-      "summary": "F.h. Reykjavíkurborgar er óskað eftir tilboðum í eftirfarandi verk: Rafræn undirritunarlausn fyrir Reykjavíkurborg. Rammasamningur, EES útboð nr. 1634..."
+      "summary": "F.h. Reykjavíkurborgar er óskað eftir tilboðum í eftirfarandi verk: Rafræn undirritunarlausn fyrir Reykjavíkurborg. Rammasamningur, EES útboð nr. 1634...",
+      "sector_tags": []
     },
     {
       "reference": "202650",
@@ -530,7 +642,8 @@
       "posted_at": "2026-10-14T08:39:18+00:00",
       "modified_at": "2026-10-15T14:25:10+00:00",
       "url": "https://www.utbodsvefur.is/hopid-markadskonnun/",
-      "summary": "Consensa, fyrir hönd Grindavíkurbæjar, óskar eftir upplýsingum og sjónarmiðum áhugasamra markaðsaðila vegna undirbúnings þjónustusérleyfis um uppbyggi..."
+      "summary": "Consensa, fyrir hönd Grindavíkurbæjar, óskar eftir upplýsingum og sjónarmiðum áhugasamra markaðsaðila vegna undirbúnings þjónustusérleyfis um uppbyggi...",
+      "sector_tags": []
     },
     {
       "reference": "202605839",
@@ -544,7 +657,8 @@
       "posted_at": "2026-10-19T09:04:42+00:00",
       "modified_at": "2026-10-19T09:04:42+00:00",
       "url": "https://www.utbodsvefur.is/baran-endurnyjun-a-gervigrasi/",
-      "summary": "Endurnýjun gervigrass í Bárunni Sveitarfélagið Hornafjörður óskar eftir tilboðum í verkið„Báran – endurnýjun á gervigrasi“. Um er að ræða almennt opið..."
+      "summary": "Endurnýjun gervigrass í Bárunni Sveitarfélagið Hornafjörður óskar eftir tilboðum í verkið„Báran – endurnýjun á gervigrasi“. Um er að ræða almennt opið...",
+      "sector_tags": []
     },
     {
       "reference": "202601142",
@@ -558,7 +672,8 @@
       "posted_at": "2026-10-26T10:45:43+00:00",
       "modified_at": "2026-10-26T10:45:43+00:00",
       "url": "https://www.utbodsvefur.is/mulathing-oskar-eftir-tilbodum-i-verkefnid-herdubreid-austurvegur-4-a-seydisfirdi-bokasafn-og-baejarskrifstofur/",
-      "summary": "Herðubreið, Austurvegur 4 á Seyðisfirði – Bókasafn og bæjarskrifstofur Tölvugerð mynd   Verkið felst í að endurnýja innviði annarrar hæðar Herðu..."
+      "summary": "Herðubreið, Austurvegur 4 á Seyðisfirði – Bókasafn og bæjarskrifstofur Tölvugerð mynd   Verkið felst í að endurnýja innviði annarrar hæðar Herðu...",
+      "sector_tags": []
     },
     {
       "reference": "26-102",
@@ -572,7 +687,8 @@
       "posted_at": "2026-10-22T17:00:05+00:00",
       "modified_at": "2026-10-22T17:00:05+00:00",
       "url": "https://www.utbodsvefur.is/telehandler-telescopic-handler-for-the-icelandic-road-and-coastal-administration-irca/",
-      "summary": "Vegagerðin býður hér með út Innkaup á einum nýjum skotbómulyftara fjórhjóladrifinum (4X4) með driflæsingu. Vegagerðin áskilur sér rétt til innkaupa á ..."
+      "summary": "Vegagerðin býður hér með út Innkaup á einum nýjum skotbómulyftara fjórhjóladrifinum (4X4) með driflæsingu. Vegagerðin áskilur sér rétt til innkaupa á ...",
+      "sector_tags": []
     },
     {
       "reference": "2026108663",
@@ -586,7 +702,8 @@
       "posted_at": "2026-10-19T13:46:50+00:00",
       "modified_at": "2026-10-19T13:46:50+00:00",
       "url": "https://www.utbodsvefur.is/utbod-a-vatryggingarthjonustu-fyrir-akureyrarbae-hafnarsjod-nordurlands-og-nordurorku/",
-      "summary": "Akureyrarbær óskar eftir tilboðum í vátryggingarþjónustu sveitarfélagsins, Hafnasamlags Norðurlands og Norðurorku hf. Samningstími er frá 1. janúar 20..."
+      "summary": "Akureyrarbær óskar eftir tilboðum í vátryggingarþjónustu sveitarfélagsins, Hafnasamlags Norðurlands og Norðurorku hf. Samningstími er frá 1. janúar 20...",
+      "sector_tags": []
     },
     {
       "reference": "23270",
@@ -600,7 +717,8 @@
       "posted_at": "2026-10-01T09:31:05+00:00",
       "modified_at": "2026-10-26T08:52:11+00:00",
       "url": "https://www.utbodsvefur.is/raesting-fyrir-stjornarrad-nokkrar-byggingar/",
-      "summary": "Fjársýslan, fyrir hönd Ríkiseigna, kt. 690980-0259, óskar eftir tilboðum í ræstiþjónustu fyrir Stjórnarráðið. Um er að ræða skrifstofuhúsnæði Umbru, e..."
+      "summary": "Fjársýslan, fyrir hönd Ríkiseigna, kt. 690980-0259, óskar eftir tilboðum í ræstiþjónustu fyrir Stjórnarráðið. Um er að ræða skrifstofuhúsnæði Umbru, e...",
+      "sector_tags": []
     },
     {
       "reference": "23302",
@@ -614,7 +732,8 @@
       "posted_at": "2026-10-26T09:44:34+00:00",
       "modified_at": "2026-10-26T09:44:34+00:00",
       "url": "https://www.utbodsvefur.is/upplysingataeknirekstur-hafrannsoknastofnunar/",
-      "summary": "Fjársýslan fyrir hönd Hafrannsóknastofnunar, kt. 470616-0830, óskar eftir tilboðum í 23302 – Upplýsingatæknirekstur Hafrannsóknastofnunar (e. IT..."
+      "summary": "Fjársýslan fyrir hönd Hafrannsóknastofnunar, kt. 470616-0830, óskar eftir tilboðum í 23302 – Upplýsingatæknirekstur Hafrannsóknastofnunar (e. IT...",
+      "sector_tags": []
     },
     {
       "reference": "23442",
@@ -628,7 +747,23 @@
       "posted_at": "2026-10-26T08:33:52+00:00",
       "modified_at": "2026-10-26T08:33:52+00:00",
       "url": "https://www.utbodsvefur.is/vatryggingar-fyrir-ruv/",
-      "summary": "Fjársýslan fyrir hönd Ríkisútvarpsins ohf., kt. 600307-0450, óskar eftir tilboðum í vátryggingar fyrir RÚV. Tryggingar skulu gilda frá og með 01.01.20..."
+      "summary": "Fjársýslan fyrir hönd Ríkisútvarpsins ohf., kt. 600307-0450, óskar eftir tilboðum í vátryggingar fyrir RÚV. Tryggingar skulu gilda frá og með 01.01.20...",
+      "sector_tags": []
+    },
+    {
+      "reference": "16356",
+      "project": "Fossvogsblettur – Lóðarframkvæmd, útboð nr. 16356",
+      "buyer": "Reykjavíkurborg",
+      "notice_type": "Framkvæmd",
+      "deadline": "27.11.2026 kl. 10:00",
+      "deadline_local": "2026-11-27T10:00:00+00:00",
+      "deadline_utc": "2026-11-27T10:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-28T11:56:53+00:00",
+      "modified_at": "2026-10-28T11:56:53+00:00",
+      "url": "https://www.utbodsvefur.is/fossvogsblettur-lodarframkvaemd-utbod-nr-16356/",
+      "summary": "F.h. Umhverfis- og skipulagssviðs Reykjavíkurborgar er óskað eftir tilboðum í eftirfarandi verk: Fossvogsblettur – Lóðarframkvæmd, útboð nr. 163...",
+      "sector_tags": []
     },
     {
       "reference": "2608-5719",
@@ -642,7 +777,8 @@
       "posted_at": "2026-10-23T12:00:54+00:00",
       "modified_at": "2026-10-23T14:39:09+00:00",
       "url": "https://www.utbodsvefur.is/raforkukaup-fyrir-akraneskaupstad-2027-2030/",
-      "summary": "Akraneskaupstaður óskar eftir tilboði í innkaup á raforku fyrir alla almenna notkun í 4 ár samkvæmt útboðsgögnum. Um er að ræða almennt útboð. Tilboð..."
+      "summary": "Akraneskaupstaður óskar eftir tilboði í innkaup á raforku fyrir alla almenna notkun í 4 ár samkvæmt útboðsgögnum. Um er að ræða almennt útboð. Tilboð...",
+      "sector_tags": []
     },
     {
       "reference": "16361",
@@ -656,7 +792,23 @@
       "posted_at": "2026-10-27T09:48:08+00:00",
       "modified_at": "2026-10-27T09:48:08+00:00",
       "url": "https://www.utbodsvefur.is/autodesk-hugbunadarleyfi-ees-utbod-nr-16361/",
-      "summary": "F.h. Upplýsingatækniþjónustu Reykjavíkurborgar er óskað eftir tilboðum í eftirfarandi verk: Autodesk hugbúnaðarleyfi, EES útboð nr. 16361. Lauslegt yf..."
+      "summary": "F.h. Upplýsingatækniþjónustu Reykjavíkurborgar er óskað eftir tilboðum í eftirfarandi verk: Autodesk hugbúnaðarleyfi, EES útboð nr. 16361. Lauslegt yf...",
+      "sector_tags": []
+    },
+    {
+      "reference": "23426",
+      "project": "Rammasamningur fyrir matsstörf vegna náttúruhamfara",
+      "buyer": "Fjársýslan",
+      "notice_type": "Þjónusta",
+      "deadline": "30.11.2026 kl. 12:00",
+      "deadline_local": "2026-11-30T12:00:00+00:00",
+      "deadline_utc": "2026-11-30T12:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-28T09:06:00+00:00",
+      "modified_at": "2026-10-28T09:07:40+00:00",
+      "url": "https://www.utbodsvefur.is/9809-2/",
+      "summary": "Fjársýslan fyrir hönd Náttúruhamfaratryggingar Íslands (NTÍ), kt. 520276-0259, stendur fyrir rammasamningsútboði fyrir matsstörf vegna náttúruhamfara....",
+      "sector_tags": []
     },
     {
       "reference": "26-072",
@@ -670,7 +822,8 @@
       "posted_at": "2026-10-26T10:34:07+00:00",
       "modified_at": "2026-10-26T10:38:13+00:00",
       "url": "https://www.utbodsvefur.is/almenningssamgongur-a-landi-a-austurlandi-2027-2028/",
-      "summary": "Vegagerðin ókar hér með eftir tilboðum í almenningssamgöngur á landi á Austurlandi 2027-2028. Þjónustuverkefninu er skipt tvo hluta; annars vegar lei..."
+      "summary": "Vegagerðin ókar hér með eftir tilboðum í almenningssamgöngur á landi á Austurlandi 2027-2028. Þjónustuverkefninu er skipt tvo hluta; annars vegar lei...",
+      "sector_tags": []
     },
     {
       "reference": "TZS26002",
@@ -684,7 +837,8 @@
       "posted_at": "2026-10-13T10:38:49+00:00",
       "modified_at": "2026-10-13T10:39:51+00:00",
       "url": "https://www.utbodsvefur.is/thotugildrur-a-keflavikurflugvelli/",
-      "summary": "Utanríkisráðuneytið, varnarmálaskrifstofa og Landhelgisgæslan, varnarmálasvið, vekja athygli á auglýsingu innkaupastofnunar Atlantshafsbandalagsins (N..."
+      "summary": "Utanríkisráðuneytið, varnarmálaskrifstofa og Landhelgisgæslan, varnarmálasvið, vekja athygli á auglýsingu innkaupastofnunar Atlantshafsbandalagsins (N...",
+      "sector_tags": []
     },
     {
       "reference": "2608-5801",
@@ -698,7 +852,8 @@
       "posted_at": "2026-10-14T11:36:19+00:00",
       "modified_at": "2026-10-26T09:22:57+00:00",
       "url": "https://www.utbodsvefur.is/leiga-a-tjaldsvaedinu-i-kalmansvik-2/",
-      "summary": "Akraneskaupstaður óskar eftir tilboðum í leigu á tjaldsvæðinu í Kalmansvík. Svæðið þar sem tjaldsvæðið er staðsett er tæplega 2,2 ha að flatarmáli og ..."
+      "summary": "Akraneskaupstaður óskar eftir tilboðum í leigu á tjaldsvæðinu í Kalmansvík. Svæðið þar sem tjaldsvæðið er staðsett er tæplega 2,2 ha að flatarmáli og ...",
+      "sector_tags": []
     },
     {
       "reference": "VEU-2609-0060",
@@ -712,7 +867,8 @@
       "posted_at": "2026-10-23T13:34:32+00:00",
       "modified_at": "2026-10-23T13:35:11+00:00",
       "url": "https://www.utbodsvefur.is/veu-2609-0060-fodrun-fraveitulagna/",
-      "summary": "Veitur ohf. óskar eftir þátttekendum í rammasamning Veitna vegna verkefnis: „VEU-2609-0060 Fóðrun fráveitulagna“ Með útboðinu hyggst Kaupa..."
+      "summary": "Veitur ohf. óskar eftir þátttekendum í rammasamning Veitna vegna verkefnis: „VEU-2609-0060 Fóðrun fráveitulagna“ Með útboðinu hyggst Kaupa...",
+      "sector_tags": []
     },
     {
       "reference": "2026-35",
@@ -726,7 +882,8 @@
       "posted_at": "2026-10-19T15:54:49+00:00",
       "modified_at": "2026-10-19T15:54:49+00:00",
       "url": "https://www.utbodsvefur.is/hvm10-mannvirkjagerd/",
-      "summary": "Landsvirkjun býður hér með út verk sem felst í byggingu Núpstíflu, þar með talið yfirfallsmannvirkjum með lokum og brúm, fiskvegum, aðrennslisskurði, ..."
+      "summary": "Landsvirkjun býður hér með út verk sem felst í byggingu Núpstíflu, þar með talið yfirfallsmannvirkjum með lokum og brúm, fiskvegum, aðrennslisskurði, ...",
+      "sector_tags": []
     },
     {
       "reference": "2024-54",
@@ -740,7 +897,8 @@
       "posted_at": null,
       "modified_at": null,
       "url": "https://www.utbodsvefur.is/gagnvirkt-innkaupakerfi-vegna-bifreidakaupa/",
-      "summary": "Landsvirkjun óskar eftir birgjum til þátttöku í gagnvirku innkaupakerfi vegna kaupa á bifreiðum fyrir Landsvirkjun. Um er að ræða útboð nr. 2024-54. G..."
+      "summary": "Landsvirkjun óskar eftir birgjum til þátttöku í gagnvirku innkaupakerfi vegna kaupa á bifreiðum fyrir Landsvirkjun. Um er að ræða útboð nr. 2024-54. G...",
+      "sector_tags": []
     },
     {
       "reference": "VEGK-2024-01",
@@ -754,7 +912,8 @@
       "posted_at": null,
       "modified_at": null,
       "url": "https://www.utbodsvefur.is/vegk-2024-01-veitulagnir-jardvinna-og-yfirbordsfragangur-gagnvirkt-innkaupakerfi/",
-      "summary": "Veitur ohf. óska eftir þátttakendum í gagnvirkt innkaupakerfi fyrir verkefni vegna veitulagna, jarðvinnu og yfirborðsfrágangs. Undir gagnvirka innkaup..."
+      "summary": "Veitur ohf. óska eftir þátttakendum í gagnvirkt innkaupakerfi fyrir verkefni vegna veitulagna, jarðvinnu og yfirborðsfrágangs. Undir gagnvirka innkaup...",
+      "sector_tags": []
     },
     {
       "reference": "I0083",
@@ -768,7 +927,8 @@
       "posted_at": null,
       "modified_at": null,
       "url": "https://www.utbodsvefur.is/gagnvirt-innkaupakerfi-ut-radgjof-fyrir-nlsh-dps-for-it-consulting-services-for-nlsh/",
-      "summary": "The New National Hospital (NLSH) project reg.nr. 500810-0410 hereby invite applicants to participate in this Dynamic Purchasing System (DPS): DPS for ..."
+      "summary": "The New National Hospital (NLSH) project reg.nr. 500810-0410 hereby invite applicants to participate in this Dynamic Purchasing System (DPS): DPS for ...",
+      "sector_tags": []
     },
     {
       "reference": "U23036",
@@ -782,7 +942,8 @@
       "posted_at": null,
       "modified_at": null,
       "url": "https://www.utbodsvefur.is/led-skjalausnir-fyrir-isavia-ohf-og-dotturfyrirtaeki/",
-      "summary": "Isavia ohf. ásamt dótturfélögum óskar eftir aðilum til þátttöku í gagnvirku innkaupakerfi vegna kaupa á LED skjálausnum. Gagnvirkt innkaupakerfi er t..."
+      "summary": "Isavia ohf. ásamt dótturfélögum óskar eftir aðilum til þátttöku í gagnvirku innkaupakerfi vegna kaupa á LED skjálausnum. Gagnvirkt innkaupakerfi er t...",
+      "sector_tags": []
     },
     {
       "reference": "U22016",
@@ -796,7 +957,8 @@
       "posted_at": null,
       "modified_at": null,
       "url": "https://www.utbodsvefur.is/gagnvirkt-innkaupakerfi-okutaeki-fyrir-isavia/",
-      "summary": "Isavia óskar eftir aðilum til þátttöku í gagnvirku innkaupakerfi (DPS) vegna kaupa á ökutækjum fyrir Isavia. Í upphafi gagnvirks innkaupakerfis skila ..."
+      "summary": "Isavia óskar eftir aðilum til þátttöku í gagnvirku innkaupakerfi (DPS) vegna kaupa á ökutækjum fyrir Isavia. Í upphafi gagnvirks innkaupakerfis skila ...",
+      "sector_tags": []
     },
     {
       "reference": "I0210",
@@ -810,7 +972,8 @@
       "posted_at": null,
       "modified_at": null,
       "url": "https://www.utbodsvefur.is/gagnvirkt-innkaupakerfi-fyrir-sjukrahusapotek-og-gmp-radgjafarthjonustu-fyrir-nlsh-dps/",
-      "summary": "The New National Hospital (NLSH) project reg.nr. 500810-0410 hereby invite applicants to participate in this Dynamic Purchasing System (DPS): DPS for ..."
+      "summary": "The New National Hospital (NLSH) project reg.nr. 500810-0410 hereby invite applicants to participate in this Dynamic Purchasing System (DPS): DPS for ...",
+      "sector_tags": []
     },
     {
       "reference": "I0099",
@@ -824,7 +987,8 @@
       "posted_at": null,
       "modified_at": null,
       "url": "https://www.utbodsvefur.is/birgjalisti-fyrir-ut-verktaka/",
-      "summary": "Nýr Landspítali ohf., kt. 500810-0410, Vatnsmýrarvegi 22, 101 Reykjavík, (hér eftir nefndur „verkkaupi“) óskar eftir þátttakendum á birgjalista fyrir ..."
+      "summary": "Nýr Landspítali ohf., kt. 500810-0410, Vatnsmýrarvegi 22, 101 Reykjavík, (hér eftir nefndur „verkkaupi“) óskar eftir þátttakendum á birgjalista fyrir ...",
+      "sector_tags": []
     },
     {
       "reference": "35036",
@@ -838,7 +1002,8 @@
       "posted_at": null,
       "modified_at": null,
       "url": "https://www.utbodsvefur.is/gagnvirkt-innkaupakerfi-landspitala-thjonusta-vid-hugbunadarthroun-dps/",
-      "summary": "Innkaupadeild Landspítala, fyrir hönd deildar stafrænnar framþróunar á Landspítala, óskar eftir þátttakendum í gagnvirkt innkaupakerfi, (DPS, Dynamic ..."
+      "summary": "Innkaupadeild Landspítala, fyrir hönd deildar stafrænnar framþróunar á Landspítala, óskar eftir þátttakendum í gagnvirkt innkaupakerfi, (DPS, Dynamic ...",
+      "sector_tags": []
     },
     {
       "reference": "DPSENG",
@@ -852,7 +1017,8 @@
       "posted_at": null,
       "modified_at": null,
       "url": "https://www.utbodsvefur.is/gagnvirkt-innkaupakerfi-vegna-verkfraedithjonustu/",
-      "summary": "Landsnet óskar eftir aðilum til þátttöku í gagnvirku innkaupakerfi um verkfræðiþjónustu sbr. 55. gr. reglugerðar nr. 340/2017. Verkfræðiþjónusta er ná..."
+      "summary": "Landsnet óskar eftir aðilum til þátttöku í gagnvirku innkaupakerfi um verkfræðiþjónustu sbr. 55. gr. reglugerðar nr. 340/2017. Verkfræðiþjónusta er ná...",
+      "sector_tags": []
     },
     {
       "reference": "ORGK-2025-01",
@@ -866,7 +1032,8 @@
       "posted_at": null,
       "modified_at": null,
       "url": "https://www.utbodsvefur.is/8157-2/",
-      "summary": "Kaupandi óskar eftir þátttakendum í gagnvirkt innkaupakerfi (GIK) fyrir laus húsgögn fyrir höfuðstöðvar Orkuveitunnar í samræmi við útboðsgögn. Umsókn..."
+      "summary": "Kaupandi óskar eftir þátttakendum í gagnvirkt innkaupakerfi (GIK) fyrir laus húsgögn fyrir höfuðstöðvar Orkuveitunnar í samræmi við útboðsgögn. Umsókn...",
+      "sector_tags": []
     },
     {
       "reference": "DPSRF",
@@ -880,7 +1047,8 @@
       "posted_at": null,
       "modified_at": null,
       "url": "https://www.utbodsvefur.is/gagnvirkt-innkaupakerfi-vegna-reglunaraflstrygginga-og-flutningstapa/",
-      "summary": "Landsnet óskar eftir aðilum til þátttöku í gagnvirku innkaupakerfi vegna reglunaraflstryggingar og flutningstapa sbr. 55. gr. reglugerðar nr. 340/2017..."
+      "summary": "Landsnet óskar eftir aðilum til þátttöku í gagnvirku innkaupakerfi vegna reglunaraflstryggingar og flutningstapa sbr. 55. gr. reglugerðar nr. 340/2017...",
+      "sector_tags": []
     },
     {
       "reference": "21616",
@@ -894,7 +1062,8 @@
       "posted_at": null,
       "modified_at": null,
       "url": "https://www.utbodsvefur.is/dps-leiga-a-netabatum-fyrir-hafrannsoknastofnun/",
-      "summary": "Fjársýslan fyrir hönd Hafrannsóknastofnunar (kt. 470616-0830) óska eftir bjóðendum í gagnvirkt innkaupakerfi (DPS) til leigu á netabátum til að stunda..."
+      "summary": "Fjársýslan fyrir hönd Hafrannsóknastofnunar (kt. 470616-0830) óska eftir bjóðendum í gagnvirkt innkaupakerfi (DPS) til leigu á netabátum til að stunda...",
+      "sector_tags": []
     },
     {
       "reference": "DPSRAF",
@@ -908,7 +1077,8 @@
       "posted_at": null,
       "modified_at": null,
       "url": "https://www.utbodsvefur.is/gagnvirkt-innkaupakerfi-vegna-thjonustu-rafverktaka/",
-      "summary": "Landsnet óskar eftir aðilum til þátttöku í gagnvirku innkaupakerfi vegna þjónustu rafverktaka sbr. 55. gr. reglugerðar nr. 340/2017. Innkaupakerfinu e..."
+      "summary": "Landsnet óskar eftir aðilum til þátttöku í gagnvirku innkaupakerfi vegna þjónustu rafverktaka sbr. 55. gr. reglugerðar nr. 340/2017. Innkaupakerfinu e...",
+      "sector_tags": []
     },
     {
       "reference": "DPSOHL",
@@ -922,7 +1092,8 @@
       "posted_at": null,
       "modified_at": null,
       "url": "https://www.utbodsvefur.is/gagnvirt-innkaupakerfi-bunadur-og-efni-fyrir-loftlinur/",
-      "summary": "Landsnet óskar eftir aðilum til þátttöku í gagnvirku innkaupakerfi vegna kaupa á búnaði og efni fyrir loftlínur sbr. 55. gr. reglugerðar nr. 340/2017...."
+      "summary": "Landsnet óskar eftir aðilum til þátttöku í gagnvirku innkaupakerfi vegna kaupa á búnaði og efni fyrir loftlínur sbr. 55. gr. reglugerðar nr. 340/2017....",
+      "sector_tags": []
     },
     {
       "reference": "DPSTR",
@@ -936,7 +1107,8 @@
       "posted_at": null,
       "modified_at": null,
       "url": "https://www.utbodsvefur.is/gagnvirkt-innkaupakerfi-spennar-og-spolur/",
-      "summary": "Landsnet óskar eftir aðilum til þátttöku í gagnvirku innkaupakerfi vegna kaupa á spennum og spólum sbr. 55. gr. reglugerðar nr. 340/2017. Nánari upplý..."
+      "summary": "Landsnet óskar eftir aðilum til þátttöku í gagnvirku innkaupakerfi vegna kaupa á spennum og spólum sbr. 55. gr. reglugerðar nr. 340/2017. Nánari upplý...",
+      "sector_tags": []
     },
     {
       "reference": "2025-10",
@@ -950,7 +1122,8 @@
       "posted_at": null,
       "modified_at": null,
       "url": "https://www.utbodsvefur.is/2025-10-gagnvirkt-innkaupakerfi-dps-bifreidar/",
-      "summary": "Orkubú Vestfjarða ohf. óskar eftir birgjum til þátttöku í gagnvirku innkaupakerfi vegna kaupa á nýjum bifreiðum. Í upphafi gagnvirks innkaupakerfis sk..."
+      "summary": "Orkubú Vestfjarða ohf. óskar eftir birgjum til þátttöku í gagnvirku innkaupakerfi vegna kaupa á nýjum bifreiðum. Í upphafi gagnvirks innkaupakerfis sk...",
+      "sector_tags": []
     },
     {
       "reference": "2026-17",
@@ -964,7 +1137,8 @@
       "posted_at": "2026-08-27T13:51:55+00:00",
       "modified_at": "2026-10-01T15:14:52+00:00",
       "url": "https://www.utbodsvefur.is/consultancy-for-geothermal-development-resources-dps-dynamic-purchasing-system/",
-      "summary": "The DPS is intended to provide an electronic, continuously open procurement route for recurring consultancy assignments for Landsvirkjun within the lo..."
+      "summary": "The DPS is intended to provide an electronic, continuously open procurement route for recurring consultancy assignments for Landsvirkjun within the lo...",
+      "sector_tags": []
     },
     {
       "reference": "21775",
@@ -978,7 +1152,8 @@
       "posted_at": null,
       "modified_at": null,
       "url": "https://www.utbodsvefur.is/vaccines-for-the-icelandic-vaccination-programme-dps/",
-      "summary": "Ríkiskaup, fyrir hönd sóttvarnalæknis vegna heilbrigðisráðuneytisins, kt. 521218-0530, óska eftir þátttakendum í gagnvirkt innkaupakerfi (DPS) fyrir b..."
+      "summary": "Ríkiskaup, fyrir hönd sóttvarnalæknis vegna heilbrigðisráðuneytisins, kt. 521218-0530, óska eftir þátttakendum í gagnvirkt innkaupakerfi (DPS) fyrir b...",
+      "sector_tags": []
     },
     {
       "reference": "21633",
@@ -992,7 +1167,8 @@
       "posted_at": null,
       "modified_at": null,
       "url": "https://www.utbodsvefur.is/dps-skogarplontur-fyrir-skograektina-dps-tree-nursery-products-for-the-icelandic-forest-service/",
-      "summary": "Fjársýslan, fyrir hönd Skógræktarinnar kt. 590269-3449, hér eftir nefnd verkkaupi, óska eftir bjóðendum í gagnvirkt innkaupakerfi (DPS) á skógarplöntu..."
+      "summary": "Fjársýslan, fyrir hönd Skógræktarinnar kt. 590269-3449, hér eftir nefnd verkkaupi, óska eftir bjóðendum í gagnvirkt innkaupakerfi (DPS) á skógarplöntu...",
+      "sector_tags": []
     },
     {
       "reference": "23355",
@@ -1006,7 +1182,8 @@
       "posted_at": null,
       "modified_at": null,
       "url": "https://www.utbodsvefur.is/dps-taeknithjonusta-fyrir-haskola-islands/",
-      "summary": "Fjársýslan fyrir hönd Háskóla Íslands (HÍ) kt. 600169-2039 óskar eftir aðilum til þátttöku í gagnvirku innkaupakerfi (DPS) um þjónustu sérfræðinga í u..."
+      "summary": "Fjársýslan fyrir hönd Háskóla Íslands (HÍ) kt. 600169-2039 óskar eftir aðilum til þátttöku í gagnvirku innkaupakerfi (DPS) um þjónustu sérfræðinga í u...",
+      "sector_tags": []
     },
     {
       "reference": "U24020",
@@ -1020,7 +1197,8 @@
       "posted_at": null,
       "modified_at": null,
       "url": "https://www.utbodsvefur.is/dps-no-u24020-runway-de-icing-chemicals/",
-      "summary": "Isavia ohf. is establishing a Dynamic Purchasing System (“DPS”) of qualified suppliers for the supply of runway de-icing chemicals, both solid and liq..."
+      "summary": "Isavia ohf. is establishing a Dynamic Purchasing System (“DPS”) of qualified suppliers for the supply of runway de-icing chemicals, both solid and liq...",
+      "sector_tags": []
     },
     {
       "reference": "U25041",
@@ -1034,7 +1212,8 @@
       "posted_at": "2026-10-05T11:10:20+00:00",
       "modified_at": "2026-10-05T11:10:20+00:00",
       "url": "https://www.utbodsvefur.is/dps-lifdisill-fyrir-isavia-ohf-u25041/",
-      "summary": "Kaupandi hyggst koma á fót gagnvirku innkaupakerfi („DPS“) hæfra birgja fyrir afhendingu á hreinni lífdísil olíu (HVO) til notkunar á vinnuvélum og öð..."
+      "summary": "Kaupandi hyggst koma á fót gagnvirku innkaupakerfi („DPS“) hæfra birgja fyrir afhendingu á hreinni lífdísil olíu (HVO) til notkunar á vinnuvélum og öð...",
+      "sector_tags": []
     }
   ]
 }
