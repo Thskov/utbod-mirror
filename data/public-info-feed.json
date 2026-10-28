@@ -1,13 +1,15 @@
 {
   "schema_version": 1,
-  "generated": "2026-10-27T06:45:01Z",
+  "generated": "2026-10-28T06:45:02Z",
   "window": {
-    "from": "2026-10-20",
-    "to": "2026-10-27"
+    "from": "2026-10-21",
+    "to": "2026-10-28"
   },
   "coverage": {
     "municipalities": [
       "Reykjavík",
+      "Dalvíkurbyggð",
+      "Skaftárhreppur",
       "Kópavogur",
       "Hafnarfjörður",
       "Garðabær",
@@ -105,6 +107,8 @@
     "announcement_sources": [
       "https://www.istak.is/frettir",
       "https://www.utu.is/feed/",
+      "https://www.landsnet.is/utgafa-og-samskipti/frettir/",
+      "https://byggingar.is/?s=Borgarl%C3%ADna&feed=rss2",
       "https://www.grenivik.is/is/mannlifid/frettir",
       "https://byggingar.is/category/featured/news/in-news/undirskrift/",
       "https://www.fjallabyggd.is/is/frettir",
@@ -295,9 +299,15 @@
         }
       },
       "collector_gaps": {
-        "supreme-leave-to-appeal": {
-          "url": "https://www.haestirettur.is/domar/",
-          "reason": "latest decisions supplement only; separate leave-to-appeal endpoint and historical pagination unverified"
+        "supreme-leave-history-verksamningur": {
+          "url": "https://island.is/s/haestirettur/akvardanir",
+          "reason": "bounded historical search incomplete",
+          "fetched": "30",
+          "total": "45"
+        },
+        "landsnet-news": {
+          "url": "https://www.landsnet.is/utgafa-og-samskipti/frettir/",
+          "reason": "HTTP success but no extractable records; coverage unverified"
         },
         "byggingar-signed-contracts-detail-budget": {
           "url": "https://byggingar.is/category/featured/news/in-news/undirskrift/",
@@ -323,9 +333,25 @@
           "url": "https://www.borealisdc.com/news",
           "reason": "HTTP success but no extractable records; coverage unverified"
         },
-        "althingi-bill-3": {
-          "url": "https://www.althingi.is/altext/xml/thingmalalisti/thingmal/?lthing=158&malnr=3",
-          "reason": "tabled bill document absent"
+        "dalvik-minutes": {
+          "url": "https://www.dalvikurbyggd.is/frettir",
+          "reason": "bounded news/agenda supplement only; resolutions and complete minutes discovery remain unverified"
+        },
+        "uos-discovery": {
+          "url": "https://uos.is/opinber-birting",
+          "reason": "bounded public-notice supplement; issued-permit archive and historical discovery not complete"
+        },
+        "fish-farmer-coverage": {
+          "url": "https://www.fishfarmermagazine.com/feed/",
+          "reason": "bounded secondary trade supplement; historical/source completeness not established"
+        },
+        "salmonbusiness-coverage": {
+          "url": "https://www.salmonbusiness.com/",
+          "reason": "bounded secondary trade supplement; historical/source completeness not established"
+        },
+        "datacenterdynamics-coverage": {
+          "url": "https://www.datacenterdynamics.com/en/news/",
+          "reason": "bounded secondary trade supplement; historical/source completeness not established"
         }
       }
     },
@@ -335,15 +361,15 @@
     "collection_complete": false,
     "source_candidates": [
       {
-        "id": "eia:skaftárhreppur",
-        "name": "Skaftárhreppur",
+        "id": "eia:umhverfis-og-orkustofnun",
+        "name": "Umhverfis- og orkustofnun",
         "suggested_feed": "public-info-feed",
         "suggested_lane": "eia",
-        "evidence_url": "https://skipulagsgatt.is/issues/5586",
-        "seen_count": 1,
-        "first_seen": "2026-10-22T22:35:48Z",
-        "last_seen": "2026-10-27T06:45:01Z",
-        "reason": "unknown entity found in generated public-info items",
+        "evidence_url": "https://uos.is/opinber-birting/akvordun-um-breytingu-a-starfsleyfi-samherja-fiskeldis-ehf.-stad-grindavik",
+        "seen_count": 4,
+        "first_seen": "2026-10-28T06:45:02Z",
+        "last_seen": "2026-10-28T06:45:02Z",
+        "reason": "repeated unknown entity found in generated public-info items",
         "status": "pending"
       },
       {
@@ -352,21 +378,28 @@
         "suggested_feed": "public-info-feed",
         "suggested_lane": "planning",
         "evidence_url": "https://www.utu.is/auglysingar/skipulagsauglysing-birt-dags-15-oktober-2026/",
-        "seen_count": 5,
+        "seen_count": 6,
         "first_seen": "2026-10-16T06:45:01Z",
-        "last_seen": "2026-10-22T22:35:48Z",
+        "last_seen": "2026-10-28T06:45:02Z",
         "reason": "repeated unknown entity found in generated public-info items",
         "status": "pending"
       }
     ],
     "maintenance": {
       "notes": {
-        "announcement_hygiene": "normal announcement/news sources require a parsed date; explicitly configured project/reference pages may emit stable undated tracker items"
+        "announcement_hygiene": "normal announcement/news sources require a parsed date; explicitly configured project/reference pages may emit stable undated tracker items",
+        "skaftarhreppur": "3 structured planning records observed; direct municipal page coverage unverified"
       },
       "not_covered": {
-        "supreme-leave-to-appeal": {
-          "url": "https://www.haestirettur.is/domar/",
-          "reason": "latest decisions supplement only; separate leave-to-appeal endpoint and historical pagination unverified"
+        "supreme-leave-history-verksamningur": {
+          "url": "https://island.is/s/haestirettur/akvardanir",
+          "reason": "bounded historical search incomplete",
+          "fetched": "30",
+          "total": "45"
+        },
+        "landsnet-news": {
+          "url": "https://www.landsnet.is/utgafa-og-samskipti/frettir/",
+          "reason": "HTTP success but no extractable records; coverage unverified"
         },
         "byggingar-signed-contracts-detail-budget": {
           "url": "https://byggingar.is/category/featured/news/in-news/undirskrift/",
@@ -392,48 +425,66 @@
           "url": "https://www.borealisdc.com/news",
           "reason": "HTTP success but no extractable records; coverage unverified"
         },
-        "althingi-bill-3": {
-          "url": "https://www.althingi.is/altext/xml/thingmalalisti/thingmal/?lthing=158&malnr=3",
-          "reason": "tabled bill document absent"
+        "dalvik-minutes": {
+          "url": "https://www.dalvikurbyggd.is/frettir",
+          "reason": "bounded news/agenda supplement only; resolutions and complete minutes discovery remain unverified"
+        },
+        "uos-discovery": {
+          "url": "https://uos.is/opinber-birting",
+          "reason": "bounded public-notice supplement; issued-permit archive and historical discovery not complete"
+        },
+        "fish-farmer-coverage": {
+          "url": "https://www.fishfarmermagazine.com/feed/",
+          "reason": "bounded secondary trade supplement; historical/source completeness not established"
+        },
+        "salmonbusiness-coverage": {
+          "url": "https://www.salmonbusiness.com/",
+          "reason": "bounded secondary trade supplement; historical/source completeness not established"
+        },
+        "datacenterdynamics-coverage": {
+          "url": "https://www.datacenterdynamics.com/en/news/",
+          "reason": "bounded secondary trade supplement; historical/source completeness not established"
         }
       },
       "filtered": {
+        "byggingar-borgarlina": {
+          "outside_window": 8
+        },
         "grenivik": {
-          "out_of_construction_scope": 1,
           "no_matching_keywords": 59,
-          "outside_window": 1
+          "outside_window": 1,
+          "out_of_construction_scope": 1
         },
         "byggingar-signed-contracts": {
-          "outside_window": 11,
+          "outside_window": 10,
           "undated": 2
         },
         "fjallabyggd": {
-          "out_of_construction_scope": 1,
-          "no_matching_keywords": 10
+          "no_matching_keywords": 10,
+          "out_of_construction_scope": 1
         },
         "stjornarradid": {
           "no_matching_keywords": 35,
           "undated": 5
         },
         "vegagerdin": {
-          "undated": 19,
-          "no_matching_keywords": 21
+          "undated": 15,
+          "no_matching_keywords": 25
         },
         "landsvirkjun": {
-          "no_matching_keywords": 5,
-          "outside_window": 1
+          "no_matching_keywords": 4,
+          "outside_window": 3
         },
         "faxafloahafnir": {
-          "no_matching_keywords": 35,
+          "no_matching_keywords": 36,
           "outside_window": 3,
-          "no_matching_detail_keywords": 2
+          "no_matching_detail_keywords": 1
         },
         "veitur": {
-          "no_matching_keywords": 21,
-          "undated": 1
+          "no_matching_keywords": 22
         },
         "orkuveitan": {
-          "no_matching_keywords": 12
+          "no_matching_keywords": 8
         },
         "ust": {
           "no_matching_keywords": 40
@@ -446,9 +497,9 @@
           "outside_window": 2
         },
         "reykjavik": {
-          "no_matching_keywords": 35,
-          "undated": 2,
-          "outside_window": 3
+          "no_matching_keywords": 38,
+          "no_matching_detail_keywords": 2,
+          "outside_window": 5
         },
         "kopavogur": {
           "no_matching_keywords": 23,
@@ -458,8 +509,8 @@
           "no_matching_keywords": 40
         },
         "sudurnesjabaer": {
-          "no_matching_keywords": 30,
-          "undated": 10
+          "no_matching_keywords": 31,
+          "undated": 9
         },
         "akureyri": {
           "no_matching_keywords": 14
@@ -471,50 +522,49 @@
           "no_matching_keywords": 40
         },
         "betri-samgongur": {
-          "outside_window": 3,
-          "no_matching_keywords": 5
+          "outside_window": 2,
+          "no_matching_keywords": 6
         },
         "borgarlinan": {
-          "undated": 9,
-          "outside_window": 30
+          "outside_window": 30,
+          "undated": 9
         },
         "gardabaer": {
           "no_matching_keywords": 24
         },
         "mosfellsbaer": {
-          "no_matching_keywords": 37,
+          "no_matching_keywords": 36,
           "undated": 2
         },
         "arborg": {
-          "no_matching_keywords": 22,
-          "outside_window": 1,
+          "no_matching_keywords": 23,
           "undated": 5
         },
         "skagafjordur-skipulag-kynning": {
           "outside_window": 1
         },
         "skagafjordur-skipulagsnefnd": {
-          "outside_window": 12,
-          "undated": 96
+          "outside_window": 24,
+          "undated": 84
         },
         "orkustofnun": {
-          "undated": 8,
-          "no_matching_keywords": 9,
-          "outside_window": 2
+          "outside_window": 2,
+          "no_matching_keywords": 12,
+          "undated": 5
         },
         "ramma-frettasafn": {
           "no_matching_keywords": 28,
           "outside_window": 12
         },
         "fjardabyggdarhafnir": {
-          "no_matching_keywords": 35,
-          "undated": 5
+          "no_matching_keywords": 40
         },
         "byggingar-opnun-utboda": {
-          "outside_window": 11
+          "outside_window": 12
         },
         "vb": {
-          "no_matching_keywords": 40
+          "no_matching_keywords": 39,
+          "undated": 1
         },
         "fiskifrettir": {
           "no_matching_keywords": 40
@@ -544,12 +594,89 @@
       }
     }
   },
-  "count": 343,
+  "count": 403,
   "counts_by_intelligence_type": {
-    "public_record": 319,
+    "public_record": 379,
     "reference_tracker": 24
   },
   "items": [
+    {
+      "id": "skgatt:1563/2025",
+      "lane": "planning",
+      "title": "Njarðvíkurhöfn norðursvæði- deiliskipulag",
+      "entity": "Reykjanesbær",
+      "case_number": "1563/2025",
+      "plan_type": "deiliskipulag",
+      "status": "Auglýsing tillögu",
+      "date": "2026-10-27",
+      "review_deadline": "2026-12-13",
+      "summary": "lögð fram heildarsýnfyrir uppbyggingu á svæðinu, lóðaskipulagi, stækkun hafnaraðstöðu, aðkomu og byggingarheimildir",
+      "url": "https://skipulagsgatt.is/issues/4220",
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "skgatt:1242/2026",
+      "lane": "planning",
+      "title": "Breyting á deiliskipulagi Kvíslatunguvirkjunar",
+      "entity": "Strandabyggð",
+      "case_number": "1242/2026",
+      "plan_type": "deiliskipulag",
+      "status": "Auglýsing tillögu",
+      "date": "2026-10-27",
+      "review_deadline": "2026-12-11",
+      "summary": "Sveitarstjórn Strandabyggðar samþykkti þann 13. október 2026 að auglýsa tillögu að breytingu á deiliskipulagi Kvíslatunguvirkjunar í samræmi við 1. mgr. 43. gr. skipulagslaga. Breytingarnar eru gerðar með hliðsjón af breytingum á hönnun framkvæmdar og mannvirkjum og rannsóknum á gæðum jarðefna til efnistöku á framkvæmdarsvæði virkjunnar. Breytingin felur í…",
+      "url": "https://skipulagsgatt.is/issues/5597",
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "announcement:mosfellsbaer:nyr-leikvollur-vid-asparlund",
+      "lane": "announcement",
+      "source": "mosfellsbaer",
+      "title": "Framkvæmdir 27. október 2026 Nýr leikvöllur við Asparlund",
+      "entity": "Mosfellsbær",
+      "status": "published",
+      "date": "2026-10-27",
+      "summary": "4.75Z\"/> Framkvæmdir 27. október 2026 Nýr leikvöllur við Asparlund <img class=\"bde-image2-53844-101-106128-538",
+      "url": "https://mos.is/mannlif/um-mosfellsbae/frettir/nyr-leikvollur-vid-asparlund/",
+      "keywords_matched": [
+        "framkvæmd"
+      ],
+      "evidence_type": "first_party",
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "announcement:byggingar-signed-contracts:sudurverk-og-fossvelar-fa-468-milljarda-framkvaemd-vid-kjalarnes",
+      "lane": "announcement",
+      "source": "byggingar-signed-contracts",
+      "title": "Suðurverk og Fossvélar fá 4,68 milljarða framkvæmd við Kjalarnes",
+      "entity": "Byggingar.is",
+      "status": "contract_award",
+      "date": "2026-10-27",
+      "summary": "Suðurverk og Fossvélar fá 4,68 milljarða framkvæmd við Kjalarnes",
+      "url": "https://byggingar.is/sudurverk-og-fossvelar-fa-468-milljarda-framkvaemd-vid-kjalarnes/",
+      "keywords_matched": [
+        "opinber innkaup"
+      ],
+      "evidence_type": "first_party",
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:sudurverk-og-fossvelar-fa-468-milljarda-framkvaemd-vid-kjalarnes",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "Suðurverk og Fossvélar fá 4,68 milljarða framkvæmd við Kjalarnes",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-10-27",
+      "summary": "://byggingar.is/wp-content/uploads/2026/10/27.10.2026-Sudurverk-og-Fossvelar-fa-468-milljarda-framkvaemd-vid-Kjalarnes-100x75.jpg\" width=\"100\" height=\"75\" /> Suðurverk og Fossvélar fá 4,68 milljarða framkvæmd við Kjalarnes 27/10/2026 <div class=\"td_modu",
+      "url": "https://byggingar.is/sudurverk-og-fossvelar-fa-468-milljarda-framkvaemd-vid-kjalarnes/",
+      "keywords_matched": [
+        "bygging",
+        "opinber innkaup"
+      ],
+      "evidence_type": "first_party",
+      "intelligence_type": "public_record"
+    },
     {
       "id": "announcement:byggingar-opnun-utboda:raetur-verktakar-ehf-laegstbjodendur-i-endurbaetur-a-mulaborg",
       "lane": "announcement",
@@ -564,6 +691,93 @@
         "bygging",
         "opinber innkaup"
       ],
+      "evidence_type": "first_party",
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:nyherjahusid-verdur-hjukrunarheimili",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "Nýherja­húsið verður hjúkrunar­heimili",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-10-27",
+      "summary": "age_tag\" data-img-url=\"https://byggingar.is/wp-content/uploads/2026/10/27.10.2026-Nyherjahusid-verdur-hjukrunarheimili-100x75.jpg\" width=\"100\" height=\"75\" /> Nýherja­húsið verður hjúkrunar­heimili 27/10/2026 <div class=\"td_modu",
+      "url": "https://byggingar.is/nyherjahusid-verdur-hjukrunarheimili/",
+      "keywords_matched": [
+        "bygging",
+        "opinber innkaup"
+      ],
+      "evidence_type": "first_party",
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:2-000-tonna-bruargolf-bratt-dregid-yfir-olfusa",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "2.000 tonna brúargólf brátt dreg­ið yfir Ölfusá",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-10-27",
+      "summary": "ta-img-url=\"https://byggingar.is/wp-content/uploads/2026/10/27.10.2026-2.000-tonna-bruargolf-bratt-dreg­id-yfir-Olfusa-100x75.jpg\" width=\"100\" height=\"75\" /> 2.000 tonna brúargólf brátt dreg­ið yfir Ölfusá 27/10/2026 <div cl",
+      "url": "https://byggingar.is/2-000-tonna-bruargolf-bratt-dregid-yfir-olfusa/",
+      "keywords_matched": [
+        "bygging",
+        "opinber innkaup"
+      ],
+      "evidence_type": "first_party",
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "uos:ddabd623da4f413e06",
+      "lane": "eia",
+      "source": "uos",
+      "entity": "Umhverfis- og orkustofnun",
+      "title": "26. október 2026 Ákvörðun um breytingu á starfsleyfi Samherja fiskeldis ehf. Stað Grindavík Breyting á starfsleyfi Eldi sjávar- og ferskvatnslífvera Samherji fiskeldi Skoða",
+      "date": "2026-10-26",
+      "summary": "Umhverfis- og orkustofnun hefur tekið ákvörðun um að breyta starfsleyfi Samherja fiskeldis ehf. Stað Grindavík þannig að í starfsleyfinu séu ákvæði um vöktun áhrifa starfseminnar á vatnshlot og umhverfismarkmið þeirra á grundvelli 2. mgr. 22. gr. laga um stjórn vatnamála nr. 36/2011, sbr. 2. mgr. 6. gr. laga um hollustuhætti og mengunarvarnir nr. 7/1998. Tillaga að starfsleyfi var auglýst frá 8. september til 6. október sl. Engar athugasemdir bárust á auglýsingatíma. Ákvörðun Umhverfis- og orkustofnunar er kæranleg til úrskurðarnefndar umhverfis- og auðlindamála innan eins mánaðar frá birtingu ákvörðunar stofnunarinnar skv. 1. mgr. 65. gr. laga nr. 7/1998 um hollustuhætti og mengunarvarnir , sbr. 4. gr. laga nr. 130/2011 um úrskurðarnefnd umhverfis- og auðlindamála . Tengd skjöl Ákvörðun um breytingu á starfsleyfi Starfsleyfi Tengt efni Ákvörðun um breytingu á starfsleyfi Samherja fiskeldis ehf. Núpsmýri Öxarfirði Breyting á starfsleyfi Eldi sjávar- og ferskvatnslífvera Samherji fiskeldi",
+      "url": "https://uos.is/opinber-birting/akvordun-um-breytingu-a-starfsleyfi-samherja-fiskeldis-ehf.-stad-grindavik",
+      "status": "public_notice",
+      "evidence_kind": "first_party_environmental_notice",
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "uos:dd456e6789e91ae613",
+      "lane": "eia",
+      "source": "uos",
+      "entity": "Umhverfis- og orkustofnun",
+      "title": "26. október 2026 Ákvörðun um breytingu á starfsleyfi Arnarlax í Þorlákshöfn í Ölfusi Breyting á starfsleyfi Eldi sjávar- og ferskvatnslífvera Arnarlax Skoða",
+      "date": "2026-10-26",
+      "summary": "Umhverfis- og orkustofnun hefur tekið ákvörðun um að breyta starfsleyfi Arnarlax í Þorlákshöfn þannig að í starfsleyfinu séu ákvæði um vöktun áhrifa starfseminnar á vatnshlot og umhverfismarkmið þeirra á grundvelli 2. mgr. 22. gr. laga um stjórn vatnamála nr. 36/2011, sbr. 2. mgr. 6. gr. laga um hollustuhætti og mengunarvarnir nr. 7/1998. Tillaga að starfsleyfi var auglýst frá 8. september til 6. október sl. Engar athugasemdir bárust á auglýsingatíma. Ákvörðun Umhverfis- og orkustofnunar er kæranleg til úrskurðarnefndar umhverfis- og auðlindamála innan eins mánaðar frá birtingu ákvörðunar stofnunarinnar skv. 1. mgr. 65. gr. laga nr. 7/1998 um hollustuhætti og mengunarvarnir , sbr. 4. gr. laga nr. 130/2011 um úrskurðarnefnd umhverfis- og auðlindamála . Tengd skjöl Ákvörðun um breytingu á starfsleyfi Starfsleyfi Tengt efni Ákvörðun um breytingu á starfsleyfi Arnarlax ehf. Fossfirði í Arnarfirði Breyting á starfsleyfi Eldi sjávar- og ferskvatnslífvera Arnarlax",
+      "url": "https://uos.is/opinber-birting/akvordun-um-breytingu-a-starfsleyfi-arnarlax-i-thorlakshofn-i-olfusi",
+      "status": "public_notice",
+      "evidence_kind": "first_party_environmental_notice",
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "uos:9e510b9e9d88b2adf1",
+      "lane": "eia",
+      "source": "uos",
+      "entity": "Umhverfis- og orkustofnun",
+      "title": "26. október 2026 Ákvörðun um breytingu á starfsleyfi Kaldvíkur hf. Þorlákshöfn í Ölfusi Breyting á starfsleyfi Eldi sjávar- og ferskvatnslífvera Kaldvík hf. Skoða",
+      "date": "2026-10-26",
+      "summary": "Umhverfis- og orkustofnun hefur tekið ákvörðun um að breyta starfsleyfi Kaldvíkur hf. Þorlákshöfn í Ölfusi þannig að í starfsleyfinu séu ákvæði um vöktun áhrifa starfseminnar á vatnshlot og umhverfismarkmið þeirra á grundvelli 2. mgr. 22. gr. laga um stjórn vatnamála nr. 36/2011, sbr. 2. mgr. 6. gr. laga um hollustuhætti og mengunarvarnir nr. 7/1998. Tillaga að starfsleyfi var auglýst frá 8. september til 6. október sl. Engar athugasemdir bárust á auglýsingatíma. Ákvörðun Umhverfis- og orkustofnunar er kæranleg til úrskurðarnefndar umhverfis- og auðlindamála innan eins mánaðar frá birtingu ákvörðunar stofnunarinnar skv. 1. mgr. 65. gr. laga nr. 7/1998 um hollustuhætti og mengunarvarnir , sbr. 4. gr. laga nr. 130/2011 um úrskurðarnefnd umhverfis- og auðlindamála . Tengd skjöl Ákvörðun um breytingu á starfsleyfi Starfsleyfi Tengt efni Ákvörðun um breytingu á starfsleyfi Kaldvíkur hf. Innra Lóni Kelduhverfi Breyting á starfsleyfi Eldi sjávar- og ferskvatnslífvera Kaldvík hf.",
+      "url": "https://uos.is/opinber-birting/akvordun-um-breytingu-a-starfsleyfi-kaldvikur-hf.-thorlakshofn-i-olfusi",
+      "status": "public_notice",
+      "evidence_kind": "first_party_environmental_notice",
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "uos:0b66580c5ff35d6cf3",
+      "lane": "eia",
+      "source": "uos",
+      "entity": "Umhverfis- og orkustofnun",
+      "title": "26. október 2026 Ákvörðun um breytingu á starfsleyfi Matorku ehf. Hrauni vestan Grindavíkur Breyting á starfsleyfi Eldi sjávar- og ferskvatnslífvera Matorka ehf. Skoða",
+      "date": "2026-10-26",
+      "summary": "Umhverfis- og orkustofnun hefur tekið ákvörðun um að breyta starfsleyfi Matorku ehf. Hrauni vestan Grindavíkur þannig að í starfsleyfinu séu ákvæði um vöktun áhrifa starfseminnar á vatnshlot og umhverfismarkmið þeirra á grundvelli 2. mgr. 22. gr. laga um stjórn vatnamála nr. 36/2011, sbr. 2. mgr. 6. gr. laga um hollustuhætti og mengunarvarnir nr. 7/1998. Tillaga að starfsleyfi var auglýst frá 8. september til 6. október sl. Engar athugasemdir bárust á auglýsingatíma. Ákvörðun Umhverfis- og orkustofnunar er kæranleg til úrskurðarnefndar umhverfis- og auðlindamála innan eins mánaðar frá birtingu ákvörðunar stofnunarinnar skv. 1. mgr. 65. gr. laga nr. 7/1998 um hollustuhætti og mengunarvarnir , sbr. 4. gr. laga nr. 130/2011 um úrskurðarnefnd umhverfis- og auðlindamála . Tengd skjöl Ákvörðun um breytingu á starfsleyfi Starfsleyfi Tengt efni Tillaga að breytingu á starfsleyfi Matorku ehf. Hrauni vestan Grindavíkur Breyting á starfsleyfi Eldi sjávar- og ferskvatnslífvera Matorka ehf.",
+      "url": "https://uos.is/opinber-birting/akvordun-um-breytingu-a-starfsleyfi-matorku-ehf.-hrauni-vestan-grindavikur",
+      "status": "public_notice",
+      "evidence_kind": "first_party_environmental_notice",
       "intelligence_type": "public_record"
     },
     {
@@ -594,35 +808,21 @@
       "intelligence_type": "public_record"
     },
     {
-      "id": "announcement:byggingar-opnun-utboda:opna-staerdarinnar-hotel-vid-skogarbodin-a-naesta-ari",
+      "id": "announcement:byggingar-borgarlina:utm-source-rss-utm-medium-rss-utm-campaign-sjovinnu-vid-fossvogsbru-lokid-bruin-",
       "lane": "announcement",
-      "source": "byggingar-opnun-utboda",
-      "title": "Opna stærðarinnar hótel við Skógarböðin á næsta ári",
+      "source": "byggingar-borgarlina",
+      "title": "Sjóvinnu við Fossvogsbrú lokið – brúin tekur að rísa á næsta ári",
       "entity": "Byggingar.is",
       "status": "published",
-      "date": "2026-10-26",
-      "summary": "-url=\"https://byggingar.is/wp-content/uploads/2026/10/26.10.2026-Opna-staerdarinnar-hotel-vid-Skogarbodin-a-naesta-ari-100x75.jpg\" width=\"100\" height=\"75\" /> Opna stærðarinnar hótel við Skógarböðin á næsta ári 27/10/2026 <div cl",
-      "url": "https://byggingar.is/opna-staerdarinnar-hotel-vid-skogarbodin-a-naesta-ari/",
+      "date": "2026-10-24",
+      "summary": "Sjóvinnu við Fossvogsbrú lokið – brúin tekur að rísa á næsta ári Mikilvægum áfanga er lokið við smíði Fossvogsbrúar, Öldu, en sjóvinnu við undirstöður og burðarása brúarinnar í Fossvogi er nú lokið á þessu ári. Framkvæmdir við brúna halda áfram á landi og í Póllandi, þar sem unnið er að framleiðslu brúarstöpla og stálvirkis. Stefnt […] The post Sjóvinnu við…",
+      "url": "https://byggingar.is/sjovinnu-vid-fossvogsbru-lokid-bruin-tekur-ad-risa-a-naesta-ari/?utm_source=rss&utm_medium=rss&utm_campaign=sjovinnu-vid-fossvogsbru-lokid-bruin-tekur-ad-risa-a-naesta-ari",
       "keywords_matched": [
         "bygging",
-        "opinber innkaup"
+        "framkvæmd",
+        "ístak project: Fossvogsbrú"
       ],
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "announcement:byggingar-opnun-utboda:bjoda-kaupendum-ad-eignast-75-i-ibudum",
-      "lane": "announcement",
-      "source": "byggingar-opnun-utboda",
-      "title": "Bjóða kaupendum að eignast 75% í íbúðum",
-      "entity": "Byggingar.is",
-      "status": "published",
-      "date": "2026-10-26",
-      "summary": "e_tag\" data-img-url=\"https://byggingar.is/wp-content/uploads/2026/10/26.10.2026-Bjoda-kaupendum-ad-eignast-75-i-ibudum-100x75.jpg\" width=\"100\" height=\"75\" /> Bjóða kaupendum að eignast 75% í íbúðum 27/10/2026 <div class=\"td_modu",
-      "url": "https://byggingar.is/bjoda-kaupendum-ad-eignast-75-i-ibudum/",
-      "keywords_matched": [
-        "bygging",
-        "opinber innkaup"
-      ],
+      "evidence_type": "secondary_report",
       "intelligence_type": "public_record"
     },
     {
@@ -653,25 +853,6 @@
       "intelligence_type": "public_record"
     },
     {
-      "id": "samradsgatt:218/2026",
-      "lane": "legislation",
-      "source": "samradsgatt",
-      "doc_type": "consultation",
-      "proposal_type": "consultation",
-      "title": "Grænbók um landgræðslu og skógrækt",
-      "entity": "Umhverfis-, orku- og loftslagsráðuneytið",
-      "status": "Til umsagnar",
-      "date": "2026-10-23",
-      "review_deadline": "2026-12-04",
-      "summary": "Í grænbók um landgræðslu og skógrækt er lagður grunnur að umræðu um stöðu málaflokksins, framkvæmd gildandi landsáætlunar og helstu viðfangsefni næstu ára.",
-      "url": "https://island.is/samradsgatt/mal/4365",
-      "case_number": "218/2026",
-      "keywords_matched": [
-        "umhverfismat"
-      ],
-      "intelligence_type": "public_record"
-    },
-    {
       "id": "announcement:byggingar-signed-contracts:grafa-og-grjot-invit-faer-760-milljona-framkvaemd-vid-hlemmtorg",
       "lane": "announcement",
       "source": "byggingar-signed-contracts",
@@ -684,6 +865,7 @@
       "keywords_matched": [
         "opinber innkaup"
       ],
+      "evidence_type": "first_party",
       "intelligence_type": "public_record"
     },
     {
@@ -700,6 +882,25 @@
         "bygging",
         "opinber innkaup"
       ],
+      "evidence_type": "first_party",
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "announcement:byggingar-borgarlina:utm-source-rss-utm-medium-rss-utm-campaign-grafa-og-grjot-invit-faer-760-milljon",
+      "lane": "announcement",
+      "source": "byggingar-borgarlina",
+      "title": "Grafa og grjót – INVIT fær 760 milljóna framkvæmd við Hlemmtorg",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-10-23",
+      "summary": "Grafa og grjót – INVIT fær 760 milljóna framkvæmd við Hlemmtorg Reykjavíkurborg hefur samið við Gröfu og grjót – INVIT ehf. um framkvæmdir við endurgerð Hlemmtorgs og uppbyggingu Borgarlínu um Hlemm. Samningsfjárhæðin nemur 760,3 milljónum króna með virðisaukaskatti. Framkvæmdirnar fela meðal annars í sér gatnagerð, endurnýjun lagna og gerð nýrra torgsvæða.…",
+      "url": "https://byggingar.is/grafa-og-grjot-invit-faer-760-milljona-framkvaemd-vid-hlemmtorg/?utm_source=rss&utm_medium=rss&utm_campaign=grafa-og-grjot-invit-faer-760-milljona-framkvaemd-vid-hlemmtorg",
+      "keywords_matched": [
+        "bygging",
+        "framkvæmd",
+        "samgöngur"
+      ],
+      "evidence_type": "secondary_report",
       "intelligence_type": "public_record"
     },
     {
@@ -727,9 +928,6 @@
       "review_deadline": "2026-11-19",
       "summary": "Korda ehf. áformar að leggja fjarskiptastreng frá Íslandi til Skotlands og hefur strengurinn fengið nafnið AUÐUR. Markmið framkvæmdarinnar er að efla fjarskipti Íslands við umheiminn. Landtökustöð strengsins verður staðsett á Meðallandssandi í Skaftárhreppi, sunnan Kirkjubæjarklausturs. Strengleiðin á landi verður um 8,5 km og áætlað að heildarrasksvæði ver…",
       "url": "https://skipulagsgatt.is/issues/5586",
-      "keywords_matched": [
-        "matsskyldu"
-      ],
       "intelligence_type": "public_record"
     },
     {
@@ -773,6 +971,7 @@
       "keywords_matched": [
         "orku"
       ],
+      "evidence_type": "first_party",
       "intelligence_type": "public_record"
     },
     {
@@ -789,6 +988,7 @@
         "framkvæmd",
         "samgöngur"
       ],
+      "evidence_type": "first_party",
       "intelligence_type": "public_record"
     },
     {
@@ -889,6 +1089,40 @@
       "intelligence_type": "public_record"
     },
     {
+      "id": "announcement:reykjavik:uppbygging-borgarlinu-vid-hlemmtorg",
+      "lane": "announcement",
+      "source": "reykjavik",
+      "title": "Uppbygging Borgarlínu við Hlemmtorg",
+      "entity": "Reykjavíkurborg",
+      "status": "published",
+      "date": "2026-10-21",
+      "summary": "Framkvæmdir vegna endurgerðar norðursvæðis Hlemms og gatnamóta og göturýmis og vinna við nýtt torgsvæði og uppbyggingu Borgarlínu á Hlemmtorgi hefst á næstu dögum. Gert er ráð fyrir að framkvæmdum þessa áfanga ljúki í lok árs 2027.",
+      "url": "https://reykjavik.is/frettir/2026/uppbygging-borgarlinu-vid-hlemmtorg",
+      "keywords_matched": [
+        "framkvæmd",
+        "samgöngur"
+      ],
+      "evidence_type": "first_party",
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "announcement:reykjavik:samgongur",
+      "lane": "announcement",
+      "source": "reykjavik",
+      "title": "Samgongur",
+      "entity": "Reykjavíkurborg",
+      "status": "published",
+      "date": "2026-10-21",
+      "summary": "Miðvikudagur, 21. október 2026 Uppbygging Borgarlínu við Hlemmtorg Umhverfi og skipulag Samgöngur Framkvæmdir vegna endurgerðar norðursvæðis Hlemms og gatnamóta og göturýmis og vinna við nýtt torgsvæði og uppbyggingu Borgarlínu á Hlemmtorgi hefst á næstu dögum. Gert er ráð fyrir að framkvæmdum þessa áfanga ljúki í lok árs 2027. Lesa meira",
+      "url": "https://reykjavik.is/frettir/samgongur",
+      "keywords_matched": [
+        "framkvæmd",
+        "samgöngur"
+      ],
+      "evidence_type": "first_party",
+      "intelligence_type": "public_record"
+    },
+    {
       "id": "announcement:mosfellsbaer:stada-framkvaemda-i-akur-byggdar-og-markholti",
       "lane": "announcement",
       "source": "mosfellsbaer",
@@ -901,6 +1135,23 @@
       "keywords_matched": [
         "framkvæmd"
       ],
+      "evidence_type": "first_party",
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "announcement:landsvirkjun:landsvirkjun-a-hydro-2026",
+      "lane": "announcement",
+      "source": "landsvirkjun",
+      "title": "Landsvirkjun á HYDRO 2026",
+      "entity": "Landsvirkjun",
+      "status": "published",
+      "date": "2026-10-21",
+      "summary": "Starfsfólk Landsvirkjunar sótti vel heppnaða vatnsaflsráðstefnu í Bologna á Ítalíu fyrr í þessum mánuði.",
+      "url": "https://www.landsvirkjun.is/frettir/landsvirkjun-a-hydro-2026",
+      "keywords_matched": [
+        "orku"
+      ],
+      "evidence_type": "first_party",
       "intelligence_type": "public_record"
     },
     {
@@ -917,6 +1168,7 @@
         "bygging",
         "opinber innkaup"
       ],
+      "evidence_type": "first_party",
       "intelligence_type": "public_record"
     },
     {
@@ -950,6 +1202,20 @@
       "intelligence_type": "public_record"
     },
     {
+      "id": "skgatt:1221/2026",
+      "lane": "planning",
+      "title": "Ránarbraut 5, Dalvík - breyting á deiliskipulagi",
+      "entity": "Dalvíkurbyggð",
+      "case_number": "1221/2026",
+      "plan_type": "deiliskipulag",
+      "status": "Endanleg gögn",
+      "date": "2026-10-20",
+      "review_deadline": "2026-11-17",
+      "summary": "Gerð er óveruleg breyting á deiliskipulagi Dalvíkurhafnar fyrir lóðir nr. 5 og 7 við Ránarbraut. Breytingin felst í því að byggingarreitir eru sameinaðir til að ná utan um núverandi tengibyggingu millli lóðanna og fyrirhugaðan lofthreinsiturn á lóð nr. 5.",
+      "url": "https://skipulagsgatt.is/issues/5576",
+      "intelligence_type": "public_record"
+    },
+    {
       "id": "skgatt:1220/2026",
       "lane": "planning",
       "title": "Framkvæmdaleyfi fyrir frágangi löndunar- og afgreiðslubrunns á Kleifarbryggju og færslu á lögnum frá brunni að olíustöð við Eiði 2",
@@ -960,6 +1226,20 @@
       "review_deadline": "2026-11-17",
       "summary": "Olíudreifing ehf. sækir um framkvæmdaleyfi fyrir nýjum löndunar- og afgreiðslubrunni við Kleifarbryggju og lagningu lagnastæðis fyrir eldsneytislagnir þ.m.t. olíulögn að lóð við Eiðið 2, sbr. meðfylgjandi gögnum. Framkvæmdaleyfi þetta er gefið út á grundvelli reglugerðar um framkvæmdaleyfi nr. 772/2012 og skipulagslaga nr. 123/2010. Með vísan til bókunar á…",
       "url": "https://skipulagsgatt.is/issues/5575",
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "skgatt:1216/2026",
+      "lane": "planning",
+      "title": "Verslunar- og þjónustusvæði VÞ12 Efri-Vík",
+      "entity": "Skaftárhreppur",
+      "case_number": "1216/2026",
+      "plan_type": "adalskipulag",
+      "status": "Staðfesting",
+      "date": "2026-10-20",
+      "review_deadline": "2026-11-17",
+      "summary": "Sveitarstjórn Skaftárhrepps samþykkti þann 29. september 2026 tillögu að óverulegri breytingu á Aðalskipulagi Skaftárhrepps 2023-2043 sem felur í sér að hámarksbyggingarheimild á verslunar- og þjónustusvæði Efri-Víkur (VÞ12) er aukið úr 4.400 fermetrum í 5.500 fermetra. Heimild fyrir fjölda gistirúma er aukin úr 170 í 260. Stærð svæðisins, sem er 1,6 ha, he…",
+      "url": "https://skipulagsgatt.is/issues/5571",
       "intelligence_type": "public_record"
     },
     {
@@ -1008,89 +1288,6 @@
         "bygging",
         "mannvirki",
         "skipulag"
-      ],
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "samradsgatt:213/2026",
-      "lane": "legislation",
-      "source": "samradsgatt",
-      "doc_type": "consultation",
-      "proposal_type": "bill",
-      "title": "Drög að frumvarpi til laga um breytingu á lögum um náttúruvernd, nr. 60/2013",
-      "entity": "Umhverfis-, orku- og loftslagsráðuneytið",
-      "status": "Til umsagnar",
-      "date": "2026-10-20",
-      "review_deadline": "2026-11-10",
-      "summary": "Drög að breytingum á náttúruverndarlögum um uppbyggingu innviða, landtöku farþega á friðlýstum svæðum, vernd náttúruminja í hafi og bættum úrræðum vegna ólögmæts utanvegaaksturs.",
-      "url": "https://island.is/samradsgatt/mal/4360",
-      "case_number": "213/2026",
-      "keywords_matched": [
-        "umhverfismat"
-      ],
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "announcement:landsvirkjun:orkan-i-olgusjo-efnahagsmala",
-      "lane": "announcement",
-      "source": "landsvirkjun",
-      "title": "Orkan í ólgu­sjó efna­hags­mála",
-      "entity": "Landsvirkjun",
-      "status": "published",
-      "date": "2026-10-20",
-      "summary": "Tinna Traustadóttir, framkvæmdastjóri Sölu og viðskiptaþróunar hjá Landsvirkjun, skrifar um stöðu orkumarkaða á Íslandi og á meginlandi Evrópu, stöðugleika íslenska raforkukerfisins og þau tækifæri sem felast í áframhaldandi uppbyggingu þess.",
-      "url": "https://www.landsvirkjun.is/frettir/orkan-i-olgusjo-efnahagsmala",
-      "keywords_matched": [
-        "orku"
-      ],
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "announcement:landsvirkjun:bygging-hvammsvirkjunar-bodin-ut",
-      "lane": "announcement",
-      "source": "landsvirkjun",
-      "title": "Bygging Hvammsvirkjunar boðin út",
-      "entity": "Landsvirkjun",
-      "status": "published",
-      "date": "2026-10-20",
-      "summary": "Jarðvinna og bygging Hvammsvirkjunar í Þjórsá hefur verið boðin út á Evrópska útboðsvefnum.",
-      "url": "https://www.landsvirkjun.is/frettir/bygging-hvammsvirkjunar-bodin-ut",
-      "keywords_matched": [
-        "bygging",
-        "opinber innkaup",
-        "ístak project: Hvammsvirkjun"
-      ],
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "announcement:byggingar-opnun-utboda:storverk-ehf-laegst-med-553-milljona-tilbod-i-skarfaskersbryggju",
-      "lane": "announcement",
-      "source": "byggingar-opnun-utboda",
-      "title": "Stórverk ehf. lægst með 55,3 milljóna tilboð í Skarfaskersbryggju",
-      "entity": "Byggingar.is",
-      "status": "published",
-      "date": "2026-10-20",
-      "summary": "Stórverk ehf. lægst með 55,3 milljóna tilboð í Skarfaskersbryggju byggingar - 20/10/2026",
-      "url": "https://byggingar.is/storverk-ehf-laegst-med-553-milljona-tilbod-i-skarfaskersbryggju/",
-      "keywords_matched": [
-        "bygging",
-        "opinber innkaup"
-      ],
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "announcement:byggingar-opnun-utboda:atta-tilbod-i-grjotgildru-vid-holtastod-karina-laegst-med-17-milljonir",
-      "lane": "announcement",
-      "source": "byggingar-opnun-utboda",
-      "title": "Átta tilboð í grjótgildru við Holtastöð – Karína lægst með 17 milljónir",
-      "entity": "Byggingar.is",
-      "status": "published",
-      "date": "2026-10-20",
-      "summary": "Átta tilboð í grjótgildru við Holtastöð – Karína lægst með 17 milljónir byggingar - 20/10/2026",
-      "url": "https://byggingar.is/atta-tilbod-i-grjotgildru-vid-holtastod-karina-laegst-med-17-milljonir/",
-      "keywords_matched": [
-        "bygging",
-        "opinber innkaup"
       ],
       "intelligence_type": "public_record"
     },
@@ -1176,9 +1373,84 @@
       "url": "https://island.is/samradsgatt/mal/4355",
       "case_number": "208/2026",
       "keywords_matched": [
-        "orku",
-        "umhverfismat"
+        "orku"
       ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "utu:2609027",
+      "lane": "planning",
+      "source": "utu",
+      "entity": "Umhverfis- og tæknisvið Uppsveita",
+      "title": "Vaðholt 2 L219744; Úr frístundabyggð í landbúnaðarsvæði; Aðalskipulagsbreyting – 2609027",
+      "case_number": "2609027",
+      "case_ordinal": 1,
+      "date": "2026-10-15",
+      "review_deadline": "2026-11-06",
+      "status": "consultation",
+      "summary": "Sveitarstjórn Grímsnes- og Grafningshrepps samþykkti á fundi sínum þann 7. október 2026, að kynna tillögu að aðalskipulagsbreytingu sem tekur til breytinga á aðalskipulagi Grímsnes- og Grafningshrepps 2020-2032. Í breytingunni felst að um 5,3 ha lands í landi Ormsstaða breytist úr frístundabyggð í landbúnaðarsvæði. UPPDRÁTTUR",
+      "url": "https://www.utu.is/auglysingar/skipulagsauglysing-birt-dags-15-oktober-2026/",
+      "keywords_matched": [
+        "skipulag"
+      ],
+      "resolution_verified": false,
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "utu:2609013",
+      "lane": "planning",
+      "source": "utu",
+      "entity": "Umhverfis- og tæknisvið Uppsveita",
+      "title": "Súluholtshjáleiga L166391; Efnistaka E13 og E24; Aðalskipulagsbreyting – 2609013",
+      "case_number": "2609013",
+      "case_ordinal": 2,
+      "date": "2026-10-15",
+      "review_deadline": "2026-11-06",
+      "status": "consultation",
+      "summary": "Sveitarstjórn Flóahrepps samþykkti á fundi sínum þann 6. október 2026, að kynna skipulagslýsingu sem tekur til breytinga á aðalskipulagi Flóahrepps 2017-2029. Í breytingunni felst að efnistökusvæðin E13 og E24 verða stækkuð og heimiluð meiri efnistaka. SKIPULAGSLÝSING MATSSKYLDUFYRIRSPURN Samkvæmt 40. gr. skipulagslaga nr. 123/2010 er hér kynnt tillaga eftirfarandi deiliskipulagsáætlunar:",
+      "url": "https://www.utu.is/auglysingar/skipulagsauglysing-birt-dags-15-oktober-2026/",
+      "keywords_matched": [
+        "skipulag"
+      ],
+      "resolution_verified": false,
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "utu:2412025",
+      "lane": "planning",
+      "source": "utu",
+      "entity": "Umhverfis- og tæknisvið Uppsveita",
+      "title": "Heiðargerði 9-19, L166239; Athafnasvæði; Deiliskipulag – 2412025",
+      "case_number": "2412025",
+      "case_ordinal": 4,
+      "date": "2026-10-15",
+      "review_deadline": "2026-11-27",
+      "status": "consultation",
+      "summary": "Sveitarstjórn Flóahrepps samþykkti á fundi sínum 6. október 2026 að auglýsa að nýju tillögu að deiliskipulagi fyrir athafnasvæðið AT1 við Heiðargerði, L166239, samkvæmt 41. gr. skipulagslaga nr. 123/2010. Tillagan er auglýst að nýju þar sem meira en eitt ár er liðið frá því að athugasemdafrestur vegna fyrri auglýsingar rann út og meginforsendur deiliskipulagsins eiga sér stoð í gildandi aðalskipulagi sveitarfélagsins. Innan skipulagssvæðisins eru afmarkaðar 10 lóðir fyrir uppbyggingu hreinnar atvinnustarfsemi. Jafnframt er gert ráð fyrir geymslusvæði og gámasvæði. UPPDRÁTTUR GREINARGERÐ GÁTLISTI",
+      "url": "https://www.utu.is/auglysingar/skipulagsauglysing-birt-dags-15-oktober-2026/",
+      "keywords_matched": [
+        "skipulag"
+      ],
+      "resolution_verified": false,
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "utu:2403049",
+      "lane": "planning",
+      "source": "utu",
+      "entity": "Umhverfis- og tæknisvið Uppsveita",
+      "title": "Ljósafossskóli L168468; Fjölgun gistirýma; Deiliskipulag – 2403049",
+      "case_number": "2403049",
+      "case_ordinal": 3,
+      "date": "2026-10-15",
+      "review_deadline": "2026-11-06",
+      "status": "consultation",
+      "summary": "Sveitarstjórn Grímsnes- og Grafningshrepps samþykkti á fundi sínum þann 7. október 2026, að kynna nýtt deiliskipulag sem tekur til viðskipta- og þjónustulóðar Ljósafossskóla L168468. Í deiliskipulaginu felst heimild til frekari uppbyggingar gististarfsemi á svæðinu, þar á meðal fjölgun gistirýma og uppbygging nýrra gistieininga innan afmarkaðs byggingarreits. UPPDRÁTTUR Samkvæmt 41. gr. skipulagslaga nr. 123/2010 eru hér auglýstar tillögur eftirfarandi deiliskipulagsáætlana:",
+      "url": "https://www.utu.is/auglysingar/skipulagsauglysing-birt-dags-15-oktober-2026/",
+      "keywords_matched": [
+        "skipulag"
+      ],
+      "resolution_verified": false,
       "intelligence_type": "public_record"
     },
     {
@@ -1193,6 +1465,13 @@
       "review_deadline": "2026-11-27",
       "summary": "Lögð er fram að nýju tillaga nýs deiliskipulags sem tekur til Reykja L166491 í Skeiða- og Gnúpverjahreppi. Í deiliskipulaginu felst að skilgreindar verða fjórar frístundalóðir austast í landinu sem liggja að Sandlæk. Nýtt mál stofnað vegna þess að auglýsa þarf aftur.",
       "url": "https://skipulagsgatt.is/issues/5554",
+      "supplementary_sources": [
+        {
+          "source": "utu",
+          "url": "https://www.utu.is/auglysingar/skipulagsauglysing-birt-dags-15-oktober-2026/",
+          "case_number": "2411063"
+        }
+      ],
       "intelligence_type": "public_record"
     },
     {
@@ -1363,25 +1642,6 @@
       "intelligence_type": "public_record"
     },
     {
-      "id": "samradsgatt:202/2026",
-      "lane": "legislation",
-      "source": "samradsgatt",
-      "doc_type": "consultation",
-      "proposal_type": "consultation",
-      "title": "Tillaga að flokkun sjö vindorkuverkefni: Skýrsla verkefnisstjórnar",
-      "entity": "Umhverfis-, orku- og loftslagsráðuneytið",
-      "status": "Til umsagnar",
-      "date": "2026-10-12",
-      "review_deadline": "2027-01-04",
-      "summary": "Verkefnisstjórn 6. áfanga rammaáætlunar hefur flokkað sjö vindorkuverkefni og sett tillögu sína ásamt skýrslu og fylgisskjölum í 12 vikna samráð í samráðsgátt stjórnvalda.",
-      "url": "https://island.is/samradsgatt/mal/4349",
-      "case_number": "202/2026",
-      "keywords_matched": [
-        "umhverfismat"
-      ],
-      "intelligence_type": "public_record"
-    },
-    {
       "id": "skgatt:1179/2026",
       "lane": "planning",
       "title": "Skildinganes - Bauganes 40 - USK26090041",
@@ -1393,6 +1653,44 @@
       "review_deadline": "2026-11-10",
       "summary": "Um er að ræða tillögu að breytingu á deiliskipulagi Skildinganess vegna lóðarinnar nr. 40 við Bauganes. Í breytingunni sem lögð er til felst að byggingarreitur er stækkaður í átt að götu og að Bauganesi 38 ásamt því að vera stækkaður í átt að Bauganesi 42. Heimilt verður að koma fyrir bílskýli og geymslu innan byggingarreits auk núverandi byggingar.",
       "url": "https://skipulagsgatt.is/issues/5534",
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "utu:2603007",
+      "lane": "planning",
+      "source": "utu",
+      "entity": "Umhverfis- og tæknisvið Uppsveita",
+      "title": "Silfurtún; Íbúðarbyggð og breytt skilgreining lands; Aðalskipulagsbreyting – 2603007",
+      "case_number": "2603007",
+      "case_ordinal": 1,
+      "date": "2026-10-08",
+      "review_deadline": "2026-11-20",
+      "status": "consultation",
+      "summary": "Sveitarstjórn Hrunamannahrepps samþykkti á fundi sínum þann 3. september 2026 að auglýsa tillöguna sem tekur til breytinga á aðalskipulagi Hrunamannahrepps 2016-2032. Í breytingunni felst að hluti lands Silfurtúns, L166897, á Flúðum, sem nú er skilgreindur sem landbúnaðarsvæði, verði breytt í íbúðarbyggð. Samhliða verður unnin breyting á deiliskipulagi miðsvæðis og garðyrkjulóða á Flúðum vegna uppbyggingar nýs íbúðarhverfis. Umsagnir bárust á kynningartíma og eru þær lagðar fram við afgreiðslu málsins ásamt uppfærðum gögnum. UPPDRÁTTUR GREINARGERÐ Samkvæmt 43. gr. skipulagslaga nr. 123/2010 er hér auglýst tillaga eftirfarandi deiliskipulagsáætlana:",
+      "url": "https://www.utu.is/auglysingar/skipulagsauglysing-dags-8-oktober-2026/",
+      "keywords_matched": [
+        "skipulag"
+      ],
+      "resolution_verified": false,
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "utu:2411043",
+      "lane": "planning",
+      "source": "utu",
+      "entity": "Umhverfis- og tæknisvið Uppsveita",
+      "title": "Vesturbrún 2-8 og 10-20: Þjónustuíbúðir og félagsþjónusta; Deiliskipulagsbreyting – 2411043",
+      "case_number": "2411043",
+      "case_ordinal": 2,
+      "date": "2026-10-08",
+      "review_deadline": "2026-11-20",
+      "status": "consultation",
+      "summary": "Sveitarstjórn Hrunamannahrepps samþykkti á fundi sínum þann 1. október 2026, að auglýsa að nýju, þar sem ár er liðið síðan athugasemdafrestur við tillöguna rann út. Tillagan tekur til Torfudals og Vesturbrúnar í Hrunamannahreppi. Við Vesturbrún er fyrirhugað að reisa þjónustuíbúðir og félagsþjónustu fyrir aldraða. Í breytingunni felst að núverandi íbúðir sem eru á einni hæð við Vesturbrún 10, 12 og 14 verði fjarlægðar og nýtt eins til tveggja hæða íbúðarhús auk kjallara og bílageymslu neðanjarðar byggt í þeirra stað. Áætlað er að í húsinu verði 28 þjónustuíbúðir fyrir aldraða auk 400 fm þjónustukjarna á einni hæð þar sem í verður félagsaðstaða aldraðra og matsalur. Íbúðarhúsin að Vesturbrún 2, 4, 6 og 8 og að 16, 18 og 20 komi til með að standa en þau verða endurgerð og íbúðum í þeim fjölgað. UPPDRÁTTUR MEÐ GREINARGERÐ Ofangreindar skipulagstillögur liggja frammi til kynningar á skrifstofu skipulagsfulltrúa, Hverabraut 6, Laugarvatni á skrifstofutíma embættisins. Að auki er hægt að nálgast tillögur á vefslóðinni www.utu.is og á skipulagsgátt Skipulagsstofnunar skipulagsgatt.is/. Mál 1. – 2. innan auglýsingar eru skipulagsmál í auglýsingu frá 8.10.2026 með athugasemdarfresti til og…",
+      "url": "https://www.utu.is/auglysingar/skipulagsauglysing-dags-8-oktober-2026/",
+      "keywords_matched": [
+        "skipulag"
+      ],
+      "resolution_verified": false,
       "intelligence_type": "public_record"
     },
     {
@@ -1623,9 +1921,9 @@
       "title": "Álafosskvos - Endurnýjun stoðveggjar og palls",
       "entity": "Mosfellsbær",
       "case_number": "1150/2026",
-      "status": "Grenndarkynning framkvæmdaleyfis",
+      "status": "Endanleg gögn",
       "date": "2026-10-02",
-      "review_deadline": "2026-10-30",
+      "review_deadline": "2026-11-24",
       "summary": "Mosfellsbær undirbýr útgáfu framkvæmdaleyfis vegna fyrsta áfanga endurnýjunar stoðveggjar og palls við Varmá í Álafosskvos. Svæðið liggur við Álafossveg 23 og meðfram eldri verksmiðjuhúsum neðan Álafoss. Pallurinn er að stofni til gólf fyrrum ullarþvottastöðvar og tengist þannig iðnaðarsögu kvosarinnar. Ástand mannvirkjanna kallar á úrbætur til að tryggja ö…",
       "url": "https://skipulagsgatt.is/issues/5505",
       "intelligence_type": "public_record"
@@ -2075,7 +2373,9 @@
       "title": "umhverfismat framkvæmda og áætlana og skipulagslög",
       "summary": "umsagnarfrestur",
       "date": "2026-09-11",
-      "status": "tabled",
+      "status": "in_progress",
+      "legislative_stage": "Bíður 1. umræðu.",
+      "document_type": "frumvarp",
       "url": "https://www.althingi.is/altext/158/s/0038.html",
       "keywords_matched": [
         "skipulag",
@@ -2098,25 +2398,6 @@
       "intelligence_type": "public_record"
     },
     {
-      "id": "samradsgatt:171/2026",
-      "lane": "legislation",
-      "source": "samradsgatt",
-      "doc_type": "consultation",
-      "proposal_type": "bill",
-      "title": "Breyting á lögum nr. 64/1994 um vernd, friðun og veiðar á villtum fuglum og villtum spendýrum",
-      "entity": "Umhverfis-, orku- og loftslagsráðuneytið",
-      "status": "Niðurstöður í vinnslu",
-      "date": "2026-09-10",
-      "review_deadline": "2026-09-24",
-      "summary": "Lagðar verða til breytingar á lögum um vernd, friðun og veiðar á villtum fuglum og villtum spendýrum með það að markmiði að styrkja og skýra lagarammann, einkum hvað varðar vernd og sjálfbæra nýtingu",
-      "url": "https://island.is/samradsgatt/mal/4318",
-      "case_number": "171/2026",
-      "keywords_matched": [
-        "umhverfismat"
-      ],
-      "intelligence_type": "public_record"
-    },
-    {
       "id": "legislation:althingi:158:7",
       "lane": "legislation",
       "source": "althingi-bills",
@@ -2125,7 +2406,9 @@
       "title": "skipulagslög",
       "summary": "breytingar á svæðisskipulagi",
       "date": "2026-09-10",
-      "status": "tabled",
+      "status": "in_progress",
+      "legislative_stage": "Bíður 1. umræðu.",
+      "document_type": "frumvarp",
       "url": "https://www.althingi.is/altext/158/s/0007.html",
       "keywords_matched": [
         "skipulag"
@@ -2141,10 +2424,30 @@
       "title": "þjóðfáni Íslendinga og ríkisskjaldarmerkið",
       "summary": "notkun fána á byggingum",
       "date": "2026-09-10",
-      "status": "tabled",
+      "status": "in_progress",
+      "legislative_stage": "Bíður 1. umræðu.",
+      "document_type": "frumvarp",
       "url": "https://www.althingi.is/altext/158/s/0029.html",
       "keywords_matched": [
         "bygging"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "legislation:althingi:158:19",
+      "lane": "legislation",
+      "source": "althingi-bills",
+      "entity": "Alþingi",
+      "doc_type": "bill",
+      "title": "flýtiframkvæmd vatnsaflsvirkjana",
+      "summary": "",
+      "date": "2026-09-10",
+      "status": "in_progress",
+      "legislative_stage": "Bíður 1. umræðu.",
+      "document_type": "frumvarp",
+      "url": "https://www.althingi.is/altext/158/s/0019.html",
+      "keywords_matched": [
+        "orku"
       ],
       "intelligence_type": "public_record"
     },
@@ -2157,7 +2460,9 @@
       "title": "mannvirki",
       "summary": "byggingarstjórar",
       "date": "2026-09-10",
-      "status": "tabled",
+      "status": "in_progress",
+      "legislative_stage": "Bíður 1. umræðu.",
+      "document_type": "frumvarp",
       "url": "https://www.althingi.is/altext/158/s/0017.html",
       "keywords_matched": [
         "bygging",
@@ -2177,6 +2482,24 @@
       "review_deadline": "2026-10-22",
       "summary": "Deiliskipulag Hafnarfjarðarvegar frá Lyngási að Engidal. Deiliskipulag fyrir Hafnarfjarðarveg frá Lyngási að Vífilsstöðum var samþykkt árið 2019.",
       "url": "https://skipulagsgatt.is/issues/5405",
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "legislation:althingi:158:3",
+      "lane": "legislation",
+      "source": "althingi-bills",
+      "entity": "Alþingi",
+      "doc_type": "bill",
+      "title": "menningarminjar og mannvirki",
+      "summary": "álit Minjastofnunar Íslands vegna húsa og mannvirkja",
+      "date": "2026-09-09",
+      "status": "enacted",
+      "legislative_stage": "Samþykkt sem lög frá Alþingi.",
+      "document_type": "stjórnarfrumvarp",
+      "url": "https://www.althingi.is/altext/158/s/0003.html",
+      "keywords_matched": [
+        "mannvirki"
+      ],
       "intelligence_type": "public_record"
     },
     {
@@ -2219,6 +2542,20 @@
       "review_deadline": "2026-11-26",
       "summary": "Lagt er fram deiliskipulag fyrir lóðina Kinn í Ölfusi. Í breytingunni felst að nýtingarhlutfall er aukið í samræmi við nýtt aðalskipulag auk þess sem skipan byggingarreita er breytt.",
       "url": "https://skipulagsgatt.is/issues/5398",
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "skgatt:1033/2026",
+      "lane": "planning",
+      "title": "Efnistökusvæði E2 - Óveruleg breyting á aðalskipulagi",
+      "entity": "Árborg",
+      "case_number": "1033/2026",
+      "plan_type": "adalskipulag",
+      "status": "Endanleg gögn",
+      "date": "2026-09-07",
+      "review_deadline": "2026-11-24",
+      "summary": "Lögð er fram tillaga óverulegrar breytingar á aðalskipulagi Árborgar er varðar skilgreiningu efnistökusvæði E2. Í breytingunni felst að bætt er við punkti sem tekur til efnistöku úr Eyrarbakkafjöru. Engin breyting er gerð á skilgreindri heimild til efnistöku. Samhliða er unnið að tilkynningarskýrslu vegna hugsanlegs mats á umhverfisáhrifum í samræmi við 1.v…",
+      "url": "https://skipulagsgatt.is/issues/5388",
       "intelligence_type": "public_record"
     },
     {
@@ -2305,25 +2642,6 @@
       "review_deadline": "2026-11-13",
       "summary": "Um er að ræða byggingarleyfisumsókn þar sem sótt er um leyfi til að stækka mhl. 02 með því að hækka millibyggingu milli mhl. 01 og mhl. 02, breyta innra skipulagi og gera svalir á einbýlishús á lóð nr. 19 við Bræðraborgarstíg.",
       "url": "https://skipulagsgatt.is/issues/5368",
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "samradsgatt:162/2026",
-      "lane": "legislation",
-      "source": "samradsgatt",
-      "doc_type": "consultation",
-      "proposal_type": "consultation",
-      "title": "Tillaga verkefnisstjórnar rammaáætlunar um virkjanahugmyndir í verndarflokk og átta verndarsvæði",
-      "entity": "Umhverfis-, orku- og loftslagsráðuneytið",
-      "status": "Til umsagnar",
-      "date": "2026-08-31",
-      "review_deadline": "2026-12-04",
-      "summary": "Verkefnisstjórn 6. áfanga rammaáætlunar hefur sett tillögu um virkjanahugmyndir í verndarflokk og átta verndarsvæði í samráðsgátt stjórnvalda sbr. lög 48/2011.",
-      "url": "https://island.is/samradsgatt/mal/4309",
-      "case_number": "162/2026",
-      "keywords_matched": [
-        "umhverfismat"
-      ],
       "intelligence_type": "public_record"
     },
     {
@@ -2628,40 +2946,6 @@
       "intelligence_type": "public_record"
     },
     {
-      "id": "reglugerd:0853-2026",
-      "lane": "legislation",
-      "source": "reglugerd",
-      "doc_type": "regulation",
-      "title": "Reglugerð um breytingu á reglugerð nr. 380/2013 um lofthæfi- og umhverfisvottun loftfara og tilheyrandi framleiðsluvara, hluta og búnaðar og vottun hönnunar- og framleiðslufyrirtækja.",
-      "entity": "Innviðaráðuneyti",
-      "status": "published",
-      "date": "2026-07-24",
-      "summary": "Reglugerð um breytingu á reglugerð nr. 380/2013 um lofthæfi- og umhverfisvottun loftfara og tilheyrandi framleiðsluvara, hluta og búnaðar og vottun hönnunar- og framleiðslufyrirtækja.",
-      "url": "https://island.is/reglugerdir/nr/0853-2026",
-      "case_number": "0853/2026",
-      "keywords_matched": [
-        "umhverfismat"
-      ],
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "reglugerd:0839-2026",
-      "lane": "legislation",
-      "source": "reglugerd",
-      "doc_type": "regulation",
-      "title": "Reglugerð um breytingu á reglugerð nr. 380/2013 um lofthæfi- og umhverfisvottun loftfara og tilheyrandi framleiðsluvara, hluta og búnaðar og vottun hönnunar- og framleiðslufyrirtækja.",
-      "entity": "Innviðaráðuneyti",
-      "status": "published",
-      "date": "2026-07-23",
-      "summary": "Reglugerð um breytingu á reglugerð nr. 380/2013 um lofthæfi- og umhverfisvottun loftfara og tilheyrandi framleiðsluvara, hluta og búnaðar og vottun hönnunar- og framleiðslufyrirtækja.",
-      "url": "https://island.is/reglugerdir/nr/0839-2026",
-      "case_number": "0839/2026",
-      "keywords_matched": [
-        "umhverfismat"
-      ],
-      "intelligence_type": "public_record"
-    },
-    {
       "id": "kaerunefnd:59/2025",
       "lane": "kaerunefnd",
       "title": "2026 07 20 Mál nr. 59 2025. Úrskurður kærunefndar útboðsmála",
@@ -2751,8 +3035,7 @@
       "url": "https://island.is/samradsgatt/mal/4283",
       "case_number": "136/2026",
       "keywords_matched": [
-        "orku",
-        "umhverfismat"
+        "orku"
       ],
       "intelligence_type": "public_record"
     },
@@ -2830,25 +3113,6 @@
       "intelligence_type": "public_record"
     },
     {
-      "id": "samradsgatt:127/2026",
-      "lane": "legislation",
-      "source": "samradsgatt",
-      "doc_type": "consultation",
-      "proposal_type": "bill",
-      "title": "Drög að frumvarpi til laga til innleiðingar á tilskipun Evrópuþingsins og ráðsins (ESB) 2018/2001 um að auka notkun orku frá endurnýjanlegum orkugjöfum (EES-réttur)",
-      "entity": "Umhverfis-, orku- og loftslagsráðuneytið",
-      "status": "Niðurstöður í vinnslu",
-      "date": "2026-07-14",
-      "review_deadline": "2026-08-14",
-      "summary": "Umhverfis-, orku- og loftslagsráðuneytið kynnir drög að frumvarpi til laga til innleiðingar á tilskipun Evrópuþingsins og ráðsins (ESB) 2018/2001 um að auka notkun orku frá endurnýjanlegum orkugjöfum",
-      "url": "https://island.is/samradsgatt/mal/4274",
-      "case_number": "127/2026",
-      "keywords_matched": [
-        "umhverfismat"
-      ],
-      "intelligence_type": "public_record"
-    },
-    {
       "id": "skgatt:0873/2026",
       "lane": "planning",
       "title": "Fossatún - Fauskás 3",
@@ -2912,25 +3176,6 @@
       "case_number": "130/2026",
       "keywords_matched": [
         "skipulag"
-      ],
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "samradsgatt:113/2026",
-      "lane": "legislation",
-      "source": "samradsgatt",
-      "doc_type": "consultation",
-      "proposal_type": "regulation",
-      "title": "Breytingar á reglugerðum vegna einföldunar eftirlits",
-      "entity": "Umhverfis-, orku- og loftslagsráðuneytið",
-      "status": "Niðurstöður í vinnslu",
-      "date": "2026-07-13",
-      "review_deadline": "2026-08-17",
-      "summary": "Umhverfis-, orku- og loftslagsráðuneytið kynnir til samráðs drög að breytingum á ýmsum reglugerðum á sviði hollustuhátta og mengunarvarna í kjölfar nýsamþykktra laga um einföldun eftirlits.",
-      "url": "https://island.is/samradsgatt/mal/4260",
-      "case_number": "113/2026",
-      "keywords_matched": [
-        "umhverfismat"
       ],
       "intelligence_type": "public_record"
     },
@@ -3057,8 +3302,7 @@
       "url": "https://island.is/samradsgatt/mal/4270",
       "case_number": "123/2026",
       "keywords_matched": [
-        "orku",
-        "umhverfismat"
+        "orku"
       ],
       "intelligence_type": "public_record"
     },
@@ -3077,8 +3321,7 @@
       "url": "https://island.is/samradsgatt/mal/4269",
       "case_number": "122/2026",
       "keywords_matched": [
-        "orku",
-        "umhverfismat"
+        "orku"
       ],
       "intelligence_type": "public_record"
     },
@@ -3390,25 +3633,6 @@
       "intelligence_type": "public_record"
     },
     {
-      "id": "samradsgatt:106/2026",
-      "lane": "legislation",
-      "source": "samradsgatt",
-      "doc_type": "consultation",
-      "proposal_type": "regulation",
-      "title": "Reglugerð um Loftslags- og orkusjóð",
-      "entity": "Umhverfis-, orku- og loftslagsráðuneytið",
-      "status": "Niðurstöður í vinnslu",
-      "date": "2026-06-30",
-      "review_deadline": "2026-08-12",
-      "summary": "Umhverfis-, orku- og loftslagsráðuneytið kynnir til samráðs drög að nýrri reglugerð um Loftslags- og orkusjóð, í stað núgildandi reglugerðar um sama efni nr. 1566/2024.",
-      "url": "https://island.is/samradsgatt/mal/4253",
-      "case_number": "106/2026",
-      "keywords_matched": [
-        "umhverfismat"
-      ],
-      "intelligence_type": "public_record"
-    },
-    {
       "id": "heradsdomur:E-284/2025",
       "lane": "court",
       "title": "Stefnendur: Laura Martin Merino (Magnús Ingvar Magnússon lögmaður) Stefndu: VH Hús ehf. (Birgir Már Björnsson lögmaður)",
@@ -3609,25 +3833,6 @@
       "intelligence_type": "public_record"
     },
     {
-      "id": "samradsgatt:103/2026",
-      "lane": "legislation",
-      "source": "samradsgatt",
-      "doc_type": "consultation",
-      "proposal_type": "bill",
-      "title": "Áform um frumvarp til laga um orkunýtni",
-      "entity": "Umhverfis-, orku- og loftslagsráðuneytið",
-      "status": "Niðurstöður í vinnslu",
-      "date": "2026-06-16",
-      "review_deadline": "2026-07-06",
-      "summary": "Áform eru um lagasetningu um orkunýtni til innleiðingar á tilskipunum ESB um orkunýtni. Markmið laganna er að bæta orkunýtni, uppfylla skuldbindingar samkvæmt EES-samningnum og styrkja umgjörð um orku",
-      "url": "https://island.is/samradsgatt/mal/4250",
-      "case_number": "103/2026",
-      "keywords_matched": [
-        "umhverfismat"
-      ],
-      "intelligence_type": "public_record"
-    },
-    {
       "id": "skgatt:0734/2026",
       "lane": "planning",
       "title": "Selhöfðar 2 L238511; Úr smáhýsi í gistihús; Deiliskipulagsbreyting - 2605011",
@@ -3639,25 +3844,6 @@
       "review_deadline": "2026-10-22",
       "summary": "Lögð er fram tillaga óverulegrar deiliskipulagsbreytingar sem tekur til Selhöfða 2, L238511 í Skeiða- og Gnúpverjahrepp. Í breytingunni felst stækkun hámarksstærðar gistihúsa, úr 60 m² í 75 m² og tekið er út ákvæði um fjölda þeirra, samanlagt byggingarmagn helst óbreytt. Í stað þess að kalla húsin smáhýsi, er talað um lítil gistihús. Spennistöð sem áður var…",
       "url": "https://skipulagsgatt.is/issues/5089",
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "samradsgatt:87/2026",
-      "lane": "legislation",
-      "source": "samradsgatt",
-      "doc_type": "consultation",
-      "proposal_type": "bill",
-      "title": "Drög að frumvarpi til laga um breytingu á lögum um varnir gegn mengun hafs og stranda (leyfisveitingar vegna vísindarannsókna í hafi)",
-      "entity": "Umhverfis-, orku- og loftslagsráðuneytið",
-      "status": "Niðurstöður í vinnslu",
-      "date": "2026-06-10",
-      "review_deadline": "2026-07-07",
-      "summary": "Umhverfis-, orku- og loftslagsráðuneytið kynnir til samráðs drög að frumvarpi til laga um breytingar á lögum um varnir gegn mengun hafs og stranda um leyfisveitingar vegna vísindarannsókna í hafi.",
-      "url": "https://island.is/samradsgatt/mal/4234",
-      "case_number": "87/2026",
-      "keywords_matched": [
-        "umhverfismat"
-      ],
       "intelligence_type": "public_record"
     },
     {
@@ -3688,38 +3874,6 @@
       "review_deadline": "2026-11-09",
       "summary": "Sveitarstjórn Dalabyggðar samþykkti þann 16. apríl 2026 tillögu að breytingu Aðalskipulags Dalabyggðar 2020-2032, sem felur í sér að afþreyingar- og ferðamannasvæði AF11 sem er 0,5 ha er breytt í verslunar- og þjónustusvæði VÞ21, þar sem gert er ráð fyrir heimild fyrir gististað í núverandi byggingu, þ.e. gamla félagsheimilinu Árbliki, Stærð svæðisins er ób…",
       "url": "https://skipulagsgatt.is/issues/5071",
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "samradsgatt:96/2026",
-      "lane": "legislation",
-      "source": "samradsgatt",
-      "doc_type": "consultation",
-      "proposal_type": "consultation",
-      "title": "Aðgerðaáætlun stefnu stjórnvalda um líffræðilega fjölbreytni 2026-2030",
-      "entity": "Umhverfis-, orku- og loftslagsráðuneytið",
-      "status": "Niðurstöður í vinnslu",
-      "date": "2026-06-03",
-      "review_deadline": "2026-06-24",
-      "summary": "Drög að aðgerðaáætlun stefnu íslenskra stjórnvalda um líffræðilega fjölbreytni 2026-2030.",
-      "url": "https://island.is/samradsgatt/mal/4243",
-      "case_number": "96/2026",
-      "keywords_matched": [
-        "umhverfismat"
-      ],
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "skgatt:0707/2026",
-      "lane": "planning",
-      "title": "Fróðastaðir - Umsókn um framkvæmdarleyfi",
-      "entity": "Borgarbyggð",
-      "case_number": "0707/2026",
-      "status": "Endanleg gögn",
-      "date": "2026-06-02",
-      "review_deadline": "2026-10-20",
-      "summary": "Lögð er fram umsókn Vegagerðarinnar dags. 08.05.2026 um framkvæmdaleyfi vegna efnistöku úr námu (E250) í landi Fróðastaða (L134640). Áætluð efnistaka er 4.000 m3 af efni til malarslitlagsframleiðslu en frekari efnistaka er möguleg í samráði við landeiganda. Endanlegt magn er áætlun og getur því orðið bæði meira eða minna en það sem tilgreint er. Efnistakan…",
-      "url": "https://skipulagsgatt.is/issues/5062",
       "intelligence_type": "public_record"
     },
     {
@@ -3761,6 +3915,20 @@
       "review_deadline": "2026-10-21",
       "summary": "Sveitarstjórn Skagafjarðar samþykkti á 49. fundi sínum þann 19. maí 2026 að auglýsa deiliskipulagstillögu fyrir ”Neðri-Ás, land 3 og 4 í Skagafirði“ í samræmi við 41. gr. skipulagslaga nr. 123/2010. Vegna ábendingar frá Skipulagsstofnun þarf að endurtaka málsmeðferð skv. 41. gr. Skipulagslaga nr. 123/2010. Deiliskipulagstillagan er sett fram í greinargerð o…",
       "url": "https://skipulagsgatt.is/issues/5059",
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "skgatt:0695/2026",
+      "lane": "planning",
+      "title": "Langavatnsvegur 3 - USK25080143",
+      "entity": "Reykjavík",
+      "case_number": "0695/2026",
+      "plan_type": "deiliskipulag",
+      "status": "Athugun eftir auglýsingu",
+      "date": "2026-06-02",
+      "review_deadline": "2026-11-24",
+      "summary": "Hafin er vinna við gerð nýs deiliskipulags fyrir lóðina að Langavatnsvegi 3. Skipulagssvæðið er staðsett norðvestan við Langavatn í austurjaðri sveitarfélagsmarka Reykjavíkur. Í tillögunni sem lögð er til felst að koma fyrir ferðaþjónustu og útisvæði á lóðinni, en afmarkað er svæði fyrir ferðaþjónustu, tjaldsvæði, húsbíla og leiksvæði á lóðinni, auk bygging…",
+      "url": "https://skipulagsgatt.is/issues/5050",
       "intelligence_type": "public_record"
     },
     {
@@ -4125,6 +4293,23 @@
       "intelligence_type": "public_record"
     },
     {
+      "id": "haestirettur:leave:2026-44",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2026-44",
+      "title": "Ferill ehf., verkfræðistofa (Gísli Guðni Hall lögmaður) gegn Ölduvör ehf. (Haukur Örn Birgisson lögmaður)",
+      "date": "2026-05-07",
+      "status": "leave_to_appeal_decision",
+      "summary": "Áfrýjunarleyfi. Útboð. Verksamningur. Túlkun samnings. Matsgerð. Hafnað",
+      "url": "https://island.is/s/haestirettur/akvardanir/EA9825B2-09BE-4DBC-9095-023C322E2005",
+      "keywords_matched": [
+        "verksamningur"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
       "id": "skgatt:0515/2026",
       "lane": "planning",
       "title": "Fossnes - Sláturfélag Suðurlands - Deilsikipulag",
@@ -4150,25 +4335,6 @@
       "review_deadline": "2026-11-09",
       "summary": "Bæjarstjórn Suðurnesjabæjar samþykkti á fundi sínum þann 4. apríl 2026, í samræmi við 41. gr. skipulagslaga nr. 123/2010, að auglýsa breytingu á deiliskipulagi Skerjahverfis (áður Íbúðasvæði sunnan Sandgerðisvegar). Með breytingunni er lögð áhersla á fjölgun minni íbúða í raðhúsum og fjölbýli, á kostnað einbýlishúsa og stærri raðhúsaíbúða. Með því hyggst sv…",
       "url": "https://skipulagsgatt.is/issues/4860",
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "samradsgatt:78/2026",
-      "lane": "legislation",
-      "source": "samradsgatt",
-      "doc_type": "consultation",
-      "proposal_type": "regulation",
-      "title": "Breyting á reglugerð um skráningarskyldan atvinnurekstur samkvæmt lögum um hollustuhætti og mengunarvarnir",
-      "entity": "Umhverfis-, orku- og loftslagsráðuneytið",
-      "status": "Niðurstöður í vinnslu",
-      "date": "2026-04-29",
-      "review_deadline": "2026-05-13",
-      "summary": "Umhverfis-, orku- og loftslagsráðuneytið leggur til breytingar á reglugerð um skráningarskyldan atvinnurekstur samkvæmt lögum um hollustuhætti og mengunarvarnir, nr. 830/2022.",
-      "url": "https://island.is/samradsgatt/mal/4225",
-      "case_number": "78/2026",
-      "keywords_matched": [
-        "umhverfismat"
-      ],
       "intelligence_type": "public_record"
     },
     {
@@ -4243,25 +4409,6 @@
       "intelligence_type": "public_record"
     },
     {
-      "id": "samradsgatt:76/2026",
-      "lane": "legislation",
-      "source": "samradsgatt",
-      "doc_type": "consultation",
-      "proposal_type": "regulation",
-      "title": "Reglugerð um tilkynningarskyldu vegna færanlegrar starfsemi",
-      "entity": "Umhverfis-, orku- og loftslagsráðuneytið",
-      "status": "Niðurstöður í vinnslu",
-      "date": "2026-04-21",
-      "review_deadline": "2026-05-12",
-      "summary": "Umhverfis-, orku- og loftslagsráðuneytið kynnir til samráðs drög að breytingu á reglugerð um losun frá atvinnurekstri og mengunarvarnaeftirlit, nr. 550/2018.",
-      "url": "https://island.is/samradsgatt/mal/4223",
-      "case_number": "76/2026",
-      "keywords_matched": [
-        "umhverfismat"
-      ],
-      "intelligence_type": "public_record"
-    },
-    {
       "id": "heradsdomur:E-93/2024",
       "lane": "court",
       "title": "Stefnendur: Straumbrot ehf. (Jónatan Hróbjartsson lögmaður) Stefndu: Alur Álvinnsla ehf. (Friðbjörn Eiríkur Garðarsson lögmaður)",
@@ -4278,22 +4425,17 @@
       "intelligence_type": "public_record"
     },
     {
-      "id": "samradsgatt:71/2026",
-      "lane": "legislation",
-      "source": "samradsgatt",
-      "doc_type": "consultation",
-      "proposal_type": "regulation",
-      "title": "Breyting á reglugerð um varnir gegn olíumengun frá starfsemi á landi",
-      "entity": "Umhverfis-, orku- og loftslagsráðuneytið",
-      "status": "Niðurstöður í vinnslu",
-      "date": "2026-04-08",
-      "review_deadline": "2026-05-06",
-      "summary": "Umhverfis-, orku- og loftslagsráðuneytið hefur sett drög að breytingu á reglugerð nr. 884/2017 um varnir gegn olíumengun frá starfsemi á landi til kynningar í samráðsgátt stjórnvalda.",
-      "url": "https://island.is/samradsgatt/mal/4218",
-      "case_number": "71/2026",
-      "keywords_matched": [
-        "umhverfismat"
-      ],
+      "id": "skgatt:0255/2026",
+      "lane": "planning",
+      "title": "Gráholt",
+      "entity": "Skaftárhreppur",
+      "case_number": "0255/2026",
+      "plan_type": "deiliskipulag",
+      "status": "Athugun eftir auglýsingu",
+      "date": "2026-04-10",
+      "review_deadline": "2026-11-24",
+      "summary": "Sveitaratjórn Skaftárhrepps samþykkti á fundi sínum 26. mars 2026 að auglýsa tillögu að deiliskipulagi fyrir Gráholt, þar sem í Aðalskipulagi Skaftárhrepps 2023- 2043 er skilgreint verslunar- og þjónustusvæði VÞ22 innan landamerkja jarðarinnar Heiðarsel. Á skipulagssvæðinu er gert ráð fyrir tveimur hótellóðum, efri (C1) og neðri (C2) lóð. Á efri lóð er fyri…",
+      "url": "https://skipulagsgatt.is/issues/4610",
       "intelligence_type": "public_record"
     },
     {
@@ -4408,25 +4550,6 @@
       "intelligence_type": "public_record"
     },
     {
-      "id": "samradsgatt:65/2026",
-      "lane": "legislation",
-      "source": "samradsgatt",
-      "doc_type": "consultation",
-      "proposal_type": "regulation",
-      "title": "Reglugerð um kortlagningu óbyggðra víðerna **Frestur til að skila umsögn hefur verið framlengdur til 4.maí**",
-      "entity": "Umhverfis-, orku- og loftslagsráðuneytið",
-      "status": "Niðurstöður í vinnslu",
-      "date": "2026-03-23",
-      "review_deadline": "2026-05-04",
-      "summary": "Reglugerðardrög um kortlagningu óbyggðra víðerna. Drögin eru unnin á grundvelli 73. gr. a. laga nr. 60/2013 um náttúruvernd sem kveður á um að ráðherra sé heimilt að setja reglugerð um viðfangsefnið.",
-      "url": "https://island.is/samradsgatt/mal/4212",
-      "case_number": "65/2026",
-      "keywords_matched": [
-        "umhverfismat"
-      ],
-      "intelligence_type": "public_record"
-    },
-    {
       "id": "landsrettur:165/2025",
       "lane": "court",
       "title": "Landsnet hf. (Einar Farestveit lögmaður) gegn Orkuvirki ehf. (Magnús Ingvar Magnússon lögmaður) og RST Neti ehf. (enginn)",
@@ -4453,6 +4576,20 @@
       "review_deadline": "2026-11-12",
       "summary": "Um er að ræða breytingu hverfisskipulagi Árbæjar, hverfi 7.3 Selás. Í breytingunni sem lögð er til felst að mörk skipulagssvæðisins er breytt og sá hluti sem áður tilheyrði skipulaginu verður eftir breytingu hluti af deiliskipulagi Suðurlandsvegar, frá Bæjarhálsi að sveitarfélagsmörkum við Mosfellsbæ nálægt Hólmsá. Afmörkun hverfisskipulagsins minnkar um no…",
       "url": "https://skipulagsgatt.is/issues/4693",
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "skgatt:0325/2026",
+      "lane": "planning",
+      "title": "Njarðvíkurhöfn H4 Breyting á aðalskipulagi",
+      "entity": "Reykjanesbær",
+      "case_number": "0325/2026",
+      "plan_type": "adalskipulag",
+      "status": "Auglýsing tillögu",
+      "date": "2026-03-17",
+      "review_deadline": "2026-12-13",
+      "summary": "Breyta þarf heimild í aðalskipulagi fyrir landfyllingu í H4 úr 1,5 ha í 3,0 ha. Jafnframt fer fram endurskoðun á afmörkun hverfisverndar fyrir byggð við Njarðvíkurhöfn. Áætlað er að gera eftirfarandi breytingar á aðalskipulagi: Njarðvíkurhöfn (H4) er stækkuð um 1,5 ha með landfyllingu á milli Norður- og Suðurgarðs. Ný afmörkun á hverfisvernd (HV30) fyrir by…",
+      "url": "https://skipulagsgatt.is/issues/4680",
       "intelligence_type": "public_record"
     },
     {
@@ -4516,6 +4653,20 @@
       "date": "2026-03-12",
       "summary": "Aðalverktaki höfðaði mál á hendur undirverktaka, iðnmeistara og tryggingarfélagi þeirra til þess að sækja skaðabætur vegna galla á verki undirverktaka við nýbyggingu, sem stefnandi sem aðalverktaki bar ábyrgð á. Stefnandi byggði kröfu sína yfirmatsgerð sem hafði verið unnin í dómsmáli sem var annars vegar milli stefnanda sem aðalverktaka og hins vegar aðalverkaupa. Stefndu höfðu ekki verið aðilar að því mati. Talið…",
       "url": "https://island.is/domar/g-d50322e7-0a8c-469f-9784-bb022ef62eb6",
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "skgatt:0286/2026",
+      "lane": "planning",
+      "title": "Laufásvegur 19 og 21-23 og Þingholtsstræti 34 - USK25120032",
+      "entity": "Reykjavík",
+      "case_number": "0286/2026",
+      "plan_type": "deiliskipulag",
+      "status": "Athugun eftir auglýsingu",
+      "date": "2026-03-11",
+      "review_deadline": "2026-11-24",
+      "summary": "Um er að ræða breytingu á deiliskipulagi Laufásvegar 19 og 21-23 og Þingholtsstrætis 34. Í breytingunni sem lögð er til felst að heimilað verður niðurrif áður byggðra viðbygginga á lóð auk niðurrif veggjar á lóðarmörkum við Þingholtsstræti. Byggingarreitur fyrir nýbyggingu við Þingholtsstræti er skilgreindur og heimilt verður að byggja inndregna þakhæð á hú…",
+      "url": "https://skipulagsgatt.is/issues/4641",
       "intelligence_type": "public_record"
     },
     {
@@ -4958,6 +5109,23 @@
       "intelligence_type": "public_record"
     },
     {
+      "id": "haestirettur:leave:2025-138",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2025-138",
+      "title": "Nesnúpur ehf. (Daníel Isebarn Ágústsson lögmaður) gegn Hafnarfjarðarkaupstað (Guðjón Ármannsson lögmaður) og Byggingarfélagi Gylfa og Gunnars hf. (Hjörleifur B. Kvaran lögmaður)",
+      "date": "2025-09-17",
+      "status": "leave_to_appeal_decision",
+      "summary": "Áfrýjunarleyfi. Ógilding. Skaðabótamál. Viðurkenningarkrafa. Lóðarúthlutun. Stjórnvaldsákvörðun. Sveitarfélög. Stjórnsýslulög. Hafnað",
+      "url": "https://island.is/s/haestirettur/akvardanir/DE142C85-0225-403F-A2DC-9E3E0D6E6E3C",
+      "keywords_matched": [
+        "útboð"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
       "id": "skgatt:1267/2025",
       "lane": "planning",
       "title": "Breyting á aðalskipulagi Árneshrepps vegna jarðstrengs og lagfæringa á Ófeigsfjarðarvegi",
@@ -5056,6 +5224,23 @@
       "intelligence_type": "public_record"
     },
     {
+      "id": "haestirettur:leave:2025-98",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2025-98",
+      "title": "Marás, vélar ehf. (Arnar Þór Stefánsson lögmaður) gegn Slippnum Akureyri ehf. (Halldór Brynjar Halldórsson lögmaður)",
+      "date": "2025-07-03",
+      "status": "leave_to_appeal_decision",
+      "summary": "Áfrýjunarleyfi. Verksamningur. Sönnun. Matsgerð. Hafnað",
+      "url": "https://island.is/s/haestirettur/akvardanir/1C62FD5E-9EB0-45DA-8B08-22041847CCA2",
+      "keywords_matched": [
+        "verksamningur"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
       "id": "skgatt:0906/2025",
       "lane": "planning",
       "title": "Kjalarnes, Sætún II (Smábýli 15)",
@@ -5081,6 +5266,40 @@
       "review_deadline": "2026-10-23",
       "summary": "Um er að ræða nýtt deiliskipulag fyrir tvöföldun Suðurlandsvegar. Megintilgangur tvöföldunar Suðurlandsvegar er að auka umferðaröryggi allra fararmáta og tryggja greiðari umferð um Suðurlandsveg með því að aðskilja akstursstefnur. Tvöföldun vegarins á þessum vegkafla er hluti af stærra verkefni sem er breikkun Suðurlandsvegar frá Hádegismóum í Reykjavík að…",
       "url": "https://skipulagsgatt.is/issues/3549",
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "haestirettur:leave:2025-105",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2025-105",
+      "title": "Hreyfill svf. (Geir Gestsson lögmaður) gegn Reykjavíkurborg (Ebba Schram lögmaður)",
+      "date": "2025-06-27",
+      "status": "leave_to_appeal_decision",
+      "summary": "Kæruleyfi. Viðurkenningarkrafa. Leigubifreiðar. Afnotaréttur. Deiliskipulag. Umráð. Stjórnvaldsákvörðun. Lögvarðir hagsmunir. Hafnað",
+      "url": "https://island.is/s/haestirettur/akvardanir/E5145CDC-D206-4D7A-A8F7-2C5E87929EA8",
+      "keywords_matched": [
+        "skipulag"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "haestirettur:leave:2025-80",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2025-80",
+      "title": "A faktoring ehf. (Sævar þór Jónsson lögmaður) gegn þrotabúi Fashion ehf. (Ólafur Eiríksson lögmaður)",
+      "date": "2025-06-24",
+      "status": "leave_to_appeal_decision",
+      "summary": "Áfrýjunarleyfi. Gjaldþrotaskipti. Þrotabú. Greiðsla. Lán. Riftun. Ógjaldfærni. Skaðabætur. Hafnað",
+      "url": "https://island.is/s/haestirettur/akvardanir/01F5CF90-63F6-4179-9781-3082CA1F0DB4",
+      "keywords_matched": [
+        "verksamningur"
+      ],
       "intelligence_type": "public_record"
     },
     {
@@ -5138,6 +5357,23 @@
       "intelligence_type": "public_record"
     },
     {
+      "id": "haestirettur:leave:2025-18",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2025-18",
+      "title": "Íslenska ríkið (Þorvaldur Hauksson lögmaður) og Landsvirkjun (Guðjón Ármannsson lögmaður) gegn Brynhildi Briem (Sif Konráðsdóttir lögmaður), Hannesi Þór Sigurðssyni (), Jóni Benjamín Jónssyni (), Kristjönu Ragnarsdóttur…",
+      "date": "2025-02-21",
+      "status": "leave_to_appeal_decision",
+      "summary": "Áfrýjunarleyfi. Stjórnsýsla. Stjórnvaldsákvörðun. Lögskýring. EES-samningurinn. Samþykkt",
+      "url": "https://island.is/s/haestirettur/akvardanir/9D83B101-BFFF-4D72-96A4-8DBBC0B7048C",
+      "keywords_matched": [
+        "Hvammsvirkjun"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
       "id": "skgatt:0206/2025",
       "lane": "planning",
       "title": "Hrísey - svæði ofan byggðar - nýtt deiliskipulag",
@@ -5163,6 +5399,40 @@
       "review_deadline": "2026-11-04",
       "summary": "Unnin verður breyting á greinargerð og uppdrætti aðalskipulagsins þar sem gert verður ráð fyrir nýjum landnotkunarreit undir afþreyingar og ferðamannasvæði (AF1), þannig að stefna aðalskipulagsins samræmist uppbyggingaráformum Eyrarkláfs ehf. um kláf á Eyrarfjall. Óbyggt svæði og opin svæði til sérstakra nota minnkar sem því nemur. Landnotkunarreitur i37 fy…",
       "url": "https://skipulagsgatt.is/issues/2827",
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "haestirettur:leave:2024-163",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2024-163",
+      "title": "Ístak hf. (Hjördís Halldórsdóttir lögmaður) gegn Vegagerðinni (Þórður Bogason lögmaður)",
+      "date": "2025-02-06",
+      "status": "leave_to_appeal_decision",
+      "summary": "Áfrýjunarleyfi. Útboð. Verksamningur. Verðbætur. Túlkun samnings. Brostnar forsendur. Samþykkt",
+      "url": "https://island.is/s/haestirettur/akvardanir/82B08C43-AA00-4783-8FF3-1CE4AEF9A373",
+      "keywords_matched": [
+        "verksamningur"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "haestirettur:leave:2024-144",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2024-144",
+      "title": "Ægisgata 5, húsfélag (Hróbjartur Jónatansson lögmaður) gegn Múr- og málningarþjónustunni Höfn ehf. (Gestur Gunnarsson lögmaður)",
+      "date": "2025-01-24",
+      "status": "leave_to_appeal_decision",
+      "summary": "Áfrýjunarleyfi. Verksamningur. Þjónustukaup. Skaðabætur. Galli. Hafnað",
+      "url": "https://island.is/s/haestirettur/akvardanir/108F28F6-3B3A-41ED-8376-F2E6B38B1D35",
+      "keywords_matched": [
+        "verksamningur"
+      ],
       "intelligence_type": "public_record"
     },
     {
@@ -5193,6 +5463,23 @@
       "intelligence_type": "public_record"
     },
     {
+      "id": "haestirettur:leave:2024-130",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2024-130",
+      "title": "115 Security ehf. (Jón Elvar Guðmundsson lögmaður) gegn íslenska ríkinu (Ingvi Snær Einarsson lögmaður)",
+      "date": "2024-11-26",
+      "status": "leave_to_appeal_decision",
+      "summary": "Áfrýjunarleyfi. Skattur. Skattlagning. Skattskylda. Vinnusamningur. Verksamningur. Hafnað",
+      "url": "https://island.is/s/haestirettur/akvardanir/A600C3AB-DCAB-4E5C-BDC8-CAF8444A69B5",
+      "keywords_matched": [
+        "verksamningur"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
       "id": "skgatt:1248/2024",
       "lane": "planning",
       "title": "Hraunsland og Hraunstjörn DSK",
@@ -5204,6 +5491,40 @@
       "review_deadline": "2026-10-22",
       "summary": "Lagt er fram nýtt deiliskipulag fyrir lóðirnar Hraunstjörn og Hraunsland. Á svæðinu er hraun sem rann eftir ísöld og er því friðað samkvæmt náttúruverndarlögum. Byggingarreitum hefur verið fundinn staður þar sem hraunið er gróið og hefur takmarkað verndargildi.",
       "url": "https://skipulagsgatt.is/issues/2347",
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "haestirettur:leave:2024-94",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2024-94",
+      "title": "Skagaver ehf. (Sveinn Guðmundsson lögmaður) gegn Trésmiðju Þráins E. Gíslasonar ehf. (Magnús Pálmi Skúlason lögmaður)",
+      "date": "2024-10-10",
+      "status": "leave_to_appeal_decision",
+      "summary": "Áfrýjunarleyfi. Verksamningur. Matsgerð. Sönnun. Kröfugerð. Hafnað",
+      "url": "https://island.is/s/haestirettur/akvardanir/69735E2B-08FE-4611-9D4E-B8E1F1C3C625",
+      "keywords_matched": [
+        "verksamningur"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "haestirettur:leave:2024-80",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2024-80",
+      "title": "Mænir 230 ehf. (Árni Ármann Árnason lögmaður) gegn Íslenskum aðalverktökum hf. (Grímur Sigurðsson lögmaður)",
+      "date": "2024-09-10",
+      "status": "leave_to_appeal_decision",
+      "summary": "Áfrýjunarleyfi. Verksamningur. Aukaverk. Dagsektir. Tafabætur. Gagnkrafa. Hafnað",
+      "url": "https://island.is/s/haestirettur/akvardanir/05BD2D88-4CF0-4CB2-91EC-1459BD4254A4",
+      "keywords_matched": [
+        "verksamningur"
+      ],
       "intelligence_type": "public_record"
     },
     {
@@ -5277,6 +5598,88 @@
       "intelligence_type": "public_record"
     },
     {
+      "id": "skgatt:0444/2024",
+      "lane": "planning",
+      "title": "Breyting á Deiliskipulagi Hvaleyrarholts suðausturs, íbúðabyggð á Þorlákstúni",
+      "entity": "Hafnarfjarðarkaupstaður",
+      "case_number": "0444/2024",
+      "plan_type": "deiliskipulag",
+      "status": "Athugun eftir auglýsingu",
+      "date": "2024-04-15",
+      "review_deadline": "2026-11-24",
+      "summary": "Á fundi bæjarstjórnar þ. 25. mars 2026 var samþykkt að auglýsa tillögu að breytingu á deiliskipulagi Hvaleyrarholts suðausturs vegna Þorlákstúns. Þorlákstún er opið svæði norðan við Reykjanesbraut í Hafnarfirði. Gert er ráð fyrir 46 nýjum lóðum undir 46 sérbýlishús með risþökum í anda gamla bæjarins í Hafnarfirði. Í deiliskipulagstillögunni er ekki leitast…",
+      "url": "https://skipulagsgatt.is/issues/1543",
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "haestirettur:leave:2024-17",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2024-17",
+      "title": "Stilling hf. (Eva B. Helgadóttir lögmaður) gegn þrotabúi Fashion ehf. (Svanhvít Axelsdóttir lögmaður)",
+      "date": "2024-03-26",
+      "status": "leave_to_appeal_decision",
+      "summary": "Áfrýjunarleyfi. Verksamningur. Aukaverk. Skuldajöfnuður. Tafabætur. Tómlæti. Málsástæða. Hafnað",
+      "url": "https://island.is/s/haestirettur/akvardanir/2BC393F3-1E6B-445F-8D74-930F0720CDFB",
+      "keywords_matched": [
+        "verksamningur"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "haestirettur:leave:2023-113",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2023-113",
+      "title": "G.V. Gröfur ehf. (Stefán Geir Þórisson lögmaður) gegn Akureyrarbæ (Árni Pálsson lögmaður)",
+      "date": "2023-12-07",
+      "status": "leave_to_appeal_decision",
+      "summary": "Áfrýjunarleyfi. Verksamningur. Túlkun samnings. Hafnað",
+      "url": "https://island.is/s/haestirettur/akvardanir/A145713E-51BD-41CF-B664-8D010BA8091C",
+      "keywords_matched": [
+        "verksamningur"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "haestirettur:leave:2023-108",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2023-108",
+      "title": "Smíðandi ON ehf. (Guðmundur B. Ólafsson lögmaður) gegn Vatnsveitu Rangárþings ytra og Ásahrepps bs. (Guðjón Ármannsson lögmaður)",
+      "date": "2023-11-24",
+      "status": "leave_to_appeal_decision",
+      "summary": "Áfrýjunarleyfi. Útboð. Skaðabætur. Viðurkenningarkrafa. Verksamningur. Opinber innkaup. Tjón. Hafnað",
+      "url": "https://island.is/s/haestirettur/akvardanir/E383CE5D-A06B-4900-8383-D4371C60C528",
+      "keywords_matched": [
+        "útboð"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "haestirettur:leave:2023-88",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2023-88",
+      "title": "Íslenskir aðalverktakar hf. (Halldór Brynjar Halldórsson lögmaður) gegn Ernst & Young ehf. og Rögnvaldi Dofra Péturssyni (Grétar Dór Sigurðsson lögmaður)",
+      "date": "2023-10-27",
+      "status": "leave_to_appeal_decision",
+      "summary": "Áfrýjunarleyfi. Hlutafélag. Hlutafé. Greiðsla. Endurskoðandi. Sérfræðiábyrgð. Skaðabætur. Samþykkt",
+      "url": "https://island.is/s/haestirettur/akvardanir/7644D719-50E9-4087-8CD3-177FE35ADC35",
+      "keywords_matched": [
+        "verksamningur"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
       "id": "skgatt:0567/2023",
       "lane": "planning",
       "title": "Endurskoðun aðalskipulags Keflavíkurflugvallar",
@@ -5302,6 +5705,635 @@
       "review_deadline": "2026-10-28",
       "summary": "Bæjarstjórn Vestmannaeyjabæjar samþykkti þann 22. júní 2023 að auglýsa tillögu að breytingu á Deiliskipulagi Miðbæjar, 2 áfangi, auglýst skv. 1 mgr. 43. gr. skipulagslaga nr. 123/2010. Breytingin felst í meginatriðum í stækkun byggingarreits, auknu byggingarmagni og viðbættri 4. hæð við Strandveg 51. Hámarksfjöldi íbúða er ekki tilgreindur á fyrra skipulagi…",
       "url": "https://skipulagsgatt.is/issues/495",
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "haestirettur:leave:2023-57",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2023-57",
+      "title": "Drífa ehf. (Andri Árnason lögmaður) gegn Isavia ohf. (Hlynur Halldórsson lögmaður)",
+      "date": "2023-06-16",
+      "status": "leave_to_appeal_decision",
+      "summary": "Áfrýjunarleyfi. Skaðabótamál. Viðurkenningarkrafa. Útboð. Hlutafélag. Hafnað",
+      "url": "https://island.is/s/haestirettur/akvardanir/EF6F8ED7-47BF-469E-A565-02F9C9DE2DB3",
+      "keywords_matched": [
+        "útboð"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "haestirettur:leave:2023-56",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2023-56",
+      "title": "Suðurhús ehf. og Sjöstjarnan ehf. (Heiðar Örn Stefánsson lögmaður) gegn Þarfaþingi hf. (Sveinbjörn Claessen lögmaður)",
+      "date": "2023-05-31",
+      "status": "leave_to_appeal_decision",
+      "summary": "Áfrýjunarleyfi. Verksamningur. Gagnkrafa. Galli. Tafabætur. Tómlæti. Hafnað",
+      "url": "https://island.is/s/haestirettur/akvardanir/72B58B50-36A4-471D-A946-CAC171610061",
+      "keywords_matched": [
+        "verksamningur"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "haestirettur:leave:2023-51",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2023-51",
+      "title": "Saga Construction ehf. (Jóhannes Karl Sveinsson lögmaður) gegn G&M Sp. z.o.o, útibúi á Íslandi (Eyvindur Sólnes hrl. )",
+      "date": "2023-05-23",
+      "status": "leave_to_appeal_decision",
+      "summary": "Áfrýjunarleyfi. Verksamningur. Reikningur. Riftun. Fyrning. Tómlæti. Gagnkrafa. Skuldajöfnuður. Hafnað",
+      "url": "https://island.is/s/haestirettur/akvardanir/D0151A83-DBD2-4F5B-A384-AA5373372C21",
+      "keywords_matched": [
+        "verksamningur"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "haestirettur:leave:2023-41",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2023-41",
+      "title": "Superior slf. (Sigurður Jónsson lögmaður) gegn Sveitarfélaginu Árborg (Sigurður Sigurjónsson lögmaður)",
+      "date": "2023-05-02",
+      "status": "leave_to_appeal_decision",
+      "summary": "Áfrýjunarleyfi. Mannvirki. Byggingarleyfi. Skaðabætur. Skipulag. Stjórnsýsla. Hafnað",
+      "url": "https://island.is/s/haestirettur/akvardanir/83D3FFD3-BBC9-4385-83F0-621678330C00",
+      "keywords_matched": [
+        "skipulag"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "haestirettur:leave:2023-31",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2023-31",
+      "title": "Múr- og málningarþjónustan Höfn ehf. (Sigurður G. Guðjónsson lögmaður) gegn Torfufelli 25-35, húsfélagi (Þórdís Bjarnadóttir lögmaður)",
+      "date": "2023-04-13",
+      "status": "leave_to_appeal_decision",
+      "summary": "Áfrýjunarleyfi. Skaðabætur. Sönnun. Verksamningur. Vanefnd. Fyrningarfrestur. Hafnað",
+      "url": "https://island.is/s/haestirettur/akvardanir/572D34EB-CBE2-4AC4-8FA1-84B7A7B45FC4",
+      "keywords_matched": [
+        "verksamningur"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "haestirettur:leave:2023-3",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2023-3",
+      "title": "Sigurður Andrésson (Einar Þór Sverrisson lögmaður) gegn LOB ehf. (Reimar Pétursson lögmaður)",
+      "date": "2023-02-13",
+      "status": "leave_to_appeal_decision",
+      "summary": "Áfrýjunarleyfi. Einkahlutafélag. Kyrrsetning. Skaðabætur. Stjórnarmenn. Matsgerð. Hafnað",
+      "url": "https://island.is/s/haestirettur/akvardanir/72833101-4968-46DC-BBD2-EFADCFC0E360",
+      "keywords_matched": [
+        "verksamningur"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "haestirettur:leave:2022-162",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2022-162",
+      "title": "Stilling hf. (Eva B. Helgadóttir lögmaður) gegn þrotabúi Fashion Group ehf. (Svanhvít Axelsdóttir )",
+      "date": "2023-01-25",
+      "status": "leave_to_appeal_decision",
+      "summary": "Áfrýjunarleyfi. Verksamningur. Aukaverk. Skuldajöfnuður. Tafabætur. Tómlæti. Málsforræði. Málsástæða. Vanhæfi. Samþykkt",
+      "url": "https://island.is/s/haestirettur/akvardanir/35DF5D5B-BBC0-4249-9368-4C7DBF62A3D6",
+      "keywords_matched": [
+        "verksamningur"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "haestirettur:leave:2022-136",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2022-136",
+      "title": "Guðbrandur Bogason (Guðmundur Ágústsson lögmaður) gegn VIVA Fortuna ehf. (Sveinn Jónatansson lögmaður)",
+      "date": "2022-12-21",
+      "status": "leave_to_appeal_decision",
+      "summary": "Áfrýjunarleyfi. Byggingarleyfi. Grennd. Skipulag. Stjórnsýsla. Hafnað",
+      "url": "https://island.is/s/haestirettur/akvardanir/A943679C-E4C8-4633-BB54-C319FAA3CDFC",
+      "keywords_matched": [
+        "skipulag"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "haestirettur:leave:2022-100",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2022-100",
+      "title": "Ísorka ehf. (Stefán A. Svensson lögmaður) gegn Orku náttúrunnar ohf. (Jóhannes Karl Sveinsson lögmaður) og Reykjavíkurborg (Ebba Schram lögmaður)",
+      "date": "2022-10-07",
+      "status": "leave_to_appeal_decision",
+      "summary": "Áfrýjunarleyfi. Útboð. Opinber innkaup. Verksamningur. Kærufrestur. Hafnað",
+      "url": "https://island.is/s/haestirettur/akvardanir/5C93C21C-D37A-4FE1-B487-DD8A7374935D",
+      "keywords_matched": [
+        "útboð"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "haestirettur:leave:2022-67",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2022-67",
+      "title": "Húsasmiðjan ehf. (Jóhannes Karl Sveinsson lögmaður) gegn Dalsnesi ehf. (Bjarki Þór Sveinsson lögmaður)",
+      "date": "2022-06-08",
+      "status": "leave_to_appeal_decision",
+      "summary": "Áfrýjunarleyfi. Samningur. Afhending. Vanefnd. Riftun. Sönnun. Hafnað",
+      "url": "https://island.is/s/haestirettur/akvardanir/E75C9716-C3E7-4711-B45F-1B45E58B8C2F",
+      "keywords_matched": [
+        "verksamningur"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "haestirettur:leave:2022-53",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2022-53",
+      "title": "RST Net ehf. (Jón Steinar Gunnlaugsson lögmaður) gegn Eimskipum Íslandi ehf. (Garðar G. Gíslason lögmaður)",
+      "date": "2022-05-16",
+      "status": "leave_to_appeal_decision",
+      "summary": "Áfrýjunarleyfi. Útboð. Skaðabætur. Hafnað",
+      "url": "https://island.is/s/haestirettur/akvardanir/CEA0BED1-EA92-498D-8100-73F52B4C79A7",
+      "keywords_matched": [
+        "útboð"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "haestirettur:leave:2022-22",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2022-22",
+      "title": "Körfuknattleiksdeild Í.R. (Guðmundur Óli Björgvinsson lögmaður) gegn Sigurði Gunnari Þorsteinssyni (Skúli Sveinsson lögmaður)",
+      "date": "2022-03-21",
+      "status": "leave_to_appeal_decision",
+      "summary": "Áfrýjunarleyfi. Aðildarhæfi. Verksamningur. Laun. Samþykkt",
+      "url": "https://island.is/s/haestirettur/akvardanir/EE00C095-D620-4ADB-AC7C-B676FD53EB2B",
+      "keywords_matched": [
+        "verksamningur"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "haestirettur:leave:2021-337",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2021-337",
+      "title": "Hornsteinar arkitektar ehf. (Guðjón Ármannsson lögmaður) gegn Hafnarfjarðarkaupstað (Jóhannes Karl Sveinsson lögmaður)",
+      "date": "2022-02-02",
+      "status": "leave_to_appeal_decision",
+      "summary": "Áfrýjunarleyfi. Útboð. Opinber innkaup. Viðurkenningarkrafa. Hafnað",
+      "url": "https://island.is/s/haestirettur/akvardanir/6470B683-B5DF-4E30-A09F-AA166983F9B7",
+      "keywords_matched": [
+        "útboð"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "haestirettur:leave:2021-96",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2021-96",
+      "title": "Fríða Einarsdóttir og Georg Hilmarsson (Sigurður Jónsson lögmaður) gegn Kópavogsbæ (Ívar Pálsson lögmaður)",
+      "date": "2021-06-03",
+      "status": "leave_to_appeal_decision",
+      "summary": "Áfrýjunarleyfi. Deiliskipulag. Byggingarleyfi. Grennd. Hafnað",
+      "url": "https://island.is/s/haestirettur/akvardanir/DED5BF7E-AF77-46DD-8007-F40ED091391B",
+      "keywords_matched": [
+        "skipulag"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "haestirettur:leave:2021-101",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2021-101",
+      "title": "Íslenska ríkið (Ólafur Helgi Árnason lögmaður) gegn Ásbirni Ólafssyni ehf. (Páll Rúnar M. Kristjánsson lögmaður)",
+      "date": "2021-05-14",
+      "status": "leave_to_appeal_decision",
+      "summary": "Áfrýjunarleyfi. Tollur. Skattur. Stjórnarskrá. Samþykkt",
+      "url": "https://island.is/s/haestirettur/akvardanir/95FFDD1F-7201-4C16-8059-3086938FBB5B",
+      "keywords_matched": [
+        "útboð"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "haestirettur:leave:2021-23",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2021-23",
+      "title": "Fróði ehf. (Hilmar Magnússon lögmaður) gegn þrotabúi iborgar ehf. (Ólafur Eiríksson lögmaður) og Leiguafli hf. (Friðbjörn E. Garðarsson lögmaður)",
+      "date": "2021-02-09",
+      "status": "leave_to_appeal_decision",
+      "summary": "Áfrýjunarleyfi. Skipulag. Byggingarleyfi. Mannvirki. Hafnað",
+      "url": "https://island.is/s/haestirettur/akvardanir/E6192BE1-302C-4FF1-AA75-36F118C98539",
+      "keywords_matched": [
+        "skipulag"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "haestirettur:leave:2021-22",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2021-22",
+      "title": "Fróði ehf. (Hilmar Magnússon lögmaður) gegn Grensásvegi 16A ehf. (Stefán A. Svensson lögmaður)",
+      "date": "2021-02-09",
+      "status": "leave_to_appeal_decision",
+      "summary": "Áfrýjunarleyfi. Skipulag. Byggingarleyfi. Mannvirki. Hafnað",
+      "url": "https://island.is/s/haestirettur/akvardanir/5426FE87-3E9A-4548-B2A7-D3F5091878AF",
+      "keywords_matched": [
+        "skipulag"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "haestirettur:leave:2021-21",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2021-21",
+      "title": "Fróði ehf. (Hilmar Magnússon lögmaður) gegn þrotabúi iborgar ehf. (Ólafur Eiríksson lögmaður), Leiguafli hf. (Friðbjörn E. Garðarsson lögmaður) og Grensásvegi 16A ehf. (Stefán A. Svensson lögmaður)",
+      "date": "2021-02-09",
+      "status": "leave_to_appeal_decision",
+      "summary": "Áfrýjunarleyfi. Skipulag. Byggingarleyfi. Mannvirki. Hafnað",
+      "url": "https://island.is/s/haestirettur/akvardanir/A4847E4B-A33B-4D02-895B-27ED8F131E9B",
+      "keywords_matched": [
+        "skipulag"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "haestirettur:leave:2020-268",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2020-268",
+      "title": "Borverk ehf. (Andri Árnason lögmaður) gegn Þjótanda ehf. (Björn Jóhannesson lögmaður)",
+      "date": "2020-12-17",
+      "status": "leave_to_appeal_decision",
+      "summary": "Áfrýjunarleyfi. Verksamningur. Uppgjör. Sönnun. Hafnað",
+      "url": "https://island.is/s/haestirettur/akvardanir/043F305B-CEF3-42FF-AA46-A9063D6B2B6D",
+      "keywords_matched": [
+        "verksamningur"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "haestirettur:leave:2020-240",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2020-240",
+      "title": "Reykjavíkurborg (Ebba Schram lögmaður) og Vegagerðin (Reynir Karlsson lögmaður) gegn Loftorku Reykjavík ehf. (Jóhannes Karl Sveinsson lögmaður)",
+      "date": "2020-11-26",
+      "status": "leave_to_appeal_decision",
+      "summary": "Áfrýjunarleyfi. Verksamningur. Tómlæti. Hafnað",
+      "url": "https://island.is/s/haestirettur/akvardanir/08A33DCD-3B28-4BB9-9DD1-D8E004BDC4FB",
+      "keywords_matched": [
+        "verksamningur"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "haestirettur:leave:2020-154",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2020-154",
+      "title": "ÞG verktakar ehf. (Bjarki Þór Sveinsson lögmaður) gegn Cambridge Plaza Hotel Company ehf. (Eva B. Helgadóttir lögmaður)",
+      "date": "2020-06-16",
+      "status": "leave_to_appeal_decision",
+      "summary": "Áfrýjunarleyfi. Útboð. Verksamningur. Viðurkenningarkrafa. Skaðabætur. Hafnað",
+      "url": "https://island.is/s/haestirettur/akvardanir/BFC1D1A3-5D65-44E2-8C24-A864A1F899EC",
+      "keywords_matched": [
+        "útboð"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "haestirettur:leave:2020-120",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2020-120",
+      "title": "Jóhann Friðrik Haraldsson og Bryndís Haraldsdóttir (Óskar Sigurðsson lögmaður) gegn Mikael Smára Mikaelssyni, Rosemary Lea Jones, Mikael Marlies Karlssyni og Barböru Belle Nelson (Saga Ýrr Jónsdóttir lögmaður)",
+      "date": "2020-05-20",
+      "status": "leave_to_appeal_decision",
+      "summary": "Áfrýjunarleyfi. Skipulag. Byggingarleyfi. Grennd. Samþykkt",
+      "url": "https://island.is/s/haestirettur/akvardanir/33714C9E-11C3-4B2A-9224-EA870AC51FEB",
+      "keywords_matched": [
+        "skipulag"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "haestirettur:leave:2020-117",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2020-117",
+      "title": "Íslenskir aðalverktakar hf. (Jóhannes Karl Sveinsson lögmaður) gegn Félagsstofnun stúdenta (Einar Þór Sverrisson lögmaður)",
+      "date": "2020-05-18",
+      "status": "leave_to_appeal_decision",
+      "summary": "Áfrýjunarleyfi. Útboð. Verksamningur. Skaðabætur. Hafnað",
+      "url": "https://island.is/s/haestirettur/akvardanir/56431463-7F0C-459B-AEB8-B1337626F57B",
+      "keywords_matched": [
+        "útboð"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "haestirettur:leave:2020-110",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2020-110",
+      "title": "LEI Packaging LLC (Þórir Júlíusson lögmaður) gegn S640189 ehf. (Jón Ögmundsson lögmaður)",
+      "date": "2020-05-11",
+      "status": "leave_to_appeal_decision",
+      "summary": "Áfrýjunarleyfi. Skaðabætur. Samningur. Lagaskil. Erlendur dómur. Erlend réttarregla. Hafnað",
+      "url": "https://island.is/s/haestirettur/akvardanir/55E3ECAC-9DCA-4D98-9E98-DA7730A65269",
+      "keywords_matched": [
+        "verksamningur"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "haestirettur:leave:2020-107",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2020-107",
+      "title": "Sveitarfélagið Árborg (Torfi Ragnar Sigurðsson lögmaður) gegn EKO eignum ehf. (Jóhannes Karl Sveinsson lögmaður)",
+      "date": "2020-05-11",
+      "status": "leave_to_appeal_decision",
+      "summary": "Áfrýjunarleyfi. Sveitarfélög. Skaðabætur. Útboð. Sönnun. Hafnað",
+      "url": "https://island.is/s/haestirettur/akvardanir/889B80A9-4616-430F-AD54-CF20DF0CD842",
+      "keywords_matched": [
+        "verksamningur"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "haestirettur:leave:2020-90",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2020-90",
+      "title": "EKO eignir ehf. (Jóhannes Karl Sveinsson lögmaður) gegn Sveitarfélaginu Árborg (Torfi Ragnar Sigurðsson lögmaður)",
+      "date": "2020-05-04",
+      "status": "leave_to_appeal_decision",
+      "summary": "Áfrýjunarleyfi. Skaðabætur. Fyrning. Hafnað",
+      "url": "https://island.is/s/haestirettur/akvardanir/66775F4E-5222-4B82-A19D-3F91B2D916A3",
+      "keywords_matched": [
+        "verksamningur"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "haestirettur:leave:2020-57",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2020-57",
+      "title": "Ákæruvaldið (Helgi Magnús Gunnarsson vararíkissaksóknari) gegn Sigurði Frey Árnasyni (Sigmundur Hannesson lögmaður)",
+      "date": "2020-02-20",
+      "status": "leave_to_appeal_decision",
+      "summary": "Áfrýjunarstefna. Fjárdráttur. Aflaheimild. Hafnað",
+      "url": "https://island.is/s/haestirettur/akvardanir/8BB578A5-3ABC-4810-A853-57D22D3774EB",
+      "keywords_matched": [
+        "verksamningur"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "haestirettur:leave:2020-30",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2020-30",
+      "title": "Hagtak hf. (Þórður Heimir Sveinsson lögmaður) gegn Íslenskum aðalverktökum hf. (Jóna Björk Helgadóttir lögmaður)",
+      "date": "2020-02-20",
+      "status": "leave_to_appeal_decision",
+      "summary": "Áfrýjunarleyfi. Verktakasamningur. Samningsgerð. Sönnun. Hafnað",
+      "url": "https://island.is/s/haestirettur/akvardanir/8C9419BD-8ACB-4028-88E6-C385046DE34A",
+      "keywords_matched": [
+        "útboð"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "haestirettur:leave:2019-268",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2019-268",
+      "title": "Þrotabú HÆ ehf. (Sigurður Sigurjónsson lögmaður) gegn Landsbankanum hf. (Bjarni Þór Óskarsson lögmaður)",
+      "date": "2019-10-31",
+      "status": "leave_to_appeal_decision",
+      "summary": "Kæruleyfi. Kyrrsetning. Hafnað",
+      "url": "https://island.is/s/haestirettur/akvardanir/3D31E9F2-F964-4704-9AA2-C53FD15C484B",
+      "keywords_matched": [
+        "verksamningur"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "haestirettur:leave:2019-208",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2019-208",
+      "title": "Byggingarsamvinnufélag eldri borgara í Garðabæ (Helgi Jóhannesson lögmaður) gegn Verktaka nr. 16 ehf. (Jóhannes Karl Sveinsson lögmaður)",
+      "date": "2019-07-03",
+      "status": "leave_to_appeal_decision",
+      "summary": "Áfrýjunarleyfi. Byggingarstjóri. Verksamningur. Tómlæti. Samþykkt",
+      "url": "https://island.is/s/haestirettur/akvardanir/A22C16B2-07F6-453F-9ACC-DF2628E7D313",
+      "keywords_matched": [
+        "verksamningur"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "haestirettur:leave:2019-148",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2019-148",
+      "title": "Jón Torfi Gylfason (Lára V. Júlíusdóttir lögmaður) gegn Heilbrigðisstofnun Austurlands (Árni Ármann Árnason lögmaður)",
+      "date": "2019-06-03",
+      "status": "leave_to_appeal_decision",
+      "summary": "Áfrýjunarleyfi. Verksamningur. Hafnað",
+      "url": "https://island.is/s/haestirettur/akvardanir/9A43621F-E0F5-452E-A12C-8E78CCEC8EB4",
+      "keywords_matched": [
+        "verksamningur"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "haestirettur:leave:2019-166",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2019-166",
+      "title": "VHE ehf. (Hilmar Gunnlaugsson lögmaður) gegn Hýsi - Merkúr hf. (Bjarki Þór Sveinsson lögmaður)",
+      "date": "2019-05-31",
+      "status": "leave_to_appeal_decision",
+      "summary": "Áfrýjunarleyfi. Samningur. Uppgjör. Hafnað",
+      "url": "https://island.is/s/haestirettur/akvardanir/38C4354D-4F5C-4911-BDCF-DAB23AA30E69",
+      "keywords_matched": [
+        "verksamningur"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "haestirettur:leave:2019-135",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2019-135",
+      "title": "Óshæð ehf., Gísli Rúnar Böðvarsson, Ívar Sigurjón Helgason og Kristrún Kristmundsdóttir (Þórhallur Haukur Þorvaldsson lögmaður) gegn Auði Kristínu Þorgeirsdóttur og Jóni Viðari Stefánssyni (Finnur Magnússon lögmaður)",
+      "date": "2019-05-21",
+      "status": "leave_to_appeal_decision",
+      "summary": "Áfrýjunarleyfi. Skipulag. Byggingarleyfi. Brottflutningur mannvirkis. Hafnað",
+      "url": "https://island.is/s/haestirettur/akvardanir/635FB1F9-861E-4F1B-82E4-66FB9AF7F29A",
+      "keywords_matched": [
+        "skipulag"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "haestirettur:leave:2019-134",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2019-134",
+      "title": "Óshæð ehf., Harpa Kristjánsdóttir og Sigurður Strange (Þórhallur Haukur Þorvaldsson lögmaður) gegn Agnari Hlyni Daníelssyni og Maríu Dögg Aðalsteinsdóttur (Finnur Magnússon lögmaður)",
+      "date": "2019-05-21",
+      "status": "leave_to_appeal_decision",
+      "summary": "Áfrýjunarleyfi. Skipulag. Byggingarleyfi. Brottflutningur mannvirkis. Hafnað",
+      "url": "https://island.is/s/haestirettur/akvardanir/79358D12-FEA7-4129-A1A9-C950A94D9DD7",
+      "keywords_matched": [
+        "skipulag"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "haestirettur:leave:2019-24",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2019-24",
+      "title": "Daníel Guðmundsson (Tryggvi Agnarsson lögmaður) gegn Verði tryggingum hf. (Magnús Hrafn Magnússon lögmaður)",
+      "date": "2019-01-31",
+      "status": "leave_to_appeal_decision",
+      "summary": "Áfrýjunarleyfi. Fasteignasala. Starfsábyrgðartrygging. Verksamningur. Samþykkt",
+      "url": "https://island.is/s/haestirettur/akvardanir/9EDB73FD-D783-46C1-8A77-7211746358F9",
+      "keywords_matched": [
+        "verksamningur"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "haestirettur:leave:2019-18",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2019-18",
+      "title": "Ósafl sf. (Jóhannes Karl Sveinsson lögmaður) gegn Vaðlaheiðargöngum hf. (Þórarinn V. Þórarinsson lögmaður)",
+      "date": "2019-01-31",
+      "status": "leave_to_appeal_decision",
+      "summary": "Áfrýjunarleyfi. Verksamningur. Útboð. Verðtrygging. Virðisaukaskattur. Samþykkt",
+      "url": "https://island.is/s/haestirettur/akvardanir/9D19DE2F-DCF4-4EFA-AB09-735E815FB7A9",
+      "keywords_matched": [
+        "verksamningur"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "haestirettur:leave:2018-255",
+      "lane": "court",
+      "source": "haestirettur-leave-to-appeal",
+      "entity": "Hæstiréttur",
+      "court": "Hæstiréttur",
+      "case_number": "2018-255",
+      "title": "Laugar ehf. (Geir Gestsson lögmaður) gegn Kópavogsbæ (Guðjón Ármannsson lögmaður)",
+      "date": "2019-01-09",
+      "status": "leave_to_appeal_decision",
+      "summary": "Áfrýjunarleyfi. Útboð. Stjórnsýsla. Sveitarfélög. Skaðabætur. Hafnað",
+      "url": "https://island.is/s/haestirettur/akvardanir/1D91A8A4-18A9-4A1C-8339-1DE9C856533E",
+      "keywords_matched": [
+        "útboð"
+      ],
       "intelligence_type": "public_record"
     },
     {
@@ -5429,8 +6461,7 @@
       "url": "https://www.landsvirkjun.is/sigalda",
       "keywords_matched": [
         "framkvæmd",
-        "orku",
-        "ístak project: Sigöldustöð"
+        "orku"
       ],
       "intelligence_type": "reference_tracker"
     },
@@ -5641,8 +6672,7 @@
       "summary": "Breiðdalsvíkurhöfn | Fjarðabyggðarhafnir Fara í efni Skemmtiferðaskip Skemmtiferðaskipakomur Cruise Iceland Cruise Europe Heimsækið Fjarðabyggð Hafnarþjónusta Hafnarvogir Hafnsaga Dráttarbátur Önnur þjónusta - rafmagn, vatn og sorp Veðurstöðvar Lög og reglugerðir Upplýsingar Um okkur 123 forever Starfsmenn Gjaldskrá Schedule of charges Hafnarstjórn Fréttir…",
       "url": "https://www.fjardabyggdarhafnir.is/is/fjardabyggdarhafnir",
       "keywords_matched": [
-        "framkvæmd",
-        "ístak project: Saga"
+        "framkvæmd"
       ],
       "intelligence_type": "reference_tracker"
     },
