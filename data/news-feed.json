@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated": "2026-10-27T06:30:01Z",
+  "generated": "2026-10-28T06:30:01Z",
   "window": {
-    "from": "2026-09-27",
-    "to": "2026-10-27"
+    "from": "2026-09-28",
+    "to": "2026-10-28"
   },
   "coverage": {
     "sources": [
@@ -324,24 +324,24 @@
   "sources": {
     "not_covered": {
       "byggingar": "Incomplete: 22 relevant records rejected without verified publication dates.",
-      "vb": "Incomplete: 9 relevant records rejected without verified publication dates.",
-      "fiskifrettir": "Incomplete: 10 relevant records rejected without verified publication dates.",
+      "vb": "Incomplete: 8 relevant records rejected without verified publication dates.",
+      "fiskifrettir": "Incomplete: 12 relevant records rejected without verified publication dates.",
       "visir": "Incomplete: 3 relevant records rejected without verified publication dates.",
-      "bb": "Incomplete: no verified in-window relevant records extracted.",
-      "visir-fiskeldi": "Incomplete: 10 relevant records rejected without verified publication dates.",
-      "heimildin": "Incomplete: 9 relevant records rejected without verified publication dates.",
+      "visir-innherji": "Incomplete: 1 relevant records rejected without verified publication dates.",
+      "visir-fiskeldi": "Incomplete: 9 relevant records rejected without verified publication dates.",
+      "heimildin": "Incomplete: 3 relevant records rejected without verified publication dates.",
       "landsvirkjun": "Incomplete: 37 relevant records rejected without verified publication dates.",
       "landsvirkjun-utbod": "Incomplete: 40 relevant records rejected without verified publication dates.",
       "landsnet-news": "Incomplete: no verified in-window relevant records extracted.",
       "landsnet-framkvaemdir": "Incomplete: no verified in-window relevant records extracted.",
-      "vegagerdin": "Incomplete: 74 relevant records rejected without verified publication dates.",
+      "vegagerdin": "Incomplete: 29 relevant records rejected without verified publication dates.",
       "vegagerdin-utbod": "Incomplete: 74 relevant records rejected without verified publication dates.",
       "vegagerdin-framkvaemdafrettir": "Incomplete: 74 relevant records rejected without verified publication dates.",
       "reykjavik": "Incomplete: 11 relevant records rejected without verified publication dates.",
       "isavia": "Incomplete: 24 relevant records rejected without verified publication dates.",
       "fsre": "Incomplete: 20 relevant records rejected without verified publication dates.",
       "veitur": "Incomplete: 9 relevant records rejected without verified publication dates.",
-      "orkuveitan": "Incomplete: 13 relevant records rejected without verified publication dates.",
+      "orkuveitan": "Incomplete: 9 relevant records rejected without verified publication dates.",
       "kadeco": "Incomplete: 3 relevant records rejected without verified publication dates.",
       "kadeco-throunarreitir": "Incomplete: 3 relevant records rejected without verified publication dates.",
       "kadeco-throunaraaetlun": "Incomplete: 4 relevant records rejected without verified publication dates.",
@@ -351,12 +351,135 @@
       "borgarverk": "Incomplete: 21 relevant records rejected without verified publication dates.",
       "thingvangur": "Incomplete: 38 relevant records rejected without verified publication dates.",
       "colas-is": "Incomplete: 20 relevant records rejected without verified publication dates.",
-      "munck": "Incomplete: 29 relevant records rejected without verified publication dates."
+      "munck": "Incomplete: 29 relevant records rejected without verified publication dates.",
+      "fish-farmer-coverage": "bounded secondary trade supplement; historical/source completeness not established (https://www.fishfarmermagazine.com/feed/)",
+      "salmonbusiness-coverage": "bounded secondary trade supplement; historical/source completeness not established (https://www.salmonbusiness.com/)",
+      "datacenterdynamics-coverage": "bounded secondary trade supplement; historical/source completeness not established (https://www.datacenterdynamics.com/en/news/)"
     },
     "source_candidates": []
   },
-  "count": 95,
+  "count": 101,
   "items": [
+    {
+      "id": "news:braggi:vidburdur-hms-troun-og-framtidarhorfur-ibudamarkadar-bygginga-o",
+      "lane": "news",
+      "category": "investment",
+      "title": "Þróun og framtíðarhorfur íbúðamarkaðar, bygginga- og skipulagsmála á Vestfjörðum",
+      "entity": "braggi.is",
+      "date": "2026-10-28",
+      "summary": "2026-10-29 · Suðurgata 12 á Ísafirði · Fimmtudaginn 29. október halda HMS og Tryggð byggð í samstarfi við Vestfjarðarstofu opinn fund um þróun og framtíðahorfur íbúðamarkaðar, bygginga og skipulagsmála á Vestfjörðum. Fundurinn verður haldinn í húsakynnum Vestfjarðarstofu við Suðurgötu 12 á",
+      "url": "https://braggi.is/vidburdur-hms-troun-og-framtidarhorfur-ibudamarkadar-bygginga-o/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:visir-vidskipti:gudny-helga-tekur-vid-af-haraldi",
+      "lane": "news",
+      "category": "project",
+      "title": "Guð­ný Helga tekur við af Haraldi",
+      "entity": "visir.is / Viðskipti",
+      "date": "2026-10-27",
+      "summary": "Stjórn Skaga hefur samið við Harald I. Þórðarson, forstjóra félagsins, um starfslok en hann mun áfram gegna stjórnarstörfum innan samstæðunnar. Guðný Helga Herbertsdóttir, forstjóri VÍS trygginga, verður æðsti stjórnandi samstæðunnar og mun leiða hana frá og með deginum í dag, samhliða því að stýra áfram VÍS tryggingum.",
+      "url": "https://www.visir.is/g/20262954575d/gudny-helga-tekur-vid-af-haraldi",
+      "outlet": "visir.is / Viðskipti",
+      "is_new": true
+    },
+    {
+      "id": "news:visir-vidskipti:greida-hundrud-milljona-krona-sekt",
+      "lane": "news",
+      "category": "investment",
+      "title": "Greiða hundruð milljóna króna sekt",
+      "entity": "visir.is / Viðskipti",
+      "date": "2026-10-27",
+      "summary": "Arion banki hefur fallist á að greiða 280 milljóna króna sekt vegna brota á reglum um verðbréfaviðskipti og fjárfestavernd. Bankinn gerði sátt við Fjármálaeftirlit Seðlabankans eftir að í ljós kom að hann hafði ekki tilkynnt um grunsamleg hlutabréfaviðskipti tveggja viðskiptavina á árunum 2022 og 2023, þrátt fyrir skýrar vísbendingar um mögulega markaðsmisn...",
+      "url": "https://www.visir.is/g/20262954551d/greida-hundrud-milljona-krona-sekt",
+      "outlet": "visir.is / Viðskipti",
+      "is_new": true
+    },
+    {
+      "id": "news:visir-vidskipti:gagnrynir-ad-ekkert-boli-a-adgerdum-vardandi-skattlagningu-taeknirisa",
+      "lane": "news",
+      "category": "project",
+      "title": "Gagn­rýnir að ekkert bóli á að­gerðum varðandi skatt­lagningu tæknirisa",
+      "entity": "visir.is / Viðskipti",
+      "date": "2026-10-27",
+      "summary": "Guðmundur Halldór Björnsson, framkvæmdastjóri sölu- og markaðsmála Sýnar, gagnrýnir í aðsendri grein á Vísi að enn hafi engar aðgerðir verið kynntar um skattlagningu alþjóðlegra tæknifyrirtækja. Hann segir fjölmiðlafyrirtæki verða að geta treyst boðuðum aðgerðum og kallar eftir því að brugðist sé við. Málið er ekki á þingmálaskrá stjórnvalda.",
+      "url": "https://www.visir.is/g/20262954113d/gagnrynir-ad-ekkert-boli-a-adgerdum-vardandi-skattlagningu-taeknirisa",
+      "outlet": "visir.is / Viðskipti",
+      "is_new": true
+    },
+    {
+      "id": "news:visir-vidskipti:bjoda-fjordungi-starfsfolks-microsoft-starfslokasamninga",
+      "lane": "news",
+      "category": "project",
+      "title": "Bjóða fjórðungi starfs­fólks Micros­oft starfs­loka­samninga",
+      "entity": "visir.is / Viðskipti",
+      "date": "2026-10-27",
+      "summary": "Tæknirisinn Microsoft hefur boðið ríflega fjórðungi allra starfsmanna fyrirtækisins starfslokasamninga. Á sama tíma eyðir fyrirtækið hundruðum milljarða dollara í þróun gervigreindartækni.",
+      "url": "https://www.visir.is/g/20262954272d/bjoda-fjordungi-starfsfolks-microsoft-starfslokasamninga",
+      "outlet": "visir.is / Viðskipti",
+      "is_new": true
+    },
+    {
+      "id": "news:visir-vidskipti:bein-utsending-umhverfisdagur-atvinnulifsins",
+      "lane": "news",
+      "category": "project",
+      "title": "Bein út­sending: Umhverfisdagur at­vinnu­lífsins",
+      "entity": "visir.is / Viðskipti",
+      "date": "2026-10-27",
+      "summary": "Umhverfisdagur atvinnulífsins fer fram í dag á Grand Hótel Reykjavík og hefst klukkan 13:00 með opnunarávarpi Bjarna Benediktssonar, framkvæmdastjóra Samtaka atvinnulífsins. Þá verða einnig veitt Umhverfisverðlaun atvinnulífsins 2026 en sýnt verður frá deginum í beinni á Vísi.",
+      "url": "https://www.visir.is/g/20262954152d/bein-utsending-umhverfisdagur-atvinnulifsins",
+      "outlet": "visir.is / Viðskipti",
+      "is_new": true
+    },
+    {
+      "id": "news:visir-innherji:vill-setja-fimmtungshlut-i-landsvirkjun-a-markad-til-ad-lada-ad-erlenda-fjarfest",
+      "lane": "news",
+      "category": "project",
+      "title": "Vill setja fimmtungs­hlut í Lands­virkjun á markað til að laða að er­lenda fjár­festa",
+      "entity": "visir.is / Innherji",
+      "date": "2026-10-27",
+      "summary": "Vill setja fimmtungs­hlut í Lands­virkjun á markað til að laða að er­lenda fjár­festa Innherji",
+      "url": "https://www.visir.is/g/20262954592d/vill-setja-fimmtungshlut-i-landsvirkjun-a-markad-til-ad-lada-ad-erlenda-fjarfesta",
+      "outlet": "visir.is / Innherji",
+      "is_new": true
+    },
+    {
+      "id": "news:byggingar:sudurverk-og-fossvelar-fa-468-milljarda-framkvaemd-vid-kjalarnes",
+      "lane": "news",
+      "category": "project",
+      "title": "Suðurverk og Fossvélar fá 4,68 milljarða framkvæmd við Kjalarnes",
+      "entity": "byggingar.is",
+      "date": "2026-10-27",
+      "summary": "Suðurverk og Fossvélar fá 4,68 milljarða framkvæmd við Kjalarnes",
+      "url": "https://byggingar.is/sudurverk-og-fossvelar-fa-468-milljarda-framkvaemd-vid-kjalarnes/",
+      "outlet": "byggingar.is",
+      "is_new": true
+    },
+    {
+      "id": "news:byggingar:nyherjahusid-verdur-hjukrunarheimili",
+      "lane": "news",
+      "category": "project",
+      "title": "Nýherja­húsið verður hjúkrunar­heimili",
+      "entity": "byggingar.is",
+      "date": "2026-10-27",
+      "summary": "Nýherja­húsið verður hjúkrunar­heimili",
+      "url": "https://byggingar.is/nyherjahusid-verdur-hjukrunarheimili/",
+      "outlet": "byggingar.is",
+      "is_new": true
+    },
+    {
+      "id": "news:byggingar:2-000-tonna-bruargolf-bratt-dregid-yfir-olfusa",
+      "lane": "news",
+      "category": "project",
+      "title": "2.000 tonna brúargólf brátt dreg­ið yfir Ölfusá",
+      "entity": "byggingar.is",
+      "date": "2026-10-27",
+      "summary": "2.000 tonna brúargólf brátt dreg­ið yfir Ölfusá",
+      "url": "https://byggingar.is/2-000-tonna-bruargolf-bratt-dregid-yfir-olfusa/",
+      "outlet": "byggingar.is",
+      "is_new": true
+    },
     {
       "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-raetur-verktakar-ehf-laegstbjodendur-",
       "lane": "news",
@@ -367,18 +490,6 @@
       "summary": "Rætur verktakar ehf. lægstbjóðendur í endurbætur á Múlaborg Rætur verktakar ehf. áttu lægsta tilboðið í endurbætur á þaki, gluggum og klæðningu Múlaborgar í Reykjavík. Tilboð fyrirtækisins hljóðaði upp á 69,1 milljón króna, eða 90,87% af kostnaðaráætlun Reykjavíkurborgar. Alls bárust níu tilboð í verkið og voru þrjú þeirra undir kostnaðaráætlun. Tilboðin vo...",
       "url": "https://byggingar.is/raetur-verktakar-ehf-laegstbjodendur-i-endurbaetur-a-mulaborg/?utm_source=rss&utm_medium=rss&utm_campaign=raetur-verktakar-ehf-laegstbjodendur-i-endurbaetur-a-mulaborg",
       "outlet": "byggingar.is / niðurstöður útboða",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:vidburdur-idan-1933",
-      "lane": "news",
-      "category": "project",
-      "title": "ÍST 30 við framkvæmdir",
-      "entity": "braggi.is",
-      "date": "2026-10-27",
-      "summary": "2027-02-25 · Iðan fræðslusetur · Námskeið fyrir iðnmeistra og verktaka um staðlainn ÍST 30 - almenna útboðs og samningsskilmála um verkframkvæmdir og notkun hans.",
-      "url": "https://braggi.is/vidburdur-idan-1933/",
-      "outlet": "braggi.is",
       "is_new": true
     },
     {
@@ -394,6 +505,174 @@
       "is_new": true
     },
     {
+      "id": "news:braggi:umsokn-um-byggingarleyfi-fyrir-vidbyggingu-a-heidarbraut-13-i-reykjanesbaer",
+      "lane": "news",
+      "category": "investment",
+      "title": "Umsókn um byggingarleyfi fyrir viðbyggingu á Heiðarbraut 13 í Reykjanesbær",
+      "entity": "braggi.is",
+      "date": "2026-10-27",
+      "summary": "Byggingarfulltrúi í Reykjanesbæ hefur vísað umsókn um byggingarleyfi fyrir 30,8 fermetra viðbyggingu á Heiðarbraut 13 til skipulagsfulltrúa. Einnig er óskað eftir minni breytingum á ásýnd hússins.",
+      "url": "https://braggi.is/umsokn-um-byggingarleyfi-fyrir-vidbyggingu-a-heidarbraut-13-i-reykjanesbaer/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:thg-verktakar-byrjadir-ad-draga-nyja-olfusarbru-a-sinn-stad-4a384898",
+      "lane": "news",
+      "category": "competitor",
+      "title": "ÞG verktakar byrjaðir að draga nýja Ölfusárbrú á sinn stað",
+      "entity": "braggi.is",
+      "date": "2026-10-27",
+      "summary": "Starfsmenn ÞG verktaka byrjuðu snemma í morgun að draga nýja Ölfusárbrú frá eystri bakka árinnar yfir á þann vestari. Um sjötíu manns koma að verkinu sem áætlað er að taki átta til tíu daga, að sögn Þorvaldar Hrafns Gissurarsonar, forstjóra ÞG verkta",
+      "url": "https://braggi.is/thg-verktakar-byrjadir-ad-draga-nyja-olfusarbru-a-sinn-stad-4a384898/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:storf-hyis-areidanleikafraedingur-9e8721",
+      "lane": "news",
+      "category": "industrial-demand",
+      "title": "🏗️ Áreiðanleikafræðingur",
+      "entity": "braggi.is",
+      "date": "2026-10-27",
+      "summary": "Norðurál leitar að öflugum og metnaðarfullum einstaklingi í starf áreiðanleikafræðings. Eitt af meginhlutverkum áreiðanleikafræðings er að vinna að fyrirbygg…",
+      "url": "https://braggi.is/storf-hyis-areidanleikafraedingur-9e8721/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:samthykkt-breyting-a-adalskipulagi-fyrir-bensinstod-a-reydarfirdi",
+      "lane": "news",
+      "category": "investment",
+      "title": "Samþykkt breyting á aðalskipulagi fyrir bensínstöð á Reyðarfirði",
+      "entity": "braggi.is",
+      "date": "2026-10-27",
+      "summary": "Bæjarstjórn Fjarðabyggðar samþykkti með 9 atkvæðum óverulega breytingu á aðalskipulagi vegna lóðarinnar að Búðareyri 12 á Reyðarfirði. Tillagan snýr að því að landnotkun á hornlóðinni þar sem bensínstöð Orkunnar stendur verði breytt. Í stað þess að l",
+      "url": "https://braggi.is/samthykkt-breyting-a-adalskipulagi-fyrir-bensinstod-a-reydarfirdi/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:laegstbjodandi-dro-tilbod-sitt-i-utbodi-hardvidarbryggju-i-langanesbyggd",
+      "lane": "news",
+      "category": "project",
+      "title": "Lægstbjóðandi dró tilboð sitt í útboði harðviðarbryggju í Langanesbyggð",
+      "entity": "braggi.is",
+      "date": "2026-10-27",
+      "summary": "Á fundi byggðarráðs Langanesbyggðar 15. október 2026 voru lagðar fram upplýsingar um niðurstöður útboðs fyrir harðviðarbryggju. Samkvæmt upplýsingunum dró lægstbjóðandi tilboð sitt til baka. Nánari upplýsingar um útboðið og mögulegar áframhaldandi að",
+      "url": "https://braggi.is/laegstbjodandi-dro-tilbod-sitt-i-utbodi-hardvidarbryggju-i-langanesbyggd/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:hvad-er-breyttur-vidur-taeknin-sem-eykur-moguleika-timburs-i-byggingar-1a5b8b65",
+      "lane": "news",
+      "category": "project",
+      "title": "Hvað er breyttur viður? Tæknin sem eykur möguleika timburs í byggingariðnaði",
+      "entity": "braggi.is",
+      "date": "2026-10-27",
+      "summary": "Ný tækni við umbreytingu á timbri breytir eðliseiginleikum efnisins og opnar nýja möguleika fyrir notkun þess utanhúss í krefjandi veðuraðstæðum. Timbur hefur verið notað í byggingariðnaði í þúsundir ára sem náttúrulegt, endurnýjanlegt og fjölhæft by",
+      "url": "https://braggi.is/hvad-er-breyttur-vidur-taeknin-sem-eykur-moguleika-timburs-i-byggingar-1a5b8b65/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:hagstofa-visitala-byggingarkostnadar-haekkadi-um-06-i-o-2026m10",
+      "lane": "news",
+      "category": "project",
+      "title": "Vísitala byggingarkostnaðar hækkaði um 0,6% í október – ársbreyting 3,6%",
+      "entity": "braggi.is",
+      "date": "2026-10-27",
+      "summary": "Vísitala byggingarkostnaðar mældist 130,4 stig í október 2026 og hækkaði um 0,6% milli mánaða samkvæmt nýjum tölum Hagstofu Íslands.",
+      "url": "https://braggi.is/hagstofa-visitala-byggingarkostnadar-haekkadi-um-06-i-o-2026m10/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:gongustigurinn-ad-the-wanderers-perspective",
+      "lane": "news",
+      "category": "project",
+      "title": "Göngustígurinn að The Wanderer’s Perspective",
+      "entity": "braggi.is",
+      "date": "2026-10-27",
+      "summary": "Unnið hefur verið að lagningu nýs göngustígs að listaverkinu The Wanderer’s Perspective undanfarnar vikur, samhliða því sem bílastæði við svæðið hefur verið malbikað. Framkvæmdirnar miða að því að bæta aðgengi að listaverkinu og hefur umhverfi þess t",
+      "url": "https://braggi.is/gongustigurinn-ad-the-wanderers-perspective/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:fjarfest-i-gagnaverum-her-a-landi-fyrir-57-milljarda-krona-i-ar-44238d71",
+      "lane": "news",
+      "category": "industrial-demand",
+      "title": "Fjárfest í gagnaverum hér á landi fyrir 57 milljarða króna í ár",
+      "entity": "braggi.is",
+      "date": "2026-10-27",
+      "summary": "Fjárfestingar í gagnaverum á Íslandi nema 57 milljörðum króna á þessu ári, sem er nærri tvöfalt meira en í fyrra. Gagnaverin eru þrjú talsins og starfa á höfuðborgarsvæðinu, í Reykjanesbæ, á Akureyri og á Blönduósi. Þetta kemur fram í nýrri greiningu",
+      "url": "https://braggi.is/fjarfest-i-gagnaverum-her-a-landi-fyrir-57-milljarda-krona-i-ar-44238d71/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:breyting-a-deiliskipulagi-dalur-1-samthykkt-i-fjardabyggd",
+      "lane": "news",
+      "category": "investment",
+      "title": "Breyting á deiliskipulagi Dalur 1 samþykkt í Fjarðabyggð",
+      "entity": "braggi.is",
+      "date": "2026-10-27",
+      "summary": "Bæjarstjórn Fjarðabyggðar samþykkti breytingu á deiliskipulaginu Dalur 1, íþróttasvæði með 9 atkvæðum. Breytingin felur í sér að heimilt verði að byggja íþróttahús á stækkaðri lóð við núverandi sundlaugarsvæði á Eskifirði. Nýtt íþróttahús má reisa ás",
+      "url": "https://braggi.is/breyting-a-deiliskipulagi-dalur-1-samthykkt-i-fjardabyggd/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:braggi:borvinna-og-sprengingar-hefjast-vid-birkiklett-og-husasmidjuna",
+      "lane": "news",
+      "category": "competitor",
+      "title": "Borvinna og sprengingar hefjast við Birkiklett og Húsasmiðjuna.",
+      "entity": "braggi.is",
+      "date": "2026-10-27",
+      "summary": "Borvinna stendur nú yfir vegna framkvæmda við Birkiklett og Húsasmiðjuna, en verktakafyrirtækið Borgarverk sér um jarðvinnuna á svæðinu. Að borun lokinni er stefnt að því að hefja sprengingar mánudaginn 2. nóvember. Áætlað er að sprengivinnan stand",
+      "url": "https://braggi.is/borvinna-og-sprengingar-hefjast-vid-birkiklett-og-husasmidjuna/",
+      "outlet": "braggi.is",
+      "is_new": true
+    },
+    {
+      "id": "news:bb:vegagerdin-med-utbod-a-sjovornum-a-bordeyri-og-budardal",
+      "lane": "news",
+      "category": "project",
+      "title": "Vegagerðin með útboð á sjóvörnum á Borðeyri og Búðardal",
+      "entity": "bb.is",
+      "date": "2026-10-27",
+      "summary": "Vegagerðin hefur ákveðið að óska eftir tilboðum í verkið „Búðardalur og Borðeyri – sjóvarnir 2026” og skal verkinu lokið eigi síðar en 1. mars 2027. Í verkinu felst að gera nýja 200 m sjóvörn á Borðeyri og um 70 m lengingu sjóvarnar neðan við Ægisbraut í Búðardal. Helstu magntölur eru: Útboðsgögn eru afhent rafrænt í […]",
+      "url": "https://bb.is/2026/10/vegagerdin-med-utbod-a-sjovornum-a-bordeyri-og-budardal/",
+      "outlet": "bb.is",
+      "is_new": true
+    },
+    {
+      "id": "news:bb:gjaldheimta-eykst-en-framkvaemdir-dragast-saman",
+      "lane": "news",
+      "category": "project",
+      "title": "Gjaldheimta eykst en framkvæmdir dragast saman",
+      "entity": "bb.is",
+      "date": "2026-10-27",
+      "summary": "Ný greining Samtaka iðnaðarins (SI) bendir til þess að sífellt stærra bil sé að myndast milli þess sem ríkið innheimtir af ökutækjum, eldsneyti og akstri annars vegar og þess sem varið er til vegasamgangna hins vegar. Á árunum 2019 til 2025 innheimti ríkið alls 338,1 milljarð króna með beinum gjöldum af ökutækjum, eldsneyti og akstri. […]",
+      "url": "https://bb.is/2026/10/gjaldheimta-eykst-en-framkvaemdir-dragast-saman/",
+      "outlet": "bb.is",
+      "is_new": true
+    },
+    {
+      "id": "news:bb:axel-overby-radinn-til-hafnarfjardarbaejar",
+      "lane": "news",
+      "category": "investment",
+      "title": "Axel Överby ráðinn til Hafnarfjarðarbæjar",
+      "entity": "bb.is",
+      "date": "2026-10-27",
+      "summary": "Axel Överby, fyrrverandi sviðsstjóri hjá Ísafjarðarbæ hefur verið ráðinn til Hafnarfjarðarbæjar í starf skipulags- og byggingarfulltrúa. Hann hefur störf í byrjun nóvembermánaðar. Þetta hefur Bæjarins besta fengið staðfest hjá Hafnarfjarðarbæ..",
+      "url": "https://bb.is/2026/10/axel-overby-radinn-til-hafnarfjardarbaejar/",
+      "outlet": "bb.is",
+      "is_new": true
+    },
+    {
       "id": "news:visir-vidskipti:niu-systkini-modir-um-tvitugt-og-simtalid-sem-ekkert-foreldri-vill-fa",
       "lane": "news",
       "category": "project",
@@ -403,7 +682,7 @@
       "summary": "Anna Hildur Björnsdóttir, framkvæmdastjóri mannauðs og menningar hjá Ísland Duty Free, segir lífsreynsluna hiklaust það dýrmætasta sem hún tekur með sér inn í vinnuna. Námið komi manni af stað, en það fleyti manni bara visst langt.",
       "url": "https://www.visir.is/g/20262952556d/niu-systkini-modir-um-tvitugt-og-simtalid-sem-ekkert-foreldri-vill-fa",
       "outlet": "visir.is / Viðskipti",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "news:visir-vidskipti:kaldvik-faer-enn-frekari-frest",
@@ -415,7 +694,7 @@
       "summary": "Lánveitendur sjókvíeldisfyrirtækisins Kaldvíkur framlengdu enn frekar frest tímabundinnar undanþágu félagsins frá lánaskilmálum. Stóð til að frestur rynni út í dag en hefur hann verið framlengdur til miðvikudags.",
       "url": "https://www.visir.is/g/20262954057d/kaldvik-faer-enn-frekari-frest",
       "outlet": "visir.is / Viðskipti",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "news:visir-vidskipti:hjukrunarheimili-i-nyherjahusid",
@@ -427,7 +706,7 @@
       "summary": "Reitum hefur borist tilkynning frá Framkvæmdasýslunni – Ríkiseignum þess efnis að Borgartún 37 hafi verið valið í markaðskönnun um hjúkrunarheimili á höfuðborgarsvæðinu en mat tilboða byggðist meðal annars á verði, stærð, staðsetningu og öryggi. Húsið hýsti um árabil upplýsingatæknifyrirtækið Nýherja, sem varð síðar að Origo.",
       "url": "https://www.visir.is/g/20262953992d/hjukrunarheimili-i-nyherjahusid",
       "outlet": "visir.is / Viðskipti",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "news:visir-vidskipti:atvr-segir-upp-og-sparar-150-milljonir",
@@ -439,7 +718,7 @@
       "summary": "Sviðum ÁTVR verður fækkað um eitt og staða eins framkvæmdastjóra lögð niður, auk þess sem stöðugildum á skrifstofu og í dreifingarmiðstöð verður fækkað um tæplega sex, í hagræðingaraðgerðum. Með þeim er áætlað að spara um 150 milljónir króna á ári.",
       "url": "https://www.visir.is/g/20262953930d/atvr-segir-upp-og-sparar-150-milljonir",
       "outlet": "visir.is / Viðskipti",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "news:visir-fiskeldi:stada-kaldvikur-thung-og-verdmatid-komid-undir-markadsgengi",
@@ -451,19 +730,19 @@
       "summary": "Verðmat á fiskeldisfyrirtækinu Kaldvík hefur verið lækkað um liðlega þriðjung í kjölfar erfiðleika í rekstri, versnandi sjóðsstöðu og hækkandi fjármagnskostnaðar. Greinendur telja fjárhagsstöðu félagsins þunga eftir mikil áföll síðustu misseri en gera ráð fyrir að reksturinn fari að rétta úr kútnum á næsta ári.",
       "url": "https://www.visir.is/g/20262953846d/stada-kaldvikur-thung-og-verdmatid-komid-undir-markadsgengi",
       "outlet": "visir.is / Fiskeldi",
-      "is_new": true
+      "is_new": false
     },
     {
-      "id": "news:vegagerdin:2-000-tonna-bruargolf-bratt-dregid-yfir-olfusa",
+      "id": "news:reykjavik:afgreidsla-nordurmidstodvar-og-vesturmidstodvar-flytur-i-borgartun-12",
       "lane": "news",
       "category": "project",
-      "title": "26. október 2026 2.000 tonna brúargólf brátt dregið yfir Ölfusá",
-      "entity": "Vegagerðin",
+      "title": "Afgreiðsla Norðurmiðstöðvar og Vesturmiðstöðvar flytur í Borgartún 12",
+      "entity": "Reykjavíkurborg",
       "date": "2026-10-26",
-      "summary": "Frétt­ir 26. október 2026 2.000 tonna brúargólf brátt dregið yfir Ölfusá",
-      "url": "https://www.vegagerdin.is/vegagerdin/starfsemi/frettir/2-000-tonna-bruargolf-bratt-dregid-yfir-olfusa",
-      "outlet": "Vegagerðin",
-      "is_new": true
+      "summary": "26. október 2026 Afgreiðsla Norðurmiðstöðvar og Vesturmiðstöðvar flytur í Borgartún 12",
+      "url": "https://reykjavik.is/frettir/2026/afgreidsla-nordurmidstodvar-og-vesturmidstodvar-flytur-i-borgartun-12",
+      "outlet": "Reykjavíkurborg",
+      "is_new": false
     },
     {
       "id": "news:isavia:fyrsta-flug-air-china-peking-kef",
@@ -475,163 +754,7 @@
       "summary": "nudaginn 26. október 2026, áætlunarflug milli Peking og Keflavíkurflugvallar með viðkomu í Kaupmannahöfn. Flugfélagið mun fljúga þrisvar í viku allan ársins hring og færir leiðin KEF beina tengingu við eitt stærsta markaðssvæði heims. → Lesa meira (",
       "url": "https://www.kefairport.is/frettir/fyrsta-flug-air-china-peking-kef",
       "outlet": "Isavia",
-      "is_new": true
-    },
-    {
-      "id": "news:byggingar:opna-staerdarinnar-hotel-vid-skogarbodin-a-naesta-ari",
-      "lane": "news",
-      "category": "project",
-      "title": "Opna stærðarinnar hótel við Skógarböðin á næsta ári",
-      "entity": "byggingar.is",
-      "date": "2026-10-26",
-      "summary": "Opna stærðarinnar hótel við Skógarböðin á næsta ári",
-      "url": "https://byggingar.is/opna-staerdarinnar-hotel-vid-skogarbodin-a-naesta-ari/",
-      "outlet": "byggingar.is",
-      "is_new": true
-    },
-    {
-      "id": "news:byggingar:mulathing-bydur-ut-endurbaetur-a-herdubreid-a-seydisfirdi",
-      "lane": "news",
-      "category": "project",
-      "title": "24.11.2026 Múlaþing býður út endurbætur á Herðubreið á Seyðisfirði",
-      "entity": "byggingar.is",
-      "date": "2026-10-26",
-      "summary": "24.11.2026 Múlaþing býður út endurbætur á Herðubreið á Seyðisfirði",
-      "url": "https://byggingar.is/mulathing-bydur-ut-endurbaetur-a-herdubreid-a-seydisfirdi/",
-      "outlet": "byggingar.is",
-      "is_new": true
-    },
-    {
-      "id": "news:byggingar:bjoda-kaupendum-ad-eignast-75-i-ibudum",
-      "lane": "news",
-      "category": "project",
-      "title": "Bjóða kaupendum að eignast 75% í íbúðum",
-      "entity": "byggingar.is",
-      "date": "2026-10-26",
-      "summary": "Bjóða kaupendum að eignast 75% í íbúðum",
-      "url": "https://byggingar.is/bjoda-kaupendum-ad-eignast-75-i-ibudum/",
-      "outlet": "byggingar.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:vegagerdin-26144-utbod",
-      "lane": "news",
-      "category": "project",
-      "title": "Búðardalur og Borðeyri - Sjóvarnir 2026",
-      "entity": "braggi.is",
-      "date": "2026-10-26",
-      "summary": "Vegagerðin hefur auglýst útboð vegna framkvæmda við sjóvarnir í Búðardal og á Borðeyri. Verkefnið felur í sér 270 metra heildarlengd sjóvarna og á verkinu að vera lokið fyrir 1. mars 2027.",
-      "url": "https://braggi.is/vegagerdin-26144-utbod/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:timabaert-eftirlit-sparar-undirverktokum-dyra-endurvinnu-a-byggingarstad",
-      "lane": "news",
-      "category": "project",
-      "title": "Tímabært eftirlit sparar undirverktökum dýra endurvinnu á byggingarstað",
-      "entity": "braggi.is",
-      "date": "2026-10-26",
-      "summary": "Stærsti vandinn í mörgum byggingarverkefnum er ekki vinnan sjálf heldur sá tími sem líður frá því að verki lýkur og þar til gengið er úr skugga um að það hafi verið rétt unnið. Starfsmenn á verkstað setja upp búnað, taka ljósmyndir og skrá punkta hjá",
-      "url": "https://braggi.is/timabaert-eftirlit-sparar-undirverktokum-dyra-endurvinnu-a-byggingarstad/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:sundlaugin-er-opin-a-ny",
-      "lane": "news",
-      "category": "project",
-      "title": "Sundlaugin er opin á ný",
-      "entity": "braggi.is",
-      "date": "2026-10-26",
-      "summary": "Viðgerðum á sundlaug Strandabyggðar er lokið og hefur hún nú verið opnuð að nýju. Framkvæmdirnar, sem miðuðu að því að lagfæra sundlaugina, eru nú fullkláraðar og stendur hún almenningi til boða samkvæmt hefðbundnum opnunartíma. Íþróttamiðstöð Stran",
-      "url": "https://braggi.is/sundlaugin-er-opin-a-ny/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:gervigreindardronar-spara-byggingaridnadinum-milljarda-og-auka-oryggi-051e9a8f",
-      "lane": "news",
-      "category": "project",
-      "title": "Gervigreindardrónar spara byggingariðnaðinum milljarða og auka öryggi",
-      "entity": "braggi.is",
-      "date": "2026-10-26",
-      "summary": "Ný tækni með gervigreindardrónum er að gjörbylta gagnasöfnun í byggingariðnaði og lofar umtalsverðum sparnaði og auknu öryggi. Áætlað er að léleg gagnastjórnun kosti alþjóðlegan byggingariðnað um 1.8 billjónir dollara árlega vegna endurvinnslu, tafa",
-      "url": "https://braggi.is/gervigreindardronar-spara-byggingaridnadinum-milljarda-og-auka-oryggi-051e9a8f/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:fraedslusetur-ciob-fagnar-tiu-ara-afmaeli-med-aukinni-stafraenni-kennslu",
-      "lane": "news",
-      "category": "project",
-      "title": "Fræðslusetur CIOB fagnar tíu ára afmæli með aukinni stafrænni kennslu",
-      "entity": "braggi.is",
-      "date": "2026-10-26",
-      "summary": "Fræðslusetur bresku byggingarstjórnunarsamtakanna, CIOB Academy, fagnar nú tíu ára starfsafmæli sínu, en stofnunin hefur vaxið úr hóflegu upphafi í alþjóðlegt stafrænt fræðslufyrirtæki fyrir byggingariðnaðinn. Í dag býður setrið upp á meira en 400 mi",
-      "url": "https://braggi.is/fraedslusetur-ciob-fagnar-tiu-ara-afmaeli-med-aukinni-stafraenni-kennslu/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:fjorar-vindmyllur-gangsettar-i-vadolduveri-fleiri-aformud-14f71cba",
-      "lane": "news",
-      "category": "project",
-      "title": "Fjórar vindmyllur gangsettar í Vaðölduveri, fleiri áformuð",
-      "entity": "braggi.is",
-      "date": "2026-10-26",
-      "summary": "Fjórar vindmyllur voru gangsettar í Vaðölduveri, fyrsta vindorkuveri Íslands, þann 15. september. Verið er staðsett í Búrfellslundi við Vaðöldu í Rangárþingi ytra og er í eigu Landsvirkjunar. Við opnunarathöfnina flutti Karlakór Hreppamanna íslensk",
-      "url": "https://braggi.is/fjorar-vindmyllur-gangsettar-i-vadolduveri-fleiri-aformud-14f71cba/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:crown-estate-bydur-ut-322-milljona-punda-storverkefni-i-lundunum",
-      "lane": "news",
-      "category": "project",
-      "title": "Crown Estate býður út 322 milljóna punda stórverkefni í Lundúnum",
-      "entity": "braggi.is",
-      "date": "2026-10-26",
-      "summary": "Fasteignafélagið The Crown Estate hefur hafið leit að aðalverktaka fyrir annan áfanga St James’s Market verkefnisins í miðborg Lundúna, en heildarverðmæti samningsins getur numið allt að 322 milljónum punda. Grunnverðmæti verksins er áætlað um 222 mi",
-      "url": "https://braggi.is/crown-estate-bydur-ut-322-milljona-punda-storverkefni-i-lundunum/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:byggingarframkvaemdir-floknari-en-hefdbundin-verkefnastjornun-raedur-v-01ed3047",
-      "lane": "news",
-      "category": "project",
-      "title": "Byggingarframkvæmdir flóknari en hefðbundin verkefnastjórnun ræður við",
-      "entity": "braggi.is",
-      "date": "2026-10-26",
-      "summary": "Ný skýrsla, „2026 Capital Program Maturity Report“, sýnir að flest byggingarfyrirtæki standa frammi fyrir sífellt flóknari verkefnum sem krefjast nýrra stjórnunaraðferða. Niðurstöðurnar benda til þess að 94% fyrirtækja stýra að minnsta kosti sex verk",
-      "url": "https://braggi.is/byggingarframkvaemdir-floknari-en-hefdbundin-verkefnastjornun-raedur-v-01ed3047/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:borgin-sem-nama-umbreyting-eldri-bygginga-i-ibudarhusnaedi-99f83dfa",
-      "lane": "news",
-      "category": "project",
-      "title": "Borgin sem náma: Umbreyting eldri bygginga í íbúðarhúsnæði",
-      "entity": "braggi.is",
-      "date": "2026-10-26",
-      "summary": "Endurnýting og umbreyting eldri bygginga til að mæta húsnæðisskorti og loftslagsvá er meginviðfangsefni nýs viðburðar í Barcelona. Þar ræða sérfræðingar og stjórnvöld hvernig megi auka framboð á íbúðarhúsnæði með því að nýta mannvirki sem þegar eru til staðar.",
-      "url": "https://braggi.is/borgin-sem-nama-umbreyting-eldri-bygginga-i-ibudarhusnaedi-99f83dfa/",
-      "outlet": "braggi.is",
-      "is_new": true
-    },
-    {
-      "id": "news:braggi:bjorgunarmidstodin-a-borg-ris",
-      "lane": "news",
-      "category": "project",
-      "title": "Björgunarmiðstöðin á Borg rís",
-      "entity": "braggi.is",
-      "date": "2026-10-26",
-      "summary": "Burðarvirki úr límtré hefur verið reist fyrir nýja, rúmlega 1.100 fermetra björgunarmiðstöð við Þinggerði 1 á Borg í Grímsnes- og Grafningshreppi. Framkvæmdin er á vegum sveitarfélagsins, Brunavarna Árnessýslu og Hjálparsveitarinnar Tintron, en verkt",
-      "url": "https://braggi.is/bjorgunarmidstodin-a-borg-ris/",
-      "outlet": "braggi.is",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "news:byggingar-borgarlina:utm-source-rss-utm-medium-rss-utm-campaign-sjovinnu-vid-fossvogsbru-lokid-bruin-",
@@ -654,18 +777,6 @@
       "date": "2026-10-23",
       "summary": "Jóna Árný Þórðardóttir, bæjar- og hafnarstjóri Fjarðabyggðar, var kjörin formaður Hafnarsambands Íslands á ársþingi sambandsins sem lauk í dag. Hún er jafnframt fyrsta konan til að gegna embætti formanns Hafnarsambandsins.",
       "url": "https://www.visir.is/g/20262952767d/fyrsta-konan-sem-kjorin-er-formadur-hafnarsambandsins",
-      "outlet": "visir.is / Viðskipti",
-      "is_new": false
-    },
-    {
-      "id": "news:visir-vidskipti:fra-fjosinu-i-horpu-fjolskyldubu-hlytur-vidurkenningu",
-      "lane": "news",
-      "category": "project",
-      "title": "Frá fjósinu í Hörpu – fjöl­skyldu­bú hlýtur viður­kenningu",
-      "entity": "visir.is / Viðskipti",
-      "date": "2026-10-23",
-      "summary": "Kaldárbakkabúið er í fyrsta sinn á lista Creditinfo yfir Framúrskarandi fyrirtæki sem verður kynntur við hátíðlega athöfn í Hörpu miðvikudaginn 28. október. Með listanum er vakin athygli á fyrirtækjum sem skara fram úr í rekstri og uppfylla ströng skilyrði Creditinfo um fjárhagslegan styrk og stöðugleika.",
-      "url": "https://www.visir.is/g/20262952430d/fra-fjosinu-i-horpu-fjolskyldubu-hlytur-vidurkenningu",
       "outlet": "visir.is / Viðskipti",
       "is_new": false
     },
@@ -808,7 +919,7 @@
       "title": "Van­rækti að rann­saka raun­veru­legan kostnað keppi­nauta Lands­virkjunar",
       "entity": "visir.is / Innherji",
       "date": "2026-10-20",
-      "summary": "Áfrýjunarnefnd samkeppnismála taldi rannsókn Samkeppniseftirlitsins gegn Landsvirkjun haldna verulegum annmörkum á grundvallaratriðum málsins, meðal annars við skilgreiningu markaða og mat á samkeppnishamlandi áhrifum verðlagningar orkufyrirtækisins, og er niðurstaðan sögð hafa „verulega þýðingu fyrir íslenskt atvinnulíf.“ Eftirlitið aflaði ekki upplýsinga....",
+      "summary": "Van­rækti að rann­saka raun­veru­legan kostnað keppi­nauta Lands­virkjunar Innherji 20.10.2026 16:03",
       "url": "https://www.visir.is/g/20262951182d/vanraekti-ad-rannsaka-raunverulegan-kostnad-keppinauta-landsvirkjunar",
       "outlet": "visir.is / Innherji",
       "is_new": false
@@ -982,18 +1093,6 @@
       "is_new": false
     },
     {
-      "id": "news:reykjavik:borun-hefst-eftir-heitu-vatni-i-hjarta-reykjavikur",
-      "lane": "news",
-      "category": "project",
-      "title": "Borun hefst eftir heitu vatni í hjarta Reykjavíkur",
-      "entity": "Reykjavíkurborg",
-      "date": "2026-10-16",
-      "summary": "16. október 2026 Borun hefst eftir heitu vatni í hjarta Reykjavíkur",
-      "url": "https://reykjavik.is/frettir/2026/borun-hefst-eftir-heitu-vatni-i-hjarta-reykjavikur",
-      "outlet": "Reykjavíkurborg",
-      "is_new": false
-    },
-    {
       "id": "news:visir-vidskipti:thungur-rodur-hja-fyrirtaekjum-en-undirstodurnar-sterkar",
       "lane": "news",
       "category": "industrial-demand",
@@ -1014,18 +1113,6 @@
       "date": "2026-10-15",
       "summary": "Rafnar Lárusson hefur ákveðið að láta af störfum sem fjármálastjóri Landsvirkjunar. Hann hafi ákveðið fyrir nokkrum árum að fylgja forstjóranum eftir.",
       "url": "https://www.visir.is/g/20262948858d/rafnar-fylgir-herdi-og-segir-upp",
-      "outlet": "visir.is / Viðskipti",
-      "is_new": false
-    },
-    {
-      "id": "news:visir-vidskipti:urelt-kerfi-erum-fost-i-thvi-ad-allir-verji-sitt-svaedi-og-sitt-fjarmagn",
-      "lane": "news",
-      "category": "project",
-      "title": "Úr­elt kerfi: „Erum föst í því að allir verji sitt svæði og sitt fjár­magn“",
-      "entity": "visir.is / Viðskipti",
-      "date": "2026-10-14",
-      "summary": "Það er ekkert nýtt fyrir okkur almúgann að fylgjast með hagsmunapoti heilbrigðiskerfisins í fréttum fjölmiðla: Landspítalinn talar fyrir sínu; þarf meira fjármagn. Læknar verja sitt; eru mikilvægastir og vita mest. Hjúkrunarfræðingar verja sitt; geta meira og þurfa meira.",
-      "url": "https://www.visir.is/g/20262948069d/urelt-kerfi-erum-fost-i-thvi-ad-allir-verji-sitt-svaedi-og-sitt-fjarmagn-",
       "outlet": "visir.is / Viðskipti",
       "is_new": false
     },
@@ -1234,30 +1321,6 @@
       "is_new": false
     },
     {
-      "id": "news:visir-vidskipti:oll-tilbod-yfir-kostnadaraaetlun",
-      "lane": "news",
-      "category": "project",
-      "title": "Öll til­boð yfir kostnaðar­á­ætlun",
-      "entity": "visir.is / Viðskipti",
-      "date": "2026-10-09",
-      "summary": "Öll tilboð sem hafa borist í innanhússfrágang í nýju rannsóknarhúsi við Hringbraut sem er hluti af Nýja Landspítalanum eru yfir kostnaðaráætlun.",
-      "url": "https://www.visir.is/g/20262946083d/oll-tilbod-yfir-kostnadaraaetlun",
-      "outlet": "visir.is / Viðskipti",
-      "is_new": false
-    },
-    {
-      "id": "news:visir-vidskipti:ny-streymisveita-verdi-heimili-islenskrar-framleidslu",
-      "lane": "news",
-      "category": "project",
-      "title": "Ný streymisveita verði heimili ís­lenskrar fram­leiðslu",
-      "entity": "visir.is / Viðskipti",
-      "date": "2026-10-09",
-      "summary": "Á næstu vikum fer í loftið ný íslensk streymisveita sem ber heitið Heima og er samstarfsverkefni Sýnar og Sagafilm. Einungis íslenskt efni verður í boði.",
-      "url": "https://www.visir.is/g/20262946142d/ny-streymisveita-verdi-heimili-islenskrar-framleidslu",
-      "outlet": "visir.is / Viðskipti",
-      "is_new": false
-    },
-    {
       "id": "news:visir-vidskipti:hladvarparar-segja-fjolmidlanefnd-stunda-glassurgerd",
       "lane": "news",
       "category": "project",
@@ -1279,6 +1342,18 @@
       "summary": "Það létti mörgum þegar samkomulag náðist í höfn á elleftu stundu í gær. Og þegar andrúmsloftið er þungt eða skýjað virðist fram undan er það góð tilfinning að finna létti, upplifa eitthvað jákvætt.",
       "url": "https://www.visir.is/g/20262945857d/fjarhagsahyggjur-starfsfolks-tvofaldar-vinnan-og-heima",
       "outlet": "visir.is / Viðskipti",
+      "is_new": false
+    },
+    {
+      "id": "news:reykjavik:monnun-fristundaheimila-gengur-betur-en-fyrir-ari",
+      "lane": "news",
+      "category": "project",
+      "title": "Mönnun frístundaheimila gengur betur en fyrir ári",
+      "entity": "Reykjavíkurborg",
+      "date": "2026-10-09",
+      "summary": "9. október 2026 Mönnun frístundaheimila gengur betur en fyrir ári",
+      "url": "https://reykjavik.is/frettir/2026/monnun-fristundaheimila-gengur-betur-en-fyrir-ari",
+      "outlet": "Reykjavíkurborg",
       "is_new": false
     },
     {
