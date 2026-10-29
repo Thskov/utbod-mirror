@@ -1,7 +1,7 @@
 {
   "coverage": {
     "industry_focus": {
-      "version": 1,
+      "version": 2,
       "priority_sectors": [
         {
           "id": "tourism-infrastructure",
@@ -60,7 +60,7 @@
       "limits": "Tags are text-derived relevance, not verified project stage or completeness. Existing source/date/detail limits still apply; no sources added."
     }
   },
-  "generated_at": "2026-10-28T14:36:04.272425+00:00",
+  "generated_at": "2026-10-29T07:00:26.945728+00:00",
   "source": {
     "site": "https://www.utbodsvefur.is",
     "posts_api": "https://www.utbodsvefur.is/wp-json/wp/v2/posts",
@@ -68,12 +68,12 @@
     "count_drop_guard": {
       "status": "fresh",
       "threshold": ">70% source-count collapse",
-      "previous_good_count": 73,
-      "current_count": 76,
-      "minimum_allowed_count": 21
+      "previous_good_count": 76,
+      "current_count": 77,
+      "minimum_allowed_count": 22
     }
   },
-  "count": 76,
+  "count": 77,
   "tenders": [
     {
       "reference": "16313",
@@ -778,6 +778,21 @@
       "modified_at": "2026-10-23T14:39:09+00:00",
       "url": "https://www.utbodsvefur.is/raforkukaup-fyrir-akraneskaupstad-2027-2030/",
       "summary": "Akraneskaupstaður óskar eftir tilboði í innkaup á raforku fyrir alla almenna notkun í 4 ár samkvæmt útboðsgögnum. Um er að ræða almennt útboð. Tilboð...",
+      "sector_tags": []
+    },
+    {
+      "reference": "2026108831",
+      "project": "Útboð á dælubifreið fyrir Slökkvilið Akureyrar",
+      "buyer": "Akureyrarbær",
+      "notice_type": "Vörukaup",
+      "deadline": "27.11.2026 kl. 11:00",
+      "deadline_local": "2026-11-27T11:00:00+00:00",
+      "deadline_utc": "2026-11-27T11:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-28T15:33:22+00:00",
+      "modified_at": "2026-10-28T15:33:22+00:00",
+      "url": "https://www.utbodsvefur.is/utbod-a-daelubifreid-fyrir-slokkvilid-akureyrar-2/",
+      "summary": "Umhverfis- og mannvirkjasvið Akureyrarbæjar óskar eftir tilboði í kaup á nýrri dælubifreið fyrir hönd Slökkviliðs Akureyrar. Útboðið er boðið út á EES...",
       "sector_tags": []
     },
     {

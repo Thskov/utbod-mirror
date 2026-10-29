@@ -1,7 +1,7 @@
 {
   "coverage": {
     "industry_focus": {
-      "version": 1,
+      "version": 2,
       "priority_sectors": [
         {
           "id": "tourism-infrastructure",
@@ -61,8 +61,8 @@
     }
   },
   "schema_version": 1,
-  "generated": "2026-10-28T14:36:04Z",
-  "generated_at": "2026-10-28T14:36:04Z",
+  "generated": "2026-10-29T07:00:27Z",
+  "generated_at": "2026-10-29T07:00:27Z",
   "sources": {
     "covered": [
       {
@@ -117,6 +117,11 @@
         "note": "supplementary first-party listing; only explicit future submission deadlines qualify as open opportunities"
       },
       {
+        "source": "mulathing-utbod",
+        "url": "https://www.mulathing.is/is/frettir",
+        "note": "bounded first-party municipal works news; matched portal projects retain supplementary evidence; inferred years are not confirmed deadlines"
+      },
+      {
         "source": "ted",
         "url": "https://api.ted.europa.eu/v3/notices/search",
         "query": "classification-cpv=45* AND organisation-country-buyer=ISL AND publication-date >= 20260101 AND notice-type=cn-*",
@@ -124,6 +129,11 @@
       }
     ],
     "not_covered": [
+      {
+        "source": "mulathing-utbod",
+        "url": "https://www.mulathing.is/is/frettir",
+        "reason": "bounded current news listing, at most eight tender details; not a complete municipal tender archive"
+      },
       {
         "source": "nlsh",
         "url": "https://www.nlsh.is/utbodi",
@@ -313,6 +323,7 @@
       "landsvirkjun",
       "laxey",
       "mosfellsbær",
+      "múlaþing",
       "norðurorka",
       "norðurorka hf",
       "norðurál",
@@ -556,18 +567,6 @@
         "status": "pending"
       },
       {
-        "id": "tender:buyer:múlaþing",
-        "name": "Múlaþing",
-        "suggested_feed": "tenders_all",
-        "suggested_lane": "tender",
-        "evidence_url": "https://www.utbodsvefur.is/mulathing-oskar-eftir-tilbodum-i-verkefnid-herdubreid-austurvegur-4-a-seydisfirdi-bokasafn-og-baejarskrifstofur/",
-        "seen_count": 1,
-        "first_seen": "2026-10-27T11:55:54Z",
-        "last_seen": "2026-10-28T07:00:25Z",
-        "reason": "unknown buyer/source found in tender feed",
-        "status": "pending"
-      },
-      {
         "id": "tender:buyer:akranesbær",
         "name": "Akranesbær",
         "suggested_feed": "tenders_all",
@@ -578,7 +577,7 @@
         "last_seen": "2026-10-27T11:55:54Z",
         "reason": "exact candidate evidence excluded: electricity_purchase",
         "status": "out_of_scope_for_now",
-        "last_reviewed": "2026-10-28T14:36:04Z"
+        "last_reviewed": "2026-10-29T07:00:27Z"
       },
       {
         "id": "tender:buyer:sveitafélagið-árborg",
@@ -591,15 +590,16 @@
         "last_seen": "2026-10-22T07:00:26Z",
         "reason": "exact candidate evidence excluded: winter_service",
         "status": "out_of_scope_for_now",
-        "last_reviewed": "2026-10-28T14:36:04Z"
+        "last_reviewed": "2026-10-29T07:00:27Z"
       }
     ]
   },
   "count": 162,
   "counts_by_intelligence_type": {
-    "active_tender": 14,
+    "active_tender": 8,
     "bid_opening": 31,
     "closed_tender": 2,
+    "dynamic_purchasing_system": 6,
     "historical_award": 89,
     "unverified_deadline": 26
   },
@@ -3408,8 +3408,8 @@
       "url": "https://in-tendhost.co.uk/isavia/aspx/ProjectManage/209",
       "summary": "Isavia ásamt dótturfélögum óskar eftir aðilum til þátttöku í gagnvirku innkaupakerfi vegna kaupa á nýjum ökutækjum. Gagnvirkt innkaupakerfi er tiltekið fyrirkomulag þar sem stuðst er við rafrænar aðferðir við innkaup sem eru framkvæmd með lokuðum útboðum. Bjóðendur sem fullnægt hafa vissum hæfisskilyrðum eiga rétt á aðild að gagnvirku innkaupkerfi.",
       "source": "isavia-intend",
-      "intelligence_type": "active_tender",
-      "is_open_opportunity": true,
+      "intelligence_type": "dynamic_purchasing_system",
+      "is_open_opportunity": false,
       "sector_tags": []
     },
     {
@@ -3426,8 +3426,8 @@
       "url": "https://in-tendhost.co.uk/isavia/aspx/ProjectManage/253",
       "summary": "Isavia ohf. ásamt dótturfélögum óskar eftir aðilum til þátttöku í gagnvirku innkaupakerfi vegna kaupa á LED skjálausnum. Gagnvirkt innkaupakerfi er tiltekið fyrirkomulag þar sem óskað er eftir tilboðum í LED skjálausnir, með rafrænum hætti á grundvelli þessara útboðsskilmála og kröfum þeim sem fram koma í lokuðu útboði hverju sinni. Fyrirkomulagið er virkt í þeim skilningi að á meðan gagnvirka innkaupakerfið er í gi…",
       "source": "isavia-intend",
-      "intelligence_type": "active_tender",
-      "is_open_opportunity": true,
+      "intelligence_type": "dynamic_purchasing_system",
+      "is_open_opportunity": false,
       "sector_tags": []
     },
     {
@@ -3462,8 +3462,8 @@
       "url": "https://in-tendhost.co.uk/rarik/aspx/ProjectManage/54",
       "summary": "Rarik ohf., kt. 520269-2669, (hér eftir nefnt „kaupandi“), óskar eftir aðilum til þátttöku í samningi um ráðgjafarþjónustu sem fram fer í gegnum gagnvirkt innkaupakerfi eins og það er skilgreint í 55. gr. reglugerðar nr. 340/2017",
       "source": "rarik-intend",
-      "intelligence_type": "active_tender",
-      "is_open_opportunity": true,
+      "intelligence_type": "dynamic_purchasing_system",
+      "is_open_opportunity": false,
       "sector_tags": []
     },
     {
@@ -3480,8 +3480,8 @@
       "url": "https://in-tendhost.co.uk/isavia/aspx/ProjectManage/387",
       "summary": "Kaupandi hyggst koma á fót gagnvirku innkaupakerfi („DPS“) hæfra birgja fyrir afhendingu á hreinni lífdísil olíu (HVO) til notkunar á vinnuvélum og öðrum ökutækjum. Áhugasamir birgjar eru hvattir til að senda beiðni um þátttöku í kerfinu. Á meðan DPS er í gildi er það opið öllum birgjum sem uppfylla skilyrði fyrir þátttöku í samræmi við skilmála þessarar tilkynningar. Öll innkaup innan DPS verða framkvæmd með lokuðu…",
       "source": "isavia-intend",
-      "intelligence_type": "active_tender",
-      "is_open_opportunity": true,
+      "intelligence_type": "dynamic_purchasing_system",
+      "is_open_opportunity": false,
       "sector_tags": []
     },
     {
@@ -3498,8 +3498,8 @@
       "url": "https://in-tendhost.co.uk/isavia/aspx/ProjectManage/296",
       "summary": "The Purchaser intends to establish a Dynamic Purchasing System (“DPS”) of qualified suppliers for the supply of runway de-icing chemicals, both solid and liquid. An example of technical requirements for the materials can be found in chapter 5. Interested suppliers are invited to send a request to participate in the system. While the DPS is in effect, it is open to all suppliers that meet the conditions for participa…",
       "source": "isavia-intend",
-      "intelligence_type": "active_tender",
-      "is_open_opportunity": true,
+      "intelligence_type": "dynamic_purchasing_system",
+      "is_open_opportunity": false,
       "sector_tags": []
     },
     {
@@ -3516,11 +3516,12 @@
       "url": "https://in-tendhost.co.uk/isavia/aspx/ProjectManage/351",
       "summary": "Isavia ohf., reg. no. 550210-0370 and Isavia Innanlandsflugvellir ehf., reg. no. 591219-1380 (“Purchaser” or “Isavia”) is a state-owned limited company. Isavia, along with its subsidiaries, operates and maintains all airports in Iceland, and it also operates air traffic control in the Icelandic aviation area. The Purchaser intends to establish a Dynamic Purchasing System (“DPS”) of qualified suppliers for the supply…",
       "source": "isavia-intend",
-      "intelligence_type": "active_tender",
-      "is_open_opportunity": true,
+      "intelligence_type": "dynamic_purchasing_system",
+      "is_open_opportunity": false,
       "sector_tags": [
         "tourism-infrastructure"
-      ]
+      ],
+      "sector_evidence_role": "project_or_sector_context"
     }
   ]
 }

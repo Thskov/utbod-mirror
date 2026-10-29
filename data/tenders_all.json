@@ -1,7 +1,7 @@
 {
   "coverage": {
     "industry_focus": {
-      "version": 1,
+      "version": 2,
       "priority_sectors": [
         {
           "id": "tourism-infrastructure",
@@ -61,20 +61,25 @@
     }
   },
   "schema_version": 1,
-  "generated": "2026-10-28T14:36:04Z",
-  "generated_at": "2026-10-28T14:36:04Z",
+  "generated": "2026-10-29T07:00:27Z",
+  "generated_at": "2026-10-29T07:00:27Z",
   "sources": {
     "utbodsvefur": {
-      "generated_at": "2026-10-28T14:36:04.272425+00:00",
-      "count": 76,
+      "generated_at": "2026-10-29T07:00:26.945728+00:00",
+      "count": 77,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders.json"
     },
     "offportal": {
-      "generated": "2026-10-28T14:36:04Z",
+      "generated": "2026-10-29T07:00:27Z",
       "count": 162,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders_offportal.json"
     },
     "not_covered": [
+      {
+        "source": "mulathing-utbod",
+        "url": "https://www.mulathing.is/is/frettir",
+        "reason": "bounded current news listing, at most eight tender details; not a complete municipal tender archive"
+      },
       {
         "source": "nlsh",
         "url": "https://www.nlsh.is/utbodi",
@@ -264,6 +269,7 @@
       "landsvirkjun",
       "laxey",
       "mosfellsbær",
+      "múlaþing",
       "norðurorka",
       "norðurorka hf",
       "norðurál",
@@ -507,18 +513,6 @@
         "status": "pending"
       },
       {
-        "id": "tender:buyer:múlaþing",
-        "name": "Múlaþing",
-        "suggested_feed": "tenders_all",
-        "suggested_lane": "tender",
-        "evidence_url": "https://www.utbodsvefur.is/mulathing-oskar-eftir-tilbodum-i-verkefnid-herdubreid-austurvegur-4-a-seydisfirdi-bokasafn-og-baejarskrifstofur/",
-        "seen_count": 1,
-        "first_seen": "2026-10-27T11:55:54Z",
-        "last_seen": "2026-10-28T14:36:04Z",
-        "reason": "unknown buyer/source found in tender feed",
-        "status": "pending"
-      },
-      {
         "id": "tender:buyer:akranesbær",
         "name": "Akranesbær",
         "suggested_feed": "tenders_all",
@@ -529,7 +523,7 @@
         "last_seen": "2026-10-27T11:55:54Z",
         "reason": "exact candidate evidence excluded: electricity_purchase",
         "status": "out_of_scope_for_now",
-        "last_reviewed": "2026-10-28T14:36:04Z"
+        "last_reviewed": "2026-10-29T07:00:27Z"
       },
       {
         "id": "tender:buyer:sveitafélagið-árborg",
@@ -542,16 +536,16 @@
         "last_seen": "2026-10-22T07:00:26Z",
         "reason": "exact candidate evidence excluded: winter_service",
         "status": "out_of_scope_for_now",
-        "last_reviewed": "2026-10-28T14:36:04Z"
+        "last_reviewed": "2026-10-29T07:00:27Z"
       }
     ]
   },
-  "count": 225,
+  "count": 226,
   "counts_by_intelligence_type": {
-    "active_tender": 61,
+    "active_tender": 56,
     "bid_opening": 31,
     "closed_tender": 2,
-    "dynamic_purchasing_system": 16,
+    "dynamic_purchasing_system": 22,
     "historical_award": 89,
     "unverified_deadline": 26
   },
@@ -4031,6 +4025,24 @@
       "is_open_opportunity": true
     },
     {
+      "reference": "2026108831",
+      "project": "Útboð á dælubifreið fyrir Slökkvilið Akureyrar",
+      "buyer": "Akureyrarbær",
+      "notice_type": "Vörukaup",
+      "deadline": "27.11.2026 kl. 11:00",
+      "deadline_local": "2026-11-27T11:00:00+00:00",
+      "deadline_utc": "2026-11-27T11:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-28T15:33:22+00:00",
+      "modified_at": "2026-10-28T15:33:22+00:00",
+      "url": "https://www.utbodsvefur.is/utbod-a-daelubifreid-fyrir-slokkvilid-akureyrar-2/",
+      "summary": "Umhverfis- og mannvirkjasvið Akureyrarbæjar óskar eftir tilboði í kaup á nýrri dælubifreið fyrir hönd Slökkviliðs Akureyrar. Útboðið er boðið út á EES...",
+      "sector_tags": [],
+      "source": "utbodsvefur",
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true
+    },
+    {
       "reference": "16361",
       "project": "Autodesk hugbúnaðarleyfi, EES útboð nr. 16361",
       "buyer": "Reykjavíkurborg",
@@ -4333,8 +4345,8 @@
       "summary": "Landsnet óskar eftir aðilum til þátttöku í gagnvirku innkaupakerfi um verkfræðiþjónustu sbr. 55. gr. reglugerðar nr. 340/2017. Verkfræðiþjónusta er ná...",
       "sector_tags": [],
       "source": "utbodsvefur",
-      "intelligence_type": "active_tender",
-      "is_open_opportunity": true
+      "intelligence_type": "dynamic_purchasing_system",
+      "is_open_opportunity": false
     },
     {
       "reference": "ORGK-2025-01",
@@ -4369,8 +4381,8 @@
       "summary": "Landsnet óskar eftir aðilum til þátttöku í gagnvirku innkaupakerfi vegna reglunaraflstryggingar og flutningstapa sbr. 55. gr. reglugerðar nr. 340/2017...",
       "sector_tags": [],
       "source": "utbodsvefur",
-      "intelligence_type": "active_tender",
-      "is_open_opportunity": true
+      "intelligence_type": "dynamic_purchasing_system",
+      "is_open_opportunity": false
     },
     {
       "reference": "21616",
@@ -4441,8 +4453,8 @@
       "summary": "Landsnet óskar eftir aðilum til þátttöku í gagnvirku innkaupakerfi vegna kaupa á spennum og spólum sbr. 55. gr. reglugerðar nr. 340/2017. Nánari upplý...",
       "sector_tags": [],
       "source": "utbodsvefur",
-      "intelligence_type": "active_tender",
-      "is_open_opportunity": true
+      "intelligence_type": "dynamic_purchasing_system",
+      "is_open_opportunity": false
     },
     {
       "reference": "2025-10",
@@ -4459,8 +4471,8 @@
       "summary": "Orkubú Vestfjarða ohf. óskar eftir birgjum til þátttöku í gagnvirku innkaupakerfi vegna kaupa á nýjum bifreiðum. Í upphafi gagnvirks innkaupakerfis sk...",
       "sector_tags": [],
       "source": "utbodsvefur",
-      "intelligence_type": "active_tender",
-      "is_open_opportunity": true
+      "intelligence_type": "dynamic_purchasing_system",
+      "is_open_opportunity": false
     },
     {
       "reference": "2026-17",
@@ -4494,8 +4506,8 @@
       "url": "https://in-tendhost.co.uk/rarik/aspx/ProjectManage/54",
       "summary": "Rarik ohf., kt. 520269-2669, (hér eftir nefnt „kaupandi“), óskar eftir aðilum til þátttöku í samningi um ráðgjafarþjónustu sem fram fer í gegnum gagnvirkt innkaupakerfi eins og það er skilgreint í 55. gr. reglugerðar nr. 340/2017",
       "source": "rarik-intend",
-      "intelligence_type": "active_tender",
-      "is_open_opportunity": true,
+      "intelligence_type": "dynamic_purchasing_system",
+      "is_open_opportunity": false,
       "sector_tags": []
     },
     {
@@ -4602,11 +4614,12 @@
       "url": "https://in-tendhost.co.uk/isavia/aspx/ProjectManage/351",
       "summary": "Isavia ohf., reg. no. 550210-0370 and Isavia Innanlandsflugvellir ehf., reg. no. 591219-1380 (“Purchaser” or “Isavia”) is a state-owned limited company. Isavia, along with its subsidiaries, operates and maintains all airports in Iceland, and it also operates air traffic control in the Icelandic aviation area. The Purchaser intends to establish a Dynamic Purchasing System (“DPS”) of qualified suppliers for the supply…",
       "source": "isavia-intend",
-      "intelligence_type": "active_tender",
-      "is_open_opportunity": true,
+      "intelligence_type": "dynamic_purchasing_system",
+      "is_open_opportunity": false,
       "sector_tags": [
         "tourism-infrastructure"
-      ]
+      ],
+      "sector_evidence_role": "project_or_sector_context"
     }
   ]
 }
