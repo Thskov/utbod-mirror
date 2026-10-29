@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated": "2026-10-28T14:29:46Z",
+  "generated": "2026-10-29T06:45:01Z",
   "window": {
-    "from": "2026-10-21",
-    "to": "2026-10-28"
+    "from": "2026-10-22",
+    "to": "2026-10-29"
   },
   "coverage": {
     "industry_focus": {
-      "version": 1,
+      "version": 2,
       "priority_sectors": [
         {
           "id": "tourism-infrastructure",
@@ -56,7 +56,7 @@
         }
       ],
       "counts_by_sector": {
-        "tourism-infrastructure": 16,
+        "tourism-infrastructure": 12,
         "aquaculture-fish-production": 3,
         "datacentres-infrastructure": 1
       },
@@ -258,7 +258,11 @@
       "https://www.fjardabyggdarhafnir.is/is/fjardabyggdarhafnir",
       "https://www.carbfix.com/coda-terminal",
       "https://www.isafjardarbaer.is/is/umhverfi/skipulag/utbod-frettir",
-      "https://reykjavik.is/framkvaemdir"
+      "https://reykjavik.is/framkvaemdir",
+      "https://www.samherji.is/is/frettir",
+      "https://www.firstwater.is/news",
+      "https://www.laxey.is/frettir/",
+      "https://www.verne.co/news"
     ],
     "announcement_not_covered": {
       "althingi_thingmalaskra_157": "retired stale 157th-session Alþingi PDF selector; using Stjórnarráðið þingmálaskrá page",
@@ -361,7 +365,6 @@
     ],
     "new_or_seen_istak_projects": [
       "Hvalárvirkjun",
-      "Hvammsvirkjun",
       "Kvíslatunguvirkjun"
     ]
   },
@@ -417,7 +420,7 @@
         },
         "borealis": {
           "url": "https://www.borealisdc.com/news",
-          "reason": "HTTP success but no extractable records; coverage unverified"
+          "reason": "Quarantined: verified Spanish under-construction placeholder, not operator news; replacement unverified (2026-10-28)"
         },
         "dalvik-minutes": {
           "url": "https://www.dalvikurbyggd.is/frettir",
@@ -438,6 +441,34 @@
         "datacenterdynamics-coverage": {
           "url": "https://www.datacenterdynamics.com/en/news/",
           "reason": "bounded secondary trade supplement; historical/source completeness not established"
+        },
+        "samherji-operator-coverage": {
+          "url": "https://www.samherji.is/is/frettir",
+          "reason": "bounded first-party dated-news supplement; undated project references and complete historical reach not established"
+        },
+        "first-water-operator-coverage": {
+          "url": "https://www.firstwater.is/news",
+          "reason": "bounded first-party dated-news supplement; undated project references and complete historical reach not established"
+        },
+        "first-water-operator-budget": {
+          "url": "https://www.firstwater.is/news",
+          "reason": "bounded operator detail budget exhausted"
+        },
+        "laxey-operator-coverage": {
+          "url": "https://www.laxey.is/frettir/",
+          "reason": "bounded first-party dated-news supplement; undated project references and complete historical reach not established"
+        },
+        "laxey-operator-budget": {
+          "url": "https://www.laxey.is/frettir/",
+          "reason": "bounded operator detail budget exhausted"
+        },
+        "verne-operator-coverage": {
+          "url": "https://www.verne.co/news",
+          "reason": "bounded first-party dated-news supplement; undated project references and complete historical reach not established"
+        },
+        "verne-operator-budget": {
+          "url": "https://www.verne.co/news",
+          "reason": "bounded operator detail budget exhausted"
         }
       }
     },
@@ -466,7 +497,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/3459",
         "seen_count": 1,
         "first_seen": "2026-10-28T14:29:46Z",
-        "last_seen": "2026-10-28T14:29:46Z",
+        "last_seen": "2026-10-29T06:45:01Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -478,7 +509,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/4410",
         "seen_count": 1,
         "first_seen": "2026-10-28T14:29:46Z",
-        "last_seen": "2026-10-28T14:29:46Z",
+        "last_seen": "2026-10-29T06:45:01Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -490,7 +521,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/3878",
         "seen_count": 1,
         "first_seen": "2026-10-28T14:29:46Z",
-        "last_seen": "2026-10-28T14:29:46Z",
+        "last_seen": "2026-10-29T06:45:01Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -502,7 +533,7 @@
         "evidence_url": "https://uos.is/opinber-birting/akvordun-um-breytingu-a-starfsleyfi-samherja-fiskeldis-ehf.-stad-grindavik",
         "seen_count": 4,
         "first_seen": "2026-10-28T06:45:02Z",
-        "last_seen": "2026-10-28T14:29:46Z",
+        "last_seen": "2026-10-29T06:45:01Z",
         "reason": "repeated unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -514,7 +545,7 @@
         "evidence_url": "https://www.utu.is/auglysingar/skipulagsauglysing-birt-dags-15-oktober-2026/",
         "seen_count": 6,
         "first_seen": "2026-10-16T06:45:01Z",
-        "last_seen": "2026-10-28T14:29:46Z",
+        "last_seen": "2026-10-29T06:45:01Z",
         "reason": "repeated unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -526,7 +557,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/5479",
         "seen_count": 1,
         "first_seen": "2026-10-28T14:29:46Z",
-        "last_seen": "2026-10-28T14:29:46Z",
+        "last_seen": "2026-10-29T06:45:01Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       }
@@ -569,7 +600,7 @@
         },
         "borealis": {
           "url": "https://www.borealisdc.com/news",
-          "reason": "HTTP success but no extractable records; coverage unverified"
+          "reason": "Quarantined: verified Spanish under-construction placeholder, not operator news; replacement unverified (2026-10-28)"
         },
         "dalvik-minutes": {
           "url": "https://www.dalvikurbyggd.is/frettir",
@@ -590,6 +621,34 @@
         "datacenterdynamics-coverage": {
           "url": "https://www.datacenterdynamics.com/en/news/",
           "reason": "bounded secondary trade supplement; historical/source completeness not established"
+        },
+        "samherji-operator-coverage": {
+          "url": "https://www.samherji.is/is/frettir",
+          "reason": "bounded first-party dated-news supplement; undated project references and complete historical reach not established"
+        },
+        "first-water-operator-coverage": {
+          "url": "https://www.firstwater.is/news",
+          "reason": "bounded first-party dated-news supplement; undated project references and complete historical reach not established"
+        },
+        "first-water-operator-budget": {
+          "url": "https://www.firstwater.is/news",
+          "reason": "bounded operator detail budget exhausted"
+        },
+        "laxey-operator-coverage": {
+          "url": "https://www.laxey.is/frettir/",
+          "reason": "bounded first-party dated-news supplement; undated project references and complete historical reach not established"
+        },
+        "laxey-operator-budget": {
+          "url": "https://www.laxey.is/frettir/",
+          "reason": "bounded operator detail budget exhausted"
+        },
+        "verne-operator-coverage": {
+          "url": "https://www.verne.co/news",
+          "reason": "bounded first-party dated-news supplement; undated project references and complete historical reach not established"
+        },
+        "verne-operator-budget": {
+          "url": "https://www.verne.co/news",
+          "reason": "bounded operator detail budget exhausted"
         }
       },
       "filtered": {
@@ -618,7 +677,7 @@
           "no_matching_keywords": 25
         },
         "landsvirkjun": {
-          "outside_window": 3,
+          "outside_window": 4,
           "no_matching_keywords": 3
         },
         "faxafloahafnir": {
@@ -643,9 +702,9 @@
           "outside_window": 2
         },
         "reykjavik": {
-          "no_matching_keywords": 39,
-          "no_matching_detail_keywords": 2,
-          "outside_window": 4
+          "no_matching_keywords": 40,
+          "outside_window": 6,
+          "no_matching_detail_keywords": 1
         },
         "kopavogur": {
           "no_matching_keywords": 23,
@@ -680,6 +739,7 @@
         },
         "mosfellsbaer": {
           "no_matching_keywords": 36,
+          "outside_window": 1,
           "undated": 2
         },
         "arborg": {
@@ -706,11 +766,10 @@
           "no_matching_keywords": 40
         },
         "byggingar-opnun-utboda": {
-          "outside_window": 12
+          "outside_window": 13
         },
         "vb": {
-          "no_matching_keywords": 39,
-          "undated": 1
+          "no_matching_keywords": 40
         },
         "fiskifrettir": {
           "no_matching_keywords": 40
@@ -743,12 +802,41 @@
       }
     }
   },
-  "count": 419,
+  "count": 412,
   "counts_by_intelligence_type": {
-    "public_record": 395,
+    "public_record": 388,
     "reference_tracker": 24
   },
   "items": [
+    {
+      "id": "skgatt:1251/2026",
+      "lane": "planning",
+      "title": "Vogshóll",
+      "entity": "Reykjanesbær",
+      "case_number": "1251/2026",
+      "plan_type": "deiliskipulag",
+      "status": "Endanleg gögn",
+      "date": "2026-10-28",
+      "review_deadline": "2026-11-25",
+      "summary": "Um er að ræða breytingu á deiliskipulagi fyrir Vogshól og Sjónarhól, sem staðfest var í sveitarstjórn 16. júní 2025, um að heimilt verði að reisa tímabundnar vinnubúðir á lóðum innan deiliskipulagsmarka. Heimildin gildir til 18 mánaða á hverri lóð í hvert sinn. Óheimilt verði að gista á svæðinu. Málsmeðferð var skv. 3. mgr. 43. gr. skipulagslaga nr. 123/201…",
+      "url": "https://skipulagsgatt.is/issues/5606",
+      "sector_tags": [],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "skgatt:1249/2026",
+      "lane": "planning",
+      "title": "Hjalli land L146300 í Blönduhlíð",
+      "entity": "Skagafjörður",
+      "case_number": "1249/2026",
+      "status": "Grenndarkynning byggingarleyfisumsóknar",
+      "date": "2026-10-28",
+      "review_deadline": "2026-11-30",
+      "summary": "Sveitarstjórn Skagafjarðar samþykkti á 54. fundi sínum þann 14. október 2026 að grenndarkynna fyrirhugaða framkvæmd á Hjalla landi, L146300, sem felur í sér stofnun byggingarreits og breytingu á heiti landeignarinnar. Grenndarkynningin tekur til eigenda eftirfarandi jarða og lóðar: Hjalla, L146299; Hjalla lands, L221439; Hjaltastaða lands, L180161; Hjaltast…",
+      "url": "https://skipulagsgatt.is/issues/5604",
+      "sector_tags": [],
+      "intelligence_type": "public_record"
+    },
     {
       "id": "skgatt:1244/2026",
       "lane": "planning",
@@ -858,7 +946,7 @@
       "entity": "Mosfellsbær",
       "status": "published",
       "date": "2026-10-27",
-      "summary": "4.75Z\"/> Framkvæmdir 27. október 2026 Nýr leikvöllur við Asparlund <img class=\"bde-image2-53844-101-106128-538",
+      "summary": "-5\" data-facet=\"5\" data-grid=\"wpgb-content\"> Framkvæmdir 27. október 2026 Nýr leikvöllur við Asparlund <img class=\"bde-image2-53844-101-106128-538",
       "url": "https://mos.is/mannlif/um-mosfellsbae/frettir/nyr-leikvollur-vid-asparlund/",
       "keywords_matched": [
         "framkvæmd"
@@ -916,6 +1004,7 @@
       "sector_tags": [
         "aquaculture-fish-production"
       ],
+      "sector_evidence_role": "project_or_sector_context",
       "sector_subtopics": [
         "aquaculture-facility-unspecified"
       ],
@@ -1009,6 +1098,7 @@
       "sector_tags": [
         "datacentres-infrastructure"
       ],
+      "sector_evidence_role": "project_or_sector_context",
       "intelligence_type": "public_record"
     },
     {
@@ -1127,6 +1217,7 @@
       "sector_tags": [
         "tourism-infrastructure"
       ],
+      "sector_evidence_role": "conversion_away_from_tourism",
       "intelligence_type": "public_record"
     },
     {
@@ -1310,94 +1401,6 @@
       "review_deadline": "2026-11-10",
       "summary": "Fyrirhugað er að gera breytingu á Aðalskipulagi Kópavogs 2019-2040 vegna uppbyggingar á lóð Silfursmára 1-7. Samhliða er gerð breyting á deiliskipulagi fyrir svæðið. Gert er ráð fyrir að hækka hámarkshæð húsa á hluta svæðisins í allt að 10 hæðir, þar sem efsta hæðin er inndregin. Markmið skipulagsbreytinga er að bæta aðstæður til að byggja upp fjölbreytta b…",
       "url": "https://skipulagsgatt.is/issues/5487",
-      "sector_tags": [],
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "announcement:reykjavik:uppbygging-borgarlinu-vid-hlemmtorg",
-      "lane": "announcement",
-      "source": "reykjavik",
-      "title": "Uppbygging Borgarlínu við Hlemmtorg",
-      "entity": "Reykjavíkurborg",
-      "status": "published",
-      "date": "2026-10-21",
-      "summary": "Framkvæmdir vegna endurgerðar norðursvæðis Hlemms og gatnamóta og göturýmis og vinna við nýtt torgsvæði og uppbyggingu Borgarlínu á Hlemmtorgi hefst á næstu dögum. Gert er ráð fyrir að framkvæmdum þessa áfanga ljúki í lok árs 2027.",
-      "url": "https://reykjavik.is/frettir/2026/uppbygging-borgarlinu-vid-hlemmtorg",
-      "keywords_matched": [
-        "framkvæmd",
-        "samgöngur"
-      ],
-      "evidence_type": "first_party",
-      "sector_tags": [],
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "announcement:reykjavik:samgongur",
-      "lane": "announcement",
-      "source": "reykjavik",
-      "title": "Samgongur",
-      "entity": "Reykjavíkurborg",
-      "status": "published",
-      "date": "2026-10-21",
-      "summary": "Miðvikudagur, 21. október 2026 Uppbygging Borgarlínu við Hlemmtorg Umhverfi og skipulag Samgöngur Framkvæmdir vegna endurgerðar norðursvæðis Hlemms og gatnamóta og göturýmis og vinna við nýtt torgsvæði og uppbyggingu Borgarlínu á Hlemmtorgi hefst á næstu dögum. Gert er ráð fyrir að framkvæmdum þessa áfanga ljúki í lok árs 2027. Lesa meira",
-      "url": "https://reykjavik.is/frettir/samgongur",
-      "keywords_matched": [
-        "framkvæmd",
-        "samgöngur"
-      ],
-      "evidence_type": "first_party",
-      "sector_tags": [],
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "announcement:mosfellsbaer:stada-framkvaemda-i-akur-byggdar-og-markholti",
-      "lane": "announcement",
-      "source": "mosfellsbaer",
-      "title": "Framkvæmdir Veitur 21. október 2026 Staða framkvæmda í Akur-, Byggðar- og Markholti",
-      "entity": "Mosfellsbær",
-      "status": "published",
-      "date": "2026-10-21",
-      "summary": "de-heading-53844-102-105986-53844-1 bde-heading toc-ignore bde-heading-53844-102\"> Vel sóttur samtalsfundur forráðamanna Sorpu og GAJU með íbúum Framkvæmdir Veitur 21. október 2026 Staða framkvæmda í Akur-, Byggðar- og Markholti <img class=\"bde-image2-53844-101-105819-53844-1 bde-",
-      "url": "https://mos.is/mannlif/um-mosfellsbae/frettir/stada-framkvaemda-i-akur-byggdar-og-markholti/",
-      "keywords_matched": [
-        "framkvæmd"
-      ],
-      "evidence_type": "first_party",
-      "sector_tags": [],
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "announcement:landsvirkjun:landsvirkjun-a-hydro-2026",
-      "lane": "announcement",
-      "source": "landsvirkjun",
-      "title": "Landsvirkjun á HYDRO 2026",
-      "entity": "Landsvirkjun",
-      "status": "published",
-      "date": "2026-10-21",
-      "summary": "Starfsfólk Landsvirkjunar sótti vel heppnaða vatnsaflsráðstefnu í Bologna á Ítalíu fyrr í þessum mánuði.",
-      "url": "https://www.landsvirkjun.is/frettir/landsvirkjun-a-hydro-2026",
-      "keywords_matched": [
-        "orku"
-      ],
-      "evidence_type": "first_party",
-      "sector_tags": [],
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "announcement:byggingar-opnun-utboda:gott-verk-ehf-laegst-i-stigagerd-og-yfirbordsfragang-i-breidamyri-13-tilbod-baru",
-      "lane": "announcement",
-      "source": "byggingar-opnun-utboda",
-      "title": "Gott verk ehf. lægst í stígagerð og yfirborðsfrágang í Breiðamýri – 13 tilboð...",
-      "entity": "Byggingar.is",
-      "status": "published",
-      "date": "2026-10-21",
-      "summary": "Gott verk ehf. lægst í stígagerð og yfirborðsfrágang í Breiðamýri – 13 tilboð... byggingar - 21/10/2026",
-      "url": "https://byggingar.is/gott-verk-ehf-laegst-i-stigagerd-og-yfirbordsfragang-i-breidamyri-13-tilbod-barust/",
-      "keywords_matched": [
-        "bygging",
-        "opinber innkaup"
-      ],
-      "evidence_type": "first_party",
       "sector_tags": [],
       "intelligence_type": "public_record"
     },
@@ -1797,6 +1800,7 @@
       "summary": "Þb. A ehf. höfðaði mál á hendur Þ ehf. og krafðist greiðslu á eftirstöðvum sex reikninga vegna vinnu fyrir Þ ehf. við uppsteypu burðarvirkis byggingar að H auk greiðslu á reikningi vegna vinnu fyrir Þ ehf. við verkframkvæmdir að E. Greindi aðila á um hvort A ehf. hefði við reikningsgerðina krafist tímagjalds fyrir verkþætti sem greiða átti einingaverð fyrir samkvæmt samningi aðila um verkið að H. Í dómi Landsréttar…",
       "url": "https://island.is/domar/g-750bc13e-e5f1-495d-bb70-028a91eb4f95",
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -2001,6 +2005,7 @@
       "summary": "JÞJ og D ehf. gerðu með sér skriflegan samning í október 2020 um að D ehf. tæki að sér byggingarstjórn vegna endurbóta á fasteign J. Síðar gerðu aðilar einnig með sér munnlegt samkomulag um að D ehf. tæki að sér viðameira hlutverk við endurbætur fasteignarinnar. Aðkomu D ehf. að verkinu lauk í október 2021 áður en framkvæmdum var lokið þar sem hann taldi sig ekki geta starfað áfram að verkinu vegna samskiptaörðuglei…",
       "url": "https://island.is/domar/g-141b2e78-c0b7-48fa-bd0f-f3ca6fa3d9d0",
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -2121,6 +2126,7 @@
       "sector_tags": [
         "tourism-infrastructure"
       ],
+      "sector_evidence_role": "project_or_sector_context",
       "intelligence_type": "public_record"
     },
     {
@@ -2430,6 +2436,7 @@
       "sector_tags": [
         "tourism-infrastructure"
       ],
+      "sector_evidence_role": "project_or_sector_context",
       "intelligence_type": "public_record"
     },
     {
@@ -2508,22 +2515,6 @@
       "summary": "Í breytingunni felst að lóðinni verði skipt í tvær lóðir fyrir parhús í stað einbýlishúss og tilfærsla á byggingarreit. Nýtingarhlutfallið verður 0,55. Þrjú bílastæði verða fyrir hvora lóð. Tillagan er sett fram á uppdráttum dags. 9. júní 2026. Nánar um tillöguna vísast til kynningargagna.",
       "url": "https://skipulagsgatt.is/issues/5445",
       "sector_tags": [],
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "skgatt:1103/2026",
-      "lane": "planning",
-      "title": "Rauðukambar L234185; Rafstrengur - plæging, að hóteli; Framkvæmdarleyfi - 2609011",
-      "entity": "Skeiða- og Gnúpverjahreppur",
-      "case_number": "1103/2026",
-      "status": "Endanleg gögn",
-      "date": "2026-09-23",
-      "review_deadline": "2026-10-21",
-      "summary": "Lögð er fram umsókn um framkvæmdaleyfi sem tekur til Rauðukamba L234185. Í framkvæmdinni felst lagning rafstrengs að hóteli í landi Rauðukamba.",
-      "url": "https://skipulagsgatt.is/issues/5458",
-      "sector_tags": [
-        "tourism-infrastructure"
-      ],
       "intelligence_type": "public_record"
     },
     {
@@ -2635,21 +2626,6 @@
       "date": "2026-09-21",
       "summary": "Stefndi sýknaður af kröfu stefnenda um viðurkenningu á skaðabótakyldu. Stefnendur byggðu á því að jafnræðis hefði ekki verið gætt af hálfu stefnda vegna umsókna stefnenda annars vegar og nágranna þeirra hins vegar um stækkun á húsum þeirra.",
       "url": "https://island.is/domar/g-117114fa-5b5b-400a-8e7a-c2a877453b47",
-      "sector_tags": [],
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "skgatt:1066/2026",
-      "lane": "planning",
-      "title": "Hvammsvirkjun; Efnistaka, vegir, strengir og afmarkanir; Deiliskipulagsbreyting - 2605086",
-      "entity": "Skeiða- og Gnúpverjahreppur",
-      "case_number": "1066/2026",
-      "plan_type": "deiliskipulag",
-      "status": "Auglýsing tillögu",
-      "date": "2026-09-15",
-      "review_deadline": "2026-10-21",
-      "summary": "Lögð er fram tillaga deiliskipulagsbreytingar sem tekur til Hvammsvirkjunar í Skeiða- og Gnúpverjahreppi og Rangárþingi ytra. Landsvirkjun hefur unnið að útboðshönnun á mannvirkjum tengdum Hvammsvirkjun í og við Þjórsá innan beggja sveitarfélaga. Ýmsar forsendur hafa breyst og er því gerð breyting á nokkrum þáttum deiliskipulagsins.",
-      "url": "https://skipulagsgatt.is/issues/5421",
       "sector_tags": [],
       "intelligence_type": "public_record"
     },
@@ -2856,21 +2832,6 @@
       "keywords_matched": [
         "mannvirki"
       ],
-      "sector_tags": [],
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "skgatt:1045/2026",
-      "lane": "planning",
-      "title": "Hvammsvirkjun br á dsk",
-      "entity": "Rangárþing ytra",
-      "case_number": "1045/2026",
-      "plan_type": "deiliskipulag",
-      "status": "Auglýsing tillögu",
-      "date": "2026-09-08",
-      "review_deadline": "2026-10-21",
-      "summary": "Skipulags- og umferðarnefnd Rangárþings ytra hefur farið yfir gögn málsins þar sem Skeiða- og Gnúpverjahreppur leggur áherslu á að skýra betur samræmi aðalskipulags og deiliskipulags varðandi heimildir til efnistöku úr lónstæði. Tillaga hefur því verið uppfærð, þar sem náma 26 er afmörkuð og samhliða er sett inn breytt afmörkun lóðar fyrir tengivirki Landsn…",
-      "url": "https://skipulagsgatt.is/issues/5400",
       "sector_tags": [],
       "intelligence_type": "public_record"
     },
@@ -3462,32 +3423,17 @@
       "intelligence_type": "public_record"
     },
     {
-      "id": "skgatt:0891/2026",
+      "id": "skgatt:0888/2026",
       "lane": "planning",
-      "title": "Oddspartur br á dsk",
+      "title": "Hellarnir við Hellu, br dsk",
       "entity": "Rangárþing ytra",
-      "case_number": "0891/2026",
-      "plan_type": "deiliskipulag",
-      "status": "Athugun eftir auglýsingu",
-      "date": "2026-07-16",
-      "review_deadline": "2026-10-21",
-      "summary": "Eigendur Oddsparts óska eftir heimild til að leggja fram tillögu að breytingu á gildandi deiliskipulagi dags. 19.9.2025. Um er að ræða breytingar á legu vegar innan svæðis, aukning á fjölda bygginga og tilfærsla á byggingarreit. Breyting frá Eflu dags. 26.3.2026. Skipulagsnefnd samþykkir að veita heimild til deiliskipulagsgerðar og leggur til að fallið verð…",
-      "url": "https://skipulagsgatt.is/issues/5246",
-      "sector_tags": [],
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "skgatt:0886/2026",
-      "lane": "planning",
-      "title": "Ægissíða 2, Rangárstígur 9. br á dsk",
-      "entity": "Rangárþing ytra",
-      "case_number": "0886/2026",
+      "case_number": "0888/2026",
       "plan_type": "deiliskipulag",
       "status": "Athugun eftir auglýsingu",
       "date": "2026-07-15",
-      "review_deadline": "2026-10-21",
-      "summary": "Landeigendur óska eftir heimild til breytinga á gildandi deiliskipulagi, dags. 27.11.2017. Lóð Rangárstígs 9 stækkar um 6374 m2 og er ný mæld stærð lóðar 12.143 m2. Skipulagssvæðið er stækkað sem um nemur lóð Rangárstígs 9 og er ný stærð svæðis 2,5 ha. Byggingarreitur er stækkaður til austurs og norðurs. Árbakki er aðlagaður í samræmi við fjarkönnunargögn.…",
-      "url": "https://skipulagsgatt.is/issues/5241",
+      "review_deadline": "2026-11-25",
+      "summary": "Breyting á deiliskipulagi. Afmarka á tvær nýjar lóðir; annars vegar lóð fyrir verslunar- og þjónustustarfsemi og hins vegar lóð fyrir geymslusvæði sem tengist atvinnustarfsemi á svæðinu. Skipulagsgögn frá Eflu dags. 30.6.2026 Skipulags- og umferðarnefnd samþykkir að veita heimild til breytingar á gildandi deiliskipulagi. Nefndin samþykkir framlagða tillögu…",
+      "url": "https://skipulagsgatt.is/issues/5243",
       "sector_tags": [],
       "intelligence_type": "public_record"
     },
@@ -4354,6 +4300,7 @@
       "sector_tags": [
         "tourism-infrastructure"
       ],
+      "sector_evidence_role": "project_or_sector_context",
       "intelligence_type": "public_record"
     },
     {
@@ -4382,21 +4329,6 @@
       "review_deadline": "2026-10-29",
       "summary": "Lögð er fram umsókn Vegagerðarinnar dags. 20.05.2026 um framkvæmdaleyfi vegna efnistöku úr námu (E259) í landi Eskiholts/Eskiholtssneiðar (L229353). Áætluð efnistaka er 8.000 m3. Náman er storkubergsnáma og verður efnið losað með sprengingu og unnið í námunni. Að efnistöku lokinni verður frágangi hagað í samráði við námurétthafa. Framkvæmdatími er 2026-2027.",
       "url": "https://skipulagsgatt.is/issues/5060",
-      "sector_tags": [],
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "skgatt:0704/2026",
-      "lane": "planning",
-      "title": "Neðri-Ás 2, í Hjaltadal, land 3 og 4",
-      "entity": "Skagafjörður",
-      "case_number": "0704/2026",
-      "plan_type": "deiliskipulag",
-      "status": "Athugun eftir auglýsingu",
-      "date": "2026-06-02",
-      "review_deadline": "2026-10-21",
-      "summary": "Sveitarstjórn Skagafjarðar samþykkti á 49. fundi sínum þann 19. maí 2026 að auglýsa deiliskipulagstillögu fyrir ”Neðri-Ás, land 3 og 4 í Skagafirði“ í samræmi við 41. gr. skipulagslaga nr. 123/2010. Vegna ábendingar frá Skipulagsstofnun þarf að endurtaka málsmeðferð skv. 41. gr. Skipulagslaga nr. 123/2010. Deiliskipulagstillagan er sett fram í greinargerð o…",
-      "url": "https://skipulagsgatt.is/issues/5059",
       "sector_tags": [],
       "intelligence_type": "public_record"
     },
@@ -4816,6 +4748,7 @@
         "verksamningur"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -4908,6 +4841,7 @@
       "summary": "M höfðaði mál gegn B og krafðist þess að ógiltur yrði kaupsamningur M og B um allt hlutafé í einkahlutafélaginu Skientia ehf. og að B greiddi M 5.500.000 krónur auk dráttarvaxta. Til vara krafðist M þess að staðfest yrði riftun fyrrgreinds kaupsamnings og að B yrði gert að greiða M 5.500.000 krónur, auk dráttarvaxta. Í gagnsök krafðist B sýknu af kröfum M en til vara verulegrar lækkunar á þeim. Þá krafðist B þess að…",
       "url": "https://island.is/domar/g-3b80db05-22dd-473c-8322-727a1d79c032",
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -4956,6 +4890,7 @@
       "sector_tags": [
         "tourism-infrastructure"
       ],
+      "sector_evidence_role": "project_or_sector_context",
       "intelligence_type": "public_record"
     },
     {
@@ -5091,6 +5026,7 @@
       "summary": "Staðfestur var dómur héraðsdóms þar sem O ehf. og R ehf. voru sýknaðir af kröfu L hf. um ógildingu úrskurðar kærunefndar útboðsmála. Ekki var fallist á að úrskurður nefndarinnar hafi verið haldinn form- eða efnisannmörkum eða að nefndin hafi við meðferð og úrlausn málsins farið út fyrir hlutverk sitt og valdsvið lögum samkvæmt.",
       "url": "https://island.is/domar/g-934a88c6-148e-40eb-92c1-327a66f86165",
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -5153,6 +5089,7 @@
       "summary": "F ehf. var lægstbjóðandi í lokuðu útboði sem fram fór á vegum Ö ehf. til að afla tilboða í verkfræðihönnun á burðarvirki og jarðvinnu vegna byggingar á nýjum íbúðarhúsum fyrir aldraða. F ehf. kvað tilboð sitt hafa miðast við að stærð bygginganna, að meðtöldum tengigangi, bílakjallara og geymslum í kjallara, hafi verið 7.560 fermetrar, eins og fram kæmi í grein 1.1 í útboðslýsingu. Honum hafi síðar orðið ljóst að rau…",
       "url": "https://island.is/domar/g-523e1296-1b38-4eae-916c-e8e0dcff6d2e",
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -5170,6 +5107,7 @@
       "summary": "Í byrjun árs 2017 var gefið út byggingarleyfi til handa E, móður fyrirsvarsmanns O ehf., fyrir byggingu sumarhúss á lóð hennar í Kjósarhreppi. Með afsali 29. mars 2019 keypti O ehf. lóðina af E. Í ágúst 2017 hafði fyrirsvarsmaður O ehf. leitað til B um að hann tæki að sér byggingarstjórn vegna fyrirhugaðrar byggingar á lóðinni og sótti B í kjölfarið um lögboðna ábyrgðartryggingu byggingarstjóra hjá S hf. Hafist var…",
       "url": "https://island.is/domar/g-613cf1b1-0bbf-47da-9ff3-75af477f081f",
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -5380,6 +5318,7 @@
       "summary": "T sf. höfðaði mál gegn B og krafðist greiðslu samkvæmt reikningi vegna endurbóta á íbúð B. S, fyrirsvarsmaður T sf., var kvæntur móður B meðan á endurbótum stóð og gaf T sf. út reikning nærri tveimur árum eftir að þeim lauk. Deildu aðilar um það hvort samningur hefði komist á milli T sf. og B um endurbæturnar. Með dómi héraðsdóms var B sýknuð af kröfu T sf. Í dómi Landsréttar var rakið að ekkert í gögnum málsins sty…",
       "url": "https://island.is/domar/g-ac6ae383-0601-4b60-b115-2dc59c47918d",
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -5509,6 +5448,21 @@
       "intelligence_type": "public_record"
     },
     {
+      "id": "skgatt:0118/2026",
+      "lane": "planning",
+      "title": "Helguvíkurhöfn - breyting á deiliskipulagi",
+      "entity": "Reykjanesbær",
+      "case_number": "0118/2026",
+      "plan_type": "deiliskipulag",
+      "status": "Endanleg gögn",
+      "date": "2026-02-05",
+      "review_deadline": "2026-11-25",
+      "summary": "Bæjarstjórn samþykkti á fundi 20. Janúar 2026 að auglýsa breytingu á deiliskipulagi Helguvíkur fyrir hafnarsvæðið, viðlegukant og lóð fyrir skipaolíutanka skv. 1. mgr. 43. gr.",
+      "url": "https://skipulagsgatt.is/issues/4473",
+      "sector_tags": [],
+      "intelligence_type": "public_record"
+    },
+    {
       "id": "skgatt:0119/2026",
       "lane": "planning",
       "title": "Stapabraut 21",
@@ -5520,6 +5474,21 @@
       "review_deadline": "2026-11-25",
       "summary": "Bæjarstjórn samþykkti á fundi 20. janúar 2026 að auglýsa skv. 1. mgr. 43. gr. skipulagslaga nr. 123/2010 breytingu á deiliskipulagi lóðarinnar Stapabraut 21. Gert ráð fyrir að núverandi bygging, sem stendur að stærstum hluta innan byggingarreitar A, standi áfram. Þá er í breytingunni gert ráð fyrir viðbyggingu vestan við núverandi byggingu.",
       "url": "https://skipulagsgatt.is/issues/4474",
+      "sector_tags": [],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "skgatt:0080/2026",
+      "lane": "planning",
+      "title": "Fjölbrautaskóli Suðurnesja breytt deiliskipulag",
+      "entity": "Reykjanesbær",
+      "case_number": "0080/2026",
+      "plan_type": "deiliskipulag",
+      "status": "Endanleg gögn",
+      "date": "2026-01-29",
+      "review_deadline": "2026-11-25",
+      "summary": "auglýsa breytingu á deiliskipulagi skv. 1. mgr. 43. gr. skipulagslaga nr. 123/2010. Breytingin fellst í viðbyggingu við skólann vestan megin sem er 2 hæðir og kjallari, allt að 4860 m2. Lóðamörkum Sunnubrautar 32 og 36 er einnig breytt s.br. uppdrátt JeES arkitekta dags 28.11.2025.",
+      "url": "https://skipulagsgatt.is/issues/4435",
       "sector_tags": [],
       "intelligence_type": "public_record"
     },
@@ -5558,6 +5527,7 @@
       "sector_tags": [
         "tourism-infrastructure"
       ],
+      "sector_evidence_role": "project_or_sector_context",
       "intelligence_type": "public_record"
     },
     {
@@ -5576,26 +5546,6 @@
         "bygging"
       ],
       "sector_tags": [],
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "skgatt:0029/2026",
-      "lane": "eia",
-      "title": "Hverabraut 7, 9, 11 og 16 til 18.; Breytt skilgreining; Uppbygging hótels, verslun og þjónusta; Aðalskipulagsbreyting - 2512023",
-      "entity": "Bláskógabyggð",
-      "case_number": "0029/2026",
-      "plan_type": "adalskipulag",
-      "status": "Endanleg gögn",
-      "date": "2026-01-09",
-      "review_deadline": "2026-10-21",
-      "summary": "Lögð er fram skipulagslýsing sem tekur til breytinga á aðalskipulagi Bláskógabyggðar 2015-2027 og breytinga á deiliskipulagi. Svæðið sem breytingin nær til er Hverabraut 7, 9, 11 og 16 til 18. Í breytingunni felst að heimilt verður að vera með hótel með 160 herbergjum, veitingasal og leiksvæði á lóðunum.",
-      "url": "https://skipulagsgatt.is/issues/4384",
-      "keywords_matched": [
-        "hótel"
-      ],
-      "sector_tags": [
-        "tourism-infrastructure"
-      ],
       "intelligence_type": "public_record"
     },
     {
@@ -5625,26 +5575,6 @@
       "summary": "Sveitarstjórn Skagafjarðar samþykkti á 54. fundi sínum þann 14. október 2026 að auglýsa deiliskipulagstillögu fyrir ”Laufblaðið, Sauðárkróki, íbúðarbyggð og opið svæði” í samræmi við 41. gr. skipulagslaga nr. 123/2010. Deiliskipulagstillagan er sett fram á uppdráttum nr. DS01 og DS02 ásamt greinargerð dags. 01.10.2026, unnin á Stoð ehf. verkfræðistofu af Bi…",
       "url": "https://skipulagsgatt.is/issues/4358",
       "sector_tags": [],
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "skgatt:1676/2025",
-      "lane": "eia",
-      "title": "Hverabraut 7, 9, 11 og 16 til 18.; Breytt skilgreining; Uppbygging hótels verslun og þjónusta; Aðalskipulagsbreyting - 2512023",
-      "entity": "Bláskógabyggð",
-      "case_number": "1676/2025",
-      "plan_type": "adalskipulag",
-      "status": "Endanleg gögn",
-      "date": "2025-12-17",
-      "review_deadline": "2026-10-21",
-      "summary": "Lögð er fram skipulagslýsing sem tekur til breytinga á aðalskipulagi Bláskógabyggðar 2015-2027 og breytinga á deiliskipulagi. Svæðið sem breytingin nær til er Hverabraut 7, 9, 11 og 16 til 18. Í breytingunni felst að heimilt verður að vera með hótel með 160 herbergjum, veitingasal og leiksvæði á lóðunum.",
-      "url": "https://skipulagsgatt.is/issues/4333",
-      "keywords_matched": [
-        "hótel"
-      ],
-      "sector_tags": [
-        "tourism-infrastructure"
-      ],
       "intelligence_type": "public_record"
     },
     {
@@ -5706,6 +5636,7 @@
       "sector_tags": [
         "tourism-infrastructure"
       ],
+      "sector_evidence_role": "project_or_sector_context",
       "intelligence_type": "public_record"
     },
     {
@@ -5723,6 +5654,7 @@
       "sector_tags": [
         "aquaculture-fish-production"
       ],
+      "sector_evidence_role": "project_or_sector_context",
       "sector_subtopics": [
         "land-based-aquaculture"
       ],
@@ -5743,9 +5675,25 @@
       "sector_tags": [
         "aquaculture-fish-production"
       ],
+      "sector_evidence_role": "project_or_sector_context",
       "sector_subtopics": [
         "land-based-aquaculture"
       ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "skgatt:1405/2025",
+      "lane": "planning",
+      "title": "Hlíðarhverfi 3. áfangi – deiliskipulag",
+      "entity": "Reykjanesbær",
+      "case_number": "1405/2025",
+      "plan_type": "deiliskipulag",
+      "status": "Endanleg gögn",
+      "date": "2025-10-28",
+      "review_deadline": "2026-11-25",
+      "summary": "Arkís arkitektar leggja fram tillögu að deiliskipulagi fyrir þriðja áfanga Hlíðarhverfis f.h. Miðlands ehf. Um er að ræða 492 íbúðir í fjölbýlishúsum og sérbýli. Uppbyggingin er á tveimur svæðum aðskildum með grænum geira. Tillagan var auglýst með athugasemdafresti til 9. mars 2025 en á 364. fundi var afgreiðslu frestað. Nánar þurfti að gera grein fyrir ofa…",
+      "url": "https://skipulagsgatt.is/issues/4062",
+      "sector_tags": [],
       "intelligence_type": "public_record"
     },
     {
@@ -5794,6 +5742,7 @@
         "útboð"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -5829,6 +5778,7 @@
       "sector_tags": [
         "tourism-infrastructure"
       ],
+      "sector_evidence_role": "project_or_sector_context",
       "intelligence_type": "public_record"
     },
     {
@@ -5937,6 +5887,7 @@
         "verksamningur"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -5985,6 +5936,7 @@
         "skipulag"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -6003,6 +5955,7 @@
         "verksamningur"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -6023,6 +5976,7 @@
       "sector_tags": [
         "tourism-infrastructure"
       ],
+      "sector_evidence_role": "project_or_sector_context",
       "intelligence_type": "public_record"
     },
     {
@@ -6041,21 +5995,6 @@
       "intelligence_type": "public_record"
     },
     {
-      "id": "skgatt:0631/2025",
-      "lane": "planning",
-      "title": "Breyting á sveitarfélagsmörkum Rangáþings ytra og Rangárþings eystra",
-      "entity": "Rangárþing ytra",
-      "case_number": "0631/2025",
-      "plan_type": "adalskipulag",
-      "status": "Staðfesting",
-      "date": "2025-05-12",
-      "review_deadline": "2026-10-21",
-      "summary": "Sveitarfélögin Rangárþing ytra og eystra leggja fram tillögu á samræminu á sveitarfélagamörkum frá Uxahrygg í austri að Eystri Rangá í vestri. Fylgt verður eignarlínum lóða og jarða. Lóðamörk einstakra svæða breytast ekki. Markmið breytingarinnar er að leiðrétta og samræma sveitarfélagsmörk Rangárþings eystra og Rangárþings ytra þannig að landareignirnar ve…",
-      "url": "https://skipulagsgatt.is/issues/3288",
-      "sector_tags": [],
-      "intelligence_type": "public_record"
-    },
-    {
       "id": "skgatt:0302/2025",
       "lane": "planning",
       "title": "Brautarholt 4 - USK24060206",
@@ -6069,6 +6008,7 @@
       "sector_tags": [
         "tourism-infrastructure"
       ],
+      "sector_evidence_role": "project_or_sector_context",
       "intelligence_type": "public_record"
     },
     {
@@ -6085,6 +6025,7 @@
       "sector_tags": [
         "tourism-infrastructure"
       ],
+      "sector_evidence_role": "project_or_sector_context",
       "intelligence_type": "public_record"
     },
     {
@@ -6103,6 +6044,7 @@
         "Hvammsvirkjun"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -6151,6 +6093,7 @@
         "verksamningur"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -6169,6 +6112,7 @@
         "verksamningur"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -6216,6 +6160,7 @@
         "verksamningur"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -6267,6 +6212,7 @@
         "verksamningur"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -6285,6 +6231,7 @@
         "verksamningur"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -6317,6 +6264,21 @@
       "keywords_matched": [
         "umhverfismat"
       ],
+      "sector_tags": [],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "skgatt:0949/2024",
+      "lane": "planning",
+      "title": "Helguvík iðnaðar-, athafna- og hafnarsvæði, I1, AT15 og H1",
+      "entity": "Reykjanesbær",
+      "case_number": "0949/2024",
+      "plan_type": "adalskipulag",
+      "status": "Endanleg gögn",
+      "date": "2024-07-19",
+      "review_deadline": "2026-11-25",
+      "summary": "Breyta þarf afmörkun á iðnaðar-og hafnarsvæðum í aðalskipulagi og skilmálum fyrir lóðirnar Stakksbraut 4 og 15 til að koma fyrir inn- og útflutningsstarfsemi, geymslusvæði skipaeldsneytis og endurskilgreina mörk hafnar- og iðnaðarsvæða.",
+      "url": "https://skipulagsgatt.is/issues/2048",
       "sector_tags": [],
       "intelligence_type": "public_record"
     },
@@ -6423,6 +6385,7 @@
         "verksamningur"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -6441,6 +6404,7 @@
         "verksamningur"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -6459,6 +6423,7 @@
         "útboð"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -6477,6 +6442,7 @@
         "verksamningur"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -6525,6 +6491,7 @@
         "útboð"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -6543,6 +6510,7 @@
         "verksamningur"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -6579,6 +6547,7 @@
         "skipulag"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -6597,6 +6566,7 @@
         "verksamningur"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -6615,6 +6585,7 @@
         "verksamningur"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -6651,6 +6622,7 @@
         "skipulag"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -6669,6 +6641,7 @@
         "útboð"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -6687,6 +6660,7 @@
         "verksamningur"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -6705,6 +6679,7 @@
         "útboð"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -6723,6 +6698,7 @@
         "verksamningur"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -6741,6 +6717,7 @@
         "útboð"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -6759,6 +6736,7 @@
         "skipulag"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -6777,6 +6755,7 @@
         "útboð"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -6795,6 +6774,7 @@
         "skipulag"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -6813,6 +6793,7 @@
         "skipulag"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -6831,6 +6812,7 @@
         "skipulag"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -6849,6 +6831,7 @@
         "verksamningur"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -6867,6 +6850,7 @@
         "verksamningur"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -6887,6 +6871,7 @@
       "sector_tags": [
         "tourism-infrastructure"
       ],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -6905,6 +6890,7 @@
         "skipulag"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -6923,6 +6909,7 @@
         "útboð"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -6941,6 +6928,7 @@
         "verksamningur"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -6959,6 +6947,7 @@
         "verksamningur"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -6977,6 +6966,7 @@
         "verksamningur"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -6995,6 +6985,7 @@
         "verksamningur"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -7013,6 +7004,7 @@
         "útboð"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -7031,6 +7023,7 @@
         "verksamningur"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -7049,6 +7042,7 @@
         "verksamningur"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -7067,6 +7061,7 @@
         "verksamningur"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -7085,6 +7080,7 @@
         "verksamningur"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -7103,6 +7099,7 @@
         "skipulag"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -7121,6 +7118,7 @@
         "skipulag"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -7139,6 +7137,7 @@
         "verksamningur"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -7157,6 +7156,7 @@
         "verksamningur"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -7175,6 +7175,7 @@
         "útboð"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "legal_history",
       "intelligence_type": "public_record"
     },
     {
@@ -7198,6 +7199,7 @@
       ],
       "doc_type": "parliamentary",
       "sector_tags": [],
+      "sector_evidence_role": "reference_only",
       "intelligence_type": "reference_tracker"
     },
     {
@@ -7215,6 +7217,7 @@
       ],
       "doc_type": "reference",
       "sector_tags": [],
+      "sector_evidence_role": "reference_only",
       "intelligence_type": "reference_tracker"
     },
     {
@@ -7233,6 +7236,7 @@
         "útboð"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "reference_only",
       "intelligence_type": "reference_tracker"
     },
     {
@@ -7250,6 +7254,7 @@
         "útboð"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "reference_only",
       "intelligence_type": "reference_tracker"
     },
     {
@@ -7265,6 +7270,7 @@
         "framkvæmd"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "reference_only",
       "intelligence_type": "reference_tracker"
     },
     {
@@ -7280,6 +7286,7 @@
         "framkvæmd"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "reference_only",
       "intelligence_type": "reference_tracker"
     },
     {
@@ -7296,6 +7303,7 @@
         "umhverfismat"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "reference_only",
       "intelligence_type": "reference_tracker"
     },
     {
@@ -7312,6 +7320,7 @@
         "orku"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "reference_only",
       "intelligence_type": "reference_tracker"
     },
     {
@@ -7329,6 +7338,7 @@
         "ístak project: Hvammsvirkjun"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "reference_only",
       "intelligence_type": "reference_tracker"
     },
     {
@@ -7344,6 +7354,7 @@
         "innkaup"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "reference_only",
       "intelligence_type": "reference_tracker"
     },
     {
@@ -7360,6 +7371,7 @@
         "útboð"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "reference_only",
       "intelligence_type": "reference_tracker"
     },
     {
@@ -7376,6 +7388,7 @@
         "umhverfismat"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "reference_only",
       "intelligence_type": "reference_tracker"
     },
     {
@@ -7393,6 +7406,7 @@
         "tourism-infrastructure"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "reference_only",
       "intelligence_type": "reference_tracker"
     },
     {
@@ -7409,6 +7423,7 @@
         "skipulag"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "reference_only",
       "intelligence_type": "reference_tracker"
     },
     {
@@ -7426,6 +7441,7 @@
         "útboð"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "reference_only",
       "intelligence_type": "reference_tracker"
     },
     {
@@ -7442,6 +7458,7 @@
         "orku"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "reference_only",
       "intelligence_type": "reference_tracker"
     },
     {
@@ -7457,6 +7474,7 @@
         "bygging"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "reference_only",
       "intelligence_type": "reference_tracker"
     },
     {
@@ -7474,9 +7492,8 @@
         "tourism-infrastructure",
         "útboð"
       ],
-      "sector_tags": [
-        "tourism-infrastructure"
-      ],
+      "sector_tags": [],
+      "sector_evidence_role": "reference_only",
       "intelligence_type": "reference_tracker"
     },
     {
@@ -7494,6 +7511,7 @@
         "útboð"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "reference_only",
       "intelligence_type": "reference_tracker"
     },
     {
@@ -7510,6 +7528,7 @@
         "útboð"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "reference_only",
       "intelligence_type": "reference_tracker"
     },
     {
@@ -7526,6 +7545,7 @@
         "útboð"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "reference_only",
       "intelligence_type": "reference_tracker"
     },
     {
@@ -7541,6 +7561,7 @@
         "framkvæmd"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "reference_only",
       "intelligence_type": "reference_tracker"
     },
     {
@@ -7557,6 +7578,7 @@
         "umhverfismat"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "reference_only",
       "intelligence_type": "reference_tracker"
     },
     {
@@ -7573,6 +7595,7 @@
         "samgöngur"
       ],
       "sector_tags": [],
+      "sector_evidence_role": "reference_only",
       "intelligence_type": "reference_tracker"
     }
   ]
