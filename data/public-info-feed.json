@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated": "2026-10-29T08:21:49Z",
+  "generated": "2026-10-29T08:31:42Z",
   "window": {
     "from": "2026-10-22",
     "to": "2026-10-29"
@@ -57,7 +57,7 @@
       ],
       "counts_by_sector": {
         "tourism-infrastructure": 13,
-        "aquaculture-fish-production": 2,
+        "aquaculture-fish-production": 3,
         "datacentres-infrastructure": 1
       },
       "selection_policy": "Prioritise evidenced infrastructure/project signals; preserve general construction, competitors and Ístak; no quotas.",
@@ -427,22 +427,6 @@
           "url": "https://www.dalvikurbyggd.is/frettir",
           "reason": "bounded news/agenda supplement only; resolutions and complete minutes discovery remain unverified"
         },
-        "uos-undated-0b66580c5f": {
-          "url": "https://uos.is/opinber-birting/akvordun-um-breytingu-a-starfsleyfi-matorku-ehf.-hrauni-vestan-grindavikur",
-          "reason": "notice publication date unverified; not emitted"
-        },
-        "uos-undated-dd456e6789": {
-          "url": "https://uos.is/opinber-birting/akvordun-um-breytingu-a-starfsleyfi-arnarlax-i-thorlakshofn-i-olfusi",
-          "reason": "notice publication date unverified; not emitted"
-        },
-        "uos-undated-ddabd623da": {
-          "url": "https://uos.is/opinber-birting/akvordun-um-breytingu-a-starfsleyfi-samherja-fiskeldis-ehf.-stad-grindavik",
-          "reason": "notice publication date unverified; not emitted"
-        },
-        "uos-undated-9e510b9e9d": {
-          "url": "https://uos.is/opinber-birting/akvordun-um-breytingu-a-starfsleyfi-kaldvikur-hf.-thorlakshofn-i-olfusi",
-          "reason": "notice publication date unverified; not emitted"
-        },
         "uos-discovery": {
           "url": "https://uos.is/opinber-birting",
           "reason": "bounded public-notice supplement; issued-permit archive and historical discovery not complete"
@@ -518,7 +502,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/3459",
         "seen_count": 1,
         "first_seen": "2026-10-28T14:29:46Z",
-        "last_seen": "2026-10-29T08:21:49Z",
+        "last_seen": "2026-10-29T08:31:42Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -530,7 +514,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/4410",
         "seen_count": 1,
         "first_seen": "2026-10-28T14:29:46Z",
-        "last_seen": "2026-10-29T08:21:49Z",
+        "last_seen": "2026-10-29T08:31:42Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -542,7 +526,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/3878",
         "seen_count": 1,
         "first_seen": "2026-10-28T14:29:46Z",
-        "last_seen": "2026-10-29T08:21:49Z",
+        "last_seen": "2026-10-29T08:31:42Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -554,7 +538,7 @@
         "evidence_url": "https://uos.is/opinber-birting/akvordun-um-breytingu-a-starfsleyfi-samherja-fiskeldis-ehf.-stad-grindavik",
         "seen_count": 4,
         "first_seen": "2026-10-28T06:45:02Z",
-        "last_seen": "2026-10-29T06:45:01Z",
+        "last_seen": "2026-10-29T08:31:42Z",
         "reason": "repeated unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -566,7 +550,7 @@
         "evidence_url": "https://www.utu.is/auglysingar/skipulagsauglysing-birt-dags-29-oktober-2026/",
         "seen_count": 13,
         "first_seen": "2026-10-16T06:45:01Z",
-        "last_seen": "2026-10-29T08:21:49Z",
+        "last_seen": "2026-10-29T08:31:42Z",
         "reason": "repeated unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -578,7 +562,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/5479",
         "seen_count": 1,
         "first_seen": "2026-10-28T14:29:46Z",
-        "last_seen": "2026-10-29T08:21:49Z",
+        "last_seen": "2026-10-29T08:31:42Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       }
@@ -626,22 +610,6 @@
         "dalvik-minutes": {
           "url": "https://www.dalvikurbyggd.is/frettir",
           "reason": "bounded news/agenda supplement only; resolutions and complete minutes discovery remain unverified"
-        },
-        "uos-undated-0b66580c5f": {
-          "url": "https://uos.is/opinber-birting/akvordun-um-breytingu-a-starfsleyfi-matorku-ehf.-hrauni-vestan-grindavikur",
-          "reason": "notice publication date unverified; not emitted"
-        },
-        "uos-undated-dd456e6789": {
-          "url": "https://uos.is/opinber-birting/akvordun-um-breytingu-a-starfsleyfi-arnarlax-i-thorlakshofn-i-olfusi",
-          "reason": "notice publication date unverified; not emitted"
-        },
-        "uos-undated-ddabd623da": {
-          "url": "https://uos.is/opinber-birting/akvordun-um-breytingu-a-starfsleyfi-samherja-fiskeldis-ehf.-stad-grindavik",
-          "reason": "notice publication date unverified; not emitted"
-        },
-        "uos-undated-9e510b9e9d": {
-          "url": "https://uos.is/opinber-birting/akvordun-um-breytingu-a-starfsleyfi-kaldvikur-hf.-thorlakshofn-i-olfusi",
-          "reason": "notice publication date unverified; not emitted"
         },
         "uos-discovery": {
           "url": "https://uos.is/opinber-birting",
@@ -843,9 +811,9 @@
       }
     }
   },
-  "count": 416,
+  "count": 420,
   "counts_by_intelligence_type": {
-    "public_record": 391,
+    "public_record": 395,
     "reference_tracker": 25
   },
   "items": [
@@ -1168,6 +1136,68 @@
         "opinber innkaup"
       ],
       "evidence_type": "first_party",
+      "sector_tags": [],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "uos:ddabd623da4f413e06",
+      "lane": "eia",
+      "source": "uos",
+      "entity": "Umhverfis- og orkustofnun",
+      "title": "26. október 2026 Ákvörðun um breytingu á starfsleyfi Samherja fiskeldis ehf. Stað Grindavík Breyting á starfsleyfi Eldi sjávar- og ferskvatnslífvera Samherji fiskeldi Skoða",
+      "date": "2026-10-26",
+      "summary": "Umhverfis- og orkustofnun hefur tekið ákvörðun um að breyta starfsleyfi Samherja fiskeldis ehf. Stað Grindavík þannig að í starfsleyfinu séu ákvæði um vöktun áhrifa starfseminnar á vatnshlot og umhverfismarkmið þeirra á grundvelli 2. mgr. 22. gr. laga um stjórn vatnamála nr. 36/2011, sbr. 2. mgr. 6. gr. laga um hollustuhætti og mengunarvarnir nr. 7/1998. Tillaga að starfsleyfi var auglýst frá 8. september til 6. október sl. Engar athugasemdir bárust á auglýsingatíma. Ákvörðun Umhverfis- og orkustofnunar er kæranleg til úrskurðarnefndar umhverfis- og auðlindamála innan eins mánaðar frá birtingu ákvörðunar stofnunarinnar skv. 1. mgr. 65. gr. laga nr. 7/1998 um hollustuhætti og mengunarvarnir , sbr. 4. gr. laga nr. 130/2011 um úrskurðarnefnd umhverfis- og auðlindamála . Tengd skjöl Ákvörðun um breytingu á starfsleyfi Starfsleyfi Tengt efni Ákvörðun um breytingu á starfsleyfi Samherja fiskeldis ehf. Núpsmýri Öxarfirði Breyting á starfsleyfi Eldi sjávar- og ferskvatnslífvera Samherji fiskeldi",
+      "url": "https://uos.is/opinber-birting/akvordun-um-breytingu-a-starfsleyfi-samherja-fiskeldis-ehf.-stad-grindavik",
+      "status": "public_notice",
+      "evidence_kind": "first_party_environmental_notice",
+      "sector_tags": [
+        "aquaculture-fish-production"
+      ],
+      "sector_evidence_role": "project_or_sector_context",
+      "sector_subtopics": [
+        "aquaculture-facility-unspecified"
+      ],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "uos:dd456e6789e91ae613",
+      "lane": "eia",
+      "source": "uos",
+      "entity": "Umhverfis- og orkustofnun",
+      "title": "26. október 2026 Ákvörðun um breytingu á starfsleyfi Arnarlax í Þorlákshöfn í Ölfusi Breyting á starfsleyfi Eldi sjávar- og ferskvatnslífvera Arnarlax Skoða",
+      "date": "2026-10-26",
+      "summary": "Umhverfis- og orkustofnun hefur tekið ákvörðun um að breyta starfsleyfi Arnarlax í Þorlákshöfn þannig að í starfsleyfinu séu ákvæði um vöktun áhrifa starfseminnar á vatnshlot og umhverfismarkmið þeirra á grundvelli 2. mgr. 22. gr. laga um stjórn vatnamála nr. 36/2011, sbr. 2. mgr. 6. gr. laga um hollustuhætti og mengunarvarnir nr. 7/1998. Tillaga að starfsleyfi var auglýst frá 8. september til 6. október sl. Engar athugasemdir bárust á auglýsingatíma. Ákvörðun Umhverfis- og orkustofnunar er kæranleg til úrskurðarnefndar umhverfis- og auðlindamála innan eins mánaðar frá birtingu ákvörðunar stofnunarinnar skv. 1. mgr. 65. gr. laga nr. 7/1998 um hollustuhætti og mengunarvarnir , sbr. 4. gr. laga nr. 130/2011 um úrskurðarnefnd umhverfis- og auðlindamála . Tengd skjöl Ákvörðun um breytingu á starfsleyfi Starfsleyfi Tengt efni Ákvörðun um breytingu á starfsleyfi Arnarlax ehf. Fossfirði í Arnarfirði Breyting á starfsleyfi Eldi sjávar- og ferskvatnslífvera Arnarlax",
+      "url": "https://uos.is/opinber-birting/akvordun-um-breytingu-a-starfsleyfi-arnarlax-i-thorlakshofn-i-olfusi",
+      "status": "public_notice",
+      "evidence_kind": "first_party_environmental_notice",
+      "sector_tags": [],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "uos:9e510b9e9d88b2adf1",
+      "lane": "eia",
+      "source": "uos",
+      "entity": "Umhverfis- og orkustofnun",
+      "title": "26. október 2026 Ákvörðun um breytingu á starfsleyfi Kaldvíkur hf. Þorlákshöfn í Ölfusi Breyting á starfsleyfi Eldi sjávar- og ferskvatnslífvera Kaldvík hf. Skoða",
+      "date": "2026-10-26",
+      "summary": "Umhverfis- og orkustofnun hefur tekið ákvörðun um að breyta starfsleyfi Kaldvíkur hf. Þorlákshöfn í Ölfusi þannig að í starfsleyfinu séu ákvæði um vöktun áhrifa starfseminnar á vatnshlot og umhverfismarkmið þeirra á grundvelli 2. mgr. 22. gr. laga um stjórn vatnamála nr. 36/2011, sbr. 2. mgr. 6. gr. laga um hollustuhætti og mengunarvarnir nr. 7/1998. Tillaga að starfsleyfi var auglýst frá 8. september til 6. október sl. Engar athugasemdir bárust á auglýsingatíma. Ákvörðun Umhverfis- og orkustofnunar er kæranleg til úrskurðarnefndar umhverfis- og auðlindamála innan eins mánaðar frá birtingu ákvörðunar stofnunarinnar skv. 1. mgr. 65. gr. laga nr. 7/1998 um hollustuhætti og mengunarvarnir , sbr. 4. gr. laga nr. 130/2011 um úrskurðarnefnd umhverfis- og auðlindamála . Tengd skjöl Ákvörðun um breytingu á starfsleyfi Starfsleyfi Tengt efni Ákvörðun um breytingu á starfsleyfi Kaldvíkur hf. Innra Lóni Kelduhverfi Breyting á starfsleyfi Eldi sjávar- og ferskvatnslífvera Kaldvík hf.",
+      "url": "https://uos.is/opinber-birting/akvordun-um-breytingu-a-starfsleyfi-kaldvikur-hf.-thorlakshofn-i-olfusi",
+      "status": "public_notice",
+      "evidence_kind": "first_party_environmental_notice",
+      "sector_tags": [],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "uos:0b66580c5ff35d6cf3",
+      "lane": "eia",
+      "source": "uos",
+      "entity": "Umhverfis- og orkustofnun",
+      "title": "26. október 2026 Ákvörðun um breytingu á starfsleyfi Matorku ehf. Hrauni vestan Grindavíkur Breyting á starfsleyfi Eldi sjávar- og ferskvatnslífvera Matorka ehf. Skoða",
+      "date": "2026-10-26",
+      "summary": "Umhverfis- og orkustofnun hefur tekið ákvörðun um að breyta starfsleyfi Matorku ehf. Hrauni vestan Grindavíkur þannig að í starfsleyfinu séu ákvæði um vöktun áhrifa starfseminnar á vatnshlot og umhverfismarkmið þeirra á grundvelli 2. mgr. 22. gr. laga um stjórn vatnamála nr. 36/2011, sbr. 2. mgr. 6. gr. laga um hollustuhætti og mengunarvarnir nr. 7/1998. Tillaga að starfsleyfi var auglýst frá 8. september til 6. október sl. Engar athugasemdir bárust á auglýsingatíma. Ákvörðun Umhverfis- og orkustofnunar er kæranleg til úrskurðarnefndar umhverfis- og auðlindamála innan eins mánaðar frá birtingu ákvörðunar stofnunarinnar skv. 1. mgr. 65. gr. laga nr. 7/1998 um hollustuhætti og mengunarvarnir , sbr. 4. gr. laga nr. 130/2011 um úrskurðarnefnd umhverfis- og auðlindamála . Tengd skjöl Ákvörðun um breytingu á starfsleyfi Starfsleyfi Tengt efni Tillaga að breytingu á starfsleyfi Matorku ehf. Hrauni vestan Grindavíkur Breyting á starfsleyfi Eldi sjávar- og ferskvatnslífvera Matorka ehf.",
+      "url": "https://uos.is/opinber-birting/akvordun-um-breytingu-a-starfsleyfi-matorku-ehf.-hrauni-vestan-grindavikur",
+      "status": "public_notice",
+      "evidence_kind": "first_party_environmental_notice",
       "sector_tags": [],
       "intelligence_type": "public_record"
     },
