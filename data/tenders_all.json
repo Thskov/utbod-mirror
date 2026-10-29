@@ -61,17 +61,17 @@
     }
   },
   "schema_version": 1,
-  "generated": "2026-10-29T07:00:27Z",
-  "generated_at": "2026-10-29T07:00:27Z",
+  "generated": "2026-10-29T08:28:12Z",
+  "generated_at": "2026-10-29T08:28:12Z",
   "sources": {
     "utbodsvefur": {
-      "generated_at": "2026-10-29T07:00:26.945728+00:00",
+      "generated_at": "2026-10-29T08:28:12.425300+00:00",
       "count": 77,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders.json"
     },
     "offportal": {
-      "generated": "2026-10-29T07:00:27Z",
-      "count": 162,
+      "generated": "2026-10-29T08:28:12Z",
+      "count": 163,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders_offportal.json"
     },
     "not_covered": [
@@ -501,18 +501,6 @@
     ],
     "source_candidates": [
       {
-        "id": "tender:buyer:fjallabyggð",
-        "name": "Fjallabyggð",
-        "suggested_feed": "tenders_all",
-        "suggested_lane": "tender",
-        "evidence_url": "https://www.utbodsvefur.is/fjallabyggd-snjomokstur-og-halkuvarnir-2026-2029/",
-        "seen_count": 1,
-        "first_seen": "2026-10-06T07:00:27Z",
-        "last_seen": "2026-10-22T07:00:26Z",
-        "reason": "unknown buyer/source found in tender feed",
-        "status": "pending"
-      },
-      {
         "id": "tender:buyer:akranesbær",
         "name": "Akranesbær",
         "suggested_feed": "tenders_all",
@@ -523,7 +511,20 @@
         "last_seen": "2026-10-27T11:55:54Z",
         "reason": "exact candidate evidence excluded: electricity_purchase",
         "status": "out_of_scope_for_now",
-        "last_reviewed": "2026-10-29T07:00:27Z"
+        "last_reviewed": "2026-10-29T08:28:12Z"
+      },
+      {
+        "id": "tender:buyer:fjallabyggð",
+        "name": "Fjallabyggð",
+        "suggested_feed": "tenders_all",
+        "suggested_lane": "tender",
+        "evidence_url": "https://www.utbodsvefur.is/fjallabyggd-snjomokstur-og-halkuvarnir-2026-2029/",
+        "seen_count": 1,
+        "first_seen": "2026-10-06T07:00:27Z",
+        "last_seen": "2026-10-22T07:00:26Z",
+        "reason": "SW261029-I01: reviewed exact historical snow-clearing/de-icing service URL; not works. Genuine works/planning remain eligible.",
+        "status": "out_of_scope_for_now",
+        "last_reviewed": "2026-10-29T08:28:12Z"
       },
       {
         "id": "tender:buyer:sveitafélagið-árborg",
@@ -536,7 +537,7 @@
         "last_seen": "2026-10-22T07:00:26Z",
         "reason": "exact candidate evidence excluded: winter_service",
         "status": "out_of_scope_for_now",
-        "last_reviewed": "2026-10-29T07:00:27Z"
+        "last_reviewed": "2026-10-29T08:28:12Z"
       }
     ]
   },
@@ -3896,7 +3897,24 @@
       "sector_tags": [],
       "source": "utbodsvefur",
       "intelligence_type": "active_tender",
-      "is_open_opportunity": true
+      "is_open_opportunity": true,
+      "supplementary_evidence": [
+        {
+          "source": "mulathing-utbod",
+          "url": "https://www.mulathing.is/is/frettir/mulathing-oskar-eftir-tilbodum-i-verkefnid-herdubreid-austurvegur-4-a-seydisfirdi-bokasafn-og-baejarskrifstofur",
+          "posted_at": "2026-10-26T00:00:00+00:00",
+          "deadline_utc": "2026-11-24T14:00:00+00:00",
+          "deadline_year_inferred": true
+        }
+      ],
+      "deadline_source_conflict": {
+        "structured": "2026-11-24T14:00:00+00:00",
+        "portal_body_reported": "2027-11-24",
+        "reviewed_on": "2026-10-28",
+        "buyer_evidence_url": "https://www.mulathing.is/is/frettir/mulathing-oskar-eftir-tilbodum-i-verkefnid-herdubreid-austurvegur-4-a-seydisfirdi-bokasafn-og-baejarskrifstofur",
+        "interpretation": "Structured 2026 deadline supported by dated buyer notice; portal body says 2027. Original source text not changed.",
+        "audit_item": "SW261028-I03"
+      }
     },
     {
       "reference": "202605839",

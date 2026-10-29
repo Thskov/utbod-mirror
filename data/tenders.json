@@ -60,7 +60,7 @@
       "limits": "Tags are text-derived relevance, not verified project stage or completeness. Existing source/date/detail limits still apply; no sources added."
     }
   },
-  "generated_at": "2026-10-29T07:00:26.945728+00:00",
+  "generated_at": "2026-10-29T08:28:12.425300+00:00",
   "source": {
     "site": "https://www.utbodsvefur.is",
     "posts_api": "https://www.utbodsvefur.is/wp-json/wp/v2/posts",
@@ -68,9 +68,9 @@
     "count_drop_guard": {
       "status": "fresh",
       "threshold": ">70% source-count collapse",
-      "previous_good_count": 76,
+      "previous_good_count": 77,
       "current_count": 77,
-      "minimum_allowed_count": 22
+      "minimum_allowed_count": 23
     }
   },
   "count": 77,

@@ -61,8 +61,8 @@
     }
   },
   "schema_version": 1,
-  "generated": "2026-10-29T07:00:27Z",
-  "generated_at": "2026-10-29T07:00:27Z",
+  "generated": "2026-10-29T08:28:12Z",
+  "generated_at": "2026-10-29T08:28:12Z",
   "sources": {
     "covered": [
       {
@@ -555,18 +555,6 @@
     ],
     "source_candidates": [
       {
-        "id": "tender:buyer:fjallabyggð",
-        "name": "Fjallabyggð",
-        "suggested_feed": "tenders_all",
-        "suggested_lane": "tender",
-        "evidence_url": "https://www.utbodsvefur.is/fjallabyggd-snjomokstur-og-halkuvarnir-2026-2029/",
-        "seen_count": 1,
-        "first_seen": "2026-10-06T07:00:27Z",
-        "last_seen": "2026-10-22T07:00:26Z",
-        "reason": "unknown buyer/source found in tender feed",
-        "status": "pending"
-      },
-      {
         "id": "tender:buyer:akranesbær",
         "name": "Akranesbær",
         "suggested_feed": "tenders_all",
@@ -577,7 +565,20 @@
         "last_seen": "2026-10-27T11:55:54Z",
         "reason": "exact candidate evidence excluded: electricity_purchase",
         "status": "out_of_scope_for_now",
-        "last_reviewed": "2026-10-29T07:00:27Z"
+        "last_reviewed": "2026-10-29T08:28:12Z"
+      },
+      {
+        "id": "tender:buyer:fjallabyggð",
+        "name": "Fjallabyggð",
+        "suggested_feed": "tenders_all",
+        "suggested_lane": "tender",
+        "evidence_url": "https://www.utbodsvefur.is/fjallabyggd-snjomokstur-og-halkuvarnir-2026-2029/",
+        "seen_count": 1,
+        "first_seen": "2026-10-06T07:00:27Z",
+        "last_seen": "2026-10-22T07:00:26Z",
+        "reason": "SW261029-I01: reviewed exact historical snow-clearing/de-icing service URL; not works. Genuine works/planning remain eligible.",
+        "status": "out_of_scope_for_now",
+        "last_reviewed": "2026-10-29T08:28:12Z"
       },
       {
         "id": "tender:buyer:sveitafélagið-árborg",
@@ -590,18 +591,18 @@
         "last_seen": "2026-10-22T07:00:26Z",
         "reason": "exact candidate evidence excluded: winter_service",
         "status": "out_of_scope_for_now",
-        "last_reviewed": "2026-10-29T07:00:27Z"
+        "last_reviewed": "2026-10-29T08:28:12Z"
       }
     ]
   },
-  "count": 162,
+  "count": 163,
   "counts_by_intelligence_type": {
     "active_tender": 8,
     "bid_opening": 31,
     "closed_tender": 2,
     "dynamic_purchasing_system": 6,
     "historical_award": 89,
-    "unverified_deadline": 26
+    "unverified_deadline": 27
   },
   "items": [
     {
@@ -3318,6 +3319,25 @@
       "url": "https://ted.europa.eu/en/notice/-/detail/715187-2026",
       "summary": "TED open Iceland construction contract notice; CPV 44211100, 45000000, 44211100, 45000000.",
       "source": "ted",
+      "intelligence_type": "unverified_deadline",
+      "is_open_opportunity": false,
+      "sector_tags": []
+    },
+    {
+      "reference": "",
+      "project": "Múlaþing óskar eftir tilboðum í verkefnið: Herðubreið, Austurvegur 4 á Seyðisfirði – Bókasafn og bæjarskrifstofur",
+      "buyer": "Múlaþing",
+      "notice_type": "Framkvæmd",
+      "deadline": "24.11.2026 kl. 14:00",
+      "deadline_local": "2026-11-24T14:00:00+00:00",
+      "deadline_utc": "2026-11-24T14:00:00+00:00",
+      "deadline_confirmed": false,
+      "posted_at": "2026-10-26T00:00:00+00:00",
+      "modified_at": null,
+      "url": "https://www.mulathing.is/is/frettir/mulathing-oskar-eftir-tilbodum-i-verkefnid-herdubreid-austurvegur-4-a-seydisfirdi-bokasafn-og-baejarskrifstofur",
+      "summary": "Verkið felst í að endurnýja innviði annarrar hæðar Herðubreiðar og koma þar fyrir bókasafni Seyðisfjarðar og bæjarskrifstofum. Ennfremur að smíða brunahólfandi veggi kringum stiga fyrstu hæðar, koma fyrir lyftu milli hæða og gera neyðarútgang frá annarri hæð til suðausturs. Innifalið í verkinu er allur frágangur innan- og utanhúss, endurnýjun lagna, þar með taldar hita-, neysluvatnslagnir, endurnýjun lýsingar, breyt…",
+      "source": "mulathing-utbod",
+      "deadline_year_inferred": true,
       "intelligence_type": "unverified_deadline",
       "is_open_opportunity": false,
       "sector_tags": []
