@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated": "2026-10-29T06:45:01Z",
+  "generated": "2026-10-29T08:21:49Z",
   "window": {
     "from": "2026-10-22",
     "to": "2026-10-29"
@@ -56,8 +56,8 @@
         }
       ],
       "counts_by_sector": {
-        "tourism-infrastructure": 12,
-        "aquaculture-fish-production": 3,
+        "tourism-infrastructure": 13,
+        "aquaculture-fish-production": 2,
         "datacentres-infrastructure": 1
       },
       "selection_policy": "Prioritise evidenced infrastructure/project signals; preserve general construction, competitors and Ístak; no quotas.",
@@ -207,6 +207,7 @@
       "https://www.veitur.is/frettir",
       "https://www.orkuveitan.is/um-or/frettir/",
       "https://ust.is/umhverfisstofnun/frettir/",
+      "https://www.kefairport.com/kefplus/projects/new-airport-hotel",
       "https://www.kefairport.is/frettir",
       "https://www.kadeco.is/frettir",
       "https://www.carbfix.com/news",
@@ -426,6 +427,22 @@
           "url": "https://www.dalvikurbyggd.is/frettir",
           "reason": "bounded news/agenda supplement only; resolutions and complete minutes discovery remain unverified"
         },
+        "uos-undated-0b66580c5f": {
+          "url": "https://uos.is/opinber-birting/akvordun-um-breytingu-a-starfsleyfi-matorku-ehf.-hrauni-vestan-grindavikur",
+          "reason": "notice publication date unverified; not emitted"
+        },
+        "uos-undated-dd456e6789": {
+          "url": "https://uos.is/opinber-birting/akvordun-um-breytingu-a-starfsleyfi-arnarlax-i-thorlakshofn-i-olfusi",
+          "reason": "notice publication date unverified; not emitted"
+        },
+        "uos-undated-ddabd623da": {
+          "url": "https://uos.is/opinber-birting/akvordun-um-breytingu-a-starfsleyfi-samherja-fiskeldis-ehf.-stad-grindavik",
+          "reason": "notice publication date unverified; not emitted"
+        },
+        "uos-undated-9e510b9e9d": {
+          "url": "https://uos.is/opinber-birting/akvordun-um-breytingu-a-starfsleyfi-kaldvikur-hf.-thorlakshofn-i-olfusi",
+          "reason": "notice publication date unverified; not emitted"
+        },
         "uos-discovery": {
           "url": "https://uos.is/opinber-birting",
           "reason": "bounded public-notice supplement; issued-permit archive and historical discovery not complete"
@@ -440,6 +457,10 @@
         },
         "datacenterdynamics-coverage": {
           "url": "https://www.datacenterdynamics.com/en/news/",
+          "reason": "bounded secondary trade supplement; historical/source completeness not established"
+        },
+        "landbasedaq-coverage": {
+          "url": "https://www.landbasedaq.com/",
           "reason": "bounded secondary trade supplement; historical/source completeness not established"
         },
         "samherji-operator-coverage": {
@@ -497,7 +518,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/3459",
         "seen_count": 1,
         "first_seen": "2026-10-28T14:29:46Z",
-        "last_seen": "2026-10-29T06:45:01Z",
+        "last_seen": "2026-10-29T08:21:49Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -509,7 +530,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/4410",
         "seen_count": 1,
         "first_seen": "2026-10-28T14:29:46Z",
-        "last_seen": "2026-10-29T06:45:01Z",
+        "last_seen": "2026-10-29T08:21:49Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -521,7 +542,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/3878",
         "seen_count": 1,
         "first_seen": "2026-10-28T14:29:46Z",
-        "last_seen": "2026-10-29T06:45:01Z",
+        "last_seen": "2026-10-29T08:21:49Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -542,10 +563,10 @@
         "name": "Umhverfis- og tæknisvið Uppsveita",
         "suggested_feed": "public-info-feed",
         "suggested_lane": "planning",
-        "evidence_url": "https://www.utu.is/auglysingar/skipulagsauglysing-birt-dags-15-oktober-2026/",
-        "seen_count": 6,
+        "evidence_url": "https://www.utu.is/auglysingar/skipulagsauglysing-birt-dags-29-oktober-2026/",
+        "seen_count": 13,
         "first_seen": "2026-10-16T06:45:01Z",
-        "last_seen": "2026-10-29T06:45:01Z",
+        "last_seen": "2026-10-29T08:21:49Z",
         "reason": "repeated unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -557,7 +578,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/5479",
         "seen_count": 1,
         "first_seen": "2026-10-28T14:29:46Z",
-        "last_seen": "2026-10-29T06:45:01Z",
+        "last_seen": "2026-10-29T08:21:49Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       }
@@ -606,6 +627,22 @@
           "url": "https://www.dalvikurbyggd.is/frettir",
           "reason": "bounded news/agenda supplement only; resolutions and complete minutes discovery remain unverified"
         },
+        "uos-undated-0b66580c5f": {
+          "url": "https://uos.is/opinber-birting/akvordun-um-breytingu-a-starfsleyfi-matorku-ehf.-hrauni-vestan-grindavikur",
+          "reason": "notice publication date unverified; not emitted"
+        },
+        "uos-undated-dd456e6789": {
+          "url": "https://uos.is/opinber-birting/akvordun-um-breytingu-a-starfsleyfi-arnarlax-i-thorlakshofn-i-olfusi",
+          "reason": "notice publication date unverified; not emitted"
+        },
+        "uos-undated-ddabd623da": {
+          "url": "https://uos.is/opinber-birting/akvordun-um-breytingu-a-starfsleyfi-samherja-fiskeldis-ehf.-stad-grindavik",
+          "reason": "notice publication date unverified; not emitted"
+        },
+        "uos-undated-9e510b9e9d": {
+          "url": "https://uos.is/opinber-birting/akvordun-um-breytingu-a-starfsleyfi-kaldvikur-hf.-thorlakshofn-i-olfusi",
+          "reason": "notice publication date unverified; not emitted"
+        },
         "uos-discovery": {
           "url": "https://uos.is/opinber-birting",
           "reason": "bounded public-notice supplement; issued-permit archive and historical discovery not complete"
@@ -620,6 +657,10 @@
         },
         "datacenterdynamics-coverage": {
           "url": "https://www.datacenterdynamics.com/en/news/",
+          "reason": "bounded secondary trade supplement; historical/source completeness not established"
+        },
+        "landbasedaq-coverage": {
+          "url": "https://www.landbasedaq.com/",
           "reason": "bounded secondary trade supplement; historical/source completeness not established"
         },
         "samherji-operator-coverage": {
@@ -802,12 +843,152 @@
       }
     }
   },
-  "count": 412,
+  "count": 416,
   "counts_by_intelligence_type": {
-    "public_record": 388,
-    "reference_tracker": 24
+    "public_record": 391,
+    "reference_tracker": 25
   },
   "items": [
+    {
+      "id": "utu:2610021",
+      "lane": "planning",
+      "source": "utu",
+      "entity": "Umhverfis- og tæknisvið Uppsveita",
+      "title": "Írafossstöð; Selfosslína 1 – endurnýjun og lagning jarðstrengs; Tenging við Írafossvirkjun L168922; Deiliskipulagsbreyting – 2610021",
+      "case_number": "2610021",
+      "case_ordinal": 4,
+      "date": "2026-10-29",
+      "review_deadline": "2026-12-11",
+      "status": "consultation",
+      "summary": "Sveitarstjórn Skeiða- og Gnúpverjahrepps samþykkti á fundi sínum þann 21. október 2026 að auglýsa breytingu á deiliskipulagi sem felst í að núverandi 66 kV loftlína Selfosslínu 1 frá Ljósafossstöð L168926 að mastri nr. 8 sunnan Írafossstöðvar L168922 verði lögð í jörð sem 132 kV jarðstrengur. Jafnframt er gert ráð fyrir breytingum á tengivirki við Írafossstöð, þar á meðal stækkun byggingarreits fyrir tengivirkishús og að hluti Sogslínu 2 verði lagður í jörð. Deiliskipulagsbreytingin felur þannig fyrst og fremst í sér að núverandi raforkumannvirki verði endurnýjuð og hluti þeirra færður í jörð, í samræmi við fyrirhugaða uppbyggingu raforkukerfisins á svæðinu. Gert er ráð fyrir að áhrif framkvæmdarinnar verði að mestu tímabundin og að vandað verði til frágangs að framkvæmdum loknum. UPPDRÁTTUR GREINARGERÐ",
+      "url": "https://www.utu.is/auglysingar/skipulagsauglysing-birt-dags-29-oktober-2026/",
+      "keywords_matched": [
+        "skipulag"
+      ],
+      "resolution_verified": false,
+      "sector_tags": [],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "utu:2610003",
+      "lane": "planning",
+      "source": "utu",
+      "entity": "Umhverfis- og tæknisvið Uppsveita",
+      "title": "Kílhraun land L191805; Úr landbúnaðarsvæði í iðnaðarsvæði; Nýjar heitavatnsborholur; Aðalskipulagsbreyting – 2610003",
+      "case_number": "2610003",
+      "case_ordinal": 1,
+      "date": "2026-10-29",
+      "review_deadline": "2026-11-20",
+      "status": "consultation",
+      "summary": "Sveitarstjórn Skeiða- og Gnúpverjahrepps samþykkti á fundi sínum þann 21. október að kynna skipulagslýsingu á aðalskipulagi fyrir Kílhraun land L191805, í Skeiða- og Gnúpverjahreppi. Í breytingunni felst að afmarkað verði um 12,2 ha iðnaðarsvæði vegna fyrirhugaðrar heitavatnsöflunar, þar með talið nýrra heitavatnsborhola og mannvirkja og lagna þeim tengdum. SKIPULAGSLÝSING Samkvæmt 40. gr. skipulagslaga nr. 123/2010 eru hér kynntar tillögur eftirfarandi deiliskipulagsáætlana:",
+      "url": "https://www.utu.is/auglysingar/skipulagsauglysing-birt-dags-29-oktober-2026/",
+      "keywords_matched": [
+        "skipulag"
+      ],
+      "resolution_verified": false,
+      "sector_tags": [],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "utu:2609028",
+      "lane": "planning",
+      "source": "utu",
+      "entity": "Umhverfis- og tæknisvið Uppsveita",
+      "title": "Vaðholt 2 L219744 í landi Ormsstaða; Sameining lóða; Deiliskipulag – 2609028",
+      "case_number": "2609028",
+      "case_ordinal": 2,
+      "date": "2026-10-29",
+      "review_deadline": "2026-11-20",
+      "status": "consultation",
+      "summary": "Sveitarstjórn Grímsnes- og Grafningshrepps samþykkti á fundi sínum þann 21. október 2026 að kynna nýtt deiliskipulag sem tekur til Vaðholts 2, L219744 . Í breytingunni felst meðal annars að lóðir nr. 4, 6, 8 og 10 sameinast lóðinni Vaðholt 2. UPPDRÁTTUR",
+      "url": "https://www.utu.is/auglysingar/skipulagsauglysing-birt-dags-29-oktober-2026/",
+      "keywords_matched": [
+        "skipulag"
+      ],
+      "resolution_verified": false,
+      "sector_tags": [],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "utu:2609019",
+      "lane": "planning",
+      "source": "utu",
+      "entity": "Umhverfis- og tæknisvið Uppsveita",
+      "title": "Brattholt 3 L223782; Byggingarmagn aukið; Deiliskipulagsbreyting – 2609019",
+      "case_number": "2609019",
+      "case_ordinal": 6,
+      "date": "2026-10-29",
+      "review_deadline": "2026-12-11",
+      "status": "consultation",
+      "summary": "Sveitarstjórn Bláskógabyggðar samþykkti á fundi sínum þann 21. október 2026 að auglýsa breytingu á deiliskipulagi sem tekur til Brattholts 3, L223782. Í breytingunni felst breyting á legu byggingarreits, aukning byggingarheimilda og uppfærsla skilmála til samræmis við gildandi lög og reglugerðir. UPPDRÁTTUR",
+      "url": "https://www.utu.is/auglysingar/skipulagsauglysing-birt-dags-29-oktober-2026/",
+      "keywords_matched": [
+        "skipulag"
+      ],
+      "resolution_verified": false,
+      "sector_tags": [],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "utu:2608025",
+      "lane": "planning",
+      "source": "utu",
+      "entity": "Umhverfis- og tæknisvið Uppsveita",
+      "title": "Skálmholt land D L190542; Skilgreining landbúnaðarlands; Deiliskipulag – 2608025",
+      "case_number": "2608025",
+      "case_ordinal": 3,
+      "date": "2026-10-29",
+      "review_deadline": "2026-11-20",
+      "status": "consultation",
+      "summary": "Sveitarstjórn Flóahrepps samþykkti á fundi sínum þann 20. október 2026 að kynna nýtt deiliskipulag sem nær til 9.7 ha. spildu Skálmholt úr landi D, L 190542 í landi Skálmholts í Flóahreppi. Á skipulagssvæðinu eru þrír byggingareitir. Um miðja landareignina er byggingareitur A, þar sem gert er ráð fyrir tveimur íbúðarhúsum, verkstæði, geymslu og gróðurhúsi. UPPDRÁTTUR Samkvæmt 43. gr. skipulagslaga nr. 123/2010 eru hér auglýstar tillögur eftirfarandi deiliskipulagsbreytinga:",
+      "url": "https://www.utu.is/auglysingar/skipulagsauglysing-birt-dags-29-oktober-2026/",
+      "keywords_matched": [
+        "skipulag"
+      ],
+      "resolution_verified": false,
+      "sector_tags": [],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "utu:2606011",
+      "lane": "planning",
+      "source": "utu",
+      "entity": "Umhverfis- og tæknisvið Uppsveita",
+      "title": "Sigöldustöð; Breyttir þættir og útfærsla mannvirkja; Deiliskipulagsbreyting – 2606011",
+      "case_number": "2606011",
+      "case_ordinal": 7,
+      "date": "2026-10-29",
+      "review_deadline": "2026-12-11",
+      "status": "consultation",
+      "summary": "Hreppsnefnd Ásahrepps samþykkti á fundi sínum þann 21. október 2026 að auglýsa breytingu á deiliskipulagi sem tekur til Sigöldustöðvar í Ásahreppi og Rangárþingi ytra. Gerð er breyting á ýmsum þáttum vegna nákvæmari útfærslu mannvirkja en þar helst eru að bætt er við lóð og byggingarreitum fyrir vinnubúðir, skemmu, vatnstanka og þjónustuhús við vatnsból. Nokkrum aðkomuvegum er hnikað til á uppdrætti, s.s. að aðrennslisskurði, auk þess sem hreinsivirki er bætt við á byggingarreit B1. Þá eru vatnsból og lagnir að vatnstanki sýnd á uppdrætti og vatnsverndarsvæði stækkað. YFIRLITSMYND UPPDRÁTTUR GREINARGERÐ Samkvæmt 2. mgr. 36. gr. skipulagslaga nr. 123/2010 er hér kynnt niðurstaða sveitarstjórnar vegna eftirfarandi máls:",
+      "url": "https://www.utu.is/auglysingar/skipulagsauglysing-birt-dags-29-oktober-2026/",
+      "keywords_matched": [
+        "skipulag"
+      ],
+      "resolution_verified": false,
+      "sector_tags": [],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "utu:2403043",
+      "lane": "planning",
+      "source": "utu",
+      "entity": "Umhverfis- og tæknisvið Uppsveita",
+      "title": "Ljósafossskóli L168468; Skilmálabreyting; Aðalskipulagsbreyting -2403043",
+      "case_number": "2403043",
+      "case_ordinal": 8,
+      "date": "2026-10-29",
+      "review_deadline": null,
+      "status": "consultation",
+      "summary": "Sveitarstjórn Grímsnes- og Grafningshrepps samþykkir samhljóða breytingu á aðalskipulagi eftir auglýsingu. Sveitarstjórn telur að brugðist hafi verið við þeim athugasemdum sem bárust á auglýsingatíma skipulagsbreytingarinnar með fullnægjandi hætti innan gagnanna. Sveitarstjórn samþykkir jafnframt að óskað verði eftir því við Húsnæðis-, mannvirkja- og skipulagsstofnun að aðalskipulagsbreytingin taki gildi með birtingu auglýsingar í B-deild Stjórnartíðinda í samræmi við 3. mgr. 32. gr. skipulagslaga nr. 123/2010. GREINARGERÐ Ofangreindar skipulagstillögur liggja frammi til kynningar á skrifstofu skipulagsfulltrúa, Hverabraut 6, Laugarvatni á skrifstofutíma embættisins. Að auki er hægt að nálgast tillögur á vefslóðinni www.utu.is og á skipulagsgátt Skipulagsstofnunar skipulagsgatt.is/. Mál 1. – 3. innan auglýsingar eru skipulagsmál í kynningu frá 29.10.2026 með athugasemdarfresti til og með 20.11.2026. Mál 4. – 7. innan auglýsingar eru skipulagsmál í auglýsingu frá 29.10.2026 með athugasemdarfresti til og með 11.12.2026. Mál 8. Kynnt niðurstaða sveitarstjórnar. Athugasemdum og ábendingum skal skila inn á skipulagsgátt Skipulagsstofnunar Skipulagsgáttin undir viðeigandi máli. Einnig m…",
+      "url": "https://www.utu.is/auglysingar/skipulagsauglysing-birt-dags-29-oktober-2026/",
+      "keywords_matched": [
+        "skipulag"
+      ],
+      "resolution_verified": false,
+      "sector_tags": [],
+      "intelligence_type": "public_record"
+    },
     {
       "id": "skgatt:1251/2026",
       "lane": "planning",
@@ -987,68 +1168,6 @@
         "opinber innkaup"
       ],
       "evidence_type": "first_party",
-      "sector_tags": [],
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "uos:ddabd623da4f413e06",
-      "lane": "eia",
-      "source": "uos",
-      "entity": "Umhverfis- og orkustofnun",
-      "title": "26. október 2026 Ákvörðun um breytingu á starfsleyfi Samherja fiskeldis ehf. Stað Grindavík Breyting á starfsleyfi Eldi sjávar- og ferskvatnslífvera Samherji fiskeldi Skoða",
-      "date": "2026-10-26",
-      "summary": "Umhverfis- og orkustofnun hefur tekið ákvörðun um að breyta starfsleyfi Samherja fiskeldis ehf. Stað Grindavík þannig að í starfsleyfinu séu ákvæði um vöktun áhrifa starfseminnar á vatnshlot og umhverfismarkmið þeirra á grundvelli 2. mgr. 22. gr. laga um stjórn vatnamála nr. 36/2011, sbr. 2. mgr. 6. gr. laga um hollustuhætti og mengunarvarnir nr. 7/1998. Tillaga að starfsleyfi var auglýst frá 8. september til 6. október sl. Engar athugasemdir bárust á auglýsingatíma. Ákvörðun Umhverfis- og orkustofnunar er kæranleg til úrskurðarnefndar umhverfis- og auðlindamála innan eins mánaðar frá birtingu ákvörðunar stofnunarinnar skv. 1. mgr. 65. gr. laga nr. 7/1998 um hollustuhætti og mengunarvarnir , sbr. 4. gr. laga nr. 130/2011 um úrskurðarnefnd umhverfis- og auðlindamála . Tengd skjöl Ákvörðun um breytingu á starfsleyfi Starfsleyfi Tengt efni Ákvörðun um breytingu á starfsleyfi Samherja fiskeldis ehf. Núpsmýri Öxarfirði Breyting á starfsleyfi Eldi sjávar- og ferskvatnslífvera Samherji fiskeldi",
-      "url": "https://uos.is/opinber-birting/akvordun-um-breytingu-a-starfsleyfi-samherja-fiskeldis-ehf.-stad-grindavik",
-      "status": "public_notice",
-      "evidence_kind": "first_party_environmental_notice",
-      "sector_tags": [
-        "aquaculture-fish-production"
-      ],
-      "sector_evidence_role": "project_or_sector_context",
-      "sector_subtopics": [
-        "aquaculture-facility-unspecified"
-      ],
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "uos:dd456e6789e91ae613",
-      "lane": "eia",
-      "source": "uos",
-      "entity": "Umhverfis- og orkustofnun",
-      "title": "26. október 2026 Ákvörðun um breytingu á starfsleyfi Arnarlax í Þorlákshöfn í Ölfusi Breyting á starfsleyfi Eldi sjávar- og ferskvatnslífvera Arnarlax Skoða",
-      "date": "2026-10-26",
-      "summary": "Umhverfis- og orkustofnun hefur tekið ákvörðun um að breyta starfsleyfi Arnarlax í Þorlákshöfn þannig að í starfsleyfinu séu ákvæði um vöktun áhrifa starfseminnar á vatnshlot og umhverfismarkmið þeirra á grundvelli 2. mgr. 22. gr. laga um stjórn vatnamála nr. 36/2011, sbr. 2. mgr. 6. gr. laga um hollustuhætti og mengunarvarnir nr. 7/1998. Tillaga að starfsleyfi var auglýst frá 8. september til 6. október sl. Engar athugasemdir bárust á auglýsingatíma. Ákvörðun Umhverfis- og orkustofnunar er kæranleg til úrskurðarnefndar umhverfis- og auðlindamála innan eins mánaðar frá birtingu ákvörðunar stofnunarinnar skv. 1. mgr. 65. gr. laga nr. 7/1998 um hollustuhætti og mengunarvarnir , sbr. 4. gr. laga nr. 130/2011 um úrskurðarnefnd umhverfis- og auðlindamála . Tengd skjöl Ákvörðun um breytingu á starfsleyfi Starfsleyfi Tengt efni Ákvörðun um breytingu á starfsleyfi Arnarlax ehf. Fossfirði í Arnarfirði Breyting á starfsleyfi Eldi sjávar- og ferskvatnslífvera Arnarlax",
-      "url": "https://uos.is/opinber-birting/akvordun-um-breytingu-a-starfsleyfi-arnarlax-i-thorlakshofn-i-olfusi",
-      "status": "public_notice",
-      "evidence_kind": "first_party_environmental_notice",
-      "sector_tags": [],
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "uos:9e510b9e9d88b2adf1",
-      "lane": "eia",
-      "source": "uos",
-      "entity": "Umhverfis- og orkustofnun",
-      "title": "26. október 2026 Ákvörðun um breytingu á starfsleyfi Kaldvíkur hf. Þorlákshöfn í Ölfusi Breyting á starfsleyfi Eldi sjávar- og ferskvatnslífvera Kaldvík hf. Skoða",
-      "date": "2026-10-26",
-      "summary": "Umhverfis- og orkustofnun hefur tekið ákvörðun um að breyta starfsleyfi Kaldvíkur hf. Þorlákshöfn í Ölfusi þannig að í starfsleyfinu séu ákvæði um vöktun áhrifa starfseminnar á vatnshlot og umhverfismarkmið þeirra á grundvelli 2. mgr. 22. gr. laga um stjórn vatnamála nr. 36/2011, sbr. 2. mgr. 6. gr. laga um hollustuhætti og mengunarvarnir nr. 7/1998. Tillaga að starfsleyfi var auglýst frá 8. september til 6. október sl. Engar athugasemdir bárust á auglýsingatíma. Ákvörðun Umhverfis- og orkustofnunar er kæranleg til úrskurðarnefndar umhverfis- og auðlindamála innan eins mánaðar frá birtingu ákvörðunar stofnunarinnar skv. 1. mgr. 65. gr. laga nr. 7/1998 um hollustuhætti og mengunarvarnir , sbr. 4. gr. laga nr. 130/2011 um úrskurðarnefnd umhverfis- og auðlindamála . Tengd skjöl Ákvörðun um breytingu á starfsleyfi Starfsleyfi Tengt efni Ákvörðun um breytingu á starfsleyfi Kaldvíkur hf. Innra Lóni Kelduhverfi Breyting á starfsleyfi Eldi sjávar- og ferskvatnslífvera Kaldvík hf.",
-      "url": "https://uos.is/opinber-birting/akvordun-um-breytingu-a-starfsleyfi-kaldvikur-hf.-thorlakshofn-i-olfusi",
-      "status": "public_notice",
-      "evidence_kind": "first_party_environmental_notice",
-      "sector_tags": [],
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "uos:0b66580c5ff35d6cf3",
-      "lane": "eia",
-      "source": "uos",
-      "entity": "Umhverfis- og orkustofnun",
-      "title": "26. október 2026 Ákvörðun um breytingu á starfsleyfi Matorku ehf. Hrauni vestan Grindavíkur Breyting á starfsleyfi Eldi sjávar- og ferskvatnslífvera Matorka ehf. Skoða",
-      "date": "2026-10-26",
-      "summary": "Umhverfis- og orkustofnun hefur tekið ákvörðun um að breyta starfsleyfi Matorku ehf. Hrauni vestan Grindavíkur þannig að í starfsleyfinu séu ákvæði um vöktun áhrifa starfseminnar á vatnshlot og umhverfismarkmið þeirra á grundvelli 2. mgr. 22. gr. laga um stjórn vatnamála nr. 36/2011, sbr. 2. mgr. 6. gr. laga um hollustuhætti og mengunarvarnir nr. 7/1998. Tillaga að starfsleyfi var auglýst frá 8. september til 6. október sl. Engar athugasemdir bárust á auglýsingatíma. Ákvörðun Umhverfis- og orkustofnunar er kæranleg til úrskurðarnefndar umhverfis- og auðlindamála innan eins mánaðar frá birtingu ákvörðunar stofnunarinnar skv. 1. mgr. 65. gr. laga nr. 7/1998 um hollustuhætti og mengunarvarnir , sbr. 4. gr. laga nr. 130/2011 um úrskurðarnefnd umhverfis- og auðlindamála . Tengd skjöl Ákvörðun um breytingu á starfsleyfi Starfsleyfi Tengt efni Tillaga að breytingu á starfsleyfi Matorku ehf. Hrauni vestan Grindavíkur Breyting á starfsleyfi Eldi sjávar- og ferskvatnslífvera Matorka ehf.",
-      "url": "https://uos.is/opinber-birting/akvordun-um-breytingu-a-starfsleyfi-matorku-ehf.-hrauni-vestan-grindavikur",
-      "status": "public_notice",
-      "evidence_kind": "first_party_environmental_notice",
       "sector_tags": [],
       "intelligence_type": "public_record"
     },
@@ -7389,6 +7508,28 @@
       ],
       "sector_tags": [],
       "sector_evidence_role": "reference_only",
+      "intelligence_type": "reference_tracker"
+    },
+    {
+      "id": "announcement:kef-hotel-project:new-airport-hotel",
+      "lane": "announcement",
+      "source": "kef-hotel-project",
+      "title": "KEF airport hotel — early development reference",
+      "entity": "Isavia / Keflavíkurflugvöllur",
+      "status": "reference",
+      "summary": "Isavia is exploring options for a hotel at KEF.",
+      "url": "https://www.kefairport.com/kefplus/projects/new-airport-hotel",
+      "keywords_matched": [
+        "construction",
+        "hotel",
+        "tourism-infrastructure"
+      ],
+      "evidence_kind": "first_party_project_reference",
+      "related_buyer": "Isavia",
+      "sector_tags": [
+        "tourism-infrastructure"
+      ],
+      "sector_evidence_role": "undated_project_reference",
       "intelligence_type": "reference_tracker"
     },
     {
