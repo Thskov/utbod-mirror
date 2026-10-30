@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated": "2026-10-29T08:17:48Z",
+  "generated": "2026-10-30T06:30:01Z",
   "window": {
-    "from": "2026-09-29",
-    "to": "2026-10-29"
+    "from": "2026-09-30",
+    "to": "2026-10-30"
   },
   "coverage": {
     "industry_focus": {
@@ -56,9 +56,9 @@
         }
       ],
       "counts_by_sector": {
-        "tourism-infrastructure": 1,
-        "aquaculture-fish-production": 3,
-        "datacentres-infrastructure": 2
+        "tourism-infrastructure": 2,
+        "aquaculture-fish-production": 4,
+        "datacentres-infrastructure": 1
       },
       "selection_policy": "Prioritise evidenced infrastructure/project signals; preserve general construction, competitors and Ístak; no quotas.",
       "support_infrastructure_rule": "Requires explicit sector anchor in the same record; unlinked grid/power/fibre remains general infrastructure.",
@@ -406,11 +406,10 @@
   },
   "sources": {
     "not_covered": {
-      "byggingar": "Incomplete: 15 relevant records rejected without verified publication dates.",
+      "byggingar": "Incomplete: 16 relevant records rejected without verified publication dates.",
       "vb": "Incomplete: 6 relevant records rejected without verified publication dates.",
       "fiskifrettir": "Incomplete: 1 relevant records rejected without verified publication dates.",
-      "visir": "Incomplete: 1 relevant records rejected without verified publication dates.",
-      "visir-innherji": "Incomplete: 3 relevant records rejected without verified publication dates.",
+      "visir-innherji": "Incomplete: 4 relevant records rejected without verified publication dates.",
       "landsvirkjun": "Incomplete: 20 relevant records rejected without verified publication dates.",
       "landsvirkjun-utbod": "Incomplete: 23 relevant records rejected without verified publication dates.",
       "landsnet-news": "Incomplete: no verified in-window relevant records extracted.",
@@ -418,7 +417,7 @@
       "vegagerdin": "Incomplete: 29 relevant records rejected without verified publication dates.",
       "vegagerdin-utbod": "Incomplete: 28 relevant records rejected without verified publication dates.",
       "vegagerdin-framkvaemdafrettir": "Incomplete: 28 relevant records rejected without verified publication dates.",
-      "reykjavik": "Incomplete: 12 relevant records rejected without verified publication dates.",
+      "reykjavik": "Incomplete: 13 relevant records rejected without verified publication dates.",
       "fsre-detail-1": "Incomplete detail https://www.fsre.is/s/fsre/thjonusta: HTTP Error 404: Not Found",
       "fsre-detail-2": "Incomplete detail https://www.fsre.is/s/fsre/auglysingar-og-utbod: HTTP Error 404: Not Found",
       "fsre-detail-3": "Incomplete detail https://www.fsre.is/s/fsre/eignasafn: HTTP Error 404: Not Found",
@@ -461,14 +460,192 @@
         "evidence_url": "https://www.landbasedaq.com/iceland-salmon-garden-samherji/icelands-salmon-garden-will-plant-its-first-fish-next-spring/2196404",
         "seen_count": 1,
         "first_seen": "2026-10-29T08:17:48Z",
-        "last_seen": "2026-10-29T08:17:48Z",
+        "last_seen": "2026-10-30T06:30:01Z",
         "reason": "unknown entity found in generated news items",
         "status": "pending"
       }
     ]
   },
-  "count": 88,
+  "count": 90,
   "items": [
+    {
+      "id": "news:visir-vidskipti:noi-sirius-hlytur-sjalfbaerniverdlaunin-2026",
+      "lane": "news",
+      "category": "project",
+      "title": "Nói Síríus hlýtur sjálfbærniverðlaunin 2026",
+      "entity": "visir.is / Viðskipti",
+      "date": "2026-10-29",
+      "summary": "Nói Síríus hlýtur hvatningarverðlaun Creditinfo og Festu á sviði sjálfbærni árið 2026 fyrir markvisst og árangursríkt starf að félagslegri sjálfbærni. Með því að aðlaga verkefni, þjálfun og vinnuumhverfi að þörfum einstaklinga með frábrugðna starfsorku hefur fyrirtækið skapað varanleg störf innan hefðbundinnar framleiðslu.",
+      "url": "https://www.visir.is/g/20262954189d/noi-sirius-hlytur-sjalfbaerniverdlaunin-2026",
+      "outlet": "visir.is / Viðskipti",
+      "is_new": true,
+      "sector_tags": []
+    },
+    {
+      "id": "news:reykjavik:naustin-verda-vistgata-sem-opnar-i-desember",
+      "lane": "news",
+      "category": "istak",
+      "title": "Naustin verða vistgata sem opnar í desember",
+      "entity": "Reykjavíkurborg",
+      "date": "2026-10-29",
+      "summary": "29. október 2026 Naustin verða vistgata sem opnar í desember",
+      "url": "https://reykjavik.is/frettir/2026/naustin-verda-vistgata-sem-opnar-i-desember",
+      "outlet": "Reykjavíkurborg",
+      "is_new": true,
+      "sector_tags": []
+    },
+    {
+      "id": "news:braggi:skipulagsnefnd-samthykkti-ad-auglysa-breytingu-a-deiliskipulagi-reitarvegar-10-1",
+      "lane": "news",
+      "category": "investment",
+      "title": "Skipulagsnefnd samþykkti að auglýsa breytingu á deiliskipulagi Reitarvegar 10-12 í Stykkishólmi",
+      "entity": "braggi.is",
+      "date": "2026-10-29",
+      "summary": "Skipulagsnefnd í Stykkishólmi hefur samþykkt að auglýsa breytingu á deiliskipulagi Reitarvegar 10-12. Bæjarráð hefur staðfest afgreiðsluna með fyrirvara um að ekki skapist kostnaðarauki fyrir sveitarfélagið vegna gatnagerðar.",
+      "url": "https://braggi.is/skipulagsnefnd-samthykkti-ad-auglysa-breytingu-a-deiliskipulagi-reitarvegar-10-1/",
+      "outlet": "braggi.is",
+      "is_new": true,
+      "sector_tags": []
+    },
+    {
+      "id": "news:braggi:samthykktar-breytingar-a-skipulagi-mosfellsbaejar-fyrir-sunnukrika-5",
+      "lane": "news",
+      "category": "investment",
+      "title": "Samþykktar breytingar á skipulagi Mosfellsbæjar fyrir Sunnukrika 5",
+      "entity": "braggi.is",
+      "date": "2026-10-29",
+      "summary": "Skipulags- og umhverfisnefnd Mosfellsbæjar hefur samþykkt breytingar á aðalskipulagi og deiliskipulagi vegna Sunnukrika 5 sem heimila uppbyggingu á allt að 40 íbúðum á lóðinni.",
+      "url": "https://braggi.is/samthykktar-breytingar-a-skipulagi-mosfellsbaejar-fyrir-sunnukrika-5/",
+      "outlet": "braggi.is",
+      "is_new": true,
+      "sector_tags": []
+    },
+    {
+      "id": "news:braggi:samthykkt-nytt-husnaedi-fyrir-leikskolana-hladhamra-og-hlid-i-mosfellsbae",
+      "lane": "news",
+      "category": "investment",
+      "title": "Samþykkt nýtt húsnæði fyrir leikskólana Hlaðhamra og Hlíð í Mosfellsbæ",
+      "entity": "braggi.is",
+      "date": "2026-10-29",
+      "summary": "Bæjarstjórn Mosfellsbæjar samþykkti að rífa núverandi húsnæði leikskólans Hlaðhamra og byggja nýtt húsnæði tengt leikskólanum Hlíð. Ákvörðunin var tekin með fimm atkvæðum. Eignasjóði ásamt fræðslu- og frístundasviði er falið að undirbúa uppbyggingu l",
+      "url": "https://braggi.is/samthykkt-nytt-husnaedi-fyrir-leikskolana-hladhamra-og-hlid-i-mosfellsbae/",
+      "outlet": "braggi.is",
+      "is_new": true,
+      "sector_tags": []
+    },
+    {
+      "id": "news:braggi:osk-ss-byggis-um-staekkun-halanda-til-skodunar-hja-baenum",
+      "lane": "news",
+      "category": "investment",
+      "title": "Ósk SS Byggis um stækkun Hálanda til skoðunar hjá bænum",
+      "entity": "braggi.is",
+      "date": "2026-10-29",
+      "summary": "Skipulagsráð Akureyrarbæjar hefur frestað afgreiðslu á erindi SS Byggis ehf. um kaup eða úthlutun á landi til stækkunar á frístundabyggðinni í Hálöndum. Málinu hefur verið vísað til umsagnar hjá umhverfis- og mannvirkjaráði og Norðurorku.",
+      "url": "https://braggi.is/osk-ss-byggis-um-staekkun-halanda-til-skodunar-hja-baenum/",
+      "outlet": "braggi.is",
+      "is_new": true,
+      "sector_tags": []
+    },
+    {
+      "id": "news:braggi:mosfellsbaer-samthykkir-verdfyrirspurn-vegna-endurnyjunar-a-akurholti",
+      "lane": "news",
+      "category": "project",
+      "title": "Mosfellsbær samþykkir verðfyrirspurn vegna endurnýjunar á Akurholti",
+      "entity": "braggi.is",
+      "date": "2026-10-29",
+      "summary": "Bæjarráð Mosfellsbæjar hefur samþykkt að ráðist verði í verðfyrirspurn vegna hönnunar og gerðar útboðsgagna fyrir endurnýjun á Akurholti. Verkefnið felur í sér endurbætur á götu, gangstéttum og veitulögnum.",
+      "url": "https://braggi.is/mosfellsbaer-samthykkir-verdfyrirspurn-vegna-endurnyjunar-a-akurholti/",
+      "outlet": "braggi.is",
+      "is_new": true,
+      "sector_tags": []
+    },
+    {
+      "id": "news:braggi:landeigendur-fa-adild-ad-byggingarleyfisumsokn-fyrir-sjokviar-i-seydis-a32e5ae9",
+      "lane": "news",
+      "category": "industrial-demand",
+      "title": "Landeigendur fá aðild að byggingarleyfisumsókn fyrir sjókvíar í Seyðisfirði",
+      "entity": "braggi.is",
+      "date": "2026-10-29",
+      "summary": "Fyrirtækið Kaldvík hyggst setja upp mannvirki fyrir sjókvíaeldi í Seyðisfirði og sækja þarf um byggingarleyfi fyrir framkvæmdinni hjá Húsnæðis- og mannvirkjastofnun (HMS). Úrskurðarnefnd umhverfis- og auðlindamála úrskurðaði í síðustu viku að eigendu",
+      "url": "https://braggi.is/landeigendur-fa-adild-ad-byggingarleyfisumsokn-fyrir-sjokviar-i-seydis-a32e5ae9/",
+      "outlet": "braggi.is",
+      "is_new": true,
+      "sector_tags": []
+    },
+    {
+      "id": "news:braggi:isafjardarbaer-felur-baejarstjora-ad-klara-samning-um-lodauthlutun-vid-hauganes",
+      "lane": "news",
+      "category": "industrial-demand",
+      "title": "Ísafjarðarbær felur bæjarstjóra að klára samning um lóðaúthlutun við Hauganes",
+      "entity": "braggi.is",
+      "date": "2026-10-29",
+      "summary": "Bæjarráð Ísafjarðarbæjar hefur falið bæjarstjóra að ganga frá samningi um lóðaúthlutun við Hauganes. Þar er áformuð uppbygging á laugum, hóteli og heilsuræktarstöð.",
+      "url": "https://braggi.is/isafjardarbaer-felur-baejarstjora-ad-klara-samning-um-lodauthlutun-vid-hauganes/",
+      "outlet": "braggi.is",
+      "is_new": true,
+      "sector_tags": [
+        "tourism-infrastructure"
+      ],
+      "sector_evidence_role": "project_or_sector_context"
+    },
+    {
+      "id": "news:braggi:husfelagi-var-heimilt-ad-innheimta-framkvaemdagjold-af-odrum-afd045d6",
+      "lane": "news",
+      "category": "project",
+      "title": "Húsfélagi var heimilt að innheimta framkvæmdagjöld af öðrum eiganda fasteignar",
+      "entity": "braggi.is",
+      "date": "2026-10-29",
+      "summary": "Landsréttur felldi úr gildi frávísunarúrskurð héraðsdóms í máli húsfélags sem krafðist greiðslu á ógreiddum húsfélags- og framkvæmdagjöldum ásamt staðfestingu á lögveðrétti. Landsréttur taldi að húsfélaginu væri heimilt að beina fjárkröfunni að aðein",
+      "url": "https://braggi.is/husfelagi-var-heimilt-ad-innheimta-framkvaemdagjold-af-odrum-afd045d6/",
+      "outlet": "braggi.is",
+      "is_new": true,
+      "sector_tags": []
+    },
+    {
+      "id": "news:braggi:frestad-afgreidsla-um-stofnframlag-til-byggingar-a-namsmannaibudum-i-borgarbyggd",
+      "lane": "news",
+      "category": "project",
+      "title": "Frestað afgreiðsla um stofnframlag til byggingar á námsmannaíbúðum í Borgarbyggð",
+      "entity": "braggi.is",
+      "date": "2026-10-29",
+      "summary": "Byggðarráð Borgarbyggðar hefur frestað afgreiðslu á umsókn Nemendagarða búvísindadeildar LBHÍ um stofnframlag vegna byggingar á 14 námsmannaíbúðum við Skólaflöt 9. Óskað hefur verið eftir frekari upplýsingum um framkvæmdina og tengd gjöld.",
+      "url": "https://braggi.is/frestad-afgreidsla-um-stofnframlag-til-byggingar-a-namsmannaibudum-i-borgarbyggd/",
+      "outlet": "braggi.is",
+      "is_new": true,
+      "sector_tags": []
+    },
+    {
+      "id": "news:braggi:deilt-um-leyfi-til-grunnvatnstoku-og-jardsjosvinnslu-i-sveit-e4c392d2",
+      "lane": "news",
+      "category": "industrial-demand",
+      "title": "Deilt um leyfi til grunnvatnstöku og jarðsjósvinnslu í Sveitarfélaginu Vogum",
+      "entity": "braggi.is",
+      "date": "2026-10-29",
+      "summary": "Málið varðaði kröfu landeigenda um ógildingu á nýtingarleyfi Orkustofnunar til handa fyrirtæki vegna vinnslu á fersku grunnvatni og jarðsjó til fiskeldis. Stefnendur töldu leyfisveitinguna brjóta gegn lögum um stjórn vatnamála, mat á umhverfisáhrifum",
+      "url": "https://braggi.is/deilt-um-leyfi-til-grunnvatnstoku-og-jardsjosvinnslu-i-sveit-e4c392d2/",
+      "outlet": "braggi.is",
+      "is_new": true,
+      "sector_tags": [
+        "aquaculture-fish-production"
+      ],
+      "sector_evidence_role": "project_or_sector_context",
+      "sector_subtopics": [
+        "aquaculture-facility-unspecified"
+      ]
+    },
+    {
+      "id": "news:braggi:aaetlud-forgangsrodun-framkvaemda-vid-yfirlagnir-og-innvidi-i-eldri-hverfum-mosf",
+      "lane": "news",
+      "category": "project",
+      "title": "Áætluð forgangsröðun framkvæmda við yfirlagnir og innviði í eldri hverfum Mosfellsbæjar 2027-2030 kynnt",
+      "entity": "braggi.is",
+      "date": "2026-10-29",
+      "summary": "Bæjarstjórn Mosfellsbæjar hefur kynnt áætlaða forgangsröðun framkvæmda við yfirlagnir og innviði í eldri hverfum bæjarins fyrir árin 2027 til 2030. Afgreiðsla bæjarráðs um málið var staðfest samhljóða.",
+      "url": "https://braggi.is/aaetlud-forgangsrodun-framkvaemda-vid-yfirlagnir-og-innvidi-i-eldri-hverfum-mosf/",
+      "outlet": "braggi.is",
+      "is_new": true,
+      "sector_tags": []
+    },
     {
       "id": "news:bb:fjordungsthing-vill-vegaframkvaemdir-i-arneshreppi",
       "lane": "news",
@@ -483,6 +660,19 @@
       "sector_tags": []
     },
     {
+      "id": "news:bb:dynjandisheidi-vegagerd-ljuki-fyrir-aramot",
+      "lane": "news",
+      "category": "project",
+      "title": "Dynjandisheiði: vegagerð ljúki fyrir áramót",
+      "entity": "bb.is",
+      "date": "2026-10-29",
+      "summary": "Vegagerðin segir aðspurð að því hvenær sé gert ráð fyrir að verktaki ljúki verkinu á Dynjandisheiði að stefnt sé að því að opna veginn fyrir áramót. Hluti hans verði þó með malarslitlagi þar sem klæðing er ekki lögð að vetri til. Slitlag verði því lagt næsta vor. Bæjarins besta innti einnig eftir skýringum á því […]",
+      "url": "https://bb.is/2026/10/dynjandisheidi-vegagerd-ljuki-fyrir-aramot/",
+      "outlet": "bb.is",
+      "is_new": true,
+      "sector_tags": []
+    },
+    {
       "id": "news:visir-vidskipti:sorpa-laetur-sautjan-roa",
       "lane": "news",
       "category": "project",
@@ -492,7 +682,7 @@
       "summary": "Sorpa framkvæmdi í dag uppsagnir í hagræðingarskyni. Samtals var tíu sagt upp, og tímabundnir samningar við sjö verða ekki endurnýjaðir. Starfsmönnum hjá Sorpu fækkar því um 17, eða um sjö prósent af heildarstarfsmannafjölda.",
       "url": "https://www.visir.is/g/20262954947d/sorpa-laetur-sautjan-roa",
       "outlet": "visir.is / Viðskipti",
-      "is_new": true,
+      "is_new": false,
       "sector_tags": []
     },
     {
@@ -505,20 +695,7 @@
       "summary": "Wolt-sendlar á Íslandi gengu margir ósáttir af fundi með finnskum stjórnendum fyrirtækisins í dag. Talsmaður sendlanna segir þá hafa búist við því að geta rætt kröfur sínar en þess í stað hafi þeir fengið fyrirlestur um hvernig appið og algrímið virkaði. Hann vinnur nú að því í samstarfi við Eflingu að koma á fót eins konar samtökum Wolt-sendla í von um að....",
       "url": "https://www.visir.is/g/20262955193d/bodar-samtok-sendla-eftir-fylufund-med-wolt-og-thad-verdur-stort-verkfall-",
       "outlet": "visir.is / Viðskipti",
-      "is_new": true,
-      "sector_tags": []
-    },
-    {
-      "id": "news:ruv-innlent-rss:2026-10-28-vandi-barna-ordinn-ad-tekjulind-einkaadila-491139",
-      "lane": "news",
-      "category": "project",
-      "title": "Vandi barna orðinn að tekjulind einkaaðila",
-      "entity": "ruv.is / innlent",
-      "date": "2026-10-28",
-      "summary": "„Við erum tilbúin að leggja gríðarlega fjármuni í mannvirki og samgöngur en þegar kemur að börnum í vanda virðist alltaf vanta bæði peninga og pólitískan vilja,“ segir Grímur Atlason, framkvæmdastjóri Geðhjálpar. Hann segir ólíku við að jafna viðbrögðum fólks þegar breyta á niðurgreiðslu á innanlandsflugi í Loftbrú og viðbrögðum við því þegar skelfilegir hl...",
-      "url": "https://www.ruv.is/frettir/innlent/2026-10-28-vandi-barna-ordinn-ad-tekjulind-einkaadila-491139/",
-      "outlet": "ruv.is / innlent",
-      "is_new": true,
+      "is_new": false,
       "sector_tags": []
     },
     {
@@ -531,7 +708,7 @@
       "summary": "360w, 720w\" Innlent Vill óháð mat á áhrifum sölu Ljós­leið­ar­ans á þjóðar­ör­yggi Skúli Helgason, borg­ar­full­trúi Sam­fylk­ing­ar­innar og stjórn­ar­maður í Orku­veitu Reykja­víkur, telur að Ljós­leið­ar­inn eigi áfram að vera í meiri­hluta­eigu hins opin­bera. Hann lagði til að óháð verð­mat og grein­ing á áhrifum mögu­legrar sölu á sam­keppni, almanna­...",
       "url": "https://heimildin.is/grein/70103/vill-ohad-mat-a-ahrifum-solu-ljosleidarans-a-thjodaroryggi/",
       "outlet": "heimildin.is",
-      "is_new": true,
+      "is_new": false,
       "sector_tags": []
     },
     {
@@ -544,7 +721,7 @@
       "summary": "360w, 720w\" Stjórnmál Hildur segir til­lögu um bóka­söfn hafa verið óheppi­lega orð­aða Hildur Björns­dóttir borg­ar­stjóri hafnar því að meiri­hlut­inn í Reykja­vík hafi þurft að bakka með áform um hag­ræð­ingu í rekstri Borg­ar­bóka­safns­ins vegna mót­mæla. „Það stendur ekki til að loka bóka­söfnum,“ segir hún. Í til­lög­unni er meðal ann­ars lagt til að...",
       "url": "https://heimildin.is/grein/70112/hildur-segir-tillogu-um-bokasofn-hafa-verid-oheppilega-ordada/",
       "outlet": "heimildin.is",
-      "is_new": true,
+      "is_new": false,
       "sector_tags": []
     },
     {
@@ -557,72 +734,7 @@
       "summary": "Árni Helgason lægstur með 448,2 milljóna tilboð í Þvergarð á Húsavík Árni Helgason ehf. í Ólafsfirði átti lægsta tilboðið í endurbyggingu og lengingu Þvergarðs á Húsavík. Tilboð fyrirtækisins hljóðaði upp á 448,2 milljónir króna, eða 99,3% af kostnaðaráætlun Vegagerðarinnar. Þrjú tilboð bárust í verkið, sem felur meðal annars í sér umfangsmiklar stálþilsfra...",
       "url": "https://byggingar.is/arni-helgason-laegstur-med-4482-milljona-tilbod-i-thvergard-a-husavik/?utm_source=rss&utm_medium=rss&utm_campaign=arni-helgason-laegstur-med-4482-milljona-tilbod-i-thvergard-a-husavik",
       "outlet": "byggingar.is / niðurstöður útboða",
-      "is_new": true,
-      "sector_tags": []
-    },
-    {
-      "id": "news:braggi:vidburdur-hms-troun-og-framtidarhorfur-ibudamarkadar-bygginga-o",
-      "lane": "news",
-      "category": "investment",
-      "title": "Þróun og framtíðarhorfur íbúðamarkaðar, bygginga- og skipulagsmála á Vestfjörðum",
-      "entity": "braggi.is",
-      "date": "2026-10-28",
-      "summary": "2026-10-29 · Suðurgata 12 á Ísafirði · Fimmtudaginn 29. október halda HMS og Tryggð byggð í samstarfi við Vestfjarðarstofu opinn fund um þróun og framtíðahorfur íbúðamarkaðar, bygginga og skipulagsmála á Vestfjörðum. Fundurinn verður haldinn í húsakynnum Vestfjarðarstofu við Suðurgötu 12 á",
-      "url": "https://braggi.is/vidburdur-hms-troun-og-framtidarhorfur-ibudamarkadar-bygginga-o/",
-      "outlet": "braggi.is",
-      "is_new": true,
-      "sector_tags": []
-    },
-    {
-      "id": "news:braggi:vegaframkvaemdir-hellisgata",
-      "lane": "news",
-      "category": "project",
-      "title": "Vegaframkvæmdir – Hellisgata",
-      "entity": "braggi.is",
-      "date": "2026-10-28",
-      "summary": "Viðgerðir og endurnýjun á fráveitulögn fara fram við Hellisgötu 34 og 36 á tímabilinu frá 27. október klukkan 11:00 til 2. nóvember klukkan 16:00. Verkið felst í því að grafa skurð á svæðinu ásamt því að endurnýja lagnir og brunna. Þrátt fyrir jarðv",
-      "url": "https://braggi.is/vegaframkvaemdir-hellisgata/",
-      "outlet": "braggi.is",
-      "is_new": true,
-      "sector_tags": []
-    },
-    {
-      "id": "news:braggi:utbodsvefur-fossvogsblettur-lodarframkvaemd-utbod-nr-16356",
-      "lane": "news",
-      "category": "investment",
-      "title": "Fossvogsblettur – Lóðarframkvæmd, útboð nr. 16356",
-      "entity": "braggi.is",
-      "date": "2026-10-28",
-      "summary": "Umhverfis- og skipulagssvið Reykjavíkurborgar hefur óskað eftir tilboðum í lóðarframkvæmdir við nýjan tíu deilda leikskóla við Fossvogsblett 2 ásamt lagningu göngustígs. Leikskólalóðin er um 4.870 fermetrar og verður lögð áhersla á að varðveita trjágróður og skapa náttúrulegt yfirbragð.",
-      "url": "https://braggi.is/utbodsvefur-fossvogsblettur-lodarframkvaemd-utbod-nr-16356/",
-      "outlet": "braggi.is",
-      "is_new": true,
-      "sector_tags": []
-    },
-    {
-      "id": "news:braggi:utbodsvefur-9809-2",
-      "lane": "news",
-      "category": "project",
-      "title": "Rammasamningur fyrir matsstörf vegna náttúruhamfara",
-      "entity": "braggi.is",
-      "date": "2026-10-28",
-      "summary": "Fjársýslan óskar eftir tilboðum í rammasamningsútboð fyrir hönd Náttúruhamfaratryggingar Íslands vegna matsstörfa eftir náttúruhamfarir.",
-      "url": "https://braggi.is/utbodsvefur-9809-2/",
-      "outlet": "braggi.is",
-      "is_new": true,
-      "sector_tags": []
-    },
-    {
-      "id": "news:braggi:storf-tengdu-ig-vi-okkur-rafvirki-hvolsvelli-48ac4a",
-      "lane": "news",
-      "category": "project",
-      "title": "⚡ Tengdu þig við okkur - rafvirki á Hvolsvelli",
-      "entity": "braggi.is",
-      "date": "2026-10-28",
-      "summary": "Rarik ohf. leitar að rafvirkja eða vélfræðingi til starfa í framkvæmdateymi starfsstöðvar fyrirtækisins á Hvolsvelli. Um er að ræða fjölbreytt verkefni…",
-      "url": "https://braggi.is/storf-tengdu-ig-vi-okkur-rafvirki-hvolsvelli-48ac4a/",
-      "outlet": "braggi.is",
-      "is_new": true,
+      "is_new": false,
       "sector_tags": []
     },
     {
@@ -635,33 +747,7 @@
       "summary": "Skipulagsfulltrúi Kópavogsbæjar samþykkti að grenndarkynna framlagða tillögu að óverulegri breytingu á deiliskipulagi fyrir lóðarhöfum lóðanna nr. 17, 18, 724 og 725 við Vatnsendablett. Ákvörðunin felst í því að grenndarkynning fer fram þegar fullnæg",
       "url": "https://braggi.is/samthykkt-grenndarkynning-fyrir-breytingu-a-deiliskipulagi-vid-vatnsendablett-i/",
       "outlet": "braggi.is",
-      "is_new": true,
-      "sector_tags": []
-    },
-    {
-      "id": "news:braggi:breytt-deiliskipulag-vid-brekkuhvarf-i-kopavogi",
-      "lane": "news",
-      "category": "investment",
-      "title": "Breytt deiliskipulag við Brekkuhvarf í Kópavogi",
-      "entity": "braggi.is",
-      "date": "2026-10-28",
-      "summary": "Skipulagsfulltrúi Kópavogsbæjar vísaði tillögu um breytingu á deiliskipulagi við Brekkuhvarf til skipulags- og umhverfisráðs. Umsókn Kristrúnar Lárusdóttur Hunter arkitekts felur í sér að lóð nr. 5 við Brekkuhvarf verði skipt upp í sex lóðir fyrir þr",
-      "url": "https://braggi.is/breytt-deiliskipulag-vid-brekkuhvarf-i-kopavogi/",
-      "outlet": "braggi.is",
-      "is_new": true,
-      "sector_tags": []
-    },
-    {
-      "id": "news:bb:throun-og-framtidarhorfur-bygginga-og-skipulagsmala-a-vestfjordum",
-      "lane": "news",
-      "category": "investment",
-      "title": "Þróun og framtíðarhorfur bygginga- og skipulagsmála á Vestfjörðum",
-      "entity": "bb.is",
-      "date": "2026-10-28",
-      "summary": "Fimmtudaginn 29. október halda HMS og Tryggð byggð í samstarfi við Vestfjarðarstofu opinn fund um þróun og framtíðahorfur íbúðamarkaðar, bygginga og skipulagsmála á Vestfjörðum. Fundurinn verður haldinn í húsakynnum Vestfjarðarstofu við Suðurgötu 12 á Ísafirði, kl. 11:45 og er opinn öllum. Á fundinum verður fjallað um atvinnuþróun í landsbyggðunum, stöðuna....",
-      "url": "https://bb.is/2026/10/throun-og-framtidarhorfur-bygginga-og-skipulagsmala-a-vestfjordum/",
-      "outlet": "bb.is",
-      "is_new": true,
+      "is_new": false,
       "sector_tags": []
     },
     {
@@ -728,35 +814,6 @@
       "outlet": "byggingar.is / niðurstöður útboða",
       "is_new": false,
       "sector_tags": []
-    },
-    {
-      "id": "news:braggi:thg-verktakar-byrjadir-ad-draga-nyja-olfusarbru-a-sinn-stad-4a384898",
-      "lane": "news",
-      "category": "competitor",
-      "title": "ÞG verktakar byrjaðir að draga nýja Ölfusárbrú á sinn stað",
-      "entity": "braggi.is",
-      "date": "2026-10-27",
-      "summary": "Starfsmenn ÞG verktaka byrjuðu snemma í morgun að draga nýja Ölfusárbrú frá eystri bakka árinnar yfir á þann vestari. Um sjötíu manns koma að verkinu sem áætlað er að taki átta til tíu daga, að sögn Þorvaldar Hrafns Gissurarsonar, forstjóra ÞG verkta",
-      "url": "https://braggi.is/thg-verktakar-byrjadir-ad-draga-nyja-olfusarbru-a-sinn-stad-4a384898/",
-      "outlet": "braggi.is",
-      "is_new": false,
-      "sector_tags": []
-    },
-    {
-      "id": "news:braggi:fjarfest-i-gagnaverum-her-a-landi-fyrir-57-milljarda-krona-i-ar-44238d71",
-      "lane": "news",
-      "category": "industrial-demand",
-      "title": "Fjárfest í gagnaverum hér á landi fyrir 57 milljarða króna í ár",
-      "entity": "braggi.is",
-      "date": "2026-10-27",
-      "summary": "Fjárfestingar í gagnaverum á Íslandi nema 57 milljörðum króna á þessu ári, sem er nærri tvöfalt meira en í fyrra. Gagnaverin eru þrjú talsins og starfa á höfuðborgarsvæðinu, í Reykjanesbæ, á Akureyri og á Blönduósi. Þetta kemur fram í nýrri greiningu",
-      "url": "https://braggi.is/fjarfest-i-gagnaverum-her-a-landi-fyrir-57-milljarda-krona-i-ar-44238d71/",
-      "outlet": "braggi.is",
-      "is_new": false,
-      "sector_tags": [
-        "datacentres-infrastructure"
-      ],
-      "sector_evidence_role": "project_or_sector_context"
     },
     {
       "id": "news:visir-vidskipti:niu-systkini-modir-um-tvitugt-og-simtalid-sem-ekkert-foreldri-vill-fa",
@@ -964,19 +1021,6 @@
       "sector_tags": []
     },
     {
-      "id": "news:reykjavik:uppbygging-borgarlinu-vid-hlemmtorg",
-      "lane": "news",
-      "category": "investment",
-      "title": "Uppbygging Borgarlínu við Hlemmtorg",
-      "entity": "Reykjavíkurborg",
-      "date": "2026-10-21",
-      "summary": "21. október 2026 Uppbygging Borgarlínu við Hlemmtorg",
-      "url": "https://reykjavik.is/frettir/2026/uppbygging-borgarlinu-vid-hlemmtorg",
-      "outlet": "Reykjavíkurborg",
-      "is_new": false,
-      "sector_tags": []
-    },
-    {
       "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-gott-verk-ehf-laegst-i-stigagerd-og-y",
       "lane": "news",
       "category": "project",
@@ -996,7 +1040,7 @@
       "title": "Van­rækti að rann­saka raun­veru­legan kostnað keppi­nauta Lands­virkjunar",
       "entity": "visir.is / Innherji",
       "date": "2026-10-20",
-      "summary": "Van­rækti að rann­saka raun­veru­legan kostnað keppi­nauta Lands­virkjunar Innherji 20.10.2026 16:03",
+      "summary": "Áfrýjunarnefnd samkeppnismála taldi rannsókn Samkeppniseftirlitsins gegn Landsvirkjun haldna verulegum annmörkum á grundvallaratriðum málsins, meðal annars við skilgreiningu markaða og mat á samkeppnishamlandi áhrifum verðlagningar orkufyrirtækisins, og er niðurstaðan sögð hafa „verulega þýðingu fyrir íslenskt atvinnulíf.“ Eftirlitið aflaði ekki upplýsinga....",
       "url": "https://www.visir.is/g/20262951182d/vanraekti-ad-rannsaka-raunverulegan-kostnad-keppinauta-landsvirkjunar",
       "outlet": "visir.is / Innherji",
       "is_new": false,
@@ -1338,19 +1382,6 @@
       "sector_tags": []
     },
     {
-      "id": "news:reykjavik:byggingarettur-i-sudurholum-tilbodsfrestur-framlengdur",
-      "lane": "news",
-      "category": "project",
-      "title": "Byggingaréttur í Suðurhólum - tilboðsfrestur framlengdur",
-      "entity": "Reykjavíkurborg",
-      "date": "2026-10-12",
-      "summary": "12. október 2026 Byggingaréttur í Suðurhólum - tilboðsfrestur framlengdur",
-      "url": "https://reykjavik.is/frettir/2026/byggingarettur-i-sudurholum-tilbodsfrestur-framlengdur",
-      "outlet": "Reykjavíkurborg",
-      "is_new": false,
-      "sector_tags": []
-    },
-    {
       "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-k16-ehf-laegst-med-870-milljona-tilbo",
       "lane": "news",
       "category": "project",
@@ -1412,6 +1443,19 @@
       "summary": "Það létti mörgum þegar samkomulag náðist í höfn á elleftu stundu í gær. Og þegar andrúmsloftið er þungt eða skýjað virðist fram undan er það góð tilfinning að finna létti, upplifa eitthvað jákvætt.",
       "url": "https://www.visir.is/g/20262945857d/fjarhagsahyggjur-starfsfolks-tvofaldar-vinnan-og-heima",
       "outlet": "visir.is / Viðskipti",
+      "is_new": false,
+      "sector_tags": []
+    },
+    {
+      "id": "news:reykjavik:monnun-fristundaheimila-gengur-betur-en-fyrir-ari",
+      "lane": "news",
+      "category": "project",
+      "title": "Mönnun frístundaheimila gengur betur en fyrir ári",
+      "entity": "Reykjavíkurborg",
+      "date": "2026-10-09",
+      "summary": "9. október 2026 Mönnun frístundaheimila gengur betur en fyrir ári",
+      "url": "https://reykjavik.is/frettir/2026/monnun-fristundaheimila-gengur-betur-en-fyrir-ari",
+      "outlet": "Reykjavíkurborg",
       "is_new": false,
       "sector_tags": []
     },
@@ -1506,19 +1550,6 @@
       "summary": "Trúnaðarráð VR og stjórn félagsins munu koma saman til funda síðdegis í dag þar sem farið verður yfir stöðuna og næstu skref vegna forsendubrests kjarasamninga. Stjórn VR, sem jafnframt er samninganefnd félagsins, fundar í kjölfarið og tekur afstöðu til þess hvort segja eigi upp kjarasamningum, komi ekki til viðunandi viðbragð frá SA.",
       "url": "https://www.visir.is/g/20262944011d/akveda-i-kvold-hvort-kjarasamningum-verdi-sagt-upp",
       "outlet": "visir.is / Viðskipti",
-      "is_new": false,
-      "sector_tags": []
-    },
-    {
-      "id": "news:visir-innherji:gjold-og-byggingarrettur-geta-kostad-445-thusund-a-hvern-fermetra-ibudar",
-      "lane": "news",
-      "category": "investment",
-      "title": "Gjöld og byggingarréttur geta kostað 445 þúsund á hvern fer­metra í­búðar",
-      "entity": "visir.is / Innherji",
-      "date": "2026-10-05",
-      "summary": "Sveitarfélögin, einkum á höfuðborgarsvæðinu, geta lagt verulega af mörkum til að draga úr verðbólgu til lengri tíma með auknu framboði byggingarlands, lægri kostnaði við byggingarrétt og hraðari skipulagsferlum. Reiknidæmi fyrir uppbyggingu í Reykjavík sýnir að byggingarréttur, gjöld, samningskvaðir og fjármagnskostnaður geta saman numið um 445 þúsund krónu...",
-      "url": "https://www.visir.is/g/20262944182d/gjold-og-byggingarrettur-geta-kostad-445-thusund-a-hvern-fermetra-ibudar",
-      "outlet": "visir.is / Innherji",
       "is_new": false,
       "sector_tags": []
     },
