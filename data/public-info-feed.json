@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated": "2026-11-02T06:45:02Z",
+  "generated": "2026-11-02T17:10:48Z",
   "window": {
     "from": "2026-10-26",
     "to": "2026-11-02"
@@ -490,7 +490,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/5618",
         "seen_count": 1,
         "first_seen": "2026-10-28T14:29:46Z",
-        "last_seen": "2026-11-02T06:45:02Z",
+        "last_seen": "2026-11-02T17:10:48Z",
         "reason": "repeated unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -502,7 +502,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/3459",
         "seen_count": 1,
         "first_seen": "2026-10-28T14:29:46Z",
-        "last_seen": "2026-11-02T06:45:02Z",
+        "last_seen": "2026-11-02T17:10:48Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -514,7 +514,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/4410",
         "seen_count": 1,
         "first_seen": "2026-10-28T14:29:46Z",
-        "last_seen": "2026-11-02T06:45:02Z",
+        "last_seen": "2026-11-02T17:10:48Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -526,7 +526,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/3878",
         "seen_count": 1,
         "first_seen": "2026-10-28T14:29:46Z",
-        "last_seen": "2026-11-02T06:45:02Z",
+        "last_seen": "2026-11-02T17:10:48Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -538,7 +538,7 @@
         "evidence_url": "https://uos.is/opinber-birting/akvordun-um-breytingu-a-starfsleyfi-samherja-fiskeldis-ehf.-stad-grindavik",
         "seen_count": 4,
         "first_seen": "2026-10-28T06:45:02Z",
-        "last_seen": "2026-11-02T06:45:02Z",
+        "last_seen": "2026-11-02T17:10:48Z",
         "reason": "repeated unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -550,7 +550,19 @@
         "evidence_url": "https://www.utu.is/auglysingar/skipulagsauglysing-birt-dags-29-oktober-2026/",
         "seen_count": 11,
         "first_seen": "2026-10-16T06:45:01Z",
-        "last_seen": "2026-11-02T06:45:02Z",
+        "last_seen": "2026-11-02T17:10:48Z",
+        "reason": "repeated unknown entity found in generated public-info items",
+        "status": "pending"
+      },
+      {
+        "id": "legislation:utanríkisráðuneyti",
+        "name": "Utanríkisráðuneyti",
+        "suggested_feed": "public-info-feed",
+        "suggested_lane": "legislation",
+        "evidence_url": "https://gagnagrunnur.ees.is/32024l1275",
+        "seen_count": 2,
+        "first_seen": "2026-11-02T17:10:48Z",
+        "last_seen": "2026-11-02T17:10:48Z",
         "reason": "repeated unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -562,7 +574,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/5331",
         "seen_count": 1,
         "first_seen": "2026-10-30T06:45:01Z",
-        "last_seen": "2026-11-02T06:45:02Z",
+        "last_seen": "2026-11-02T17:10:48Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -574,7 +586,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/5479",
         "seen_count": 2,
         "first_seen": "2026-10-28T14:29:46Z",
-        "last_seen": "2026-11-02T06:45:02Z",
+        "last_seen": "2026-11-02T17:10:48Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       }
@@ -764,7 +776,7 @@
           "undated": 2
         },
         "arborg": {
-          "no_matching_keywords": 23,
+          "no_matching_keywords": 22,
           "undated": 5
         },
         "skagafjordur-skipulag-kynning": {
@@ -796,8 +808,8 @@
           "no_matching_keywords": 40
         },
         "hsorka": {
-          "no_matching_keywords": 38,
-          "undated": 2
+          "no_matching_keywords": 39,
+          "undated": 1
         },
         "verne": {
           "no_matching_keywords": 26,
@@ -823,27 +835,42 @@
       }
     }
   },
-  "count": 402,
+  "count": 407,
   "counts_by_intelligence_type": {
-    "public_record": 377,
-    "reference_tracker": 25
+    "public_record": 380,
+    "reference_tracker": 27
   },
   "items": [
     {
-      "id": "announcement:byggingar-opnun-utboda:gluggarnir-verdi-sersmidadir",
+      "id": "skgatt:1243/2026",
+      "lane": "planning",
+      "title": "Deiliskipulagsbreyting Íbúðarhverfi í Norðurbæ Hafnarfjarðar vegna ofanvatnslausnar milli Suðurvangs og Reykjavíkurvegar",
+      "entity": "Hafnarfjarðarkaupstaður",
+      "case_number": "1243/2026",
+      "plan_type": "deiliskipulag",
+      "status": "Auglýsing tillögu",
+      "date": "2026-11-02",
+      "review_deadline": "2026-12-20",
+      "summary": "Bæjarstjórn Hafnarfjarðar samþykkti á fundi sínum 21. október 2026 að auglýsa tillögu að breytingu á deiliskipulagi Íbúðarhverfis í Norðurbæ Hafnarfjarðar vegna ofanvatnslausnar milli Suðurvangs og Reykjavíkurvegar í samræmi við 1. mgr. 43. gr. skipulagslaga 123/2010. Tillagan felst í að tekið sé frá svæði fyrir 880 m² ofanvatnslausn/geymslutank sem verður…",
+      "url": "https://skipulagsgatt.is/issues/5598",
+      "sector_tags": [],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:kaldalon-kaupir-husnaedi-fjardarkaupa",
       "lane": "announcement",
       "source": "byggingar-opnun-utboda",
-      "title": "Gluggarnir verði sérsmíðaðir",
+      "title": "Kaldalón kaupir húsnæði Fjarðarkaupa",
       "entity": "Byggingar.is",
       "status": "published",
-      "date": "2026-10-31",
-      "summary": "type=\"image_tag\" data-img-url=\"https://byggingar.is/wp-content/uploads/2026/10/31.10.2026-Gluggarnir-verdi-sersmidadir-100x75.jpg\" width=\"100\" height=\"75\" /> Gluggarnir verði sérsmíðaðir 31/10/2026 <div class=\"td_modu",
-      "url": "https://byggingar.is/gluggarnir-verdi-sersmidadir/",
+      "date": "2026-11-02",
+      "summary": "ge_tag\" data-img-url=\"https://byggingar.is/wp-content/uploads/2026/11/02.11.2026-Kaldalon-kaupir-husnaedi-Fjardarkaupa-100x75.jpg\" width=\"100\" height=\"75\" /> Kaldalón kaupir húsnæði Fjarðarkaupa 02/11/2026 <div class=\"td_modu",
+      "url": "https://byggingar.is/kaldalon-kaupir-husnaedi-fjardarkaupa/",
       "keywords_matched": [
         "bygging",
         "opinber innkaup"
       ],
-      "evidence_type": "first_party",
+      "evidence_type": "secondary_report",
       "sector_tags": [],
       "intelligence_type": "public_record"
     },
@@ -866,6 +893,20 @@
         "tourism-infrastructure"
       ],
       "sector_evidence_role": "project_or_sector_context",
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "skgatt:1259/2026",
+      "lane": "planning",
+      "title": "Árskógsvirkjun - framkvæmdaleyfi",
+      "entity": "Dalvíkurbyggð",
+      "case_number": "1259/2026",
+      "status": "Endanleg gögn",
+      "date": "2026-10-30",
+      "review_deadline": "2026-11-30",
+      "summary": "Sveitarstjórn Dalvíkurbyggðar samþykkti þann 19.júní 2026 útgáfu framkvæmdaleyfis fyrir undirbúningsframkvæmdir vegna virkjunaráforma fyrir Árskógsvirkjun, þ.e. framkvæmdir á landi sem hafa ekki bein áhrif á vatnshlot í Þorvaldsdal og felast í vegagerð, lagningu aðrennslispípu og efnisnámi. Framkvæmdin er í samræmi við Aðalskipulag Dalvíkurbyggðar 2008-2020…",
+      "url": "https://skipulagsgatt.is/issues/5614",
+      "sector_tags": [],
       "intelligence_type": "public_record"
     },
     {
@@ -939,7 +980,7 @@
       "date": "2026-10-29",
       "review_deadline": "2026-12-11",
       "status": "consultation",
-      "summary": "Sveitarstjórn Skeiða- og Gnúpverjahrepps samþykkti á fundi sínum þann 21. október 2026 að auglýsa breytingu á deiliskipulagi sem felst í að núverandi 66 kV loftlína Selfosslínu 1 frá Ljósafossstöð L168926 að mastri nr. 8 sunnan Írafossstöðvar L168922 verði lögð í jörð sem 132 kV jarðstrengur. Jafnframt er gert ráð fyrir breytingum á tengivirki við Írafossstöð, þar á meðal stækkun byggingarreits fyrir tengivirkishús og að hluti Sogslínu 2 verði lagður í jörð. Deiliskipulagsbreytingin felur þannig fyrst og fremst í sér að núverandi raforkumannvirki verði endurnýjuð og hluti þeirra færður í jörð, í samræmi við fyrirhugaða uppbyggingu raforkukerfisins á svæðinu. Gert er ráð fyrir að áhrif framkvæmdarinnar verði að mestu tímabundin og að vandað verði til frágangs að framkvæmdum loknum. UPPDRÁTTUR GREINARGERÐ",
+      "summary": "Sveitarstjórn Grímsnes- og Grafningshrepps samþykkti á fundi sínum þann 21. október 2026 að auglýsa breytingu á deiliskipulagi sem felst í að núverandi 66 kV loftlína Selfosslínu 1 frá Ljósafossstöð L168926 að mastri nr. 8 sunnan Írafossstöðvar L168922 verði lögð í jörð sem 132 kV jarðstrengur. Jafnframt er gert ráð fyrir breytingum á tengivirki við Írafossstöð, þar á meðal stækkun byggingarreits fyrir tengivirkishús og að hluti Sogslínu 2 verði lagður í jörð. Deiliskipulagsbreytingin felur þannig fyrst og fremst í sér að núverandi raforkumannvirki verði endurnýjuð og hluti þeirra færður í jörð, í samræmi við fyrirhugaða uppbyggingu raforkukerfisins á svæðinu. Gert er ráð fyrir að áhrif framkvæmdarinnar verði að mestu tímabundin og að vandað verði til frágangs að framkvæmdum loknum. UPPDRÁTTUR GREINARGERÐ",
       "url": "https://www.utu.is/auglysingar/skipulagsauglysing-birt-dags-29-oktober-2026/",
       "keywords_matched": [
         "skipulag"
@@ -1038,7 +1079,7 @@
       "status": "Auglýsing tillögu",
       "date": "2026-10-29",
       "review_deadline": "2026-12-20",
-      "summary": "Á fundi bæjarstjórnar þ. 21.10.2026 var samþykkt að auglýsa tillögu að breytingu á deiliskipulagi Hvaleyrarholts suðausturs vegna Suðurholts 2b. Breytingin felst í nýrri lóð undir farsímaloftnet, Suðurholt 2b. Aðkoma að lóð er um Suðurbraut líkt og er fyrir lóðina Suðurholt 2a. Stærð lóðar er 8 x 8m og stærð byggingarreits 6 x 6m. Stálstaur farsímaloftnets…",
+      "summary": "Á fundi bæjarstjórnar þ. 21.10.2026 var samþykkt að auglýsa tillögu að breytingu á deiliskipulagi Hvaleyrarholts suð-vesturs vegna Suðurholts 2b. Breytingin felst í nýrri lóð undir farsímaloftnet, Suðurholt 2b. Aðkoma að lóð er um Suðurbraut líkt og er fyrir lóðina Suðurholt 2a. Stærð lóðar er 8 x 8m og stærð byggingarreits 6 x 6m. Stálstaur farsímaloftnets…",
       "url": "https://skipulagsgatt.is/issues/5596",
       "sector_tags": [],
       "intelligence_type": "public_record"
@@ -1158,7 +1199,7 @@
         "bygging",
         "opinber innkaup"
       ],
-      "evidence_type": "first_party",
+      "evidence_type": "secondary_report",
       "sector_tags": [],
       "intelligence_type": "public_record"
     },
@@ -1222,7 +1263,7 @@
       "keywords_matched": [
         "opinber innkaup"
       ],
-      "evidence_type": "first_party",
+      "evidence_type": "secondary_report",
       "sector_tags": [],
       "intelligence_type": "public_record"
     },
@@ -1240,7 +1281,7 @@
         "bygging",
         "opinber innkaup"
       ],
-      "evidence_type": "first_party",
+      "evidence_type": "secondary_report",
       "sector_tags": [],
       "intelligence_type": "public_record"
     },
@@ -1251,7 +1292,7 @@
       "entity": "Umhverfis- og orkustofnun",
       "title": "26. október 2026 Ákvörðun um breytingu á starfsleyfi Samherja fiskeldis ehf. Stað Grindavík Breyting á starfsleyfi Eldi sjávar- og ferskvatnslífvera Samherji fiskeldi Skoða",
       "date": "2026-10-26",
-      "summary": "Umhverfis- og orkustofnun hefur tekið ákvörðun um að breyta starfsleyfi Samherja fiskeldis ehf. Stað Grindavík þannig að í starfsleyfinu séu ákvæði um vöktun áhrifa starfseminnar á vatnshlot og umhverfismarkmið þeirra á grundvelli 2. mgr. 22. gr. laga um stjórn vatnamála nr. 36/2011, sbr. 2. mgr. 6. gr. laga um hollustuhætti og mengunarvarnir nr. 7/1998. Tillaga að starfsleyfi var auglýst frá 8. september til 6. október sl. Engar athugasemdir bárust á auglýsingatíma. Ákvörðun Umhverfis- og orkustofnunar er kæranleg til úrskurðarnefndar umhverfis- og auðlindamála innan eins mánaðar frá birtingu ákvörðunar stofnunarinnar skv. 1. mgr. 65. gr. laga nr. 7/1998 um hollustuhætti og mengunarvarnir , sbr. 4. gr. laga nr. 130/2011 um úrskurðarnefnd umhverfis- og auðlindamála . Tengd skjöl Ákvörðun um breytingu á starfsleyfi Starfsleyfi Tengt efni Ákvörðun um breytingu á starfsleyfi Samherja fiskeldis ehf. Núpsmýri Öxarfirði Breyting á starfsleyfi Eldi sjávar- og ferskvatnslífvera Samherji fiskeldi",
+      "summary": "Umhverfis- og orkustofnun hefur tekið ákvörðun um að breyta starfsleyfi Samherja fiskeldis ehf. Stað Grindavík þannig að í starfsleyfinu séu ákvæði um vöktun áhrifa starfseminnar á vatnshlot og umhverfismarkmið þeirra á grundvelli 2. mgr. 22. gr. laga um stjórn vatnamála nr. 36/2011, sbr. 2. mgr. 6. gr. laga um hollustuhætti og mengunarvarnir nr. 7/1998. Tillaga að starfsleyfi var auglýst frá 8. september til 6. október sl. Engar athugasemdir bárust á auglýsingatíma. Ákvörðun Umhverfis- og orkustofnunar er kæranleg til úrskurðarnefndar umhverfis- og auðlindamála innan eins mánaðar frá birtingu ákvörðunar stofnunarinnar skv. 1. mgr. 65. gr. laga nr. 7/1998 um hollustuhætti og mengunarvarnir , sbr. 4. gr. laga nr. 130/2011 um úrskurðarnefnd umhverfis- og auðlindamála . Tengd skjöl Ákvörðun um breytingu á starfsleyfi Starfsleyfi Tengt efni Tillaga að starfsleyfi fyrir Samherja fiskeldi ehf. á Reykjanesi Samherji fiskeldi Opinber birting Starfsleyfistillögur í auglýsingu",
       "url": "https://uos.is/opinber-birting/akvordun-um-breytingu-a-starfsleyfi-samherja-fiskeldis-ehf.-stad-grindavik",
       "status": "public_notice",
       "evidence_kind": "first_party_environmental_notice",
@@ -1914,6 +1955,11 @@
       "summary": "Bæjarstjórn Mosfellsbæjar samþykkti á fundi sínum þann 14. nóvember 2026 að kynna og auglýsa, nýja tillögu deiliskipulags í samræmi við 1. mgr. 40. og 41. gr. skipulagslaga nr. 123/2010.",
       "url": "https://skipulagsgatt.is/issues/5520",
       "sector_tags": [],
+      "source_date_conflict": {
+        "published_date": "2026-10-15",
+        "body_meeting_date": "2026-11-14",
+        "interpretation": "Body refers to a meeting later than publication; source claims retained unchanged; decision date unverified."
+      },
       "intelligence_type": "public_record"
     },
     {
@@ -4240,6 +4286,21 @@
       "date": "2026-06-10",
       "summary": "﻿Deilt var um gildi tveggja stjórnvaldsákvarðana tengdum áformum stefnda Landsvirkjunar um að reisa vatnsaflsvirkjunina (raforkuverið) Hvammsvirkjun í neðri hluta Þjórsár en þær fyrirhuguðu framkvæmdir hafa áður verið til umfjöllunar í dómi Hæstaréttar 9. júlí 2025 í máli nr. 11/2025. Annars vegar var með síðari dómkröfu stefnenda deilt um gildi úrskurðar úrskurðarnefndar umhverfis- og auðlindamála 15. febrúar 2018…",
       "url": "https://island.is/domar/g-2670b1a6-71f5-418c-b949-04bad27695c9",
+      "sector_tags": [],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "skgatt:0733/2026",
+      "lane": "planning",
+      "title": "Teistunes 1, endurtakekin grenndarkynning tillögu að óverulegri breytingu deiliskipulags Arnarness.",
+      "entity": "Garðabær",
+      "case_number": "0733/2026",
+      "plan_type": "deiliskipulag",
+      "status": "Grenndarkynning",
+      "date": "2026-06-09",
+      "review_deadline": "2026-11-30",
+      "summary": "Skipulagsstjóri Garðabæjar hefur samþykkt að endurtaka grenndarkynning vegna tillögu að óverulegri breytingu á deiliskipulagi Arnarness í samræmi við 2. mgr. 43. og 44. gr. skipulagslaga nr. 123/2010. Hafa borist ítarlegri gögn um málið sem skýra betur út beytinguna. Um ákvörðun skipulagsstjóra vísast til viðauka II við samþykkt um stjórn Garðabæjar nr. 118…",
+      "url": "https://skipulagsgatt.is/issues/5088",
       "sector_tags": [],
       "intelligence_type": "public_record"
     },
@@ -7114,6 +7175,44 @@
         "mannvirki"
       ],
       "doc_type": "reference",
+      "sector_tags": [],
+      "sector_evidence_role": "reference_only",
+      "intelligence_type": "reference_tracker"
+    },
+    {
+      "id": "eea-reference:cee310b9b34f4701c3",
+      "lane": "legislation",
+      "source": "eea-reference",
+      "entity": "Utanríkisráðuneyti",
+      "title": "Orkunýtni bygginga — tilskipun (ESB) 2024/1275",
+      "date": null,
+      "summary": "EES-ferli: ESB gerð í skoðun hjá Íslandi, Liechtenstein og Noregi til upptöku í EES-samninginn. Tilvísun, ekki staðfesting á nýrri íslenskri gildistöku.",
+      "url": "https://gagnagrunnur.ees.is/32024l1275",
+      "status": "reference",
+      "doc_type": "eea_pipeline_reference",
+      "celex": "32024L1275",
+      "eea_stage": "ESB gerð í skoðun hjá Íslandi, Liechtenstein og Noregi til upptöku í EES-samninginn",
+      "date_basis": "undated_current_reference",
+      "is_open_opportunity": false,
+      "sector_tags": [],
+      "sector_evidence_role": "reference_only",
+      "intelligence_type": "reference_tracker"
+    },
+    {
+      "id": "eea-reference:b9089090faa28eb792",
+      "lane": "legislation",
+      "source": "eea-reference",
+      "entity": "Utanríkisráðuneyti",
+      "title": "Byggingarvörur — reglugerð (ESB) 2024/3110",
+      "date": null,
+      "summary": "EES-ferli: Drög að ákvörðun sameiginlegu nefndarinnar í skoðun hjá ESB og EFTA-ríkjunum innan EES. Tilvísun, ekki staðfesting á nýrri íslenskri gildistöku.",
+      "url": "https://gagnagrunnur.ees.is/32024r3110",
+      "status": "reference",
+      "doc_type": "eea_pipeline_reference",
+      "celex": "32024R3110",
+      "eea_stage": "Drög að ákvörðun sameiginlegu nefndarinnar í skoðun hjá ESB og EFTA-ríkjunum innan EES",
+      "date_basis": "undated_current_reference",
+      "is_open_opportunity": false,
       "sector_tags": [],
       "sector_evidence_role": "reference_only",
       "intelligence_type": "reference_tracker"
