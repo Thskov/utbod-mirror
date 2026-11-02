@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated": "2026-10-30T06:45:01Z",
+  "generated": "2026-11-02T06:45:02Z",
   "window": {
-    "from": "2026-10-23",
-    "to": "2026-10-30"
+    "from": "2026-10-26",
+    "to": "2026-11-02"
   },
   "coverage": {
     "industry_focus": {
@@ -56,7 +56,7 @@
         }
       ],
       "counts_by_sector": {
-        "tourism-infrastructure": 13,
+        "tourism-infrastructure": 15,
         "aquaculture-fish-production": 3,
         "datacentres-infrastructure": 1
       },
@@ -487,10 +487,10 @@
         "name": "Bláskógabyggð",
         "suggested_feed": "public-info-feed",
         "suggested_lane": "eia",
-        "evidence_url": "https://skipulagsgatt.is/issues/4384",
-        "seen_count": 2,
+        "evidence_url": "https://skipulagsgatt.is/issues/5618",
+        "seen_count": 1,
         "first_seen": "2026-10-28T14:29:46Z",
-        "last_seen": "2026-10-28T14:29:46Z",
+        "last_seen": "2026-11-02T06:45:02Z",
         "reason": "repeated unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -502,7 +502,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/3459",
         "seen_count": 1,
         "first_seen": "2026-10-28T14:29:46Z",
-        "last_seen": "2026-10-30T06:45:01Z",
+        "last_seen": "2026-11-02T06:45:02Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -514,7 +514,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/4410",
         "seen_count": 1,
         "first_seen": "2026-10-28T14:29:46Z",
-        "last_seen": "2026-10-30T06:45:01Z",
+        "last_seen": "2026-11-02T06:45:02Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -526,7 +526,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/3878",
         "seen_count": 1,
         "first_seen": "2026-10-28T14:29:46Z",
-        "last_seen": "2026-10-30T06:45:01Z",
+        "last_seen": "2026-11-02T06:45:02Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -538,7 +538,7 @@
         "evidence_url": "https://uos.is/opinber-birting/akvordun-um-breytingu-a-starfsleyfi-samherja-fiskeldis-ehf.-stad-grindavik",
         "seen_count": 4,
         "first_seen": "2026-10-28T06:45:02Z",
-        "last_seen": "2026-10-30T06:45:01Z",
+        "last_seen": "2026-11-02T06:45:02Z",
         "reason": "repeated unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -548,9 +548,9 @@
         "suggested_feed": "public-info-feed",
         "suggested_lane": "planning",
         "evidence_url": "https://www.utu.is/auglysingar/skipulagsauglysing-birt-dags-29-oktober-2026/",
-        "seen_count": 12,
+        "seen_count": 11,
         "first_seen": "2026-10-16T06:45:01Z",
-        "last_seen": "2026-10-30T06:45:01Z",
+        "last_seen": "2026-11-02T06:45:02Z",
         "reason": "repeated unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -562,7 +562,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/5331",
         "seen_count": 1,
         "first_seen": "2026-10-30T06:45:01Z",
-        "last_seen": "2026-10-30T06:45:01Z",
+        "last_seen": "2026-11-02T06:45:02Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -574,7 +574,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/5479",
         "seen_count": 2,
         "first_seen": "2026-10-28T14:29:46Z",
-        "last_seen": "2026-10-30T06:45:01Z",
+        "last_seen": "2026-11-02T06:45:02Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       }
@@ -674,7 +674,7 @@
       },
       "filtered": {
         "byggingar-borgarlina": {
-          "outside_window": 8
+          "outside_window": 10
         },
         "grenivik": {
           "no_matching_keywords": 59,
@@ -682,7 +682,7 @@
           "out_of_construction_scope": 1
         },
         "byggingar-signed-contracts": {
-          "outside_window": 10,
+          "outside_window": 11,
           "undated": 2
         },
         "fjallabyggd": {
@@ -698,8 +698,8 @@
           "no_matching_keywords": 25
         },
         "landsvirkjun": {
-          "outside_window": 5,
-          "no_matching_keywords": 3
+          "no_matching_keywords": 3,
+          "outside_window": 5
         },
         "faxafloahafnir": {
           "no_matching_keywords": 36,
@@ -723,9 +723,9 @@
           "outside_window": 2
         },
         "reykjavik": {
-          "no_matching_keywords": 40,
-          "outside_window": 4,
-          "no_matching_detail_keywords": 1
+          "no_matching_keywords": 38,
+          "no_matching_detail_keywords": 2,
+          "outside_window": 4
         },
         "kopavogur": {
           "no_matching_keywords": 23,
@@ -759,7 +759,7 @@
           "no_matching_keywords": 24
         },
         "mosfellsbaer": {
-          "no_matching_keywords": 36,
+          "no_matching_keywords": 35,
           "outside_window": 1,
           "undated": 2
         },
@@ -777,7 +777,7 @@
         "orkustofnun": {
           "outside_window": 2,
           "no_matching_keywords": 12,
-          "undated": 5
+          "undated": 6
         },
         "ramma-frettasafn": {
           "no_matching_keywords": 28,
@@ -787,7 +787,7 @@
           "no_matching_keywords": 40
         },
         "byggingar-opnun-utboda": {
-          "outside_window": 13
+          "outside_window": 15
         },
         "vb": {
           "no_matching_keywords": 40
@@ -823,12 +823,111 @@
       }
     }
   },
-  "count": 412,
+  "count": 402,
   "counts_by_intelligence_type": {
-    "public_record": 387,
+    "public_record": 377,
     "reference_tracker": 25
   },
   "items": [
+    {
+      "id": "announcement:byggingar-opnun-utboda:gluggarnir-verdi-sersmidadir",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "Gluggarnir verði sérsmíðaðir",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-10-31",
+      "summary": "type=\"image_tag\" data-img-url=\"https://byggingar.is/wp-content/uploads/2026/10/31.10.2026-Gluggarnir-verdi-sersmidadir-100x75.jpg\" width=\"100\" height=\"75\" /> Gluggarnir verði sérsmíðaðir 31/10/2026 <div class=\"td_modu",
+      "url": "https://byggingar.is/gluggarnir-verdi-sersmidadir/",
+      "keywords_matched": [
+        "bygging",
+        "opinber innkaup"
+      ],
+      "evidence_type": "first_party",
+      "sector_tags": [],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "skgatt:1263/2026",
+      "lane": "eia",
+      "title": "Ferðaþjónusta í landi Efri-Reykja, breytingar á áformum",
+      "entity": "Bláskógabyggð",
+      "case_number": "1263/2026",
+      "plan_type": "matsskyldu",
+      "status": "Tilkynning um framkvæmd",
+      "date": "2026-10-30",
+      "review_deadline": "2026-11-27",
+      "summary": "Áformað er að byggja hótel og baðlón í landi Efri-Reykja í Bláskógabyggð. Matsskyldufyrirspurn vegna framkvæmdarinnar var lögð fram árið 2019 og var ákvörðun Skipulagsstofnunar um upphaflega framkvæmd sú að framkvæmdin skyldi ekki háð mati á umhverfisáhrifum. Ekki hefur verið ráðist í uppbyggingu á svæðinu en ákveðið hefur verið að breyta út frá áður kynntu…",
+      "url": "https://skipulagsgatt.is/issues/5618",
+      "keywords_matched": [
+        "baðlón"
+      ],
+      "sector_tags": [
+        "tourism-infrastructure"
+      ],
+      "sector_evidence_role": "project_or_sector_context",
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "skgatt:1258/2026",
+      "lane": "eia",
+      "title": "Hugarró hótel - Litla Botnsland 1 í Hvalfjarðarsveit",
+      "entity": "Hvalfjarðarsveit",
+      "case_number": "1258/2026",
+      "plan_type": "matsskyldu",
+      "status": "Tilkynning um framkvæmd",
+      "date": "2026-10-30",
+      "review_deadline": "2026-11-27",
+      "summary": "Landeigandi jarðarinnar Litla-Botnslands 1 (L224375) í Hvalfjarðarsveit fyrirhugar uppbyggingu á hóteli og ferðaþjónustu þar sem áhersla er lögð á náttúruferðamennsku samhliða endurheimt vistkerfa. Gert er ráð fyrir gistingu fyrir allt að 200 gesti á hóteli og í minni gestahúsum ásamt veitingarekstri, náttúrubaðlóni, heilsu- og vellíðunaraðstöðu, starfsmann…",
+      "url": "https://skipulagsgatt.is/issues/5613",
+      "keywords_matched": [
+        "baðlón"
+      ],
+      "sector_tags": [
+        "tourism-infrastructure"
+      ],
+      "sector_evidence_role": "project_or_sector_context",
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "skgatt:1257/2026",
+      "lane": "planning",
+      "title": "Kílhraun land L191805; Úr landbúnaðarsvæði í iðnaðarsvæði; Nýjar heitavatnsborholur; Aðalskipulagsbreyting - 2610003",
+      "entity": "Skeiða- og Gnúpverjahreppur",
+      "case_number": "1257/2026",
+      "plan_type": "adalskipulag",
+      "status": "Lýsing",
+      "date": "2026-10-30",
+      "review_deadline": "2026-11-20",
+      "summary": "Lögð er fram umsókn fyrir Kílhraun land, L191805, í Skeiða- og Gnúpverjahreppi. Í breytingunni felst að afmarkað verði um 12,2 ha iðnaðarsvæði vegna fyrirhugaðrar heitavatnsöflunar, þar með talið nýrra heitavatnsborhola og mannvirkja og lagna þeim tengdum.",
+      "url": "https://skipulagsgatt.is/issues/5612",
+      "supplementary_sources": [
+        {
+          "source": "utu",
+          "url": "https://www.utu.is/auglysingar/skipulagsauglysing-birt-dags-29-oktober-2026/",
+          "case_number": "2610003"
+        }
+      ],
+      "sector_tags": [],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "announcement:mosfellsbaer:endurbaetur-vid-alafoss-ad-hefjast",
+      "lane": "announcement",
+      "source": "mosfellsbaer",
+      "title": "Álafosskvos Framkvæmdir 30. október 2026 Endurbætur við Álafoss að hefjast",
+      "entity": "Mosfellsbær",
+      "status": "published",
+      "date": "2026-10-30",
+      "summary": "ding-53844-102-106425-53844-1 bde-heading toc-ignore bde-heading-53844-102\"> Íbúum á Skálatúnssvæði fækkar og búsetuúrræðið Fagrahlíð lagt niður Álafosskvos Framkvæmdir 30. október 2026 Endurbætur við Álafoss að hefjast <img class=\"bde-image2-53844-101-106361-53844-1 bde-image2 bd",
+      "url": "https://mos.is/mannlif/um-mosfellsbae/frettir/endurbaetur-vid-alafoss-ad-hefjast/",
+      "keywords_matched": [
+        "framkvæmd"
+      ],
+      "evidence_type": "first_party",
+      "sector_tags": [],
+      "intelligence_type": "public_record"
+    },
     {
       "id": "utu:2610021",
       "lane": "planning",
@@ -841,26 +940,6 @@
       "review_deadline": "2026-12-11",
       "status": "consultation",
       "summary": "Sveitarstjórn Skeiða- og Gnúpverjahrepps samþykkti á fundi sínum þann 21. október 2026 að auglýsa breytingu á deiliskipulagi sem felst í að núverandi 66 kV loftlína Selfosslínu 1 frá Ljósafossstöð L168926 að mastri nr. 8 sunnan Írafossstöðvar L168922 verði lögð í jörð sem 132 kV jarðstrengur. Jafnframt er gert ráð fyrir breytingum á tengivirki við Írafossstöð, þar á meðal stækkun byggingarreits fyrir tengivirkishús og að hluti Sogslínu 2 verði lagður í jörð. Deiliskipulagsbreytingin felur þannig fyrst og fremst í sér að núverandi raforkumannvirki verði endurnýjuð og hluti þeirra færður í jörð, í samræmi við fyrirhugaða uppbyggingu raforkukerfisins á svæðinu. Gert er ráð fyrir að áhrif framkvæmdarinnar verði að mestu tímabundin og að vandað verði til frágangs að framkvæmdum loknum. UPPDRÁTTUR GREINARGERÐ",
-      "url": "https://www.utu.is/auglysingar/skipulagsauglysing-birt-dags-29-oktober-2026/",
-      "keywords_matched": [
-        "skipulag"
-      ],
-      "resolution_verified": false,
-      "sector_tags": [],
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "utu:2610003",
-      "lane": "planning",
-      "source": "utu",
-      "entity": "Umhverfis- og tæknisvið Uppsveita",
-      "title": "Kílhraun land L191805; Úr landbúnaðarsvæði í iðnaðarsvæði; Nýjar heitavatnsborholur; Aðalskipulagsbreyting – 2610003",
-      "case_number": "2610003",
-      "case_ordinal": 1,
-      "date": "2026-10-29",
-      "review_deadline": "2026-11-20",
-      "status": "consultation",
-      "summary": "Sveitarstjórn Skeiða- og Gnúpverjahrepps samþykkti á fundi sínum þann 21. október að kynna skipulagslýsingu á aðalskipulagi fyrir Kílhraun land L191805, í Skeiða- og Gnúpverjahreppi. Í breytingunni felst að afmarkað verði um 12,2 ha iðnaðarsvæði vegna fyrirhugaðrar heitavatnsöflunar, þar með talið nýrra heitavatnsborhola og mannvirkja og lagna þeim tengdum. SKIPULAGSLÝSING Samkvæmt 40. gr. skipulagslaga nr. 123/2010 eru hér kynntar tillögur eftirfarandi deiliskipulagsáætlana:",
       "url": "https://www.utu.is/auglysingar/skipulagsauglysing-birt-dags-29-oktober-2026/",
       "keywords_matched": [
         "skipulag"
@@ -978,42 +1057,6 @@
         "aðalskipulag",
         "deiliskipulag",
         "skipulag"
-      ],
-      "evidence_type": "first_party",
-      "sector_tags": [],
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "announcement:byggingar-opnun-utboda:radinn-framkvaemdastjori-hja-m3-fasteignathroun",
-      "lane": "announcement",
-      "source": "byggingar-opnun-utboda",
-      "title": "Ráðinn fram­kvæmda­stjóri hjá M3 fast­eignaþróun",
-      "entity": "Byggingar.is",
-      "status": "published",
-      "date": "2026-10-29",
-      "summary": "ta-img-url=\"https://byggingar.is/wp-content/uploads/2026/10/29.10.2026-Radinn-framkvaemdastjori-hja-M3-fasteignathroun-100x75.jpg\" width=\"100\" height=\"75\" /> Ráðinn fram­kvæmda­stjóri hjá M3 fast­eignaþróun 29/10/2026 <div class=\"td_modu",
-      "url": "https://byggingar.is/radinn-framkvaemdastjori-hja-m3-fasteignathroun/",
-      "keywords_matched": [
-        "bygging",
-        "opinber innkaup"
-      ],
-      "evidence_type": "first_party",
-      "sector_tags": [],
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "announcement:byggingar-opnun-utboda:hr-smidi-reisir-1-100-fermetra-bjorgunarmidstod-a-borg-i-grimsnesi",
-      "lane": "announcement",
-      "source": "byggingar-opnun-utboda",
-      "title": "HR smíði reisir 1.100 fermetra björgunarmiðstöð á Borg í Grímsnesi",
-      "entity": "Byggingar.is",
-      "status": "published",
-      "date": "2026-10-29",
-      "summary": "/byggingar.is/wp-content/uploads/2026/10/29.10.2026-HR-smidi-reisir-1.100-fermetra-bjorgunarmidstod-a-Borg-i-Grimsnesi-100x75.jpg\" width=\"100\" height=\"75\" /> HR smíði reisir 1.100 fermetra björgunarmiðstöð á Borg í Grímsnesi 29/10/2026 <div class=\"td_modu",
-      "url": "https://byggingar.is/hr-smidi-reisir-1-100-fermetra-bjorgunarmidstod-a-borg-i-grimsnesi/",
-      "keywords_matched": [
-        "bygging",
-        "opinber innkaup"
       ],
       "evidence_type": "first_party",
       "sector_tags": [],
@@ -1157,7 +1200,7 @@
       "entity": "Mosfellsbær",
       "status": "published",
       "date": "2026-10-27",
-      "summary": "-5\" data-facet=\"5\" data-grid=\"wpgb-content\"> Framkvæmdir 27. október 2026 Nýr leikvöllur við Asparlund <img class=\"bde-image2-53844-101-106128-538",
+      "summary": "Pistill bæjarstjóra – október 2026 Framkvæmdir 27. október 2026 Nýr leikvöllur við Asparlund <img class=\"bde-image2-53844-101-106128-538",
       "url": "https://mos.is/mannlif/um-mosfellsbae/frettir/nyr-leikvollur-vid-asparlund/",
       "keywords_matched": [
         "framkvæmd"
@@ -1313,25 +1356,6 @@
       "intelligence_type": "public_record"
     },
     {
-      "id": "announcement:byggingar-borgarlina:utm-source-rss-utm-medium-rss-utm-campaign-sjovinnu-vid-fossvogsbru-lokid-bruin-",
-      "lane": "announcement",
-      "source": "byggingar-borgarlina",
-      "title": "Sjóvinnu við Fossvogsbrú lokið – brúin tekur að rísa á næsta ári",
-      "entity": "Byggingar.is",
-      "status": "published",
-      "date": "2026-10-24",
-      "summary": "Sjóvinnu við Fossvogsbrú lokið – brúin tekur að rísa á næsta ári Mikilvægum áfanga er lokið við smíði Fossvogsbrúar, Öldu, en sjóvinnu við undirstöður og burðarása brúarinnar í Fossvogi er nú lokið á þessu ári. Framkvæmdir við brúna halda áfram á landi og í Póllandi, þar sem unnið er að framleiðslu brúarstöpla og stálvirkis. Stefnt […] The post Sjóvinnu við…",
-      "url": "https://byggingar.is/sjovinnu-vid-fossvogsbru-lokid-bruin-tekur-ad-risa-a-naesta-ari/?utm_source=rss&utm_medium=rss&utm_campaign=sjovinnu-vid-fossvogsbru-lokid-bruin-tekur-ad-risa-a-naesta-ari",
-      "keywords_matched": [
-        "bygging",
-        "framkvæmd",
-        "ístak project: Fossvogsbrú"
-      ],
-      "evidence_type": "secondary_report",
-      "sector_tags": [],
-      "intelligence_type": "public_record"
-    },
-    {
       "id": "skgatt:1237/2026",
       "lane": "planning",
       "title": "Breyting á deiliskipulagi iðnaðarsvæðis Kapelluhrauns vegna Blýhellu 7 og 9",
@@ -1357,60 +1381,6 @@
       "review_deadline": "2026-11-20",
       "summary": "Með vísan til 5. mgr. 13. gr.,2.mgr 43gr, 1. og 2 mgr. 44. gr. Skipulagslaga nr. 123 frá árinu 2010, gefur Umhverfisráð hér með eigendum húseigna í næsta nágrenni við Sjávargötu 38, 260 Reykjanesbæ kost á að tjá sig um umsóknina. Kolbrún Garðarsdóttir óskaði eftir heimild til breytinga á fasteign sbr. uppdrátt Lúdika dags. 6. mars 2026. Breytingarnar felast…",
       "url": "https://skipulagsgatt.is/issues/5591",
-      "sector_tags": [],
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "announcement:byggingar-signed-contracts:grafa-og-grjot-invit-faer-760-milljona-framkvaemd-vid-hlemmtorg",
-      "lane": "announcement",
-      "source": "byggingar-signed-contracts",
-      "title": "Grafa og grjót – INVIT fær 760 milljóna framkvæmd við Hlemmtorg",
-      "entity": "Byggingar.is",
-      "status": "contract_award",
-      "date": "2026-10-23",
-      "summary": "Grafa og grjót - INVIT fær 760 milljóna framkvæmd við Hlemmtorg",
-      "url": "https://byggingar.is/grafa-og-grjot-invit-faer-760-milljona-framkvaemd-vid-hlemmtorg/",
-      "keywords_matched": [
-        "opinber innkaup"
-      ],
-      "evidence_type": "first_party",
-      "sector_tags": [],
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "announcement:byggingar-opnun-utboda:th-hanssen-ehf-valid-til-ad-staekka-bilastaedi-vid-sundlaug-saudarkroks",
-      "lane": "announcement",
-      "source": "byggingar-opnun-utboda",
-      "title": "Þ. Hanssen ehf. valið til að stækka bílastæði við Sundlaug Sauðárkróks",
-      "entity": "Byggingar.is",
-      "status": "published",
-      "date": "2026-10-23",
-      "summary": "Þ. Hanssen ehf. valið til að stækka bílastæði við Sundlaug Sauðárkróks byggingar - 23/10/2026",
-      "url": "https://byggingar.is/th-hanssen-ehf-valid-til-ad-staekka-bilastaedi-vid-sundlaug-saudarkroks/",
-      "keywords_matched": [
-        "bygging",
-        "opinber innkaup"
-      ],
-      "evidence_type": "first_party",
-      "sector_tags": [],
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "announcement:byggingar-borgarlina:utm-source-rss-utm-medium-rss-utm-campaign-grafa-og-grjot-invit-faer-760-milljon",
-      "lane": "announcement",
-      "source": "byggingar-borgarlina",
-      "title": "Grafa og grjót – INVIT fær 760 milljóna framkvæmd við Hlemmtorg",
-      "entity": "Byggingar.is",
-      "status": "published",
-      "date": "2026-10-23",
-      "summary": "Grafa og grjót – INVIT fær 760 milljóna framkvæmd við Hlemmtorg Reykjavíkurborg hefur samið við Gröfu og grjót – INVIT ehf. um framkvæmdir við endurgerð Hlemmtorgs og uppbyggingu Borgarlínu um Hlemm. Samningsfjárhæðin nemur 760,3 milljónum króna með virðisaukaskatti. Framkvæmdirnar fela meðal annars í sér gatnagerð, endurnýjun lagna og gerð nýrra torgsvæða.…",
-      "url": "https://byggingar.is/grafa-og-grjot-invit-faer-760-milljona-framkvaemd-vid-hlemmtorg/?utm_source=rss&utm_medium=rss&utm_campaign=grafa-og-grjot-invit-faer-760-milljona-framkvaemd-vid-hlemmtorg",
-      "keywords_matched": [
-        "bygging",
-        "framkvæmd",
-        "samgöngur"
-      ],
-      "evidence_type": "secondary_report",
       "sector_tags": [],
       "intelligence_type": "public_record"
     },
@@ -2626,41 +2596,6 @@
       "review_deadline": "2026-10-26",
       "summary": "Með vísan til 5. mgr. 13. gr.,2.mgr 43gr, 1. og 2 mgr. 44. gr. Skipulagslaga nr. 123 frá árinu 2010, gefur Skipulagsráð hér með eigendum húseigna í næsta nágrenni við Hlíðarveg 46, 260 Reykjanesbæ kost á að tjá sig um umsóknina. Kári Viðar Rúnarsson óskar eftir heimild til að bæta við viðbyggingu við raðhús og breyttri skráningu á bílgeymslu í geymslu. Skip…",
       "url": "https://skipulagsgatt.is/issues/5476",
-      "sector_tags": [],
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "skgatt:1111/2026",
-      "lane": "planning",
-      "title": "Urðarstígsreitur-suðurhluti - Breyting á deiliskipulagi - Bergstaðastræti 57 - USK26070102",
-      "entity": "Reykjavík",
-      "case_number": "1111/2026",
-      "plan_type": "deiliskipulag",
-      "status": "Grenndarkynning",
-      "date": "2026-09-24",
-      "review_deadline": "2026-10-23",
-      "summary": "Um er að ræða tillögu að breytingu á deiliskipulagi Urðarstígsreits - Suðurhluta vegna lóðarinnar nr. 57 við Bergstaðastræti þar sem sett er inn í deiliskipulag þegar gerða framkvæmd í samræmi við samþykkta aðaluppdrætti. Í breytingunni sem lögð er til felst að byggingarmagn er aukið og nýtingarhlutfall er hækkað, íbúðum er fjölgað, úr einni íbúð í tvær íbú…",
-      "url": "https://skipulagsgatt.is/issues/5466",
-      "sector_tags": [],
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "skgatt:1110/2026",
-      "lane": "planning",
-      "title": "Sundahöfn - Breyting á deiliskipulagi - Vatnagarðar 4 - USK26060082",
-      "entity": "Reykjavík",
-      "case_number": "1110/2026",
-      "plan_type": "deiliskipulag",
-      "status": "Grenndarkynning",
-      "date": "2026-09-24",
-      "review_deadline": "2026-10-23",
-      "summary": "Um er að ræða tillögu um breytingu á deiliskipulagi Sundahafnar vegna lóðarinnar nr. 4 við Vatnagarða. Í breytingunni sem lögð er til felst að heimilt verði að byggja á bakhluta hússins skýli yfir loftræsisamstæður hússins.",
-      "url": "https://skipulagsgatt.is/issues/5465",
-      "strategic_flag": "Reykjavík USK hafnarskipulagsklasi",
-      "strategic_note": "Sundahöfn/Sundagarðar/Vatnagarðar cluster; major harbour planning items with review deadline 2026-08-27",
-      "keywords_matched": [
-        "hafnarskipulag"
-      ],
       "sector_tags": [],
       "intelligence_type": "public_record"
     },
@@ -3953,21 +3888,6 @@
       "intelligence_type": "public_record"
     },
     {
-      "id": "skgatt:0841/2026",
-      "lane": "planning",
-      "title": "Kjalarnes, Sætún II (Smábýli 15) - USK26060025",
-      "entity": "Reykjavík",
-      "case_number": "0841/2026",
-      "plan_type": "deiliskipulag",
-      "status": "Athugun eftir auglýsingu",
-      "date": "2026-07-07",
-      "review_deadline": "2026-10-23",
-      "summary": "Um er að tæða tillögu að nýju deiliskipulagi fyrir Sætún II á Kjalarnesi. Skipulagssvæðið nær yfir allt Sætún II á Kjalarnesi sem afmarkast af umliggjandi landspildum, Enni til vesturs, Sætúni I til austurs og Þjóðvegi 1 til norðurs. Með deiliskipulaginu verður skilgreindur byggingarreitur og uppbyggingar- og starfsemisheimildir, en annar hluti jarðarinn er…",
-      "url": "https://skipulagsgatt.is/issues/5196",
-      "sector_tags": [],
-      "intelligence_type": "public_record"
-    },
-    {
       "id": "kaerunefnd:38/2025",
       "lane": "kaerunefnd",
       "title": "2026 07 07 Mál nr. 38 2025. Úrskurður kærunefndar útboðsmála",
@@ -4289,21 +4209,6 @@
       "review_deadline": "2026-10-28",
       "summary": "Afl og orka ehf. áformar að reisa allt að 3 MW vatnsaflsvirkjun í Keldnalæk í Rangárþingi ytra sem virkjar 8 m3/s rennsli með 40 m fallhæð og er árleg raforkuframleiðsla áætluð um 19 GWst. Framkvæmdin felur m.a. í sér byggingu stíflu, stöðvarhúss, lagningu 3,5 km langs vegar og 1,4 km langrar aðrennslispípu. Gert er ráð fyrir 3,5 ha inntakslóni neðst í Keld…",
       "url": "https://skipulagsgatt.is/issues/5116",
-      "sector_tags": [],
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "skgatt:0759/2026",
-      "lane": "planning",
-      "title": "Skólavörðuholt - Barónsstígur 34 - Vörðuskóli - USK26040175",
-      "entity": "Reykjavík",
-      "case_number": "0759/2026",
-      "plan_type": "deiliskipulag",
-      "status": "Athugun eftir auglýsingu",
-      "date": "2026-06-16",
-      "review_deadline": "2026-10-23",
-      "summary": "Um er að ræða tillögu að breytingu á deiliskipulagi Skólavörðuholts vegna lóðarinnar nr. 34 við Barónsstíg, Vörðuskóla. Í breytingunni sem lögð er til felst að byggingarreitur fyrir nýbyggingu Vörðuborgar verður víkjandi í tillögunni, lóð stækkar, akstur í gegnum Egilsgötu og inn á bílastæði norðan megin við Vörðuskóla verði lokað, bílastæði meðfram Egilsgö…",
-      "url": "https://skipulagsgatt.is/issues/5114",
       "sector_tags": [],
       "intelligence_type": "public_record"
     },
@@ -5959,21 +5864,6 @@
       "intelligence_type": "public_record"
     },
     {
-      "id": "skgatt:0892/2025",
-      "lane": "planning",
-      "title": "Suðurlandsvegur - USK23060119",
-      "entity": "Reykjavík",
-      "case_number": "0892/2025",
-      "plan_type": "deiliskipulag",
-      "status": "Endanleg gögn",
-      "date": "2025-07-01",
-      "review_deadline": "2026-10-23",
-      "summary": "Um er að ræða nýtt deiliskipulag fyrir tvöföldun Suðurlandsvegar. Megintilgangur tvöföldunar Suðurlandsvegar er að auka umferðaröryggi allra fararmáta og tryggja greiðari umferð um Suðurlandsveg með því að aðskilja akstursstefnur. Tvöföldun vegarins á þessum vegkafla er hluti af stærra verkefni sem er breikkun Suðurlandsvegar frá Hádegismóum í Reykjavík að…",
-      "url": "https://skipulagsgatt.is/issues/3549",
-      "sector_tags": [],
-      "intelligence_type": "public_record"
-    },
-    {
       "id": "haestirettur:leave:2025-105",
       "lane": "court",
       "source": "haestirettur-leave-to-appeal",
@@ -6101,21 +5991,6 @@
       "intelligence_type": "public_record"
     },
     {
-      "id": "skgatt:0206/2025",
-      "lane": "planning",
-      "title": "Hrísey - svæði ofan byggðar - nýtt deiliskipulag",
-      "entity": "Akureyri",
-      "case_number": "0206/2025",
-      "plan_type": "deiliskipulag",
-      "status": "Auglýsing tillögu",
-      "date": "2025-02-19",
-      "review_deadline": "2026-10-23",
-      "summary": "Mál nr. 2023090672",
-      "url": "https://skipulagsgatt.is/issues/2863",
-      "sector_tags": [],
-      "intelligence_type": "public_record"
-    },
-    {
       "id": "skgatt:0170/2025",
       "lane": "planning",
       "title": "Kláfur upp á Eyrarafjall, Ísafirði",
@@ -6214,24 +6089,6 @@
       ],
       "sector_tags": [],
       "sector_evidence_role": "legal_history",
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "skgatt:1293/2024",
-      "lane": "eia",
-      "title": "Aðalskipulag Húnabyggðar 2025-2037",
-      "entity": "Húnabyggð",
-      "case_number": "1293/2024",
-      "plan_type": "adalskipulag",
-      "status": "Auglýsing tillögu",
-      "date": "2024-10-28",
-      "review_deadline": "2026-10-23",
-      "summary": "Samkvæmt 35. gr. skipulagslaga nr. 123/2010 skal sveitarstjórn meta að loknum sveitarstjórnarkosningum hvort ástæða sé til að endurskoða aðalskipulagið og skal sú ákvörðun m.a. taka mið af því hvort Landsskipulagsstefna kalli á endurskoðun. Sveitarstjórn Húnabyggðar ákvað á fundi sínum 12. desember 2023 að hefja vinnu við endurskoðun aðalskipulags og að ste…",
-      "url": "https://skipulagsgatt.is/issues/2392",
-      "keywords_matched": [
-        "flugvöllur"
-      ],
-      "sector_tags": [],
       "intelligence_type": "public_record"
     },
     {
@@ -6499,21 +6356,6 @@
       ],
       "sector_tags": [],
       "sector_evidence_role": "legal_history",
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "skgatt:0567/2023",
-      "lane": "planning",
-      "title": "Endurskoðun aðalskipulags Keflavíkurflugvallar",
-      "entity": "Reykjanesbær",
-      "case_number": "0567/2023",
-      "plan_type": "adalskipulag",
-      "status": "Auglýsing tillögu",
-      "date": "2023-09-07",
-      "review_deadline": "2026-10-23",
-      "summary": "Um er að ræða endurskoðun á gildandi aðalskipulagi Keflavíkurflugvallar. Skipulagsnefnd Keflavíkurflugvallar, Landhelgisgæsla Íslands, varnarmálasvið í umboði utanríkisráðuneytisins og stjórn Isavia ohf. tóku ákvörðun um að endurskoða aðalskipulag Keflavíkurflugvallar. Núgildandi aðalskipulag með staðfestum breytingum, er grundvöllur vinnunnar ásamt breyttu…",
-      "url": "https://skipulagsgatt.is/issues/567",
-      "sector_tags": [],
       "intelligence_type": "public_record"
     },
     {
