@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated": "2026-11-02T17:07:37Z",
+  "generated": "2026-11-02T17:18:17Z",
   "window": {
     "from": "2026-10-03",
     "to": "2026-11-02"
@@ -284,6 +284,12 @@
         "outlet": "Verne",
         "url": "https://www.verne.co/news",
         "coverage": "bounded operator supplement"
+      },
+      {
+        "source": "sedlabanki-policy",
+        "outlet": "Seðlabanki Íslands",
+        "url": "https://sedlabanki.is/peningastefna/peningastefnunefnd/",
+        "coverage": "bounded first-party monetary-policy statements"
       }
     ],
     "topics": {
@@ -450,7 +456,8 @@
       "laxey-operator-coverage": "bounded first-party dated-news supplement; undated project references and complete historical reach not established (https://www.laxey.is/frettir/)",
       "laxey-operator-budget": "bounded operator detail budget exhausted (https://www.laxey.is/frettir/)",
       "verne-operator-coverage": "bounded first-party dated-news supplement; undated project references and complete historical reach not established (https://www.verne.co/news)",
-      "verne-operator-budget": "bounded operator detail budget exhausted (https://www.verne.co/news)"
+      "verne-operator-budget": "bounded operator detail budget exhausted (https://www.verne.co/news)",
+      "sedlabanki-policy-history": "Bounded committee-page statement links (maximum four); historical completeness not established (https://sedlabanki.is/peningastefna/peningastefnunefnd/?rendermode=static)"
     },
     "source_candidates": [
       {
@@ -461,13 +468,25 @@
         "evidence_url": "https://www.landbasedaq.com/iceland-salmon-garden-samherji/icelands-salmon-garden-will-plant-its-first-fish-next-spring/2196404",
         "seen_count": 1,
         "first_seen": "2026-10-29T08:17:48Z",
-        "last_seen": "2026-11-02T17:07:37Z",
+        "last_seen": "2026-11-02T17:18:17Z",
+        "reason": "unknown entity found in generated news items",
+        "status": "pending"
+      },
+      {
+        "id": "news:seðlabanki-íslands",
+        "name": "Seðlabanki Íslands",
+        "suggested_feed": "news-feed",
+        "suggested_lane": "news",
+        "evidence_url": "https://sedlabanki.is/frettir-og-utgefid-efni/grein/yfirlysing-peningastefnunefndar-7-oktober-2026",
+        "seen_count": 1,
+        "first_seen": "2026-11-02T17:18:17Z",
+        "last_seen": "2026-11-02T17:18:17Z",
         "reason": "unknown entity found in generated news items",
         "status": "pending"
       }
     ]
   },
-  "count": 104,
+  "count": 105,
   "items": [
     {
       "id": "news:visir-vidskipti:roar-ahyggjufulla-hafnfirdinga",
@@ -1723,6 +1742,25 @@
       "summary": "Samið um 560 milljóna uppbyggingu nýrrar þjónustumiðstöðvar GKG Kópavogsbær, Garðabær og Golfklúbbur Kópavogs og Garðabæjar, GKG, hafa undirritað samstarfssamning um byggingu nýrrar um 1.000 fermetra þjónustumiðstöðvar fyrir golfvelli klúbbsins. Áætlaður kostnaður við framkvæmdina er um 560 milljónir króna og munu sveitarfélögin tvö standa undir tveimur þri...",
       "url": "https://byggingar.is/samid-um-560-milljona-uppbyggingu-nyrrar-thjonustumidstodvar-gkg/?utm_source=rss&utm_medium=rss&utm_campaign=samid-um-560-milljona-uppbyggingu-nyrrar-thjonustumidstodvar-gkg",
       "outlet": "byggingar.is / undirritun samninga",
+      "is_new": false,
+      "sector_tags": []
+    },
+    {
+      "id": "sedlabanki-policy:ba7f26ce9888c8d91a",
+      "lane": "news",
+      "source": "sedlabanki-policy",
+      "entity": "Seðlabanki Íslands",
+      "title": "Yfirlýsing peningastefnunefndar 7. október 2026",
+      "date": "2026-10-07",
+      "summary": "Peningastefnunefnd Seðlabanka Íslands hefur ákveðið að halda vöxtum bankans óbreyttum. Meginvextir: 8,00%. Verðbólga hefur aukist enn frekar frá því í sumar eins og búist var við.",
+      "url": "https://sedlabanki.is/frettir-og-utgefid-efni/grein/yfirlysing-peningastefnunefndar-7-oktober-2026",
+      "status": "published",
+      "category": "investment",
+      "outlet": "Seðlabanki Íslands",
+      "policy_rate_percent": 8.0,
+      "policy_rationale": "Verðbólga hefur aukist enn frekar frá því í sumar eins og búist var við.",
+      "evidence_kind": "first_party_monetary_policy_statement",
+      "project_learning_eligible": false,
       "is_new": false,
       "sector_tags": []
     },
