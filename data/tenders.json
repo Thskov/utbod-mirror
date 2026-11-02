@@ -60,7 +60,7 @@
       "limits": "Tags are text-derived relevance, not verified project stage or completeness. Existing source/date/detail limits still apply; no sources added."
     }
   },
-  "generated_at": "2026-11-02T07:00:27.458232+00:00",
+  "generated_at": "2026-11-02T17:17:04.043750+00:00",
   "source": {
     "site": "https://www.utbodsvefur.is",
     "posts_api": "https://www.utbodsvefur.is/wp-json/wp/v2/posts",
@@ -68,43 +68,13 @@
     "count_drop_guard": {
       "status": "fresh",
       "threshold": ">70% source-count collapse",
-      "previous_good_count": 77,
-      "current_count": 82,
-      "minimum_allowed_count": 23
+      "previous_good_count": 82,
+      "current_count": 81,
+      "minimum_allowed_count": 24
     }
   },
-  "count": 82,
+  "count": 81,
   "tenders": [
-    {
-      "reference": "23400",
-      "project": "Búnaður fyrir eldhús á sjúkrahúsi",
-      "buyer": "Fjársýslan",
-      "notice_type": "Vörukaup",
-      "deadline": "02.11.2026 kl. 09:00",
-      "deadline_local": "2026-11-02T09:00:00+00:00",
-      "deadline_utc": "2026-11-02T09:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-09-30T09:44:23+00:00",
-      "modified_at": "2026-09-30T09:44:23+00:00",
-      "url": "https://www.utbodsvefur.is/bunadur-fyrir-eldhus-a-sjukrahusi/",
-      "summary": "Fjársýslan fyrir hönd Framkvæmdasýslu – Ríkiseigna, kt. 510391-2259, óskar eftir tilboðum í útboð nr. 23400 – Búnaður fyrir eldhús a sjúkr...",
-      "sector_tags": []
-    },
-    {
-      "reference": "202633",
-      "project": "Slökkvibifreið fyrir slökkvilið Hornafjarðar",
-      "buyer": "Sveitarfélagið Hornafjörður",
-      "notice_type": "Vörukaup",
-      "deadline": "02.11.2026 kl. 12:00",
-      "deadline_local": "2026-11-02T12:00:00+00:00",
-      "deadline_utc": "2026-11-02T12:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-10-02T08:13:41+00:00",
-      "modified_at": "2026-10-02T08:15:36+00:00",
-      "url": "https://www.utbodsvefur.is/slokkvibifreid-fyrir-slokkvilid-hornafjardar/",
-      "summary": "Consensa, fyrir hönd Hornafjarðar, óskar eftir tilboðum í slökkvibifreið fyrir slökkvilið Hornafjarðar samkvæmt skilmálum útboðslýsingar. Um er að ræð...",
-      "sector_tags": []
-    },
     {
       "reference": "2610018",
       "project": "Útboð á þjónustu og viðhald gatnalýsingar í Garðabæ",
@@ -883,6 +853,21 @@
       "modified_at": "2026-10-29T13:18:47+00:00",
       "url": "https://www.utbodsvefur.is/bustadavegur-418-temporary-borgarlina-link-via-nesbrautarbru-arnarhlid-burknagata-preliminary-and-detailed-design/",
       "summary": "Vegagerðin ásamt Veitum ohf. óskar eftir tilboði í for- og verkhönnun á bráðabirgðatengingu Borgarlínu um Nesbrautarbrú í Reykjavík ásamt breytingum o...",
+      "sector_tags": []
+    },
+    {
+      "reference": "Hönnun á lengingu Sundabakka",
+      "project": "Hönnun á lengingu Sundabakka",
+      "buyer": "Faxaflóahafnir sf.",
+      "notice_type": "Þjónusta",
+      "deadline": "03.12.2026 kl. 10:00",
+      "deadline_local": "2026-12-03T10:00:00+00:00",
+      "deadline_utc": "2026-12-03T10:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-11-02T13:10:45+00:00",
+      "modified_at": "2026-11-02T13:10:45+00:00",
+      "url": "https://www.utbodsvefur.is/honnun-a-lengingu-sundabakka/",
+      "summary": "Faxaflóahafnir sf. óska eftir tilboðum í hönnunarverkið „Hönnun á lengingu Sundabakka“ í Sundahöfn í Reykjavík. Útboðið tekur til verkfræðihönnunar og...",
       "sector_tags": []
     },
     {

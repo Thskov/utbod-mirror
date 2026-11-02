@@ -61,8 +61,8 @@
     }
   },
   "schema_version": 1,
-  "generated": "2026-11-02T07:00:27Z",
-  "generated_at": "2026-11-02T07:00:27Z",
+  "generated": "2026-11-02T17:17:04Z",
+  "generated_at": "2026-11-02T17:17:04Z",
   "sources": {
     "covered": [
       {
@@ -305,6 +305,7 @@
       "geosalmo",
       "grindavíkurbær",
       "grímsnes og grafningshreppur",
+      "göng og brú ohf",
       "hafnarfjarðarkaupstaður",
       "hafnasamlag norðurlands",
       "heilbrigðisstofnun norðurlands",
@@ -352,6 +353,8 @@
       "áfengis og tóbaksverslun ríkisins átvr"
     ],
     "buyer_aliases": {
+      "göng og brú": "Göng og brú ohf.",
+      "göng og brú ohf": "Göng og brú ohf.",
       "hafnarfjarðarbær": "Hafnarfjarðarkaupstaður",
       "hafnarfjörður": "Hafnarfjarðarkaupstaður",
       "hafnarfjordur": "Hafnarfjarðarkaupstaður",
@@ -565,7 +568,7 @@
         "last_seen": "2026-10-27T11:55:54Z",
         "reason": "exact candidate evidence excluded: electricity_purchase",
         "status": "out_of_scope_for_now",
-        "last_reviewed": "2026-11-02T07:00:27Z"
+        "last_reviewed": "2026-11-02T17:17:04Z"
       },
       {
         "id": "tender:buyer:fjallabyggð",
@@ -578,7 +581,7 @@
         "last_seen": "2026-10-22T07:00:26Z",
         "reason": "SW261029-I01: reviewed exact historical snow-clearing/de-icing service URL; not works. Genuine works/planning remain eligible.",
         "status": "out_of_scope_for_now",
-        "last_reviewed": "2026-11-02T07:00:27Z"
+        "last_reviewed": "2026-11-02T17:17:04Z"
       },
       {
         "id": "tender:buyer:sveitafélagið-árborg",
@@ -591,7 +594,7 @@
         "last_seen": "2026-10-22T07:00:26Z",
         "reason": "exact candidate evidence excluded: winter_service",
         "status": "out_of_scope_for_now",
-        "last_reviewed": "2026-11-02T07:00:27Z"
+        "last_reviewed": "2026-11-02T17:17:04Z"
       }
     ]
   },
@@ -1195,6 +1198,38 @@
       "url": "https://www.vegagerdin.is/verkefnin/utbod/budafossvegur-23-thjorsardalsvegur-landvegur",
       "summary": "Útboð 24-029 · 23. sept. 2026",
       "source": "vegagerdin-opnun-tilboda",
+      "bid_opening_results": {
+        "bidders": [
+          {
+            "name": "Ístak hf., Mosfellsbær",
+            "amount_isk": 3578480766,
+            "percent_of_estimate": 123.0
+          },
+          {
+            "name": "Eykt ehf., Fossvélar ehf., Suðurverk hf.",
+            "amount_isk": 3237212469,
+            "percent_of_estimate": 111.3
+          },
+          {
+            "name": "PK Verk ehf., Hafnarfirði",
+            "amount_isk": 3089255481,
+            "percent_of_estimate": 106.2
+          },
+          {
+            "name": "ÞG verktakar, Reykjavík",
+            "amount_isk": 3053019601,
+            "percent_of_estimate": 105.0
+          },
+          {
+            "name": "Borgarverk ehf., Borgarnesi",
+            "amount_isk": 2532331206,
+            "percent_of_estimate": 87.1
+          }
+        ],
+        "estimate_isk": 2908407213,
+        "currency": "ISK",
+        "evidence_type": "bid_opening"
+      },
       "intelligence_type": "bid_opening",
       "is_open_opportunity": false,
       "sector_tags": []
@@ -1717,6 +1752,28 @@
       "url": "https://www.vegagerdin.is/verkefnin/utbod/husavik-thvergardur-endurbygging-og-lenging-2026",
       "summary": "Útboð 26-141 · 27. okt. 2026",
       "source": "vegagerdin-opnun-tilboda",
+      "bid_opening_results": {
+        "bidders": [
+          {
+            "name": "Haftækni ehf., Tálknafirði",
+            "amount_isk": 489723700,
+            "percent_of_estimate": 108.5
+          },
+          {
+            "name": "Héraðsverk ehf., Egilsstöðum",
+            "amount_isk": 484944267,
+            "percent_of_estimate": 107.5
+          },
+          {
+            "name": "Árni Helgason ehf., Ólafsfirði",
+            "amount_isk": 448213016,
+            "percent_of_estimate": 99.3
+          }
+        ],
+        "estimate_isk": 451245700,
+        "currency": "ISK",
+        "evidence_type": "bid_opening"
+      },
       "intelligence_type": "bid_opening",
       "is_open_opportunity": false,
       "sector_tags": []
@@ -1843,6 +1900,28 @@
       "url": "https://www.vegagerdin.is/verkefnin/utbod/langanesbyggd-thorshofn-hardvidarbryggja-2026",
       "summary": "Útboð 26-098 · 22. sept. 2026",
       "source": "vegagerdin-opnun-tilboda",
+      "bid_opening_results": {
+        "bidders": [
+          {
+            "name": "Úlfsstaðir ehf., Reykjavík",
+            "amount_isk": 177748000,
+            "percent_of_estimate": 114.5
+          },
+          {
+            "name": "Árni Helgason ehf., Ólafsfirði",
+            "amount_isk": 161276250,
+            "percent_of_estimate": 103.9
+          },
+          {
+            "name": "Sjótækni ehf., Tálknafirði",
+            "amount_isk": 97281200,
+            "percent_of_estimate": 62.7
+          }
+        ],
+        "estimate_isk": 155183800,
+        "currency": "ISK",
+        "evidence_type": "bid_opening"
+      },
       "intelligence_type": "bid_opening",
       "is_open_opportunity": false,
       "sector_tags": []
@@ -2023,6 +2102,28 @@
       "url": "https://www.vegagerdin.is/verkefnin/utbod/pickup-trucks-for-the-icelandic-road-and-coastal-administration-irca-2026",
       "summary": "Útboð 25-025 · 15. sept. 2026",
       "source": "vegagerdin-opnun-tilboda",
+      "bid_opening_results": {
+        "bidders": [
+          {
+            "name": "TK Bílar ehf.",
+            "amount_isk": 61877716,
+            "percent_of_estimate": 140.6
+          },
+          {
+            "name": "Hekla hf.",
+            "amount_isk": 51673200,
+            "percent_of_estimate": 117.4
+          },
+          {
+            "name": "BL ehf.",
+            "amount_isk": 40120000,
+            "percent_of_estimate": 91.2
+          }
+        ],
+        "estimate_isk": 44000000,
+        "currency": "ISK",
+        "evidence_type": "bid_opening"
+      },
       "intelligence_type": "bid_opening",
       "is_open_opportunity": false,
       "sector_tags": []
@@ -2419,6 +2520,23 @@
       "url": "https://www.vegagerdin.is/verkefnin/utbod/sudavik-midgardur-hardvidarbryggja-2026",
       "summary": "Útboð 26-129 · 22. sept. 2026",
       "source": "vegagerdin-opnun-tilboda",
+      "bid_opening_results": {
+        "bidders": [
+          {
+            "name": "Sjótækni ehf., Tálknafirði",
+            "amount_isk": 20965000,
+            "percent_of_estimate": 93.8
+          },
+          {
+            "name": "Græjað og gert ehf., Súðavík",
+            "amount_isk": 16375000,
+            "percent_of_estimate": 73.3
+          }
+        ],
+        "estimate_isk": 22345000,
+        "currency": "ISK",
+        "evidence_type": "bid_opening"
+      },
       "intelligence_type": "bid_opening",
       "is_open_opportunity": false,
       "sector_tags": []
@@ -2491,6 +2609,23 @@
       "url": "https://www.vegagerdin.is/verkefnin/utbod/vestfjardavegur-60-um-gufudalssveit-skalanes-hallsteinsnes",
       "summary": "Útboð 26-093 · 29. sept. 2026",
       "source": "vegagerdin-opnun-tilboda",
+      "bid_opening_results": {
+        "bidders": [
+          {
+            "name": "Ístak hf., Mosfellsbær",
+            "amount_isk": 5992459407,
+            "percent_of_estimate": 246.4
+          },
+          {
+            "name": "ÞG verktakar, Reykjavík",
+            "amount_isk": 3888451476,
+            "percent_of_estimate": 159.9
+          }
+        ],
+        "estimate_isk": 2431870289,
+        "currency": "ISK",
+        "evidence_type": "bid_opening"
+      },
       "intelligence_type": "bid_opening",
       "is_open_opportunity": false,
       "sector_tags": []
@@ -2671,6 +2806,28 @@
       "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-vestan-jokulsar-a-breidamerkursandi-malbik-hradutbod",
       "summary": "Útboð 26-123 · 25. ágúst 2026",
       "source": "vegagerdin-opnun-tilboda",
+      "bid_opening_results": {
+        "bidders": [
+          {
+            "name": "Malbikun Norðurlands, Akureyri",
+            "amount_isk": 370952260,
+            "percent_of_estimate": 149.5
+          },
+          {
+            "name": "Colas Ísland ehf., Hafnarfirði",
+            "amount_isk": 328377935,
+            "percent_of_estimate": 132.3
+          },
+          {
+            "name": "Malbikun Akureyrar, Akureyri",
+            "amount_isk": 329149010,
+            "percent_of_estimate": 132.6
+          }
+        ],
+        "estimate_isk": 248192450,
+        "currency": "ISK",
+        "evidence_type": "bid_opening"
+      },
       "intelligence_type": "bid_opening",
       "is_open_opportunity": false,
       "sector_tags": []
@@ -3139,6 +3296,43 @@
       "url": "https://www.vegagerdin.is/verkefnin/utbod/thorlakshofn-skarfaskersbryggja-endurbygging-ramps-2026",
       "summary": "Útboð 26-137 · 20. okt. 2026",
       "source": "vegagerdin-opnun-tilboda",
+      "bid_opening_results": {
+        "bidders": [
+          {
+            "name": "Sjótækni ehf., Tálknafirði",
+            "amount_isk": 125622200,
+            "percent_of_estimate": 177.0
+          },
+          {
+            "name": "PK Verk ehf., Hafnarfirði",
+            "amount_isk": 123687760,
+            "percent_of_estimate": 174.3
+          },
+          {
+            "name": "K16 ehf., Reykjavík",
+            "amount_isk": 93626220,
+            "percent_of_estimate": 131.9
+          },
+          {
+            "name": "Tindhagur ehf., Hveragerði",
+            "amount_isk": 92001873,
+            "percent_of_estimate": 129.6
+          },
+          {
+            "name": "Hagtak hf., Hafnarfirði",
+            "amount_isk": 59971850,
+            "percent_of_estimate": 84.5
+          },
+          {
+            "name": "Stórverk ehf., Þorlákshöfn",
+            "amount_isk": 55262262,
+            "percent_of_estimate": 77.9
+          }
+        ],
+        "estimate_isk": 70971300,
+        "currency": "ISK",
+        "evidence_type": "bid_opening"
+      },
       "intelligence_type": "bid_opening",
       "is_open_opportunity": false,
       "sector_tags": []

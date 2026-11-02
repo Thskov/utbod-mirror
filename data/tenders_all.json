@@ -61,16 +61,16 @@
     }
   },
   "schema_version": 1,
-  "generated": "2026-11-02T07:00:27Z",
-  "generated_at": "2026-11-02T07:00:27Z",
+  "generated": "2026-11-02T17:17:04Z",
+  "generated_at": "2026-11-02T17:17:04Z",
   "sources": {
     "utbodsvefur": {
-      "generated_at": "2026-11-02T07:00:27.458232+00:00",
-      "count": 82,
+      "generated_at": "2026-11-02T17:17:04.043750+00:00",
+      "count": 81,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders.json"
     },
     "offportal": {
-      "generated": "2026-11-02T07:00:27Z",
+      "generated": "2026-11-02T17:17:04Z",
       "count": 165,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders_offportal.json"
     },
@@ -251,6 +251,7 @@
       "geosalmo",
       "grindavíkurbær",
       "grímsnes og grafningshreppur",
+      "göng og brú ohf",
       "hafnarfjarðarkaupstaður",
       "hafnasamlag norðurlands",
       "heilbrigðisstofnun norðurlands",
@@ -298,6 +299,8 @@
       "áfengis og tóbaksverslun ríkisins átvr"
     ],
     "buyer_aliases": {
+      "göng og brú": "Göng og brú ohf.",
+      "göng og brú ohf": "Göng og brú ohf.",
       "hafnarfjarðarbær": "Hafnarfjarðarkaupstaður",
       "hafnarfjörður": "Hafnarfjarðarkaupstaður",
       "hafnarfjordur": "Hafnarfjarðarkaupstaður",
@@ -501,18 +504,6 @@
     ],
     "source_candidates": [
       {
-        "id": "tender:buyer:göng-og-brú-ohf",
-        "name": "Göng og brú ohf.",
-        "suggested_feed": "tenders_all",
-        "suggested_lane": "tender",
-        "evidence_url": "https://www.utbodsvefur.is/utbod-a-thjonustu-radgjafarteymis-verkkaupa-client-side-support-team-csst-fyrir-gong-og-bru-ohf/",
-        "seen_count": 1,
-        "first_seen": "2026-11-02T07:00:27Z",
-        "last_seen": "2026-11-02T07:00:27Z",
-        "reason": "unknown buyer/source found in tender feed",
-        "status": "pending"
-      },
-      {
         "id": "tender:buyer:akranesbær",
         "name": "Akranesbær",
         "suggested_feed": "tenders_all",
@@ -523,7 +514,7 @@
         "last_seen": "2026-10-27T11:55:54Z",
         "reason": "exact candidate evidence excluded: electricity_purchase",
         "status": "out_of_scope_for_now",
-        "last_reviewed": "2026-11-02T07:00:27Z"
+        "last_reviewed": "2026-11-02T17:17:04Z"
       },
       {
         "id": "tender:buyer:fjallabyggð",
@@ -536,7 +527,7 @@
         "last_seen": "2026-10-22T07:00:26Z",
         "reason": "SW261029-I01: reviewed exact historical snow-clearing/de-icing service URL; not works. Genuine works/planning remain eligible.",
         "status": "out_of_scope_for_now",
-        "last_reviewed": "2026-11-02T07:00:27Z"
+        "last_reviewed": "2026-11-02T17:17:04Z"
       },
       {
         "id": "tender:buyer:sveitafélagið-árborg",
@@ -549,13 +540,13 @@
         "last_seen": "2026-10-22T07:00:26Z",
         "reason": "exact candidate evidence excluded: winter_service",
         "status": "out_of_scope_for_now",
-        "last_reviewed": "2026-11-02T07:00:27Z"
+        "last_reviewed": "2026-11-02T17:17:04Z"
       }
     ]
   },
-  "count": 233,
+  "count": 232,
   "counts_by_intelligence_type": {
-    "active_tender": 61,
+    "active_tender": 60,
     "bid_opening": 30,
     "closed_tender": 2,
     "dynamic_purchasing_system": 22,
@@ -1153,6 +1144,38 @@
       "url": "https://www.vegagerdin.is/verkefnin/utbod/budafossvegur-23-thjorsardalsvegur-landvegur",
       "summary": "Útboð 24-029 · 23. sept. 2026",
       "source": "vegagerdin-opnun-tilboda",
+      "bid_opening_results": {
+        "bidders": [
+          {
+            "name": "Ístak hf., Mosfellsbær",
+            "amount_isk": 3578480766,
+            "percent_of_estimate": 123.0
+          },
+          {
+            "name": "Eykt ehf., Fossvélar ehf., Suðurverk hf.",
+            "amount_isk": 3237212469,
+            "percent_of_estimate": 111.3
+          },
+          {
+            "name": "PK Verk ehf., Hafnarfirði",
+            "amount_isk": 3089255481,
+            "percent_of_estimate": 106.2
+          },
+          {
+            "name": "ÞG verktakar, Reykjavík",
+            "amount_isk": 3053019601,
+            "percent_of_estimate": 105.0
+          },
+          {
+            "name": "Borgarverk ehf., Borgarnesi",
+            "amount_isk": 2532331206,
+            "percent_of_estimate": 87.1
+          }
+        ],
+        "estimate_isk": 2908407213,
+        "currency": "ISK",
+        "evidence_type": "bid_opening"
+      },
       "intelligence_type": "bid_opening",
       "is_open_opportunity": false,
       "sector_tags": []
@@ -1675,6 +1698,28 @@
       "url": "https://www.vegagerdin.is/verkefnin/utbod/husavik-thvergardur-endurbygging-og-lenging-2026",
       "summary": "Útboð 26-141 · 27. okt. 2026",
       "source": "vegagerdin-opnun-tilboda",
+      "bid_opening_results": {
+        "bidders": [
+          {
+            "name": "Haftækni ehf., Tálknafirði",
+            "amount_isk": 489723700,
+            "percent_of_estimate": 108.5
+          },
+          {
+            "name": "Héraðsverk ehf., Egilsstöðum",
+            "amount_isk": 484944267,
+            "percent_of_estimate": 107.5
+          },
+          {
+            "name": "Árni Helgason ehf., Ólafsfirði",
+            "amount_isk": 448213016,
+            "percent_of_estimate": 99.3
+          }
+        ],
+        "estimate_isk": 451245700,
+        "currency": "ISK",
+        "evidence_type": "bid_opening"
+      },
       "intelligence_type": "bid_opening",
       "is_open_opportunity": false,
       "sector_tags": []
@@ -1801,6 +1846,28 @@
       "url": "https://www.vegagerdin.is/verkefnin/utbod/langanesbyggd-thorshofn-hardvidarbryggja-2026",
       "summary": "Útboð 26-098 · 22. sept. 2026",
       "source": "vegagerdin-opnun-tilboda",
+      "bid_opening_results": {
+        "bidders": [
+          {
+            "name": "Úlfsstaðir ehf., Reykjavík",
+            "amount_isk": 177748000,
+            "percent_of_estimate": 114.5
+          },
+          {
+            "name": "Árni Helgason ehf., Ólafsfirði",
+            "amount_isk": 161276250,
+            "percent_of_estimate": 103.9
+          },
+          {
+            "name": "Sjótækni ehf., Tálknafirði",
+            "amount_isk": 97281200,
+            "percent_of_estimate": 62.7
+          }
+        ],
+        "estimate_isk": 155183800,
+        "currency": "ISK",
+        "evidence_type": "bid_opening"
+      },
       "intelligence_type": "bid_opening",
       "is_open_opportunity": false,
       "sector_tags": []
@@ -1981,6 +2048,28 @@
       "url": "https://www.vegagerdin.is/verkefnin/utbod/pickup-trucks-for-the-icelandic-road-and-coastal-administration-irca-2026",
       "summary": "Útboð 25-025 · 15. sept. 2026",
       "source": "vegagerdin-opnun-tilboda",
+      "bid_opening_results": {
+        "bidders": [
+          {
+            "name": "TK Bílar ehf.",
+            "amount_isk": 61877716,
+            "percent_of_estimate": 140.6
+          },
+          {
+            "name": "Hekla hf.",
+            "amount_isk": 51673200,
+            "percent_of_estimate": 117.4
+          },
+          {
+            "name": "BL ehf.",
+            "amount_isk": 40120000,
+            "percent_of_estimate": 91.2
+          }
+        ],
+        "estimate_isk": 44000000,
+        "currency": "ISK",
+        "evidence_type": "bid_opening"
+      },
       "intelligence_type": "bid_opening",
       "is_open_opportunity": false,
       "sector_tags": []
@@ -2377,6 +2466,23 @@
       "url": "https://www.vegagerdin.is/verkefnin/utbod/sudavik-midgardur-hardvidarbryggja-2026",
       "summary": "Útboð 26-129 · 22. sept. 2026",
       "source": "vegagerdin-opnun-tilboda",
+      "bid_opening_results": {
+        "bidders": [
+          {
+            "name": "Sjótækni ehf., Tálknafirði",
+            "amount_isk": 20965000,
+            "percent_of_estimate": 93.8
+          },
+          {
+            "name": "Græjað og gert ehf., Súðavík",
+            "amount_isk": 16375000,
+            "percent_of_estimate": 73.3
+          }
+        ],
+        "estimate_isk": 22345000,
+        "currency": "ISK",
+        "evidence_type": "bid_opening"
+      },
       "intelligence_type": "bid_opening",
       "is_open_opportunity": false,
       "sector_tags": []
@@ -2449,6 +2555,23 @@
       "url": "https://www.vegagerdin.is/verkefnin/utbod/vestfjardavegur-60-um-gufudalssveit-skalanes-hallsteinsnes",
       "summary": "Útboð 26-093 · 29. sept. 2026",
       "source": "vegagerdin-opnun-tilboda",
+      "bid_opening_results": {
+        "bidders": [
+          {
+            "name": "Ístak hf., Mosfellsbær",
+            "amount_isk": 5992459407,
+            "percent_of_estimate": 246.4
+          },
+          {
+            "name": "ÞG verktakar, Reykjavík",
+            "amount_isk": 3888451476,
+            "percent_of_estimate": 159.9
+          }
+        ],
+        "estimate_isk": 2431870289,
+        "currency": "ISK",
+        "evidence_type": "bid_opening"
+      },
       "intelligence_type": "bid_opening",
       "is_open_opportunity": false,
       "sector_tags": []
@@ -2629,6 +2752,28 @@
       "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-vestan-jokulsar-a-breidamerkursandi-malbik-hradutbod",
       "summary": "Útboð 26-123 · 25. ágúst 2026",
       "source": "vegagerdin-opnun-tilboda",
+      "bid_opening_results": {
+        "bidders": [
+          {
+            "name": "Malbikun Norðurlands, Akureyri",
+            "amount_isk": 370952260,
+            "percent_of_estimate": 149.5
+          },
+          {
+            "name": "Colas Ísland ehf., Hafnarfirði",
+            "amount_isk": 328377935,
+            "percent_of_estimate": 132.3
+          },
+          {
+            "name": "Malbikun Akureyrar, Akureyri",
+            "amount_isk": 329149010,
+            "percent_of_estimate": 132.6
+          }
+        ],
+        "estimate_isk": 248192450,
+        "currency": "ISK",
+        "evidence_type": "bid_opening"
+      },
       "intelligence_type": "bid_opening",
       "is_open_opportunity": false,
       "sector_tags": []
@@ -3097,6 +3242,43 @@
       "url": "https://www.vegagerdin.is/verkefnin/utbod/thorlakshofn-skarfaskersbryggja-endurbygging-ramps-2026",
       "summary": "Útboð 26-137 · 20. okt. 2026",
       "source": "vegagerdin-opnun-tilboda",
+      "bid_opening_results": {
+        "bidders": [
+          {
+            "name": "Sjótækni ehf., Tálknafirði",
+            "amount_isk": 125622200,
+            "percent_of_estimate": 177.0
+          },
+          {
+            "name": "PK Verk ehf., Hafnarfirði",
+            "amount_isk": 123687760,
+            "percent_of_estimate": 174.3
+          },
+          {
+            "name": "K16 ehf., Reykjavík",
+            "amount_isk": 93626220,
+            "percent_of_estimate": 131.9
+          },
+          {
+            "name": "Tindhagur ehf., Hveragerði",
+            "amount_isk": 92001873,
+            "percent_of_estimate": 129.6
+          },
+          {
+            "name": "Hagtak hf., Hafnarfirði",
+            "amount_isk": 59971850,
+            "percent_of_estimate": 84.5
+          },
+          {
+            "name": "Stórverk ehf., Þorlákshöfn",
+            "amount_isk": 55262262,
+            "percent_of_estimate": 77.9
+          }
+        ],
+        "estimate_isk": 70971300,
+        "currency": "ISK",
+        "evidence_type": "bid_opening"
+      },
       "intelligence_type": "bid_opening",
       "is_open_opportunity": false,
       "sector_tags": []
@@ -3226,42 +3408,6 @@
       "intelligence_type": "closed_tender",
       "is_open_opportunity": false,
       "sector_tags": []
-    },
-    {
-      "reference": "23400",
-      "project": "Búnaður fyrir eldhús á sjúkrahúsi",
-      "buyer": "Fjársýslan ríkisins",
-      "notice_type": "Vörukaup",
-      "deadline": "02.11.2026 kl. 09:00",
-      "deadline_local": "2026-11-02T09:00:00+00:00",
-      "deadline_utc": "2026-11-02T09:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-09-30T09:44:23+00:00",
-      "modified_at": "2026-09-30T09:44:23+00:00",
-      "url": "https://www.utbodsvefur.is/bunadur-fyrir-eldhus-a-sjukrahusi/",
-      "summary": "Fjársýslan fyrir hönd Framkvæmdasýslu – Ríkiseigna, kt. 510391-2259, óskar eftir tilboðum í útboð nr. 23400 – Búnaður fyrir eldhús a sjúkr...",
-      "sector_tags": [],
-      "source": "utbodsvefur",
-      "intelligence_type": "active_tender",
-      "is_open_opportunity": true
-    },
-    {
-      "reference": "202633",
-      "project": "Slökkvibifreið fyrir slökkvilið Hornafjarðar",
-      "buyer": "Sveitarfélagið Hornafjörður",
-      "notice_type": "Vörukaup",
-      "deadline": "02.11.2026 kl. 12:00",
-      "deadline_local": "2026-11-02T12:00:00+00:00",
-      "deadline_utc": "2026-11-02T12:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-10-02T08:13:41+00:00",
-      "modified_at": "2026-10-02T08:15:36+00:00",
-      "url": "https://www.utbodsvefur.is/slokkvibifreid-fyrir-slokkvilid-hornafjardar/",
-      "summary": "Consensa, fyrir hönd Hornafjarðar, óskar eftir tilboðum í slökkvibifreið fyrir slökkvilið Hornafjarðar samkvæmt skilmálum útboðslýsingar. Um er að ræð...",
-      "sector_tags": [],
-      "source": "utbodsvefur",
-      "intelligence_type": "active_tender",
-      "is_open_opportunity": true
     },
     {
       "reference": "2610018",
@@ -4211,6 +4357,24 @@
       "modified_at": "2026-10-29T13:18:47+00:00",
       "url": "https://www.utbodsvefur.is/bustadavegur-418-temporary-borgarlina-link-via-nesbrautarbru-arnarhlid-burknagata-preliminary-and-detailed-design/",
       "summary": "Vegagerðin ásamt Veitum ohf. óskar eftir tilboði í for- og verkhönnun á bráðabirgðatengingu Borgarlínu um Nesbrautarbrú í Reykjavík ásamt breytingum o...",
+      "sector_tags": [],
+      "source": "utbodsvefur",
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true
+    },
+    {
+      "reference": "Hönnun á lengingu Sundabakka",
+      "project": "Hönnun á lengingu Sundabakka",
+      "buyer": "Faxaflóahafnir",
+      "notice_type": "Þjónusta",
+      "deadline": "03.12.2026 kl. 10:00",
+      "deadline_local": "2026-12-03T10:00:00+00:00",
+      "deadline_utc": "2026-12-03T10:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-11-02T13:10:45+00:00",
+      "modified_at": "2026-11-02T13:10:45+00:00",
+      "url": "https://www.utbodsvefur.is/honnun-a-lengingu-sundabakka/",
+      "summary": "Faxaflóahafnir sf. óska eftir tilboðum í hönnunarverkið „Hönnun á lengingu Sundabakka“ í Sundahöfn í Reykjavík. Útboðið tekur til verkfræðihönnunar og...",
       "sector_tags": [],
       "source": "utbodsvefur",
       "intelligence_type": "active_tender",
