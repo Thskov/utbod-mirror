@@ -61,16 +61,16 @@
     }
   },
   "schema_version": 1,
-  "generated": "2026-10-30T07:00:27Z",
-  "generated_at": "2026-10-30T07:00:27Z",
+  "generated": "2026-11-02T07:00:27Z",
+  "generated_at": "2026-11-02T07:00:27Z",
   "sources": {
     "utbodsvefur": {
-      "generated_at": "2026-10-30T07:00:27.199147+00:00",
-      "count": 77,
+      "generated_at": "2026-11-02T07:00:27.458232+00:00",
+      "count": 82,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders.json"
     },
     "offportal": {
-      "generated": "2026-10-30T07:00:27Z",
+      "generated": "2026-11-02T07:00:27Z",
       "count": 165,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders_offportal.json"
     },
@@ -501,6 +501,18 @@
     ],
     "source_candidates": [
       {
+        "id": "tender:buyer:göng-og-brú-ohf",
+        "name": "Göng og brú ohf.",
+        "suggested_feed": "tenders_all",
+        "suggested_lane": "tender",
+        "evidence_url": "https://www.utbodsvefur.is/utbod-a-thjonustu-radgjafarteymis-verkkaupa-client-side-support-team-csst-fyrir-gong-og-bru-ohf/",
+        "seen_count": 1,
+        "first_seen": "2026-11-02T07:00:27Z",
+        "last_seen": "2026-11-02T07:00:27Z",
+        "reason": "unknown buyer/source found in tender feed",
+        "status": "pending"
+      },
+      {
         "id": "tender:buyer:akranesbær",
         "name": "Akranesbær",
         "suggested_feed": "tenders_all",
@@ -511,7 +523,7 @@
         "last_seen": "2026-10-27T11:55:54Z",
         "reason": "exact candidate evidence excluded: electricity_purchase",
         "status": "out_of_scope_for_now",
-        "last_reviewed": "2026-10-30T07:00:27Z"
+        "last_reviewed": "2026-11-02T07:00:27Z"
       },
       {
         "id": "tender:buyer:fjallabyggð",
@@ -524,7 +536,7 @@
         "last_seen": "2026-10-22T07:00:26Z",
         "reason": "SW261029-I01: reviewed exact historical snow-clearing/de-icing service URL; not works. Genuine works/planning remain eligible.",
         "status": "out_of_scope_for_now",
-        "last_reviewed": "2026-10-30T07:00:27Z"
+        "last_reviewed": "2026-11-02T07:00:27Z"
       },
       {
         "id": "tender:buyer:sveitafélagið-árborg",
@@ -537,13 +549,13 @@
         "last_seen": "2026-10-22T07:00:26Z",
         "reason": "exact candidate evidence excluded: winter_service",
         "status": "out_of_scope_for_now",
-        "last_reviewed": "2026-10-30T07:00:27Z"
+        "last_reviewed": "2026-11-02T07:00:27Z"
       }
     ]
   },
-  "count": 228,
+  "count": 233,
   "counts_by_intelligence_type": {
-    "active_tender": 56,
+    "active_tender": 61,
     "bid_opening": 30,
     "closed_tender": 2,
     "dynamic_purchasing_system": 22,
@@ -3234,24 +3246,6 @@
       "is_open_opportunity": true
     },
     {
-      "reference": "16338",
-      "project": "Ræsting fyrir stjórnsýsluhús Reykjavíkurborgar, EES útboð nr. 16338",
-      "buyer": "Reykjavíkurborg",
-      "notice_type": "Þjónusta",
-      "deadline": "02.11.2026 kl. 10:00",
-      "deadline_local": "2026-11-02T10:00:00+00:00",
-      "deadline_utc": "2026-11-02T10:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-10-01T10:33:15+00:00",
-      "modified_at": "2026-10-01T10:33:15+00:00",
-      "url": "https://www.utbodsvefur.is/raesting-fyrir-stjornsysluhus-reykjavikurborgar-ees-utbod-nr-16338/",
-      "summary": "Skrifstofa fjármálaþjónustu og ráðgjafar f.h. Þjónustu- og nýsköpunarsviðs Reykjavíkurborgar óskar eftir tilboðum í: Ræsting fyrir stjórnsýsluhús Reyk...",
-      "sector_tags": [],
-      "source": "utbodsvefur",
-      "intelligence_type": "active_tender",
-      "is_open_opportunity": true
-    },
-    {
       "reference": "202633",
       "project": "Slökkvibifreið fyrir slökkvilið Hornafjarðar",
       "buyer": "Sveitarfélagið Hornafjörður",
@@ -3540,6 +3534,24 @@
       "is_open_opportunity": true
     },
     {
+      "reference": "16338",
+      "project": "Ræsting fyrir stjórnsýsluhús Reykjavíkurborgar, EES útboð nr. 16338",
+      "buyer": "Reykjavíkurborg",
+      "notice_type": "Þjónusta",
+      "deadline": "10.11.2026 kl. 10:00",
+      "deadline_local": "2026-11-10T10:00:00+00:00",
+      "deadline_utc": "2026-11-10T10:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-01T10:33:15+00:00",
+      "modified_at": "2026-10-30T12:09:30+00:00",
+      "url": "https://www.utbodsvefur.is/raesting-fyrir-stjornsysluhus-reykjavikurborgar-ees-utbod-nr-16338/",
+      "summary": "Skrifstofa fjármálaþjónustu og ráðgjafar f.h. Þjónustu- og nýsköpunarsviðs Reykjavíkurborgar óskar eftir tilboðum í: Ræsting fyrir stjórnsýsluhús Reyk...",
+      "sector_tags": [],
+      "source": "utbodsvefur",
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true
+    },
+    {
       "reference": "25-2026",
       "project": "Ælupokar fyrir Landspítala og heilbrigðisstofnanir",
       "buyer": "Landspítali",
@@ -3642,6 +3654,24 @@
       "modified_at": "2026-10-26T13:46:51+00:00",
       "url": "https://www.utbodsvefur.is/budardalur-og-bordeyri-sjovarnir-2026/",
       "summary": "Vegagerðin óskar eftir tilboðum í verkið „Búðardalur og Borðeyri – sjóvarnir 2026”. Gera skal nýjan 200 m sjóvörn við sunnan á Borðeyri og um 70 m len...",
+      "sector_tags": [],
+      "source": "utbodsvefur",
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true
+    },
+    {
+      "reference": "190",
+      "project": "Göngu- og hjólastígur Vogar að mislægum gatnamótum til Grindavíkur – Áfangi 1.",
+      "buyer": "Sveitarfélagið Vogar",
+      "notice_type": "Verðfyrirspurn",
+      "deadline": "12.11.2026 kl. 11:00",
+      "deadline_local": "2026-11-12T11:00:00+00:00",
+      "deadline_utc": "2026-11-12T11:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-29T08:30:53+00:00",
+      "modified_at": "2026-10-29T08:31:37+00:00",
+      "url": "https://www.utbodsvefur.is/gongu-og-hjolastigur-vogar-ad-mislaegum-gatnamotum-til-grindavikur-afangi-1/",
+      "summary": "Sveitarfélagið Vogar óskar eftir tilboðum í verkið: Göngu- og hjólastígur Vogar að mislægum gatnamótum til Grindavíkur – Áfangi 1. Verklok eru...",
       "sector_tags": [],
       "source": "utbodsvefur",
       "intelligence_type": "active_tender",
@@ -4061,6 +4091,24 @@
       "is_open_opportunity": true
     },
     {
+      "reference": "2026-50",
+      "project": "KRA – Viðgerð á leiðiskóflum",
+      "buyer": "Landsvirkjun",
+      "notice_type": "Þjónusta",
+      "deadline": "30.11.2026 kl. 10:00",
+      "deadline_local": "2026-11-30T10:00:00+00:00",
+      "deadline_utc": "2026-11-30T10:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-30T12:40:47+00:00",
+      "modified_at": "2026-10-30T12:40:47+00:00",
+      "url": "https://www.utbodsvefur.is/kra-vidgerd-a-leidiskoflum/",
+      "summary": "Landsvirkjun, hér á eftir nefnt verkkaupi óskar eftir tilboðum í verkið: 2026-50 KRA Viðgerðir á leiðiskóflum. Verkið felst í viðgerðum á leiðiskóflum...",
+      "sector_tags": [],
+      "source": "utbodsvefur",
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true
+    },
+    {
       "reference": "16361",
       "project": "Autodesk hugbúnaðarleyfi, EES útboð nr. 16361",
       "buyer": "Reykjavíkurborg",
@@ -4115,6 +4163,24 @@
       "is_open_opportunity": true
     },
     {
+      "reference": "23401",
+      "project": "Hreinsun rotþróa fyrir Hvalfjarðarsveit",
+      "buyer": "Fjársýslan ríkisins",
+      "notice_type": "Þjónusta",
+      "deadline": "01.12.2026 kl. 12:00",
+      "deadline_local": "2026-12-01T12:00:00+00:00",
+      "deadline_utc": "2026-12-01T12:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-30T09:37:23+00:00",
+      "modified_at": "2026-10-30T09:37:23+00:00",
+      "url": "https://www.utbodsvefur.is/hreinsun-rotthroa-fyrir-hvalfjardarsveit/",
+      "summary": "Fjársýslan (kt. 540269-7509), fyrir hönd Hvalfjarðarsveitar (kt. 630606-1950), óskar eftir tilboðum í útboð nr. 23401 – Hreinsun rotþróa fyrir H...",
+      "sector_tags": [],
+      "source": "utbodsvefur",
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true
+    },
+    {
       "reference": "26-072",
       "project": "Almenningssamgöngur á landi á Austurlandi 2027-2028",
       "buyer": "Vegagerðin",
@@ -4145,6 +4211,42 @@
       "modified_at": "2026-10-29T13:18:47+00:00",
       "url": "https://www.utbodsvefur.is/bustadavegur-418-temporary-borgarlina-link-via-nesbrautarbru-arnarhlid-burknagata-preliminary-and-detailed-design/",
       "summary": "Vegagerðin ásamt Veitum ohf. óskar eftir tilboði í for- og verkhönnun á bráðabirgðatengingu Borgarlínu um Nesbrautarbrú í Reykjavík ásamt breytingum o...",
+      "sector_tags": [],
+      "source": "utbodsvefur",
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true
+    },
+    {
+      "reference": "2026-11",
+      "project": "Floating Pontoon Marina System – Skarfagarður",
+      "buyer": "Faxaflóahafnir",
+      "notice_type": "Framkvæmd Vörukaup",
+      "deadline": "03.12.2026 kl. 14:00",
+      "deadline_local": "2026-12-03T14:00:00+00:00",
+      "deadline_utc": "2026-12-03T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-11-02T00:00:33+00:00",
+      "modified_at": "2026-10-29T14:32:29+00:00",
+      "url": "https://www.utbodsvefur.is/floating-pontoon-marina-system-skarfagardur/",
+      "summary": "The project entails the manufacture and installation of 3–5 concrete pontoons in Reykjavík Harbour. The pontoons and moorings must be manufactured in ...",
+      "sector_tags": [],
+      "source": "utbodsvefur",
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true
+    },
+    {
+      "reference": "GB-26-001",
+      "project": "Útboð á þjónustu ráðgjafarteymis verkkaupa (Client Side Support Team – CSST) fyrir Göng og brú ohf.",
+      "buyer": "Göng og brú ohf.",
+      "notice_type": "Þjónusta",
+      "deadline": "07.12.2026 kl. 12:00",
+      "deadline_local": "2026-12-07T12:00:00+00:00",
+      "deadline_utc": "2026-12-07T12:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-11-02T01:43:18+00:00",
+      "modified_at": "2026-11-02T01:43:18+00:00",
+      "url": "https://www.utbodsvefur.is/utbod-a-thjonustu-radgjafarteymis-verkkaupa-client-side-support-team-csst-fyrir-gong-og-bru-ohf/",
+      "summary": "Göng og brú ohf. býður áhugasömum aðilum að taka þátt í útboði á þjónustu ráðgjafarteymis verkkaupa (Client Side Support Team – CSST). Félagið óskar e...",
       "sector_tags": [],
       "source": "utbodsvefur",
       "intelligence_type": "active_tender",
