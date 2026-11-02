@@ -1,0 +1,1419 @@
+{
+  "meaning": "Locally observed collector evidence; not proof of publication, exhaustive coverage or verified project stage.",
+  "observation_month": "2026-10",
+  "records": {
+    "0167631e27274ec761a9d83b61cd8f5a4717fbe7f0f4a7687faf0e0d65fe5c7b": {
+      "content_hash": "0ca78778baa015ddece593abfa823d6cfb941008bd2089c5ae4085ce99ff2a44",
+      "editorial_review": {
+        "new_project_claim_supported": null,
+        "note": "Record retained additively. Relevance roles are not verified project stage; no full-month completeness claim.",
+        "reviewed_at": "2026-10-28T15:00:24.135571+00:00",
+        "role": "project_or_sector_context",
+        "sector_evidence_eligible": true
+      },
+      "first_observed": "2026-10-28T14:28:27.989882Z",
+      "last_observed": "2026-10-30T06:45:01Z",
+      "provenance": [
+        {
+          "entity": "Vestmannaeyjabær",
+          "id": "skgatt:1473/2025",
+          "intelligence_type": "public_record",
+          "lane": "public-info",
+          "observation_kind": "seed_existing_feed",
+          "review_deadline": "2026-10-28",
+          "status": "Endanleg gögn"
+        },
+        {
+          "entity": "Vestmannaeyjabær",
+          "id": "skgatt:1473/2025",
+          "intelligence_type": "public_record",
+          "lane": "public-info",
+          "observation_kind": "collector_run",
+          "review_deadline": "2026-10-28",
+          "status": "Endanleg gögn"
+        }
+      ],
+      "record_state": {
+        "intelligence_type": "public_record",
+        "review_deadline": "2026-10-28",
+        "status": "Endanleg gögn"
+      },
+      "sector_evidence_role": "project_or_sector_context",
+      "sector_subtopics": [
+        "land-based-aquaculture"
+      ],
+      "sector_tags": [
+        "aquaculture-fish-production"
+      ],
+      "source_date": "2025-10-31",
+      "source_month": "2025-10",
+      "summary": "Laxey ehf. áformar að auka umfang framleiðslugetu úr 11.500 tonnum í 42.000 tonn á ári ásamt áformum að reisa seiðaeldisstöð í Viðlagafjöru. Hafið er ferli umhverfismats vegna stækkunar landeldisins og þær skipulagsbreytingar sem hér eru kynntar samræmast þeim áætlunum. Upplýsingar um matsferli vegna stækkunar landeldisstöðvarinnar má sjá í skipulagsgátt. M…",
+      "title": "Stækkun á Iðnaðarsvæði I3 í Viðlagafjöru",
+      "url": "https://skipulagsgatt.is/issues/4130"
+    },
+    "034f3ab80ff7b11c0dfe4799111411eed51882278d82f069ce7ae2b38fd73a85": {
+      "content_hash": "f0938dd06047aa7b625a8b38a864452eb9f3eec5f45a942778d21c02fb8cfe4e",
+      "first_observed": "2026-10-29T08:18:44.958112Z",
+      "last_observed": "2026-10-29T08:18:44.958112Z",
+      "provenance": [
+        {
+          "entity": "LandbasedAQ",
+          "id": "reviewed-backfill:landbasedaq-salmon-garden-20261015",
+          "lane": "approved-october-backfill",
+          "observation_kind": "reviewed_audit_discovery",
+          "source": "landbasedaq"
+        }
+      ],
+      "record_state": {},
+      "sector_evidence_role": "project_or_sector_context",
+      "sector_subtopics": [
+        "land-based-aquaculture"
+      ],
+      "sector_tags": [
+        "aquaculture-fish-production"
+      ],
+      "source_date": "2026-10-15",
+      "source_month": "2026-10",
+      "summary": "Dated secondary interview: Samherji Salmon Garden land-based facility construction in Reykjanes, Iceland; CEO targets first stocking in April 2027 and phase-two construction in summer 2027. Phase-one budget reported at EUR290m versus EUR235m; article explicitly links HS Orka geothermal heat, power and seawater. Plans are attributed targets, not commissioning or an award.",
+      "title": "Iceland's Salmon Garden will 'plant' its first fish next spring",
+      "url": "https://www.landbasedaq.com/iceland-salmon-garden-samherji/icelands-salmon-garden-will-plant-its-first-fish-next-spring/2196404"
+    },
+    "09da2c170f2862e59e8aa67022c09b6dfc4f14b2e2215f8a558d9eece92e9476": {
+      "content_hash": "5021c437fd8f0ce09ed26acf5d318e6dce0bc6de71241f54ef40ca766c8d750b",
+      "editorial_review": {
+        "new_project_claim_supported": null,
+        "note": "Record retained additively. Relevance roles are not verified project stage; no full-month completeness claim.",
+        "reviewed_at": "2026-10-28T15:00:24.135571+00:00",
+        "role": "project_or_sector_context",
+        "sector_evidence_eligible": true
+      },
+      "first_observed": "2026-10-28T14:29:46Z",
+      "last_observed": "2026-10-30T06:45:01Z",
+      "provenance": [
+        {
+          "entity": "Þingeyjarsveit",
+          "id": "skgatt:1124/2026",
+          "intelligence_type": "public_record",
+          "lane": "public-info",
+          "observation_kind": "collector_run",
+          "review_deadline": "2026-10-27",
+          "status": "Grenndarkynning byggingarleyfisumsóknar"
+        }
+      ],
+      "record_state": {
+        "intelligence_type": "public_record",
+        "review_deadline": "2026-10-27",
+        "status": "Grenndarkynning byggingarleyfisumsóknar"
+      },
+      "sector_evidence_role": "project_or_sector_context",
+      "sector_subtopics": [],
+      "sector_tags": [
+        "tourism-infrastructure"
+      ],
+      "source_date": "2026-09-29",
+      "source_month": "2026-09",
+      "summary": "Skipulagsnefnd Þingeyjarsveitar samþykkti á fundi sínum 24.08.26 að grenndarkynna byggingaráform vegna breyttrar notkunar á hesthúsi að Stóru Laugum samkvæmt 2. mgr. 44. gr. skipulagslaga nr. 123/2010. Gert er ráð fyrir að færa veitingastaðinn Þorgrím í hesthúsið sem er á jörðinni til þess að draga úr ónæði sem hótelgetir verða fyrir vegna bíla við veitinga…",
+      "title": "Stórulaugar, breytt notkun hesthúss",
+      "url": "https://skipulagsgatt.is/issues/5479"
+    },
+    "0df01041a3ea542195a6b2d378d9f088c60a4fee0c4eb01f5628f3cf24a84c78": {
+      "content_hash": "ca23fedb9e53b8db5e7e830ddbe75f35cacf734ebd2edca8d7a414bf534f1eb0",
+      "first_observed": "2026-10-30T06:30:01Z",
+      "last_observed": "2026-10-30T06:30:01Z",
+      "provenance": [
+        {
+          "entity": "braggi.is",
+          "id": "news:braggi:deilt-um-leyfi-til-grunnvatnstoku-og-jardsjosvinnslu-i-sveit-e4c392d2",
+          "lane": "news",
+          "observation_kind": "collector_run",
+          "outlet": "braggi.is"
+        }
+      ],
+      "record_state": {},
+      "sector_evidence_role": "project_or_sector_context",
+      "sector_subtopics": [
+        "aquaculture-facility-unspecified"
+      ],
+      "sector_tags": [
+        "aquaculture-fish-production"
+      ],
+      "source_date": "2026-10-29",
+      "source_month": "2026-10",
+      "summary": "Málið varðaði kröfu landeigenda um ógildingu á nýtingarleyfi Orkustofnunar til handa fyrirtæki vegna vinnslu á fersku grunnvatni og jarðsjó til fiskeldis. Stefnendur töldu leyfisveitinguna brjóta gegn lögum um stjórn vatnamála, mat á umhverfisáhrifum",
+      "title": "Deilt um leyfi til grunnvatnstöku og jarðsjósvinnslu í Sveitarfélaginu Vogum",
+      "url": "https://braggi.is/deilt-um-leyfi-til-grunnvatnstoku-og-jardsjosvinnslu-i-sveit-e4c392d2"
+    },
+    "10a2cef66f0bf6f74400c74d6a2a542870367e5c7f0cf10bd97745b1f82a09cd": {
+      "content_hash": "59ba014cd045299c8ab7969de4dbd9412b50190bc39d17eabfb5bee243d29d6c",
+      "editorial_review": {
+        "new_project_claim_supported": null,
+        "note": "Record retained additively. Relevance roles are not verified project stage; no full-month completeness claim.",
+        "reviewed_at": "2026-10-28T15:00:24.135571+00:00",
+        "role": "project_or_sector_context",
+        "sector_evidence_eligible": true
+      },
+      "first_observed": "2026-10-28T14:28:27.989882Z",
+      "last_observed": "2026-10-30T06:45:01Z",
+      "provenance": [
+        {
+          "entity": "Reykjavík",
+          "id": "skgatt:1608/2025",
+          "intelligence_type": "public_record",
+          "lane": "public-info",
+          "observation_kind": "seed_existing_feed",
+          "review_deadline": "2026-10-30",
+          "status": "Endanleg gögn"
+        },
+        {
+          "entity": "Reykjavík",
+          "id": "skgatt:1608/2025",
+          "intelligence_type": "public_record",
+          "lane": "public-info",
+          "observation_kind": "collector_run",
+          "review_deadline": "2026-10-30",
+          "status": "Endanleg gögn"
+        }
+      ],
+      "record_state": {
+        "intelligence_type": "public_record",
+        "review_deadline": "2026-10-30",
+        "status": "Endanleg gögn"
+      },
+      "sector_evidence_role": "project_or_sector_context",
+      "sector_subtopics": [],
+      "sector_tags": [
+        "tourism-infrastructure"
+      ],
+      "source_date": "2025-12-03",
+      "source_month": "2025-12",
+      "summary": "Um er að ræða breytingu á deiliskipulagi reits 1.240.2, Bankareits, vegna lóðarinnar nr. 120 við Laugaveg. Í breytingunni sem lögð er til felst að heimilt verði að stækka hótelið með því að bæta inndreginn þakhæð ofan á nýbyggingu hótelsins sem liggur að Rauðarárstíg, Stórholti og Þverholti, bílastæðum ætluðum hreyfihömluðum verður komið fyrir á lóð hótelsi…",
+      "title": "Reitur 1.240.2, Bankareitur - Laugavegur 120 - USK25100343",
+      "url": "https://skipulagsgatt.is/issues/4265"
+    },
+    "16a642e3f520e87fbe221a95e067f2305a74c62d80bdfadbb487decbd3f9c5bb": {
+      "content_hash": "be178f855ba092ff3cf0c15c41352833288089409b78cf1c181d593a6961d1b9",
+      "editorial_review": {
+        "new_project_claim_supported": null,
+        "note": "Record retained additively. Relevance roles are not verified project stage; no full-month completeness claim.",
+        "reviewed_at": "2026-10-28T15:00:24.135571+00:00",
+        "role": "project_or_sector_context",
+        "sector_evidence_eligible": true
+      },
+      "first_observed": "2026-10-28T14:28:27.989882Z",
+      "last_observed": "2026-10-30T06:30:01Z",
+      "provenance": [
+        {
+          "entity": "visir.is / Innherji",
+          "id": "news:visir-innherji:taeknirisarnir-horfa-til-islands-en-raforkukerfid-raedur-ekki-vid-eftirspurnina",
+          "lane": "news",
+          "observation_kind": "seed_existing_feed",
+          "outlet": "visir.is / Innherji"
+        },
+        {
+          "entity": "visir.is / Innherji",
+          "id": "news:visir-innherji:taeknirisarnir-horfa-til-islands-en-raforkukerfid-raedur-ekki-vid-eftirspurnina",
+          "lane": "news",
+          "observation_kind": "collector_run",
+          "outlet": "visir.is / Innherji"
+        },
+        {
+          "entity": "visir.is / Innherji",
+          "id": "news:visir-innherji:taeknirisarnir-horfa-til-islands-en-raforkukerfid-raedur-ekki-vid-eftirspurnina",
+          "lane": "news",
+          "observation_kind": "bounded_existing_feed_backfill",
+          "outlet": "visir.is / Innherji"
+        }
+      ],
+      "record_state": {},
+      "sector_evidence_role": "project_or_sector_context",
+      "sector_subtopics": [],
+      "sector_tags": [
+        "datacentres-infrastructure"
+      ],
+      "source_date": "2026-10-13",
+      "source_month": "2026-10",
+      "summary": "Öll stærstu bandarísku tæknifyrirtækin hafa kannað möguleika á uppbyggingu gagnavera á Íslandi en umfang þeirra verkefna sem þau horfa til er langt umfram það sem raforkukerfið ræður við. Ekki er talið raunhæft að ráðast í mjög stór gagnaversverkefni hér á landi á næstu fimm til sjö árum miðað við fyrirliggjandi áætlanir um aukna orkuframleiðslu.",
+      "title": "Tæknirisarnir horfa til Ís­lands en raf­orku­kerfið ræður ekki við eftir­spurnina",
+      "url": "https://www.visir.is/g/20262947902d/taeknirisarnir-horfa-til-islands-en-raforkukerfid-raedur-ekki-vid-eftirspurnina"
+    },
+    "204d88da64f9af623462ef044df15e4d81956d30fb05d9fcb4b295090abd1741": {
+      "content_hash": "bd290b01743299b36b70ae132e180627ef259cbdae054bcdf42b36c97e4d9f25",
+      "editorial_review": {
+        "new_project_claim_supported": null,
+        "note": "Record retained additively. Relevance roles are not verified project stage; no full-month completeness claim.",
+        "reviewed_at": "2026-10-28T15:00:24.135571+00:00",
+        "role": "project_or_sector_context",
+        "sector_evidence_eligible": true
+      },
+      "first_observed": "2026-10-28T14:28:27.989882Z",
+      "last_observed": "2026-10-30T06:45:01Z",
+      "provenance": [
+        {
+          "entity": "Reykjavík",
+          "id": "skgatt:1162/2026",
+          "intelligence_type": "public_record",
+          "lane": "public-info",
+          "observation_kind": "seed_existing_feed",
+          "review_deadline": "2026-11-19",
+          "status": "Auglýsing tillögu"
+        },
+        {
+          "entity": "Reykjavík",
+          "id": "skgatt:1162/2026",
+          "intelligence_type": "public_record",
+          "lane": "public-info",
+          "observation_kind": "collector_run",
+          "review_deadline": "2026-11-19",
+          "status": "Auglýsing tillögu"
+        },
+        {
+          "entity": "Reykjavík",
+          "id": "skgatt:1162/2026",
+          "intelligence_type": "public_record",
+          "lane": "public-info",
+          "observation_kind": "bounded_existing_feed_backfill",
+          "review_deadline": "2026-11-19",
+          "status": "Auglýsing tillögu"
+        }
+      ],
+      "record_state": {
+        "intelligence_type": "public_record",
+        "review_deadline": "2026-11-19",
+        "status": "Auglýsing tillögu"
+      },
+      "sector_evidence_role": "project_or_sector_context",
+      "sector_subtopics": [],
+      "sector_tags": [
+        "tourism-infrastructure"
+      ],
+      "source_date": "2026-10-07",
+      "source_month": "2026-10",
+      "summary": "Um er að ræða tillögu að breytingu á deiliskipulagi Skeifunnar - Fenjanna vegna lóðarinnar nr. 1 við Grensásveg. Í breytingunni sem lögð er til felst að heimilt verður að byggja hótel á reitum B og D og miðast hámarksstærð hótels við hámarksfjölda fermetra á reitunum.",
+      "title": "Skeifan - Fenin - Grensásvegur 1 - USK26070028",
+      "url": "https://skipulagsgatt.is/issues/5517"
+    },
+    "2b753e6835fae3e94bbc27e7bd91aa4d92d801389e9d3de86a603d0a75d45e47": {
+      "content_hash": "cc9427d008b8cbbf51dfd774edfb19a958d266febf7f85386e5c662e106bbcb9",
+      "editorial_review": {
+        "new_project_claim_supported": null,
+        "note": "Record retained additively. Relevance roles are not verified project stage; no full-month completeness claim.",
+        "reviewed_at": "2026-10-28T15:00:24.135571+00:00",
+        "role": "project_or_sector_context",
+        "sector_evidence_eligible": true
+      },
+      "first_observed": "2026-10-28T14:28:27.989882Z",
+      "last_observed": "2026-10-30T06:30:01Z",
+      "provenance": [
+        {
+          "entity": "visir.is / Viðskipti",
+          "id": "news:visir-vidskipti:taeplega-thrjatiu-sagt-upp",
+          "lane": "news",
+          "observation_kind": "seed_existing_feed",
+          "outlet": "visir.is / Viðskipti"
+        },
+        {
+          "entity": "visir.is / Viðskipti",
+          "id": "news:visir-vidskipti:taeplega-thrjatiu-sagt-upp",
+          "lane": "news",
+          "observation_kind": "collector_run",
+          "outlet": "visir.is / Viðskipti"
+        },
+        {
+          "entity": "visir.is / Viðskipti",
+          "id": "news:visir-vidskipti:taeplega-thrjatiu-sagt-upp",
+          "lane": "news",
+          "observation_kind": "bounded_existing_feed_backfill",
+          "outlet": "visir.is / Viðskipti"
+        }
+      ],
+      "record_state": {},
+      "sector_evidence_role": "project_or_sector_context",
+      "sector_subtopics": [],
+      "sector_tags": [
+        "tourism-infrastructure"
+      ],
+      "source_date": "2026-10-05",
+      "source_month": "2026-10",
+      "summary": "Öllu starfsfólki Fosshótels Rauðará við Rauðarárstíg í Reykjavík hefur verið sagt upp störfum. Framkvæmdir eru fyrirhugaðar á hótelinu næstu mánuði og stendur til að opna undir nýju merki á næsta ári.",
+      "title": "Tæp­lega þrjá­tíu sagt upp",
+      "url": "https://www.visir.is/g/20262944049d/taeplega-thrjatiu-sagt-upp"
+    },
+    "33fbc288e6b661e587b682e8d00076d81e2f73bd27bf16e96890916d72b1d16a": {
+      "content_hash": "6c175d7af166435355b4b6d567e418159afe2fb6301130531eb1e8f2b1113f1a",
+      "editorial_review": {
+        "new_project_claim_supported": null,
+        "note": "Record retained additively. Relevance roles are not verified project stage; no full-month completeness claim.",
+        "reviewed_at": "2026-10-28T15:00:24.135571+00:00",
+        "role": "project_or_sector_context",
+        "sector_evidence_eligible": true
+      },
+      "first_observed": "2026-10-28T14:28:27.989882Z",
+      "last_observed": "2026-10-30T06:45:01Z",
+      "provenance": [
+        {
+          "entity": "Skaftárhreppur",
+          "id": "skgatt:0255/2026",
+          "intelligence_type": "public_record",
+          "lane": "public-info",
+          "observation_kind": "seed_existing_feed",
+          "review_deadline": "2026-11-24",
+          "status": "Athugun eftir auglýsingu"
+        },
+        {
+          "entity": "Skaftárhreppur",
+          "id": "skgatt:0255/2026",
+          "intelligence_type": "public_record",
+          "lane": "public-info",
+          "observation_kind": "collector_run",
+          "review_deadline": "2026-11-24",
+          "status": "Athugun eftir auglýsingu"
+        }
+      ],
+      "record_state": {
+        "intelligence_type": "public_record",
+        "review_deadline": "2026-11-24",
+        "status": "Athugun eftir auglýsingu"
+      },
+      "sector_evidence_role": "project_or_sector_context",
+      "sector_subtopics": [],
+      "sector_tags": [
+        "tourism-infrastructure"
+      ],
+      "source_date": "2026-04-10",
+      "source_month": "2026-04",
+      "summary": "Sveitaratjórn Skaftárhrepps samþykkti á fundi sínum 26. mars 2026 að auglýsa tillögu að deiliskipulagi fyrir Gráholt, þar sem í Aðalskipulagi Skaftárhrepps 2023- 2043 er skilgreint verslunar- og þjónustusvæði VÞ22 innan landamerkja jarðarinnar Heiðarsel. Á skipulagssvæðinu er gert ráð fyrir tveimur hótellóðum, efri (C1) og neðri (C2) lóð. Á efri lóð er fyri…",
+      "title": "Gráholt",
+      "url": "https://skipulagsgatt.is/issues/4610"
+    },
+    "350e6963767aa2096bde4c2ddb30666a5f3616b59052556a74d4a1f45cd50362": {
+      "content_hash": "37609309a9f58d2afcf7d940f6a6bc71db0bedeb16b1e47a6cdea01e07be87fc",
+      "editorial_review": {
+        "new_project_claim_supported": null,
+        "note": "Record retained additively. Relevance roles are not verified project stage; no full-month completeness claim.",
+        "reviewed_at": "2026-10-28T15:00:24.135571+00:00",
+        "role": "project_or_sector_context",
+        "sector_evidence_eligible": true
+      },
+      "first_observed": "2026-10-28T14:29:46Z",
+      "last_observed": "2026-10-30T06:45:01Z",
+      "provenance": [
+        {
+          "entity": "Grindavíkurbær",
+          "id": "skgatt:0055/2026",
+          "intelligence_type": "public_record",
+          "lane": "public-info",
+          "observation_kind": "collector_run",
+          "review_deadline": "2026-11-20",
+          "status": "Endanleg gögn"
+        }
+      ],
+      "record_state": {
+        "intelligence_type": "public_record",
+        "review_deadline": "2026-11-20",
+        "status": "Endanleg gögn"
+      },
+      "sector_evidence_role": "project_or_sector_context",
+      "sector_subtopics": [],
+      "sector_tags": [
+        "tourism-infrastructure"
+      ],
+      "source_date": "2026-01-14",
+      "source_month": "2026-01",
+      "summary": "Flatabrim ehf. sækir um að gerð verði óveruleg breyting á Deiliskipulagi Svartsengis (verslunar- og þjónustusvæði) í tengslum við stækkun á hóteli Northern Light Inn. Breytingin felur í sér stækkun byggingareits á Norðurljósavegi 1 (L129119), úr 8700fm í 15200fm, byggingarheimild eykst úr 3000fm í 5500fm.",
+      "title": "Óveruleg breyting á deiliskipulagi Svartsengis - Northern Light Inn",
+      "url": "https://skipulagsgatt.is/issues/4410"
+    },
+    "46e3e1e86c36b9d106046bc9af9d27372b0cecc07a557733e068774b615e3708": {
+      "content_hash": "1c82216356c3effc487019e028a1bdac4e3994a03cad79cd7ace43ca763df7e9",
+      "editorial_review": {
+        "new_project_claim_supported": false,
+        "note": "Record retained additively. Relevance roles are not verified project stage; no full-month completeness claim.",
+        "reviewed_at": "2026-10-28T15:00:24.135571+00:00",
+        "role": "legal_history",
+        "sector_evidence_eligible": true
+      },
+      "first_observed": "2026-10-28T14:28:27.989882Z",
+      "last_observed": "2026-10-30T06:45:01Z",
+      "provenance": [
+        {
+          "entity": "Hæstiréttur",
+          "id": "haestirettur:leave:2020-154",
+          "intelligence_type": "public_record",
+          "lane": "public-info",
+          "observation_kind": "seed_existing_feed",
+          "source": "haestirettur-leave-to-appeal",
+          "status": "leave_to_appeal_decision"
+        },
+        {
+          "entity": "Hæstiréttur",
+          "id": "haestirettur:leave:2020-154",
+          "intelligence_type": "public_record",
+          "lane": "public-info",
+          "observation_kind": "collector_run",
+          "source": "haestirettur-leave-to-appeal",
+          "status": "leave_to_appeal_decision"
+        }
+      ],
+      "record_state": {
+        "intelligence_type": "public_record",
+        "status": "leave_to_appeal_decision"
+      },
+      "sector_evidence_role": "legal_history",
+      "sector_subtopics": [],
+      "sector_tags": [
+        "tourism-infrastructure"
+      ],
+      "source_date": "2020-06-16",
+      "source_month": "2020-06",
+      "summary": "Áfrýjunarleyfi. Útboð. Verksamningur. Viðurkenningarkrafa. Skaðabætur. Hafnað",
+      "title": "ÞG verktakar ehf. (Bjarki Þór Sveinsson lögmaður) gegn Cambridge Plaza Hotel Company ehf. (Eva B. Helgadóttir lögmaður)",
+      "url": "https://island.is/s/haestirettur/akvardanir/BFC1D1A3-5D65-44E2-8C24-A864A1F899EC"
+    },
+    "5e5612ac0bbad6cbca80642703c27c59a6a65e9b502a7b3813bcebc6a746470a": {
+      "content_hash": "2ee07ecf5cede944dc139393797326321d807f9c54a7ec710d8f252ae55f55cf",
+      "editorial_review": {
+        "new_project_claim_supported": null,
+        "note": "Record retained additively. Relevance roles are not verified project stage; no full-month completeness claim.",
+        "reviewed_at": "2026-10-28T15:00:24.135571+00:00",
+        "role": "project_or_sector_context",
+        "sector_evidence_eligible": true
+      },
+      "first_observed": "2026-10-28T14:29:46Z",
+      "last_observed": "2026-10-28T14:29:46Z",
+      "provenance": [
+        {
+          "entity": "Bláskógabyggð",
+          "id": "skgatt:1676/2025",
+          "intelligence_type": "public_record",
+          "lane": "public-info",
+          "observation_kind": "collector_run",
+          "review_deadline": "2026-10-21",
+          "status": "Endanleg gögn"
+        }
+      ],
+      "record_state": {
+        "intelligence_type": "public_record",
+        "review_deadline": "2026-10-21",
+        "status": "Endanleg gögn"
+      },
+      "sector_evidence_role": "project_or_sector_context",
+      "sector_subtopics": [],
+      "sector_tags": [
+        "tourism-infrastructure"
+      ],
+      "source_date": "2025-12-17",
+      "source_month": "2025-12",
+      "summary": "Lögð er fram skipulagslýsing sem tekur til breytinga á aðalskipulagi Bláskógabyggðar 2015-2027 og breytinga á deiliskipulagi. Svæðið sem breytingin nær til er Hverabraut 7, 9, 11 og 16 til 18. Í breytingunni felst að heimilt verður að vera með hótel með 160 herbergjum, veitingasal og leiksvæði á lóðunum.",
+      "title": "Hverabraut 7, 9, 11 og 16 til 18.; Breytt skilgreining; Uppbygging hótels verslun og þjónusta; Aðalskipulagsbreyting - 2512023",
+      "url": "https://skipulagsgatt.is/issues/4333"
+    },
+    "61da1ef67b100d0f4e8ddea1e3846b3eff3b50e4e388290f551d00000d7ad49b": {
+      "content_hash": "7032805a53cccbb3b071a49c60b600a286f12e83c997a6817dfb065686ff630e",
+      "editorial_review": {
+        "new_project_claim_supported": null,
+        "note": "Record retained additively. Relevance roles are not verified project stage; no full-month completeness claim.",
+        "reviewed_at": "2026-10-28T15:00:24.135571+00:00",
+        "role": "project_or_sector_context",
+        "sector_evidence_eligible": true
+      },
+      "first_observed": "2026-10-28T14:28:27.989882Z",
+      "last_observed": "2026-10-30T06:45:01Z",
+      "provenance": [
+        {
+          "entity": "Vestmannaeyjabær",
+          "id": "skgatt:1474/2025",
+          "intelligence_type": "public_record",
+          "lane": "public-info",
+          "observation_kind": "seed_existing_feed",
+          "review_deadline": "2026-10-28",
+          "status": "Endanleg gögn"
+        },
+        {
+          "entity": "Vestmannaeyjabær",
+          "id": "skgatt:1474/2025",
+          "intelligence_type": "public_record",
+          "lane": "public-info",
+          "observation_kind": "collector_run",
+          "review_deadline": "2026-10-28",
+          "status": "Endanleg gögn"
+        }
+      ],
+      "record_state": {
+        "intelligence_type": "public_record",
+        "review_deadline": "2026-10-28",
+        "status": "Endanleg gögn"
+      },
+      "sector_evidence_role": "project_or_sector_context",
+      "sector_subtopics": [
+        "land-based-aquaculture"
+      ],
+      "sector_tags": [
+        "aquaculture-fish-production"
+      ],
+      "source_date": "2025-10-31",
+      "source_month": "2025-10",
+      "summary": "Laxey ehf. áformar að auka umfang framleiðslugetu úr 11.500 tonnum í 42.000 tonn á ári ásamt áformum að reisa seiðaeldisstöð í Viðlagafjöru. Hafið er ferli umhverfismats vegna stækkunar landeldisins og þær skipulagsbreytingar sem hér eru kynntar samræmast þeim áætlunum. Upplýsingar um matsferli vegna stækkunar landeldisstöðvarinnar má sjá í skipulagsgátt en…",
+      "title": "Deiliskipulag í Viðlagafjöru - breyting vegna stækkunaráforma Laxeyjar ehf.",
+      "url": "https://skipulagsgatt.is/issues/4131"
+    },
+    "6397229defdbfff9ac3f3880661f06b343183d8e51aaf4f7dc80a89e4eb77a4d": {
+      "content_hash": "500f19fde7aaec8dd578d04928c10d634c872f541e9c282b05eae733e839282e",
+      "first_observed": "2026-10-29T08:17:48Z",
+      "last_observed": "2026-10-30T06:30:01Z",
+      "provenance": [
+        {
+          "entity": "Samherji",
+          "id": "samherji:e6f9524ad1593eaea9",
+          "lane": "news",
+          "observation_kind": "collector_run",
+          "outlet": "Samherji",
+          "source": "samherji",
+          "status": "published"
+        }
+      ],
+      "record_state": {
+        "status": "published"
+      },
+      "sector_evidence_role": "project_or_sector_context",
+      "sector_subtopics": [
+        "land-based-aquaculture"
+      ],
+      "sector_tags": [
+        "aquaculture-fish-production"
+      ],
+      "source_date": "2026-10-12",
+      "source_month": "2026-10",
+      "summary": "Framkvæmdir við fyrsta áfanga Eldisgarðs standa sem hæst. Mynd: Jón Steinar Sæmundsson Nýverið lauk vinnu við boranir sjóhola vegna fyrsta áfanga Eldisgarðs, nýrrar landeldisstöðvar Samherja fiskeldis á Reykjanesi. Boruð var 21 sjóhola sem eru ýmist 42 eða 36 metra djúpar. Vinna hófst við borun þann 12. janúar síðastliðinn og tók verkefnið um níu mánuði. Þa...",
+      "title": "Stórt skref í framkvæmdum við uppbyggingu Eldisgarðs",
+      "url": "https://www.samherji.is/is/frettir/stort-skref-i-framkvaemdum-vid-uppbyggingu-eldisgards"
+    },
+    "690d63985c208de7cb23818e5f60de0be3fc1748b76d15092c4de367665e730b": {
+      "content_hash": "36a19576df54aa96d795ab8983f0138b11979e40c77842846d927c9096e0e713",
+      "editorial_review": {
+        "new_project_claim_supported": null,
+        "note": "Record retained additively. Relevance roles are not verified project stage; no full-month completeness claim.",
+        "reviewed_at": "2026-10-28T15:00:24.135571+00:00",
+        "role": "project_or_sector_context",
+        "sector_evidence_eligible": true
+      },
+      "first_observed": "2026-10-28T14:28:27.989882Z",
+      "last_observed": "2026-10-28T14:36:04Z",
+      "provenance": [
+        {
+          "buyer": "Isavia",
+          "intelligence_type": "active_tender",
+          "is_open_opportunity": true,
+          "lane": "tender",
+          "observation_kind": "seed_existing_feed",
+          "source": "isavia-intend"
+        },
+        {
+          "buyer": "Isavia",
+          "intelligence_type": "active_tender",
+          "is_open_opportunity": true,
+          "lane": "tender",
+          "observation_kind": "collector_run",
+          "source": "isavia-intend"
+        }
+      ],
+      "record_state": {
+        "deadline_local": "2040-01-31T23:59:00+00:00",
+        "deadline_utc": "2040-01-31T23:59:00+00:00",
+        "intelligence_type": "active_tender",
+        "is_open_opportunity": true,
+        "notice_type": "Supplies"
+      },
+      "sector_evidence_role": "project_or_sector_context",
+      "sector_subtopics": [],
+      "sector_tags": [
+        "tourism-infrastructure"
+      ],
+      "source_date": "2025-12-23T00:00:00+00:00",
+      "source_month": "2025-12",
+      "summary": "Isavia ohf., reg. no. 550210-0370 and Isavia Innanlandsflugvellir ehf., reg. no. 591219-1380 (“Purchaser” or “Isavia”) is a state-owned limited company. Isavia, along with its subsidiaries, operates and maintains all airports in Iceland, and it also operates air traffic control in the Icelandic aviation area. The Purchaser intends to establish a Dynamic Purchasing System (“DPS”) of qualified suppliers for the supply…",
+      "title": "DPS- Airfield paint; Runways, Taxiways and Aprons, and retro reflective beads",
+      "url": "https://in-tendhost.co.uk/isavia/aspx/ProjectManage/351"
+    },
+    "6c531101536acc6a886519e1ee3299de67dd25cf99e023c4df6aaadf317e102b": {
+      "content_hash": "667c9b52095794cd5ce1651c894f514368ec4402f2982707547214d5c1cc8d6a",
+      "editorial_review": {
+        "new_project_claim_supported": null,
+        "note": "Record retained additively. Relevance roles are not verified project stage; no full-month completeness claim.",
+        "reviewed_at": "2026-10-28T15:00:24.135571+00:00",
+        "role": "project_or_sector_context",
+        "sector_evidence_eligible": true
+      },
+      "first_observed": "2026-10-28T14:28:27.989882Z",
+      "last_observed": "2026-10-30T06:45:01Z",
+      "provenance": [
+        {
+          "entity": "Umhverfis- og orkustofnun",
+          "id": "uos:ddabd623da4f413e06",
+          "intelligence_type": "public_record",
+          "lane": "public-info",
+          "observation_kind": "seed_existing_feed",
+          "source": "uos",
+          "status": "public_notice"
+        },
+        {
+          "entity": "Umhverfis- og orkustofnun",
+          "id": "uos:ddabd623da4f413e06",
+          "intelligence_type": "public_record",
+          "lane": "public-info",
+          "observation_kind": "collector_run",
+          "source": "uos",
+          "status": "public_notice"
+        },
+        {
+          "entity": "Umhverfis- og orkustofnun",
+          "id": "uos:ddabd623da4f413e06",
+          "intelligence_type": "public_record",
+          "lane": "public-info",
+          "observation_kind": "bounded_existing_feed_backfill",
+          "source": "uos",
+          "status": "public_notice"
+        }
+      ],
+      "record_state": {
+        "intelligence_type": "public_record",
+        "status": "public_notice"
+      },
+      "sector_evidence_role": "project_or_sector_context",
+      "sector_subtopics": [
+        "aquaculture-facility-unspecified"
+      ],
+      "sector_tags": [
+        "aquaculture-fish-production"
+      ],
+      "source_date": "2026-10-26",
+      "source_month": "2026-10",
+      "summary": "Umhverfis- og orkustofnun hefur tekið ákvörðun um að breyta starfsleyfi Samherja fiskeldis ehf. Stað Grindavík þannig að í starfsleyfinu séu ákvæði um vöktun áhrifa starfseminnar á vatnshlot og umhverfismarkmið þeirra á grundvelli 2. mgr. 22. gr. laga um stjórn vatnamála nr. 36/2011, sbr. 2. mgr. 6. gr. laga um hollustuhætti og mengunarvarnir nr. 7/1998. Tillaga að starfsleyfi var auglýst frá 8. september til 6. október sl. Engar athugasemdir bárust á auglýsingatíma. Ákvörðun Umhverfis- og orkustofnunar er kæranleg til úrskurðarnefndar umhverfis- og auðlindamála innan eins mánaðar frá birtingu",
+      "title": "26. október 2026 Ákvörðun um breytingu á starfsleyfi Samherja fiskeldis ehf. Stað Grindavík Breyting á starfsleyfi Eldi sjávar- og ferskvatnslífvera Samherji fiskeldi Skoða",
+      "url": "https://uos.is/opinber-birting/akvordun-um-breytingu-a-starfsleyfi-samherja-fiskeldis-ehf.-stad-grindavik"
+    },
+    "73068cbe7931af709f25784ff397ef48ce57b9ae21a45c01b2d7ebfcdc3547a4": {
+      "content_hash": "851fe4c7ebbebfc7b6ac21cb26216f0e6e25d8b9327b72837aed9d18f4cd5a79",
+      "editorial_review": {
+        "new_project_claim_supported": null,
+        "note": "Record retained additively. Relevance roles are not verified project stage; no full-month completeness claim.",
+        "reviewed_at": "2026-10-28T15:00:24.135571+00:00",
+        "role": "project_or_sector_context",
+        "sector_evidence_eligible": true
+      },
+      "first_observed": "2026-10-28T15:00:24.135571Z",
+      "last_observed": "2026-10-29T08:17:48Z",
+      "provenance": [
+        {
+          "entity": "braggi.is",
+          "id": "news:braggi:fjarfest-i-gagnaverum-her-a-landi-fyrir-57-milljarda-krona-i-ar-44238d71",
+          "lane": "news",
+          "observation_kind": "bounded_existing_feed_backfill",
+          "outlet": "braggi.is"
+        },
+        {
+          "entity": "braggi.is",
+          "id": "news:braggi:fjarfest-i-gagnaverum-her-a-landi-fyrir-57-milljarda-krona-i-ar-44238d71",
+          "lane": "news",
+          "observation_kind": "collector_run",
+          "outlet": "braggi.is"
+        }
+      ],
+      "record_state": {},
+      "sector_evidence_role": "project_or_sector_context",
+      "sector_subtopics": [],
+      "sector_tags": [
+        "datacentres-infrastructure"
+      ],
+      "source_date": "2026-10-27",
+      "source_month": "2026-10",
+      "summary": "Fjárfestingar í gagnaverum á Íslandi nema 57 milljörðum króna á þessu ári, sem er nærri tvöfalt meira en í fyrra. Gagnaverin eru þrjú talsins og starfa á höfuðborgarsvæðinu, í Reykjanesbæ, á Akureyri og á Blönduósi. Þetta kemur fram í nýrri greiningu",
+      "title": "Fjárfest í gagnaverum hér á landi fyrir 57 milljarða króna í ár",
+      "url": "https://braggi.is/fjarfest-i-gagnaverum-her-a-landi-fyrir-57-milljarda-krona-i-ar-44238d71"
+    },
+    "78c2e1109aec871bc5aaaffa2448343a05db47e28c3c2c1cb5ea24365832f3e6": {
+      "content_hash": "e88368a0f4d1c91ed74d18a5731b8e584803668eedaaf32617aa967242105b91",
+      "editorial_review": {
+        "new_project_claim_supported": null,
+        "note": "Record retained additively. Relevance roles are not verified project stage; no full-month completeness claim.",
+        "reviewed_at": "2026-10-28T15:00:24.135571+00:00",
+        "role": "project_or_sector_context",
+        "sector_evidence_eligible": true
+      },
+      "first_observed": "2026-10-28T14:29:46Z",
+      "last_observed": "2026-10-30T06:45:01Z",
+      "provenance": [
+        {
+          "entity": "Landsvirkjun",
+          "id": "announcement:landsvirkjun:nyi-kaflinn-i-idnsogunni",
+          "intelligence_type": "public_record",
+          "lane": "public-info",
+          "observation_kind": "collector_run",
+          "source": "landsvirkjun",
+          "status": "published"
+        }
+      ],
+      "record_state": {
+        "intelligence_type": "public_record",
+        "status": "published"
+      },
+      "sector_evidence_role": "project_or_sector_context",
+      "sector_subtopics": [],
+      "sector_tags": [
+        "datacentres-infrastructure"
+      ],
+      "source_date": "2026-10-26",
+      "source_month": "2026-10",
+      "summary": "Tinna Traustadóttir, framkvæmdastjóri Sölu og viðskiptaþróunar, skrifar um uppbyggingu gagnavera á Íslandi.",
+      "title": "Nýi kaflinn í iðnsögunni",
+      "url": "https://www.landsvirkjun.is/frettir/nyi-kaflinn-i-idnsogunni"
+    },
+    "7c2cc86eeb1d43425587c9e7a04bb5b1d1ac27dbec383541684a1b2de384c295": {
+      "content_hash": "7264e3a23e8d17777d972bc57a4c822ef842de0dcde1a53752773c452ecd9e19",
+      "editorial_review": {
+        "new_project_claim_supported": null,
+        "note": "Record retained additively. Relevance roles are not verified project stage; no full-month completeness claim.",
+        "reviewed_at": "2026-10-28T15:00:24.135571+00:00",
+        "role": "project_or_sector_context",
+        "sector_evidence_eligible": true
+      },
+      "first_observed": "2026-10-28T15:00:24.135571Z",
+      "last_observed": "2026-10-28T15:00:24.135571Z",
+      "provenance": [
+        {
+          "entity": "Iceland datacentre industry",
+          "lane": "weekly-audit",
+          "observation_kind": "reviewed_audit_discovery",
+          "source": "reviewed-weekly-audit"
+        }
+      ],
+      "record_state": {},
+      "sector_evidence_role": "project_or_sector_context",
+      "sector_subtopics": [],
+      "sector_tags": [
+        "datacentres-infrastructure"
+      ],
+      "source_date": "2026-10-27",
+      "source_month": "2026-10",
+      "summary": "Reports ISK 57bn Icelandic datacentre capital investment, citing RÚV and industry analysis; sector context, not a named new project.",
+      "title": "Iceland datacentre capital investment: ISK57bn in2026",
+      "url": "https://braggi.is/fjarfest-i-gagnaverum-her-a-landi-fyrir-57-milljarda-krona-i-ar-44238d71"
+    },
+    "83e779beac6f3f8b6c05ca8de32ff7498caf2cca372c599ac027da508fa027a8": {
+      "content_hash": "ce037a541d10901e17bc9b9a72e02fd05fcfd5c9e9160643cd75708ddd50b941",
+      "editorial_review": {
+        "new_project_claim_supported": null,
+        "note": "Record retained additively. Relevance roles are not verified project stage; no full-month completeness claim.",
+        "reviewed_at": "2026-10-28T15:00:24.135571+00:00",
+        "role": "project_or_sector_context",
+        "sector_evidence_eligible": true
+      },
+      "first_observed": "2026-10-28T15:00:24.135571Z",
+      "last_observed": "2026-10-28T15:00:24.135571Z",
+      "provenance": [
+        {
+          "entity": "Samherji",
+          "lane": "weekly-audit",
+          "observation_kind": "reviewed_audit_discovery",
+          "source": "reviewed-weekly-audit",
+          "status": "temporary operating authorization / restart"
+        }
+      ],
+      "record_state": {
+        "status": "temporary operating authorization / restart"
+      },
+      "sector_evidence_role": "project_or_sector_context",
+      "sector_subtopics": [
+        "fish-processing-production"
+      ],
+      "sector_tags": [
+        "aquaculture-fish-production"
+      ],
+      "source_date": "2026-10-21",
+      "source_month": "2026-10",
+      "summary": "Temporary authorization allows restart pending replacement operating permit, at most one year; effluent monitoring required.",
+      "title": "Samherji fish drying at Laugar",
+      "url": "https://www.samherji.is/is/frettir/starfsemi-fiskthurrkunar-a-laugum-hefst-ad-nyju"
+    },
+    "842da8fc6486b1aac1ff5596c75023fd7c025f3b27cb713b422bc299dfce35df": {
+      "content_hash": "1d2c5835ceb1dfeccabea311dcae56d444e1d516385cbf09ecd7621d8aae57d0",
+      "first_observed": "2026-10-29T07:00:27Z",
+      "last_observed": "2026-10-30T07:00:27Z",
+      "provenance": [
+        {
+          "buyer": "Isavia",
+          "intelligence_type": "dynamic_purchasing_system",
+          "is_open_opportunity": false,
+          "lane": "tender",
+          "observation_kind": "collector_run",
+          "source": "isavia-intend"
+        }
+      ],
+      "record_state": {
+        "deadline_local": "2040-01-31T23:59:00+00:00",
+        "deadline_utc": "2040-01-31T23:59:00+00:00",
+        "intelligence_type": "dynamic_purchasing_system",
+        "is_open_opportunity": false,
+        "notice_type": "Supplies"
+      },
+      "sector_evidence_role": "project_or_sector_context",
+      "sector_subtopics": [],
+      "sector_tags": [
+        "tourism-infrastructure"
+      ],
+      "source_date": "2025-12-23T00:00:00+00:00",
+      "source_month": "2025-12",
+      "summary": "Isavia ohf., reg. no. 550210-0370 and Isavia Innanlandsflugvellir ehf., reg. no. 591219-1380 (“Purchaser” or “Isavia”) is a state-owned limited company. Isavia, along with its subsidiaries, operates and maintains all airports in Iceland, and it also operates air traffic control in the Icelandic aviation area. The Purchaser intends to establish a Dynamic Purchasing System (“DPS”) of qualified suppliers for the supply…",
+      "title": "DPS- Airfield paint; Runways, Taxiways and Aprons, and retro reflective beads",
+      "url": "https://in-tendhost.co.uk/isavia/aspx/ProjectManage/351"
+    },
+    "8982f0ebe84c30703681fb4b217c041502ae7c029e4cdcf8db13655634d99aff": {
+      "content_hash": "eac9ea65334df02c03d60ab6efcc822fc3ef4527299b529053893ababe61b888",
+      "first_observed": "2026-10-30T06:30:01Z",
+      "last_observed": "2026-10-30T06:30:01Z",
+      "provenance": [
+        {
+          "entity": "braggi.is",
+          "id": "news:braggi:isafjardarbaer-felur-baejarstjora-ad-klara-samning-um-lodauthlutun-vid-hauganes",
+          "lane": "news",
+          "observation_kind": "collector_run",
+          "outlet": "braggi.is"
+        }
+      ],
+      "record_state": {},
+      "sector_evidence_role": "project_or_sector_context",
+      "sector_subtopics": [],
+      "sector_tags": [
+        "tourism-infrastructure"
+      ],
+      "source_date": "2026-10-29",
+      "source_month": "2026-10",
+      "summary": "Bæjarráð Ísafjarðarbæjar hefur falið bæjarstjóra að ganga frá samningi um lóðaúthlutun við Hauganes. Þar er áformuð uppbygging á laugum, hóteli og heilsuræktarstöð.",
+      "title": "Ísafjarðarbær felur bæjarstjóra að klára samning um lóðaúthlutun við Hauganes",
+      "url": "https://braggi.is/isafjardarbaer-felur-baejarstjora-ad-klara-samning-um-lodauthlutun-vid-hauganes"
+    },
+    "93ed6524844e74ae9d7da20d33c0b5c62a21f5357f68324f5ff87ffa2739ccc8": {
+      "content_hash": "e3fc2330c6dc209b69bcff9cdb8805105958cb2bf3f91bfce2dac1c4414c690e",
+      "editorial_review": {
+        "new_project_claim_supported": null,
+        "note": "Record retained additively. Relevance roles are not verified project stage; no full-month completeness claim.",
+        "reviewed_at": "2026-10-28T15:00:24.135571+00:00",
+        "role": "project_or_sector_context",
+        "sector_evidence_eligible": true
+      },
+      "first_observed": "2026-10-28T14:28:27.989882Z",
+      "last_observed": "2026-10-30T06:45:01Z",
+      "provenance": [
+        {
+          "entity": "Reykjavík",
+          "id": "skgatt:0217/2025",
+          "intelligence_type": "public_record",
+          "lane": "public-info",
+          "observation_kind": "seed_existing_feed",
+          "review_deadline": "2026-11-13",
+          "status": "Endanleg gögn"
+        },
+        {
+          "entity": "Reykjavík",
+          "id": "skgatt:0217/2025",
+          "intelligence_type": "public_record",
+          "lane": "public-info",
+          "observation_kind": "collector_run",
+          "review_deadline": "2026-11-13",
+          "status": "Endanleg gögn"
+        }
+      ],
+      "record_state": {
+        "intelligence_type": "public_record",
+        "review_deadline": "2026-11-13",
+        "status": "Endanleg gögn"
+      },
+      "sector_evidence_role": "project_or_sector_context",
+      "sector_subtopics": [],
+      "sector_tags": [
+        "tourism-infrastructure"
+      ],
+      "source_date": "2025-02-21",
+      "source_month": "2025-02",
+      "summary": "Um er að ræða byggingarleyfisumsókn þar sem sótt er um leyfi til að hækka húsið um tvær hæðir, þar sem efsta hæðin er inndregin þakhæð bæði til norður og suður, fjarlægja austara stigahús, breyta gluggum, byggja svalir, koma fyrir lyftu og innrétta gististað í flokki II, teg. b, 39 gistirými fyrir hámark 94 gesti á efri hæðum, verslunarrými á jarðhæð, gera…",
+      "title": "Brautarholt 16 - USK24030336",
+      "url": "https://skipulagsgatt.is/issues/2874"
+    },
+    "97dc4a6c63ff4530936e4dcf25ce449297d92b421094225e0d92c251132041c6": {
+      "content_hash": "4b5d9dd1e7c1bf014330667137e569e29309fa736f13ea1ffdc537e163eb2028",
+      "editorial_review": {
+        "new_project_claim_supported": null,
+        "note": "Record retained additively. Relevance roles are not verified project stage; no full-month completeness claim.",
+        "reviewed_at": "2026-10-28T15:00:24.135571+00:00",
+        "role": "project_or_sector_context",
+        "sector_evidence_eligible": true
+      },
+      "first_observed": "2026-10-28T14:29:46Z",
+      "last_observed": "2026-10-28T14:29:46Z",
+      "provenance": [
+        {
+          "entity": "Bláskógabyggð",
+          "id": "skgatt:0029/2026",
+          "intelligence_type": "public_record",
+          "lane": "public-info",
+          "observation_kind": "collector_run",
+          "review_deadline": "2026-10-21",
+          "status": "Endanleg gögn"
+        }
+      ],
+      "record_state": {
+        "intelligence_type": "public_record",
+        "review_deadline": "2026-10-21",
+        "status": "Endanleg gögn"
+      },
+      "sector_evidence_role": "project_or_sector_context",
+      "sector_subtopics": [],
+      "sector_tags": [
+        "tourism-infrastructure"
+      ],
+      "source_date": "2026-01-09",
+      "source_month": "2026-01",
+      "summary": "Lögð er fram skipulagslýsing sem tekur til breytinga á aðalskipulagi Bláskógabyggðar 2015-2027 og breytinga á deiliskipulagi. Svæðið sem breytingin nær til er Hverabraut 7, 9, 11 og 16 til 18. Í breytingunni felst að heimilt verður að vera með hótel með 160 herbergjum, veitingasal og leiksvæði á lóðunum.",
+      "title": "Hverabraut 7, 9, 11 og 16 til 18.; Breytt skilgreining; Uppbygging hótels, verslun og þjónusta; Aðalskipulagsbreyting - 2512023",
+      "url": "https://skipulagsgatt.is/issues/4384"
+    },
+    "999bb6ed9d2a14e17fb93351769e9f96b5a4b21bc6348c8c7d3af3d19645575f": {
+      "content_hash": "5d8ad0cd76901bbd98d4e8ddca6bb2192eaf8c8072a37c1c1fcb255a0bbd02e6",
+      "editorial_review": {
+        "new_project_claim_supported": null,
+        "note": "Record retained additively. Relevance roles are not verified project stage; no full-month completeness claim.",
+        "reviewed_at": "2026-10-28T15:00:24.135571+00:00",
+        "role": "project_or_sector_context",
+        "sector_evidence_eligible": true
+      },
+      "first_observed": "2026-10-28T14:28:27.989882Z",
+      "last_observed": "2026-10-30T06:45:01Z",
+      "provenance": [
+        {
+          "entity": "Reykjavík",
+          "id": "skgatt:0302/2025",
+          "intelligence_type": "public_record",
+          "lane": "public-info",
+          "observation_kind": "seed_existing_feed",
+          "review_deadline": "2026-11-13",
+          "status": "Endanleg gögn"
+        },
+        {
+          "entity": "Reykjavík",
+          "id": "skgatt:0302/2025",
+          "intelligence_type": "public_record",
+          "lane": "public-info",
+          "observation_kind": "collector_run",
+          "review_deadline": "2026-11-13",
+          "status": "Endanleg gögn"
+        }
+      ],
+      "record_state": {
+        "intelligence_type": "public_record",
+        "review_deadline": "2026-11-13",
+        "status": "Endanleg gögn"
+      },
+      "sector_evidence_role": "project_or_sector_context",
+      "sector_subtopics": [],
+      "sector_tags": [
+        "tourism-infrastructure"
+      ],
+      "source_date": "2025-03-06",
+      "source_month": "2025-03",
+      "summary": "Um er að ræða byggingarleyfisumsókn þar sem sótt er um leyfi til að breyta innra skipulagi 1.,2. og 3. hæðar í gistiheimili með því að fjölga herbergjum, bæta við starfsmannaaðstöðu og eldhúsi á lóð nr. 4 við Brautarholt. Breyta á 1. hæð og hluta 2. hæðar og sameina það núverandi gistiheimili auk þess að nýta bakgarðinn í þágu gistiheimilisins. Í núverandi…",
+      "title": "Brautarholt 4 - USK24060206",
+      "url": "https://skipulagsgatt.is/issues/2959"
+    },
+    "99bb15e14daedfa61f4a6008cdca14baf57e728a20773eefb5237bbbd5854928": {
+      "content_hash": "206d281e7843a1e336876ce59e0b8ed7c3d0f02ab3dc838a83943d4cd0e00d63",
+      "editorial_review": {
+        "new_project_claim_supported": null,
+        "note": "Record retained additively. Relevance roles are not verified project stage; no full-month completeness claim.",
+        "reviewed_at": "2026-10-28T15:00:24.135571+00:00",
+        "role": "project_or_sector_context",
+        "sector_evidence_eligible": true
+      },
+      "first_observed": "2026-10-28T14:29:46Z",
+      "last_observed": "2026-10-30T06:45:01Z",
+      "provenance": [
+        {
+          "entity": "Flóahreppur",
+          "id": "skgatt:0802/2025",
+          "intelligence_type": "public_record",
+          "lane": "public-info",
+          "observation_kind": "collector_run",
+          "review_deadline": "2026-11-25",
+          "status": "Endanleg gögn"
+        }
+      ],
+      "record_state": {
+        "intelligence_type": "public_record",
+        "review_deadline": "2026-11-25",
+        "status": "Endanleg gögn"
+      },
+      "sector_evidence_role": "project_or_sector_context",
+      "sector_subtopics": [],
+      "sector_tags": [
+        "tourism-infrastructure"
+      ],
+      "source_date": "2025-06-11",
+      "source_month": "2025-06",
+      "summary": "Lögð er fram beiðni sem tekur til óverulegrar breytingar á aðalskipulagi Flóahrepps að Mosató 3. Í breytingunni felst fjölgun gistirýma um 2 og hámarksbyggingarmagn er aukið úr 3.000 fm í 4.150 fm. Gert er ráð fyrir að aukning á byggingarmagni verði að mestu neðanjarðar í formi bílageymslu.",
+      "title": "Mosató 3 hótel L225133; Aukið byggingarmagn og stækkun reits VÞ11; Aðalskipulagsbreyting - 2505087",
+      "url": "https://skipulagsgatt.is/issues/3459"
+    },
+    "9a3f2676c5782fb0f4b3c532d3ab6e888c00b524bd547516ab689486c86ef285": {
+      "content_hash": "9506015444c3e8650ec1a1c3ed14457739178feb4c39779cb284ba52c32a0ac0",
+      "first_observed": "2026-10-29T08:17:48Z",
+      "last_observed": "2026-10-30T06:30:01Z",
+      "provenance": [
+        {
+          "entity": "Samherji",
+          "id": "samherji:e85012a67b30f0bc0f",
+          "lane": "news",
+          "observation_kind": "collector_run",
+          "outlet": "Samherji",
+          "source": "samherji",
+          "status": "published"
+        }
+      ],
+      "record_state": {
+        "status": "published"
+      },
+      "sector_evidence_role": "project_or_sector_context",
+      "sector_subtopics": [
+        "fish-processing-production"
+      ],
+      "sector_tags": [
+        "aquaculture-fish-production"
+      ],
+      "source_date": "2026-10-21",
+      "source_month": "2026-10",
+      "summary": "Fiskþurrkun Samherja að Laugum í Reykjadal. Umhverfis- og orkustofnun hefur veitt Samherja bráðabirgðaheimild vegna reksturs fiskþurrkunar á Laugum í Reykjadal. Heimildin gildir þar til nýtt starfsleyfi hefur verið gefið út vegna starfseminnar. Úrskurðarnefnd umhverfis- og auðlindamála felldi um miðjan september úr gildi ákvörðun heilbrigðisnefndar Norðurla...",
+      "title": "Starfsemi fiskþurrkunar á Laugum hefst að nýju",
+      "url": "https://www.samherji.is/is/frettir/starfsemi-fiskthurrkunar-a-laugum-hefst-ad-nyju"
+    },
+    "9b60c5b1ef611c9be6a59ad785cf1c32a015af3f9fa679b22f1b64da44d5c41b": {
+      "content_hash": "ab90fb469102bae9805656efc661d746d131cf2fefcefa137295ced33c0550ef",
+      "first_observed": "2026-10-29T08:17:48Z",
+      "last_observed": "2026-10-30T06:30:01Z",
+      "provenance": [
+        {
+          "entity": "LandbasedAQ",
+          "id": "landbasedaq:9306aca3ab8371721e",
+          "lane": "news",
+          "observation_kind": "collector_run",
+          "outlet": "LandbasedAQ",
+          "source": "landbasedaq",
+          "status": "published"
+        }
+      ],
+      "record_state": {
+        "status": "published"
+      },
+      "sector_evidence_role": "project_or_sector_context",
+      "sector_subtopics": [
+        "land-based-aquaculture"
+      ],
+      "sector_tags": [
+        "aquaculture-fish-production"
+      ],
+      "source_date": "2026-10-15",
+      "source_month": "2026-10",
+      "summary": "Iceland's Salmon Garden will 'plant' its first fish next spring Ad Samherji Fiskeldi is recruiting employees for its \"Salmon Garden\" land-based salmon farm in Reykjanes, Iceland. The first phase of construction is under way, and the company has set the end of April next year as the target for the first fish stocking. Ad Samherji Fiskeldi CEO Jon Kjartan Jon...",
+      "title": "Iceland's Salmon Garden will 'plant' its first fish next spring",
+      "url": "https://www.landbasedaq.com/iceland-salmon-garden-samherji/icelands-salmon-garden-will-plant-its-first-fish-next-spring/2196404"
+    },
+    "9cf512c5a68785e473f2466b7fc063ea9c19e574f0bf8e125c60e5fc4992fc70": {
+      "content_hash": "2a0b2033d9e7219d9bb8e52cc5ba54a3b95e5f2f037d4ffd75115449f20aab12",
+      "editorial_review": {
+        "new_project_claim_supported": false,
+        "note": "Record retained additively. Relevance roles are not verified project stage; no full-month completeness claim.",
+        "reviewed_at": "2026-10-28T15:00:24.135571+00:00",
+        "role": "conversion_away_from_tourism",
+        "sector_evidence_eligible": true
+      },
+      "first_observed": "2026-10-28T14:28:27.989882Z",
+      "last_observed": "2026-10-30T06:45:01Z",
+      "provenance": [
+        {
+          "entity": "Reykjanesbær",
+          "id": "skgatt:1232/2026",
+          "intelligence_type": "public_record",
+          "lane": "public-info",
+          "observation_kind": "seed_existing_feed",
+          "review_deadline": "2026-11-19",
+          "status": "Grenndarkynning byggingarleyfisumsóknar"
+        },
+        {
+          "entity": "Reykjanesbær",
+          "id": "skgatt:1232/2026",
+          "intelligence_type": "public_record",
+          "lane": "public-info",
+          "observation_kind": "collector_run",
+          "review_deadline": "2026-11-19",
+          "status": "Grenndarkynning byggingarleyfisumsóknar"
+        },
+        {
+          "entity": "Reykjanesbær",
+          "id": "skgatt:1232/2026",
+          "intelligence_type": "public_record",
+          "lane": "public-info",
+          "observation_kind": "bounded_existing_feed_backfill",
+          "review_deadline": "2026-11-19",
+          "status": "Grenndarkynning byggingarleyfisumsóknar"
+        }
+      ],
+      "record_state": {
+        "intelligence_type": "public_record",
+        "review_deadline": "2026-11-19",
+        "status": "Grenndarkynning byggingarleyfisumsóknar"
+      },
+      "sector_evidence_role": "conversion_away_from_tourism",
+      "sector_subtopics": [],
+      "sector_tags": [
+        "tourism-infrastructure"
+      ],
+      "source_date": "2026-10-22",
+      "source_month": "2026-10",
+      "summary": "Með vísan til 5. mgr. 13. gr.,2.mgr 43gr, 1. og 2 mgr. 44. gr. Skipulagslaga nr. 123 frá árinu 2010, gefur Skipulagsráð hér með eigendum húseigna í næsta nágrenni við Sólvallagötu 11, 230 Reykjanesbæ kost á að tjá sig um umsóknina. Haukur Ingi Júlíusson sækir um leyfi til að breyta núverandi gistiheimili í íbúðarhúsnæði. Um er að ræða breytingar á innra ski…",
+      "title": "Sólvallagata 11",
+      "url": "https://skipulagsgatt.is/issues/5587"
+    },
+    "a6b3eb38389cd3d688f1ad1716567c6adf970c81a414eec32c6510c4cbcd7649": {
+      "content_hash": "dfce9614395c84c2a277e474f592c87b7af39b11571b4220acb5a30cab8a8618",
+      "first_observed": "2026-10-29T08:18:44.958112Z",
+      "last_observed": "2026-10-29T08:18:44.958112Z",
+      "provenance": [
+        {
+          "entity": "Laxey",
+          "id": "reviewed-backfill:laxey-saltey-20261001",
+          "lane": "approved-october-backfill",
+          "observation_kind": "reviewed_audit_discovery",
+          "source": "laxey"
+        }
+      ],
+      "record_state": {},
+      "sector_evidence_role": "project_or_sector_context",
+      "sector_subtopics": [
+        "land-based-aquaculture"
+      ],
+      "sector_tags": [
+        "aquaculture-fish-production"
+      ],
+      "source_date": "2026-10-01",
+      "source_month": "2026-10",
+      "summary": "Laxey and Saltey agreed to reuse RO brine from the Laxey hatchery in Vestmannaeyjar for co-located salt production. The first-party article describes shared production facilities and circular resource use, not a new hatchery construction award.",
+      "title": "Laxey og Saltey hefja samstarf",
+      "url": "https://www.laxey.is/laxey-og-saltey-hefja-samstarf"
+    },
+    "b994be46d1b7ec53215f172d90fc0610b0882a9225bd67b1e1f88a0ce7508ee7": {
+      "content_hash": "a9125d984ec3597293db37d6a033221c61cf844dbf67b8e64a893b9b1cc18c3a",
+      "editorial_review": {
+        "new_project_claim_supported": null,
+        "note": "Record retained additively. Relevance roles are not verified project stage; no full-month completeness claim.",
+        "reviewed_at": "2026-10-28T15:00:24.135571+00:00",
+        "role": "project_or_sector_context",
+        "sector_evidence_eligible": true
+      },
+      "first_observed": "2026-10-28T14:28:27.989882Z",
+      "last_observed": "2026-10-28T14:29:46Z",
+      "provenance": [
+        {
+          "entity": "Skeiða- og Gnúpverjahreppur",
+          "id": "skgatt:1103/2026",
+          "intelligence_type": "public_record",
+          "lane": "public-info",
+          "observation_kind": "seed_existing_feed",
+          "review_deadline": "2026-10-21",
+          "status": "Endanleg gögn"
+        },
+        {
+          "entity": "Skeiða- og Gnúpverjahreppur",
+          "id": "skgatt:1103/2026",
+          "intelligence_type": "public_record",
+          "lane": "public-info",
+          "observation_kind": "collector_run",
+          "review_deadline": "2026-10-21",
+          "status": "Endanleg gögn"
+        }
+      ],
+      "record_state": {
+        "intelligence_type": "public_record",
+        "review_deadline": "2026-10-21",
+        "status": "Endanleg gögn"
+      },
+      "sector_evidence_role": "project_or_sector_context",
+      "sector_subtopics": [],
+      "sector_tags": [
+        "tourism-infrastructure"
+      ],
+      "source_date": "2026-09-23",
+      "source_month": "2026-09",
+      "summary": "Lögð er fram umsókn um framkvæmdaleyfi sem tekur til Rauðukamba L234185. Í framkvæmdinni felst lagning rafstrengs að hóteli í landi Rauðukamba.",
+      "title": "Rauðukambar L234185; Rafstrengur - plæging, að hóteli; Framkvæmdarleyfi - 2609011",
+      "url": "https://skipulagsgatt.is/issues/5458"
+    },
+    "cd03cc29fa115f6539fb1a5e0528c1bace7c27615377ae5db45a31a0acca8248": {
+      "content_hash": "028fff7d3239a9262011fc0a65fd9baabfa5487c02e5a5ba39edbdce964e4930",
+      "editorial_review": {
+        "new_project_claim_supported": false,
+        "note": "Record retained additively. Relevance roles are not verified project stage; no full-month completeness claim.",
+        "reviewed_at": "2026-10-28T15:00:24.135571+00:00",
+        "role": "reference_only",
+        "sector_evidence_eligible": false
+      },
+      "first_observed": "2026-10-28T14:28:27.989882Z",
+      "last_observed": "2026-10-28T14:29:46Z",
+      "provenance": [
+        {
+          "entity": "Hafnarfjarðarkaupstaður",
+          "id": "announcement:hafnarfjordur-utbod:utbod",
+          "intelligence_type": "reference_tracker",
+          "lane": "public-info",
+          "observation_kind": "seed_existing_feed",
+          "source": "hafnarfjordur-utbod",
+          "status": "tracker"
+        },
+        {
+          "entity": "Hafnarfjarðarkaupstaður",
+          "id": "announcement:hafnarfjordur-utbod:utbod",
+          "intelligence_type": "reference_tracker",
+          "lane": "public-info",
+          "observation_kind": "collector_run",
+          "source": "hafnarfjordur-utbod",
+          "status": "tracker"
+        }
+      ],
+      "record_state": {
+        "intelligence_type": "reference_tracker",
+        "status": "tracker"
+      },
+      "sector_evidence_role": "reference_only",
+      "sector_subtopics": [],
+      "sector_tags": [
+        "tourism-infrastructure"
+      ],
+      "source_date": null,
+      "source_month": null,
+      "summary": "dagskrá. Árlegir viðburðir Bókasafn Byggðasafn Bæjarbíó Bæjarlistamaður Hafnarborg Menningarstyrkir Kórsjóður Hafnarfjarðar Ferðaþjónusta Hægt er að gista á hótelum, gistiheimilum eða fjölskylduvænu tjaldsvæði. Gististaðir Tjaldsvæði Upplýsingamiðstöð Heilsubærinn Í Hafnarfirði eru margir möguleikar til að létta lundina með útivist og hreyfingu. Íþróttafólk…",
+      "title": "Útboð Hafnarfjarðarkaupstaðar",
+      "url": "https://hafnarfjordur.is/skipulag-i-kynningu-flokkur/utbod"
+    },
+    "d1f196ffb2cc81ddf29a5ca6192b4f01b9af087978f95bb6aa63ab52fc182075": {
+      "content_hash": "d3156c8189e440e023b7d61c2ca4124dd46b11c5ddeca433e9d7a403506ae23c",
+      "editorial_review": {
+        "new_project_claim_supported": null,
+        "note": "Record retained additively. Relevance roles are not verified project stage; no full-month completeness claim.",
+        "reviewed_at": "2026-10-28T15:00:24.135571+00:00",
+        "role": "project_or_sector_context",
+        "sector_evidence_eligible": true
+      },
+      "first_observed": "2026-10-28T14:28:27.989882Z",
+      "last_observed": "2026-10-30T06:45:01Z",
+      "provenance": [
+        {
+          "entity": "Dalabyggð",
+          "id": "skgatt:0716/2026",
+          "intelligence_type": "public_record",
+          "lane": "public-info",
+          "observation_kind": "seed_existing_feed",
+          "review_deadline": "2026-11-09",
+          "status": "Endanleg gögn"
+        },
+        {
+          "entity": "Dalabyggð",
+          "id": "skgatt:0716/2026",
+          "intelligence_type": "public_record",
+          "lane": "public-info",
+          "observation_kind": "collector_run",
+          "review_deadline": "2026-11-09",
+          "status": "Endanleg gögn"
+        }
+      ],
+      "record_state": {
+        "intelligence_type": "public_record",
+        "review_deadline": "2026-11-09",
+        "status": "Endanleg gögn"
+      },
+      "sector_evidence_role": "project_or_sector_context",
+      "sector_subtopics": [],
+      "sector_tags": [
+        "tourism-infrastructure"
+      ],
+      "source_date": "2026-06-04",
+      "source_month": "2026-06",
+      "summary": "Sveitarstjórn Dalabyggðar samþykkti þann 16. apríl 2026 tillögu að breytingu Aðalskipulags Dalabyggðar 2020-2032, sem felur í sér að afþreyingar- og ferðamannasvæði AF11 sem er 0,5 ha er breytt í verslunar- og þjónustusvæði VÞ21, þar sem gert er ráð fyrir heimild fyrir gististað í núverandi byggingu, þ.e. gamla félagsheimilinu Árbliki, Stærð svæðisins er ób…",
+      "title": "Árblik í Suðurdölum",
+      "url": "https://skipulagsgatt.is/issues/5071"
+    },
+    "ddb042c7612fbd6127834a1faa92bfcec9a2eddfd19b348e59f59579b057783a": {
+      "content_hash": "13c5ca47ad0cbb7bdd9cd25a9675d34df6507f8f36d2a0feb633ae346e538b3e",
+      "editorial_review": {
+        "new_project_claim_supported": null,
+        "note": "Record retained additively. Relevance roles are not verified project stage; no full-month completeness claim.",
+        "reviewed_at": "2026-10-28T15:00:24.135571+00:00",
+        "role": "project_or_sector_context",
+        "sector_evidence_eligible": true
+      },
+      "first_observed": "2026-10-28T14:29:46Z",
+      "last_observed": "2026-10-30T06:45:01Z",
+      "provenance": [
+        {
+          "entity": "Rangárþing eystra",
+          "id": "skgatt:1221/2025",
+          "intelligence_type": "public_record",
+          "lane": "public-info",
+          "observation_kind": "collector_run",
+          "review_deadline": "2026-11-27",
+          "status": "Auglýsing tillögu"
+        }
+      ],
+      "record_state": {
+        "intelligence_type": "public_record",
+        "review_deadline": "2026-11-27",
+        "status": "Auglýsing tillögu"
+      },
+      "sector_evidence_role": "project_or_sector_context",
+      "sector_subtopics": [],
+      "sector_tags": [
+        "tourism-infrastructure"
+      ],
+      "source_date": "2025-09-07",
+      "source_month": "2025-09",
+      "summary": "Deiliskipulagstillagan tekur til tveggja hæða hótelbyggingar ásamt starfsmannaíbúðum úr landi Seljalandssel, L163799. Byggingarmagn hótelsins verður allt að 7.000 m² og hámarks byggingarmagn verður allt að 12 m hátt. Gert er ráð fyrir 120 bílastæðum. Starfsmannahús verða allt að 3.000a m² á einni hæð með allt að 80 íbúðum.",
+      "title": "Hótelbygging við Seljalandssel",
+      "url": "https://skipulagsgatt.is/issues/3878"
+    },
+    "fddedf6ecb01cccbc70698ce25889d768925a3bf331e9223ea6fe49368e7c449": {
+      "content_hash": "e2bf701c14ccc543ebba4fd7d99b33df418daf455bde51b94daa3ebe175956cb",
+      "first_observed": "2026-10-29T08:21:49Z",
+      "last_observed": "2026-10-30T06:45:01Z",
+      "provenance": [
+        {
+          "entity": "Isavia / Keflavíkurflugvöllur",
+          "id": "announcement:kef-hotel-project:new-airport-hotel",
+          "intelligence_type": "reference_tracker",
+          "lane": "public-info",
+          "observation_kind": "collector_run",
+          "source": "kef-hotel-project",
+          "status": "reference"
+        }
+      ],
+      "record_state": {
+        "intelligence_type": "reference_tracker",
+        "status": "reference"
+      },
+      "sector_evidence_role": "undated_project_reference",
+      "sector_subtopics": [],
+      "sector_tags": [
+        "tourism-infrastructure"
+      ],
+      "source_date": null,
+      "source_month": null,
+      "summary": "Isavia is exploring options for a hotel at KEF.",
+      "title": "KEF airport hotel — early development reference",
+      "url": "https://www.kefairport.com/kefplus/projects/new-airport-hotel"
+    }
+  },
+  "schema_version": 1
+}

@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "revisions": 39,
+  "unique_urls": 35,
+  "meaning": "Evidence inventory, not a unique-project or new-milestone count. Site grouping only where article text names the site. Reference/legal/conversion-away evidence is not expansion or procurement. Identical URL/content keys across months counted once; substantive revisions retained.",
+  "sectors": {
+    "aquaculture-fish-production": {
+      "revisions": 10,
+      "unique_urls": 8,
+      "evidence_roles": {
+        "project_or_sector_context": 10
+      },
+      "known_site_groups": {
+        "laxey:vidlagafjara": [
+          "https://skipulagsgatt.is/issues/4130",
+          "https://skipulagsgatt.is/issues/4131"
+        ],
+        "samherji:salmon-garden-reykjanes": [
+          "https://www.landbasedaq.com/iceland-salmon-garden-samherji/icelands-salmon-garden-will-plant-its-first-fish-next-spring/2196404"
+        ],
+        "samherji:stadur-grindavik": [
+          "https://uos.is/opinber-birting/akvordun-um-breytingu-a-starfsleyfi-samherja-fiskeldis-ehf.-stad-grindavik"
+        ],
+        "samherji:laugar-fish-drying": [
+          "https://www.samherji.is/is/frettir/starfsemi-fiskthurrkunar-a-laugum-hefst-ad-nyju"
+        ],
+        "laxey:hatchery-saltey-vestmannaeyjar": [
+          "https://www.laxey.is/laxey-og-saltey-hefja-samstarf"
+        ]
+      },
+      "ungrouped_urls": [
+        "https://braggi.is/deilt-um-leyfi-til-grunnvatnstoku-og-jardsjosvinnslu-i-sveit-e4c392d2",
+        "https://www.samherji.is/is/frettir/stort-skref-i-framkvaemdum-vid-uppbyggingu-eldisgards"
+      ]
+    },
+    "datacentres-infrastructure": {
+      "revisions": 5,
+      "unique_urls": 4,
+      "evidence_roles": {
+        "project_or_sector_context": 5
+      },
+      "known_site_groups": {},
+      "ungrouped_urls": [
+        "https://braggi.is/fjarfest-i-gagnaverum-her-a-landi-fyrir-57-milljarda-krona-i-ar-44238d71",
+        "https://www.landsvirkjun.is/frettir/nyi-kaflinn-i-idnsogunni",
+        "https://www.visir.is/g/20262947902d/taeknirisarnir-horfa-til-islands-en-raforkukerfid-raedur-ekki-vid-eftirspurnina",
+        "https://www.visir.is/g/20262952111d/storaukid-innflaedi-erlendra-adila-gaeti-skyrt-ovaenta-styrkingu-kronunnar"
+      ]
+    },
+    "tourism-infrastructure": {
+      "revisions": 24,
+      "unique_urls": 23,
+      "evidence_roles": {
+        "project_or_sector_context": 20,
+        "legal_history": 1,
+        "conversion_away_from_tourism": 1,
+        "reference_only": 1,
+        "undated_project_reference": 1
+      },
+      "known_site_groups": {
+        "tourism:hverabraut-7-18": [
+          "https://skipulagsgatt.is/issues/4333",
+          "https://skipulagsgatt.is/issues/4384"
+        ],
+        "tourism:kef-airport-hotel": [
+          "https://www.kefairport.com/kefplus/projects/new-airport-hotel"
+        ]
+      },
+      "ungrouped_urls": [
+        "https://braggi.is/isafjardarbaer-felur-baejarstjora-ad-klara-samning-um-lodauthlutun-vid-hauganes",
+        "https://hafnarfjordur.is/skipulag-i-kynningu-flokkur/utbod",
+        "https://in-tendhost.co.uk/isavia/aspx/ProjectManage/351",
+        "https://island.is/s/haestirettur/akvardanir/BFC1D1A3-5D65-44E2-8C24-A864A1F899EC",
+        "https://skipulagsgatt.is/issues/2874",
+        "https://skipulagsgatt.is/issues/2959",
+        "https://skipulagsgatt.is/issues/3459",
+        "https://skipulagsgatt.is/issues/3878",
+        "https://skipulagsgatt.is/issues/4265",
+        "https://skipulagsgatt.is/issues/4410",
+        "https://skipulagsgatt.is/issues/4610",
+        "https://skipulagsgatt.is/issues/5071",
+        "https://skipulagsgatt.is/issues/5458",
+        "https://skipulagsgatt.is/issues/5479",
+        "https://skipulagsgatt.is/issues/5517",
+        "https://skipulagsgatt.is/issues/5587",
+        "https://skipulagsgatt.is/issues/5613",
+        "https://skipulagsgatt.is/issues/5618",
+        "https://www.ruv.is/frettir/innlent/2026-11-01-eigendur-glyms-motmaela-aformum-um-hotel-og-badlon-491441",
+        "https://www.visir.is/g/20262944049d/taeplega-thrjatiu-sagt-upp"
+      ]
+    }
+  },
+  "cross_month_unique_content_keys": 39
+}
