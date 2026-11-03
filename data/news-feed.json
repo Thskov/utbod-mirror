@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated": "2026-11-02T17:18:17Z",
+  "generated": "2026-11-03T06:30:01Z",
   "window": {
-    "from": "2026-10-03",
-    "to": "2026-11-02"
+    "from": "2026-10-04",
+    "to": "2026-11-03"
   },
   "coverage": {
     "industry_focus": {
@@ -58,7 +58,7 @@
       "counts_by_sector": {
         "tourism-infrastructure": 2,
         "aquaculture-fish-production": 3,
-        "datacentres-infrastructure": 1
+        "datacentres-infrastructure": 2
       },
       "selection_policy": "Prioritise evidenced infrastructure/project signals; preserve general construction, competitors and Ístak; no quotas.",
       "support_infrastructure_rule": "Requires explicit sector anchor in the same record; unlinked grid/power/fibre remains general infrastructure.",
@@ -420,7 +420,7 @@
   "sources": {
     "not_covered": {
       "byggingar": "Incomplete: 4 relevant records rejected without verified publication dates.",
-      "vb": "Incomplete: 4 relevant records rejected without verified publication dates.",
+      "vb": "Incomplete: 5 relevant records rejected without verified publication dates.",
       "fiskifrettir": "Incomplete: 2 relevant records rejected without verified publication dates.",
       "bb": "Incomplete: no verified in-window relevant records extracted.",
       "landsvirkjun": "Incomplete: 7 relevant records rejected without verified publication dates.",
@@ -468,7 +468,7 @@
         "evidence_url": "https://www.landbasedaq.com/iceland-salmon-garden-samherji/icelands-salmon-garden-will-plant-its-first-fish-next-spring/2196404",
         "seen_count": 1,
         "first_seen": "2026-10-29T08:17:48Z",
-        "last_seen": "2026-11-02T17:18:17Z",
+        "last_seen": "2026-11-03T06:30:01Z",
         "reason": "unknown entity found in generated news items",
         "status": "pending"
       },
@@ -480,13 +480,13 @@
         "evidence_url": "https://sedlabanki.is/frettir-og-utgefid-efni/grein/yfirlysing-peningastefnunefndar-7-oktober-2026",
         "seen_count": 1,
         "first_seen": "2026-11-02T17:18:17Z",
-        "last_seen": "2026-11-02T17:18:17Z",
+        "last_seen": "2026-11-03T06:30:01Z",
         "reason": "unknown entity found in generated news items",
         "status": "pending"
       }
     ]
   },
-  "count": 105,
+  "count": 102,
   "items": [
     {
       "id": "news:visir-vidskipti:roar-ahyggjufulla-hafnfirdinga",
@@ -544,10 +544,10 @@
       "id": "news:heimildin:kristrun-hafnar-thvi-ad-fresta-gjaldtoku-a-gullna-hringnum",
       "lane": "news",
       "category": "project",
-      "title": "Kristrún hafnar því að fresta gjald­töku á Gullna hringnum For­sæt­is­ráð­herra segir rík­is­stjórn­ina ekki ætla að fresta áformum um gjald­töku við Gullfoss, Geysi og Þing­velli...",
+      "title": "Kristrún hafnar því að fresta gjald­töku á Gullna hringnum",
       "entity": "heimildin.is",
       "date": "2026-11-02",
-      "summary": "Kristrún hafnar því að fresta gjald­töku á Gullna hringnum For­sæt­is­ráð­herra segir rík­is­stjórn­ina ekki ætla að fresta áformum um gjald­töku við Gullfoss, Geysi og Þing­velli þrátt fyrir kröfur sunn­lenskra sveit­ar­fé­laga. Millj­arða­hagn­aður hefur orðið af rekstri við Gullfoss á sama tíma og ríkið hefur fjár­magnað þar inn­viði.",
+      "summary": "Kristrún hafnar því að fresta gjald­töku á Gullna hringnum",
       "url": "https://heimildin.is/grein/70335/kristrun-hafnar-thvi-ad-fresta-gjaldtoku-a-gullna-hringnum/",
       "outlet": "heimildin.is",
       "is_new": true,
@@ -567,6 +567,45 @@
       "sector_tags": []
     },
     {
+      "id": "news:braggi:umhverfis-og-skipulagsnefnd-leggur-til-breytingar-a-adalskipulagi-i-skeljavik",
+      "lane": "news",
+      "category": "investment",
+      "title": "Umhverfis- og skipulagsnefnd leggur til breytingar á aðalskipulagi í Skeljavík",
+      "entity": "braggi.is",
+      "date": "2026-11-02",
+      "summary": "Umhverfis- og skipulagsnefnd Strandabyggðar hefur lagt til að gerðar verði breytingar á aðalskipulagi í Skeljavík. Óskað er eftir heimild sveitarstjórnar til að hefja vinnuna.",
+      "url": "https://braggi.is/umhverfis-og-skipulagsnefnd-leggur-til-breytingar-a-adalskipulagi-i-skeljavik/",
+      "outlet": "braggi.is",
+      "is_new": true,
+      "sector_tags": []
+    },
+    {
+      "id": "news:braggi:tillaga-um-frestun-a-uppsetningu-egnos-leidrettingarkerfis-vid-holmavikurflugvol",
+      "lane": "news",
+      "category": "investment",
+      "title": "Tillaga um frestun á uppsetningu Egnos leiðréttingarkerfis við Hólmavíkurflugvöll",
+      "entity": "braggi.is",
+      "date": "2026-11-02",
+      "summary": "Umhverfis- og skipulagsnefnd Strandabyggðar leggur til að fresta umsókn um uppsetningu á Egnos leiðréttingarkerfi við Hólmavíkurflugvöll. Nefndin óskar eftir kynningarfundi með framkvæmdaraðilum áður en ákveðið er um málið. Egnos kerfið er GPS leiðré",
+      "url": "https://braggi.is/tillaga-um-frestun-a-uppsetningu-egnos-leidrettingarkerfis-vid-holmavikurflugvol/",
+      "outlet": "braggi.is",
+      "is_new": true,
+      "sector_tags": []
+    },
+    {
+      "id": "news:braggi:tillaga-um-breytingu-a-deiliskipulagi-kvislatunguvirkjunar-lagd-fram-i-strandaby",
+      "lane": "news",
+      "category": "investment",
+      "title": "Tillaga um breytingu á deiliskipulagi Kvíslatunguvirkjunar lagð fram í Strandabyggð",
+      "entity": "braggi.is",
+      "date": "2026-11-02",
+      "summary": "Umhverfis- og skipulagsnefnd Strandabyggðar hefur lagt fram tillögu um breytingu á deiliskipulagi Kvíslatunguvirkjunar. Tillagan felur meðal annars í sér breytingar á veglínum, efnistökusvæðum og byggingarreitum.",
+      "url": "https://braggi.is/tillaga-um-breytingu-a-deiliskipulagi-kvislatunguvirkjunar-lagd-fram-i-strandaby/",
+      "outlet": "braggi.is",
+      "is_new": true,
+      "sector_tags": []
+    },
+    {
       "id": "news:braggi:taekniinnleiding-a-byggingarstad-krefst-virkrar-thatttoku-idnadarmanna-a0aa0a86",
       "lane": "news",
       "category": "investment",
@@ -575,6 +614,32 @@
       "date": "2026-11-02",
       "summary": "Þrátt fyrir milljarða fjárfestingar í stafrænum lausnum í byggingariðnaði undanfarinn áratug glíma aðalverktakar enn við mikinn flöskuháls á verkstað, sem felst í því að fá undirverktaka og iðnaðarmenn til að nýta nýju kerfin í raun og veru. Iðnaðarm",
       "url": "https://braggi.is/taekniinnleiding-a-byggingarstad-krefst-virkrar-thatttoku-idnadarmanna-a0aa0a86/",
+      "outlet": "braggi.is",
+      "is_new": true,
+      "sector_tags": []
+    },
+    {
+      "id": "news:braggi:synjad-um-byggingarleyfi-fyrir-sumarhus-i-olfusi",
+      "lane": "news",
+      "category": "investment",
+      "title": "Synjað um byggingarleyfi fyrir sumarhús í Ölfusi",
+      "entity": "braggi.is",
+      "date": "2026-11-02",
+      "summary": "Afgreiðslunefnd byggingarfulltrúa í Ölfusi hefur synjað um byggingarleyfi fyrir 144,7 fermetra frístundahús á lóð í Hrauni. Ástæðan fyrir synjuninni er að umsóknin er ekki í samræmi við gildandi skipulagsákvæði. Samkvæmt reglum má byggja allt að 130",
+      "url": "https://braggi.is/synjad-um-byggingarleyfi-fyrir-sumarhus-i-olfusi/",
+      "outlet": "braggi.is",
+      "is_new": true,
+      "sector_tags": []
+    },
+    {
+      "id": "news:braggi:skipulagsnefnd-olfuss-visadi-deiliskipulagi-fyrir-efnistokunam-i-hraun-til-baeja",
+      "lane": "news",
+      "category": "investment",
+      "title": "Skipulagsnefnd Ölfuss vísaði deiliskipulagi fyrir efnistökunám í Hraun til bæjarstjórnar",
+      "entity": "braggi.is",
+      "date": "2026-11-02",
+      "summary": "Skipulags- og umhverfisnefnd Ölfuss hefur vísað deiliskipulagi fyrir efnistökunámur í landi Hrauns til afgreiðslu í bæjarstjórn. Námurnar hafa verið nýttar frá árinu 1960 og er skipulaginu ætlað að festa ramma um áframhaldandi vinnslu á svæðinu.",
+      "url": "https://braggi.is/skipulagsnefnd-olfuss-visadi-deiliskipulagi-fyrir-efnistokunam-i-hraun-til-baeja/",
       "outlet": "braggi.is",
       "is_new": true,
       "sector_tags": []
@@ -619,28 +684,28 @@
       "sector_tags": []
     },
     {
-      "id": "news:ruv-innlent-rss:2026-11-01-nyr-vegkafli-til-ad-stytta-hringveginn-ekki-a-adalskipulagi-hunabyggd",
+      "id": "news:braggi:grasteinn-i-olfusi-fjolgun-ibudaloda-og-staekkun-skipulagssvaedis",
       "lane": "news",
       "category": "investment",
-      "title": "Nýr vegkafli til að stytta hringveginn ekki á aðalskipulagi Húnabyggðar",
-      "entity": "ruv.is / innlent",
-      "date": "2026-11-01",
-      "summary": "Húnabyggð varð til við sameiningu Húnavatnshrepps og Blönduósbæjar 2022. Þörf er á að endurskoða aðalskipulag sveitarfélagsins en þrjú eru í gildi, frá Blönduósbæ, frá Húnavatnshreppi og frá Skagabyggð. Nú á að sameina þau í eitt. 33 umsagnir bárust og sneru þó nokkrar þeirra að Húnavallaleið. Vegagerðin hefur sagt hana hagkvæma framkvæmd sem stytti hringve...",
-      "url": "https://www.ruv.is/frettir/innlent/2026-11-01-nyr-vegkafli-til-ad-stytta-hringveginn-ekki-a-adalskipulagi-hunabyggdar-491252/",
-      "outlet": "ruv.is / innlent",
+      "title": "Grásteinn í Ölfusi: Fjölgun íbúðalóða og stækkun skipulagssvæðis",
+      "entity": "braggi.is",
+      "date": "2026-11-02",
+      "summary": "Skipulags- og umhverfisnefnd Sveitarfélagsins Ölfus hefur vísað til bæjarstjórnar að skipulagsfulltrúi fari með málið um fjölgun íbúðalóða og stækkun skipulagssvæðis í Grásteini. Nefndin samþykkti að óveruleg aðalskipulagsbreyting fengi fram að ganga",
+      "url": "https://braggi.is/grasteinn-i-olfusi-fjolgun-ibudaloda-og-staekkun-skipulagssvaedis/",
+      "outlet": "braggi.is",
       "is_new": true,
       "sector_tags": []
     },
     {
-      "id": "news:ruv-innlent-rss:2026-11-01-mikill-ahugi-a-vadolduveri-og-400-storf-vid-hvammsvirkjun-491110",
+      "id": "news:braggi:breyting-a-byggingarreiti-fyrir-matvoruverslun-a-hafnarvegi-2-i-olfusi",
       "lane": "news",
-      "category": "project",
-      "title": "Mikill áhugi á Vaðölduveri og 400 störf við Hvammsvirkjun",
-      "entity": "ruv.is / innlent",
-      "date": "2026-11-01",
-      "summary": "Þá eru framkvæmdir við Hvammsvirkjun hafnar en um 400 manns munu fá vinnu við virkjunina. Eins og kunnugt er þá voru fyrstu vindmyllurnar fluttar í Vaðölduver og settar upp þar í sumar og voru fyrstu vindmyllurnar formlega gangsettar 15. september síðastliðinn. Alls verður um að ræða 28 vindmyllur en afl hverrar vindmyllu er fjögur til fimm megavött og háma...",
-      "url": "https://www.ruv.is/frettir/innlent/2026-11-01-mikill-ahugi-a-vadolduveri-og-400-storf-vid-hvammsvirkjun-491110/",
-      "outlet": "ruv.is / innlent",
+      "category": "investment",
+      "title": "Breyting á byggingarreiti fyrir matvöruverslun á Hafnarvegi 2 í Ölfusi",
+      "entity": "braggi.is",
+      "date": "2026-11-02",
+      "summary": "Bæjarstjórn Ölfuss hefur staðfest niðurstöðu skipulags- og umhverfisnefndar um breytingu á byggingarreiti á Hafnarvegi 2. Tillagan felur í sér að byggingarreit er hliðraður og stækkaður lítillega, en nýtingarhlutfall er lækkað í 0,5. Á lóðinni er ætl",
+      "url": "https://braggi.is/breyting-a-byggingarreiti-fyrir-matvoruverslun-a-hafnarvegi-2-i-olfusi/",
+      "outlet": "braggi.is",
       "is_new": true,
       "sector_tags": []
     },
@@ -654,89 +719,11 @@
       "summary": "Landeigendum í Stóra-Botni í Hvalfjarðarsveit hugnast ekki áform eins landeiganda í Litla-Botni sem vill byggja stórt hótel og baðlón. Nágrannar hans segja hann ætla að nýta landgæði aðliggjandi jarða til að byggja upp ferðaþjónustu. „Okkur hugnast ekki að stórfelld áform framkvæmdaraðilans um afþreyingarmiðstöð í Botnsdal, á sinni landspildu sem telur um þ...",
       "url": "https://www.ruv.is/frettir/innlent/2026-11-01-eigendur-glyms-motmaela-aformum-um-hotel-og-badlon-491441/",
       "outlet": "ruv.is / innlent",
-      "is_new": true,
+      "is_new": false,
       "sector_tags": [
         "tourism-infrastructure"
       ],
       "sector_evidence_role": "project_or_sector_context"
-    },
-    {
-      "id": "news:braggi:ss-byggir-vill-tvofalda-orlofshusabyggdina-i-halondum-ofan-akureyrar-f5d87b76",
-      "lane": "news",
-      "category": "project",
-      "title": "SS Byggir vill tvöfalda orlofshúsabyggðina í Hálöndum ofan Akureyrar",
-      "entity": "braggi.is",
-      "date": "2026-11-01",
-      "summary": "SS Byggir hefur óskað eftir því við Akureyrarbæ að fá að kaupa eða fá úthlutað landi til að tvöfalda orlofshúsabyggðina í Hálöndum ofan bæjarins. Fyrirtækið vill að nýr áfangi rúmi sambærilegt byggingarmagn og núverandi svæði.",
-      "url": "https://braggi.is/ss-byggir-vill-tvofalda-orlofshusabyggdina-i-halondum-ofan-akureyrar-f5d87b76/",
-      "outlet": "braggi.is",
-      "is_new": true,
-      "sector_tags": []
-    },
-    {
-      "id": "news:braggi:skipulagsrad-laekka-um-eina-haed",
-      "lane": "news",
-      "category": "investment",
-      "title": "Skipulagsráð Lækka um eina hæð",
-      "entity": "braggi.is",
-      "date": "2026-11-01",
-      "summary": "Fyrirhuguð sex hæða bygging við Hrísalund 3-5 á Akureyri er of umfangsmikil að mati skipulagsráðs Akureyrarbæjar, sem fer fram á að húsið verði lækkað um að minnsta kosti eina hæð til að samræmast næsta umhverfi betur. Auk kröfunnar um að draga úr h",
-      "url": "https://braggi.is/skipulagsrad-laekka-um-eina-haed/",
-      "outlet": "braggi.is",
-      "is_new": true,
-      "sector_tags": []
-    },
-    {
-      "id": "news:braggi:skipulagsrad-akureyrarbaejar-vill-laekka-sex-haeda-nybyggingu-vid-hris-5b42b621",
-      "lane": "news",
-      "category": "investment",
-      "title": "Skipulagsráð Akureyrarbæjar vill lækka sex hæða nýbyggingu við Hrísalund",
-      "entity": "braggi.is",
-      "date": "2026-11-01",
-      "summary": "Skipulagsráð Akureyrarbæjar fer nú yfir tillögu um byggingu sex hæða húss við Hrísalund 3 til 5. Ráðið krefst þess að byggingin verði lækkuð um að minnsta kosti eina hæð.",
-      "url": "https://braggi.is/skipulagsrad-akureyrarbaejar-vill-laekka-sex-haeda-nybyggingu-vid-hris-5b42b621/",
-      "outlet": "braggi.is",
-      "is_new": true,
-      "sector_tags": []
-    },
-    {
-      "id": "news:braggi:sebastiano-caboto-vid-dypkun-i-vestmannaeyjahofn",
-      "lane": "news",
-      "category": "project",
-      "title": "Sebastiano Caboto við dýpkun í Vestmannaeyjahöfn",
-      "entity": "braggi.is",
-      "date": "2026-11-01",
-      "summary": "Dýpkunarframkvæmdir standa nú yfir í Vestmannaeyjahöfn þar sem dýpkunarskipið Sebastiano Caboto er við vinnu. Verkefnið snýr að því að dýpka innsiglinguna og hafnarsvæðið í Vestmannaeyjum til að tryggja greiðari og öruggari siglingaleið um höfnina.",
-      "url": "https://braggi.is/sebastiano-caboto-vid-dypkun-i-vestmannaeyjahofn/",
-      "outlet": "braggi.is",
-      "is_new": true,
-      "sector_tags": []
-    },
-    {
-      "id": "news:braggi:byggingaraform-samthykkt-fyrir-einbylishus-i-hegranesi",
-      "lane": "news",
-      "category": "project",
-      "title": "Byggingaráform samþykkt fyrir einbýlishús í Hegranesi",
-      "entity": "braggi.is",
-      "date": "2026-11-01",
-      "summary": "Byggingarfulltrúi Skagafjarðar hefur samþykkt byggingaráform fyrir einbýlishús á lóðinni Ríp II lóð 1 í Hegranesi. Framkvæmdin fellur undir umfangsflokk 2 samkvæmt byggingarreglugerð.",
-      "url": "https://braggi.is/byggingaraform-samthykkt-fyrir-einbylishus-i-hegranesi/",
-      "outlet": "braggi.is",
-      "is_new": true,
-      "sector_tags": []
-    },
-    {
-      "id": "news:braggi:alls-voru-1902-nyjar-ibudir-oseldar-i-57-nybyggingarverkefnum-i-lok-ok-ff3d90e1",
-      "lane": "news",
-      "category": "project",
-      "title": "Alls voru 1.902 nýjar íbúðir óseldar í 57 nýbyggingarverkefnum í lok október",
-      "entity": "braggi.is",
-      "date": "2026-11-01",
-      "summary": "Alls voru 1.902 íbúðir óseldar af 4.274 í 57 nýbyggingarverkefnum þann 26. október. Þetta kemur fram í úttekt Viðskiptablaðsins á nýbyggingarverkefnum á tímabilinu 1. janúar 2024 til 26. október 2026. Í 24 völdum nýbyggingarverkefnum á höfuðborgarsv",
-      "url": "https://braggi.is/alls-voru-1902-nyjar-ibudir-oseldar-i-57-nybyggingarverkefnum-i-lok-ok-ff3d90e1/",
-      "outlet": "braggi.is",
-      "is_new": true,
-      "sector_tags": []
     },
     {
       "id": "news:visir-vidskipti:eg-stend-hins-vegar-fost-a-minu-enda-sofna-eg-alltaf-a-mig",
@@ -985,14 +972,14 @@
       "sector_tags": []
     },
     {
-      "id": "news:visir-innherji:vill-setja-fimmtungshlut-i-landsvirkjun-a-markad-til-ad-lada-ad-erlenda-fjarfest",
+      "id": "news:visir-innherji:vill-setja-fimmtungs-hlut-i-lands-virkjun-a-markad-til-ad-lada-ad-er-lenda-fjar-",
       "lane": "news",
       "category": "project",
-      "title": "Vill setja fimmtungs­hlut í Lands­virkjun á markað til að laða að er­lenda fjár­festa",
+      "title": "Vill setja fimmtungshlut í Landsvirkjun á markað til að laða að erlenda fjárfesta",
       "entity": "visir.is / Innherji",
       "date": "2026-10-27",
-      "summary": "Vill setja fimmtungs­hlut í Lands­virkjun á markað til að laða að er­lenda fjár­festa Innherji",
-      "url": "https://www.visir.is/g/20262954592d/vill-setja-fimmtungshlut-i-landsvirkjun-a-markad-til-ad-lada-ad-erlenda-fjarfesta",
+      "summary": "Vill setja fimmtungshlut í Landsvirkjun á markað til að laða að erlenda fjárfesta",
+      "url": "https://www.visir.is/g/20262954592d/vill-setja-fimmtungs-hlut-i-lands-virkjun-a-markad-til-ad-lada-ad-er-lenda-fjar-festa",
       "outlet": "visir.is / Innherji",
       "is_new": false,
       "sector_tags": []
@@ -1165,6 +1152,22 @@
       "outlet": "visir.is / Viðskipti",
       "is_new": false,
       "sector_tags": []
+    },
+    {
+      "id": "news:visir-innherji:storaukid-innflaedi-erlendra-adila-gaeti-skyrt-ovaenta-styrkingu-kronunnar",
+      "lane": "news",
+      "category": "industrial-demand",
+      "title": "Stór­aukið inn­flæði er­lendra aðila gæti skýrt ó­vænta styrkingu krónunnar",
+      "entity": "visir.is / Innherji",
+      "date": "2026-10-22",
+      "summary": "Mikil aukning í gjaldeyrisinnflæði erlendra aðila til landsins er að líkindum helsta skýringin á snarpri styrkingu krónunnar undanfarna mánuði. Innflæðið hefur verið allt að þrefalt meira en fyrr á árinu og gæti meðal annars helst tengst uppbyggingu gagnavera í erlendri eigu eða uppgjöri skattaskuldbindinga vegna kaupa á hugverkaréttindum Kerecis.",
+      "url": "https://www.visir.is/g/20262952111d/storaukid-innflaedi-erlendra-adila-gaeti-skyrt-ovaenta-styrkingu-kronunnar",
+      "outlet": "visir.is / Innherji",
+      "is_new": false,
+      "sector_tags": [
+        "datacentres-infrastructure"
+      ],
+      "sector_evidence_role": "project_or_sector_context"
     },
     {
       "id": "samherji:e85012a67b30f0bc0f",
@@ -1855,45 +1858,6 @@
       "summary": "Exa Nordic fær hönnun Reykjanesbrautar–Bústaðavegar og hluta 3. lotu Borgarlínu Ráðgjafarfyrirtækið exa nordic ehf. hefur undirritað samning við Vegagerðina um for- og verkhönnun nýrra gatnamóta Reykjanesbrautar og Bústaðavegar ásamt hluta 3. lotu Borgarlínu frá Stekkjarbakka að Vogabyggð. Samningurinn var undirritaður 2. október af Bergþóru Þorkelsdóttur,....",
       "url": "https://byggingar.is/exa-nordic-faer-honnun-reykjanesbrautar-bustadavegar/?utm_source=rss&utm_medium=rss&utm_campaign=exa-nordic-faer-honnun-reykjanesbrautar-bustadavegar",
       "outlet": "byggingar.is / Borgarlína",
-      "is_new": false,
-      "sector_tags": []
-    },
-    {
-      "id": "news:visir-vidskipti:langthradur-draumur-ad-verda-ad-veruleika-i-kisildal",
-      "lane": "news",
-      "category": "project",
-      "title": "Lang­þráður draumur að verða að veru­leika í Kísil­dal",
-      "entity": "visir.is / Viðskipti",
-      "date": "2026-10-03",
-      "summary": "Ómar Þór Ómarsson, framkvæmdastjóri og meðstofnandi Optise, segir langþráðan draum verða að veruleika í október þegar hann heldur út til Bandaríkjanna sem fulltrúi fyrsta íslenska fyrirtækisins til að taka þátt í Startup Battlefield, sprotakeppni tæknimiðilsins TechCrunch.",
-      "url": "https://www.visir.is/g/20262943124d/langthradur-draumur-ad-verda-ad-veruleika-i-kisildal",
-      "outlet": "visir.is / Viðskipti",
-      "is_new": false,
-      "sector_tags": []
-    },
-    {
-      "id": "news:visir-vidskipti:faer-9-5-fyrir-ikea-og-jysk-samsetningar",
-      "lane": "news",
-      "category": "project",
-      "title": "Fær 9,5 fyrir IKEA og JYSK sam­setningar",
-      "entity": "visir.is / Viðskipti",
-      "date": "2026-10-03",
-      "summary": "Brynja Guðjónsdóttir, forstöðukona þjónustu- og markaðsmála hjá Orkunni, er afrekskona í Ikea- og JYSK samsetningu. Brynja segir morgnana heima hjá sér hálfgerðan sirkus. Eða jafnvel morgunlottó.",
-      "url": "https://www.visir.is/g/20262941475d/faer-9-5-fyrir-ikea-og-jysk-samsetningar",
-      "outlet": "visir.is / Viðskipti",
-      "is_new": false,
-      "sector_tags": []
-    },
-    {
-      "id": "news:byggingar-contracts:utm-source-rss-utm-medium-rss-utm-campaign-jon-og-margeir-fa-330-milljona-gatnag",
-      "lane": "news",
-      "category": "project",
-      "title": "Jón og Margeir fá 330 milljóna gatnagerð við Víkursand í Ölfusi",
-      "entity": "byggingar.is / undirritun samninga",
-      "date": "2026-10-03",
-      "summary": "Jón og Margeir fá 330 milljóna gatnagerð við Víkursand í Ölfusi Jón og Margeir ehf. hafa undirritað verksamning við Sveitarfélagið Ölfus vegna gatnagerðar og lagna við Víkursand vestan Þorlákshafnar. Tilboð fyrirtækisins í útboðinu nam 329,9 milljónum króna og var tæpum 94 milljónum undir kostnaðaráætlun. Fyrirtækið greinir frá samningsgerðinni í nýrri færs...",
-      "url": "https://byggingar.is/jon-og-margeir-fa-330-milljona-gatnagerd-vid-vikursand-i-olfusi/?utm_source=rss&utm_medium=rss&utm_campaign=jon-og-margeir-fa-330-milljona-gatnagerd-vid-vikursand-i-olfusi",
-      "outlet": "byggingar.is / undirritun samninga",
       "is_new": false,
       "sector_tags": []
     }
