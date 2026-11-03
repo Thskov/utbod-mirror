@@ -61,8 +61,8 @@
     }
   },
   "schema_version": 1,
-  "generated": "2026-11-02T17:17:04Z",
-  "generated_at": "2026-11-02T17:17:04Z",
+  "generated": "2026-11-03T07:00:25Z",
+  "generated_at": "2026-11-03T07:00:25Z",
   "sources": {
     "covered": [
       {
@@ -568,7 +568,7 @@
         "last_seen": "2026-10-27T11:55:54Z",
         "reason": "exact candidate evidence excluded: electricity_purchase",
         "status": "out_of_scope_for_now",
-        "last_reviewed": "2026-11-02T17:17:04Z"
+        "last_reviewed": "2026-11-03T07:00:25Z"
       },
       {
         "id": "tender:buyer:fjallabyggð",
@@ -581,7 +581,7 @@
         "last_seen": "2026-10-22T07:00:26Z",
         "reason": "SW261029-I01: reviewed exact historical snow-clearing/de-icing service URL; not works. Genuine works/planning remain eligible.",
         "status": "out_of_scope_for_now",
-        "last_reviewed": "2026-11-02T17:17:04Z"
+        "last_reviewed": "2026-11-03T07:00:25Z"
       },
       {
         "id": "tender:buyer:sveitafélagið-árborg",
@@ -594,7 +594,7 @@
         "last_seen": "2026-10-22T07:00:26Z",
         "reason": "exact candidate evidence excluded: winter_service",
         "status": "out_of_scope_for_now",
-        "last_reviewed": "2026-11-02T17:17:04Z"
+        "last_reviewed": "2026-11-03T07:00:25Z"
       }
     ]
   },
