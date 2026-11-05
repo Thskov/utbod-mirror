@@ -61,17 +61,17 @@
     }
   },
   "schema_version": 1,
-  "generated": "2026-11-04T07:00:27Z",
-  "generated_at": "2026-11-04T07:00:27Z",
+  "generated": "2026-11-05T07:00:23Z",
+  "generated_at": "2026-11-05T07:00:23Z",
   "sources": {
     "utbodsvefur": {
-      "generated_at": "2026-11-04T07:00:26.963272+00:00",
-      "count": 77,
+      "generated_at": "2026-11-05T07:00:23.649097+00:00",
+      "count": 76,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders.json"
     },
     "offportal": {
-      "generated": "2026-11-04T07:00:27Z",
-      "count": 165,
+      "generated": "2026-11-05T07:00:23Z",
+      "count": 164,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders_offportal.json"
     },
     "not_covered": [
@@ -118,7 +118,7 @@
       {
         "source": "ted",
         "url": "https://api.ted.europa.eu/v3/notices/search",
-        "reason": "dropped 86 notices: expired deadline",
+        "reason": "dropped 89 notices: expired deadline",
         "kind": "filtering"
       },
       {
@@ -514,7 +514,7 @@
         "last_seen": "2026-10-27T11:55:54Z",
         "reason": "exact candidate evidence excluded: electricity_purchase",
         "status": "out_of_scope_for_now",
-        "last_reviewed": "2026-11-04T07:00:27Z"
+        "last_reviewed": "2026-11-05T07:00:23Z"
       },
       {
         "id": "tender:buyer:fjallabyggð",
@@ -527,7 +527,7 @@
         "last_seen": "2026-10-22T07:00:26Z",
         "reason": "SW261029-I01: reviewed exact historical snow-clearing/de-icing service URL; not works. Genuine works/planning remain eligible.",
         "status": "out_of_scope_for_now",
-        "last_reviewed": "2026-11-04T07:00:27Z"
+        "last_reviewed": "2026-11-05T07:00:23Z"
       },
       {
         "id": "tender:buyer:sveitafélagið-árborg",
@@ -540,18 +540,18 @@
         "last_seen": "2026-10-22T07:00:26Z",
         "reason": "exact candidate evidence excluded: winter_service",
         "status": "out_of_scope_for_now",
-        "last_reviewed": "2026-11-04T07:00:27Z"
+        "last_reviewed": "2026-11-05T07:00:23Z"
       }
     ]
   },
-  "count": 228,
+  "count": 226,
   "counts_by_intelligence_type": {
-    "active_tender": 56,
+    "active_tender": 55,
     "bid_opening": 30,
     "closed_tender": 2,
     "dynamic_purchasing_system": 22,
     "historical_award": 92,
-    "unverified_deadline": 26
+    "unverified_deadline": 25
   },
   "items": [
     {
@@ -3406,42 +3406,6 @@
       "summary": "",
       "source": "mosfellsbaer-utbod",
       "intelligence_type": "closed_tender",
-      "is_open_opportunity": false,
-      "sector_tags": []
-    },
-    {
-      "reference": "6061102",
-      "project": "Hönnun og bygging öryggisfangelsis – Forval",
-      "buyer": "Framkvæmdasýslan ríkiseignir (FSRE)",
-      "notice_type": "Framkvæmd",
-      "deadline": "04.11.2026 kl. 12:00",
-      "deadline_local": "2026-11-04T12:00:00+00:00",
-      "deadline_utc": "2026-11-04T12:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-10-02T10:00:59+00:00",
-      "modified_at": "2026-10-02T10:03:19+00:00",
-      "url": "https://www.utbodsvefur.is/honnun-og-bygging-oryggisfangelsis-forval/",
-      "summary": "Framkvæmdasýslan – Ríkiseignir, hér eftir nefnt FSRE, f.h. verkkaupa, Dómsmálaráðuneytisins, óskar eftir umsóknum fyrirtækja eða teyma fyrirtækj...",
-      "sector_tags": [],
-      "source": "utbodsvefur",
-      "intelligence_type": "active_tender",
-      "is_open_opportunity": true
-    },
-    {
-      "reference": "680810-2026",
-      "project": "Design and construction of a New Security Prison",
-      "buyer": "Framkvæmdasýslan ríkiseignir (FSRE)",
-      "notice_type": "cn-standard",
-      "deadline": "04.11.2026 kl. 12:00",
-      "deadline_local": "2026-11-04T12:00:58+00:00",
-      "deadline_utc": "2026-11-04T12:00:58+00:00",
-      "deadline_confirmed": false,
-      "posted_at": "2026-10-02",
-      "modified_at": null,
-      "url": "https://ted.europa.eu/en/notice/-/detail/680810-2026",
-      "summary": "TED open Iceland construction contract notice; CPV 45000000, 45216113, 45000000, 45216113.",
-      "source": "ted",
-      "intelligence_type": "unverified_deadline",
       "is_open_opportunity": false,
       "sector_tags": []
     },
