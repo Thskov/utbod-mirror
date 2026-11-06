@@ -61,17 +61,17 @@
     }
   },
   "schema_version": 1,
-  "generated": "2026-11-05T07:00:23Z",
-  "generated_at": "2026-11-05T07:00:23Z",
+  "generated": "2026-11-06T07:00:24Z",
+  "generated_at": "2026-11-06T07:00:24Z",
   "sources": {
     "utbodsvefur": {
-      "generated_at": "2026-11-05T07:00:23.649097+00:00",
-      "count": 76,
+      "generated_at": "2026-11-06T07:00:23.933578+00:00",
+      "count": 74,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders.json"
     },
     "offportal": {
-      "generated": "2026-11-05T07:00:23Z",
-      "count": 164,
+      "generated": "2026-11-06T07:00:24Z",
+      "count": 162,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders_offportal.json"
     },
     "not_covered": [
@@ -118,7 +118,7 @@
       {
         "source": "ted",
         "url": "https://api.ted.europa.eu/v3/notices/search",
-        "reason": "dropped 89 notices: expired deadline",
+        "reason": "dropped 91 notices: expired deadline",
         "kind": "filtering"
       },
       {
@@ -514,7 +514,7 @@
         "last_seen": "2026-10-27T11:55:54Z",
         "reason": "exact candidate evidence excluded: electricity_purchase",
         "status": "out_of_scope_for_now",
-        "last_reviewed": "2026-11-05T07:00:23Z"
+        "last_reviewed": "2026-11-06T07:00:24Z"
       },
       {
         "id": "tender:buyer:fjallabyggð",
@@ -527,7 +527,7 @@
         "last_seen": "2026-10-22T07:00:26Z",
         "reason": "SW261029-I01: reviewed exact historical snow-clearing/de-icing service URL; not works. Genuine works/planning remain eligible.",
         "status": "out_of_scope_for_now",
-        "last_reviewed": "2026-11-05T07:00:23Z"
+        "last_reviewed": "2026-11-06T07:00:24Z"
       },
       {
         "id": "tender:buyer:sveitafélagið-árborg",
@@ -540,13 +540,13 @@
         "last_seen": "2026-10-22T07:00:26Z",
         "reason": "exact candidate evidence excluded: winter_service",
         "status": "out_of_scope_for_now",
-        "last_reviewed": "2026-11-05T07:00:23Z"
+        "last_reviewed": "2026-11-06T07:00:24Z"
       }
     ]
   },
-  "count": 226,
+  "count": 224,
   "counts_by_intelligence_type": {
-    "active_tender": 55,
+    "active_tender": 53,
     "bid_opening": 30,
     "closed_tender": 2,
     "dynamic_purchasing_system": 22,
@@ -3410,78 +3410,6 @@
       "sector_tags": []
     },
     {
-      "reference": "24-2026",
-      "project": "Lyfjastaup fyrir Landspítala",
-      "buyer": "Landspítali",
-      "notice_type": "Verðfyrirspurn",
-      "deadline": "05.11.2026 kl. 12:00",
-      "deadline_local": "2026-11-05T12:00:00+00:00",
-      "deadline_utc": "2026-11-05T12:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-10-15T09:26:35+00:00",
-      "modified_at": "2026-10-15T10:48:16+00:00",
-      "url": "https://www.utbodsvefur.is/lyfjastaup-fyrir-landspitala/",
-      "summary": "Landspítali óskar eftir upplýsingum um verð og gæði á lyfjastaupum úr plasti og pappa. Nánari upplýsingar eru í verðfyrirspurnargögnum sem eru aðgengi...",
-      "sector_tags": [],
-      "source": "utbodsvefur",
-      "intelligence_type": "active_tender",
-      "is_open_opportunity": true
-    },
-    {
-      "reference": "202616",
-      "project": "Kaup og uppsetning færanlegra húseininga",
-      "buyer": "Sveitarfélagið Vogar",
-      "notice_type": "Framkvæmd",
-      "deadline": "05.11.2026 kl. 12:00",
-      "deadline_local": "2026-11-05T12:00:00+00:00",
-      "deadline_utc": "2026-11-05T12:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-10-06T08:34:44+00:00",
-      "modified_at": "2026-10-06T09:58:04+00:00",
-      "url": "https://www.utbodsvefur.is/kaup-og-uppsetning-faeranlegra-huseininga/",
-      "summary": "Consensa, fyrir hönd Sveitarfélagsins Voga, óskar eftir tilboðum í verkefnið „Kaup og uppsetning færanlegra húseininga við Suðurvelli“, sem vinna skal...",
-      "sector_tags": [],
-      "source": "utbodsvefur",
-      "intelligence_type": "active_tender",
-      "is_open_opportunity": true
-    },
-    {
-      "reference": "679193-2026",
-      "project": "Framework Agreement for Fault Response Services, Maintenance and Installation of Mechanical and Electrical Equipment",
-      "buyer": "Veitur ohf.",
-      "notice_type": "cn-standard",
-      "deadline": "05.11.2026 kl. 14:00",
-      "deadline_local": "2026-11-05T14:00:00+00:00",
-      "deadline_utc": "2026-11-05T14:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-10-02",
-      "modified_at": null,
-      "url": "https://ted.europa.eu/en/notice/-/detail/679193-2026",
-      "summary": "TED open Iceland construction contract notice; CPV 50710000, 50530000, 51110000, 45310000, 50511000, 71334000, 45259000, 50530000, 50532000, 51110000, 45310000, 71334000, 45259000, 50511000.",
-      "source": "ted",
-      "intelligence_type": "active_tender",
-      "is_open_opportunity": true,
-      "sector_tags": []
-    },
-    {
-      "reference": "VEU-2609-0066",
-      "project": "VEU-2609-0066 HAB: SKORHOLT, BAKKI",
-      "buyer": "Veitur ohf.",
-      "notice_type": "Framkvæmd",
-      "deadline": "05.11.2026 kl. 14:00",
-      "deadline_local": "2026-11-05T14:00:00+00:00",
-      "deadline_utc": "2026-11-05T14:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-10-07T10:59:24+00:00",
-      "modified_at": "2026-10-07T10:59:24+00:00",
-      "url": "https://www.utbodsvefur.is/veu-2609-0066-hab-skorholt-bakki/",
-      "summary": "Veitur ohf. óska eftir tilboðum í verkið: VEU-2609-0066 „HAB: SKORHOLT, BAKKI“ Verkefnið felur í sér endurnýjun á um 1550m löngum kafla HA...",
-      "sector_tags": [],
-      "source": "utbodsvefur",
-      "intelligence_type": "active_tender",
-      "is_open_opportunity": true
-    },
-    {
       "reference": "2026-54",
       "project": "SOG65 Eftirlitsþjónusta",
       "buyer": "Landsvirkjun",
@@ -3842,6 +3770,24 @@
       "is_open_opportunity": true
     },
     {
+      "reference": "753778-2026",
+      "project": "Framework Agreement for Fault Response Services, Maintenance and Installation of Mechanical and Electrical Equipment",
+      "buyer": "Veitur ohf.",
+      "notice_type": "cn-standard",
+      "deadline": "19.11.2026 kl. 14:00",
+      "deadline_local": "2026-11-19T14:00:00+00:00",
+      "deadline_utc": "2026-11-19T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-30",
+      "modified_at": null,
+      "url": "https://ted.europa.eu/en/notice/-/detail/753778-2026",
+      "summary": "TED open Iceland construction contract notice; CPV 50710000, 50530000, 51110000, 45310000, 50511000, 71334000, 45259000, 50530000, 50532000, 51110000, 45310000, 71334000, 45259000, 50511000.",
+      "source": "ted",
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true,
+      "sector_tags": []
+    },
+    {
       "reference": "VEU-2609-0063",
       "project": "VEU-2609-0063 Þjónusta og viðhald vél- og rafbúnaðar",
       "buyer": "Veitur ohf.",
@@ -3929,24 +3875,7 @@
       "sector_tags": [],
       "source": "utbodsvefur",
       "intelligence_type": "active_tender",
-      "is_open_opportunity": true,
-      "supplementary_evidence": [
-        {
-          "source": "mulathing-utbod",
-          "url": "https://www.mulathing.is/is/frettir/mulathing-oskar-eftir-tilbodum-i-verkefnid-herdubreid-austurvegur-4-a-seydisfirdi-bokasafn-og-baejarskrifstofur",
-          "posted_at": "2026-10-26T00:00:00+00:00",
-          "deadline_utc": "2026-11-24T14:00:00+00:00",
-          "deadline_year_inferred": true
-        }
-      ],
-      "deadline_source_conflict": {
-        "structured": "2026-11-24T14:00:00+00:00",
-        "portal_body_reported": "2027-11-24",
-        "reviewed_on": "2026-10-28",
-        "buyer_evidence_url": "https://www.mulathing.is/is/frettir/mulathing-oskar-eftir-tilbodum-i-verkefnid-herdubreid-austurvegur-4-a-seydisfirdi-bokasafn-og-baejarskrifstofur",
-        "interpretation": "Structured 2026 deadline supported by dated buyer notice; portal body says 2027. Original source text not changed.",
-        "audit_item": "SW261028-I03"
-      }
+      "is_open_opportunity": true
     },
     {
       "reference": "202605839",
@@ -4285,6 +4214,24 @@
       "modified_at": "2026-10-29T14:32:29+00:00",
       "url": "https://www.utbodsvefur.is/floating-pontoon-marina-system-skarfagardur/",
       "summary": "The project entails the manufacture and installation of 3–5 concrete pontoons in Reykjavík Harbour. The pontoons and moorings must be manufactured in ...",
+      "sector_tags": [],
+      "source": "utbodsvefur",
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true
+    },
+    {
+      "reference": "16354",
+      "project": "Kaup á tryggingum fyrir starfsemi og starfstöðvar SORPU bs. og dótturfélaga, EES útboð nr. 16354",
+      "buyer": "Reykjavíkurborg",
+      "notice_type": "Þjónusta",
+      "deadline": "07.12.2026 kl. 10:00",
+      "deadline_local": "2026-12-07T10:00:00+00:00",
+      "deadline_utc": "2026-12-07T10:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-11-05T09:51:52+00:00",
+      "modified_at": "2026-11-05T09:52:18+00:00",
+      "url": "https://www.utbodsvefur.is/kaup-a-tryggingum-fyrir-starfsemi-og-starfstodvar-sorpu-bs-og-dotturfelaga-ees-utbod-nr-16354/",
+      "summary": "Skrifstofa fjármálaþjónustu og innkaupa (hér eftir nefnd skrifstofan), f.h. SORPU bs (hér eftir nefndur kaupandi) óskar eftir tilboðum í kaup á tryggi...",
       "sector_tags": [],
       "source": "utbodsvefur",
       "intelligence_type": "active_tender",
