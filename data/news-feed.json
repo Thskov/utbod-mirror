@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated": "2026-11-05T06:30:01Z",
+  "generated": "2026-11-06T06:30:01Z",
   "window": {
-    "from": "2026-10-06",
-    "to": "2026-11-05"
+    "from": "2026-10-07",
+    "to": "2026-11-06"
   },
   "coverage": {
     "industry_focus": {
@@ -56,8 +56,8 @@
         }
       ],
       "counts_by_sector": {
-        "tourism-infrastructure": 6,
-        "aquaculture-fish-production": 3,
+        "tourism-infrastructure": 4,
+        "aquaculture-fish-production": 4,
         "datacentres-infrastructure": 2
       },
       "selection_policy": "Prioritise evidenced infrastructure/project signals; preserve general construction, competitors and Ístak; no quotas.",
@@ -420,9 +420,8 @@
   "sources": {
     "not_covered": {
       "byggingar": "Incomplete: 4 relevant records rejected without verified publication dates.",
-      "vb": "Incomplete: 4 relevant records rejected without verified publication dates.",
-      "fiskifrettir": "Incomplete: 4 relevant records rejected without verified publication dates.",
-      "bb": "Incomplete: no verified in-window relevant records extracted.",
+      "vb": "Incomplete: 2 relevant records rejected without verified publication dates.",
+      "fiskifrettir": "Incomplete: 3 relevant records rejected without verified publication dates.",
       "landsvirkjun": "Incomplete: 7 relevant records rejected without verified publication dates.",
       "landsvirkjun-utbod": "Incomplete: 8 relevant records rejected without verified publication dates.",
       "landsnet-news": "Incomplete: no verified in-window relevant records extracted.",
@@ -465,10 +464,10 @@
         "name": "LandbasedAQ",
         "suggested_feed": "news-feed",
         "suggested_lane": "news",
-        "evidence_url": "https://www.landbasedaq.com/iceland-salmon-garden-samherji/icelands-salmon-garden-will-plant-its-first-fish-next-spring/2196404",
-        "seen_count": 1,
+        "evidence_url": "https://www.landbasedaq.com/arctic-char-bankruptcy-iceland/iceland-arctic-char-farmer-files-for-bankrupcty/2206923",
+        "seen_count": 2,
         "first_seen": "2026-10-29T08:17:48Z",
-        "last_seen": "2026-11-05T06:30:01Z",
+        "last_seen": "2026-11-06T06:30:01Z",
         "reason": "unknown entity found in generated news items",
         "status": "pending"
       },
@@ -480,14 +479,320 @@
         "evidence_url": "https://sedlabanki.is/frettir-og-utgefid-efni/grein/yfirlysing-peningastefnunefndar-7-oktober-2026",
         "seen_count": 1,
         "first_seen": "2026-11-02T17:18:17Z",
-        "last_seen": "2026-11-05T06:30:01Z",
+        "last_seen": "2026-11-06T06:30:01Z",
         "reason": "unknown entity found in generated news items",
         "status": "pending"
       }
     ]
   },
-  "count": 106,
+  "count": 113,
   "items": [
+    {
+      "id": "news:visir:dagskrain-i-dag-icebox-og-valsmenn-a-hofn",
+      "lane": "news",
+      "category": "project",
+      "title": "Dag­skráin í dag: Icebox og Vals­menn á Höfn",
+      "entity": "visir.is",
+      "date": "2026-11-06",
+      "summary": "Dag­skráin í dag: Icebox og Vals­menn á Höfn",
+      "url": "https://www.visir.is/g/20262958990d/dagskrain-i-dag-icebox-og-valsmenn-a-hofn",
+      "outlet": "visir.is",
+      "is_new": true,
+      "sector_tags": []
+    },
+    {
+      "id": "news:braggi:vidburdur-hms-troun-og-framtidarhorfur-a-nordurlandi-eystra",
+      "lane": "news",
+      "category": "investment",
+      "title": "Þróun og framtíðarhorfur íbúðamarkaðar, bygginga- og skipulagsmála á Norðurlandi eystra",
+      "entity": "braggi.is",
+      "date": "2026-11-06",
+      "summary": "2026-11-09 · Húsnæði HMS á Akureyri, Hafnarstræti 107 · Mánudaginn 9. nóvember halda HMS og Tryggð byggð í samstarfi við SSNE opinn fund um þróun og framtíðahorfur íbúðamarkaðar, bygginga og skipulagsmála á Norðurlandi eystra. Fundurinn verður haldinn í húsakynnum HMS við Hafnarstræti 107",
+      "url": "https://braggi.is/vidburdur-hms-troun-og-framtidarhorfur-a-nordurlandi-eystra/",
+      "outlet": "braggi.is",
+      "is_new": true,
+      "sector_tags": []
+    },
+    {
+      "id": "news:visir-vidskipti:nyr-framkvaemdastjori-island-duty-free-radinn-en-ekki-nafngreindur",
+      "lane": "news",
+      "category": "project",
+      "title": "Nýr fram­kvæmda­stjóri Ís­land Duty Free ráðinn en ekki nafn­greindur",
+      "entity": "visir.is / Viðskipti",
+      "date": "2026-11-05",
+      "summary": "Framkvæmdastjórn Ísland Duty Free er nú að fullu endurskipulögð. Liam Grundy mun láta af störfum sem framkvæmdastjóri vorið 2027 og hefur nýr framkvæmdastjóri verið ráðinn, að því er segir í tilkynningu frá Heinemann. Ekki kemur þó fram hver nýr framkvæmdastjóri er.",
+      "url": "https://www.visir.is/g/20262958751d/nyr-framkvaemdastjori-island-duty-free-radinn-en-ekki-nafngreindur",
+      "outlet": "visir.is / Viðskipti",
+      "is_new": true,
+      "sector_tags": []
+    },
+    {
+      "id": "news:visir-vidskipti:niu-stodugildi-logd-nidur-hja-fenris-creations",
+      "lane": "news",
+      "category": "investment",
+      "title": "Níu stöðu­gildi lögð niður hjá Fenris Creations",
+      "entity": "visir.is / Viðskipti",
+      "date": "2026-11-05",
+      "summary": "Níu stöðugildi voru lögð niður hjá Fenris Creations í kjölfar endurskoðunar á skipulagi við þróun á leiknum Eve Frontier. Í skriflegu svari til fréttastofu segir Eyrún Jónsdóttir, framkvæmdastjóri leikjaútgáfu Fenris, það ekki hafa áhrif á fleiri leiki eða starfsemi Fenris.",
+      "url": "https://www.visir.is/g/20262958694d/niu-stodugildi-logd-nidur-hja-fenris-creations",
+      "outlet": "visir.is / Viðskipti",
+      "is_new": true,
+      "sector_tags": []
+    },
+    {
+      "id": "news:visir-vidskipti:mesta-sjokkid-kemur-thegar-vid-afhendum-lyklana",
+      "lane": "news",
+      "category": "project",
+      "title": "„Mesta sjokkið kemur þegar við af­hendum lyklana“",
+      "entity": "visir.is / Viðskipti",
+      "date": "2026-11-05",
+      "summary": "Fjölskyldan sem hefur rekið Fjarðakaup í meira en hálfa öld gekk frá sölu verslunarinnar í vikunni. Það er greinilegt að búðin á hvert bein í eigendum, viðskiptavinum og starfsfólki sem á allt að 35 ára starfsferil þar. Framkvæmdastjórinn býst við að sjokkið komi þegar hann gengur út en ætlar að taka lopapeysu eftir móður sína með sér.",
+      "url": "https://www.visir.is/g/20262958335d/-mesta-sjokkid-kemur-thegar-vid-afhendum-lyklana-",
+      "outlet": "visir.is / Viðskipti",
+      "is_new": true,
+      "sector_tags": []
+    },
+    {
+      "id": "news:visir-vidskipti:loa-bara-fra-origo-til-50skills",
+      "lane": "news",
+      "category": "investment",
+      "title": "Lóa Bára frá Origo til 50skills",
+      "entity": "visir.is / Viðskipti",
+      "date": "2026-11-05",
+      "summary": "Íslenska tæknifyrirtækið 50skills hefur ráðið Lóu Báru Magnúsdóttur sem leiðtoga erlendra markaða. Lóa Bára kemur frá Origo þar sem hún gegndi stöðu framkvæmdastjóra sölu og markaðsmála undanfarin fimm ár. Ráðningin er sögð liður í áframhaldandi uppbyggingu félagsins í kjölfar nýrrar fjármögnunar frá erlendum fjárfestum.",
+      "url": "https://www.visir.is/g/20262958809d/loa-bara-fra-origo-til-50skills",
+      "outlet": "visir.is / Viðskipti",
+      "is_new": true,
+      "sector_tags": []
+    },
+    {
+      "id": "news:ruv-innlent-rss:2026-11-05-itrekadar-athugasemdir-fra-vinnueftirlitinu-og-ibuar-ordnir-langthrey",
+      "lane": "news",
+      "category": "industrial-demand",
+      "title": "Ítrekaðar athugasemdir frá Vinnueftirlitinu og íbúar orðnir langþreyttir",
+      "entity": "ruv.is / innlent",
+      "date": "2026-11-05",
+      "summary": "Vinnueftirlitið hefur gert ítrekaðar athugasemdir við frágang á byggingu hótelturnsins við Skúlagötu. Götur hafa verið lokaðar kringum byggingarstaðinn árum saman og íbúar hafa kvartað. Enginn græðir á því að bygging hótelsins sé stopp eins og verið hefur síðan á mánudag. Skuldir eru geysiháar, eins og hótelið, og aðalkröfuhafinn, Arion banki, vinnur að lau...",
+      "url": "https://www.ruv.is/frettir/innlent/2026-11-05-itrekadar-athugasemdir-fra-vinnueftirlitinu-og-ibuar-ordnir-langthreyttir-491922/",
+      "outlet": "ruv.is / innlent",
+      "is_new": true,
+      "sector_tags": [
+        "tourism-infrastructure"
+      ],
+      "sector_evidence_role": "project_or_sector_context"
+    },
+    {
+      "id": "news:heimildin:bandarikjamenn-vilja-haegja-a-uppbyggingu-gagnavera-vid-erum-ekki-til-solu",
+      "lane": "news",
+      "category": "industrial-demand",
+      "title": "Banda­ríkja­menn vilja hægja á upp­bygg­ingu gagna­vera: „Við erum ekki til sölu“ Kjós­endur í tugum banda­rískra borga sam­þykktu bann eða hertar reglur um gagna­ver í kosn­ingum...",
+      "entity": "heimildin.is",
+      "date": "2026-11-05",
+      "summary": "Banda­ríkja­menn vilja hægja á upp­bygg­ingu gagna­vera: „Við erum ekki til sölu“ Kjós­endur í tugum banda­rískra borga sam­þykktu bann eða hertar reglur um gagna­ver í kosn­ingum á þriðju­dag.",
+      "url": "https://heimildin.is/grein/70428/bandarikjamenn-vilja-haegja-a-uppbyggingu-gagnavera-vid-erum-ekki-til-solu/",
+      "outlet": "heimildin.is",
+      "is_new": true,
+      "sector_tags": [
+        "datacentres-infrastructure"
+      ],
+      "sector_evidence_role": "project_or_sector_context"
+    },
+    {
+      "id": "news:braggi:vegaframkvaemdir-strandgata",
+      "lane": "news",
+      "category": "investment",
+      "title": "Vegaframkvæmdir – Strandgata",
+      "entity": "braggi.is",
+      "date": "2026-11-05",
+      "summary": "Malbikunarframkvæmdir fara fram á Strandgötu undir Reykjanesbraut föstudaginn 6. nóvember, að því gefnu að veður leyfi. Vinna við vegarkaflann hefst klukkan 8:30 að morgni og áætlað er að henni ljúki um klukkan 18:00 síðdegis. Vegagerðin hefur veitt",
+      "url": "https://braggi.is/vegaframkvaemdir-strandgata/",
+      "outlet": "braggi.is",
+      "is_new": true,
+      "sector_tags": []
+    },
+    {
+      "id": "news:braggi:tillaga-um-deiliskipulag-grundarfjardarhafnar-lagd-fram-til-umraedu",
+      "lane": "news",
+      "category": "investment",
+      "title": "Tillaga um deiliskipulag Grundarfjarðarhafnar lagð fram til umræðu",
+      "entity": "braggi.is",
+      "date": "2026-11-05",
+      "summary": "Skipulags- og umhverfisnefnd Grundarfjarðarbæjar fór yfir stöðu málsins varðandi deiliskipulag Grundarfjarðarhafnar á fundi þann 4. nóvember 2026. Tillagan, sem unnin var í tíð fyrri bæjarstjórnar, var lögð fram til umræðu. Bæjarstjóra var falið að r",
+      "url": "https://braggi.is/tillaga-um-deiliskipulag-grundarfjardarhafnar-lagd-fram-til-umraedu/",
+      "outlet": "braggi.is",
+      "is_new": true,
+      "sector_tags": []
+    },
+    {
+      "id": "news:braggi:tillaga-um-breytingar-a-deiliskipulagi-nordan-midbrautar-i-budardal",
+      "lane": "news",
+      "category": "investment",
+      "title": "Tillaga um breytingar á deiliskipulagi norðan Miðbrautar í Búðardal",
+      "entity": "braggi.is",
+      "date": "2026-11-05",
+      "summary": "Umhverfis- og skipulagsnefnd Dalabyggðar hefur lagt fram tillögu um breytingar á deiliskipulagi norðan Miðbrautar í Búðardal. Breytingarnar fela meðal annars í sér tilfærslu á lóð fyrir spennistöð og takmarkanir á útakstri.",
+      "url": "https://braggi.is/tillaga-um-breytingar-a-deiliskipulagi-nordan-midbrautar-i-budardal/",
+      "outlet": "braggi.is",
+      "is_new": true,
+      "sector_tags": []
+    },
+    {
+      "id": "news:braggi:sudurnesjabaer-samthykkir-endurskodun-a-adalskipulagi-sveitarfelagsins",
+      "lane": "news",
+      "category": "investment",
+      "title": "Suðurnesjabær samþykkir endurskoðun á aðalskipulagi sveitarfélagsins",
+      "entity": "braggi.is",
+      "date": "2026-11-05",
+      "summary": "Bæjarstjórn Suðurnesjabæjar hefur samþykkt samhljóða að taka aðalskipulag sveitarfélagsins til endurskoðunar. Áhersla er lögð á framtíðaruppbyggingu Miðjunnar og þéttingu byggðar milli Garðs og Sandgerðis.",
+      "url": "https://braggi.is/sudurnesjabaer-samthykkir-endurskodun-a-adalskipulagi-sveitarfelagsins/",
+      "outlet": "braggi.is",
+      "is_new": true,
+      "sector_tags": []
+    },
+    {
+      "id": "news:braggi:storf-framkv-mdarstj-ri-flugt-f-lag-byggingamarka-i-4de445",
+      "lane": "news",
+      "category": "project",
+      "title": "👷 Framkvæmdarstjóri - öflugt félag á byggingamarkaði",
+      "entity": "braggi.is",
+      "date": "2026-11-05",
+      "summary": "Félag á byggingarmarkaði á höfuðborgarsvæðinu leitar að framkvæmdastjóra til að leiða fyrirtækið inn í næsta vaxtarskeið. Árleg velta félagsins nemur um þremur milljörðum króna og starfsmenn eru um 40 talsins.",
+      "url": "https://braggi.is/storf-framkv-mdarstj-ri-flugt-f-lag-byggingamarka-i-4de445/",
+      "outlet": "braggi.is",
+      "is_new": true,
+      "sector_tags": []
+    },
+    {
+      "id": "news:braggi:mosfellsbaer-samthykkir-staekkun-grjotgildru-vid-holtastod",
+      "lane": "news",
+      "category": "project",
+      "title": "Mosfellsbær samþykkir stækkun grjótgildru við Holtastöð",
+      "entity": "braggi.is",
+      "date": "2026-11-05",
+      "summary": "Bæjarráð Mosfellsbæjar samþykkti með fimm atkvæðum að ganga til samninga við Karínu ehf., bjóðanda lægsta tilboðs í verkið stækkun grjótgildru við Holtastöð. Verkið felur í sér grjótgildru og jarðvinnslu, auk hönnunar og eftirlits.",
+      "url": "https://braggi.is/mosfellsbaer-samthykkir-staekkun-grjotgildru-vid-holtastod/",
+      "outlet": "braggi.is",
+      "is_new": true,
+      "sector_tags": []
+    },
+    {
+      "id": "news:braggi:je-velaverkstaedi-vill-fjarfesta-i-batalyftu-a-siglufirdi",
+      "lane": "news",
+      "category": "investment",
+      "title": "JE Vélaverkstæði vill fjárfesta í bátalyftu á Siglufirði",
+      "entity": "braggi.is",
+      "date": "2026-11-05",
+      "summary": "Uppbygging á sérstakri aðstöðu til upptöku og sjósetningar stærri báta við Siglufjarðarhöfn er til skoðunar eftir erindi frá JE Vélaverkstæði. Fyrirtækið vill fjárfesta í bátalyftu og óskaði eftir afstöðu sveitarfélagsins til áformanna, en lyftari ve",
+      "url": "https://braggi.is/je-velaverkstaedi-vill-fjarfesta-i-batalyftu-a-siglufirdi/",
+      "outlet": "braggi.is",
+      "is_new": true,
+      "sector_tags": []
+    },
+    {
+      "id": "news:braggi:hunavallaleid-er-ekki-a-nyju-adalskipulagi-hunabyggdar-fb321fd8",
+      "lane": "news",
+      "category": "investment",
+      "title": "Húnavallaleið er ekki á nýju aðalskipulagi Húnabyggðar",
+      "entity": "braggi.is",
+      "date": "2026-11-05",
+      "summary": "Húnavallaleið er ekki að finna í nýju aðalskipulagi sveitarfélagsins Húnabyggðar. Um er að ræða veglínuna sem myndi stytta hringveginn, þjóðveg 1, um fjórtán kílómetra. Svavar Pálsson, sveitarstjóri í Húnabyggð, viðurkennir í samtali við RÚV að sú á",
+      "url": "https://braggi.is/hunavallaleid-er-ekki-a-nyju-adalskipulagi-hunabyggdar-fb321fd8/",
+      "outlet": "braggi.is",
+      "is_new": true,
+      "sector_tags": []
+    },
+    {
+      "id": "news:braggi:gongu-og-hjolastigar-samthykktir-fra-grundarfirdi-til-kirkjufellsfoss-og-grundar",
+      "lane": "news",
+      "category": "investment",
+      "title": "Göngu- og hjólastígar samþykktir frá Grundarfirði til Kirkjufellsfoss og Grundarfoss",
+      "entity": "braggi.is",
+      "date": "2026-11-05",
+      "summary": "Skipulags- og umhverfisnefnd Grundarfjarðarbæjar samþykkti að fara í hönnun göngu- og hjólastígs frá þéttbýlinu í Grundarfirði að Grundarfossi. Nefndin samþykkti einnig að bæjarstjóri eigi samtal við landeigendur og aðra hagsmunaaðila um mögulega leg",
+      "url": "https://braggi.is/gongu-og-hjolastigar-samthykktir-fra-grundarfirdi-til-kirkjufellsfoss-og-grundar/",
+      "outlet": "braggi.is",
+      "is_new": true,
+      "sector_tags": []
+    },
+    {
+      "id": "news:braggi:endurbygging-snaefellsnesvegar-i-dalabyggd-fyrir-umsagnarbeidni",
+      "lane": "news",
+      "category": "investment",
+      "title": "Endurbygging Snæfellsnesvegar í Dalabyggð fyrir umsagnarbeiðni",
+      "entity": "braggi.is",
+      "date": "2026-11-05",
+      "summary": "Mál varðandi endurbyggingu á 11,2 kílómetra kafla Snæfellsnesvegar á Skógarströnd hefur verið lagt fram hjá umhverfis- og skipulagsnefnd Dalabyggðar. Meðal annars stendur til að byggja nýja brú yfir Laxá.",
+      "url": "https://braggi.is/endurbygging-snaefellsnesvegar-i-dalabyggd-fyrir-umsagnarbeidni/",
+      "outlet": "braggi.is",
+      "is_new": true,
+      "sector_tags": []
+    },
+    {
+      "id": "news:braggi:athafnasvaedi-at9-eyrarbakka",
+      "lane": "news",
+      "category": "investment",
+      "title": "Athafnasvæði AT9 - Eyrarbakka",
+      "entity": "braggi.is",
+      "date": "2026-11-05",
+      "summary": "Sveitarfélagið Árborg hefur kynnt nýja deiliskipulagstillögu sem tekur til athafnasvæðis AT9 á Eyrarbakka. Með þessari skipulagagerð er lagður grundvöllur að nánari útfærslu og þróun svæðisins undir atvinnu- og athafnastarfsemi í bæjarfélaginu.",
+      "url": "https://braggi.is/athafnasvaedi-at9-eyrarbakka/",
+      "outlet": "braggi.is",
+      "is_new": true,
+      "sector_tags": []
+    },
+    {
+      "id": "news:bb:innvidaradherra-thrir-styrkir-til-vestfjarda",
+      "lane": "news",
+      "category": "investment",
+      "title": "Innviðaráðherra: þrír styrkir til Vestfjarða",
+      "entity": "bb.is",
+      "date": "2026-11-05",
+      "summary": "Eyjólfur Ármannsson innviðaráðherra hefur úthlutað rúmum 27 milljónum kr. í styrki til 14 verkefna til að styðja við uppbyggingu vinnustaðaklasa á landsbyggðinni. Styrkirnir eru veittir á grundvelli byggðaáætlunar (aðgerð B.7 – Óstaðbundin störf). Markmiðið er að fjölga atvinnutækifærum og auka fjölbreytileika starfa á landsbyggðinni. Þetta er í annað sinn....",
+      "url": "https://bb.is/2026/11/innvidaradherra-thrir-styrkir-til-vestfjarda/",
+      "outlet": "bb.is",
+      "is_new": true,
+      "sector_tags": []
+    },
+    {
+      "id": "landbasedaq:72088bd2ea97966b52",
+      "lane": "news",
+      "source": "landbasedaq",
+      "entity": "LandbasedAQ",
+      "title": "Iceland Arctic char farmer files for bankrupcty",
+      "date": "2026-11-05",
+      "summary": "Iceland Arctic char farmer files for bankrupcty Ad Land-based Arctic char producer Matorka has filed for bankruptcy with the District Court of Reykjanes, Iceland. Ad Matorka operates a hybrid recirculation / flow-through facility in the Grindavik area on Iceland’s Reykjanes Peninsula, where a key advantage in the past has been that the water it extracts fro...",
+      "url": "https://www.landbasedaq.com/arctic-char-bankruptcy-iceland/iceland-arctic-char-farmer-files-for-bankrupcty/2206923",
+      "status": "published",
+      "category": "industrial-demand",
+      "outlet": "LandbasedAQ",
+      "evidence_kind": "secondary_trade_press",
+      "project_learning_eligible": false,
+      "is_new": true,
+      "sector_tags": []
+    },
+    {
+      "id": "first-water:749b51893ef4566af0",
+      "lane": "news",
+      "source": "first-water",
+      "entity": "First Water",
+      "title": "Land-based salmon farming could generate €1.1–1.5 billion in annual export revenues for Iceland",
+      "date": "2026-11-05",
+      "summary": "Iceland has a unique competitive advantage in land-based salmon farming, with the potential to develop a major new export industry in the coming years. However, clear regulations and a predictable business environment are essential to realising this opportunity. This was a key message from Orri Hauksson, Chairman of First Water , at Seafood Day 2026, held a...",
+      "url": "https://www.firstwater.is/news/land-based-salmon-farming-could-generate-eu1-1-1-5-billion-in-annual-export-revenues-for-iceland",
+      "status": "published",
+      "category": "industrial-demand",
+      "outlet": "First Water",
+      "evidence_kind": "first_party_operator_news",
+      "project_learning_eligible": false,
+      "is_new": true,
+      "sector_tags": [
+        "aquaculture-fish-production"
+      ],
+      "sector_evidence_role": "project_or_sector_context",
+      "sector_subtopics": [
+        "land-based-aquaculture"
+      ]
+    },
     {
       "id": "news:visir-vidskipti:reitir-fellu-fra-samstarfi-vid-art-verk",
       "lane": "news",
@@ -498,7 +803,7 @@
       "summary": "Reitir hafa fallið frá samstarfi við Art-verk um byggingu 140 rýma hjúkrunarheimilis á Akureyri. Jarðvinna stendur yfir og Reitir munu leita til annarra aðila um framhald verkefnisins.",
       "url": "https://www.visir.is/g/20262958521d/reitir-fellu-fra-samstarfi-vid-art-verk",
       "outlet": "visir.is / Viðskipti",
-      "is_new": true,
+      "is_new": false,
       "sector_tags": []
     },
     {
@@ -511,7 +816,7 @@
       "summary": "Nói Síríus hlaut hvatningarverðlaun Creditinfo og Festu á sviði sjálfbærni árið 2026 fyrir markvisst starf að félagslegri sjálfbærni. Með aðlögun verkefna, þjálfunar og vinnuumhverfis að þörfum einstaklinga með frábrugðna starfsorku hefur fyrirtækið skapað varanleg störf innan hefðbundinnar framleiðslu.",
       "url": "https://www.visir.is/g/20262957921d/konfektmolarnir-syna-hvad-litil-breyting-getur-gert",
       "outlet": "visir.is / Viðskipti",
-      "is_new": true,
+      "is_new": false,
       "sector_tags": []
     },
     {
@@ -524,7 +829,7 @@
       "summary": "Þóroddur Ottesen Arnarson forstjóri og Sigurður Ragnarsson stjórnarformaður Íslenskra aðalverktaka láta senn af störfum hjá verktakafyrirtækinu eftir margra ára starf. Við báðum hlutverkum tekur framkvæmdastjóri hjá móðurfélagi Íslenskra aðalverktaka.",
       "url": "https://www.visir.is/g/20262958239d/forstjori-og-stjornarformadur-kvedja-iav",
       "outlet": "visir.is / Viðskipti",
-      "is_new": true,
+      "is_new": false,
       "sector_tags": []
     },
     {
@@ -537,7 +842,7 @@
       "summary": "„Það sem ég kann að meta við þessa viðurkenningu er að það dugar ekki að skila góðum hagnaði í eitt ár,“ segir Bjarni Benediktsson, framkvæmdastjóri Samtaka atvinnulífsins, sem var heiðursgestur þegar Creditinfo veitti framúrskarandi fyrirtækjum viðurkenningu í Hörpu miðvikudaginn 28. október. Tæplega 1.220 fyrirtæki komust á listann í ár, samanborið við 1....",
       "url": "https://www.visir.is/g/20262957922d/bjarni-benediktsson-eftirsoknarvert-ad-vera-i-thessum-hopi-",
       "outlet": "visir.is / Viðskipti",
-      "is_new": true,
+      "is_new": false,
       "sector_tags": []
     },
     {
@@ -550,23 +855,7 @@
       "summary": "Arion banki segir unnið að lausn vegna hótelverkefnisins við Skúlagötu í Reykjavík eftir að framkvæmdir voru stöðvaðar fyrr í vikunni. Félagið sem á bygginguna skuldaði rúma tíu milljarða króna um síðustu áramót.",
       "url": "https://www.visir.is/g/20262958306d/arion-segir-unnid-ad-lausn-vegna-hotelturnsins",
       "outlet": "visir.is / Viðskipti",
-      "is_new": true,
-      "sector_tags": [
-        "tourism-infrastructure"
-      ],
-      "sector_evidence_role": "project_or_sector_context"
-    },
-    {
-      "id": "news:ruv-innlent-rss:2026-11-04-greida-ur-bokunum-ferdamanna-sem-hofdu-bokad-gistingu-i-turninum-4917",
-      "lane": "news",
-      "category": "industrial-demand",
-      "title": "Greiða úr bókunum ferðamanna sem höfðu bókað gistingu í turninum",
-      "entity": "ruv.is / innlent",
-      "date": "2026-11-04",
-      "summary": "Stöðvun framkvæmda við byggingu hótelturnsins á Skúlagötu hefur allnokkur áhrif á ferðaþjónustu. Búið var að bóka gistingu fyrir ferðamenn allt fram til ársins 2028. Fréttastofa greindi frá því í gær að framkvæmdir við byggingu 17 hæða Radisson Red hótels við Skúlagötu hefðu verið stöðvaðar. Öllum verktökum var gert að yfirgefa byggingarsvæðið á mánudaginn....",
-      "url": "https://www.ruv.is/frettir/innlent/2026-11-04-greida-ur-bokunum-ferdamanna-sem-hofdu-bokad-gistingu-i-turninum-491734/",
-      "outlet": "ruv.is / innlent",
-      "is_new": true,
+      "is_new": false,
       "sector_tags": [
         "tourism-infrastructure"
       ],
@@ -582,104 +871,23 @@
       "summary": "Vonir standa enn til að Radisson Red hótelið við Skúlagötu verði klárað og það opnað gestum. Arion banki segir að bankinn hafi þurft að bregðast við í ljósi upplýsinga sem fram hafi komið á síðustu dögum. Líkt og fréttastofa greindi fyrst frá í gær voru allar framkvæmdir við hótelturninn á Skúlagötu stöðvaðar á mánudaginn og verktakar beðnir um að yfirgefa....",
       "url": "https://www.ruv.is/frettir/innlent/2026-11-04-fekk-upplysingar-um-stodu-turnsins-sem-bregdast-thurfti-vid-491783/",
       "outlet": "ruv.is / innlent",
-      "is_new": true,
+      "is_new": false,
       "sector_tags": [
         "tourism-infrastructure"
       ],
       "sector_evidence_role": "project_or_sector_context"
     },
     {
-      "id": "news:braggi:vikursandur-nyjar-lodir-fyrir-gagnaver-dskbr",
-      "lane": "news",
-      "category": "industrial-demand",
-      "title": "Víkursandur - nýjar lóðir fyrir gagnaver - DSKbr",
-      "entity": "braggi.is",
-      "date": "2026-11-04",
-      "summary": "Í Sveitarfélaginu Ölfusi hefur verið lögð fram tillaga að breytingu á deiliskipulagi fyrir iðnaðarsvæðið I4, sem ber heitið Víkursandur og er staðsett vestan Þorlákshafnar. Um er að ræða heildarendurskoðun á svæðinu sem markar verulega uppbyggingu á",
-      "url": "https://braggi.is/vikursandur-nyjar-lodir-fyrir-gagnaver-dskbr/",
-      "outlet": "braggi.is",
-      "is_new": true,
-      "sector_tags": [
-        "datacentres-infrastructure"
-      ],
-      "sector_evidence_role": "project_or_sector_context"
-    },
-    {
-      "id": "news:braggi:vidburdur-idan-1947",
+      "id": "news:heimildin:verdbolga-eykst-i-evropu",
       "lane": "news",
       "category": "project",
-      "title": "Ljósvist",
-      "entity": "braggi.is",
+      "title": "Verð­bólga eykst í Evrópu Verð­bólga á evru­svæð­inu mæld­ist 4,0 pró­sent í októ­ber, einkum vegna hækk­andi orku­verðs. Grein­endur búast við frek­ari vaxta­hækkun.",
+      "entity": "heimildin.is",
       "date": "2026-11-04",
-      "summary": "2026-11-19 · Iðan Stórhöfða · Námskeið fyrir fagfólk í byggingariðnaði sem vill fræðast um kröfur byggingarreglugerðar um ljósvist. M.a. hvernig gluggastærðir og gluggastaðsetningar eru ákvarðaðar, hvernig staðið er að á endurnýjun eða uppsetningu raflýsingar og hönnun á ljósastýringu.",
-      "url": "https://braggi.is/vidburdur-idan-1947/",
-      "outlet": "braggi.is",
-      "is_new": true,
-      "sector_tags": []
-    },
-    {
-      "id": "news:braggi:storf-t-knima-ur-verkefnastj-ri-c0a945",
-      "lane": "news",
-      "category": "competitor",
-      "title": "👷 Tæknimaður/verkefnastjóri",
-      "entity": "braggi.is",
-      "date": "2026-11-04",
-      "summary": "Loftorka Reykjavík ehf. leitar að tæknimanni eða verkefnastjóra til starfa. Umsóknarfrestur er til 19. nóvember 2026.",
-      "url": "https://braggi.is/storf-t-knima-ur-verkefnastj-ri-c0a945/",
-      "outlet": "braggi.is",
-      "is_new": true,
-      "sector_tags": []
-    },
-    {
-      "id": "news:braggi:storf-alfred-laus-st-rf-byggingavinnu-hellulagnir-yfirbor-sfr-g-a9e8e9",
-      "lane": "news",
-      "category": "project",
-      "title": "🔧 Laus störf í byggingavinnu, hellulagnir, yfirborðsfrágang og jarðvinnu",
-      "entity": "braggi.is",
-      "date": "2026-11-04",
-      "summary": "PK Verk ehf. auglýsir laus störf í Hafnarfirði. Verkefnin felast í byggingavinnu, hellulögnum, yfirborðsfrágangi og jarðvinnu.",
-      "url": "https://braggi.is/storf-alfred-laus-st-rf-byggingavinnu-hellulagnir-yfirbor-sfr-g-a9e8e9/",
-      "outlet": "braggi.is",
-      "is_new": true,
-      "sector_tags": []
-    },
-    {
-      "id": "news:braggi:ljosastyring-a-markarfljotsbru-naestu-vikurnar",
-      "lane": "news",
-      "category": "investment",
-      "title": "Ljósastýring á Markarfljótsbrú næstu vikurnar",
-      "entity": "braggi.is",
-      "date": "2026-11-04",
-      "summary": "Viðhaldsvinna stendur nú yfir á brúnni yfir Markarfljót á Hringvegi og er áætlað að verkinu ljúki þann 14. desember næstkomandi, að því gefnu að veður leyfi. Framkvæmdirnar hófust síðastliðinn mánudag og munu því standa yfir næstu sex vikurnar. Umfe",
-      "url": "https://braggi.is/ljosastyring-a-markarfljotsbru-naestu-vikurnar/",
-      "outlet": "braggi.is",
-      "is_new": true,
-      "sector_tags": []
-    },
-    {
-      "id": "news:braggi:hafnarsvaedi-h1-nytt-deiliskipulag-stadfest",
-      "lane": "news",
-      "category": "investment",
-      "title": "Hafnarsvæði H1 - Nýtt deiliskipulag",
-      "entity": "braggi.is",
-      "date": "2026-11-04",
-      "summary": "Sveitarfélagið Ölfus hefur samþykkt nýtt deiliskipulag fyrir Hafnarsvæði H1 þar sem gert er ráð fyrir allt að 23 lóðum fyrir hafnsækna starfsemi. Skipulagsstofnun hefur staðfest afgreiðsluna.",
-      "url": "https://braggi.is/hafnarsvaedi-h1-nytt-deiliskipulag-stadfest/",
-      "outlet": "braggi.is",
-      "is_new": true,
-      "sector_tags": []
-    },
-    {
-      "id": "news:braggi:bakkagardur-a-lokametrunum",
-      "lane": "news",
-      "category": "project",
-      "title": "Bakkagarður á lokametrunum",
-      "entity": "braggi.is",
-      "date": "2026-11-04",
-      "summary": "Framkvæmdir við ofanflóðavarnargarðinn Bakkagarð undir Bjólfinum á Seyðisfirði eru komnar á lokastig. Unnið er að því að koma síðustu grindunum fyrir og á aðeins eftir að setja upp fjórar grindahæðir á næstu dögum til að mannvirkið nái fullri hæð.",
-      "url": "https://braggi.is/bakkagardur-a-lokametrunum/",
-      "outlet": "braggi.is",
-      "is_new": true,
+      "summary": "Verð­bólga eykst í Evrópu Verð­bólga á evru­svæð­inu mæld­ist 4,0 pró­sent í októ­ber, einkum vegna hækk­andi orku­verðs. Grein­endur búast við frek­ari vaxta­hækkun.",
+      "url": "https://heimildin.is/grein/70405/verdbolga-eykst-i-evropu/",
+      "outlet": "heimildin.is",
+      "is_new": false,
       "sector_tags": []
     },
     {
@@ -712,32 +920,6 @@
       "sector_tags": []
     },
     {
-      "id": "news:ruv-innlent-rss:2026-11-03-verktakar-sendir-heim-og-framkvaemdin-stodvud-491630",
-      "lane": "news",
-      "category": "industrial-demand",
-      "title": "Verktakar sendir heim og framkvæmdin stöðvuð",
-      "entity": "ruv.is / innlent",
-      "date": "2026-11-03",
-      "summary": "Framkvæmdir við sautján hæða risahótel við Skúlagötu í Reykjavík eru í uppnámi eftir að öllum verktökum var vísað af byggingarstað í gær og honum lokað. Turnbyggingin við Skúlagötu hefur ekki farið fram hjá neinum sem keyrir Sæbraut. Mikið hefur verið fjallað um bygginguna sem hefur þótt umdeild og verið gagnrýnd fyrir að falla ekki nægilega vel inn í borga...",
-      "url": "https://www.ruv.is/frettir/innlent/2026-11-03-verktakar-sendir-heim-og-framkvaemdin-stodvud-491630/",
-      "outlet": "ruv.is / innlent",
-      "is_new": false,
-      "sector_tags": []
-    },
-    {
-      "id": "news:ruv-innlent-rss:2026-11-03-politikin-thvaelist-fyrir-i-samgongumalum-491584",
-      "lane": "news",
-      "category": "investment",
-      "title": "Pólitíkin þvælist fyrir í samgöngumálum",
-      "entity": "ruv.is / innlent",
-      "date": "2026-11-03",
-      "summary": "Uppbygging samgönguinnviða og breyting á ferðavenjum er langhlaup og margt spilar inn í það hvort fólk getur telur sig geta notað aðra ferðamáta en einkabíl. Þó að pólitíkin sé nauðsynleg, þar þurfi að taka ákvarðanirnar, þá þvælist hún á köflum töluvert fyrir í uppbyggingu. Þetta segir Lilja Guðríður Karlsdóttir, samgönguverkfræðingur og framkvæmdastjóri V...",
-      "url": "https://www.ruv.is/frettir/innlent/2026-11-03-politikin-thvaelist-fyrir-i-samgongumalum-491584/",
-      "outlet": "ruv.is / innlent",
-      "is_new": false,
-      "sector_tags": []
-    },
-    {
       "id": "news:reykjavik:annar-afangi-framkvaemda-vid-nautholsveg-og-hr-ad-hefjast",
       "lane": "news",
       "category": "project",
@@ -760,64 +942,6 @@
       "summary": "Hagnaður Saudi Aramco jókst um 35 pró­sent Hagnaður sádi­ar­ab­íska olíu­ris­ans Saudi Aramco jókst veru­lega á þriðja árs­fjórð­ungi þrátt fyrir ítrek­aðar árásir á olíu­mann­virki lands­ins. Stríðið í Mið-Aust­ur­löndum hefur haldið olíu­verði háu og aukið hagnað orku­fyr­ir­tækja, en jafn­framt valdið miklum efna­hags­legum erf­ið­leikum í Sádi-Arabíu.",
       "url": "https://heimildin.is/grein/70345/hagnadur-saudi-aramco-jokst-um-35-prosent/",
       "outlet": "heimildin.is",
-      "is_new": false,
-      "sector_tags": []
-    },
-    {
-      "id": "news:braggi:hafnarstjorn-fjardabyggdar-skipuleggur-vidgerdir-a-trebryggju-i-nordfjardarhofn",
-      "lane": "news",
-      "category": "project",
-      "title": "Hafnarstjórn Fjarðabyggðar skipuleggur viðgerðir á trébryggju í Norðfjarðarhöfn",
-      "entity": "braggi.is",
-      "date": "2026-11-03",
-      "summary": "Hafnarstjórn Fjarðabyggðar hefur falið stjórnanda hafna að undirbúa viðgerðir á trébryggjunni í Norðfjarðarhöfn og leggja fram áætlun þar um.",
-      "url": "https://braggi.is/hafnarstjorn-fjardabyggdar-skipuleggur-vidgerdir-a-trebryggju-i-nordfjardarhofn/",
-      "outlet": "braggi.is",
-      "is_new": false,
-      "sector_tags": []
-    },
-    {
-      "id": "news:braggi:framkvaemdir-vid-sautjan-haeda-hotel-vid-skulagotu-stodvadar-og-byggin-5b14e20e",
-      "lane": "news",
-      "category": "industrial-demand",
-      "title": "Framkvæmdir við sautján hæða hótel við Skúlagötu stöðvaðar og byggingarstað lokað",
-      "entity": "braggi.is",
-      "date": "2026-11-03",
-      "summary": "Framkvæmdir við sautján hæða Radisson Red hótel við Skúlagötu í Reykjavík voru stöðvaðar og byggingarsvæðinu lokað. Heimildir herma að viðskiptabanki verkefnisins hafi lokað fyrir frekari fjárveitingar.",
-      "url": "https://braggi.is/framkvaemdir-vid-sautjan-haeda-hotel-vid-skulagotu-stodvadar-og-byggin-5b14e20e/",
-      "outlet": "braggi.is",
-      "is_new": false,
-      "sector_tags": [
-        "tourism-infrastructure"
-      ],
-      "sector_evidence_role": "project_or_sector_context"
-    },
-    {
-      "id": "news:braggi:bankinn-fjarmagnadi-86-prosent-af-hotelturninum",
-      "lane": "news",
-      "category": "industrial-demand",
-      "title": "Bankinn fjármagnaði 86% af hótelturninum við Skúlagötu",
-      "entity": "braggi.is",
-      "date": "2026-11-03",
-      "summary": "Eigendur hótelturnsins við Skúlagötu 26 hafa lagt um 1,7 milljarða króna í samstæðuna, nær allt sem lán, en bankaskuldir hennar nema 10,9 milljörðum. Ársreikningar þriggja félaga voru undirritaðir sex vikum áður en framkvæmdir stöðvuðust.",
-      "url": "https://braggi.is/bankinn-fjarmagnadi-86-prosent-af-hotelturninum/",
-      "outlet": "braggi.is",
-      "is_new": false,
-      "sector_tags": [
-        "tourism-infrastructure"
-      ],
-      "sector_evidence_role": "project_or_sector_context"
-    },
-    {
-      "id": "news:braggi:arni-helgason-ehf-baud-laegst-i-endurbyggingu-og-lengingu-thvergards-i-67fcd3f4",
-      "lane": "news",
-      "category": "project",
-      "title": "Árni Helgason ehf. bauð lægst í endurbyggingu og lengingu Þvergarðs í Húsavíkurhöfn",
-      "entity": "braggi.is",
-      "date": "2026-11-03",
-      "summary": "Endurbyggja á og lengja Þvergarð í Húsavíkurhöfn og átti Árni Helgason ehf. í Ólafsfirði lægsta tilboðið í framkvæmdina. Tilboð fyrirtækisins hljóðaði upp á rúmar 448,2 milljónir króna sem er 99,3 prósent af áætluðum verktakakostnaði upp á rúmar 451,",
-      "url": "https://braggi.is/arni-helgason-ehf-baud-laegst-i-endurbyggingu-og-lengingu-thvergards-i-67fcd3f4/",
-      "outlet": "braggi.is",
       "is_new": false,
       "sector_tags": []
     },
@@ -870,19 +994,6 @@
       "summary": "Samkeppniseftirlitið hefur heimilað kaup Bláa lónsins hf. á Arctic Adventures hf. án skilyrða. Með samþykkinu er eina eftirstandandi fyrirvara í kaupsamningi félaganna aflétt og er gert ráð fyrir að lokið verði við kaupin á næstu vikum.",
       "url": "https://www.visir.is/g/20262957262d/blaa-lonid-ma-kaupa-annan-ferdathjonusturisa",
       "outlet": "visir.is / Viðskipti",
-      "is_new": false,
-      "sector_tags": []
-    },
-    {
-      "id": "news:heimildin:kristrun-hafnar-thvi-ad-fresta-gjaldtoku-a-gullna-hringnum",
-      "lane": "news",
-      "category": "project",
-      "title": "Kristrún hafnar því að fresta gjald­töku á Gullna hringnum For­sæt­is­ráð­herra segir rík­is­stjórn­ina ekki ætla að fresta áformum um gjald­töku við Gullfoss, Geysi og Þing­velli...",
-      "entity": "heimildin.is",
-      "date": "2026-11-02",
-      "summary": "Kristrún hafnar því að fresta gjald­töku á Gullna hringnum For­sæt­is­ráð­herra segir rík­is­stjórn­ina ekki ætla að fresta áformum um gjald­töku við Gullfoss, Geysi og Þing­velli þrátt fyrir kröfur sunn­lenskra sveit­ar­fé­laga. Millj­arða­hagn­aður hefur orðið af rekstri við Gullfoss á sama tíma og ríkið hefur fjár­magnað þar inn­viði.",
-      "url": "https://heimildin.is/grein/70335/kristrun-hafnar-thvi-ad-fresta-gjaldtoku-a-gullna-hringnum/",
-      "outlet": "heimildin.is",
       "is_new": false,
       "sector_tags": []
     },
@@ -984,7 +1095,7 @@
       "title": "Arion telur byggingar­lána­safnið þola frekari verðlækkanir og söluta­fir",
       "entity": "visir.is / Innherji",
       "date": "2026-10-29",
-      "summary": "Arion telur byggingar­lána­safnið þola frekari verðlækkanir og söluta­fir Innherji 29.10.2026 09:58",
+      "summary": "Hægari sala nýbygginga er ein helsta sértæka áhættan í útlánasafni Arion, sem fjármagnar um 15 til 20 prósent nýrra íbúða sem ætlaðar eru til sölu á markaði, en bankinn telur álagspróf sýna talsvert svigrúm til að mæta bæði sölutöfum og verðlækkunum á íbúðamarkaði. Arion skilaði yfir sextán prósenta arðsemi á þriðja fjórðungi, sem var í samræmi við spár, og...",
       "url": "https://www.visir.is/g/20262955342d/arion-telur-byggingarlanasafnid-thola-frekari-verdlaekkanir-og-solutafir",
       "outlet": "visir.is / Innherji",
       "is_new": false,
@@ -1909,19 +2020,6 @@
       "summary": "Karína ehf. fær jarðvinnu við Stjórnarráðshúsið fyrir 35,8 milljónir Framkvæmdasýslan – Ríkiseignir, FSRE, hefur gengið að tilboði Karínu ehf. í jarðvinnu vegna fyrirhugaðrar nýbyggingar við Stjórnarráðshúsið við Lækjargötu 1 í Reykjavík. Tilboð Karínu nemur 35.822.500 krónum með virðisaukaskatti og var lægsta heildartilboðið í verkið. FSRE tilkynnti 5. okt...",
       "url": "https://byggingar.is/karina-ehf-faer-jardvinnu-vid-stjornarradshusid-fyrir-358-milljonir/?utm_source=rss&utm_medium=rss&utm_campaign=karina-ehf-faer-jardvinnu-vid-stjornarradshusid-fyrir-358-milljonir",
       "outlet": "byggingar.is / undirritun samninga",
-      "is_new": false,
-      "sector_tags": []
-    },
-    {
-      "id": "news:visir-vidskipti:vill-ad-thak-verdi-sett-a-alagningu-oliufelaga",
-      "lane": "news",
-      "category": "project",
-      "title": "Vill að þak verði sett á á­lagningu olíu­fé­laga",
-      "entity": "visir.is / Viðskipti",
-      "date": "2026-10-06",
-      "summary": "Runólfur Ólafsson, framkvæmdastjóri FÍB, kallar eftir því að olíufélögin lækki álagningu sína og að stjórnvöld stígi sömuleiðis inn með því að lækka virðisaukaskatt á ný. Bensínlítri kostar nú 253 krónur á höfuðborgarsvæðinu en víða á landsbyggðinni allt að 274 krónur samkvæmt vef Gasvaktarinnar. Lítri af dísilolíu kostar nú víðast hvar um 300 krónur.",
-      "url": "https://www.visir.is/g/20262944525d/vill-ad-thak-verdi-sett-a-alagningu-oliufelaga",
-      "outlet": "visir.is / Viðskipti",
       "is_new": false,
       "sector_tags": []
     }
