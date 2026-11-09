@@ -60,7 +60,7 @@
       "limits": "Tags are text-derived relevance, not verified project stage or completeness. Existing source/date/detail limits still apply; no sources added."
     }
   },
-  "generated_at": "2026-11-06T07:00:23.933578+00:00",
+  "generated_at": "2026-11-09T07:00:23.231049+00:00",
   "source": {
     "site": "https://www.utbodsvefur.is",
     "posts_api": "https://www.utbodsvefur.is/wp-json/wp/v2/posts",
@@ -68,58 +68,13 @@
     "count_drop_guard": {
       "status": "fresh",
       "threshold": ">70% source-count collapse",
-      "previous_good_count": 76,
-      "current_count": 74,
+      "previous_good_count": 74,
+      "current_count": 71,
       "minimum_allowed_count": 22
     }
   },
-  "count": 74,
+  "count": 71,
   "tenders": [
-    {
-      "reference": "2026-54",
-      "project": "SOG65 Eftirlitsþjónusta",
-      "buyer": "Landsvirkjun",
-      "notice_type": "Þjónusta",
-      "deadline": "06.11.2026 kl. 11:00",
-      "deadline_local": "2026-11-06T11:00:00+00:00",
-      "deadline_utc": "2026-11-06T11:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-10-07T09:05:06+00:00",
-      "modified_at": "2026-10-06T11:05:37+00:00",
-      "url": "https://www.utbodsvefur.is/sog65-eftirlitsthjonusta/",
-      "summary": "Landsvirkjun óskar eftir tilboðum í eftirlit , rekstur verksamnings og hlutverk Engineer (skv. FIDIC Yellow Book 2017 (Second Edition 2017, reprinted ...",
-      "sector_tags": []
-    },
-    {
-      "reference": "I0237",
-      "project": "Markaðskönnun – RFI Sjálfvirkur lyfjalager",
-      "buyer": "Nýr Landspítali",
-      "notice_type": "Markaðskönnun (RFI)",
-      "deadline": "06.11.2026 kl. 13:00",
-      "deadline_local": "2026-11-06T13:00:00+00:00",
-      "deadline_utc": "2026-11-06T13:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-10-22T11:16:12+00:00",
-      "modified_at": "2026-11-03T09:48:16+00:00",
-      "url": "https://www.utbodsvefur.is/markadskonnun-rfi-sjalfvirkur-lyfjalager/",
-      "summary": "Nýr Landspítali (NLSH) óskar eftir upplýsingum frá hæfum birgjum varðandi heildarlausn frá einum aðila fyrir sjálfvirkan lyfjalager. Nánari upplýsinga...",
-      "sector_tags": []
-    },
-    {
-      "reference": "I0236",
-      "project": "Markaðskönnun – RFI Stakskömmtunarvél fyrir lyf",
-      "buyer": "Nýr Landspítali",
-      "notice_type": "Markaðskönnun (RFI)",
-      "deadline": "06.11.2026 kl. 13:00",
-      "deadline_local": "2026-11-06T13:00:00+00:00",
-      "deadline_utc": "2026-11-06T13:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-10-22T14:04:47+00:00",
-      "modified_at": "2026-11-03T09:47:50+00:00",
-      "url": "https://www.utbodsvefur.is/markadskonnun-rfi-stakskommtunarvel-fyrir-lyf/",
-      "summary": "Nýr Landspítali (NLSH) óskar eftir upplýsingum frá hæfum birgjum varðandi heildarlausn fyrir stakskömmtunarvél (Unit Dose Robot System). Nánari upplýs...",
-      "sector_tags": []
-    },
     {
       "reference": "25-0300",
       "project": "Nýtt hjúkrunarheimili í Mosfellsbæ – leiguleið",

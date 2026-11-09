@@ -61,16 +61,16 @@
     }
   },
   "schema_version": 1,
-  "generated": "2026-11-06T07:00:24Z",
-  "generated_at": "2026-11-06T07:00:24Z",
+  "generated": "2026-11-09T07:00:23Z",
+  "generated_at": "2026-11-09T07:00:23Z",
   "sources": {
     "utbodsvefur": {
-      "generated_at": "2026-11-06T07:00:23.933578+00:00",
-      "count": 74,
+      "generated_at": "2026-11-09T07:00:23.231049+00:00",
+      "count": 71,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders.json"
     },
     "offportal": {
-      "generated": "2026-11-06T07:00:24Z",
+      "generated": "2026-11-09T07:00:23Z",
       "count": 162,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders_offportal.json"
     },
@@ -514,7 +514,7 @@
         "last_seen": "2026-10-27T11:55:54Z",
         "reason": "exact candidate evidence excluded: electricity_purchase",
         "status": "out_of_scope_for_now",
-        "last_reviewed": "2026-11-06T07:00:24Z"
+        "last_reviewed": "2026-11-09T07:00:23Z"
       },
       {
         "id": "tender:buyer:fjallabyggð",
@@ -527,7 +527,7 @@
         "last_seen": "2026-10-22T07:00:26Z",
         "reason": "SW261029-I01: reviewed exact historical snow-clearing/de-icing service URL; not works. Genuine works/planning remain eligible.",
         "status": "out_of_scope_for_now",
-        "last_reviewed": "2026-11-06T07:00:24Z"
+        "last_reviewed": "2026-11-09T07:00:23Z"
       },
       {
         "id": "tender:buyer:sveitafélagið-árborg",
@@ -540,13 +540,13 @@
         "last_seen": "2026-10-22T07:00:26Z",
         "reason": "exact candidate evidence excluded: winter_service",
         "status": "out_of_scope_for_now",
-        "last_reviewed": "2026-11-06T07:00:24Z"
+        "last_reviewed": "2026-11-09T07:00:23Z"
       }
     ]
   },
-  "count": 224,
+  "count": 221,
   "counts_by_intelligence_type": {
-    "active_tender": 53,
+    "active_tender": 50,
     "bid_opening": 30,
     "closed_tender": 2,
     "dynamic_purchasing_system": 22,
@@ -3408,60 +3408,6 @@
       "intelligence_type": "closed_tender",
       "is_open_opportunity": false,
       "sector_tags": []
-    },
-    {
-      "reference": "2026-54",
-      "project": "SOG65 Eftirlitsþjónusta",
-      "buyer": "Landsvirkjun",
-      "notice_type": "Þjónusta",
-      "deadline": "06.11.2026 kl. 11:00",
-      "deadline_local": "2026-11-06T11:00:00+00:00",
-      "deadline_utc": "2026-11-06T11:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-10-07T09:05:06+00:00",
-      "modified_at": "2026-10-06T11:05:37+00:00",
-      "url": "https://www.utbodsvefur.is/sog65-eftirlitsthjonusta/",
-      "summary": "Landsvirkjun óskar eftir tilboðum í eftirlit , rekstur verksamnings og hlutverk Engineer (skv. FIDIC Yellow Book 2017 (Second Edition 2017, reprinted ...",
-      "sector_tags": [],
-      "source": "utbodsvefur",
-      "intelligence_type": "active_tender",
-      "is_open_opportunity": true
-    },
-    {
-      "reference": "I0237",
-      "project": "Markaðskönnun – RFI Sjálfvirkur lyfjalager",
-      "buyer": "Nýr Landspítali (NLSH ohf.)",
-      "notice_type": "Markaðskönnun (RFI)",
-      "deadline": "06.11.2026 kl. 13:00",
-      "deadline_local": "2026-11-06T13:00:00+00:00",
-      "deadline_utc": "2026-11-06T13:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-10-22T11:16:12+00:00",
-      "modified_at": "2026-11-03T09:48:16+00:00",
-      "url": "https://www.utbodsvefur.is/markadskonnun-rfi-sjalfvirkur-lyfjalager/",
-      "summary": "Nýr Landspítali (NLSH) óskar eftir upplýsingum frá hæfum birgjum varðandi heildarlausn frá einum aðila fyrir sjálfvirkan lyfjalager. Nánari upplýsinga...",
-      "sector_tags": [],
-      "source": "utbodsvefur",
-      "intelligence_type": "active_tender",
-      "is_open_opportunity": true
-    },
-    {
-      "reference": "I0236",
-      "project": "Markaðskönnun – RFI Stakskömmtunarvél fyrir lyf",
-      "buyer": "Nýr Landspítali (NLSH ohf.)",
-      "notice_type": "Markaðskönnun (RFI)",
-      "deadline": "06.11.2026 kl. 13:00",
-      "deadline_local": "2026-11-06T13:00:00+00:00",
-      "deadline_utc": "2026-11-06T13:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-10-22T14:04:47+00:00",
-      "modified_at": "2026-11-03T09:47:50+00:00",
-      "url": "https://www.utbodsvefur.is/markadskonnun-rfi-stakskommtunarvel-fyrir-lyf/",
-      "summary": "Nýr Landspítali (NLSH) óskar eftir upplýsingum frá hæfum birgjum varðandi heildarlausn fyrir stakskömmtunarvél (Unit Dose Robot System). Nánari upplýs...",
-      "sector_tags": [],
-      "source": "utbodsvefur",
-      "intelligence_type": "active_tender",
-      "is_open_opportunity": true
     },
     {
       "reference": "25-0300",
