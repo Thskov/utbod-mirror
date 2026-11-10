@@ -61,16 +61,16 @@
     }
   },
   "schema_version": 1,
-  "generated": "2026-11-09T07:00:23Z",
-  "generated_at": "2026-11-09T07:00:23Z",
+  "generated": "2026-11-10T07:00:23Z",
+  "generated_at": "2026-11-10T07:00:23Z",
   "sources": {
     "utbodsvefur": {
-      "generated_at": "2026-11-09T07:00:23.231049+00:00",
-      "count": 71,
+      "generated_at": "2026-11-10T07:00:23.509098+00:00",
+      "count": 73,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders.json"
     },
     "offportal": {
-      "generated": "2026-11-09T07:00:23Z",
+      "generated": "2026-11-10T07:00:23Z",
       "count": 162,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders_offportal.json"
     },
@@ -118,15 +118,8 @@
       {
         "source": "ted",
         "url": "https://api.ted.europa.eu/v3/notices/search",
-        "reason": "dropped 91 notices: expired deadline",
+        "reason": "dropped 92 notices: expired deadline",
         "kind": "filtering"
-      },
-      {
-        "kind": "filtering",
-        "source": "utbodsvefur",
-        "reason": "debt_collection_service",
-        "project": "Innheimtuþjónusta – fruminnheimta ásamt milli- og löginnheimtu",
-        "url": "https://www.utbodsvefur.is/innheimtuthjonusta-fruminnheimta-asamt-milli-og-loginnheimtu/"
       },
       {
         "kind": "filtering",
@@ -514,7 +507,7 @@
         "last_seen": "2026-10-27T11:55:54Z",
         "reason": "exact candidate evidence excluded: electricity_purchase",
         "status": "out_of_scope_for_now",
-        "last_reviewed": "2026-11-09T07:00:23Z"
+        "last_reviewed": "2026-11-10T07:00:23Z"
       },
       {
         "id": "tender:buyer:fjallabyggð",
@@ -527,7 +520,7 @@
         "last_seen": "2026-10-22T07:00:26Z",
         "reason": "SW261029-I01: reviewed exact historical snow-clearing/de-icing service URL; not works. Genuine works/planning remain eligible.",
         "status": "out_of_scope_for_now",
-        "last_reviewed": "2026-11-09T07:00:23Z"
+        "last_reviewed": "2026-11-10T07:00:23Z"
       },
       {
         "id": "tender:buyer:sveitafélagið-árborg",
@@ -540,13 +533,13 @@
         "last_seen": "2026-10-22T07:00:26Z",
         "reason": "exact candidate evidence excluded: winter_service",
         "status": "out_of_scope_for_now",
-        "last_reviewed": "2026-11-09T07:00:23Z"
+        "last_reviewed": "2026-11-10T07:00:23Z"
       }
     ]
   },
-  "count": 221,
+  "count": 224,
   "counts_by_intelligence_type": {
-    "active_tender": 50,
+    "active_tender": 53,
     "bid_opening": 30,
     "closed_tender": 2,
     "dynamic_purchasing_system": 22,
@@ -3410,24 +3403,6 @@
       "sector_tags": []
     },
     {
-      "reference": "25-0300",
-      "project": "Nýtt hjúkrunarheimili í Mosfellsbæ – leiguleið",
-      "buyer": "Framkvæmdasýslan ríkiseignir (FSRE)",
-      "notice_type": "Framkvæmd Leiguhúsnæði",
-      "deadline": "09.11.2026 kl. 12:00",
-      "deadline_local": "2026-11-09T12:00:00+00:00",
-      "deadline_utc": "2026-11-09T12:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": null,
-      "modified_at": null,
-      "url": "https://www.utbodsvefur.is/nytt-hjukrunarheimili-i-mosfellsbae-leiguleid/",
-      "summary": "Framkvæmdasýslan – Ríkiseignir (FSRE) f.h. félags- og húsnæðismálaráðuneytis, kt. 521218-0610, sem hér eftir nefnist kaupandi, óskar eftir leigutilboð...",
-      "sector_tags": [],
-      "source": "utbodsvefur",
-      "intelligence_type": "active_tender",
-      "is_open_opportunity": true
-    },
-    {
       "reference": "16338",
       "project": "Ræsting fyrir stjórnsýsluhús Reykjavíkurborgar, EES útboð nr. 16338",
       "buyer": "Reykjavíkurborg",
@@ -3764,6 +3739,24 @@
       "modified_at": "2026-10-22T08:17:49+00:00",
       "url": "https://www.utbodsvefur.is/utbod-a-hysingu-rekstrar-og-notendathjonustu-fyrir-akureyrarbae/",
       "summary": "Akureyrarbær óskar eftir tilboðum í hýsingu og rekstur upplýsingatækniumhverfis sveitarfélagsins, auk notendaþjónustu. Samningstími er frá 1.4.2027 &#...",
+      "sector_tags": [],
+      "source": "utbodsvefur",
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true
+    },
+    {
+      "reference": "M26037",
+      "project": "Áhugakönnun vegna geymsluskápa og lyklahólfa í nýrri hjólaaðstöðu á Keflavíkurflugvelli",
+      "buyer": "Isavia",
+      "notice_type": "Markaðskönnun (RFI)",
+      "deadline": "23.11.2026 kl. 13:00",
+      "deadline_local": "2026-11-23T13:00:00+00:00",
+      "deadline_utc": "2026-11-23T13:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-11-09T10:41:23+00:00",
+      "modified_at": "2026-11-09T10:41:23+00:00",
+      "url": "https://www.utbodsvefur.is/ahugakonnun-vegna-geymsluskapa-og-lyklaholfa-i-nyrri-hjolaadstodu-a-keflavikurflugvelli/",
+      "summary": "Isavia ohf. óskar eftir upplýsingum frá þjónustuaðilum með reynslu af geymsluskápum, lyklahólfum eða sambærilegum sjálfsafgreiðslulausnum vegna nýrrar...",
       "sector_tags": [],
       "source": "utbodsvefur",
       "intelligence_type": "active_tender",
@@ -4202,6 +4195,42 @@
       "is_open_opportunity": true
     },
     {
+      "reference": "115050",
+      "project": "Stofnlögn vatnsveitu frá Kaldárbotnum",
+      "buyer": "Hafnarfjarðarkaupstaður",
+      "notice_type": "Vörukaup",
+      "deadline": "09.12.2026 kl. 14:00",
+      "deadline_local": "2026-12-09T14:00:00+00:00",
+      "deadline_utc": "2026-12-09T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-11-06T10:11:34+00:00",
+      "modified_at": "2026-11-06T10:11:34+00:00",
+      "url": "https://www.utbodsvefur.is/stofnlogn-vatnsveitu-fra-kaldarbotnum/",
+      "summary": "Ductile lagnaefni fyrir vatnsveitu Hafnarfjarðar Hafnarfjarðarbær óskar eftir tilboðum í útvegun og afhendingu ductile lagnaefnis fyrir stofnlögn vat...",
+      "sector_tags": [],
+      "source": "utbodsvefur",
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true
+    },
+    {
+      "reference": "16359",
+      "project": "Rekstur hleðslustöðva í bílahúsum. Sérleyfissamningur, EES útboð nr. 16359",
+      "buyer": "Reykjavíkurborg",
+      "notice_type": "Þjónusta",
+      "deadline": "10.12.2026 kl. 10:00",
+      "deadline_local": "2026-12-10T10:00:00+00:00",
+      "deadline_utc": "2026-12-10T10:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-11-09T11:46:30+00:00",
+      "modified_at": "2026-11-09T11:46:30+00:00",
+      "url": "https://www.utbodsvefur.is/rekstur-hledslustodva-i-bilahusum-serleyfissamningur-ees-utbod-nr-16359/",
+      "summary": "F.h. Umhverfis- og skipulagssviðs Reykjavíkurborgar er óskað eftir tilboðum í eftirfarandi verk: Rekstur hleðslustöðva í bílahúsum. Sérleyfissamningur...",
+      "sector_tags": [],
+      "source": "utbodsvefur",
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true
+    },
+    {
       "reference": "TZS26002",
       "project": "Þotugildrur á Keflavíkurflugvelli",
       "buyer": "Fjársýslan ríkisins",
@@ -4214,6 +4243,24 @@
       "modified_at": "2026-10-13T10:39:51+00:00",
       "url": "https://www.utbodsvefur.is/thotugildrur-a-keflavikurflugvelli/",
       "summary": "Utanríkisráðuneytið, varnarmálaskrifstofa og Landhelgisgæslan, varnarmálasvið, vekja athygli á auglýsingu innkaupastofnunar Atlantshafsbandalagsins (N...",
+      "sector_tags": [],
+      "source": "utbodsvefur",
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true
+    },
+    {
+      "reference": "2026-58",
+      "project": "Steel Tubes and Fittings for THG-19",
+      "buyer": "Landsvirkjun",
+      "notice_type": "Vörukaup",
+      "deadline": "17.12.2026 kl. 14:00",
+      "deadline_local": "2026-12-17T14:00:00+00:00",
+      "deadline_utc": "2026-12-17T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-11-09T12:46:12+00:00",
+      "modified_at": "2026-11-09T12:46:12+00:00",
+      "url": "https://www.utbodsvefur.is/steel-tubes-and-fittings-for-thg-19/",
+      "summary": "Landsvirkjun seeks a supplier for manufacturing and delivery of the following: PART A: Steel tubes as described in Vol 2, Sub-Clause 1.3 [Specific Req...",
       "sector_tags": [],
       "source": "utbodsvefur",
       "intelligence_type": "active_tender",
