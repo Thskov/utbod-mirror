@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated": "2026-11-09T06:45:01Z",
+  "generated": "2026-11-10T06:45:01Z",
   "window": {
-    "from": "2026-11-02",
-    "to": "2026-11-09"
+    "from": "2026-11-03",
+    "to": "2026-11-10"
   },
   "coverage": {
     "industry_focus": {
@@ -56,7 +56,7 @@
         }
       ],
       "counts_by_sector": {
-        "tourism-infrastructure": 16,
+        "tourism-infrastructure": 18,
         "aquaculture-fish-production": 1,
         "datacentres-infrastructure": 2
       },
@@ -494,7 +494,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/5618",
         "seen_count": 1,
         "first_seen": "2026-10-28T14:29:46Z",
-        "last_seen": "2026-11-09T06:45:01Z",
+        "last_seen": "2026-11-10T06:45:01Z",
         "reason": "repeated unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -506,7 +506,7 @@
         "evidence_url": "https://www.firstwater.is/news/land-based-salmon-farming-could-generate-eu1-1-1-5-billion-in-annual-export-revenues-for-iceland",
         "seen_count": 1,
         "first_seen": "2026-11-06T06:45:01Z",
-        "last_seen": "2026-11-09T06:45:01Z",
+        "last_seen": "2026-11-10T06:45:01Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -518,7 +518,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/3459",
         "seen_count": 1,
         "first_seen": "2026-10-28T14:29:46Z",
-        "last_seen": "2026-11-09T06:45:01Z",
+        "last_seen": "2026-11-10T06:45:01Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -530,7 +530,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/4410",
         "seen_count": 1,
         "first_seen": "2026-10-28T14:29:46Z",
-        "last_seen": "2026-11-09T06:45:01Z",
+        "last_seen": "2026-11-10T06:45:01Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -542,7 +542,7 @@
         "evidence_url": "https://www.landbasedaq.com/arctic-char-bankruptcy-iceland/iceland-arctic-char-farmer-files-for-bankrupcty/2206923",
         "seen_count": 1,
         "first_seen": "2026-11-06T06:45:01Z",
-        "last_seen": "2026-11-09T06:45:01Z",
+        "last_seen": "2026-11-10T06:45:01Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -552,9 +552,9 @@
         "suggested_feed": "public-info-feed",
         "suggested_lane": "eia",
         "evidence_url": "https://skipulagsgatt.is/issues/3878",
-        "seen_count": 1,
+        "seen_count": 4,
         "first_seen": "2026-10-28T14:29:46Z",
-        "last_seen": "2026-11-09T06:45:01Z",
+        "last_seen": "2026-11-10T06:45:01Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -563,10 +563,10 @@
         "name": "Umhverfis- og orkustofnun",
         "suggested_feed": "public-info-feed",
         "suggested_lane": "eia",
-        "evidence_url": "https://uos.is/opinber-birting/aform-um-veitingu-bradabirgdaheimildar-fyrir-skeida-og-gnupverjahrepp",
-        "seen_count": 1,
+        "evidence_url": "https://uos.is/opinber-birting/tillaga-ad-starfsleyfi-fyrir-mulavirkjun",
+        "seen_count": 2,
         "first_seen": "2026-10-28T06:45:02Z",
-        "last_seen": "2026-11-09T06:45:01Z",
+        "last_seen": "2026-11-10T06:45:01Z",
         "reason": "repeated unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -578,7 +578,7 @@
         "evidence_url": "https://www.utu.is/auglysingar/skipulagsauglysing-birt-dags-29-oktober-2026/",
         "seen_count": 7,
         "first_seen": "2026-10-16T06:45:01Z",
-        "last_seen": "2026-11-09T06:45:01Z",
+        "last_seen": "2026-11-10T06:45:01Z",
         "reason": "repeated unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -590,7 +590,7 @@
         "evidence_url": "https://gagnagrunnur.ees.is/32024l1275",
         "seen_count": 2,
         "first_seen": "2026-11-02T17:10:48Z",
-        "last_seen": "2026-11-09T06:45:01Z",
+        "last_seen": "2026-11-10T06:45:01Z",
         "reason": "repeated unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -602,7 +602,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/5331",
         "seen_count": 1,
         "first_seen": "2026-10-30T06:45:01Z",
-        "last_seen": "2026-11-09T06:45:01Z",
+        "last_seen": "2026-11-10T06:45:01Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -614,7 +614,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/881",
         "seen_count": 1,
         "first_seen": "2026-10-28T14:29:46Z",
-        "last_seen": "2026-11-09T06:45:01Z",
+        "last_seen": "2026-11-10T06:45:01Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       }
@@ -767,7 +767,7 @@
           "outside_window": 2
         },
         "reykjavik": {
-          "no_matching_keywords": 41,
+          "no_matching_keywords": 40,
           "no_matching_detail_keywords": 2,
           "outside_window": 4
         },
@@ -830,10 +830,11 @@
           "no_matching_keywords": 40
         },
         "byggingar-opnun-utboda": {
-          "outside_window": 15
+          "outside_window": 16
         },
         "vb": {
-          "no_matching_keywords": 40
+          "no_matching_keywords": 39,
+          "undated": 1
         },
         "fiskifrettir": {
           "no_matching_keywords": 40
@@ -865,12 +866,63 @@
       }
     }
   },
-  "count": 408,
+  "count": 413,
   "counts_by_intelligence_type": {
-    "public_record": 381,
+    "public_record": 386,
     "reference_tracker": 27
   },
   "items": [
+    {
+      "id": "uos:8990d550b284c07d32",
+      "lane": "eia",
+      "source": "uos",
+      "entity": "Umhverfis- og orkustofnun",
+      "title": "Tillaga að starfsleyfi fyrir Múlavirkjun ehf.",
+      "date": "2026-11-09",
+      "summary": "Umhverfis- og orkustofnun auglýsir tillögu að starfsleyfi fyrir Múlavirkjun ehf. Tillagan heimilar rekstraraðila áframhaldandi starfsemi Múlavirkjunar sem er 3228 kW vatnsaflsvirkjun í Straumfjarðará á Snæfellsnesi, Eyja- og Miklaholtshreppi. Engin breyting er fyrirhuguð á umfangi eða eðli starfseminnar. Athugasemdir við starfsleyfistillöguna skulu vera skriflegar og sendar Umhverfis- og orkustofnun (uos@uos.is) merkt UOS-6262, athugasemdir verða birtar við útgáfu nema annars sé óskað. Greinargerð mun fylgja starfsleyfi við útgáfu sbr. 6. gr. reglugerðar nr. 550/2018. Ef áhugi er fyrir hendi að halda opinn kynningarfund um starfsleyfistillöguna er bent á að hafa samband við Umhverfis- og orkustofnun með slíkt erindi sem fyrst. Frestur til að skila inn athugasemdum er til og með 7. desember nk. Tengd skjöl Tillaga að starfsleyfi fyrir Múlavirkjun ehf. (PDF, 189 KB) Umsókn um endurnýjun starfsleyfis (PDF, 1,8 MB) Fylgiskjal með umsókn (PDF, 391 KB) Tengt efni Umsókn um starfsleyfi - Múlavirkjun hf. Umsókn um starfsleyfi Múlavirkjun",
+      "url": "https://uos.is/opinber-birting/tillaga-ad-starfsleyfi-fyrir-mulavirkjun",
+      "status": "public_notice",
+      "evidence_kind": "first_party_environmental_notice",
+      "publication_date_provenance": "primary_notice_detail",
+      "discovery_url": "https://uos.is/opinber-birting",
+      "sector_tags": [],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:vinna-vid-hafin-a-akranesi-vegna-rannsoknarborunar-eftir-heitu-vatni",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "Vinna við hafin á Akranesi vegna rannsóknarborunar eftir heitu vatni",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-11-09",
+      "summary": "yggingar.is/wp-content/uploads/2026/11/09.11.2026-Vinna-vid-hafin-a-Akranesi-vegna-rannsoknarborunar-eftir-heitu-vatni-100x75.png\" width=\"100\" height=\"75\" /> Vinna við hafin á Akranesi vegna rannsóknarborunar eftir heitu vatni 09/11/2026 <div cl",
+      "url": "https://byggingar.is/vinna-vid-hafin-a-akranesi-vegna-rannsoknarborunar-eftir-heitu-vatni/",
+      "keywords_matched": [
+        "opinber innkaup"
+      ],
+      "evidence_type": "secondary_report",
+      "sector_tags": [],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:godur-gangur-hja-alverki-vid-byggingu-70-namsmannaibuda-i-arnarbakka",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "Góður gangur hjá Alverki við byggingu 70 námsmannaíbúða í Arnarbakka",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-11-09",
+      "summary": "gingar.is/wp-content/uploads/2026/11/09.11.2026-Godur-gangur-hja-Alverki-vid-byggingu-70-namsmannaibuda-i-Arnarbakka-a-100x75.jpg\" width=\"100\" height=\"75\" /> Góður gangur hjá Alverki við byggingu 70 námsmannaíbúða í Arnarbakka 09/11/2026 <div class=\"td_modu",
+      "url": "https://byggingar.is/godur-gangur-hja-alverki-vid-byggingu-70-namsmannaibuda-i-arnarbakka/",
+      "keywords_matched": [
+        "bygging",
+        "opinber innkaup"
+      ],
+      "evidence_type": "secondary_report",
+      "sector_tags": [],
+      "intelligence_type": "public_record"
+    },
     {
       "id": "announcement:byggingar-borgarlina:utm-source-rss-utm-medium-rss-utm-campaign-byggja-innvidi-borgarlinunnar",
       "lane": "announcement",
@@ -884,61 +936,6 @@
       "keywords_matched": [
         "bygging",
         "samgöngur"
-      ],
-      "evidence_type": "secondary_report",
-      "sector_tags": [],
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "announcement:byggingar-opnun-utboda:byggja-innvidi-borgarlinunnar",
-      "lane": "announcement",
-      "source": "byggingar-opnun-utboda",
-      "title": "Byggja innviði borgarlínunnar",
-      "entity": "Byggingar.is",
-      "status": "published",
-      "date": "2026-11-08",
-      "summary": "ype=\"image_tag\" data-img-url=\"https://byggingar.is/wp-content/uploads/2026/11/08.11.2026-Byggja-innvidi-borgarlinunnar-100x75.jpg\" width=\"100\" height=\"75\" /> Byggja innviði borgarlínunnar 09/11/2026 <div class=\"td_modu",
-      "url": "https://byggingar.is/byggja-innvidi-borgarlinunnar/",
-      "keywords_matched": [
-        "bygging",
-        "opinber innkaup",
-        "samgöngur"
-      ],
-      "evidence_type": "secondary_report",
-      "sector_tags": [],
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "announcement:byggingar-opnun-utboda:vilja-adra-vestmannaeyjaferju-til-vidbotar",
-      "lane": "announcement",
-      "source": "byggingar-opnun-utboda",
-      "title": "Vilja aðra Vest­manna­eyja­ferju til við­bót­ar",
-      "entity": "Byggingar.is",
-      "status": "published",
-      "date": "2026-11-07",
-      "summary": "\" data-img-url=\"https://byggingar.is/wp-content/uploads/2026/11/07.11.2026-Vilja-adra-Vestmannaeyja­ferju-til-vidbotar-100x75.jpg\" width=\"100\" height=\"75\" /> Vilja aðra Vest­manna­eyja­ferju til við­bót­ar 07/11/2026 <div cl",
-      "url": "https://byggingar.is/vilja-adra-vestmannaeyjaferju-til-vidbotar/",
-      "keywords_matched": [
-        "bygging",
-        "opinber innkaup"
-      ],
-      "evidence_type": "secondary_report",
-      "sector_tags": [],
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "announcement:byggingar-opnun-utboda:innanhussfragangur-medferdarkjarnans-i-fullum-gangi",
-      "lane": "announcement",
-      "source": "byggingar-opnun-utboda",
-      "title": "Innanhússfrágangur meðferðarkjarnans í fullum gangi",
-      "entity": "Byggingar.is",
-      "status": "published",
-      "date": "2026-11-07",
-      "summary": "-url=\"https://byggingar.is/wp-content/uploads/2026/11/07.11.2026-Innanhussfragangur-medferdarkjarnans-i-fullum-gangi-a-100x75.jpg\" width=\"100\" height=\"75\" /> Innanhússfrágangur meðferðarkjarnans í fullum gangi 07/11/2026 <div class=\"td_modu",
-      "url": "https://byggingar.is/innanhussfragangur-medferdarkjarnans-i-fullum-gangi/",
-      "keywords_matched": [
-        "bygging",
-        "opinber innkaup"
       ],
       "evidence_type": "secondary_report",
       "sector_tags": [],
@@ -4107,6 +4104,21 @@
       "intelligence_type": "public_record"
     },
     {
+      "id": "skgatt:0758/2026",
+      "lane": "planning",
+      "title": "Breyting á deiliskipulagi Suðurhafnar vegna smáhýsa við Hvaleyrarlón",
+      "entity": "Hafnarfjarðarkaupstaður",
+      "case_number": "0758/2026",
+      "plan_type": "deiliskipulag",
+      "status": "Athugun eftir auglýsingu",
+      "date": "2026-06-25",
+      "review_deadline": "2026-12-07",
+      "summary": "Gerð er breyting á deiliskipulagi Suðurhafnar vegna nýrra lóðar við Lónsbraut. Gert er ráð fyrir að á lóðinni rísi sex smáhýsi að hámarki 35 m2 að stærð fyrir skjólstæðinga fjölskyldu og barnamálasviðs.",
+      "url": "https://skipulagsgatt.is/issues/5113",
+      "sector_tags": [],
+      "intelligence_type": "public_record"
+    },
+    {
       "id": "kaerunefnd:9/2025",
       "lane": "kaerunefnd",
       "title": "2026 06 25 Mál nr. 9 2025. Úrskurður kærunefndar útboðsmála",
@@ -5089,6 +5101,21 @@
       "intelligence_type": "public_record"
     },
     {
+      "id": "skgatt:0181/2026",
+      "lane": "planning",
+      "title": "Krókavegur 21 - nýtt deiliskipulag, F517",
+      "entity": "Mosfellsbær",
+      "case_number": "0181/2026",
+      "plan_type": "deiliskipulag",
+      "status": "Endanleg gögn",
+      "date": "2026-03-12",
+      "review_deadline": "2026-12-07",
+      "summary": "Tillagan felur í sér uppskiptingu frístundalands Krókavegur 21, L125199, í tvær nýjar frístundahúsalóðir, sem eru 5.205 og 5225 m² að stærð. Aðkoma að lóðunum er frá Nesjavallaleið um lóð með lnr.125194.",
+      "url": "https://skipulagsgatt.is/issues/4536",
+      "sector_tags": [],
+      "intelligence_type": "public_record"
+    },
+    {
       "id": "landsrettur:171/2025",
       "lane": "court",
       "title": "Ferill ehf., verkfræðistofa (Gísli Guðni Hall lögmaður) gegn Ölduvör ehf. (Haukur Örn Birgisson lögmaður)",
@@ -5600,6 +5627,21 @@
       "intelligence_type": "public_record"
     },
     {
+      "id": "skgatt:0024/2026",
+      "lane": "planning",
+      "title": "Norðurnes, Álftanesi - Aðalskipulagsbreyting",
+      "entity": "Garðabær",
+      "case_number": "0024/2026",
+      "plan_type": "adalskipulag",
+      "status": "Athugun fyrir auglýsingu",
+      "date": "2026-01-15",
+      "review_deadline": "2026-12-07",
+      "summary": "Tillagan er í samræmi við tillögu að deiliskipulagi Norðurness. Helstu breytingar sem tillagan gerir ráð fyrir eru eftirfarandi: · Íbúðarbyggð (Íb) stækkar og ný svæði bætast við · Íþróttasvæði (Íþ) fyrir fyrirhugaðan golfvöll stækkar og breytist · Íþróttasvæði 1.02 Íþ (hesthúsabyggð) á Eyri er fellt út · Svæði fyrir verslun og þjónustu bætast við · Svæði u…",
+      "url": "https://skipulagsgatt.is/issues/4379",
+      "sector_tags": [],
+      "intelligence_type": "public_record"
+    },
+    {
       "id": "skgatt:0055/2026",
       "lane": "eia",
       "title": "Óveruleg breyting á deiliskipulagi Svartsengis - Northern Light Inn",
@@ -6040,18 +6082,24 @@
       "intelligence_type": "public_record"
     },
     {
-      "id": "skgatt:0736/2025",
-      "lane": "planning",
-      "title": "Staðarárvirkjun í Bakkafirði",
-      "entity": "Langanesbyggð",
-      "case_number": "0736/2025",
-      "plan_type": "adalskipulag",
-      "status": "Athugun fyrir auglýsingu",
-      "date": "2025-05-28",
-      "review_deadline": "2026-11-02",
-      "summary": "Arctic Hydro hefur áform um að reisa vatnsaflsvirkjun í Staðará í Bakkafirði. Áætlað uppsett afl virkjunarinnar er 0,99 MW og árleg orkuframleiðsla 6,1 GWh. Virkjunin verður tengd við dreifikerfi RARIK. Framkvæmdin er í samræmi við tillögur starfshóps á vegum umhverfis-, orku- og loftslagsráðherra að aðgerðum til að efla samfélagið í Langanesbyggð. Starfshó…",
-      "url": "https://skipulagsgatt.is/issues/3393",
-      "sector_tags": [],
+      "id": "skgatt:0532/2025",
+      "lane": "eia",
+      "title": "Steinar 1 og Hvassafell",
+      "entity": "Rangárþing eystra",
+      "case_number": "0532/2025",
+      "plan_type": "deiliskipulag",
+      "status": "Endanleg gögn",
+      "date": "2025-04-14",
+      "review_deadline": "2026-12-07",
+      "summary": "Deiliskipulagstillagan tekur til 127,4 ha svæðis við Hvassafell II og Steina 1. Gert er ráð fyrir 100 gistiskála í 4-5 húsa klösum, 200 herbergja hótel við Þjóðveg 1, 120 herbergja hótel sunnar á svæðinu ásamt baðlóni. Einnig er gert ráð fyrir 15 starfsmannaíbúðum og fjölorkustöð. Heildar byggingarmagn er fyrir svæðið er 35.610 m² en hámarkshæð húsa fer frá…",
+      "url": "https://skipulagsgatt.is/issues/3189",
+      "keywords_matched": [
+        "baðlón"
+      ],
+      "sector_tags": [
+        "tourism-infrastructure"
+      ],
+      "sector_evidence_role": "project_or_sector_context",
       "intelligence_type": "public_record"
     },
     {
@@ -6306,6 +6354,45 @@
       "review_deadline": "2026-11-25",
       "summary": "Breyta þarf afmörkun á iðnaðar-og hafnarsvæðum í aðalskipulagi og skilmálum fyrir lóðirnar Stakksbraut 4 og 15 til að koma fyrir inn- og útflutningsstarfsemi, geymslusvæði skipaeldsneytis og endurskilgreina mörk hafnar- og iðnaðarsvæða.",
       "url": "https://skipulagsgatt.is/issues/2048",
+      "sector_tags": [],
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "skgatt:0798/2024",
+      "lane": "eia",
+      "title": "Brú",
+      "entity": "Rangárþing eystra",
+      "case_number": "0798/2024",
+      "plan_type": "deiliskipulag",
+      "status": "Endanleg gögn",
+      "date": "2024-06-20",
+      "review_deadline": "2026-12-07",
+      "summary": "Deiliskipulagstillagan nær yfir þrjú svæði, frístundarbyggð, hótelbyggingu og býlið sjálft. Á frístundarsvæðið gerir ráð fyrir 40 lóðum þar sem heimilt verður að byggja frístundarhús á einni hæð með risi, ásamt gestahúsi, geymslu og gróðurhúsi. Hámarkshæð frístundahúsa verður 6,5 m en húsagerðir eru frjálsar að öðru leyti. Einnig er gert ráð fyrir um 2.500…",
+      "url": "https://skipulagsgatt.is/issues/1897",
+      "keywords_matched": [
+        "hótel"
+      ],
+      "sector_tags": [
+        "tourism-infrastructure"
+      ],
+      "sector_evidence_role": "project_or_sector_context",
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "skgatt:0732/2024",
+      "lane": "eia",
+      "title": "Steinar 1",
+      "entity": "Rangárþing eystra",
+      "case_number": "0732/2024",
+      "plan_type": "deiliskipulag",
+      "status": "Endanleg gögn",
+      "date": "2024-06-07",
+      "review_deadline": "2026-12-07",
+      "summary": "Tillagan gerir ráð fyrir gestahúsum, baðlóni, hóteli og starfsmannaaðstöðu.",
+      "url": "https://skipulagsgatt.is/issues/1831",
+      "keywords_matched": [
+        "baðlón"
+      ],
       "sector_tags": [],
       "intelligence_type": "public_record"
     },
