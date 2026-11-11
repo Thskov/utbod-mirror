@@ -61,8 +61,8 @@
     }
   },
   "schema_version": 1,
-  "generated": "2026-11-10T07:00:23Z",
-  "generated_at": "2026-11-10T07:00:23Z",
+  "generated": "2026-11-11T07:00:23Z",
+  "generated_at": "2026-11-11T07:00:23Z",
   "sources": {
     "covered": [
       {
@@ -222,7 +222,7 @@
         "source": "vegagerdin-samningum-lokid",
         "reason": "winter_service",
         "project": "Vetrarþjónusta 2025-2028, Holtavörðuheiði – Hvammstangavegur",
-        "url": "https://www.vegagerdin.is/verkefnin/utbod/vetrarthjonusta-2025-2028-holtavorduh"
+        "url": "https://www.vegagerdin.is/verkefnin/utbod/vetrarthjonusta-2025-2028-holtavorduheidi-hvammstangavegur"
       },
       {
         "kind": "filtering",
@@ -257,11 +257,11 @@
         "source": "vegagerdin-opnun-tilboda",
         "reason": "winter_service",
         "project": "Vetrarþjónusta 2026-2029, Breiðdalsvík – Djúpivogur (Hraðútboð)",
-        "url": "https://www.vegagerdin.is/verkefnin/utbod/vetrarthjonusta-2026-2029-breiddalsvik-djupivogur-hradutbod"
+        "url": "https://www.vegagerdin.is/verkefnin/utbod/vetrarthjonusta-2026-2029-djupivogur-hofn-hradutbod"
       },
       {
         "kind": "filtering",
-        "source": "vegagerdin-opnun-tilboda",
+        "source": "vegagerdin-samningum-lokid",
         "reason": "winter_service",
         "project": "Vetrarþjónusta 2026-2029, Fjarðarheiði (Hraðútboð)",
         "url": "https://www.vegagerdin.is/verkefnin/utbod/vetrarthjonusta-2026-2029-fjardarheidi-hradutbod"
@@ -561,7 +561,7 @@
         "last_seen": "2026-10-27T11:55:54Z",
         "reason": "exact candidate evidence excluded: electricity_purchase",
         "status": "out_of_scope_for_now",
-        "last_reviewed": "2026-11-10T07:00:23Z"
+        "last_reviewed": "2026-11-11T07:00:23Z"
       },
       {
         "id": "tender:buyer:fjallabyggð",
@@ -574,7 +574,7 @@
         "last_seen": "2026-10-22T07:00:26Z",
         "reason": "SW261029-I01: reviewed exact historical snow-clearing/de-icing service URL; not works. Genuine works/planning remain eligible.",
         "status": "out_of_scope_for_now",
-        "last_reviewed": "2026-11-10T07:00:23Z"
+        "last_reviewed": "2026-11-11T07:00:23Z"
       },
       {
         "id": "tender:buyer:sveitafélagið-árborg",
@@ -587,17 +587,17 @@
         "last_seen": "2026-10-22T07:00:26Z",
         "reason": "exact candidate evidence excluded: winter_service",
         "status": "out_of_scope_for_now",
-        "last_reviewed": "2026-11-10T07:00:23Z"
+        "last_reviewed": "2026-11-11T07:00:23Z"
       }
     ]
   },
-  "count": 162,
+  "count": 154,
   "counts_by_intelligence_type": {
     "active_tender": 7,
-    "bid_opening": 30,
+    "bid_opening": 27,
     "closed_tender": 2,
     "dynamic_purchasing_system": 6,
-    "historical_award": 92,
+    "historical_award": 87,
     "unverified_deadline": 25
   },
   "items": [
@@ -1065,13 +1065,50 @@
       "url": "https://www.vegagerdin.is/verkefnin/utbod/akrafjallsvegur-51-hringtorg-vid-akranesveg-eftirlit-og-radgjof",
       "summary": "Útboð 26-119 · 25. ágúst 2026",
       "source": "vegagerdin-opnun-tilboda",
+      "bid_opening_results": {
+        "bidders": [
+          {
+            "name": "Mannvirkjahönnun ehf., Garðabær",
+            "amount_isk": 26040000,
+            "percent_of_estimate": 124.0
+          },
+          {
+            "name": "VSB verkfræðistofa ehf., Hafnarfirði",
+            "amount_isk": 24889100,
+            "percent_of_estimate": 118.5
+          },
+          {
+            "name": "VSÓ ráðgjöf, ehf., Reykjavík",
+            "amount_isk": 21861944,
+            "percent_of_estimate": 104.1
+          },
+          {
+            "name": "Verkís hf., Reykjavík",
+            "amount_isk": 19427316,
+            "percent_of_estimate": 92.5
+          },
+          {
+            "name": "Efla hf, Reykjavík",
+            "amount_isk": 19299546,
+            "percent_of_estimate": 91.9
+          },
+          {
+            "name": "Norconsult Íslandi ehf.",
+            "amount_isk": 17360000,
+            "percent_of_estimate": 82.7
+          }
+        ],
+        "estimate_isk": 21000000,
+        "currency": "ISK",
+        "evidence_type": "bid_opening"
+      },
       "intelligence_type": "bid_opening",
       "is_open_opportunity": false,
       "sector_tags": []
     },
     {
       "reference": "25-099",
-      "project": "Akranes, sjóvarnir 2025",
+      "project": "Akranes, sjóva",
       "buyer": "Vegagerðin",
       "notice_type": "Samningum lokið",
       "deadline": "",
@@ -1163,17 +1200,17 @@
       "reference": "26-016",
       "project": "Bíldudalsvegur (63), um Mikladal - endurbætur, 2 áfangi",
       "buyer": "Vegagerðin",
-      "notice_type": "Opnun tilboða",
+      "notice_type": "Samningum lokið",
       "deadline": "",
       "deadline_local": "",
       "deadline_utc": "",
       "deadline_confirmed": false,
-      "posted_at": "2026-06-09",
+      "posted_at": "2026-06-24",
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/bildudalsvegur-63-um-mikladal-endurbaetur-2-afangi",
-      "summary": "Útboð 26-016 · 9. júní 2026",
-      "source": "vegagerdin-opnun-tilboda",
-      "intelligence_type": "bid_opening",
+      "summary": "Útboð 26-016 · 24. júní 2026",
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
       "is_open_opportunity": false,
       "sector_tags": []
     },
@@ -1321,17 +1358,17 @@
       "reference": "26-033",
       "project": "Efnisvinnsla á Vesturlandi 2026-2027, malarslitlag",
       "buyer": "Vegagerðin",
-      "notice_type": "Opnun tilboða",
+      "notice_type": "Samningum lokið",
       "deadline": "",
       "deadline_local": "",
       "deadline_utc": "",
       "deadline_confirmed": false,
-      "posted_at": "2026-06-16",
+      "posted_at": "2026-07-14",
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/efnisvinnsla-a-vesturlandi-2026-2027-malarslitlag",
-      "summary": "Útboð 26-033 · 16. júní 2026",
-      "source": "vegagerdin-opnun-tilboda",
-      "intelligence_type": "bid_opening",
+      "summary": "Útboð 26-033 · 14. júlí 2026",
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
       "is_open_opportunity": false,
       "sector_tags": []
     },
@@ -1348,24 +1385,6 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/efnisvinnslu-a-vestfjordum-2024-malarslitlag",
       "summary": "Útboð 24-060 · 24. júlí 2025",
-      "source": "vegagerdin-samningum-lokid",
-      "intelligence_type": "historical_award",
-      "is_open_opportunity": false,
-      "sector_tags": []
-    },
-    {
-      "reference": "25-117",
-      "project": "Einholtsvegur (358), Drumboddsstaðavegur - Hrunamannavegur",
-      "buyer": "Vegagerðin",
-      "notice_type": "Samningum lokið",
-      "deadline": "",
-      "deadline_local": "",
-      "deadline_utc": "",
-      "deadline_confirmed": false,
-      "posted_at": "2026-02-13",
-      "modified_at": null,
-      "url": "https://www.vegagerdin.is/verkefnin/utbod/einholtsvegur-358-drumboddsstadavegur-hrunamannavegur",
-      "summary": "Útboð 25-117 · 13. feb. 2026",
       "source": "vegagerdin-samningum-lokid",
       "intelligence_type": "historical_award",
       "is_open_opportunity": false,
@@ -1562,7 +1581,7 @@
       "deadline_confirmed": false,
       "posted_at": "2026-05-07",
       "modified_at": null,
-      "url": "https://www.vegagerdin.is/verkefnin/utbod/hjolfarafy",
+      "url": "https://www.vegagerdin.is/verkefnin/utbod/hjolfarafyllingar-og-axlavidgerdir-a-vestur-nordur-og-austursvaedi-2026",
       "summary": "Útboð 26-005 · 7. maí 2026",
       "source": "vegagerdin-samningum-lokid",
       "intelligence_type": "historical_award",
@@ -1782,7 +1801,7 @@
       "deadline_confirmed": false,
       "posted_at": "2025-06-12",
       "modified_at": null,
-      "url": "https://www.vegagerdin.is/verkefnin/utbod/husavik-thilskurdur-vid-thverga",
+      "url": "https://www.vegagerdin.is/verkefnin/utbod/husavik-thilskurdur-vid-thvergard-2025",
       "summary": "Útboð 25-079 · 12. júní 2025",
       "source": "vegagerdin-samningum-lokid",
       "intelligence_type": "historical_award",
@@ -1920,24 +1939,6 @@
       "sector_tags": []
     },
     {
-      "reference": "25-021",
-      "project": "Laugarvatnsvegur (37), Hjálmsstaðir-Miðdalskot, styrking og malbik",
-      "buyer": "Vegagerðin",
-      "notice_type": "Samningum lokið",
-      "deadline": "",
-      "deadline_local": "",
-      "deadline_utc": "",
-      "deadline_confirmed": false,
-      "posted_at": "2025-07-29",
-      "modified_at": null,
-      "url": "https://www.vegagerdin.is/verkefnin/utbod/laugarvatnsvegur-37-hjalmsstadir-middalskot-styrking-og-malbik",
-      "summary": "Útboð 25-021 · 29. júlí 2025",
-      "source": "vegagerdin-samningum-lokid",
-      "intelligence_type": "historical_award",
-      "is_open_opportunity": false,
-      "sector_tags": []
-    },
-    {
       "reference": "26-013",
       "project": "Laugarvatnsvegur (37), Laugarvatn-Hjálmsstaðir, styrking og malbik",
       "buyer": "Vegagerðin",
@@ -1975,7 +1976,7 @@
     },
     {
       "reference": "25-090",
-      "project": "Malbiksframkvæmdir á Norðursvæði 202",
+      "project": "Malbiksframkvæmdir á Norðursvæði 2025",
       "buyer": "Vegagerðin",
       "notice_type": "Samningum lokið",
       "deadline": "",
@@ -1995,17 +1996,17 @@
       "reference": "26-092",
       "project": "Malbiksframkvæmdir á Norðursvæði 2026",
       "buyer": "Vegagerðin",
-      "notice_type": "Opnun tilboða",
+      "notice_type": "Samningum lokið",
       "deadline": "",
       "deadline_local": "",
       "deadline_utc": "",
       "deadline_confirmed": false,
-      "posted_at": "2026-06-23",
+      "posted_at": "2026-07-03",
       "modified_at": null,
-      "url": "https://www.vegagerdin.is/verkefnin/utbod/vetrarthjonusta-2026-2029-djupivogur-hofn-hradutbod",
-      "summary": "Útboð 26-092 · 23. júní 2026",
-      "source": "vegagerdin-opnun-tilboda",
-      "intelligence_type": "bid_opening",
+      "url": "https://www.vegagerdin.is/verkefnin/utbod/65747-2",
+      "summary": "Útboð 26-092 · 3. júlí 2026",
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
       "is_open_opportunity": false,
       "sector_tags": []
     },
@@ -2074,7 +2075,7 @@
       "deadline_confirmed": false,
       "posted_at": "2025-07-25",
       "modified_at": null,
-      "url": "https://www.vegagerdin.is/verkefnin/utbod/pallbifreidar-fyrir-vegagerdina-2025",
+      "url": "https://www.vegagerdin.is/verkefnin/utbod/laugarvatnsvegur-37-hjalmsstadir-middalskot-styrking-og-malbik",
       "summary": "Útboð 25-023 · 25. júlí 2025",
       "source": "vegagerdin-samningum-lokid",
       "intelligence_type": "historical_award",
@@ -2194,6 +2195,24 @@
       "sector_tags": []
     },
     {
+      "reference": "25-091",
+      "project": "Sauðárkrókur - Útgarður, brimvörn 2025",
+      "buyer": "Vegagerðin",
+      "notice_type": "Samningum lokið",
+      "deadline": "",
+      "deadline_local": "",
+      "deadline_utc": "",
+      "deadline_confirmed": false,
+      "posted_at": "2025-09-04",
+      "modified_at": null,
+      "url": "https://www.vegagerdin.is/verkefnin/utbod/saudarkrokur-utgardur-brimvorn-2025",
+      "summary": "Útboð 25-091 · 4. sept. 2025",
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false,
+      "sector_tags": []
+    },
+    {
       "reference": "25-116",
       "project": "Sauðárkrókur – endurbygging Efri garðs, raforkuvirki 2025",
       "buyer": "Vegagerðin",
@@ -2213,7 +2232,7 @@
     },
     {
       "reference": "25-007",
-      "project": "Sementsfestun á N",
+      "project": "Sementsfestun á Norðursvæði 2025",
       "buyer": "Vegagerðin",
       "notice_type": "Samningum lokið",
       "deadline": "",
@@ -2321,7 +2340,7 @@
     },
     {
       "reference": "26-011",
-      "project": "Snæfellsbær -",
+      "project": "Snæfellsbær - Sjóvörn við Útnesveg",
       "buyer": "Vegagerðin",
       "notice_type": "Samningum lokið",
       "deadline": "",
@@ -2357,7 +2376,7 @@
     },
     {
       "reference": "25-093",
-      "project": "Sprungu- og lagnaviðgerðir í Grindavík - Rammasamningur",
+      "project": "Sprungu- og lagnaviðgerðir í Grindavík",
       "buyer": "Vegagerðin",
       "notice_type": "Samningum lokið",
       "deadline": "",
@@ -2384,7 +2403,7 @@
       "deadline_confirmed": false,
       "posted_at": "2026-06-12",
       "modified_at": null,
-      "url": "https://www.vegagerdin.is/verkefnin/utbod/steinefni-fyrir-austursvaedi-2026-midausturland-i",
+      "url": "https://www.vegagerdin.is/verkefnin/utbod/vidhald-malarvega-a-sudursvaedi",
       "summary": "Útboð 26-046 · 12. júní 2026",
       "source": "vegagerdin-samningum-lokid",
       "intelligence_type": "historical_award",
@@ -2482,24 +2501,6 @@
       "sector_tags": []
     },
     {
-      "reference": "25-096",
-      "project": "Súða",
-      "buyer": "Vegagerðin",
-      "notice_type": "Samningum lokið",
-      "deadline": "",
-      "deadline_local": "",
-      "deadline_utc": "",
-      "deadline_confirmed": false,
-      "posted_at": "2026-04-14",
-      "modified_at": null,
-      "url": "https://www.vegagerdin.is/verkefnin/utbod/sudavik-thekja-og-lagnir-2026",
-      "summary": "Útboð 25-096 · 14. apríl 2026",
-      "source": "vegagerdin-samningum-lokid",
-      "intelligence_type": "historical_award",
-      "is_open_opportunity": false,
-      "sector_tags": []
-    },
-    {
       "reference": "26-129",
       "project": "Súðavík – Miðgarður harðviðarbryggja 2026",
       "buyer": "Vegagerðin",
@@ -2531,6 +2532,24 @@
         "evidence_type": "bid_opening"
       },
       "intelligence_type": "bid_opening",
+      "is_open_opportunity": false,
+      "sector_tags": []
+    },
+    {
+      "reference": "25-096",
+      "project": "Súðavík – Þekja og lagnir 2026",
+      "buyer": "Vegagerðin",
+      "notice_type": "Samningum lokið",
+      "deadline": "",
+      "deadline_local": "",
+      "deadline_utc": "",
+      "deadline_confirmed": false,
+      "posted_at": "2026-04-14",
+      "modified_at": null,
+      "url": "https://www.vegagerdin.is/verkefnin/utbod/sudavik-thekja-og-lagnir-2026",
+      "summary": "Útboð 25-096 · 14. apríl 2026",
+      "source": "vegagerdin-samningum-lokid",
+      "intelligence_type": "historical_award",
       "is_open_opportunity": false,
       "sector_tags": []
     },
@@ -2714,26 +2733,8 @@
       "sector_tags": []
     },
     {
-      "reference": "26-064",
-      "project": "Viðhald malarvega á Suðursvæði 2026-2028, þjónustustöð á Selfossi, vegheflun, Uppsveitir Árnessýslu",
-      "buyer": "Vegagerðin",
-      "notice_type": "Samningum lokið",
-      "deadline": "",
-      "deadline_local": "",
-      "deadline_utc": "",
-      "deadline_confirmed": false,
-      "posted_at": "2026-06-17",
-      "modified_at": null,
-      "url": "https://www.vegagerdin.is/verkefnin/utbod/vidhald-malarvega-a-sudursvaedi",
-      "summary": "Útboð 26-064 · 17. júní 2026",
-      "source": "vegagerdin-samningum-lokid",
-      "intelligence_type": "historical_award",
-      "is_open_opportunity": false,
-      "sector_tags": []
-    },
-    {
       "reference": "26-063",
-      "project": "Viðhald malarvega á Suðursvæði 2026-2028, þjónustustöð í Vík, vegheflun, vestur",
+      "project": "Viðhald malarvega á Suðursvæði 2026-2028, þjónustustöð í Vík, vegheflun,",
       "buyer": "Vegagerðin",
       "notice_type": "Samningum lokið",
       "deadline": "",
@@ -2799,47 +2800,7 @@
       "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-vestan-jokulsar-a-breidamerkursandi-malbik-hradutbod",
       "summary": "Útboð 26-123 · 25. ágúst 2026",
       "source": "vegagerdin-opnun-tilboda",
-      "bid_opening_results": {
-        "bidders": [
-          {
-            "name": "Malbikun Norðurlands, Akureyri",
-            "amount_isk": 370952260,
-            "percent_of_estimate": 149.5
-          },
-          {
-            "name": "Colas Ísland ehf., Hafnarfirði",
-            "amount_isk": 328377935,
-            "percent_of_estimate": 132.3
-          },
-          {
-            "name": "Malbikun Akureyrar, Akureyri",
-            "amount_isk": 329149010,
-            "percent_of_estimate": 132.6
-          }
-        ],
-        "estimate_isk": 248192450,
-        "currency": "ISK",
-        "evidence_type": "bid_opening"
-      },
       "intelligence_type": "bid_opening",
-      "is_open_opportunity": false,
-      "sector_tags": []
-    },
-    {
-      "reference": "25-010",
-      "project": "Yfirlagnir á Austursvæði 2025, klæðing",
-      "buyer": "Vegagerðin",
-      "notice_type": "Samningum lokið",
-      "deadline": "",
-      "deadline_local": "",
-      "deadline_utc": "",
-      "deadline_confirmed": false,
-      "posted_at": "2025-05-26",
-      "modified_at": null,
-      "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-austursvaedi-2025-klaeding",
-      "summary": "Útboð 25-010 · 26. maí 2025",
-      "source": "vegagerdin-samningum-lokid",
-      "intelligence_type": "historical_award",
       "is_open_opportunity": false,
       "sector_tags": []
     },
@@ -2862,25 +2823,7 @@
       "sector_tags": []
     },
     {
-      "reference": "25-005",
-      "project": "Yfirlagnir á Norðursvæði 2025, klæðing",
-      "buyer": "Vegagerðin",
-      "notice_type": "Samningum lokið",
-      "deadline": "",
-      "deadline_local": "",
-      "deadline_utc": "",
-      "deadline_confirmed": false,
-      "posted_at": "2025-05-23",
-      "modified_at": null,
-      "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-nordursvaedi-2025-klaeding",
-      "summary": "Útboð 25-005 · 23. maí 2025",
-      "source": "vegagerdin-samningum-lokid",
-      "intelligence_type": "historical_award",
-      "is_open_opportunity": false,
-      "sector_tags": []
-    },
-    {
-      "reference": "26-020",
+      "reference": "",
       "project": "Yfirlagnir á Norðursvæði 2026, klæðing",
       "buyer": "Vegagerðin",
       "notice_type": "Samningum lokið",
@@ -2888,10 +2831,10 @@
       "deadline_local": "",
       "deadline_utc": "",
       "deadline_confirmed": false,
-      "posted_at": "2026-05-06",
+      "posted_at": null,
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-nordursvaedi-2026-klaeding",
-      "summary": "Útboð 26-020 · 6. maí 2026",
+      "summary": "Útb",
       "source": "vegagerdin-samningum-lokid",
       "intelligence_type": "historical_award",
       "is_open_opportunity": false,
@@ -2942,10 +2885,10 @@
       "deadline_local": "",
       "deadline_utc": "",
       "deadline_confirmed": false,
-      "posted_at": null,
+      "posted_at": "2026-05-29",
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-sudursvaedi-2026-malbik-sudurland",
-      "summary": "Útboð 26-058",
+      "summary": "Útboð 26-058 · 29. maí 2026",
       "source": "vegagerdin-samningum-lokid",
       "intelligence_type": "historical_award",
       "is_open_opportunity": false,
@@ -2982,24 +2925,6 @@
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-vestursvaedi-2025-malbik",
       "summary": "Útboð 25-084 · 22. ágúst 2025",
-      "source": "vegagerdin-samningum-lokid",
-      "intelligence_type": "historical_award",
-      "is_open_opportunity": false,
-      "sector_tags": []
-    },
-    {
-      "reference": "25-001",
-      "project": "Yfirlagnir á Vestursvæði 2025, klæðing",
-      "buyer": "Vegagerðin",
-      "notice_type": "Samningum lokið",
-      "deadline": "",
-      "deadline_local": "",
-      "deadline_utc": "",
-      "deadline_confirmed": false,
-      "posted_at": "2025-05-23",
-      "modified_at": null,
-      "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-vestursvaedi-2025-klaeding",
-      "summary": "Útboð 25-001 · 23. maí 2025",
       "source": "vegagerdin-samningum-lokid",
       "intelligence_type": "historical_award",
       "is_open_opportunity": false,
@@ -3114,24 +3039,6 @@
       "sector_tags": []
     },
     {
-      "reference": "24-092",
-      "project": "Áætlunarflug á Íslandi - Reykjavík – Hornafjörður – Reykjavík - Sérleyfi fyrir Vegagerðina",
-      "buyer": "Vegagerðin",
-      "notice_type": "Samningum lokið",
-      "deadline": "",
-      "deadline_local": "",
-      "deadline_utc": "",
-      "deadline_confirmed": false,
-      "posted_at": "2025-05-23",
-      "modified_at": null,
-      "url": "https://www.vegagerdin.is/verkefnin/utbod/aaetlunarflug-a-islandi-rvk-hornafjordur-rvk-serleyfi",
-      "summary": "Útboð 24-092 · 23. maí 2025",
-      "source": "vegagerdin-samningum-lokid",
-      "intelligence_type": "historical_award",
-      "is_open_opportunity": false,
-      "sector_tags": []
-    },
-    {
       "reference": "25-120",
       "project": "Áætl­unar­flug á Íslandi – Sérleyfi fyrir Vega­gerð­ina, Reykja­vík – Vestmannaeyjar – Reykja­vík 2026-2029",
       "buyer": "Vegagerðin",
@@ -3240,24 +3147,6 @@
       "sector_tags": []
     },
     {
-      "reference": "26-012",
-      "project": "Þorlákshafnarvegur (38), Lækur í Ölfusi – Þrengslavegamót, styrking og breikkun",
-      "buyer": "Vegagerðin",
-      "notice_type": "Samningum lokið",
-      "deadline": "",
-      "deadline_local": "",
-      "deadline_utc": "",
-      "deadline_confirmed": false,
-      "posted_at": "2026-03-27",
-      "modified_at": null,
-      "url": "https://www.vegagerdin.is/verkefnin/utbod/thorlakshafnarvegur-38-laekur-i-olfusi-threngslavegamot-styrking-og-breikkun",
-      "summary": "Útboð 26-012 · 27. mars 2026",
-      "source": "vegagerdin-samningum-lokid",
-      "intelligence_type": "historical_award",
-      "is_open_opportunity": false,
-      "sector_tags": []
-    },
-    {
       "reference": "26-103",
       "project": "Þorlákshöfn – Dýpkun, gröftur 2026",
       "buyer": "Vegagerðin",
@@ -3327,24 +3216,6 @@
         "evidence_type": "bid_opening"
       },
       "intelligence_type": "bid_opening",
-      "is_open_opportunity": false,
-      "sector_tags": []
-    },
-    {
-      "reference": "25-088",
-      "project": "Þurrfræsing á Norðursvæði 2025, Hringvegur, við Blönduhlíð í Skagafirði",
-      "buyer": "Vegagerðin",
-      "notice_type": "Samningum lokið",
-      "deadline": "",
-      "deadline_local": "",
-      "deadline_utc": "",
-      "deadline_confirmed": false,
-      "posted_at": "2025-08-05",
-      "modified_at": null,
-      "url": "https://www.vegagerdin.is/verkefnin/utbod/thurrfraesing-a-nordursvaedi-2025-hringvegur-vid-blonduhlid-i-skagafirdi",
-      "summary": "Útboð 25-088 · 5. ágúst 2025",
-      "source": "vegagerdin-samningum-lokid",
-      "intelligence_type": "historical_award",
       "is_open_opportunity": false,
       "sector_tags": []
     },

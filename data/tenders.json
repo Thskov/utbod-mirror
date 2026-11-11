@@ -60,7 +60,7 @@
       "limits": "Tags are text-derived relevance, not verified project stage or completeness. Existing source/date/detail limits still apply; no sources added."
     }
   },
-  "generated_at": "2026-11-10T07:00:23.509098+00:00",
+  "generated_at": "2026-11-11T07:00:23.576553+00:00",
   "source": {
     "site": "https://www.utbodsvefur.is",
     "posts_api": "https://www.utbodsvefur.is/wp-json/wp/v2/posts",
@@ -68,118 +68,13 @@
     "count_drop_guard": {
       "status": "fresh",
       "threshold": ">70% source-count collapse",
-      "previous_good_count": 71,
-      "current_count": 73,
+      "previous_good_count": 73,
+      "current_count": 69,
       "minimum_allowed_count": 21
     }
   },
-  "count": 73,
+  "count": 69,
   "tenders": [
-    {
-      "reference": "16338",
-      "project": "Ræsting fyrir stjórnsýsluhús Reykjavíkurborgar, EES útboð nr. 16338",
-      "buyer": "Reykjavíkurborg",
-      "notice_type": "Þjónusta",
-      "deadline": "10.11.2026 kl. 10:00",
-      "deadline_local": "2026-11-10T10:00:00+00:00",
-      "deadline_utc": "2026-11-10T10:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-10-01T10:33:15+00:00",
-      "modified_at": "2026-10-30T12:09:30+00:00",
-      "url": "https://www.utbodsvefur.is/raesting-fyrir-stjornsysluhus-reykjavikurborgar-ees-utbod-nr-16338/",
-      "summary": "Skrifstofa fjármálaþjónustu og ráðgjafar f.h. Þjónustu- og nýsköpunarsviðs Reykjavíkurborgar óskar eftir tilboðum í: Ræsting fyrir stjórnsýsluhús Reyk...",
-      "sector_tags": []
-    },
-    {
-      "reference": "25-2026",
-      "project": "Ælupokar fyrir Landspítala og heilbrigðisstofnanir",
-      "buyer": "Landspítali",
-      "notice_type": "Verðfyrirspurn",
-      "deadline": "10.11.2026 kl. 12:00",
-      "deadline_local": "2026-11-10T12:00:00+00:00",
-      "deadline_utc": "2026-11-10T12:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-10-19T13:21:30+00:00",
-      "modified_at": "2026-10-19T13:21:30+00:00",
-      "url": "https://www.utbodsvefur.is/aelupokar-fyrir-landspitala-og-heilbrigdisstofnanir/",
-      "summary": "Landspítali óskar eftir upplýsingum um verð og gæði á ælupokum fyrir Landspítala, heilbrigðisstofnanir og sjúkrabíla SHS",
-      "sector_tags": []
-    },
-    {
-      "reference": "I0088",
-      "project": "Markaðskönnun – RFI Sjálfvirk rúmþvottavél",
-      "buyer": "Nýr Landspítali",
-      "notice_type": "Markaðskönnun (RFI)",
-      "deadline": "10.11.2026 kl. 13:00",
-      "deadline_local": "2026-11-10T13:00:00+00:00",
-      "deadline_utc": "2026-11-10T13:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-10-28T08:40:55+00:00",
-      "modified_at": "2026-10-28T09:22:10+00:00",
-      "url": "https://www.utbodsvefur.is/markadskonnun-rfi-sjalfvirk-rumthvottavel/",
-      "summary": "Nýr Landspítali (NLSH) óskar eftir upplýsingum frá hæfum birgjum varðandi heildarlausn fyrir sjálfvirka rúmþvottavél. Nánari upplýsingar eru í markaðs...",
-      "sector_tags": []
-    },
-    {
-      "reference": "10-2026",
-      "project": "Mönnun, rekstur og viðhald dráttarbátsins Vattar",
-      "buyer": "Fjarðabyggð",
-      "notice_type": "Þjónusta",
-      "deadline": "10.11.2026 kl. 13:00",
-      "deadline_local": "2026-11-10T13:00:00+00:00",
-      "deadline_utc": "2026-11-10T13:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-10-06T13:29:11+00:00",
-      "modified_at": "2026-10-06T16:09:09+00:00",
-      "url": "https://www.utbodsvefur.is/monnun-rekstur-og-vidhald-drattarbatsins-vattar/",
-      "summary": "Fjarðarbyggðarhafnir óska eftir tilboðum í mönnun, rekstur og almennt viðhald dráttarbátsins Vattar. Þjónustan nær til eftirfarandi hafna á starfssvæð...",
-      "sector_tags": []
-    },
-    {
-      "reference": "26-132",
-      "project": "Þjónusta og viðhald veglýsingar á Reykjanesi",
-      "buyer": "Vegagerðin",
-      "notice_type": "Þjónusta",
-      "deadline": "10.11.2026 kl. 14:00",
-      "deadline_local": "2026-11-10T14:00:00+00:00",
-      "deadline_utc": "2026-11-10T14:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-10-14T12:04:05+00:00",
-      "modified_at": "2026-10-26T14:19:22+00:00",
-      "url": "https://www.utbodsvefur.is/thjonusta-og-vidhald-veglysingar-a-reykjanesi/",
-      "summary": "Vegagerðin býður hér með út þjónustu og viðhald veglýsingar á Reykjanesi. Um er að ræða almenna þjónustu og viðhald á veglýsingarkerfinu, niðurtekt o...",
-      "sector_tags": []
-    },
-    {
-      "reference": "26-133",
-      "project": "Þjónusta og viðhald veglýsingar á höfuðborgarsvæðinu",
-      "buyer": "Vegagerðin",
-      "notice_type": "Þjónusta",
-      "deadline": "10.11.2026 kl. 14:00",
-      "deadline_local": "2026-11-10T14:00:00+00:00",
-      "deadline_utc": "2026-11-10T14:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-10-14T12:06:18+00:00",
-      "modified_at": "2026-10-26T14:17:40+00:00",
-      "url": "https://www.utbodsvefur.is/thjonusta-og-vidhald-veglysingar-a-hofudborgarsvaedinu/",
-      "summary": "Vegagerðin býður hér með út þjónustu og viðhald veglýsingar á höfuðborgarsvæðinu. Um er að ræða almenna þjónustu og viðhald á veglýsingarkerfinu, nið...",
-      "sector_tags": []
-    },
-    {
-      "reference": "26-144",
-      "project": "Búðardalur og Borðeyri – Sjóvarnir 2026",
-      "buyer": "Vegagerðin",
-      "notice_type": "Framkvæmd",
-      "deadline": "11.11.2026 kl. 00:00",
-      "deadline_local": "2026-11-11T00:00:00+00:00",
-      "deadline_utc": "2026-11-11T00:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-10-26T13:46:51+00:00",
-      "modified_at": "2026-10-26T13:46:51+00:00",
-      "url": "https://www.utbodsvefur.is/budardalur-og-bordeyri-sjovarnir-2026/",
-      "summary": "Vegagerðin óskar eftir tilboðum í verkið „Búðardalur og Borðeyri – sjóvarnir 2026”. Gera skal nýjan 200 m sjóvörn við sunnan á Borðeyri og um 70 m len...",
-      "sector_tags": []
-    },
     {
       "reference": "27-2026",
       "project": "Einnota plastsvuntur fyrir Landspítala",
@@ -355,7 +250,7 @@
       "deadline_utc": "2026-11-23T13:00:00+00:00",
       "deadline_confirmed": true,
       "posted_at": "2026-11-09T10:41:23+00:00",
-      "modified_at": "2026-11-09T10:41:23+00:00",
+      "modified_at": "2026-11-10T16:20:43+00:00",
       "url": "https://www.utbodsvefur.is/ahugakonnun-vegna-geymsluskapa-og-lyklaholfa-i-nyrri-hjolaadstodu-a-keflavikurflugvelli/",
       "summary": "Isavia ohf. óskar eftir upplýsingum frá þjónustuaðilum með reynslu af geymsluskápum, lyklahólfum eða sambærilegum sjálfsafgreiðslulausnum vegna nýrrar...",
       "sector_tags": []
@@ -451,21 +346,6 @@
       "sector_tags": []
     },
     {
-      "reference": "23270",
-      "project": "Ræsting fyrir Stjórnarráð, nokkrar byggingar",
-      "buyer": "Fjársýslan",
-      "notice_type": "Þjónusta",
-      "deadline": "26.11.2026 kl. 12:00",
-      "deadline_local": "2026-11-26T12:00:00+00:00",
-      "deadline_utc": "2026-11-26T12:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-10-01T09:31:05+00:00",
-      "modified_at": "2026-10-26T08:52:11+00:00",
-      "url": "https://www.utbodsvefur.is/raesting-fyrir-stjornarrad-nokkrar-byggingar/",
-      "summary": "Fjársýslan, fyrir hönd Ríkiseigna, kt. 690980-0259, óskar eftir tilboðum í ræstiþjónustu fyrir Stjórnarráðið. Um er að ræða skrifstofuhúsnæði Umbru, e...",
-      "sector_tags": []
-    },
-    {
       "reference": "6330309",
       "project": "Markaðskönnun – leiga skrifstofuhúsnæðis á höfuðborgarsvæðinu",
       "buyer": "FSRE - Framkvæmdasýslan Ríkiseignir",
@@ -556,6 +436,21 @@
       "sector_tags": []
     },
     {
+      "reference": "202610111",
+      "project": "Jökulfellssvöllur markaðskönnun vegna fyrirhugaðs útboðs á gervigrasi",
+      "buyer": "Sveitarfélagið Hornafjörður",
+      "notice_type": "Markaðskönnun (RFI)",
+      "deadline": "27.11.2026 kl. 14:00",
+      "deadline_local": "2026-11-27T14:00:00+00:00",
+      "deadline_utc": "2026-11-27T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-11-10T09:15:36+00:00",
+      "modified_at": "2026-11-10T09:15:36+00:00",
+      "url": "https://www.utbodsvefur.is/jokulfellssvollur-markadskonnun-vegna-fyrirhugads-utbods-a-gervigrasi/",
+      "summary": "Sveitarfélagið Hornafjörður óskar eftir upplýsingum frá birgjum og framleiðendum sem geta boðið gervigraskerfi með náttúrulegum innfylliefnum til notk...",
+      "sector_tags": []
+    },
+    {
       "reference": "16361",
       "project": "Autodesk hugbúnaðarleyfi, EES útboð nr. 16361",
       "buyer": "Reykjavíkurborg",
@@ -613,6 +508,21 @@
       "modified_at": "2026-10-29T09:58:16+00:00",
       "url": "https://www.utbodsvefur.is/serhaefd-salfraedithjonusta-a-vegum-felags-og-husnaedismalaraduneytisins/",
       "summary": "Fjársýslan fyrir hönd félags- og húsnæðismálaráðuneytis, kt. 521218-0610, óskar eftir tilboðum í útboð nr. 23404 fyrir sérhæfða viðtalsmeðferð fyrir e...",
+      "sector_tags": []
+    },
+    {
+      "reference": "M26032",
+      "project": "RFI – Þjónustuaðili vegna afhendingar og innleiðingar á nýju ATM-kerfi Avians fyrir Reykjavík CTA",
+      "buyer": "Isavia",
+      "notice_type": "Markaðskönnun (RFI)",
+      "deadline": "30.11.2026 kl. 13:00",
+      "deadline_local": "2026-11-30T13:00:00+00:00",
+      "deadline_utc": "2026-11-30T13:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-11-10T12:17:32+00:00",
+      "modified_at": "2026-11-10T12:17:32+00:00",
+      "url": "https://www.utbodsvefur.is/rfi-thjonustuadili-vegna-afhendingar-og-innleidingar-a-nyju-atm-kerfi-avians-fyrir-reykjavik-cta/",
+      "summary": "Isavia ohf. auglýsir markaðskönnun fyrir hönd Avians ehf. Tilgangur þessarar markaðskönnunar er að afla upplýsinga og viðbragða frá áhugasömum aðilum ...",
       "sector_tags": []
     },
     {
@@ -691,6 +601,21 @@
       "sector_tags": []
     },
     {
+      "reference": "23270",
+      "project": "Ræsting fyrir Stjórnarráð, nokkrar byggingar",
+      "buyer": "Fjársýslan",
+      "notice_type": "Þjónusta",
+      "deadline": "03.12.2026 kl. 12:00",
+      "deadline_local": "2026-12-03T12:00:00+00:00",
+      "deadline_utc": "2026-12-03T12:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-01T09:31:05+00:00",
+      "modified_at": "2026-11-10T14:49:34+00:00",
+      "url": "https://www.utbodsvefur.is/raesting-fyrir-stjornarrad-nokkrar-byggingar/",
+      "summary": "Fjársýslan, fyrir hönd Ríkiseigna, kt. 690980-0259, óskar eftir tilboðum í ræstiþjónustu fyrir Stjórnarráðið. Um er að ræða skrifstofuhúsnæði Umbru, e...",
+      "sector_tags": []
+    },
+    {
       "reference": "2026-11",
       "project": "Floating Pontoon Marina System – Skarfagarður",
       "buyer": "Faxaflóahafnir sf.",
@@ -703,6 +628,21 @@
       "modified_at": "2026-10-29T14:32:29+00:00",
       "url": "https://www.utbodsvefur.is/floating-pontoon-marina-system-skarfagardur/",
       "summary": "The project entails the manufacture and installation of 3–5 concrete pontoons in Reykjavík Harbour. The pontoons and moorings must be manufactured in ...",
+      "sector_tags": []
+    },
+    {
+      "reference": "767630-2026",
+      "project": "Vátryggingaútboð Grundarfjarðarbæjar 2027-2029",
+      "buyer": "Grundarfjarðarbær",
+      "notice_type": "Þjónusta",
+      "deadline": "04.12.2026 kl. 11:59",
+      "deadline_local": "2026-12-04T11:59:00+00:00",
+      "deadline_utc": "2026-12-04T11:59:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-11-10T09:57:39+00:00",
+      "modified_at": "2026-11-10T09:57:39+00:00",
+      "url": "https://www.utbodsvefur.is/vatryggingautbod-grundarfjardarbaejar-2027-2029/",
+      "summary": "Grundarfjarðarbær og tengdir aðilar óska eftir tilboðum í vátryggingar fyrir tímabilið 2027-2029 Um er að ræða lög- og samningsbundnar tryggingar auk ...",
       "sector_tags": []
     },
     {
