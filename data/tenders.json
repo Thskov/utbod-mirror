@@ -60,7 +60,7 @@
       "limits": "Tags are text-derived relevance, not verified project stage or completeness. Existing source/date/detail limits still apply; no sources added."
     }
   },
-  "generated_at": "2026-11-11T07:00:23.576553+00:00",
+  "generated_at": "2026-11-12T07:00:25.470291+00:00",
   "source": {
     "site": "https://www.utbodsvefur.is",
     "posts_api": "https://www.utbodsvefur.is/wp-json/wp/v2/posts",
@@ -68,9 +68,9 @@
     "count_drop_guard": {
       "status": "fresh",
       "threshold": ">70% source-count collapse",
-      "previous_good_count": 73,
+      "previous_good_count": 69,
       "current_count": 69,
-      "minimum_allowed_count": 21
+      "minimum_allowed_count": 20
     }
   },
   "count": 69,
@@ -151,21 +151,6 @@
       "sector_tags": []
     },
     {
-      "reference": "23369",
-      "project": "Upplýsingatækniþjónusta fyrir stafræna heilbrigðisþjónustu",
-      "buyer": "Fjársýslan",
-      "notice_type": "Þjónusta",
-      "deadline": "18.11.2026 kl. 12:00",
-      "deadline_local": "2026-11-18T12:00:00+00:00",
-      "deadline_utc": "2026-11-18T12:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-09-21T09:08:53+00:00",
-      "modified_at": "2026-10-12T10:08:36+00:00",
-      "url": "https://www.utbodsvefur.is/upplysingataeknithjonusta-fyrir-stafraena-heilbrigdisthjonustu/",
-      "summary": "Fjársýslan fyrir hönd heilbrigðisráðuneytisins, kt. 521218-0530, óskar eftir tilboðum í tækniþjónustu fyrir Stafræna heilsu og Sjúkratryggingar Ísland...",
-      "sector_tags": []
-    },
-    {
       "reference": "I0054",
       "project": "Uppsetning, Strengir og Tengingar (UST)",
       "buyer": "Nýr Landspítali",
@@ -211,21 +196,6 @@
       "sector_tags": []
     },
     {
-      "reference": "VEU-2609-0063",
-      "project": "VEU-2609-0063 Þjónusta og viðhald vél- og rafbúnaðar",
-      "buyer": "Veitur",
-      "notice_type": "Framkvæmd Þjónusta",
-      "deadline": "19.11.2026 kl. 14:00",
-      "deadline_local": "2026-11-19T14:00:00+00:00",
-      "deadline_utc": "2026-11-19T14:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-10-05T20:26:53+00:00",
-      "modified_at": "2026-10-29T10:20:21+00:00",
-      "url": "https://www.utbodsvefur.is/veu-2609-0063-thjonusta-og-vidhald-vel-og-rafbunadar/",
-      "summary": "Veitur ohf. óska eftir þátttakendum í rammasamninga VEU-2609-0063 „Þjónusta og viðhald vél- og rafbúnaðar“ Með innkaupaferli þessu hyggjas...",
-      "sector_tags": []
-    },
-    {
       "reference": "2026062652",
       "project": "Útboð á hýsingu-, rekstrar- og notendaþjónustu fyrir Akureyrarbæ",
       "buyer": "Akureyrarbær",
@@ -253,6 +223,21 @@
       "modified_at": "2026-11-10T16:20:43+00:00",
       "url": "https://www.utbodsvefur.is/ahugakonnun-vegna-geymsluskapa-og-lyklaholfa-i-nyrri-hjolaadstodu-a-keflavikurflugvelli/",
       "summary": "Isavia ohf. óskar eftir upplýsingum frá þjónustuaðilum með reynslu af geymsluskápum, lyklahólfum eða sambærilegum sjálfsafgreiðslulausnum vegna nýrrar...",
+      "sector_tags": []
+    },
+    {
+      "reference": "VEU-2609-0063",
+      "project": "VEU-2609-0063 Þjónusta og viðhald vél- og rafbúnaðar",
+      "buyer": "Veitur",
+      "notice_type": "Framkvæmd Þjónusta",
+      "deadline": "23.11.2026 kl. 14:00",
+      "deadline_local": "2026-11-23T14:00:00+00:00",
+      "deadline_utc": "2026-11-23T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-05T20:26:53+00:00",
+      "modified_at": "2026-11-11T14:08:39+00:00",
+      "url": "https://www.utbodsvefur.is/veu-2609-0063-thjonusta-og-vidhald-vel-og-rafbunadar/",
+      "summary": "Veitur ohf. óska eftir þátttakendum í rammasamninga VEU-2609-0063 „Þjónusta og viðhald vél- og rafbúnaðar“ Með innkaupaferli þessu hyggjas...",
       "sector_tags": []
     },
     {
@@ -343,6 +328,21 @@
       "modified_at": "2026-10-19T13:46:50+00:00",
       "url": "https://www.utbodsvefur.is/utbod-a-vatryggingarthjonustu-fyrir-akureyrarbae-hafnarsjod-nordurlands-og-nordurorku/",
       "summary": "Akureyrarbær óskar eftir tilboðum í vátryggingarþjónustu sveitarfélagsins, Hafnasamlags Norðurlands og Norðurorku hf. Samningstími er frá 1. janúar 20...",
+      "sector_tags": []
+    },
+    {
+      "reference": "23369",
+      "project": "Upplýsingatækniþjónusta fyrir stafræna heilbrigðisþjónustu",
+      "buyer": "Fjársýslan",
+      "notice_type": "Þjónusta",
+      "deadline": "25.11.2026 kl. 12:00",
+      "deadline_local": "2026-11-25T12:00:00+00:00",
+      "deadline_utc": "2026-11-25T12:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-09-21T09:08:53+00:00",
+      "modified_at": "2026-11-11T14:55:49+00:00",
+      "url": "https://www.utbodsvefur.is/upplysingataeknithjonusta-fyrir-stafraena-heilbrigdisthjonustu/",
+      "summary": "Fjársýslan fyrir hönd heilbrigðisráðuneytisins, kt. 521218-0530, óskar eftir tilboðum í tækniþjónustu fyrir Stafræna heilsu og Sjúkratryggingar Ísland...",
       "sector_tags": []
     },
     {
@@ -520,7 +520,7 @@
       "deadline_utc": "2026-11-30T13:00:00+00:00",
       "deadline_confirmed": true,
       "posted_at": "2026-11-10T12:17:32+00:00",
-      "modified_at": "2026-11-10T12:17:32+00:00",
+      "modified_at": "2026-11-11T10:03:50+00:00",
       "url": "https://www.utbodsvefur.is/rfi-thjonustuadili-vegna-afhendingar-og-innleidingar-a-nyju-atm-kerfi-avians-fyrir-reykjavik-cta/",
       "summary": "Isavia ohf. auglýsir markaðskönnun fyrir hönd Avians ehf. Tilgangur þessarar markaðskönnunar er að afla upplýsinga og viðbragða frá áhugasömum aðilum ...",
       "sector_tags": []

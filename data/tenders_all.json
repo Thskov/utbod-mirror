@@ -61,17 +61,17 @@
     }
   },
   "schema_version": 1,
-  "generated": "2026-11-11T07:00:23Z",
-  "generated_at": "2026-11-11T07:00:23Z",
+  "generated": "2026-11-12T07:00:25Z",
+  "generated_at": "2026-11-12T07:00:25Z",
   "sources": {
     "utbodsvefur": {
-      "generated_at": "2026-11-11T07:00:23.576553+00:00",
+      "generated_at": "2026-11-12T07:00:25.470291+00:00",
       "count": 69,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders.json"
     },
     "offportal": {
-      "generated": "2026-11-11T07:00:23Z",
-      "count": 154,
+      "generated": "2026-11-12T07:00:25Z",
+      "count": 164,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders_offportal.json"
     },
     "not_covered": [
@@ -79,6 +79,12 @@
         "source": "mulathing-utbod",
         "url": "https://www.mulathing.is/is/frettir",
         "reason": "bounded current news listing, at most eight tender details; not a complete municipal tender archive"
+      },
+      {
+        "source": "byggingar-tender",
+        "url": "https://byggingar.is/category/tender/feed/",
+        "reason": "Supplementary latest RSS windows only; historical archive and primary destinations not crawled; coverage incomplete",
+        "coverage": "incomplete"
       },
       {
         "source": "nlsh",
@@ -120,6 +126,28 @@
         "url": "https://api.ted.europa.eu/v3/notices/search",
         "reason": "dropped 92 notices: expired deadline",
         "kind": "filtering"
+      },
+      {
+        "source": "byggingar-tender",
+        "kind": "filtering",
+        "reason": "bounded discovery statistics",
+        "counts": {
+          "rss_items": 20,
+          "duplicate_urls": 5,
+          "non_works_procurement": 5,
+          "unverified_deadline": 10
+        },
+        "detail_requests": 0
+      },
+      {
+        "kind": "filtering",
+        "source": "byggingar-tender",
+        "reason": "primary comparison statistics",
+        "counts": {
+          "discovered": 15,
+          "matched_existing": 8,
+          "retained_secondary": 7
+        }
       },
       {
         "kind": "filtering",
@@ -497,6 +525,18 @@
     ],
     "source_candidates": [
       {
+        "id": "tender:buyer:bílastæðasjóður-reykjavíkur",
+        "name": "Bílastæðasjóður Reykjavíkur",
+        "suggested_feed": "tenders_all",
+        "suggested_lane": "tender",
+        "evidence_url": "https://byggingar.is/reykjavikurborg-bydur-ut-rekstur-92-hledslustaeda-i-sex-bilastaedahusum",
+        "seen_count": 1,
+        "first_seen": "2026-11-12T07:00:25Z",
+        "last_seen": "2026-11-12T07:00:25Z",
+        "reason": "unknown buyer/source found in tender feed",
+        "status": "pending"
+      },
+      {
         "id": "tender:buyer:grundarfjarðarbær",
         "name": "Grundarfjarðarbær",
         "suggested_feed": "tenders_all",
@@ -504,7 +544,7 @@
         "evidence_url": "https://www.utbodsvefur.is/vatryggingautbod-grundarfjardarbaejar-2027-2029/",
         "seen_count": 1,
         "first_seen": "2026-11-11T07:00:23Z",
-        "last_seen": "2026-11-11T07:00:23Z",
+        "last_seen": "2026-11-12T07:00:25Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       },
@@ -519,7 +559,7 @@
         "last_seen": "2026-10-27T11:55:54Z",
         "reason": "exact candidate evidence excluded: electricity_purchase",
         "status": "out_of_scope_for_now",
-        "last_reviewed": "2026-11-11T07:00:23Z"
+        "last_reviewed": "2026-11-12T07:00:25Z"
       },
       {
         "id": "tender:buyer:fjallabyggð",
@@ -532,7 +572,7 @@
         "last_seen": "2026-10-22T07:00:26Z",
         "reason": "SW261029-I01: reviewed exact historical snow-clearing/de-icing service URL; not works. Genuine works/planning remain eligible.",
         "status": "out_of_scope_for_now",
-        "last_reviewed": "2026-11-11T07:00:23Z"
+        "last_reviewed": "2026-11-12T07:00:25Z"
       },
       {
         "id": "tender:buyer:sveitafélagið-árborg",
@@ -545,20 +585,143 @@
         "last_seen": "2026-10-22T07:00:26Z",
         "reason": "exact candidate evidence excluded: winter_service",
         "status": "out_of_scope_for_now",
-        "last_reviewed": "2026-11-11T07:00:23Z"
+        "last_reviewed": "2026-11-12T07:00:25Z"
       }
     ]
   },
-  "count": 212,
+  "count": 222,
   "counts_by_intelligence_type": {
     "active_tender": 49,
-    "bid_opening": 27,
+    "bid_opening": 29,
     "closed_tender": 2,
     "dynamic_purchasing_system": 22,
     "historical_award": 87,
-    "unverified_deadline": 25
+    "non_works_procurement": 3,
+    "unverified_deadline": 30
   },
   "items": [
+    {
+      "source": "byggingar-tender",
+      "url": "https://byggingar.is/led-gotulampar-og-gangbrautarlampar-fyrir-borgarlinu",
+      "project": "LED-götulampar og gangbrautarlampar fyrir Borgarlínu",
+      "buyer": "Betri samgöngur ohf.",
+      "reference": "709403-2026",
+      "notice_type": "Secondary tender notice",
+      "summary": "LED-götulampar og gangbrautarlampar fyrir Borgarlínu Betri samgöngur ohf. hafa auglýst útboð á framleiðslu og afhendingu LED-götulampa og sérstakra gangbrautarlampa fyrir fyrsta áfanga Borgarlínu á höfuðborgarsvæðinu. Lampana á að setja á ljósastaura við götur, göngu- og hjólastíga og meðfram akstursleið Borgarlínu. Tilboðsfrestur rennur út 19. nóvember næstkomandi. Útboðið var auglýst í evrópska útboðskerfinu TED 13",
+      "posted_at": "2026-10-14T15:02:32+00:00",
+      "modified_at": null,
+      "deadline": "2026-11-19",
+      "deadline_utc": "",
+      "deadline_local": "",
+      "deadline_confirmed": false,
+      "deadline_source": "https://byggingar.is/led-gotulampar-og-gangbrautarlampar-fyrir-borgarlinu",
+      "deadline_status": "secondary_reported",
+      "secondary_deadline_dates": [
+        "2026-11-19"
+      ],
+      "deadline_evidence": [
+        "Tilboðsfrestur rennur út 19. nóvember næstkomandi",
+        "Tilboðsfrestur vegna LED-götulampanna og gangbrautarlampanna rennur út fimmtudaginn 19. nóvember 2026"
+      ],
+      "secondary_deadline_datetimes": [],
+      "secondary_deadline_reports": [
+        {
+          "date": null,
+          "time": null,
+          "datetime_utc": null,
+          "day": 19,
+          "month": 11,
+          "year_explicit": false,
+          "evidence": "Tilboðsfrestur rennur út 19. nóvember næstkomandi"
+        },
+        {
+          "date": "2026-11-19",
+          "time": null,
+          "datetime_utc": null,
+          "day": 19,
+          "month": 11,
+          "year_explicit": true,
+          "evidence": "Tilboðsfrestur vegna LED-götulampanna og gangbrautarlampanna rennur út fimmtudaginn 19. nóvember 2026"
+        }
+      ],
+      "primary_notice_urls": [
+        "https://tendsign.com/doc.aspx?MeFormsNoticeId=101573"
+      ],
+      "project_addresses": [],
+      "intelligence_type": "non_works_procurement",
+      "is_open_opportunity": false,
+      "sector_tags": []
+    },
+    {
+      "source": "byggingar-tender",
+      "url": "https://byggingar.is/reykjavikurborg-bydur-ut-rekstur-92-hledslustaeda-i-sex-bilastaedahusum",
+      "project": "Reykjavíkurborg býður út rekstur 92 hleðslustæða í sex bílastæðahúsum",
+      "buyer": "Bílastæðasjóður Reykjavíkur",
+      "reference": "16359",
+      "notice_type": "Secondary tender notice",
+      "summary": "Reykjavíkurborg býður út rekstur 92 hleðslustæða í sex bílastæðahúsum Bílastæðasjóður Reykjavíkur hefur auglýst eftir tilboðum í sérleyfi til reksturs hleðsluþjónustu fyrir rafbíla í sex bílastæðahúsum borgarinnar. Um er að ræða samtals um 92 hleðslustæði fyrir rafbíla. Verkefnið nær til reksturs, viðhalds og endurnýjunar núverandi hleðslustöðva, auk þjónustu við notendur og innheimtu hleðslugjalda. Tilboð verða opnu",
+      "posted_at": "2026-11-09T14:37:28+00:00",
+      "modified_at": null,
+      "deadline": "2026-12-10",
+      "deadline_utc": "",
+      "deadline_local": "",
+      "deadline_confirmed": false,
+      "deadline_source": "https://byggingar.is/reykjavikurborg-bydur-ut-rekstur-92-hledslustaeda-i-sex-bilastaedahusum",
+      "deadline_status": "secondary_reported",
+      "secondary_deadline_dates": [
+        "2026-12-10"
+      ],
+      "deadline_evidence": [
+        "Tilboðum skal skila rafrænt eigi síðar en fimmtudaginn 10. desember 2026 klukkan 10:00"
+      ],
+      "secondary_deadline_datetimes": [
+        "2026-12-10T10:00:00+00:00"
+      ],
+      "secondary_deadline_reports": [
+        {
+          "date": "2026-12-10",
+          "time": "10:00",
+          "datetime_utc": "2026-12-10T10:00:00+00:00",
+          "day": 10,
+          "month": 12,
+          "year_explicit": true,
+          "evidence": "Tilboðum skal skila rafrænt eigi síðar en fimmtudaginn 10. desember 2026 klukkan 10:00"
+        }
+      ],
+      "primary_notice_urls": [],
+      "project_addresses": [],
+      "intelligence_type": "non_works_procurement",
+      "is_open_opportunity": false,
+      "sector_tags": []
+    },
+    {
+      "source": "byggingar-tender",
+      "url": "https://byggingar.is/gong-og-bru-bjoda-ut-umfangsmikla-radgjof",
+      "project": "Göng og brú bjóða út umfangsmikla ráðgjöf vegna Sundabrautar og nýrra Hvalfjarðarganga",
+      "buyer": "Göng og brú ohf.",
+      "reference": "752675-2026",
+      "notice_type": "Secondary tender notice",
+      "summary": "Göng og brú bjóða út umfangsmikla ráðgjöf vegna Sundabrautar og nýrra Hvalfjarðarganga Göng og brú ohf. hefur auglýst alþjóðlegt útboð á ráðgjafarteymi sem á að styðja félagið við undirbúning og framkvæmd stórra samgönguverkefna. Fyrstu verkefnin eru Sundabraut, önnur jarðgöng undir Hvalfjörð og ný brú yfir Ölfusá. Rammasamningurinn getur gilt í allt að 20 ár og er hámarksverðmæti hans tilgreint 150 milljónir evra. U",
+      "posted_at": "2026-10-31T10:55:43+00:00",
+      "modified_at": null,
+      "deadline": "",
+      "deadline_utc": "",
+      "deadline_local": "",
+      "deadline_confirmed": false,
+      "deadline_source": "https://byggingar.is/gong-og-bru-bjoda-ut-umfangsmikla-radgjof",
+      "deadline_status": "unverified",
+      "secondary_deadline_dates": [],
+      "deadline_evidence": [],
+      "secondary_deadline_datetimes": [],
+      "secondary_deadline_reports": [],
+      "primary_notice_urls": [
+        "https://ted.europa.eu/en/notice/-/detail/752675-2026"
+      ],
+      "project_addresses": [],
+      "intelligence_type": "non_works_procurement",
+      "is_open_opportunity": false,
+      "sector_tags": []
+    },
     {
       "reference": "",
       "project": "Hamranesskóli – lokað alútboð",
@@ -830,6 +993,102 @@
       "sector_tags": []
     },
     {
+      "source": "byggingar-tender",
+      "url": "https://byggingar.is/mulathing-bydur-ut-endurbaetur-a-herdubreid-a-seydisfirdi",
+      "project": "Múlaþing býður út endurbætur á Herðubreið á Seyðisfirði",
+      "buyer": "Múlaþing",
+      "reference": "",
+      "notice_type": "Secondary tender notice",
+      "summary": "Múlaþing býður út endurbætur á Herðubreið á Seyðisfirði Múlaþing óskar eftir tilboðum í umfangsmiklar endurbætur á Herðubreið við Austurveg 4 á Seyðisfirði. Verkið felst meðal annars í að endurnýja innviði annarrar hæðar hússins og innrétta þar bókasafn Seyðisfjarðar og bæjarskrifstofur. Einnig verður komið fyrir lyftu milli hæða, brunavarnir endurbættar og nýtt loftræstikerfi sett upp. Tilboð verða opnuð 24. nóvembe",
+      "posted_at": "2026-10-27T05:39:44+00:00",
+      "modified_at": null,
+      "deadline": "2026-11-24",
+      "deadline_utc": "",
+      "deadline_local": "",
+      "deadline_confirmed": false,
+      "deadline_source": "https://byggingar.is/mulathing-bydur-ut-endurbaetur-a-herdubreid-a-seydisfirdi",
+      "deadline_status": "secondary_reported",
+      "secondary_deadline_dates": [
+        "2026-11-24"
+      ],
+      "deadline_evidence": [
+        "Tilboðum skal skila á skrifstofu Múlaþings að Lyngási 12 á Egilsstöðum eigi síðar en þriðjudaginn 24. nóvember 2026 klukkan 14:00"
+      ],
+      "secondary_deadline_datetimes": [
+        "2026-11-24T14:00:00+00:00"
+      ],
+      "secondary_deadline_reports": [
+        {
+          "date": "2026-11-24",
+          "time": "14:00",
+          "datetime_utc": "2026-11-24T14:00:00+00:00",
+          "day": 24,
+          "month": 11,
+          "year_explicit": true,
+          "evidence": "Tilboðum skal skila á skrifstofu Múlaþings að Lyngási 12 á Egilsstöðum eigi síðar en þriðjudaginn 24. nóvember 2026 klukkan 14:00"
+        }
+      ],
+      "primary_notice_urls": [],
+      "project_addresses": [
+        "austurveg:4"
+      ],
+      "intelligence_type": "unverified_deadline",
+      "is_open_opportunity": false,
+      "sector_tags": []
+    },
+    {
+      "source": "byggingar-tender",
+      "url": "https://byggingar.is/hornafjordur-bydur-ut-endurnyjun-gervigrass-i-barunni",
+      "project": "Hornafjörður býður út endurnýjun gervigrass í Bárunni",
+      "buyer": "Sveitarfélagið Hornafjörður",
+      "reference": "",
+      "notice_type": "Secondary tender notice",
+      "summary": "Hornafjörður býður út endurnýjun gervigrass í Bárunni Sveitarfélagið Hornafjörður hefur auglýst útboð á kaupum, afhendingu og uppsetningu nýs gervigraskerfis í knattspyrnuhúsinu Bárunni á Höfn. Um er að ræða gervigras án innfylliefna og skal verkinu lokið eigi síðar en 9. febrúar 2027. Tilboðsfrestur rennur út 24. nóvember næstkomandi. Útboðið er almennt opið útboð sem auglýst er á Evrópska efnahagssvæðinu. Verkefnið",
+      "posted_at": "2026-10-19T09:38:02+00:00",
+      "modified_at": null,
+      "deadline": "2026-11-24",
+      "deadline_utc": "",
+      "deadline_local": "",
+      "deadline_confirmed": false,
+      "deadline_source": "https://byggingar.is/hornafjordur-bydur-ut-endurnyjun-gervigrass-i-barunni",
+      "deadline_status": "secondary_reported",
+      "secondary_deadline_dates": [
+        "2026-11-24"
+      ],
+      "deadline_evidence": [
+        "Tilboðsfrestur rennur út 24. nóvember næstkomandi",
+        "Tilboðum skal skila í Ajour fyrir klukkan 14:00 þriðjudaginn 24. nóvember 2026"
+      ],
+      "secondary_deadline_datetimes": [
+        "2026-11-24T14:00:00+00:00"
+      ],
+      "secondary_deadline_reports": [
+        {
+          "date": null,
+          "time": null,
+          "datetime_utc": null,
+          "day": 24,
+          "month": 11,
+          "year_explicit": false,
+          "evidence": "Tilboðsfrestur rennur út 24. nóvember næstkomandi"
+        },
+        {
+          "date": "2026-11-24",
+          "time": "14:00",
+          "datetime_utc": "2026-11-24T14:00:00+00:00",
+          "day": 24,
+          "month": 11,
+          "year_explicit": true,
+          "evidence": "Tilboðum skal skila í Ajour fyrir klukkan 14:00 þriðjudaginn 24. nóvember 2026"
+        }
+      ],
+      "primary_notice_urls": [],
+      "project_addresses": [],
+      "intelligence_type": "unverified_deadline",
+      "is_open_opportunity": false,
+      "sector_tags": []
+    },
+    {
       "reference": "",
       "project": "Borgarteigur 15, Sauðárkrókur – Iðnaðarhús – Alútboð",
       "buyer": "Sveitarfélagið Skagafjörður",
@@ -992,6 +1251,49 @@
       "sector_tags": []
     },
     {
+      "source": "byggingar-tender",
+      "url": "https://byggingar.is/vogar-bjoda-ut-1-150-metra-gongu-og-hjolastig-a-vogastapa",
+      "project": "Göngu- og hjólastígur Vogar að mislægum gatnamótum til Grindavíkur – Áfangi 1",
+      "buyer": "Sveitarfélagið Vogar",
+      "reference": "190",
+      "notice_type": "Secondary tender notice",
+      "summary": "Vogar bjóða út 1.150 metra göngu- og hjólastíg á Vogastapa Sveitarfélagið Vogar óskar eftir tilboðum í gerð 1.150 metra langs göngu- og hjólastígs frá Vogum í átt að mislægum gatnamótum Reykjanesbrautar við Grindavíkurveg. Um er að ræða fyrsta áfanga stærra verkefnis sem miðar að því að tengja saman stígakerfi Voga og Reykjanesbæjar. Framkvæmdin felur einnig í sér jarðvinnu við veituskurði og er stefnt að verklokum 1",
+      "posted_at": "2026-10-30T08:32:03+00:00",
+      "modified_at": null,
+      "deadline": "2026-11-12",
+      "deadline_utc": "",
+      "deadline_local": "",
+      "deadline_confirmed": false,
+      "deadline_source": "https://byggingar.is/vogar-bjoda-ut-1-150-metra-gongu-og-hjolastig-a-vogastapa",
+      "deadline_status": "unverified",
+      "secondary_deadline_dates": [
+        "2026-11-12"
+      ],
+      "deadline_evidence": [
+        "Tilboðum skal skila rafrænt í útboðskerfinu Ajour þar sem þau",
+        "Tilboðum skal skila rafrænt eigi síðar en fimmtudaginn 12. nóvember 2026 klukkan 11:00"
+      ],
+      "secondary_deadline_datetimes": [
+        "2026-11-12T11:00:00+00:00"
+      ],
+      "secondary_deadline_reports": [
+        {
+          "date": "2026-11-12",
+          "time": "11:00",
+          "datetime_utc": "2026-11-12T11:00:00+00:00",
+          "day": 12,
+          "month": 11,
+          "year_explicit": true,
+          "evidence": "Tilboðum skal skila rafrænt eigi síðar en fimmtudaginn 12. nóvember 2026 klukkan 11:00"
+        }
+      ],
+      "primary_notice_urls": [],
+      "project_addresses": [],
+      "intelligence_type": "unverified_deadline",
+      "is_open_opportunity": false,
+      "sector_tags": []
+    },
+    {
       "reference": "26-002",
       "project": "Akrafjallsvegur (51), hringtorg við Akranes",
       "buyer": "Vegagerðin",
@@ -1023,43 +1325,6 @@
       "url": "https://www.vegagerdin.is/verkefnin/utbod/akrafjallsvegur-51-hringtorg-vid-akranesveg-eftirlit-og-radgjof",
       "summary": "Útboð 26-119 · 25. ágúst 2026",
       "source": "vegagerdin-opnun-tilboda",
-      "bid_opening_results": {
-        "bidders": [
-          {
-            "name": "Mannvirkjahönnun ehf., Garðabær",
-            "amount_isk": 26040000,
-            "percent_of_estimate": 124.0
-          },
-          {
-            "name": "VSB verkfræðistofa ehf., Hafnarfirði",
-            "amount_isk": 24889100,
-            "percent_of_estimate": 118.5
-          },
-          {
-            "name": "VSÓ ráðgjöf, ehf., Reykjavík",
-            "amount_isk": 21861944,
-            "percent_of_estimate": 104.1
-          },
-          {
-            "name": "Verkís hf., Reykjavík",
-            "amount_isk": 19427316,
-            "percent_of_estimate": 92.5
-          },
-          {
-            "name": "Efla hf, Reykjavík",
-            "amount_isk": 19299546,
-            "percent_of_estimate": 91.9
-          },
-          {
-            "name": "Norconsult Íslandi ehf.",
-            "amount_isk": 17360000,
-            "percent_of_estimate": 82.7
-          }
-        ],
-        "estimate_isk": 21000000,
-        "currency": "ISK",
-        "evidence_type": "bid_opening"
-      },
       "intelligence_type": "bid_opening",
       "is_open_opportunity": false,
       "sector_tags": []
@@ -1237,6 +1502,114 @@
       "summary": "Útboð 24-044 · 2. sept. 2026",
       "source": "vegagerdin-samningum-lokid",
       "intelligence_type": "historical_award",
+      "is_open_opportunity": false,
+      "sector_tags": []
+    },
+    {
+      "reference": "26-144",
+      "project": "Búðardalur og Borðeyri - Sjóvarnir 2026",
+      "buyer": "Vegagerðin",
+      "notice_type": "Opnun tilboða",
+      "deadline": "",
+      "deadline_local": "",
+      "deadline_utc": "",
+      "deadline_confirmed": false,
+      "posted_at": "2026-11-10",
+      "modified_at": null,
+      "url": "https://www.vegagerdin.is/verkefnin/utbod/budardalur-og-bordeyri-sjovarnir-2026",
+      "summary": "Útboð 26-144 · 10. nóv. 2026",
+      "source": "vegagerdin-opnun-tilboda",
+      "bid_opening_results": {
+        "bidders": [
+          {
+            "name": "Jarðlist ehf., Akranesi",
+            "amount_isk": 30920850,
+            "percent_of_estimate": 254.2
+          },
+          {
+            "name": "Flakkarinn ehf., Brjánslæk",
+            "amount_isk": 26883540,
+            "percent_of_estimate": 221.0
+          },
+          {
+            "name": "Þróttur ehf., Akranes",
+            "amount_isk": 25999108,
+            "percent_of_estimate": 213.7
+          },
+          {
+            "name": "Jörvi ehf.,, Hvanneyri",
+            "amount_isk": 25094500,
+            "percent_of_estimate": 206.3
+          },
+          {
+            "name": "Urð og grjót ehf., Reykjavík",
+            "amount_isk": 23979600,
+            "percent_of_estimate": 197.1
+          },
+          {
+            "name": "Haftækni ehf., Tálknafirði",
+            "amount_isk": 23790500,
+            "percent_of_estimate": 195.6
+          },
+          {
+            "name": "Ísrefur ehf., Akureyri",
+            "amount_isk": 17686740,
+            "percent_of_estimate": 145.4
+          },
+          {
+            "name": "VBF Mjölnir ehf., Selfossi",
+            "amount_isk": 15193000,
+            "percent_of_estimate": 124.9
+          },
+          {
+            "name": "Hrútagil ehf, Stóra-Fjarðarhorn",
+            "amount_isk": 14953100,
+            "percent_of_estimate": 122.9
+          }
+        ],
+        "estimate_isk": 12163600,
+        "currency": "ISK",
+        "evidence_type": "bid_opening"
+      },
+      "supplementary_evidence": [
+        {
+          "source": "byggingar-tender",
+          "url": "https://byggingar.is/vegagerdin-bydur-ut-270-metra-sjovarnir-i-budardal-og-a-bordeyri",
+          "posted_at": "2026-10-28T08:43:04+00:00",
+          "deadline_status": "secondary_reported",
+          "secondary_deadline_dates": [
+            "2026-11-10"
+          ],
+          "secondary_deadline_datetimes": [
+            "2026-11-10T14:00:00+00:00"
+          ],
+          "secondary_deadline_reports": [
+            {
+              "date": null,
+              "time": null,
+              "datetime_utc": null,
+              "day": 10,
+              "month": 11,
+              "year_explicit": false,
+              "evidence": "Tilboðsfrestur er 10. nóvember næstkomandi"
+            },
+            {
+              "date": "2026-11-10",
+              "time": "14:00",
+              "datetime_utc": "2026-11-10T14:00:00+00:00",
+              "day": 10,
+              "month": 11,
+              "year_explicit": true,
+              "evidence": "Tilboðum skal skila rafrænt eigi síðar en þriðjudaginn 10. nóvember 2026 klukkan 14:00"
+            }
+          ],
+          "deadline_evidence": [
+            "Tilboðsfrestur er 10. nóvember næstkomandi",
+            "Tilboðum skal skila rafrænt eigi síðar en þriðjudaginn 10. nóvember 2026 klukkan 14:00"
+          ]
+        }
+      ],
+      "intelligence_type": "bid_opening",
       "is_open_opportunity": false,
       "sector_tags": []
     },
@@ -2054,28 +2427,6 @@
       "url": "https://www.vegagerdin.is/verkefnin/utbod/pickup-trucks-for-the-icelandic-road-and-coastal-administration-irca-2026",
       "summary": "Útboð 25-025 · 15. sept. 2026",
       "source": "vegagerdin-opnun-tilboda",
-      "bid_opening_results": {
-        "bidders": [
-          {
-            "name": "TK Bílar ehf.",
-            "amount_isk": 61877716,
-            "percent_of_estimate": 140.6
-          },
-          {
-            "name": "Hekla hf.",
-            "amount_isk": 51673200,
-            "percent_of_estimate": 117.4
-          },
-          {
-            "name": "BL ehf.",
-            "amount_isk": 40120000,
-            "percent_of_estimate": 91.2
-          }
-        ],
-        "estimate_isk": 44000000,
-        "currency": "ISK",
-        "evidence_type": "bid_opening"
-      },
       "intelligence_type": "bid_opening",
       "is_open_opportunity": false,
       "sector_tags": []
@@ -2566,6 +2917,58 @@
       "sector_tags": []
     },
     {
+      "source": "byggingar-tender",
+      "url": "https://byggingar.is/vegagerdin-bydur-ut-900-metra-flodvarnargard-vid-vik-i-myrdal",
+      "project": "Vegagerðin býður út 900 metra flóðvarnargarð við Vík í Mýrdal",
+      "buyer": "Vegagerðin",
+      "reference": "26-143",
+      "notice_type": "Secondary tender notice",
+      "summary": "Vegagerðin býður út 900 metra flóðvarnargarð við Vík í Mýrdal Vegagerðin hefur auglýst útboð á gerð um 900 metra langs flóðvarnargarðs austan við þéttbýlið í Vík í Mýrdal. Framkvæmdin nær frá fjárhúsavegi að Kötlugarði og er áætlað að nota um 10.000 rúmmetra af möl úr Múlakvísl við gerð garðsins. Tilboðsfrestur rennur út 3. nóvember næstkomandi. Útboðið var auglýst 21. október 2026 og ber númerið 26-143. Samkvæmt útb",
+      "posted_at": "2026-10-21T19:10:21+00:00",
+      "modified_at": null,
+      "deadline": "2026-11-03",
+      "deadline_utc": "",
+      "deadline_local": "",
+      "deadline_confirmed": false,
+      "deadline_source": "https://byggingar.is/vegagerdin-bydur-ut-900-metra-flodvarnargard-vid-vik-i-myrdal",
+      "deadline_status": "secondary_reported",
+      "secondary_deadline_dates": [
+        "2026-11-03"
+      ],
+      "deadline_evidence": [
+        "Tilboðsfrestur rennur út 3. nóvember næstkomandi",
+        "Tilboðum skal skila rafrænt fyrir klukkan 14:00 þriðjudaginn 3. nóvember 2026"
+      ],
+      "secondary_deadline_datetimes": [
+        "2026-11-03T14:00:00+00:00"
+      ],
+      "secondary_deadline_reports": [
+        {
+          "date": null,
+          "time": null,
+          "datetime_utc": null,
+          "day": 3,
+          "month": 11,
+          "year_explicit": false,
+          "evidence": "Tilboðsfrestur rennur út 3. nóvember næstkomandi"
+        },
+        {
+          "date": "2026-11-03",
+          "time": "14:00",
+          "datetime_utc": "2026-11-03T14:00:00+00:00",
+          "day": 3,
+          "month": 11,
+          "year_explicit": true,
+          "evidence": "Tilboðum skal skila rafrænt fyrir klukkan 14:00 þriðjudaginn 3. nóvember 2026"
+        }
+      ],
+      "primary_notice_urls": [],
+      "project_addresses": [],
+      "intelligence_type": "unverified_deadline",
+      "is_open_opportunity": false,
+      "sector_tags": []
+    },
+    {
       "reference": "26-093",
       "project": "Vestfjarðavegur (60) um Gufudalssveit, Skálanes - Hallsteinsnes",
       "buyer": "Vegagerðin",
@@ -2723,6 +3126,71 @@
       "summary": "Útboð 24-039 · 16. júlí 2025",
       "source": "vegagerdin-samningum-lokid",
       "intelligence_type": "historical_award",
+      "is_open_opportunity": false,
+      "sector_tags": []
+    },
+    {
+      "reference": "26-143",
+      "project": "Vík í Mýrdal, flóðvörn 2026",
+      "buyer": "Vegagerðin",
+      "notice_type": "Opnun tilboða",
+      "deadline": "",
+      "deadline_local": "",
+      "deadline_utc": "",
+      "deadline_confirmed": false,
+      "posted_at": "2026-11-03",
+      "modified_at": null,
+      "url": "https://www.vegagerdin.is/verkefnin/utbod/vik-i-myrdal-flodvorn-2026",
+      "summary": "Útboð 26-143 · 3. nóv. 2026",
+      "source": "vegagerdin-opnun-tilboda",
+      "bid_opening_results": {
+        "bidders": [
+          {
+            "name": "Stórverk ehf., Þorlákshöfn",
+            "amount_isk": 49009950,
+            "percent_of_estimate": 190.8
+          },
+          {
+            "name": "Jörvi ehf.,, Hvanneyri",
+            "amount_isk": 39636447,
+            "percent_of_estimate": 154.3
+          },
+          {
+            "name": "JG verktakaþjónusta ehf., Reykjavík",
+            "amount_isk": 37770000,
+            "percent_of_estimate": 147.1
+          },
+          {
+            "name": "Heflun ehf., Lyngholti",
+            "amount_isk": 36000000,
+            "percent_of_estimate": 140.2
+          },
+          {
+            "name": "Ísrefur ehf., Akureyri",
+            "amount_isk": 32725000,
+            "percent_of_estimate": 127.4
+          },
+          {
+            "name": "Framrás ehf., Vík",
+            "amount_isk": 26695000,
+            "percent_of_estimate": 104.0
+          },
+          {
+            "name": "Keyrt og mokað ehf., Þingeyri",
+            "amount_isk": 26165000,
+            "percent_of_estimate": 101.9
+          },
+          {
+            "name": "Snilldarverk ehf., Hella",
+            "amount_isk": 20891750,
+            "percent_of_estimate": 81.4
+          }
+        ],
+        "estimate_isk": 25680000,
+        "currency": "ISK",
+        "evidence_type": "bid_opening"
+      },
+      "intelligence_type": "bid_opening",
       "is_open_opportunity": false,
       "sector_tags": []
     },
@@ -3336,6 +3804,44 @@
       "summary": "Orkubú Vestfjarða ohf., kt. 660877-0299, óskar eftir tilboðum í kaup og afhendingu á samtals níu (9) DC hraðhleðslustöðvum fyrir rafbíla, sem skiptast...",
       "sector_tags": [],
       "source": "utbodsvefur",
+      "supplementary_evidence": [
+        {
+          "source": "byggingar-tender",
+          "url": "https://byggingar.is/orkubu-vestfjarda-bydur-ut-niu-hradhledslustodvar-fyrir-rafbila",
+          "posted_at": "2026-10-30T07:46:54+00:00",
+          "deadline_status": "secondary_reported",
+          "secondary_deadline_dates": [
+            "2026-11-16"
+          ],
+          "secondary_deadline_datetimes": [
+            "2026-11-16T10:00:00+00:00"
+          ],
+          "secondary_deadline_reports": [
+            {
+              "date": null,
+              "time": null,
+              "datetime_utc": null,
+              "day": 16,
+              "month": 11,
+              "year_explicit": false,
+              "evidence": "Tilboðsfrestur rennur út 16. nóvember næstkomandi"
+            },
+            {
+              "date": "2026-11-16",
+              "time": "10:00",
+              "datetime_utc": "2026-11-16T10:00:00+00:00",
+              "day": 16,
+              "month": 11,
+              "year_explicit": true,
+              "evidence": "Tilboðum skal skila rafrænt í útboðskerfi Orkubú Vestfjarða eigi síðar en mánudaginn 16. nóvember 2026 klukkan 10:00"
+            }
+          ],
+          "deadline_evidence": [
+            "Tilboðsfrestur rennur út 16. nóvember næstkomandi",
+            "Tilboðum skal skila rafrænt í útboðskerfi Orkubú Vestfjarða eigi síðar en mánudaginn 16. nóvember 2026 klukkan 10:00"
+          ]
+        }
+      ],
       "intelligence_type": "active_tender",
       "is_open_opportunity": true
     },
@@ -3354,6 +3860,44 @@
       "summary": "Framkvæmdasýslan – Ríkiseignir (FSRE), f.h. Félags- og húsnæðismálaráðuneytisins, sem hér eftir nefnist kaupandi, óskar eftir tilboðum í að fullnaðarh...",
       "sector_tags": [],
       "source": "utbodsvefur",
+      "supplementary_evidence": [
+        {
+          "source": "byggingar-tender",
+          "url": "https://byggingar.is/faeranlegt-skrifstofuhusnaedi-vid-hjukrunarheimilid-hlid",
+          "posted_at": "2026-10-17T12:31:58+00:00",
+          "deadline_status": "secondary_reported",
+          "secondary_deadline_dates": [
+            "2026-11-16"
+          ],
+          "secondary_deadline_datetimes": [
+            "2026-11-16T12:00:00+00:00"
+          ],
+          "secondary_deadline_reports": [
+            {
+              "date": null,
+              "time": null,
+              "datetime_utc": null,
+              "day": 16,
+              "month": 11,
+              "year_explicit": false,
+              "evidence": "Tilboðsfrestur rennur út 16. nóvember næstkomandi"
+            },
+            {
+              "date": "2026-11-16",
+              "time": "12:00",
+              "datetime_utc": "2026-11-16T12:00:00+00:00",
+              "day": 16,
+              "month": 11,
+              "year_explicit": true,
+              "evidence": "Tilboðum skal skila rafrænt í útboðskerfinu TendSign fyrir klukkan 12 mánudaginn 16. nóvember 2026"
+            }
+          ],
+          "deadline_evidence": [
+            "Tilboðsfrestur rennur út 16. nóvember næstkomandi",
+            "Tilboðum skal skila rafrænt í útboðskerfinu TendSign fyrir klukkan 12 mánudaginn 16. nóvember 2026"
+          ]
+        }
+      ],
       "intelligence_type": "active_tender",
       "is_open_opportunity": true
     },
@@ -3374,24 +3918,6 @@
       "intelligence_type": "unverified_deadline",
       "is_open_opportunity": false,
       "sector_tags": []
-    },
-    {
-      "reference": "23369",
-      "project": "Upplýsingatækniþjónusta fyrir stafræna heilbrigðisþjónustu",
-      "buyer": "Fjársýslan ríkisins",
-      "notice_type": "Þjónusta",
-      "deadline": "18.11.2026 kl. 12:00",
-      "deadline_local": "2026-11-18T12:00:00+00:00",
-      "deadline_utc": "2026-11-18T12:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-09-21T09:08:53+00:00",
-      "modified_at": "2026-10-12T10:08:36+00:00",
-      "url": "https://www.utbodsvefur.is/upplysingataeknithjonusta-fyrir-stafraena-heilbrigdisthjonustu/",
-      "summary": "Fjársýslan fyrir hönd heilbrigðisráðuneytisins, kt. 521218-0530, óskar eftir tilboðum í tækniþjónustu fyrir Stafræna heilsu og Sjúkratryggingar Ísland...",
-      "sector_tags": [],
-      "source": "utbodsvefur",
-      "intelligence_type": "active_tender",
-      "is_open_opportunity": true
     },
     {
       "reference": "I0054",
@@ -3426,6 +3952,44 @@
       "summary": "Hafnarfjarðarbær og Golfklúbburinn Keilir, auglýsa eftir tilboðum í verkið: Keilir – Stækkun golfskála Verkið felur í sér byggingu 2ja hæða 342 m² vi...",
       "sector_tags": [],
       "source": "utbodsvefur",
+      "supplementary_evidence": [
+        {
+          "source": "byggingar-tender",
+          "url": "https://byggingar.is/hafnarfjardarbaer-og-keilir-bjoda-ut-464-fermetra-staekkun-golfskalans",
+          "posted_at": "2026-11-04T07:38:29+00:00",
+          "deadline_status": "secondary_reported",
+          "secondary_deadline_dates": [
+            "2026-11-19"
+          ],
+          "secondary_deadline_datetimes": [
+            "2026-11-19T11:00:00+00:00"
+          ],
+          "secondary_deadline_reports": [
+            {
+              "date": null,
+              "time": null,
+              "datetime_utc": null,
+              "day": 19,
+              "month": 11,
+              "year_explicit": false,
+              "evidence": "Tilboðsfrestur er til 19. nóvember næstkomandi"
+            },
+            {
+              "date": "2026-11-19",
+              "time": "11:00",
+              "datetime_utc": "2026-11-19T11:00:00+00:00",
+              "day": 19,
+              "month": 11,
+              "year_explicit": true,
+              "evidence": "Tilboðum skal skila rafrænt í útboðsgátt Hafnarfjarðarbæjar eigi síðar en fimmtudaginn 19. nóvember 2026 klukkan 11:00"
+            }
+          ],
+          "deadline_evidence": [
+            "Tilboðsfrestur er til 19. nóvember næstkomandi",
+            "Tilboðum skal skila rafrænt í útboðsgátt Hafnarfjarðarbæjar eigi síðar en fimmtudaginn 19. nóvember 2026 klukkan 11:00"
+          ]
+        }
+      ],
       "intelligence_type": "active_tender",
       "is_open_opportunity": true
     },
@@ -3466,24 +4030,6 @@
       "sector_tags": []
     },
     {
-      "reference": "VEU-2609-0063",
-      "project": "VEU-2609-0063 Þjónusta og viðhald vél- og rafbúnaðar",
-      "buyer": "Veitur ohf.",
-      "notice_type": "Framkvæmd Þjónusta",
-      "deadline": "19.11.2026 kl. 14:00",
-      "deadline_local": "2026-11-19T14:00:00+00:00",
-      "deadline_utc": "2026-11-19T14:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-10-05T20:26:53+00:00",
-      "modified_at": "2026-10-29T10:20:21+00:00",
-      "url": "https://www.utbodsvefur.is/veu-2609-0063-thjonusta-og-vidhald-vel-og-rafbunadar/",
-      "summary": "Veitur ohf. óska eftir þátttakendum í rammasamninga VEU-2609-0063 „Þjónusta og viðhald vél- og rafbúnaðar“ Með innkaupaferli þessu hyggjas...",
-      "sector_tags": [],
-      "source": "utbodsvefur",
-      "intelligence_type": "active_tender",
-      "is_open_opportunity": true
-    },
-    {
       "reference": "2026062652",
       "project": "Útboð á hýsingu-, rekstrar- og notendaþjónustu fyrir Akureyrarbæ",
       "buyer": "Akureyrarbær",
@@ -3514,6 +4060,24 @@
       "modified_at": "2026-11-10T16:20:43+00:00",
       "url": "https://www.utbodsvefur.is/ahugakonnun-vegna-geymsluskapa-og-lyklaholfa-i-nyrri-hjolaadstodu-a-keflavikurflugvelli/",
       "summary": "Isavia ohf. óskar eftir upplýsingum frá þjónustuaðilum með reynslu af geymsluskápum, lyklahólfum eða sambærilegum sjálfsafgreiðslulausnum vegna nýrrar...",
+      "sector_tags": [],
+      "source": "utbodsvefur",
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true
+    },
+    {
+      "reference": "VEU-2609-0063",
+      "project": "VEU-2609-0063 Þjónusta og viðhald vél- og rafbúnaðar",
+      "buyer": "Veitur ohf.",
+      "notice_type": "Framkvæmd Þjónusta",
+      "deadline": "23.11.2026 kl. 14:00",
+      "deadline_local": "2026-11-23T14:00:00+00:00",
+      "deadline_utc": "2026-11-23T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-10-05T20:26:53+00:00",
+      "modified_at": "2026-11-11T14:08:39+00:00",
+      "url": "https://www.utbodsvefur.is/veu-2609-0063-thjonusta-og-vidhald-vel-og-rafbunadar/",
+      "summary": "Veitur ohf. óska eftir þátttakendum í rammasamninga VEU-2609-0063 „Þjónusta og viðhald vél- og rafbúnaðar“ Með innkaupaferli þessu hyggjas...",
       "sector_tags": [],
       "source": "utbodsvefur",
       "intelligence_type": "active_tender",
@@ -3628,6 +4192,24 @@
       "is_open_opportunity": true
     },
     {
+      "reference": "23369",
+      "project": "Upplýsingatækniþjónusta fyrir stafræna heilbrigðisþjónustu",
+      "buyer": "Fjársýslan ríkisins",
+      "notice_type": "Þjónusta",
+      "deadline": "25.11.2026 kl. 12:00",
+      "deadline_local": "2026-11-25T12:00:00+00:00",
+      "deadline_utc": "2026-11-25T12:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-09-21T09:08:53+00:00",
+      "modified_at": "2026-11-11T14:55:49+00:00",
+      "url": "https://www.utbodsvefur.is/upplysingataeknithjonusta-fyrir-stafraena-heilbrigdisthjonustu/",
+      "summary": "Fjársýslan fyrir hönd heilbrigðisráðuneytisins, kt. 521218-0530, óskar eftir tilboðum í tækniþjónustu fyrir Stafræna heilsu og Sjúkratryggingar Ísland...",
+      "sector_tags": [],
+      "source": "utbodsvefur",
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true
+    },
+    {
       "reference": "6330309",
       "project": "Markaðskönnun – leiga skrifstofuhúsnæðis á höfuðborgarsvæðinu",
       "buyer": "Framkvæmdasýslan ríkiseignir (FSRE)",
@@ -3696,6 +4278,34 @@
       "summary": "F.h. Umhverfis- og skipulagssviðs Reykjavíkurborgar er óskað eftir tilboðum í eftirfarandi verk: Fossvogsblettur – Lóðarframkvæmd, útboð nr. 163...",
       "sector_tags": [],
       "source": "utbodsvefur",
+      "supplementary_evidence": [
+        {
+          "source": "byggingar-tender",
+          "url": "https://byggingar.is/reykjavikurborg-bydur-ut-leikskolalod-vid-fossvogsblett",
+          "posted_at": "2026-10-29T09:32:02+00:00",
+          "deadline_status": "secondary_reported",
+          "secondary_deadline_dates": [
+            "2026-11-27"
+          ],
+          "secondary_deadline_datetimes": [
+            "2026-11-27T10:00:00+00:00"
+          ],
+          "secondary_deadline_reports": [
+            {
+              "date": "2026-11-27",
+              "time": "10:00",
+              "datetime_utc": "2026-11-27T10:00:00+00:00",
+              "day": 27,
+              "month": 11,
+              "year_explicit": true,
+              "evidence": "Tilboðum skal skila rafrænt í útboðskerfi Reykjavíkurborgar eigi síðar en föstudaginn 27. nóvember 2026 klukkan 10:00"
+            }
+          ],
+          "deadline_evidence": [
+            "Tilboðum skal skila rafrænt í útboðskerfi Reykjavíkurborgar eigi síðar en föstudaginn 27. nóvember 2026 klukkan 10:00"
+          ]
+        }
+      ],
       "intelligence_type": "active_tender",
       "is_open_opportunity": true
     },
@@ -3750,6 +4360,44 @@
       "summary": "Landsvirkjun, hér á eftir nefnt verkkaupi óskar eftir tilboðum í verkið: 2026-50 KRA Viðgerðir á leiðiskóflum. Verkið felst í viðgerðum á leiðiskóflum...",
       "sector_tags": [],
       "source": "utbodsvefur",
+      "supplementary_evidence": [
+        {
+          "source": "byggingar-tender",
+          "url": "https://byggingar.is/landsvirkjun-bydur-ut-vidgerdir-a-hverfilbunadi-kroflustodvar",
+          "posted_at": "2026-10-31T14:02:42+00:00",
+          "deadline_status": "secondary_reported",
+          "secondary_deadline_dates": [
+            "2026-11-30"
+          ],
+          "secondary_deadline_datetimes": [
+            "2026-11-30T10:00:00+00:00"
+          ],
+          "secondary_deadline_reports": [
+            {
+              "date": "2026-11-30",
+              "time": null,
+              "datetime_utc": null,
+              "day": 30,
+              "month": 11,
+              "year_explicit": true,
+              "evidence": "Tilboðsfrestur er til 30. nóvember 2026"
+            },
+            {
+              "date": "2026-11-30",
+              "time": "10:00",
+              "datetime_utc": "2026-11-30T10:00:00+00:00",
+              "day": 30,
+              "month": 11,
+              "year_explicit": true,
+              "evidence": "Tilboðum skal skila eigi síðar en mánudaginn 30. nóvember 2026 klukkan 10:00"
+            }
+          ],
+          "deadline_evidence": [
+            "Tilboðsfrestur er til 30. nóvember 2026",
+            "Tilboðum skal skila eigi síðar en mánudaginn 30. nóvember 2026 klukkan 10:00"
+          ]
+        }
+      ],
       "intelligence_type": "active_tender",
       "is_open_opportunity": true
     },
@@ -3817,7 +4465,7 @@
       "deadline_utc": "2026-11-30T13:00:00+00:00",
       "deadline_confirmed": true,
       "posted_at": "2026-11-10T12:17:32+00:00",
-      "modified_at": "2026-11-10T12:17:32+00:00",
+      "modified_at": "2026-11-11T10:03:50+00:00",
       "url": "https://www.utbodsvefur.is/rfi-thjonustuadili-vegna-afhendingar-og-innleidingar-a-nyju-atm-kerfi-avians-fyrir-reykjavik-cta/",
       "summary": "Isavia ohf. auglýsir markaðskönnun fyrir hönd Avians ehf. Tilgangur þessarar markaðskönnunar er að afla upplýsinga og viðbragða frá áhugasömum aðilum ...",
       "sector_tags": [],
@@ -3876,6 +4524,30 @@
       "summary": "Vegagerðin ásamt Veitum ohf. óskar eftir tilboði í for- og verkhönnun á bráðabirgðatengingu Borgarlínu um Nesbrautarbrú í Reykjavík ásamt breytingum o...",
       "sector_tags": [],
       "source": "utbodsvefur",
+      "supplementary_evidence": [
+        {
+          "source": "byggingar-tender",
+          "url": "https://byggingar.is/vegagerdin-bydur-ut-honnun-bradabirgdatengingar-borgarlinu-um-nesbrautarbru",
+          "posted_at": "2026-10-30T07:21:34+00:00",
+          "deadline_status": "unverified",
+          "secondary_deadline_dates": [],
+          "secondary_deadline_datetimes": [],
+          "secondary_deadline_reports": [
+            {
+              "date": null,
+              "time": null,
+              "datetime_utc": null,
+              "day": 1,
+              "month": 12,
+              "year_explicit": false,
+              "evidence": "Tilboðsfrestur er 1. desember næstkomandi"
+            }
+          ],
+          "deadline_evidence": [
+            "Tilboðsfrestur er 1. desember næstkomandi"
+          ]
+        }
+      ],
       "intelligence_type": "active_tender",
       "is_open_opportunity": true
     },
@@ -3948,6 +4620,44 @@
       "summary": "The project entails the manufacture and installation of 3–5 concrete pontoons in Reykjavík Harbour. The pontoons and moorings must be manufactured in ...",
       "sector_tags": [],
       "source": "utbodsvefur",
+      "supplementary_evidence": [
+        {
+          "source": "byggingar-tender",
+          "url": "https://byggingar.is/faxafloahafnir-bjoda-ut-flotbryggjur-vid-skarfagard-i-sundahofn",
+          "posted_at": "2026-11-02T11:50:56+00:00",
+          "deadline_status": "secondary_reported",
+          "secondary_deadline_dates": [
+            "2026-12-03"
+          ],
+          "secondary_deadline_datetimes": [
+            "2026-12-03T14:00:00+00:00"
+          ],
+          "secondary_deadline_reports": [
+            {
+              "date": null,
+              "time": null,
+              "datetime_utc": null,
+              "day": 3,
+              "month": 12,
+              "year_explicit": false,
+              "evidence": "Tilboðsfrestur rennur út 3. desember næstkomandi"
+            },
+            {
+              "date": "2026-12-03",
+              "time": "14:00",
+              "datetime_utc": "2026-12-03T14:00:00+00:00",
+              "day": 3,
+              "month": 12,
+              "year_explicit": true,
+              "evidence": "Tilboðum skal skila eigi síðar en fimmtudaginn 3. desember 2026 klukkan 14:00"
+            }
+          ],
+          "deadline_evidence": [
+            "Tilboðsfrestur rennur út 3. desember næstkomandi",
+            "Tilboðum skal skila eigi síðar en fimmtudaginn 3. desember 2026 klukkan 14:00"
+          ]
+        }
+      ],
       "intelligence_type": "active_tender",
       "is_open_opportunity": true
     },
@@ -4058,6 +4768,24 @@
       "source": "utbodsvefur",
       "intelligence_type": "active_tender",
       "is_open_opportunity": true
+    },
+    {
+      "reference": "787595-2026",
+      "project": "Electricity in the main treatment building",
+      "buyer": "Nýr Landspítali (NLSH ohf.)",
+      "notice_type": "cn-standard",
+      "deadline": "15.12.2026 kl. 13:00",
+      "deadline_local": "2026-12-15T13:00:58+00:00",
+      "deadline_utc": "2026-12-15T13:00:58+00:00",
+      "deadline_confirmed": false,
+      "posted_at": "2026-11-12",
+      "modified_at": null,
+      "url": "https://ted.europa.eu/en/notice/-/detail/787595-2026",
+      "summary": "TED open Iceland construction contract notice; CPV 45300000, 45300000.",
+      "source": "ted",
+      "intelligence_type": "unverified_deadline",
+      "is_open_opportunity": false,
+      "sector_tags": []
     },
     {
       "reference": "2026-58",
