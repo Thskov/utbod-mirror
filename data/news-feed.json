@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated": "2026-11-11T06:30:02Z",
+  "generated": "2026-11-12T06:30:01Z",
   "window": {
-    "from": "2026-10-12",
-    "to": "2026-11-11"
+    "from": "2026-10-13",
+    "to": "2026-11-12"
   },
   "coverage": {
     "industry_focus": {
@@ -56,8 +56,8 @@
         }
       ],
       "counts_by_sector": {
-        "tourism-infrastructure": 2,
-        "aquaculture-fish-production": 5,
+        "tourism-infrastructure": 3,
+        "aquaculture-fish-production": 3,
         "datacentres-infrastructure": 3
       },
       "selection_policy": "Prioritise evidenced infrastructure/project signals; preserve general construction, competitors and Ístak; no quotas.",
@@ -326,6 +326,7 @@
         "isavia",
         "fsre",
         "atuarfik inussuk",
+        "borealis data center",
         "boðaþing",
         "endurhæfingarspítali á grensási",
         "fjölnota íþróttahús í borgarnesi",
@@ -422,10 +423,9 @@
   },
   "sources": {
     "not_covered": {
-      "byggingar": "Incomplete: 3 relevant records rejected without verified publication dates.",
+      "byggingar": "Incomplete: 4 relevant records rejected without verified publication dates.",
       "vb": "Incomplete: 5 relevant records rejected without verified publication dates.",
       "fiskifrettir": "Incomplete: 3 relevant records rejected without verified publication dates.",
-      "bb": "Incomplete: no verified in-window relevant records extracted.",
       "landsvirkjun": "Incomplete: 7 relevant records rejected without verified publication dates.",
       "landsvirkjun-utbod": "Incomplete: 8 relevant records rejected without verified publication dates.",
       "landsnet-news": "Incomplete: no verified in-window relevant records extracted.",
@@ -444,6 +444,7 @@
       "kadeco-throunarreitir": "Incomplete: 1 relevant records rejected without verified publication dates.",
       "kadeco-throunaraaetlun": "Incomplete: 2 relevant records rejected without verified publication dates.",
       "carbfix": "Incomplete: HTTP response yielded no extractable records (possibly client-rendered).",
+      "iav-detail-4": "Incomplete detail https://www.iav.is/frettir/iav-byggir-500-metra-brimvarnargard-i-njardvikurhofn: HTTP Error 500: Internal Server Error",
       "iav": "Incomplete: 4 relevant records rejected without verified publication dates.",
       "borgarverk": "Incomplete: 2 relevant records rejected without verified publication dates.",
       "thingvangur": "Incomplete: 1 relevant records rejected without verified publication dates.",
@@ -469,9 +470,9 @@
         "suggested_feed": "news-feed",
         "suggested_lane": "news",
         "evidence_url": "https://www.landbasedaq.com/arctic-char-bankruptcy-iceland/iceland-arctic-char-farmer-files-for-bankrupcty/2206923",
-        "seen_count": 2,
+        "seen_count": 1,
         "first_seen": "2026-10-29T08:17:48Z",
-        "last_seen": "2026-11-11T06:30:02Z",
+        "last_seen": "2026-11-12T06:30:01Z",
         "reason": "unknown entity found in generated news items",
         "status": "pending"
       },
@@ -492,6 +493,58 @@
   "count": 119,
   "items": [
     {
+      "id": "news:visir-vidskipti:helt-ad-thau-vaeru-holpin-fram-ad-aramotum",
+      "lane": "news",
+      "category": "project",
+      "title": "Hélt að þau væru hólpin fram að ára­mótum",
+      "entity": "visir.is / Viðskipti",
+      "date": "2026-11-11",
+      "summary": "Framkvæmdastjóri Samtaka fyrirtækja á veitingamarkaði (SVEIT) segir lokun Hamborgarafabrikkunnar og Hlöllabáta á Bíldshöfða í Reykjavík vera alvarleg tíðindi. Staðirnir voru innsiglaðir af lögreglu að beiðni skattayfirvalda í dag.",
+      "url": "https://www.visir.is/g/20262961899d/helt-ad-thau-vaeru-holpin-fram-ad-aramotum",
+      "outlet": "visir.is / Viðskipti",
+      "is_new": true,
+      "sector_tags": []
+    },
+    {
+      "id": "news:visir-vidskipti:framleidsla-i-vadolduveri-undir-vaentingum-landsvirkjunar",
+      "lane": "news",
+      "category": "project",
+      "title": "Fram­leiðsla í Vaðöldu­veri undir væntingum Lands­virkjunar",
+      "entity": "visir.is / Viðskipti",
+      "date": "2026-11-11",
+      "summary": "Gert er ráð fyrir tilraunarekstri á vindmyllum í Vaðölduveri út veturinn. Landsvirkjun segir framleiðslu undir væntingum og vísar til milds veðurs. Allar fjórtán vindmyllurnar hafa verið í gangi í að minnsta kosti tíu daga en þó misjafnt hverju margar eru í gangi hverju sinni. Vindorkuverið var gangsett fyrir tveimur mánuðum.",
+      "url": "https://www.visir.is/g/20262961539d/framleidsla-i-vadolduveri-undir-vaentingum-landsvirkjunar",
+      "outlet": "visir.is / Viðskipti",
+      "is_new": true,
+      "sector_tags": []
+    },
+    {
+      "id": "news:ruv-innlent-rss:2026-11-11-miklar-umferdartafir-vegna-malbikunarframkvaemda-492401",
+      "lane": "news",
+      "category": "project",
+      "title": "Miklar umferðartafir vegna malbikunarframkvæmda",
+      "entity": "ruv.is / innlent",
+      "date": "2026-11-11",
+      "summary": "Mjög miklar umferðartafir eru í Reykjavík vegna lokunar fráreinar frá Bústaðavegi niður á Hafnarfjarðarveg, í átt að Kópavogi, þar sem malbikunarframkvæmdir eru. Logi Sigurjónsson, aðalvarðstjóri í umferðardeild lögreglunnar á höfuðborgarsvæðinu, segir umferð á Bústaðavegi ganga mjög hægt vegna þessa. Hjáleið sé um Miklubraut og Kringlumýrarbraut en búast m...",
+      "url": "https://www.ruv.is/frettir/innlent/2026-11-11-miklar-umferdartafir-vegna-malbikunarframkvaemda-492401/",
+      "outlet": "ruv.is / innlent",
+      "is_new": true,
+      "sector_tags": []
+    },
+    {
+      "id": "news:heimildin:iranir-hota-arasum-a-herstodvar-i-evropu",
+      "lane": "news",
+      "category": "project",
+      "title": "Íranir hóta árásum á her­stöðvar í Evrópu Örygg­is­mála­full­trúi Írans segir að her­inn muni svara árásum frá fjar­lægum her­stöðvum. Viðræður um lok stríðs­ins standa yfir. Íran...",
+      "entity": "heimildin.is",
+      "date": "2026-11-11",
+      "summary": "Íranir hóta árásum á her­stöðvar í Evrópu Örygg­is­mála­full­trúi Írans segir að her­inn muni svara árásum frá fjar­lægum her­stöðvum. Viðræður um lok stríðs­ins standa yfir. Íran krefst aflétt­ingar refsi­að­gerða í skiptum fyrir að opna Hor­mússund á ný, en kjarn­orku­málin eru ekki til umræðu.",
+      "url": "https://heimildin.is/grein/70618/iranir-hota-arasum-a-herstodvar-i-evropu/",
+      "outlet": "heimildin.is",
+      "is_new": true,
+      "sector_tags": []
+    },
+    {
       "id": "news:braggi:vidburdur-hms-troun-og-framtidarhorfur-ibudamarkadar-bygginga-vesturland",
       "lane": "news",
       "category": "investment",
@@ -505,28 +558,167 @@
       "sector_tags": []
     },
     {
-      "id": "news:braggi:fjarmalaradherra-hafnar-asokunum-um-ad-hafa-afvegaleitt-thingid-vegna-c1ff2617",
+      "id": "news:braggi:undirbuningur-fyrir-lengingu-hvaleyrarbakka-heldur-afram",
       "lane": "news",
-      "category": "project",
-      "title": "Fjármálaráðherra hafnar ásökunum um að hafa afvegaleitt þingið vegna Landsvirkjunar",
+      "category": "investment",
+      "title": "Undirbúningur fyrir lengingu Hvaleyrarbakka heldur áfram",
       "entity": "braggi.is",
       "date": "2026-11-11",
-      "summary": "Daði Már Kristófersson, fjármála- og efnahagsráðherra, neitar því að hafa afvegaleitt Alþingi með svörum sínum um afsögn Harðar Arnarsonar, fyrrverandi forstjóra Landsvirkjunar. Daði Már segir málið aðeins snúast um stjórnarhætti og áherslur í stjórn",
-      "url": "https://braggi.is/fjarmalaradherra-hafnar-asokunum-um-ad-hafa-afvegaleitt-thingid-vegna-c1ff2617/",
+      "summary": "Hafnarstjórn Hafnarfjarðarkaupstaðar hefur farið yfir tímaramma og frekari undirbúning vegna fyrirhugaðrar lengingar á Hvaleyrarbakka. Á sama fundi voru einnig kynntar tillögur að framkvæmdum og deiliskipulagi við Hamarshöfn og Straumsvíkurhöfn.",
+      "url": "https://braggi.is/undirbuningur-fyrir-lengingu-hvaleyrarbakka-heldur-afram/",
       "outlet": "braggi.is",
       "is_new": true,
       "sector_tags": []
     },
     {
-      "id": "news:visir:hagfelld-nidurstada-i-einkaleyfisdeilum-gaeti-hradad-vexti-alvotech-verulega",
+      "id": "news:braggi:tillaga-um-nytt-deiliskipulag-hafnarsvaedis-i-stykkisholmi",
       "lane": "news",
       "category": "investment",
-      "title": "Hag­felld niður­staða í einka­leyfis­deilum gæti hraðað vexti Al­vot­ech veru­lega",
-      "entity": "visir.is",
-      "date": "2026-11-10",
-      "summary": "Hag­felld niður­staða í einka­leyfis­deilum gæti hraðað vexti Al­vot­ech veru­lega",
-      "url": "https://www.visir.is/g/20262961384d/hagfelld-nidurstada-i-einkaleyfisdeilum-gaeti-hradad-vexti-alvotech-verulega",
-      "outlet": "visir.is",
+      "title": "Tillaga um nýtt deiliskipulag hafnarsvæðis í Stykkishólmi",
+      "entity": "braggi.is",
+      "date": "2026-11-11",
+      "summary": "Atvinnu- og nýsköpunarnefnd Sveitarfélagsins Stykkishólmur kynnti ákvörðun bæjarstjórnar frá 1. október um skipan starfshóps sem vinnur að tillögu að nýju deiliskipulagi hafnarsvæðisins. Formaður nefndarinnar á sæti í starfshópnum sem mun vinna með s",
+      "url": "https://braggi.is/tillaga-um-nytt-deiliskipulag-hafnarsvaedis-i-stykkisholmi/",
+      "outlet": "braggi.is",
+      "is_new": true,
+      "sector_tags": []
+    },
+    {
+      "id": "news:braggi:tillaga-um-breytingu-a-adalskipulagi-reykjavikur-2040-fyrir-midstod-um-oryggisra",
+      "lane": "news",
+      "category": "investment",
+      "title": "Tillaga um breytingu á Aðalskipulagi Reykjavíkur 2040 fyrir Miðstöð um öryggisráðstafanir á Hólmsheiði",
+      "entity": "braggi.is",
+      "date": "2026-11-11",
+      "summary": "Skipulagsfulltrúi Kópavogsbæjar hefur vísað tillögu um breytingu á Aðalskipulagi Reykjavíkur 2040 til umsagnar verkefnisstjóra aðalskipulags. Breytingin felur í sér að mynda nýtt samfélagsþjónustusvæði á Hólmsheiði fyrir Miðstöð um öryggisráðstafanir.",
+      "url": "https://braggi.is/tillaga-um-breytingu-a-adalskipulagi-reykjavikur-2040-fyrir-midstod-um-oryggisra/",
+      "outlet": "braggi.is",
+      "is_new": true,
+      "sector_tags": []
+    },
+    {
+      "id": "news:braggi:sveitarstjorn-strandabyggdar-samthykkir-framkvaemdaleyfi-i-brandskjolum",
+      "lane": "news",
+      "category": "investment",
+      "title": "Sveitarstjórn Strandabyggðar samþykkir framkvæmdaleyfi í Brandskjólum",
+      "entity": "braggi.is",
+      "date": "2026-11-11",
+      "summary": "Sveitarstjórn Strandabyggðar hefur samþykkt samhljóða umsókn um framkvæmdaleyfi vegna jarðvinnu, gatna- og lagnaframkvæmda í Brandskjólum.",
+      "url": "https://braggi.is/sveitarstjorn-strandabyggdar-samthykkir-framkvaemdaleyfi-i-brandskjolum/",
+      "outlet": "braggi.is",
+      "is_new": true,
+      "sector_tags": []
+    },
+    {
+      "id": "news:braggi:storf-framkv-mdastj-ri-framkv-mda-f52224",
+      "lane": "news",
+      "category": "project",
+      "title": "👷 Framkvæmdastjóri framkvæmda",
+      "entity": "braggi.is",
+      "date": "2026-11-11",
+      "summary": "ALVA Capital leitar að framkvæmdastjóra til að leiða og byggja upp framkvæmdastarfsemi samstæðunnar á vegum ALVA Framkvæmda. Fjölbreytt fasteignaþróunar- og framkvæmdaverkefni eru fram undan hjá félaginu.",
+      "url": "https://braggi.is/storf-framkv-mdastj-ri-framkv-mda-f52224/",
+      "outlet": "braggi.is",
+      "is_new": true,
+      "sector_tags": []
+    },
+    {
+      "id": "news:braggi:samthykkt-byggingarleyfi-fyrir-vidbyggingu-vid-badlon-a-vesturvor-44-48",
+      "lane": "news",
+      "category": "industrial-demand",
+      "title": "Samþykkt byggingarleyfi fyrir viðbyggingu við baðlón á Vesturvör 44-48",
+      "entity": "braggi.is",
+      "date": "2026-11-11",
+      "summary": "Kópavogsbær samþykkti umsókn um byggingaráform og byggingarleyfi fyrir 142 fermetra viðbyggingu á einni hæð norðan við aðalbyggingu baðlóns á Vesturvör 44-48. Viðbyggingin samræmist ákvæðum laga nr. 160/2010. Afgreiðsla málsins fór fram af byggingarf",
+      "url": "https://braggi.is/samthykkt-byggingarleyfi-fyrir-vidbyggingu-vid-badlon-a-vesturvor-44-48/",
+      "outlet": "braggi.is",
+      "is_new": true,
+      "sector_tags": [
+        "tourism-infrastructure"
+      ],
+      "sector_evidence_role": "project_or_sector_context"
+    },
+    {
+      "id": "news:braggi:opid-hus-i-nyjum-nemendagordum-i-dag",
+      "lane": "news",
+      "category": "project",
+      "title": "Opið hús í nýjum nemendagörðum í dag",
+      "entity": "braggi.is",
+      "date": "2026-11-11",
+      "summary": "Tólf nýjar íbúðir voru afhentar Nemendagörðum Menntaskóla Borgarfjarðar í haust og hýsa þær samtals 17 nemendur skólans í vetur. Mannvirkin eru staðsett við Borgarbraut 63. Gestum gefst kostur á að kynna sér hina nýju aðstöðu í dag, miðvikudaginn 11",
+      "url": "https://braggi.is/opid-hus-i-nyjum-nemendagordum-i-dag/",
+      "outlet": "braggi.is",
+      "is_new": true,
+      "sector_tags": []
+    },
+    {
+      "id": "news:braggi:kopavogsbaer-samthykkir-byggingarleyfi-fyrir-parhus-a-skirnishvarfi-10",
+      "lane": "news",
+      "category": "investment",
+      "title": "Kópavogsbær samþykkir byggingarleyfi fyrir parhús á Skírnishvarfi 10",
+      "entity": "braggi.is",
+      "date": "2026-11-11",
+      "summary": "Byggingarfulltrúi Kópavogsbæjar hefur samþykkt byggingarleyfi fyrir 247 fermetra parhúsi á tveimur hæðum við Skírnishvarf 10.",
+      "url": "https://braggi.is/kopavogsbaer-samthykkir-byggingarleyfi-fyrir-parhus-a-skirnishvarfi-10/",
+      "outlet": "braggi.is",
+      "is_new": true,
+      "sector_tags": []
+    },
+    {
+      "id": "news:braggi:deiliskipulag-atvinnusvaedisins-vid-kallhamar-lagt-fram-til-kynningar",
+      "lane": "news",
+      "category": "investment",
+      "title": "Deiliskipulag atvinnusvæðisins við Kallhamar lagt fram til kynningar",
+      "entity": "braggi.is",
+      "date": "2026-11-11",
+      "summary": "Atvinnu- og nýsköpunarnefnd Sveitarfélagsins Stykkishólmur lagði fram deiliskipulag atvinnusvæðisins við Kallhamar til kynningar. Bæjarráð hafði á 46. fundi sínum falið bæjarstjóra að kynna svæðið fyrir áhugasömum fjárfestum og uppbyggingaraðilum. Þe",
+      "url": "https://braggi.is/deiliskipulag-atvinnusvaedisins-vid-kallhamar-lagt-fram-til-kynningar/",
+      "outlet": "braggi.is",
+      "is_new": true,
+      "sector_tags": []
+    },
+    {
+      "id": "news:bb:laxeldi-eldissvaedi-a-vestfjordum",
+      "lane": "news",
+      "category": "industrial-demand",
+      "title": "Laxeldi: eldissvæði á Vestfjörðum",
+      "entity": "bb.is",
+      "date": "2026-11-11",
+      "summary": "Arctic Fish birtir á heimasíðu sinni þrívíddarkort yfir eldisstöðvar fyrirtækisins á Vestfjörðum. Það er svo tengt gagnagrunni Matvælastofnunar um framleiðslugögn í laxeldinu. Heildaryfirlit yfir eldissvæði á Vestfjörðum. svæði Arctic Fish eru rauðlituð.",
+      "url": "https://bb.is/2026/11/laxeldi-eldissvaedi-a-vestfjordum/",
+      "outlet": "bb.is",
+      "is_new": true,
+      "sector_tags": [
+        "aquaculture-fish-production"
+      ],
+      "sector_evidence_role": "project_or_sector_context",
+      "sector_subtopics": [
+        "aquaculture-facility-unspecified"
+      ]
+    },
+    {
+      "id": "news:bb:isafjardarbaer-bergros-hjalmarsdottir-radin-skipulags-og-umhverfisfulltrui",
+      "lane": "news",
+      "category": "investment",
+      "title": "Ísafjarðarbær – Bergrós Hjálmarsdóttir ráðin skipulags- og umhverfisfulltrúi",
+      "entity": "bb.is",
+      "date": "2026-11-11",
+      "summary": "Bergrós Hjálmarsdóttir hefur verið ráðin sem skipulags- og umhverfisfulltrúi hjá Ísafjarðarbæ og hefur þegar hafið störf. Bergrós er menntuð í byggingafræði frá Háskólanum í Reykjavík. Hún kemur til Ísafjarðarbæjar frá Verði tryggingafélagi, þar sem hún hefur undanfarin ár starfað við tjónamat fasteigna. Hún hefur einnig reynslu af sölu fasteigna, samningag...",
+      "url": "https://bb.is/2026/11/isafjardarbaer-bergros-hjalmarsdottir-radin-skipulags-og-umhverfisfulltrui/",
+      "outlet": "bb.is",
+      "is_new": true,
+      "sector_tags": []
+    },
+    {
+      "id": "news:bb:arneshreppur-skipulagsbreytingar-vegna-hvalarvirkjunar",
+      "lane": "news",
+      "category": "investment",
+      "title": "Árneshreppur: skipulagsbreytingar vegna Hvalárvirkjunar",
+      "entity": "bb.is",
+      "date": "2026-11-11",
+      "summary": "Hreppsnefnd Árneshrepps samþykkti í byrjun október breytingar á aðalskipulagi sveitarfélagins 2005–2025 vegna jarðstrengs frá Melum í Trékyllisvík að Hvalá og lagfæringa á Ófeigsfjarðarvegi, með þeim breytingum og lagfæringum sem gerðar voru í kjölfar umsagna og athugasemda sem bárust. Þá samþykkti sveitarstjórnin einnig breytingu á deiliskipulagi Hvalárvir...",
+      "url": "https://bb.is/2026/11/arneshreppur-skipulagsbreytingar-vegna-hvalarvirkjunar/",
+      "outlet": "bb.is",
       "is_new": true,
       "sector_tags": []
     },
@@ -540,7 +732,7 @@
       "summary": "Sveitarstjórn Hrunamannahrepps segir vísbendingar um að ferðaþjónustuaðilar skipuleggi nú að færa skipulagðar ferðir yfir á austurbakka Hvítár við Gullfoss þar sem ekki er áætlað að koma á gjaldtöku.",
       "url": "https://www.visir.is/g/20262960904d/ottast-aukid-alag-a-austurbakka-gullfoss-vegna-fyrirhugadrar-gjaldtoku",
       "outlet": "visir.is / Viðskipti",
-      "is_new": true,
+      "is_new": false,
       "sector_tags": []
     },
     {
@@ -553,7 +745,7 @@
       "summary": "Framkvæmdastjórum hjá fasteignafélaginu Reitir fækkar eftir að Jón Kolbeinn Guðjónsson, framkvæmdastjóri framkvæmdasviðs, óskaði eftir því að láta af störfum. Tvö svið verða sameinuð vegna þessa.",
       "url": "https://www.visir.is/g/20262961275d/framkvaemdastjorum-faekkar-hja-reitum",
       "outlet": "visir.is / Viðskipti",
-      "is_new": true,
+      "is_new": false,
       "sector_tags": []
     },
     {
@@ -566,7 +758,7 @@
       "summary": "Hlutafjárútboð Bláa lónsins hf. hefst í dag og stendur frá klukkan 10 í dag til klukkan 16 á föstudag. Útboðið mun skiptast í tvær áskriftarbækur og í annarri þeirra verður fast verð 95 krónur á hlut en í hinni verður lágmarksverðið 95 krónur.",
       "url": "https://www.visir.is/g/20262960887d/bein-utsending-kynning-vegna-hlutafjarutbods-blaa-lonsins",
       "outlet": "visir.is / Viðskipti",
-      "is_new": true,
+      "is_new": false,
       "sector_tags": []
     },
     {
@@ -579,7 +771,7 @@
       "summary": "Spá tvöföldun rekstrarhagnaðar og meta Bláa lónið langt yfir útboðsgengi",
       "url": "https://www.visir.is/g/20262961075d/spa-tvo-foldun-rekstrar-hagnadar-og-meta-blaa-lonid-langt-yfir-ut-bods-gengi",
       "outlet": "visir.is / Innherji",
-      "is_new": true,
+      "is_new": false,
       "sector_tags": []
     },
     {
@@ -589,10 +781,10 @@
       "title": "Vilja auka hlutafé Bláa Lónsins hf. um 14 milljarða",
       "entity": "ruv.is / innlent",
       "date": "2026-11-10",
-      "summary": "Hlutafjárútboð Bláa Lónsins hf. hófst í morgun og stendur til föstudags. Sigríður Margrét Oddsdóttir, forstjóri félagsins, segir að til standi að sækja rúmlega 14 milljarða í nýtt hlutafé. Núverandi hluthafar eru ekki að selja sína hluti heldur er verið að sækja nýtt hlutafé. Viðskipti hefjast með félagið í Kauphöllinni 20.nóvember. Umfangsmikil uppbygginga...",
+      "summary": "Hlutafjárútboð Bláa Lónsins hf. hófst í morgun og stendur til föstudags. Sigríður Margrét Oddsdóttir, forstjóri félagsins, segir að til standi að sækja rúmlega 14 milljarða í nýtt hlutafé. Núverandi hluthafar eru ekki að selja sína hluti heldur er verið að sækja nýtt hlutafé. Viðskipti hefjast með félagið í Kauphöllinni 20. nóvember. Umfangsmikil uppbygging...",
       "url": "https://www.ruv.is/frettir/innlent/2026-11-10-vilja-auka-hlutafe-blaa-lonsins-hf-um-14-milljarda-492320/",
       "outlet": "ruv.is / innlent",
-      "is_new": true,
+      "is_new": false,
       "sector_tags": []
     },
     {
@@ -605,7 +797,7 @@
       "summary": "Á Blönduósi er í mörg horn að líta þessa dagana. Ístak vinnur þar að umfangsmiklum uppbyggingarverkefnum fyrir Borealis Data Center og gegnir hlutverki stýriverktaka á svæðinu. Í því felst að halda utan um fjölmarga verktaka og faggreinar og tryggja góða samhæfingu allra sem að framkvæmdunum koma. Stærsta verkefnið er bygging nýs 7.600 m² gagnavers. Jarðvin...",
       "url": "https://www.istak.is/umfangsmiklar-framkvmdir-fyrir-borealis-data-center-a-blonduosi",
       "outlet": "ÍSTAK",
-      "is_new": true,
+      "is_new": false,
       "sector_tags": [
         "datacentres-infrastructure"
       ],
@@ -621,7 +813,7 @@
       "summary": "Atuarfik Inussuk í Nuuk valinn skólabygging ársins 2026 í Danmörku. Við hjá Ístaki erum afar stolt að segja frá því að Atuarfik Inussuk nýr grunnskóli í Nuuk hlaut bæði verðlaun almennings og fagfólks í árlegri keppni Nohrcon um skólabyggingu ársins 2026. Skólinn er hannaður fyrir allt að 1.300 börn og er glæsilegt dæmi um hvernig bygging getur sameinað nám...",
       "url": "https://www.istak.is/grunnskolinn-i-nuuk-skoli-arsins-2026",
       "outlet": "ÍSTAK",
-      "is_new": true,
+      "is_new": false,
       "sector_tags": []
     },
     {
@@ -634,7 +826,7 @@
       "summary": "Laki með lægsta tilboð í nýtt hjúkrunarheimili í Mosfellsbæ – sex tilboð bárust Sex tilboð bárust Framkvæmdasýslunni – Ríkiseignum (FSRE) í útboði á nýju hjúkrunarheimili í Mosfellsbæ, sem byggja á samkvæmt leiguleið. Laki ehf. átti lægsta tilboðið, sem hljóðaði upp á tæplega 23,7 milljónir króna í mánaðarlega leigu. Hæsta tilboðið nam 32,5 milljónum króna....",
       "url": "https://byggingar.is/laki-med-laegsta-tilbod-i-nytt-hjukrunarheimili-i-mosfellsbae-sex-tilbod-barust/?utm_source=rss&utm_medium=rss&utm_campaign=laki-med-laegsta-tilbod-i-nytt-hjukrunarheimili-i-mosfellsbae-sex-tilbod-barust",
       "outlet": "byggingar.is / niðurstöður útboða",
-      "is_new": true,
+      "is_new": false,
       "sector_tags": []
     },
     {
@@ -647,20 +839,7 @@
       "summary": "Rafal ehf. með lægsta tilboð í viðhald gatnalýsingar í Garðabæ Bæjarráð Garðabæjar samþykkti á fundi sínum þriðjudaginn 10. nóvember að taka tilboði Rafals ehf. í þjónustu og viðhald gatnalýsingar í Garðabæ á árunum 2027–2030. Tilboð fyrirtækisins hljóðaði upp á 80,4 milljónir króna og var rúmum 40 milljónum króna, eða 33,25%, undir kostnaðaráætlun verkkaup...",
       "url": "https://byggingar.is/rafal-ehf-med-laegsta-tilbod-i-vidhald-gatnalysingar-i-gardabae/?utm_source=rss&utm_medium=rss&utm_campaign=rafal-ehf-med-laegsta-tilbod-i-vidhald-gatnalysingar-i-gardabae",
       "outlet": "byggingar.is / undirritun samninga",
-      "is_new": true,
-      "sector_tags": []
-    },
-    {
-      "id": "news:braggi:ytri-skogar-breyting-a-skilmalum-fyrir-vistarveg-2-8-ib23-stadfest",
-      "lane": "news",
-      "category": "investment",
-      "title": "Ytri-Skógar, breyting á skilmálum fyrir Vistarveg 2-8, ÍB23",
-      "entity": "braggi.is",
-      "date": "2026-11-10",
-      "summary": "Rangárþing eystra hefur staðfest breytingu á deiliskipulagi fyrir Vistarveg 2-8 í Ytri-Skógum. Breytingin felur í sér að tveimur parhúsalóðum verður breytt í eina lóð fyrir allt að 16 íbúðir.",
-      "url": "https://braggi.is/ytri-skogar-breyting-a-skilmalum-fyrir-vistarveg-2-8-ib23-stadfest/",
-      "outlet": "braggi.is",
-      "is_new": true,
+      "is_new": false,
       "sector_tags": []
     },
     {
@@ -673,7 +852,7 @@
       "summary": "Skipulags- og mannvirkjanefnd Ísafjarðarbæjar leggur til við bæjarstjórn að heimiluð verði lagning ljósleiðara í Tungudal í Skutulsfirði. Nefndin telur framkvæmdina vera óverulega miðað við fyrirliggjandi gögn.",
       "url": "https://braggi.is/tillaga-um-lagningu-ljosleidara-i-tungudal-i-skutulsfirdi/",
       "outlet": "braggi.is",
-      "is_new": true,
+      "is_new": false,
       "sector_tags": []
     },
     {
@@ -686,46 +865,7 @@
       "summary": "Skipulags- og mannvirkjanefnd Ísafjarðarbæjar leggur til að bæjarstjórn heimili landeiganda að hefja vinnu við gerð deiliskipulagslýsingar í Breiðadal. Tillagan er samkvæmt 38. grein skipulagslaga nr. 123/2010. Nefndin samþykkti einnig ósk um endursk",
       "url": "https://braggi.is/tillaga-um-heimild-til-ad-hefja-vinnu-vid-deiliskipulagslysingu-i-breidadal-i-is/",
       "outlet": "braggi.is",
-      "is_new": true,
-      "sector_tags": []
-    },
-    {
-      "id": "news:braggi:thorf-a-250-nyjum-ibudum-arlega-a-nordurlandi-eystra",
-      "lane": "news",
-      "category": "investment",
-      "title": "Þörf á 250 nýjum íbúðum árlega á Norðurlandi eystra",
-      "entity": "braggi.is",
-      "date": "2026-11-10",
-      "summary": "Samkvæmt húsnæðisáætlunum sveitarfélaga á Norðurlandi eystra er þörf á að byggja rúmlega 250 nýjar íbúðir árlega næstu tíu árin. Fólksfjölgun hefur verið stöðug en uppbygging íbúðarhúsnæðis hefur ekki haldið í við þörfina.",
-      "url": "https://braggi.is/thorf-a-250-nyjum-ibudum-arlega-a-nordurlandi-eystra/",
-      "outlet": "braggi.is",
-      "is_new": true,
-      "sector_tags": []
-    },
-    {
-      "id": "news:braggi:storf-viltu-taka-tt-a-m-ta-framt-keflav-kurflugvallar-257b68",
-      "lane": "news",
-      "category": "project",
-      "title": "👷 Viltu taka þátt í að móta framtíð Keflavíkurflugvallar?",
-      "entity": "braggi.is",
-      "date": "2026-11-10",
-      "summary": "Isavia leitar að ORAT-sérfræðingi vegna uppbyggingar á Keflavíkurflugvelli. Umsóknarfrestur rennur út 23. nóvember 2026.",
-      "url": "https://braggi.is/storf-viltu-taka-tt-a-m-ta-framt-keflav-kurflugvallar-257b68/",
-      "outlet": "braggi.is",
-      "is_new": true,
-      "sector_tags": []
-    },
-    {
-      "id": "news:braggi:storf-t-knima-ur-rafvirki-1f3cdf",
-      "lane": "news",
-      "category": "project",
-      "title": "⚡ Tæknimaður – rafvirki",
-      "entity": "braggi.is",
-      "date": "2026-11-10",
-      "summary": "Enercon leitar að rafvirkjum til starfa við fyrsta vindmyllugarð félagsins á Íslandi við Búrfell. Þjónustubygging verður staðsett á Hellu og er umsóknarfrestur til 27. nóvember 2026.",
-      "url": "https://braggi.is/storf-t-knima-ur-rafvirki-1f3cdf/",
-      "outlet": "braggi.is",
-      "is_new": true,
+      "is_new": false,
       "sector_tags": []
     },
     {
@@ -738,40 +878,8 @@
       "summary": "Húsnæðis-, mannvirkja- og skipulagsstofnun hefur staðfest breytingu á aðalskipulagi Hvalfjarðarsveitar sem gerir ráð fyrir nýju hafnarsvæði og stækkun athafnasvæðis í landi Galtarlækjar. Skipulagsbreytingin nær yfir rúmlega 100 hektara svæði í svei",
       "url": "https://braggi.is/stadfesta-breytingu-a-skipulagi-galtarlaekjar/",
       "outlet": "braggi.is",
-      "is_new": true,
+      "is_new": false,
       "sector_tags": []
-    },
-    {
-      "id": "news:braggi:mikid-tilbodsmagn-i-byggingarrett-loda-a-hnodraholti",
-      "lane": "news",
-      "category": "project",
-      "title": "Mikið tilboðsmagn í byggingarrétt lóða á Hnoðraholti",
-      "entity": "braggi.is",
-      "date": "2026-11-10",
-      "summary": "Garðabær hefur samþykkt tilboð hæstbjóðenda í byggingarrétt á einbýlis- og raðhúsalóðum í Hnoðraholti suður eftir að alls 394 tilboð bárust í einbýlishúsalóðir og tugir tilboða í raðhúsalóðir á svæðinu. Yfirlit yfir framkomin tilboð í Hnoðraholti suð",
-      "url": "https://braggi.is/mikid-tilbodsmagn-i-byggingarrett-loda-a-hnodraholti/",
-      "outlet": "braggi.is",
-      "is_new": true,
-      "sector_tags": []
-    },
-    {
-      "id": "news:braggi:laxey-faer-graent-ljos-a-fjogur-ny-eldisker",
-      "lane": "news",
-      "category": "industrial-demand",
-      "title": "Laxey fær grænt ljós á fjögur ný eldisker",
-      "entity": "braggi.is",
-      "date": "2026-11-10",
-      "summary": "Laxey hefur fengið samþykki fyrir uppsetningu og byggingu á fjórum nýjum eldiskerum. Um er að ræða áframhaldandi uppbyggingu á mannvirkjum fyrirtækisins sem snúa að aukinni eldisgetu. Framkvæmdirnar fela í sér að bæta við þessum fjórum kerum við núv",
-      "url": "https://braggi.is/laxey-faer-graent-ljos-a-fjogur-ny-eldisker/",
-      "outlet": "braggi.is",
-      "is_new": true,
-      "sector_tags": [
-        "aquaculture-fish-production"
-      ],
-      "sector_evidence_role": "project_or_sector_context",
-      "sector_subtopics": [
-        "aquaculture-facility-unspecified"
-      ]
     },
     {
       "id": "news:braggi:kh-kopavogsbaer-framkvaemdir-hefjast-vid-nyjan-is-476293",
@@ -783,20 +891,7 @@
       "summary": "Fjárhagsáætlun Kópavogsbæjar fyrir árið 2027 gerir ráð fyrir umfangsmiklum innviðafjárfestingum, þar á meðal uppbyggingu nýs Ísaksskóla og leikskóla í Naustavör. Áætlunin var lögð fram til fyrri umræðu í bæjarstjórn í dag.",
       "url": "https://braggi.is/kh-kopavogsbaer-framkvaemdir-hefjast-vid-nyjan-is-476293/",
       "outlet": "braggi.is",
-      "is_new": true,
-      "sector_tags": []
-    },
-    {
-      "id": "news:braggi:eyrarbraut-eyjasel-og-langadael-a-stokkseyri-deiliskipulag",
-      "lane": "news",
-      "category": "investment",
-      "title": "Eyrarbraut, Eyjasel og Langadæl á Stokkseyri - Deiliskipulag",
-      "entity": "braggi.is",
-      "date": "2026-11-10",
-      "summary": "Sveitarfélagið Árborg hefur lagt fram nýja deiliskipulagstillögu sem ber heitið Eyrarbraut, Eyjasel og Langadæl á Stokkseyri og felur í sér stækkun íbúðabyggðar á svæðinu. Meginbreytingin felst í því að ný íbúðagata, sem hlotið hefur nafnið Langadæl,",
-      "url": "https://braggi.is/eyrarbraut-eyjasel-og-langadael-a-stokkseyri-deiliskipulag/",
-      "outlet": "braggi.is",
-      "is_new": true,
+      "is_new": false,
       "sector_tags": []
     },
     {
@@ -868,19 +963,6 @@
       "sector_tags": []
     },
     {
-      "id": "news:braggi:hlutafjarutbod-blaa-lonsins-hefst-a-thridjudag",
-      "lane": "news",
-      "category": "investment",
-      "title": "Hlutafjárútboð Bláa lónsins hefst á þriðjudag",
-      "entity": "braggi.is",
-      "date": "2026-11-09",
-      "summary": "Bláa lónið vinnur nú að nýjum uppbyggingarverkefnum á tveimur stöðum á landinu, í Þjórsárdal og á Hoffelli, samhliða því að félagið stefnir á skráningu á Aðalmarkað Nasdaq Iceland þann 20. nóvember. Félagið hefur á undanförnum árum byggt upp og rekið",
-      "url": "https://braggi.is/hlutafjarutbod-blaa-lonsins-hefst-a-thridjudag/",
-      "outlet": "braggi.is",
-      "is_new": false,
-      "sector_tags": []
-    },
-    {
       "id": "news:visir-vidskipti:islenski-neytandinn-alltaf-mjog-hraustur-i-kringum-jol",
       "lane": "news",
       "category": "project",
@@ -946,14 +1028,14 @@
       "sector_tags": []
     },
     {
-      "id": "news:visir-innherji:al-menningur-hefur-brugdist-stjorn-lands-virkjunar-og-car-b-fix",
+      "id": "news:visir-innherji:almenningur-hefur-brugdist-stjorn-landsvirkjunar-og-carbfix",
       "lane": "news",
-      "category": "industrial-demand",
-      "title": "Almenningur hefur brugðist stjórn Landsvirkjunar og Carbfix",
+      "category": "project",
+      "title": "Al­menningur hefur brugðist stjórn Lands­virkjunar og Car­b­fix",
       "entity": "visir.is / Innherji",
       "date": "2026-11-07",
-      "summary": "Almenningur hefur brugðist stjórn Landsvirkjunar og Carbfix",
-      "url": "https://www.visir.is/g/20262959648d/al-menningur-hefur-brugdist-stjorn-lands-virkjunar-og-car-b-fix",
+      "summary": "Al­menningur hefur brugðist stjórn Lands­virkjunar og Car­b­fix Innherji",
+      "url": "https://www.visir.is/g/20262959648d/almenningur-hefur-brugdist-stjorn-landsvirkjunar-og-carbfix",
       "outlet": "visir.is / Innherji",
       "is_new": false,
       "sector_tags": []
@@ -994,32 +1076,6 @@
       "summary": "Formaður Félags íslenskra hljómlistarmanna segir að það felist ákveðin viðurkenning í því að Samkeppniseftirlitið hafi beint tilmælum til Tix vegna stöðu þeirra á markaði. Framkvæmdastjóri Tix segist taka ábendingunum alvarlega en bendir á að ekkert í samningum þeirra við stór tónleikahús útiloki aðra frá samkeppninni.",
       "url": "https://www.visir.is/g/20262959348d/ekkert-i-samningum-vid-tonleikahusin-sem-utiloki-adra",
       "outlet": "visir.is / Viðskipti",
-      "is_new": false,
-      "sector_tags": []
-    },
-    {
-      "id": "news:reykjavik:orkuskipti-skila-arangri",
-      "lane": "news",
-      "category": "project",
-      "title": "Orkuskipti skila árangri",
-      "entity": "Reykjavíkurborg",
-      "date": "2026-11-06",
-      "summary": "Orkuskipti skila árangri",
-      "url": "https://reykjavik.is/frettir/2026/orkuskipti-skila-arangri",
-      "outlet": "Reykjavíkurborg",
-      "is_new": false,
-      "sector_tags": []
-    },
-    {
-      "id": "news:byggingar:framkvaemdir",
-      "lane": "news",
-      "category": "project",
-      "title": "Framkvæmdir í gangi 687",
-      "entity": "byggingar.is",
-      "date": "2026-11-06",
-      "summary": "Framkvæmdir í gangi 687",
-      "url": "https://byggingar.is/category/featured/news/in-news/framkvaemdir/",
-      "outlet": "byggingar.is",
       "is_new": false,
       "sector_tags": []
     },
@@ -1953,29 +2009,6 @@
       "sector_tags": []
     },
     {
-      "id": "landbasedaq:9306aca3ab8371721e",
-      "lane": "news",
-      "source": "landbasedaq",
-      "entity": "LandbasedAQ",
-      "title": "Iceland's Salmon Garden will 'plant' its first fish next spring",
-      "date": "2026-10-15",
-      "summary": "Iceland's Salmon Garden will 'plant' its first fish next spring Ad Samherji Fiskeldi is recruiting employees for its \"Salmon Garden\" land-based salmon farm in Reykjanes, Iceland. The first phase of construction is under way, and the company has set the end of April next year as the target for the first fish stocking. Ad Samherji Fiskeldi CEO Jon Kjartan Jon...",
-      "url": "https://www.landbasedaq.com/iceland-salmon-garden-samherji/icelands-salmon-garden-will-plant-its-first-fish-next-spring/2196404",
-      "status": "published",
-      "category": "industrial-demand",
-      "outlet": "LandbasedAQ",
-      "evidence_kind": "secondary_trade_press",
-      "project_learning_eligible": false,
-      "is_new": false,
-      "sector_tags": [
-        "aquaculture-fish-production"
-      ],
-      "sector_evidence_role": "project_or_sector_context",
-      "sector_subtopics": [
-        "land-based-aquaculture"
-      ]
-    },
-    {
       "id": "news:visir-vidskipti:malasar-i-samstarf-vid-greenfish",
       "lane": "news",
       "category": "project",
@@ -2050,55 +2083,6 @@
       "summary": "Atvinnuvegaráðherra segir að ekki hafi verið skoðað að stöðva eða setja hömlur á uppbyggingu sjókvíaeldis í Seyðisfirði. Ráðherra fær fulltrúa náttúruverndarsamtaka á fund til sín á morgun.",
       "url": "https://www.visir.is/g/20262947708d/-tha-tokum-vid-audvitad-tillit-til-thess-og-hlustum-",
       "outlet": "visir.is / Fiskeldi",
-      "is_new": false,
-      "sector_tags": []
-    },
-    {
-      "id": "samherji:e6f9524ad1593eaea9",
-      "lane": "news",
-      "source": "samherji",
-      "entity": "Samherji",
-      "title": "Stórt skref í framkvæmdum við uppbyggingu Eldisgarðs",
-      "date": "2026-10-12",
-      "summary": "Framkvæmdir við fyrsta áfanga Eldisgarðs standa sem hæst. Mynd: Jón Steinar Sæmundsson Nýverið lauk vinnu við boranir sjóhola vegna fyrsta áfanga Eldisgarðs, nýrrar landeldisstöðvar Samherja fiskeldis á Reykjanesi. Boruð var 21 sjóhola sem eru ýmist 42 eða 36 metra djúpar. Vinna hófst við borun þann 12. janúar síðastliðinn og tók verkefnið um níu mánuði. Þa...",
-      "url": "https://www.samherji.is/is/frettir/stort-skref-i-framkvaemdum-vid-uppbyggingu-eldisgards",
-      "status": "published",
-      "category": "industrial-demand",
-      "outlet": "Samherji",
-      "evidence_kind": "first_party_operator_news",
-      "project_learning_eligible": false,
-      "is_new": false,
-      "sector_tags": [
-        "aquaculture-fish-production"
-      ],
-      "sector_evidence_role": "project_or_sector_context",
-      "sector_subtopics": [
-        "land-based-aquaculture"
-      ]
-    },
-    {
-      "id": "news:visir-vidskipti:warren-buffet-raunverulegur-arangur-snyst-um-astina",
-      "lane": "news",
-      "category": "investment",
-      "title": "War­ren Buf­fet: Raun­veru­legur árangur snýst um ástina",
-      "entity": "visir.is / Viðskipti",
-      "date": "2026-10-12",
-      "summary": "Við eigum nokkra stórmeistara í viðskiptalífi síðustu og þessarar aldar. Warren Buffet er án efa einn þeirra. Moldríkur fjárfestir, 96 ára og þekktur fyrir jarðbundinn lífsstíl og einföld ráð.",
-      "url": "https://www.visir.is/g/20262946185d/warren-buffet-raunverulegur-arangur-snyst-um-astina",
-      "outlet": "visir.is / Viðskipti",
-      "is_new": false,
-      "sector_tags": []
-    },
-    {
-      "id": "news:byggingar-contracts:utm-source-rss-utm-medium-rss-utm-campaign-veitur-ohf-semja-vid-hreinsitaekni-og",
-      "lane": "news",
-      "category": "project",
-      "title": "Veitur ohf. semja við Hreinsitækni og Avalsson til allt að sjö ára",
-      "entity": "byggingar.is / undirritun samninga",
-      "date": "2026-10-12",
-      "summary": "Veitur ohf. semja við Hreinsitækni og Avalsson til allt að sjö ára Veitur ohf. hafa undirritað rammasamninga við Hreinsitækni ehf. og Avalsson ehf. um þjónustu við fráveitukerfi fyrirtækisins til allt að sjö ára. Samningarnir eru gerðir í kjölfar útboðs og fela meðal annars í sér hreinsun fráveitulagna, myndun og ástandsgreiningu lagna ásamt viðhaldstengdri...",
-      "url": "https://byggingar.is/veitur-ohf-semja-vid-hreinsitaekni-og-avalsson-til-allt-ad-sjo-ara/?utm_source=rss&utm_medium=rss&utm_campaign=veitur-ohf-semja-vid-hreinsitaekni-og-avalsson-til-allt-ad-sjo-ara",
-      "outlet": "byggingar.is / undirritun samninga",
       "is_new": false,
       "sector_tags": []
     }
