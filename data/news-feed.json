@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated": "2026-11-12T06:30:01Z",
+  "generated": "2026-11-13T06:30:01Z",
   "window": {
-    "from": "2026-10-13",
-    "to": "2026-11-12"
+    "from": "2026-10-14",
+    "to": "2026-11-13"
   },
   "coverage": {
     "industry_focus": {
-      "version": 2,
+      "version": 3,
       "priority_sectors": [
         {
           "id": "tourism-infrastructure",
@@ -56,10 +56,21 @@
         }
       ],
       "counts_by_sector": {
-        "tourism-infrastructure": 3,
+        "tourism-infrastructure": 2,
         "aquaculture-fish-production": 3,
         "datacentres-infrastructure": 3
       },
+      "counts_by_eligible_iceland_project_evidence": {
+        "tourism-infrastructure": 1,
+        "aquaculture-fish-production": 2,
+        "datacentres-infrastructure": 2
+      },
+      "counts_by_current_dated_signal": {
+        "tourism-infrastructure": 0,
+        "aquaculture-fish-production": 0,
+        "datacentres-infrastructure": 1
+      },
+      "count_meaning": "counts_by_sector inventories evidence; eligibility counts are records, never unique projects, verified stages or curated newsletter stories",
       "selection_policy": "Prioritise evidenced infrastructure/project signals; preserve general construction, competitors and Ístak; no quotas.",
       "support_infrastructure_rule": "Requires explicit sector anchor in the same record; unlinked grid/power/fibre remains general infrastructure.",
       "geography": "Iceland; international trade supplements require explicit Iceland project evidence.",
@@ -194,7 +205,7 @@
       {
         "source": "fsre",
         "outlet": "FSRE",
-        "url": "https://www.fsre.is/"
+        "url": "https://island.is/s/fsre/frett"
       },
       {
         "source": "veitur",
@@ -283,6 +294,18 @@
         "source": "verne",
         "outlet": "Verne",
         "url": "https://www.verne.co/news",
+        "coverage": "bounded operator supplement"
+      },
+      {
+        "source": "atnorth",
+        "outlet": "atNorth",
+        "url": "https://www.atnorth.com/category/news/",
+        "coverage": "bounded operator supplement"
+      },
+      {
+        "source": "geosalmo",
+        "outlet": "GeoSalmo",
+        "url": "https://www.geosalmo.com/news",
         "coverage": "bounded operator supplement"
       },
       {
@@ -424,7 +447,7 @@
   "sources": {
     "not_covered": {
       "byggingar": "Incomplete: 4 relevant records rejected without verified publication dates.",
-      "vb": "Incomplete: 5 relevant records rejected without verified publication dates.",
+      "vb": "Incomplete: 6 relevant records rejected without verified publication dates.",
       "fiskifrettir": "Incomplete: 3 relevant records rejected without verified publication dates.",
       "landsvirkjun": "Incomplete: 7 relevant records rejected without verified publication dates.",
       "landsvirkjun-utbod": "Incomplete: 8 relevant records rejected without verified publication dates.",
@@ -434,18 +457,12 @@
       "vegagerdin-utbod": "Incomplete: 11 relevant records rejected without verified publication dates.",
       "vegagerdin-framkvaemdafrettir": "Incomplete: 10 relevant records rejected without verified publication dates.",
       "reykjavik": "Incomplete: 3 relevant records rejected without verified publication dates.",
-      "fsre-detail-1": "Incomplete detail https://www.fsre.is/s/fsre/auglysingar-og-utbod: HTTP Error 404: Not Found",
-      "fsre-detail-2": "Incomplete detail https://www.fsre.is/s/fsre/oskir-um-breytingar: HTTP Error 404: Not Found",
-      "fsre-detail-3": "Incomplete detail https://www.fsre.is/s/fsre/frett/deigla-leitad-ad-husnaedi-fyrir-sameiginlega-starfsadstoedu-rikisstofnana: HTTP Error 404: Not Found",
-      "fsre-detail-4": "Incomplete detail https://www.fsre.is/s/fsre/frett/fsre-hlytur-vidurkenningu-jafnvaegisvogar-fka-2026: HTTP Error 404: Not Found",
-      "fsre": "Incomplete: 5 relevant records rejected without verified publication dates.",
       "veitur": "Incomplete: 1 relevant records rejected without verified publication dates.",
       "kadeco": "Incomplete: 11 relevant records rejected without verified publication dates.",
       "kadeco-throunarreitir": "Incomplete: 1 relevant records rejected without verified publication dates.",
       "kadeco-throunaraaetlun": "Incomplete: 2 relevant records rejected without verified publication dates.",
       "carbfix": "Incomplete: HTTP response yielded no extractable records (possibly client-rendered).",
-      "iav-detail-4": "Incomplete detail https://www.iav.is/frettir/iav-byggir-500-metra-brimvarnargard-i-njardvikurhofn: HTTP Error 500: Internal Server Error",
-      "iav": "Incomplete: 4 relevant records rejected without verified publication dates.",
+      "iav": "Incomplete: 3 relevant records rejected without verified publication dates.",
       "borgarverk": "Incomplete: 2 relevant records rejected without verified publication dates.",
       "thingvangur": "Incomplete: 1 relevant records rejected without verified publication dates.",
       "colas-is": "Incomplete: 2 relevant records rejected without verified publication dates.",
@@ -461,9 +478,29 @@
       "laxey-operator-budget": "bounded operator detail budget exhausted (https://www.laxey.is/frettir/)",
       "verne-operator-coverage": "bounded first-party dated-news supplement; undated project references and complete historical reach not established (https://www.verne.co/news)",
       "verne-operator-budget": "bounded operator detail budget exhausted (https://www.verne.co/news)",
+      "atnorth-operator-coverage": "bounded first-party dated-news supplement; undated project references and complete historical reach not established (https://www.atnorth.com/category/news/)",
+      "atnorth-operator-budget": "bounded operator detail budget exhausted (https://www.atnorth.com/category/news/)",
+      "geosalmo-operator-undated-7cfccb23ad": "operator article publication date unverified; not emitted as new milestone (https://www.geosalmo.com/news/geosalmo-and-the-icelandic-national-culinary-team-announce-partnership)",
+      "geosalmo-operator-undated-30e55f9d41": "operator article publication date unverified; not emitted as new milestone (https://www.geosalmo.com/news/artec-aquas-visit-to-iceland)",
+      "geosalmo-operator-undated-8272eb5ce7": "operator article publication date unverified; not emitted as new milestone (https://www.geosalmo.com/news/geosalmo-and-artec-aqua-sign-an-agreement-for-the-construction-of-a-fish-farm-in-olfus)",
+      "geosalmo-operator-undated-e72a09657d": "operator article publication date unverified; not emitted as new milestone (https://www.geosalmo.com/news/eyrun-viktorsdottir-as-head-of-quality-and-sustainability)",
+      "geosalmo-operator-coverage": "bounded first-party dated-news supplement; undated project references and complete historical reach not established (https://www.geosalmo.com/news)",
+      "geosalmo-operator-budget": "bounded operator detail budget exhausted (https://www.geosalmo.com/news)",
       "sedlabanki-policy-history": "Bounded committee-page statement links (maximum four); historical completeness not established (https://sedlabanki.is/peningastefna/peningastefnunefnd/?rendermode=static)"
     },
     "source_candidates": [
+      {
+        "id": "news:geosalmo",
+        "name": "GeoSalmo",
+        "suggested_feed": "news-feed",
+        "suggested_lane": "news",
+        "evidence_url": "https://www.geosalmo.com/news/eyrun-viktorsdottir-as-head-of-quality-and-sustainability",
+        "seen_count": 4,
+        "first_seen": "2026-11-13T06:30:01Z",
+        "last_seen": "2026-11-13T06:30:01Z",
+        "reason": "repeated unknown entity found in generated news items",
+        "status": "pending"
+      },
       {
         "id": "news:landbasedaq",
         "name": "LandbasedAQ",
@@ -472,7 +509,7 @@
         "evidence_url": "https://www.landbasedaq.com/arctic-char-bankruptcy-iceland/iceland-arctic-char-farmer-files-for-bankrupcty/2206923",
         "seen_count": 1,
         "first_seen": "2026-10-29T08:17:48Z",
-        "last_seen": "2026-11-12T06:30:01Z",
+        "last_seen": "2026-11-13T06:30:01Z",
         "reason": "unknown entity found in generated news items",
         "status": "pending"
       },
@@ -487,11 +524,543 @@
         "last_seen": "2026-11-06T06:30:01Z",
         "reason": "unknown entity found in generated news items",
         "status": "pending"
+      },
+      {
+        "id": "news:atnorth",
+        "name": "atNorth",
+        "suggested_feed": "news-feed",
+        "suggested_lane": "news",
+        "evidence_url": "https://www.atnorth.com/news/atnorth-receives-jafnvaegisvogin-2026-recognition-for-gender-balance",
+        "seen_count": 2,
+        "first_seen": "2026-11-13T06:30:01Z",
+        "last_seen": "2026-11-13T06:30:01Z",
+        "reason": "repeated unknown entity found in generated news items",
+        "status": "pending"
       }
     ]
   },
-  "count": 119,
+  "count": 121,
   "items": [
+    {
+      "id": "news:braggi:vidburdur-idan-1954",
+      "lane": "news",
+      "category": "project",
+      "title": "Brunaþéttingar",
+      "entity": "braggi.is",
+      "date": "2026-11-13",
+      "summary": "2026-11-16 · Eining Iðja · Námskeið er fyrir alla sem koma að byggingarframkvæmdum og þurfa að þétta milli brunahólfa. Það er haldið skv. ákvæðum reglugerðar 1067/2011 um þjónustuaðila brunavarna.",
+      "url": "https://braggi.is/vidburdur-idan-1954/",
+      "outlet": "braggi.is",
+      "source": "braggi",
+      "is_new": true,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-13",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:visir:allt-klart-og-pochettino-faer-tveggja-og-halfs-ars-samning",
+      "lane": "news",
+      "category": "project",
+      "title": "Allt klárt og Pochettino fær tveggja og hálfs árs samning",
+      "entity": "visir.is",
+      "date": "2026-11-12",
+      "summary": "Allt klárt og Pochettino fær tveggja og hálfs árs samning",
+      "url": "https://www.visir.is/g/20262962566d/allt-klart-og-pochettino-faer-tveggja-og-halfs-ars-samning",
+      "outlet": "visir.is",
+      "source": "visir",
+      "is_new": true,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-12",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:visir-vidskipti:snuist-ekki-lengur-einungis-um-blatt-lon",
+      "lane": "news",
+      "category": "investment",
+      "title": "Snúist ekki lengur einungis um blátt lón",
+      "entity": "visir.is / Viðskipti",
+      "date": "2026-11-12",
+      "summary": "Forstjóri Bláa lónsins segir tímasetningu skráningar á markað rétta þrátt fyrir þyngsli á markaðnum. Hlutafjárútboð fer fram á sama tíma og félagið stendur í stærstu fjárfestingu sem ráðist hefur verið í í ferðaþjónustu á Íslandi. Starfsemin snúist ekki lengur einungis um blátt lón í Svartsengi.",
+      "url": "https://www.visir.is/g/20262961754d/snuist-ekki-lengur-einungis-um-blatt-lon",
+      "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
+      "is_new": true,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-12",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:ruv-innlent-rss:2026-11-12-vegaframkvaemdum-frestad-vegna-vedurs-492489",
+      "lane": "news",
+      "category": "project",
+      "title": "Vegaframkvæmdum frestað vegna veðurs",
+      "entity": "ruv.is / innlent",
+      "date": "2026-11-12",
+      "summary": "Vegagerðin hefur frestað framkvæmdum í Reykjavík vegna veðurs. Til stóð að gera við frárein frá Bústaðavegi niður á Kringlumýrarbraut og ráðast í framkvæmdir á gatnamótum Kringlumýrarbrautar og Laugavegar. Það hefur nú verið slegið af vegna veðurs. Fyrsti snjór vetrarins féll í höfuðborginni í morgun. Miklar umferðartafir voru í borginni í gær vegna framkvæ...",
+      "url": "https://www.ruv.is/frettir/innlent/2026-11-12-vegaframkvaemdum-frestad-vegna-vedurs-492489/",
+      "outlet": "ruv.is / innlent",
+      "source": "ruv-innlent-rss",
+      "is_new": true,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-12",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:ruv-innlent-rss:2026-11-12-vara-vid-umferdartofum-i-dag-of-kalt-fyrir-framkvaemdir-a-nottunni-49",
+      "lane": "news",
+      "category": "project",
+      "title": "Vara við umferðartöfum í dag – of kalt fyrir framkvæmdir á nóttunni",
+      "entity": "ruv.is / innlent",
+      "date": "2026-11-12",
+      "summary": "Vegagerðin hefur auglýst framkvæmdir á rampi frá Bústaðavegi niður á Kringlumýrarbraut í norðurátt frá klukkan 11 til 15 og varar við umferðartöfum. Miklar umferðartafir voru á höfuðborgarsvæðinu síðdegis í gær þegar rampur frá Bústaðavegi niður á Hafnarfjarðarveg var lokaður til klukkan 17 vegna framkvæmda. Árni Friðleifsson hjá umferðardeild lögreglunnar....",
+      "url": "https://www.ruv.is/frettir/innlent/2026-11-12-vara-vid-umferdartofum-i-dag-of-kalt-fyrir-framkvaemdir-a-nottunni-492479/",
+      "outlet": "ruv.is / innlent",
+      "source": "ruv-innlent-rss",
+      "is_new": true,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-12",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:byggingar:istak-reisir-7-600-fermetra-gagnaver-fyrir-borealis-a-blonduosi",
+      "lane": "news",
+      "category": "istak",
+      "title": "Ístak reisir 7.600 fermetra gagnaver fyrir Borealis á Blönduósi",
+      "entity": "byggingar.is",
+      "date": "2026-11-12",
+      "summary": "Ístak reisir 7.600 fermetra gagnaver fyrir Borealis á Blönduósi",
+      "url": "https://byggingar.is/istak-reisir-7-600-fermetra-gagnaver-fyrir-borealis-a-blonduosi/",
+      "outlet": "byggingar.is",
+      "source": "byggingar",
+      "is_new": true,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-12",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:byggingar:iav-hefur-framkvaemdir-vid-168-milljarda-thjodarholl-i-laugardal",
+      "lane": "news",
+      "category": "competitor",
+      "title": "ÍAV hefur framkvæmdir við 16,8 milljarða Þjóðarhöll í Laugardal",
+      "entity": "byggingar.is",
+      "date": "2026-11-12",
+      "summary": "ÍAV hefur framkvæmdir við 16,8 milljarða Þjóðarhöll í Laugardal",
+      "url": "https://byggingar.is/iav-hefur-framkvaemdir-vid-168-milljarda-thjodarholl-i-laugardal/",
+      "outlet": "byggingar.is",
+      "source": "byggingar",
+      "is_new": true,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-12",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-snilldarverk-ehf-bydur-laegst-i-flodv",
+      "lane": "news",
+      "category": "project",
+      "title": "Snilldarverk ehf. býður lægst í flóðvarnir við Vík – átta tilboð bárust",
+      "entity": "byggingar.is / niðurstöður útboða",
+      "date": "2026-11-12",
+      "summary": "Snilldarverk ehf. býður lægst í flóðvarnir við Vík – átta tilboð bárust Átta tilboð bárust Vegagerðinni í gerð um 900 metra langs flóðvarnargarðs austan við Vík í Mýrdal. Snilldarverk ehf. á Hellu átti lægsta tilboðið, tæpar 20,9 milljónir króna, eða 18,6% undir kostnaðaráætlun. Öll hin sjö tilboðin voru yfir áætlun, það hæsta tæplega tvöfalt hærra […] The....",
+      "url": "https://byggingar.is/snilldarverk-ehf-bydur-laegst-i-flodvarnir-vid-vik-atta-tilbod-barust/?utm_source=rss&utm_medium=rss&utm_campaign=snilldarverk-ehf-bydur-laegst-i-flodvarnir-vid-vik-atta-tilbod-barust",
+      "outlet": "byggingar.is / niðurstöður útboða",
+      "source": "byggingar-utbod",
+      "is_new": true,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-12",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-oll-niu-tilbodin-i-sjovarnir-i-budard",
+      "lane": "news",
+      "category": "project",
+      "title": "Öll níu tilboðin í sjóvarnir í Búðardal og á Borðeyri yfir kostnaðaráætlun",
+      "entity": "byggingar.is / niðurstöður útboða",
+      "date": "2026-11-12",
+      "summary": "Öll níu tilboðin í sjóvarnir í Búðardal og á Borðeyri yfir kostnaðaráætlun Níu tilboð bárust Vegagerðinni í framkvæmdir við sjóvarnir í Búðardal og á Borðeyri og reyndust þau öll yfir kostnaðaráætlun. Hrútagil ehf. átti lægsta tilboðið, tæpar 15 milljónir króna, eða 22,9% yfir áætlun. Hæsta tilboðið nam tæplega 31 milljón króna. Tilboðin voru opnuð 10. […]....",
+      "url": "https://byggingar.is/oll-niu-tilbodin-i-sjovarnir-i-budardal-og-a-bordeyri-yfir-kostnadaraaetlun/?utm_source=rss&utm_medium=rss&utm_campaign=oll-niu-tilbodin-i-sjovarnir-i-budardal-og-a-bordeyri-yfir-kostnadaraaetlun",
+      "outlet": "byggingar.is / niðurstöður útboða",
+      "source": "byggingar-utbod",
+      "is_new": true,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-12",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:braggi:samthykktur-samningur-um-rannsoknar-og-nytingarleyfi-fyrir-arskogsvirkjun-i-thor",
+      "lane": "news",
+      "category": "investment",
+      "title": "Samþykktur samningur um rannsóknar- og nýtingarleyfi fyrir Árskógsvirkjun í Þorvaldsdal",
+      "entity": "braggi.is",
+      "date": "2026-11-12",
+      "summary": "Sveitarstjórn Dalvíkurbyggðar hefur samþykkt samning um rannsóknar- og nýtingarleyfi við Árskógsvirkjun ehf. vegna jarðanna Grundar og Hrafnagils við Þorvaldsdalsá.",
+      "url": "https://braggi.is/samthykktur-samningur-um-rannsoknar-og-nytingarleyfi-fyrir-arskogsvirkjun-i-thor/",
+      "outlet": "braggi.is",
+      "source": "braggi",
+      "is_new": true,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-12",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:braggi:samthykkt-byggingaraform-fyrir-tvaer-nyjar-spennistodvar-a-lonsbraut-1",
+      "lane": "news",
+      "category": "investment",
+      "title": "Samþykkt byggingaráform fyrir tvær nýjar spennistöðvar á Lónsbraut 1",
+      "entity": "braggi.is",
+      "date": "2026-11-12",
+      "summary": "Reykjanesbær samþykkti byggingaráform fyrir tvær nýjar spennistöðvar á Lónsbraut 1. Um er að ræða tvær byggingar, hvor um sig 78,8 fermetrar, samkvæmt ódagsettu aðaluppdrætti frá OG arkitektastofunni. Erindið uppfyllir gildandi skipulagsskilmála og e",
+      "url": "https://braggi.is/samthykkt-byggingaraform-fyrir-tvaer-nyjar-spennistodvar-a-lonsbraut-1/",
+      "outlet": "braggi.is",
+      "source": "braggi",
+      "is_new": true,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-12",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:braggi:salernin-vid-vigtartorg-staekkud-og-adgengi-baett",
+      "lane": "news",
+      "category": "project",
+      "title": "Salernin við Vigtartorg stækkuð og aðgengi bætt",
+      "entity": "braggi.is",
+      "date": "2026-11-12",
+      "summary": "Fyrirhugað er að ráðast í stækkun og endurbætur á salernisaðstöðunni við Vigtartorg. Megináhersla verður lögð á að auka rými og bæta aðgengi að mannvirkinu.",
+      "url": "https://braggi.is/salernin-vid-vigtartorg-staekkud-og-adgengi-baett/",
+      "outlet": "braggi.is",
+      "source": "braggi",
+      "is_new": true,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-12",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:braggi:reynsla-vinci-af-profunum-a-velmennum-i-byggingaridnadi-17c75d41",
+      "lane": "news",
+      "category": "project",
+      "title": "Reynsla Vinci af prófunum á vélmennum í byggingariðnaði",
+      "entity": "braggi.is",
+      "date": "2026-11-12",
+      "summary": "Misheppnuð tilraun með vélmenni á byggingarstað telst ekki vera mistök heldur mikilvægur lærdómur, að mati nýsköpunarstjóra hjá breska hluta verktakafyrirtækisins Vinci Construction. Fyrirtækið hefur gert umfangsmiklar tilraunir með sjálfvirkni og vé",
+      "url": "https://braggi.is/reynsla-vinci-af-profunum-a-velmennum-i-byggingaridnadi-17c75d41/",
+      "outlet": "braggi.is",
+      "source": "braggi",
+      "is_new": true,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-12",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:braggi:framkvaemdaleyfi-fyrir-lagningu-ljosleidara-a-thjodvegi-808-i-dalvikurbyggd",
+      "lane": "news",
+      "category": "investment",
+      "title": "Framkvæmdaleyfi fyrir lagningu ljósleiðara á þjóðvegi 808 í Dalvíkurbyggð",
+      "entity": "braggi.is",
+      "date": "2026-11-12",
+      "summary": "Framkvæmdaráð Dalvíkurbyggðar lagði fram til kynningar framkvæmdaleyfi fyrir lagningu ljósleiðara meðfram þjóðvegi 808. Ljósleiðarinn mun liggja frá gatnamótum við Ólafsfjarðarveg að gatnamótum við Öldugötu á Árskógssandi. Framkvæmdaraðili verksins e",
+      "url": "https://braggi.is/framkvaemdaleyfi-fyrir-lagningu-ljosleidara-a-thjodvegi-808-i-dalvikurbyggd/",
+      "outlet": "braggi.is",
+      "source": "braggi",
+      "is_new": true,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-12",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:braggi:dalvikurbyggd-samthykkir-tillogu-ad-adalskipulagi-2025-2045-med-breytingum",
+      "lane": "news",
+      "category": "investment",
+      "title": "Dalvíkurbyggð samþykkir tillögu að Aðalskipulagi 2025-2045 með breytingum",
+      "entity": "braggi.is",
+      "date": "2026-11-12",
+      "summary": "Framkvæmdaráð Dalvíkurbyggðar hefur samþykkt tillögu að nýju Aðalskipulagi fyrir árin 2025–2045 með breytingum sem gerðar voru eftir auglýsingu. Tillagan var samþykkt með fjórum atkvæðum en einn greiddi atkvæði gegn henni.",
+      "url": "https://braggi.is/dalvikurbyggd-samthykkir-tillogu-ad-adalskipulagi-2025-2045-med-breytingum/",
+      "outlet": "braggi.is",
+      "source": "braggi",
+      "is_new": true,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-12",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:braggi:dalvikurbyggd-samthykkir-breytingu-a-skraningu-lodar-i-svarfadardal",
+      "lane": "news",
+      "category": "investment",
+      "title": "Dalvíkurbyggð samþykkir breytingu á skráningu lóðar í Svarfaðardal",
+      "entity": "braggi.is",
+      "date": "2026-11-12",
+      "summary": "Framkvæmdaráð Dalvíkurbyggðar samþykkti í síðasta fundi breytta skráningu lóðarinnar Sveinsstaða í Svarfaðardal. Lóðin var skráð sem frístundalóð en verður nú íbúðarlóð. Samkvæmt ákvæði í Aðalskipulagi Dalvíkurbyggðar 2008-2020 er heimilt að reisa al",
+      "url": "https://braggi.is/dalvikurbyggd-samthykkir-breytingu-a-skraningu-lodar-i-svarfadardal/",
+      "outlet": "braggi.is",
+      "source": "braggi",
+      "is_new": true,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-12",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:braggi:bjarg-faer-leyfi-fyrir-16-ibudum-vid-langamoa-a-akureyri",
+      "lane": "news",
+      "category": "investment",
+      "title": "Bjarg fær leyfi fyrir 16 íbúðum við Langamóa á Akureyri",
+      "entity": "braggi.is",
+      "date": "2026-11-12",
+      "summary": "Byggingarfulltrúi Akureyrarbæjar samþykkti þann 12. nóvember 2026 umsókn Bjargs íbúðarfélags hses. um byggingaráform og byggingarleyfi fyrir sextán íbúðum við Langamóa á Akureyri. Framkvæmdin nær til lóða númer 17 og 19 við Langamóa og fellur undir u",
+      "url": "https://braggi.is/bjarg-faer-leyfi-fyrir-16-ibudum-vid-langamoa-a-akureyri/",
+      "outlet": "braggi.is",
+      "source": "braggi",
+      "is_new": true,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-12",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:braggi:aform-um-staekkun-verksmidju-tdk-i-krossanesi",
+      "lane": "news",
+      "category": "investment",
+      "title": "Áform um stækkun verksmiðju TDK í Krossanesi",
+      "entity": "braggi.is",
+      "date": "2026-11-12",
+      "summary": "Skipulagsráð Akureyrarbæjar hefur tekið jákvætt í erindi TDK Foil Iceland ehf. varðandi mögulega stækkun á verksmiðju félagsins við Krossanes.",
+      "url": "https://braggi.is/aform-um-staekkun-verksmidju-tdk-i-krossanesi/",
+      "outlet": "braggi.is",
+      "source": "braggi",
+      "is_new": true,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-12",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:bb:innvidaradherra-vetrarthjonusta-fullfjarmognud",
+      "lane": "news",
+      "category": "project",
+      "title": "Innviðaráðherra: vetrarþjónusta fullfjármögnuð",
+      "entity": "bb.is",
+      "date": "2026-11-12",
+      "summary": "Aukið fjármagn í viðhald vega, fullfjármögnun vetrarþjónustu og stofnun innviðafélags til að hraða stórframkvæmdum á sviði samgangna eru á meðal verkefna sem ríkisstjórnin hefur unnið að á kjörtímabilinu sagði Eyjólfur Ármannsson, innviðaráðherra á Alþingi í fyrradag þegar hann mæli fyrir fyrir tillögu til þingsályktunar um stefnumótandi byggðaáætlun fyrir....",
+      "url": "https://bb.is/2026/11/innvidaradherra-vetrarthjonusta-fullfjarmognud/",
+      "outlet": "bb.is",
+      "source": "bb",
+      "is_new": true,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-12",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:bb:framfarafelag-vestfjarda-folksfjolgun-a-vestfjordum-kallar-a-aukna-ibudauppbyggi",
+      "lane": "news",
+      "category": "investment",
+      "title": "Framfarafélag Vestfjarða: Fólksfjölgun á Vestfjörðum kallar á aukna íbúðauppbyggingu",
+      "entity": "bb.is",
+      "date": "2026-11-12",
+      "summary": "Eftir áratugi fólksfækkunar hefur þróunin snúist við á Vestfjörðum og íbúum landshlutans tekið að fjölga á ný. Þessari jákvæðu þróun fylgir aukin eftirspurn eftir íbúðarhúsnæði, en nýbyggingar hafa ekki haldið í við áætlaða þörf. Húsnæðis-, mannvirkja- og skipulagsstofnun (HMS) bendir á ýmis úrræði sem gætu auðveldað uppbyggingu og skapað forsendur fyrir áf...",
+      "url": "https://bb.is/2026/11/framfarafelag-vestfjarda-folksfjolgun-a-vestfjordum-kallar-a-aukna-ibudauppbyggingu/",
+      "outlet": "bb.is",
+      "source": "bb",
+      "is_new": true,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-12",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
     {
       "id": "news:visir-vidskipti:helt-ad-thau-vaeru-holpin-fram-ad-aramotum",
       "lane": "news",
@@ -502,8 +1071,21 @@
       "summary": "Framkvæmdastjóri Samtaka fyrirtækja á veitingamarkaði (SVEIT) segir lokun Hamborgarafabrikkunnar og Hlöllabáta á Bíldshöfða í Reykjavík vera alvarleg tíðindi. Staðirnir voru innsiglaðir af lögreglu að beiðni skattayfirvalda í dag.",
       "url": "https://www.visir.is/g/20262961899d/helt-ad-thau-vaeru-holpin-fram-ad-aramotum",
       "outlet": "visir.is / Viðskipti",
-      "is_new": true,
-      "sector_tags": []
+      "source": "visir-vidskipti",
+      "is_new": false,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-11",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:framleidsla-i-vadolduveri-undir-vaentingum-landsvirkjunar",
@@ -515,21 +1097,21 @@
       "summary": "Gert er ráð fyrir tilraunarekstri á vindmyllum í Vaðölduveri út veturinn. Landsvirkjun segir framleiðslu undir væntingum og vísar til milds veðurs. Allar fjórtán vindmyllurnar hafa verið í gangi í að minnsta kosti tíu daga en þó misjafnt hverju margar eru í gangi hverju sinni. Vindorkuverið var gangsett fyrir tveimur mánuðum.",
       "url": "https://www.visir.is/g/20262961539d/framleidsla-i-vadolduveri-undir-vaentingum-landsvirkjunar",
       "outlet": "visir.is / Viðskipti",
-      "is_new": true,
-      "sector_tags": []
-    },
-    {
-      "id": "news:ruv-innlent-rss:2026-11-11-miklar-umferdartafir-vegna-malbikunarframkvaemda-492401",
-      "lane": "news",
-      "category": "project",
-      "title": "Miklar umferðartafir vegna malbikunarframkvæmda",
-      "entity": "ruv.is / innlent",
-      "date": "2026-11-11",
-      "summary": "Mjög miklar umferðartafir eru í Reykjavík vegna lokunar fráreinar frá Bústaðavegi niður á Hafnarfjarðarveg, í átt að Kópavogi, þar sem malbikunarframkvæmdir eru. Logi Sigurjónsson, aðalvarðstjóri í umferðardeild lögreglunnar á höfuðborgarsvæðinu, segir umferð á Bústaðavegi ganga mjög hægt vegna þessa. Hjáleið sé um Miklubraut og Kringlumýrarbraut en búast m...",
-      "url": "https://www.ruv.is/frettir/innlent/2026-11-11-miklar-umferdartafir-vegna-malbikunarframkvaemda-492401/",
-      "outlet": "ruv.is / innlent",
-      "is_new": true,
-      "sector_tags": []
+      "source": "visir-vidskipti",
+      "is_new": false,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-11",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:heimildin:iranir-hota-arasum-a-herstodvar-i-evropu",
@@ -541,186 +1123,21 @@
       "summary": "Íranir hóta árásum á her­stöðvar í Evrópu Örygg­is­mála­full­trúi Írans segir að her­inn muni svara árásum frá fjar­lægum her­stöðvum. Viðræður um lok stríðs­ins standa yfir. Íran krefst aflétt­ingar refsi­að­gerða í skiptum fyrir að opna Hor­mússund á ný, en kjarn­orku­málin eru ekki til umræðu.",
       "url": "https://heimildin.is/grein/70618/iranir-hota-arasum-a-herstodvar-i-evropu/",
       "outlet": "heimildin.is",
-      "is_new": true,
-      "sector_tags": []
-    },
-    {
-      "id": "news:braggi:vidburdur-hms-troun-og-framtidarhorfur-ibudamarkadar-bygginga-vesturland",
-      "lane": "news",
-      "category": "investment",
-      "title": "Þróun og framtíðarhorfur íbúðamarkaðar, bygginga- og skipulagsmála á Vesturlandi",
-      "entity": "braggi.is",
-      "date": "2026-11-11",
-      "summary": "2026-11-13 · Dalbraut 1 á Akranesi · Föstudaginn 13. nóvember halda HMS og Tryggð byggð í samstarfi við SSV opinn fund um þróun og framtíðahorfur íbúðamarkaðar, bygginga og skipulagsmála á Vesturlandi. Fundurinn verður haldinn í Tónlistarskólanum, Dalbraut 1 á Akranesi, kl. 11:45 og er opi",
-      "url": "https://braggi.is/vidburdur-hms-troun-og-framtidarhorfur-ibudamarkadar-bygginga-vesturland/",
-      "outlet": "braggi.is",
-      "is_new": true,
-      "sector_tags": []
-    },
-    {
-      "id": "news:braggi:undirbuningur-fyrir-lengingu-hvaleyrarbakka-heldur-afram",
-      "lane": "news",
-      "category": "investment",
-      "title": "Undirbúningur fyrir lengingu Hvaleyrarbakka heldur áfram",
-      "entity": "braggi.is",
-      "date": "2026-11-11",
-      "summary": "Hafnarstjórn Hafnarfjarðarkaupstaðar hefur farið yfir tímaramma og frekari undirbúning vegna fyrirhugaðrar lengingar á Hvaleyrarbakka. Á sama fundi voru einnig kynntar tillögur að framkvæmdum og deiliskipulagi við Hamarshöfn og Straumsvíkurhöfn.",
-      "url": "https://braggi.is/undirbuningur-fyrir-lengingu-hvaleyrarbakka-heldur-afram/",
-      "outlet": "braggi.is",
-      "is_new": true,
-      "sector_tags": []
-    },
-    {
-      "id": "news:braggi:tillaga-um-nytt-deiliskipulag-hafnarsvaedis-i-stykkisholmi",
-      "lane": "news",
-      "category": "investment",
-      "title": "Tillaga um nýtt deiliskipulag hafnarsvæðis í Stykkishólmi",
-      "entity": "braggi.is",
-      "date": "2026-11-11",
-      "summary": "Atvinnu- og nýsköpunarnefnd Sveitarfélagsins Stykkishólmur kynnti ákvörðun bæjarstjórnar frá 1. október um skipan starfshóps sem vinnur að tillögu að nýju deiliskipulagi hafnarsvæðisins. Formaður nefndarinnar á sæti í starfshópnum sem mun vinna með s",
-      "url": "https://braggi.is/tillaga-um-nytt-deiliskipulag-hafnarsvaedis-i-stykkisholmi/",
-      "outlet": "braggi.is",
-      "is_new": true,
-      "sector_tags": []
-    },
-    {
-      "id": "news:braggi:tillaga-um-breytingu-a-adalskipulagi-reykjavikur-2040-fyrir-midstod-um-oryggisra",
-      "lane": "news",
-      "category": "investment",
-      "title": "Tillaga um breytingu á Aðalskipulagi Reykjavíkur 2040 fyrir Miðstöð um öryggisráðstafanir á Hólmsheiði",
-      "entity": "braggi.is",
-      "date": "2026-11-11",
-      "summary": "Skipulagsfulltrúi Kópavogsbæjar hefur vísað tillögu um breytingu á Aðalskipulagi Reykjavíkur 2040 til umsagnar verkefnisstjóra aðalskipulags. Breytingin felur í sér að mynda nýtt samfélagsþjónustusvæði á Hólmsheiði fyrir Miðstöð um öryggisráðstafanir.",
-      "url": "https://braggi.is/tillaga-um-breytingu-a-adalskipulagi-reykjavikur-2040-fyrir-midstod-um-oryggisra/",
-      "outlet": "braggi.is",
-      "is_new": true,
-      "sector_tags": []
-    },
-    {
-      "id": "news:braggi:sveitarstjorn-strandabyggdar-samthykkir-framkvaemdaleyfi-i-brandskjolum",
-      "lane": "news",
-      "category": "investment",
-      "title": "Sveitarstjórn Strandabyggðar samþykkir framkvæmdaleyfi í Brandskjólum",
-      "entity": "braggi.is",
-      "date": "2026-11-11",
-      "summary": "Sveitarstjórn Strandabyggðar hefur samþykkt samhljóða umsókn um framkvæmdaleyfi vegna jarðvinnu, gatna- og lagnaframkvæmda í Brandskjólum.",
-      "url": "https://braggi.is/sveitarstjorn-strandabyggdar-samthykkir-framkvaemdaleyfi-i-brandskjolum/",
-      "outlet": "braggi.is",
-      "is_new": true,
-      "sector_tags": []
-    },
-    {
-      "id": "news:braggi:storf-framkv-mdastj-ri-framkv-mda-f52224",
-      "lane": "news",
-      "category": "project",
-      "title": "👷 Framkvæmdastjóri framkvæmda",
-      "entity": "braggi.is",
-      "date": "2026-11-11",
-      "summary": "ALVA Capital leitar að framkvæmdastjóra til að leiða og byggja upp framkvæmdastarfsemi samstæðunnar á vegum ALVA Framkvæmda. Fjölbreytt fasteignaþróunar- og framkvæmdaverkefni eru fram undan hjá félaginu.",
-      "url": "https://braggi.is/storf-framkv-mdastj-ri-framkv-mda-f52224/",
-      "outlet": "braggi.is",
-      "is_new": true,
-      "sector_tags": []
-    },
-    {
-      "id": "news:braggi:samthykkt-byggingarleyfi-fyrir-vidbyggingu-vid-badlon-a-vesturvor-44-48",
-      "lane": "news",
-      "category": "industrial-demand",
-      "title": "Samþykkt byggingarleyfi fyrir viðbyggingu við baðlón á Vesturvör 44-48",
-      "entity": "braggi.is",
-      "date": "2026-11-11",
-      "summary": "Kópavogsbær samþykkti umsókn um byggingaráform og byggingarleyfi fyrir 142 fermetra viðbyggingu á einni hæð norðan við aðalbyggingu baðlóns á Vesturvör 44-48. Viðbyggingin samræmist ákvæðum laga nr. 160/2010. Afgreiðsla málsins fór fram af byggingarf",
-      "url": "https://braggi.is/samthykkt-byggingarleyfi-fyrir-vidbyggingu-vid-badlon-a-vesturvor-44-48/",
-      "outlet": "braggi.is",
-      "is_new": true,
-      "sector_tags": [
-        "tourism-infrastructure"
-      ],
-      "sector_evidence_role": "project_or_sector_context"
-    },
-    {
-      "id": "news:braggi:opid-hus-i-nyjum-nemendagordum-i-dag",
-      "lane": "news",
-      "category": "project",
-      "title": "Opið hús í nýjum nemendagörðum í dag",
-      "entity": "braggi.is",
-      "date": "2026-11-11",
-      "summary": "Tólf nýjar íbúðir voru afhentar Nemendagörðum Menntaskóla Borgarfjarðar í haust og hýsa þær samtals 17 nemendur skólans í vetur. Mannvirkin eru staðsett við Borgarbraut 63. Gestum gefst kostur á að kynna sér hina nýju aðstöðu í dag, miðvikudaginn 11",
-      "url": "https://braggi.is/opid-hus-i-nyjum-nemendagordum-i-dag/",
-      "outlet": "braggi.is",
-      "is_new": true,
-      "sector_tags": []
-    },
-    {
-      "id": "news:braggi:kopavogsbaer-samthykkir-byggingarleyfi-fyrir-parhus-a-skirnishvarfi-10",
-      "lane": "news",
-      "category": "investment",
-      "title": "Kópavogsbær samþykkir byggingarleyfi fyrir parhús á Skírnishvarfi 10",
-      "entity": "braggi.is",
-      "date": "2026-11-11",
-      "summary": "Byggingarfulltrúi Kópavogsbæjar hefur samþykkt byggingarleyfi fyrir 247 fermetra parhúsi á tveimur hæðum við Skírnishvarf 10.",
-      "url": "https://braggi.is/kopavogsbaer-samthykkir-byggingarleyfi-fyrir-parhus-a-skirnishvarfi-10/",
-      "outlet": "braggi.is",
-      "is_new": true,
-      "sector_tags": []
-    },
-    {
-      "id": "news:braggi:deiliskipulag-atvinnusvaedisins-vid-kallhamar-lagt-fram-til-kynningar",
-      "lane": "news",
-      "category": "investment",
-      "title": "Deiliskipulag atvinnusvæðisins við Kallhamar lagt fram til kynningar",
-      "entity": "braggi.is",
-      "date": "2026-11-11",
-      "summary": "Atvinnu- og nýsköpunarnefnd Sveitarfélagsins Stykkishólmur lagði fram deiliskipulag atvinnusvæðisins við Kallhamar til kynningar. Bæjarráð hafði á 46. fundi sínum falið bæjarstjóra að kynna svæðið fyrir áhugasömum fjárfestum og uppbyggingaraðilum. Þe",
-      "url": "https://braggi.is/deiliskipulag-atvinnusvaedisins-vid-kallhamar-lagt-fram-til-kynningar/",
-      "outlet": "braggi.is",
-      "is_new": true,
-      "sector_tags": []
-    },
-    {
-      "id": "news:bb:laxeldi-eldissvaedi-a-vestfjordum",
-      "lane": "news",
-      "category": "industrial-demand",
-      "title": "Laxeldi: eldissvæði á Vestfjörðum",
-      "entity": "bb.is",
-      "date": "2026-11-11",
-      "summary": "Arctic Fish birtir á heimasíðu sinni þrívíddarkort yfir eldisstöðvar fyrirtækisins á Vestfjörðum. Það er svo tengt gagnagrunni Matvælastofnunar um framleiðslugögn í laxeldinu. Heildaryfirlit yfir eldissvæði á Vestfjörðum. svæði Arctic Fish eru rauðlituð.",
-      "url": "https://bb.is/2026/11/laxeldi-eldissvaedi-a-vestfjordum/",
-      "outlet": "bb.is",
-      "is_new": true,
-      "sector_tags": [
-        "aquaculture-fish-production"
-      ],
-      "sector_evidence_role": "project_or_sector_context",
-      "sector_subtopics": [
-        "aquaculture-facility-unspecified"
-      ]
-    },
-    {
-      "id": "news:bb:isafjardarbaer-bergros-hjalmarsdottir-radin-skipulags-og-umhverfisfulltrui",
-      "lane": "news",
-      "category": "investment",
-      "title": "Ísafjarðarbær – Bergrós Hjálmarsdóttir ráðin skipulags- og umhverfisfulltrúi",
-      "entity": "bb.is",
-      "date": "2026-11-11",
-      "summary": "Bergrós Hjálmarsdóttir hefur verið ráðin sem skipulags- og umhverfisfulltrúi hjá Ísafjarðarbæ og hefur þegar hafið störf. Bergrós er menntuð í byggingafræði frá Háskólanum í Reykjavík. Hún kemur til Ísafjarðarbæjar frá Verði tryggingafélagi, þar sem hún hefur undanfarin ár starfað við tjónamat fasteigna. Hún hefur einnig reynslu af sölu fasteigna, samningag...",
-      "url": "https://bb.is/2026/11/isafjardarbaer-bergros-hjalmarsdottir-radin-skipulags-og-umhverfisfulltrui/",
-      "outlet": "bb.is",
-      "is_new": true,
-      "sector_tags": []
-    },
-    {
-      "id": "news:bb:arneshreppur-skipulagsbreytingar-vegna-hvalarvirkjunar",
-      "lane": "news",
-      "category": "investment",
-      "title": "Árneshreppur: skipulagsbreytingar vegna Hvalárvirkjunar",
-      "entity": "bb.is",
-      "date": "2026-11-11",
-      "summary": "Hreppsnefnd Árneshrepps samþykkti í byrjun október breytingar á aðalskipulagi sveitarfélagins 2005–2025 vegna jarðstrengs frá Melum í Trékyllisvík að Hvalá og lagfæringa á Ófeigsfjarðarvegi, með þeim breytingum og lagfæringum sem gerðar voru í kjölfar umsagna og athugasemda sem bárust. Þá samþykkti sveitarstjórnin einnig breytingu á deiliskipulagi Hvalárvir...",
-      "url": "https://bb.is/2026/11/arneshreppur-skipulagsbreytingar-vegna-hvalarvirkjunar/",
-      "outlet": "bb.is",
-      "is_new": true,
-      "sector_tags": []
+      "source": "heimildin",
+      "is_new": false,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-11",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:ottast-aukid-alag-a-austurbakka-gullfoss-vegna-fyrirhugadrar-gjaldtoku",
@@ -732,8 +1149,21 @@
       "summary": "Sveitarstjórn Hrunamannahrepps segir vísbendingar um að ferðaþjónustuaðilar skipuleggi nú að færa skipulagðar ferðir yfir á austurbakka Hvítár við Gullfoss þar sem ekki er áætlað að koma á gjaldtöku.",
       "url": "https://www.visir.is/g/20262960904d/ottast-aukid-alag-a-austurbakka-gullfoss-vegna-fyrirhugadrar-gjaldtoku",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-10",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:framkvaemdastjorum-faekkar-hja-reitum",
@@ -745,8 +1175,21 @@
       "summary": "Framkvæmdastjórum hjá fasteignafélaginu Reitir fækkar eftir að Jón Kolbeinn Guðjónsson, framkvæmdastjóri framkvæmdasviðs, óskaði eftir því að láta af störfum. Tvö svið verða sameinuð vegna þessa.",
       "url": "https://www.visir.is/g/20262961275d/framkvaemdastjorum-faekkar-hja-reitum",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-10",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:bein-utsending-kynning-vegna-hlutafjarutbods-blaa-lonsins",
@@ -758,8 +1201,21 @@
       "summary": "Hlutafjárútboð Bláa lónsins hf. hefst í dag og stendur frá klukkan 10 í dag til klukkan 16 á föstudag. Útboðið mun skiptast í tvær áskriftarbækur og í annarri þeirra verður fast verð 95 krónur á hlut en í hinni verður lágmarksverðið 95 krónur.",
       "url": "https://www.visir.is/g/20262960887d/bein-utsending-kynning-vegna-hlutafjarutbods-blaa-lonsins",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-10",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-innherji:spa-tvo-foldun-rekstrar-hagnadar-og-meta-blaa-lonid-langt-yfir-ut-bods-gengi",
@@ -771,21 +1227,21 @@
       "summary": "Spá tvöföldun rekstrarhagnaðar og meta Bláa lónið langt yfir útboðsgengi",
       "url": "https://www.visir.is/g/20262961075d/spa-tvo-foldun-rekstrar-hagnadar-og-meta-blaa-lonid-langt-yfir-ut-bods-gengi",
       "outlet": "visir.is / Innherji",
+      "source": "visir-innherji",
       "is_new": false,
-      "sector_tags": []
-    },
-    {
-      "id": "news:ruv-innlent-rss:2026-11-10-vilja-auka-hlutafe-blaa-lonsins-hf-um-14-milljarda-492320",
-      "lane": "news",
-      "category": "investment",
-      "title": "Vilja auka hlutafé Bláa Lónsins hf. um 14 milljarða",
-      "entity": "ruv.is / innlent",
-      "date": "2026-11-10",
-      "summary": "Hlutafjárútboð Bláa Lónsins hf. hófst í morgun og stendur til föstudags. Sigríður Margrét Oddsdóttir, forstjóri félagsins, segir að til standi að sækja rúmlega 14 milljarða í nýtt hlutafé. Núverandi hluthafar eru ekki að selja sína hluti heldur er verið að sækja nýtt hlutafé. Viðskipti hefjast með félagið í Kauphöllinni 20. nóvember. Umfangsmikil uppbygging...",
-      "url": "https://www.ruv.is/frettir/innlent/2026-11-10-vilja-auka-hlutafe-blaa-lonsins-hf-um-14-milljarda-492320/",
-      "outlet": "ruv.is / innlent",
-      "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-10",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:istak:umfangsmiklar-framkvmdir-fyrir-borealis-data-center-a-blonduosi",
@@ -797,11 +1253,24 @@
       "summary": "Á Blönduósi er í mörg horn að líta þessa dagana. Ístak vinnur þar að umfangsmiklum uppbyggingarverkefnum fyrir Borealis Data Center og gegnir hlutverki stýriverktaka á svæðinu. Í því felst að halda utan um fjölmarga verktaka og faggreinar og tryggja góða samhæfingu allra sem að framkvæmdunum koma. Stærsta verkefnið er bygging nýs 7.600 m² gagnavers. Jarðvin...",
       "url": "https://www.istak.is/umfangsmiklar-framkvmdir-fyrir-borealis-data-center-a-blonduosi",
       "outlet": "ÍSTAK",
+      "source": "istak",
       "is_new": false,
       "sector_tags": [
         "datacentres-infrastructure"
       ],
-      "sector_evidence_role": "project_or_sector_context"
+      "sector_evidence_role": "project_or_sector_context",
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": true,
+        "project_eligible": true,
+        "eligibility_reason": "eligible_project_context",
+        "current_dated_signal": true,
+        "source_date": "2026-11-10",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:istak:grunnskolinn-i-nuuk-skoli-arsins-2026",
@@ -813,8 +1282,21 @@
       "summary": "Atuarfik Inussuk í Nuuk valinn skólabygging ársins 2026 í Danmörku. Við hjá Ístaki erum afar stolt að segja frá því að Atuarfik Inussuk nýr grunnskóli í Nuuk hlaut bæði verðlaun almennings og fagfólks í árlegri keppni Nohrcon um skólabyggingu ársins 2026. Skólinn er hannaður fyrir allt að 1.300 börn og er glæsilegt dæmi um hvernig bygging getur sameinað nám...",
       "url": "https://www.istak.is/grunnskolinn-i-nuuk-skoli-arsins-2026",
       "outlet": "ÍSTAK",
+      "source": "istak",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-10",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-laki-med-laegsta-tilbod-i-nytt-hjukru",
@@ -826,8 +1308,21 @@
       "summary": "Laki með lægsta tilboð í nýtt hjúkrunarheimili í Mosfellsbæ – sex tilboð bárust Sex tilboð bárust Framkvæmdasýslunni – Ríkiseignum (FSRE) í útboði á nýju hjúkrunarheimili í Mosfellsbæ, sem byggja á samkvæmt leiguleið. Laki ehf. átti lægsta tilboðið, sem hljóðaði upp á tæplega 23,7 milljónir króna í mánaðarlega leigu. Hæsta tilboðið nam 32,5 milljónum króna....",
       "url": "https://byggingar.is/laki-med-laegsta-tilbod-i-nytt-hjukrunarheimili-i-mosfellsbae-sex-tilbod-barust/?utm_source=rss&utm_medium=rss&utm_campaign=laki-med-laegsta-tilbod-i-nytt-hjukrunarheimili-i-mosfellsbae-sex-tilbod-barust",
       "outlet": "byggingar.is / niðurstöður útboða",
+      "source": "byggingar-utbod",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-10",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:byggingar-contracts:utm-source-rss-utm-medium-rss-utm-campaign-rafal-ehf-med-laegsta-tilbod-i-vidhal",
@@ -839,60 +1334,21 @@
       "summary": "Rafal ehf. með lægsta tilboð í viðhald gatnalýsingar í Garðabæ Bæjarráð Garðabæjar samþykkti á fundi sínum þriðjudaginn 10. nóvember að taka tilboði Rafals ehf. í þjónustu og viðhald gatnalýsingar í Garðabæ á árunum 2027–2030. Tilboð fyrirtækisins hljóðaði upp á 80,4 milljónir króna og var rúmum 40 milljónum króna, eða 33,25%, undir kostnaðaráætlun verkkaup...",
       "url": "https://byggingar.is/rafal-ehf-med-laegsta-tilbod-i-vidhald-gatnalysingar-i-gardabae/?utm_source=rss&utm_medium=rss&utm_campaign=rafal-ehf-med-laegsta-tilbod-i-vidhald-gatnalysingar-i-gardabae",
       "outlet": "byggingar.is / undirritun samninga",
+      "source": "byggingar-contracts",
       "is_new": false,
-      "sector_tags": []
-    },
-    {
-      "id": "news:braggi:tillaga-um-lagningu-ljosleidara-i-tungudal-i-skutulsfirdi",
-      "lane": "news",
-      "category": "investment",
-      "title": "Tillaga um lagningu ljósleiðara í Tungudal í Skutulsfirði",
-      "entity": "braggi.is",
-      "date": "2026-11-10",
-      "summary": "Skipulags- og mannvirkjanefnd Ísafjarðarbæjar leggur til við bæjarstjórn að heimiluð verði lagning ljósleiðara í Tungudal í Skutulsfirði. Nefndin telur framkvæmdina vera óverulega miðað við fyrirliggjandi gögn.",
-      "url": "https://braggi.is/tillaga-um-lagningu-ljosleidara-i-tungudal-i-skutulsfirdi/",
-      "outlet": "braggi.is",
-      "is_new": false,
-      "sector_tags": []
-    },
-    {
-      "id": "news:braggi:tillaga-um-heimild-til-ad-hefja-vinnu-vid-deiliskipulagslysingu-i-breidadal-i-is",
-      "lane": "news",
-      "category": "investment",
-      "title": "Tillaga um heimild til að hefja vinnu við deiliskipulagslýsingu í Breiðadal í Ísafjarðarbæ",
-      "entity": "braggi.is",
-      "date": "2026-11-10",
-      "summary": "Skipulags- og mannvirkjanefnd Ísafjarðarbæjar leggur til að bæjarstjórn heimili landeiganda að hefja vinnu við gerð deiliskipulagslýsingar í Breiðadal. Tillagan er samkvæmt 38. grein skipulagslaga nr. 123/2010. Nefndin samþykkti einnig ósk um endursk",
-      "url": "https://braggi.is/tillaga-um-heimild-til-ad-hefja-vinnu-vid-deiliskipulagslysingu-i-breidadal-i-is/",
-      "outlet": "braggi.is",
-      "is_new": false,
-      "sector_tags": []
-    },
-    {
-      "id": "news:braggi:stadfesta-breytingu-a-skipulagi-galtarlaekjar",
-      "lane": "news",
-      "category": "investment",
-      "title": "Staðfesta breytingu á skipulagi Galtarlækjar",
-      "entity": "braggi.is",
-      "date": "2026-11-10",
-      "summary": "Húsnæðis-, mannvirkja- og skipulagsstofnun hefur staðfest breytingu á aðalskipulagi Hvalfjarðarsveitar sem gerir ráð fyrir nýju hafnarsvæði og stækkun athafnasvæðis í landi Galtarlækjar. Skipulagsbreytingin nær yfir rúmlega 100 hektara svæði í svei",
-      "url": "https://braggi.is/stadfesta-breytingu-a-skipulagi-galtarlaekjar/",
-      "outlet": "braggi.is",
-      "is_new": false,
-      "sector_tags": []
-    },
-    {
-      "id": "news:braggi:kh-kopavogsbaer-framkvaemdir-hefjast-vid-nyjan-is-476293",
-      "lane": "news",
-      "category": "investment",
-      "title": "Kópavogsbær: Framkvæmdir hefjast við nýjan Ísaksskóla og leikskóla í Naustavör",
-      "entity": "braggi.is",
-      "date": "2026-11-10",
-      "summary": "Fjárhagsáætlun Kópavogsbæjar fyrir árið 2027 gerir ráð fyrir umfangsmiklum innviðafjárfestingum, þar á meðal uppbyggingu nýs Ísaksskóla og leikskóla í Naustavör. Áætlunin var lögð fram til fyrri umræðu í bæjarstjórn í dag.",
-      "url": "https://braggi.is/kh-kopavogsbaer-framkvaemdir-hefjast-vid-nyjan-is-476293/",
-      "outlet": "braggi.is",
-      "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-10",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:uthluta-ekki-meira-rafmagni-til-nyrra-gagnavera",
@@ -904,11 +1360,24 @@
       "summary": "Statnett, norska mun ekki úthluta meira afli til gagnavera að svo stöddu. Aðgerðin er nauðsynleg til að tryggja eðlilegan rekstur raforkukerfisins, skrifar fyrirtækið. Statnett tilkynnti um aðgerðina í morgun en fram kemur í tilkynningu að stöðvunin muni standa til í síðasta lagi 27. ágúst.",
       "url": "https://www.visir.is/g/20262960250d/uthluta-ekki-meira-rafmagni-til-nyrra-gagnavera",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
       "sector_tags": [
         "datacentres-infrastructure"
       ],
-      "sector_evidence_role": "project_or_sector_context"
+      "sector_evidence_role": "project_or_sector_context",
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": true,
+        "project_eligible": false,
+        "eligibility_reason": "iceland_project_not_verified",
+        "current_dated_signal": false,
+        "source_date": "2026-11-09",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:stadfesta-fravisun-a-mali-alcoa",
@@ -920,8 +1389,21 @@
       "summary": "Landsréttur staðfesti í dag frávísun Héraðsdóms á skaðabótamáli Alcoa Fjarðaráls á hendur Eimskip og Samskipum vegna samráðs fyrirtækjanna á árunum 2008 til 2013.",
       "url": "https://www.visir.is/g/20262960742d/stadfesta-fravisun-a-mali-alcoa",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-09",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:se-sma-eins-og-ad-bera-saman-epli-og-appelsinur",
@@ -933,8 +1415,21 @@
       "summary": "Forstöðumaður á mörkuðum hjá Arion banka vísar ásökunum um að íslenskir sjóðir okri á fjárfestum á bug. Samanburður á virkri sjóðsstýringu við vísitölusjóði sé líkt og að bera saman epli og appelsínur.",
       "url": "https://www.visir.is/g/20262960407d/se-sma-eins-og-ad-bera-saman-epli-og-appelsinur",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-09",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:heimildin:trump-hafnar-urslitum-thingkosninganna",
@@ -946,8 +1441,21 @@
       "summary": "Trump hafnar úrslitum þing­kosn­ing­anna Donald Trump sakar kosn­inga­yf­ir­völd um svik án þess að leggja fram gögn, eftir að demókratar náðu meiri­hluta í báðum deildum Banda­ríkja­þings.",
       "url": "https://heimildin.is/grein/70571/trump-hafnar-urslitum-thingkosninganna/",
       "outlet": "heimildin.is",
+      "source": "heimildin",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-09",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:byggingar-borgarlina:utm-source-rss-utm-medium-rss-utm-campaign-byggja-innvidi-borgarlinunnar",
@@ -959,8 +1467,21 @@
       "summary": "Byggja innviði borgarlínunnar Nú er að hefjast annar áfangi framkvæmda við uppbyggingu innviða við Nauthólsveg og Háskólann í Reykjavík (HR). Verkið er hluti af borgarlínu og felur í sér breytingar á götusniði Nauthólsvegar, Menntavegar og Menntasveigs ásamt gatnamótum og tengingum á svæðinu. Sérrými fyrir almenningssamgöngur verður komið fyrir í miðju, aðs...",
       "url": "https://byggingar.is/byggja-innvidi-borgarlinunnar/?utm_source=rss&utm_medium=rss&utm_campaign=byggja-innvidi-borgarlinunnar",
       "outlet": "byggingar.is / Borgarlína",
+      "source": "byggingar-borgarlina",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-09",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:islenski-neytandinn-alltaf-mjog-hraustur-i-kringum-jol",
@@ -972,8 +1493,21 @@
       "summary": "Benedikt S. Benediktsson framkvæmdastjóri Samtaka verslunar og þjónustu segir verslun fara vel af stað í aðdraganda jóla. Þrír stórir afsláttardagar eru í nóvember og sá fyrsti næsta miðvikudag. Hann á ekki von á því að háir vextir og verðlag hafi áhrif á jólaverslun, Íslendingar haldi yfirleitt stór og góð jól og spari í öðru en því.",
       "url": "https://www.visir.is/g/20262959299d/islenski-neytandinn-alltaf-mjog-hraustur-i-kringum-jol",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-08",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:hrunkynslodin-og-retta-hillan-framkvaemdastjorinn-sem-fekk-ekki-einu-sinni-vinnu",
@@ -985,8 +1519,21 @@
       "summary": "„Ég er almennur starfsmaður fyrsta, annan og þriðja október. Fjórði og fimmti eru helgi. Og sjötti október er Guð blessi Ísland dagurinn,“ segir Birgir Viðarsson, framkvæmdastjóri sölu og ráðgjafar hjá Sjóvá.",
       "url": "https://www.visir.is/g/20262959454d/hrunkynslodin-og-retta-hillan-framkvaemdastjorinn-sem-fekk-ekki-einu-sinni-vinnu-vid-ad-daela-bjor",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-08",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:ekkert-edlilegt-vid-ha-gjold-islenskra-sjoda",
@@ -998,21 +1545,21 @@
       "summary": "Prófessor við Viðskiptafræðideild furðar sig á því hve lítið er fjallað um árlegan kostnað sem fylgir fjárfestingum í hinum ýmsu sjóðum hér á landi. Kostnaðurinn sé ívið hærri á Íslandi en hjá öðrum samanburðarlöndum. Lítil þúfa velti þungu hlassi.",
       "url": "https://www.visir.is/g/20262958837d/ekkert-edlilegt-vid-ha-gjold-islenskra-sjoda",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
-    },
-    {
-      "id": "news:heimildin:vidsnuningur-med-studningi-orkuveitunnar",
-      "lane": "news",
-      "category": "project",
-      "title": "Við­snún­ingur með stuðn­ingi Orku­veit­unnar Gert er ráð fyrir auknum arði frá Orku­veit­unni í fjár­hags­á­ætlun Reykja­vík­ur­borgar fyrir næsta ár. Treyst er á að verð­bólga o...",
-      "entity": "heimildin.is",
-      "date": "2026-11-08",
-      "summary": "Við­snún­ingur með stuðn­ingi Orku­veit­unnar Gert er ráð fyrir auknum arði frá Orku­veit­unni í fjár­hags­á­ætlun Reykja­vík­ur­borgar fyrir næsta ár. Treyst er á að verð­bólga og vextir reyn­ist hag­stæð­ari á nýju ári.",
-      "url": "https://heimildin.is/grein/70475/vidsnuningur-med-studningi-orkuveitunnar/",
-      "outlet": "heimildin.is",
-      "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-08",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:bloskrar-hvad-thetta-er-yfirgengilega-dyrt-a-islandi",
@@ -1024,8 +1571,21 @@
       "summary": "„Þegar það kemur að fjárfestingum á Íslandi þá er verið að okra þar. Það er líklega versta dæmið innan bankakerfisins. Þetta er svolítið eins og með gengisálag. Þú fattar þetta ekki. Þú kaupir bara í einhverjum sjóði svo færðu kannski að meðaltali tveggja prósenta raunávöxtun árlega og þú vissir ekki að þú hefðir fengið miklu meira ef það væri ekki verið að...",
       "url": "https://www.visir.is/g/20262958856d/-bloskrar-hvad-thetta-er-yfirgengilega-dyrt-a-islandi-",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-07",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-innherji:almenningur-hefur-brugdist-stjorn-landsvirkjunar-og-carbfix",
@@ -1037,8 +1597,21 @@
       "summary": "Al­menningur hefur brugðist stjórn Lands­virkjunar og Car­b­fix Innherji",
       "url": "https://www.visir.is/g/20262959648d/almenningur-hefur-brugdist-stjorn-landsvirkjunar-og-carbfix",
       "outlet": "visir.is / Innherji",
+      "source": "visir-innherji",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-07",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:hlutur-i-blaa-loninu-til-solu-a-95-kronur",
@@ -1050,8 +1623,21 @@
       "summary": "Hlutafjárútboð Bláa lónsins hf. hefst þriðjudaginn 10. nóvember. Það mun skiptast í tvær áskriftarbækur og í annarri þeirra verður fast verð 95 krónur á hlut en í hinni verður lágmarksverðið 95 krónur.",
       "url": "https://www.visir.is/g/20262959208d/hlutur-i-blaa-loninu-til-solu-a-95-kronur",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-06",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:ekki-fundad-i-tvaer-vikur-eftir-bakslag",
@@ -1063,8 +1649,21 @@
       "summary": "Um tvær vikur eru liðnar frá síðasta samningafundi flugmanna og Icelandair. Viðræðurnar stranda einkum á launum og áformum Icelandair á Möltu. Í kjaradeilu flugvirkja hefur hins vegar verið boðað til nýs fundar eftir helgi.",
       "url": "https://www.visir.is/g/20262959338d/ekki-fundad-i-tvaer-vikur-eftir-bakslag",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-06",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:ekkert-i-samningum-vid-tonleikahusin-sem-utiloki-adra",
@@ -1076,8 +1675,47 @@
       "summary": "Formaður Félags íslenskra hljómlistarmanna segir að það felist ákveðin viðurkenning í því að Samkeppniseftirlitið hafi beint tilmælum til Tix vegna stöðu þeirra á markaði. Framkvæmdastjóri Tix segist taka ábendingunum alvarlega en bendir á að ekkert í samningum þeirra við stór tónleikahús útiloki aðra frá samkeppninni.",
       "url": "https://www.visir.is/g/20262959348d/ekkert-i-samningum-vid-tonleikahusin-sem-utiloki-adra",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-06",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:reykjavik:orkuskipti-skila-arangri",
+      "lane": "news",
+      "category": "project",
+      "title": "Orkuskipti skila árangri",
+      "entity": "Reykjavíkurborg",
+      "date": "2026-11-06",
+      "summary": "Orkuskipti skila árangri",
+      "url": "https://reykjavik.is/frettir/2026/orkuskipti-skila-arangri",
+      "outlet": "Reykjavíkurborg",
+      "source": "reykjavik",
+      "is_new": false,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-06",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:nyr-framkvaemdastjori-island-duty-free-radinn-en-ekki-nafngreindur",
@@ -1089,8 +1727,21 @@
       "summary": "Framkvæmdastjórn Ísland Duty Free er nú að fullu endurskipulögð. Liam Grundy mun láta af störfum sem framkvæmdastjóri vorið 2027 og hefur nýr framkvæmdastjóri verið ráðinn, að því er segir í tilkynningu frá Heinemann. Ekki kemur þó fram hver nýr framkvæmdastjóri er.",
       "url": "https://www.visir.is/g/20262958751d/nyr-framkvaemdastjori-island-duty-free-radinn-en-ekki-nafngreindur",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-05",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:niu-stodugildi-logd-nidur-hja-fenris-creations",
@@ -1102,8 +1753,21 @@
       "summary": "Níu stöðugildi voru lögð niður hjá Fenris Creations í kjölfar endurskoðunar á skipulagi við þróun á leiknum Eve Frontier. Í skriflegu svari til fréttastofu segir Eyrún Jónsdóttir, framkvæmdastjóri leikjaútgáfu Fenris, það ekki hafa áhrif á fleiri leiki eða starfsemi Fenris.",
       "url": "https://www.visir.is/g/20262958694d/niu-stodugildi-logd-nidur-hja-fenris-creations",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-05",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:mesta-sjokkid-kemur-thegar-vid-afhendum-lyklana",
@@ -1115,8 +1779,21 @@
       "summary": "Fjölskyldan sem hefur rekið Fjarðakaup í meira en hálfa öld gekk frá sölu verslunarinnar í vikunni. Það er greinilegt að búðin á hvert bein í eigendum, viðskiptavinum og starfsfólki sem á allt að 35 ára starfsferil þar. Framkvæmdastjórinn býst við að sjokkið komi þegar hann gengur út en ætlar að taka lopapeysu eftir móður sína með sér.",
       "url": "https://www.visir.is/g/20262958335d/-mesta-sjokkid-kemur-thegar-vid-afhendum-lyklana-",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-05",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:loa-bara-fra-origo-til-50skills",
@@ -1128,8 +1805,21 @@
       "summary": "Íslenska tæknifyrirtækið 50skills hefur ráðið Lóu Báru Magnúsdóttur sem leiðtoga erlendra markaða. Lóa Bára kemur frá Origo þar sem hún gegndi stöðu framkvæmdastjóra sölu og markaðsmála undanfarin fimm ár. Ráðningin er sögð liður í áframhaldandi uppbyggingu félagsins í kjölfar nýrrar fjármögnunar frá erlendum fjárfestum.",
       "url": "https://www.visir.is/g/20262958809d/loa-bara-fra-origo-til-50skills",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-05",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "landbasedaq:72088bd2ea97966b52",
@@ -1146,7 +1836,19 @@
       "evidence_kind": "secondary_trade_press",
       "project_learning_eligible": false,
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-05",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "first-water:749b51893ef4566af0",
@@ -1167,6 +1869,18 @@
         "aquaculture-fish-production"
       ],
       "sector_evidence_role": "project_or_sector_context",
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": true,
+        "project_eligible": true,
+        "eligibility_reason": "eligible_project_context",
+        "current_dated_signal": false,
+        "source_date": "2026-11-05",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
       "sector_subtopics": [
         "land-based-aquaculture"
       ]
@@ -1181,8 +1895,21 @@
       "summary": "Reitir hafa fallið frá samstarfi við Art-verk um byggingu 140 rýma hjúkrunarheimilis á Akureyri. Jarðvinna stendur yfir og Reitir munu leita til annarra aðila um framhald verkefnisins.",
       "url": "https://www.visir.is/g/20262958521d/reitir-fellu-fra-samstarfi-vid-art-verk",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-04",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:konfektmolarnir-syna-hvad-litil-breyting-getur-gert",
@@ -1194,8 +1921,21 @@
       "summary": "Nói Síríus hlaut hvatningarverðlaun Creditinfo og Festu á sviði sjálfbærni árið 2026 fyrir markvisst starf að félagslegri sjálfbærni. Með aðlögun verkefna, þjálfunar og vinnuumhverfis að þörfum einstaklinga með frábrugðna starfsorku hefur fyrirtækið skapað varanleg störf innan hefðbundinnar framleiðslu.",
       "url": "https://www.visir.is/g/20262957921d/konfektmolarnir-syna-hvad-litil-breyting-getur-gert",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-04",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:forstjori-og-stjornarformadur-kvedja-iav",
@@ -1207,8 +1947,21 @@
       "summary": "Þóroddur Ottesen Arnarson forstjóri og Sigurður Ragnarsson stjórnarformaður Íslenskra aðalverktaka láta senn af störfum hjá verktakafyrirtækinu eftir margra ára starf. Við báðum hlutverkum tekur framkvæmdastjóri hjá móðurfélagi Íslenskra aðalverktaka.",
       "url": "https://www.visir.is/g/20262958239d/forstjori-og-stjornarformadur-kvedja-iav",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-04",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:bjarni-benediktsson-eftirsoknarvert-ad-vera-i-thessum-hopi",
@@ -1220,8 +1973,21 @@
       "summary": "„Það sem ég kann að meta við þessa viðurkenningu er að það dugar ekki að skila góðum hagnaði í eitt ár,“ segir Bjarni Benediktsson, framkvæmdastjóri Samtaka atvinnulífsins, sem var heiðursgestur þegar Creditinfo veitti framúrskarandi fyrirtækjum viðurkenningu í Hörpu miðvikudaginn 28. október. Tæplega 1.220 fyrirtæki komust á listann í ár, samanborið við 1....",
       "url": "https://www.visir.is/g/20262957922d/bjarni-benediktsson-eftirsoknarvert-ad-vera-i-thessum-hopi-",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-04",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:arion-segir-unnid-ad-lausn-vegna-hotelturnsins",
@@ -1233,11 +1999,24 @@
       "summary": "Arion banki segir unnið að lausn vegna hótelverkefnisins við Skúlagötu í Reykjavík eftir að framkvæmdir voru stöðvaðar fyrr í vikunni. Félagið sem á bygginguna skuldaði rúma tíu milljarða króna um síðustu áramót.",
       "url": "https://www.visir.is/g/20262958306d/arion-segir-unnid-ad-lausn-vegna-hotelturnsins",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
       "sector_tags": [
         "tourism-infrastructure"
       ],
-      "sector_evidence_role": "project_or_sector_context"
+      "sector_evidence_role": "project_or_sector_context",
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": true,
+        "project_eligible": true,
+        "eligibility_reason": "eligible_project_context",
+        "current_dated_signal": false,
+        "source_date": "2026-11-04",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:uppbygging-umdeilds-hotels-i-uppnami",
@@ -1249,11 +2028,24 @@
       "summary": "Uppbygging sautján hæða hótelturns Radisson Red við Skúlagötu er sögð í uppnámi eftir að verktakar voru óvænt sendir heim í gær og byggingarsvæðinu lokað. Banki er sagður hafa lokað fyrir greiðslur til framkvæmdafyrirtækisins.",
       "url": "https://www.visir.is/g/20262957999d/uppbygging-umdeilds-hotels-i-uppnami",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
       "sector_tags": [
         "tourism-infrastructure"
       ],
-      "sector_evidence_role": "project_or_sector_context"
+      "sector_evidence_role": "project_or_sector_context",
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": true,
+        "project_eligible": false,
+        "eligibility_reason": "iceland_project_not_verified",
+        "current_dated_signal": false,
+        "source_date": "2026-11-03",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:karl-wernersson-opnar-sig",
@@ -1265,8 +2057,21 @@
       "summary": "Karl Wernersson hefur boðað vini sína og vandamenn á fund á morgun. Þar mun Karl fara yfir sögu sína frá því að fjárfestingarfélagið Milestone var úrskurðað gjaldþrota árið 2009, fyrir 17 árum síðan. Fjölmiðlum er einnig boðið á fundinn.",
       "url": "https://www.visir.is/g/20262957810d/karl-wernersson-opnar-sig",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-03",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:roar-ahyggjufulla-hafnfirdinga",
@@ -1278,8 +2083,21 @@
       "summary": "Hafnfirðingar þurfa ekki að óttast að Fjarðarkaup muni brátt heyra sögunni til eftir kaup Samkaupa á rekstri þessarar sögufrægu verslunar í Hafnarfirði. Forstjóri Dranga móðurfélags Samkaupa segir þvert á móti margt að læra af hafnfirsku versluninni.",
       "url": "https://www.visir.is/g/20262957092d/roar-ahyggjufulla-hafnfirdinga",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-02",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:radinn-forstjori-elkem-a-islandi",
@@ -1291,8 +2109,21 @@
       "summary": "Örvar Sveinsson hefur verið ráðinn nýr forstjóri Elkem á Íslandi.",
       "url": "https://www.visir.is/g/20262957131d/radinn-forstjori-elkem-a-islandi",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-02",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:ord-andra-snaes-um-apaheila-daemi-sig-sjalf",
@@ -1304,8 +2135,21 @@
       "summary": "Ragnar Sigurður Kristjánsson hagfræðingur Viðskiptaráðs segir orð Andra Snæs Magnasonar, um að Viðskiptaráð séu apaheilar, dæmi sig sjálf en það sagði Andri Snær um nýja skýrslu ráðsins þar sem lagt er til að rammaáætlun verði lögð niður svo hægt verði að tvöfalda orkuframleiðslu.",
       "url": "https://www.visir.is/g/20262957013d/ord-andra-snaes-um-apaheila-daemi-sig-sjalf",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-02",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:blaa-lonid-ma-kaupa-annan-ferdathjonusturisa",
@@ -1317,8 +2161,47 @@
       "summary": "Samkeppniseftirlitið hefur heimilað kaup Bláa lónsins hf. á Arctic Adventures hf. án skilyrða. Með samþykkinu er eina eftirstandandi fyrirvara í kaupsamningi félaganna aflétt og er gert ráð fyrir að lokið verði við kaupin á næstu vikum.",
       "url": "https://www.visir.is/g/20262957262d/blaa-lonid-ma-kaupa-annan-ferdathjonusturisa",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-02",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:fsre:deigla-leitad-ad-husnaedi-fyrir-sameiginlega-starfsadstoedu-rikisstofnana",
+      "lane": "news",
+      "category": "project",
+      "title": "2. nóvember 2026 Deigla: Leitað að húsnæði fyrir sameiginlega starfsaðstöðu ríkisstofnana Framkvæmdasýslan – Ríkiseignir (FSRE) stendur fyrir markaðskönnun vegna ...",
+      "entity": "FSRE",
+      "date": "2026-11-02",
+      "summary": "2. nóvember 2026 Deigla: Leitað að húsnæði fyrir sameiginlega starfsaðstöðu ríkisstofnana Framkvæmdasýslan – Ríkiseignir (FSRE) stendur fyrir markaðskönnun vegna ...",
+      "url": "https://island.is/s/fsre/frett/deigla-leitad-ad-husnaedi-fyrir-sameiginlega-starfsadstoedu-rikisstofnana",
+      "outlet": "FSRE",
+      "source": "fsre",
+      "is_new": false,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-02",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:eg-stend-hins-vegar-fost-a-minu-enda-sofna-eg-alltaf-a-mig",
@@ -1330,8 +2213,21 @@
       "summary": "Ólöf Helga Jónsdóttir, framkvæmdastjóri mannauðs- og stoðsviða hjá Kaldvík, segir orðatiltækið sitt „að sofna á sig“ umdeilt á heimilinu en stendur föst á sínu. Undanfarið hefur fjölskyldan átt notalegar stundir við eldhúsvaskinn á morgnana.",
       "url": "https://www.visir.is/g/20262956148d/-eg-stend-hins-vegar-fost-a-minu-enda-sofna-eg-alltaf-a-mig-",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-31",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:getur-ekki-lengur-orda-bundist",
@@ -1343,8 +2239,21 @@
       "summary": "Hörður Arnarson, sem nýlega lét af störfum sem forstjóri Landsvirkjunar, vill að fyrirkomulag Samkeppniseftirlitsins verði endurskoðað í lögum. Hann telur að skýra þurfi betur aðskilnað rannsóknar, málsóknar og ákvörðunar um brot og viðurlög. Þetta kemur fram í aðsendri grein hans í Morgunblaðinu þar sem hann gagnrýnir vinnubrögð Samkeppniseftirlitsins í má...",
       "url": "https://www.visir.is/g/20262955929d/getur-ekki-lengur-orda-bundist",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-30",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:gangast-i-abyrgd-fyrir-3-4-milljarda-krona-lani",
@@ -1356,8 +2265,21 @@
       "summary": "Austur Holding AS hyggst, með fyrirvara um endanlega samningsgerð, veita ábyrgð að fjárhæð 25 milljónir evra, um það bil 3,4 milljarða króna, vegna lánasamnings Kaldvik AS við lánveitendur sína. Ísfélag hf. er 43,4 prósenta hluthafi í Austur Holding AS. Kaldvík stefnir á stóra hlutafjáraukningu á yfirstandandi ársfjórðungi.",
       "url": "https://www.visir.is/g/20262955891d/gangast-i-abyrgd-fyrir-3-4-milljarda-krona-lani",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-30",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:blaa-lonid-a-markad-i-november",
@@ -1369,8 +2291,21 @@
       "summary": "Á hluthafafundi Bláa Lónsins hf. í dag var formlega samþykkt að efna til almenns hlutafjárútboðs og óska eftir töku hlutabréfa félagsins til viðskipta á aðalmarkað Nasdaq Iceland. Hluthafar samþykktu einnig kaupréttaráætlun fyrir allt fastráðið starfsfólk samstæðunnar.",
       "url": "https://www.visir.is/g/20262956135d/blaa-lonid-a-markad-i-november",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-30",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-fiskeldi:farsaelt-ferdalag-folks-og-villts-fisks",
@@ -1382,8 +2317,21 @@
       "summary": "Í nýlegri grein sinni, „Farsælt ferðalag fólks og fisks” á visir.is, færir Heiðrún Lind Marteinsdóttir, framkvæmdastjóri SFS, sterk rök fyrir því að sjávarútvegur og ferðaþjónusta styðji hvort annað. Þar erum við sammála, sjávarútvegur og ferðaþjónusta eiga mjög vel saman.",
       "url": "https://www.visir.is/g/20262955924d/farsaelt-ferdalag-folks-og-villts-fisks",
       "outlet": "visir.is / Fiskeldi",
+      "source": "visir-fiskeldi",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-30",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:byggingar-borgarlina:utm-source-rss-utm-medium-rss-utm-campaign-vegagerdin-bydur-ut-honnun-bradabirgd",
@@ -1395,8 +2343,21 @@
       "summary": "Vegagerðin býður út hönnun bráðabirgðatengingar Borgarlínu um Nesbrautarbrú Vegagerðin og Veitur ohf. óska eftir tilboðum í for- og verkhönnun bráðabirgðatengingar Borgarlínu um Nesbrautarbrú í Reykjavík. Verkefnið felur í sér breytingar á núverandi vegstæði, gatnamótum og göngu- og hjólastígum, auk hönnunar Borgarlínuakreina, undirganga og breytinga á veit...",
       "url": "https://byggingar.is/vegagerdin-bydur-ut-honnun-bradabirgdatengingar-borgarlinu-um-nesbrautarbru/?utm_source=rss&utm_medium=rss&utm_campaign=vegagerdin-bydur-ut-honnun-bradabirgdatengingar-borgarlinu-um-nesbrautarbru",
       "outlet": "byggingar.is / Borgarlína",
+      "source": "byggingar-borgarlina",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-30",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:noi-sirius-hlytur-sjalfbaerniverdlaunin-2026",
@@ -1408,8 +2369,21 @@
       "summary": "Nói Síríus hlýtur hvatningarverðlaun Creditinfo og Festu á sviði sjálfbærni árið 2026 fyrir markvisst og árangursríkt starf að félagslegri sjálfbærni. Með því að aðlaga verkefni, þjálfun og vinnuumhverfi að þörfum einstaklinga með frábrugðna starfsorku hefur fyrirtækið skapað varanleg störf innan hefðbundinnar framleiðslu.",
       "url": "https://www.visir.is/g/20262954189d/noi-sirius-hlytur-sjalfbaerniverdlaunin-2026",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-29",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-innherji:arion-telur-byggingarlanasafnid-thola-frekari-verdlaekkanir-og-solutafir",
@@ -1421,8 +2395,21 @@
       "summary": "Hægari sala nýbygginga er ein helsta sértæka áhættan í útlánasafni Arion, sem fjármagnar um 15 til 20 prósent nýrra íbúða sem ætlaðar eru til sölu á markaði, en bankinn telur álagspróf sýna talsvert svigrúm til að mæta bæði sölutöfum og verðlækkunum á íbúðamarkaði. Arion skilaði yfir sextán prósenta arðsemi á þriðja fjórðungi, sem var í samræmi við spár, og...",
       "url": "https://www.visir.is/g/20262955342d/arion-telur-byggingarlanasafnid-thola-frekari-verdlaekkanir-og-solutafir",
       "outlet": "visir.is / Innherji",
+      "source": "visir-innherji",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-29",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:istak:fyrirmyndarfyrirtki-i-rekstri",
@@ -1434,8 +2421,21 @@
       "summary": "Við erum stolt af því að hafa hlotið viðurkenningu um að fyrirtækið sé á meðal 2,6% íslenskra fyrirtækja sem uppfylla ströng skilyrði Viðskiptablaðsins og Keldunnar og er Fyrirmyndarfyrirtæki í rekstri árið 2026.",
       "url": "https://www.istak.is/fyrirmyndarfyrirtki-i-rekstri",
       "outlet": "ÍSTAK",
+      "source": "istak",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-29",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:istak:framurskarandi-fyrirtki",
@@ -1446,8 +2446,21 @@
       "date": "2026-10-29",
       "url": "https://www.istak.is/framurskarandi-fyrirtki",
       "outlet": "ÍSTAK",
+      "source": "istak",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-29",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:sorpa-laetur-sautjan-roa",
@@ -1459,8 +2472,21 @@
       "summary": "Sorpa framkvæmdi í dag uppsagnir í hagræðingarskyni. Samtals var tíu sagt upp, og tímabundnir samningar við sjö verða ekki endurnýjaðir. Starfsmönnum hjá Sorpu fækkar því um 17, eða um sjö prósent af heildarstarfsmannafjölda.",
       "url": "https://www.visir.is/g/20262954947d/sorpa-laetur-sautjan-roa",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-28",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:bodar-samtok-sendla-eftir-fylufund-med-wolt-og-thad-verdur-stort-verkfall",
@@ -1472,8 +2498,21 @@
       "summary": "Wolt-sendlar á Íslandi gengu margir ósáttir af fundi með finnskum stjórnendum fyrirtækisins í dag. Talsmaður sendlanna segir þá hafa búist við því að geta rætt kröfur sínar en þess í stað hafi þeir fengið fyrirlestur um hvernig appið og algrímið virkaði. Hann vinnur nú að því í samstarfi við Eflingu að koma á fót eins konar samtökum Wolt-sendla í von um að....",
       "url": "https://www.visir.is/g/20262955193d/bodar-samtok-sendla-eftir-fylufund-med-wolt-og-thad-verdur-stort-verkfall-",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-28",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-arni-helgason-laegstur-med-4482-millj",
@@ -1485,8 +2524,21 @@
       "summary": "Árni Helgason lægstur með 448,2 milljóna tilboð í Þvergarð á Húsavík Árni Helgason ehf. í Ólafsfirði átti lægsta tilboðið í endurbyggingu og lengingu Þvergarðs á Húsavík. Tilboð fyrirtækisins hljóðaði upp á 448,2 milljónir króna, eða 99,3% af kostnaðaráætlun Vegagerðarinnar. Þrjú tilboð bárust í verkið, sem felur meðal annars í sér umfangsmiklar stálþilsfra...",
       "url": "https://byggingar.is/arni-helgason-laegstur-med-4482-milljona-tilbod-i-thvergard-a-husavik/?utm_source=rss&utm_medium=rss&utm_campaign=arni-helgason-laegstur-med-4482-milljona-tilbod-i-thvergard-a-husavik",
       "outlet": "byggingar.is / niðurstöður útboða",
+      "source": "byggingar-utbod",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-28",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:gudny-helga-tekur-vid-af-haraldi",
@@ -1498,8 +2550,21 @@
       "summary": "Stjórn Skaga hefur samið við Harald I. Þórðarson, forstjóra félagsins, um starfslok en hann mun áfram gegna stjórnarstörfum innan samstæðunnar. Guðný Helga Herbertsdóttir, forstjóri VÍS trygginga, verður æðsti stjórnandi samstæðunnar og mun leiða hana frá og með deginum í dag, samhliða því að stýra áfram VÍS tryggingum.",
       "url": "https://www.visir.is/g/20262954575d/gudny-helga-tekur-vid-af-haraldi",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-27",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:greida-hundrud-milljona-krona-sekt",
@@ -1511,8 +2576,21 @@
       "summary": "Arion banki hefur fallist á að greiða 280 milljóna króna sekt vegna brota á reglum um verðbréfaviðskipti og fjárfestavernd. Bankinn gerði sátt við Fjármálaeftirlit Seðlabankans eftir að í ljós kom að hann hafði ekki tilkynnt um grunsamleg hlutabréfaviðskipti tveggja viðskiptavina á árunum 2022 og 2023, þrátt fyrir skýrar vísbendingar um mögulega markaðsmisn...",
       "url": "https://www.visir.is/g/20262954551d/greida-hundrud-milljona-krona-sekt",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-27",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:gagnrynir-ad-ekkert-boli-a-adgerdum-vardandi-skattlagningu-taeknirisa",
@@ -1524,8 +2602,21 @@
       "summary": "Guðmundur Halldór Björnsson, framkvæmdastjóri sölu- og markaðsmála Sýnar, gagnrýnir í aðsendri grein á Vísi að enn hafi engar aðgerðir verið kynntar um skattlagningu alþjóðlegra tæknifyrirtækja. Hann segir fjölmiðlafyrirtæki verða að geta treyst boðuðum aðgerðum og kallar eftir því að brugðist sé við. Málið er ekki á þingmálaskrá stjórnvalda.",
       "url": "https://www.visir.is/g/20262954113d/gagnrynir-ad-ekkert-boli-a-adgerdum-vardandi-skattlagningu-taeknirisa",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-27",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:bjoda-fjordungi-starfsfolks-microsoft-starfslokasamninga",
@@ -1537,8 +2628,21 @@
       "summary": "Tæknirisinn Microsoft hefur boðið ríflega fjórðungi allra starfsmanna fyrirtækisins starfslokasamninga. Á sama tíma eyðir fyrirtækið hundruðum milljarða dollara í þróun gervigreindartækni.",
       "url": "https://www.visir.is/g/20262954272d/bjoda-fjordungi-starfsfolks-microsoft-starfslokasamninga",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-27",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-innherji:vill-setja-fimmtungshlut-i-landsvirkjun-a-markad-til-ad-lada-ad-erlenda-fjarfest",
@@ -1550,8 +2654,21 @@
       "summary": "Framkvæmdastjóri Birtu lífeyrissjóðs telur að skráning Landsvirkjunar á hlutabréfamarkað og sala á minnihluta í fyrirtækinu gæti laðað erlenda fjárfesta til landsins og gert íslenska markaðinn, sem sé núna „í þriðju deild í ensku“, að álitlegri fjárfestingarkost. Hann segir jafnframt að það sé ekki „góður bragur á því“ að haldnir hafi verið reglulegir óform...",
       "url": "https://www.visir.is/g/20262954592d/vill-setja-fimmtungshlut-i-landsvirkjun-a-markad-til-ad-lada-ad-erlenda-fjarfesta",
       "outlet": "visir.is / Innherji",
+      "source": "visir-innherji",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-27",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-raetur-verktakar-ehf-laegstbjodendur-",
@@ -1563,8 +2680,21 @@
       "summary": "Rætur verktakar ehf. lægstbjóðendur í endurbætur á Múlaborg Rætur verktakar ehf. áttu lægsta tilboðið í endurbætur á þaki, gluggum og klæðningu Múlaborgar í Reykjavík. Tilboð fyrirtækisins hljóðaði upp á 69,1 milljón króna, eða 90,87% af kostnaðaráætlun Reykjavíkurborgar. Alls bárust níu tilboð í verkið og voru þrjú þeirra undir kostnaðaráætlun. Tilboðin vo...",
       "url": "https://byggingar.is/raetur-verktakar-ehf-laegstbjodendur-i-endurbaetur-a-mulaborg/?utm_source=rss&utm_medium=rss&utm_campaign=raetur-verktakar-ehf-laegstbjodendur-i-endurbaetur-a-mulaborg",
       "outlet": "byggingar.is / niðurstöður útboða",
+      "source": "byggingar-utbod",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-27",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:byggingar-contracts:utm-source-rss-utm-medium-rss-utm-campaign-sudurverk-og-fossvelar-fa-468-milljar",
@@ -1576,8 +2706,21 @@
       "summary": "Suðurverk og Fossvélar fá 4,68 milljarða framkvæmd við Kjalarnes Vegagerðin hefur samið við Suðurverk hf. og Fossvélar ehf. um annan áfanga breikkunar Hringvegar á Kjalarnesi. Tilboð fyrirtækjanna hljóðaði upp á 4,68 milljarða króna, eða um 500 milljónum króna undir kostnaðaráætlun. Framkvæmdin nær til 5,6 kílómetra vegarkafla frá Vallá að Hvalfjarðarvegi o...",
       "url": "https://byggingar.is/sudurverk-og-fossvelar-fa-468-milljarda-framkvaemd-vid-kjalarnes/?utm_source=rss&utm_medium=rss&utm_campaign=sudurverk-og-fossvelar-fa-468-milljarda-framkvaemd-vid-kjalarnes",
       "outlet": "byggingar.is / undirritun samninga",
+      "source": "byggingar-contracts",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-27",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:niu-systkini-modir-um-tvitugt-og-simtalid-sem-ekkert-foreldri-vill-fa",
@@ -1589,8 +2732,21 @@
       "summary": "Anna Hildur Björnsdóttir, framkvæmdastjóri mannauðs og menningar hjá Ísland Duty Free, segir lífsreynsluna hiklaust það dýrmætasta sem hún tekur með sér inn í vinnuna. Námið komi manni af stað, en það fleyti manni bara visst langt.",
       "url": "https://www.visir.is/g/20262952556d/niu-systkini-modir-um-tvitugt-og-simtalid-sem-ekkert-foreldri-vill-fa",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-26",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:kaldvik-faer-enn-frekari-frest",
@@ -1602,8 +2758,21 @@
       "summary": "Lánveitendur sjókvíeldisfyrirtækisins Kaldvíkur framlengdu enn frekar frest tímabundinnar undanþágu félagsins frá lánaskilmálum. Stóð til að frestur rynni út í dag en hefur hann verið framlengdur til miðvikudags.",
       "url": "https://www.visir.is/g/20262954057d/kaldvik-faer-enn-frekari-frest",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-26",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:hjukrunarheimili-i-nyherjahusid",
@@ -1615,8 +2784,21 @@
       "summary": "Reitum hefur borist tilkynning frá Framkvæmdasýslunni – Ríkiseignum þess efnis að Borgartún 37 hafi verið valið í markaðskönnun um hjúkrunarheimili á höfuðborgarsvæðinu en mat tilboða byggðist meðal annars á verði, stærð, staðsetningu og öryggi. Húsið hýsti um árabil upplýsingatæknifyrirtækið Nýherja, sem varð síðar að Origo.",
       "url": "https://www.visir.is/g/20262953992d/hjukrunarheimili-i-nyherjahusid",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-26",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:atvr-segir-upp-og-sparar-150-milljonir",
@@ -1628,8 +2810,21 @@
       "summary": "Sviðum ÁTVR verður fækkað um eitt og staða eins framkvæmdastjóra lögð niður, auk þess sem stöðugildum á skrifstofu og í dreifingarmiðstöð verður fækkað um tæplega sex, í hagræðingaraðgerðum. Með þeim er áætlað að spara um 150 milljónir króna á ári.",
       "url": "https://www.visir.is/g/20262953930d/atvr-segir-upp-og-sparar-150-milljonir",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-26",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:byggingar-borgarlina:utm-source-rss-utm-medium-rss-utm-campaign-sjovinnu-vid-fossvogsbru-lokid-bruin-",
@@ -1641,8 +2836,21 @@
       "summary": "Sjóvinnu við Fossvogsbrú lokið – brúin tekur að rísa á næsta ári Mikilvægum áfanga er lokið við smíði Fossvogsbrúar, Öldu, en sjóvinnu við undirstöður og burðarása brúarinnar í Fossvogi er nú lokið á þessu ári. Framkvæmdir við brúna halda áfram á landi og í Póllandi, þar sem unnið er að framleiðslu brúarstöpla og stálvirkis. Stefnt […] The post Sjóvinnu við...",
       "url": "https://byggingar.is/sjovinnu-vid-fossvogsbru-lokid-bruin-tekur-ad-risa-a-naesta-ari/?utm_source=rss&utm_medium=rss&utm_campaign=sjovinnu-vid-fossvogsbru-lokid-bruin-tekur-ad-risa-a-naesta-ari",
       "outlet": "byggingar.is / Borgarlína",
+      "source": "byggingar-borgarlina",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-24",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:fyrsta-konan-sem-kjorin-er-formadur-hafnarsambandsins",
@@ -1654,8 +2862,21 @@
       "summary": "Jóna Árný Þórðardóttir, bæjar- og hafnarstjóri Fjarðabyggðar, var kjörin formaður Hafnarsambands Íslands á ársþingi sambandsins sem lauk í dag. Hún er jafnframt fyrsta konan til að gegna embætti formanns Hafnarsambandsins.",
       "url": "https://www.visir.is/g/20262952767d/fyrsta-konan-sem-kjorin-er-formadur-hafnarsambandsins",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-23",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-th-hanssen-ehf-valid-til-ad-staekka-b",
@@ -1667,8 +2888,21 @@
       "summary": "Þ. Hanssen ehf. valið til að stækka bílastæði við Sundlaug Sauðárkróks Byggðarráð Skagafjarðar hefur samþykkt að fela sviðsstjóra veitu- og framkvæmdasviðs að ganga til samninga við Þ. Hanssen um stækkun bílastæða við Sundlaug Sauðárkróks. Aðeins eitt tilboð barst í verkið og var það 7,4% yfir kostnaðaráætlun. Fjárheimildir vegna framkvæmdarinnar hafa verið...",
       "url": "https://byggingar.is/th-hanssen-ehf-valid-til-ad-staekka-bilastaedi-vid-sundlaug-saudarkroks/?utm_source=rss&utm_medium=rss&utm_campaign=th-hanssen-ehf-valid-til-ad-staekka-bilastaedi-vid-sundlaug-saudarkroks",
       "outlet": "byggingar.is / niðurstöður útboða",
+      "source": "byggingar-utbod",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-23",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:byggingar-borgarlina:utm-source-rss-utm-medium-rss-utm-campaign-grafa-og-grjot-invit-faer-760-milljon",
@@ -1680,8 +2914,21 @@
       "summary": "Grafa og grjót – INVIT fær 760 milljóna framkvæmd við Hlemmtorg Reykjavíkurborg hefur samið við Gröfu og grjót – INVIT ehf. um framkvæmdir við endurgerð Hlemmtorgs og uppbyggingu Borgarlínu um Hlemm. Samningsfjárhæðin nemur 760,3 milljónum króna með virðisaukaskatti. Framkvæmdirnar fela meðal annars í sér gatnagerð, endurnýjun lagna og gerð nýrra torgsvæða....",
       "url": "https://byggingar.is/grafa-og-grjot-invit-faer-760-milljona-framkvaemd-vid-hlemmtorg/?utm_source=rss&utm_medium=rss&utm_campaign=grafa-og-grjot-invit-faer-760-milljona-framkvaemd-vid-hlemmtorg",
       "outlet": "byggingar.is / Borgarlína",
+      "source": "byggingar-borgarlina",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-23",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:leiguverd-laekkar-ad-raunvirdi-og-ovissa-a-fasteignamarkadi",
@@ -1693,8 +2940,21 @@
       "summary": "Leiguverð heldur ekki í við verðbólgu samkvæmt nýrri greiningu HMS og leiguverð því að lækka að raunvirði. Þó virðast fleiri festast á leigumarkaði og mikil óvissa er framundan á fasteignamarkaði, meðal annars vegna vænts samdráttar í íbúðafjárfestingu.",
       "url": "https://www.visir.is/g/20262951907d/leiguverd-laekkar-ad-raunvirdi-og-ovissa-a-fasteignamarkadi",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-22",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:landsvirkjun-og-elkem-semja-til-2039",
@@ -1706,8 +2966,21 @@
       "summary": "Landsvirkjun og Elkem hafa skrifað undir nýjan samning um raforkukaup kísiljárnverksmiðjunnar á Grundartanga.",
       "url": "https://www.visir.is/g/20262952038d/landsvirkjun-og-elkem-semja-til-2039",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-22",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:frafarandi-forstjori-landsvirkjunar-opnar-sig-um-starfslokin",
@@ -1719,24 +2992,21 @@
       "summary": "Það vakti mikla athygli þegar Hörður Arnarson, fráfarandi forstjóri Landsvirkjunar, tilkynnti starfslok sín en hann gaf engin skýr svör við því hvers vegna hann hafi ákveðið að hætta fyrr. Nú hefur hann sagt ágreining sem olli starfslokunum meðal annars tilkominn vegna skorts á umboði og trausti í sinn garð en hann gangi mjög sáttur frá borði og fyrirtækið....",
       "url": "https://www.visir.is/g/20262952366d/frafarandi-forstjori-landsvirkjunar-opnar-sig-um-starfslokin",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
-    },
-    {
-      "id": "news:visir-innherji:storaukid-innflaedi-erlendra-adila-gaeti-skyrt-ovaenta-styrkingu-kronunnar",
-      "lane": "news",
-      "category": "industrial-demand",
-      "title": "Stór­aukið inn­flæði er­lendra aðila gæti skýrt ó­vænta styrkingu krónunnar",
-      "entity": "visir.is / Innherji",
-      "date": "2026-10-22",
-      "summary": "Mikil aukning í gjaldeyrisinnflæði erlendra aðila til landsins er að líkindum helsta skýringin á snarpri styrkingu krónunnar undanfarna mánuði. Innflæðið hefur verið allt að þrefalt meira en fyrr á árinu og gæti meðal annars helst tengst uppbyggingu gagnavera í erlendri eigu eða uppgjöri skattaskuldbindinga vegna kaupa á hugverkaréttindum Kerecis.",
-      "url": "https://www.visir.is/g/20262952111d/storaukid-innflaedi-erlendra-adila-gaeti-skyrt-ovaenta-styrkingu-kronunnar",
-      "outlet": "visir.is / Innherji",
-      "is_new": false,
-      "sector_tags": [
-        "datacentres-infrastructure"
-      ],
-      "sector_evidence_role": "project_or_sector_context"
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-22",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "samherji:e85012a67b30f0bc0f",
@@ -1757,6 +3027,18 @@
         "aquaculture-fish-production"
       ],
       "sector_evidence_role": "project_or_sector_context",
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": true,
+        "project_eligible": true,
+        "eligibility_reason": "eligible_project_context",
+        "current_dated_signal": false,
+        "source_date": "2026-10-21",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
       "sector_subtopics": [
         "fish-processing-production"
       ]
@@ -1771,8 +3053,21 @@
       "summary": "Guðmundur Kristjánsson forstjóri Brims segir veiðigjöld hafa lækkað í ár frá því í fyrra. Hann segir þetta sýna ófyrirsjáanleika kerfisins, það sé líkt og alþingismenn viti ekkert hvað það sé sem þeir samþykkja. Hann segir enga þora að fjárfesta lengur í sjávarútvegi vegna óvissu í kringum kerfið sem feli ýmist í sér hækkanir eða lækkanir miðað við flókna r...",
       "url": "https://www.visir.is/g/20262951805d/veidigjoldin-laekkad-en-ekki-haekkad-a-thessu-ari",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-21",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:undirbuningur-kolnunar-ekki-endilega-best-ad-byrja-a-nidurskurdi",
@@ -1784,8 +3079,21 @@
       "summary": "Í nokkurn tíma hefur blasað við að kólnun er fram undan í efnahagslífinu. Samdrátturinn er þegar orðinn mjög sýnilegur, ekki síst í byggingariðnaði en almennt líka í sölu margra fyrirtækja og róðurinn þyngist bæði í rekstri heimila og fyrirtækja.",
       "url": "https://www.visir.is/g/20262950988d/undirbuningur-kolnunar-ekki-endilega-best-ad-byrja-a-nidurskurdi",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-21",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:samfelagslegt-mal-ad-jafnretti-se-virt",
@@ -1797,21 +3105,21 @@
       "summary": "Góður rekstrarárangur einn og sér dugar ekki til að teljast framúrskarandi. Creditinfo hefur hert skilyrði vottunarinnar Framúrskarandi fyrirtæki og gerir nú kröfu um að fyrirtæki sem falla undir lög um kynjahlutföll í stjórnum uppfylli þau. Margrét Kristmannsdóttir, framkvæmdastjóri Pfaff, og Hermann Björnsson, forstjóri Sjóvá, fagna ákvörðuninni. Bæði leg...",
       "url": "https://www.visir.is/g/20262948699d/samfelagslegt-mal-ad-jafnretti-se-virt",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
-    },
-    {
-      "id": "news:reykjavik:uppbygging-borgarlinu-vid-hlemmtorg",
-      "lane": "news",
-      "category": "investment",
-      "title": "Uppbygging Borgarlínu við Hlemmtorg",
-      "entity": "Reykjavíkurborg",
-      "date": "2026-10-21",
-      "summary": "Uppbygging Borgarlínu við Hlemmtorg",
-      "url": "https://reykjavik.is/frettir/2026/uppbygging-borgarlinu-vid-hlemmtorg",
-      "outlet": "Reykjavíkurborg",
-      "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-21",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-gott-verk-ehf-laegst-i-stigagerd-og-y",
@@ -1823,8 +3131,47 @@
       "summary": "Gott verk ehf. lægst í stígagerð og yfirborðsfrágang í Breiðamýri – 13 tilboð bárust Bæjarráð Garðabæjar samþykkti á fundi sínum 20. október að taka tilboði Gott verks ehf. í stígagerð og yfirborðsfrágang á miðsvæði Álftaness í Breiðamýri. Tilboð fyrirtækisins nam 42.972.500 krónum, eða 82,3% af kostnaðaráætlun verkkaupa. Alls bárust 13 tilboð í framkvæmdin...",
       "url": "https://byggingar.is/gott-verk-ehf-laegst-i-stigagerd-og-yfirbordsfragang-i-breidamyri-13-tilbod-barust/?utm_source=rss&utm_medium=rss&utm_campaign=gott-verk-ehf-laegst-i-stigagerd-og-yfirbordsfragang-i-breidamyri-13-tilbod-barust",
       "outlet": "byggingar.is / niðurstöður útboða",
+      "source": "byggingar-utbod",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-21",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:fsre:fsre-hlytur-vidurkenningu-jafnvaegisvogar-fka-2026",
+      "lane": "news",
+      "category": "project",
+      "title": "20. október 2026 FSRE hlýtur viðurkenningu jafnvægisvogar FKA 2026 FSRE hlýtur viðurkenningu jafnvægisvogar FKA 2026. Viðurkenningin er veitt ...",
+      "entity": "FSRE",
+      "date": "2026-10-20",
+      "summary": "20. október 2026 FSRE hlýtur viðurkenningu jafnvægisvogar FKA 2026 FSRE hlýtur viðurkenningu jafnvægisvogar FKA 2026. Viðurkenningin er veitt ...",
+      "url": "https://island.is/s/fsre/frett/fsre-hlytur-vidurkenningu-jafnvaegisvogar-fka-2026",
+      "outlet": "FSRE",
+      "source": "fsre",
+      "is_new": false,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-20",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-storverk-ehf-laegst-med-553-milljona-",
@@ -1836,21 +3183,21 @@
       "summary": "Stórverk ehf. lægst með 55,3 milljóna tilboð í Skarfaskersbryggju Stórverk ehf. í Þorlákshöfn átti lægsta tilboðið í endurbyggingu ramps á Skarfaskersbryggju í Þorlákshöfn. Tilboð fyrirtækisins nam rúmlega 55,2 milljónum króna, eða 77,9% af áætluðum verktakakostnaði. Sex fyrirtæki skiluðu tilboðum í verkið þegar þau voru opnuð hjá Vegagerðinni þriðjudaginn....",
       "url": "https://byggingar.is/storverk-ehf-laegst-med-553-milljona-tilbod-i-skarfaskersbryggju/?utm_source=rss&utm_medium=rss&utm_campaign=storverk-ehf-laegst-med-553-milljona-tilbod-i-skarfaskersbryggju",
       "outlet": "byggingar.is / niðurstöður útboða",
+      "source": "byggingar-utbod",
       "is_new": false,
-      "sector_tags": []
-    },
-    {
-      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-probygg-ehf-laegst-med-96-milljonir-i",
-      "lane": "news",
-      "category": "project",
-      "title": "Probygg ehf. lægst með 96 milljónir í breytingar á Kerhólsskóla",
-      "entity": "byggingar.is / niðurstöður útboða",
-      "date": "2026-10-20",
-      "summary": "Probygg ehf. lægst með 96 milljónir í breytingar á Kerhólsskóla Probygg ehf. átti lægsta tilboðið í breytingar á annarri hæð Kerhólsskóla á Borg í Grímsnes- og Grafningshreppi ásamt uppsetningu nýrrar loftræsisamstæðu. Tilboð fyrirtækisins nam 96,1 milljón króna, eða 16,5% undir kostnaðaráætlun. Alls bárust ellefu tilboð í verkið og voru átta þeirra undir á...",
-      "url": "https://byggingar.is/probygg-ehf-laegst-med-96-milljonir-i-breytingar-a-kerholsskola/?utm_source=rss&utm_medium=rss&utm_campaign=probygg-ehf-laegst-med-96-milljonir-i-breytingar-a-kerholsskola",
-      "outlet": "byggingar.is / niðurstöður útboða",
-      "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-20",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-atta-tilbod-i-grjotgildru-vid-holtast",
@@ -1862,8 +3209,21 @@
       "summary": "Átta tilboð í grjótgildru við Holtastöð – Karína lægst með 17 milljónir Karína ehf. átti lægsta tilboðið í gerð nýrrar grjótgildru við skólpdælustöðina Holtastöð í Mosfellsbæ þegar tilboð voru opnuð mánudaginn 19. október. Tilboð fyrirtækisins nam tæpum 17 milljónum króna og var um 26% undir kostnaðaráætlun verkkaupa. Alls bárust átta tilboð í verkið. Tilbo...",
       "url": "https://byggingar.is/atta-tilbod-i-grjotgildru-vid-holtastod-karina-laegst-med-17-milljonir/?utm_source=rss&utm_medium=rss&utm_campaign=atta-tilbod-i-grjotgildru-vid-holtastod-karina-laegst-med-17-milljonir",
       "outlet": "byggingar.is / niðurstöður útboða",
+      "source": "byggingar-utbod",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-20",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:byggingar-borgarlina:utm-source-rss-utm-medium-rss-utm-campaign-borgarlina-framkvaemdarod-breytt-i-22",
@@ -1875,8 +3235,21 @@
       "summary": "Borgarlína – framkvæmdaröð breytt í 2,27 milljarða verki við Nauthólsveg Framkvæmdaröð við uppbyggingu Borgarlínu við Nauthólsveg og Háskólann í Reykjavík hefur verið endurskoðuð. Helsta breytingin felst í því að framkvæmdum við Menntasveig verður flýtt og götunni lokað tímabundið fyrir umferð. Grafa og Grjót og Malbikunarstöðin Höfði annast verkið samkvæmt...",
       "url": "https://byggingar.is/borgarlina-framkvaemdarod-breytt-i-227-milljarda-verki-vid-nautholsveg/?utm_source=rss&utm_medium=rss&utm_campaign=borgarlina-framkvaemdarod-breytt-i-227-milljarda-verki-vid-nautholsveg",
       "outlet": "byggingar.is / Borgarlína",
+      "source": "byggingar-borgarlina",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-20",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:play-komid-i-eignasafn-icelandair",
@@ -1888,8 +3261,21 @@
       "summary": "Tæplega helmingshlutur í maltneska félaginu Fly Play Europe Holdco ehf. er nú í eigu Icelandair. Félagið er með maltneskt flugrekstrarleyfi. Markmiðið er að auka sveigjanleika félagsins og skapa möguleika á hagræðingu í flugrekstrinum á Íslandi.",
       "url": "https://www.visir.is/g/20262950385d/play-komid-i-eignasafn-icelandair",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-19",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:fella-nidur-1-4-milljarda-sekt-landsvirkjunar",
@@ -1901,8 +3287,21 @@
       "summary": "Áfrýjunarnefnd samkeppnismála felldi úr gildi 1,4 milljarða króna sekt sem Samkeppniseftirlitið lagði á Landsvirkjun vegna sölu á raforku til Landsnets. Landsvirkjun segir niðurstöðuna staðfesta að ekki hafi steinn staðið yfir steini í rannsókn Samkeppniseftirlitsins.",
       "url": "https://www.visir.is/g/20262950469d/fella-nidur-1-4-milljarda-sekt-landsvirkjunar",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-19",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:afkoman-ur-thremur-milljonum-i-plus-i-tuttugu-i-minus",
@@ -1914,8 +3313,21 @@
       "summary": "Hækkun kílómetragjalds á flutningabíla mun skila sér beint út í verðlag hér á landi að sögn framkvæmdastjóra Bílgreinasambandsins. Hann segir breytingarnar koma á óheppilegum tíma þegar heimsmarkaðsverð olíu sé í hæstu hæðum, gleymst hafi að líta til áhrifa hækkunarinnar á vöruflutninga.",
       "url": "https://www.visir.is/g/20262950781d/afkoman-ur-thremur-milljonum-i-plus-i-tuttugu-i-minus",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-19",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:istak:saga-fr-grnu-skofluna",
@@ -1927,21 +3339,21 @@
       "summary": "Við hjá Ístaki erum stolt af því að hljóta Grænu skófluna, viðurkenningu Grænni byggðar, fyrir endurbætur á Sögu. Viðurkenninguna hljótum við í samstarfi við Fasteignir Háskóla Íslands og Andrúm arkitekta fyrir að hafa tekið eina þekktustu byggingu Reykjavíkur í gegn og gefið henni nýtt hlutverk á vistvænan og sjálfbæran hátt. Verðlaunin voru afhent á Degi....",
       "url": "https://www.istak.is/saga-fr-grnu-skofluna",
       "outlet": "ÍSTAK",
+      "source": "istak",
       "is_new": false,
-      "sector_tags": []
-    },
-    {
-      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-e-sigurdsson-bydur-68-milljonir-i-byg",
-      "lane": "news",
-      "category": "investment",
-      "title": "E. Sigurðsson býður 68 milljónir í byggingarrétt fyrir 40 íbúðir við Suðurhóla",
-      "entity": "byggingar.is / niðurstöður útboða",
-      "date": "2026-10-19",
-      "summary": "E. Sigurðsson býður 68 milljónir í byggingarrétt fyrir 40 íbúðir við Suðurhóla E. Sigurðsson ehf. bauð 68 milljónir króna í byggingarrétt á lóðinni Suðurhólar 27 í Breiðholti, þar sem gert er ráð fyrir uppbyggingu allt að 40 íbúða. Fyrirtækið var eini bjóðandinn þegar tilboð voru opnuð hjá Reykjavíkurborg föstudaginn 16. október síðastliðinn. Samkvæmt opinb...",
-      "url": "https://byggingar.is/e-sigurdsson-bydur-68-milljonir-i-byggingarrett-fyrir-40-ibudir-vid-sudurhola/?utm_source=rss&utm_medium=rss&utm_campaign=e-sigurdsson-bydur-68-milljonir-i-byggingarrett-fyrir-40-ibudir-vid-sudurhola",
-      "outlet": "byggingar.is / niðurstöður útboða",
-      "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-19",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:klamfengid-spjallmenni-zuckerbergs-vekur-ugg-innan-klamgeirans",
@@ -1953,8 +3365,21 @@
       "summary": "Áhrifavaldar sem framleiða klámfengið efni á áskriftarmiðlinum Only Fans eru afar ósáttir með nýtt gervigreindarspjallmenni fyrirtækisins Meta. Þeir gagnrýna að fyrirtækið takmarki aðgang notenda að þeirra efni á samfélagsmiðlum Meta en leyfi spjallmenninu að ræða á klámfenginn hátt við notendur. Meta sé að stela af þeim viðskiptavinum.",
       "url": "https://www.visir.is/g/20262950182d/klamfengid-spjallmenni-zuckerbergs-vekur-ugg-innan-klamgeirans",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-18",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:auglysi-sjukdoma-til-ad-komast-fram-hja-reglum",
@@ -1966,8 +3391,21 @@
       "summary": "Framkvæmdastjóri Neytendasamtakanna segir lyfjafyrirtæki auglýsa sjúkdóma til að komast hjá reglum um bann við því að auglýsa lyfseðilsskyld lyf. Hún segir Lyfjastofnun með málið til skoðunar og telur mikilvægt að lögum sé fylgt.",
       "url": "https://www.visir.is/g/20262949292d/auglysi-sjukdoma-til-ad-komast-fram-hja-reglum",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-18",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:byggingar-contracts:utm-source-rss-utm-medium-rss-utm-campaign-launafl-ehf-faer-924-milljona-loftrae",
@@ -1979,8 +3417,21 @@
       "summary": "Launafl ehf. fær 92,4 milljóna loftræstiverk í Fjarðabyggðarhöllinni Fjarðabyggð hefur samið við Launafl ehf. um kaup og uppsetningu nýs loftræstikerfis í Fjarðabyggðarhöllinni á Reyðarfirði fyrir rúmlega 92,4 milljónir króna. Nýja kerfið mun annast bæði upphitun og loftskipti í höllinni og er ætlað að bæta verulega aðstæður til íþróttaiðkunar. Tvö tilboð b...",
       "url": "https://byggingar.is/launafl-ehf-faer-924-milljona-loftraestiverk-i-fjardabyggdarhollinni/?utm_source=rss&utm_medium=rss&utm_campaign=launafl-ehf-faer-924-milljona-loftraestiverk-i-fjardabyggdarhollinni",
       "outlet": "byggingar.is / undirritun samninga",
+      "source": "byggingar-contracts",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-17",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:faer-endurgreitt-vegna-uppbyggingar-eftir-storbrunann-i-midhrauni",
@@ -1992,8 +3443,50 @@
       "summary": "Húsfélag atvinnuhúsnæðis í Miðhrauni sem brann árið 2018 þarf að greiða minnihlutaeiganda hússins hátt í fimmtíu milljónir króna sem tryggingafélag hans ofgreiddi vegna endurbyggingar þess. Hundruð milljóna króna skaðabótamál á hendur einu stærsta fasteignafélagi landsins bíður enn úrlausnar dómstóla.",
       "url": "https://www.visir.is/g/20262949384d/faer-endurgreitt-vegna-uppbyggingar-eftir-storbrunann-i-midhrauni",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-16",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "atnorth:6ae4e193e76f5cc9da",
+      "lane": "news",
+      "source": "atnorth",
+      "entity": "atNorth",
+      "title": "atNorth receives Jafnvægisvogin 2026 recognition for gender balance",
+      "date": "2026-10-16",
+      "summary": "For the second consecutive year, atNorth has received recognition from Jafnvægisvogin for achieving its gender balance target at the senior leadership level. atNorth’s Senior People and Culture Manager, Hildur Sigurðardóttir, accepted the award on the company’s behalf. Jafnvægisvogin, which translates as the “Balance Scale,” is an initiative led by FKA, the...",
+      "url": "https://www.atnorth.com/news/atnorth-receives-jafnvaegisvogin-2026-recognition-for-gender-balance",
+      "status": "published",
+      "category": "industrial-demand",
+      "outlet": "atNorth",
+      "evidence_kind": "first_party_operator_news",
+      "project_learning_eligible": false,
+      "is_new": false,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-16",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:rafnar-fylgir-herdi-og-segir-upp",
@@ -2005,8 +3498,21 @@
       "summary": "Rafnar Lárusson hefur ákveðið að láta af störfum sem fjármálastjóri Landsvirkjunar. Hann hafi ákveðið fyrir nokkrum árum að fylgja forstjóranum eftir.",
       "url": "https://www.visir.is/g/20262948858d/rafnar-fylgir-herdi-og-segir-upp",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-15",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:malasar-i-samstarf-vid-greenfish",
@@ -2018,8 +3524,21 @@
       "summary": "Íslenska tæknifyrirtækið GreenFish undirritaði í dag samstarfssamning við Supratechnic, sem er hluti af USP Group Ltd., um að koma Afla, nýju smáforriti GreenFish fyrir smábátaútgerðir, á markað í Malasíu, Singapúr og Indónesíu.",
       "url": "https://www.visir.is/g/20262948476d/malasar-i-samstarf-vid-greenfish",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-14",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:ef-einhver-mistok-hafa-att-ser-stad-tha-gerum-vid-allt-til-thess-ad-leidretta-th",
@@ -2031,8 +3550,21 @@
       "summary": "Stjórnarformaður móðurfélags Ölgerðarinnar segist ekki vita til þess að einkasöluákvæði hafi verið sett í samninga fyrirtækisins við bari, skemmtistaði og veitingahús sem geri þeim óheimilt að versla drykki af öðrum framleiðendum eða birgjum.",
       "url": "https://www.visir.is/g/20262948539d/-ef-einhver-mistok-hafa-att-ser-stad-tha-gerum-vid-allt-til-thess-ad-leidretta-thad-",
       "outlet": "visir.is / Viðskipti",
+      "source": "visir-vidskipti",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-14",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:byggingar-borgarlina:utm-source-rss-utm-medium-rss-utm-campaign-led-gotulampar-og-gangbrautarlampar-f",
@@ -2044,47 +3576,190 @@
       "summary": "LED-götulampar og gangbrautarlampar fyrir Borgarlínu Betri samgöngur ohf. hafa auglýst útboð á framleiðslu og afhendingu LED-götulampa og sérstakra gangbrautarlampa fyrir fyrsta áfanga Borgarlínu á höfuðborgarsvæðinu. Lampana á að setja á ljósastaura við götur, göngu- og hjólastíga og meðfram akstursleið Borgarlínu. Tilboðsfrestur rennur út 19. nóvember næs...",
       "url": "https://byggingar.is/led-gotulampar-og-gangbrautarlampar-fyrir-borgarlinu/?utm_source=rss&utm_medium=rss&utm_campaign=led-gotulampar-og-gangbrautarlampar-fyrir-borgarlinu",
       "outlet": "byggingar.is / Borgarlína",
+      "source": "byggingar-borgarlina",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-14",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
-      "id": "news:visir-vidskipti:taka-umdeilda-samninga-til-skodunar",
+      "id": "atnorth:8f0e0b2d9979b34e74",
       "lane": "news",
-      "category": "project",
-      "title": "Taka um­deilda samninga til skoðunar",
-      "entity": "visir.is / Viðskipti",
-      "date": "2026-10-13",
-      "summary": "Ölgerðin hyggst taka styrktarsamninga við nemendafélög í háskólum til skoðunar eftir umfjöllun Kveiks í kvöld um viðskiptahætti félagsins.",
-      "url": "https://www.visir.is/g/20262948051d/taka-umdeilda-samninga-til-skodunar",
-      "outlet": "visir.is / Viðskipti",
+      "source": "atnorth",
+      "entity": "atNorth",
+      "title": "atNorth to discuss biodiversity in digital infrastructure at COP17",
+      "date": "2026-10-14",
+      "summary": "atNorth to Discuss Biodiversity Integration in Digital Infrastructure at COP17 Convention on Biological Diversity The Nordic data center operator will contribute practical experiences, challenges, and lessons learned from embedding biodiversity considerations into its development strategy. Reykjavík, Iceland , 14 th October 2026 – atNorth, the leading Nordi...",
+      "url": "https://www.atnorth.com/news/atnorth-to-discuss-biodiversity-in-digital-infrastructure-at-cop17",
+      "status": "published",
+      "category": "industrial-demand",
+      "outlet": "atNorth",
+      "evidence_kind": "first_party_operator_news",
+      "project_learning_eligible": false,
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [
+        "datacentres-infrastructure"
+      ],
+      "sector_evidence_role": "project_or_sector_context",
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": true,
+        "project_eligible": true,
+        "eligibility_reason": "eligible_project_context",
+        "current_dated_signal": false,
+        "source_date": "2026-10-14",
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
-      "id": "news:visir-vidskipti:naeldu-i-lykilfolk-hja-noa-sirius-og-bauhaus",
+      "id": "geosalmo:e72a09657d8d55cb57",
       "lane": "news",
-      "category": "project",
-      "title": "Nældu í lykilfólk hjá Nóa Siríus og Bauhaus",
-      "entity": "visir.is / Viðskipti",
-      "date": "2026-10-13",
-      "summary": "Drangar hefur ráðið nýja framkvæmdastjóra þriggja dótturfélaga, Samkaupa, Orkunnar og Lyfjavals. Tveir koma frá Nóa Siríus og Bauhaus en sá þriðji er hækkaður í tign. Auður Daníelsdóttir forstjóri Dranga hefur fram að þessu jafnframt stýrt rekstri Samkaupa og Orkunnar. Nú er orðin breyting þar á.",
-      "url": "https://www.visir.is/g/20262947618d/naeldu-i-lykilfolk-hja-noa-sirius-og-bauhaus",
-      "outlet": "visir.is / Viðskipti",
+      "source": "geosalmo",
+      "entity": "GeoSalmo",
+      "title": "Eyrún Viktorsdóttir as Head of quality and sustainability",
+      "date": null,
+      "summary": "Á íslensku fyrir neðan // Icelandic below Eyrún previously worked for the Housing and Construction Authority (isl. Húsnæðis og mannvirkjastofnun), where she worked as a quality specialist and data protection officer. Previously, she worked for Arctic Fish as a project manager in business development and as a freelance lawyer. Eyrún has a master's degree in...",
+      "url": "https://www.geosalmo.com/news/eyrun-viktorsdottir-as-head-of-quality-and-sustainability",
+      "status": "reference",
+      "category": "industrial-demand",
+      "outlet": "GeoSalmo",
+      "intelligence_type": "reference_tracker",
+      "evidence_kind": "first_party_project_reference",
+      "project_learning_eligible": false,
+      "listing_date": "2024-10-01",
+      "publication_date_provenance": "detail undated; listing date is selection evidence only",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [],
+      "sector_evidence_role": "undated_project_reference",
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": null,
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
-      "id": "news:visir-fiskeldi:tha-tokum-vid-audvitad-tillit-til-thess-og-hlustum",
+      "id": "geosalmo:8272eb5ce753bf1a3c",
       "lane": "news",
-      "category": "investment",
-      "title": "„Þá tökum við auð­vitað til­lit til þess og hlustum“",
-      "entity": "visir.is / Fiskeldi",
-      "date": "2026-10-13",
-      "summary": "Atvinnuvegaráðherra segir að ekki hafi verið skoðað að stöðva eða setja hömlur á uppbyggingu sjókvíaeldis í Seyðisfirði. Ráðherra fær fulltrúa náttúruverndarsamtaka á fund til sín á morgun.",
-      "url": "https://www.visir.is/g/20262947708d/-tha-tokum-vid-audvitad-tillit-til-thess-og-hlustum-",
-      "outlet": "visir.is / Fiskeldi",
+      "source": "geosalmo",
+      "entity": "GeoSalmo",
+      "title": "GeoSalmo and Artec Aqua sign an agreement for the construction of a fish farm in Ölfus",
+      "date": null,
+      "summary": "Á íslensku fyrir neðan // Icelandic below GeoSalmo aims to build a 24,000-ton land-based farm, and the contract stipulates the development of its first phase, which is intended to produce 7,300 tons of whole salmon. The total value of the contract is between ISK 21-25 billion and covers the design, equipment, and structure of the station itself. GeoSalmo's...",
+      "url": "https://www.geosalmo.com/news/geosalmo-and-artec-aqua-sign-an-agreement-for-the-construction-of-a-fish-farm-in-olfus",
+      "status": "reference",
+      "category": "industrial-demand",
+      "outlet": "GeoSalmo",
+      "intelligence_type": "reference_tracker",
+      "evidence_kind": "first_party_project_reference",
+      "project_learning_eligible": false,
+      "listing_date": "2022-08-26",
+      "publication_date_provenance": "detail undated; listing date is selection evidence only",
       "is_new": false,
-      "sector_tags": []
+      "sector_tags": [
+        "aquaculture-fish-production"
+      ],
+      "sector_evidence_role": "undated_project_reference",
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": true,
+        "project_eligible": false,
+        "eligibility_reason": "undated_project_reference",
+        "current_dated_signal": false,
+        "source_date": null,
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "sector_subtopics": [
+        "land-based-aquaculture"
+      ]
+    },
+    {
+      "id": "geosalmo:7cfccb23ad00a67b36",
+      "lane": "news",
+      "source": "geosalmo",
+      "entity": "GeoSalmo",
+      "title": "GeoSalmo and the Icelandic National Culinary Team Announce Partnership",
+      "date": null,
+      "summary": "Á íslensku fyrir neðan // Icelandic below ‍ GeoSalmo will become a main sponsor of the culinary team, whose chefs will contribute to the company's product development and marketing efforts. A Collaboration Built on Quality and Innovation ‍ Jens Þórðarson, CEO of GeoSalmo, expressed great enthusiasm for the partnership: “We are incredibly proud to begin this...",
+      "url": "https://www.geosalmo.com/news/geosalmo-and-the-icelandic-national-culinary-team-announce-partnership",
+      "status": "reference",
+      "category": "industrial-demand",
+      "outlet": "GeoSalmo",
+      "intelligence_type": "reference_tracker",
+      "evidence_kind": "first_party_project_reference",
+      "project_learning_eligible": false,
+      "listing_date": "2024-12-18",
+      "publication_date_provenance": "detail undated; listing date is selection evidence only",
+      "is_new": false,
+      "sector_tags": [],
+      "sector_evidence_role": "undated_project_reference",
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": null,
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "geosalmo:30e55f9d4117014ddd",
+      "lane": "news",
+      "source": "geosalmo",
+      "entity": "GeoSalmo",
+      "title": "Artec Aqua's visit to Iceland",
+      "date": null,
+      "summary": "Á íslensku fyrir neðan // Icelandic below ‍ The purpose of the visit was to hold workshops with us and other partners in the project and to inspect construction on the site in Þorlákshöfn, where the salmon farm will be built. It was an important phase in the project, which aims to set up a modern high-tech salmon farm on land. The visit was considered a suc...",
+      "url": "https://www.geosalmo.com/news/artec-aquas-visit-to-iceland",
+      "status": "reference",
+      "category": "industrial-demand",
+      "outlet": "GeoSalmo",
+      "intelligence_type": "reference_tracker",
+      "evidence_kind": "first_party_project_reference",
+      "project_learning_eligible": false,
+      "listing_date": "2024-07-05",
+      "publication_date_provenance": "detail undated; listing date is selection evidence only",
+      "is_new": false,
+      "sector_tags": [],
+      "sector_evidence_role": "undated_project_reference",
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": null,
+        "assessed_on": "2026-11-13",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     }
   ]
 }
