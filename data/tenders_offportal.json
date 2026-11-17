@@ -72,8 +72,8 @@
     }
   },
   "schema_version": 1,
-  "generated": "2026-11-16T07:00:25Z",
-  "generated_at": "2026-11-16T07:00:25Z",
+  "generated": "2026-11-17T07:00:25Z",
+  "generated_at": "2026-11-17T07:00:25Z",
   "sources": {
     "covered": [
       {
@@ -195,7 +195,7 @@
       {
         "source": "ted",
         "url": "https://api.ted.europa.eu/v3/notices/search",
-        "reason": "dropped 92 notices: expired deadline",
+        "reason": "dropped 93 notices: expired deadline",
         "kind": "filtering"
       },
       {
@@ -204,9 +204,9 @@
         "reason": "bounded discovery statistics",
         "counts": {
           "rss_items": 20,
-          "duplicate_urls": 2,
+          "duplicate_urls": 3,
           "unverified_deadline": 15,
-          "non_works_procurement": 3
+          "non_works_procurement": 2
         },
         "detail_requests": 0
       },
@@ -215,24 +215,10 @@
         "source": "byggingar-tender",
         "reason": "primary comparison statistics",
         "counts": {
-          "discovered": 18,
-          "matched_existing": 7,
-          "retained_secondary": 11
+          "discovered": 17,
+          "matched_existing": 8,
+          "retained_secondary": 9
         }
-      },
-      {
-        "kind": "filtering",
-        "source": "utbodsvefur",
-        "reason": "market_enquiry_not_works_tender",
-        "project": "Markaðskönnun: hugbúnaðarlausn fyrir stuðningsþjónustu",
-        "url": "https://www.utbodsvefur.is/markadskonnun-hugbunadarlausn-fyrir-studningsthjonustu/"
-      },
-      {
-        "kind": "filtering",
-        "source": "utbodsvefur",
-        "reason": "winter_service",
-        "project": "Vetrarþjónusta í Árborg",
-        "url": "https://www.utbodsvefur.is/vetrarthjonusta-i-arborg/"
       },
       {
         "kind": "filtering",
@@ -429,6 +415,20 @@
         "reason": "nonworks_service",
         "project": "Kerrusöfnun á Keflavíkurflugvelli",
         "url": "https://www.utbodsvefur.is/kerrusofnun-a-keflavikurflugvelli/"
+      },
+      {
+        "kind": "filtering",
+        "source": "utbodsvefur",
+        "reason": "supply_only",
+        "project": "SPECT/CT og PET/CT myndgreiningarkerfi",
+        "url": "https://www.utbodsvefur.is/spect-ct-og-pet-ct-myndgreiningarkerfi/"
+      },
+      {
+        "kind": "filtering",
+        "source": "utbodsvefur",
+        "reason": "supply_only",
+        "project": "Ýmis lyf 92 – Lyf við Fabry",
+        "url": "https://www.utbodsvefur.is/ymis-lyf-92-lyf-vid-fabry/"
       },
       {
         "kind": "filtering",
@@ -898,7 +898,7 @@
         "evidence_url": "https://www.utbodsvefur.is/austurvegur-2-endurnyjun-a-radhustroppum-2/",
         "seen_count": 1,
         "first_seen": "2026-10-19T07:00:26Z",
-        "last_seen": "2026-11-13T07:00:25Z",
+        "last_seen": "2026-11-16T07:00:25Z",
         "reason": "exact candidate evidence excluded: winter_service",
         "status": "pending",
         "last_reviewed": "2026-11-13T07:00:25Z",
@@ -912,7 +912,7 @@
         "evidence_url": "https://byggingar.is/30-11-2026-arborg-bydur-ut-endurnyjun-radhustrappa-a-selfossi",
         "seen_count": 1,
         "first_seen": "2026-11-16T07:00:25Z",
-        "last_seen": "2026-11-16T07:00:25Z",
+        "last_seen": "2026-11-17T07:00:25Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       },
@@ -927,7 +927,7 @@
         "last_seen": "2026-10-27T11:55:54Z",
         "reason": "exact candidate evidence excluded: electricity_purchase",
         "status": "out_of_scope_for_now",
-        "last_reviewed": "2026-11-16T07:00:25Z",
+        "last_reviewed": "2026-11-17T07:00:25Z",
         "resolution_reason": "exact candidate evidence excluded: electricity_purchase"
       },
       {
@@ -942,7 +942,7 @@
         "reason": "unknown buyer/source found in tender feed",
         "status": "resolved_alias",
         "canonical_entity": "Reykjavíkurborg",
-        "last_reviewed": "2026-11-16T07:00:25Z",
+        "last_reviewed": "2026-11-17T07:00:25Z",
         "resolution_reason": "existing Reykjavíkurborg municipal parking entity alias; evidence retained; no new collector activated"
       },
       {
@@ -956,7 +956,7 @@
         "last_seen": "2026-10-22T07:00:26Z",
         "reason": "SW261029-I01: reviewed exact historical snow-clearing/de-icing service URL; not works. Genuine works/planning remain eligible.",
         "status": "out_of_scope_for_now",
-        "last_reviewed": "2026-11-16T07:00:25Z",
+        "last_reviewed": "2026-11-17T07:00:25Z",
         "resolution_reason": "SW261029-I01: reviewed exact historical snow-clearing/de-icing service URL; not works. Genuine works/planning remain eligible."
       },
       {
@@ -970,21 +970,21 @@
         "last_seen": "2026-11-12T07:00:25Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "out_of_scope_for_now",
-        "last_reviewed": "2026-11-16T07:00:25Z",
+        "last_reviewed": "2026-11-17T07:00:25Z",
         "resolution_reason": "exact candidate evidence excluded: insurance_service"
       }
     ]
   },
-  "count": 182,
+  "count": 184,
   "counts_by_intelligence_type": {
-    "active_tender": 8,
+    "active_tender": 9,
     "bid_opening": 29,
     "closed_tender": 2,
     "dynamic_purchasing_system": 6,
-    "historical_award": 87,
-    "non_works_procurement": 2,
+    "historical_award": 91,
+    "non_works_procurement": 1,
     "out_of_scope": 15,
-    "unverified_deadline": 33
+    "unverified_deadline": 31
   },
   "items": [
     {
@@ -1013,7 +1013,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2024-11-12",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1045,7 +1045,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-03-16",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1077,7 +1077,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-02-12",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1109,7 +1109,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-08-20",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1142,7 +1142,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-07-07",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1182,7 +1182,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-02-20",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1215,7 +1215,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-07-07",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1256,7 +1256,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-11-19",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1288,7 +1288,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-02-12",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1320,7 +1320,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2024-10-23",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1352,7 +1352,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-04-22",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1392,7 +1392,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-04-08",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1433,7 +1433,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-03-18",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1473,7 +1473,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-03-10",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1513,7 +1513,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-05-19",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1545,7 +1545,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-08-13",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1577,7 +1577,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-01-21",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1609,7 +1609,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-05-05",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1642,7 +1642,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-03-31",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1674,7 +1674,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-03-13",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1706,7 +1706,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-05-05",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1738,7 +1738,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-04-07",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1784,7 +1784,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-04-11",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1824,7 +1824,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-03-02",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1856,7 +1856,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-02-10",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1896,7 +1896,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-10-24",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1928,7 +1928,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-07-21",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1968,7 +1968,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-08-25",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1990,7 +1990,7 @@
     },
     {
       "reference": "25-099",
-      "project": "Akranes, sjóva",
+      "project": "Akranes, sjóvarnir 2025",
       "buyer": "Vegagerðin",
       "notice_type": "Samningum lokið",
       "deadline": "",
@@ -2014,11 +2014,25 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-11-20",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      }
+      },
+      "possible_duplicates": [
+        {
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/vatnsleysustrond-sjovarnir-2025",
+          "reference": "25-102",
+          "project": "Vatnsleysuströnd, sjóvarnir 2025",
+          "reason": "similar title; notice identity unverified"
+        },
+        {
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/alftanes-sjovarnir-2025",
+          "reference": "25-121",
+          "project": "Álftanes, sjóvarnir 2025",
+          "reason": "similar title; notice identity unverified"
+        }
+      ]
     },
     {
       "reference": "26-071",
@@ -2046,7 +2060,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-07-07",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2078,7 +2092,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-07-15",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2118,7 +2132,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-11-26",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2150,7 +2164,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-05-22",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2190,7 +2204,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-06-24",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2254,7 +2268,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-09-23",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2294,7 +2308,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-09-02",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2429,7 +2443,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-10",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2469,7 +2483,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-06-12",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2521,7 +2535,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-05-28",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2561,7 +2575,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-05-05",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2607,7 +2621,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-08-04",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2659,7 +2673,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-07-14",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2711,7 +2725,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-07-24",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2730,6 +2744,38 @@
           "reason": "similar title; notice identity unverified"
         }
       ]
+    },
+    {
+      "reference": "25-117",
+      "project": "Einholtsvegur (358), Drumboddsstaðavegur - Hrunamannavegur",
+      "buyer": "Vegagerðin",
+      "notice_type": "Samningum lokið",
+      "deadline": "",
+      "deadline_local": "",
+      "deadline_utc": "",
+      "deadline_confirmed": false,
+      "posted_at": "2026-02-13",
+      "modified_at": null,
+      "url": "https://www.vegagerdin.is/verkefnin/utbod/einholtsvegur-358-drumboddsstadavegur-hrunamannavegur",
+      "summary": "Útboð 25-117 · 13. feb. 2026",
+      "source": "vegagerdin-samningum-lokid",
+      "construction_scope": "not_excluded",
+      "procurement_deadline_valid": false,
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-02-13",
+        "assessed_on": "2026-11-17",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "reference": "25-071",
@@ -2757,7 +2803,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-08-12",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2774,11 +2820,123 @@
           "reference": "25-084",
           "project": "Yfirlagnir á Vestursvæði 2025 - Malbik",
           "reason": "similar title; notice identity unverified"
+        }
+      ]
+    },
+    {
+      "reference": "25-082",
+      "project": "Fl",
+      "buyer": "Vegagerðin",
+      "notice_type": "Samningum lokið",
+      "deadline": "",
+      "deadline_local": "",
+      "deadline_utc": "",
+      "deadline_confirmed": false,
+      "posted_at": "2025-06-13",
+      "modified_at": null,
+      "url": "https://www.vegagerdin.is/verkefnin/utbod/fljotagong-79-rannsoknaboranir-2025",
+      "summary": "Útboð 25-082 · 13. júní 2025",
+      "source": "vegagerdin-samningum-lokid",
+      "construction_scope": "not_excluded",
+      "procurement_deadline_valid": false,
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2025-06-13",
+        "assessed_on": "2026-11-17",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "possible_duplicates": [
+        {
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/fljotagong-76-og-adliggjandi-vegir-honnun-og-mat-a-umhverfisahrifum",
+          "reference": "25-103",
+          "project": "Fljótagöng (76) og aðliggjandi vegir, hönnun og mat á umhverfisáhrifum",
+          "reason": "similar title; notice identity unverified"
         },
         {
-          "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-hofudborgarsvaedinu-2025-malbik",
-          "reference": "25-086",
-          "project": "Yfirlagnir á höfuðborgarsvæðinu 2025, malbik",
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/flottamannavegur-410-gatnamot-vid-urridaholtsstraeti",
+          "reference": "25-095",
+          "project": "Flóttamannavegur (410), gatnamót við Urriðaholtsstræti",
+          "reason": "similar title; notice identity unverified"
+        },
+        {
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/helgustadavegur-954-forsteypt-bru-og-adlogun-a-vegkafla",
+          "reference": "26-108",
+          "project": "Helgustaðavegur (954) – Forsteypt brú og aðlögun á vegkafla",
+          "reason": "similar title; notice identity unverified"
+        },
+        {
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/sudureyri-flotbryggjur2025",
+          "reference": "25-109",
+          "project": "Suðureyri, flotbryggjur2025",
+          "reason": "similar title; notice identity unverified"
+        },
+        {
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/varaaflgjafar-upc-fyrir-jardgong",
+          "reference": "25-035",
+          "project": "Varaaflgjafar (UPC) fyrir jarðgöng",
+          "reason": "similar title; notice identity unverified"
+        },
+        {
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/vatnsdalsvegur-722-hringvegur-flaga",
+          "reference": "25-072",
+          "project": "Vatnsdalsvegur (722), Hringvegur - Flaga",
+          "reason": "similar title; notice identity unverified"
+        },
+        {
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/vidhald-malarvega-a-sudursvaedi-2025-2027-thjonustustod-i-vik-vegheflun-austur",
+          "reference": "25-054",
+          "project": "Viðhald malarvega á Suðursvæði 2025-2027, þjónustustöð í Vík, vegheflun austur",
+          "reason": "similar title; notice identity unverified"
+        },
+        {
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/vidhald-malarvega-a-sudursvaedi-2026-2028",
+          "reference": "26-065",
+          "project": "Viðhald malarvega á Suðursvæði 2026-2028, þjónustustöð á Selfossi, vegheflun, Rangárvallasýsla og Flói",
+          "reason": "similar title; notice identity unverified"
+        },
+        {
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/vidhald-malarvega-a-sudursvaedi",
+          "reference": "26-064",
+          "project": "Viðhald malarvega á Suðursvæði 2026-2028, þjónustustöð á Selfossi, vegheflun, Uppsveitir Árnessýslu",
+          "reason": "similar title; notice identity unverified"
+        },
+        {
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/vidhald-malarvega-a-sudursvaedi-2026-28",
+          "reference": "26-063",
+          "project": "Viðhald malarvega á Suðursvæði 2026-2028, þjónustustöð í Vík, vegheflun, vestur",
+          "reason": "similar title; notice identity unverified"
+        },
+        {
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/vik-i-myrdal-flodvorn-2026",
+          "reference": "26-143",
+          "project": "Vík í Mýrdal, flóðvörn 2026",
+          "reason": "similar title; notice identity unverified"
+        },
+        {
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/aaetlunarflug-a-islandi-serleyfi",
+          "reference": "25-120",
+          "project": "Áætl­unar­flug",
+          "reason": "similar title; notice identity unverified"
+        },
+        {
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/aaetlunarflug-a-islandi-akureyri-grimsey-akureyri",
+          "reference": "26-028",
+          "project": "Áætl­unar­flug á Íslandi: Akureyri – Grímsey – Akureyri \\u0026 Akureyri – Vopnafjörður – Þórshöfn – Akureyri 2027-2030 - Sérleyfi fyrir Vega­gerð­ina",
+          "reason": "similar title; notice identity unverified"
+        },
+        {
+          "url": "https://byggingar.is/vegagerdin-bydur-ut-900-metra-flodvarnargard-vid-vik-i-myrdal",
+          "reference": "26-143",
+          "project": "Vegagerðin býður út 900 metra flóðvarnargarð við Vík í Mýrdal",
           "reason": "similar title; notice identity unverified"
         }
       ]
@@ -2809,43 +2967,19 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-01-28",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      }
-    },
-    {
-      "reference": "25-082",
-      "project": "Fljótagöng (79), Rannsóknarboranir 2025",
-      "buyer": "Vegagerðin",
-      "notice_type": "Samningum lokið",
-      "deadline": "",
-      "deadline_local": "",
-      "deadline_utc": "",
-      "deadline_confirmed": false,
-      "posted_at": "2025-06-13",
-      "modified_at": null,
-      "url": "https://www.vegagerdin.is/verkefnin/utbod/fljotagong-79-rannsoknaboranir-2025",
-      "summary": "Útboð 25-082 · 13. júní 2025",
-      "source": "vegagerdin-samningum-lokid",
-      "construction_scope": "not_excluded",
-      "procurement_deadline_valid": false,
-      "intelligence_type": "historical_award",
-      "is_open_opportunity": false,
-      "sector_tags": [],
-      "sector_eligibility": {
-        "iceland_project_evidence": false,
-        "facility_relevance": false,
-        "project_eligible": false,
-        "eligibility_reason": "no_material_sector_evidence",
-        "current_dated_signal": false,
-        "source_date": "2025-06-13",
-        "assessed_on": "2026-11-16",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      }
+      },
+      "possible_duplicates": [
+        {
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/fljotagong-79-rannsoknaboranir-2025",
+          "reference": "25-082",
+          "project": "Fl",
+          "reason": "similar title; notice identity unverified"
+        }
+      ]
     },
     {
       "reference": "25-095",
@@ -2873,11 +3007,19 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-11-11",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      }
+      },
+      "possible_duplicates": [
+        {
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/fljotagong-79-rannsoknaboranir-2025",
+          "reference": "25-082",
+          "project": "Fl",
+          "reason": "similar title; notice identity unverified"
+        }
+      ]
     },
     {
       "reference": "26-070",
@@ -2905,7 +3047,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-05-19",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2922,7 +3064,7 @@
       "deadline_confirmed": false,
       "posted_at": "2026-03-19",
       "modified_at": null,
-      "url": "https://www.vegagerdin.is/verkefnin/utbod/grundarfjordur-grjotvorn-vid-nordurgard-2026",
+      "url": "https://www.vegagerdin.is/verkefnin/utbod/grundarfjordur-grjotvorn-vi",
       "summary": "Útboð 26-027 · 19. mars 2026",
       "source": "vegagerdin-samningum-lokid",
       "construction_scope": "not_excluded",
@@ -2937,7 +3079,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-03-19",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2969,7 +3111,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-11-25",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -3001,7 +3143,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-04-20",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -3041,7 +3183,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-06-12",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -3073,11 +3215,19 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-07-21",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      }
+      },
+      "possible_duplicates": [
+        {
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/fljotagong-79-rannsoknaboranir-2025",
+          "reference": "25-082",
+          "project": "Fl",
+          "reason": "similar title; notice identity unverified"
+        }
+      ]
     },
     {
       "reference": "26-005",
@@ -3105,7 +3255,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-05-07",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -3145,7 +3295,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-06-12",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -3164,7 +3314,7 @@
           "reason": "similar title; notice identity unverified"
         },
         {
-          "url": "https://www.vegagerdin.is/verkefnin/utbod/sementsfestun-a-nordursvaedi-2025",
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/sementsfestun-a-nordur",
           "reference": "25-007",
           "project": "Sementsfestun á Norðursvæði 2025",
           "reason": "similar title; notice identity unverified"
@@ -3209,14 +3359,14 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-06-18",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
       },
       "possible_duplicates": [
         {
-          "url": "https://www.vegagerdin.is/verkefnin/utbod/laugarvatnsvegur-37-hjalmsstadir-middalskot-styrking-og-malbik",
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/pallbifreidar-fyrir-vegagerdina-2025",
           "reference": "25-023",
           "project": "Pallbifreiðar fyrir Vegagerðina 2025",
           "reason": "similar title; notice identity unverified"
@@ -3249,7 +3399,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-02-11",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -3289,7 +3439,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-05-30",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -3321,11 +3471,51 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-04-16",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
       }
+    },
+    {
+      "reference": "21-041",
+      "project": "Hringvegur (1) um Kjalarnes 2. áfangi, Vallá - Hvalfjörður (EES)",
+      "buyer": "Vegagerðin",
+      "notice_type": "Samningum lokið",
+      "deadline": "",
+      "deadline_local": "",
+      "deadline_utc": "",
+      "deadline_confirmed": false,
+      "posted_at": "2026-10-27",
+      "modified_at": null,
+      "url": "https://www.vegagerdin.is/verkefnin/utbod/hringvegur-1-um-kjalarnes-2-afangi-valla-hvalfjordur-ees",
+      "summary": "Útboð 21-041 · 27. okt. 2026",
+      "source": "vegagerdin-samningum-lokid",
+      "construction_scope": "not_excluded",
+      "procurement_deadline_valid": false,
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-27",
+        "assessed_on": "2026-11-17",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "possible_duplicates": [
+        {
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/hringvegur-1-um-kjalarnes-2-afangi-valla-hvalfjordur",
+          "reference": "23-096",
+          "project": "Hringvegur (1) um Kjalarnes, 2. áfangi, Vallá – Hvalfjörður",
+          "reason": "similar title; notice identity unverified"
+        }
+      ]
     },
     {
       "reference": "23-096",
@@ -3353,11 +3543,19 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-27",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      }
+      },
+      "possible_duplicates": [
+        {
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/hringvegur-1-um-kjalarnes-2-afangi-valla-hvalfjordur-ees",
+          "reference": "21-041",
+          "project": "Hringvegur (1) um Kjalarnes 2. áfangi, Vallá - Hvalfjörður (EES)",
+          "reason": "similar title; notice identity unverified"
+        }
+      ]
     },
     {
       "reference": "26-088",
@@ -3385,7 +3583,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-07-07",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -3417,7 +3615,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-11-20",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -3434,7 +3632,7 @@
       "deadline_confirmed": false,
       "posted_at": "2025-07-31",
       "modified_at": null,
-      "url": "https://www.vegagerdin.is/verkefnin/utbod/hvammstangi-patreksfjordur-og-rif-vidhaldsdypkun-2025",
+      "url": "https://www.vegagerdin.is/verkefnin/utbod/hvammst",
       "summary": "Útboð 25-027 · 31. júlí 2025",
       "source": "vegagerdin-samningum-lokid",
       "construction_scope": "not_excluded",
@@ -3449,7 +3647,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-07-31",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -3503,7 +3701,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-27",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -3535,7 +3733,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-06-12",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -3567,7 +3765,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-07-14",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -3613,7 +3811,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-07-28",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -3659,7 +3857,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-08-25",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -3675,46 +3873,6 @@
           "url": "https://www.vegagerdin.is/verkefnin/utbod/jokuldalsvegur-923-langagerdi-hakonarstadir-eftirlit-og-radgjof",
           "reference": "26-115",
           "project": "Jökuldalsvegur (923), Langagerði – Hákonarstaðir, eftirlit og ráðgjöf",
-          "reason": "similar title; notice identity unverified"
-        }
-      ]
-    },
-    {
-      "reference": "25-113",
-      "project": "Kjalarnes, sjóvörn 2026",
-      "buyer": "Vegagerðin",
-      "notice_type": "Samningum lokið",
-      "deadline": "",
-      "deadline_local": "",
-      "deadline_utc": "",
-      "deadline_confirmed": false,
-      "posted_at": "2026-02-04",
-      "modified_at": null,
-      "url": "https://www.vegagerdin.is/verkefnin/utbod/kjalarnes-sjovorn-2026",
-      "summary": "Útboð 25-113 · 4. feb. 2026",
-      "source": "vegagerdin-samningum-lokid",
-      "construction_scope": "not_excluded",
-      "procurement_deadline_valid": false,
-      "intelligence_type": "historical_award",
-      "is_open_opportunity": false,
-      "sector_tags": [],
-      "sector_eligibility": {
-        "iceland_project_evidence": false,
-        "facility_relevance": false,
-        "project_eligible": false,
-        "eligibility_reason": "no_material_sector_evidence",
-        "current_dated_signal": false,
-        "source_date": "2026-02-04",
-        "assessed_on": "2026-11-16",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      },
-      "possible_duplicates": [
-        {
-          "url": "https://www.vegagerdin.is/verkefnin/utbod/alftanes-sjovarnir-2025",
-          "reference": "25-121",
-          "project": "Álftanes, sjóvarnir 2025",
           "reason": "similar title; notice identity unverified"
         }
       ]
@@ -3745,7 +3903,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-04-01",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -3799,7 +3957,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-09-22",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -3814,8 +3972,40 @@
       ]
     },
     {
+      "reference": "25-021",
+      "project": "Laugarvatnsvegur (37), Hjálmsstaðir-Miðdalskot, styrking og malbik",
+      "buyer": "Vegagerðin",
+      "notice_type": "Samningum lokið",
+      "deadline": "",
+      "deadline_local": "",
+      "deadline_utc": "",
+      "deadline_confirmed": false,
+      "posted_at": "2025-07-29",
+      "modified_at": null,
+      "url": "https://www.vegagerdin.is/verkefnin/utbod/laugarvatnsvegur-37-hjalmsstadir-middalskot-styrking-og-malbik",
+      "summary": "Útboð 25-021 · 29. júlí 2025",
+      "source": "vegagerdin-samningum-lokid",
+      "construction_scope": "not_excluded",
+      "procurement_deadline_valid": false,
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2025-07-29",
+        "assessed_on": "2026-11-17",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
       "reference": "26-013",
-      "project": "Laugarvatnsvegur (37), Laugarvatn-Hjálmsstaðir, styrking og malbik",
+      "project": "Laugarvatnsvegur (37), Laugarvatn-Hjá",
       "buyer": "Vegagerðin",
       "notice_type": "Samningum lokið",
       "deadline": "",
@@ -3839,7 +4029,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-04-01",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -3871,7 +4061,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-12-16",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -3903,7 +4093,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-08-14",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -3928,9 +4118,15 @@
           "reason": "similar title; notice identity unverified"
         },
         {
-          "url": "https://www.vegagerdin.is/verkefnin/utbod/sementsfestun-a-nordursvaedi-2025",
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/sementsfestun-a-nordur",
           "reference": "25-007",
           "project": "Sementsfestun á Norðursvæði 2025",
+          "reason": "similar title; notice identity unverified"
+        },
+        {
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/thurrfraesing-a-nordursvaedi-2025-hringvegur-vid-blonduhlid-i-skagafirdi",
+          "reference": "25-088",
+          "project": "Þurrfræsing á Norðursvæði 2025, Hringvegur, við Blönduhlíð í Skagafirði",
           "reason": "similar title; notice identity unverified"
         },
         {
@@ -3973,7 +4169,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-07-03",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -3999,7 +4195,7 @@
         },
         {
           "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-nordursvaedi-2026-klaeding",
-          "reference": "",
+          "reference": "26-020",
           "project": "Yfirlagnir á Norðursvæði 2026, klæðing",
           "reason": "similar title; notice identity unverified"
         },
@@ -4043,7 +4239,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-04-21",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -4074,9 +4270,15 @@
           "reason": "similar title; notice identity unverified"
         },
         {
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/vidhald-malarvega-a-sudursvaedi",
+          "reference": "26-064",
+          "project": "Viðhald malarvega á Suðursvæði 2026-2028, þjónustustöð á Selfossi, vegheflun, Uppsveitir Árnessýslu",
+          "reason": "similar title; notice identity unverified"
+        },
+        {
           "url": "https://www.vegagerdin.is/verkefnin/utbod/vidhald-malarvega-a-sudursvaedi-2026-28",
           "reference": "26-063",
-          "project": "Viðhald malarvega á Suðursvæði 2026-2028, þjónustustöð í Vík, vegheflun,",
+          "project": "Viðhald malarvega á Suðursvæði 2026-2028, þjónustustöð í Vík, vegheflun, vestur",
           "reason": "similar title; notice identity unverified"
         },
         {
@@ -4131,7 +4333,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-04-21",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -4177,7 +4379,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-01-08",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -4202,7 +4404,7 @@
       "deadline_confirmed": false,
       "posted_at": "2025-07-25",
       "modified_at": null,
-      "url": "https://www.vegagerdin.is/verkefnin/utbod/laugarvatnsvegur-37-hjalmsstadir-middalskot-styrking-og-malbik",
+      "url": "https://www.vegagerdin.is/verkefnin/utbod/pallbifreidar-fyrir-vegagerdina-2025",
       "summary": "Útboð 25-023 · 25. júlí 2025",
       "source": "vegagerdin-samningum-lokid",
       "construction_scope": "not_excluded",
@@ -4217,7 +4419,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-07-25",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -4257,7 +4459,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-09-15",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -4303,7 +4505,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-05-30",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -4335,7 +4537,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-08-20",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -4367,7 +4569,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-07-07",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -4399,7 +4601,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-11-05",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -4439,7 +4641,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-09-04",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -4479,7 +4681,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-01-07",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -4504,7 +4706,7 @@
       "deadline_confirmed": false,
       "posted_at": "2025-07-09",
       "modified_at": null,
-      "url": "https://www.vegagerdin.is/verkefnin/utbod/sementsfestun-a-nordursvaedi-2025",
+      "url": "https://www.vegagerdin.is/verkefnin/utbod/sementsfestun-a-nordur",
       "summary": "Útboð 25-007 · 9. júlí 2025",
       "source": "vegagerdin-samningum-lokid",
       "construction_scope": "not_excluded",
@@ -4519,7 +4721,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-07-09",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -4541,6 +4743,12 @@
           "url": "https://www.vegagerdin.is/verkefnin/utbod/sementsfestun-a-nordursvaedi-2026",
           "reference": "26-021",
           "project": "Sementsfestun á Norðursvæði 2026",
+          "reason": "similar title; notice identity unverified"
+        },
+        {
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/thurrfraesing-a-nordursvaedi-2025-hringvegur-vid-blonduhlid-i-skagafirdi",
+          "reference": "25-088",
+          "project": "Þurrfræsing á Norðursvæði 2025, Hringvegur, við Blönduhlíð í Skagafirði",
           "reason": "similar title; notice identity unverified"
         },
         {
@@ -4583,7 +4791,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-05-06",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -4596,14 +4804,14 @@
           "reason": "similar title; notice identity unverified"
         },
         {
-          "url": "https://www.vegagerdin.is/verkefnin/utbod/sementsfestun-a-nordursvaedi-2025",
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/sementsfestun-a-nordur",
           "reference": "25-007",
           "project": "Sementsfestun á Norðursvæði 2025",
           "reason": "similar title; notice identity unverified"
         },
         {
           "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-nordursvaedi-2026-klaeding",
-          "reference": "",
+          "reference": "26-020",
           "project": "Yfirlagnir á Norðursvæði 2026, klæðing",
           "reason": "similar title; notice identity unverified"
         },
@@ -4632,7 +4840,7 @@
       "deadline_confirmed": false,
       "posted_at": "2026-04-15",
       "modified_at": null,
-      "url": "https://www.vegagerdin.is/verkefnin/utbod/skagastrond-midgardur-endurbygging-milli-asgards",
+      "url": "https://www.vegagerdin.is/verkefnin/utbod/skagastrond-midgardur-end",
       "summary": "Útboð 26-010 · 15. apríl 2026",
       "source": "vegagerdin-samningum-lokid",
       "construction_scope": "not_excluded",
@@ -4647,7 +4855,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-04-15",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -4687,14 +4895,14 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-11-26",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
       },
       "possible_duplicates": [
         {
-          "url": "https://www.vegagerdin.is/verkefnin/utbod/skagastrond-midgardur-endurbygging-milli-asgards",
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/skagastrond-midgardur-end",
           "reference": "26-010",
           "project": "Skagaströnd – Miðgarður, endurbygging milli Ásgarðs",
           "reason": "similar title; notice identity unverified"
@@ -4727,7 +4935,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-05-18",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -4759,7 +4967,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-08-28",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -4791,7 +4999,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-03-16",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -4823,7 +5031,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-03-12",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -4831,7 +5039,7 @@
     },
     {
       "reference": "25-093",
-      "project": "Sprungu- og lagnaviðgerðir í Grindavík",
+      "project": "Sprungu- og lagnaviðgerðir í Grindavík - Rammasamningur",
       "buyer": "Vegagerðin",
       "notice_type": "Samningum lokið",
       "deadline": "",
@@ -4840,7 +5048,7 @@
       "deadline_confirmed": false,
       "posted_at": "2026-01-29",
       "modified_at": null,
-      "url": "https://www.vegagerdin.is/verkefnin/utbod/sprungu-og-lagnavidgerdir-i-grindavik-rammasamningur",
+      "url": "https://www.vegagerdin.is/verkefnin/utbod/kjalarnes-sjovorn-2026",
       "summary": "Útboð 25-093 · 29. jan. 2026",
       "source": "vegagerdin-samningum-lokid",
       "construction_scope": "not_excluded",
@@ -4855,7 +5063,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-01-29",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -4872,7 +5080,7 @@
       "deadline_confirmed": false,
       "posted_at": "2026-06-12",
       "modified_at": null,
-      "url": "https://www.vegagerdin.is/verkefnin/utbod/vidhald-malarvega-a-sudursvaedi",
+      "url": "https://www.vegagerdin.is/verkefnin/utbod/steinefni-fyrir-austursvaedi-2026-midausturland-i",
       "summary": "Útboð 26-046 · 12. júní 2026",
       "source": "vegagerdin-samningum-lokid",
       "construction_scope": "not_excluded",
@@ -4887,7 +5095,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-06-12",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -4910,10 +5118,10 @@
       "deadline_local": "",
       "deadline_utc": "",
       "deadline_confirmed": false,
-      "posted_at": "2026-06-12",
+      "posted_at": null,
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/steinefni-fyrir-austursvaedi-2026-midausturland-ii",
-      "summary": "Útboð 26-047 · 12. júní 2026",
+      "summary": "Útboð 26-047 · 12. júní 2",
       "source": "vegagerdin-samningum-lokid",
       "construction_scope": "not_excluded",
       "procurement_deadline_valid": false,
@@ -4926,15 +5134,15 @@
         "project_eligible": false,
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
-        "source_date": "2026-06-12",
-        "assessed_on": "2026-11-16",
+        "source_date": null,
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
       },
       "possible_duplicates": [
         {
-          "url": "https://www.vegagerdin.is/verkefnin/utbod/vidhald-malarvega-a-sudursvaedi",
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/steinefni-fyrir-austursvaedi-2026-midausturland-i",
           "reference": "26-046",
           "project": "Steinefni fyrir Austursvæði 2026, (Miðausturland I)",
           "reason": "similar title; notice identity unverified"
@@ -4967,7 +5175,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-03-23",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -4999,7 +5207,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-09-05",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -5031,11 +5239,19 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-12-22",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      }
+      },
+      "possible_duplicates": [
+        {
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/fljotagong-79-rannsoknaboranir-2025",
+          "reference": "25-082",
+          "project": "Fl",
+          "reason": "similar title; notice identity unverified"
+        }
+      ]
     },
     {
       "reference": "26-029",
@@ -5063,7 +5279,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-03-05",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -5120,7 +5336,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-09-22",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -5166,7 +5382,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-04-14",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -5224,11 +5440,19 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-06-03",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      }
+      },
+      "possible_duplicates": [
+        {
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/fljotagong-79-rannsoknaboranir-2025",
+          "reference": "25-082",
+          "project": "Fl",
+          "reason": "similar title; notice identity unverified"
+        }
+      ]
     },
     {
       "reference": "25-072",
@@ -5256,7 +5480,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-09-23",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -5266,6 +5490,12 @@
           "url": "https://www.vegagerdin.is/verkefnin/utbod/bardardalsvegur-842-hringvegur-oxara",
           "reference": "26-018",
           "project": "Bárðardalsvegur (842), Hringvegur – Öxará",
+          "reason": "similar title; notice identity unverified"
+        },
+        {
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/fljotagong-79-rannsoknaboranir-2025",
+          "reference": "25-082",
+          "project": "Fl",
           "reason": "similar title; notice identity unverified"
         }
       ]
@@ -5296,12 +5526,18 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-11-05",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
       },
       "possible_duplicates": [
+        {
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/akranes-sjovarnir-2025",
+          "reference": "25-099",
+          "project": "Akranes, sjóvarnir 2025",
+          "reason": "similar title; notice identity unverified"
+        },
         {
           "url": "https://www.vegagerdin.is/verkefnin/utbod/alftanes-sjovarnir-2025",
           "reference": "25-121",
@@ -5353,7 +5589,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-09-29",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -5399,7 +5635,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-10-02",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -5445,7 +5681,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-03-03",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -5497,7 +5733,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-04-10",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -5544,7 +5780,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-05-27",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -5615,7 +5851,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-07-16",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -5686,7 +5922,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-06-04",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -5757,7 +5993,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-05-29",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -5828,7 +6064,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-06-02",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -5899,7 +6135,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-06-12",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -5976,7 +6212,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-06-23",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -6035,7 +6271,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-07-29",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -6094,7 +6330,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-06-23",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -6153,7 +6389,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-06-26",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -6211,12 +6447,18 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-06-16",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
       },
       "possible_duplicates": [
+        {
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/fljotagong-79-rannsoknaboranir-2025",
+          "reference": "25-082",
+          "project": "Fl",
+          "reason": "similar title; notice identity unverified"
+        },
         {
           "url": "https://www.vegagerdin.is/verkefnin/utbod/njardvikurhofn-sudursvaedi-brimvarnargardur-2025",
           "reference": "25-107",
@@ -6230,9 +6472,15 @@
           "reason": "similar title; notice identity unverified"
         },
         {
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/vidhald-malarvega-a-sudursvaedi",
+          "reference": "26-064",
+          "project": "Viðhald malarvega á Suðursvæði 2026-2028, þjónustustöð á Selfossi, vegheflun, Uppsveitir Árnessýslu",
+          "reason": "similar title; notice identity unverified"
+        },
+        {
           "url": "https://www.vegagerdin.is/verkefnin/utbod/vidhald-malarvega-a-sudursvaedi-2026-28",
           "reference": "26-063",
-          "project": "Viðhald malarvega á Suðursvæði 2026-2028, þjónustustöð í Vík, vegheflun,",
+          "project": "Viðhald malarvega á Suðursvæði 2026-2028, þjónustustöð í Vík, vegheflun, vestur",
           "reason": "similar title; notice identity unverified"
         },
         {
@@ -6269,12 +6517,18 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-06-23",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
       },
       "possible_duplicates": [
+        {
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/fljotagong-79-rannsoknaboranir-2025",
+          "reference": "25-082",
+          "project": "Fl",
+          "reason": "similar title; notice identity unverified"
+        },
         {
           "url": "https://www.vegagerdin.is/verkefnin/utbod/malbiksvidgerdir-sudursvaedi-2026",
           "reference": "26-066",
@@ -6288,9 +6542,85 @@
           "reason": "similar title; notice identity unverified"
         },
         {
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/vidhald-malarvega-a-sudursvaedi",
+          "reference": "26-064",
+          "project": "Viðhald malarvega á Suðursvæði 2026-2028, þjónustustöð á Selfossi, vegheflun, Uppsveitir Árnessýslu",
+          "reason": "similar title; notice identity unverified"
+        },
+        {
           "url": "https://www.vegagerdin.is/verkefnin/utbod/vidhald-malarvega-a-sudursvaedi-2026-28",
           "reference": "26-063",
-          "project": "Viðhald malarvega á Suðursvæði 2026-2028, þjónustustöð í Vík, vegheflun,",
+          "project": "Viðhald malarvega á Suðursvæði 2026-2028, þjónustustöð í Vík, vegheflun, vestur",
+          "reason": "similar title; notice identity unverified"
+        },
+        {
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/thjonusta-bruarhonnudar",
+          "reference": "26-109",
+          "project": "Þjónust",
+          "reason": "similar title; notice identity unverified"
+        }
+      ]
+    },
+    {
+      "reference": "26-064",
+      "project": "Viðhald malarvega á Suðursvæði 2026-2028, þjónustustöð á Selfossi, vegheflun, Uppsveitir Árnessýslu",
+      "buyer": "Vegagerðin",
+      "notice_type": "Samningum lokið",
+      "deadline": "",
+      "deadline_local": "",
+      "deadline_utc": "",
+      "deadline_confirmed": false,
+      "posted_at": "2026-06-17",
+      "modified_at": null,
+      "url": "https://www.vegagerdin.is/verkefnin/utbod/vidhald-malarvega-a-sudursvaedi",
+      "summary": "Útboð 26-064 · 17. júní 2026",
+      "source": "vegagerdin-samningum-lokid",
+      "construction_scope": "not_excluded",
+      "procurement_deadline_valid": false,
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-06-17",
+        "assessed_on": "2026-11-17",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "possible_duplicates": [
+        {
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/fljotagong-79-rannsoknaboranir-2025",
+          "reference": "25-082",
+          "project": "Fl",
+          "reason": "similar title; notice identity unverified"
+        },
+        {
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/malbiksvidgerdir-sudursvaedi-2026",
+          "reference": "26-066",
+          "project": "Malbiksviðgerðir Suðursvæði 2026",
+          "reason": "similar title; notice identity unverified"
+        },
+        {
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/vidhald-malarvega-a-sudursvaedi-2025-2027-thjonustustod-i-vik-vegheflun-austur",
+          "reference": "25-054",
+          "project": "Viðhald malarvega á Suðursvæði 2025-2027, þjónustustöð í Vík, vegheflun austur",
+          "reason": "similar title; notice identity unverified"
+        },
+        {
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/vidhald-malarvega-a-sudursvaedi-2026-2028",
+          "reference": "26-065",
+          "project": "Viðhald malarvega á Suðursvæði 2026-2028, þjónustustöð á Selfossi, vegheflun, Rangárvallasýsla og Flói",
+          "reason": "similar title; notice identity unverified"
+        },
+        {
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/vidhald-malarvega-a-sudursvaedi-2026-28",
+          "reference": "26-063",
+          "project": "Viðhald malarvega á Suðursvæði 2026-2028, þjónustustöð í Vík, vegheflun, vestur",
           "reason": "similar title; notice identity unverified"
         },
         {
@@ -6303,7 +6633,7 @@
     },
     {
       "reference": "26-063",
-      "project": "Viðhald malarvega á Suðursvæði 2026-2028, þjónustustöð í Vík, vegheflun,",
+      "project": "Viðhald malarvega á Suðursvæði 2026-2028, þjónustustöð í Vík, vegheflun, vestur",
       "buyer": "Vegagerðin",
       "notice_type": "Samningum lokið",
       "deadline": "",
@@ -6327,12 +6657,18 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-06-12",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
       },
       "possible_duplicates": [
+        {
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/fljotagong-79-rannsoknaboranir-2025",
+          "reference": "25-082",
+          "project": "Fl",
+          "reason": "similar title; notice identity unverified"
+        },
         {
           "url": "https://www.vegagerdin.is/verkefnin/utbod/malbiksvidgerdir-sudursvaedi-2026",
           "reference": "26-066",
@@ -6349,6 +6685,12 @@
           "url": "https://www.vegagerdin.is/verkefnin/utbod/vidhald-malarvega-a-sudursvaedi-2026-2028",
           "reference": "26-065",
           "project": "Viðhald malarvega á Suðursvæði 2026-2028, þjónustustöð á Selfossi, vegheflun, Rangárvallasýsla og Flói",
+          "reason": "similar title; notice identity unverified"
+        },
+        {
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/vidhald-malarvega-a-sudursvaedi",
+          "reference": "26-064",
+          "project": "Viðhald malarvega á Suðursvæði 2026-2028, þjónustustöð á Selfossi, vegheflun, Uppsveitir Árnessýslu",
           "reason": "similar title; notice identity unverified"
         },
         {
@@ -6391,7 +6733,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-07-16",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -6480,92 +6822,28 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-03",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
       },
       "possible_duplicates": [
         {
-          "url": "https://www.vegagerdin.is/verkefnin/utbod/vidhald-malarvega-a-sudursvaedi-2026-28",
-          "reference": "26-063",
-          "project": "Viðhald malarvega á Suðursvæði 2026-2028, þjónustustöð í Vík, vegheflun,",
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/fljotagong-79-rannsoknaboranir-2025",
+          "reference": "25-082",
+          "project": "Fl",
           "reason": "similar title; notice identity unverified"
         },
         {
-          "url": "https://www.vegagerdin.is/verkefnin/utbod/aaetlunarflug-a-islandi-serleyfi",
-          "reference": "25-120",
-          "project": "Áætl­unar­flug á Íslandi – Sérleyfi fyrir Vega­gerð­ina, Reykja­vík – Vestmannaeyjar – Reykja­vík 2026-2029",
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/vidhald-malarvega-a-sudursvaedi-2026-28",
+          "reference": "26-063",
+          "project": "Viðhald malarvega á Suðursvæði 2026-2028, þjónustustöð í Vík, vegheflun, vestur",
           "reason": "similar title; notice identity unverified"
         },
         {
           "url": "https://byggingar.is/vegagerdin-bydur-ut-900-metra-flodvarnargard-vid-vik-i-myrdal",
           "reference": "26-143",
           "project": "Vegagerðin býður út 900 metra flóðvarnargarð við Vík í Mýrdal",
-          "reason": "similar title; notice identity unverified"
-        }
-      ]
-    },
-    {
-      "reference": "25-011",
-      "project": "Yfirlagnir Austursvæði 2025, blettanir með klæðingu",
-      "buyer": "Vegagerðin",
-      "notice_type": "Samningum lokið",
-      "deadline": "",
-      "deadline_local": "",
-      "deadline_utc": "",
-      "deadline_confirmed": false,
-      "posted_at": "2025-05-26",
-      "modified_at": null,
-      "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-austursvaedi-2025-blettanir-med-klaedingu",
-      "summary": "Útboð 25-011 · 26. maí 2025",
-      "source": "vegagerdin-samningum-lokid",
-      "construction_scope": "not_excluded",
-      "procurement_deadline_valid": false,
-      "intelligence_type": "historical_award",
-      "is_open_opportunity": false,
-      "sector_tags": [],
-      "sector_eligibility": {
-        "iceland_project_evidence": false,
-        "facility_relevance": false,
-        "project_eligible": false,
-        "eligibility_reason": "no_material_sector_evidence",
-        "current_dated_signal": false,
-        "source_date": "2025-05-26",
-        "assessed_on": "2026-11-16",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      },
-      "possible_duplicates": [
-        {
-          "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-austursvaedi-2025-malbik-og-malbiksvidgerdir",
-          "reference": "25-087",
-          "project": "Yfirlagnir á Austursvæði 2025, malbik og malbiksviðgerðir",
-          "reason": "similar title; notice identity unverified"
-        },
-        {
-          "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-vestursvaedi-2025-malbik",
-          "reference": "25-084",
-          "project": "Yfirlagnir á Vestursvæði 2025 - Malbik",
-          "reason": "similar title; notice identity unverified"
-        },
-        {
-          "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-vestursvaedi-2026-klaeding",
-          "reference": "26-003",
-          "project": "Yfirlagnir á Vestursvæði 2026, klæðing",
-          "reason": "similar title; notice identity unverified"
-        },
-        {
-          "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-vestursvaedi-og-nordursvaedi-2026-blettanir-med-klaedingu",
-          "reference": "26-004",
-          "project": "Yfirlagnir á Vestursvæði og Norðursvæði 2026, blettanir með klæðingu",
-          "reason": "similar title; notice identity unverified"
-        },
-        {
-          "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-hofudborgarsvaedinu-2025-malbik",
-          "reference": "25-086",
-          "project": "Yfirlagnir á höfuðborgarsvæðinu 2025, malbik",
           "reason": "similar title; notice identity unverified"
         }
       ]
@@ -6596,7 +6874,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-08-25",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -6612,12 +6890,6 @@
           "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-vestursvaedi-2025-malbik",
           "reference": "25-084",
           "project": "Yfirlagnir á Vestursvæði 2025 - Malbik",
-          "reason": "similar title; notice identity unverified"
-        },
-        {
-          "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-hofudborgarsvaedinu-2025-malbik",
-          "reference": "25-086",
-          "project": "Yfirlagnir á höfuðborgarsvæðinu 2025, malbik",
           "reason": "similar title; notice identity unverified"
         }
       ]
@@ -6648,18 +6920,12 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-09-22",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
       },
       "possible_duplicates": [
-        {
-          "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-austursvaedi-2025-blettanir-med-klaedingu",
-          "reference": "25-011",
-          "project": "Yfirlagnir Austursvæði 2025, blettanir með klæðingu",
-          "reason": "similar title; notice identity unverified"
-        },
         {
           "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-sudursvaedi-2026-malbik-sudurland",
           "reference": "26-058",
@@ -6693,13 +6959,13 @@
         {
           "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-hofudborgarsvaedinu-2025-malbik",
           "reference": "25-086",
-          "project": "Yfirlagnir á höfuðborgarsvæðinu 2025, malbik",
+          "project": "Yfirlagnir á höfuðborgarsvæðinu 2025",
           "reason": "similar title; notice identity unverified"
         }
       ]
     },
     {
-      "reference": "",
+      "reference": "26-020",
       "project": "Yfirlagnir á Norðursvæði 2026, klæðing",
       "buyer": "Vegagerðin",
       "notice_type": "Samningum lokið",
@@ -6707,10 +6973,10 @@
       "deadline_local": "",
       "deadline_utc": "",
       "deadline_confirmed": false,
-      "posted_at": null,
+      "posted_at": "2026-05-06",
       "modified_at": null,
       "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-nordursvaedi-2026-klaeding",
-      "summary": "Útb",
+      "summary": "Útboð 26-020 · 6. maí 2026",
       "source": "vegagerdin-samningum-lokid",
       "construction_scope": "not_excluded",
       "procurement_deadline_valid": false,
@@ -6723,8 +6989,8 @@
         "project_eligible": false,
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
-        "source_date": null,
-        "assessed_on": "2026-11-16",
+        "source_date": "2026-05-06",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -6830,7 +7096,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-06-09",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -6844,7 +7110,7 @@
         },
         {
           "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-nordursvaedi-2026-klaeding",
-          "reference": "",
+          "reference": "26-020",
           "project": "Yfirlagnir á Norðursvæði 2026, klæðing",
           "reason": "similar title; notice identity unverified"
         },
@@ -6882,12 +7148,6 @@
           "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-vestursvaedi-2026-malbik-og-malbiksvidgerdir",
           "reference": "26-006",
           "project": "Yfirlagnir á Vestursvæði 2026, malbik og malbiksviðgerðir",
-          "reason": "similar title; notice identity unverified"
-        },
-        {
-          "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-hofudborgarsvaedinu-2025-malbik",
-          "reference": "25-086",
-          "project": "Yfirlagnir á höfuðborgarsvæðinu 2025, malbik",
           "reason": "similar title; notice identity unverified"
         }
       ]
@@ -6918,7 +7178,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-06-08",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -6932,7 +7192,7 @@
         },
         {
           "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-nordursvaedi-2026-klaeding",
-          "reference": "",
+          "reference": "26-020",
           "project": "Yfirlagnir á Norðursvæði 2026, klæðing",
           "reason": "similar title; notice identity unverified"
         },
@@ -6970,12 +7230,6 @@
           "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-vestursvaedi-2026-malbik-og-malbiksvidgerdir",
           "reference": "26-006",
           "project": "Yfirlagnir á Vestursvæði 2026, malbik og malbiksviðgerðir",
-          "reason": "similar title; notice identity unverified"
-        },
-        {
-          "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-hofudborgarsvaedinu-2025-malbik",
-          "reference": "25-086",
-          "project": "Yfirlagnir á höfuðborgarsvæðinu 2025, malbik",
           "reason": "similar title; notice identity unverified"
         }
       ]
@@ -7006,7 +7260,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-05-29",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -7026,7 +7280,7 @@
         },
         {
           "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-nordursvaedi-2026-klaeding",
-          "reference": "",
+          "reference": "26-020",
           "project": "Yfirlagnir á Norðursvæði 2026, klæðing",
           "reason": "similar title; notice identity unverified"
         },
@@ -7064,12 +7318,6 @@
           "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-vestursvaedi-2026-malbik-og-malbiksvidgerdir",
           "reference": "26-006",
           "project": "Yfirlagnir á Vestursvæði 2026, malbik og malbiksviðgerðir",
-          "reason": "similar title; notice identity unverified"
-        },
-        {
-          "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-hofudborgarsvaedinu-2025-malbik",
-          "reference": "25-086",
-          "project": "Yfirlagnir á höfuðborgarsvæðinu 2025, malbik",
           "reason": "similar title; notice identity unverified"
         }
       ]
@@ -7100,7 +7348,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-06-04",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -7120,7 +7368,7 @@
         },
         {
           "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-nordursvaedi-2026-klaeding",
-          "reference": "",
+          "reference": "26-020",
           "project": "Yfirlagnir á Norðursvæði 2026, klæðing",
           "reason": "similar title; notice identity unverified"
         },
@@ -7170,12 +7418,6 @@
           "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-vestursvaedi-og-nordursvaedi-2026-blettanir-med-klaedingu",
           "reference": "26-004",
           "project": "Yfirlagnir á Vestursvæði og Norðursvæði 2026, blettanir með klæðingu",
-          "reason": "similar title; notice identity unverified"
-        },
-        {
-          "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-hofudborgarsvaedinu-2025-malbik",
-          "reference": "25-086",
-          "project": "Yfirlagnir á höfuðborgarsvæðinu 2025, malbik",
           "reason": "similar title; notice identity unverified"
         }
       ]
@@ -7206,7 +7448,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-08-22",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -7225,12 +7467,6 @@
           "reason": "similar title; notice identity unverified"
         },
         {
-          "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-austursvaedi-2025-blettanir-med-klaedingu",
-          "reference": "25-011",
-          "project": "Yfirlagnir Austursvæði 2025, blettanir með klæðingu",
-          "reason": "similar title; notice identity unverified"
-        },
-        {
           "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-vestan-jokulsar-a-breidamerkursandi-malbik-hradutbod",
           "reference": "26-123",
           "project": "Yfirlagnir vestan Jökulsár á Breiðamerkursandi, malbik (Hraðútboð)",
@@ -7244,7 +7480,7 @@
         },
         {
           "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-nordursvaedi-2026-klaeding",
-          "reference": "",
+          "reference": "26-020",
           "project": "Yfirlagnir á Norðursvæði 2026, klæðing",
           "reason": "similar title; notice identity unverified"
         },
@@ -7299,7 +7535,7 @@
         {
           "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-hofudborgarsvaedinu-2025-malbik",
           "reference": "25-086",
-          "project": "Yfirlagnir á höfuðborgarsvæðinu 2025, malbik",
+          "project": "Yfirlagnir á höfuðborgarsvæðinu 2025",
           "reason": "similar title; notice identity unverified"
         }
       ]
@@ -7330,7 +7566,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-06-02",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -7369,7 +7605,7 @@
         {
           "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-hofudborgarsvaedinu-2025-malbik",
           "reference": "25-086",
-          "project": "Yfirlagnir á höfuðborgarsvæðinu 2025, malbik",
+          "project": "Yfirlagnir á höfuðborgarsvæðinu 2025",
           "reason": "similar title; notice identity unverified"
         }
       ]
@@ -7400,7 +7636,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-04-28",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -7413,14 +7649,8 @@
           "reason": "similar title; notice identity unverified"
         },
         {
-          "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-austursvaedi-2025-blettanir-med-klaedingu",
-          "reference": "25-011",
-          "project": "Yfirlagnir Austursvæði 2025, blettanir með klæðingu",
-          "reason": "similar title; notice identity unverified"
-        },
-        {
           "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-nordursvaedi-2026-klaeding",
-          "reference": "",
+          "reference": "26-020",
           "project": "Yfirlagnir á Norðursvæði 2026, klæðing",
           "reason": "similar title; notice identity unverified"
         },
@@ -7500,7 +7730,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-06-18",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -7520,7 +7750,7 @@
         },
         {
           "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-nordursvaedi-2026-klaeding",
-          "reference": "",
+          "reference": "26-020",
           "project": "Yfirlagnir á Norðursvæði 2026, klæðing",
           "reason": "similar title; notice identity unverified"
         },
@@ -7571,12 +7801,6 @@
           "reference": "26-004",
           "project": "Yfirlagnir á Vestursvæði og Norðursvæði 2026, blettanir með klæðingu",
           "reason": "similar title; notice identity unverified"
-        },
-        {
-          "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-hofudborgarsvaedinu-2025-malbik",
-          "reference": "25-086",
-          "project": "Yfirlagnir á höfuðborgarsvæðinu 2025, malbik",
-          "reason": "similar title; notice identity unverified"
         }
       ]
     },
@@ -7606,7 +7830,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-05-07",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -7625,14 +7849,8 @@
           "reason": "similar title; notice identity unverified"
         },
         {
-          "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-austursvaedi-2025-blettanir-med-klaedingu",
-          "reference": "25-011",
-          "project": "Yfirlagnir Austursvæði 2025, blettanir með klæðingu",
-          "reason": "similar title; notice identity unverified"
-        },
-        {
           "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-nordursvaedi-2026-klaeding",
-          "reference": "",
+          "reference": "26-020",
           "project": "Yfirlagnir á Norðursvæði 2026, klæðing",
           "reason": "similar title; notice identity unverified"
         },
@@ -7670,7 +7888,7 @@
     },
     {
       "reference": "25-086",
-      "project": "Yfirlagnir á höfuðborgarsvæðinu 2025, malbik",
+      "project": "Yfirlagnir á höfuðborgarsvæðinu 2025",
       "buyer": "Vegagerðin",
       "notice_type": "Samningum lokið",
       "deadline": "",
@@ -7694,58 +7912,16 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-08-07",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
       },
       "possible_duplicates": [
         {
-          "url": "https://www.vegagerdin.is/verkefnin/utbod/eyrarbakkavegur-34-stekkar-tjarnarbyggd-styrking-og-malbik-2025",
-          "reference": "25-071",
-          "project": "Eyrarbakkavegur (34), Stekkar – Tjarnarbyggð, styrking og malbik 2025",
-          "reason": "similar title; notice identity unverified"
-        },
-        {
-          "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-austursvaedi-2025-blettanir-med-klaedingu",
-          "reference": "25-011",
-          "project": "Yfirlagnir Austursvæði 2025, blettanir með klæðingu",
-          "reason": "similar title; notice identity unverified"
-        },
-        {
-          "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-vestan-jokulsar-a-breidamerkursandi-malbik-hradutbod",
-          "reference": "26-123",
-          "project": "Yfirlagnir vestan Jökulsár á Breiðamerkursandi, malbik (Hraðútboð)",
-          "reason": "similar title; notice identity unverified"
-        },
-        {
           "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-austursvaedi-2025-malbik-og-malbiksvidgerdir",
           "reference": "25-087",
           "project": "Yfirlagnir á Austursvæði 2025, malbik og malbiksviðgerðir",
-          "reason": "similar title; notice identity unverified"
-        },
-        {
-          "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-sudursvaedi-2026-malbik-hofudborgin",
-          "reference": "26-056",
-          "project": "Yfirlagnir á Suðursvæði 2026, Malbik Höfuðborgin",
-          "reason": "similar title; notice identity unverified"
-        },
-        {
-          "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-sudursvaedi-2026-malbik-reykjanes",
-          "reference": "26-057",
-          "project": "Yfirlagnir á Suðursvæði 2026, Malbik Reykjanes",
-          "reason": "similar title; notice identity unverified"
-        },
-        {
-          "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-sudursvaedi-2026-malbik-sudurland",
-          "reference": "26-058",
-          "project": "Yfirlagnir á Suðursvæði 2026, Malbik Suðurland",
-          "reason": "similar title; notice identity unverified"
-        },
-        {
-          "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-vestursvaedi-2024-malbik",
-          "reference": "24-022",
-          "project": "Yfirlagnir á Vestursvæði 2024, malbik",
           "reason": "similar title; notice identity unverified"
         },
         {
@@ -7758,12 +7934,6 @@
           "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-vestursvaedi-2025-malbik-og-malbiksvidgerdir",
           "reference": "25-060",
           "project": "Yfirlagnir á Vestursvæði 2025, malbik og malbiksviðgerðir",
-          "reason": "similar title; notice identity unverified"
-        },
-        {
-          "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-vestursvaedi-2026-malbik-og-malbiksvidgerdir",
-          "reference": "26-006",
-          "project": "Yfirlagnir á Vestursvæði 2026, malbik og malbiksviðgerðir",
           "reason": "similar title; notice identity unverified"
         }
       ]
@@ -7794,16 +7964,16 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-01-26",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
       },
       "possible_duplicates": [
         {
-          "url": "https://www.vegagerdin.is/verkefnin/utbod/kjalarnes-sjovorn-2026",
-          "reference": "25-113",
-          "project": "Kjalarnes, sjóvörn 2026",
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/akranes-sjovarnir-2025",
+          "reference": "25-099",
+          "project": "Akranes, sjóvarnir 2025",
           "reason": "similar title; notice identity unverified"
         },
         {
@@ -7816,7 +7986,7 @@
     },
     {
       "reference": "25-120",
-      "project": "Áætl­unar­flug á Íslandi – Sérleyfi fyrir Vega­gerð­ina, Reykja­vík – Vestmannaeyjar – Reykja­vík 2026-2029",
+      "project": "Áætl­unar­flug",
       "buyer": "Vegagerðin",
       "notice_type": "Samningum lokið",
       "deadline": "",
@@ -7834,22 +8004,22 @@
       "is_open_opportunity": false,
       "sector_tags": [],
       "sector_eligibility": {
-        "iceland_project_evidence": true,
+        "iceland_project_evidence": false,
         "facility_relevance": false,
         "project_eligible": false,
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-04-21",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
       },
       "possible_duplicates": [
         {
-          "url": "https://www.vegagerdin.is/verkefnin/utbod/vik-i-myrdal-flodvorn-2026",
-          "reference": "26-143",
-          "project": "Vík í Mýrdal, flóðvörn 2026",
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/fljotagong-79-rannsoknaboranir-2025",
+          "reference": "25-082",
+          "project": "Fl",
           "reason": "similar title; notice identity unverified"
         },
         {
@@ -7886,16 +8056,22 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-06-19",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
       },
       "possible_duplicates": [
         {
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/fljotagong-79-rannsoknaboranir-2025",
+          "reference": "25-082",
+          "project": "Fl",
+          "reason": "similar title; notice identity unverified"
+        },
+        {
           "url": "https://www.vegagerdin.is/verkefnin/utbod/aaetlunarflug-a-islandi-serleyfi",
           "reference": "25-120",
-          "project": "Áætl­unar­flug á Íslandi – Sérleyfi fyrir Vega­gerð­ina, Reykja­vík – Vestmannaeyjar – Reykja­vík 2026-2029",
+          "project": "Áætl­unar­flug",
           "reason": "similar title; notice identity unverified"
         }
       ]
@@ -7926,7 +8102,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-06-11",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -7972,7 +8148,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-07-21",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -8030,7 +8206,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-06-26",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -8062,7 +8238,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-07-07",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -8141,12 +8317,50 @@
           "reason": "similar title; notice identity unverified"
         },
         {
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/vidhald-malarvega-a-sudursvaedi",
+          "reference": "26-064",
+          "project": "Viðhald malarvega á Suðursvæði 2026-2028, þjónustustöð á Selfossi, vegheflun, Uppsveitir Árnessýslu",
+          "reason": "similar title; notice identity unverified"
+        },
+        {
           "url": "https://www.vegagerdin.is/verkefnin/utbod/vidhald-malarvega-a-sudursvaedi-2026-28",
           "reference": "26-063",
-          "project": "Viðhald malarvega á Suðursvæði 2026-2028, þjónustustöð í Vík, vegheflun,",
+          "project": "Viðhald malarvega á Suðursvæði 2026-2028, þjónustustöð í Vík, vegheflun, vestur",
           "reason": "similar title; notice identity unverified"
         }
       ]
+    },
+    {
+      "reference": "26-012",
+      "project": "Þorlákshafnarvegur (38), Lækur í Ölfusi – Þrengslavegamót, styrking og breikkun",
+      "buyer": "Vegagerðin",
+      "notice_type": "Samningum lokið",
+      "deadline": "",
+      "deadline_local": "",
+      "deadline_utc": "",
+      "deadline_confirmed": false,
+      "posted_at": "2026-03-27",
+      "modified_at": null,
+      "url": "https://www.vegagerdin.is/verkefnin/utbod/thorlakshafnarvegur-38-laekur-i-olfusi-threngslavegamot-styrking-og-breikkun",
+      "summary": "Útboð 26-012 · 27. mars 2026",
+      "source": "vegagerdin-samningum-lokid",
+      "construction_scope": "not_excluded",
+      "procurement_deadline_valid": false,
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-03-27",
+        "assessed_on": "2026-11-17",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "reference": "26-103",
@@ -8174,7 +8388,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-06-30",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -8257,7 +8471,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-20",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -8267,6 +8481,70 @@
           "url": "https://www.vegagerdin.is/verkefnin/utbod/thorlakshofn-dypkun-groftur-2026",
           "reference": "26-103",
           "project": "Þorlákshöfn – Dýpkun, gröftur 2026",
+          "reason": "similar title; notice identity unverified"
+        }
+      ]
+    },
+    {
+      "reference": "25-088",
+      "project": "Þurrfræsing á Norðursvæði 2025, Hringvegur, við Blönduhlíð í Skagafirði",
+      "buyer": "Vegagerðin",
+      "notice_type": "Samningum lokið",
+      "deadline": "",
+      "deadline_local": "",
+      "deadline_utc": "",
+      "deadline_confirmed": false,
+      "posted_at": "2025-08-05",
+      "modified_at": null,
+      "url": "https://www.vegagerdin.is/verkefnin/utbod/thurrfraesing-a-nordursvaedi-2025-hringvegur-vid-blonduhlid-i-skagafirdi",
+      "summary": "Útboð 25-088 · 5. ágúst 2025",
+      "source": "vegagerdin-samningum-lokid",
+      "construction_scope": "not_excluded",
+      "procurement_deadline_valid": false,
+      "intelligence_type": "historical_award",
+      "is_open_opportunity": false,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2025-08-05",
+        "assessed_on": "2026-11-17",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "possible_duplicates": [
+        {
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/malbiksframkvaemdir-a-nordursvaedi-2025",
+          "reference": "25-090",
+          "project": "Malbiksframkvæmdir á Norðursvæði 2025",
+          "reason": "similar title; notice identity unverified"
+        },
+        {
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/sementsfestun-a-nordur",
+          "reference": "25-007",
+          "project": "Sementsfestun á Norðursvæði 2025",
+          "reason": "similar title; notice identity unverified"
+        },
+        {
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/thurrfraesing-a-nordursvaedi",
+          "reference": "25-089",
+          "project": "Þurrfræsing á Norðursvæði 2025, Hringvegur, við Ljósavatnsskarð í Þingeyjarsýslu og Hjaltadal í Skagafirði",
+          "reason": "similar title; notice identity unverified"
+        },
+        {
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/thurrfraesing-a-nordursvaedi-2025-klaeding",
+          "reference": "25-008",
+          "project": "Þurrfræsing á Norðursvæði 2025, klæðing",
+          "reason": "similar title; notice identity unverified"
+        },
+        {
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/thurrfraesing-a-nordursvaedi-2026",
+          "reference": "26-022",
+          "project": "Þurrfræsing á Norðursvæði 2026",
           "reason": "similar title; notice identity unverified"
         }
       ]
@@ -8297,7 +8575,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-08-05",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -8310,9 +8588,15 @@
           "reason": "similar title; notice identity unverified"
         },
         {
-          "url": "https://www.vegagerdin.is/verkefnin/utbod/sementsfestun-a-nordursvaedi-2025",
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/sementsfestun-a-nordur",
           "reference": "25-007",
           "project": "Sementsfestun á Norðursvæði 2025",
+          "reason": "similar title; notice identity unverified"
+        },
+        {
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/thurrfraesing-a-nordursvaedi-2025-hringvegur-vid-blonduhlid-i-skagafirdi",
+          "reference": "25-088",
+          "project": "Þurrfræsing á Norðursvæði 2025, Hringvegur, við Blönduhlíð í Skagafirði",
           "reason": "similar title; notice identity unverified"
         },
         {
@@ -8355,7 +8639,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-07-09",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -8374,15 +8658,21 @@
           "reason": "similar title; notice identity unverified"
         },
         {
-          "url": "https://www.vegagerdin.is/verkefnin/utbod/sementsfestun-a-nordursvaedi-2025",
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/sementsfestun-a-nordur",
           "reference": "25-007",
           "project": "Sementsfestun á Norðursvæði 2025",
           "reason": "similar title; notice identity unverified"
         },
         {
           "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-nordursvaedi-2026-klaeding",
-          "reference": "",
+          "reference": "26-020",
           "project": "Yfirlagnir á Norðursvæði 2026, klæðing",
+          "reason": "similar title; notice identity unverified"
+        },
+        {
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/thurrfraesing-a-nordursvaedi-2025-hringvegur-vid-blonduhlid-i-skagafirdi",
+          "reference": "25-088",
+          "project": "Þurrfræsing á Norðursvæði 2025, Hringvegur, við Blönduhlíð í Skagafirði",
           "reason": "similar title; notice identity unverified"
         },
         {
@@ -8425,7 +8715,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-06-30",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -8445,7 +8735,7 @@
         },
         {
           "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-nordursvaedi-2026-klaeding",
-          "reference": "",
+          "reference": "26-020",
           "project": "Yfirlagnir á Norðursvæði 2026, klæðing",
           "reason": "similar title; notice identity unverified"
         },
@@ -8453,6 +8743,12 @@
           "url": "https://www.vegagerdin.is/verkefnin/utbod/yfirlagnir-a-vestursvaedi-og-nordursvaedi-2026-blettanir-med-klaedingu",
           "reference": "26-004",
           "project": "Yfirlagnir á Vestursvæði og Norðursvæði 2026, blettanir með klæðingu",
+          "reason": "similar title; notice identity unverified"
+        },
+        {
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/thurrfraesing-a-nordursvaedi-2025-hringvegur-vid-blonduhlid-i-skagafirdi",
+          "reference": "25-088",
+          "project": "Þurrfræsing á Norðursvæði 2025, Hringvegur, við Blönduhlíð í Skagafirði",
           "reason": "similar title; notice identity unverified"
         },
         {
@@ -8495,7 +8791,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-08-06",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -8527,7 +8823,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-02-23",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -8559,39 +8855,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-02",
-        "assessed_on": "2026-11-16",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      }
-    },
-    {
-      "reference": "715187-2026",
-      "project": "Portable Office Units for Hlíð Nursing Home",
-      "buyer": "Framkvæmdasýslan ríkiseignir (FSRE)",
-      "notice_type": "cn-standard",
-      "deadline": "16.11.2026 kl. 12:00",
-      "deadline_local": "2026-11-16T12:00:58+00:00",
-      "deadline_utc": "2026-11-16T12:00:58+00:00",
-      "deadline_confirmed": false,
-      "posted_at": "2026-10-16",
-      "modified_at": null,
-      "url": "https://ted.europa.eu/en/notice/-/detail/715187-2026",
-      "summary": "TED open Iceland construction contract notice; CPV 44211100, 45000000, 44211100, 45000000.",
-      "source": "ted",
-      "construction_scope": "not_excluded",
-      "procurement_deadline_valid": false,
-      "intelligence_type": "unverified_deadline",
-      "is_open_opportunity": false,
-      "sector_tags": [],
-      "sector_eligibility": {
-        "iceland_project_evidence": true,
-        "facility_relevance": false,
-        "project_eligible": false,
-        "eligibility_reason": "no_material_sector_evidence",
-        "current_dated_signal": false,
-        "source_date": "2026-10-16",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -8623,7 +8887,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-29",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -8663,7 +8927,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-30",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -8695,7 +8959,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-05",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -8727,7 +8991,39 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-12",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "reference": "ONU-2611-0020",
+      "project": "ONU-2611-0020 HELLISHEIÐARVIRKJUN VERSTÆÐIS- OG LAGERBYGGING - Lóð, tæknikerfi og innanhúsfrágangur",
+      "buyer": "Orka náttúrunnar (ON)",
+      "notice_type": "$prjTenderProcessWorks",
+      "deadline": "21.12.2026 kl. 14:00",
+      "deadline_local": "2026-12-21T14:00:00+00:00",
+      "deadline_utc": "2026-12-21T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": null,
+      "modified_at": null,
+      "url": "https://in-tendhost.co.uk/reykjavikenergy/aspx/ProjectManage/714",
+      "summary": "Verkið felst í fullnaðarfrágangi nýs lager- og vélaverkstæðis við Sleggju á Hellisheiði. Um er að ræða heildstætt framkvæmdaverk þar sem ljúka skal byggingunni að innan og utan, ásamt uppsetningu, frágangi, prófunum og gangsetningu allra tilheyrandi tæknikerfa samkvæmt útboðsgögnum. Verkið tekur meðal annars til lagna-, loftræsi-, raf- og stýrikerfa, auk sérhæfðra kerfa vegna starfsemi lager- og vélaverkstæðis. Jafn…",
+      "source": "or-intend",
+      "construction_scope": "not_excluded",
+      "procurement_deadline_valid": true,
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": null,
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -8759,7 +9055,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-19",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -8791,7 +9087,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-18",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -8823,7 +9119,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-12",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -8855,7 +9151,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-19",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -8887,7 +9183,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2024-03-04",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -8919,7 +9215,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": null,
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -8951,7 +9247,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2023-07-27",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -8983,7 +9279,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-03-14",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -9015,7 +9311,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": null,
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -9047,7 +9343,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": null,
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -9079,7 +9375,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2024-07-04",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -9114,7 +9410,7 @@
         "eligibility_reason": "eligible_project_context",
         "current_dated_signal": false,
         "source_date": "2025-12-23",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -9154,7 +9450,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-13",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -9194,7 +9490,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-13",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -9250,7 +9546,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-09",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -9335,49 +9631,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-13",
-        "assessed_on": "2026-11-16",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      }
-    },
-    {
-      "source": "byggingar-tender",
-      "url": "https://byggingar.is/gong-og-bru-bjoda-ut-umfangsmikla-radgjof",
-      "project": "Göng og brú bjóða út umfangsmikla ráðgjöf vegna Sundabrautar og nýrra Hvalfjarðarganga",
-      "buyer": "Göng og brú ohf.",
-      "reference": "752675-2026",
-      "notice_type": "Secondary tender notice",
-      "summary": "Göng og brú bjóða út umfangsmikla ráðgjöf vegna Sundabrautar og nýrra Hvalfjarðarganga Göng og brú ohf. hefur auglýst alþjóðlegt útboð á ráðgjafarteymi sem á að styðja félagið við undirbúning og framkvæmd stórra samgönguverkefna. Fyrstu verkefnin eru Sundabraut, önnur jarðgöng undir Hvalfjörð og ný brú yfir Ölfusá. Rammasamningurinn getur gilt í allt að 20 ár og er hámarksverðmæti hans tilgreint 150 milljónir evra. U",
-      "posted_at": "2026-10-31T10:55:43+00:00",
-      "modified_at": null,
-      "deadline": "",
-      "deadline_utc": "",
-      "deadline_local": "",
-      "deadline_confirmed": false,
-      "deadline_source": "https://byggingar.is/gong-og-bru-bjoda-ut-umfangsmikla-radgjof",
-      "deadline_status": "unverified",
-      "secondary_deadline_dates": [],
-      "deadline_evidence": [],
-      "secondary_deadline_datetimes": [],
-      "secondary_deadline_reports": [],
-      "primary_notice_urls": [
-        "https://ted.europa.eu/en/notice/-/detail/752675-2026"
-      ],
-      "project_addresses": [],
-      "intelligence_type": "non_works_procurement",
-      "is_open_opportunity": false,
-      "construction_scope": "not_excluded",
-      "procurement_deadline_valid": false,
-      "sector_tags": [],
-      "sector_eligibility": {
-        "iceland_project_evidence": true,
-        "facility_relevance": false,
-        "project_eligible": false,
-        "eligibility_reason": "no_material_sector_evidence",
-        "current_dated_signal": false,
-        "source_date": "2026-10-31",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -9435,7 +9689,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-27",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -9512,73 +9766,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-12",
-        "assessed_on": "2026-11-16",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      }
-    },
-    {
-      "source": "byggingar-tender",
-      "url": "https://byggingar.is/hornafjordur-bydur-ut-endurnyjun-gervigrass-i-barunni",
-      "project": "Hornafjörður býður út endurnýjun gervigrass í Bárunni",
-      "buyer": "Sveitarfélagið Hornafjörður",
-      "reference": "",
-      "notice_type": "Secondary tender notice",
-      "summary": "Hornafjörður býður út endurnýjun gervigrass í Bárunni Sveitarfélagið Hornafjörður hefur auglýst útboð á kaupum, afhendingu og uppsetningu nýs gervigraskerfis í knattspyrnuhúsinu Bárunni á Höfn. Um er að ræða gervigras án innfylliefna og skal verkinu lokið eigi síðar en 9. febrúar 2027. Tilboðsfrestur rennur út 24. nóvember næstkomandi. Útboðið er almennt opið útboð sem auglýst er á Evrópska efnahagssvæðinu. Verkefnið",
-      "posted_at": "2026-10-19T09:38:02+00:00",
-      "modified_at": null,
-      "deadline": "2026-11-24",
-      "deadline_utc": "",
-      "deadline_local": "",
-      "deadline_confirmed": false,
-      "deadline_source": "https://byggingar.is/hornafjordur-bydur-ut-endurnyjun-gervigrass-i-barunni",
-      "deadline_status": "secondary_reported",
-      "secondary_deadline_dates": [
-        "2026-11-24"
-      ],
-      "deadline_evidence": [
-        "Tilboðsfrestur rennur út 24. nóvember næstkomandi",
-        "Tilboðum skal skila í Ajour fyrir klukkan 14:00 þriðjudaginn 24. nóvember 2026"
-      ],
-      "secondary_deadline_datetimes": [
-        "2026-11-24T14:00:00+00:00"
-      ],
-      "secondary_deadline_reports": [
-        {
-          "date": null,
-          "time": null,
-          "datetime_utc": null,
-          "day": 24,
-          "month": 11,
-          "year_explicit": false,
-          "evidence": "Tilboðsfrestur rennur út 24. nóvember næstkomandi"
-        },
-        {
-          "date": "2026-11-24",
-          "time": "14:00",
-          "datetime_utc": "2026-11-24T14:00:00+00:00",
-          "day": 24,
-          "month": 11,
-          "year_explicit": true,
-          "evidence": "Tilboðum skal skila í Ajour fyrir klukkan 14:00 þriðjudaginn 24. nóvember 2026"
-        }
-      ],
-      "primary_notice_urls": [],
-      "project_addresses": [],
-      "intelligence_type": "unverified_deadline",
-      "is_open_opportunity": false,
-      "construction_scope": "not_excluded",
-      "procurement_deadline_valid": false,
-      "sector_tags": [],
-      "sector_eligibility": {
-        "iceland_project_evidence": false,
-        "facility_relevance": false,
-        "project_eligible": false,
-        "eligibility_reason": "no_material_sector_evidence",
-        "current_dated_signal": false,
-        "source_date": "2026-10-19",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -9635,7 +9823,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-30",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -9711,7 +9899,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-13",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -9777,12 +9965,18 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-21",
-        "assessed_on": "2026-11-16",
+        "assessed_on": "2026-11-17",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
       },
       "possible_duplicates": [
+        {
+          "url": "https://www.vegagerdin.is/verkefnin/utbod/fljotagong-79-rannsoknaboranir-2025",
+          "reference": "25-082",
+          "project": "Fl",
+          "reason": "similar title; notice identity unverified"
+        },
         {
           "url": "https://www.vegagerdin.is/verkefnin/utbod/vik-i-myrdal-flodvorn-2026",
           "reference": "26-143",
