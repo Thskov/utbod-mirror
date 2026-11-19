@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated": "2026-11-19T06:30:01Z",
+  "generated": "2026-11-19T09:54:43Z",
   "window": {
     "from": "2026-10-20",
     "to": "2026-11-19"
@@ -56,7 +56,7 @@
         }
       ],
       "counts_by_sector": {
-        "tourism-infrastructure": 7,
+        "tourism-infrastructure": 6,
         "aquaculture-fish-production": 3,
         "datacentres-infrastructure": 2
       },
@@ -285,6 +285,12 @@
         "coverage": "bounded operator supplement"
       },
       {
+        "source": "first-water",
+        "outlet": "First Water",
+        "url": "https://www.firstwater.is/ip/news",
+        "coverage": "bounded operator supplement"
+      },
+      {
         "source": "laxey",
         "outlet": "Laxey",
         "url": "https://www.laxey.is/frettir/",
@@ -447,8 +453,8 @@
   "sources": {
     "not_covered": {
       "byggingar": "Incomplete: 4 relevant records rejected without verified publication dates.",
-      "vb": "Incomplete: 10 relevant records rejected without verified publication dates.",
-      "fiskifrettir": "Incomplete: 4 relevant records rejected without verified publication dates.",
+      "vb": "Incomplete: 9 relevant records rejected without verified publication dates.",
+      "fiskifrettir": "Incomplete: 5 relevant records rejected without verified publication dates.",
       "bb": "Incomplete: no verified in-window relevant records extracted.",
       "landsvirkjun": "Incomplete: 7 relevant records rejected without verified publication dates.",
       "landsvirkjun-utbod": "Incomplete: 8 relevant records rejected without verified publication dates.",
@@ -473,8 +479,8 @@
       "datacenterdynamics-coverage": "bounded secondary trade supplement; historical/source completeness not established (https://www.datacenterdynamics.com/en/news/)",
       "landbasedaq-coverage": "bounded secondary trade supplement; historical/source completeness not established (https://www.landbasedaq.com/)",
       "samherji-operator-coverage": "bounded first-party dated-news supplement; undated project references and complete historical reach not established (https://www.samherji.is/is/frettir)",
-      "first-water-operator-coverage": "bounded first-party dated-news supplement; undated project references and complete historical reach not established (https://www.firstwater.is/news)",
-      "first-water-operator-budget": "bounded operator detail budget exhausted (https://www.firstwater.is/news)",
+      "first-water-operator-coverage": "bounded first-party dated-news supplement; undated project references and complete historical reach not established (https://www.firstwater.is/ip/news)",
+      "first-water-operator-budget": "bounded operator detail budget exhausted (https://www.firstwater.is/ip/news)",
       "laxey-operator-coverage": "bounded first-party dated-news supplement; undated project references and complete historical reach not established (https://www.laxey.is/frettir/)",
       "laxey-operator-budget": "bounded operator detail budget exhausted (https://www.laxey.is/frettir/)",
       "verne-operator-coverage": "bounded first-party dated-news supplement; undated project references and complete historical reach not established (https://www.verne.co/news)",
@@ -498,7 +504,7 @@
         "evidence_url": "https://www.geosalmo.com/news/eyrun-viktorsdottir-as-head-of-quality-and-sustainability",
         "seen_count": 4,
         "first_seen": "2026-11-13T06:30:01Z",
-        "last_seen": "2026-11-19T06:30:01Z",
+        "last_seen": "2026-11-19T09:54:43Z",
         "reason": "repeated unknown entity found in generated news items",
         "status": "pending"
       },
@@ -510,7 +516,7 @@
         "evidence_url": "https://www.landbasedaq.com/arctic-char-bankruptcy-iceland/iceland-arctic-char-farmer-files-for-bankrupcty/2206923",
         "seen_count": 1,
         "first_seen": "2026-10-29T08:17:48Z",
-        "last_seen": "2026-11-19T06:30:01Z",
+        "last_seen": "2026-11-19T09:54:43Z",
         "reason": "unknown entity found in generated news items",
         "status": "pending"
       },
@@ -522,7 +528,7 @@
         "evidence_url": "https://sedlabanki.is/frettir-og-utgefid-efni/grein/yfirlysing-peningastefnunefndar-18-november-2026",
         "seen_count": 1,
         "first_seen": "2026-11-02T17:18:17Z",
-        "last_seen": "2026-11-19T06:30:01Z",
+        "last_seen": "2026-11-19T09:54:43Z",
         "reason": "unknown entity found in generated news items",
         "status": "pending"
       },
@@ -540,7 +546,7 @@
       }
     ]
   },
-  "count": 117,
+  "count": 118,
   "items": [
     {
       "id": "news:visir-vidskipti:haegist-enn-frekar-a-fasteignamarkadi",
@@ -569,14 +575,40 @@
       }
     },
     {
-      "id": "news:byggingar:landsvirkjun-leitar-verktaka-i-gufuveitu-a-theistareykjum",
+      "id": "news:heimildin:hugmyndin-um-coda-terminal-ekki-praktisk-eins-og-er",
       "lane": "news",
-      "category": "project",
-      "title": "Landsvirkjun leitar verktaka í gufuveitu á Þeistareykjum",
+      "category": "industrial-demand",
+      "title": "Hug­myndin um Coda Terminal „ekki praktísk eins og er“",
+      "entity": "heimildin.is",
+      "date": "2026-11-19",
+      "summary": "Hug­myndin um Coda Terminal „ekki praktísk eins og er“",
+      "url": "https://heimildin.is/g95jr/hugmyndin-um-coda-terminal-ekki-praktisk-eins-og-er/",
+      "outlet": "heimildin.is",
+      "source": "heimildin",
+      "is_new": true,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-19",
+        "assessed_on": "2026-11-19",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:byggingar:iav-hifdu-eigid-fed-upp-eftir-a",
+      "lane": "news",
+      "category": "competitor",
+      "title": "ÍAV hífðu eigið féð upp eftir á",
       "entity": "byggingar.is",
       "date": "2026-11-19",
-      "summary": "Landsvirkjun leitar verktaka í gufuveitu á Þeistareykjum",
-      "url": "https://byggingar.is/landsvirkjun-leitar-verktaka-i-gufuveitu-a-theistareykjum/",
+      "summary": "ÍAV hífðu eigið féð upp eftir á",
+      "url": "https://byggingar.is/iav-hifdu-eigid-fed-upp-eftir-a/",
       "outlet": "byggingar.is",
       "source": "byggingar",
       "is_new": true,
@@ -595,16 +627,42 @@
       }
     },
     {
-      "id": "news:byggingar:laegstir-med-332-milljonir-i-rafverktakautbodi-nys-landspitala",
+      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-oll-sex-tilbod-yfir-aaetlun-i-vidhald",
+      "lane": "news",
+      "category": "project",
+      "title": "Öll sex tilboð yfir áætlun í viðhald veglýsingar á höfuðborgarsvæðinu",
+      "entity": "byggingar.is / niðurstöður útboða",
+      "date": "2026-11-19",
+      "summary": "Öll sex tilboð yfir áætlun í viðhald veglýsingar á höfuðborgarsvæðinu Sex fyrirtæki buðu í þjónustu og viðhald veglýsingar á höfuðborgarsvæðinu í útboði Vegagerðarinnar. Ljóstvistar ehf. áttu lægsta tilboðið, 176,97 milljónir króna, sem er um 18,4 milljónum króna yfir kostnaðaráætlun verkkaupa. Öll sex tilboðin reyndust yfir áætlun. Tilboðin voru opnuð 17.....",
+      "url": "https://byggingar.is/oll-sex-tilbod-yfir-aaetlun-i-vidhald-veglysingar-a-hofudborgarsvaedinu/?utm_source=rss&utm_medium=rss&utm_campaign=oll-sex-tilbod-yfir-aaetlun-i-vidhald-veglysingar-a-hofudborgarsvaedinu",
+      "outlet": "byggingar.is / niðurstöður útboða",
+      "source": "byggingar-utbod",
+      "is_new": true,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-19",
+        "assessed_on": "2026-11-19",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-laegstir-med-332-milljonir-i-rafverkt",
       "lane": "news",
       "category": "project",
       "title": "Lægstir með 332 milljónir í rafverktakaútboði Nýs Landspítala",
-      "entity": "byggingar.is",
+      "entity": "byggingar.is / niðurstöður útboða",
       "date": "2026-11-19",
-      "summary": "Lægstir með 332 milljónir í rafverktakaútboði Nýs Landspítala",
-      "url": "https://byggingar.is/laegstir-med-332-milljonir-i-rafverktakautbodi-nys-landspitala/",
-      "outlet": "byggingar.is",
-      "source": "byggingar",
+      "summary": "Lægstir með 332 milljónir í rafverktakaútboði Nýs Landspítala Þrjú tilboð bárust Nýjum Landspítala ohf. í útboð á uppsetningu, strengjum og tengingum (UST). H&S Rafverktakar ehf. áttu lægsta tilboðið, rúmlega 332 milljónir króna án virðisaukaskatts. Tilboðið er um 54,1 milljón króna yfir kostnaðaráætlun verkkaupa, sem hljóðar upp á 278 milljónir króna. Tilb...",
+      "url": "https://byggingar.is/laegstir-med-332-milljonir-i-rafverktakautbodi-nys-landspitala/?utm_source=rss&utm_medium=rss&utm_campaign=laegstir-med-332-milljonir-i-rafverktakautbodi-nys-landspitala",
+      "outlet": "byggingar.is / niðurstöður útboða",
+      "source": "byggingar-utbod",
       "is_new": true,
       "sector_tags": [],
       "sector_eligibility": {
@@ -621,20 +679,20 @@
       }
     },
     {
-      "id": "news:byggingar:bilastaeda-og-taeknihus-nys-landspitala-opnad-eykt-annadist-bygginguna",
+      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-bergraf-ehf-205-milljonum-undir-aaetl",
       "lane": "news",
-      "category": "competitor",
-      "title": "Bílastæða- og tæknihús nýs Landspítala opnað – Eykt annaðist bygginguna",
-      "entity": "byggingar.is",
+      "category": "project",
+      "title": "Bergraf ehf. 20,5 milljónum undir áætlun í viðhald veglýsingar á Reykjanesi",
+      "entity": "byggingar.is / niðurstöður útboða",
       "date": "2026-11-19",
-      "summary": "Bílastæða- og tæknihús nýs Landspítala opnað – Eykt annaðist bygginguna",
-      "url": "https://byggingar.is/bilastaeda-og-taeknihus-nys-landspitala-opnad-eykt-annadist-bygginguna/",
-      "outlet": "byggingar.is",
-      "source": "byggingar",
+      "summary": "Bergraf ehf. 20,5 milljónum undir áætlun í viðhald veglýsingar á Reykjanesi Fimm fyrirtæki buðu í þjónustu og viðhald veglýsingar á Reykjanesi í útboði Vegagerðarinnar. Bergraf ehf. í Reykjanesbæ átti lægsta tilboðið, tæpar 64 milljónir króna, sem er um 20,5 milljónum króna undir kostnaðaráætlun verkkaupa. Næstlægsta tilboðið nam rúmum 87 milljónum króna. T...",
+      "url": "https://byggingar.is/bergraf-ehf-205-milljonum-undir-aaetlun-i-vidhald-veglysingar-a-reykjanesi/?utm_source=rss&utm_medium=rss&utm_campaign=bergraf-ehf-205-milljonum-undir-aaetlun-i-vidhald-veglysingar-a-reykjanesi",
+      "outlet": "byggingar.is / niðurstöður útboða",
+      "source": "byggingar-utbod",
       "is_new": true,
       "sector_tags": [],
       "sector_eligibility": {
-        "iceland_project_evidence": false,
+        "iceland_project_evidence": true,
         "facility_relevance": false,
         "project_eligible": false,
         "eligibility_reason": "no_material_sector_evidence",
@@ -707,6 +765,58 @@
       "date": "2026-11-19",
       "summary": "2027-01-14 · Iðan Stórhöfða · Þetta námskeið er það fyrsta af þremur þar sem fjallað er um raka í húsnæði og myglusveppi sem iðulega fylgja viðvarandi raka í byggingarefnum.",
       "url": "https://braggi.is/vidburdur-idan-1963/",
+      "outlet": "braggi.is",
+      "source": "braggi",
+      "is_new": true,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-19",
+        "assessed_on": "2026-11-19",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:braggi:utbodsvefur-endurnyjun-inntaksloka-i-burfellsstod",
+      "lane": "news",
+      "category": "project",
+      "title": "Endurnýjun inntaksloka í Búrfellsstöð",
+      "entity": "braggi.is",
+      "date": "2026-11-19",
+      "summary": "Landsvirkjun óskar eftir tilboðum frá birgjum vegna heildarendurnýjunar á inntakslokum í Búrfellsstöð. Verkefnið snýr að öllum sex inntakslokum stöðvarinnar og felur í sér hönnun, smíði, uppsetningu og gangsetningu þeirra. Útboðið er flokkað sem vör",
+      "url": "https://braggi.is/utbodsvefur-endurnyjun-inntaksloka-i-burfellsstod/",
+      "outlet": "braggi.is",
+      "source": "braggi",
+      "is_new": true,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-19",
+        "assessed_on": "2026-11-19",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:braggi:einangrun-thettleiki-og-loftskipti-rada-miklu-um-orkunotkun-husa",
+      "lane": "news",
+      "category": "project",
+      "title": "Einangrun, þéttleiki og loftskipti ráða miklu um orkunotkun húsa",
+      "entity": "braggi.is",
+      "date": "2026-11-19",
+      "summary": "Húsnæðis- og mannvirkjastofnun hefur tekið saman helstu þætti sem hafa áhrif á orkuþörf til húshitunar í Rb-blaði nóvembermánaðar. Bætt einangrun og stýring hitakerfa eru meðal þeirra leiða sem geta dregið úr orkunotkun þegar kólnar í veðri.",
+      "url": "https://braggi.is/einangrun-thettleiki-og-loftskipti-rada-miklu-um-orkunotkun-husa/",
       "outlet": "braggi.is",
       "source": "braggi",
       "is_new": true,
@@ -1071,35 +1181,6 @@
       }
     },
     {
-      "id": "news:braggi:hafna-beidni-um-verslunar-og-thjonustubyggingu-a-flugvollum",
-      "lane": "news",
-      "category": "industrial-demand",
-      "title": "Hafna beiðni um verslunar- og þjónustubyggingu á Flugvöllum",
-      "entity": "braggi.is",
-      "date": "2026-11-18",
-      "summary": "Skipulagsráð Reykjanesbæjar hefur hafnað beiðni frá félaginu Reykjanes Investment ehf. um að gera þróunarsamning vegna spildu á Flugvöllum. Fyrirtækið óskaði eftir samningnum með það fyrir augum að reisa á svæðinu byggingu fyrir verslun og þjónustu.",
-      "url": "https://braggi.is/hafna-beidni-um-verslunar-og-thjonustubyggingu-a-flugvollum/",
-      "outlet": "braggi.is",
-      "source": "braggi",
-      "is_new": true,
-      "sector_tags": [
-        "tourism-infrastructure"
-      ],
-      "sector_evidence_role": "project_or_sector_context",
-      "sector_eligibility": {
-        "iceland_project_evidence": true,
-        "facility_relevance": true,
-        "project_eligible": true,
-        "eligibility_reason": "eligible_project_context",
-        "current_dated_signal": true,
-        "source_date": "2026-11-18",
-        "assessed_on": "2026-11-19",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      }
-    },
-    {
       "id": "news:braggi:dalvikurbyggd-samthykkir-skipulagslysingu-fyrir-nytt-athafnasvaedi-vid-melbrun",
       "lane": "news",
       "category": "investment",
@@ -1168,11 +1249,11 @@
       ],
       "sector_evidence_role": "project_or_sector_context",
       "sector_eligibility": {
-        "iceland_project_evidence": false,
+        "iceland_project_evidence": true,
         "facility_relevance": true,
-        "project_eligible": false,
-        "eligibility_reason": "iceland_project_not_verified",
-        "current_dated_signal": false,
+        "project_eligible": true,
+        "eligibility_reason": "eligible_project_context",
+        "current_dated_signal": true,
         "source_date": "2026-11-18",
         "assessed_on": "2026-11-19",
         "new_milestone_verified": false,
@@ -3290,32 +3371,6 @@
       }
     },
     {
-      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-raetur-verktakar-ehf-laegstbjodendur-",
-      "lane": "news",
-      "category": "project",
-      "title": "Rætur verktakar ehf. lægstbjóðendur í endurbætur á Múlaborg",
-      "entity": "byggingar.is / niðurstöður útboða",
-      "date": "2026-10-27",
-      "summary": "Rætur verktakar ehf. lægstbjóðendur í endurbætur á Múlaborg Rætur verktakar ehf. áttu lægsta tilboðið í endurbætur á þaki, gluggum og klæðningu Múlaborgar í Reykjavík. Tilboð fyrirtækisins hljóðaði upp á 69,1 milljón króna, eða 90,87% af kostnaðaráætlun Reykjavíkurborgar. Alls bárust níu tilboð í verkið og voru þrjú þeirra undir kostnaðaráætlun. Tilboðin vo...",
-      "url": "https://byggingar.is/raetur-verktakar-ehf-laegstbjodendur-i-endurbaetur-a-mulaborg/?utm_source=rss&utm_medium=rss&utm_campaign=raetur-verktakar-ehf-laegstbjodendur-i-endurbaetur-a-mulaborg",
-      "outlet": "byggingar.is / niðurstöður útboða",
-      "source": "byggingar-utbod",
-      "is_new": false,
-      "sector_tags": [],
-      "sector_eligibility": {
-        "iceland_project_evidence": true,
-        "facility_relevance": false,
-        "project_eligible": false,
-        "eligibility_reason": "no_material_sector_evidence",
-        "current_dated_signal": false,
-        "source_date": "2026-10-27",
-        "assessed_on": "2026-11-19",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      }
-    },
-    {
       "id": "news:byggingar-contracts:utm-source-rss-utm-medium-rss-utm-campaign-sudurverk-og-fossvelar-fa-468-milljar",
       "lane": "news",
       "category": "competitor",
@@ -3387,32 +3442,6 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-24",
-        "assessed_on": "2026-11-19",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      }
-    },
-    {
-      "id": "news:byggingar-utbod:utm-source-rss-utm-medium-rss-utm-campaign-th-hanssen-ehf-valid-til-ad-staekka-b",
-      "lane": "news",
-      "category": "project",
-      "title": "Þ. Hanssen ehf. valið til að stækka bílastæði við Sundlaug Sauðárkróks",
-      "entity": "byggingar.is / niðurstöður útboða",
-      "date": "2026-10-23",
-      "summary": "Þ. Hanssen ehf. valið til að stækka bílastæði við Sundlaug Sauðárkróks Byggðarráð Skagafjarðar hefur samþykkt að fela sviðsstjóra veitu- og framkvæmdasviðs að ganga til samninga við Þ. Hanssen um stækkun bílastæða við Sundlaug Sauðárkróks. Aðeins eitt tilboð barst í verkið og var það 7,4% yfir kostnaðaráætlun. Fjárheimildir vegna framkvæmdarinnar hafa verið...",
-      "url": "https://byggingar.is/th-hanssen-ehf-valid-til-ad-staekka-bilastaedi-vid-sundlaug-saudarkroks/?utm_source=rss&utm_medium=rss&utm_campaign=th-hanssen-ehf-valid-til-ad-staekka-bilastaedi-vid-sundlaug-saudarkroks",
-      "outlet": "byggingar.is / niðurstöður útboða",
-      "source": "byggingar-utbod",
-      "is_new": false,
-      "sector_tags": [],
-      "sector_eligibility": {
-        "iceland_project_evidence": false,
-        "facility_relevance": false,
-        "project_eligible": false,
-        "eligibility_reason": "no_material_sector_evidence",
-        "current_dated_signal": false,
-        "source_date": "2026-10-23",
         "assessed_on": "2026-11-19",
         "new_milestone_verified": false,
         "newsletter_ready": false,
