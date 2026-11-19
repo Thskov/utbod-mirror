@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated": "2026-11-19T06:45:01Z",
+  "generated": "2026-11-19T09:58:05Z",
   "window": {
     "from": "2026-11-12",
     "to": "2026-11-19"
@@ -56,17 +56,17 @@
         }
       ],
       "counts_by_sector": {
-        "tourism-infrastructure": 22,
+        "tourism-infrastructure": 23,
         "aquaculture-fish-production": 3,
         "datacentres-infrastructure": 2
       },
       "counts_by_eligible_iceland_project_evidence": {
-        "tourism-infrastructure": 2,
+        "tourism-infrastructure": 3,
         "aquaculture-fish-production": 0,
         "datacentres-infrastructure": 2
       },
       "counts_by_current_dated_signal": {
-        "tourism-infrastructure": 0,
+        "tourism-infrastructure": 1,
         "aquaculture-fish-production": 0,
         "datacentres-infrastructure": 0
       },
@@ -274,6 +274,7 @@
       "https://reykjavik.is/framkvaemdir",
       "https://www.samherji.is/is/frettir",
       "https://www.firstwater.is/news",
+      "https://www.firstwater.is/ip/news",
       "https://www.laxey.is/frettir/",
       "https://www.verne.co/news",
       "https://www.atnorth.com/category/news/",
@@ -399,17 +400,9 @@
         "hms-eia": "hms.is/frettir/alit-um-umhverfismat returned HTTP 429 from this host; keep as browser/alternate-egress candidate"
       },
       "collection_failures": {
-        "fiskifrettir": {
-          "url": "https://fiskifrettir.vb.is/",
-          "error": "TimeoutError"
-        },
         "althingi-nefndir": {
           "url": "https://www.althingi.is/thingnefndir/fastanefndir/",
           "error": "HTTP 403"
-        },
-        "ramma-virkjunarkostir": {
-          "url": "https://www.ramma.is/rammaaaetlun/allir-virkjunarkostir",
-          "error": "TimeoutError"
         }
       },
       "collector_gaps": {
@@ -459,6 +452,26 @@
           "url": "https://www.borealisdc.com/news",
           "reason": "Quarantined: verified Spanish under-construction placeholder, not operator news; replacement unverified (2026-10-28)"
         },
+        "nordurthing-coverage": {
+          "url": "https://www.nordurthing.is/is/frettir",
+          "reason": "bounded first-party news; complete planning history unverified"
+        },
+        "eyjafjardarsveit-minutes-coverage": {
+          "url": "https://www.esveit.is/eyjafjardarsveit/stjornsysla/skjol-og-utgefid-efni/fundargerdir",
+          "reason": "bounded selected municipal decisions; complete case history unverified"
+        },
+        "blaskogabyggd-minutes-coverage": {
+          "url": "https://www.blaskogabyggd.is/is/stjornsysla/sveitarstjorn-1/fundargerdir",
+          "reason": "bounded selected municipal decisions; complete case history unverified"
+        },
+        "eyjaogmikla-minutes": {
+          "url": "https://eyjaogmikla.is/",
+          "reason": "captured planning committee index links PDF minutes; machine-readable case details not verified"
+        },
+        "sudurnes-minutes-coverage": {
+          "url": "https://www.sudurnesjabaer.is/is/stjornsysla/stjornskipulag/fundargerdir/framkvaemda-og-skipulagsrad",
+          "reason": "bounded council meetings and selected case subjects; complete planning history unverified"
+        },
         "dalvik-minutes": {
           "url": "https://www.dalvikurbyggd.is/frettir",
           "reason": "bounded news/agenda supplement only; resolutions and complete minutes discovery remain unverified"
@@ -496,11 +509,11 @@
           "reason": "bounded first-party dated-news supplement; undated project references and complete historical reach not established"
         },
         "first-water-operator-coverage": {
-          "url": "https://www.firstwater.is/news",
+          "url": "https://www.firstwater.is/ip/news",
           "reason": "bounded first-party dated-news supplement; undated project references and complete historical reach not established"
         },
         "first-water-operator-budget": {
-          "url": "https://www.firstwater.is/news",
+          "url": "https://www.firstwater.is/ip/news",
           "reason": "bounded operator detail budget exhausted"
         },
         "laxey-operator-coverage": {
@@ -566,7 +579,19 @@
         "evidence_url": "https://skipulagsgatt.is/issues/5618",
         "seen_count": 1,
         "first_seen": "2026-10-28T14:29:46Z",
-        "last_seen": "2026-11-19T06:45:01Z",
+        "last_seen": "2026-11-19T09:58:05Z",
+        "reason": "repeated unknown entity found in generated public-info items",
+        "status": "pending"
+      },
+      {
+        "id": "planning:bláskógabyggð",
+        "name": "Bláskógabyggð",
+        "suggested_feed": "public-info-feed",
+        "suggested_lane": "planning",
+        "evidence_url": "https://www.blaskogabyggd.is/is/stjornsysla/sveitarstjorn-1/fundargerdir/sveitarstjorn-blaskogabyggdar/8544",
+        "seen_count": 5,
+        "first_seen": "2026-11-19T09:58:05Z",
+        "last_seen": "2026-11-19T09:58:05Z",
         "reason": "repeated unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -578,7 +603,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/4319",
         "seen_count": 1,
         "first_seen": "2026-11-17T06:45:01Z",
-        "last_seen": "2026-11-19T06:45:01Z",
+        "last_seen": "2026-11-19T09:58:05Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -590,7 +615,19 @@
         "evidence_url": "https://skipulagsgatt.is/issues/5663",
         "seen_count": 4,
         "first_seen": "2026-11-12T08:12:49Z",
-        "last_seen": "2026-11-19T06:45:01Z",
+        "last_seen": "2026-11-19T09:58:05Z",
+        "reason": "repeated unknown entity found in generated public-info items",
+        "status": "pending"
+      },
+      {
+        "id": "planning:eyjafjarðarsveit",
+        "name": "Eyjafjarðarsveit",
+        "suggested_feed": "public-info-feed",
+        "suggested_lane": "planning",
+        "evidence_url": "https://www.esveit.is/eyjafjardarsveit/stjornsysla/skjol-og-utgefid-efni/fundargerdir/sveitarstjorn/3112",
+        "seen_count": 3,
+        "first_seen": "2026-11-19T09:58:05Z",
+        "last_seen": "2026-11-19T09:58:05Z",
         "reason": "repeated unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -614,7 +651,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/3459",
         "seen_count": 1,
         "first_seen": "2026-10-28T14:29:46Z",
-        "last_seen": "2026-11-19T06:45:01Z",
+        "last_seen": "2026-11-19T09:58:05Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -626,7 +663,7 @@
         "evidence_url": "https://www.geosalmo.com/news/eyrun-viktorsdottir-as-head-of-quality-and-sustainability",
         "seen_count": 4,
         "first_seen": "2026-11-13T06:45:01Z",
-        "last_seen": "2026-11-19T06:45:01Z",
+        "last_seen": "2026-11-19T09:58:05Z",
         "reason": "repeated unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -638,7 +675,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/4410",
         "seen_count": 1,
         "first_seen": "2026-10-28T14:29:46Z",
-        "last_seen": "2026-11-19T06:45:01Z",
+        "last_seen": "2026-11-19T09:58:05Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -662,7 +699,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/5655",
         "seen_count": 5,
         "first_seen": "2026-10-28T14:29:46Z",
-        "last_seen": "2026-11-19T06:45:01Z",
+        "last_seen": "2026-11-19T09:58:05Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -686,7 +723,7 @@
         "evidence_url": "https://www.utu.is/auglysingar/skipulagsauglysing-birt-dags-12-november-2026/",
         "seen_count": 7,
         "first_seen": "2026-10-16T06:45:01Z",
-        "last_seen": "2026-11-19T06:45:01Z",
+        "last_seen": "2026-11-19T09:58:05Z",
         "reason": "repeated unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -698,7 +735,7 @@
         "evidence_url": "https://gagnagrunnur.ees.is/32024l1275",
         "seen_count": 2,
         "first_seen": "2026-11-02T17:10:48Z",
-        "last_seen": "2026-11-19T06:45:01Z",
+        "last_seen": "2026-11-19T09:58:05Z",
         "reason": "repeated unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -710,7 +747,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/5331",
         "seen_count": 1,
         "first_seen": "2026-10-30T06:45:01Z",
-        "last_seen": "2026-11-19T06:45:01Z",
+        "last_seen": "2026-11-19T09:58:05Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -722,7 +759,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/5479",
         "seen_count": 2,
         "first_seen": "2026-10-28T14:29:46Z",
-        "last_seen": "2026-11-19T06:45:01Z",
+        "last_seen": "2026-11-19T09:58:05Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       }
@@ -779,6 +816,26 @@
           "url": "https://www.borealisdc.com/news",
           "reason": "Quarantined: verified Spanish under-construction placeholder, not operator news; replacement unverified (2026-10-28)"
         },
+        "nordurthing-coverage": {
+          "url": "https://www.nordurthing.is/is/frettir",
+          "reason": "bounded first-party news; complete planning history unverified"
+        },
+        "eyjafjardarsveit-minutes-coverage": {
+          "url": "https://www.esveit.is/eyjafjardarsveit/stjornsysla/skjol-og-utgefid-efni/fundargerdir",
+          "reason": "bounded selected municipal decisions; complete case history unverified"
+        },
+        "blaskogabyggd-minutes-coverage": {
+          "url": "https://www.blaskogabyggd.is/is/stjornsysla/sveitarstjorn-1/fundargerdir",
+          "reason": "bounded selected municipal decisions; complete case history unverified"
+        },
+        "eyjaogmikla-minutes": {
+          "url": "https://eyjaogmikla.is/",
+          "reason": "captured planning committee index links PDF minutes; machine-readable case details not verified"
+        },
+        "sudurnes-minutes-coverage": {
+          "url": "https://www.sudurnesjabaer.is/is/stjornsysla/stjornskipulag/fundargerdir/framkvaemda-og-skipulagsrad",
+          "reason": "bounded council meetings and selected case subjects; complete planning history unverified"
+        },
         "dalvik-minutes": {
           "url": "https://www.dalvikurbyggd.is/frettir",
           "reason": "bounded news/agenda supplement only; resolutions and complete minutes discovery remain unverified"
@@ -816,11 +873,11 @@
           "reason": "bounded first-party dated-news supplement; undated project references and complete historical reach not established"
         },
         "first-water-operator-coverage": {
-          "url": "https://www.firstwater.is/news",
+          "url": "https://www.firstwater.is/ip/news",
           "reason": "bounded first-party dated-news supplement; undated project references and complete historical reach not established"
         },
         "first-water-operator-budget": {
-          "url": "https://www.firstwater.is/news",
+          "url": "https://www.firstwater.is/ip/news",
           "reason": "bounded operator detail budget exhausted"
         },
         "laxey-operator-coverage": {
@@ -995,6 +1052,10 @@
           "no_matching_keywords": 39,
           "undated": 1
         },
+        "fiskifrettir": {
+          "no_matching_keywords": 39,
+          "undated": 1
+        },
         "hsorka": {
           "no_matching_keywords": 37,
           "undated": 3
@@ -1007,32 +1068,111 @@
         "alvotech": {
           "no_matching_keywords": 18
         },
+        "ramma-virkjunarkostir": {
+          "outside_window": 1
+        },
         "ramma-framvinda": {
           "outside_window": 1
         }
       },
       "source_failures": {
-        "fiskifrettir": {
-          "url": "https://fiskifrettir.vb.is/",
-          "error": "TimeoutError"
-        },
         "althingi-nefndir": {
           "url": "https://www.althingi.is/thingnefndir/fastanefndir/",
           "error": "HTTP 403"
-        },
-        "ramma-virkjunarkostir": {
-          "url": "https://www.ramma.is/rammaaaetlun/allir-virkjunarkostir",
-          "error": "TimeoutError"
         }
       }
     }
   },
-  "count": 432,
+  "count": 445,
   "counts_by_intelligence_type": {
-    "public_record": 405,
+    "public_record": 418,
     "reference_tracker": 27
   },
   "items": [
+    {
+      "id": "skgatt:1330/2026",
+      "lane": "planning",
+      "title": "Víkurgata 29, grenndarkynning tillögu að óverulegri breytingu deiliskipulags Urriðaholt vesturhluti.",
+      "entity": "Garðabær",
+      "case_number": "1330/2026",
+      "plan_type": "deiliskipulag",
+      "status": "Grenndarkynning",
+      "date": "2026-11-19",
+      "review_deadline": "2026-12-17",
+      "summary": "Bæjarstjórn Garðabæjar hefur samþykkt að fram fari grenndarkynning vegna tillögu að óverulegri breytingu á deiliskipulagi Urriðaholt vesturhluti í samræmi við 2. mgr. 43. gr. og 44. gr. skipulagslaga nr. 123/2010. Breytingartillagan nær til lóðarinnar Víkurgata 29. Tillagan gerir ráð fyrir að afmarkaður sé byggingarreitur fyrir inngrafna geymslu norðan við…",
+      "url": "https://skipulagsgatt.is/issues/5685",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-19",
+        "assessed_on": "2026-11-19",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "skgatt:1319/2026",
+      "lane": "planning",
+      "title": "Sólbarð og Hliðsvegur 7 - Deiliskipulagsbreyting",
+      "entity": "Garðabær",
+      "case_number": "1319/2026",
+      "plan_type": "deiliskipulag",
+      "status": "Auglýsing tillögu",
+      "date": "2026-11-19",
+      "review_deadline": "2027-01-03",
+      "summary": "Heimilt er að reisa einbýlishús á lóðunum með nýtingarhlutfall 0.35, vegghæð 3 m og rishæð 5,7 sem er ein hæð og ris. Skilgreining nýtingarhlutfalls, hæðar og húsgerðar er til samræmis við hús í nágrenninu.",
+      "url": "https://skipulagsgatt.is/issues/5674",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-19",
+        "assessed_on": "2026-11-19",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:oll-sex-tilbod-yfir-aaetlun-i-vidhald-veglysingar-a-hofudborgarsvaedinu",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "Öll sex tilboð yfir áætlun í viðhald veglýsingar á höfuðborgarsvæðinu",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-11-19",
+      "summary": "Öll sex tilboð yfir áætlun í viðhald veglýsingar á höfuðborgarsvæðinu byggingar - 19/11/2026",
+      "url": "https://byggingar.is/oll-sex-tilbod-yfir-aaetlun-i-vidhald-veglysingar-a-hofudborgarsvaedinu/",
+      "keywords_matched": [
+        "bygging",
+        "opinber innkaup"
+      ],
+      "evidence_type": "secondary_report",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-19",
+        "assessed_on": "2026-11-19",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
     {
       "id": "announcement:byggingar-opnun-utboda:laegstir-med-332-milljonir-i-rafverktakautbodi-nys-landspitala",
       "lane": "announcement",
@@ -1041,7 +1181,7 @@
       "entity": "Byggingar.is",
       "status": "published",
       "date": "2026-11-19",
-      "summary": "> Lægstir með 332 milljónir í rafverktakaútboði Nýs Landspítala byggingar - 19/11/2026",
+      "summary": "Lægstir með 332 milljónir í rafverktakaútboði Nýs Landspítala byggingar - 19/11/2026",
       "url": "https://byggingar.is/laegstir-med-332-milljonir-i-rafverktakautbodi-nys-landspitala/",
       "keywords_matched": [
         "bygging",
@@ -1051,6 +1191,66 @@
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-19",
+        "assessed_on": "2026-11-19",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:iav-hifdu-eigid-fed-upp-eftir-a",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "ÍAV hífðu eigið féð upp eftir á",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-11-19",
+      "summary": "e=\"image_tag\" data-img-url=\"https://byggingar.is/wp-content/uploads/2026/11/19.11.2026-IAV-hifdu-eigid-fed-upp-eftir-a-100x75.jpg\" width=\"100\" height=\"75\" /> ÍAV hífðu eigið féð upp eftir á 19/11/2026 <div class=\"td_modu",
+      "url": "https://byggingar.is/iav-hifdu-eigid-fed-upp-eftir-a/",
+      "keywords_matched": [
+        "bygging",
+        "opinber innkaup"
+      ],
+      "evidence_type": "secondary_report",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-19",
+        "assessed_on": "2026-11-19",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "announcement:byggingar-opnun-utboda:bergraf-ehf-205-milljonum-undir-aaetlun-i-vidhald-veglysingar-a-reykjanesi",
+      "lane": "announcement",
+      "source": "byggingar-opnun-utboda",
+      "title": "Bergraf ehf. 20,5 milljónum undir áætlun í viðhald veglýsingar á Reykjanesi",
+      "entity": "Byggingar.is",
+      "status": "published",
+      "date": "2026-11-19",
+      "summary": "> Bergraf ehf. 20,5 milljónum undir áætlun í viðhald veglýsingar á Reykjanesi byggingar - 19/11/2026",
+      "url": "https://byggingar.is/bergraf-ehf-205-milljonum-undir-aaetlun-i-vidhald-veglysingar-a-reykjanesi/",
+      "keywords_matched": [
+        "bygging",
+        "opinber innkaup"
+      ],
+      "evidence_type": "secondary_report",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
         "facility_relevance": false,
         "project_eligible": false,
         "eligibility_reason": "no_material_sector_evidence",
@@ -1086,6 +1286,108 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-19",
+        "assessed_on": "2026-11-19",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "sudurnes-minutes:2611028",
+      "lane": "planning",
+      "source": "sudurnes-minutes",
+      "entity": "Suðurnesjabær",
+      "title": "Umsókn um lóð",
+      "date": "2026-11-18",
+      "summary": "Umsókn vísað til umfjöllunar í Framkvæmda- og skipulagsráði úr Bæjarráði. Umsækjandi óskar eftir 6-10.000 m2 lóð undir ferðatengda þjónustu skv. meðfylgjandi erindi í nágrenni Rósaselstorgs.",
+      "url": "https://www.sudurnesjabaer.is/is/stjornsysla/stjornskipulag/fundargerdir/framkvaemda-og-skipulagsrad/693#2611028",
+      "status": "municipal_minutes",
+      "case_number": "2611028",
+      "meeting_date": "2026-11-18",
+      "decision": "Lagt fram. Sviðsstjóra skipulags- og umhverfissviðs falið að eiga samtal við málsaðila og afla frekari upplýsinga um fyrirhuguð áform.",
+      "evidence_kind": "first_party_minutes",
+      "project_identity": "Umsókn vísað til umfjöllunar í Framkvæmda- og skipulagsráði úr Bæjarráði. Umsækjandi óskar eftir 6-10.000 m2 lóð undir ferðatengda þjónustu skv. meðfylgjandi erindi í nágrenni Rósaselstorgs.",
+      "resolution_verified": true,
+      "stage": "municipal consideration; see decision",
+      "project_learning_eligible": false,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-18",
+        "assessed_on": "2026-11-19",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "sudurnes-minutes:2611026",
+      "lane": "planning",
+      "source": "sudurnes-minutes",
+      "entity": "Suðurnesjabær",
+      "title": "Umsókn um lóð",
+      "date": "2026-11-18",
+      "summary": "Umsókn vísað til umfjöllunar í Framkvæmda- og skipulagsráði úr Bæjarráði. Umsækjandi óskar eftir 4-6.000 m2 lóð undir hótel ásamt bílastæðahúsi og annarri afleiddri starfsemi í nágrenni Keflavíkurflugvallar.",
+      "url": "https://www.sudurnesjabaer.is/is/stjornsysla/stjornskipulag/fundargerdir/framkvaemda-og-skipulagsrad/693#2611026",
+      "status": "municipal_minutes",
+      "case_number": "2611026",
+      "meeting_date": "2026-11-18",
+      "decision": "Lagt fram. Sviðsstjóra skipulags- og umhverfissviðs falið að eiga samtal við málsaðila og afla frekari upplýsinga um fyrirhuguð áform.",
+      "evidence_kind": "first_party_minutes",
+      "project_identity": "Umsókn vísað til umfjöllunar í Framkvæmda- og skipulagsráði úr Bæjarráði. Umsækjandi óskar eftir 4-6.000 m2 lóð undir hótel ásamt bílastæðahúsi og annarri afleiddri starfsemi í nágrenni Keflavíkurflugvallar.",
+      "resolution_verified": true,
+      "stage": "municipal consideration; see decision",
+      "project_learning_eligible": false,
+      "sector_tags": [
+        "tourism-infrastructure"
+      ],
+      "sector_evidence_role": "project_or_sector_context",
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": true,
+        "project_eligible": true,
+        "eligibility_reason": "eligible_project_context",
+        "current_dated_signal": true,
+        "source_date": "2026-11-18",
+        "assessed_on": "2026-11-19",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "sudurnes-minutes:2510066",
+      "lane": "planning",
+      "source": "sudurnes-minutes",
+      "entity": "Suðurnesjabær",
+      "title": "Deiliskipulag hafnarsvæðis Sandgerði - Vesturbakki",
+      "date": "2026-11-18",
+      "summary": "Skipulagsfulltrúi leggur fram gildandi deiliskipulag til umræðu og leggur til að gerðar verði breytingar á skipulaginu. Áður tekið fyrir á dagskrá á 68. fundi ráðsins.",
+      "url": "https://www.sudurnesjabaer.is/is/stjornsysla/stjornskipulag/fundargerdir/framkvaemda-og-skipulagsrad/693#2510066",
+      "status": "municipal_minutes",
+      "case_number": "2510066",
+      "meeting_date": "2026-11-18",
+      "decision": "Lagt fram til kynningar.",
+      "evidence_kind": "first_party_minutes",
+      "project_identity": "Skipulagsfulltrúi leggur fram gildandi deiliskipulag til umræðu og leggur til að gerðar verði breytingar á skipulaginu. Áður tekið fyrir á dagskrá á 68. fundi ráðsins.",
+      "resolution_verified": true,
+      "stage": "municipal consideration; see decision",
+      "project_learning_eligible": false,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-18",
         "assessed_on": "2026-11-19",
         "new_milestone_verified": false,
         "newsletter_ready": false,
@@ -1310,20 +1612,21 @@
       "intelligence_type": "public_record"
     },
     {
-      "id": "announcement:byggingar-opnun-utboda:landsvirkjun-leitar-verktaka-i-gufuveitu-a-theistareykjum",
-      "lane": "announcement",
-      "source": "byggingar-opnun-utboda",
-      "title": "Landsvirkjun leitar verktaka í gufuveitu á Þeistareykjum",
-      "entity": "Byggingar.is",
-      "status": "published",
+      "id": "blaskogabyggd-minutes:2611003:2026-11-18",
+      "lane": "planning",
+      "source": "blaskogabyggd-minutes",
+      "entity": "Bláskógabyggð",
+      "title": "Brú L167070; Fella út námu E81; Aðalskipulagsbreyting",
       "date": "2026-11-18",
-      "summary": "a-type=\"image_tag\" data-img-url=\"https://byggingar.is/wp-content/uploads/2026/11/18.11.2025-Landsvirkjun_THeistareykir-100x75.jpg\" width=\"100\" height=\"75\" /> Landsvirkjun leitar verktaka í gufuveitu á Þeistareykjum 19/11/2026 <div class=\"td_modu",
-      "url": "https://byggingar.is/landsvirkjun-leitar-verktaka-i-gufuveitu-a-theistareykjum/",
-      "keywords_matched": [
-        "bygging",
-        "opinber innkaup"
-      ],
-      "evidence_type": "secondary_report",
+      "summary": "Brú L167070; Fella út námu E81; Aðalskipulagsbreyting 2611003 Lögð er fram umsókn Brúbests ehf. um breytingu á aðalskipulagi Bláskógabyggðar vegna lands Brúar. Óskað er eftir að náma E81 verði felld út úr aðalskipulaginu og að landnotkun svæðisins verði skilgreind sem landbúnaðarsvæði, í samræmi við núverandi notkun landsins. Í umsókninni kemur fram að ekki hafi verið hafin efnistaka á svæðinu og ekki sé fyrirhugað að hefja hana. Sveitarstjórn Bláskógabyggðar samþykkir viðkomandi breytingu á aðalskipulagi Bláskógabyggðar 2015-2027. Málið fái málsmeðferð á grundvelli 3. mgr. 36. gr. skipulagslaga nr. 123/2010 er varðar óverulega breytingu á aðalskipulagi. Málið verði sent HMS til samþykktar áður en niðurstaða sveitarstjórnar verður kynnt. Fundargerðin var lögð fram til kynningar hvað aðra liði varðar.",
+      "url": "https://www.blaskogabyggd.is/is/stjornsysla/sveitarstjorn-1/fundargerdir/sveitarstjorn-blaskogabyggdar/8544",
+      "status": "municipal_minutes",
+      "case_number": "2611003",
+      "meeting_date": "2026-11-18",
+      "decision": "Brú L167070; Fella út námu E81; Aðalskipulagsbreyting 2611003 Lögð er fram umsókn Brúbests ehf. um breytingu á aðalskipulagi Bláskógabyggðar vegna lands Brúar. Óskað er eftir að náma E81 verði felld út úr aðalskipulaginu og að landnotkun svæðisins verði skilgreind sem landbúnaðarsvæði, í samræmi við núverandi notkun landsins. Í umsókninni kemur fram að ekki hafi verið hafin efnistaka á svæðinu og ekki sé fyrirhugað að hefja hana. Sveitarstjórn Bláskógabyggðar samþykkir viðkomandi breytingu á aðalskipulagi Bláskógabyggðar 2015-2027. Málið fái málsmeðferð á grundvelli 3. mgr. 36. gr. skipulagslaga nr. 123/2010 er varðar óverulega breytingu á aðalskipulagi. Málið verði sent HMS til samþykktar áður en niðurstaða sveitarstjórnar verður kynnt. Fundargerðin var lögð fram til kynningar hvað aðra liði varðar.",
+      "stage": "municipal decision; see primary minutes",
+      "evidence_kind": "first_party_minutes",
+      "project_learning_eligible": false,
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -1340,20 +1643,114 @@
       "intelligence_type": "public_record"
     },
     {
-      "id": "announcement:byggingar-opnun-utboda:bilastaeda-og-taeknihus-nys-landspitala-opnad-eykt-annadist-bygginguna",
-      "lane": "announcement",
-      "source": "byggingar-opnun-utboda",
-      "title": "Bílastæða- og tæknihús nýs Landspítala opnað – Eykt annaðist bygginguna",
-      "entity": "Byggingar.is",
-      "status": "published",
+      "id": "blaskogabyggd-minutes:2610086:2026-11-18",
+      "lane": "planning",
+      "source": "blaskogabyggd-minutes",
+      "entity": "Bláskógabyggð",
+      "title": "Kolviðarholtsmýri 1 L223689; Aukin mænishæð; Deiliskipulagsbreyting",
       "date": "2026-11-18",
-      "summary": "ngar.is/wp-content/uploads/2026/11/18.11.2025-Bilastaeda-og-taeknihus-nys-Landspitala-opnad-–-Eykt-annadist-bygginguna-100x75.jpg\" width=\"100\" height=\"75\" /> Bílastæða- og tæknihús nýs Landspítala opnað – Eykt annaðist bygginguna 19/11/2026 <div cl",
-      "url": "https://byggingar.is/bilastaeda-og-taeknihus-nys-landspitala-opnad-eykt-annadist-bygginguna/",
-      "keywords_matched": [
-        "bygging",
-        "opinber innkaup"
-      ],
-      "evidence_type": "secondary_report",
+      "summary": "Kolviðarholtsmýri 1 L223689; Aukin mænishæð; Deiliskipulagsbreyting 2610086 Lögð er fram tillaga að breytingu á byggingarskilmálum deiliskipulags fyrir Kolviðarholtsmýri 1 (L223689) í Bláskógabyggð. Breytingin felst í því að bæta við sérákvæði fyrir lóð nr. 5330 um hámarks mænishæð byggingar. Samkvæmt tillögunni verður heimiluð mænishæð allt að 9 metrum frá gólfhæð á lóðinni, í stað almennra ákvæða deiliskipulagsins um 5,5 metra hámarksmænishæð. Jafnframt er gert ráð fyrir að einstakir byggingarhlutar geti náð allt að 10 metra hæð frá gólfhæð. Sveitarstjórn Bláskógabyggðar samþykkir viðkomandi breytingu á deiliskipulagi Kolviðarholtsmýrar 1 sem óverulega breytingu skv. 2. mgr. 43. gr. skipulagslaga nr. 123/2010. Jafnframt liggur fyrir að aðeins er fyrirhuguð uppbygging á einni lóð og að unnið verður að heildarendurskoðun skipulags svæðisins á árinu 2027.",
+      "url": "https://www.blaskogabyggd.is/is/stjornsysla/sveitarstjorn-1/fundargerdir/sveitarstjorn-blaskogabyggdar/8544",
+      "status": "municipal_minutes",
+      "case_number": "2610086",
+      "meeting_date": "2026-11-18",
+      "decision": "Kolviðarholtsmýri 1 L223689; Aukin mænishæð; Deiliskipulagsbreyting 2610086 Lögð er fram tillaga að breytingu á byggingarskilmálum deiliskipulags fyrir Kolviðarholtsmýri 1 (L223689) í Bláskógabyggð. Breytingin felst í því að bæta við sérákvæði fyrir lóð nr. 5330 um hámarks mænishæð byggingar. Samkvæmt tillögunni verður heimiluð mænishæð allt að 9 metrum frá gólfhæð á lóðinni, í stað almennra ákvæða deiliskipulagsins um 5,5 metra hámarksmænishæð. Jafnframt er gert ráð fyrir að einstakir byggingarhlutar geti náð allt að 10 metra hæð frá gólfhæð. Sveitarstjórn Bláskógabyggðar samþykkir viðkomandi breytingu á deiliskipulagi Kolviðarholtsmýrar 1 sem óverulega breytingu skv. 2. mgr. 43. gr. skipulagslaga nr. 123/2010. Jafnframt liggur fyrir að aðeins er fyrirhuguð uppbygging á einni lóð og að unnið verður að heildarendurskoðun skipulags svæðisins á árinu 2027.",
+      "stage": "municipal decision; see primary minutes",
+      "evidence_kind": "first_party_minutes",
+      "project_learning_eligible": false,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-18",
+        "assessed_on": "2026-11-19",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "blaskogabyggd-minutes:2610081:2026-11-18",
+      "lane": "planning",
+      "source": "blaskogabyggd-minutes",
+      "entity": "Bláskógabyggð",
+      "title": "Gröf lóð 15D L200056 á Laugarvatni; Byggingarmagn aukið; Málsmeðferð, kostnaður og tími; Samsvörun lóða; Fyrirspurn",
+      "date": "2026-11-18",
+      "summary": "Gröf lóð 15D L200056 á Laugarvatni; Byggingarmagn aukið; Málsmeðferð, kostnaður og tími; Samsvörun lóða; Fyrirspurn 2610081 Lögð er fram fyrirspurn eiganda Grafar, lóðar 15D (L200056), í landi Grafar á Laugarvatni, sem samkvæmt gildandi deiliskipulagi Setbergs frá árinu 2002 er lóð nr. 3, 4.950 m² að stærð. Fyrirspurnin varðar aukningu á heimiluðu byggingarmagni sumarhúss á lóðinni úr 100 m² í allt að 148,5 m², þannig að nýtingarhlutfall verði 0,03. Sveitarstjórn tekur jákvætt í erindið og heimilar að lóðarhafi vinni breytingu á skilmálum deiliskipulags Setbergs er varðar aukið byggingarmagn sumarhúss á lóðinni Grafar, lóð 15D L200056, úr 100 m² í allt að 148,5 m² og hækkun nýtingarhlutfalls í 0,03. Formleg tillaga að breytingu á deiliskipulagi verði lögð fyrir skipulagsnefnd til afgreiðslu.",
+      "url": "https://www.blaskogabyggd.is/is/stjornsysla/sveitarstjorn-1/fundargerdir/sveitarstjorn-blaskogabyggdar/8544",
+      "status": "municipal_minutes",
+      "case_number": "2610081",
+      "meeting_date": "2026-11-18",
+      "decision": "Gröf lóð 15D L200056 á Laugarvatni; Byggingarmagn aukið; Málsmeðferð, kostnaður og tími; Samsvörun lóða; Fyrirspurn 2610081 Lögð er fram fyrirspurn eiganda Grafar, lóðar 15D (L200056), í landi Grafar á Laugarvatni, sem samkvæmt gildandi deiliskipulagi Setbergs frá árinu 2002 er lóð nr. 3, 4.950 m² að stærð. Fyrirspurnin varðar aukningu á heimiluðu byggingarmagni sumarhúss á lóðinni úr 100 m² í allt að 148,5 m², þannig að nýtingarhlutfall verði 0,03. Sveitarstjórn tekur jákvætt í erindið og heimilar að lóðarhafi vinni breytingu á skilmálum deiliskipulags Setbergs er varðar aukið byggingarmagn sumarhúss á lóðinni Grafar, lóð 15D L200056, úr 100 m² í allt að 148,5 m² og hækkun nýtingarhlutfalls í 0,03. Formleg tillaga að breytingu á deiliskipulagi verði lögð fyrir skipulagsnefnd til afgreiðslu.",
+      "stage": "municipal decision; see primary minutes",
+      "evidence_kind": "first_party_minutes",
+      "project_learning_eligible": false,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-18",
+        "assessed_on": "2026-11-19",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "blaskogabyggd-minutes:2610079:2026-11-18",
+      "lane": "planning",
+      "source": "blaskogabyggd-minutes",
+      "entity": "Bláskógabyggð",
+      "title": "Aphólsvegur 3 L221649; Byggingarmagn aukið; Fyrirspurn",
+      "date": "2026-11-18",
+      "summary": "Aphólsvegur 3 L221649; Byggingarmagn aukið; Fyrirspurn 2610079 Lögð er fram fyrirspurn um breytingu á deiliskipulagi Aphóls í landi Apavatns 2 í Bláskógabyggð. Erindið varðar aukningu á heimiluðu byggingarmagni sumarhúss á viðkomandi lóð úr 150 m² í 170 m². Jafnframt er óskað eftir að nýtingarhlutfall lóðarinnar verði hækkað úr 0,03 í 0,04. Sveitarstjórn Bláskógabyggðar synjar erindinu þar sem fyrirhuguð aukning á byggingarmagni og hækkun nýtingarhlutfalls eru ekki í samræmi við ákvæði gildandi aðalskipulags Bláskógbyggðar 2015-2027.",
+      "url": "https://www.blaskogabyggd.is/is/stjornsysla/sveitarstjorn-1/fundargerdir/sveitarstjorn-blaskogabyggdar/8544",
+      "status": "municipal_minutes",
+      "case_number": "2610079",
+      "meeting_date": "2026-11-18",
+      "decision": "Aphólsvegur 3 L221649; Byggingarmagn aukið; Fyrirspurn 2610079 Lögð er fram fyrirspurn um breytingu á deiliskipulagi Aphóls í landi Apavatns 2 í Bláskógabyggð. Erindið varðar aukningu á heimiluðu byggingarmagni sumarhúss á viðkomandi lóð úr 150 m² í 170 m². Jafnframt er óskað eftir að nýtingarhlutfall lóðarinnar verði hækkað úr 0,03 í 0,04. Sveitarstjórn Bláskógabyggðar synjar erindinu þar sem fyrirhuguð aukning á byggingarmagni og hækkun nýtingarhlutfalls eru ekki í samræmi við ákvæði gildandi aðalskipulags Bláskógbyggðar 2015-2027.",
+      "stage": "municipal decision; see primary minutes",
+      "evidence_kind": "first_party_minutes",
+      "project_learning_eligible": false,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-18",
+        "assessed_on": "2026-11-19",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "blaskogabyggd-minutes:2512017:2026-11-18",
+      "lane": "planning",
+      "source": "blaskogabyggd-minutes",
+      "entity": "Bláskógabyggð",
+      "title": "Einiholt 2 L180525; Skilgreining svæðis, íbúðar- og atvinnuhús; Deiliskipulag",
+      "date": "2026-11-18",
+      "summary": "Einiholt 2 L180525; Skilgreining svæðis, íbúðar- og atvinnuhús; Deiliskipulag 2512017. Kristján Einir Traustason vék af fundi við afgreiðslu málsins. Lögð er fram tillaga nýs deiliskipulags, eftir auglýsingu, fyrir íbúðar- og útihús og atvinnustarfsemi á jörðinni Einholti 2 L180525 í Bláskógabyggð. Á jörðinni er íbúðarhús og útihús þar sem stundað er kjúklingaeldi og einnig er þar flugbraut. Landeigandi hyggst byggja nýtt íbúðarhús með bílskúr, 5 gestahús, hesthús með reiðhöll, flugskýli og vera með gistingu fyrir allt að 30 gesti. Á núverandi bæjartorfu er fyrirhugað að byggja 2 hús til viðbótar fyrir kjúklingaeldi. Í aðalskipulagi er jörðin skilgreind sem landbúnaðarsvæði og flugbraut. Ekkert deiliskipulag er í gildi á jörðinni. Umsagnir og athugasemdir bárust á auglýsingatíma og eru þær lagðar fram við afgreiðslu málsins ásamt viðbrögðum við þeim og uppfærðum gögnum. Borist hefur beiðni um breytingu á áður auglýstu deiliskipulagi og samþykkir sveitarstjórn því að breytt tillaga verði auglýst og málið tekið til meðferðar að því loknu.",
+      "url": "https://www.blaskogabyggd.is/is/stjornsysla/sveitarstjorn-1/fundargerdir/sveitarstjorn-blaskogabyggdar/8544",
+      "status": "municipal_minutes",
+      "case_number": "2512017",
+      "meeting_date": "2026-11-18",
+      "decision": "Einiholt 2 L180525; Skilgreining svæðis, íbúðar- og atvinnuhús; Deiliskipulag 2512017. Kristján Einir Traustason vék af fundi við afgreiðslu málsins. Lögð er fram tillaga nýs deiliskipulags, eftir auglýsingu, fyrir íbúðar- og útihús og atvinnustarfsemi á jörðinni Einholti 2 L180525 í Bláskógabyggð. Á jörðinni er íbúðarhús og útihús þar sem stundað er kjúklingaeldi og einnig er þar flugbraut. Landeigandi hyggst byggja nýtt íbúðarhús með bílskúr, 5 gestahús, hesthús með reiðhöll, flugskýli og vera með gistingu fyrir allt að 30 gesti. Á núverandi bæjartorfu er fyrirhugað að byggja 2 hús til viðbótar fyrir kjúklingaeldi. Í aðalskipulagi er jörðin skilgreind sem landbúnaðarsvæði og flugbraut. Ekkert deiliskipulag er í gildi á jörðinni. Umsagnir og athugasemdir bárust á auglýsingatíma og eru þær lagðar fram við afgreiðslu málsins ásamt viðbrögðum við þeim og uppfærðum gögnum. Borist hefur beiðni um breytingu á áður auglýstu deiliskipulagi og samþykkir sveitarstjórn því að breytt tillaga verði auglýst og málið tekið til meðferðar að því loknu.",
+      "stage": "municipal decision; see primary minutes",
+      "evidence_kind": "first_party_minutes",
+      "project_learning_eligible": false,
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -1959,20 +2356,21 @@
       "intelligence_type": "public_record"
     },
     {
-      "id": "announcement:byggingar-opnun-utboda:snilldarverk-ehf-bydur-laegst-i-flodvarnir-vid-vik-atta-tilbod-barust",
-      "lane": "announcement",
-      "source": "byggingar-opnun-utboda",
-      "title": "Snilldarverk ehf. býður lægst í flóðvarnir við Vík – átta tilboð bárust",
-      "entity": "Byggingar.is",
-      "status": "published",
+      "id": "eyjafjardarsveit-minutes:E2610031:2026-11-12",
+      "lane": "planning",
+      "source": "eyjafjardarsveit-minutes",
+      "entity": "Eyjafjarðarsveit",
+      "title": "Framkvæmdir ársins 2027",
       "date": "2026-11-12",
-      "summary": "Snilldarverk ehf. býður lægst í flóðvarnir við Vík – átta tilboð bárust byggingar - 12/11/2026",
-      "url": "https://byggingar.is/snilldarverk-ehf-bydur-laegst-i-flodvarnir-vid-vik-atta-tilbod-barust/",
-      "keywords_matched": [
-        "bygging",
-        "opinber innkaup"
-      ],
-      "evidence_type": "secondary_report",
+      "summary": "Lögð fram afgreiðsla Framkvæmdaráðs vegna fyrirhugaðra framkvæmda Eyjafjarðarsveitar árið 2027 og fjárfestingaráætlunar 2027 og 2028-2030. Sveitarstjórn samþykkir samhljóða fyrirliggjandi fjárfestingaráætlun fyrir árið 2027 og þriggja ára áætlun 2028-2030.",
+      "url": "https://www.esveit.is/eyjafjardarsveit/stjornsysla/skjol-og-utgefid-efni/fundargerdir/sveitarstjorn/3112",
+      "status": "municipal_minutes",
+      "case_number": "E2610031",
+      "meeting_date": "2026-11-12",
+      "decision": "Sveitarstjórn samþykkir samhljóða fyrirliggjandi fjárfestingaráætlun fyrir árið 2027 og þriggja ára áætlun 2028-2030.",
+      "stage": "municipal decision; see primary minutes",
+      "evidence_kind": "first_party_minutes",
+      "project_learning_eligible": false,
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -1989,20 +2387,52 @@
       "intelligence_type": "public_record"
     },
     {
-      "id": "announcement:byggingar-opnun-utboda:oll-niu-tilbodin-i-sjovarnir-i-budardal-og-a-bordeyri-yfir-kostnadaraaetlun",
-      "lane": "announcement",
-      "source": "byggingar-opnun-utboda",
-      "title": "Öll níu tilboðin í sjóvarnir í Búðardal og á Borðeyri yfir kostnaðaráætlun",
-      "entity": "Byggingar.is",
-      "status": "published",
+      "id": "eyjafjardarsveit-minutes:E2512022:2026-11-12",
+      "lane": "planning",
+      "source": "eyjafjardarsveit-minutes",
+      "entity": "Eyjafjarðarsveit",
+      "title": "Fyrirspurn vegna gerð vegslóða í landi Tjarna L152812",
       "date": "2026-11-12",
-      "summary": "Öll níu tilboðin í sjóvarnir í Búðardal og á Borðeyri yfir kostnaðaráætlun byggingar - 12/11/2026",
-      "url": "https://byggingar.is/oll-niu-tilbodin-i-sjovarnir-i-budardal-og-a-bordeyri-yfir-kostnadaraaetlun/",
-      "keywords_matched": [
-        "bygging",
-        "opinber innkaup"
-      ],
-      "evidence_type": "secondary_report",
+      "summary": "Lagt fram minnisblað frá fundi sveitarfélagsins og Minjastofnunar Íslands um skemmdir á fornleifum við Granastaði. Sveitarstjórn samþykkir samhljóða að uppfæra verklag við útgáfu framkvæmdaleyfa þannig að óskað verði umsagnar Minjastofnunar Íslands áður en endanleg afstaða er tekin til leyfisveitingar á svæðum þar sem þurfa þykir.",
+      "url": "https://www.esveit.is/eyjafjardarsveit/stjornsysla/skjol-og-utgefid-efni/fundargerdir/sveitarstjorn/3112",
+      "status": "municipal_minutes",
+      "case_number": "E2512022",
+      "meeting_date": "2026-11-12",
+      "decision": "Sveitarstjórn samþykkir samhljóða að uppfæra verklag við útgáfu framkvæmdaleyfa þannig að óskað verði umsagnar Minjastofnunar Íslands áður en endanleg afstaða er tekin til leyfisveitingar á svæðum þar sem þurfa þykir.",
+      "stage": "municipal decision; see primary minutes",
+      "evidence_kind": "first_party_minutes",
+      "project_learning_eligible": false,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-12",
+        "assessed_on": "2026-11-19",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "eyjafjardarsveit-minutes:E2210043:2026-11-12",
+      "lane": "planning",
+      "source": "eyjafjardarsveit-minutes",
+      "entity": "Eyjafjarðarsveit",
+      "title": "Aðalskipulag Eyjafjarðarsveitar endurskoðun 2022",
+      "date": "2026-11-12",
+      "summary": "Lögð fram að nýju tillaga að Aðalskipulagi Eyjafjarðarsveitar 2025-2037, að lokinni auglýsingu. Tillagan var auglýst skv. 31. gr. skipulagslaga nr. 123/2010 og var auglýsingatímabilið frá 25. ágúst til 7. október 2026. Alls bárust 24 umsagnir og athugasemdir. Málið var síðast á dagskrá nefndarinnar 19. októver sl. þar sem farið var yfir athugasemdir og viðbrögð við þeim og er nú áframhald á þeirri yfirferð. Sveitarstjórn samþykkir samhljóða að skipulagshönnuði verði falið að uppfæra skipulagstillöguna í samræmi við afgreiðslu innkominna umsagna og athugasemda í samræmi við umræður á fundinum. Að lokinni uppfærslu verði tillagan lögð aftur fyrir Skipulagsnefnd til afgreiðslu.",
+      "url": "https://www.esveit.is/eyjafjardarsveit/stjornsysla/skjol-og-utgefid-efni/fundargerdir/sveitarstjorn/3112",
+      "status": "municipal_minutes",
+      "case_number": "E2210043",
+      "meeting_date": "2026-11-12",
+      "decision": "Sveitarstjórn samþykkir samhljóða að skipulagshönnuði verði falið að uppfæra skipulagstillöguna í samræmi við afgreiðslu innkominna umsagna og athugasemda í samræmi við umræður á fundinum. Að lokinni uppfærslu verði tillagan lögð aftur fyrir Skipulagsnefnd til afgreiðslu.",
+      "stage": "municipal decision; see primary minutes",
+      "evidence_kind": "first_party_minutes",
+      "project_learning_eligible": false,
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -8386,6 +8816,33 @@
       "intelligence_type": "public_record"
     },
     {
+      "id": "skgatt:0377/2026",
+      "lane": "planning",
+      "title": "M2-miðbær",
+      "entity": "Reykjanesbær",
+      "case_number": "0377/2026",
+      "plan_type": "adalskipulag",
+      "status": "Auglýsing tillögu",
+      "date": "2026-03-30",
+      "review_deadline": "2027-01-11",
+      "summary": "breyting á aðalskipulagi Reykjanesbæjar. Breytingin felst í fjölgun íbúða á svæði M2-miðbær sbr. uppdrátt Kanon arkitekta og VSÓ Rágjöf dags 29. janúar 2026.",
+      "url": "https://skipulagsgatt.is/issues/4732",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-03-30",
+        "assessed_on": "2026-11-19",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
       "id": "kaerunefnd:38/2024",
       "lane": "kaerunefnd",
       "title": "2026 03 30 Mál nr. 38 2024. Úrskurður kærunefndar útboðsmála",
@@ -13146,7 +13603,7 @@
       "sector_tags": [],
       "sector_evidence_role": "reference_only",
       "sector_eligibility": {
-        "iceland_project_evidence": false,
+        "iceland_project_evidence": true,
         "facility_relevance": false,
         "project_eligible": false,
         "eligibility_reason": "no_material_sector_evidence",
