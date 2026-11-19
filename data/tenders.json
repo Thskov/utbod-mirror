@@ -71,7 +71,7 @@
       "limits": "Tags are text-derived relevance, not verified project stage or completeness. Existing source/date/detail limits still apply; no sources added."
     }
   },
-  "generated_at": "2026-11-19T07:00:23.815531+00:00",
+  "generated_at": "2026-11-19T10:05:03.285621+00:00",
   "source": {
     "site": "https://www.utbodsvefur.is",
     "posts_api": "https://www.utbodsvefur.is/wp-json/wp/v2/posts",
@@ -79,12 +79,12 @@
     "count_drop_guard": {
       "status": "fresh",
       "threshold": ">70% source-count collapse",
-      "previous_good_count": 75,
-      "current_count": 78,
-      "minimum_allowed_count": 22
+      "previous_good_count": 78,
+      "current_count": 79,
+      "minimum_allowed_count": 23
     }
   },
-  "count": 78,
+  "count": 79,
   "tenders": [
     {
       "reference": "Keilir-26",
@@ -1214,6 +1214,33 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-18",
+        "assessed_on": "2026-11-19",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "reference": "2026-62",
+      "project": "Endurnýjun inntaksloka í Búrfellsstöð",
+      "buyer": "Landsvirkjun",
+      "notice_type": "Vörukaup",
+      "deadline": "09.12.2026 kl. 12:00",
+      "deadline_local": "2026-12-09T12:00:00+00:00",
+      "deadline_utc": "2026-12-09T12:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-11-19T08:00:20+00:00",
+      "modified_at": "2026-11-18T17:59:46+00:00",
+      "url": "https://www.utbodsvefur.is/endurnyjun-inntaksloka-i-burfellsstod/",
+      "summary": "Landsvirkjun óskar eftir birgjum til að endurnýja inntaksloka í Búrfellsstöð. Endurnýja þarf alla sex lokana og skal valinn birgi hanna, smíða, setja ...",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-19",
         "assessed_on": "2026-11-19",
         "new_milestone_verified": false,
         "newsletter_ready": false,

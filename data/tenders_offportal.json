@@ -72,8 +72,8 @@
     }
   },
   "schema_version": 1,
-  "generated": "2026-11-19T07:00:23Z",
-  "generated_at": "2026-11-19T07:00:23Z",
+  "generated": "2026-11-19T10:05:03Z",
+  "generated_at": "2026-11-19T10:05:03Z",
   "sources": {
     "covered": [
       {
@@ -205,7 +205,8 @@
         "counts": {
           "rss_items": 20,
           "duplicate_urls": 2,
-          "unverified_deadline": 16,
+          "unverified_deadline": 15,
+          "historical_award": 1,
           "non_works_procurement": 2
         },
         "detail_requests": 0
@@ -898,7 +899,7 @@
         "evidence_url": "https://www.utbodsvefur.is/austurvegur-2-endurnyjun-a-radhustroppum-2/",
         "seen_count": 1,
         "first_seen": "2026-10-19T07:00:26Z",
-        "last_seen": "2026-11-17T07:00:25Z",
+        "last_seen": "2026-11-19T07:00:23Z",
         "reason": "exact candidate evidence excluded: winter_service",
         "status": "pending",
         "last_reviewed": "2026-11-13T07:00:25Z",
@@ -912,7 +913,7 @@
         "evidence_url": "https://byggingar.is/30-11-2026-arborg-bydur-ut-endurnyjun-radhustrappa-a-selfossi",
         "seen_count": 1,
         "first_seen": "2026-11-16T07:00:25Z",
-        "last_seen": "2026-11-19T07:00:23Z",
+        "last_seen": "2026-11-19T10:05:03Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       },
@@ -927,7 +928,7 @@
         "last_seen": "2026-10-27T11:55:54Z",
         "reason": "exact candidate evidence excluded: electricity_purchase",
         "status": "out_of_scope_for_now",
-        "last_reviewed": "2026-11-19T07:00:23Z",
+        "last_reviewed": "2026-11-19T10:05:03Z",
         "resolution_reason": "exact candidate evidence excluded: electricity_purchase"
       },
       {
@@ -942,7 +943,7 @@
         "reason": "unknown buyer/source found in tender feed",
         "status": "resolved_alias",
         "canonical_entity": "Reykjavíkurborg",
-        "last_reviewed": "2026-11-19T07:00:23Z",
+        "last_reviewed": "2026-11-19T10:05:03Z",
         "resolution_reason": "existing Reykjavíkurborg municipal parking entity alias; evidence retained; no new collector activated"
       },
       {
@@ -956,7 +957,7 @@
         "last_seen": "2026-10-22T07:00:26Z",
         "reason": "SW261029-I01: reviewed exact historical snow-clearing/de-icing service URL; not works. Genuine works/planning remain eligible.",
         "status": "out_of_scope_for_now",
-        "last_reviewed": "2026-11-19T07:00:23Z",
+        "last_reviewed": "2026-11-19T10:05:03Z",
         "resolution_reason": "SW261029-I01: reviewed exact historical snow-clearing/de-icing service URL; not works. Genuine works/planning remain eligible."
       },
       {
@@ -970,7 +971,7 @@
         "last_seen": "2026-11-12T07:00:25Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "out_of_scope_for_now",
-        "last_reviewed": "2026-11-19T07:00:23Z",
+        "last_reviewed": "2026-11-19T10:05:03Z",
         "resolution_reason": "exact candidate evidence excluded: insurance_service"
       }
     ]
@@ -981,10 +982,10 @@
     "bid_opening": 30,
     "closed_tender": 2,
     "dynamic_purchasing_system": 6,
-    "historical_award": 91,
+    "historical_award": 92,
     "non_works_procurement": 1,
     "out_of_scope": 14,
-    "unverified_deadline": 31
+    "unverified_deadline": 30
   },
   "items": [
     {
@@ -9395,7 +9396,7 @@
       "secondary_deadline_reports": [],
       "primary_notice_urls": [],
       "project_addresses": [],
-      "intelligence_type": "unverified_deadline",
+      "intelligence_type": "historical_award",
       "is_open_opportunity": false,
       "construction_scope": "not_excluded",
       "procurement_deadline_valid": false,

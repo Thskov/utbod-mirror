@@ -72,16 +72,16 @@
     }
   },
   "schema_version": 1,
-  "generated": "2026-11-19T07:00:23Z",
-  "generated_at": "2026-11-19T07:00:23Z",
+  "generated": "2026-11-19T10:05:03Z",
+  "generated_at": "2026-11-19T10:05:03Z",
   "sources": {
     "utbodsvefur": {
-      "generated_at": "2026-11-19T07:00:23.815531+00:00",
-      "count": 78,
+      "generated_at": "2026-11-19T10:05:03.285621+00:00",
+      "count": 79,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders.json"
     },
     "offportal": {
-      "generated": "2026-11-19T07:00:23Z",
+      "generated": "2026-11-19T10:05:03Z",
       "count": 186,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders_offportal.json"
     },
@@ -145,7 +145,8 @@
         "counts": {
           "rss_items": 20,
           "duplicate_urls": 2,
-          "unverified_deadline": 16,
+          "unverified_deadline": 15,
+          "historical_award": 1,
           "non_works_procurement": 2
         },
         "detail_requests": 0
@@ -831,20 +832,6 @@
     ],
     "source_candidates": [
       {
-        "id": "tender:buyer:sveitafélagið-árborg",
-        "name": "Sveitafélagið Árborg",
-        "suggested_feed": "tenders_all",
-        "suggested_lane": "tender",
-        "evidence_url": "https://www.utbodsvefur.is/austurvegur-2-endurnyjun-a-radhustroppum-2/",
-        "seen_count": 1,
-        "first_seen": "2026-10-19T07:00:26Z",
-        "last_seen": "2026-11-19T07:00:23Z",
-        "reason": "exact candidate evidence excluded: winter_service",
-        "status": "pending",
-        "last_reviewed": "2026-11-13T07:00:25Z",
-        "resolution_reason": "exact candidate evidence excluded: winter_service"
-      },
-      {
         "id": "tender:buyer:sveitarfélagið-árborg",
         "name": "Sveitarfélagið Árborg",
         "suggested_feed": "tenders_all",
@@ -852,7 +839,7 @@
         "evidence_url": "https://byggingar.is/30-11-2026-arborg-bydur-ut-endurnyjun-radhustrappa-a-selfossi",
         "seen_count": 1,
         "first_seen": "2026-11-16T07:00:25Z",
-        "last_seen": "2026-11-19T07:00:23Z",
+        "last_seen": "2026-11-19T10:05:03Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       },
@@ -867,7 +854,7 @@
         "last_seen": "2026-10-27T11:55:54Z",
         "reason": "exact candidate evidence excluded: electricity_purchase",
         "status": "out_of_scope_for_now",
-        "last_reviewed": "2026-11-19T07:00:23Z",
+        "last_reviewed": "2026-11-19T10:05:03Z",
         "resolution_reason": "exact candidate evidence excluded: electricity_purchase"
       },
       {
@@ -882,7 +869,7 @@
         "reason": "unknown buyer/source found in tender feed",
         "status": "resolved_alias",
         "canonical_entity": "Reykjavíkurborg",
-        "last_reviewed": "2026-11-19T07:00:23Z",
+        "last_reviewed": "2026-11-19T10:05:03Z",
         "resolution_reason": "existing Reykjavíkurborg municipal parking entity alias; evidence retained; no new collector activated"
       },
       {
@@ -896,7 +883,7 @@
         "last_seen": "2026-10-22T07:00:26Z",
         "reason": "SW261029-I01: reviewed exact historical snow-clearing/de-icing service URL; not works. Genuine works/planning remain eligible.",
         "status": "out_of_scope_for_now",
-        "last_reviewed": "2026-11-19T07:00:23Z",
+        "last_reviewed": "2026-11-19T10:05:03Z",
         "resolution_reason": "SW261029-I01: reviewed exact historical snow-clearing/de-icing service URL; not works. Genuine works/planning remain eligible."
       },
       {
@@ -910,21 +897,49 @@
         "last_seen": "2026-11-12T07:00:25Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "out_of_scope_for_now",
-        "last_reviewed": "2026-11-19T07:00:23Z",
+        "last_reviewed": "2026-11-19T10:05:03Z",
         "resolution_reason": "exact candidate evidence excluded: insurance_service"
+      },
+      {
+        "id": "tender:buyer:sveitafélagið-árborg",
+        "name": "Sveitafélagið Árborg",
+        "suggested_feed": "tenders_all",
+        "suggested_lane": "tender",
+        "evidence_url": "https://www.utbodsvefur.is/austurvegur-2-endurnyjun-a-radhustroppum-2/",
+        "seen_count": 1,
+        "first_seen": "2026-10-19T07:00:26Z",
+        "last_seen": "2026-11-19T10:05:03Z",
+        "reason": "Resolved municipality spelling alias; see reason_history for prior classification",
+        "status": "resolved_alias",
+        "last_reviewed": "2026-11-19T10:05:03Z",
+        "resolution_reason": "Primary staircase works evidence identifies this spelling as an Árborg municipality alias",
+        "correction_provenance": {
+          "previous_resolution_reason": "exact candidate evidence excluded: winter_service",
+          "evidence_url": "https://www.utbodsvefur.is/austurvegur-2-endurnyjun-a-radhustroppum-2/"
+        },
+        "canonical_entity": "Sveitarfélagið Árborg",
+        "canonical_candidate_id": "tender:buyer:sveitarfélagið-árborg",
+        "reason_history": {
+          "reason": "exact candidate evidence excluded: winter_service",
+          "resolution_reason": "exact candidate evidence excluded: winter_service",
+          "first_seen": "2026-10-19T07:00:26Z",
+          "last_seen": "2026-11-19T07:00:23Z",
+          "evidence_url": "https://www.utbodsvefur.is/austurvegur-2-endurnyjun-a-radhustroppum-2/",
+          "correction_provenance": null
+        }
       }
     ]
   },
-  "count": 255,
+  "count": 256,
   "counts_by_intelligence_type": {
-    "active_tender": 28,
+    "active_tender": 29,
     "bid_opening": 30,
     "closed_tender": 2,
     "dynamic_purchasing_system": 22,
-    "historical_award": 91,
+    "historical_award": 92,
     "non_works_procurement": 1,
     "out_of_scope": 50,
-    "unverified_deadline": 31
+    "unverified_deadline": 30
   },
   "items": [
     {
@@ -949,7 +964,7 @@
       "secondary_deadline_reports": [],
       "primary_notice_urls": [],
       "project_addresses": [],
-      "intelligence_type": "unverified_deadline",
+      "intelligence_type": "historical_award",
       "is_open_opportunity": false,
       "construction_scope": "not_excluded",
       "procurement_deadline_valid": false,
@@ -11014,6 +11029,38 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-18",
+        "assessed_on": "2026-11-19",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "source": "utbodsvefur",
+      "construction_scope": "not_excluded",
+      "procurement_deadline_valid": true,
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true
+    },
+    {
+      "reference": "2026-62",
+      "project": "Endurnýjun inntaksloka í Búrfellsstöð",
+      "buyer": "Landsvirkjun",
+      "notice_type": "Vörukaup",
+      "deadline": "09.12.2026 kl. 12:00",
+      "deadline_local": "2026-12-09T12:00:00+00:00",
+      "deadline_utc": "2026-12-09T12:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-11-19T08:00:20+00:00",
+      "modified_at": "2026-11-18T17:59:46+00:00",
+      "url": "https://www.utbodsvefur.is/endurnyjun-inntaksloka-i-burfellsstod/",
+      "summary": "Landsvirkjun óskar eftir birgjum til að endurnýja inntaksloka í Búrfellsstöð. Endurnýja þarf alla sex lokana og skal valinn birgi hanna, smíða, setja ...",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-19",
         "assessed_on": "2026-11-19",
         "new_milestone_verified": false,
         "newsletter_ready": false,
