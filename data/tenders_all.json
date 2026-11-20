@@ -72,17 +72,17 @@
     }
   },
   "schema_version": 1,
-  "generated": "2026-11-19T10:05:03Z",
-  "generated_at": "2026-11-19T10:05:03Z",
+  "generated": "2026-11-20T07:00:24Z",
+  "generated_at": "2026-11-20T07:00:24Z",
   "sources": {
     "utbodsvefur": {
-      "generated_at": "2026-11-19T10:05:03.285621+00:00",
-      "count": 79,
+      "generated_at": "2026-11-20T07:00:24.699742+00:00",
+      "count": 78,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders.json"
     },
     "offportal": {
-      "generated": "2026-11-19T10:05:03Z",
-      "count": 186,
+      "generated": "2026-11-20T07:00:24Z",
+      "count": 189,
       "url": "https://raw.githubusercontent.com/Thskov/utbod-mirror/gh-pages/data/tenders_offportal.json"
     },
     "not_covered": [
@@ -135,7 +135,7 @@
       {
         "source": "ted",
         "url": "https://api.ted.europa.eu/v3/notices/search",
-        "reason": "dropped 94 notices: expired deadline",
+        "reason": "dropped 95 notices: expired deadline",
         "kind": "filtering"
       },
       {
@@ -157,16 +157,9 @@
         "reason": "primary comparison statistics",
         "counts": {
           "discovered": 18,
-          "matched_existing": 8,
-          "retained_secondary": 10
+          "matched_existing": 7,
+          "retained_secondary": 11
         }
-      },
-      {
-        "kind": "filtering",
-        "source": "utbodsvefur",
-        "reason": "supply_only",
-        "project": "Supply of LED Street light luminaires – Lampar fyrir Borgarlínu",
-        "url": "https://www.utbodsvefur.is/supply-of-led-street-light-luminaires-lampar-fyrir-borgarlinu/"
       },
       {
         "kind": "filtering",
@@ -356,6 +349,13 @@
         "reason": "nonworks_service",
         "project": "Þotugildrur á Keflavíkurflugvelli",
         "url": "https://www.utbodsvefur.is/thotugildrur-a-keflavikurflugvelli/"
+      },
+      {
+        "kind": "filtering",
+        "source": "utbodsvefur",
+        "reason": "nonworks_service",
+        "project": "Ræsting í Skógarlundi",
+        "url": "https://www.utbodsvefur.is/raesting-i-skogarlundi/"
       },
       {
         "kind": "filtering",
@@ -832,6 +832,18 @@
     ],
     "source_candidates": [
       {
+        "id": "tender:buyer:hafnarfjarðarbær-og-golfklúbburinn-keilir",
+        "name": "Hafnarfjarðarbær og Golfklúbburinn Keilir",
+        "suggested_feed": "tenders_all",
+        "suggested_lane": "tender",
+        "evidence_url": "https://byggingar.is/hafnarfjardarbaer-og-keilir-bjoda-ut-464-fermetra-staekkun-golfskalans",
+        "seen_count": 1,
+        "first_seen": "2026-11-20T07:00:24Z",
+        "last_seen": "2026-11-20T07:00:24Z",
+        "reason": "unknown buyer/source found in tender feed",
+        "status": "pending"
+      },
+      {
         "id": "tender:buyer:sveitarfélagið-árborg",
         "name": "Sveitarfélagið Árborg",
         "suggested_feed": "tenders_all",
@@ -839,7 +851,7 @@
         "evidence_url": "https://byggingar.is/30-11-2026-arborg-bydur-ut-endurnyjun-radhustrappa-a-selfossi",
         "seen_count": 1,
         "first_seen": "2026-11-16T07:00:25Z",
-        "last_seen": "2026-11-19T10:05:03Z",
+        "last_seen": "2026-11-20T07:00:24Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "pending"
       },
@@ -854,7 +866,7 @@
         "last_seen": "2026-10-27T11:55:54Z",
         "reason": "exact candidate evidence excluded: electricity_purchase",
         "status": "out_of_scope_for_now",
-        "last_reviewed": "2026-11-19T10:05:03Z",
+        "last_reviewed": "2026-11-20T07:00:24Z",
         "resolution_reason": "exact candidate evidence excluded: electricity_purchase"
       },
       {
@@ -869,7 +881,7 @@
         "reason": "unknown buyer/source found in tender feed",
         "status": "resolved_alias",
         "canonical_entity": "Reykjavíkurborg",
-        "last_reviewed": "2026-11-19T10:05:03Z",
+        "last_reviewed": "2026-11-20T07:00:24Z",
         "resolution_reason": "existing Reykjavíkurborg municipal parking entity alias; evidence retained; no new collector activated"
       },
       {
@@ -883,7 +895,7 @@
         "last_seen": "2026-10-22T07:00:26Z",
         "reason": "SW261029-I01: reviewed exact historical snow-clearing/de-icing service URL; not works. Genuine works/planning remain eligible.",
         "status": "out_of_scope_for_now",
-        "last_reviewed": "2026-11-19T10:05:03Z",
+        "last_reviewed": "2026-11-20T07:00:24Z",
         "resolution_reason": "SW261029-I01: reviewed exact historical snow-clearing/de-icing service URL; not works. Genuine works/planning remain eligible."
       },
       {
@@ -897,7 +909,7 @@
         "last_seen": "2026-11-12T07:00:25Z",
         "reason": "unknown buyer/source found in tender feed",
         "status": "out_of_scope_for_now",
-        "last_reviewed": "2026-11-19T10:05:03Z",
+        "last_reviewed": "2026-11-20T07:00:24Z",
         "resolution_reason": "exact candidate evidence excluded: insurance_service"
       },
       {
@@ -908,10 +920,10 @@
         "evidence_url": "https://www.utbodsvefur.is/austurvegur-2-endurnyjun-a-radhustroppum-2/",
         "seen_count": 1,
         "first_seen": "2026-10-19T07:00:26Z",
-        "last_seen": "2026-11-19T10:05:03Z",
+        "last_seen": "2026-11-20T07:00:24Z",
         "reason": "Resolved municipality spelling alias; see reason_history for prior classification",
         "status": "resolved_alias",
-        "last_reviewed": "2026-11-19T10:05:03Z",
+        "last_reviewed": "2026-11-20T07:00:24Z",
         "resolution_reason": "Primary staircase works evidence identifies this spelling as an Árborg municipality alias",
         "correction_provenance": {
           "previous_resolution_reason": "exact candidate evidence excluded: winter_service",
@@ -930,16 +942,16 @@
       }
     ]
   },
-  "count": 256,
+  "count": 258,
   "counts_by_intelligence_type": {
-    "active_tender": 29,
+    "active_tender": 31,
     "bid_opening": 30,
     "closed_tender": 2,
-    "dynamic_purchasing_system": 22,
+    "dynamic_purchasing_system": 21,
     "historical_award": 92,
     "non_works_procurement": 1,
     "out_of_scope": 50,
-    "unverified_deadline": 30
+    "unverified_deadline": 31
   },
   "items": [
     {
@@ -976,7 +988,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-13",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1016,7 +1028,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-13",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1072,7 +1084,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-09",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1157,7 +1169,75 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-13",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "source": "byggingar-tender",
+      "url": "https://byggingar.is/hafnarfjardarbaer-og-keilir-bjoda-ut-464-fermetra-staekkun-golfskalans",
+      "project": "Keilir – Stækkun golfskála",
+      "buyer": "Hafnarfjarðarbær og Golfklúbburinn Keilir",
+      "reference": "Keilir-26",
+      "notice_type": "Secondary tender notice",
+      "summary": "Hafnarfjarðarbær og Keilir bjóða út 464 fermetra stækkun golfskálans Hafnarfjarðarbær og Golfklúbburinn Keilir hafa auglýst eftir tilboðum í byggingu tveggja hæða viðbyggingar við golfskála Keilis að Steinholti 1 í Hafnarfirði, ásamt nýju geymsluhúsnæði fyrir golfbúnað. Samtals er um að ræða 464 fermetra nýbyggingar. Tilboðsfrestur er til 19. nóvember næstkomandi. Útboðið ber heitið „Keilir – Stækkun golfskála“ og nú",
+      "posted_at": "2026-11-04T07:38:29+00:00",
+      "modified_at": null,
+      "deadline": "2026-11-19",
+      "deadline_utc": "",
+      "deadline_local": "",
+      "deadline_confirmed": false,
+      "deadline_source": "https://byggingar.is/hafnarfjardarbaer-og-keilir-bjoda-ut-464-fermetra-staekkun-golfskalans",
+      "deadline_status": "secondary_reported",
+      "secondary_deadline_dates": [
+        "2026-11-19"
+      ],
+      "deadline_evidence": [
+        "Tilboðsfrestur er til 19. nóvember næstkomandi",
+        "Tilboðum skal skila rafrænt í útboðsgátt Hafnarfjarðarbæjar eigi síðar en fimmtudaginn 19. nóvember 2026 klukkan 11:00"
+      ],
+      "secondary_deadline_datetimes": [
+        "2026-11-19T11:00:00+00:00"
+      ],
+      "secondary_deadline_reports": [
+        {
+          "date": null,
+          "time": null,
+          "datetime_utc": null,
+          "day": 19,
+          "month": 11,
+          "year_explicit": false,
+          "evidence": "Tilboðsfrestur er til 19. nóvember næstkomandi"
+        },
+        {
+          "date": "2026-11-19",
+          "time": "11:00",
+          "datetime_utc": "2026-11-19T11:00:00+00:00",
+          "day": 19,
+          "month": 11,
+          "year_explicit": true,
+          "evidence": "Tilboðum skal skila rafrænt í útboðsgátt Hafnarfjarðarbæjar eigi síðar en fimmtudaginn 19. nóvember 2026 klukkan 11:00"
+        }
+      ],
+      "primary_notice_urls": [
+        "https://hafnarfjordur.utbodsgatt.is/keilir-staekkun-golfskala"
+      ],
+      "project_addresses": [],
+      "intelligence_type": "unverified_deadline",
+      "is_open_opportunity": false,
+      "construction_scope": "not_excluded",
+      "procurement_deadline_valid": false,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-04",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1189,7 +1269,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2024-11-12",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1221,7 +1301,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-03-16",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1253,7 +1333,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-02-12",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1285,7 +1365,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-08-20",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1318,7 +1398,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-07-07",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1358,7 +1438,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-02-20",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1391,7 +1471,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-07-07",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1432,7 +1512,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-11-19",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1464,7 +1544,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-02-12",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1496,7 +1576,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2024-10-23",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1562,7 +1642,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-18",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1594,7 +1674,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-04-22",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1634,7 +1714,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-04-08",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1675,7 +1755,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-03-18",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1715,7 +1795,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-03-10",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1755,7 +1835,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-05-19",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1787,7 +1867,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-08-13",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1819,7 +1899,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-01-21",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1877,7 +1957,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-27",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1954,7 +2034,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-12",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1986,7 +2066,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-05-05",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2019,7 +2099,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-03-31",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2051,7 +2131,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-03-13",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2083,7 +2163,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-05-05",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2115,7 +2195,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-04-07",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2161,7 +2241,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-04-11",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2201,7 +2281,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-03-02",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2233,7 +2313,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-02-10",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2273,7 +2353,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-10-24",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2330,7 +2410,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-30",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2406,7 +2486,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-13",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2438,7 +2518,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-07-21",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2478,7 +2558,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-08-25",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2524,7 +2604,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-11-20",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2576,7 +2656,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-07-07",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2608,7 +2688,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": null,
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2648,7 +2728,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-11-26",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2680,7 +2760,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-05-22",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2720,7 +2800,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-06-24",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2752,7 +2832,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-12",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2792,7 +2872,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-09-02",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2927,7 +3007,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-10",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2967,7 +3047,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-06-12",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -3019,7 +3099,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-05-28",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -3059,7 +3139,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-05-05",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -3105,7 +3185,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-08-04",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -3157,7 +3237,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-07-14",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -3209,7 +3289,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-07-24",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -3255,7 +3335,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-02-13",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -3287,7 +3367,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-08-12",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -3339,7 +3419,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-01-28",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -3371,7 +3451,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-06-13",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -3403,7 +3483,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-11-11",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -3435,7 +3515,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-05-19",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -3467,7 +3547,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-03-19",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -3499,7 +3579,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-11-25",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -3531,7 +3611,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-04-20",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -3571,7 +3651,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-06-12",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -3603,7 +3683,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-07-21",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -3635,7 +3715,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-05-07",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -3675,7 +3755,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-06-12",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -3739,7 +3819,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-06-18",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -3779,7 +3859,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-02-11",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -3819,7 +3899,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-05-30",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -3851,7 +3931,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-27",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -3891,7 +3971,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-27",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -3931,7 +4011,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-07-07",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -3963,7 +4043,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-11-20",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -3995,7 +4075,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-07-31",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -4049,7 +4129,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-27",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -4081,7 +4161,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-06-12",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -4113,7 +4193,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-07-14",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -4159,7 +4239,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-07-28",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -4205,7 +4285,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-08-25",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -4251,7 +4331,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-02-04",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -4297,7 +4377,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-04-01",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -4351,7 +4431,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-09-22",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -4391,7 +4471,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-07-29",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -4423,7 +4503,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-12-16",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -4455,7 +4535,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-08-14",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -4531,7 +4611,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-07-03",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -4601,7 +4681,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-04-21",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -4695,7 +4775,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-04-21",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -4741,7 +4821,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-01-08",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -4781,7 +4861,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-07-25",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -4821,7 +4901,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-09-15",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -4867,7 +4947,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-05-30",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -4899,7 +4979,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-08-20",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -4931,7 +5011,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-07-07",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -4963,7 +5043,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-11-05",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -5003,7 +5083,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-09-04",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -5043,7 +5123,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-01-07",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -5083,7 +5163,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-07-09",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -5153,7 +5233,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-05-06",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -5217,7 +5297,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-04-15",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -5257,7 +5337,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-11-26",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -5297,7 +5377,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-05-18",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -5329,7 +5409,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": null,
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -5361,7 +5441,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-03-16",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -5393,7 +5473,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-03-12",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -5425,7 +5505,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-01-29",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -5457,7 +5537,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-06-12",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -5497,7 +5577,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-06-12",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -5537,7 +5617,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": null,
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -5569,7 +5649,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-09-05",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -5601,7 +5681,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-12-22",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -5633,7 +5713,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-03-05",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -5673,7 +5753,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-09-22",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -5719,7 +5799,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-04-14",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -5777,7 +5857,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-06-03",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -5809,7 +5889,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-09-23",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -5849,7 +5929,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-11-05",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -5929,7 +6009,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-21",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -5986,7 +6066,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-09-29",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -6032,7 +6112,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-10-02",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -6078,7 +6158,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-03-03",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -6130,7 +6210,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-04-10",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -6177,7 +6257,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-07-16",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -6242,7 +6322,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-06-04",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -6307,7 +6387,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-05-29",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -6372,7 +6452,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-06-02",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -6437,7 +6517,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-06-12",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -6508,7 +6588,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-06-23",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -6567,7 +6647,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-07-29",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -6626,7 +6706,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-06-23",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -6685,7 +6765,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-06-26",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -6743,7 +6823,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-06-16",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -6807,7 +6887,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-06-23",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -6871,7 +6951,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-06-17",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -6935,7 +7015,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-06-12",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -7005,7 +7085,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-07-16",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -7094,7 +7174,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-03",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -7146,7 +7226,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-08-25",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -7198,7 +7278,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-09-22",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -7268,7 +7348,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-05-06",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -7374,7 +7454,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-06-09",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -7462,7 +7542,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-06-08",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -7550,7 +7630,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-05-29",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -7644,7 +7724,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-06-04",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -7750,7 +7830,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-08-22",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -7868,7 +7948,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-06-02",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -7938,7 +8018,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-04-28",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -8032,7 +8112,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-06-18",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -8138,7 +8218,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-05-07",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -8220,7 +8300,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-08-07",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -8314,7 +8394,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-01-26",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -8366,7 +8446,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-04-21",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -8412,7 +8492,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-06-19",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -8452,7 +8532,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-06-11",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -8498,7 +8578,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-07-21",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -8556,7 +8636,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-06-26",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -8588,7 +8668,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-07-07",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -8744,7 +8824,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-17",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -8827,7 +8907,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-17",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -8873,7 +8953,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-03-27",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -8905,7 +8985,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-06-30",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -8988,7 +9068,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-20",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -9028,7 +9108,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-08-05",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -9092,7 +9172,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-08-05",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -9156,7 +9236,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-07-09",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -9232,7 +9312,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-06-30",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -9308,7 +9388,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-08-06",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -9340,7 +9420,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-02-23",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -9372,143 +9452,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-02",
-        "assessed_on": "2026-11-19",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      }
-    },
-    {
-      "reference": "Keilir-26",
-      "project": "ÚTBOÐ: Keilir – stækkun golfskála",
-      "buyer": "Hafnarfjarðarkaupstaður",
-      "notice_type": "Framkvæmd",
-      "deadline": "19.11.2026 kl. 11:00",
-      "deadline_local": "2026-11-19T11:00:00+00:00",
-      "deadline_utc": "2026-11-19T11:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-11-03T16:48:44+00:00",
-      "modified_at": "2026-11-03T16:48:44+00:00",
-      "url": "https://www.utbodsvefur.is/utbod-keilir-staekkun-golfskala/",
-      "summary": "Hafnarfjarðarbær og Golfklúbburinn Keilir, auglýsa eftir tilboðum í verkið: Keilir – Stækkun golfskála Verkið felur í sér byggingu 2ja hæða 342 m² vi...",
-      "sector_tags": [],
-      "sector_eligibility": {
-        "iceland_project_evidence": false,
-        "facility_relevance": false,
-        "project_eligible": false,
-        "eligibility_reason": "no_material_sector_evidence",
-        "current_dated_signal": false,
-        "source_date": "2026-11-03",
-        "assessed_on": "2026-11-19",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      },
-      "source": "utbodsvefur",
-      "supplementary_evidence": [
-        {
-          "source": "byggingar-tender",
-          "url": "https://byggingar.is/hafnarfjardarbaer-og-keilir-bjoda-ut-464-fermetra-staekkun-golfskalans",
-          "posted_at": "2026-11-04T07:38:29+00:00",
-          "deadline_status": "secondary_reported",
-          "secondary_deadline_dates": [
-            "2026-11-19"
-          ],
-          "secondary_deadline_datetimes": [
-            "2026-11-19T11:00:00+00:00"
-          ],
-          "secondary_deadline_reports": [
-            {
-              "date": null,
-              "time": null,
-              "datetime_utc": null,
-              "day": 19,
-              "month": 11,
-              "year_explicit": false,
-              "evidence": "Tilboðsfrestur er til 19. nóvember næstkomandi"
-            },
-            {
-              "date": "2026-11-19",
-              "time": "11:00",
-              "datetime_utc": "2026-11-19T11:00:00+00:00",
-              "day": 19,
-              "month": 11,
-              "year_explicit": true,
-              "evidence": "Tilboðum skal skila rafrænt í útboðsgátt Hafnarfjarðarbæjar eigi síðar en fimmtudaginn 19. nóvember 2026 klukkan 11:00"
-            }
-          ],
-          "deadline_evidence": [
-            "Tilboðsfrestur er til 19. nóvember næstkomandi",
-            "Tilboðum skal skila rafrænt í útboðsgátt Hafnarfjarðarbæjar eigi síðar en fimmtudaginn 19. nóvember 2026 klukkan 11:00"
-          ]
-        }
-      ],
-      "buyer_raw": "Hafnarfjarðarbær",
-      "construction_scope": "not_excluded",
-      "procurement_deadline_valid": true,
-      "intelligence_type": "active_tender",
-      "is_open_opportunity": true
-    },
-    {
-      "reference": "BSVK-2026-18",
-      "project": "Supply of LED Street light luminaires – Lampar fyrir Borgarlínu",
-      "buyer": "Betri samgöngur ohf.",
-      "notice_type": "Vörukaup",
-      "deadline": "19.11.2026 kl. 14:00",
-      "deadline_local": "2026-11-19T14:00:00+00:00",
-      "deadline_utc": "2026-11-19T14:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-10-14T08:05:15+00:00",
-      "modified_at": "2026-10-14T08:05:15+00:00",
-      "url": "https://www.utbodsvefur.is/supply-of-led-street-light-luminaires-lampar-fyrir-borgarlinu/",
-      "summary": "Betri samgöngur ohf. invites tenders for the supply and delivery of LED street light luminaires and pedestrian crossing luminaires for Borgarlínan. T...",
-      "sector_tags": [],
-      "sector_eligibility": {
-        "iceland_project_evidence": false,
-        "facility_relevance": false,
-        "project_eligible": false,
-        "eligibility_reason": "no_material_sector_evidence",
-        "current_dated_signal": false,
-        "source_date": "2026-10-14",
-        "assessed_on": "2026-11-19",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      },
-      "source": "utbodsvefur",
-      "construction_scope": "excluded",
-      "procurement_deadline_valid": true,
-      "scope_exclusion": "supply_only",
-      "intelligence_type": "out_of_scope",
-      "is_open_opportunity": false
-    },
-    {
-      "reference": "753778-2026",
-      "project": "Framework Agreement for Fault Response Services, Maintenance and Installation of Mechanical and Electrical Equipment",
-      "buyer": "Veitur ohf.",
-      "notice_type": "cn-standard",
-      "deadline": "19.11.2026 kl. 14:00",
-      "deadline_local": "2026-11-19T14:00:00+00:00",
-      "deadline_utc": "2026-11-19T14:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-10-30",
-      "modified_at": null,
-      "url": "https://ted.europa.eu/en/notice/-/detail/753778-2026",
-      "summary": "TED open Iceland construction contract notice; CPV 50710000, 50530000, 51110000, 45310000, 50511000, 71334000, 45259000, 50530000, 50532000, 51110000, 45310000, 71334000, 45259000, 50511000.",
-      "source": "ted",
-      "construction_scope": "not_excluded",
-      "procurement_deadline_valid": true,
-      "intelligence_type": "active_tender",
-      "is_open_opportunity": true,
-      "sector_tags": [],
-      "sector_eligibility": {
-        "iceland_project_evidence": true,
-        "facility_relevance": false,
-        "project_eligible": false,
-        "eligibility_reason": "no_material_sector_evidence",
-        "current_dated_signal": false,
-        "source_date": "2026-10-30",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -9535,7 +9479,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-15",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -9568,7 +9512,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-27",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -9639,7 +9583,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-12",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -9671,7 +9615,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-09",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -9682,6 +9626,38 @@
       "scope_exclusion": "market_enquiry_not_works_tender",
       "intelligence_type": "out_of_scope",
       "is_open_opportunity": false
+    },
+    {
+      "reference": "791413-2026",
+      "project": "Framework Agreement for Fault Response Services, Maintenance and Installation of Mechanical and Electrical Equipment",
+      "buyer": "Veitur ohf.",
+      "notice_type": "cn-standard",
+      "deadline": "23.11.2026 kl. 14:00",
+      "deadline_local": "2026-11-23T14:00:00+00:00",
+      "deadline_utc": "2026-11-23T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-11-13",
+      "modified_at": null,
+      "url": "https://ted.europa.eu/en/notice/-/detail/791413-2026",
+      "summary": "TED open Iceland construction contract notice; CPV 50710000, 50530000, 51110000, 45310000, 50511000, 71334000, 45259000, 50530000, 50532000, 51110000, 45310000, 71334000, 45259000, 50511000.",
+      "source": "ted",
+      "construction_scope": "not_excluded",
+      "procurement_deadline_valid": true,
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-13",
+        "assessed_on": "2026-11-20",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "reference": "VEU-2609-0063",
@@ -9704,7 +9680,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-05",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -9742,7 +9718,7 @@
             "eligibility_reason": "no_material_sector_evidence",
             "current_dated_signal": false,
             "source_date": "2026-10-05",
-            "assessed_on": "2026-11-19",
+            "assessed_on": "2026-11-20",
             "new_milestone_verified": false,
             "newsletter_ready": false,
             "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -9771,7 +9747,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-14",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -9804,7 +9780,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-26",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -9844,7 +9820,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-19",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -9876,7 +9852,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-22",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -9917,7 +9893,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-19",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -9950,7 +9926,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-09-21",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -9984,7 +9960,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-29",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -10018,7 +9994,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-17",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -10059,7 +10035,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-26",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -10093,7 +10069,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-26",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -10127,7 +10103,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-28",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -10187,7 +10163,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-23",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -10220,7 +10196,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-28",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -10253,7 +10229,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-10",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -10286,7 +10262,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-30",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -10356,7 +10332,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-27",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -10389,7 +10365,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-12",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -10421,7 +10397,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-28",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -10455,7 +10431,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-29",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -10489,7 +10465,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-10",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -10522,7 +10498,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-16",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -10592,7 +10568,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-30",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -10626,7 +10602,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-26",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -10667,7 +10643,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-29",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -10699,7 +10675,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-13",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -10733,7 +10709,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-02",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -10766,7 +10742,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-03",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -10799,7 +10775,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-01",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -10832,7 +10808,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-02",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -10865,7 +10841,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-18",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -10898,7 +10874,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-10",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -10931,7 +10907,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-05",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -10964,7 +10940,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-02",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -10996,7 +10972,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-22",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -11029,7 +11005,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-18",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -11061,7 +11037,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-19",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -11093,7 +11069,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-06",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -11126,7 +11102,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-09",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -11159,7 +11135,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-13",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -11193,7 +11169,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-12",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -11283,11 +11259,44 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-12",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
       }
+    },
+    {
+      "reference": "20261111422",
+      "project": "Ræsting í Skógarlundi",
+      "buyer": "Akureyrarbær",
+      "notice_type": "Þjónusta",
+      "deadline": "16.12.2026 kl. 11:15",
+      "deadline_local": "2026-12-16T11:15:00+00:00",
+      "deadline_utc": "2026-12-16T11:15:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-11-17T09:59:20+00:00",
+      "modified_at": "2026-11-19T10:08:37+00:00",
+      "url": "https://www.utbodsvefur.is/raesting-i-skogarlundi/",
+      "summary": "Akureyrarbær auglýsir eftir tilboðum í ræstingar og aðra vinnu í Skógarlundi.   Samningstími er frá 1.4.2027 – 31.3.2029, með framlengingarmögule...",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-17",
+        "assessed_on": "2026-11-20",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "source": "utbodsvefur",
+      "construction_scope": "excluded",
+      "procurement_deadline_valid": true,
+      "scope_exclusion": "nonworks_service",
+      "intelligence_type": "out_of_scope",
+      "is_open_opportunity": false
     },
     {
       "reference": "U26025",
@@ -11310,7 +11319,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-13",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -11343,7 +11352,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-16",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -11376,7 +11385,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-16",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -11409,7 +11418,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-09",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -11442,7 +11451,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-14",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -11453,6 +11462,38 @@
       "scope_exclusion": "campsite_lease_or_operation",
       "intelligence_type": "out_of_scope",
       "is_open_opportunity": false
+    },
+    {
+      "reference": "809227-2026",
+      "project": "Hellisheiði power plant - workshop and warehouse building - site works, technical systems and interior finishes",
+      "buyer": "Orka náttúrunnar (ON)",
+      "notice_type": "cn-standard",
+      "deadline": "21.12.2026 kl. 14:00",
+      "deadline_local": "2026-12-21T14:00:00+00:00",
+      "deadline_utc": "2026-12-21T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-11-20",
+      "modified_at": null,
+      "url": "https://ted.europa.eu/en/notice/-/detail/809227-2026",
+      "summary": "TED open Iceland construction contract notice; CPV 45000000, 45000000.",
+      "source": "ted",
+      "construction_scope": "not_excluded",
+      "procurement_deadline_valid": true,
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-20",
+        "assessed_on": "2026-11-20",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "reference": "ONU-2611-0020",
@@ -11480,7 +11521,39 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": null,
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "reference": "VEU-2611-0074",
+      "project": "VEU-2611-0074 Flow sensors in wastewater",
+      "buyer": "Veitur ohf.",
+      "notice_type": "$prjTenderProcessSupplies",
+      "deadline": "08.01.2027 kl. 14:00",
+      "deadline_local": "2027-01-08T14:00:00+00:00",
+      "deadline_utc": "2027-01-08T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": null,
+      "modified_at": null,
+      "url": "https://in-tendhost.co.uk/reykjavikenergy/aspx/ProjectManage/716",
+      "summary": "The Purchaser requests tenders for flow and level sensors for wastewater applications in accordance with these tender documents.",
+      "source": "or-intend",
+      "construction_scope": "not_excluded",
+      "procurement_deadline_valid": true,
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": null,
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -11507,7 +11580,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-18",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -11556,7 +11629,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-18",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -11588,7 +11661,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-19",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -11615,7 +11688,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-23",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -11653,7 +11726,7 @@
             "eligibility_reason": "no_material_sector_evidence",
             "current_dated_signal": false,
             "source_date": "2026-10-18",
-            "assessed_on": "2026-11-19",
+            "assessed_on": "2026-11-20",
             "new_milestone_verified": false,
             "newsletter_ready": false,
             "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -11682,7 +11755,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-13",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -11721,7 +11794,7 @@
             "eligibility_reason": "no_material_sector_evidence",
             "current_dated_signal": false,
             "source_date": "2026-11-12",
-            "assessed_on": "2026-11-19",
+            "assessed_on": "2026-11-20",
             "new_milestone_verified": false,
             "newsletter_ready": false,
             "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -11755,11 +11828,59 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-18",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      }
+      },
+      "possible_duplicates": [
+        {
+          "url": "https://www.utbodsvefur.is/2026-06-kvislatunguvirkjun-mannvirki/",
+          "reference": "2026-06",
+          "project": "2026-06 Kvíslatunguvirkjun – Mannvirki",
+          "reason": "similar title; notice identity unverified"
+        }
+      ]
+    },
+    {
+      "reference": "2026-06",
+      "project": "2026-06 Kvíslatunguvirkjun – Mannvirki",
+      "buyer": "Orkubú Vestfjarða ohf.",
+      "notice_type": "Framkvæmd",
+      "deadline": "21.01.2027 kl. 14:00",
+      "deadline_local": "2027-01-21T14:00:00+00:00",
+      "deadline_utc": "2027-01-21T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-11-19T12:41:27+00:00",
+      "modified_at": "2026-11-19T21:31:29+00:00",
+      "url": "https://www.utbodsvefur.is/2026-06-kvislatunguvirkjun-mannvirki/",
+      "summary": "Kvíslatunguvirkjun – Mannvirki | Útboð nr. 2026-06 Orkubú Vestfjarða ohf. óskar eftir tilboðum í verkið Kvíslatunguvirkjun – Mannvirki. Verkið tekur t...",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-19",
+        "assessed_on": "2026-11-20",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "source": "utbodsvefur",
+      "construction_scope": "not_excluded",
+      "procurement_deadline_valid": true,
+      "intelligence_type": "active_tender",
+      "is_open_opportunity": true,
+      "possible_duplicates": [
+        {
+          "url": "https://ted.europa.eu/en/notice/-/detail/800622-2026",
+          "reference": "800622-2026",
+          "project": "2026-06 Kvíslatunguvirkjun - Kvíslatunga Hydropower Plant – Civil and Structural Works",
+          "reason": "similar title; notice identity unverified"
+        }
+      ]
     },
     {
       "reference": "6330273",
@@ -11782,7 +11903,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-13",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -11820,7 +11941,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-19",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -11847,7 +11968,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-19",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -11879,7 +12000,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": null,
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -11911,7 +12032,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": null,
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -11949,7 +12070,7 @@
             "eligibility_reason": "no_material_sector_evidence",
             "current_dated_signal": false,
             "source_date": "2024-03-04",
-            "assessed_on": "2026-11-19",
+            "assessed_on": "2026-11-20",
             "new_milestone_verified": false,
             "newsletter_ready": false,
             "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -11978,7 +12099,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": null,
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -12025,7 +12146,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": null,
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -12070,7 +12191,7 @@
             "eligibility_reason": "no_material_sector_evidence",
             "current_dated_signal": false,
             "source_date": "2023-07-27",
-            "assessed_on": "2026-11-19",
+            "assessed_on": "2026-11-20",
             "new_milestone_verified": false,
             "newsletter_ready": false,
             "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -12099,7 +12220,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": null,
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -12136,7 +12257,7 @@
             "eligibility_reason": "no_material_sector_evidence",
             "current_dated_signal": false,
             "source_date": null,
-            "assessed_on": "2026-11-19",
+            "assessed_on": "2026-11-20",
             "new_milestone_verified": false,
             "newsletter_ready": false,
             "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -12165,7 +12286,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": null,
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -12212,7 +12333,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": null,
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -12246,7 +12367,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": null,
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -12279,7 +12400,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": null,
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -12333,7 +12454,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": null,
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -12371,7 +12492,7 @@
             "eligibility_reason": "no_material_sector_evidence",
             "current_dated_signal": false,
             "source_date": "2025-03-14",
-            "assessed_on": "2026-11-19",
+            "assessed_on": "2026-11-20",
             "new_milestone_verified": false,
             "newsletter_ready": false,
             "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -12400,7 +12521,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": null,
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -12454,7 +12575,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": null,
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -12488,7 +12609,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": null,
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -12541,7 +12662,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": null,
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -12574,7 +12695,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": null,
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -12628,7 +12749,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": null,
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -12661,7 +12782,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-08-27",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -12698,7 +12819,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": null,
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -12725,40 +12846,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": null,
-        "assessed_on": "2026-11-19",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      },
-      "source": "utbodsvefur",
-      "buyer_raw": "Fjársýslan",
-      "construction_scope": "not_excluded",
-      "procurement_deadline_valid": true,
-      "intelligence_type": "dynamic_purchasing_system",
-      "is_open_opportunity": false
-    },
-    {
-      "reference": "21633",
-      "project": "DPS skógarplöntur fyrir Skógræktina/ DPS Tree-nursery products for the Icelandic forest service",
-      "buyer": "Fjársýslan ríkisins",
-      "notice_type": "Vörukaup Gagnvirkt innkaupakerfi (DPS)",
-      "deadline": "09.06.2035 kl. 00:00",
-      "deadline_local": "2035-06-09T00:00:00+00:00",
-      "deadline_utc": "2035-06-09T00:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": null,
-      "modified_at": null,
-      "url": "https://www.utbodsvefur.is/dps-skogarplontur-fyrir-skograektina-dps-tree-nursery-products-for-the-icelandic-forest-service/",
-      "summary": "Fjársýslan, fyrir hönd Skógræktarinnar kt. 590269-3449, hér eftir nefnd verkkaupi, óska eftir bjóðendum í gagnvirkt innkaupakerfi (DPS) á skógarplöntu...",
-      "sector_tags": [],
-      "sector_eligibility": {
-        "iceland_project_evidence": true,
-        "facility_relevance": false,
-        "project_eligible": false,
-        "eligibility_reason": "no_material_sector_evidence",
-        "current_dated_signal": false,
-        "source_date": null,
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -12791,7 +12879,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": null,
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -12833,7 +12921,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": null,
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -12870,7 +12958,7 @@
             "eligibility_reason": "no_material_sector_evidence",
             "current_dated_signal": false,
             "source_date": "2024-07-04",
-            "assessed_on": "2026-11-19",
+            "assessed_on": "2026-11-20",
             "new_milestone_verified": false,
             "newsletter_ready": false,
             "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -12899,7 +12987,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-05",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -12944,7 +13032,7 @@
             "eligibility_reason": "no_material_sector_evidence",
             "current_dated_signal": false,
             "source_date": null,
-            "assessed_on": "2026-11-19",
+            "assessed_on": "2026-11-20",
             "new_milestone_verified": false,
             "newsletter_ready": false,
             "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -12981,7 +13069,7 @@
         "eligibility_reason": "eligible_project_context",
         "current_dated_signal": false,
         "source_date": "2025-12-23",
-        "assessed_on": "2026-11-19",
+        "assessed_on": "2026-11-20",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
