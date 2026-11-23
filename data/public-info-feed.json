@@ -1212,10 +1212,10 @@
       }
     }
   },
-  "count": 498,
+  "count": 497,
   "counts_by_intelligence_type": {
-    "public_record": 467,
-    "reference_tracker": 31
+    "public_record": 465,
+    "reference_tracker": 32
   },
   "items": [
     {
@@ -1450,73 +1450,6 @@
         "project_eligible": false,
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
-        "source_date": "2026-11-23",
-        "assessed_on": "2026-11-23",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      },
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "announcement:braggi-planning:storf-project-manager-17493b",
-      "lane": "announcement",
-      "source": "braggi-planning",
-      "title": "📋 Project Manager",
-      "entity": "Braggi",
-      "status": "published",
-      "date": "2026-11-23",
-      "summary": "Borealis Data Center leitar að verkefnastjóra til að stýra byggingarframkvæmdum gagnavera. Starfsmaðurinn heyrir undir framkvæmdastjóra mannvirkjagerðar og…",
-      "url": "https://braggi.is/storf-project-manager-17493b/",
-      "keywords_matched": [
-        "bygging",
-        "datacentres-infrastructure",
-        "ístak project: Borealis Data Center"
-      ],
-      "evidence_type": "secondary_report",
-      "sector_tags": [
-        "datacentres-infrastructure"
-      ],
-      "sector_evidence_role": "project_or_sector_context",
-      "sector_eligibility": {
-        "iceland_project_evidence": false,
-        "facility_relevance": true,
-        "project_eligible": false,
-        "eligibility_reason": "iceland_project_not_verified",
-        "current_dated_signal": false,
-        "source_date": "2026-11-23",
-        "assessed_on": "2026-11-23",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      },
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "announcement:braggi-planning:storf-alfred-project-coordinator-construction-engineering-ea1026",
-      "lane": "announcement",
-      "source": "braggi-planning",
-      "title": "🏗️ Project Coordinator, Construction & Engineering",
-      "entity": "Braggi",
-      "status": "published",
-      "date": "2026-11-23",
-      "summary": "Borealis Data Center ehf. leitar að verkefnastjóra á sviði framkvæmda og verkfræði í Reykjavík. Umsóknarfrestur um starfið er til 28. desember.",
-      "url": "https://braggi.is/storf-alfred-project-coordinator-construction-engineering-ea1026/",
-      "keywords_matched": [
-        "datacentres-infrastructure",
-        "ístak project: Borealis Data Center"
-      ],
-      "evidence_type": "secondary_report",
-      "sector_tags": [
-        "datacentres-infrastructure"
-      ],
-      "sector_evidence_role": "project_or_sector_context",
-      "sector_eligibility": {
-        "iceland_project_evidence": true,
-        "facility_relevance": true,
-        "project_eligible": true,
-        "eligibility_reason": "eligible_project_context",
-        "current_dated_signal": true,
         "source_date": "2026-11-23",
         "assessed_on": "2026-11-23",
         "new_milestone_verified": false,
@@ -16268,6 +16201,55 @@
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
       },
       "intelligence_type": "reference_tracker"
+    },
+    {
+      "id": "eea-reference:6ab11cfa2b13710b20",
+      "lane": "legislation",
+      "source": "eea-reference",
+      "entity": "Utanríkisráðuneyti",
+      "title": "32025R1090",
+      "date": null,
+      "summary": "EES-ferli: ESB gerð sem hefur verið tekin upp í EES-samninginn og er í gildi. Tilvísun, ekki staðfesting á nýrri íslenskri gildistöku.",
+      "url": "https://gagnagrunnur.ees.is/32025r1090",
+      "status": "reference",
+      "doc_type": "eea_pipeline_reference",
+      "celex": "32025R1090",
+      "eea_stage": "ESB gerð sem hefur verið tekin upp í EES-samninginn og er í gildi",
+      "date_basis": "undated_current_reference",
+      "is_open_opportunity": false,
+      "implementation_status": "Innleiðing ekki hafin",
+      "deadline_provenance": "authoritative labelled EES database cells; EU and EEA jurisdictions separate",
+      "eu_compliance_deadline": "2025-06-23",
+      "eea_compliance_deadline": "2025-12-06",
+      "jcd_adopted_date": null,
+      "iceland_transposition_deadline": null,
+      "source_discovery": "bounded official topic-search results",
+      "intelligence_type": "reference_tracker",
+      "is_new": false,
+      "source_observed_at": "2026-11-23T19:05:37.764197+00:00",
+      "stage_observations": [
+        {
+          "stage": "ESB gerð sem hefur verið tekin upp í EES-samninginn og er í gildi",
+          "observed_at": "2026-11-23T19:05:37.764197+00:00"
+        }
+      ],
+      "stage_transition_date": null,
+      "stage_changed_since_previous_observation": false,
+      "stage_observation_provenance": "collector observation only; not legal transition/effective date",
+      "sector_tags": [],
+      "sector_evidence_role": "reference_only",
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": null,
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     }
   ]
 }

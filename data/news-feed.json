@@ -354,6 +354,16 @@
         "outlet": "Seðlabanki Íslands",
         "url": "https://sedlabanki.is/peningastefna/peningastefnunefnd/",
         "coverage": "bounded first-party monetary-policy statements"
+      },
+      {
+        "source": "skessuhorn",
+        "outlet": "Skessuhorn",
+        "url": "https://skessuhorn.is/flokkar/frettir"
+      },
+      {
+        "source": "vitinn",
+        "outlet": "Vitinn (secondary news aggregator)",
+        "url": "https://vitinn.news/feed.xml"
       }
     ],
     "topics": {
@@ -651,7 +661,7 @@
       }
     ]
   },
-  "count": 80,
+  "count": 81,
   "items": [
     {
       "id": "news:visir:vandraedin-a-byggingamarkadnum-komu-ekki-a-ovart",
@@ -746,6 +756,35 @@
       "outlet": "vb.is",
       "source": "vb",
       "is_new": true,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-23",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:skessuhorn:borun-hefst-vid-jadarsbraut-um-naestu-helgi",
+      "lane": "news",
+      "category": "project",
+      "title": "Borun hefst við Jaðarsbraut um næstu helgi",
+      "entity": "Skessuhorn",
+      "date": "2026-11-23",
+      "summary": "Lokið var fyrir helgi við framkvæmdir við borplanið við Jaðarsbraut á Akranesi. Von er á bornum í þessari viku og hann settur upp. Öðrum hvorum megin við næstu helgi hefst síðan borun. Fram kemur í tilkynningu frá Veitum að vinnutími á borplaninu, með undirbúningi og frágangi, verður frá klukkan 6:30-20:00, en borun hefst aldrei fyrir… Lesa meira",
+      "url": "https://skessuhorn.is/2026/11/23/borun-hefst-vid-jadarsbraut-um-naestu-helgi",
+      "outlet": "Skessuhorn",
+      "source": "skessuhorn",
+      "is_new": true,
+      "evidence_kind": "regional_press_listing_and_dated_detail",
+      "publication_date_provenance": "primary_article_header_verified_against_dated_url",
+      "detail_fetched": true,
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -3077,6 +3116,52 @@
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
       }
+    }
+  ],
+  "incremental_source_observations": [
+    {
+      "prepared_at": "2026-11-23T19:06:48.426902+00:00",
+      "original_full_generation": "2026-11-23T18:35:49Z",
+      "meaning": "Bounded hash-verified public HTTP observations added without re-running the full collector; not full source/archive coverage",
+      "added_ids": [
+        "news:skessuhorn:borun-hefst-vid-jadarsbraut-um-naestu-helgi"
+      ],
+      "observations": [
+        {
+          "url": "https://skessuhorn.is/flokkar/frettir",
+          "sha256": "bcf96a5f0561d7a0f41e22047fdc2b74dba9b6c76f93606809c3df12aa0dcc7b",
+          "http_status": 200,
+          "fixture": "work/industry-followup-20261123/fixtures/skess-news.txt",
+          "fixture_written_at": "2026-11-23T18:53:53.378060+00:00",
+          "timestamp_provenance": "local_saved_HTTP_fixture_mtime_not_source_publication_date"
+        },
+        {
+          "url": "https://skessuhorn.is/2026/11/23/stiflad-raesi-a-thjodveginum-i-melasveit",
+          "sha256": "1bcf5fc3c4495eb31a3ca33a9e5d77703c6c945cbd60b0090d1af2535d5bf397",
+          "http_status": 200,
+          "fixture": "work/industry-followup-20261123/fixtures/skess-current-detail.txt",
+          "fixture_written_at": "2026-11-23T18:53:51.824073+00:00",
+          "timestamp_provenance": "local_saved_HTTP_fixture_mtime_not_source_publication_date"
+        },
+        {
+          "url": "https://skessuhorn.is/2026/11/23/borun-hefst-vid-jadarsbraut-um-naestu-helgi",
+          "sha256": "12464bc23906ee7db282a435fc1459d1a94793ef00ee9eedcd52d303f7620a9a",
+          "http_status": 200,
+          "fixture": "work/industry-followup-20261123/fixtures/skess-borun-detail.txt",
+          "fixture_written_at": "2026-11-23T18:55:36.505228+00:00",
+          "timestamp_provenance": "local_saved_HTTP_fixture_mtime_not_source_publication_date"
+        },
+        {
+          "url": "https://vitinn.news/feed.xml",
+          "sha256": "8ce687675440bfce27f056703773eab7a849f1548dcb91238240a8e95a19a9a2",
+          "http_status": 200,
+          "fixture": "work/group2-public-followthrough-20261123/fixtures/vitinn-advertised-feed.html"
+        }
+      ],
+      "not_covered": {
+        "vitinn": "Incomplete: no verified in-window relevant records extracted."
+      },
+      "detail_limit": "Only two actually fetched Skessuhorn detail pages; unknown details were not requested or invented. Vitinn RSS crawl stamps were not accepted as story dates."
     }
   ]
 }
