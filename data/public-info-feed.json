@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated": "2026-11-23T06:45:02Z",
+  "generated": "2026-11-23T13:01:49Z",
   "window": {
     "from": "2026-11-16",
     "to": "2026-11-23"
@@ -57,17 +57,17 @@
       ],
       "counts_by_sector": {
         "tourism-infrastructure": 21,
-        "aquaculture-fish-production": 5,
+        "aquaculture-fish-production": 4,
         "datacentres-infrastructure": 3
       },
       "counts_by_eligible_iceland_project_evidence": {
         "tourism-infrastructure": 3,
-        "aquaculture-fish-production": 2,
+        "aquaculture-fish-production": 1,
         "datacentres-infrastructure": 2
       },
       "counts_by_current_dated_signal": {
         "tourism-infrastructure": 1,
-        "aquaculture-fish-production": 2,
+        "aquaculture-fish-production": 1,
         "datacentres-infrastructure": 0
       },
       "count_meaning": "counts_by_sector inventories evidence; eligibility counts are records, never unique projects, verified stages or curated newsletter stories",
@@ -211,6 +211,8 @@
       "https://www.grenivik.is/is/mannlifid/frettir",
       "https://byggingar.is/category/featured/news/in-news/undirskrift/",
       "https://www.fjallabyggd.is/is/frettir",
+      "https://www.reykjanesbaer.is/reykjanesbaer/frettir",
+      "https://braggi.is/feed/",
       "https://www.stjornarradid.is/efst-a-baugi/frettir/",
       "https://www.vegagerdin.is/upplysingar-og-utgafa/frettir/",
       "https://www.vegagerdin.is/verkefnin/utbod",
@@ -283,7 +285,6 @@
     "announcement_not_covered": {
       "althingi_thingmalaskra_157": "retired stale 157th-session Alþingi PDF selector; using Stjórnarráðið þingmálaskrá page",
       "audlindagardurinn": "audlindagardurinn.is redirects to hsorka.is; using HS Orka Auðlindagarðurinn page instead",
-      "reykjanesbaer": "reykjanesbaer.is news endpoints returned HTTP 404 from this host; current accessible static news endpoint not identified",
       "hms_browser_collection": "hms.is/frettir remains a browser/alternate-egress candidate; plain fetch from this host returns HTTP 429 and the static page is not scriptable",
       "hms_eia_browser_collection": "hms.is/frettir/alit-um-umhverfismat remains a browser/alternate-egress candidate; plain fetch from this host returns HTTP 429"
     },
@@ -391,7 +392,6 @@
       "announcements": {
         "althingi_thingmalaskra_157": "retired stale 157th-session Alþingi PDF selector; using Stjórnarráðið þingmálaskrá page",
         "audlindagardurinn": "audlindagardurinn.is redirects to hsorka.is; using HS Orka Auðlindagarðurinn page instead",
-        "reykjanesbaer": "reykjanesbaer.is news endpoints returned HTTP 404 from this host; current accessible static news endpoint not identified",
         "hms_browser_collection": "hms.is/frettir remains a browser/alternate-egress candidate; plain fetch from this host returns HTTP 429 and the static page is not scriptable",
         "hms_eia_browser_collection": "hms.is/frettir/alit-um-umhverfismat remains a browser/alternate-egress candidate; plain fetch from this host returns HTTP 429"
       },
@@ -402,19 +402,19 @@
       "collection_failures": {
         "byggingar-borgarlina": {
           "url": "https://byggingar.is/?s=Borgarl%C3%ADna&feed=rss2",
-          "error": "URL error: timed out"
+          "error": "TimeoutError"
         },
         "byggingar-signed-contracts": {
           "url": "https://byggingar.is/category/featured/news/in-news/undirskrift/",
-          "error": "URL error: timed out"
+          "error": "TimeoutError"
         },
         "betri-samgongur": {
           "url": "https://betrisamgongur.is/?page_id=30",
-          "error": "URL error: timed out"
+          "error": "TimeoutError"
         },
         "byggingar-opnun-utboda": {
           "url": "https://byggingar.is/category/opnun-utboda/",
-          "error": "URL error: timed out"
+          "error": "TimeoutError"
         },
         "althingi-nefndir": {
           "url": "https://www.althingi.is/thingnefndir/fastanefndir/",
@@ -428,13 +428,33 @@
           "fetched": "30",
           "total": "45"
         },
+        "uua-archive-history": {
+          "url": "https://uua.is/urleits/",
+          "reason": "bounded first two archive pages; complete historical backfill not established"
+        },
         "landsnet-news": {
           "url": "https://www.landsnet.is/utgafa-og-samskipti/frettir/",
           "reason": "HTTP success but no extractable records; coverage unverified"
         },
+        "vegagerdin-undated": {
+          "url": "https://www.vegagerdin.is/upplysingar-og-utgafa/frettir/",
+          "reason": "relevant records lack verified publication dates"
+        },
         "carbfix": {
           "url": "https://www.carbfix.com/news",
           "reason": "HTTP success but no extractable records; coverage unverified"
+        },
+        "borgarlinan-undated": {
+          "url": "https://www.borgarlinan.is/frettir",
+          "reason": "relevant records lack verified publication dates"
+        },
+        "borgarlinan-detail-budget": {
+          "url": "https://www.borgarlinan.is/frettir",
+          "reason": "bounded detail budget exhausted; undated candidates remain"
+        },
+        "mosfellsbaer-undated": {
+          "url": "https://mos.is/mannlif/um-mosfellsbae/frettir/",
+          "reason": "relevant records lack verified publication dates"
         },
         "skagafjordur-skipulagsnefnd-detail-budget": {
           "url": "https://www.skagafjordur.is/is/fundargerdir/skipulagsnefnd",
@@ -587,7 +607,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/5618",
         "seen_count": 1,
         "first_seen": "2026-10-28T14:29:46Z",
-        "last_seen": "2026-11-23T06:45:02Z",
+        "last_seen": "2026-11-23T13:01:49Z",
         "reason": "repeated unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -599,7 +619,7 @@
         "evidence_url": "https://www.blaskogabyggd.is/is/stjornsysla/sveitarstjorn-1/fundargerdir/sveitarstjorn-blaskogabyggdar/8544",
         "seen_count": 5,
         "first_seen": "2026-11-19T09:58:05Z",
-        "last_seen": "2026-11-23T06:45:02Z",
+        "last_seen": "2026-11-23T13:01:49Z",
         "reason": "repeated unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -611,7 +631,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/4319",
         "seen_count": 1,
         "first_seen": "2026-11-17T06:45:01Z",
-        "last_seen": "2026-11-23T06:45:02Z",
+        "last_seen": "2026-11-23T13:01:49Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -623,7 +643,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/5663",
         "seen_count": 4,
         "first_seen": "2026-11-12T08:12:49Z",
-        "last_seen": "2026-11-23T06:45:02Z",
+        "last_seen": "2026-11-23T13:01:49Z",
         "reason": "repeated unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -659,7 +679,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/3459",
         "seen_count": 1,
         "first_seen": "2026-10-28T14:29:46Z",
-        "last_seen": "2026-11-23T06:45:02Z",
+        "last_seen": "2026-11-23T13:01:49Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -671,7 +691,7 @@
         "evidence_url": "https://www.geosalmo.com/news/eyrun-viktorsdottir-as-head-of-quality-and-sustainability",
         "seen_count": 4,
         "first_seen": "2026-11-13T06:45:01Z",
-        "last_seen": "2026-11-23T06:45:02Z",
+        "last_seen": "2026-11-23T13:01:49Z",
         "reason": "repeated unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -683,7 +703,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/4410",
         "seen_count": 1,
         "first_seen": "2026-10-28T14:29:46Z",
-        "last_seen": "2026-11-23T06:45:02Z",
+        "last_seen": "2026-11-23T13:01:49Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -707,7 +727,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/5655",
         "seen_count": 5,
         "first_seen": "2026-10-28T14:29:46Z",
-        "last_seen": "2026-11-23T06:45:02Z",
+        "last_seen": "2026-11-23T13:01:49Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -731,7 +751,7 @@
         "evidence_url": "https://uos.is/opinber-birting/tillaga-ad-breytingu-a-starfsleyfi-saebylis-rekstur-ehf.-grindavik",
         "seen_count": 1,
         "first_seen": "2026-10-28T06:45:02Z",
-        "last_seen": "2026-11-23T06:45:02Z",
+        "last_seen": "2026-11-23T13:01:49Z",
         "reason": "repeated unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -743,7 +763,7 @@
         "evidence_url": "https://www.utu.is/auglysingar/skipulagsauglysing-birt-dags-12-november-2026/",
         "seen_count": 5,
         "first_seen": "2026-10-16T06:45:01Z",
-        "last_seen": "2026-11-23T06:45:02Z",
+        "last_seen": "2026-11-23T13:01:49Z",
         "reason": "repeated unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -755,7 +775,7 @@
         "evidence_url": "https://gagnagrunnur.ees.is/32024l1275",
         "seen_count": 2,
         "first_seen": "2026-11-02T17:10:48Z",
-        "last_seen": "2026-11-23T06:45:02Z",
+        "last_seen": "2026-11-23T13:01:49Z",
         "reason": "repeated unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -767,7 +787,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/5331",
         "seen_count": 1,
         "first_seen": "2026-10-30T06:45:01Z",
-        "last_seen": "2026-11-23T06:45:02Z",
+        "last_seen": "2026-11-23T13:01:49Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       },
@@ -779,7 +799,7 @@
         "evidence_url": "https://skipulagsgatt.is/issues/5479",
         "seen_count": 2,
         "first_seen": "2026-10-28T14:29:46Z",
-        "last_seen": "2026-11-23T06:45:02Z",
+        "last_seen": "2026-11-23T13:01:49Z",
         "reason": "unknown entity found in generated public-info items",
         "status": "pending"
       }
@@ -796,13 +816,33 @@
           "fetched": "30",
           "total": "45"
         },
+        "uua-archive-history": {
+          "url": "https://uua.is/urleits/",
+          "reason": "bounded first two archive pages; complete historical backfill not established"
+        },
         "landsnet-news": {
           "url": "https://www.landsnet.is/utgafa-og-samskipti/frettir/",
           "reason": "HTTP success but no extractable records; coverage unverified"
         },
+        "vegagerdin-undated": {
+          "url": "https://www.vegagerdin.is/upplysingar-og-utgafa/frettir/",
+          "reason": "relevant records lack verified publication dates"
+        },
         "carbfix": {
           "url": "https://www.carbfix.com/news",
           "reason": "HTTP success but no extractable records; coverage unverified"
+        },
+        "borgarlinan-undated": {
+          "url": "https://www.borgarlinan.is/frettir",
+          "reason": "relevant records lack verified publication dates"
+        },
+        "borgarlinan-detail-budget": {
+          "url": "https://www.borgarlinan.is/frettir",
+          "reason": "bounded detail budget exhausted; undated candidates remain"
+        },
+        "mosfellsbaer-undated": {
+          "url": "https://mos.is/mannlif/um-mosfellsbae/frettir/",
+          "reason": "relevant records lack verified publication dates"
         },
         "skagafjordur-skipulagsnefnd-detail-budget": {
           "url": "https://www.skagafjordur.is/is/fundargerdir/skipulagsnefnd",
@@ -941,29 +981,10 @@
           "reason": "bounded operator detail budget exhausted"
         }
       },
-      "source_failures": {
-        "byggingar-borgarlina": {
-          "url": "https://byggingar.is/?s=Borgarl%C3%ADna&feed=rss2",
-          "error": "URL error: timed out"
-        },
-        "byggingar-signed-contracts": {
-          "url": "https://byggingar.is/category/featured/news/in-news/undirskrift/",
-          "error": "URL error: timed out"
-        },
-        "betri-samgongur": {
-          "url": "https://betrisamgongur.is/?page_id=30",
-          "error": "URL error: timed out"
-        },
-        "byggingar-opnun-utboda": {
-          "url": "https://byggingar.is/category/opnun-utboda/",
-          "error": "URL error: timed out"
-        },
-        "althingi-nefndir": {
-          "url": "https://www.althingi.is/thingnefndir/fastanefndir/",
-          "error": "HTTP 403"
-        }
-      },
       "filtered": {
+        "kaerunefnd": {
+          "outside_ruling_year": 1247
+        },
         "grenivik": {
           "no_matching_keywords": 60,
           "outside_window": 1,
@@ -973,13 +994,17 @@
           "no_matching_keywords": 10,
           "out_of_construction_scope": 1
         },
-        "stjornarradid": {
-          "no_matching_keywords": 35,
-          "undated": 5
+        "reykjanesbaer": {
+          "no_matching_keywords": 12
+        },
+        "braggi-planning": {
+          "no_matching_keywords": 8,
+          "out_of_construction_scope": 1
         },
         "vegagerdin": {
-          "undated": 15,
-          "no_matching_keywords": 25
+          "undated": 11,
+          "no_matching_keywords": 25,
+          "no_matching_detail_keywords": 4
         },
         "landsvirkjun": {
           "no_matching_keywords": 4,
@@ -1032,17 +1057,17 @@
           "no_matching_keywords": 40
         },
         "borgarlinan": {
-          "outside_window": 31,
-          "undated": 9
+          "undated": 40
         },
         "gardabaer": {
           "no_matching_keywords": 22,
-          "outside_window": 2
+          "no_matching_detail_keywords": 2
         },
         "mosfellsbaer": {
           "no_matching_keywords": 34,
-          "outside_window": 4,
-          "undated": 2
+          "outside_window": 3,
+          "no_matching_detail_keywords": 2,
+          "undated": 1
         },
         "arborg": {
           "no_matching_keywords": 21,
@@ -1091,15 +1116,128 @@
         "ramma-framvinda": {
           "outside_window": 1
         }
+      },
+      "source_failures": {
+        "byggingar-borgarlina": {
+          "url": "https://byggingar.is/?s=Borgarl%C3%ADna&feed=rss2",
+          "error": "TimeoutError"
+        },
+        "byggingar-signed-contracts": {
+          "url": "https://byggingar.is/category/featured/news/in-news/undirskrift/",
+          "error": "TimeoutError"
+        },
+        "betri-samgongur": {
+          "url": "https://betrisamgongur.is/?page_id=30",
+          "error": "TimeoutError"
+        },
+        "byggingar-opnun-utboda": {
+          "url": "https://byggingar.is/category/opnun-utboda/",
+          "error": "TimeoutError"
+        },
+        "althingi-nefndir": {
+          "url": "https://www.althingi.is/thingnefndir/fastanefndir/",
+          "error": "HTTP 403"
+        }
       }
     }
   },
-  "count": 413,
+  "count": 455,
   "counts_by_intelligence_type": {
-    "public_record": 385,
+    "public_record": 427,
     "reference_tracker": 28
   },
   "items": [
+    {
+      "id": "samradsgatt:241/2026",
+      "lane": "legislation",
+      "source": "samradsgatt",
+      "doc_type": "consultation",
+      "proposal_type": "consultation",
+      "title": "Umhverfismat á drögum að stefnu stjórnvalda um uppbyggingu flutningskerfis raforku",
+      "entity": "Umhverfis-, orku- og loftslagsráðuneytið",
+      "status": "Til umsagnar",
+      "date": "2026-11-23",
+      "review_deadline": "2027-01-04",
+      "summary": "Umhverfis-, orku- og loftslagsráðuneytið kynnir til samráðs umhverfismat áætlana fyrir drög að þingsályktun um stefnu stjórnvalda um uppbyggingu flutningskerfis raforku.",
+      "url": "https://island.is/samradsgatt/mal/4388",
+      "case_number": "241/2026",
+      "keywords_matched": [
+        "orku",
+        "umhverfismat"
+      ],
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-23",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "announcement:braggi-planning:af-hverju-endingartimi-byggingarefna-skiptir-meira-mali-en-nokkru-sinn-62591ba5",
+      "lane": "announcement",
+      "source": "braggi-planning",
+      "title": "Af hverju endingartími byggingarefna skiptir meira máli en nokkru sinni fyrr",
+      "entity": "Braggi",
+      "status": "published",
+      "date": "2026-11-23",
+      "summary": "Endingartími byggingarefna er lykilþáttur í mati á umhverfisspori þeirra, enda geta endingargóð efni dregið úr viðhaldi og endurnýjun á líftíma mannvirkja. Lífsferilsgreining sýnir að upphaflegt kolefnisspor segir aðeins hálfa söguna um heildaráhrif efnisvals.",
+      "url": "https://braggi.is/af-hverju-endingartimi-byggingarefna-skiptir-meira-mali-en-nokkru-sinn-62591ba5/",
+      "keywords_matched": [
+        "bygging"
+      ],
+      "evidence_type": "secondary_report",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-23",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "announcement:braggi-planning:solutimi-nyrra-ibuda-hefur-tvofaldast-en-nadi-hamarki-i-juni",
+      "lane": "announcement",
+      "source": "braggi-planning",
+      "title": "Sölutími nýrra íbúða hefur tvöfaldast en náði hámarki í júní",
+      "entity": "Braggi",
+      "status": "published",
+      "date": "2026-11-22",
+      "summary": "Samtök iðnaðarins segja skell í vændum í byggingariðnaði. Tölur HMS staðfesta að birgðatími nýrra íbúða hefur tvöfaldast á tveimur árum, en hann hefur styst frá því í júní.",
+      "url": "https://braggi.is/solutimi-nyrra-ibuda-hefur-tvofaldast-en-nadi-hamarki-i-juni/",
+      "keywords_matched": [
+        "bygging"
+      ],
+      "evidence_type": "secondary_report",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-22",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
     {
       "id": "uos:25805c099191653df5",
       "lane": "eia",
@@ -1162,39 +1300,599 @@
       "intelligence_type": "public_record"
     },
     {
-      "id": "salmonbusiness:d108a0e553f31b9684",
-      "lane": "announcement",
-      "source": "salmonbusiness",
-      "entity": "SalmonBusiness",
-      "title": "Top five: The world’s largest land-based salmon farms under construction",
-      "date": "2026-11-20",
-      "summary": "Top five: The world’s largest land-based salmon farms under construction Industry – November 20, 2026 Top five: The world’s largest land-based salmon farms under construction First Water targets 60,000 tonnes annual output at full build-out. Photo: First Water Iceland and Norway dominate the world's largest land-based salmon developments currently under construction, with individual projects targeting annual production of up to 60,000 tonnes. For this week's Top Five, SalmonBusiness has ranked land-based Atlantic salmon farms by their planned annual production capacity at full build-out , rather than the capacity currently installed or being constructed. Continue reading Create your free account in less than 1 minute Read the full article to get the complete story, including the latest developments, key details, and industry insights. Create account or Login",
-      "url": "https://www.salmonbusiness.com/top-five-the-worlds-largest-land-based-salmon-farms-under-construction",
+      "id": "planning:braggi-planning:tillaga-ad-deiliskipulagi-nordurness-a-alftanesi-fer-i-auglysingu",
+      "lane": "planning",
+      "source": "braggi-planning",
+      "title": "Tillaga að deiliskipulagi Norðurness á Álftanesi fer í auglýsingu",
+      "entity": "Braggi",
       "status": "published",
-      "category": "industrial-demand",
-      "outlet": "SalmonBusiness",
-      "evidence_kind": "secondary_trade_press",
-      "project_learning_eligible": false,
-      "is_new": false,
-      "sector_tags": [
-        "aquaculture-fish-production"
+      "date": "2026-11-20",
+      "summary": "Bæjarstjórn Garðabæjar samþykkti á fundi sínum þann 19. nóvember 2026 að auglýsa tillögu að deiliskipulagi fyrir Norðurnes á Álftanesi. Ákvörðunin var tekin í tengslum við umfjöllun um fundargerð bæjarráðs frá 17. nóvember 2026 þar sem tekin var fyri",
+      "url": "https://braggi.is/tillaga-ad-deiliskipulagi-nordurness-a-alftanesi-fer-i-auglysingu/",
+      "keywords_matched": [
+        "skipulag"
       ],
-      "sector_evidence_role": "project_or_sector_context",
+      "evidence_type": "secondary_report",
+      "sector_tags": [],
       "sector_eligibility": {
-        "iceland_project_evidence": true,
-        "facility_relevance": true,
-        "project_eligible": true,
-        "eligibility_reason": "eligible_project_context",
-        "current_dated_signal": true,
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
         "source_date": "2026-11-20",
         "assessed_on": "2026-11-23",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
       },
-      "sector_subtopics": [
-        "land-based-aquaculture"
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "planning:braggi-planning:sveitarstjorn-hrunamannahrepps-samthykkir-breytingu-a-adalskipulagi-fyrir-ibudar",
+      "lane": "planning",
+      "source": "braggi-planning",
+      "title": "Sveitarstjórn Hrunamannahrepps samþykkir breytingu á aðalskipulagi fyrir íbúðarbyggð í Sandskarði",
+      "entity": "Braggi",
+      "status": "published",
+      "date": "2026-11-20",
+      "summary": "Sveitarstjórn Hrunamannahrepps hefur samþykkt breytingu á aðalskipulagi fyrir íbúðarbyggð í Sandskarði á Flúðum. Breytingin heimilar allt að 30 íbúðir í fjölbýlishúsum í stað allt að 14 íbúða í einbýlis- og parhúsum.",
+      "url": "https://braggi.is/sveitarstjorn-hrunamannahrepps-samthykkir-breytingu-a-adalskipulagi-fyrir-ibudar/",
+      "keywords_matched": [
+        "skipulag"
       ],
+      "evidence_type": "secondary_report",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-20",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "planning:braggi-planning:breyting-a-deiliskipulagi-hraunsholts-eystra-auglyst",
+      "lane": "planning",
+      "source": "braggi-planning",
+      "title": "Breyting á deiliskipulagi Hraunsholts eystra auglýst",
+      "entity": "Braggi",
+      "status": "published",
+      "date": "2026-11-20",
+      "summary": "Bæjarstjórn Garðabæjar hefur samþykkt að auglýsa breytingu á deiliskipulagi Hraunsholts eystra. Þessi ákvörðun var tekin á 987. fundi bæjarstjórnar Garðabæjar sem haldinn var þann 19. nóvember 2026. Skipulagsbreytingin snýr að skilgreiningu stíga inn",
+      "url": "https://braggi.is/breyting-a-deiliskipulagi-hraunsholts-eystra-auglyst/",
+      "keywords_matched": [
+        "skipulag"
+      ],
+      "evidence_type": "secondary_report",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-20",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "kaerunefnd:9/2026",
+      "lane": "kaerunefnd",
+      "title": "2026 11 20 mal nr 9 2026 urskurdur kaerunefndar utbodsmala",
+      "entity": "Kærunefnd útboðsmála",
+      "board": "Kærunefnd útboðsmála",
+      "case_number": "9/2026",
+      "keywords_matched": [
+        "útboð"
+      ],
+      "status": "ruling",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-11-20",
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-11-20-mal-nr-9-2026-urskurdur-kaerunefndar-utbodsmala",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-20",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "kaerunefnd:61/2025",
+      "lane": "kaerunefnd",
+      "title": "2026 11 20 mal nr 61 2025 urskurdur kaerunefndar utbodsmala",
+      "entity": "Kærunefnd útboðsmála",
+      "board": "Kærunefnd útboðsmála",
+      "case_number": "61/2025",
+      "keywords_matched": [
+        "útboð"
+      ],
+      "status": "ruling",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-11-20",
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-11-20-mal-nr-61-2025-urskurdur-kaerunefndar-utbodsmala",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-20",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "kaerunefnd:57/2025",
+      "lane": "kaerunefnd",
+      "title": "2026 11 20 mal nr 57 2025 urskurdur kaerunefndar utbodsmala",
+      "entity": "Kærunefnd útboðsmála",
+      "board": "Kærunefnd útboðsmála",
+      "case_number": "57/2025",
+      "keywords_matched": [
+        "útboð"
+      ],
+      "status": "ruling",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-11-20",
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-11-20-mal-nr-57-2025-urskurdur-kaerunefndar-utbodsmala",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-20",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "kaerunefnd:50/2026",
+      "lane": "kaerunefnd",
+      "title": "2026 11 20 mal nr 50 2026 akvordun kaerunefndar utbodsmala",
+      "entity": "Kærunefnd útboðsmála",
+      "board": "Kærunefnd útboðsmála",
+      "case_number": "50/2026",
+      "keywords_matched": [
+        "útboð"
+      ],
+      "status": "ruling",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-11-20",
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-11-20-mal-nr-50-2026-akvordun-kaerunefndar-utbodsmala",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-20",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "kaerunefnd:48/2026",
+      "lane": "kaerunefnd",
+      "title": "2026 11 20 mal nr 48 2026 akvordun kaerunefndar utbodsmala",
+      "entity": "Kærunefnd útboðsmála",
+      "board": "Kærunefnd útboðsmála",
+      "case_number": "48/2026",
+      "keywords_matched": [
+        "útboð"
+      ],
+      "status": "ruling",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-11-20",
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-11-20-mal-nr-48-2026-akvordun-kaerunefndar-utbodsmala",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-20",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "kaerunefnd:47/2026",
+      "lane": "kaerunefnd",
+      "title": "2026 11 20 mal nr 47 2026 urskurdur kaerunefndar utbodsmala",
+      "entity": "Kærunefnd útboðsmála",
+      "board": "Kærunefnd útboðsmála",
+      "case_number": "47/2026",
+      "keywords_matched": [
+        "útboð"
+      ],
+      "status": "ruling",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-11-20",
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-11-20-mal-nr-47-2026-urskurdur-kaerunefndar-utbodsmala",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-20",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "kaerunefnd:45/2026",
+      "lane": "kaerunefnd",
+      "title": "2026 11 20 mal nr 45 2026 urskurdur kaerunefndar utbodsmala",
+      "entity": "Kærunefnd útboðsmála",
+      "board": "Kærunefnd útboðsmála",
+      "case_number": "45/2026",
+      "keywords_matched": [
+        "útboð"
+      ],
+      "status": "ruling",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-11-20",
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-11-20-mal-nr-45-2026-urskurdur-kaerunefndar-utbodsmala",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-20",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "kaerunefnd:44/2026",
+      "lane": "kaerunefnd",
+      "title": "2026 11 20 mal nr 44 2026 akvordun kaerunefndar utbodsmala adgangur ad gognum",
+      "entity": "Kærunefnd útboðsmála",
+      "board": "Kærunefnd útboðsmála",
+      "case_number": "44/2026",
+      "keywords_matched": [
+        "útboð"
+      ],
+      "status": "ruling",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-11-20",
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-11-20-mal-nr-44-2026-akvordun-kaerunefndar-utbodsmala-adgangur-ad-gognum",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-20",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "kaerunefnd:41/2026",
+      "lane": "kaerunefnd",
+      "title": "2026 11 20 mal nr 41 2026 urskurdur kaerunefndar utbodsmala",
+      "entity": "Kærunefnd útboðsmála",
+      "board": "Kærunefnd útboðsmála",
+      "case_number": "41/2026",
+      "keywords_matched": [
+        "útboð"
+      ],
+      "status": "ruling",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-11-20",
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-11-20-mal-nr-41-2026-urskurdur-kaerunefndar-utbodsmala",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-20",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "kaerunefnd:38/2026",
+      "lane": "kaerunefnd",
+      "title": "2026 11 20 mal nr 38 2026 akvordun kaerunefndar utbodsmala adgangur ad gognum",
+      "entity": "Kærunefnd útboðsmála",
+      "board": "Kærunefnd útboðsmála",
+      "case_number": "38/2026",
+      "keywords_matched": [
+        "útboð"
+      ],
+      "status": "ruling",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-11-20",
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-11-20-mal-nr-38-2026-akvordun-kaerunefndar-utbodsmala-adgangur-ad-gognum",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-20",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "kaerunefnd:34/2026",
+      "lane": "kaerunefnd",
+      "title": "2026 11 20 mal nr 34 2026 urskurdur kaerunefndar utbodsmala",
+      "entity": "Kærunefnd útboðsmála",
+      "board": "Kærunefnd útboðsmála",
+      "case_number": "34/2026",
+      "keywords_matched": [
+        "útboð"
+      ],
+      "status": "ruling",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-11-20",
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-11-20-mal-nr-34-2026-urskurdur-kaerunefndar-utbodsmala",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-20",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "kaerunefnd:33/2026",
+      "lane": "kaerunefnd",
+      "title": "2026 11 20 mal nr 33 2026 urskurdur kaerunefndar utbodsmala",
+      "entity": "Kærunefnd útboðsmála",
+      "board": "Kærunefnd útboðsmála",
+      "case_number": "33/2026",
+      "keywords_matched": [
+        "útboð"
+      ],
+      "status": "ruling",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-11-20",
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-11-20-mal-nr-33-2026-urskurdur-kaerunefndar-utbodsmala",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-20",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "kaerunefnd:20/2026",
+      "lane": "kaerunefnd",
+      "title": "2026 11 20 mal nr 20 2026 urskurdur kaerunefndar utbodsmala",
+      "entity": "Kærunefnd útboðsmála",
+      "board": "Kærunefnd útboðsmála",
+      "case_number": "20/2026",
+      "keywords_matched": [
+        "útboð"
+      ],
+      "status": "ruling",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-11-20",
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-11-20-mal-nr-20-2026-urskurdur-kaerunefndar-utbodsmala",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-20",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "kaerunefnd:19/2026",
+      "lane": "kaerunefnd",
+      "title": "2026 11 20 mal nr 19 2026 urskurdur kaerunefndar utbodsmala",
+      "entity": "Kærunefnd útboðsmála",
+      "board": "Kærunefnd útboðsmála",
+      "case_number": "19/2026",
+      "keywords_matched": [
+        "útboð"
+      ],
+      "status": "ruling",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-11-20",
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-11-20-mal-nr-19-2026-urskurdur-kaerunefndar-utbodsmala",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-20",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "kaerunefnd:15/2026",
+      "lane": "kaerunefnd",
+      "title": "2026 11 20 mal nr 15 2026 urskurdur kaerunefndar utbodsmala",
+      "entity": "Kærunefnd útboðsmála",
+      "board": "Kærunefnd útboðsmála",
+      "case_number": "15/2026",
+      "keywords_matched": [
+        "útboð"
+      ],
+      "status": "ruling",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-11-20",
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-11-20-mal-nr-15-2026-urskurdur-kaerunefndar-utbodsmala",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-20",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "announcement:braggi-planning:bruargrindin-dregin-yfir-olfusa",
+      "lane": "announcement",
+      "source": "braggi-planning",
+      "title": "Brúargrindin dregin yfir Ölfusá",
+      "entity": "Braggi",
+      "status": "published",
+      "date": "2026-11-20",
+      "summary": "Stálgrind nýrrar brúar yfir Ölfusá hefur verið dregin yfir ána frá austurbakkanum yfir á vesturbakkann. Mannvirkið er um 330 metrar á lengd og nemur heildarþyngd þess um 2.000 tonnum. Verkið gekk greiðar fyrir sig en áætlanir gerðu ráð fyrir og tók f",
+      "url": "https://braggi.is/bruargrindin-dregin-yfir-olfusa/",
+      "keywords_matched": [
+        "mannvirki"
+      ],
+      "evidence_type": "secondary_report",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-20",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
       "intelligence_type": "public_record"
     },
     {
@@ -1358,6 +2056,37 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-19",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "uua:UUA2611002",
+      "lane": "uua",
+      "source": "uua-ruling-archive",
+      "title": "UUA2611002 Hólmatún",
+      "entity": "Úrskurðarnefnd umhverfis- og auðlindamála",
+      "case_number": "UUA2611002",
+      "status": "ruling",
+      "date": "2026-11-18",
+      "date_kind": "source_publication",
+      "summary": "Árið 2026, miðvikudaginn 18. nóvember, tók Unnþór Jónsson, varaformaður úrskurðarnefndar umhverfis- og auðlindamála, fyrir: Mál nr. UUA2611002, kæra á ákvörðun bæjarráðs Garðabæjar frá 10. janúar 2023 um að samþykkja útgáfu...",
+      "url": "https://uua.is/urleits/uua6611002-holmatun/",
+      "keywords_matched": [
+        "byggingarleyfi",
+        "skipulag"
+      ],
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-18",
         "assessed_on": "2026-11-23",
         "new_milestone_verified": false,
         "newsletter_ready": false,
@@ -1893,90 +2622,6 @@
       "intelligence_type": "public_record"
     },
     {
-      "id": "kaerunefnd:9/2003",
-      "lane": "kaerunefnd",
-      "title": "2003 06 03 Mál nr. 9 2003. Úrskurður kærunefndar útboðsmála",
-      "entity": "Kærunefnd útboðsmála",
-      "board": "Kærunefnd útboðsmála",
-      "case_number": "9/2003",
-      "keywords_matched": [
-        "útboð"
-      ],
-      "status": "ruling",
-      "date": "2026-11-17",
-      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2003-06-03-Mal-nr.-9-2003.-Urskurdur-kaerunefndar-utbodsmala-",
-      "sector_tags": [],
-      "sector_eligibility": {
-        "iceland_project_evidence": false,
-        "facility_relevance": false,
-        "project_eligible": false,
-        "eligibility_reason": "no_material_sector_evidence",
-        "current_dated_signal": false,
-        "source_date": "2026-11-17",
-        "assessed_on": "2026-11-23",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      },
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "kaerunefnd:17/2003",
-      "lane": "kaerunefnd",
-      "title": "2003 06 04 Mál nr. 17 2003. Ákvörðun kærunefndar útboðsmála",
-      "entity": "Kærunefnd útboðsmála",
-      "board": "Kærunefnd útboðsmála",
-      "case_number": "17/2003",
-      "keywords_matched": [
-        "útboð"
-      ],
-      "status": "ruling",
-      "date": "2026-11-17",
-      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2003-06-04-Mal-nr.-17-2003.-Akvordun-kaerunefndar-utbodsmala-",
-      "sector_tags": [],
-      "sector_eligibility": {
-        "iceland_project_evidence": false,
-        "facility_relevance": false,
-        "project_eligible": false,
-        "eligibility_reason": "no_material_sector_evidence",
-        "current_dated_signal": false,
-        "source_date": "2026-11-17",
-        "assessed_on": "2026-11-23",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      },
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "kaerunefnd:13/2003",
-      "lane": "kaerunefnd",
-      "title": "2003 06 03 Mál nr. 13 2003. Úrskurður kærunefndar útboðsmála",
-      "entity": "Kærunefnd útboðsmála",
-      "board": "Kærunefnd útboðsmála",
-      "case_number": "13/2003",
-      "keywords_matched": [
-        "útboð"
-      ],
-      "status": "ruling",
-      "date": "2026-11-17",
-      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2003-06-03-Mal-nr.-13-2003.-Urskurdur-kaerunefndar-utbodsmala-",
-      "sector_tags": [],
-      "sector_eligibility": {
-        "iceland_project_evidence": false,
-        "facility_relevance": false,
-        "project_eligible": false,
-        "eligibility_reason": "no_material_sector_evidence",
-        "current_dated_signal": false,
-        "source_date": "2026-11-17",
-        "assessed_on": "2026-11-23",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      },
-      "intelligence_type": "public_record"
-    },
-    {
       "id": "heradsdomur:E-719/2025",
       "lane": "court",
       "title": "Stefnendur: Félag íslenskra atvinnuflugm (Bjarki Már Baxter lögmaður) Stefndu: Mýflug hf. (Ólafur Hvanndal Ólafsson lögmaður)",
@@ -1998,6 +2643,67 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-17",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "uua:UUA2610006",
+      "lane": "uua",
+      "source": "uua-ruling-archive",
+      "title": "UUA2610006 Dvergaholt",
+      "entity": "Úrskurðarnefnd umhverfis- og auðlindamála",
+      "case_number": "UUA2610006",
+      "status": "ruling",
+      "date": "2026-11-16",
+      "date_kind": "source_publication",
+      "summary": "Árið 2026, mánudaginn 16. nóvember, kom úrskurðarnefnd umhverfis- og auðlindamála saman til fundar í húsnæði nefndarinnar að Borgartúni 21, Reykjavík. Mættir voru Unnþór Jónsson varaformaður og Geir Oddsson auðlinda­fræðingur. Aðalheiður...",
+      "url": "https://uua.is/urleits/uua2610006-dvergaholt/",
+      "keywords_matched": [
+        "skipulag"
+      ],
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-16",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "uua:UUA2607002",
+      "lane": "uua",
+      "source": "uua-ruling-archive",
+      "title": "UUA2607002 Tóftir i Höfnum",
+      "entity": "Úrskurðarnefnd umhverfis- og auðlindamála",
+      "case_number": "UUA2607002",
+      "status": "ruling",
+      "date": "2026-11-16",
+      "date_kind": "source_publication",
+      "summary": "Árið 2026, mánudaginn 16. nóvember, kom úrskurðarnefnd umhverfis- og auðlindamála saman til fundar í húsnæði nefndarinnar að Borgartúni 21, Reykjavík. Mættir voru Unnþór Jónsson varaformaður og Geir Oddsson auðlinda­fræðingur. Aðalheiður...",
+      "url": "https://uua.is/urleits/uua2607002-toftir-i-hofnum/",
+      "keywords_matched": [
+        "byggingarleyfi",
+        "skipulag"
+      ],
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-16",
         "assessed_on": "2026-11-23",
         "new_milestone_verified": false,
         "newsletter_ready": false,
@@ -2033,6 +2739,36 @@
       "intelligence_type": "public_record"
     },
     {
+      "id": "uua:UUA2610002",
+      "lane": "uua",
+      "source": "uua-ruling-archive",
+      "title": "UUA2610002 Suðurlandsvegur",
+      "entity": "Úrskurðarnefnd umhverfis- og auðlindamála",
+      "case_number": "UUA2610002",
+      "status": "ruling",
+      "date": "2026-11-14",
+      "date_kind": "source_publication",
+      "summary": "Árið 2026, þriðjudaginn 10. nóvember, tók Unnþór Jónsson, varaformaður úrskurðarnefndar umhverfis- og auðlindamála, fyrir: Mál nr. UUA2610002, kæra á ákvörðun borgarráðs Reykjavíkur frá 19. mars 2026 um að samþykkja tillögu...",
+      "url": "https://uua.is/urleits/uua2610002-sudurlandsvegur/",
+      "keywords_matched": [
+        "skipulag"
+      ],
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-14",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
       "id": "skgatt:1313/2026",
       "lane": "planning",
       "title": "Hólmsheiði, athafnasvæði - Áfangi 2 - Reitur B - USK26100042",
@@ -2044,6 +2780,390 @@
       "review_deadline": "2026-12-11",
       "summary": "Um er að ræða breytingu á deiliskipulagi athafnasvæðis á Hólmsheiði, áfanga 2, vegna reits B. Í breytingunni felst breyting á byggingarreit á tveimur stöðum og gróðurbelti við suðaustur lóðarmörk.",
       "url": "https://skipulagsgatt.is/issues/5668",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-13",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "kaerunefnd:7/2026",
+      "lane": "kaerunefnd",
+      "title": "2026 11 13 mal nr 7 2026 urskurdur kaerunefndar utbodsmala",
+      "entity": "Kærunefnd útboðsmála",
+      "board": "Kærunefnd útboðsmála",
+      "case_number": "7/2026",
+      "keywords_matched": [
+        "útboð"
+      ],
+      "status": "ruling",
+      "date": "2026-11-13",
+      "published_at": "2026-11-13",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-11-13",
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-11-13-mal-nr-7-2026-urskurdur-kaerunefndar-utbodsmala",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-13",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "kaerunefnd:5/2026",
+      "lane": "kaerunefnd",
+      "title": "2026 11 13 mal nr 5 2026 urskurdur kaerunefndar utbodsmala",
+      "entity": "Kærunefnd útboðsmála",
+      "board": "Kærunefnd útboðsmála",
+      "case_number": "5/2026",
+      "keywords_matched": [
+        "útboð"
+      ],
+      "status": "ruling",
+      "date": "2026-11-13",
+      "published_at": "2026-11-13",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-11-13",
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-11-13-mal-nr-5-2026-urskurdur-kaerunefndar-utbodsmala",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-13",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "kaerunefnd:49/2026",
+      "lane": "kaerunefnd",
+      "title": "2026 11 13 mal nr 49 2026 urskurdur kaerunefndar utbodsmala",
+      "entity": "Kærunefnd útboðsmála",
+      "board": "Kærunefnd útboðsmála",
+      "case_number": "49/2026",
+      "keywords_matched": [
+        "útboð"
+      ],
+      "status": "ruling",
+      "date": "2026-11-13",
+      "published_at": "2026-11-13",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-11-13",
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-11-13-mal-nr-49-2026-urskurdur-kaerunefndar-utbodsmala",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-13",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "kaerunefnd:47/2025",
+      "lane": "kaerunefnd",
+      "title": "2026 11 13 mal nr 47 2025 urskurdur kaerunefndar utbodsmala",
+      "entity": "Kærunefnd útboðsmála",
+      "board": "Kærunefnd útboðsmála",
+      "case_number": "47/2025",
+      "keywords_matched": [
+        "útboð"
+      ],
+      "status": "ruling",
+      "date": "2026-11-13",
+      "published_at": "2026-11-13",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-11-13",
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-11-13-mal-nr-47-2025-urskurdur-kaerunefndar-utbodsmala",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-13",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "kaerunefnd:46/2026",
+      "lane": "kaerunefnd",
+      "title": "2026 11 13 mal nr 46 2026 akvordun kaerunefndar utbodsmala",
+      "entity": "Kærunefnd útboðsmála",
+      "board": "Kærunefnd útboðsmála",
+      "case_number": "46/2026",
+      "keywords_matched": [
+        "útboð"
+      ],
+      "status": "ruling",
+      "date": "2026-11-13",
+      "published_at": "2026-11-13",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-11-13",
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-11-13-mal-nr-46-2026-akvordun-kaerunefndar-utbodsmala",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-13",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "kaerunefnd:43/2026",
+      "lane": "kaerunefnd",
+      "title": "2026 11 13 mal nr 43 2026 urskurdur kaerunefndar utbodsmala",
+      "entity": "Kærunefnd útboðsmála",
+      "board": "Kærunefnd útboðsmála",
+      "case_number": "43/2026",
+      "keywords_matched": [
+        "útboð"
+      ],
+      "status": "ruling",
+      "date": "2026-11-13",
+      "published_at": "2026-11-13",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-11-13",
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-11-13-mal-nr-43-2026-urskurdur-kaerunefndar-utbodsmala",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-13",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "kaerunefnd:42/2026",
+      "lane": "kaerunefnd",
+      "title": "2026 11 13 mal nr 42 2026 akvordun kaerunefndar utbodsmala adgangur ad gognum",
+      "entity": "Kærunefnd útboðsmála",
+      "board": "Kærunefnd útboðsmála",
+      "case_number": "42/2026",
+      "keywords_matched": [
+        "útboð"
+      ],
+      "status": "ruling",
+      "date": "2026-11-13",
+      "published_at": "2026-11-13",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-11-13",
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-11-13-mal-nr-42-2026-akvordun-kaerunefndar-utbodsmala-adgangur-ad-gognum",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-13",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "kaerunefnd:35/2026",
+      "lane": "kaerunefnd",
+      "title": "2026 11 13 mal nr 35 2026 urskurdur kaerunefndar utbodsmala",
+      "entity": "Kærunefnd útboðsmála",
+      "board": "Kærunefnd útboðsmála",
+      "case_number": "35/2026",
+      "keywords_matched": [
+        "útboð"
+      ],
+      "status": "ruling",
+      "date": "2026-11-13",
+      "published_at": "2026-11-13",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-11-13",
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-11-13-mal-nr-35-2026-urskurdur-kaerunefndar-utbodsmala",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-13",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "kaerunefnd:32/2026",
+      "lane": "kaerunefnd",
+      "title": "2026 11 13 mal nr 32 2026 urskurdur kaerunefndar utbodsmala",
+      "entity": "Kærunefnd útboðsmála",
+      "board": "Kærunefnd útboðsmála",
+      "case_number": "32/2026",
+      "keywords_matched": [
+        "útboð"
+      ],
+      "status": "ruling",
+      "date": "2026-11-13",
+      "published_at": "2026-11-13",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-11-13",
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-11-13-mal-nr-32-2026-urskurdur-kaerunefndar-utbodsmala",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-13",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "kaerunefnd:3/2026",
+      "lane": "kaerunefnd",
+      "title": "2026 11 13 mal nr 3 2026 urskurdur kaerunefndar utbodsmala",
+      "entity": "Kærunefnd útboðsmála",
+      "board": "Kærunefnd útboðsmála",
+      "case_number": "3/2026",
+      "keywords_matched": [
+        "útboð"
+      ],
+      "status": "ruling",
+      "date": "2026-11-13",
+      "published_at": "2026-11-13",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-11-13",
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-11-13-mal-nr-3-2026-urskurdur-kaerunefndar-utbodsmala",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-13",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "kaerunefnd:17/2026",
+      "lane": "kaerunefnd",
+      "title": "2026 11 13 mal nr 17 2026 urskurdur kaerunefndar utbodsmala",
+      "entity": "Kærunefnd útboðsmála",
+      "board": "Kærunefnd útboðsmála",
+      "case_number": "17/2026",
+      "keywords_matched": [
+        "útboð"
+      ],
+      "status": "ruling",
+      "date": "2026-11-13",
+      "published_at": "2026-11-13",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-11-13",
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-11-13-mal-nr-17-2026-urskurdur-kaerunefndar-utbodsmala",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-13",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "kaerunefnd:12/2026",
+      "lane": "kaerunefnd",
+      "title": "2026 11 13 mal nr 12 2026 urskurdur kaerunefndar utbodsmala",
+      "entity": "Kærunefnd útboðsmála",
+      "board": "Kærunefnd útboðsmála",
+      "case_number": "12/2026",
+      "keywords_matched": [
+        "útboð"
+      ],
+      "status": "ruling",
+      "date": "2026-11-13",
+      "published_at": "2026-11-13",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-11-13",
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-11-13-mal-nr-12-2026-urskurdur-kaerunefndar-utbodsmala",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -2527,6 +3647,99 @@
       "intelligence_type": "public_record"
     },
     {
+      "id": "uua:UUA2610024",
+      "lane": "uua",
+      "source": "uua-ruling-archive",
+      "title": "UUA2610024 Lækjarás",
+      "entity": "Úrskurðarnefnd umhverfis- og auðlindamála",
+      "case_number": "UUA2610024",
+      "status": "ruling",
+      "date": "2026-11-09",
+      "date_kind": "source_publication",
+      "summary": "Árið 2026, mánudaginn 9. nóvember, tók Unnþór Jónsson, varaformaður úrskurðarnefndar umhverfis- og auðlindamála, fyrir: Mál nr. UUA2610024, kæra á ákvörðun byggingarfulltrúans í Reykjavík frá 22. september 2026 um að samþykkja...",
+      "url": "https://uua.is/urleits/uua2610024-laekjaras/",
+      "keywords_matched": [
+        "skipulag"
+      ],
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-09",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "uua:UUA2607021",
+      "lane": "uua",
+      "source": "uua-ruling-archive",
+      "title": "UUA2607021 Snekkjuvogur",
+      "entity": "Úrskurðarnefnd umhverfis- og auðlindamála",
+      "case_number": "UUA2607021",
+      "status": "ruling",
+      "date": "2026-11-06",
+      "date_kind": "source_publication",
+      "summary": "Árið 2026, föstudaginn 6. nóvember, kom úrskurðarnefnd umhverfis- og auðlindamála saman til fundar í húsnæði nefndarinnar að Borgartúni 21, Reykjavík. Mætt voru Arnór Snæbjörnsson formaður, Halldóra Vífilsdóttir arkitekt og Þorsteinn...",
+      "url": "https://uua.is/urleits/uua2607021-snekkjuvogur/",
+      "keywords_matched": [
+        "byggingarleyfi",
+        "skipulag"
+      ],
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-06",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "uua:UUA2607001",
+      "lane": "uua",
+      "source": "uua-ruling-archive",
+      "title": "UUA2607001 Leirvogstunga",
+      "entity": "Úrskurðarnefnd umhverfis- og auðlindamála",
+      "case_number": "UUA2607001",
+      "status": "ruling",
+      "date": "2026-11-06",
+      "date_kind": "source_publication",
+      "summary": "Árið 2026, föstudaginn 6. nóvember, kom úrskurðarnefnd umhverfis- og auðlindamála saman til fundar í húsnæði nefndarinnar að Borgartúni 21, Reykjavík. Mætt voru Arnór Snæbjörnsson formaður, Halldóra Vífilsdóttir arkitekt og Þorsteinn...",
+      "url": "https://uua.is/urleits/uua2607001-leirvogstunga/",
+      "keywords_matched": [
+        "framkvæmdaleyfi",
+        "byggingarleyfi",
+        "skipulag"
+      ],
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-06",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
       "id": "skgatt:1289/2026",
       "lane": "planning",
       "title": "Maríulundur L218709; Stækkun byggingarreits; Deiliskipulagsbreyting - 2608031",
@@ -2684,6 +3897,127 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-05",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "uua:UUA2609013",
+      "lane": "uua",
+      "source": "uua-ruling-archive",
+      "title": "UUA2609013 Litli-Hvammur",
+      "entity": "Úrskurðarnefnd umhverfis- og auðlindamála",
+      "case_number": "UUA2609013",
+      "status": "ruling",
+      "date": "2026-11-04",
+      "date_kind": "source_publication",
+      "summary": "Árið 2026, miðvikudaginn 4. nóvember, kom úrskurðarnefnd umhverfis- og auðlindamála saman til fundar í húsnæði nefndarinnar að Borgartúni 21, Reykjavík. Mætt voru Unnþór Jónsson varaformaður, Aðalheiður Jóhannsdóttir prófessor og Karólína...",
+      "url": "https://uua.is/urleits/uua2609013-litli-hvammur/",
+      "keywords_matched": [
+        "skipulag"
+      ],
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-04",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "uua:UUA2609003",
+      "lane": "uua",
+      "source": "uua-ruling-archive",
+      "title": "UUA2609003 Tjarnarbíó",
+      "entity": "Úrskurðarnefnd umhverfis- og auðlindamála",
+      "case_number": "UUA2609003",
+      "status": "ruling",
+      "date": "2026-11-04",
+      "date_kind": "source_publication",
+      "summary": "Árið 2026, miðvikudaginn 4. nóvember, kom úrskurðarnefnd umhverfis- og auðlindamála saman til fundar í húsnæði nefndarinnar að Borgartúni 21, Reykjavík. Mætt voru Unnþór Jónsson varaformaður, Aðalheiður Jóhannsdóttir prófessor og Karólína...",
+      "url": "https://uua.is/urleits/uua2609003-tjarnarbio/",
+      "keywords_matched": [
+        "skipulag"
+      ],
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-04",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "uua:UUA2608012",
+      "lane": "uua",
+      "source": "uua-ruling-archive",
+      "title": "UUA2608012 Þvingunarúrræði",
+      "entity": "Úrskurðarnefnd umhverfis- og auðlindamála",
+      "case_number": "UUA2608012",
+      "status": "ruling",
+      "date": "2026-11-04",
+      "date_kind": "source_publication",
+      "summary": "Árið 2026, miðvikudaginn 4. nóvember, kom úrskurðarnefnd umhverfis- og auðlindamála saman til fundar í húsnæði nefndarinnar að Borgartúni 21, Reykjavík. Mætt voru Unnþór Jónsson varaformaður, Aðalheiður Jóhannsdóttir prófessor og Karólína...",
+      "url": "https://uua.is/urleits/uua2608012-thvingunarurraedi/",
+      "keywords_matched": [
+        "byggingarleyfi",
+        "skipulag"
+      ],
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-04",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "uua:UUA2607017",
+      "lane": "uua",
+      "source": "uua-ruling-archive",
+      "title": "UUA2607017 Hringbraut",
+      "entity": "Úrskurðarnefnd umhverfis- og auðlindamála",
+      "case_number": "UUA2607017",
+      "status": "ruling",
+      "date": "2026-11-04",
+      "date_kind": "source_publication",
+      "summary": "Árið 2026, miðvikudaginn 4. nóvember, kom úrskurðarnefnd umhverfis- og auðlindamála saman til fundar í húsnæði nefndarinnar að Borgartúni 21, Reykjavík. Mætt voru Unnþór Jónsson varaformaður, Aðalheiður Jóhannsdóttir prófessor og Karólína...",
+      "url": "https://uua.is/urleits/uua2607017-hringbraut/",
+      "keywords_matched": [
+        "skipulag"
+      ],
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-04",
         "assessed_on": "2026-11-23",
         "new_milestone_verified": false,
         "newsletter_ready": false,
@@ -2940,6 +4274,390 @@
       "intelligence_type": "public_record"
     },
     {
+      "id": "kaerunefnd:8/2026",
+      "lane": "kaerunefnd",
+      "title": "2026 11 03 mal nr 8 2026 urskurdur kaerunefndar utbodsmala",
+      "entity": "Kærunefnd útboðsmála",
+      "board": "Kærunefnd útboðsmála",
+      "case_number": "8/2026",
+      "keywords_matched": [
+        "útboð"
+      ],
+      "status": "ruling",
+      "date": "2026-11-03",
+      "published_at": "2026-11-03",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-11-11",
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-11-03-mal-nr-8-2026-urskurdur-kaerunefndar-utbodsmala",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-03",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "kaerunefnd:60/2025",
+      "lane": "kaerunefnd",
+      "title": "2026 11 03 mal nr 60 2025 urskurdur kaerunefndar utbodsmala",
+      "entity": "Kærunefnd útboðsmála",
+      "board": "Kærunefnd útboðsmála",
+      "case_number": "60/2025",
+      "keywords_matched": [
+        "útboð"
+      ],
+      "status": "ruling",
+      "date": "2026-11-03",
+      "published_at": "2026-11-03",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-11-11",
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-11-03-mal-nr-60-2025-urskurdur-kaerunefndar-utbodsmala",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-03",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "kaerunefnd:53/2025",
+      "lane": "kaerunefnd",
+      "title": "2026 11 03 mal nr 53 2025 urskurdur kaerunefndar utbodsmala",
+      "entity": "Kærunefnd útboðsmála",
+      "board": "Kærunefnd útboðsmála",
+      "case_number": "53/2025",
+      "keywords_matched": [
+        "útboð"
+      ],
+      "status": "ruling",
+      "date": "2026-11-03",
+      "published_at": "2026-11-03",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-11-11",
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-11-03-mal-nr-53-2025-urskurdur-kaerunefndar-utbodsmala",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-03",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "kaerunefnd:42/2025",
+      "lane": "kaerunefnd",
+      "title": "2026 11 03 mal nr 42 2025 urskurdur kaerunefndar utbodsmala",
+      "entity": "Kærunefnd útboðsmála",
+      "board": "Kærunefnd útboðsmála",
+      "case_number": "42/2025",
+      "keywords_matched": [
+        "útboð"
+      ],
+      "status": "ruling",
+      "date": "2026-11-03",
+      "published_at": "2026-11-03",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-11-11",
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-11-03-mal-nr-42-2025-urskurdur-kaerunefndar-utbodsmala",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-03",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "kaerunefnd:40/2026",
+      "lane": "kaerunefnd",
+      "title": "2026 11 03 mal nr 40 2026 akvordun kaerunefndar utbodsmala",
+      "entity": "Kærunefnd útboðsmála",
+      "board": "Kærunefnd útboðsmála",
+      "case_number": "40/2026",
+      "keywords_matched": [
+        "útboð"
+      ],
+      "status": "ruling",
+      "date": "2026-11-03",
+      "published_at": "2026-11-03",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-11-11",
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-11-03-mal-nr-40-2026-akvordun-kaerunefndar-utbodsmala",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-03",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "kaerunefnd:4/2026",
+      "lane": "kaerunefnd",
+      "title": "2026 11 03 mal nr 4 2026 urskurdur kaerunefndar utbodsmala",
+      "entity": "Kærunefnd útboðsmála",
+      "board": "Kærunefnd útboðsmála",
+      "case_number": "4/2026",
+      "keywords_matched": [
+        "útboð"
+      ],
+      "status": "ruling",
+      "date": "2026-11-03",
+      "published_at": "2026-11-03",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-11-11",
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-11-03-mal-nr-4-2026-urskurdur-kaerunefndar-utbodsmala",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-03",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "kaerunefnd:39/2026",
+      "lane": "kaerunefnd",
+      "title": "2026 11 03 mal nr 39 2026 akvordun kaerunefndar utbodsmala",
+      "entity": "Kærunefnd útboðsmála",
+      "board": "Kærunefnd útboðsmála",
+      "case_number": "39/2026",
+      "keywords_matched": [
+        "útboð"
+      ],
+      "status": "ruling",
+      "date": "2026-11-03",
+      "published_at": "2026-11-03",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-11-11",
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-11-03-mal-nr-39-2026-akvordun-kaerunefndar-utbodsmala",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-03",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "kaerunefnd:33/2025",
+      "lane": "kaerunefnd",
+      "title": "2026 11 03 mal nr 33 2025 urskurdur kaerunefndar utbodsmala",
+      "entity": "Kærunefnd útboðsmála",
+      "board": "Kærunefnd útboðsmála",
+      "case_number": "33/2025",
+      "keywords_matched": [
+        "útboð"
+      ],
+      "status": "ruling",
+      "date": "2026-11-03",
+      "published_at": "2026-11-03",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-11-11",
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-11-03-mal-nr-33-2025-urskurdur-kaerunefndar-utbodsmala",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-03",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "kaerunefnd:31/2026",
+      "lane": "kaerunefnd",
+      "title": "2026 11 03 mal nr 31 2026 urskurdur kaerunefndar utbodsmala",
+      "entity": "Kærunefnd útboðsmála",
+      "board": "Kærunefnd útboðsmála",
+      "case_number": "31/2026",
+      "keywords_matched": [
+        "útboð"
+      ],
+      "status": "ruling",
+      "date": "2026-11-03",
+      "published_at": "2026-11-03",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-11-11",
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-11-03-mal-nr-31-2026-urskurdur-kaerunefndar-utbodsmala",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-03",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "kaerunefnd:28/2026",
+      "lane": "kaerunefnd",
+      "title": "2026 11 03 mal nr 28 2026 urskurdur kaerunefndar utbodsmala",
+      "entity": "Kærunefnd útboðsmála",
+      "board": "Kærunefnd útboðsmála",
+      "case_number": "28/2026",
+      "keywords_matched": [
+        "útboð"
+      ],
+      "status": "ruling",
+      "date": "2026-11-03",
+      "published_at": "2026-11-03",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-11-11",
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-11-03-mal-nr-28-2026-urskurdur-kaerunefndar-utbodsmala",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-03",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "kaerunefnd:26/2026",
+      "lane": "kaerunefnd",
+      "title": "2026 11 03 mal nr 26 2026 urskurdur kaerunefndar utbodsmala",
+      "entity": "Kærunefnd útboðsmála",
+      "board": "Kærunefnd útboðsmála",
+      "case_number": "26/2026",
+      "keywords_matched": [
+        "útboð"
+      ],
+      "status": "ruling",
+      "date": "2026-11-03",
+      "published_at": "2026-11-03",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-11-11",
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-11-03-mal-nr-26-2026-urskurdur-kaerunefndar-utbodsmala",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-03",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "kaerunefnd:24/2026",
+      "lane": "kaerunefnd",
+      "title": "2026 11 03 mal nr 24 2026 urskurdur kaerunefndar utbodsmala",
+      "entity": "Kærunefnd útboðsmála",
+      "board": "Kærunefnd útboðsmála",
+      "case_number": "24/2026",
+      "keywords_matched": [
+        "útboð"
+      ],
+      "status": "ruling",
+      "date": "2026-11-03",
+      "published_at": "2026-11-03",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-11-11",
+      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-11-03-mal-nr-24-2026-urskurdur-kaerunefndar-utbodsmala",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-03",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
       "id": "skgatt:1243/2026",
       "lane": "planning",
       "title": "Deiliskipulagsbreyting Íbúðarhverfi í Norðurbæ Hafnarfjarðar vegna ofanvatnslausnar milli Suðurvangs og Reykjavíkurvegar",
@@ -2959,6 +4677,67 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-02",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "uua:UUA2610016",
+      "lane": "uua",
+      "source": "uua-ruling-archive",
+      "title": "UUA2610016 Sjókvíaeldi í Seyðisfirði",
+      "entity": "Úrskurðarnefnd umhverfis- og auðlindamála",
+      "case_number": "UUA2610016",
+      "status": "ruling",
+      "date": "2026-10-30",
+      "date_kind": "source_publication",
+      "summary": "Árið 2026, föstudaginn 30. október, kom úrskurðarnefnd umhverfis- og auðlindamála saman til fundar í húsnæði nefndarinnar að Borgartúni 21, Reykjavík. Mætt voru Arnór Snæbjörnsson formaður, Aðalheiður Jóhannsdóttir prófessor, Geir Oddsson...",
+      "url": "https://uua.is/urleits/uua2610016-sjokviaeldi-i-seydisfirdi/",
+      "keywords_matched": [
+        "skipulag"
+      ],
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "offshore_only",
+        "current_dated_signal": false,
+        "source_date": "2026-10-30",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "uua:UUA2610014",
+      "lane": "uua",
+      "source": "uua-ruling-archive",
+      "title": "UUA2610014 Sjókvíaeldi í Seyðisfirði",
+      "entity": "Úrskurðarnefnd umhverfis- og auðlindamála",
+      "case_number": "UUA2610014",
+      "status": "ruling",
+      "date": "2026-10-30",
+      "date_kind": "source_publication",
+      "summary": "Árið 2026, föstudaginn 30. október, kom úrskurðarnefnd umhverfis- og auðlindamála saman til fundar í húsnæði nefndarinnar að Borgartúni 21, Reykjavík. Mætt voru Arnór Snæbjörnsson formaður, Aðalheiður Jóhannsdóttir prófessor, Geir Oddsson...",
+      "url": "https://uua.is/urleits/uua2610014-sjokviaeldi-i-seydisfirdi/",
+      "keywords_matched": [
+        "byggingarleyfi",
+        "skipulag"
+      ],
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "offshore_only",
+        "current_dated_signal": false,
+        "source_date": "2026-10-30",
         "assessed_on": "2026-11-23",
         "new_milestone_verified": false,
         "newsletter_ready": false,
@@ -3078,6 +4857,36 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-30",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "uua:UUA2606013",
+      "lane": "uua",
+      "source": "uua-ruling-archive",
+      "title": "UUA2606013 Tjaldsvæði á Egilsstöðum",
+      "entity": "Úrskurðarnefnd umhverfis- og auðlindamála",
+      "case_number": "UUA2606013",
+      "status": "ruling",
+      "date": "2026-10-29",
+      "date_kind": "source_publication",
+      "summary": "Árið 2026, fimmtudaginn 29. október, kom úrskurðarnefnd umhverfis- og auðlindamála saman til fundar í húsnæði nefndarinnar að Borgartúni 21, Reykjavík. Mætt voru Arnór Snæbjörnsson formaður, Aðalheiður Jóhannsdóttir prófessor og Geir...",
+      "url": "https://uua.is/urleits/uua2606013-tjaldsvaedi-a-egilsstodum/",
+      "keywords_matched": [
+        "skipulag"
+      ],
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-29",
         "assessed_on": "2026-11-23",
         "new_milestone_verified": false,
         "newsletter_ready": false,
@@ -3320,6 +5129,68 @@
       "intelligence_type": "public_record"
     },
     {
+      "id": "uua:UUA2610005",
+      "lane": "uua",
+      "source": "uua-ruling-archive",
+      "title": "UUA2610005 Óðinsgata",
+      "entity": "Úrskurðarnefnd umhverfis- og auðlindamála",
+      "case_number": "UUA2610005",
+      "status": "ruling",
+      "date": "2026-10-27",
+      "date_kind": "source_publication",
+      "summary": "Árið 2026, þriðjudaginn 27. október, tók Arnór Snæbjörnsson, formaður úrskurðarnefndar umhverfis- og auðlindamála, með heimild í 3. mgr. 3. gr. laga nr. 130/2011, fyrir: Mál nr. UUA2610005, kæra á ákvörðun...",
+      "url": "https://uua.is/urleits/uua2610005-odinsgata/",
+      "keywords_matched": [
+        "byggingarleyfi",
+        "skipulag"
+      ],
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-27",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "uua:UUA2609011",
+      "lane": "uua",
+      "source": "uua-ruling-archive",
+      "title": "UUA2609011 Grundargata",
+      "entity": "Úrskurðarnefnd umhverfis- og auðlindamála",
+      "case_number": "UUA2609011",
+      "status": "ruling",
+      "date": "2026-10-27",
+      "date_kind": "source_publication",
+      "summary": "Árið 2026, þriðjudaginn 27. október, tók Arnór Snæbjörnsson, formaður úrskurðarnefndar umhverfis- og auðlindamála, með heimild í 3. mgr. 3. gr. laga nr. 130/2011, fyrir: Mál nr. UUA2609011, kæra á afgreiðslu...",
+      "url": "https://uua.is/urleits/uua2609011-grundargata/",
+      "keywords_matched": [
+        "byggingarleyfi",
+        "skipulag"
+      ],
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-27",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
       "id": "skgatt:1563/2025",
       "lane": "planning",
       "title": "Njarðvíkurhöfn norðursvæði- deiliskipulag",
@@ -3427,6 +5298,36 @@
       "intelligence_type": "public_record"
     },
     {
+      "id": "uua:UUA2610017",
+      "lane": "uua",
+      "source": "uua-ruling-archive",
+      "title": "UUA2610017 Fiskislóð",
+      "entity": "Úrskurðarnefnd umhverfis- og auðlindamála",
+      "case_number": "UUA2610017",
+      "status": "ruling",
+      "date": "2026-10-23",
+      "date_kind": "source_publication",
+      "summary": "Árið 2026, föstudaginn 23. október, tók Arnór Snæbjörnsson, formaður úrskurðarnefndar umhverfis- og auðlindamála, með heimild í 3. mgr. 3. gr. laga nr. 130/2011, fyrir: Mál nr. UUA2610017, kæra á ákvörðun...",
+      "url": "https://uua.is/urleits/uua2610017-fiskislod/",
+      "keywords_matched": [
+        "byggingarleyfi"
+      ],
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-23",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
       "id": "skgatt:1237/2026",
       "lane": "planning",
       "title": "Breyting á deiliskipulagi iðnaðarsvæðis Kapelluhrauns vegna Blýhellu 7 og 9",
@@ -3472,6 +5373,37 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-23",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "uua:UUA2609012",
+      "lane": "uua",
+      "source": "uua-ruling-archive",
+      "title": "UUA2609012 Grund",
+      "entity": "Úrskurðarnefnd umhverfis- og auðlindamála",
+      "case_number": "UUA2609012",
+      "status": "ruling",
+      "date": "2026-10-22",
+      "date_kind": "source_publication",
+      "summary": "Árið 2026, miðvikudaginn 21. október, tók Arnór Snæbjörnsson, formaður úrskurðarnefndar umhverfis- og auðlindamála, fyrir: Mál nr. UUA2609012, kæra á ákvörðun bæjarstjórnar Garðabæjar frá 3. september 2026 um að samþykkja umsókn...",
+      "url": "https://uua.is/urleits/uua2609012-grund/",
+      "keywords_matched": [
+        "byggingarleyfi",
+        "skipulag"
+      ],
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-22",
         "assessed_on": "2026-11-23",
         "new_milestone_verified": false,
         "newsletter_ready": false,
@@ -3582,6 +5514,68 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-22",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "uua:UUA2610020",
+      "lane": "uua",
+      "source": "uua-ruling-archive",
+      "title": "UUA2610020 Þjórsárkvísl",
+      "entity": "Úrskurðarnefnd umhverfis- og auðlindamála",
+      "case_number": "UUA2610020",
+      "status": "ruling",
+      "date": "2026-10-21",
+      "date_kind": "source_publication",
+      "summary": "Árið 2026, miðvikudaginn 21. október, kom úrskurðarnefnd umhverfis- og auðlindamála saman til fundar í húsnæði nefndarinnar að Borgartúni 21, Reykjavík. Mætt voru Arnór Snæbjörnsson formaður, Unnþór Jónsson varaformaður og Karólína...",
+      "url": "https://uua.is/urleits/uua2610020-thjorsarkvisl/",
+      "keywords_matched": [
+        "framkvæmdaleyfi",
+        "skipulag",
+        "virkjun"
+      ],
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-21",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "uua:UUA2608008",
+      "lane": "uua",
+      "source": "uua-ruling-archive",
+      "title": "UUA2608008 Sækot",
+      "entity": "Úrskurðarnefnd umhverfis- og auðlindamála",
+      "case_number": "UUA2608008",
+      "status": "ruling",
+      "date": "2026-10-21",
+      "date_kind": "source_publication",
+      "summary": "Árið 2026, miðvikudaginn 21. október, kom úrskurðarnefnd umhverfis- og auðlindamála saman til fundar í húsnæði nefndarinnar að Borgartúni 21, Reykjavík. Mætt voru Arnór Snæbjörnsson formaður, Unnþór Jónsson varaformaður og Karólína...",
+      "url": "https://uua.is/urleits/11329/",
+      "keywords_matched": [
+        "skipulag"
+      ],
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-21",
         "assessed_on": "2026-11-23",
         "new_milestone_verified": false,
         "newsletter_ready": false,
@@ -5312,7 +7306,7 @@
     {
       "id": "kaerunefnd:37/2026",
       "lane": "kaerunefnd",
-      "title": "2026 08 28 Mál nr. 37 2026. Ákvörðun kærunefndar útboðsmála",
+      "title": "2026 08 28 Mal nr. 37 2026. Akvordun kaerunefndar utbodsmala",
       "entity": "Kærunefnd útboðsmála",
       "board": "Kærunefnd útboðsmála",
       "case_number": "37/2026",
@@ -5321,6 +7315,10 @@
       ],
       "status": "ruling",
       "date": "2026-08-28",
+      "published_at": "2026-08-28",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-08-28",
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-08-28-Mal-nr.-37-2026.-Akvordun-kaerunefndar-utbodsmala",
       "sector_tags": [],
       "sector_eligibility": {
@@ -5340,7 +7338,7 @@
     {
       "id": "kaerunefnd:36/2026",
       "lane": "kaerunefnd",
-      "title": "2026 08 28 Mál nr. 36 2026. Ákvörðun kærunefndar útboðsmála",
+      "title": "2026 08 28 Mal nr. 36 2026. Akvordun kaerunefndar utbodsmala",
       "entity": "Kærunefnd útboðsmála",
       "board": "Kærunefnd útboðsmála",
       "case_number": "36/2026",
@@ -5349,35 +7347,11 @@
       ],
       "status": "ruling",
       "date": "2026-08-28",
+      "published_at": "2026-08-28",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-08-28",
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-08-28-Mal-nr.-36-2026.-Akvordun-kaerunefndar-utbodsmala",
-      "sector_tags": [],
-      "sector_eligibility": {
-        "iceland_project_evidence": false,
-        "facility_relevance": false,
-        "project_eligible": false,
-        "eligibility_reason": "no_material_sector_evidence",
-        "current_dated_signal": false,
-        "source_date": "2026-08-28",
-        "assessed_on": "2026-11-23",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      },
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "kaerunefnd:32/2026",
-      "lane": "kaerunefnd",
-      "title": "2026 08 28 Mál nr. 32 2026. Ákvörðun kærunefndar útboðsmála",
-      "entity": "Kærunefnd útboðsmála",
-      "board": "Kærunefnd útboðsmála",
-      "case_number": "32/2026",
-      "keywords_matched": [
-        "útboð"
-      ],
-      "status": "ruling",
-      "date": "2026-08-28",
-      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-08-28-Mal-nr.-32-2026.-Akvordun-kaerunefndar-utbodsmala",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -5475,37 +7449,9 @@
       "intelligence_type": "public_record"
     },
     {
-      "id": "kaerunefnd:53/2025",
-      "lane": "kaerunefnd",
-      "title": "2026 08 27 Mál nr. 53 2025. Ákvörðun kærunefndar útboðsmála endurupptaka",
-      "entity": "Kærunefnd útboðsmála",
-      "board": "Kærunefnd útboðsmála",
-      "case_number": "53/2025",
-      "keywords_matched": [
-        "útboð"
-      ],
-      "status": "ruling",
-      "date": "2026-08-27",
-      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-08-27-Mal-nr.-53-2025.-Akvordun-kaerunefndar-utbodsmala-endurupptaka",
-      "sector_tags": [],
-      "sector_eligibility": {
-        "iceland_project_evidence": false,
-        "facility_relevance": false,
-        "project_eligible": false,
-        "eligibility_reason": "no_material_sector_evidence",
-        "current_dated_signal": false,
-        "source_date": "2026-08-27",
-        "assessed_on": "2026-11-23",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      },
-      "intelligence_type": "public_record"
-    },
-    {
       "id": "kaerunefnd:36/2025",
       "lane": "kaerunefnd",
-      "title": "2026 08 27 Mál nr. 36 2025. Úrskurður kærunefndar útboðsmála",
+      "title": "2026 08 27 Mal nr. 36 2025. Urskurdur kaerunefndar utbodsmala",
       "entity": "Kærunefnd útboðsmála",
       "board": "Kærunefnd útboðsmála",
       "case_number": "36/2025",
@@ -5514,35 +7460,11 @@
       ],
       "status": "ruling",
       "date": "2026-08-27",
+      "published_at": "2026-08-27",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-08-27",
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-08-27-Mal-nr.-36-2025.-Urskurdur-kaerunefndar-utbodsmala",
-      "sector_tags": [],
-      "sector_eligibility": {
-        "iceland_project_evidence": false,
-        "facility_relevance": false,
-        "project_eligible": false,
-        "eligibility_reason": "no_material_sector_evidence",
-        "current_dated_signal": false,
-        "source_date": "2026-08-27",
-        "assessed_on": "2026-11-23",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      },
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "kaerunefnd:34/2026",
-      "lane": "kaerunefnd",
-      "title": "2026 08 27 Mál nr. 34 2026. Ákvörðun kærunefndar útboðsmála",
-      "entity": "Kærunefnd útboðsmála",
-      "board": "Kærunefnd útboðsmála",
-      "case_number": "34/2026",
-      "keywords_matched": [
-        "útboð"
-      ],
-      "status": "ruling",
-      "date": "2026-08-27",
-      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-08-27-Mal-nr.-34-2026.-Akvordun-kaerunefndar-utbodsmala",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -5561,7 +7483,7 @@
     {
       "id": "kaerunefnd:21/2026",
       "lane": "kaerunefnd",
-      "title": "2026 08 27 Mál nr. 21 2026. Úrskurður kærunefndar útboðsmála",
+      "title": "2026 08 27 Mal nr. 21 2026. Urskurdur kaerunefndar utbodsmala",
       "entity": "Kærunefnd útboðsmála",
       "board": "Kærunefnd útboðsmála",
       "case_number": "21/2026",
@@ -5570,6 +7492,10 @@
       ],
       "status": "ruling",
       "date": "2026-08-27",
+      "published_at": "2026-08-27",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-08-27",
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-08-27-Mal-nr.-21-2026.-Urskurdur-kaerunefndar-utbodsmala",
       "sector_tags": [],
       "sector_eligibility": {
@@ -5589,7 +7515,7 @@
     {
       "id": "kaerunefnd:10/2026",
       "lane": "kaerunefnd",
-      "title": "2026 08 27 Mál nr. 10 2026. Úrskurður kærunefndar útboðsmála",
+      "title": "2026 08 27 Mal nr. 10 2026. Urskurdur kaerunefndar utbodsmala",
       "entity": "Kærunefnd útboðsmála",
       "board": "Kærunefnd útboðsmála",
       "case_number": "10/2026",
@@ -5598,6 +7524,10 @@
       ],
       "status": "ruling",
       "date": "2026-08-27",
+      "published_at": "2026-08-27",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-08-27",
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-08-27-Mal-nr.-10-2026.-Urskurdur-kaerunefndar-utbodsmala",
       "sector_tags": [],
       "sector_eligibility": {
@@ -5940,7 +7870,7 @@
     {
       "id": "kaerunefnd:59/2025",
       "lane": "kaerunefnd",
-      "title": "2026 07 20 Mál nr. 59 2025. Úrskurður kærunefndar útboðsmála",
+      "title": "2026 07 20 Mal nr. 59 2025. Urskurdur kaerunefndar utbodsmala",
       "entity": "Kærunefnd útboðsmála",
       "board": "Kærunefnd útboðsmála",
       "case_number": "59/2025",
@@ -5949,6 +7879,10 @@
       ],
       "status": "ruling",
       "date": "2026-07-20",
+      "published_at": "2026-07-20",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-07-20",
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-07-20-Mal-nr.-59-2025.-Urskurdur-kaerunefndar-utbodsmala",
       "sector_tags": [],
       "sector_eligibility": {
@@ -5968,7 +7902,7 @@
     {
       "id": "kaerunefnd:58/2025",
       "lane": "kaerunefnd",
-      "title": "2026 07 20 Mál nr. 58 2025. Úrskurður kærunefndar útboðsmála",
+      "title": "2026 07 20 Mal nr. 58 2025. Urskurdur kaerunefndar utbodsmala",
       "entity": "Kærunefnd útboðsmála",
       "board": "Kærunefnd útboðsmála",
       "case_number": "58/2025",
@@ -5977,63 +7911,11 @@
       ],
       "status": "ruling",
       "date": "2026-07-20",
+      "published_at": "2026-07-20",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-07-20",
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-07-20-Mal-nr.-58-2025.-Urskurdur-kaerunefndar-utbodsmala",
-      "sector_tags": [],
-      "sector_eligibility": {
-        "iceland_project_evidence": false,
-        "facility_relevance": false,
-        "project_eligible": false,
-        "eligibility_reason": "no_material_sector_evidence",
-        "current_dated_signal": false,
-        "source_date": "2026-07-20",
-        "assessed_on": "2026-11-23",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      },
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "kaerunefnd:35/2026",
-      "lane": "kaerunefnd",
-      "title": "2026 07 20 Mál nr. 35 2026. Ákvörðun kærunefndar útboðsmála",
-      "entity": "Kærunefnd útboðsmála",
-      "board": "Kærunefnd útboðsmála",
-      "case_number": "35/2026",
-      "keywords_matched": [
-        "útboð"
-      ],
-      "status": "ruling",
-      "date": "2026-07-20",
-      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-07-20-Mal-nr.-35-2026.-Akvordun-kaerunefndar-utbodsmala",
-      "sector_tags": [],
-      "sector_eligibility": {
-        "iceland_project_evidence": false,
-        "facility_relevance": false,
-        "project_eligible": false,
-        "eligibility_reason": "no_material_sector_evidence",
-        "current_dated_signal": false,
-        "source_date": "2026-07-20",
-        "assessed_on": "2026-11-23",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      },
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "kaerunefnd:31/2026",
-      "lane": "kaerunefnd",
-      "title": "2026 07 20 Mál nr. 31 2026. Ákvörðun kærunefndar útboðsmála",
-      "entity": "Kærunefnd útboðsmála",
-      "board": "Kærunefnd útboðsmála",
-      "case_number": "31/2026",
-      "keywords_matched": [
-        "útboð"
-      ],
-      "status": "ruling",
-      "date": "2026-07-20",
-      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-07-20-Mal-nr.-31-2026.-Akvordun-kaerunefndar-utbodsmala",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -6052,7 +7934,7 @@
     {
       "id": "kaerunefnd:1/2026",
       "lane": "kaerunefnd",
-      "title": "2026 07 20 Mál nr. 1 2026. Úrskurður kærunefndar útboðsmála",
+      "title": "2026 07 20 Mal nr. 1 2026. Urskurdur kaerunefndar utbodsmala",
       "entity": "Kærunefnd útboðsmála",
       "board": "Kærunefnd útboðsmála",
       "case_number": "1/2026",
@@ -6061,6 +7943,10 @@
       ],
       "status": "ruling",
       "date": "2026-07-20",
+      "published_at": "2026-07-20",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-07-20",
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-07-20-Mal-nr.-1-2026.-Urskurdur-kaerunefndar-utbodsmala",
       "sector_tags": [],
       "sector_eligibility": {
@@ -6321,7 +8207,7 @@
     {
       "id": "kaerunefnd:65/2025",
       "lane": "kaerunefnd",
-      "title": "2026 07 09 Mál nr. 65 2025. Úrskurður kærunefndar útboðsmála",
+      "title": "2026 07 09 Mal nr. 65 2025. Urskurdur kaerunefndar utbodsmala",
       "entity": "Kærunefnd útboðsmála",
       "board": "Kærunefnd útboðsmála",
       "case_number": "65/2025",
@@ -6330,6 +8216,10 @@
       ],
       "status": "ruling",
       "date": "2026-07-09",
+      "published_at": "2026-07-09",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-07-09",
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-07-09-Mal-nr.-65-2025.-Urskurdur-kaerunefndar-utbodsmala",
       "sector_tags": [],
       "sector_eligibility": {
@@ -6349,7 +8239,7 @@
     {
       "id": "kaerunefnd:48/2025",
       "lane": "kaerunefnd",
-      "title": "2026 07 09 Mál nr. 48 2025. Úrskurður kærunefndar útboðsmála",
+      "title": "2026 07 09 Mal nr. 48 2025. Urskurdur kaerunefndar utbodsmala",
       "entity": "Kærunefnd útboðsmála",
       "board": "Kærunefnd útboðsmála",
       "case_number": "48/2025",
@@ -6358,6 +8248,10 @@
       ],
       "status": "ruling",
       "date": "2026-07-09",
+      "published_at": "2026-07-09",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-07-09",
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-07-09-Mal-nr.-48-2025.-Urskurdur-kaerunefndar-utbodsmala",
       "sector_tags": [],
       "sector_eligibility": {
@@ -6377,7 +8271,7 @@
     {
       "id": "kaerunefnd:30/2026",
       "lane": "kaerunefnd",
-      "title": "2026 07 09 Mál nr. 30 2026. Ákvörðun kærunefndar útboðsmála",
+      "title": "2026 07 09 Mal nr. 30 2026. Akvordun kaerunefndar utbodsmala",
       "entity": "Kærunefnd útboðsmála",
       "board": "Kærunefnd útboðsmála",
       "case_number": "30/2026",
@@ -6386,6 +8280,10 @@
       ],
       "status": "ruling",
       "date": "2026-07-09",
+      "published_at": "2026-07-09",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-07-09",
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-07-09-Mal-nr.-30-2026.-Akvordun-kaerunefndar-utbodsmala",
       "sector_tags": [],
       "sector_eligibility": {
@@ -6405,7 +8303,7 @@
     {
       "id": "kaerunefnd:29/2026",
       "lane": "kaerunefnd",
-      "title": "2026 07 09 Mál nr. 29 2026. Ákvörðun kærunefndar útboðsmála",
+      "title": "2026 07 09 Mal nr. 29 2026. Akvordun kaerunefndar utbodsmala",
       "entity": "Kærunefnd útboðsmála",
       "board": "Kærunefnd útboðsmála",
       "case_number": "29/2026",
@@ -6414,35 +8312,11 @@
       ],
       "status": "ruling",
       "date": "2026-07-09",
+      "published_at": "2026-07-09",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-07-09",
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-07-09-Mal-nr.-29-2026.-Akvordun-kaerunefndar-utbodsmala",
-      "sector_tags": [],
-      "sector_eligibility": {
-        "iceland_project_evidence": false,
-        "facility_relevance": false,
-        "project_eligible": false,
-        "eligibility_reason": "no_material_sector_evidence",
-        "current_dated_signal": false,
-        "source_date": "2026-07-09",
-        "assessed_on": "2026-11-23",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      },
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "kaerunefnd:26/2026",
-      "lane": "kaerunefnd",
-      "title": "2026 07 09 Mál nr. 26 2026. Ákvörðun kærunefndar útboðsmála",
-      "entity": "Kærunefnd útboðsmála",
-      "board": "Kærunefnd útboðsmála",
-      "case_number": "26/2026",
-      "keywords_matched": [
-        "útboð"
-      ],
-      "status": "ruling",
-      "date": "2026-07-09",
-      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-07-09-Mal-nr.-26-2026.-Akvordun-kaerunefndar-utbodsmala",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -6493,7 +8367,7 @@
     {
       "id": "kaerunefnd:46/2025",
       "lane": "kaerunefnd",
-      "title": "2026 07 08 Mál nr. 46 2025. Úrskurður kærunefndar útboðsmála",
+      "title": "2026 07 08 Mal nr. 46 2025. Urskurdur kaerunefndar utbodsmala",
       "entity": "Kærunefnd útboðsmála",
       "board": "Kærunefnd útboðsmála",
       "case_number": "46/2025",
@@ -6502,6 +8376,10 @@
       ],
       "status": "ruling",
       "date": "2026-07-08",
+      "published_at": "2026-07-08",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-07-08",
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-07-08-Mal-nr.-46-2025.-Urskurdur-kaerunefndar-utbodsmala",
       "sector_tags": [],
       "sector_eligibility": {
@@ -6521,7 +8399,7 @@
     {
       "id": "kaerunefnd:32/2025",
       "lane": "kaerunefnd",
-      "title": "2026 07 08 Mál nr. 32 2025. Úrskurður kærunefndar útboðsmála",
+      "title": "2026 07 08 Mal nr. 32 2025. Urskurdur kaerunefndar utbodsmala",
       "entity": "Kærunefnd útboðsmála",
       "board": "Kærunefnd útboðsmála",
       "case_number": "32/2025",
@@ -6530,35 +8408,11 @@
       ],
       "status": "ruling",
       "date": "2026-07-08",
+      "published_at": "2026-07-08",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-07-08",
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-07-08-Mal-nr.-32-2025.-Urskurdur-kaerunefndar-utbodsmala",
-      "sector_tags": [],
-      "sector_eligibility": {
-        "iceland_project_evidence": false,
-        "facility_relevance": false,
-        "project_eligible": false,
-        "eligibility_reason": "no_material_sector_evidence",
-        "current_dated_signal": false,
-        "source_date": "2026-07-08",
-        "assessed_on": "2026-11-23",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      },
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "kaerunefnd:28/2026",
-      "lane": "kaerunefnd",
-      "title": "2026 07 08 Mál nr. 28 2026. Ákvörðun kærunefndar útboðsmála",
-      "entity": "Kærunefnd útboðsmála",
-      "board": "Kærunefnd útboðsmála",
-      "case_number": "28/2026",
-      "keywords_matched": [
-        "útboð"
-      ],
-      "status": "ruling",
-      "date": "2026-07-08",
-      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-07-08-Mal-nr.-28-2026.-Akvordun-kaerunefndar-utbodsmala",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -6577,7 +8431,7 @@
     {
       "id": "kaerunefnd:27/2026",
       "lane": "kaerunefnd",
-      "title": "2026 07 08 Mál nr. 27 2026. Ákvörðun kærunefndar útboðsmála",
+      "title": "2026 07 08 Mal nr. 27 2026. Akvordun kaerunefndar utbodsmala",
       "entity": "Kærunefnd útboðsmála",
       "board": "Kærunefnd útboðsmála",
       "case_number": "27/2026",
@@ -6586,35 +8440,11 @@
       ],
       "status": "ruling",
       "date": "2026-07-08",
+      "published_at": "2026-07-08",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-07-08",
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-07-08-Mal-nr.-27-2026.-Akvordun-kaerunefndar-utbodsmala",
-      "sector_tags": [],
-      "sector_eligibility": {
-        "iceland_project_evidence": false,
-        "facility_relevance": false,
-        "project_eligible": false,
-        "eligibility_reason": "no_material_sector_evidence",
-        "current_dated_signal": false,
-        "source_date": "2026-07-08",
-        "assessed_on": "2026-11-23",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      },
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "kaerunefnd:24/2026",
-      "lane": "kaerunefnd",
-      "title": "2026 07 08 Mál nr. 24 2026. Ákvörðun kærunefndar útboðsmála",
-      "entity": "Kærunefnd útboðsmála",
-      "board": "Kærunefnd útboðsmála",
-      "case_number": "24/2026",
-      "keywords_matched": [
-        "útboð"
-      ],
-      "status": "ruling",
-      "date": "2026-07-08",
-      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-07-08-Mal-nr.-24-2026.-Akvordun-kaerunefndar-utbodsmala",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -6633,7 +8463,7 @@
     {
       "id": "kaerunefnd:23/2026",
       "lane": "kaerunefnd",
-      "title": "2026 07 08 Mál nr. 23 2026. Ákvörðun kærunefndar útboðsmála",
+      "title": "2026 07 08 Mal nr. 23 2026. Akvordun kaerunefndar utbodsmala",
       "entity": "Kærunefnd útboðsmála",
       "board": "Kærunefnd útboðsmála",
       "case_number": "23/2026",
@@ -6642,6 +8472,10 @@
       ],
       "status": "ruling",
       "date": "2026-07-08",
+      "published_at": "2026-07-08",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-07-08",
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-07-08-Mal-nr.-23-2026.-Akvordun-kaerunefndar-utbodsmala",
       "sector_tags": [],
       "sector_eligibility": {
@@ -6661,7 +8495,7 @@
     {
       "id": "kaerunefnd:22/2026",
       "lane": "kaerunefnd",
-      "title": "2026 07 08 Mál nr. 22 2026. Ákvörðun kærunefndar útboðsmála",
+      "title": "2026 07 08 Mal nr. 22 2026. Akvordun kaerunefndar utbodsmala",
       "entity": "Kærunefnd útboðsmála",
       "board": "Kærunefnd útboðsmála",
       "case_number": "22/2026",
@@ -6670,35 +8504,11 @@
       ],
       "status": "ruling",
       "date": "2026-07-08",
+      "published_at": "2026-07-08",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-07-08",
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-07-08-Mal-nr.-22-2026.-Akvordun-kaerunefndar-utbodsmala",
-      "sector_tags": [],
-      "sector_eligibility": {
-        "iceland_project_evidence": false,
-        "facility_relevance": false,
-        "project_eligible": false,
-        "eligibility_reason": "no_material_sector_evidence",
-        "current_dated_signal": false,
-        "source_date": "2026-07-08",
-        "assessed_on": "2026-11-23",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      },
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "kaerunefnd:19/2026",
-      "lane": "kaerunefnd",
-      "title": "2026 07 08 Mál nr. 19 2026. Ákvörðun kærunefndar útboðsmála",
-      "entity": "Kærunefnd útboðsmála",
-      "board": "Kærunefnd útboðsmála",
-      "case_number": "19/2026",
-      "keywords_matched": [
-        "útboð"
-      ],
-      "status": "ruling",
-      "date": "2026-07-08",
-      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-07-08-Mal-nr.-19-2026.-Akvordun-kaerunefndar-utbodsmala",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -6717,7 +8527,7 @@
     {
       "id": "kaerunefnd:11/2026",
       "lane": "kaerunefnd",
-      "title": "2026 07 08 Mál nr. 11 2026. Úrskurður kærunefndar útboðsmála",
+      "title": "2026 07 08 Mal nr. 11 2026. Urskurdur kaerunefndar utbodsmala",
       "entity": "Kærunefnd útboðsmála",
       "board": "Kærunefnd útboðsmála",
       "case_number": "11/2026",
@@ -6726,6 +8536,10 @@
       ],
       "status": "ruling",
       "date": "2026-07-08",
+      "published_at": "2026-07-08",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-07-08",
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-07-08-Mal-nr.-11-2026.-Urskurdur-kaerunefndar-utbodsmala",
       "sector_tags": [],
       "sector_eligibility": {
@@ -6772,7 +8586,7 @@
     {
       "id": "kaerunefnd:38/2025",
       "lane": "kaerunefnd",
-      "title": "2026 07 07 Mál nr. 38 2025. Úrskurður kærunefndar útboðsmála",
+      "title": "2026 07 07 Mal nr. 38 2025. Urskurdur kaerunefndar utbodsmala",
       "entity": "Kærunefnd útboðsmála",
       "board": "Kærunefnd útboðsmála",
       "case_number": "38/2025",
@@ -6781,63 +8595,11 @@
       ],
       "status": "ruling",
       "date": "2026-07-07",
+      "published_at": "2026-07-07",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-07-07",
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-07-07-Mal-nr.-38-2025.-Urskurdur-kaerunefndar-utbodsmala",
-      "sector_tags": [],
-      "sector_eligibility": {
-        "iceland_project_evidence": false,
-        "facility_relevance": false,
-        "project_eligible": false,
-        "eligibility_reason": "no_material_sector_evidence",
-        "current_dated_signal": false,
-        "source_date": "2026-07-07",
-        "assessed_on": "2026-11-23",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      },
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "kaerunefnd:33/2025",
-      "lane": "kaerunefnd",
-      "title": "2026 07 07 Mál nr. 33 2025. Ákvörðun kærunefndar útboðsmála adgangur ad gognum",
-      "entity": "Kærunefnd útboðsmála",
-      "board": "Kærunefnd útboðsmála",
-      "case_number": "33/2025",
-      "keywords_matched": [
-        "útboð"
-      ],
-      "status": "ruling",
-      "date": "2026-07-07",
-      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-07-07-Mal-nr.-33-2025.-Akvordun-kaerunefndar-utbodsmala-adgangur-ad-gognum",
-      "sector_tags": [],
-      "sector_eligibility": {
-        "iceland_project_evidence": false,
-        "facility_relevance": false,
-        "project_eligible": false,
-        "eligibility_reason": "no_material_sector_evidence",
-        "current_dated_signal": false,
-        "source_date": "2026-07-07",
-        "assessed_on": "2026-11-23",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      },
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "kaerunefnd:20/2026",
-      "lane": "kaerunefnd",
-      "title": "2026 07 07 Mál nr. 20 2026. Ákvörðun kærunefndar útboðsmála",
-      "entity": "Kærunefnd útboðsmála",
-      "board": "Kærunefnd útboðsmála",
-      "case_number": "20/2026",
-      "keywords_matched": [
-        "útboð"
-      ],
-      "status": "ruling",
-      "date": "2026-07-07",
-      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-07-07-Mal-nr.-20-2026.-Akvordun-kaerunefndar-utbodsmala",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -6883,7 +8645,7 @@
     {
       "id": "kaerunefnd:55/2025",
       "lane": "kaerunefnd",
-      "title": "2026 07 06 Mál nr. 55 2025. Ákvörðun kærunefndar útboðsmála",
+      "title": "2026 07 06 Mal nr. 55 2025. Akvordun kaerunefndar utbodsmala",
       "entity": "Kærunefnd útboðsmála",
       "board": "Kærunefnd útboðsmála",
       "case_number": "55/2025",
@@ -6892,63 +8654,11 @@
       ],
       "status": "ruling",
       "date": "2026-07-06",
+      "published_at": "2026-07-06",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-07-06",
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-07-06-Mal-nr.-55-2025.-Akvordun-kaerunefndar-utbodsmala",
-      "sector_tags": [],
-      "sector_eligibility": {
-        "iceland_project_evidence": false,
-        "facility_relevance": false,
-        "project_eligible": false,
-        "eligibility_reason": "no_material_sector_evidence",
-        "current_dated_signal": false,
-        "source_date": "2026-07-06",
-        "assessed_on": "2026-11-23",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      },
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "kaerunefnd:17/2026",
-      "lane": "kaerunefnd",
-      "title": "2026 07 06 Mál nr. 17 2026. Ákvörðun kærunefndar útboðsmála",
-      "entity": "Kærunefnd útboðsmála",
-      "board": "Kærunefnd útboðsmála",
-      "case_number": "17/2026",
-      "keywords_matched": [
-        "útboð"
-      ],
-      "status": "ruling",
-      "date": "2026-07-06",
-      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-07-06-Mal-nr.-17-2026.-Akvordun-kaerunefndar-utbodsmala",
-      "sector_tags": [],
-      "sector_eligibility": {
-        "iceland_project_evidence": false,
-        "facility_relevance": false,
-        "project_eligible": false,
-        "eligibility_reason": "no_material_sector_evidence",
-        "current_dated_signal": false,
-        "source_date": "2026-07-06",
-        "assessed_on": "2026-11-23",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      },
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "kaerunefnd:15/2026",
-      "lane": "kaerunefnd",
-      "title": "2026 07 06 Mál nr. 15 2026. Ákvörðun kærunefndar útboðsmála",
-      "entity": "Kærunefnd útboðsmála",
-      "board": "Kærunefnd útboðsmála",
-      "case_number": "15/2026",
-      "keywords_matched": [
-        "útboð"
-      ],
-      "status": "ruling",
-      "date": "2026-07-06",
-      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-07-06-Mal-nr.-15-2026.-Akvordun-kaerunefndar-utbodsmala",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -7104,7 +8814,7 @@
     {
       "id": "kaerunefnd:9/2025",
       "lane": "kaerunefnd",
-      "title": "2026 06 25 Mál nr. 9 2025. Úrskurður kærunefndar útboðsmála",
+      "title": "2026 06 25 Mal nr. 9 2025. Urskurdur kaerunefndar utbodsmala",
       "entity": "Kærunefnd útboðsmála",
       "board": "Kærunefnd útboðsmála",
       "case_number": "9/2025",
@@ -7113,35 +8823,11 @@
       ],
       "status": "ruling",
       "date": "2026-06-25",
+      "published_at": "2026-06-25",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-06-25",
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-06-25-Mal-nr.-9-2025.-Urskurdur-kaerunefndar-utbodsmala",
-      "sector_tags": [],
-      "sector_eligibility": {
-        "iceland_project_evidence": false,
-        "facility_relevance": false,
-        "project_eligible": false,
-        "eligibility_reason": "no_material_sector_evidence",
-        "current_dated_signal": false,
-        "source_date": "2026-06-25",
-        "assessed_on": "2026-11-23",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      },
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "kaerunefnd:61/2025",
-      "lane": "kaerunefnd",
-      "title": "2026 06 25 Mál nr. 61 2025. Ákvörðun kærunefndar útboðsmála adgangur ad gognum",
-      "entity": "Kærunefnd útboðsmála",
-      "board": "Kærunefnd útboðsmála",
-      "case_number": "61/2025",
-      "keywords_matched": [
-        "útboð"
-      ],
-      "status": "ruling",
-      "date": "2026-06-25",
-      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-06-25-Mal-nr.-61-2025.-Akvordun-kaerunefndar-utbodsmala-adgangur-ad-gognum",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -7160,7 +8846,7 @@
     {
       "id": "kaerunefnd:6/2026",
       "lane": "kaerunefnd",
-      "title": "2026 06 25 Mál nr. 6 2026. Úrskurður kærunefndar útboðsmála",
+      "title": "2026 06 25 Mal nr. 6 2026. Urskurdur kaerunefndar utbodsmala",
       "entity": "Kærunefnd útboðsmála",
       "board": "Kærunefnd útboðsmála",
       "case_number": "6/2026",
@@ -7169,6 +8855,10 @@
       ],
       "status": "ruling",
       "date": "2026-06-25",
+      "published_at": "2026-06-25",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-06-25",
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-06-25-Mal-nr.-6-2026.-Urskurdur-kaerunefndar-utbodsmala",
       "sector_tags": [],
       "sector_eligibility": {
@@ -7188,7 +8878,7 @@
     {
       "id": "kaerunefnd:56/2025",
       "lane": "kaerunefnd",
-      "title": "2026 06 25 Mál nr. 56 2025. Úrskurður kærunefndar útboðsmála",
+      "title": "2026 06 25 Mal nr. 56 2025. Urskurdur kaerunefndar utbodsmala",
       "entity": "Kærunefnd útboðsmála",
       "board": "Kærunefnd útboðsmála",
       "case_number": "56/2025",
@@ -7197,6 +8887,10 @@
       ],
       "status": "ruling",
       "date": "2026-06-25",
+      "published_at": "2026-06-25",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-06-25",
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-06-25-Mal-nr.-56-2025.-Urskurdur-kaerunefndar-utbodsmala",
       "sector_tags": [],
       "sector_eligibility": {
@@ -7216,7 +8910,7 @@
     {
       "id": "kaerunefnd:50/2025",
       "lane": "kaerunefnd",
-      "title": "2026 06 25 Mál nr. 50 2025. Úrskurður kærunefndar útboðsmála",
+      "title": "2026 06 25 Mal nr. 50 2025. Urskurdur kaerunefndar utbodsmala",
       "entity": "Kærunefnd útboðsmála",
       "board": "Kærunefnd útboðsmála",
       "case_number": "50/2025",
@@ -7225,6 +8919,10 @@
       ],
       "status": "ruling",
       "date": "2026-06-25",
+      "published_at": "2026-06-25",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-06-25",
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-06-25-Mal-nr.-50-2025.-Urskurdur-kaerunefndar-utbodsmala",
       "sector_tags": [],
       "sector_eligibility": {
@@ -7582,65 +9280,9 @@
       "intelligence_type": "public_record"
     },
     {
-      "id": "kaerunefnd:9/2026",
-      "lane": "kaerunefnd",
-      "title": "2026 05 17 Mál nr. 9 2026. Ákvörðun kærunefndar útboðsmála",
-      "entity": "Kærunefnd útboðsmála",
-      "board": "Kærunefnd útboðsmála",
-      "case_number": "9/2026",
-      "keywords_matched": [
-        "útboð"
-      ],
-      "status": "ruling",
-      "date": "2026-05-17",
-      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-05-17-Mal-nr.-9-2026.-Akvordun-kaerunefndar-utbodsmala",
-      "sector_tags": [],
-      "sector_eligibility": {
-        "iceland_project_evidence": false,
-        "facility_relevance": false,
-        "project_eligible": false,
-        "eligibility_reason": "no_material_sector_evidence",
-        "current_dated_signal": false,
-        "source_date": "2026-05-17",
-        "assessed_on": "2026-11-23",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      },
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "kaerunefnd:8/2026",
-      "lane": "kaerunefnd",
-      "title": "2026 05 17 Mál nr. 8 2026. Ákvörðun kærunefndar útboðsmála",
-      "entity": "Kærunefnd útboðsmála",
-      "board": "Kærunefnd útboðsmála",
-      "case_number": "8/2026",
-      "keywords_matched": [
-        "útboð"
-      ],
-      "status": "ruling",
-      "date": "2026-05-17",
-      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-05-17-Mal-nr.-8-2026.-Akvordun-kaerunefndar-utbodsmala",
-      "sector_tags": [],
-      "sector_eligibility": {
-        "iceland_project_evidence": false,
-        "facility_relevance": false,
-        "project_eligible": false,
-        "eligibility_reason": "no_material_sector_evidence",
-        "current_dated_signal": false,
-        "source_date": "2026-05-17",
-        "assessed_on": "2026-11-23",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      },
-      "intelligence_type": "public_record"
-    },
-    {
       "id": "kaerunefnd:64/2025",
       "lane": "kaerunefnd",
-      "title": "2026 05 17 Mál nr. 64 2025. Ákvörðun kærunefndar útboðsmála",
+      "title": "2026 05 17 Mal nr. 64 2025. Akvordun kaerunefndar utbodsmala",
       "entity": "Kærunefnd útboðsmála",
       "board": "Kærunefnd útboðsmála",
       "case_number": "64/2025",
@@ -7649,6 +9291,10 @@
       ],
       "status": "ruling",
       "date": "2026-05-17",
+      "published_at": "2026-05-17",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-05-17",
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-05-17-Mal-nr.-64-2025.-Akvordun-kaerunefndar-utbodsmala",
       "sector_tags": [],
       "sector_eligibility": {
@@ -7668,7 +9314,7 @@
     {
       "id": "kaerunefnd:63/2025",
       "lane": "kaerunefnd",
-      "title": "2026 05 17 Mál nr. 63 2025. Ákvörðun kærunefndar útboðsmála",
+      "title": "2026 05 17 Mal nr. 63 2025. Akvordun kaerunefndar utbodsmala",
       "entity": "Kærunefnd útboðsmála",
       "board": "Kærunefnd útboðsmála",
       "case_number": "63/2025",
@@ -7677,6 +9323,10 @@
       ],
       "status": "ruling",
       "date": "2026-05-17",
+      "published_at": "2026-05-17",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-05-17",
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-05-17-Mal-nr.-63-2025.-Akvordun-kaerunefndar-utbodsmala",
       "sector_tags": [],
       "sector_eligibility": {
@@ -7696,7 +9346,7 @@
     {
       "id": "kaerunefnd:62/2025",
       "lane": "kaerunefnd",
-      "title": "2026 05 17 Mál nr. 62 2025. Ákvörðun kærunefndar útboðsmála",
+      "title": "2026 05 17 Mal nr. 62 2025. Akvordun kaerunefndar utbodsmala",
       "entity": "Kærunefnd útboðsmála",
       "board": "Kærunefnd útboðsmála",
       "case_number": "62/2025",
@@ -7705,35 +9355,11 @@
       ],
       "status": "ruling",
       "date": "2026-05-17",
+      "published_at": "2026-05-17",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-05-17",
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-05-17-Mal-nr.-62-2025.-Akvordun-kaerunefndar-utbodsmala",
-      "sector_tags": [],
-      "sector_eligibility": {
-        "iceland_project_evidence": false,
-        "facility_relevance": false,
-        "project_eligible": false,
-        "eligibility_reason": "no_material_sector_evidence",
-        "current_dated_signal": false,
-        "source_date": "2026-05-17",
-        "assessed_on": "2026-11-23",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      },
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "kaerunefnd:5/2026",
-      "lane": "kaerunefnd",
-      "title": "2026 05 17 Mál nr. 5 2026. Ákvörðun kærunefndar útboðsmála",
-      "entity": "Kærunefnd útboðsmála",
-      "board": "Kærunefnd útboðsmála",
-      "case_number": "5/2026",
-      "keywords_matched": [
-        "útboð"
-      ],
-      "status": "ruling",
-      "date": "2026-05-17",
-      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-05-17-Mal-nr.-5-2026.-Akvordun-kaerunefndar-utbodsmala",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -7752,7 +9378,7 @@
     {
       "id": "kaerunefnd:45/2025",
       "lane": "kaerunefnd",
-      "title": "2026 05 17 Mál nr. 45 2025. Úrskurður kærunefndar útboðsmála",
+      "title": "2026 05 17 Mal nr. 45 2025. Urskurdur kaerunefndar utbodsmala",
       "entity": "Kærunefnd útboðsmála",
       "board": "Kærunefnd útboðsmála",
       "case_number": "45/2025",
@@ -7761,6 +9387,10 @@
       ],
       "status": "ruling",
       "date": "2026-05-17",
+      "published_at": "2026-05-17",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-05-17",
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-05-17-Mal-nr.-45-2025.-Urskurdur-kaerunefndar-utbodsmala",
       "sector_tags": [],
       "sector_eligibility": {
@@ -7780,7 +9410,7 @@
     {
       "id": "kaerunefnd:39/2025",
       "lane": "kaerunefnd",
-      "title": "2026 05 17 Mál nr. 39 2025. Úrskurður kærunefndar útboðsmála",
+      "title": "2026 05 17 Mal nr. 39 2025. Urskurdur kaerunefndar utbodsmala",
       "entity": "Kærunefnd útboðsmála",
       "board": "Kærunefnd útboðsmála",
       "case_number": "39/2025",
@@ -7789,6 +9419,10 @@
       ],
       "status": "ruling",
       "date": "2026-05-17",
+      "published_at": "2026-05-17",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-05-17",
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-05-17-Mal-nr.-39-2025.-Urskurdur-kaerunefndar-utbodsmala",
       "sector_tags": [],
       "sector_eligibility": {
@@ -7808,7 +9442,7 @@
     {
       "id": "kaerunefnd:34/2025",
       "lane": "kaerunefnd",
-      "title": "2026 05 17 Mál nr. 34 2025. Úrskurður kærunefndar útboðsmála",
+      "title": "2026 05 17 Mal nr. 34 2025. Urskurdur kaerunefndar utbodsmala",
       "entity": "Kærunefnd útboðsmála",
       "board": "Kærunefnd útboðsmála",
       "case_number": "34/2025",
@@ -7817,35 +9451,11 @@
       ],
       "status": "ruling",
       "date": "2026-05-17",
+      "published_at": "2026-05-17",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-05-17",
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-05-17-Mal-nr.-34-2025.-Urskurdur-kaerunefndar-utbodsmala",
-      "sector_tags": [],
-      "sector_eligibility": {
-        "iceland_project_evidence": false,
-        "facility_relevance": false,
-        "project_eligible": false,
-        "eligibility_reason": "no_material_sector_evidence",
-        "current_dated_signal": false,
-        "source_date": "2026-05-17",
-        "assessed_on": "2026-11-23",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      },
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "kaerunefnd:3/2026",
-      "lane": "kaerunefnd",
-      "title": "2026 05 17 Mál nr. 3 2026. Ákvörðun kærunefndar útboðsmála",
-      "entity": "Kærunefnd útboðsmála",
-      "board": "Kærunefnd útboðsmála",
-      "case_number": "3/2026",
-      "keywords_matched": [
-        "útboð"
-      ],
-      "status": "ruling",
-      "date": "2026-05-17",
-      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-05-17-Mal-nr.-3-2026.-Akvordun-kaerunefndar-utbodsmala",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -7864,7 +9474,7 @@
     {
       "id": "kaerunefnd:14/2026",
       "lane": "kaerunefnd",
-      "title": "2026 05 17 Mál nr. 14 2026. Ákvörðun kærunefndar útboðsmála",
+      "title": "2026 05 17 Mal nr. 14 2026. Akvordun kaerunefndar utbodsmala",
       "entity": "Kærunefnd útboðsmála",
       "board": "Kærunefnd útboðsmála",
       "case_number": "14/2026",
@@ -7873,35 +9483,11 @@
       ],
       "status": "ruling",
       "date": "2026-05-17",
+      "published_at": "2026-05-17",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-05-17",
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-05-17-Mal-nr.-14-2026.-Akvordun-kaerunefndar-utbodsmala",
-      "sector_tags": [],
-      "sector_eligibility": {
-        "iceland_project_evidence": false,
-        "facility_relevance": false,
-        "project_eligible": false,
-        "eligibility_reason": "no_material_sector_evidence",
-        "current_dated_signal": false,
-        "source_date": "2026-05-17",
-        "assessed_on": "2026-11-23",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      },
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "kaerunefnd:12/2026",
-      "lane": "kaerunefnd",
-      "title": "2026 05 17 Mál nr. 12 2026. Ákvörðun kærunefndar útboðsmála",
-      "entity": "Kærunefnd útboðsmála",
-      "board": "Kærunefnd útboðsmála",
-      "case_number": "12/2026",
-      "keywords_matched": [
-        "útboð"
-      ],
-      "status": "ruling",
-      "date": "2026-05-17",
-      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-05-17-Mal-nr.-12-2026.-Akvordun-kaerunefndar-utbodsmala",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -8289,7 +9875,7 @@
     {
       "id": "kaerunefnd:38/2024",
       "lane": "kaerunefnd",
-      "title": "2026 03 30 Mál nr. 38 2024. Úrskurður kærunefndar útboðsmála",
+      "title": "2026 03 30 Mal nr. 38 2024. Urskurdur kaerunefndar utbodsmala",
       "entity": "Kærunefnd útboðsmála",
       "board": "Kærunefnd útboðsmála",
       "case_number": "38/2024",
@@ -8298,6 +9884,10 @@
       ],
       "status": "ruling",
       "date": "2026-03-30",
+      "published_at": "2026-03-30",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-03-30",
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-03-30-Mal-nr.-38-2024.-Urskurdur-kaerunefndar-utbodsmala",
       "sector_tags": [],
       "sector_eligibility": {
@@ -8350,7 +9940,7 @@
     {
       "id": "kaerunefnd:41/2025",
       "lane": "kaerunefnd",
-      "title": "2026 03 25 Mál nr. 41 2025. Úrskurður kærunefndar útboðsmála",
+      "title": "2026 03 25 Mal nr. 41 2025. Urskurdur kaerunefndar utbodsmala",
       "entity": "Kærunefnd útboðsmála",
       "board": "Kærunefnd útboðsmála",
       "case_number": "41/2025",
@@ -8359,6 +9949,10 @@
       ],
       "status": "ruling",
       "date": "2026-03-25",
+      "published_at": "2026-03-25",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-03-25",
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-03-25-Mal-nr.-41-2025.-Urskurdur-kaerunefndar-utbodsmala",
       "sector_tags": [],
       "sector_eligibility": {
@@ -8378,7 +9972,7 @@
     {
       "id": "kaerunefnd:40/2025",
       "lane": "kaerunefnd",
-      "title": "2026 03 25 Mál nr. 40 2025. Úrskurður kærunefndar útboðsmála",
+      "title": "2026 03 25 Mal nr. 40 2025. Urskurdur kaerunefndar utbodsmala",
       "entity": "Kærunefnd útboðsmála",
       "board": "Kærunefnd útboðsmála",
       "case_number": "40/2025",
@@ -8387,35 +9981,11 @@
       ],
       "status": "ruling",
       "date": "2026-03-25",
+      "published_at": "2026-03-25",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-03-25",
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-03-25-Mal-nr.-40-2025.-Urskurdur-kaerunefndar-utbodsmala",
-      "sector_tags": [],
-      "sector_eligibility": {
-        "iceland_project_evidence": false,
-        "facility_relevance": false,
-        "project_eligible": false,
-        "eligibility_reason": "no_material_sector_evidence",
-        "current_dated_signal": false,
-        "source_date": "2026-03-25",
-        "assessed_on": "2026-11-23",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      },
-      "intelligence_type": "public_record"
-    },
-    {
-      "id": "kaerunefnd:4/2026",
-      "lane": "kaerunefnd",
-      "title": "2026 03 25 Mál nr. 4 2026. Ákvörðun kærunefndar útboðsmála",
-      "entity": "Kærunefnd útboðsmála",
-      "board": "Kærunefnd útboðsmála",
-      "case_number": "4/2026",
-      "keywords_matched": [
-        "útboð"
-      ],
-      "status": "ruling",
-      "date": "2026-03-25",
-      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-03-25-Mal-nr.-4-2026.-Akvordun-kaerunefndar-utbodsmala",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -8434,7 +10004,7 @@
     {
       "id": "kaerunefnd:2/2026",
       "lane": "kaerunefnd",
-      "title": "2026 03 25 Mál nr. 2 2026. Úrskurður kærunefndar útboðsmála",
+      "title": "2026 03 25 Mal nr. 2 2026. Urskurdur kaerunefndar utbodsmala",
       "entity": "Kærunefnd útboðsmála",
       "board": "Kærunefnd útboðsmála",
       "case_number": "2/2026",
@@ -8443,6 +10013,10 @@
       ],
       "status": "ruling",
       "date": "2026-03-25",
+      "published_at": "2026-03-25",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-03-25",
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-03-25-Mal-nr.-2-2026.-Urskurdur-kaerunefndar-utbodsmala",
       "sector_tags": [],
       "sector_eligibility": {
@@ -8803,7 +10377,7 @@
     {
       "id": "kaerunefnd:24/2025",
       "lane": "kaerunefnd",
-      "title": "2026 03 09 Mál nr. 24 2025. Úrskurður kærunefndar útboðsmála",
+      "title": "2026 03 09 Mal nr. 24 2025. Urskurdur kaerunefndar utbodsmala",
       "entity": "Kærunefnd útboðsmála",
       "board": "Kærunefnd útboðsmála",
       "case_number": "24/2025",
@@ -8812,6 +10386,10 @@
       ],
       "status": "ruling",
       "date": "2026-03-09",
+      "published_at": "2026-03-09",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-03-09",
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-03-09-Mal-nr.-24-2025.-Urskurdur-kaerunefndar-utbodsmala",
       "sector_tags": [],
       "sector_eligibility": {
@@ -8831,7 +10409,7 @@
     {
       "id": "kaerunefnd:21/2025",
       "lane": "kaerunefnd",
-      "title": "2026 03 09 Mál nr. 21 2025. Úrskurður kærunefndar útboðsmála",
+      "title": "2026 03 09 Mal nr. 21 2025. Urskurdur kaerunefndar utbodsmala",
       "entity": "Kærunefnd útboðsmála",
       "board": "Kærunefnd útboðsmála",
       "case_number": "21/2025",
@@ -8840,6 +10418,10 @@
       ],
       "status": "ruling",
       "date": "2026-03-09",
+      "published_at": "2026-03-09",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-03-09",
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-03-09-Mal-nr.-21-2025.-Urskurdur-kaerunefndar-utbodsmala",
       "sector_tags": [],
       "sector_eligibility": {
@@ -8859,7 +10441,7 @@
     {
       "id": "kaerunefnd:20/2025",
       "lane": "kaerunefnd",
-      "title": "2026 03 09 Mál nr. 20 2025. Úrskurður kærunefndar útboðsmála",
+      "title": "2026 03 09 Mal nr. 20 2025. Urskurdur kaerunefndar utbodsmala",
       "entity": "Kærunefnd útboðsmála",
       "board": "Kærunefnd útboðsmála",
       "case_number": "20/2025",
@@ -8868,6 +10450,10 @@
       ],
       "status": "ruling",
       "date": "2026-03-09",
+      "published_at": "2026-03-09",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-03-09",
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-03-09-Mal-nr.-20-2025.-Urskurdur-kaerunefndar-utbodsmala",
       "sector_tags": [],
       "sector_eligibility": {
@@ -8887,7 +10473,7 @@
     {
       "id": "kaerunefnd:26/2025",
       "lane": "kaerunefnd",
-      "title": "2026 03 06 Mál nr. 26 2025. Úrskurður kærunefndar útboðsmála",
+      "title": "2026 03 06 Mal nr. 26 2025. Urskurdur kaerunefndar utbodsmala",
       "entity": "Kærunefnd útboðsmála",
       "board": "Kærunefnd útboðsmála",
       "case_number": "26/2025",
@@ -8896,6 +10482,10 @@
       ],
       "status": "ruling",
       "date": "2026-03-06",
+      "published_at": "2026-03-06",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-03-06",
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-03-06-Mal-nr.-26-2025.-Urskurdur-kaerunefndar-utbodsmala",
       "sector_tags": [],
       "sector_eligibility": {
@@ -8915,7 +10505,7 @@
     {
       "id": "kaerunefnd:25/2025",
       "lane": "kaerunefnd",
-      "title": "2026 03 06 Mál nr. 25 2025. Úrskurður kærunefndar útboðsmála",
+      "title": "2026 03 06 Mal nr. 25 2025. Urskurdur kaerunefndar utbodsmala",
       "entity": "Kærunefnd útboðsmála",
       "board": "Kærunefnd útboðsmála",
       "case_number": "25/2025",
@@ -8924,6 +10514,10 @@
       ],
       "status": "ruling",
       "date": "2026-03-06",
+      "published_at": "2026-03-06",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-03-06",
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-03-06-Mal-nr.-25-2025.-Urskurdur-kaerunefndar-utbodsmala",
       "sector_tags": [],
       "sector_eligibility": {
@@ -8943,7 +10537,7 @@
     {
       "id": "kaerunefnd:10/2025",
       "lane": "kaerunefnd",
-      "title": "2026 03 06 Mál nr. 10 2025. Úrskurður kærunefndar útboðsmála",
+      "title": "2026 03 06 Mal nr. 10 2025. Urskurdur kaerunefndar utbodsmala",
       "entity": "Kærunefnd útboðsmála",
       "board": "Kærunefnd útboðsmála",
       "case_number": "10/2025",
@@ -8952,6 +10546,10 @@
       ],
       "status": "ruling",
       "date": "2026-03-06",
+      "published_at": "2026-03-06",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-03-06",
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-03-06-Mal-nr.-10-2025.-Urskurdur-kaerunefndar-utbodsmala",
       "sector_tags": [],
       "sector_eligibility": {
@@ -9057,7 +10655,7 @@
     {
       "id": "kaerunefnd:29/2025",
       "lane": "kaerunefnd",
-      "title": "2026 02 24 Mál nr. 29 2025. Úrskurður kærunefndar útboðsmála",
+      "title": "2026 02 24 Mal nr. 29 2025. Urskurdur kaerunefndar utbodsmala",
       "entity": "Kærunefnd útboðsmála",
       "board": "Kærunefnd útboðsmála",
       "case_number": "29/2025",
@@ -9066,6 +10664,10 @@
       ],
       "status": "ruling",
       "date": "2026-02-24",
+      "published_at": "2026-02-24",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-02-24",
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-02-24-Mal-nr.-29-2025.-Urskurdur-kaerunefndar-utbodsmala",
       "sector_tags": [],
       "sector_eligibility": {
@@ -9137,37 +10739,9 @@
       "intelligence_type": "public_record"
     },
     {
-      "id": "kaerunefnd:60/2025",
-      "lane": "kaerunefnd",
-      "title": "2026 02 12 Mál nr. 60 2025. Ákvörðun kærunefndar útboðsmála",
-      "entity": "Kærunefnd útboðsmála",
-      "board": "Kærunefnd útboðsmála",
-      "case_number": "60/2025",
-      "keywords_matched": [
-        "útboð"
-      ],
-      "status": "ruling",
-      "date": "2026-02-12",
-      "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-02-12-Mal-nr.-60-2025.-Akvordun-kaerunefndar-utbodsmala",
-      "sector_tags": [],
-      "sector_eligibility": {
-        "iceland_project_evidence": false,
-        "facility_relevance": false,
-        "project_eligible": false,
-        "eligibility_reason": "no_material_sector_evidence",
-        "current_dated_signal": false,
-        "source_date": "2026-02-12",
-        "assessed_on": "2026-11-23",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      },
-      "intelligence_type": "public_record"
-    },
-    {
       "id": "kaerunefnd:44/2025",
       "lane": "kaerunefnd",
-      "title": "2026 02 12 Mál nr. 44 2025. Úrskurður kærunefndar útboðsmála",
+      "title": "2026 02 12 Mal nr. 44 2025. Urskurdur kaerunefndar utbodsmala",
       "entity": "Kærunefnd útboðsmála",
       "board": "Kærunefnd útboðsmála",
       "case_number": "44/2025",
@@ -9176,6 +10750,10 @@
       ],
       "status": "ruling",
       "date": "2026-02-12",
+      "published_at": "2026-02-12",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-02-12",
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-02-12-Mal-nr.-44-2025.-Urskurdur-kaerunefndar-utbodsmala",
       "sector_tags": [],
       "sector_eligibility": {
@@ -9195,7 +10773,7 @@
     {
       "id": "kaerunefnd:43/2025",
       "lane": "kaerunefnd",
-      "title": "2026 02 12 Mál nr. 43 2025. Úrskurður kærunefndar útboðsmála",
+      "title": "2026 02 12 Mal nr. 43 2025. Urskurdur kaerunefndar utbodsmala",
       "entity": "Kærunefnd útboðsmála",
       "board": "Kærunefnd útboðsmála",
       "case_number": "43/2025",
@@ -9204,6 +10782,10 @@
       ],
       "status": "ruling",
       "date": "2026-02-12",
+      "published_at": "2026-02-12",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-02-12",
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-02-12-Mal-nr.-43-2025.-Urskurdur-kaerunefndar-utbodsmala",
       "sector_tags": [],
       "sector_eligibility": {
@@ -9223,7 +10805,7 @@
     {
       "id": "kaerunefnd:28/2025",
       "lane": "kaerunefnd",
-      "title": "2026 02 12 Mál nr. 28 2025. Úrskurður kærunefndar útboðsmála",
+      "title": "2026 02 12 Mal nr. 28 2025. Urskurdur kaerunefndar utbodsmala",
       "entity": "Kærunefnd útboðsmála",
       "board": "Kærunefnd útboðsmála",
       "case_number": "28/2025",
@@ -9232,6 +10814,10 @@
       ],
       "status": "ruling",
       "date": "2026-02-12",
+      "published_at": "2026-02-12",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-02-12",
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-02-12-Mal-nr.-28-2025.-Urskurdur-kaerunefndar-utbodsmala",
       "sector_tags": [],
       "sector_eligibility": {
@@ -9251,7 +10837,7 @@
     {
       "id": "kaerunefnd:23/2025",
       "lane": "kaerunefnd",
-      "title": "2026 02 06 Mál nr. 23 2025. Úrskurður kærunefndar útboðsmála",
+      "title": "2026 02 06 Mal nr. 23 2025. Urskurdur kaerunefndar utbodsmala",
       "entity": "Kærunefnd útboðsmála",
       "board": "Kærunefnd útboðsmála",
       "case_number": "23/2025",
@@ -9260,6 +10846,10 @@
       ],
       "status": "ruling",
       "date": "2026-02-06",
+      "published_at": "2026-02-06",
+      "date_kind": "source_publication",
+      "date_source": "dated_source_url",
+      "source_last_modified": "2026-02-06",
       "url": "https://www.stjornarradid.is/gogn/urskurdir-og-alit-/stakur-urskurdur/2026-02-06-Mal-nr.-23-2025.-Urskurdur-kaerunefndar-utbodsmala",
       "sector_tags": [],
       "sector_eligibility": {
@@ -10250,6 +11840,33 @@
         "eligibility_reason": "iceland_project_not_verified",
         "current_dated_signal": false,
         "source_date": "2025-04-10",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "intelligence_type": "public_record"
+    },
+    {
+      "id": "skgatt:0429/2025",
+      "lane": "planning",
+      "title": "Breiðbrautarreitur Ásbrú",
+      "entity": "Reykjanesbær",
+      "case_number": "0429/2025",
+      "plan_type": "deiliskipulag",
+      "status": "Athugun eftir auglýsingu",
+      "date": "2025-04-03",
+      "review_deadline": "2026-12-21",
+      "summary": "Studeo Jæja fyrir Kadeco leggur fram vinnslutillögu deiliskipulags fyrir Breiðbrautarreit sem afmarkast af Lindar-, Grænás- og Breiðbraut. Nýjar byggingar skapa skjól fyrir ríkjandi áttum, norðan og austanátt, en opnast að sama skapi til móts við suður og vestur. Þetta einfalda grunnstef tekur svo á sig ólíkar myndir þar sem það lagar sig að núverandi aðstæ…",
+      "url": "https://skipulagsgatt.is/issues/3086",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2025-04-03",
         "assessed_on": "2026-11-23",
         "new_milestone_verified": false,
         "newsletter_ready": false,
