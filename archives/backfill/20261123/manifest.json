@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "scope": "one-time specifically reported historical evidence recovery; no runtime/feed/industry-archive writes",
+  "destination": "archives/backfill/20261123",
+  "files": {
+    "README.md": {
+      "sha256": "4ce318aeed81dcb2e18a443995e3cd1a37177ce423e227cd663b2c6faf053b51",
+      "bytes": 817
+    },
+    "historical-backfill.json": {
+      "sha256": "415947e717f93cf1999cc7d2dcb8d8ffdb463fc622d816a1673443101cf2d71a",
+      "bytes": 83109
+    },
+    "index.html": {
+      "sha256": "09f18925a6468ac189eb8cc96acedd3d275eb0eb8efac0b919f73b7d1a03c36d",
+      "bytes": 35966
+    }
+  },
+  "record_count": 49,
+  "source_url_count": 44,
+  "unresolved_url_count": 12,
+  "required_acceptance": [
+    "Task-local tests and independent review pass",
+    "Parent verified pre-change recovery gate before any archive/checkout maintenance",
+    "Copy only exact manifest members into existing archive publication checkout",
+    "Publish through existing authorized route; do not push main/master",
+    "Exact remote immutable bytes/JSON parse/isolated non-overwriting restore",
+    "Viewer HTTP/browser interaction verified or explicitly unverified",
+    "Do not claim downstream report regeneration or full suggestion completion from this archive"
+  ]
+}

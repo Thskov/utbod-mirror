@@ -1,0 +1,1692 @@
+{
+  "schema_version": 1,
+  "artifact_type": "specific_reported_historical_evidence_backfill",
+  "observed_at": "2026-11-23T18:44:42.168620Z",
+  "publication_state": "historical_recovery_artifact; actual publication verified separately",
+  "records": [
+    {
+      "id": "backfill:9ac9789fd853449ddcdf1a8e",
+      "url": "https://www.ruv.is/frettir/innlent/2026-11-19-undirrita-samning-um-gagnaver-a-bakka-493301",
+      "title": "Undirrita samning um gagnaver á Bakka",
+      "summary": "Í dag var undirritaður samningur milli Eyrie DC og Norðurþings um 8,2 hektara lóð við Bakka til næstu fimmtíu ára, með möguleika á framlengingu. Á lóðinni á að rísa gagnaver, sem heimildir RÚV herma að sé á vegum tæknirisans Microsoft. „Við höfum unnið að undirbúningi gagnaversins á Bakka í meira en tvö ár og höfum verið í nánu samstarfi við Norðurþing unda...",
+      "source_date": "2026-11-19",
+      "source_month": "2026-11",
+      "date_kind": "retained_source_date_not_reverified",
+      "source": "ruv-innlent-rss",
+      "source_lane": "news",
+      "suggestion_ids": [
+        "announcements-2026-11-20-02"
+      ],
+      "evidence": {
+        "retained_commit": "fef796f9acf0db35d8d2db92ce5ac31b397901ed",
+        "retained_feed": "data/news-feed.json",
+        "feed_generated": "2026-11-20T06:30:01Z",
+        "feed_sha256": "ec7e434bf1873ba2a856130b307e9a5260a5267b5bacb28b3475347a45ed9948",
+        "kind": "retained_immutable_generated_feed",
+        "primary_reverification": false
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {
+        "id": "news:ruv-innlent-rss:2026-11-19-undirrita-samning-um-gagnaver-a-bakka-493301"
+      },
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-11-19"
+      ]
+    },
+    {
+      "id": "backfill:fc535ff6402b0e0965919ef9",
+      "url": "https://braggi.is/samthykktar-bakkavarnir-vid-slettua-i-reydarfirdi",
+      "title": "Samþykktar bakkavarnir við Sléttuá í Reyðarfirði",
+      "summary": "Skipulags- og framkvæmdanefnd Fjarðabyggðar hefur samþykkt gerð bakkavarna við Sléttuá í Reyðarfirði.",
+      "source_date": "2026-11-19",
+      "source_month": "2026-11",
+      "date_kind": "retained_source_date_not_reverified",
+      "source": "braggi",
+      "source_lane": "news",
+      "suggestion_ids": [
+        "announcements-2026-11-20-02"
+      ],
+      "evidence": {
+        "retained_commit": "fef796f9acf0db35d8d2db92ce5ac31b397901ed",
+        "retained_feed": "data/news-feed.json",
+        "feed_generated": "2026-11-20T06:30:01Z",
+        "feed_sha256": "ec7e434bf1873ba2a856130b307e9a5260a5267b5bacb28b3475347a45ed9948",
+        "kind": "retained_immutable_generated_feed",
+        "primary_reverification": false
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {
+        "id": "news:braggi:samthykktar-bakkavarnir-vid-slettua-i-reydarfirdi"
+      },
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-11-19"
+      ]
+    },
+    {
+      "id": "backfill:520dd70ce02413a8d3e074a4",
+      "url": "https://braggi.is/nordurthing-stefnir-ad-uppbyggingu-nys-menningarhuss-i-stad-samkomuhussins",
+      "title": "Norðurþing stefnir að uppbyggingu nýs menningarhúss í stað Samkomuhússins",
+      "summary": "Skipulags- og framkvæmdaráð Norðurþings leggur til að unnið verði að uppbyggingu nýs menningarhúss í stað þess að ráðast í verulegar endurbætur á Samkomuhúsinu að Garðarsbraut. Ráðið telur óskynsamlegt að fara í svo umfangsmiklar endurbætur á eldra h",
+      "source_date": "2026-11-19",
+      "source_month": "2026-11",
+      "date_kind": "retained_source_date_not_reverified",
+      "source": "braggi",
+      "source_lane": "news",
+      "suggestion_ids": [
+        "announcements-2026-11-20-02"
+      ],
+      "evidence": {
+        "retained_commit": "fef796f9acf0db35d8d2db92ce5ac31b397901ed",
+        "retained_feed": "data/news-feed.json",
+        "feed_generated": "2026-11-20T06:30:01Z",
+        "feed_sha256": "ec7e434bf1873ba2a856130b307e9a5260a5267b5bacb28b3475347a45ed9948",
+        "kind": "retained_immutable_generated_feed",
+        "primary_reverification": false
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {
+        "id": "news:braggi:nordurthing-stefnir-ad-uppbyggingu-nys-menningarhuss-i-stad-samkomuhussins"
+      },
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-11-19"
+      ]
+    },
+    {
+      "id": "backfill:1cb761a434bcc7ac81d84094",
+      "url": "https://braggi.is/hveragerdisbaer-frestar-akvordun-um-uthlutun-atvinnuloda-vid-breidumork",
+      "title": "Hveragerðisbær frestar ákvörðun um úthlutun atvinnulóða við Breiðumörk",
+      "summary": "Hveragerðisbær hefur ákveðið að fresta ákvörðun um úthlutun atvinnulóðanna nr. 42-44 og 48 við Breiðumörk. Bæjarráð telur rétt að endurskoða deiliskipulag svæðisins áður en ákvörðun verður tekin um fyrirkomulag úthlutunar lóðanna. Lóðirnar eru lausar",
+      "source_date": "2026-11-19",
+      "source_month": "2026-11",
+      "date_kind": "retained_source_date_not_reverified",
+      "source": "braggi",
+      "source_lane": "news",
+      "suggestion_ids": [
+        "announcements-2026-11-20-02"
+      ],
+      "evidence": {
+        "retained_commit": "fef796f9acf0db35d8d2db92ce5ac31b397901ed",
+        "retained_feed": "data/news-feed.json",
+        "feed_generated": "2026-11-20T06:30:01Z",
+        "feed_sha256": "ec7e434bf1873ba2a856130b307e9a5260a5267b5bacb28b3475347a45ed9948",
+        "kind": "retained_immutable_generated_feed",
+        "primary_reverification": false
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {
+        "id": "news:braggi:hveragerdisbaer-frestar-akvordun-um-uthlutun-atvinnuloda-vid-breidumork"
+      },
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-11-19"
+      ]
+    },
+    {
+      "id": "backfill:6b58ce5bc9adb9e0a39f0190",
+      "url": "https://byggingar.is/borgarlina-framkvaemdarod-breytt-i-227-milljarda-verki-vid-nautholsveg",
+      "title": "Borgarlína – framkvæmdaröð breytt í 2,27 milljarða verki við Nauthólsveg",
+      "summary": "Borgarlína – framkvæmdaröð breytt í 2,27 milljarða verki við Nauthólsveg Framkvæmdaröð við uppbyggingu Borgarlínu við Nauthólsveg og Háskólann í Reykjavík hefur verið endurskoðuð. Helsta breytingin felst í því að framkvæmdum við Menntasveig verður flýtt og götunni lokað tímabundið fyrir umferð. Grafa og Grjót og Malbikunarstöðin Höfði annast verkið samkvæmt...",
+      "source_date": "2026-10-20",
+      "source_month": "2026-10",
+      "date_kind": "retained_source_date_not_reverified",
+      "source": "byggingar-borgarlina",
+      "source_lane": "news",
+      "suggestion_ids": [
+        "announcements-2026-10-23-02"
+      ],
+      "evidence": {
+        "retained_commit": "567f752922896547077ba318f6cf2ed99bb1d21e",
+        "retained_feed": "data/news-feed.json",
+        "feed_generated": "2026-11-19T09:54:43Z",
+        "feed_sha256": "3d6e66a9a1c255fd6c314818fcc02a7aa1671ed7a77735ccc158f334e8a14b1b",
+        "kind": "retained_immutable_generated_feed",
+        "primary_reverification": false
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {
+        "id": "news:byggingar-borgarlina:utm-source-rss-utm-medium-rss-utm-campaign-borgarlina-framkvaemdarod-breytt-i-22"
+      },
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-10-20"
+      ]
+    },
+    {
+      "id": "backfill:25052eaea414383ad63aaf15",
+      "url": "https://byggingar.is/landsvirkjun-leitar-verktaka-i-gufuveitu-a-theistareykjum",
+      "title": "Landsvirkjun leitar verktaka í gufuveitu á Þeistareykjum",
+      "summary": "Landsvirkjun leitar verktaka í gufuveitu á Þeistareykjum",
+      "source_date": "2026-11-19",
+      "source_month": "2026-11",
+      "date_kind": "retained_source_date_not_reverified",
+      "source": "byggingar",
+      "source_lane": "news",
+      "suggestion_ids": [
+        "news-2026-11-20-02"
+      ],
+      "evidence": {
+        "retained_commit": "7565fb7bdeed37a11b945126464f1247ed3579db",
+        "retained_feed": "data/news-feed.json",
+        "feed_generated": "2026-11-19T06:30:01Z",
+        "feed_sha256": "b518360c4aa0356941d0b69862d7b893dbc657e74e1203d8a54189e81321b04c",
+        "kind": "retained_immutable_generated_feed",
+        "primary_reverification": false
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {
+        "id": "news:byggingar:landsvirkjun-leitar-verktaka-i-gufuveitu-a-theistareykjum"
+      },
+      "source_date_conflict": true,
+      "observed_source_dates": [
+        "2026-11-18",
+        "2026-11-19"
+      ]
+    },
+    {
+      "id": "backfill:6e4f5ec0f5c1fd584a361541",
+      "url": "https://byggingar.is/bilastaeda-og-taeknihus-nys-landspitala-opnad-eykt-annadist-bygginguna",
+      "title": "Bílastæða- og tæknihús nýs Landspítala opnað – Eykt annaðist bygginguna",
+      "summary": "Bílastæða- og tæknihús nýs Landspítala opnað – Eykt annaðist bygginguna",
+      "source_date": "2026-11-19",
+      "source_month": "2026-11",
+      "date_kind": "retained_source_date_not_reverified",
+      "source": "byggingar",
+      "source_lane": "news",
+      "suggestion_ids": [
+        "news-2026-11-20-02"
+      ],
+      "evidence": {
+        "retained_commit": "7565fb7bdeed37a11b945126464f1247ed3579db",
+        "retained_feed": "data/news-feed.json",
+        "feed_generated": "2026-11-19T06:30:01Z",
+        "feed_sha256": "b518360c4aa0356941d0b69862d7b893dbc657e74e1203d8a54189e81321b04c",
+        "kind": "retained_immutable_generated_feed",
+        "primary_reverification": false
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {
+        "id": "news:byggingar:bilastaeda-og-taeknihus-nys-landspitala-opnad-eykt-annadist-bygginguna"
+      },
+      "source_date_conflict": true,
+      "observed_source_dates": [
+        "2026-11-18",
+        "2026-11-19"
+      ]
+    },
+    {
+      "id": "backfill:894ade81815b0751ee8ea96f",
+      "url": "https://byggingar.is/samid-um-560-milljona-uppbyggingu-nyrrar-thjonustumidstodvar-gkg",
+      "title": "Samið um 560 milljóna uppbyggingu nýrrar þjónustumiðstöðvar GKG",
+      "summary": "Samið um 560 milljóna uppbyggingu nýrrar þjónustumiðstöðvar GKG Kópavogsbær, Garðabær og Golfklúbbur Kópavogs og Garðabæjar, GKG, hafa undirritað samstarfssamning um byggingu nýrrar um 1.000 fermetra þjónustumiðstöðvar fyrir golfvelli klúbbsins. Áætlaður kostnaður við framkvæmdina er um 560 milljónir króna og munu sveitarfélögin tvö standa undir tveimur þri...",
+      "source_date": "2026-10-08",
+      "source_month": "2026-10",
+      "date_kind": "retained_source_date_not_reverified",
+      "source": "byggingar.is",
+      "source_lane": "news",
+      "suggestion_ids": [
+        "weekly-2026-10-09-01"
+      ],
+      "evidence": {
+        "retained_commit": "9cf1c7398d80bc6fe54efdce31fa6ac5518b671d",
+        "retained_feed": "data/news-feed.json",
+        "feed_generated": "2026-11-06T06:30:01Z",
+        "feed_sha256": "faee4de3450adb9fdd45c1b9732965593d98e8304cbfe5f31f69670bf9956131",
+        "kind": "retained_immutable_generated_feed",
+        "primary_reverification": false
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {
+        "id": "news:byggingar-contracts:utm-source-rss-utm-medium-rss-utm-campaign-samid-um-560-milljona-uppbyggingu-nyr"
+      },
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-10-08"
+      ]
+    },
+    {
+      "id": "backfill:566f7b5506ef409bc6d3a2ef",
+      "url": "https://byggingar.is/karina-ehf-faer-jardvinnu-vid-stjornarradshusid-fyrir-358-milljonir",
+      "title": "Karína ehf. fær jarðvinnu við Stjórnarráðshúsið fyrir 35,8 milljónir",
+      "summary": "Karína ehf. fær jarðvinnu við Stjórnarráðshúsið fyrir 35,8 milljónir Framkvæmdasýslan – Ríkiseignir, FSRE, hefur gengið að tilboði Karínu ehf. í jarðvinnu vegna fyrirhugaðrar nýbyggingar við Stjórnarráðshúsið við Lækjargötu 1 í Reykjavík. Tilboð Karínu nemur 35.822.500 krónum með virðisaukaskatti og var lægsta heildartilboðið í verkið. FSRE tilkynnti 5. okt...",
+      "source_date": "2026-10-07",
+      "source_month": "2026-10",
+      "date_kind": "retained_source_date_not_reverified",
+      "source": "byggingar.is",
+      "source_lane": "news",
+      "suggestion_ids": [
+        "weekly-2026-10-09-01"
+      ],
+      "evidence": {
+        "retained_commit": "9cf1c7398d80bc6fe54efdce31fa6ac5518b671d",
+        "retained_feed": "data/news-feed.json",
+        "feed_generated": "2026-11-06T06:30:01Z",
+        "feed_sha256": "faee4de3450adb9fdd45c1b9732965593d98e8304cbfe5f31f69670bf9956131",
+        "kind": "retained_immutable_generated_feed",
+        "primary_reverification": false
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {
+        "id": "news:byggingar-contracts:utm-source-rss-utm-medium-rss-utm-campaign-karina-ehf-faer-jardvinnu-vid-stjorna"
+      },
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-10-07"
+      ]
+    },
+    {
+      "id": "backfill:17b1e276e11dfe9c222ff30c",
+      "url": "https://byggingar.is/jon-og-margeir-fa-330-milljona-gatnagerd-vid-vikursand-i-olfusi",
+      "title": "Jón og Margeir fá 330 milljóna gatnagerð við Víkursand í Ölfusi",
+      "summary": "Jón og Margeir fá 330 milljóna gatnagerð við Víkursand í Ölfusi Jón og Margeir ehf. hafa undirritað verksamning við Sveitarfélagið Ölfus vegna gatnagerðar og lagna við Víkursand vestan Þorlákshafnar. Tilboð fyrirtækisins í útboðinu nam 329,9 milljónum króna og var tæpum 94 milljónum undir kostnaðaráætlun. Fyrirtækið greinir frá samningsgerðinni í nýrri færs...",
+      "source_date": "2026-10-03",
+      "source_month": "2026-10",
+      "date_kind": "retained_source_date_not_reverified",
+      "source": "byggingar.is",
+      "source_lane": "news",
+      "suggestion_ids": [
+        "weekly-2026-10-09-01"
+      ],
+      "evidence": {
+        "retained_commit": "cfcd163bfcd216650e044545c776030ef785781e",
+        "retained_feed": "data/news-feed.json",
+        "feed_generated": "2026-11-02T17:18:17Z",
+        "feed_sha256": "b8f38b7adca48eed2d83442fd39dd5edb70b71c9ea1013648187fe34c544020f",
+        "kind": "retained_immutable_generated_feed",
+        "primary_reverification": false
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {
+        "id": "news:byggingar-contracts:utm-source-rss-utm-medium-rss-utm-campaign-jon-og-margeir-fa-330-milljona-gatnag"
+      },
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-10-03"
+      ]
+    },
+    {
+      "id": "backfill:7609b1ded35a59c48c9c25cd",
+      "url": "https://bb.is/2026/10/gjaldheimta-eykst-en-framkvaemdir-dragast-saman",
+      "title": "Gjaldheimta eykst en framkvæmdir dragast saman",
+      "summary": "Ný greining Samtaka iðnaðarins (SI) bendir til þess að sífellt stærra bil sé að myndast milli þess sem ríkið innheimtir af ökutækjum, eldsneyti og akstri annars vegar og þess sem varið er til vegasamgangna hins vegar. Á árunum 2019 til 2025 innheimti ríkið alls 338,1 milljarð króna með beinum gjöldum af ökutækjum, eldsneyti og akstri. […]",
+      "source_date": "2026-10-27",
+      "source_month": "2026-10",
+      "date_kind": "retained_source_date_not_reverified",
+      "source": "bb.is",
+      "source_lane": "news",
+      "suggestion_ids": [
+        "news-2026-10-28-01"
+      ],
+      "evidence": {
+        "retained_commit": "d74d24c199dd31243853caabc291fca53b834b99",
+        "retained_feed": "data/news-feed.json",
+        "feed_generated": "2026-10-28T14:28:55Z",
+        "feed_sha256": "0110443f0df4ae3e2f5cb8f58edb7394f6653099cffd279707948f81bb916362",
+        "kind": "retained_immutable_generated_feed",
+        "primary_reverification": false
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {
+        "id": "news:bb:gjaldheimta-eykst-en-framkvaemdir-dragast-saman"
+      },
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-10-27"
+      ]
+    },
+    {
+      "id": "backfill:ab25f46b88c316c7aa2dbada",
+      "url": "https://reykjavik.is/frettir/2026/borun-hefst-eftir-heitu-vatni-i-hjarta-reykjavikur",
+      "title": "Borun hefst eftir heitu vatni í hjarta Reykjavíkur",
+      "summary": "16. október 2026 Borun hefst eftir heitu vatni í hjarta Reykjavíkur",
+      "source_date": "2026-10-16",
+      "source_month": "2026-10",
+      "date_kind": "retained_source_date_not_reverified",
+      "source": "reykjavik.is",
+      "source_lane": "news",
+      "suggestion_ids": [
+        "announcements-2026-10-23-02"
+      ],
+      "evidence": {
+        "retained_commit": "ee861821a029997d85d8236f6c17822f7e258ac1",
+        "retained_feed": "data/news-feed.json",
+        "feed_generated": "2026-10-27T06:30:01Z",
+        "feed_sha256": "656611e262372a27cedb84c25f833294ebe227367c61ffa4d79fae3d79a57898",
+        "kind": "retained_immutable_generated_feed",
+        "primary_reverification": false
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {
+        "id": "news:reykjavik:borun-hefst-eftir-heitu-vatni-i-hjarta-reykjavikur"
+      },
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-10-16"
+      ]
+    },
+    {
+      "id": "backfill:58ccbe2d1882910126257559",
+      "url": "https://braggi.is/sveitarstjorn-dalvikurbyggdar-samthykkir-gerd-nys-deiliskipulags-fyrir-athafnasv",
+      "title": "Sveitarstjórn Dalvíkurbyggðar samþykkir gerð nýs deiliskipulags fyrir athafnasvæði ofan Árskógssands",
+      "summary": "Sveitarstjórn Dalvíkurbyggðar samþykkti í einrómi að hefja vinnu við gerð nýs deiliskipulags fyrir athafnasvæði ofan Árskógssands. Skipulagið er ætlað að mæta eftirspurn eftir athafnalóðum í sveitarfélaginu og er hluti af nýju Aðalskipulagi Dalvíkurb",
+      "source_date": "2026-10-22",
+      "source_month": "2026-10",
+      "date_kind": "retained_source_date_not_reverified",
+      "source": "braggi.is",
+      "source_lane": "news",
+      "suggestion_ids": [
+        "announcements-2026-10-23-01"
+      ],
+      "evidence": {
+        "retained_commit": "5240a990d3585867d0d96059ddc996458ee4af5e",
+        "retained_feed": "data/news-feed.json",
+        "feed_generated": "2026-10-23T06:30:01Z",
+        "feed_sha256": "2fdbfb8997e447dd47d00d7a79590131d7dbf3e643586d8158aae5d6d6b6fad4",
+        "kind": "retained_immutable_generated_feed",
+        "primary_reverification": false
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {
+        "id": "news:braggi:sveitarstjorn-dalvikurbyggdar-samthykkir-gerd-nys-deiliskipulags-fyrir-athafnasv"
+      },
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-10-22"
+      ]
+    },
+    {
+      "id": "backfill:eb7052ec78c00c0182882ed8",
+      "url": "https://braggi.is/samthykkt-gerd-deiliskipulags-fyrir-athafnasvaedi-vid-melbrun-i-dalvikurbyggd",
+      "title": "Samþykkt gerð deiliskipulags fyrir athafnasvæði við Melbrún í Dalvíkurbyggð",
+      "summary": "Sveitarstjórn Dalvíkurbyggðar samþykkti að hefja vinna við gerð deiliskipulags fyrir athafnasvæði við Melbrún. Skipulagið er ætlað að mæta eftirspurn eftir athafnalóðum í sveitarfélaginu. Svæðið er skilgreint sem athafnasvæði AT-812 í nýju Aðalskipul",
+      "source_date": "2026-10-22",
+      "source_month": "2026-10",
+      "date_kind": "retained_source_date_not_reverified",
+      "source": "braggi.is",
+      "source_lane": "news",
+      "suggestion_ids": [
+        "announcements-2026-10-23-01"
+      ],
+      "evidence": {
+        "retained_commit": "5240a990d3585867d0d96059ddc996458ee4af5e",
+        "retained_feed": "data/news-feed.json",
+        "feed_generated": "2026-10-23T06:30:01Z",
+        "feed_sha256": "2fdbfb8997e447dd47d00d7a79590131d7dbf3e643586d8158aae5d6d6b6fad4",
+        "kind": "retained_immutable_generated_feed",
+        "primary_reverification": false
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {
+        "id": "news:braggi:samthykkt-gerd-deiliskipulags-fyrir-athafnasvaedi-vid-melbrun-i-dalvikurbyggd"
+      },
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-10-22"
+      ]
+    },
+    {
+      "id": "backfill:dee59d0cd917e4a50c070938",
+      "url": "https://braggi.is/samthykkt-drog-ad-viljayfirlysingu-um-gagnaver-i-dalvikurbyggd",
+      "title": "Samþykkt drög að viljayfirlýsingu um gagnaver í Dalvíkurbyggð",
+      "summary": "Sveitarstjórn Dalvíkurbyggðar samþykkti drög að óbindandi viljayfirlýsingu um fyrirhugaða uppbyggingu gagnavers í sveitarfélaginu. Viljayfirlýsingin var samþykkt samhljóða með 7 atkvæðum og beinist að Magnúsi Baldvini Friðrikssyni og Mikaeli Olasoni",
+      "source_date": "2026-10-22",
+      "source_month": "2026-10",
+      "date_kind": "retained_source_date_not_reverified",
+      "source": "braggi.is",
+      "source_lane": "news",
+      "suggestion_ids": [
+        "announcements-2026-10-23-01"
+      ],
+      "evidence": {
+        "retained_commit": "5240a990d3585867d0d96059ddc996458ee4af5e",
+        "retained_feed": "data/news-feed.json",
+        "feed_generated": "2026-10-23T06:30:01Z",
+        "feed_sha256": "2fdbfb8997e447dd47d00d7a79590131d7dbf3e643586d8158aae5d6d6b6fad4",
+        "kind": "retained_immutable_generated_feed",
+        "primary_reverification": false
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {
+        "id": "news:braggi:samthykkt-drog-ad-viljayfirlysingu-um-gagnaver-i-dalvikurbyggd"
+      },
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-10-22"
+      ]
+    },
+    {
+      "id": "backfill:0bb32cac772f2df0d91f0687",
+      "url": "https://byggingar.is/launafl-faer-92-4-milljona-loftraestiverk-i-fjardabyggdarhollinni",
+      "title": "Launafl fær 92.4 milljóna loftræstiverk í Fjarðabyggðarhöllinni",
+      "summary": "Launafl fær 92.4 milljóna loftræstiverk í Fjarðabyggðarhöllinni",
+      "source_date": "2026-09-05",
+      "source_month": "2026-09",
+      "date_kind": "retained_source_date_not_reverified",
+      "source": "byggingar.is",
+      "source_lane": "news",
+      "suggestion_ids": [
+        "weekly-2026-10-09-01"
+      ],
+      "evidence": {
+        "retained_commit": "7be1aa0a9de62b862e412aaeeeffa970d17986c5",
+        "retained_feed": "data/news-feed.json",
+        "feed_generated": "2026-10-01T06:30:01Z",
+        "feed_sha256": "b576c86d569049d4d615fff9eb68e3edbd3caf3522fbe678a9eff8e6c8df4414",
+        "kind": "retained_immutable_generated_feed",
+        "primary_reverification": false
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {
+        "id": "news:byggingar:launafl-faer-92-4-milljona-loftraestiverk-i-fjardabyggdarhollinni"
+      },
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-09-05"
+      ],
+      "filed_source_date_claim": "2026-09-30",
+      "suggestion_date_conflict": true
+    },
+    {
+      "id": "backfill:034b57478f1675c511a463f0",
+      "url": "https://uua.is/urleits/uua2610020-thjorsarkvisl",
+      "title": "UUA2610020 Þjórsárkvísl",
+      "summary": "Árið 2026, miðvikudaginn 21. október, kom úrskurðarnefnd umhverfis- og auðlindamála saman til fundar í húsnæði nefndarinnar að Borgartúni 21, Reykjavík. Mætt voru Arnór Snæbjörnsson formaður, Unnþór Jónsson varaformaður og Karólína...",
+      "source_date": "2026-10-21",
+      "source_month": "2026-10",
+      "date_kind": "source_publication",
+      "source": "uua-ruling-archive",
+      "source_lane": "uua",
+      "suggestion_ids": [
+        "announcements-2026-11-06-02"
+      ],
+      "evidence": {
+        "retained_commit": "101e43a41d6e85b7db134d44ab5a573a0f24d020",
+        "retained_feed": "data/public-info-feed.json",
+        "feed_generated": "2026-11-23T13:01:49Z",
+        "feed_sha256": "583c1127e1061cf5e5f70486685b312074f734ea788ce7923cfa9fbed0b0391f",
+        "kind": "retained_immutable_generated_feed",
+        "primary_reverification": false
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {
+        "id": "uua:UUA2610020",
+        "status": "ruling",
+        "intelligence_type": "public_record",
+        "case_number": "UUA2610020"
+      },
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-10-21"
+      ]
+    },
+    {
+      "id": "backfill:2e3e12790b1af2910fea37ed",
+      "url": "https://www.althingi.is/altext/158/s/0038.html",
+      "title": "umhverfismat framkvæmda og áætlana og skipulagslög",
+      "summary": "umsagnarfrestur",
+      "source_date": "2026-09-11",
+      "source_month": "2026-09",
+      "date_kind": "retained_source_date_not_reverified",
+      "source": "althingi-bills",
+      "source_lane": "legislation",
+      "suggestion_ids": [
+        "announcements-2026-10-16-01"
+      ],
+      "evidence": {
+        "retained_commit": "101e43a41d6e85b7db134d44ab5a573a0f24d020",
+        "retained_feed": "data/public-info-feed.json",
+        "feed_generated": "2026-11-23T13:01:49Z",
+        "feed_sha256": "583c1127e1061cf5e5f70486685b312074f734ea788ce7923cfa9fbed0b0391f",
+        "kind": "retained_immutable_generated_feed",
+        "primary_reverification": false
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {
+        "id": "legislation:althingi:158:38",
+        "status": "in_progress",
+        "intelligence_type": "public_record",
+        "legislative_stage": "Bíður 1. umræðu."
+      },
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-09-11"
+      ]
+    },
+    {
+      "id": "backfill:5a366a10d075456ad3406612",
+      "url": "https://www.althingi.is/altext/158/s/0007.html",
+      "title": "skipulagslög",
+      "summary": "breytingar á svæðisskipulagi",
+      "source_date": "2026-09-10",
+      "source_month": "2026-09",
+      "date_kind": "retained_source_date_not_reverified",
+      "source": "althingi-bills",
+      "source_lane": "legislation",
+      "suggestion_ids": [
+        "announcements-2026-10-16-01"
+      ],
+      "evidence": {
+        "retained_commit": "101e43a41d6e85b7db134d44ab5a573a0f24d020",
+        "retained_feed": "data/public-info-feed.json",
+        "feed_generated": "2026-11-23T13:01:49Z",
+        "feed_sha256": "583c1127e1061cf5e5f70486685b312074f734ea788ce7923cfa9fbed0b0391f",
+        "kind": "retained_immutable_generated_feed",
+        "primary_reverification": false
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {
+        "id": "legislation:althingi:158:7",
+        "status": "in_progress",
+        "intelligence_type": "public_record",
+        "legislative_stage": "Bíður 1. umræðu."
+      },
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-09-10"
+      ]
+    },
+    {
+      "id": "backfill:a22c72caacab5df3cbe02d54",
+      "url": "https://www.althingi.is/altext/158/s/0019.html",
+      "title": "flýtiframkvæmd vatnsaflsvirkjana",
+      "summary": "",
+      "source_date": "2026-09-10",
+      "source_month": "2026-09",
+      "date_kind": "retained_source_date_not_reverified",
+      "source": "althingi-bills",
+      "source_lane": "legislation",
+      "suggestion_ids": [
+        "announcements-2026-10-16-01"
+      ],
+      "evidence": {
+        "retained_commit": "101e43a41d6e85b7db134d44ab5a573a0f24d020",
+        "retained_feed": "data/public-info-feed.json",
+        "feed_generated": "2026-11-23T13:01:49Z",
+        "feed_sha256": "583c1127e1061cf5e5f70486685b312074f734ea788ce7923cfa9fbed0b0391f",
+        "kind": "retained_immutable_generated_feed",
+        "primary_reverification": false
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {
+        "id": "legislation:althingi:158:19",
+        "status": "in_progress",
+        "intelligence_type": "public_record",
+        "legislative_stage": "Bíður 1. umræðu."
+      },
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-09-10"
+      ]
+    },
+    {
+      "id": "backfill:1e21234dbe02af014ef9409c",
+      "url": "https://byggingar.is/landsvirkjun-leitar-verktaka-i-gufuveitu-a-theistareykjum",
+      "title": "Landsvirkjun leitar verktaka í gufuveitu á Þeistareykjum",
+      "summary": "a-type=\"image_tag\" data-img-url=\"https://byggingar.is/wp-content/uploads/2026/11/18.11.2025-Landsvirkjun_THeistareykir-100x75.jpg\" width=\"100\" height=\"75\" /> Landsvirkjun leitar verktaka í gufuveitu á Þeistareykjum 19/11/2026 <div class=\"td_modu",
+      "source_date": "2026-11-18",
+      "source_month": "2026-11",
+      "date_kind": "retained_source_date_not_reverified",
+      "source": "byggingar-opnun-utboda",
+      "source_lane": "announcement",
+      "suggestion_ids": [
+        "news-2026-11-20-02"
+      ],
+      "evidence": {
+        "retained_commit": "59515cb8d808e63347477987fc258550e272f0b2",
+        "retained_feed": "data/public-info-feed.json",
+        "feed_generated": "2026-11-19T06:45:01Z",
+        "feed_sha256": "aee47ca61a2778744b44ea2ab97906a6320ad5b37c27a236c61f68486f958faf",
+        "kind": "retained_immutable_generated_feed",
+        "primary_reverification": false
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {
+        "id": "announcement:byggingar-opnun-utboda:landsvirkjun-leitar-verktaka-i-gufuveitu-a-theistareykjum",
+        "status": "published",
+        "intelligence_type": "public_record"
+      },
+      "source_date_conflict": true,
+      "observed_source_dates": [
+        "2026-11-18",
+        "2026-11-19"
+      ]
+    },
+    {
+      "id": "backfill:6da15078f7f3f2891e7529e4",
+      "url": "https://byggingar.is/bilastaeda-og-taeknihus-nys-landspitala-opnad-eykt-annadist-bygginguna",
+      "title": "Bílastæða- og tæknihús nýs Landspítala opnað – Eykt annaðist bygginguna",
+      "summary": "ngar.is/wp-content/uploads/2026/11/18.11.2025-Bilastaeda-og-taeknihus-nys-Landspitala-opnad-–-Eykt-annadist-bygginguna-100x75.jpg\" width=\"100\" height=\"75\" /> Bílastæða- og tæknihús nýs Landspítala opnað – Eykt annaðist bygginguna 19/11/2026 <div cl",
+      "source_date": "2026-11-18",
+      "source_month": "2026-11",
+      "date_kind": "retained_source_date_not_reverified",
+      "source": "byggingar-opnun-utboda",
+      "source_lane": "announcement",
+      "suggestion_ids": [
+        "news-2026-11-20-02"
+      ],
+      "evidence": {
+        "retained_commit": "59515cb8d808e63347477987fc258550e272f0b2",
+        "retained_feed": "data/public-info-feed.json",
+        "feed_generated": "2026-11-19T06:45:01Z",
+        "feed_sha256": "aee47ca61a2778744b44ea2ab97906a6320ad5b37c27a236c61f68486f958faf",
+        "kind": "retained_immutable_generated_feed",
+        "primary_reverification": false
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {
+        "id": "announcement:byggingar-opnun-utboda:bilastaeda-og-taeknihus-nys-landspitala-opnad-eykt-annadist-bygginguna",
+        "status": "published",
+        "intelligence_type": "public_record"
+      },
+      "source_date_conflict": true,
+      "observed_source_dates": [
+        "2026-11-18",
+        "2026-11-19"
+      ]
+    },
+    {
+      "id": "backfill:6e073deced136b33a30698e5",
+      "url": "https://byggingar.is/heradsverk-endurnyjar-bru-yfir-helgustadaa-verklok-aaetlud-i-desember",
+      "title": "Héraðsverk endurnýjar brú yfir Helgustaðaá – verklok áætluð í desember",
+      "summary": "data-img-url=\"https://byggingar.is/wp-content/uploads/2026/11/11.11.2026-Heradsverk-endurnyjar-bru-yfir-Helgustadaa-a-100x75.jpg\" width=\"100\" height=\"75\" /> Héraðsverk endurnýjar brú yfir Helgustaðaá – verklok áætluð í desember 12/11/2026 <div class=\"td_modu",
+      "source_date": "2026-11-11",
+      "source_month": "2026-11",
+      "date_kind": "retained_source_date_not_reverified",
+      "source": "byggingar-opnun-utboda",
+      "source_lane": "announcement",
+      "suggestion_ids": [
+        "weekly-2026-11-13-01"
+      ],
+      "evidence": {
+        "retained_commit": "602e14c5271c47b4ba98a0997eef2cea8384856a",
+        "retained_feed": "data/public-info-feed.json",
+        "feed_generated": "2026-11-12T08:12:49Z",
+        "feed_sha256": "77f54cebaba3ec378c2d48d9babbc0b3b28823dc5f1a2c4895ffae2287dcb140",
+        "kind": "retained_immutable_generated_feed",
+        "primary_reverification": false
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {
+        "id": "announcement:byggingar-opnun-utboda:heradsverk-endurnyjar-bru-yfir-helgustadaa-verklok-aaetlud-i-desember",
+        "status": "published",
+        "intelligence_type": "public_record"
+      },
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-11-11"
+      ],
+      "filed_source_date_claim": "2026-11-12",
+      "suggestion_date_conflict": true
+    },
+    {
+      "id": "backfill:67a81d2bf40f7f8d030096dc",
+      "url": "https://byggingar.is/grunnur-nys-ithrottahuss-kr-fullsteyptur-vinna-hafin-med-uppslatt-veggja",
+      "title": "Grunnur nýs íþróttahúss KR fullsteyptur – Vinna hafin með uppslátt veggja",
+      "summary": ".is/wp-content/uploads/2026/11/10.11.2026-Grunnur-nys-ithrottahuss-KR-fullsteyptur-–-Vinna-hafin-med-uppslatt-veggja-a-100x75.jpg\" width=\"100\" height=\"75\" /> Grunnur nýs íþróttahúss KR fullsteyptur – Vinna hafin með uppslátt veggja 10/11/2026 <div class=\"td_modu",
+      "source_date": "2026-11-10",
+      "source_month": "2026-11",
+      "date_kind": "retained_source_date_not_reverified",
+      "source": "byggingar-opnun-utboda",
+      "source_lane": "announcement",
+      "suggestion_ids": [
+        "weekly-2026-11-13-01"
+      ],
+      "evidence": {
+        "retained_commit": "af17b9b86d5d6ccf2ca443d649f1675f95afeb80",
+        "retained_feed": "data/public-info-feed.json",
+        "feed_generated": "2026-11-11T06:45:01Z",
+        "feed_sha256": "5d11c08844f6b3c1cbe206771636c7f101cb515b5bed9981b001a7a4e27e1824",
+        "kind": "retained_immutable_generated_feed",
+        "primary_reverification": false
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {
+        "id": "announcement:byggingar-opnun-utboda:grunnur-nys-ithrottahuss-kr-fullsteyptur-vinna-hafin-med-uppslatt-veggja",
+        "status": "published",
+        "intelligence_type": "public_record"
+      },
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-11-10"
+      ]
+    },
+    {
+      "id": "backfill:6dda51c0a599b16b9318d380",
+      "url": "https://island.is/s/haestirettur/akvardanir/2C2312AC-2885-4A77-B90F-8014C5B50D88",
+      "title": "Hvammsvirkjun — Supreme Court leave decision 2026-96",
+      "summary": "Áfrýjunarleyfi. Stjórnsýsla. Stjórnvaldsákvörðun. Lögskýring. Umhverfi. Raforka. Vatnamál. EES-samningurinn. Hafnað",
+      "source_date": "2026-10-05",
+      "source_month": "2026-10",
+      "date_kind": "source_publication_date",
+      "source": "haestirettur-leave-to-appeal",
+      "source_lane": "court",
+      "suggestion_ids": [
+        "announcements-2026-10-08-03",
+        "announcements-2026-10-08-04",
+        "announcements-2026-10-08-05"
+      ],
+      "evidence": {
+        "kind": "existing_primary_court_record",
+        "feed_generated": "2026-11-23T13:01:49Z",
+        "feed_sha256": "583c1127e1061cf5e5f70486685b312074f734ea788ce7923cfa9fbed0b0391f",
+        "primary_reverification": false
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {
+        "id": "haestirettur:leave:2026-96",
+        "status": "leave_to_appeal_decision",
+        "intelligence_type": "public_record",
+        "case_number": "2026-96"
+      },
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-10-05"
+      ]
+    },
+    {
+      "id": "backfill:61abc7e61ef1f68386718759",
+      "url": "https://bb.is/2026/11/arctic-fish-metmagni-slatrad-a-fyrstu-niu-manudum-arsins-en-krefjandi-rekstrarumhverfi",
+      "title": "Arctic Fish: Metmagni slátrað á fyrstu níu mánuðum ársins en krefjandi rekstrarumhverfi",
+      "summary": "Arctic Fish hefur birt uppgjör þriðja ársfjórðungs 2026. Á fyrstu níu mánuðum ársins slátraði félagið 15.613 tonnum af laxi. Það er 48% aukning frá sama tímabili í fyrra og meira en slátrað var allt árið 2025, sem var þá metár með 14.791 tonn. Rekstrartekjur námu um 13,5 milljörðum króna, samanborið við 9,1 milljarð króna á...",
+      "source_date": "2026-11-04",
+      "source_month": "2026-11",
+      "date_kind": "source_publication_date",
+      "source": "bb.is",
+      "source_lane": "news",
+      "suggestion_ids": [
+        "news-2026-11-05-01"
+      ],
+      "evidence": {
+        "kind": "primary_page_public_heading_metadata",
+        "sha256": "b998a0dcc43593118ac361a61ae524ccce6d9376ce6044959a710baa790de8e4",
+        "full_article_body_extracted": false,
+        "summary_basis": "public_page_description_only"
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {},
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-11-04"
+      ]
+    },
+    {
+      "id": "backfill:4d1d7166b541aa1e02b567f2",
+      "url": "https://vb.is/frettir/engin-verkefni-munck-islandi",
+      "title": "Engin verkefni Munck á Íslandi",
+      "summary": "Tap verktakafélagsins hélt áfram á síðasta rekstrarári en danska samstæðan snéri tveggja ára taprekstri í hagnað.",
+      "source_date": "2021-01-22",
+      "source_month": "2021-01",
+      "date_kind": "source_publication_date",
+      "source": "vb.is",
+      "source_lane": "news",
+      "suggestion_ids": [
+        "news-2026-10-28-01"
+      ],
+      "evidence": {
+        "kind": "primary_page_public_heading_metadata",
+        "sha256": "4b4d430acc2cc39131a43c24bb5363463ba777126f562bf70a8d0c6df1eb719e",
+        "full_article_body_extracted": false,
+        "summary_basis": "public_page_description_only"
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {},
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2021-01-22"
+      ]
+    },
+    {
+      "id": "backfill:44c8dc332e7ccc220d2232f6",
+      "url": "https://vitinn.news/grein/8dcc9e02-3bb8-4b8e-b8fe-39e765531dd4",
+      "title": "Fá ekki að áfrýja dómi um virkjunarleyfi Hvammsvirkjunar beint til Hæstaréttar",
+      "summary": "Hlutlaus og skýr forsaga, en fréttin ruglar saman dómstigum í lykilsetningu og segir ekkert um næstu skref landeigenda.",
+      "source_date": "2026-10-06",
+      "source_month": "2026-10",
+      "date_kind": "source_publication_date",
+      "source": "vitinn.news",
+      "source_lane": "news",
+      "suggestion_ids": [
+        "announcements-2026-10-08-03",
+        "announcements-2026-10-08-04"
+      ],
+      "evidence": {
+        "kind": "primary_page_public_heading_metadata",
+        "sha256": "943a684da48f4410b801d6afc9d67a9d5b890c5bb34c3c16969539a5ef3360ad",
+        "full_article_body_extracted": false,
+        "summary_basis": "public_page_description_only"
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {},
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-10-06"
+      ]
+    },
+    {
+      "id": "backfill:b1216e1931ad950f24503787",
+      "url": "https://bb.is/2026/09/sudavik-fagnad-framkvaemdum-a-langeyri",
+      "title": "Súðavík: fagnað framkvæmdum á Langeyri",
+      "summary": "Í gær var efnt til reisugildis á Langeyrinni í Súðavík. Fagnað var því búið er að reisa sperrur á nýju verksmiðjuhúsi fyrir kalkþörungaverksmiðju. Það er Íslenska kalkþörungafélagið sem byggir en ungverska verktakafyrirtækið Lakogep varð hlutskapast og er verktakinn. Fyrirtækið Tígur ehf annast jarðvegsframkvæmdir. Verkís og Efla hafa annast teikningur og eftirlit. Húsið er um 100...",
+      "source_date": "2026-09-03",
+      "source_month": "2026-09",
+      "date_kind": "source_publication_date",
+      "source": "bb.is",
+      "source_lane": "news",
+      "suggestion_ids": [
+        "weekly-2026-10-08-02"
+      ],
+      "evidence": {
+        "kind": "primary_page_public_heading_metadata",
+        "sha256": "8f7c81890da498b735a5dbfd43725d649c35126c2c3207f2667f9d22242aa241",
+        "full_article_body_extracted": false,
+        "summary_basis": "public_page_description_only"
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {},
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-09-03"
+      ]
+    },
+    {
+      "id": "backfill:a18a6efb14c47717c73b4708",
+      "url": "https://www.faxafloahafnir.is/article/nytt-gamasvaedi-og-baett-lysing-a-grundartanga",
+      "title": "Nýtt gámasvæði og stórbætt lýsing á Grundartanga",
+      "summary": "Framkvæmdum við nýtt gámasvæði Faxaflóahafna á baksvæði Tangabakka á Grundartanga er lokið. Með framkvæmdinni hefur orðið mikil framför í aðstöðu til...",
+      "source_date": "2026-10-05",
+      "source_month": "2026-10",
+      "date_kind": "source_publication_date",
+      "source": "www.faxafloahafnir.is",
+      "source_lane": "news",
+      "suggestion_ids": [
+        "announcements-2026-10-08-06"
+      ],
+      "evidence": {
+        "kind": "primary_page_public_heading_metadata",
+        "sha256": "05fc6602fa7bee284ede5ac897d50b8e2a1a5de64df7170f809ebf051acbddfa",
+        "full_article_body_extracted": false,
+        "summary_basis": "public_page_description_only"
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {},
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-10-05"
+      ]
+    },
+    {
+      "id": "backfill:d6a5b8b93d09e504956bbb9b",
+      "url": "https://www.faxafloahafnir.is/article/nyr-sjovarnargardur-risinn-a-grundartanga",
+      "title": "Nýr sjóvarnargarður risinn á Grundartanga",
+      "summary": "Framkvæmdum við nýjan sjóvarnargarð á Grundartanga er lokið. Yfir 200 þúsund rúmmetrar af kjarna og grjóti fóru í framkvæmdina. Garðurinn er hluti af nýrri...",
+      "source_date": "2026-10-02",
+      "source_month": "2026-10",
+      "date_kind": "source_publication_date",
+      "source": "www.faxafloahafnir.is",
+      "source_lane": "news",
+      "suggestion_ids": [
+        "announcements-2026-10-08-06"
+      ],
+      "evidence": {
+        "kind": "primary_page_public_heading_metadata",
+        "sha256": "7eb3721d8261f3156d67e189e88a49e6b1670efa363f272e04846c9f2423a7c0",
+        "full_article_body_extracted": false,
+        "summary_basis": "public_page_description_only"
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {},
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-10-02"
+      ]
+    },
+    {
+      "id": "backfill:3d535336fbd6113e9eaf3d33",
+      "url": "https://www.faxafloahafnir.is/article/endurbaett-hafnaradstada-skapar-aukin-taekifaeri-fyrir-akranes",
+      "title": "Endurbætt hafnaraðstaða skapar aukin tækifæri fyrir Akranes",
+      "summary": "Framkvæmdum Faxaflóahafna við Aðalhafnargarð á Akranesi er lokið. Með lengingu og endurbótum á hafnarbakkanum hefur aðstaða Akraneshafnar verið stórbætt og...",
+      "source_date": "2026-09-23",
+      "source_month": "2026-09",
+      "date_kind": "source_publication_date",
+      "source": "www.faxafloahafnir.is",
+      "source_lane": "news",
+      "suggestion_ids": [
+        "announcements-2026-10-08-06"
+      ],
+      "evidence": {
+        "kind": "primary_page_public_heading_metadata",
+        "sha256": "37d3379100caf831a1f00848c22c41dd36ed7a8e13a9c65ef79a9e1d99df44fb",
+        "full_article_body_extracted": false,
+        "summary_basis": "public_page_description_only"
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {},
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-09-23"
+      ]
+    },
+    {
+      "id": "backfill:2e07227c6c429b39df2c2306",
+      "url": "https://www.visir.is/g/20262939037d/borgarverk-med-laegsta-bod-i-thjors-ar-bru-og-budafossveg",
+      "title": "Borgarverk með lægsta boð í Þjórs­ár­brú og Búðafossveg",
+      "summary": "Borgarverk ehf. í Borgarnesi átti lægsta boð í smíði nýrrar Þjórsárbrúar á móts við þorpið Árnes og lagningu Búðafossvegar. Tilboð Borgarverks hljóðar upp á liðlega 2,5 milljarða króna og var 87% af kostnaðaráætlun, sem var upp á rétt rúma 2,9 milljarða króna.",
+      "source_date": "2026-09-24",
+      "source_month": "2026-09",
+      "date_kind": "source_publication_date",
+      "source": "www.visir.is",
+      "source_lane": "news",
+      "suggestion_ids": [
+        "news-2026-10-30-02"
+      ],
+      "evidence": {
+        "kind": "primary_page_public_heading_metadata",
+        "sha256": "66e66c21b81538941a4b1a7c963568eec017d69cffdb2a356aa719e1c5c216c1",
+        "full_article_body_extracted": false,
+        "summary_basis": "public_page_description_only"
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {},
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-09-24"
+      ]
+    },
+    {
+      "id": "backfill:3f88eebae35f5eaee6f30cf0",
+      "url": "https://www.mbl.is/frettir/innlent/2026/11/03/gagnaversrisa_stefnt_fyrir_900_milljonir",
+      "title": "Gagnaversrisanum á Blönduós stefnt fyrir 900 milljónir",
+      "summary": "Borealis Data Center, sem rekur gagnaver við Blönduós, hefur verið stefnt fyrir Héraðsdóm Reykjavíkur vegna meintra vanefnda á leigusamningi.",
+      "source_date": "2026-11-03",
+      "source_month": "2026-11",
+      "date_kind": "source_publication_date",
+      "source": "www.mbl.is",
+      "source_lane": "news",
+      "suggestion_ids": [
+        "news-2026-11-05-01"
+      ],
+      "evidence": {
+        "kind": "primary_page_public_heading_metadata",
+        "sha256": "a6556cef6deb8ccda427672e2df99bde3e0a732efd95dee427c2102129c3b8ad",
+        "full_article_body_extracted": false,
+        "summary_basis": "public_page_description_only"
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {},
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-11-03"
+      ]
+    },
+    {
+      "id": "backfill:bdba32e0e0d0af24f9cd05d7",
+      "url": "https://vb.is/frettir/hotelturninn-vedsettur-fyrir-185-milljarda-krona",
+      "title": "Hótelturninn veðsettur fyrir 18,5 milljarða króna",
+      "summary": "Samkvæmt ársreikningi S26 Hotel ehf. námu heildarskuldir félagsins 10 milljörðum króna í árslok 2025.",
+      "source_date": "2026-11-03",
+      "source_month": "2026-11",
+      "date_kind": "source_publication_date",
+      "source": "vb.is",
+      "source_lane": "news",
+      "suggestion_ids": [
+        "news-2026-11-05-01"
+      ],
+      "evidence": {
+        "kind": "primary_page_public_heading_metadata",
+        "sha256": "37b87f32dd1ec1172f47f77e4de55bbb668eecf308090b66ee4041a3339df879",
+        "full_article_body_extracted": false,
+        "summary_basis": "public_page_description_only"
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {},
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-11-03"
+      ]
+    },
+    {
+      "id": "backfill:681c93a592db22ff479986bf",
+      "url": "https://skessuhorn.is/2026/07/19/bjoda-ut-breikkun-vesturlandsvegar-a-kjalarnesi",
+      "title": "Bjóða út breikkun Vesturlandsvegar á Kjalarnesi",
+      "summary": "",
+      "source_date": "2026-07-19",
+      "source_month": "2026-07",
+      "date_kind": "source_publication_date",
+      "source": "skessuhorn.is",
+      "source_lane": "news",
+      "suggestion_ids": [
+        "news-2026-11-06-02"
+      ],
+      "evidence": {
+        "kind": "primary_article_heading_and_time",
+        "sha256": "549d75152f39693fac1fd4fb93b8ce44e4174eae336c013d58d4c79991850f6c",
+        "full_article_body_extracted": false
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {},
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-07-19"
+      ]
+    },
+    {
+      "id": "backfill:c4a25c3689981b21e3389991",
+      "url": "https://www.vf.is/vidskipti/uppbygging-atnorth-i-reykjanesbae-32-milljardar-2026",
+      "title": "Uppbygging atNorth í Reykjanesbæ 32 milljarðar 2026",
+      "summary": "Tekjur atNorth ehf., sem heldur utan um starfsemi atNorth á Íslandi, námu 72,3 milljónum Bandaríkjadala árið 2025 og jukust um rúm 96 prósent frá fyrra ári. Rekstrarhagnaður fyrir afskriftir (EBITDA) nam 25,9 milljónum dala, samanborið við 2,3 milljónir dala árið 2024. Reksturinn skilaði jafnfram...",
+      "source_date": "2026-08-31",
+      "source_month": "2026-08",
+      "date_kind": "source_publication_date",
+      "source": "www.vf.is",
+      "source_lane": "news",
+      "suggestion_ids": [
+        "news-2026-11-06-03"
+      ],
+      "evidence": {
+        "kind": "primary_page_public_heading_metadata",
+        "sha256": "31de99f13b25d7edfb92bdaad98866f16bc7d4f26450bbcc7faf20ece870c3e2",
+        "full_article_body_extracted": false,
+        "summary_basis": "public_page_description_only"
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {},
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-08-31"
+      ]
+    },
+    {
+      "id": "backfill:65469aa934973cfa96730250",
+      "url": "https://stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-11-12-fyrsta-skoflustunga-ad-nyrri-thjodarholl",
+      "title": "Fyrsta skóflustunga að nýrri Þjóðarhöll",
+      "summary": "Fyrsta skóflustunga að nýrri Þjóðarhöll í Laugardal var tekin í dag, fimmtudaginn 12. nóvember 2026. Þar með eru framkvæmdir formlega hafnar við nýjan heimavöll íslenskra landsliða í innanhússíþróttum, mannvirki sem stenst alþjóðlegar kröfur um keppnisaðstöðu. Ný Þjóðarhöll markar tímamót í uppbyggingu Laugardals og gjörbyltir aðstöðu barna og ungmenna í Laugardal til æfinga, keppni og skólastarfs.",
+      "source_date": "2026-11-12",
+      "source_month": "2026-11",
+      "date_kind": "source_publication_date",
+      "source": "stjornarradid.is",
+      "source_lane": "news",
+      "suggestion_ids": [
+        "news-2026-11-13-01"
+      ],
+      "evidence": {
+        "kind": "primary_page_public_heading_metadata",
+        "sha256": "f23dc566e142b290cd220e8214a9c8335380dd5f2adb9c1c680704032260d6ff",
+        "full_article_body_extracted": false,
+        "summary_basis": "public_page_description_only"
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {},
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-11-12"
+      ]
+    },
+    {
+      "id": "backfill:0208b1749ac53e0074d717d0",
+      "url": "https://reykjavik.is/fundargerdir/umhverfis-og-skipulagsrad-fundur-nr-394",
+      "title": "Lögð fram svohljóðandi tillaga fulltrúa Sjálfstæðisflokksins, Viðreisnar og Framsóknarflokksins:",
+      "summary": "Lögð fram svohljóðandi tillaga fulltrúa Sjálfstæðisflokksins, Viðreisnar og Framsóknarflokksins: Lagt er til að umhverfis- og skipulagssvið, undir stjórn umhverfis- og skipulagsráðs, hefji strax undirbúning að endurskoðun aðalskipulags Reykjavíkur. Sérstakur stýrihópur, skipaður af umhverfis- og skipulagsráði mun hafa yfirumsjón með verkinu. Endurskoðun mun m.a. fela í sér endurmat á framtíðarsýn og lengingu skipulagstímabils auk endurskoðunar á stefnuákvæðum fyrir valin svæði og málaflokka. Greinargerð fylgir tillögu. Samþykkt. Vísað til borgarráðs. Haraldur Sigurðsson tekur sæti á fundinum u",
+      "source_date": "2026-11-04",
+      "source_month": "2026-11",
+      "date_kind": "meeting_date",
+      "source": "reykjavik-board-minutes",
+      "source_lane": "planning",
+      "suggestion_ids": [
+        "announcements-2026-11-06-03"
+      ],
+      "evidence": {
+        "kind": "first_party_numbered_case_decision",
+        "sha256": "5f781faeb8031339a89e567854fe29a28110160bfec4fd3bdfc04cab322c9b86",
+        "date_is_meeting_not_publication": true
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {
+        "id": "reykjavik-board-minutes:4721051a3874cc5437:agenda_79906:829369ef90",
+        "date_provenance": "primary_meeting_header; not publication date",
+        "status": "municipal_minutes",
+        "case_number": "agenda_79906",
+        "meeting_date": "2026-11-04",
+        "is_open_opportunity": false
+      },
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-11-04"
+      ]
+    },
+    {
+      "id": "backfill:f72566ad057c7e3f6b8abbec",
+      "url": "https://reykjavik.is/fundargerdir/umhverfis-og-skipulagsrad-fundur-nr-394",
+      "title": "Lögð fram umsókn BBL 177 ehf., dags. 28. september 2026, um breytingu á deiliskipulagi Klettasvæðis vegna lóðarinnar nr. 27 við Klettagarða. Í breytingunni sem lögð er til felst að bílastæðum verður fjölgað á lóðinni ásamt því að heimilt ve",
+      "summary": "Lögð fram umsókn BBL 177 ehf., dags. 28. september 2026, um breytingu á deiliskipulagi Klettasvæðis vegna lóðarinnar nr. 27 við Klettagarða. Í breytingunni sem lögð er til felst að bílastæðum verður fjölgað á lóðinni ásamt því að heimilt verði að afmarka allt að 81 rafhleðslustöðvarstæði fyrir hópbifreiðir í tengslum við rekstur á lóðinni, samkvæmt uppdr. Unit ehf., dags. 20. október 2026. Lagt er til að tillagan verði samþykkt í auglýsingu. Samþykkt að auglýsa framlagða tillögu, skv. 1. mgr. 41. gr. sbr. 1. mgr. 43. gr. skipulagslaga nr. 123/2010. Vísað til borgarráðs. Helga Rún Guðmundsdótti",
+      "source_date": "2026-11-04",
+      "source_month": "2026-11",
+      "date_kind": "meeting_date",
+      "source": "reykjavik-board-minutes",
+      "source_lane": "planning",
+      "suggestion_ids": [
+        "announcements-2026-11-06-03"
+      ],
+      "evidence": {
+        "kind": "first_party_numbered_case_decision",
+        "sha256": "5f781faeb8031339a89e567854fe29a28110160bfec4fd3bdfc04cab322c9b86",
+        "date_is_meeting_not_publication": true
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {
+        "id": "reykjavik-board-minutes:4721051a3874cc5437:agenda_79793:316add009e",
+        "date_provenance": "primary_meeting_header; not publication date",
+        "status": "municipal_minutes",
+        "case_number": "agenda_79793",
+        "meeting_date": "2026-11-04",
+        "is_open_opportunity": false
+      },
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-11-04"
+      ]
+    },
+    {
+      "id": "backfill:a4e866fb87a1c1536ffd41eb",
+      "url": "https://www.kopavogur.is/stjornsysla/fundargerdir/skipulags-og-umhverfisrad/1YQNkaPiQ0iIFDMscKR51A1",
+      "title": "Hafnarbraut 25. Breytt deiliskipulag.",
+      "summary": "Lögð fram að nýju umsókn M3 studio arkitekta dags. 10. júní 2026 f.h. lóðarhafa lóðarinnar nr. 25 við Hafnarbraut um breytingu á deiliskipulagi Kársneshafnar. Í breytingunni felst að byggð verði fjögurra hæða fjölnota bygging með 50 íbúðum, verslunar- og þjónusturými á jarðhæð, bílageymslum í kjallara og á 1. hæð auk sameiginlegs garðrýmis ofan á 1. hæð. Breytingartillögunni fylgir skýringahefti dags. 18. maí 2026 og dagsbirtugreiningar ódags. Byggingarmagn eykst úr 1.038 m² í 10.575 m², nýtingarhlutfall ofanjarðar verður 2,28 og heildarfjöldi bílastæða verður 177. Á fundi skipulags- og umhver",
+      "source_date": "2026-11-02",
+      "source_month": "2026-11",
+      "date_kind": "meeting_date",
+      "source": "kopavogur-planning-board",
+      "source_lane": "planning",
+      "suggestion_ids": [
+        "announcements-2026-11-06-03"
+      ],
+      "evidence": {
+        "kind": "first_party_numbered_case_decision",
+        "sha256": "32910726bda97d1928e0c818faffaf2ff81d982b4d83c17c100680fe9899d47f",
+        "date_is_meeting_not_publication": true
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {
+        "id": "kopavogur-planning-board:3b53ab9498148c2df3:26061578:c07df6b2f4",
+        "date_provenance": "primary_meeting_header; not publication date",
+        "status": "municipal_minutes",
+        "case_number": "26061578",
+        "meeting_date": "2026-11-02",
+        "is_open_opportunity": false
+      },
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-11-02"
+      ]
+    },
+    {
+      "id": "backfill:ec98510f71b65de77c574eda",
+      "url": "https://www.kopavogur.is/stjornsysla/fundargerdir/skipulags-og-umhverfisrad/1YQNkaPiQ0iIFDMscKR51A1",
+      "title": "Reitur 4 við Hafnarbraut. Fyrirspurn.",
+      "summary": "Lögð fram að nýju fyrirspurn Félagsstofnunar stúdenta dags. 1. júlí 2026 um uppbyggingu á stúdentagörðum á reit 4 á vesturhluta Kársness. Fyrirspurninni fylgja skissur unnar af Andrúm arkitektum dags. í júlí 2026 að mögulegri uppbyggingu fjögurra, fjögurra hæða húsa með um 144 einstaklingsíbúðum, samtals 7.350 m² að flatarmáli. Ekki er gert ráð fyrir bílastæðum á lóðinni. Á fundi skipulags- og umhverfisráðs þann 17. ágúst 2026 var fyrirspurninni vísað til umsagnar skipulagsfulltrúa. Einnig er lögð fram umsögn skipulagsfulltrúa dags. 30. október 2026.",
+      "source_date": "2026-11-02",
+      "source_month": "2026-11",
+      "date_kind": "meeting_date",
+      "source": "kopavogur-planning-board",
+      "source_lane": "planning",
+      "suggestion_ids": [
+        "announcements-2026-11-06-03"
+      ],
+      "evidence": {
+        "kind": "first_party_numbered_case_decision",
+        "sha256": "32910726bda97d1928e0c818faffaf2ff81d982b4d83c17c100680fe9899d47f",
+        "date_is_meeting_not_publication": true
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {
+        "id": "kopavogur-planning-board:3b53ab9498148c2df3:2607072:864ca3307c",
+        "date_provenance": "primary_meeting_header; not publication date",
+        "status": "municipal_minutes",
+        "case_number": "2607072",
+        "meeting_date": "2026-11-02",
+        "is_open_opportunity": false
+      },
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-11-02"
+      ]
+    },
+    {
+      "id": "backfill:77630698837addbb91d2a0b7",
+      "url": "https://reykjavik.is/fundargerdir/borgarrad-fundur-nr-5845",
+      "title": "Lagt fram bréf umhverfis- og skipulagssviðs, dags. 22. október 2026, sbr. samþykkt umhverfis- og skipulagsráðs frá 21. október 2026 á kynningu lýsingar skipulagsgerðar Aðalskipulags Reykjavíkur 2040, dags. í október 2026, varðandi miðstöð u",
+      "summary": "Lagt fram bréf umhverfis- og skipulagssviðs, dags. 22. október 2026, sbr. samþykkt umhverfis- og skipulagsráðs frá 21. október 2026 á kynningu lýsingar skipulagsgerðar Aðalskipulags Reykjavíkur 2040, dags. í október 2026, varðandi miðstöð um öryggisráðstafanir á Hólmsheiði, skilgreining samfélagsþjónustu (S63), ásamt fylgiskjölum. - Kl. 9.07 tekur Magnea Gná Jóhannsdóttir sæti á fundinum með rafrænum hætti. Samþykkt. Ólöf Örvarsdóttir og Haraldur Sigurðsson taka sæti á fundinum undir þessum lið með rafrænum hætti. USK26100141 Borgarráðsfulltrúar Sjálfstæðisflokksins, Viðreisnar og Framsóknarfl",
+      "source_date": "2026-11-05",
+      "source_month": "2026-11",
+      "date_kind": "meeting_date",
+      "source": "reykjavik-board-minutes",
+      "source_lane": "planning",
+      "suggestion_ids": [
+        "announcements-2026-11-06-03"
+      ],
+      "evidence": {
+        "kind": "first_party_numbered_case_decision",
+        "sha256": "98195146f8898d36e475b2c6be0df23b34f14439e3479920e8e003395efa6944",
+        "date_is_meeting_not_publication": true
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {
+        "id": "reykjavik-board-minutes:c7f947464b75e2e6b4:agenda_80008:3676239bd8",
+        "date_provenance": "primary_meeting_header; not publication date",
+        "status": "municipal_minutes",
+        "case_number": "agenda_80008",
+        "meeting_date": "2026-11-05",
+        "is_open_opportunity": false
+      },
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-11-05"
+      ]
+    },
+    {
+      "id": "backfill:c01fa432c7d7ca54b3fcc6eb",
+      "url": "https://reykjavik.is/fundargerdir/borgarrad-fundur-nr-5845",
+      "title": "Lögð fram svohljóðandi tillaga borgarstjóra, dags. í dag:",
+      "summary": "Lögð fram svohljóðandi tillaga borgarstjóra, dags. í dag: Lagt er til að fjármála- og áhættustýringarsviði verði veitt heimild til að draga allt að 25 milljónir evra á lán nr. LD2188 hjá Þróunarbanka Evrópuráðsins (e. Council of Europe Development Bank, CEB). Lántakan fellur undir lántökuáætlun samkvæmt fjárhagsáætlun. Í krónum næmi lántakan um 3,4 milljörðum króna. Jafnframt er lagt til að fjármála- og áhættustýringarsviði verði veitt heimild til að semja við innlend fjármálafyrirtæki um gjaldeyrisvarnir vegna lántökunnar, að hluta eða öllu leyti. Greinargerð fylgir tillögunni. Samþykkt. Bjar",
+      "source_date": "2026-11-05",
+      "source_month": "2026-11",
+      "date_kind": "meeting_date",
+      "source": "reykjavik-board-minutes",
+      "source_lane": "planning",
+      "suggestion_ids": [
+        "announcements-2026-11-06-03"
+      ],
+      "evidence": {
+        "kind": "first_party_numbered_case_decision",
+        "sha256": "98195146f8898d36e475b2c6be0df23b34f14439e3479920e8e003395efa6944",
+        "date_is_meeting_not_publication": true
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {
+        "id": "reykjavik-board-minutes:c7f947464b75e2e6b4:agenda_80006:08e8323f92",
+        "date_provenance": "primary_meeting_header; not publication date",
+        "status": "municipal_minutes",
+        "case_number": "agenda_80006",
+        "meeting_date": "2026-11-05",
+        "is_open_opportunity": false
+      },
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-11-05"
+      ]
+    },
+    {
+      "id": "backfill:e652dfd340c0ffe7186137e0",
+      "url": "https://island.is/s/haestirettur/akvardanir/4070A1FE-1BE0-4A51-8120-40368D8C695E",
+      "title": "Hagtak hf. gegn VÍS tryggingum hf. — leave decision 2026-117",
+      "summary": "Áfrýjunarleyfi. Matsgerð. Munatjón. Tjón. Vátrygging. Vátryggingarsamningur. Yfirmat. Hafnað",
+      "source_date": "2026-10-21",
+      "source_month": "2026-10",
+      "date_kind": "source_publication_date",
+      "source": "haestirettur-leave-to-appeal",
+      "source_lane": "court",
+      "suggestion_ids": [
+        "announcements-2026-11-06-02"
+      ],
+      "evidence": {
+        "kind": "official_parameter_echoed_court_case_search",
+        "sha256": "0d9f379654209b8c5bb282bbeb7195e99fba6f17b3fc9f6fefe4ad91219780c5",
+        "full_decision_text_extracted": false
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {
+        "id": "haestirettur:leave:2026-117",
+        "status": "leave_to_appeal_decision",
+        "case_number": "2026-117"
+      },
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-10-21"
+      ]
+    },
+    {
+      "id": "backfill:1154202fb6381cc2537e8738",
+      "url": "https://mfn.se/ob/a/icelandic-salmon/icelandic-salmon-third-quarter-2026-results-1ec1d454.iframe",
+      "title": "Icelandic Salmon - Third quarter 2026 results",
+      "summary": "Attached is the presentation for the third quarter of 2026. The Group's CEO Bjørn Hembre and CFO Robert Robertsson will be presenting the Group's first quarter results today at 09:00 Icelandic time (10:00 CET) via a Teams webinar. To register, please email robert@arnarlax.is (mailto:robert@arnarlax.is). A link will be distributed before the webinar begins. For further information, please contact: CEO Bjørn Hembre Tel: +354 620 1936 Email: bjorn@arnarlax.is (mailto:bjorn@arnarlax.is) CFO Robert Robertsson Tel: +354 843 0086 Email: robert@arnarlax.is (mailto:robert@arnarlax.is) Icelandic Salmon ",
+      "source_date": "2026-11-03",
+      "source_month": "2026-11",
+      "date_kind": "source_publication_date",
+      "source": "disclosures-icelandic-salmon",
+      "source_lane": "news",
+      "suggestion_ids": [
+        "news-2026-11-06-05"
+      ],
+      "evidence": {
+        "kind": "issuer_release_via_distribution_mirror",
+        "sha256": "96be955ebc6ceb03acd91855d8a524d0ac477763cb3748e095e9462e0828a65d",
+        "issuer_card_date_match": true,
+        "capex_on_hold_claim_verified": false
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {},
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-11-03"
+      ]
+    },
+    {
+      "id": "backfill:48ff4c58eb2a90705c89dacd",
+      "url": "https://mfn.se/one/a/kaldvik/kaldvik-as-kldvk-q3-2026-quarterly-update-fe238732.iframe",
+      "title": "KALDVÍK AS (KLDVK): Q3 2026 Quarterly Update",
+      "summary": "KALDVÍK AS (KLDVK) reports operating income in Q3 amounted to EURm 26.1 (EURm 9.9), while the operating loss before fair value adjustment of biomass, write-down of biomass and production tax was EURm -3.8 (EURm -5). Harvest amounted to 4,483 (1,545) tonnes in Q3 2026. The Company maintains harvest guidance for 2026 to approximately 17,000 tonnes. The Q3 2026 quarterly update presentation is attached. Kaldvík AS publishes full financial statements semi-annually (half-year and annual reports). Webcast A webcast presentation of the Q3 2026 quarterly update will be held at 08:00 CET (07:00 Iceland",
+      "source_date": "2026-11-13",
+      "source_month": "2026-11",
+      "date_kind": "source_publication_date",
+      "source": "disclosures-kaldvik",
+      "source_lane": "news",
+      "suggestion_ids": [
+        "news-2026-11-06-05"
+      ],
+      "evidence": {
+        "kind": "issuer_release_via_distribution_mirror",
+        "sha256": "abfe194eeb7ac5ca3932abff6ae20dda7fd9df26dbf6c2af49eaf4fdaf894284",
+        "issuer_card_date_match": true,
+        "capex_on_hold_claim_verified": false
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {},
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-11-13"
+      ]
+    },
+    {
+      "id": "backfill:24001e23e02ebc5e2cddddc2",
+      "url": "https://mfn.se/ob/a/arctic-fish-holding/arctic-fish-afish-q3-2026-previous-volume-record-surpassed-842022ab.iframe",
+      "title": "Arctic Fish (AFISH): Q3 2026 - Previous volume record surpassed",
+      "summary": "15,613 tonnes harvested YTD 2026, up 48% from 10,561 tonnes YTD 2025. Full-year record from 2025 (14,791 tonnes) already surpassed after nine months. Quarterly harvest volumes amounted to 4.0 thousand tonnes, compared with 5.4 thousand tonnes in Q3 2025 (-26% YoY). Revenues amounted to EUR 22.8 million, compared with EUR 29.0 million in Q3 2025, driven by lower harvest volumes. Negative Operational EBIT of EUR -4.2 million, compared to -6.6 MEUR in Q3 2025 showing operational improvements on lower volumes compared to last year. Cost saving initiatives and greater economies of scale have impact",
+      "source_date": "2026-11-04",
+      "source_month": "2026-11",
+      "date_kind": "source_publication_date",
+      "source": "disclosures-arctic-fish-holding",
+      "source_lane": "news",
+      "suggestion_ids": [
+        "news-2026-11-06-05"
+      ],
+      "evidence": {
+        "kind": "issuer_release_via_distribution_mirror",
+        "sha256": "80326426d014cc99b852bcefa1c965e9eafd858bfe92d53aec1f58165b6bf0ce",
+        "issuer_card_date_match": true,
+        "capex_on_hold_claim_verified": false
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {},
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-11-04"
+      ]
+    },
+    {
+      "id": "backfill:2f72a57b2f201e7c9abcd97e",
+      "url": "https://www.fishfarmermagazine.com/news/sea-well-drilling-completed-at-major-iceland-land-farm-project",
+      "title": "Sea well drilling completed at major Iceland land farm project",
+      "summary": "Work on drilling sea wells has just been completed on Samherji’s land-based salmon farm project at Eldisgarður in the west of Iceland.",
+      "source_date": "2026-10-26",
+      "source_month": "2026-10",
+      "date_kind": "source_publication_date",
+      "source": "www.fishfarmermagazine.com",
+      "source_lane": "news",
+      "suggestion_ids": [
+        "news-2026-10-23-01"
+      ],
+      "evidence": {
+        "kind": "primary_page_public_heading_metadata",
+        "sha256": "faf409c3207db8e7a8c09e589a9ad339641c24a7e23474673d46fd4fbd30a95b",
+        "full_article_body_extracted": false,
+        "summary_basis": "public_page_description_only"
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {},
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-10-26"
+      ]
+    }
+  ],
+  "unresolved": [
+    {
+      "url": "https://www.mbl.is/frettir/innlent/2026/10/30/breikkun_vegar_a_kjalarnesi_hefst",
+      "reason": "The read operation timed out",
+      "suggestion_ids": [
+        "announcements-2026-11-05-02",
+        "news-2026-11-06-02"
+      ]
+    },
+    {
+      "url": "https://www.mbl.is/frettir/innlent/2026/10/29/rikid_vill_skrifstofuhusnaedi_fyrir_allt_ad_625_man",
+      "reason": "HTTP Error 502: Bad Gateway",
+      "suggestion_ids": [
+        "announcements-2026-11-05-02"
+      ]
+    },
+    {
+      "url": "https://za.investing.com/news/stock-market-news/icelandic-salmon-q3-2026-slides-ebit-swings-to-profit-on-volume-growth-93CH-4545381",
+      "reason": "HTTP Error 403: Forbidden",
+      "suggestion_ids": [
+        "news-2026-11-06-05"
+      ]
+    },
+    {
+      "url": "https://www.visir.is/g/20262941449d",
+      "reason": "Cited URL resolves to unrelated health article; no asphalt-sale recovery"
+    },
+    {
+      "url": "https://byggingar.is/steypu-undirstadna-lokid-i-vadolduveri",
+      "suggestion_ids": [
+        "announcements-2026-10-09-01"
+      ],
+      "reason": "source_unavailable_retained_source_config"
+    },
+    {
+      "url": "https://byggingar.is/fjorir-milljardar-i-lod-og-jardvinnu",
+      "suggestion_ids": [
+        "weekly-2026-11-13-01"
+      ],
+      "reason": "source_unavailable_retained_source_config"
+    },
+    {
+      "url": "https://byggingar.is/timamotaverklok-a-seydisfirdi",
+      "suggestion_ids": [
+        "weekly-2026-11-13-01"
+      ],
+      "reason": "source_unavailable_retained_source_config"
+    },
+    {
+      "url": "https://byggingar.is/gardabaer-tekur-tilbodum-haestbjodenda-i-hnodraholti-sudur",
+      "suggestion_ids": [
+        "weekly-2026-11-13-01"
+      ],
+      "reason": "source_unavailable_retained_source_config"
+    },
+    {
+      "url": "https://byggingar.is/borgarverk-semur-um-25-milljarda-framkvaemd-vid-budafossveg-og-nyja-thjorsarbru",
+      "suggestion_ids": [
+        "news-2026-11-20-02"
+      ],
+      "reason": "source_unavailable_retained_source_config"
+    },
+    {
+      "url": "https://byggingar.is/staekka-med-kaupum-a-tresmidju",
+      "suggestion_ids": [
+        "news-2026-11-20-02"
+      ],
+      "reason": "source_unavailable_retained_source_config"
+    },
+    {
+      "url": "https://byggingar.is/arion-visar-a-bug-mati-upp-a-10-til-14-milljarda",
+      "suggestion_ids": [
+        "news-2026-11-20-02"
+      ],
+      "reason": "source_unavailable_retained_source_config"
+    },
+    {
+      "url": "https://byggingar.is/nytt-verkstaedishus-fyrir-hafnasamlag-nordurlands-bodid-ut",
+      "suggestion_ids": [
+        "news-2026-11-20-02"
+      ],
+      "reason": "source_unavailable_retained_source_config"
+    }
+  ],
+  "limits": [
+    "Not inserted into rolling feeds or marked new.",
+    "General construction records kept separate from sector-only industry archive.",
+    "Retained generated-feed dates are not newly reverified primary dates.",
+    "Conflicting dates retained explicitly, not resolved by newest observation.",
+    "Public-page headings/descriptions do not establish full gated article text.",
+    "Downstream reports have not been regenerated.",
+    "No exhaustive historical archive or unique-project count claimed."
+  ]
+}
