@@ -1,11 +1,31 @@
 {
   "schema_version": 1,
-  "generated": "2026-11-23T12:56:00Z",
+  "generated": "2026-11-23T18:35:49Z",
   "window": {
     "from": "2026-10-24",
     "to": "2026-11-23"
   },
   "coverage": {
+    "issuer_disclosures": [
+      {
+        "source": "disclosures-icelandic-salmon",
+        "issuer": "Icelandic Salmon / Arnarlax",
+        "url": "https://mfn.se/all/a/icelandic-salmon.iframe",
+        "coverage": "bounded issuer-distribution mirror; bounded existing-ClawPDF extraction, per-attachment status"
+      },
+      {
+        "source": "disclosures-kaldvik",
+        "issuer": "Kaldvík / Ice Fish Farm",
+        "url": "https://mfn.se/all/a/kaldvik.iframe",
+        "coverage": "bounded issuer-distribution mirror; bounded existing-ClawPDF extraction, per-attachment status"
+      },
+      {
+        "source": "disclosures-arctic-fish-holding",
+        "issuer": "Arctic Fish",
+        "url": "https://mfn.se/all/a/arctic-fish-holding.iframe",
+        "coverage": "bounded issuer-distribution mirror; bounded existing-ClawPDF extraction, per-attachment status"
+      }
+    ],
     "industry_focus": {
       "version": 3,
       "priority_sectors": [
@@ -57,18 +77,18 @@
       ],
       "counts_by_sector": {
         "tourism-infrastructure": 7,
-        "aquaculture-fish-production": 2,
-        "datacentres-infrastructure": 4
+        "aquaculture-fish-production": 3,
+        "datacentres-infrastructure": 7
       },
       "counts_by_eligible_iceland_project_evidence": {
         "tourism-infrastructure": 3,
         "aquaculture-fish-production": 1,
-        "datacentres-infrastructure": 1
+        "datacentres-infrastructure": 2
       },
       "counts_by_current_dated_signal": {
         "tourism-infrastructure": 2,
         "aquaculture-fish-production": 0,
-        "datacentres-infrastructure": 0
+        "datacentres-infrastructure": 1
       },
       "count_meaning": "counts_by_sector inventories evidence; eligibility counts are records, never unique projects, verified stages or curated newsletter stories",
       "selection_policy": "Prioritise evidenced infrastructure/project signals; preserve general construction, competitors and Ístak; no quotas.",
@@ -131,6 +151,11 @@
         "source": "bb",
         "outlet": "bb.is",
         "url": "https://www.bb.is/feed/"
+      },
+      {
+        "source": "vf",
+        "outlet": "Víkurfréttir",
+        "url": "https://www.vf.is/frettir"
       },
       {
         "source": "nordurthing-news",
@@ -408,6 +433,10 @@
         "Vaðölduver"
       ],
       "industrial_demand": [
+        "kalkþörung",
+        "ískalk",
+        "calcium algae",
+        "eldisbúnað",
         "first water",
         "fiskeldi",
         "lagareldi",
@@ -450,7 +479,8 @@
         "fjárfesting",
         "uppbygging",
         "hafnar",
-        "innviðir"
+        "innviðir",
+        "gatnagerð"
       ]
     }
   },
@@ -466,9 +496,6 @@
       "byggingar-borgarlina": "The read operation timed out",
       "byggingar-contracts": "The read operation timed out",
       "byggingar-utbod": "The read operation timed out",
-      "vb": "Incomplete: 3 relevant records rejected without verified publication dates.",
-      "fiskifrettir": "Incomplete: 4 relevant records rejected without verified publication dates.",
-      "bb": "Incomplete: no verified in-window relevant records extracted.",
       "landsvirkjun": "Incomplete: 7 relevant records rejected without verified publication dates.",
       "landsvirkjun-utbod": "Incomplete: 8 relevant records rejected without verified publication dates.",
       "landsnet-news": "Incomplete: no verified in-window relevant records extracted.",
@@ -478,7 +505,7 @@
       "vegagerdin-framkvaemdafrettir": "Incomplete: 10 relevant records rejected without verified publication dates.",
       "reykjavik": "Incomplete: 3 relevant records rejected without verified publication dates.",
       "veitur": "Incomplete: 1 relevant records rejected without verified publication dates.",
-      "kadeco": "Incomplete: 11 relevant records rejected without verified publication dates.",
+      "kadeco": "Incomplete: 10 relevant records rejected without verified publication dates.",
       "kadeco-throunarreitir": "Incomplete: 1 relevant records rejected without verified publication dates.",
       "kadeco-throunaraaetlun": "Incomplete: 2 relevant records rejected without verified publication dates.",
       "carbfix": "Incomplete: HTTP response yielded no extractable records (possibly client-rendered).",
@@ -487,6 +514,11 @@
       "thingvangur": "Incomplete: 1 relevant records rejected without verified publication dates.",
       "colas-is": "Incomplete: 2 relevant records rejected without verified publication dates.",
       "munck": "Incomplete: 19 relevant records rejected without verified publication dates.",
+      "disclosures-icelandic-salmon-coverage": "Bounded issuer-distributed release discovery; up to two PDF attachments per release, 16MB each, 40 pages/100000 characters; extraction status reported per attachment; no inferred project claims",
+      "disclosures-kaldvik-coverage": "Bounded issuer-distributed release discovery; up to two PDF attachments per release, 16MB each, 40 pages/100000 characters; extraction status reported per attachment; no inferred project claims",
+      "disclosures-arctic-fish-holding-coverage": "Bounded issuer-distributed release discovery; up to two PDF attachments per release, 16MB each, 40 pages/100000 characters; extraction status reported per attachment; no inferred project claims",
+      "fish-farmer-body-access": "Full article requires publisher registration/login; public title/date/teaser only, no authentication changes",
+      "fish-farmer-sitemap-coverage": "Bounded official sitemap discovery: 8000 sitemap rows, 40 Iceland/company candidates, eight detail requests; modification dates never used as publication dates; not complete archive coverage",
       "fish-farmer-coverage": "bounded secondary trade supplement; historical/source completeness not established (https://www.fishfarmermagazine.com/feed/)",
       "salmonbusiness-coverage": "bounded secondary trade supplement; historical/source completeness not established (https://www.salmonbusiness.com/)",
       "datacenterdynamics-coverage": "bounded secondary trade supplement; historical/source completeness not established (https://www.datacenterdynamics.com/en/news/)",
@@ -510,6 +542,30 @@
     },
     "source_candidates": [
       {
+        "id": "news:arctic-fish",
+        "name": "Arctic Fish",
+        "suggested_feed": "news-feed",
+        "suggested_lane": "news",
+        "evidence_url": "https://mfn.se/ob/a/arctic-fish-holding/arctic-fish-afish-q3-2026-previous-volume-record-surpassed-842022ab.iframe",
+        "seen_count": 1,
+        "first_seen": "2026-11-23T18:35:49Z",
+        "last_seen": "2026-11-23T18:35:49Z",
+        "reason": "unknown entity found in generated news items",
+        "status": "pending"
+      },
+      {
+        "id": "news:fish-farmer",
+        "name": "Fish Farmer",
+        "suggested_feed": "news-feed",
+        "suggested_lane": "news",
+        "evidence_url": "https://www.fishfarmermagazine.com/news/icelandic-farmer-spells-out-high-cost-of-jellyfish-attacks",
+        "seen_count": 2,
+        "first_seen": "2026-11-23T18:35:49Z",
+        "last_seen": "2026-11-23T18:35:49Z",
+        "reason": "repeated unknown entity found in generated news items",
+        "status": "pending"
+      },
+      {
         "id": "news:geosalmo",
         "name": "GeoSalmo",
         "suggested_feed": "news-feed",
@@ -517,7 +573,31 @@
         "evidence_url": "https://www.geosalmo.com/news/eyrun-viktorsdottir-as-head-of-quality-and-sustainability",
         "seen_count": 4,
         "first_seen": "2026-11-13T06:30:01Z",
-        "last_seen": "2026-11-23T12:56:00Z",
+        "last_seen": "2026-11-23T18:35:49Z",
+        "reason": "repeated unknown entity found in generated news items",
+        "status": "pending"
+      },
+      {
+        "id": "news:icelandic-salmon-arnarlax",
+        "name": "Icelandic Salmon / Arnarlax",
+        "suggested_feed": "news-feed",
+        "suggested_lane": "news",
+        "evidence_url": "https://mfn.se/ob/a/icelandic-salmon/icelandic-salmon-third-quarter-2026-results-1ec1d454.iframe",
+        "seen_count": 2,
+        "first_seen": "2026-11-23T18:35:49Z",
+        "last_seen": "2026-11-23T18:35:49Z",
+        "reason": "repeated unknown entity found in generated news items",
+        "status": "pending"
+      },
+      {
+        "id": "news:kaldvík-ice-fish-farm",
+        "name": "Kaldvík / Ice Fish Farm",
+        "suggested_feed": "news-feed",
+        "suggested_lane": "news",
+        "evidence_url": "https://mfn.se/one/a/kaldvik/kaldvik-as-kldvk-q3-2026-quarterly-update-fe238732.iframe",
+        "seen_count": 2,
+        "first_seen": "2026-11-23T18:35:49Z",
+        "last_seen": "2026-11-23T18:35:49Z",
         "reason": "repeated unknown entity found in generated news items",
         "status": "pending"
       },
@@ -529,7 +609,7 @@
         "evidence_url": "https://www.landbasedaq.com/arctic-char-bankruptcy-iceland/iceland-arctic-char-farmer-files-for-bankrupcty/2206923",
         "seen_count": 1,
         "first_seen": "2026-10-29T08:17:48Z",
-        "last_seen": "2026-11-23T12:56:00Z",
+        "last_seen": "2026-11-23T18:35:49Z",
         "reason": "unknown entity found in generated news items",
         "status": "pending"
       },
@@ -553,7 +633,7 @@
         "evidence_url": "https://sedlabanki.is/frettir-og-utgefid-efni/grein/yfirlysing-peningastefnunefndar-18-november-2026",
         "seen_count": 1,
         "first_seen": "2026-11-02T17:18:17Z",
-        "last_seen": "2026-11-23T12:56:00Z",
+        "last_seen": "2026-11-23T18:35:49Z",
         "reason": "unknown entity found in generated news items",
         "status": "pending"
       },
@@ -571,8 +651,34 @@
       }
     ]
   },
-  "count": 57,
+  "count": 81,
   "items": [
+    {
+      "id": "news:visir:vandraedin-a-byggingamarkadnum-komu-ekki-a-ovart",
+      "lane": "news",
+      "category": "project",
+      "title": "Vand­ræðin á bygginga­markaðnum komu ekki á ó­vart",
+      "entity": "visir.is",
+      "date": "2026-11-23",
+      "summary": "Vand­ræðin á bygginga­markaðnum komu ekki á ó­vart",
+      "url": "https://www.visir.is/g/20262966787d/vandraedin-a-byggingamarkadnum-komu-ekki-a-ovart",
+      "outlet": "visir.is",
+      "source": "visir",
+      "is_new": true,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-23",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
     {
       "id": "news:visir-vidskipti:aetla-ad-staekka-kastrup",
       "lane": "news",
@@ -594,32 +700,6 @@
         "facility_relevance": true,
         "project_eligible": false,
         "eligibility_reason": "iceland_project_not_verified",
-        "current_dated_signal": false,
-        "source_date": "2026-11-23",
-        "assessed_on": "2026-11-23",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      }
-    },
-    {
-      "id": "news:visir-fiskeldi:samningi-rift-og-engin-greidsla",
-      "lane": "news",
-      "category": "project",
-      "title": "Samningi rift og engin greiðsla",
-      "entity": "visir.is / Fiskeldi",
-      "date": "2026-11-23",
-      "summary": "Samningi rift og engin greiðsla Viðskipti innlent",
-      "url": "https://www.visir.is/g/20262966793d/samningi-rift-og-engin-greidsla",
-      "outlet": "visir.is / Fiskeldi",
-      "source": "visir-fiskeldi",
-      "is_new": true,
-      "sector_tags": [],
-      "sector_eligibility": {
-        "iceland_project_evidence": false,
-        "facility_relevance": false,
-        "project_eligible": false,
-        "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-23",
         "assessed_on": "2026-11-23",
@@ -655,19 +735,103 @@
       }
     },
     {
-      "id": "news:ruv-innlent-rss:2026-11-23-geta-ekki-sagt-hve-lengi-flugoryggisljosid-var-ovirkt-493554",
+      "id": "news:vb:staekka-kastrup-til-ad-taka-vid-helmingi-fleiri-farthegum",
+      "lane": "news",
+      "category": "investment",
+      "title": "Stækka Kastrup til að taka við helmingi fleiri farþegum Um er að ræða fjárfestingu upp á tugi milljarða danskra króna.",
+      "entity": "vb.is",
+      "date": "2026-11-23",
+      "summary": "Stækka Kastrup til að taka við helmingi fleiri farþegum Um er að ræða fjárfestingu upp á tugi milljarða danskra króna.",
+      "url": "https://www.vb.is/frettir/staekka-kastrup-til-ad-taka-vid-helmingi-fleiri-farthegum/",
+      "outlet": "vb.is",
+      "source": "vb",
+      "is_new": true,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-23",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:ruv-innlent-rss:2026-11-23-geta-ekki-sagt-hve-lengi-flugoryggisljos-voru-ovirk-493554",
       "lane": "news",
       "category": "industrial-demand",
-      "title": "Geta ekki sagt hve lengi flugöryggisljósið var óvirkt",
+      "title": "Geta ekki sagt hve lengi flugöryggisljós voru óvirk",
       "entity": "ruv.is / innlent",
       "date": "2026-11-23",
-      "summary": "Slökkt var á flugöryggisljósum á byggingarkrana við hótelturn Radisson Red við Skúlagötu í Reykjavík um tíma eftir að framkvæmdum þar var hætt. Isavia innanlandsflugvellir segist ekki geta staðfest hvenær það varð óvirkt í svari við fyrirspurn fréttastofu. Brugðist hafi verið við ljósleysinu um leið og fyrirtækinu bárust upplýsingar um það. Samkvæmt einni s...",
-      "url": "https://www.ruv.is/frettir/innlent/2026-11-23-geta-ekki-sagt-hve-lengi-flugoryggisljosid-var-ovirkt-493554/",
+      "summary": "Slökkt var á flugöryggisljósum á byggingarkrana við hótelturn Radisson Red við Skúlagötu í Reykjavík um tíma eftir að framkvæmdum þar var hætt. Isavia innanlandsflugvellir segist ekki geta staðfest hvenær ljósin urðu óvirk í svari við fyrirspurn fréttastofu. Brugðist hafi verið við ljósleysinu um leið og fyrirtækinu bárust upplýsingar um það. Samkvæmt einni...",
+      "url": "https://www.ruv.is/frettir/innlent/2026-11-23-geta-ekki-sagt-hve-lengi-flugoryggisljos-voru-ovirk-493554/",
       "outlet": "ruv.is / innlent",
       "source": "ruv-innlent-rss",
       "is_new": true,
       "sector_tags": [
         "tourism-infrastructure"
+      ],
+      "sector_evidence_role": "project_or_sector_context",
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": true,
+        "project_eligible": true,
+        "eligibility_reason": "eligible_project_context",
+        "current_dated_signal": true,
+        "source_date": "2026-11-23",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:braggi:storf-project-manager-17493b",
+      "lane": "news",
+      "category": "industrial-demand",
+      "title": "📋 Project Manager",
+      "entity": "braggi.is",
+      "date": "2026-11-23",
+      "summary": "Borealis Data Center leitar að verkefnastjóra til að stýra byggingarframkvæmdum gagnavera. Starfsmaðurinn heyrir undir framkvæmdastjóra mannvirkjagerðar og…",
+      "url": "https://braggi.is/storf-project-manager-17493b/",
+      "outlet": "braggi.is",
+      "source": "braggi",
+      "is_new": true,
+      "sector_tags": [
+        "datacentres-infrastructure"
+      ],
+      "sector_evidence_role": "project_or_sector_context",
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": true,
+        "project_eligible": false,
+        "eligibility_reason": "iceland_project_not_verified",
+        "current_dated_signal": false,
+        "source_date": "2026-11-23",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:braggi:storf-alfred-project-coordinator-construction-engineering-ea1026",
+      "lane": "news",
+      "category": "industrial-demand",
+      "title": "🏗️ Project Coordinator, Construction & Engineering",
+      "entity": "braggi.is",
+      "date": "2026-11-23",
+      "summary": "Borealis Data Center ehf. leitar að verkefnastjóra á sviði framkvæmda og verkfræði í Reykjavík. Umsóknarfrestur um starfið er til 28. desember.",
+      "url": "https://braggi.is/storf-alfred-project-coordinator-construction-engineering-ea1026/",
+      "outlet": "braggi.is",
+      "source": "braggi",
+      "is_new": true,
+      "sector_tags": [
+        "datacentres-infrastructure"
       ],
       "sector_evidence_role": "project_or_sector_context",
       "sector_eligibility": {
@@ -710,6 +874,84 @@
       }
     },
     {
+      "id": "news:braggi:nlsh-1bbf78cd6b38c8a9",
+      "lane": "news",
+      "category": "project",
+      "title": "Framkvæmdir við Hús Heilbrigðisvísindasviðs ganga vel – Morgunblaðið fjallar um verkefnið",
+      "entity": "braggi.is",
+      "date": "2026-11-23",
+      "summary": "Framkvæmdir við Hús Heilbrigðisvísindasviðs Háskóla Íslands innan heildarverkefnis Nýs Landspítala ganga vel samkvæmt nýlegri stöðuuppfærslu. Gunnar Svavarss…",
+      "url": "https://braggi.is/nlsh-1bbf78cd6b38c8a9/",
+      "outlet": "braggi.is",
+      "source": "braggi",
+      "is_new": true,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-23",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:braggi:hefja-undirbuning-ad-heildarendurskodun-skipulagslaga",
+      "lane": "news",
+      "category": "investment",
+      "title": "Hefja undirbúning að heildarendurskoðun skipulagslaga",
+      "entity": "braggi.is",
+      "date": "2026-11-23",
+      "summary": "Félags- og húsnæðismálaráðherra hefur kynnt að undirbúningur að heildarendurskoðun skipulagslaga sé hafinn. Markmiðið er að skapa betri skilyrði fyrir uppbyggingu án þess að slaka á kröfum um öryggi og gæði.",
+      "url": "https://braggi.is/hefja-undirbuning-ad-heildarendurskodun-skipulagslaga/",
+      "outlet": "braggi.is",
+      "source": "braggi",
+      "is_new": true,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-23",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:braggi:deiliskipulagsbreyting-a-storu-atvinnuhusnaedi-vid-nesveg-50",
+      "lane": "news",
+      "category": "investment",
+      "title": "Deiliskipulagsbreyting á stóru atvinnuhúsnæði við Nesveg 50",
+      "entity": "braggi.is",
+      "date": "2026-11-23",
+      "summary": "Skipulagsráð Reykjanesbæjar samþykkti breytingu á deiliskipulagi fyrir stórt atvinnuhúsnæði við Nesveg 50 sem felur í sér tilfærslu á byggingarmagni milli tveggja byggingarreita á lóðinni. Heildarbyggingarmagn á lóðinni helst óbreytt í 17.500 fermetr",
+      "url": "https://braggi.is/deiliskipulagsbreyting-a-storu-atvinnuhusnaedi-vid-nesveg-50/",
+      "outlet": "braggi.is",
+      "source": "braggi",
+      "is_new": true,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-23",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
       "id": "news:braggi:af-hverju-endingartimi-byggingarefna-skiptir-meira-mali-en-nokkru-sinn-62591ba5",
       "lane": "news",
       "category": "project",
@@ -720,6 +962,32 @@
       "url": "https://braggi.is/af-hverju-endingartimi-byggingarefna-skiptir-meira-mali-en-nokkru-sinn-62591ba5/",
       "outlet": "braggi.is",
       "source": "braggi",
+      "is_new": true,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-23",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:bb:isafjardarbaer-framlengir-nidurfellingu-gatnagerdargjaldda",
+      "lane": "news",
+      "category": "project",
+      "title": "Ísafjarðarbær: framlengir niðurfellingu gatnagerðargjalda",
+      "entity": "bb.is",
+      "date": "2026-11-23",
+      "summary": "Bæjarráð Ísafjarðarbæjar hefur samþykkt að að framlengja um 10 mánuði frest sem húsbyggjendur hafa til lokaúttektar á nýbyggingu til að öðlast niðurfellingu gatnagerðargjalda. Um er að ræða byggingu íbúðarhúsnæðis á þeim lóðum sem úthlutað var á árunum 2022 og 2023. Skilyrði framlengingarinnar er að framkvæmdir séu hafnar á grundvelli gildandi byggingarleyf...",
+      "url": "https://bb.is/2026/11/isafjardarbaer-framlengir-nidurfellingu-gatnagerdargjaldda/",
+      "outlet": "bb.is",
+      "source": "bb",
       "is_new": true,
       "sector_tags": [],
       "sector_eligibility": {
@@ -762,42 +1030,16 @@
       }
     },
     {
-      "id": "news:braggi:storf-verkstj-ri-verkefnastj-ri-byggingarframkv-mdum-e93e9a",
+      "id": "news:vf:ser-fyrir-endann-a-framkvaemdum-vid-radhusid-baerinn-skadabotaskyldur-i-utbodi",
       "lane": "news",
       "category": "project",
-      "title": "📋 Verkstjóri / verkefnastjóri í byggingarframkvæmdum",
-      "entity": "braggi.is",
+      "title": "Sér fyrir endann á framkvæmdum við Ráðhúsið - bærinn skaðabótaskyldur í útboði",
+      "entity": "Víkurfréttir",
       "date": "2026-11-22",
-      "summary": "Byggingarfyrirtækið Landris Byggingar ehf. leitar að reynslumiklum verkstjóra eða verkefnastjóra til að hafa yfirumsjón með daglegri stjórn framkvæmda.",
-      "url": "https://braggi.is/storf-verkstj-ri-verkefnastj-ri-byggingarframkv-mdum-e93e9a/",
-      "outlet": "braggi.is",
-      "source": "braggi",
-      "is_new": true,
-      "sector_tags": [],
-      "sector_eligibility": {
-        "iceland_project_evidence": false,
-        "facility_relevance": false,
-        "project_eligible": false,
-        "eligibility_reason": "no_material_sector_evidence",
-        "current_dated_signal": false,
-        "source_date": "2026-11-22",
-        "assessed_on": "2026-11-23",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      }
-    },
-    {
-      "id": "news:braggi:storf-rafvirkjar-electricians-rey-arfj-r-ur-bf5fec",
-      "lane": "news",
-      "category": "investment",
-      "title": "⚡ Rafvirkjar / Electricians Reyðarfjörður",
-      "entity": "braggi.is",
-      "date": "2026-11-22",
-      "summary": "VHE leitar að rafvirkja í fullt framtíðarstarf á Reyðarfirði. Starfið felur í sér fjölbreytt verkefni og þátttöku í uppbyggingu rafmagnsdeildar á svæðinu.",
-      "url": "https://braggi.is/storf-rafvirkjar-electricians-rey-arfj-r-ur-bf5fec/",
-      "outlet": "braggi.is",
-      "source": "braggi",
+      "summary": "Sér fyrir endann á framkvæmdum við Ráðhúsið - bærinn skaðabótaskyldur í útboði",
+      "url": "https://www.vf.is/frettir/ser-fyrir-endann-a-framkvaemdum-vid-radhusid---baerinn-skadabotaskyldur-i-utbodi",
+      "outlet": "Víkurfréttir",
+      "source": "vf",
       "is_new": true,
       "sector_tags": [],
       "sector_eligibility": {
@@ -924,153 +1166,26 @@
       }
     },
     {
-      "id": "news:braggi:tillaga-ad-deiliskipulagi-nordurness-a-alftanesi-fer-i-auglysingu",
+      "id": "news:vb:undirrita-lodarleigusamning-um-gagnaver-a-bakka",
       "lane": "news",
-      "category": "investment",
-      "title": "Tillaga að deiliskipulagi Norðurness á Álftanesi fer í auglýsingu",
-      "entity": "braggi.is",
+      "category": "industrial-demand",
+      "title": "Undir­rita lóðar­leigu­samning um gagna­ver á Bakka",
+      "entity": "vb.is",
       "date": "2026-11-20",
-      "summary": "Bæjarstjórn Garðabæjar samþykkti á fundi sínum þann 19. nóvember 2026 að auglýsa tillögu að deiliskipulagi fyrir Norðurnes á Álftanesi. Ákvörðunin var tekin í tengslum við umfjöllun um fundargerð bæjarráðs frá 17. nóvember 2026 þar sem tekin var fyri",
-      "url": "https://braggi.is/tillaga-ad-deiliskipulagi-nordurness-a-alftanesi-fer-i-auglysingu/",
-      "outlet": "braggi.is",
-      "source": "braggi",
+      "summary": "Undir­rita lóðar­leigu­samning um gagna­ver á Bakka",
+      "url": "https://www.vb.is/frettir/undirrita-lodarleigusamning-um-gagnaver-a-bakka/",
+      "outlet": "vb.is",
+      "source": "vb",
       "is_new": false,
-      "sector_tags": [],
+      "sector_tags": [
+        "datacentres-infrastructure"
+      ],
+      "sector_evidence_role": "project_or_sector_context",
       "sector_eligibility": {
         "iceland_project_evidence": false,
-        "facility_relevance": false,
+        "facility_relevance": true,
         "project_eligible": false,
-        "eligibility_reason": "no_material_sector_evidence",
-        "current_dated_signal": false,
-        "source_date": "2026-11-20",
-        "assessed_on": "2026-11-23",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      }
-    },
-    {
-      "id": "news:braggi:sveitarstjorn-hrunamannahrepps-samthykkir-breytingu-a-adalskipulagi-fyrir-ibudar",
-      "lane": "news",
-      "category": "investment",
-      "title": "Sveitarstjórn Hrunamannahrepps samþykkir breytingu á aðalskipulagi fyrir íbúðarbyggð í Sandskarði",
-      "entity": "braggi.is",
-      "date": "2026-11-20",
-      "summary": "Sveitarstjórn Hrunamannahrepps hefur samþykkt breytingu á aðalskipulagi fyrir íbúðarbyggð í Sandskarði á Flúðum. Breytingin heimilar allt að 30 íbúðir í fjölbýlishúsum í stað allt að 14 íbúða í einbýlis- og parhúsum.",
-      "url": "https://braggi.is/sveitarstjorn-hrunamannahrepps-samthykkir-breytingu-a-adalskipulagi-fyrir-ibudar/",
-      "outlet": "braggi.is",
-      "source": "braggi",
-      "is_new": false,
-      "sector_tags": [],
-      "sector_eligibility": {
-        "iceland_project_evidence": false,
-        "facility_relevance": false,
-        "project_eligible": false,
-        "eligibility_reason": "no_material_sector_evidence",
-        "current_dated_signal": false,
-        "source_date": "2026-11-20",
-        "assessed_on": "2026-11-23",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      }
-    },
-    {
-      "id": "news:braggi:reykjavikurborg-samthykkir-framlengingu-a-lodarvilyrdi-fyrir-thr-lagmuli-2-ehf",
-      "lane": "news",
-      "category": "investment",
-      "title": "Reykjavíkurborg samþykkir framlengingu á lóðarvilyrði fyrir ÞR Lágmúli 2 ehf.",
-      "entity": "braggi.is",
-      "date": "2026-11-20",
-      "summary": "Borgarráð Reykjavíkur hefur samþykkt að framlengja lóðarvilyrði fyrir ÞR Lágmúli 2 ehf. á lóðinni Lágmúli 2 um tvö ár. Framlengingin tengist áformum um umhverfisvæna uppbyggingu á svæðinu.",
-      "url": "https://braggi.is/reykjavikurborg-samthykkir-framlengingu-a-lodarvilyrdi-fyrir-thr-lagmuli-2-ehf/",
-      "outlet": "braggi.is",
-      "source": "braggi",
-      "is_new": false,
-      "sector_tags": [],
-      "sector_eligibility": {
-        "iceland_project_evidence": true,
-        "facility_relevance": false,
-        "project_eligible": false,
-        "eligibility_reason": "no_material_sector_evidence",
-        "current_dated_signal": false,
-        "source_date": "2026-11-20",
-        "assessed_on": "2026-11-23",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      }
-    },
-    {
-      "id": "news:braggi:hnodraholt-sudur-haholt",
-      "lane": "news",
-      "category": "investment",
-      "title": "Hnoðraholt suður - Háholt",
-      "entity": "braggi.is",
-      "date": "2026-11-20",
-      "summary": "Garðabær óskar eftir tilboðum í umfangsmikla innviðauppbyggingu fyrir nýtt íbúðahverfi við Hnoðraholt suður og Háholt. Verkefnið felur í sér heildstæða gatna- og veitugerð til að undirbúa lóðir undir komandi byggð.",
-      "url": "https://braggi.is/hnodraholt-sudur-haholt/",
-      "outlet": "braggi.is",
-      "source": "braggi",
-      "is_new": false,
-      "sector_tags": [],
-      "sector_eligibility": {
-        "iceland_project_evidence": false,
-        "facility_relevance": false,
-        "project_eligible": false,
-        "eligibility_reason": "no_material_sector_evidence",
-        "current_dated_signal": false,
-        "source_date": "2026-11-20",
-        "assessed_on": "2026-11-23",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      }
-    },
-    {
-      "id": "news:braggi:bruargrindin-dregin-yfir-olfusa",
-      "lane": "news",
-      "category": "project",
-      "title": "Brúargrindin dregin yfir Ölfusá",
-      "entity": "braggi.is",
-      "date": "2026-11-20",
-      "summary": "Stálgrind nýrrar brúar yfir Ölfusá hefur verið dregin yfir ána frá austurbakkanum yfir á vesturbakkann. Mannvirkið er um 330 metrar á lengd og nemur heildarþyngd þess um 2.000 tonnum. Verkið gekk greiðar fyrir sig en áætlanir gerðu ráð fyrir og tók f",
-      "url": "https://braggi.is/bruargrindin-dregin-yfir-olfusa/",
-      "outlet": "braggi.is",
-      "source": "braggi",
-      "is_new": false,
-      "sector_tags": [],
-      "sector_eligibility": {
-        "iceland_project_evidence": true,
-        "facility_relevance": false,
-        "project_eligible": false,
-        "eligibility_reason": "no_material_sector_evidence",
-        "current_dated_signal": false,
-        "source_date": "2026-11-20",
-        "assessed_on": "2026-11-23",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      }
-    },
-    {
-      "id": "news:braggi:breyting-a-deiliskipulagi-hraunsholts-eystra-auglyst",
-      "lane": "news",
-      "category": "investment",
-      "title": "Breyting á deiliskipulagi Hraunsholts eystra auglýst",
-      "entity": "braggi.is",
-      "date": "2026-11-20",
-      "summary": "Bæjarstjórn Garðabæjar hefur samþykkt að auglýsa breytingu á deiliskipulagi Hraunsholts eystra. Þessi ákvörðun var tekin á 987. fundi bæjarstjórnar Garðabæjar sem haldinn var þann 19. nóvember 2026. Skipulagsbreytingin snýr að skilgreiningu stíga inn",
-      "url": "https://braggi.is/breyting-a-deiliskipulagi-hraunsholts-eystra-auglyst/",
-      "outlet": "braggi.is",
-      "source": "braggi",
-      "is_new": false,
-      "sector_tags": [],
-      "sector_eligibility": {
-        "iceland_project_evidence": false,
-        "facility_relevance": false,
-        "project_eligible": false,
-        "eligibility_reason": "no_material_sector_evidence",
+        "eligibility_reason": "iceland_project_not_verified",
         "current_dated_signal": false,
         "source_date": "2026-11-20",
         "assessed_on": "2026-11-23",
@@ -1149,6 +1264,32 @@
       "evidence_kind": "public_rss_headline",
       "publication_date_provenance": "rss_pubDate",
       "detail_fetched": false,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-19",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:fiskifrettir:eldi-afhendir-eldisbunad-til-flateyrar",
+      "lane": "news",
+      "category": "industrial-demand",
+      "title": "ELDI afhendir eldisbúnað til Flateyrar",
+      "entity": "Fiskifréttir",
+      "date": "2026-11-19",
+      "summary": "ELDI afhendir eldisbúnað til Flateyrar",
+      "url": "https://fiskifrettir.vb.is/eldi-afhendir-eldisbunad-til-flateyrar/",
+      "outlet": "Fiskifréttir",
+      "source": "fiskifrettir",
+      "is_new": false,
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -1261,6 +1402,32 @@
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-18",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:vf:framlengja-jardvinnuleyfi-vegna-nys-gagnavers-vid-valhallarbraut",
+      "lane": "news",
+      "category": "industrial-demand",
+      "title": "Framlengja jarðvinnuleyfi vegna nýs gagnavers við Valhallarbraut",
+      "entity": "Víkurfréttir",
+      "date": "2026-11-18",
+      "summary": "Framlengja jarðvinnuleyfi vegna nýs gagnavers við Valhallarbraut",
+      "url": "https://www.vf.is/frettir/framlengja-jardvinnuleyfi-vegna-nys-gagnavers-vid-valhallarbraut",
+      "outlet": "Víkurfréttir",
+      "source": "vf",
+      "is_new": false,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
         "facility_relevance": false,
         "project_eligible": false,
         "eligibility_reason": "no_material_sector_evidence",
@@ -1409,6 +1576,134 @@
       }
     },
     {
+      "id": "news:fish-farmer:f823ad585be66e68",
+      "lane": "news",
+      "category": "industrial-demand",
+      "source": "fish-farmer",
+      "entity": "Fish Farmer",
+      "outlet": "Fish Farmer",
+      "title": "Icelandic farmer spells out high cost of jellyfish attacks",
+      "url": "https://www.fishfarmermagazine.com/news/icelandic-farmer-spells-out-high-cost-of-jellyfish-attacks",
+      "date": "2026-11-17",
+      "summary": "Kaldvik’s biological problems led to heavier losses in Q3",
+      "is_new": false,
+      "evidence_kind": "secondary_trade_press",
+      "project_learning_eligible": false,
+      "publication_date_provenance": "article_published_time",
+      "discovery_url": "https://www.fishfarmermagazine.com/SiteMap_FishFarmer_Articles_News1_v2.xml",
+      "body_access": "public_teaser_only",
+      "full_article_available": false,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-17",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:fiskifrettir:fagna-fyrstu-samningi-fra-arinu-2012",
+      "lane": "news",
+      "category": "project",
+      "title": "Fagna fyrsta samningi frá árinu 2012",
+      "entity": "Fiskifréttir",
+      "date": "2026-11-13",
+      "summary": "Fagna fyrsta samningi frá árinu 2012",
+      "url": "https://fiskifrettir.vb.is/fagna-fyrstu-samningi-fra-arinu-2012/",
+      "outlet": "Fiskifréttir",
+      "source": "fiskifrettir",
+      "is_new": false,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-13",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:disclosures-kaldvik:7fe051df2f2fa820",
+      "lane": "news",
+      "category": "industrial-demand",
+      "source": "disclosures-kaldvik",
+      "entity": "Kaldvík / Ice Fish Farm",
+      "outlet": "Kaldvík / Ice Fish Farm",
+      "title": "KALDVÍK AS (KLDVK): Q3 2026 Quarterly Update",
+      "url": "https://mfn.se/one/a/kaldvik/kaldvik-as-kldvk-q3-2026-quarterly-update-fe238732.iframe",
+      "date": "2026-11-13",
+      "summary": "KALDVÍK AS (KLDVK) reports operating income in Q3 amounted to EURm 26.1 (EURm 9.9), while the operating loss before fair value adjustment of biomass, write-down of biomass and production tax was EURm -3.8 (EURm -5). Harvest amounted to 4,483 (1,545) tonnes in Q3 2026. The Company maintains harvest guidance for 2026 to approximately 17,000 tonnes. The Q3 202...",
+      "is_new": false,
+      "evidence_kind": "issuer_release_via_distribution_mirror",
+      "issuer": "Kaldvík / Ice Fish Farm",
+      "distribution_publisher": "MFN",
+      "publication_date_provenance": "release_article_published_time_verified_against_release_card",
+      "project_learning_eligible": false,
+      "attachments": [
+        {
+          "url": "https://ml-eu.globenewswire.com/Resource/Download/55d9b2e6-40c0-48e8-90c6-4168644da9f4",
+          "kind": "document_attachment",
+          "body_extracted": true,
+          "sha256": "c47f30b15146e1af45ee940470989688ce62dc1f53511f8ea7f500294818b05f",
+          "text": "Q3 2026\r\nCEO: Vidar Aspehaug\r\nCFO: Thorunn Ragnarsdottir\r\n13 November 2026\r\nReykjavík, Iceland\n\nDisclaimer:\r\nThis presentation may contain forward-looking statements relating \r\nto the business, financial performance and results of Kaldvik AS.\r\nForward looking statements are statements that are not historical \r\nfacts and may be identified by words such as “predicts”, \r\n“anticipates”, “believes”, “estimates”, “expects”, “projects”, and \r\nother similar expressions. Such forward-looking statements are \r\nbased on current expectations, estimates and projections, reflect \r\ncurrent views with respect to future events, and are subject to \r\nrisks, uncertainties and assumptions.\r\nForward-looking statements are not guarantees of future \r\nperformance, and risks, uncertainties and other important factors \r\ncould cause the actual business, financial performance, results or \r\nthe industry and markets in which Kaldvik AS operates to differ \r\nsubstantially from the statements expressed or implied in this \r\npresentation by such forward-looking statements.\n\nQ3 Highlights\r\nHARVESTED VOLUME (TONNES)\r\n1.545\r\n7.943\r\n6.441\r\n1.840\r\n4.483\r\nQ3 25 Q4 25 Q1 26 Q2 26 Q3 26\r\nSUPERIOR SHARE\r\n65,0%\r\n42,0%\r\n29,7%\r\n68,2%\r\n75,8%\r\nQ3 25 Q4 25 Q1 26 Q2 26 Q3 26\r\nOPERATIONAL EBIT* (EURm)\r\n-5,0\r\n-10,8\r\n-26,4\r\n-3,3 -3,8\r\nQ3 25 Q4 25 Q1 26 Q2 26 Q3 26\r\nOPERATIONAL EBIT/KG* (EUR)\r\n-3,26\r\n-1,37\r\n-4,10\r\n-1,77\r\n-0,85\r\nQ3 25 Q4 25 Q1 26 Q2 26 Q3 26\r\n• Harvest of 4,483 tonnes, above guidance \r\nof 3,500 tonnes, with 75.8% superior share\r\n• Jellyfish event in Reyðarfjörður: biomass \r\nwrite-down of EURm 11.5, presented \r\noutside Operational EBIT\r\n• Operating licenses granted for MAB of \r\n10,000 tonnes in Seydisfjordur, increasing \r\ntotal licenses to 53,800 tonnes\r\n*Excluding biomass write-down of EURm 11.5 in Q3 2026 related to the jellyfish event\n\nJellyfish Event in Reyðarfjörður\r\nA severe but time-limited biological event affecting 25G, with no biological impact on 26G\r\nWhat happened\r\n• 4 Sep: Elevated mortality and reduced appetite first observed in \r\nconnection to increasing number of Lion´s Mane\r\n• 6 Sep: First market announcement reporting approximately 0.3 \r\npercentage points additional mortality \r\n• 15 Sep: Market update: ~6.5 percentage points additional mortality; \r\nbiological impact declining\r\n• 7 Oct: Situation stabilized; mortality and jellyfish presence substantially \r\nreduced. Event resulted in total 11.5 percentage points of increased \r\nmortality in 25G\r\n• Mainly affecting harvest volumes of 2027\r\nOPERATIONAL EBIT* (EURm)\r\n-5,0\r\n-10,8\r\n-26,4\r\n-3,3 -3,8\r\nQ3 25 Q4 25 Q1 26 Q2 26 Q3 26\r\nOPERATIONAL EBIT/KG* (EUR)\r\n-3,26\r\n-1,37\r\n-4,10\r\n-1,77\r\n-0,85\r\nQ3 25 Q4 25 Q1 26 Q2 26 Q3 26\r\nJellyfish event in Reyðarfjörður: biomass write-down of \r\nEURm 11.5, presented outside Operational EBIT\n\nJellyfish Event in Reyðarfjörður\r\nA severe but time-limited biological event affecting 25G, with no biological impact on 26G\r\nWhat happened\r\n• 4 Sep: Elevated mortality and reduced appetite first observed in \r\nconnection to increasing number of Lion´s Mane\r\n• 6 Sep: First market announcement reporting approximately 0.3 \r\npercentage points additional mortality \r\n• 15 Sep: Market update: ~6.5 percentage points additional mortality; \r\nbiological impact declining\r\n• 7 Oct: Situation stabilized; mortality and jellyfish presence substantially \r\nreduced. Event resulted in total 11.5 percentage points of increased \r\nmortality in 25G\r\n• Mainly affecting harvest volumes of 2027\n\n0 m\r\n50 m\r\nObservations\r\nand forecasts Skirt / barrier\r\nconcept – to validate\r\nElectric fence\r\nconcept – to validate\r\nOxygen support\r\nconcept – to validate\r\nTentacles can protrude through nets –\r\nwhole jellyfish need not enter the cage\r\nHigher densities near\r\nsurface at night\r\n1) EUR 2.5m in 2027 budget and EUR 1.5m in 2028 budget\r\nResponse in 2026\r\nProtect fish and reduce biomass at risk\r\n▪ Accelerated harvesting of biomass at risk\r\n▪ Reduced feeding and gradual reintroduction\r\n▪ Close monitoring of fish health\r\nEarlier warning\r\nGain time to act before exposure\r\n▪ Combine migration, current and jellyfish data\r\n▪ Forecasts and surveillance ahead of risk periods\r\nExposure protection\r\nLimit exposure and support fish\r\n▪ Electric fence to inactivate stinging cells\r\n▪ Physical skirts / barriers to reduce ingress\r\n▪ Oxygen support for fish with impaired gills\r\nStill to establish\r\nEffectiveness at high jellyfish \r\ndensity, with adequate oxygen \r\nand water exchange\r\nc.EUR 4m\r\nplanned capex 2027–281\r\nBy February 2027: Finalise site-specific solutions and budget allocations\r\nMarch–May 2027: Procurement and installation\r\nJune 2027: Target: installed, tested and operational\r\n1\r\n3\r\n2\r\n▪ Jellyfish are a recurring local risk, generally present in moderate volumes, with higher￾density events typically occurring every third year\r\n▪ While existing measures have helped in previous years, high biomass in 2026 required \r\nclean nets to preserve oxygen levels, lowering the physical barrier and allowing greater \r\njellyfish ingress\r\nStrengthening the jellyfish mitigation strategy for 2027severe but time-limited \r\nbiological event affecting 25G, with no biological impact on 26G\r\n1\r\n2\r\n3\n\nSea and Land Operations\r\nGeneration 25G 24G\r\nCumulative mortality* 24.2% 35.6%\r\nSuperior share at harvest 73.6% 65.1%\r\nStatus Harvesting Harvested\r\n* End of Q3, same point in the production cycle\r\n25G with normalized mortality and appetite after jellyfish event\r\nSmolt release 2026\r\n• Previously communicated delay of output to \r\nreduce risk\r\n• Further delays due to Jellyfish event\r\n• 26G transfer completed by 6th of November, \r\nlast group at sea temperature of ～6.5°C, \r\naverage transfer mortality end Q3 of 11.42% \r\n(target 4%)\r\n• No transfer in Parvicapsula high-risk period \r\n(August – early September)\r\nLicenses after approval in Seyðisfjörður\r\nLicenses (tonnes MAB) Fertile Sterile Total\r\nBefore Seyðisfjörður 34,500 9,300 43,800\r\nSeyðisfjörður 6,500 3,500 10,000\r\nTotal 41,000 12,800 53,800\n\nThe main biological challenges have different causes and responses\r\nIssue Targeted response\r\nEach issue has a targeted response, with a new production model at its core\r\nEffect\r\nWinter wounds\r\nBacterial\r\nBacterial skin lesions usually occurring when \r\nsea temperatures are low; G24 was hit \r\nparticularly hard\r\n–5.5 kt\r\nG24 harvest vs expectations: 10.7 kt, fully \r\nharvested Q1 2026 at c.37% superior\r\nOne winter at sea\r\n• Larger, higher-quality smolt with improved \r\nvaccination status\r\n• No small late-autumn releases\r\n• Output timed to each site\r\nParvicapsula\r\nParasite\r\nParasite causing mortality, poor appetite and \r\nreduced growth; mainly affecting fish \r\ntransferred to sea in August and early \r\nSeptember\r\nLower survival\r\nMortality, weaker performance throughout \r\nthe sea phase, & lower superior share\r\nNo releases in Aug-early Sep risk window\r\n• One-winter strategy will reduce losses\r\n• Smolt quality programme implemented\r\n• Hybrid internal and external smolt\r\nJellyfish event\r\nEnvironmental (G25)\r\nRepeated exposure to jellyfish compromise \r\ngill- and skin health, cause acute respiratory \r\nproblems, resulting in reduced growth and \r\nmortality\r\n+11.5 pp\r\nIncremental G25 mortality; partial harvest in \r\nReyðarfjörður Q3 2026, normalised by 7 Oct\r\nDetect, block and support\r\n• Early warning for jellyfish swarms\r\n• Electric fences, barriers, oxygen\r\n• ~EUR 4m mitigation CAPEX 2027–28\r\n»\r\n»\r\n»\r\n»\r\n»\r\n»\r\nMortality after release\r\nSmolt & transfer\r\nSmolt lost within the first 60 days after sea \r\ntransfer; linked to smolt quality and stress \r\nduring transport and handling\r\nc.12%\r\nAvg. transfer mortality G22–24; G26 at \r\n11.4%, with a plan of 5% from G27\r\nStronger smolt, safer transfer\r\n• Water chemistry upgrades, adjusted smoltification\r\n& best operational practice focus\r\n• Optimize wellboat capacity for transfers\r\n• Hybrid smolt sourcing strategy\r\n» »\n\nQ3 2026 Q3 2025 YTD 2026 YTD 2025\r\nHarvested tonnes 4,483 1,545 12,763 9,163\r\nRevenue salmon 25,668 9,614 72,498 64,475\r\nPrice achievement 5.75 6.27 5.70 6.91\r\nSuperior share 75.8% 65.0% 51.0% 59.4%\r\nRevenue in EUR 1,000. Price achievement in EUR/kg.\r\nHarvesting and Sales\r\n• Harvested tonnes Q3 4,483 (1,545)\r\n• Above guidance of ~3,500 tonnes\r\n• Price achievement Q3 EUR/kg 5.75 (6.27)\r\n• Superior share 75.8% (65.0%)\r\n• Contract share in Q4 is 38%\n\nFinancial Results\r\nKey figures (EURm)\r\nQ3 2026 Q3 2025 YTD 2026 YTD 2025 FY 2025\r\nHarvest volume (tonnes) 4,483 1,545 12,763 9,163 17,106\r\nOperating income 26.1 9.9 73.9 66.2 114.4\r\nOperational EBIT* -3.8 -5.0 -33.4 0.5 -10.3\r\nOperational EBIT/kg* (EUR) -0.85 -3.26 -2.62 0.06 -0.60\r\nBiomass write-down -11.5 – -11.5 – –\r\nProduction tax -1.4 -0.5 -3.8 -2.9 -5.3\r\nOperating income (EURm)\r\n9,9\r\n26,1\r\n66,2\r\n73,9\r\nQ3 2025 Q3 2026 YTD 2025 YTD 2026\r\nOperational EBIT* (EURm)\r\n-5,0 -3,8\r\n0,5\r\n-33,4\r\nQ3 2025 Q3 2026 YTD 2025 YTD 2026\r\n• Operational EBIT* EURm -3.8 (-5.0); \r\nEBIT/kg* EUR -0.85 (-3.26), on higher \r\nvolume and superior share\r\n• Biomass write-down of EURm 11.5 \r\nrelated to the jellyfish event, presented \r\noutside Operational EBIT\r\n• Operating income EURm 26.1 (9.9) on \r\nharvest of 4,483 tonnes (1,545)\r\n-3,26\r\n-0,85\r\n0,06\r\n-2,62\r\nQ3 2025 Q3 2026 YTD 2025 YTD 2026\r\nOperational EBIT/kg* (EUR)\r\n-0,5\r\n-1,4\r\n-2,9\r\n-3,8\r\nQ3 2025 Q3 2026 YTD 2025 YTD 2026\r\nProduction tax (EURm)\r\n*Excluding biomass write-down of EURm 11.5 in Q3 2026 related to the jellyfish event\n\nBalance Sheet and NIBD\r\nTotal assets EURm\r\n355 356 354 352 349\r\n174 156 115 124 133\r\n530 512\r\n468 476 482\r\nQ3 25 Q4 25 Q1 26 Q2 26 Q3 26\r\nNon-current assets Current assets\r\nEquity ratio\r\n55% 55%\r\n53%\r\n51%\r\n46%\r\nQ3 25 Q4 25 Q1 26 Q2 26 Q3 26\r\nTotal liabilities EURm\r\n193 196 192 199\r\n25\r\n48 33 26 35\r\n234\r\n240 228 218 234\r\n259\r\nQ3 25 Q4 25 Q1 26 Q2 26 Q3 26\r\nNon-current liabilities Current liabilities\r\nChanges to NIBD in Q3 2026 (EURm)\r\nNIBD 30.06.2026: 196.35\r\nNIBD 30.09.2026: 214.49\r\nIncrease in the quarter: 18.1\r\n12,1\r\n-1,3\r\n0,9\r\n5,0\r\n1,4\r\nEBITDA Working capital Capex Financial items Production tax\n\nFinancing\r\n117 102\r\n90 130\r\n207\r\n232\r\nExisting facilities New facilities\r\nRCF\r\nTerm loan\r\nTerm loan and RCF commitments, EURm\r\nNew financing package Financial covenants\r\n1\r\nLender financing package\r\nAgreed with the bank syndicate on 29 October 2026. Waiver period extended to 17 \r\nDecember 2026. Maturity extended to 30 June 2030 for all facilities. Term loan \r\nrepayments from March 2029. EURm 15 extra availability on the RCF until October \r\n2028. Finance lease capacity of up to EURm 30.\r\n2\r\nShareholder guarantee\r\nAustur, supported by its owners, provides a guarantee of up to EURm 25 in support \r\nof drawings under the RCF in excess of the borrowing base during the waiver \r\nperiod.\r\n3\r\nEquity raise\r\nEquity raise of ~EURm 105 in Q4 2026.\r\nCovenant Requirement\r\nEquity ratio At least 45% at all times\r\nMinimum liquidity EURm 10 from Q4 26 · EURm 15 from Q4 27 · EURm 25 \r\nfrom Q4 29\r\nMinimum EBITDA From Q4 27, stepping up in line with the business plan as \r\nharvest volumes increase\r\nLeverage Maximum 4.0x in 2029 and 3.5x from 2030\r\nInterest cover (12 months \r\nrolling basis) At least 2.5x from Q1 2029\n\nHarvest Outlook\r\n• Q4 2026 harvest ~4,200 tonnes\r\n• FY 2026 harvest guidance maintained at ~17,000 tonnes\r\n• FY 2027 harvest guidance ~18,000 tonnes\r\nHarvested volume (1,000 tonnes)\r\n15,0\r\n11,3\r\n4,4\r\n15,0\r\n17,1 17,0\r\n18,0\r\n2021 2022 2023 2024 2025 2026\r\nGuidance\r\n2027\r\nGuidance\n\n~30kt\r\n~45kt\r\n~18kt ~17kt\r\n~15kt ~17kt\r\nThe revised plan targets approximately 30,000t in 2028\r\n2027 is a transition year; 2028 harvest is driven by G26 – the license base supports a long￾term potential of ~45 kt\r\n✓\r\n2024 – 2025\r\nBiological setbacks\r\nCapacity built, volume held back\r\n▪ Winter wounds (G24), algae (G23) and \r\nearly harvest\r\n▪ Smolt release scaled to 8.3m (G25)\r\n2026 Today\r\nStabilise\r\nRevised production model \r\nimplemented\r\n▪ Guidance of c.17 kt maintained after \r\nthe jellyfish event\r\n▪ 63% of G26 transferred before 1 August\r\n2027\r\nTransition\r\nG26 grows out at sea\r\n▪ Lower remaining G25 biomass\r\n▪ Revised production plan being \r\nimplemented\r\n2028\r\nTarget: c.30,000t\r\nDriven by G26\r\n▪ Larger smolt volumes converted into \r\nharvest\r\n▪ Higher biological yield from later \r\ngenerations\r\nLong term\r\nPotential: ~45,000t\r\n53.8 kt MAB license base\r\n▪ Including external supply from Icelandic \r\nland-based farms\r\n▪ Expanded harvest infrastructure\r\n▪ Mortality <10%, superior share >90%\r\n2024 2025 2026E 2027E 2028E Long term\n\nSummary\r\nFarming Status\r\n4,483 tonnes harvested in Q3 with 75.8% superior share; jellyfish event in \r\nReyðarfjörður leading to additional mortality in generation 25\r\nFinancial Update\r\nOperational EBIT* EURm -3.8 (-5.0) with an operating income of EURm 26.1 \r\n(9.9); biomass write-down of EURm 11.5\r\nFinancing package with bank syndicate and largest shareholder as well as \r\nequity raise\r\nHarvest Outlook\r\nFY 2026 guidance maintained at ~17,000 tonnes; FY 2027 ~18,000 tonnes\r\nFinancial Calendar 2026–2027\r\nEvent Date\r\nQuarterly Update Q3 2026 13 November 2026\r\nQuarterly Update Q4 2026 25 February 2027\r\nAnnual Report 2026 29 April 2027\r\n*Excluding biomass write-down of EURm 11.5 in Q3 2026 related to the jellyfish event\n\nQ&A\r\nQA@kaldvik.is\n\nAppendix\n\nFINANCIAL STATEMENT\r\nCONSOLIDATED STATEMENT OF COMPREHENSIVE INCOME\r\nKALDVIK AS - Group\r\n(EUR 1000) Q3 2026\r\n(01.07-30.09)\r\nQ3 2025\r\n(01.07-30.09)\r\nYTD 2026\r\nSeptember\r\nYTD 2025\r\nSeptember FY 2025\r\nOperating income salmon 25.668 9.614 72.498 64.475 112.260\r\nOther operating income 442 319 1.424 1.771 2.153\r\nTotal revenue 26.111 9.933 73.922 66.246 114.413\r\nCost of materials 23.448 -2.019 69.421 19.837 62.366\r\nEmployee benefit expenses 4.852 5.084 15.376 16.155 21.732\r\nOther operating expenses 9.951 8.868 24.458 20.786 28.114\r\nDepreciation, amortisation and impairment 3.169 3.042 9.614 8.964 12.546\r\nOperating EBIT before fair value adjustment of biomass and production tax -15.309 -5.040 -44.947 504 -10.344\r\nProduction tax -1.354 -490 -3.789 -2.863 -5.318\r\nNet fair value adjustment biomass 3.392 440 1.824 -17.020 -14.381\r\nEBIT -13.271 -5.091 -46.911 -19.379 -30.042\r\nFinance income 16 12 27 41 140\r\nFinance costs -5.041 -4.816 -13.387 -13.315 -16.489\r\nForeign exchange rate gain/ (-)loss -469 -1.169 -644 -1.218 151\r\nProfit or loss before tax -18.764 -11.064 -60.915 -33.871 -46.240\r\nIncome tax - - - - 5.792\r\nProfit or loss for the period -18.764 -11.064 -60.915 -33.871 -40.448\r\nTotal comprehensive income for the period -18.764 -11.064 -60.915 -33.871 -40.448\r\nProfit or loss for the period attributable to:\r\nEquity holders of the parent -18.764 -11.064 -60.915 -34.034 -40.611\r\nNon-controlling interests - - - 163 163\r\nTotal -18.764 -11.064 -60.915 -33.871 -40.448\r\nTotal comprehensive income for the period attributable to:\r\nEquity holders of the parent -18.764 -11.064 -60.915 -34.034 -40.611\r\nNon-controlling interests - - - 163 163\r\nTotal -18.764 -11.064 -60.915 -33.871 -40.448\r\nEarnings per share (\"EPS\"):\r\n- Basic and diluted -0,11 -0,07 -0,36 -0,24 -0,27\r\nAverage number of shares 168.268.335 166.525.796 168.268.335 143.322.865 149.559.233\n\nFINANCIAL STATEMENT\r\nCONSOLIDATED STATEMENT OF FINANCIAL POSITION\r\nKALDVIK AS - Group\r\n(EUR 1000) 30.09.2026 30.06.2026 31.12.2025 30.09.2025\r\nASSETS\r\nNon-current assets\r\nLicenses 175.758 175.765 175.696 175.372\r\nOther intangible assets 22.434 22.434 22.434 24.247\r\nProperty, plant and equipment 150.791 153.046 157.911 155.672\r\nDeferred tax assets 284 284 262 -\r\nTotal non-current assets 349.267 351.528 356.303 355.291\r\nCurrent assets\r\nBiological assets 116.632 110.909 129.186 145.040\r\nInventories 4.334 4.278 2.948 4.591\r\nTrade and other receivables 7.858 5.477 10.906 16.427\r\nCash and cash equivalents 4.156 3.333 12.657 8.316\r\nTotal current assets 132.980 123.997 155.696 174.375\r\nTOTAL ASSETS 482.247 475.526 511.999 529.665\r\nEQUITY AND LIABILITIES\r\nEquity\r\nShare capital 1.478 1.478 1.478 1.472\r\nOther equity 221.305 240.069 282.220 287.851\r\nEquity attributable to the parent 222.783 241.548 283.699 289.323\r\nTotal equity 222.783 241.548 283.699 289.323\r\nNon-current liabilities\r\nNon-current interest-bearing liabilities 2.373 177.321 195.250 186.753\r\nSubordinated loan from related parties 22.266 21.288 - -\r\nDeferred tax liabilities 358 358 358 6.060\r\nTotal non-current liabilities 24.998 198.967 195.608 192.813\r\nCurrent liabilities\r\nCurrent interest-bearing liabilities 194.003 1.074 1.899 988\r\nPurchase price payable - - - 3.855\r\nTrade and other payables 40.314 33.837 30.595 42.015\r\nRelated party payables external 149 100 198 172\r\nIncome tax payable - - - 500\r\nTotal current liabilities 234.466 35.011 32.693 47.530\r\nTotal liabilities 259.464 233.978 228.301 240.343\r\nTOTAL EQUITY AND LIABILITIES 482.247 475.526 511.999 529.665\n\nFINANCIAL STATEMENT\r\nCONSOLIDATED STATEMENT OF CASH FLOWS\r\nKALDVIK AS - Group\r\n(EUR 1000) Q3 2026\r\n(01.07-30.09)\r\nQ3 2025\r\n(01.07-30.09)\r\nYTD 2026\r\nSeptember\r\nYTD 2025\r\nSeptember FY 2025\r\nCash flows from operating activities\r\nProfit or loss before tax -18.764 -11.064 -60.915 -33.871 -40.448\r\nNet fair value adjustment on biological assets -3.392 -440 -1.824 17.020 14.381\r\nProduction tax 1.354 490 3.789 2.863 5.318\r\nGain/loss on disposal of property, plant and equipment - - - - 60\r\nDepreciation and impairment of property, plant and equipment and right-of-use assets 3.169 3.042 9.614 8.964 12.546\r\nChanges in inventories, trade and other receivables and trade and other payables 137 -17.401 21.478 -36.351 -29.981\r\nFinance income -16 -12 -27 -41 -140\r\nFinance costs 5.041 4.816 13.387 13.315 16.489\r\nForeign exchange rate gain/ (-)loss 469 1.169 644 1.218 -151\r\nNet cash flows from/to operating activities -12.002 -19.400 -13.855 -26.882 -21.926\r\nCash flows from investing activities\r\nPurchase of property, plant and equipment -915 -4.277 -2.494 -12.557 -14.154\r\nPurchase of intangible assets 7 -62 -86 -94 -493\r\nProceeds from sale of property, plant and equipment - - - - 292\r\nInterest received 16 12 27 41 140\r\nNet cash flow from/to investing activities -891 -4.327 -2.552 -12.611 -14.214\r\nCash flow from financing activities\r\nProceeds from borrowings 18.066 18.350 25.642 72.750 79.750\r\nRepayment of borrowings - - -25.451 -59.109 -59.109\r\nChange in related parties liabilities and subordinated loans 979 -14.432 22.266 597 568\r\nPayments for the principal portion of the lease liability -307 -514 -1.178 -1.557 -3.132\r\nInterest paid -5.041 -4.816 -13.387 -13.315 -16.489\r\nNew shares issued - 13 - 46.440 45.402\r\nTransaction costs on issue of shares - - - -1.034 -1.211\r\nAcquisition of subsidiaries, net of cash - - - 468 458\r\nNet cash flow from/to financing activities 13.697 -1.399 7.892 45.240 46.237\r\nNet change in cash and cash equivalents 803 -25.126 -8.516 5.747 10.097\r\nEffect of change in exchange rate on cash and cash equivalents 20 9 15 20 10\r\nCash and cash equivalents, beginning of period 3.333 33.434 12.657 2.549 2.549\r\nCash and cash equivalents, end of period 4.156 8.316 4.156 8.316 12.657\n\nFINANCIAL STATEMENT\r\nCONSOLIDATED STATEMENT OF CHANGES IN EQUITY\r\nKALDVIK AS - Group\r\n(EUR 1000)\r\nAttributable to the equity holders of the parent\r\nNon￾controlling\r\ninterests\r\nTotal\r\nequity Share\r\ncapital\r\nShare\r\npremium\r\nForeign\r\ncurrency trans￾lation reserve\r\nOther\r\nequity Total\r\nAt 31 December 2024 1.088 325.815 30.138 -89.280 267.750 885 268.645\r\nComprehensive income:\r\nProfit or loss for the period - - - -34.034 -34.034 163 -33.871\r\nEffect of acquisition in minority interest - - - -4.364 -4.364 -1.048 -5.412\r\nIssued share capital 384 60.611 - - 60.995 - 60.995\r\nTransaction costs - -1.034 - - -1.034 - -1.034\r\nAt 30 September 2025 1.472 385.391 30.138 -127.678 289.313 - 289.324\r\nAt 31 December 2025 1.478 385.404 30.138 -133.324 283.688 - 283.699\r\nComprehensive income:\r\nProfit or loss for the period - - - -60.915 -60.915 - -60.915\r\nAt 30 September 2026 1.478 385.404 30.138 -194.239 222.773 - 222.783\n\nALTERNATIVE PERFORMANCE \r\nMEASURES\r\nOPERATIONAL EBIT\r\nOperational EBIT is operational profit before fair value adjustments. Operational EBIT is a major alternative \r\nperformance measure in the salmon farming industry. A reconciliation from EBIT to Operational EBIT is provided \r\nbelow.\r\n(EUR 1000) Q3 2026 Q3 2025 YTD 2026 YTD 2025 FY 2025\r\nEBIT -13.271 -5.091 -46.911 -19.379 -30.042\r\nNet FV adjustment biomass and production tax -2.038 50 1.964 19.883 19.698\r\nOperational EBIT of salmon before fair value adjustment -15.309 -5.040 -44.947 504 -10.344\r\nBiomass write-down (one off) 11.501 - 11.501 - -\r\nOperational EBIT -3.807 -5.040 -33.445 504 -10.344\r\nOPERATIONAL EBIT PER KG\r\nOperational EBIT per kg is Operational EBIT divided by harvested volumes.\r\n(EUR 1000) Q3 2026 Q3 2025 YTD 2026 YTD 2025 FY 2025\r\nOperational EBIT -3.807 -5.040 -33.445 504 -10.344\r\nTotal harvested volumes (tonnes) 4.483 1.545 12.763 9.163 17.106\r\nOperational EBIT per kg (EUR) -0,85 -3,26 -2,62 0,06 -0,60\r\nEQUITY RATIO\r\nEquity ratio measures the proportion of total assets that are financed by \r\nshareholders.\r\n(EUR 1000) 30.09.2026 30.09.2025 31.12.2025\r\nTotal equity 222.783 289.323 283.699\r\nTotal assets 482.247 529.665 511.999\r\nEquity ratio 46,2% 54,6% 55,4%\r\nNET INTEREST BEARING DEBT\r\nNet interest-bearing debt includes loans from banks and shareholders and \r\nlease liabilities less cash and cash equivalents.\r\n(EUR 1000) 30.09.2026 30.09.2025 31.12.2025\r\nTotal interest-bearing loans and \r\nborrowings 218.643 187.741 197.149\r\nCash and cash equivalents 4.156 8.316 12.657\r\nNet interest-bearing debt 214.487 179.425 184.492\n\nSHAREHOLDER LIST\r\n20 LARGEST SHAREHOLDERS AT 30.09.2026\r\nOverview of the 20 largest shareholders at 30.09.2026\r\nShareholder Number Ownership\r\nAUSTUR HOLDING AS 100.996.920 60,02%\r\nKrossey ehf. 19.061.439 11,33%\r\nEggjahvíta ehf. 7.557.539 4,49%\r\nEskja Holding ehf. 4.556.625 2,71%\r\nHregg ehf. 3.026.745 1,80%\r\nJ.P. Morgan SE* 2.917.241 1,73%\r\nLaxar eignarhaldsfélag ehf. 2.434.990 1,45%\r\nÓsval ehf. 2.332.916 1,39%\r\nStefnir 1.780.160 1,06%\r\nLífeyrissjóður Vestmannaeyja 1.500.000 0,89%\r\nState Street Bank and Trust Comp 1.430.500 0,85%\r\nGrjót eignarhaldsfélag 1.323.204 0,79%\r\nHØSE AS 1.030.265 0,61%\r\nSkel fjárfestingafélag hf. 1.020.837 0,61%\r\nSTAVANGER FORVALTNING AS 1.019.821 0,61%\r\nÁning Ásbrú ehf. 842.593 0,50%\r\nABK HOLDING AS 752.906 0,45%\r\nRISTORA AS 721.132 0,43%\r\nMP PENSJON PK 718.312 0,43%\r\nLandsbréf - Öndvegisbréf hs. 652.386 0,39%\r\nTotal of the 20 largest shareholders 155.676.531 92,52%\r\nOther shareholders 12.591.804 7,48%\r\nTotal 168.268.335 100%\r\n* Custodian of shares\r\nAs of 30.09.26, Icelandic companies hold approximately 53% of the Company's share capital\r\nShare capital\r\n30.09.2026 31.12.2025\r\nOrdinary shares, par value 0,10 NOK per share 16.826.834 16.826.834\r\nTotal ordinary shares issued and fully paid 16.826.834 16.826.834\r\nAll shares are ordinary and have the same voting rights and rights to dividends. Shares are \r\nnominated in NOK.\r\nChanges in share capital\r\nNumber of shares Share capital\r\n30.09.2026 31.12.2025 30.09.2026 31.12.2025\r\nBeginning of period 168.268.335 122.261.249 16.826.834 12.226.125\r\nNew issuance of share capital - 46.007.086 - 4.600.709\r\nEnd of period 168.268.335 168.268.335 16.826.834 16.826.834",
+          "pages_processed": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "truncated": {
+            "text": false,
+            "images": false
+          },
+          "extractor": "clawpdf-existing-install"
+        }
+      ],
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-13",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
       "id": "news:nordurthing-news:heitavatnslaust-i-skalabrekku",
       "lane": "news",
       "category": "project",
@@ -1419,6 +1714,58 @@
       "url": "https://www.nordurthing.is/is/frettir/heitavatnslaust-i-skalabrekku",
       "outlet": "Norðurþing",
       "source": "nordurthing-news",
+      "is_new": false,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-12",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:bb:innvidaradherra-vetrarthjonusta-fullfjarmognud",
+      "lane": "news",
+      "category": "project",
+      "title": "Innviðaráðherra: vetrarþjónusta fullfjármögnuð",
+      "entity": "bb.is",
+      "date": "2026-11-12",
+      "summary": "Aukið fjármagn í viðhald vega, fullfjármögnun vetrarþjónustu og stofnun innviðafélags til að hraða stórframkvæmdum á sviði samgangna eru á meðal verkefna sem ríkisstjórnin hefur unnið að á kjörtímabilinu sagði Eyjólfur Ármannsson, innviðaráðherra á Alþingi í fyrradag þegar hann mæli fyrir fyrir tillögu til þingsályktunar um stefnumótandi byggðaáætlun fyrir....",
+      "url": "https://bb.is/2026/11/innvidaradherra-vetrarthjonusta-fullfjarmognud/",
+      "outlet": "bb.is",
+      "source": "bb",
+      "is_new": false,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-12",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:bb:framfarafelag-vestfjarda-folksfjolgun-a-vestfjordum-kallar-a-aukna-ibudauppbyggi",
+      "lane": "news",
+      "category": "investment",
+      "title": "Framfarafélag Vestfjarða: Fólksfjölgun á Vestfjörðum kallar á aukna íbúðauppbyggingu",
+      "entity": "bb.is",
+      "date": "2026-11-12",
+      "summary": "Eftir áratugi fólksfækkunar hefur þróunin snúist við á Vestfjörðum og íbúum landshlutans tekið að fjölga á ný. Þessari jákvæðu þróun fylgir aukin eftirspurn eftir íbúðarhúsnæði, en nýbyggingar hafa ekki haldið í við áætlaða þörf. Húsnæðis-, mannvirkja- og skipulagsstofnun (HMS) bendir á ýmis úrræði sem gætu auðveldað uppbyggingu og skapað forsendur fyrir áf...",
+      "url": "https://bb.is/2026/11/framfarafelag-vestfjarda-folksfjolgun-a-vestfjordum-kallar-a-aukna-ibudauppbyggingu/",
+      "outlet": "bb.is",
+      "source": "bb",
       "is_new": false,
       "sector_tags": [],
       "sector_eligibility": {
@@ -1481,6 +1828,116 @@
         "facility_relevance": true,
         "project_eligible": false,
         "eligibility_reason": "iceland_project_not_verified",
+        "current_dated_signal": false,
+        "source_date": "2026-11-11",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:fiskifrettir:mannvirki-hampidjusamstaedunnar-risa-a-indlandi",
+      "lane": "news",
+      "category": "project",
+      "title": "Mannvirki Hampiðjusamstæðunnar rísa á Indlandi",
+      "entity": "Fiskifréttir",
+      "date": "2026-11-11",
+      "summary": "Mannvirki Hampiðjusamstæðunnar rísa á Indlandi",
+      "url": "https://fiskifrettir.vb.is/mannvirki-hampidjusamstaedunnar-risa-a-indlandi/",
+      "outlet": "Fiskifréttir",
+      "source": "fiskifrettir",
+      "is_new": false,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-11",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:bb:laxeldi-eldissvaedi-a-vestfjordum",
+      "lane": "news",
+      "category": "industrial-demand",
+      "title": "Laxeldi: eldissvæði á Vestfjörðum",
+      "entity": "bb.is",
+      "date": "2026-11-11",
+      "summary": "Arctic Fish birtir á heimasíðu sinni þrívíddarkort yfir eldisstöðvar fyrirtækisins á Vestfjörðum. Það er svo tengt gagnagrunni Matvælastofnunar um framleiðslugögn í laxeldinu. Heildaryfirlit yfir eldissvæði á Vestfjörðum. svæði Arctic Fish eru rauðlituð.",
+      "url": "https://bb.is/2026/11/laxeldi-eldissvaedi-a-vestfjordum/",
+      "outlet": "bb.is",
+      "source": "bb",
+      "is_new": false,
+      "sector_tags": [
+        "aquaculture-fish-production"
+      ],
+      "sector_evidence_role": "project_or_sector_context",
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": true,
+        "project_eligible": false,
+        "eligibility_reason": "iceland_project_not_verified",
+        "current_dated_signal": false,
+        "source_date": "2026-11-11",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "sector_subtopics": [
+        "aquaculture-facility-unspecified"
+      ]
+    },
+    {
+      "id": "news:bb:isafjardarbaer-bergros-hjalmarsdottir-radin-skipulags-og-umhverfisfulltrui",
+      "lane": "news",
+      "category": "investment",
+      "title": "Ísafjarðarbær – Bergrós Hjálmarsdóttir ráðin skipulags- og umhverfisfulltrúi",
+      "entity": "bb.is",
+      "date": "2026-11-11",
+      "summary": "Bergrós Hjálmarsdóttir hefur verið ráðin sem skipulags- og umhverfisfulltrúi hjá Ísafjarðarbæ og hefur þegar hafið störf. Bergrós er menntuð í byggingafræði frá Háskólanum í Reykjavík. Hún kemur til Ísafjarðarbæjar frá Verði tryggingafélagi, þar sem hún hefur undanfarin ár starfað við tjónamat fasteigna. Hún hefur einnig reynslu af sölu fasteigna, samningag...",
+      "url": "https://bb.is/2026/11/isafjardarbaer-bergros-hjalmarsdottir-radin-skipulags-og-umhverfisfulltrui/",
+      "outlet": "bb.is",
+      "source": "bb",
+      "is_new": false,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-11",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:bb:arneshreppur-skipulagsbreytingar-vegna-hvalarvirkjunar",
+      "lane": "news",
+      "category": "investment",
+      "title": "Árneshreppur: skipulagsbreytingar vegna Hvalárvirkjunar",
+      "entity": "bb.is",
+      "date": "2026-11-11",
+      "summary": "Hreppsnefnd Árneshrepps samþykkti í byrjun október breytingar á aðalskipulagi sveitarfélagins 2005–2025 vegna jarðstrengs frá Melum í Trékyllisvík að Hvalá og lagfæringa á Ófeigsfjarðarvegi, með þeim breytingum og lagfæringum sem gerðar voru í kjölfar umsagna og athugasemda sem bárust. Þá samþykkti sveitarstjórnin einnig breytingu á deiliskipulagi Hvalárvir...",
+      "url": "https://bb.is/2026/11/arneshreppur-skipulagsbreytingar-vegna-hvalarvirkjunar/",
+      "outlet": "bb.is",
+      "source": "bb",
+      "is_new": false,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-11",
         "assessed_on": "2026-11-23",
@@ -1681,6 +2138,32 @@
       }
     },
     {
+      "id": "news:bb:innvidaradherra-thrir-styrkir-til-vestfjarda",
+      "lane": "news",
+      "category": "investment",
+      "title": "Innviðaráðherra: þrír styrkir til Vestfjarða",
+      "entity": "bb.is",
+      "date": "2026-11-05",
+      "summary": "Eyjólfur Ármannsson innviðaráðherra hefur úthlutað rúmum 27 milljónum kr. í styrki til 14 verkefna til að styðja við uppbyggingu vinnustaðaklasa á landsbyggðinni. Styrkirnir eru veittir á grundvelli byggðaáætlunar (aðgerð B.7 – Óstaðbundin störf). Markmiðið er að fjölga atvinnutækifærum og auka fjölbreytileika starfa á landsbyggðinni. Þetta er í annað sinn....",
+      "url": "https://bb.is/2026/11/innvidaradherra-thrir-styrkir-til-vestfjarda/",
+      "outlet": "bb.is",
+      "source": "bb",
+      "is_new": false,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-05",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
       "id": "landbasedaq:72088bd2ea97966b52",
       "lane": "news",
       "source": "landbasedaq",
@@ -1826,6 +2309,66 @@
       }
     },
     {
+      "id": "news:disclosures-arctic-fish-holding:646f9f2a00ce1aad",
+      "lane": "news",
+      "category": "industrial-demand",
+      "source": "disclosures-arctic-fish-holding",
+      "entity": "Arctic Fish",
+      "outlet": "Arctic Fish",
+      "title": "Arctic Fish (AFISH): Q3 2026 - Previous volume record surpassed",
+      "url": "https://mfn.se/ob/a/arctic-fish-holding/arctic-fish-afish-q3-2026-previous-volume-record-surpassed-842022ab.iframe",
+      "date": "2026-11-04",
+      "summary": "15,613 tonnes harvested YTD 2026, up 48% from 10,561 tonnes YTD 2025. Full-year record from 2025 (14,791 tonnes) already surpassed after nine months. Quarterly harvest volumes amounted to 4.0 thousand tonnes, compared with 5.4 thousand tonnes in Q3 2025 (-26% YoY). Revenues amounted to EUR 22.8 million, compared with EUR 29.0 million in Q3 2025, driven by l...",
+      "is_new": false,
+      "evidence_kind": "issuer_release_via_distribution_mirror",
+      "issuer": "Arctic Fish",
+      "distribution_publisher": "MFN",
+      "publication_date_provenance": "release_article_published_time_verified_against_release_card",
+      "project_learning_eligible": false,
+      "attachments": [
+        {
+          "url": "https://storage.mfn.se/c/aHR0cHM6Ly9hcGkzLm9zbG8ub3Nsb2JvcnMubm8vdjEvbmV3c3JlYWRlci9hdHRhY2htZW50P21lc3NhZ2VJZD02ODU1MjUmYXR0YWNobWVudElkPTMzNTY1MQ/pdf.pdf?news-id=842022ab-12db-58d3-9769-87ca62bc966f",
+          "kind": "document_attachment",
+          "body_extracted": true,
+          "sha256": "7c5c2a7c79112eb0394a929c3a073342fe7cef6d57b080555e373e404c41c068",
+          "text": "Q3 2026 Presentation\r\nNovember 4, 2026\n\nDisclaimer\r\nCautionary note regarding forward-looking statements\r\nQ3 Presentation 2026\r\nBy their nature, forward-looking statements involve, and \r\nare subject to, known and unknown risks, uncertainties, \r\nand assumptions as\rthey relate to events and depend \r\non circumstances that may or may not occur in the \r\nfuture. Because of these known and unknown\rrisks, \r\nuncertainties and assumptions, the outcome may differ \r\nmaterially from those set out in the forward-looking \r\nstatements.\r\n\n\r\nThese forward-looking statements speak only as at the \r\ndate on which they are made. The Company undertakes \r\nno obligation to\rpublicly update or publicly revise any \r\nforward-looking statement, whether as a result of new \r\ninformation, future events or otherwise.\r\n\n\r\nAll subsequent written and oral forward-looking \r\nstatements attributable to the Company or to persons \r\nacting on the Company's\rbehalf are expressly qualified \r\nin their entirety by the cautionary statements referred \r\nto above and contained elsewhere in this\rpresentation.\r\nThis presentation is the management's summary of the 3rd \r\nquarter of 2026, it includes forward-looking statements that \r\nreflect the\rCompany's current views with respect to future \r\nevents and financial and operational performance. These \r\nforward-looking\rstatements may be identified by the use of \r\nforward-looking terminology.\r\n\n\r\nThese forward-looking statements are not historic facts. The \r\nforward-looking statements are not guarantees of future \r\nperformance.\r\n\n\r\nThe Company's actual financial position, operating results \r\nand liquidity, and the development of the industry in which \r\nthe Company\roperates, may differ materially from those \r\nmade in, or suggested, by the forward-looking statements.\r\n\n\r\nThe Company cannot guarantee that the intentions, beliefs, \r\nor current expectations upon which its forward-looking \r\nstatements are\rbased will occur.\r\n\n\nArctic Fish in brief Q3 Presentation 2026\r\nArctic Fish (AFISH) is one of Iceland’s \r\nleading salmon farmers. It is \r\nheadquartered in Ísafjörður and \r\nlisted on Euronext Growth in Oslo. \r\nSince 2023, Mowi has been the \r\ncompany’s majority owner. \n\r\nThe company holds licenses for \r\n29,800 tonnes MAB (Maximum \r\nAllowed Biomass) across 10 farming \r\nareas in 5 fjords, all in the Westfjords \r\nof Iceland.\r\nArctic Fish controls the full value chain, from smolt to sales: \n\r\nSmolt: a state-of-the-art RAS hatchery and smolt facility at Norður-Botn in Tálknafjörður, \r\nproducing larger, robust smolt that spend less time at sea \n\r\nFarming: attractive sea sites with high carrying capacity and high-energy equipment, all \r\nASC certified \n\r\nHarvesting: a modern harvesting facility in Bolungarvík with capacity to support full license \r\nutilization and future growth \n\r\nThe salmon is sold under the “Mowi Arctic” brand, giving access to Mowi’s global sales \r\nnetwork and the substantial synergies available through the majority owner.\n\nHighlights \r\nOperational EBIT improved, margins still negative \r\nOperational EBIT of EUR -5.3 million YTD 2026, compared to \r\nEUR -10.5 million in the same period last year. Higher revenue, \r\nbetter prices and lower production costs improved results, but \r\nmargins remain negative. Further cost reduction in Iceland and \r\ncontinued improvement in biological performance remain key \r\npriorities.\n\n\r\nRecord harvest volumes \r\n15,613 tonnes harvested YTD 2026, up 48% from 10,561 tonnes \r\nYTD 2025. Full-year record from 2025 (14,791 tonnes) already \r\nsurpassed after nine months\r \n\r\nQ3 harvest of 3,990 tonnes, down 26% from 5,401 tonnes in Q3 \r\n2025, reflecting front-loaded harvest planning\r\n\n\r\nGuidance maintained: another record year\r\n\r\n2026 harvest guidance unchanged at 18,000 tonnes (+22% YoY)\r\n\n\r\nStanding biomass of 13,971 tonnes at quarter-end (−12% YoY), \r\nreflecting earlier harvesting this year\n\r\n\r\n\r\nLower costs through scale and efficiency\r\n\r\nCost-saving initiatives and greater economies of scale are \r\nreducing operating costs\r\nQ3 Presentation 2026\r\nHarvested Volumes\r\nGW Tonnes\r\nRevenue\r\n(‘000 EUR)\r\n15,613\r\n10,561\r\n47.8%\r\n93,926\r\n63,618\r\n47.6%\r\n3,990\r\n5,401\r\n26.1%\r\n22,803 28,963\r\n21.3%\r\nQ3 2026 Q3 2025 YTD 2026 YTD 2025 Q3 2026 Q3 2025 YTD 2026 YTD 2025\r\n(EUR ‘000)\r\nOperational revenue and other income\r\nOperational EBITDA\r\nOperational EBIT\r\nNet interest-bearing debt (NIBD)\r\nUnderlying EPS (EUR)\r\nNet cash flow per share (EUR)\r\nROCE\r\nEquity ratio\r\nHarvest volume (GW)\r\nOperational EBIT - EUR per kg\r\nQ3 2026 \r\n22,803\r\n-1,756\r\n-4,222\r\n155,003\r\n-0.08\r\n-0.20\r\n-7.7%\r\n30.7%\r\n3,990\r\n-1.06\r\nQ3 2025 \r\n28,963\r\n-4,095\r\n-6,561\r\n141,441\r\n-0.19\r\n-0.64\r\n-12.2%\r\n36.9%\r\n5,401\r\n-1.21\r\nYTD 2026\r\n93,926\r\n1,995\r\n-5,325\r\n155,003\r\n0.00\r\n-0.16\r\n-3.2%\r\n30.7%\r\n15,613\r\n-0.34\r\nYTD 2025\r\n63,618\r\n-3,442\r\n-10,462\r\n141,441\r\n-0.12\r\n-0.79\r\n-6.5%\r\n36.9%\r\n10,561\r\n-0.99\r\n2025\r\n89,336\r\n-785\r\n-10,283\r\n140,129\r\n-0.17\r\n-0.86\r\n-4.9%\r\n35.7%\r\n14,791\r\n-0.70\n\nFinancials\r\nQ3 Presentation 2026\n\nProfit & Loss\r\nRevenue of EUR 22.8 million in the quarter \r\nDown 21% from EUR 29.0 million in Q3 2025, driven by \r\nlower harvest volumes \n\r\n3,990 tonnes harvested, compared with 5,401 tonnes in \r\nQ3 2025 (-26% YoY)\n\n\r\nOPEBIT improved by EUR 2.3 million in the quarter \r\nOperational EBIT of EUR -4.2 million, compared with \r\nEUR -6.6 million in Q3 2025 \r\n\r\n\r\nBetter result despite 26% lower volumes, reflecting cost \r\nsavings and operational improvements \n\r\nHarvested quantities\r\n3,990\r\nfrom Q3 2025\r\nOperational EBIT (EUR ‘000)\r\n-4,222\r\n26.1% +2,339 EUR from Q3 2025\r\nQ3 Presentation 2026\r\n(EUR ‘000)\r\nOperational revenue and other income\r\nOperational EBIT\r\nNet fair value adjustment of biomass \r\nLicense and production fees / taxes\r\nRestructuring costs\r\nEBIT\r\nNet financial items\r\nEarnings before tax\r\nProfit or loss for the period\r\nBasic EPS (EUR)\r\nUnderlying EPS (EUR)\r\nNet cash flow per share (EUR)\r\nOperational EBIT margin\r\nHarvested tonnes GW\r\nOperational EBIT per kg\r\nROCE\r\nQ3 2026 \r\n22,803\r\n-4,222\r\n6,085\r\n-1,402\r\n0\r\n461\r\n-2,677\r\n-2,216\r\n-1,773\r\n-0.04\r\n-0.08\r\n-0.20\r\n-18.5%\r\n3,990\r\n-1.06\r\n7.7%\r\nQ3 2025 \r\n28,963\r\n-6,561\r\n11,013\r\n-1,706\r\n-2,640\r\n105\r\n-2,575\r\n-2,470\r\n-1,976\r\n-0.06\r\n-0.19\r\n-0.64\r\n-22.7%\r\n5,401\r\n-1.21\r\n-12.2%\r\nYTD 2026\r\n93,926\r\n-5,325\r\n7,580\r\n-4,764\r\n0\r\n-17,670\r\n7,430\r\n-25,099\r\n-20,079\r\n-0.45\r\n0.00\r\n-0.16\r\n-5.7%\r\n15,613\r\n-0.34\r\n-3.2%\r\nYTD 2025\r\n63,618\r\n-10,462\r\n-4,295\r\n-3,310\r\n7,004\r\n-25,071\r\n7,855\r\n-32,925\r\n-26,340\r\n-0.83\r\n-0.12\r\n-0.79\r\n-16.4%\r\n10,561\r\n-0.99\r\n-6.5%\r\n2025\r\n89,336\r\n-10,283\r\n4,733\r\n-4,612\r\n9,653\r\n-19,814\r\n-10,276\r\n30,090\r\n-25,052\r\n-0.79\r\n-0.17\r\n-0.86\r\n-11.5%\r\n14,791\r\n-0.70\r\n-4.9%\n\nFinancial Position\r\nTotal assets of EUR 255.2 million \r\nUp EUR 11.4 million from Q2 2026, mainly due to growth in \r\nbiological assets\n\n\r\nEquity of EUR 78.2 million \r\nDown EUR 1.8 million from Q2 2026 \n\r\nEquity ratio of 30.7%, compared with 32.8% at the end of \r\nQ2 2026 (−2.1 pp)\n\n\r\nNet interest-bearing debt of EUR 155.0 million \r\nUp EUR 11.8 million from EUR 143.2 million at the end of Q2 \r\n2026\r\nQ3 Presentation 2026\r\n(EUR ‘000)\r\nNon-current assets\r\nCurrent assets\r\nTotal assets\r\nEquity\r\nNon-current liabilities\r\nCurrent liabilities\r\nTotal equity and liabilities\r\nNet interest bearing debt\r\nEquity ratio\r\n30.9.2026\r\n148,138\r\n107,025\r\n255,164\r\n78,223\r\n145,440\r\n31,501\r\n255,164\r\n155,003\r\n30.7%\r\n30.6.2026\r\n147,313\r\n96,460\r\n243,772\r\n79,996\r\n138,370\r\n25,406\r\n243,772\r\n143,182\r\n32.8%\r\n30.9.2025\r\n142,249\r\n120,760\r\n263,009\r\n97,015\r\n142,487\r\n23,507\r\n263,009\r\n141,441\r\n36.9%\r\n31.12.2025\r\n140,889\r\n134,510\r\n275,399\r\n98,303\r\n139,232\r\n37,864\r\n275,399\r\n140,129\r\n35.7%\n\nCash Flow & Net Interest-Bearing Debt Q3 Presentation 2026\r\n(EUR ‘000) Q3 2026 \r\nNIBD beginning of period* -143,182\r\nOperational EBITDA* -1,756\r\nChange in working capital -3,205\r\nLicense and production fees / taxes -1,402\r\nOther adjustments 0\r\nCash flow from operations -6,363\r\nNet CAPEX -2,849\r\nCash flow from Investments -2,849\r\nNet interest and financial items paid -2,737\r\nShare capital increase 0\r\nOther items -70\r\nCurrency effect 198\r\nNIBD end of period* -155,003\r\n *Excluding effects of IFRS 16\r\nQ3 2025 \r\n-145,046\r\n-4,095\r\n-17,786\r\n-1,706\r\n-2,640\r\n26,226\r\n-2,606\r\n-2,606\r\n-2,670\r\n35,000\r\n-101\r\n208\r\n-141,441\r\nYTD 2026\r\n-140,129\r\n1,995\r\n4,765\r\n-4,764\r\n0\r\n1,996\r\n-9,549\r\n-9,549\r\n-7,342\r\n0\r\n-210\r\n230\r\n-155,003\r\nYTD 2025\r\n132,650\r\n-3,442\r\n-6,771\r\n-3,310\r\n-7,004\r\n-20,528\r\n-15,304\r\n-15,304\r\n-7,667\r\n35,000\r\n-303\r\n10\r\n-141,441\r\n2025\r\n132,650\r\n-785\r\n1,961\r\n-4,612\r\n-9,653\r\n-13,090\r\n-17,969\r\n-17,969\r\n-10,954\r\n35,000\r\n-485\r\n18\r\n-140,129\r\nNIBD Development\r\n(‘000 EUR) Opening Increase Decrease Closing\r\n7,342 210\r\n230\r\n155,003\r\n4,764\r\n9,549\r\n140,129\r\n1,995 4,765\r\nNIBD \r\n31.12.2025 Operational \r\nEBITDA\r\nChange  \r\nin WC\r\nLicense & \r\nprod. fees /\r\ntaxes\r\nCAPEX Financial  \r\nitems\r\nCurrency \r\neffects\r\nOther  \r\nitems\r\nNIBD \r\n30.09.2026\n\nCapital Expenditures\r\nCapital Expenditures have been focused on three \r\nmain pillars throughout the value chain\n\r\nSmolt Production Seawater Operations Primary Processing\r\nCAPEX in the quarter was mainly related to seawater operations\r\nQ3 Presentation 2026\r\nCAPEX in 2026 is estimated at 13 MEUR and will\r\n\r\nmainly be focused on seawater operations\r\nCapital expenditure development\r\n(MEUR)\r\n43\r\n37\r\n2022 2023\r\n9\r\n2024\r\n18\r\n2025 \r\n13\r\n2026 E\n\nVolume Guidance\r\n2027 guidance at 18.5 thousand tonnes\n\r\nHarvest volume guidance is set at 18.5 thousand tonnes in \r\n2027 building a foundation for further volume growth\r\nHarvested volumes\r\nGW k tonnes\r\n18.5 18.0\r\n14.8\r\n3%\r\n22%\r\n2025 2026 E 2027 E\r\nQ3 Presentation 2026\r\nRecord harvest volumes in 2026\n\r\nHarvest volumes reached 15.6 thousand tonnes in the \r\nfirst nine months of 2026, already exceeding the previous \r\nfull-year record of 14.8 thousand tonnes set in 2025\r\nHarvested quantity development\r\nGW k tonnes\r\n18.0\r\n6.0 5.6\r\n4.0\r\n2.4\r\nQ1 Q2 Q3 Q4 E 2026 E\n\nAppendix\r\nQ3 Presentation 2026\n\nLicense Portfolio\r\nLicenses by Fjord\r\nÍsafjarðardjúp\r\n8,000\r\nÖnundarfjörður\r\nDýrafjörður\r\n10,000\r\nArnarfjörður\r\n4,000\r\nWestfjords\r\nFreshwater \r\nLicenses\r\n2,400\r\nSeawater \r\nLicenses\r\n29,800\r\nTálknafjörður\r\nPatreksfjörður\r\n7,800\r\n2,400\r\nQ3 Presentation 2026\r\nThe license portfolio for the company is \r\n29,800 tonnes MAB (Maximum Allowed \r\nBiomass) and includes licenses covering \r\n10 farming areas in 5 different fjords, all \r\nlocated in the Westfjords of Iceland. Of \r\nthe 29,800 tonnes, 27,000 tonnes are for \r\nfertile salmon. \n\n\r\nAdditionally, the Group holds a license for \r\nland-based smolt production on its own \r\nproperty in Norðurbotn, with an annual \r\nproduction capacity of 2,400 tonnes. \n\nThank you\r\nQ3 2026 Presentation",
+          "pages_processed": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "truncated": {
+            "text": false,
+            "images": false
+          },
+          "extractor": "clawpdf-existing-install"
+        }
+      ],
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-04",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
       "id": "news:visir-vidskipti:uppbygging-umdeilds-hotels-i-uppnami",
       "lane": "news",
       "category": "industrial-demand",
@@ -1846,6 +2389,116 @@
         "facility_relevance": true,
         "project_eligible": false,
         "eligibility_reason": "iceland_project_not_verified",
+        "current_dated_signal": false,
+        "source_date": "2026-11-03",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:disclosures-icelandic-salmon:19342f97291c3be0",
+      "lane": "news",
+      "category": "industrial-demand",
+      "source": "disclosures-icelandic-salmon",
+      "entity": "Icelandic Salmon / Arnarlax",
+      "outlet": "Icelandic Salmon / Arnarlax",
+      "title": "Icelandic Salmon - Third quarter 2026 results",
+      "url": "https://mfn.se/ob/a/icelandic-salmon/icelandic-salmon-third-quarter-2026-results-1ec1d454.iframe",
+      "date": "2026-11-03",
+      "summary": "Attached is the presentation for the third quarter of 2026. The Group's CEO Bjørn Hembre and CFO Robert Robertsson will be presenting the Group's first quarter results today at 09:00 Icelandic time (10:00 CET) via a Teams webinar. To register, please email robert@arnarlax.is (mailto:robert@arnarlax.is). A link will be distributed before the webinar begins....",
+      "is_new": false,
+      "evidence_kind": "issuer_release_via_distribution_mirror",
+      "issuer": "Icelandic Salmon / Arnarlax",
+      "distribution_publisher": "MFN",
+      "publication_date_provenance": "release_article_published_time_verified_against_release_card",
+      "project_learning_eligible": false,
+      "attachments": [
+        {
+          "url": "https://storage.mfn.se/c/aHR0cHM6Ly9hcGkzLm9zbG8ub3Nsb2JvcnMubm8vdjEvbmV3c3JlYWRlci9hdHRhY2htZW50P21lc3NhZ2VJZD02ODU0MjImYXR0YWNobWVudElkPTMzNTU3MA/pdf.pdf?news-id=1ec1d454-4e4d-5d8c-b28d-2083b262c34b",
+          "kind": "document_attachment",
+          "body_extracted": true,
+          "sha256": "e8680c8bac595e681f3d03fa84a7a88077c91502fd279cb48ea3d53aa5307a65",
+          "text": "QUARTERLY PRESENTATION\r\n3Q 2026\n\nTHIS IS ICELANDIC SALMON\r\nIcelandic Salmon AS is listed on the \r\nEuronext Growth market in Oslo, and \r\nNASDAQ First North in Reykjavik. \r\nThe company is the sole owner and \r\nparent company of Arnarlax ehf.\r\nAll operational activities of the group \r\nare performed in Arnarlax ehf. \r\nArnarlax – Sustainable Icelandic Salmon \r\nis the common brand for all operational \r\nactivities and products from \r\nIcelandic Salmon\r\nFour smolt facilities, \r\nCurrent capacity is \r\nsufficient for 25-30 \r\nthousand tonnes \r\nharvested volume\r\nFarming in eight \r\nsites in three fjords\r\nAll production \r\nASC** certified\r\nTotal MAB 23,700 \r\ntonnes\r\nHarvesting plant \r\nin Bíldudalur\r\nBRCGS* certified\r\n30,000 tonnes \r\nper year capacity\r\nSales by \r\ninternal team\r\nDomestic and \r\nglobal markets\r\nNote: *BRCGS = Brand Reputation Compliance Global Standards | **ASC = Aquaculture Stewardship Council\n\nS U S T A I N A B I L I T Y – I T ’ S I N O U R N A T U R E 3\r\nImproved biological performance and reduced cost level\r\n▪ Harvested 5.200 tonnes and operational EBIT of EUR 1.4m for third quarter, \r\nincreasing from 3.800 tonnes and EUR 9.4m loss in the same period last year\r\n▪ Improved biological performance and reduced cost level\r\n— Overall satisfying biological performance in sea, with good production on all \r\ngenerations\r\n▪ Good development of underlaying cost base, supported by good utilization of \r\ncapacities\r\n▪ Underlying performance continued to improve, supported by a stronger \r\nbiological situation compared to Q3 2025\r\n▪ Good performance in smolt production, and satisfying results on smolt output\r\n▪ Improved price achievement compared to market price on sold volume\r\n— Supported by 0% tariff into US market\r\n— Strong China market\r\nKEY RESULTS (EURm) 3Q 2026 3Q 2025 YTD 2026 YTD 2025\r\nOperating income 40.1 25.1 107.0 60.6\r\nOperational EBIT 1.4 -9.4 -1.9 -20.7\r\nHarvest volume (‘000 tgw) 5.2 3.8 14.4 8.9\r\nOperational EBIT/kg (EUR) 0,27 -2,48 -0,13 -2,33\r\nProduction tax 1.7 1.1 4.4 2.8\r\n-2,48\r\n0,70\r\n-0,02\r\n-0,59\r\n0,27\r\nQ3 2025 Q4 2025 Q1 2026 Q2 2026 Q3 2026\r\nOperational EBIT\r\n(EUR/kg.)\r\n3,8 3,8 3,7\r\n5,5\r\n5,2\r\nQ3 2025 Q4 2025 Q1 2026 Q2 2026 Q3 2026\r\nHarvest\r\n(Thousand tonnes gw)\n\nS U S T A I N A B I L I T Y – I T ’ S I N O U R N A T U R E 4\r\nGroup balance\r\n▪ Total assets increased by EUR 11m to EUR 281m\r\n▪ Equity ratio decreased from 43% to 40%\r\n▪ Fair value adjustments of EUR 0.2m \r\n▪ Net interest-bearing debt incl. leasing was EUR 134m\r\n▪ Available liquidity was EUR 36m\r\n147 147 145\r\n127 123 135\r\n273 270 281\r\n31.3.2026 30.6.2026 30.9.2026\r\nAssets\r\n(EURm)\r\nFixed assets Current assets\r\n128 127 137\r\n26 27 31\r\n153 154\r\n168\r\n31.3.2026 30.6.2026 30.9.2026\r\nLiabilities\r\n(EURm)\r\nCurrent liabilities Non-current liabilities\r\n44% 43% 40%\r\n31.3.2026 30.6.2026 30.9.2026\r\nEquity ratio\r\n(%)\r\n119 112 123\r\n12 12 12\r\n131 124 134\r\n31.3.2026 30.6.2026 30.9.2026\r\nNIBD incl. leasing\r\n(EURm)\r\nNIBD Leasing\n\nS U S T A I N A B I L I T Y – I T ’ S I N O U R N A T U R E 5\r\nNet interest-bearing debt\r\n▪ NIBD Incl. Leasing increased by EUR 10,7m\r\n— NIBD increased by EUR 10,4m\r\n— Leasing increased by EUR 0,3m QoQ\r\n▪ Positive cashflow from EBITDA in the quarter of EUR 5.1m\r\n▪ Production tax for H1 of EUR 2.7m was paid in August\r\n▪ CAPEX investment amounted to EUR 0.6m \r\n— CAPEX investment YTD reached EUR 2.2m \r\n112,1\r\n122,5\r\n11,6\r\n11,9 123,7 -5,1\r\n+2,7\r\n+7,9 +0,6\r\n+2,6 +1,9 134,4\r\nNIBD +\r\nleasing\r\n30.06.26\r\nEBITDA Taxes paid Working\r\ncapital\r\nNet\r\ninvestments\r\nNet interest Leasing &\r\nother\r\nNIBD +\r\nleasing\r\n30.09.2026\r\nChange in NIBD incl. leasing - QoQ\r\n(EURm)\n\nS U S T A I N A B I L I T Y – I T ’ S I N O U R N A T U R E 6\r\n89%\r\nSales and market update\r\n▪ Strong improvement in price achievement compared to market price\r\n— 0% tariff into US market\r\n— Strong interest in China market\r\n▪ Historically low share of harvested volume sold into European market in \r\nQ3, 47%. Compared to Q2 with 65%.\r\n▪ Improved market price YoY\r\n— Achived price was EUR 0.87/kg higher than Q3 2025, weighted by \r\nown volume.\r\n▪ Share of volume to North America increased from 16% in Q2 to 36% in \r\nQ3 – driven by strong market, supported by 0% tariffs\r\n▪ Share of volume to Asia decreased from 19% in Q2 to 17% in Q3 –\r\naffected by strong US market\r\n▪ Contract share was 7% for Q3\r\n6\n\nS U S T A I N A B I L I T Y – I T ’ S I N O U R N A T U R E 7\r\nOutlook\r\n▪ Volume guidance 2026 at 20,000 tonnes. 1.300 tonnes moved to 2027\r\n▪ Volume guidance for 2027 is 18.000 tonnes, \r\n— Affected by biological challenges in Q4 2026\r\n▪ Stable cost level expected in Q4 .\r\n▪ Contract share expected at 10% for FY 2026\r\n▪ Continued work on 10.000 tonnes license in Isafjordur\r\n▪ See a strong demand for Icelandic Salmon in the global market\r\n▪ Uncertainty about framework for the aquaculture industry\n\nS U S T A I N A B I L I T Y – I T ’ S I N O U R N A T U R E 8\r\nThank you for your attention\r\nPlease “Raise hand” in Teams, or type in the chat, to ask questions \r\nfor the Q&A session\r\nFor more information, please visit www.arnarlax.is",
+          "pages_processed": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "truncated": {
+            "text": false,
+            "images": false
+          },
+          "extractor": "clawpdf-existing-install"
+        }
+      ],
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-03",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:disclosures-icelandic-salmon:1258a777304c9061",
+      "lane": "news",
+      "category": "industrial-demand",
+      "source": "disclosures-icelandic-salmon",
+      "entity": "Icelandic Salmon / Arnarlax",
+      "outlet": "Icelandic Salmon / Arnarlax",
+      "title": "Icelandic Salmon - Third quarter 2026 results",
+      "url": "https://mfn.se/one/a/icelandic-salmon/icelandic-salmon-third-quarter-2026-results-fa05c5f0.iframe",
+      "date": "2026-11-03",
+      "summary": "Attached is the presentation for the third quarter of 2026. The Group's CEO Bjørn Hembre and CFO Robert Robertsson will be presenting the Group's first quarter results today at 09:00 Icelandic time (10:00 CET) via a Teams webinar. To register, please email robert@arnarlax.is . A link will be distributed before the webinar begins. For further information, pl...",
+      "is_new": false,
+      "evidence_kind": "issuer_release_via_distribution_mirror",
+      "issuer": "Icelandic Salmon / Arnarlax",
+      "distribution_publisher": "MFN",
+      "publication_date_provenance": "release_article_published_time_verified_against_release_card",
+      "project_learning_eligible": false,
+      "attachments": [
+        {
+          "url": "https://ml-eu.globenewswire.com/Resource/Download/6c5e3daa-ff99-4d98-956d-0180a0da8fe1",
+          "kind": "document_attachment",
+          "body_extracted": true,
+          "sha256": "e8680c8bac595e681f3d03fa84a7a88077c91502fd279cb48ea3d53aa5307a65",
+          "text": "QUARTERLY PRESENTATION\r\n3Q 2026\n\nTHIS IS ICELANDIC SALMON\r\nIcelandic Salmon AS is listed on the \r\nEuronext Growth market in Oslo, and \r\nNASDAQ First North in Reykjavik. \r\nThe company is the sole owner and \r\nparent company of Arnarlax ehf.\r\nAll operational activities of the group \r\nare performed in Arnarlax ehf. \r\nArnarlax – Sustainable Icelandic Salmon \r\nis the common brand for all operational \r\nactivities and products from \r\nIcelandic Salmon\r\nFour smolt facilities, \r\nCurrent capacity is \r\nsufficient for 25-30 \r\nthousand tonnes \r\nharvested volume\r\nFarming in eight \r\nsites in three fjords\r\nAll production \r\nASC** certified\r\nTotal MAB 23,700 \r\ntonnes\r\nHarvesting plant \r\nin Bíldudalur\r\nBRCGS* certified\r\n30,000 tonnes \r\nper year capacity\r\nSales by \r\ninternal team\r\nDomestic and \r\nglobal markets\r\nNote: *BRCGS = Brand Reputation Compliance Global Standards | **ASC = Aquaculture Stewardship Council\n\nS U S T A I N A B I L I T Y – I T ’ S I N O U R N A T U R E 3\r\nImproved biological performance and reduced cost level\r\n▪ Harvested 5.200 tonnes and operational EBIT of EUR 1.4m for third quarter, \r\nincreasing from 3.800 tonnes and EUR 9.4m loss in the same period last year\r\n▪ Improved biological performance and reduced cost level\r\n— Overall satisfying biological performance in sea, with good production on all \r\ngenerations\r\n▪ Good development of underlaying cost base, supported by good utilization of \r\ncapacities\r\n▪ Underlying performance continued to improve, supported by a stronger \r\nbiological situation compared to Q3 2025\r\n▪ Good performance in smolt production, and satisfying results on smolt output\r\n▪ Improved price achievement compared to market price on sold volume\r\n— Supported by 0% tariff into US market\r\n— Strong China market\r\nKEY RESULTS (EURm) 3Q 2026 3Q 2025 YTD 2026 YTD 2025\r\nOperating income 40.1 25.1 107.0 60.6\r\nOperational EBIT 1.4 -9.4 -1.9 -20.7\r\nHarvest volume (‘000 tgw) 5.2 3.8 14.4 8.9\r\nOperational EBIT/kg (EUR) 0,27 -2,48 -0,13 -2,33\r\nProduction tax 1.7 1.1 4.4 2.8\r\n-2,48\r\n0,70\r\n-0,02\r\n-0,59\r\n0,27\r\nQ3 2025 Q4 2025 Q1 2026 Q2 2026 Q3 2026\r\nOperational EBIT\r\n(EUR/kg.)\r\n3,8 3,8 3,7\r\n5,5\r\n5,2\r\nQ3 2025 Q4 2025 Q1 2026 Q2 2026 Q3 2026\r\nHarvest\r\n(Thousand tonnes gw)\n\nS U S T A I N A B I L I T Y – I T ’ S I N O U R N A T U R E 4\r\nGroup balance\r\n▪ Total assets increased by EUR 11m to EUR 281m\r\n▪ Equity ratio decreased from 43% to 40%\r\n▪ Fair value adjustments of EUR 0.2m \r\n▪ Net interest-bearing debt incl. leasing was EUR 134m\r\n▪ Available liquidity was EUR 36m\r\n147 147 145\r\n127 123 135\r\n273 270 281\r\n31.3.2026 30.6.2026 30.9.2026\r\nAssets\r\n(EURm)\r\nFixed assets Current assets\r\n128 127 137\r\n26 27 31\r\n153 154\r\n168\r\n31.3.2026 30.6.2026 30.9.2026\r\nLiabilities\r\n(EURm)\r\nCurrent liabilities Non-current liabilities\r\n44% 43% 40%\r\n31.3.2026 30.6.2026 30.9.2026\r\nEquity ratio\r\n(%)\r\n119 112 123\r\n12 12 12\r\n131 124 134\r\n31.3.2026 30.6.2026 30.9.2026\r\nNIBD incl. leasing\r\n(EURm)\r\nNIBD Leasing\n\nS U S T A I N A B I L I T Y – I T ’ S I N O U R N A T U R E 5\r\nNet interest-bearing debt\r\n▪ NIBD Incl. Leasing increased by EUR 10,7m\r\n— NIBD increased by EUR 10,4m\r\n— Leasing increased by EUR 0,3m QoQ\r\n▪ Positive cashflow from EBITDA in the quarter of EUR 5.1m\r\n▪ Production tax for H1 of EUR 2.7m was paid in August\r\n▪ CAPEX investment amounted to EUR 0.6m \r\n— CAPEX investment YTD reached EUR 2.2m \r\n112,1\r\n122,5\r\n11,6\r\n11,9 123,7 -5,1\r\n+2,7\r\n+7,9 +0,6\r\n+2,6 +1,9 134,4\r\nNIBD +\r\nleasing\r\n30.06.26\r\nEBITDA Taxes paid Working\r\ncapital\r\nNet\r\ninvestments\r\nNet interest Leasing &\r\nother\r\nNIBD +\r\nleasing\r\n30.09.2026\r\nChange in NIBD incl. leasing - QoQ\r\n(EURm)\n\nS U S T A I N A B I L I T Y – I T ’ S I N O U R N A T U R E 6\r\n89%\r\nSales and market update\r\n▪ Strong improvement in price achievement compared to market price\r\n— 0% tariff into US market\r\n— Strong interest in China market\r\n▪ Historically low share of harvested volume sold into European market in \r\nQ3, 47%. Compared to Q2 with 65%.\r\n▪ Improved market price YoY\r\n— Achived price was EUR 0.87/kg higher than Q3 2025, weighted by \r\nown volume.\r\n▪ Share of volume to North America increased from 16% in Q2 to 36% in \r\nQ3 – driven by strong market, supported by 0% tariffs\r\n▪ Share of volume to Asia decreased from 19% in Q2 to 17% in Q3 –\r\naffected by strong US market\r\n▪ Contract share was 7% for Q3\r\n6\n\nS U S T A I N A B I L I T Y – I T ’ S I N O U R N A T U R E 7\r\nOutlook\r\n▪ Volume guidance 2026 at 20,000 tonnes. 1.300 tonnes moved to 2027\r\n▪ Volume guidance for 2027 is 18.000 tonnes, \r\n— Affected by biological challenges in Q4 2026\r\n▪ Stable cost level expected in Q4 .\r\n▪ Contract share expected at 10% for FY 2026\r\n▪ Continued work on 10.000 tonnes license in Isafjordur\r\n▪ See a strong demand for Icelandic Salmon in the global market\r\n▪ Uncertainty about framework for the aquaculture industry\n\nS U S T A I N A B I L I T Y – I T ’ S I N O U R N A T U R E 8\r\nThank you for your attention\r\nPlease “Raise hand” in Teams, or type in the chat, to ask questions \r\nfor the Q&A session\r\nFor more information, please visit www.arnarlax.is",
+          "pages_processed": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "truncated": {
+            "text": false,
+            "images": false
+          },
+          "extractor": "clawpdf-existing-install"
+        }
+      ],
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-03",
         "assessed_on": "2026-11-23",
@@ -1984,6 +2637,194 @@
       }
     },
     {
+      "id": "news:disclosures-kaldvik:cd3157ffd8dc6da5",
+      "lane": "news",
+      "category": "industrial-demand",
+      "source": "disclosures-kaldvik",
+      "entity": "Kaldvík / Ice Fish Farm",
+      "outlet": "Kaldvík / Ice Fish Farm",
+      "title": "KALDVIK AS (KLDVK): Update on refinancing process and extension of waiver period",
+      "url": "https://mfn.se/one/a/kaldvik/kaldvik-as-kldvk-update-on-refinancing-process-and-extension-of-waiver-period-6fa7faf7.iframe",
+      "date": "2026-10-29",
+      "summary": "Frøya, 29 October 2026 – Reference is made to Kaldvik AS’ (“Kaldvik” or the “Company”) stock exchange announcements of 1, 25, 26 and 28 October 2026 concerning the Company’s financing position and refinancing process. Reference is also made to the Company’s announcements of 6 and 15 September, and 7 October 2026 regarding the jellyfish event in Reyðarfjörðu...",
+      "is_new": false,
+      "evidence_kind": "issuer_release_via_distribution_mirror",
+      "issuer": "Kaldvík / Ice Fish Farm",
+      "distribution_publisher": "MFN",
+      "publication_date_provenance": "release_article_published_time_verified_against_release_card",
+      "project_learning_eligible": false,
+      "attachments": [],
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-29",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:bb:fjordungsthing-vill-vegaframkvaemdir-i-arneshreppi",
+      "lane": "news",
+      "category": "project",
+      "title": "Fjórðungsþing: vill vegaframkvæmdir í Árneshreppi",
+      "entity": "bb.is",
+      "date": "2026-10-29",
+      "summary": "Meðal ályktana Fjórðungsþings Vestfirðinga á Patreksfirði, sem lauk í gær, er ályktun um um samgöngubætur í Árneshreppi. Þingið skorar á stjórnvöld að tryggja nauðsynlegt fjármagn til úrbóta á Strandavegi í Árneshreppi og forgangsraða framkvæmdum við Veiðileysuháls, sem ítrekað hafi verið ýtt aftar á samgönguáætlun.Fjórðungsþingið leggur áherslu á að greiða...",
+      "url": "https://bb.is/2026/10/fjordungsthing-vill-vegaframkvaemdir-i-arneshreppi/",
+      "outlet": "bb.is",
+      "source": "bb",
+      "is_new": false,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-29",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:bb:dynjandisheidi-vegagerd-ljuki-fyrir-aramot",
+      "lane": "news",
+      "category": "project",
+      "title": "Dynjandisheiði: vegagerð ljúki fyrir áramót",
+      "entity": "bb.is",
+      "date": "2026-10-29",
+      "summary": "Vegagerðin segir aðspurð að því hvenær sé gert ráð fyrir að verktaki ljúki verkinu á Dynjandisheiði að stefnt sé að því að opna veginn fyrir áramót. Hluti hans verði þó með malarslitlagi þar sem klæðing er ekki lögð að vetri til. Slitlag verði því lagt næsta vor. Bæjarins besta innti einnig eftir skýringum á því […]",
+      "url": "https://bb.is/2026/10/dynjandisheidi-vegagerd-ljuki-fyrir-aramot/",
+      "outlet": "bb.is",
+      "source": "bb",
+      "is_new": false,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-29",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:bb:throun-og-framtidarhorfur-bygginga-og-skipulagsmala-a-vestfjordum",
+      "lane": "news",
+      "category": "investment",
+      "title": "Þróun og framtíðarhorfur bygginga- og skipulagsmála á Vestfjörðum",
+      "entity": "bb.is",
+      "date": "2026-10-28",
+      "summary": "Fimmtudaginn 29. október halda HMS og Tryggð byggð í samstarfi við Vestfjarðarstofu opinn fund um þróun og framtíðahorfur íbúðamarkaðar, bygginga og skipulagsmála á Vestfjörðum. Fundurinn verður haldinn í húsakynnum Vestfjarðarstofu við Suðurgötu 12 á Ísafirði, kl. 11:45 og er opinn öllum. Á fundinum verður fjallað um atvinnuþróun í landsbyggðunum, stöðuna....",
+      "url": "https://bb.is/2026/10/throun-og-framtidarhorfur-bygginga-og-skipulagsmala-a-vestfjordum/",
+      "outlet": "bb.is",
+      "source": "bb",
+      "is_new": false,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-28",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:bb:vegagerdin-med-utbod-a-sjovornum-a-bordeyri-og-budardal",
+      "lane": "news",
+      "category": "project",
+      "title": "Vegagerðin með útboð á sjóvörnum á Borðeyri og Búðardal",
+      "entity": "bb.is",
+      "date": "2026-10-27",
+      "summary": "Vegagerðin hefur ákveðið að óska eftir tilboðum í verkið „Búðardalur og Borðeyri – sjóvarnir 2026” og skal verkinu lokið eigi síðar en 1. mars 2027. Í verkinu felst að gera nýja 200 m sjóvörn á Borðeyri og um 70 m lengingu sjóvarnar neðan við Ægisbraut í Búðardal. Helstu magntölur eru: Útboðsgögn eru afhent rafrænt í […]",
+      "url": "https://bb.is/2026/10/vegagerdin-med-utbod-a-sjovornum-a-bordeyri-og-budardal/",
+      "outlet": "bb.is",
+      "source": "bb",
+      "is_new": false,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-27",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:bb:gjaldheimta-eykst-en-framkvaemdir-dragast-saman",
+      "lane": "news",
+      "category": "project",
+      "title": "Gjaldheimta eykst en framkvæmdir dragast saman",
+      "entity": "bb.is",
+      "date": "2026-10-27",
+      "summary": "Ný greining Samtaka iðnaðarins (SI) bendir til þess að sífellt stærra bil sé að myndast milli þess sem ríkið innheimtir af ökutækjum, eldsneyti og akstri annars vegar og þess sem varið er til vegasamgangna hins vegar. Á árunum 2019 til 2025 innheimti ríkið alls 338,1 milljarð króna með beinum gjöldum af ökutækjum, eldsneyti og akstri. […]",
+      "url": "https://bb.is/2026/10/gjaldheimta-eykst-en-framkvaemdir-dragast-saman/",
+      "outlet": "bb.is",
+      "source": "bb",
+      "is_new": false,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-27",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:bb:axel-overby-radinn-til-hafnarfjardarbaejar",
+      "lane": "news",
+      "category": "investment",
+      "title": "Axel Överby ráðinn til Hafnarfjarðarbæjar",
+      "entity": "bb.is",
+      "date": "2026-10-27",
+      "summary": "Axel Överby, fyrrverandi sviðsstjóri hjá Ísafjarðarbæ hefur verið ráðinn til Hafnarfjarðarbæjar í starf skipulags- og byggingarfulltrúa. Hann hefur störf í byrjun nóvembermánaðar. Þetta hefur Bæjarins besta fengið staðfest hjá Hafnarfjarðarbæ..",
+      "url": "https://bb.is/2026/10/axel-overby-radinn-til-hafnarfjardarbaejar/",
+      "outlet": "bb.is",
+      "source": "bb",
+      "is_new": false,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-27",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
       "id": "news:visir-fiskeldi:kaldvik-faer-enn-frekari-frest",
       "lane": "news",
       "category": "industrial-demand",
@@ -1998,6 +2839,38 @@
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-10-26",
+        "assessed_on": "2026-11-23",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:fish-farmer:8fcf04f00bc43b00",
+      "lane": "news",
+      "category": "industrial-demand",
+      "source": "fish-farmer",
+      "entity": "Fish Farmer",
+      "outlet": "Fish Farmer",
+      "title": "Sea well drilling completed at major Iceland land farm project",
+      "url": "https://www.fishfarmermagazine.com/news/sea-well-drilling-completed-at-major-iceland-land-farm-project",
+      "date": "2026-10-26",
+      "summary": "Samherji’s Salmon Garden site now has access to seawater pumped from underground wells",
+      "is_new": false,
+      "evidence_kind": "secondary_trade_press",
+      "project_learning_eligible": false,
+      "publication_date_provenance": "article_published_time",
+      "discovery_url": "https://www.fishfarmermagazine.com/SiteMap_FishFarmer_Articles_News1_v2.xml",
+      "body_access": "public_teaser_only",
+      "full_article_available": false,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
         "facility_relevance": false,
         "project_eligible": false,
         "eligibility_reason": "no_material_sector_evidence",
