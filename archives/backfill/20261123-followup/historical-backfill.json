@@ -1,0 +1,463 @@
+{
+  "schema_version": 1,
+  "artifact_type": "separate_specific_miss_followup",
+  "publication_state": "historical_recovery_artifact; actual publication verified separately",
+  "observed_at": "2026-11-23T19:00:32.919823+00:00",
+  "records": [
+    {
+      "id": "backfill:c7f2434bd4150a7d067b5973",
+      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-10-30-fjarskiptaoryggi-baett-a-fimm-stodum-um-landid",
+      "title": "Fjarskiptaöryggi bætt á fimm stöðum um landið",
+      "summary": "Innviðaráðherra undirritaði í dag tvo samninga um uppbyggingu og styrkingu fjarskiptainnviða á fimm stöðum um landið.",
+      "source_date": "2026-10-30",
+      "source_month": "2026-10",
+      "date_kind": "source_publication_date",
+      "source": "www.stjornarradid.is",
+      "source_lane": "news",
+      "suggestion_ids": [
+        "announcements-2026-11-03-01"
+      ],
+      "evidence": {
+        "kind": "primary_page_public_heading_metadata",
+        "sha256": "606d00ea74a26adb9c6a54bd3d510617ffd0cc1320c28453cb63afd5809703b2",
+        "full_article_body_extracted": false,
+        "summary_basis": "public_page_description_only"
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {},
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-10-30"
+      ]
+    },
+    {
+      "id": "backfill:59b9e0519dff69371d1ca6db",
+      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-09-25-undirritudu-verksamning-um-jardvegsframkvaemdir-fyrir-stora-hraun",
+      "title": "Undirrituðu verksamning um jarðvegsframkvæmdir fyrir Stóra-Hraun",
+      "summary": "Í dag var undirritaður verksamningur við jarðvinnuverktakann Borgarverk um jarðvegsframkvæmdir fyrir fangelsið að Stóra-Hrauni. Verktakinn stefnir á að koma með vinnuvélar á verkstað strax í næstu viku.",
+      "source_date": "2026-09-25",
+      "source_month": "2026-09",
+      "date_kind": "source_publication_date",
+      "source": "www.stjornarradid.is",
+      "source_lane": "news",
+      "suggestion_ids": [
+        "news-2026-11-13-01"
+      ],
+      "evidence": {
+        "kind": "primary_page_public_heading_metadata",
+        "sha256": "591fca9e8aa6b7c91e39d2860790ddfb12e145df0d634aacf9ee2853efd8804d",
+        "full_article_body_extracted": false,
+        "summary_basis": "public_page_description_only"
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {},
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-09-25"
+      ]
+    },
+    {
+      "id": "backfill:ca8b2f92e332066ee723a153",
+      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2026-10-20-skoflustunga-tekin-ad-nyju-oryggisfangelsi-ad-stora-hrauni",
+      "title": "Skóflustunga tekin að nýju öryggisfangelsi að Stóra-Hrauni",
+      "summary": "Dómsmálaráðherra, bæjarstjórinn í Árborg og fangelsismálastjóri tóku í dag skóflustungu að nýju öryggisfangelsi að Stóra-Hrauni. Undirbúningur fyrir verkið hefur staðið í þrjú ár og því stór stund.",
+      "source_date": "2026-10-20",
+      "source_month": "2026-10",
+      "date_kind": "source_publication_date",
+      "source": "www.stjornarradid.is",
+      "source_lane": "news",
+      "suggestion_ids": [
+        "news-2026-11-13-01"
+      ],
+      "evidence": {
+        "kind": "primary_page_public_heading_metadata",
+        "sha256": "e18cb8130654b02183e7a2fb7160629ca26df28aca393d9f427c0725c4c71dd4",
+        "full_article_body_extracted": false,
+        "summary_basis": "public_page_description_only"
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {},
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-10-20"
+      ]
+    },
+    {
+      "id": "backfill:5d259ed39cd1b3c929dae6be",
+      "url": "https://island.is/s/fsre/frett/fyrsta-skoflustungan-tekin-ad-nyju-oeryggisfangelsi-ad-stora-hrauni",
+      "title": "Fyrsta skóflustungan tekin að nýju öryggisfangelsi að Stóra-Hrauni",
+      "summary": "Fyrsta skóflustungan að nýju öryggisfangelsi að Stóra-Hrauni var tekin þriðjudaginn 20. október. Það voru Þorbjörg Sigríður Gunnlaugsdóttir dómsmálaráðherra, Bragi Bjarnason bæjarstjóri í Árborg og Ragna Bjarnadóttir fangelsismálastjóri sem tóku skóflustunguna. Fyrir hönd FSRE voru viðstödd Óskar Jósefsson forstjóri og Nína Baldursdóttir verkefnastjóri.",
+      "source_date": "2026-10-21",
+      "source_month": "2026-10",
+      "date_kind": "source_publication",
+      "source": "fsre-news",
+      "source_lane": "announcement",
+      "suggestion_ids": [
+        "news-2026-11-13-01"
+      ],
+      "evidence": {
+        "kind": "identity_checked_first_party_fsre_news",
+        "sha256": "7bc9bb87cb34a6de8b62a6e263f2694e7010ec03d7bb356698cd04a456cecaad"
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {
+        "id": "fsre-news:ee23310c9186b33f1c",
+        "date_provenance": "identity-checked Next News date",
+        "status": "published",
+        "is_open_opportunity": false
+      },
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-10-21"
+      ]
+    },
+    {
+      "id": "backfill:e3d7396e785b61998abb6a34",
+      "url": "https://www.istak.is/siasta-vindmyllu-uppistaan-steypt",
+      "title": "Síðasta vindmyllu uppistaðan steypt",
+      "summary": "Föstudaginn 2. október náðist stór áfangi hjá Ístaki í Vaðölduveri, vindorkuveri Landsvirkjunar, þegar 28. og jafnframt síðasta vindmylluundirstaðan var steypt. Fyrsta undirstaðan var steypt 15. september 2025 og hefur því tekið rétt rúmt ár að steypa þær allar. Það er frábær árangur, ekki síst þegar litið er til krefjandi aðstæðna á hálendinu. Gerð hverrar undirstöðu er mikið nákvæmnisverk. Í hverri þeirra eru 80–90 tonn af bendistáli og um 450 rúmmetrar af steypu, sem samsvarar 50-60 steypubílsförmum sem dælt er í mótin í einni samfelldri lotu. Á þessu rúma ári hafa alls verið notaðir um 13.",
+      "source_date": "2026-10-08",
+      "source_month": "2026-10",
+      "date_kind": "source_publication_date",
+      "source": "istak-first-party",
+      "source_lane": "news",
+      "suggestion_ids": [
+        "announcements-2026-10-09-01"
+      ],
+      "evidence": {
+        "kind": "contractor_first_party_canonical_heading_publication_metadata",
+        "sha256": "061dd8ce0303488521c9ca7d3c9592fc6c27985f56749ebd5d5c7317fe51fee0",
+        "publication_date_is_not_event_date": true,
+        "event_date_text": "Föstudaginn 2. október"
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {},
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-10-08"
+      ]
+    },
+    {
+      "id": "backfill:74dbcfc19a5b1214960854e5",
+      "url": "https://www.visir.is/g/20262942735d/kaupir-malbiksstodina-a-fimm-milljarda",
+      "title": "Kaupir Mal­biks­stöðina á fimm milljarða",
+      "summary": "Styrkás hf. hefur undirritað samning um kaup á öllu hlutafé Malbikstöðvarinnar ehf. og lóðum félagsins á Esjumelum. Seljandi er félag í eigu Vilhjálms Þórs Matthíassonar. Heildarvirði Malbikstöðvarinnar í viðskiptunum er 5.080 milljónir króna.",
+      "source_date": "2026-10-02",
+      "source_month": "2026-10",
+      "date_kind": "source_publication_date",
+      "source": "www.visir.is",
+      "source_lane": "news",
+      "suggestion_ids": [
+        "weekly-2026-10-09-01"
+      ],
+      "evidence": {
+        "kind": "primary_page_public_heading_metadata",
+        "sha256": "0195e21aee8c0996be105ab13148d43ffc3467f62ae5bdaf17609a3c252e5244",
+        "full_article_body_extracted": false,
+        "summary_basis": "public_page_description_only",
+        "original_cited_url_rejected": "https://www.visir.is/g/20262941449d",
+        "discovery": "publisher own search; saved probe3 receipt"
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {},
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-10-02"
+      ]
+    },
+    {
+      "id": "backfill:5a9d76794c2eb1f03494d778",
+      "url": "https://www.datacenterdynamics.com/en/news/verne-and-nscale-complete-first-phase-of-ai-deployment-in-iceland/",
+      "title": "Verne and Nscale complete first phase of AI deployment in Iceland",
+      "summary": "AI cloud Nscale and data center operator Verne have completed the first phase of their Iceland GPU capacity deployment.",
+      "source_date": "2026-04-24",
+      "source_month": "2026-04",
+      "date_kind": "source_publication_date",
+      "source": "www.datacenterdynamics.com",
+      "source_lane": "news",
+      "suggestion_ids": [
+        "news-2026-10-23-02"
+      ],
+      "evidence": {
+        "kind": "trade_publisher_canonical_primary_article_header",
+        "sha256": "61284416e4f42bd55c94170d471905176d55dcd758a4f786ca216795e0912e72",
+        "canonical_verified": true,
+        "primary_date_quote": "<time class=\"article-intro__date\" datetime=\"2026-04-24\" itemprop=\"datePublished\">April 24, 2026</time>",
+        "full_article_body_extracted": false,
+        "summary_basis": "first_public_article_paragraph",
+        "ignored_dates": "Navigation/related cards, project timetable and site build timestamps are not article publication dates"
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not a new publication, open tender, verified new milestone or source completeness.",
+      "original_record_state": {},
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-04-24"
+      ]
+    },
+    {
+      "id": "backfill:93a5b691864f706f8dc2a1b6",
+      "url": "https://www.datacenterdynamics.com/en/news/nscale-signs-15mw-lease-agreement-with-verne-for-data-center-capacity-in-iceland/",
+      "title": "Nscale signs 15MW lease agreement with Verne for data center capacity in Iceland",
+      "summary": "AI cloud provider Nscale has signed on to lease 15MW of capacity at Verne's data center campus in Iceland.",
+      "source_date": "2025-11-20",
+      "source_month": "2025-11",
+      "date_kind": "source_publication_date",
+      "source": "www.datacenterdynamics.com",
+      "source_lane": "news",
+      "suggestion_ids": [
+        "news-2026-10-23-02"
+      ],
+      "evidence": {
+        "kind": "trade_publisher_canonical_primary_article_header",
+        "sha256": "d6c219cd874f7eb64bd0d12636232050bf86e74047d846fff3f71a4d830de032",
+        "canonical_verified": true,
+        "primary_date_quote": "<time class=\"article-intro__date\" datetime=\"2025-11-20\" itemprop=\"datePublished\">November 20, 2025</time>",
+        "full_article_body_extracted": false,
+        "summary_basis": "first_public_article_paragraph",
+        "ignored_dates": "Navigation/related cards, project timetable and site build timestamps are not article publication dates"
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not a new publication, open tender, verified new milestone or source completeness.",
+      "original_record_state": {},
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2025-11-20"
+      ]
+    },
+    {
+      "id": "backfill:da71690263dbd2857a8759ff",
+      "url": "https://www.datacenterdynamics.com/en/news/modularity-and-borealis-to-partner-for-data-center-in-iceland/",
+      "title": "Modularity and Borealis to partner for data center in Iceland",
+      "summary": "US-based Modularity will partner with Icelandic data center operator Borealis to build a new data center facility and subsea cable system in Iceland.",
+      "source_date": "2024-09-07",
+      "source_month": "2024-09",
+      "date_kind": "source_publication_date",
+      "source": "www.datacenterdynamics.com",
+      "source_lane": "news",
+      "suggestion_ids": [
+        "news-2026-10-23-02"
+      ],
+      "evidence": {
+        "kind": "trade_publisher_canonical_primary_article_header",
+        "sha256": "dd264c45f07edfd088563c71ebe42df0624589ed7221fb6561ac4c79bf354fd7",
+        "canonical_verified": true,
+        "primary_date_quote": "<time class=\"article-intro__date\" datetime=\"2024-09-07\" itemprop=\"datePublished\">September 07, 2024</time>",
+        "full_article_body_extracted": false,
+        "summary_basis": "first_public_article_paragraph",
+        "ignored_dates": "Navigation/related cards, project timetable and site build timestamps are not article publication dates"
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not a new publication, open tender, verified new milestone or source completeness.",
+      "original_record_state": {},
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2024-09-07"
+      ]
+    },
+    {
+      "id": "backfill:668abc61662986900e99ad7f",
+      "url": "https://bdc.is/insights/modularity-and-borealis-data-center-announce-partnership-to-establish-state-of-the-art-sustainable-ai-hub-in-iceland",
+      "title": "Modularity and Borealis Data Center Announce Partnership to Establish State-of-the-Art Sustainable AI Hub in Iceland",
+      "summary": "Borealis Data Center's focus remains on sustainable high-tech data center operations in Iceland. Modularity will handle the development of the submarine cable system, aimed at improving communication capabilities.",
+      "source_date": "2024-09-05",
+      "source_month": "2024-09",
+      "date_kind": "source_publication_date",
+      "source": "bdc.is",
+      "source_lane": "news",
+      "suggestion_ids": [
+        "news-2026-10-23-02"
+      ],
+      "evidence": {
+        "kind": "operator_self_published_canonical_headline_adjacent_release_date",
+        "sha256": "378acd17db2994af633641b958247f016118122750699352d43aef0f4580da99",
+        "canonical_verified": true,
+        "primary_date_quote": "aria-label=\"Date of Release\": September 5, 2024",
+        "full_article_body_extracted": false,
+        "summary_basis": "first_public_article_paragraph",
+        "ignored_dates": "Navigation/related cards, project timetable and site build timestamps are not article publication dates"
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not a new publication, open tender, verified new milestone or source completeness.",
+      "original_record_state": {},
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2024-09-05"
+      ]
+    },
+    {
+      "id": "backfill:b901fde62471cbe319b7c0a0",
+      "url": "https://www.newswire.is/notices/2ac3a544-01f6-4e4a-a216-31d2548bd7021",
+      "title": "Fjárhagsáætlun Reykjavíkurborgar 2027 og fimm ára áætlun 2027 – 2031",
+      "summary": "Frumvarp að fjárhagsáætlun Reykjavíkurborgar fyrir árið 2027 og fimm ára tímabilið til 2031 er lögð fram í borgarstjórn til fyrri umræðu í dag 3. nóvember 2026. Samantekinn fjárhagsáætlun A- og B-hluta Í fjárhagsáætlun ársins 2027 er gert ráð fyrir að rekstrarniðurstaða verði jákvæð um 12,9 milljarða króna og EBITDA verði 73,0 milljarðar króna. Á árunum 2028-2031 er gert ráð fyrir batnandi afkomu og vaxandi EBITDA. Útkomuspá fyrir árið 2026 gerir ráð fyrir að afkoma ársins verði neikvæð um 3,4 milljarða króna. Veltufé frá rekstri sem hlutfall af tekjum er áætlað 16,5% árið 2027 eða 53,2 millja",
+      "source_date": "2026-11-03",
+      "source_month": "2026-11",
+      "date_kind": "wire_release_publication_not_budget_adoption",
+      "source": "municipal-budget-wire",
+      "source_lane": "planning",
+      "suggestion_ids": [
+        "announcements-2026-11-06-03"
+      ],
+      "evidence": {
+        "kind": "municipal_release_exchange_wire_RSS_header_identity_and_primary_corroboration",
+        "source_date_is_wire_publication_not_adoption": true,
+        "primary_corroboration_url": "https://view.news.eu.nasdaq.com/view?id=b666962d4505c07786bd0c49f280a3667&lang=is&src=listed",
+        "fixture_sha256": "3258fdda7c46e7276a11a710a2df9d2e4766af484028581305bdac035a854a0c",
+        "sha256": "3258fdda7c46e7276a11a710a2df9d2e4766af484028581305bdac035a854a0c",
+        "distribution_publisher": "Newswire / Keldan; not direct Nasdaq"
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {
+        "id": "municipal-budget-wire:fdef4177f51614a6c2",
+        "publication_date_provenance": "issuer-labelled exchange-notice RSS and matching detail header",
+        "status": "budget_release",
+        "is_open_opportunity": false
+      },
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-11-03"
+      ]
+    },
+    {
+      "id": "backfill:a7eeb46dc0f33507dacb9c08",
+      "url": "https://www.newswire.is/notices/GNW3396934_is",
+      "title": "Ábyrg forgangsröðun í fjárhagsáætlun Garðabæjar",
+      "summary": "Fjárhagsáætlun Garðabæjar fyrir árið 2027 var lögð fram til fyrri umræðu í bæjarstjórn í dag, fimmtudaginn 5. nóvember. Áætlunin gerir ráð fyrir 176 milljóna króna hagnaði á A- og B-hluta samanlagt en 266 milljóna króna rekstrarhalli verður á A-hluta. Unnið er að frekari aðhalds- og hagræðingaraðgerðum til að styrkja grunnreksturinn og bæta afkomuna. Fyrirséð er því að áætlunin muni taka töluverðum breytingum milli umræðna áður en hún verður tekin til endanlegrar afgreiðslu 3. desember næstkomandi. Garðabær hefur á þessu ári glímt við erfiðara rekstrarumhverfi en áætlanir gerðu ráð fyrir. Eins",
+      "source_date": "2026-11-05",
+      "source_month": "2026-11",
+      "date_kind": "wire_release_publication_not_budget_adoption",
+      "source": "municipal-budget-wire",
+      "source_lane": "planning",
+      "suggestion_ids": [
+        "announcements-2026-11-06-03"
+      ],
+      "evidence": {
+        "kind": "municipal_release_exchange_wire_RSS_header_identity_and_primary_corroboration",
+        "source_date_is_wire_publication_not_adoption": true,
+        "primary_corroboration_url": "https://www.gardabaer.is/frettir/abyrg-forgangsrodun-i-fjarhagsaaetlun-gardabaejar",
+        "fixture_sha256": "395c0e939c8b7948db5a001f76a0f55629f132b920743392dc2e427bef29f992",
+        "sha256": "395c0e939c8b7948db5a001f76a0f55629f132b920743392dc2e427bef29f992",
+        "distribution_publisher": "Newswire / Keldan; not direct Nasdaq"
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {
+        "id": "municipal-budget-wire:9962bb94d399b394f0",
+        "publication_date_provenance": "issuer-labelled exchange-notice RSS and matching detail header",
+        "status": "budget_release",
+        "is_open_opportunity": false
+      },
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-11-05"
+      ]
+    },
+    {
+      "id": "backfill:b366cb8f5df1524354dd9e06",
+      "url": "https://www.borgarlinan.is/utgefid-efni/frettir/annar-afangi-framkvaemda-vid-nautholsveg-og-hr-ad-hefjast",
+      "title": "Annar áfangi framkvæmda við Nauthólsveg og HR að hefjast",
+      "summary": "Nú er að hefjast annar áfangi framkvæmda við uppbyggingu innviða fyrir Borgarlínu við Nauthólsveg og Háskólann í Reykjavík (HR). Áfram verður tryggt aðgengi fyrir akandi, gangandi og hjólandi vegfarendur auk almenningssamgangna á framkvæmdatímanum.",
+      "source_date": "2026-10-29",
+      "source_month": "2026-10",
+      "date_kind": "source_publication_date",
+      "source": "borgarlinan-first-party",
+      "source_lane": "public",
+      "suggestion_ids": [
+        "announcements-2026-10-23-02"
+      ],
+      "evidence": {
+        "kind": "first_party_next_news_slug_h1_primary_header_date_identity",
+        "sha256": "6feb026cc39e4ece5ad6083fe987622547de3562f135b393dc6cb6a8be9ec5c3",
+        "primary_date_quote": "29. október 2026",
+        "created_only_corroborates_own_header": true,
+        "ignored_dates": "Modified timestamp, related posts and construction period are not publication dates"
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {},
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-10-29"
+      ]
+    },
+    {
+      "id": "backfill:381cbcb60abb0e2da821cb6f",
+      "url": "https://www.borgarlinan.is/utgefid-efni/frettir/nyr-afangi-vid-nautholsveg-ad-hefjast",
+      "title": "Nýr áfangi við Nauthólsveg að hefjast",
+      "summary": "Undanfarið hefur verið unnið að jarðvegsskiptum á norðvesturhluta Nauthólsvegar, framan við lóð Flugstjórnarmiðstöðvarinnar (Avians), og komið þar fyrir fargi til að undirbúa jarðveginn fyrir áframhaldandi framkvæmdir. Framkvæmdir við Nauthólsveg þar sem meðal annars er verið að leggja hjáleiðir. Opið fyrir alla umferð á framkvæmdatíma. Þá er malbikun bráðabirgðavega lokið en þeir tryggja aðkomu að Háskólanum í Reykjavík og Reykjavíkurflugvelli á meðan framkvæmdir standa yfir. Einnig hefur verið malbikaður bráðabirgðavegur yfir bæjarstæði Nauthóls, vestan við HR. Nú er að hefjast annar áfangi",
+      "source_date": "2026-10-16",
+      "source_month": "2026-10",
+      "date_kind": "source_publication_date",
+      "source": "borgarlinan-first-party",
+      "source_lane": "public",
+      "suggestion_ids": [
+        "announcements-2026-10-23-02"
+      ],
+      "evidence": {
+        "kind": "first_party_next_news_slug_h1_primary_header_date_identity",
+        "sha256": "93d9e8de189f43db09979d8b0ae6c10ae2b9dcf70a13d7843e91b0edf306c194",
+        "primary_date_quote": "16. október 2026",
+        "created_only_corroborates_own_header": true,
+        "ignored_dates": "Modified timestamp, related posts and construction period are not publication dates"
+      },
+      "is_backfill": true,
+      "is_new": false,
+      "is_open_opportunity": false,
+      "meaning": "Historical evidence recovery, not new publication, current tender status, source completeness or regenerated downstream reports.",
+      "original_record_state": {},
+      "source_date_conflict": false,
+      "observed_source_dates": [
+        "2026-10-16"
+      ]
+    }
+  ],
+  "unresolved": [
+    {
+      "url": "https://www.stjornarradid.is/leit/?q=orkumannvirki",
+      "reason": "The claimed27Oct combined-energy-permit article was not identified by bounded official search; unrelated property-tax reform is not substituted."
+    },
+    {
+      "url": "https://www.landsvirkjun.is/frettir/",
+      "reason": "Exact owner7Oct foundation milestone not established; contractor8Oct evidence is separate."
+    }
+  ],
+  "limits": [
+    "Frozen 49-record package is unchanged.",
+    "Source publication dates are not necessarily event dates.",
+    "No rolling feeds, runtime code, downstream reports or live archives changed.",
+    "Follow-up union adds four primary datacentre releases, two original municipal-budget wire notices and two primary Borgarlína milestone articles. No old item is inserted as current news."
+  ]
+}
