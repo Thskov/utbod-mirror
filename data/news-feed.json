@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated": "2026-11-23T18:35:49Z",
+  "generated": "2026-11-24T06:30:01Z",
   "window": {
-    "from": "2026-10-24",
-    "to": "2026-11-23"
+    "from": "2026-10-25",
+    "to": "2026-11-24"
   },
   "coverage": {
     "issuer_disclosures": [
@@ -156,6 +156,16 @@
         "source": "vf",
         "outlet": "Víkurfréttir",
         "url": "https://www.vf.is/frettir"
+      },
+      {
+        "source": "skessuhorn",
+        "outlet": "Skessuhorn",
+        "url": "https://skessuhorn.is/flokkar/frettir"
+      },
+      {
+        "source": "vitinn",
+        "outlet": "Vitinn (secondary news aggregator)",
+        "url": "https://vitinn.news/feed.xml"
       },
       {
         "source": "nordurthing-news",
@@ -354,16 +364,6 @@
         "outlet": "Seðlabanki Íslands",
         "url": "https://sedlabanki.is/peningastefna/peningastefnunefnd/",
         "coverage": "bounded first-party monetary-policy statements"
-      },
-      {
-        "source": "skessuhorn",
-        "outlet": "Skessuhorn",
-        "url": "https://skessuhorn.is/flokkar/frettir"
-      },
-      {
-        "source": "vitinn",
-        "outlet": "Vitinn (secondary news aggregator)",
-        "url": "https://vitinn.news/feed.xml"
       }
     ],
     "topics": {
@@ -502,10 +502,11 @@
   },
   "sources": {
     "not_covered": {
-      "byggingar": "The read operation timed out",
-      "byggingar-borgarlina": "The read operation timed out",
-      "byggingar-contracts": "The read operation timed out",
-      "byggingar-utbod": "The read operation timed out",
+      "byggingar": "<urlopen error timed out>",
+      "byggingar-borgarlina": "<urlopen error timed out>",
+      "byggingar-contracts": "<urlopen error timed out>",
+      "byggingar-utbod": "<urlopen error timed out>",
+      "vitinn": "Incomplete: no verified in-window relevant records extracted.",
       "landsvirkjun": "Incomplete: 7 relevant records rejected without verified publication dates.",
       "landsvirkjun-utbod": "Incomplete: 8 relevant records rejected without verified publication dates.",
       "landsnet-news": "Incomplete: no verified in-window relevant records extracted.",
@@ -529,9 +530,10 @@
       "disclosures-arctic-fish-holding-coverage": "Bounded issuer-distributed release discovery; up to two PDF attachments per release, 16MB each, 40 pages/100000 characters; extraction status reported per attachment; no inferred project claims",
       "fish-farmer-body-access": "Full article requires publisher registration/login; public title/date/teaser only, no authentication changes",
       "fish-farmer-sitemap-coverage": "Bounded official sitemap discovery: 8000 sitemap rows, 40 Iceland/company candidates, eight detail requests; modification dates never used as publication dates; not complete archive coverage",
+      "tracked-court-scope": "Bounded primary Hvammsvirkjun searches only: annual judgments page 1, Supreme Court listing, leave decisions page 1; not complete court history.",
       "fish-farmer-coverage": "bounded secondary trade supplement; historical/source completeness not established (https://www.fishfarmermagazine.com/feed/)",
       "salmonbusiness-coverage": "bounded secondary trade supplement; historical/source completeness not established (https://www.salmonbusiness.com/)",
-      "datacenterdynamics-coverage": "bounded secondary trade supplement; historical/source completeness not established (https://www.datacenterdynamics.com/en/news/)",
+      "datacenterdynamics-coverage": "bounded secondary trade supplement; historical/source completeness not established (https://www.datacenterdynamics.com/en/rss/news)",
       "landbasedaq-coverage": "bounded secondary trade supplement; historical/source completeness not established (https://www.landbasedaq.com/)",
       "samherji-operator-coverage": "bounded first-party dated-news supplement; undated project references and complete historical reach not established (https://www.samherji.is/is/frettir)",
       "first-water-operator-coverage": "bounded first-party dated-news supplement; undated project references and complete historical reach not established (https://www.firstwater.is/ip/news)",
@@ -559,7 +561,7 @@
         "evidence_url": "https://mfn.se/ob/a/arctic-fish-holding/arctic-fish-afish-q3-2026-previous-volume-record-surpassed-842022ab.iframe",
         "seen_count": 1,
         "first_seen": "2026-11-23T18:35:49Z",
-        "last_seen": "2026-11-23T18:35:49Z",
+        "last_seen": "2026-11-24T06:30:01Z",
         "reason": "unknown entity found in generated news items",
         "status": "pending"
       },
@@ -571,7 +573,7 @@
         "evidence_url": "https://www.fishfarmermagazine.com/news/icelandic-farmer-spells-out-high-cost-of-jellyfish-attacks",
         "seen_count": 2,
         "first_seen": "2026-11-23T18:35:49Z",
-        "last_seen": "2026-11-23T18:35:49Z",
+        "last_seen": "2026-11-24T06:30:01Z",
         "reason": "repeated unknown entity found in generated news items",
         "status": "pending"
       },
@@ -583,7 +585,7 @@
         "evidence_url": "https://www.geosalmo.com/news/eyrun-viktorsdottir-as-head-of-quality-and-sustainability",
         "seen_count": 4,
         "first_seen": "2026-11-13T06:30:01Z",
-        "last_seen": "2026-11-23T18:35:49Z",
+        "last_seen": "2026-11-24T06:30:01Z",
         "reason": "repeated unknown entity found in generated news items",
         "status": "pending"
       },
@@ -593,9 +595,9 @@
         "suggested_feed": "news-feed",
         "suggested_lane": "news",
         "evidence_url": "https://mfn.se/ob/a/icelandic-salmon/icelandic-salmon-third-quarter-2026-results-1ec1d454.iframe",
-        "seen_count": 2,
+        "seen_count": 1,
         "first_seen": "2026-11-23T18:35:49Z",
-        "last_seen": "2026-11-23T18:35:49Z",
+        "last_seen": "2026-11-24T06:30:01Z",
         "reason": "repeated unknown entity found in generated news items",
         "status": "pending"
       },
@@ -607,7 +609,7 @@
         "evidence_url": "https://mfn.se/one/a/kaldvik/kaldvik-as-kldvk-q3-2026-quarterly-update-fe238732.iframe",
         "seen_count": 2,
         "first_seen": "2026-11-23T18:35:49Z",
-        "last_seen": "2026-11-23T18:35:49Z",
+        "last_seen": "2026-11-24T06:30:01Z",
         "reason": "repeated unknown entity found in generated news items",
         "status": "pending"
       },
@@ -619,7 +621,7 @@
         "evidence_url": "https://www.landbasedaq.com/arctic-char-bankruptcy-iceland/iceland-arctic-char-farmer-files-for-bankrupcty/2206923",
         "seen_count": 1,
         "first_seen": "2026-10-29T08:17:48Z",
-        "last_seen": "2026-11-23T18:35:49Z",
+        "last_seen": "2026-11-24T06:30:01Z",
         "reason": "unknown entity found in generated news items",
         "status": "pending"
       },
@@ -643,7 +645,7 @@
         "evidence_url": "https://sedlabanki.is/frettir-og-utgefid-efni/grein/yfirlysing-peningastefnunefndar-18-november-2026",
         "seen_count": 1,
         "first_seen": "2026-11-02T17:18:17Z",
-        "last_seen": "2026-11-23T18:35:49Z",
+        "last_seen": "2026-11-24T06:30:01Z",
         "reason": "unknown entity found in generated news items",
         "status": "pending"
       },
@@ -661,34 +663,8 @@
       }
     ]
   },
-  "count": 81,
+  "count": 80,
   "items": [
-    {
-      "id": "news:visir:vandraedin-a-byggingamarkadnum-komu-ekki-a-ovart",
-      "lane": "news",
-      "category": "project",
-      "title": "Vand­ræðin á bygginga­markaðnum komu ekki á ó­vart",
-      "entity": "visir.is",
-      "date": "2026-11-23",
-      "summary": "Vand­ræðin á bygginga­markaðnum komu ekki á ó­vart",
-      "url": "https://www.visir.is/g/20262966787d/vandraedin-a-byggingamarkadnum-komu-ekki-a-ovart",
-      "outlet": "visir.is",
-      "source": "visir",
-      "is_new": true,
-      "sector_tags": [],
-      "sector_eligibility": {
-        "iceland_project_evidence": false,
-        "facility_relevance": false,
-        "project_eligible": false,
-        "eligibility_reason": "no_material_sector_evidence",
-        "current_dated_signal": false,
-        "source_date": "2026-11-23",
-        "assessed_on": "2026-11-23",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      }
-    },
     {
       "id": "news:visir-vidskipti:aetla-ad-staekka-kastrup",
       "lane": "news",
@@ -712,47 +688,21 @@
         "eligibility_reason": "iceland_project_not_verified",
         "current_dated_signal": false,
         "source_date": "2026-11-23",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
       }
     },
     {
-      "id": "news:visir-fiskeldi:aetla-ad-senda-kjarnorkusprengju-a-sporbraut",
+      "id": "news:vb:blaa-lonid-laekkadi-um-25-i-dag",
       "lane": "news",
       "category": "project",
-      "title": "Ætla að senda kjarn­orku­sprengju á spor­braut",
-      "entity": "visir.is / Fiskeldi",
-      "date": "2026-11-23",
-      "summary": "Ætla að senda kjarn­orku­sprengju á spor­braut Erlent",
-      "url": "https://www.visir.is/g/20262966896d/aetla-ad-senda-kjarnorkusprengju-a-sporbraut",
-      "outlet": "visir.is / Fiskeldi",
-      "source": "visir-fiskeldi",
-      "is_new": true,
-      "sector_tags": [],
-      "sector_eligibility": {
-        "iceland_project_evidence": false,
-        "facility_relevance": false,
-        "project_eligible": false,
-        "eligibility_reason": "no_material_sector_evidence",
-        "current_dated_signal": false,
-        "source_date": "2026-11-23",
-        "assessed_on": "2026-11-23",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      }
-    },
-    {
-      "id": "news:vb:staekka-kastrup-til-ad-taka-vid-helmingi-fleiri-farthegum",
-      "lane": "news",
-      "category": "investment",
-      "title": "Stækka Kastrup til að taka við helmingi fleiri farþegum Um er að ræða fjárfestingu upp á tugi milljarða danskra króna.",
+      "title": "Bláa Lónið lækkaði um 2,5% í dag Hlutabréfaverð Bláa Lónsins er nú 10,3% lægra en 95 króna útboðsgengið.",
       "entity": "vb.is",
       "date": "2026-11-23",
-      "summary": "Stækka Kastrup til að taka við helmingi fleiri farþegum Um er að ræða fjárfestingu upp á tugi milljarða danskra króna.",
-      "url": "https://www.vb.is/frettir/staekka-kastrup-til-ad-taka-vid-helmingi-fleiri-farthegum/",
+      "summary": "Bláa Lónið lækkaði um 2,5% í dag Hlutabréfaverð Bláa Lónsins er nú 10,3% lægra en 95 króna útboðsgengið.",
+      "url": "https://www.vb.is/frettir/blaa-lonid-laekkadi-um-25-i-dag/",
       "outlet": "vb.is",
       "source": "vb",
       "is_new": true,
@@ -764,7 +714,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-23",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -793,7 +743,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-23",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -822,7 +772,7 @@
         "eligibility_reason": "eligible_project_context",
         "current_dated_signal": true,
         "source_date": "2026-11-23",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -851,7 +801,7 @@
         "eligibility_reason": "iceland_project_not_verified",
         "current_dated_signal": false,
         "source_date": "2026-11-23",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -880,7 +830,7 @@
         "eligibility_reason": "eligible_project_context",
         "current_dated_signal": true,
         "source_date": "2026-11-23",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -906,7 +856,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-23",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -932,7 +882,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-23",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -958,7 +908,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-23",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -984,7 +934,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-23",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1010,7 +960,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-23",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1036,7 +986,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-23",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1053,7 +1003,7 @@
       "url": "https://www.visir.is/g/20262966730d/byggingargeirinn-eigi-skell-i-vaendum",
       "outlet": "visir.is / Viðskipti",
       "source": "visir-vidskipti",
-      "is_new": true,
+      "is_new": false,
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -1062,7 +1012,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-22",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1079,7 +1029,7 @@
       "url": "https://www.vf.is/frettir/ser-fyrir-endann-a-framkvaemdum-vid-radhusid---baerinn-skadabotaskyldur-i-utbodi",
       "outlet": "Víkurfréttir",
       "source": "vf",
-      "is_new": true,
+      "is_new": false,
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -1088,7 +1038,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-22",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1105,7 +1055,7 @@
       "url": "https://braggi.is/solutimi-nyrra-ibuda-hefur-tvofaldast-en-nadi-hamarki-i-juni/",
       "outlet": "braggi.is",
       "source": "braggi",
-      "is_new": true,
+      "is_new": false,
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -1114,7 +1064,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-22",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1143,7 +1093,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-21",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1169,7 +1119,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-20",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1198,7 +1148,7 @@
         "eligibility_reason": "iceland_project_not_verified",
         "current_dated_signal": false,
         "source_date": "2026-11-20",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1227,7 +1177,33 @@
         "eligibility_reason": "iceland_project_not_verified",
         "current_dated_signal": false,
         "source_date": "2026-11-20",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
+    },
+    {
+      "id": "news:fiskifrettir:rafvaeddur-herjolfur-sparar-430000-kr-a-dag",
+      "lane": "news",
+      "category": "project",
+      "title": "Rafvæddur Herjólfur sparar 430.000 kr. á dag Á málstofu um vistvænt eldsneyti á sjó kom fram að skortur á stöðlum og flókið samþykktarferli geta torveldað orkuskipti í smábátum un...",
+      "entity": "Fiskifréttir",
+      "date": "2026-11-20",
+      "summary": "Rafvæddur Herjólfur sparar 430.000 kr. á dag Á málstofu um vistvænt eldsneyti á sjó kom fram að skortur á stöðlum og flókið samþykktarferli geta torveldað orkuskipti í smábátum undir 15 metrum að stærð",
+      "url": "https://fiskifrettir.vb.is/rafvaeddur-herjolfur-sparar-430000-kr-a-dag/",
+      "outlet": "Fiskifréttir",
+      "source": "fiskifrettir",
+      "is_new": false,
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-20",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1253,7 +1229,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-19",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1282,7 +1258,7 @@
         "eligibility_reason": "iceland_project_not_verified",
         "current_dated_signal": false,
         "source_date": "2026-11-19",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1311,7 +1287,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-19",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1337,7 +1313,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-19",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1368,7 +1344,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-18",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1394,7 +1370,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-18",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1420,7 +1396,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-18",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1446,7 +1422,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-18",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1472,7 +1448,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-18",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1501,7 +1477,7 @@
         "eligibility_reason": "eligible_project_context",
         "current_dated_signal": true,
         "source_date": "2026-11-17",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1527,7 +1503,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-17",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1553,7 +1529,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-17",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1582,7 +1558,7 @@
         "eligibility_reason": "iceland_project_not_verified",
         "current_dated_signal": false,
         "source_date": "2026-11-17",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1608,7 +1584,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-17",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1640,7 +1616,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-17",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1666,7 +1642,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-13",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1689,6 +1665,7 @@
       "distribution_publisher": "MFN",
       "publication_date_provenance": "release_article_published_time_verified_against_release_card",
       "project_learning_eligible": false,
+      "attachment_count": 1,
       "attachments": [
         {
           "url": "https://ml-eu.globenewswire.com/Resource/Download/55d9b2e6-40c0-48e8-90c6-4168644da9f4",
@@ -1736,7 +1713,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-13",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1762,7 +1739,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-12",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1788,7 +1765,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-12",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1814,7 +1791,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-12",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1840,7 +1817,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-11",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1869,7 +1846,7 @@
         "eligibility_reason": "iceland_project_not_verified",
         "current_dated_signal": false,
         "source_date": "2026-11-11",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1895,7 +1872,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-11",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1924,7 +1901,7 @@
         "eligibility_reason": "iceland_project_not_verified",
         "current_dated_signal": false,
         "source_date": "2026-11-11",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1953,7 +1930,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-11",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1979,7 +1956,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-11",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2005,7 +1982,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-10",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2034,7 +2011,7 @@
         "eligibility_reason": "eligible_project_context",
         "current_dated_signal": false,
         "source_date": "2026-11-10",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2060,7 +2037,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-10",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2092,7 +2069,7 @@
         "eligibility_reason": "iceland_project_not_verified",
         "current_dated_signal": false,
         "source_date": "2026-11-09",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2118,7 +2095,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-09",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2144,7 +2121,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-07",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2170,7 +2147,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-06",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2196,7 +2173,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-05",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2225,7 +2202,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-05",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2257,7 +2234,7 @@
         "eligibility_reason": "eligible_project_context",
         "current_dated_signal": false,
         "source_date": "2026-11-05",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2286,7 +2263,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-04",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2312,7 +2289,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-04",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2341,7 +2318,7 @@
         "eligibility_reason": "eligible_project_context",
         "current_dated_signal": false,
         "source_date": "2026-11-04",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2364,6 +2341,7 @@
       "distribution_publisher": "MFN",
       "publication_date_provenance": "release_article_published_time_verified_against_release_card",
       "project_learning_eligible": false,
+      "attachment_count": 1,
       "attachments": [
         {
           "url": "https://storage.mfn.se/c/aHR0cHM6Ly9hcGkzLm9zbG8ub3Nsb2JvcnMubm8vdjEvbmV3c3JlYWRlci9hdHRhY2htZW50P21lc3NhZ2VJZD02ODU1MjUmYXR0YWNobWVudElkPTMzNTY1MQ/pdf.pdf?news-id=842022ab-12db-58d3-9769-87ca62bc966f",
@@ -2401,7 +2379,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-04",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2430,7 +2408,7 @@
         "eligibility_reason": "iceland_project_not_verified",
         "current_dated_signal": false,
         "source_date": "2026-11-03",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2453,6 +2431,7 @@
       "distribution_publisher": "MFN",
       "publication_date_provenance": "release_article_published_time_verified_against_release_card",
       "project_learning_eligible": false,
+      "attachment_count": 1,
       "attachments": [
         {
           "url": "https://storage.mfn.se/c/aHR0cHM6Ly9hcGkzLm9zbG8ub3Nsb2JvcnMubm8vdjEvbmV3c3JlYWRlci9hdHRhY2htZW50P21lc3NhZ2VJZD02ODU0MjImYXR0YWNobWVudElkPTMzNTU3MA/pdf.pdf?news-id=1ec1d454-4e4d-5d8c-b28d-2083b262c34b",
@@ -2477,19 +2456,6 @@
           "extractor": "clawpdf-existing-install"
         }
       ],
-      "sector_tags": [],
-      "sector_eligibility": {
-        "iceland_project_evidence": true,
-        "facility_relevance": false,
-        "project_eligible": false,
-        "eligibility_reason": "no_material_sector_evidence",
-        "current_dated_signal": false,
-        "source_date": "2026-11-03",
-        "assessed_on": "2026-11-23",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      },
       "distribution_mirror_urls": [
         "https://mfn.se/ob/a/icelandic-salmon/icelandic-salmon-third-quarter-2026-results-1ec1d454.iframe",
         "https://mfn.se/one/a/icelandic-salmon/icelandic-salmon-third-quarter-2026-results-fa05c5f0.iframe"
@@ -2505,26 +2471,14 @@
           "title": "Icelandic Salmon - Third quarter 2026 results",
           "url": "https://mfn.se/ob/a/icelandic-salmon/icelandic-salmon-third-quarter-2026-results-1ec1d454.iframe",
           "date": "2026-11-03",
-          "summary": "Attached is the presentation for the third quarter of 2026. The Group's CEO Bjørn Hembre and CFO Robert Robertsson will be presenting the Group's first quarter results today at 09:00 Icelandic time (10:00 CET) via a Teams webinar. To register, please email robert@arnarlax.is (mailto:robert@arnarlax.is). A link will be distributed before the webinar begins....",
+          "summary": "Attached is the presentation for the third quarter of 2026. The Group's CEO Bjørn Hembre and CFO Robert Robertsson will be presenting the Group's first quarter results today at 09:00 Icelandic time (10:00 CET) via a Teams webinar. To register, please email robert@arnarlax.is (mailto:robert@arnarlax.is). A link will be distributed before the webinar begins. For further information, please contact: CEO Bjørn Hembre Tel: +354 620 1936 Email: bjorn@arnarlax.is (mailto:bjorn@arnarlax.is) CFO Robert Robertsson Tel: +354 ",
           "is_new": false,
           "evidence_kind": "issuer_release_via_distribution_mirror",
           "issuer": "Icelandic Salmon / Arnarlax",
           "distribution_publisher": "MFN",
           "publication_date_provenance": "release_article_published_time_verified_against_release_card",
           "project_learning_eligible": false,
-          "sector_tags": [],
-          "sector_eligibility": {
-            "iceland_project_evidence": true,
-            "facility_relevance": false,
-            "project_eligible": false,
-            "eligibility_reason": "no_material_sector_evidence",
-            "current_dated_signal": false,
-            "source_date": "2026-11-03",
-            "assessed_on": "2026-11-23",
-            "new_milestone_verified": false,
-            "newsletter_ready": false,
-            "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-          },
+          "attachment_count": 1,
           "attachments": [
             {
               "url": "https://storage.mfn.se/c/aHR0cHM6Ly9hcGkzLm9zbG8ub3Nsb2JvcnMubm8vdjEvbmV3c3JlYWRlci9hdHRhY2htZW50P21lc3NhZ2VJZD02ODU0MjImYXR0YWNobWVudElkPTMzNTU3MA/pdf.pdf?news-id=1ec1d454-4e4d-5d8c-b28d-2083b262c34b",
@@ -2559,26 +2513,14 @@
           "title": "Icelandic Salmon - Third quarter 2026 results",
           "url": "https://mfn.se/one/a/icelandic-salmon/icelandic-salmon-third-quarter-2026-results-fa05c5f0.iframe",
           "date": "2026-11-03",
-          "summary": "Attached is the presentation for the third quarter of 2026. The Group's CEO Bjørn Hembre and CFO Robert Robertsson will be presenting the Group's first quarter results today at 09:00 Icelandic time (10:00 CET) via a Teams webinar. To register, please email robert@arnarlax.is . A link will be distributed before the webinar begins. For further information, pl...",
+          "summary": "Attached is the presentation for the third quarter of 2026. The Group's CEO Bjørn Hembre and CFO Robert Robertsson will be presenting the Group's first quarter results today at 09:00 Icelandic time (10:00 CET) via a Teams webinar. To register, please email robert@arnarlax.is . A link will be distributed before the webinar begins. For further information, please contact: CEO Bjørn Hembre Tel: +354 620 1936 Email: bjorn@arnarlax.is CFO Robert Robertsson Tel: +354 843 0086 Email: robert@arnarlax.is Icelandic Salmon is",
           "is_new": false,
           "evidence_kind": "issuer_release_via_distribution_mirror",
           "issuer": "Icelandic Salmon / Arnarlax",
           "distribution_publisher": "MFN",
           "publication_date_provenance": "release_article_published_time_verified_against_release_card",
           "project_learning_eligible": false,
-          "sector_tags": [],
-          "sector_eligibility": {
-            "iceland_project_evidence": true,
-            "facility_relevance": false,
-            "project_eligible": false,
-            "eligibility_reason": "no_material_sector_evidence",
-            "current_dated_signal": false,
-            "source_date": "2026-11-03",
-            "assessed_on": "2026-11-23",
-            "new_milestone_verified": false,
-            "newsletter_ready": false,
-            "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-          },
+          "attachment_count": 1,
           "attachments": [
             {
               "url": "https://ml-eu.globenewswire.com/Resource/Download/6c5e3daa-ff99-4d98-956d-0180a0da8fe1",
@@ -2603,7 +2545,20 @@
             }
           ]
         }
-      ]
+      ],
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": true,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-03",
+        "assessed_on": "2026-11-24",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      }
     },
     {
       "id": "news:visir-vidskipti:radinn-forstjori-elkem-a-islandi",
@@ -2625,7 +2580,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-02",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2651,7 +2606,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-02",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2677,7 +2632,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-30",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2703,7 +2658,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-29",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2728,7 +2683,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-29",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2751,6 +2706,7 @@
       "distribution_publisher": "MFN",
       "publication_date_provenance": "release_article_published_time_verified_against_release_card",
       "project_learning_eligible": false,
+      "attachment_count": 0,
       "attachments": [],
       "sector_tags": [],
       "sector_eligibility": {
@@ -2760,7 +2716,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-29",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2786,7 +2742,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-29",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2812,7 +2768,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-29",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2838,7 +2794,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-28",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2864,7 +2820,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-27",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2890,7 +2846,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-27",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2916,7 +2872,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-27",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2942,7 +2898,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-26",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2974,7 +2930,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-26",
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -3007,7 +2963,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": null,
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -3042,7 +2998,7 @@
         "eligibility_reason": "undated_project_reference",
         "current_dated_signal": false,
         "source_date": null,
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -3078,7 +3034,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": null,
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -3111,57 +3067,11 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": null,
-        "assessed_on": "2026-11-23",
+        "assessed_on": "2026-11-24",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
       }
-    }
-  ],
-  "incremental_source_observations": [
-    {
-      "prepared_at": "2026-11-23T19:06:48.426902+00:00",
-      "original_full_generation": "2026-11-23T18:35:49Z",
-      "meaning": "Bounded hash-verified public HTTP observations added without re-running the full collector; not full source/archive coverage",
-      "added_ids": [
-        "news:skessuhorn:borun-hefst-vid-jadarsbraut-um-naestu-helgi"
-      ],
-      "observations": [
-        {
-          "url": "https://skessuhorn.is/flokkar/frettir",
-          "sha256": "bcf96a5f0561d7a0f41e22047fdc2b74dba9b6c76f93606809c3df12aa0dcc7b",
-          "http_status": 200,
-          "fixture": "work/industry-followup-20261123/fixtures/skess-news.txt",
-          "fixture_written_at": "2026-11-23T18:53:53.378060+00:00",
-          "timestamp_provenance": "local_saved_HTTP_fixture_mtime_not_source_publication_date"
-        },
-        {
-          "url": "https://skessuhorn.is/2026/11/23/stiflad-raesi-a-thjodveginum-i-melasveit",
-          "sha256": "1bcf5fc3c4495eb31a3ca33a9e5d77703c6c945cbd60b0090d1af2535d5bf397",
-          "http_status": 200,
-          "fixture": "work/industry-followup-20261123/fixtures/skess-current-detail.txt",
-          "fixture_written_at": "2026-11-23T18:53:51.824073+00:00",
-          "timestamp_provenance": "local_saved_HTTP_fixture_mtime_not_source_publication_date"
-        },
-        {
-          "url": "https://skessuhorn.is/2026/11/23/borun-hefst-vid-jadarsbraut-um-naestu-helgi",
-          "sha256": "12464bc23906ee7db282a435fc1459d1a94793ef00ee9eedcd52d303f7620a9a",
-          "http_status": 200,
-          "fixture": "work/industry-followup-20261123/fixtures/skess-borun-detail.txt",
-          "fixture_written_at": "2026-11-23T18:55:36.505228+00:00",
-          "timestamp_provenance": "local_saved_HTTP_fixture_mtime_not_source_publication_date"
-        },
-        {
-          "url": "https://vitinn.news/feed.xml",
-          "sha256": "8ce687675440bfce27f056703773eab7a849f1548dcb91238240a8e95a19a9a2",
-          "http_status": 200,
-          "fixture": "work/group2-public-followthrough-20261123/fixtures/vitinn-advertised-feed.html"
-        }
-      ],
-      "not_covered": {
-        "vitinn": "Incomplete: no verified in-window relevant records extracted."
-      },
-      "detail_limit": "Only two actually fetched Skessuhorn detail pages; unknown details were not requested or invented. Vitinn RSS crawl stamps were not accepted as story dates."
     }
   ]
 }
