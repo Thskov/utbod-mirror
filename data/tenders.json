@@ -71,7 +71,7 @@
       "limits": "Tags are text-derived relevance, not verified project stage or completeness. Existing source/date/detail limits still apply; no sources added."
     }
   },
-  "generated_at": "2026-11-25T07:00:25.804094+00:00",
+  "generated_at": "2026-11-26T07:00:28.337084+00:00",
   "source": {
     "site": "https://www.utbodsvefur.is",
     "posts_api": "https://www.utbodsvefur.is/wp-json/wp/v2/posts",
@@ -79,81 +79,13 @@
     "count_drop_guard": {
       "status": "fresh",
       "threshold": ">70% source-count collapse",
-      "previous_good_count": 78,
-      "current_count": 77,
+      "previous_good_count": 77,
+      "current_count": 75,
       "minimum_allowed_count": 23
     }
   },
-  "count": 77,
+  "count": 75,
   "tenders": [
-    {
-      "reference": "2026108663",
-      "project": "Útboð á vátryggingarþjónustu fyrir Akureyrarbæ, Hafnarsjóð Norðurlands og Norðurorku",
-      "buyer": "Akureyrarbær",
-      "notice_type": "Þjónusta",
-      "deadline": "25.11.2026 kl. 11:15",
-      "deadline_local": "2026-11-25T11:15:00+00:00",
-      "deadline_utc": "2026-11-25T11:15:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-10-19T13:46:50+00:00",
-      "modified_at": "2026-10-19T13:46:50+00:00",
-      "url": "https://www.utbodsvefur.is/utbod-a-vatryggingarthjonustu-fyrir-akureyrarbae-hafnarsjod-nordurlands-og-nordurorku/",
-      "summary": "Akureyrarbær óskar eftir tilboðum í vátryggingarþjónustu sveitarfélagsins, Hafnasamlags Norðurlands og Norðurorku hf. Samningstími er frá 1. janúar 20...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
-      "sector_tags": [],
-      "sector_eligibility": {
-        "iceland_project_evidence": true,
-        "facility_relevance": false,
-        "project_eligible": false,
-        "eligibility_reason": "no_material_sector_evidence",
-        "current_dated_signal": false,
-        "source_date": "2026-10-19",
-        "assessed_on": "2026-11-25",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      },
-      "first_seen_at": "2026-10-22T07:00:25.921738+00:00",
-      "first_seen_evidence": "retained_git_feed:9ca7433ce031ea4c94af975395f77c3660e4ff43:data/tenders.json:2026-10-22T07:00:25.921738+00:00",
-      "published_at": "2026-10-19T13:46:50+00:00",
-      "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
-    },
-    {
-      "reference": "23369",
-      "project": "Upplýsingatækniþjónusta fyrir stafræna heilbrigðisþjónustu",
-      "buyer": "Fjársýslan",
-      "notice_type": "Þjónusta",
-      "deadline": "25.11.2026 kl. 12:00",
-      "deadline_local": "2026-11-25T12:00:00+00:00",
-      "deadline_utc": "2026-11-25T12:00:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-09-21T09:08:53+00:00",
-      "modified_at": "2026-11-11T14:55:49+00:00",
-      "url": "https://www.utbodsvefur.is/upplysingataeknithjonusta-fyrir-stafraena-heilbrigdisthjonustu/",
-      "summary": "Fjársýslan fyrir hönd heilbrigðisráðuneytisins, kt. 521218-0530, óskar eftir tilboðum í tækniþjónustu fyrir Stafræna heilsu og Sjúkratryggingar Ísland...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
-      "sector_tags": [],
-      "sector_eligibility": {
-        "iceland_project_evidence": true,
-        "facility_relevance": false,
-        "project_eligible": false,
-        "eligibility_reason": "no_material_sector_evidence",
-        "current_dated_signal": false,
-        "source_date": "2026-09-21",
-        "assessed_on": "2026-11-25",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      },
-      "first_seen_at": "2026-09-22T07:00:27.037889+00:00",
-      "first_seen_evidence": "retained_git_feed:ec805e2034c2095fd2e3fc9aa8ac67dcc51b7056:data/tenders.json:2026-09-22T07:00:27.037889+00:00",
-      "published_at": "2026-09-21T09:08:53+00:00",
-      "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
-    },
     {
       "reference": "6330309",
       "project": "Markaðskönnun – leiga skrifstofuhúsnæðis á höfuðborgarsvæðinu",
@@ -167,7 +99,7 @@
       "modified_at": "2026-11-16T09:33:09+00:00",
       "url": "https://www.utbodsvefur.is/markadskonnun-leiga-skrifstofuhusnaedis-a-hofudborgarsvaedinu/",
       "summary": "Skrifstofuhúsnæði á höfuðborgarsvæðinu Framkvæmdasýslan – Ríkiseignir (FSRE), f.h. ríkissjóðs, stendur fyrir markaðskönnun vegna mögulegrar lang...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -176,7 +108,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-29",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -185,8 +117,8 @@
       "first_seen_evidence": "retained_git_feed:0c70eac3dec7a063ec72ce4e08cd7319f3ad0dd7:data/tenders.json:2026-10-30T07:00:27.199147+00:00",
       "published_at": "2026-10-29T13:59:42+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "23454",
@@ -201,7 +133,7 @@
       "modified_at": "2026-11-17T08:58:41+00:00",
       "url": "https://www.utbodsvefur.is/gagnsaeistilkynning-veat-kaup-a-lc-qtof-massagreiningarkerfi-fyrir-haskola-islands/",
       "summary": "Fjársýslan (kt. 540269-7509) birtir gagnsæistilkynningu (VEAT) fyrir hönd Háskóla Íslands (kt. 600169-2039). Tilkynningin varðar fyrirhugaðan samning ...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": true,
@@ -210,7 +142,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-17",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -219,8 +151,8 @@
       "first_seen_evidence": "retained_git_feed:a7f860579d60ac01458a19920bd445273b25845c:data/tenders.json:2026-11-19T07:00:23.815531+00:00",
       "published_at": "2026-11-17T08:52:08+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "23302",
@@ -235,7 +167,7 @@
       "modified_at": "2026-10-26T09:44:34+00:00",
       "url": "https://www.utbodsvefur.is/upplysingataeknirekstur-hafrannsoknastofnunar/",
       "summary": "Fjársýslan fyrir hönd Hafrannsóknastofnunar, kt. 470616-0830, óskar eftir tilboðum í 23302 – Upplýsingatæknirekstur Hafrannsóknastofnunar (e. IT...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -244,7 +176,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-26",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -253,8 +185,8 @@
       "first_seen_evidence": "retained_git_feed:9629b56733f44ef3d24ae8bdadd0c98ee562513e:data/tenders.json:2026-10-27T11:55:54.824750+00:00",
       "published_at": "2026-10-26T09:44:34+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "23442",
@@ -269,7 +201,7 @@
       "modified_at": "2026-10-26T08:33:52+00:00",
       "url": "https://www.utbodsvefur.is/vatryggingar-fyrir-ruv/",
       "summary": "Fjársýslan fyrir hönd Ríkisútvarpsins ohf., kt. 600307-0450, óskar eftir tilboðum í vátryggingar fyrir RÚV. Tryggingar skulu gilda frá og með 01.01.20...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -278,7 +210,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-26",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -287,8 +219,8 @@
       "first_seen_evidence": "retained_git_feed:9629b56733f44ef3d24ae8bdadd0c98ee562513e:data/tenders.json:2026-10-27T11:55:54.824750+00:00",
       "published_at": "2026-10-26T08:33:52+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "2608-5719",
@@ -303,7 +235,7 @@
       "modified_at": "2026-10-23T14:39:09+00:00",
       "url": "https://www.utbodsvefur.is/raforkukaup-fyrir-akraneskaupstad-2027-2030/",
       "summary": "Akraneskaupstaður óskar eftir tilboði í innkaup á raforku fyrir alla almenna notkun í 4 ár samkvæmt útboðsgögnum. Um er að ræða almennt útboð. Tilboð...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -312,7 +244,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-23",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -321,8 +253,8 @@
       "first_seen_evidence": "retained_git_feed:f4c0b2fe03b848fe5d88bd952a43fb32b502e864:data/tenders.json:2026-10-26T07:00:25.058039+00:00",
       "published_at": "2026-10-23T12:00:54+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "2026108831",
@@ -337,7 +269,7 @@
       "modified_at": "2026-10-28T15:33:22+00:00",
       "url": "https://www.utbodsvefur.is/utbod-a-daelubifreid-fyrir-slokkvilid-akureyrar-2/",
       "summary": "Umhverfis- og mannvirkjasvið Akureyrarbæjar óskar eftir tilboði í kaup á nýrri dælubifreið fyrir hönd Slökkviliðs Akureyrar. Útboðið er boðið út á EES...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": true,
@@ -346,7 +278,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-28",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -355,8 +287,8 @@
       "first_seen_evidence": "retained_git_feed:3f2c6fbc92bfe9d6fe5184beba47ba9207225152:data/tenders.json:2026-10-29T07:00:26.945728+00:00",
       "published_at": "2026-10-28T15:33:22+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "202610111",
@@ -371,7 +303,7 @@
       "modified_at": "2026-11-10T09:15:36+00:00",
       "url": "https://www.utbodsvefur.is/jokulfellssvollur-markadskonnun-vegna-fyrirhugads-utbods-a-gervigrasi/",
       "summary": "Sveitarfélagið Hornafjörður óskar eftir upplýsingum frá birgjum og framleiðendum sem geta boðið gervigraskerfi með náttúrulegum innfylliefnum til notk...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -380,7 +312,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-10",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -389,8 +321,8 @@
       "first_seen_evidence": "retained_git_feed:bdba1ebafffcc6b6d26a1f47c34298b28d3b6ac8:data/tenders.json:2026-11-11T07:00:23.576553+00:00",
       "published_at": "2026-11-10T09:15:36+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "16361",
@@ -405,7 +337,7 @@
       "modified_at": "2026-10-27T09:48:08+00:00",
       "url": "https://www.utbodsvefur.is/autodesk-hugbunadarleyfi-ees-utbod-nr-16361/",
       "summary": "F.h. Upplýsingatækniþjónustu Reykjavíkurborgar er óskað eftir tilboðum í eftirfarandi verk: Autodesk hugbúnaðarleyfi, EES útboð nr. 16361. Lauslegt yf...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": true,
@@ -414,7 +346,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-27",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -423,8 +355,8 @@
       "first_seen_evidence": "retained_git_feed:9629b56733f44ef3d24ae8bdadd0c98ee562513e:data/tenders.json:2026-10-27T11:55:54.824750+00:00",
       "published_at": "2026-10-27T09:48:08+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "2026-50",
@@ -439,7 +371,7 @@
       "modified_at": "2026-10-30T12:40:47+00:00",
       "url": "https://www.utbodsvefur.is/kra-vidgerd-a-leidiskoflum/",
       "summary": "Landsvirkjun, hér á eftir nefnt verkkaupi óskar eftir tilboðum í verkið: 2026-50 KRA Viðgerðir á leiðiskóflum. Verkið felst í viðgerðum á leiðiskóflum...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -448,7 +380,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-30",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -457,8 +389,8 @@
       "first_seen_evidence": "retained_git_feed:816f5313b532186e5f60457798332b1ceffe7bf8:data/tenders.json:2026-11-02T07:00:27.458232+00:00",
       "published_at": "2026-10-30T12:40:47+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "2604308",
@@ -473,7 +405,7 @@
       "modified_at": "2026-11-16T14:48:50+00:00",
       "url": "https://www.utbodsvefur.is/austurvegur-2-endurnyjun-a-radhustroppum-2/",
       "summary": "Sveitarfélagið Árborg óskar eftir tilboðum í framkvæmdaverkið: „Austurvegur 2 – endurnýjun á ráðhúströppum“. Verkið felur í sér rif, fjarlægingu og fö...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -482,7 +414,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-12",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -491,8 +423,8 @@
       "first_seen_evidence": "retained_git_feed:3244d5493143352df26d3e81059b4fe28ff3a561:data/tenders.json:2026-11-13T07:00:25.698533+00:00",
       "published_at": "2026-11-12T12:01:40+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "23404",
@@ -507,7 +439,7 @@
       "modified_at": "2026-10-29T09:58:16+00:00",
       "url": "https://www.utbodsvefur.is/serhaefd-salfraedithjonusta-a-vegum-felags-og-husnaedismalaraduneytisins/",
       "summary": "Fjársýslan fyrir hönd félags- og húsnæðismálaráðuneytis, kt. 521218-0610, óskar eftir tilboðum í útboð nr. 23404 fyrir sérhæfða viðtalsmeðferð fyrir e...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -516,7 +448,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-29",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -525,8 +457,8 @@
       "first_seen_evidence": "retained_git_feed:0c70eac3dec7a063ec72ce4e08cd7319f3ad0dd7:data/tenders.json:2026-10-30T07:00:27.199147+00:00",
       "published_at": "2026-10-29T09:43:15+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "M26032",
@@ -541,7 +473,7 @@
       "modified_at": "2026-11-11T10:03:50+00:00",
       "url": "https://www.utbodsvefur.is/rfi-thjonustuadili-vegna-afhendingar-og-innleidingar-a-nyju-atm-kerfi-avians-fyrir-reykjavik-cta/",
       "summary": "Isavia ohf. auglýsir markaðskönnun fyrir hönd Avians ehf. Tilgangur þessarar markaðskönnunar er að afla upplýsinga og viðbragða frá áhugasömum aðilum ...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": true,
@@ -550,7 +482,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-10",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -559,8 +491,8 @@
       "first_seen_evidence": "retained_git_feed:bdba1ebafffcc6b6d26a1f47c34298b28d3b6ac8:data/tenders.json:2026-11-11T07:00:23.576553+00:00",
       "published_at": "2026-11-10T12:17:32+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "202610112",
@@ -575,7 +507,7 @@
       "modified_at": "2026-11-16T09:01:27+00:00",
       "url": "https://www.utbodsvefur.is/hagahverfi-gongustigur-ad-verslun-kronunnar/",
       "summary": "Sveitarfélagið Hornafjörður, hér eftir nefnt verkkaupi, óskar eftir tilboðum í verkið „Hagahverfi – göngustígur að verslun Krónunnar“ eins og því er l...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -584,7 +516,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-16",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -593,8 +525,8 @@
       "first_seen_evidence": "retained_git_feed:ab5c4873b981898b67d3913b5a020d9173b3579b:data/tenders.json:2026-11-17T07:00:25.650766+00:00",
       "published_at": "2026-11-16T09:01:27+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "23401",
@@ -609,7 +541,7 @@
       "modified_at": "2026-10-30T09:37:23+00:00",
       "url": "https://www.utbodsvefur.is/hreinsun-rotthroa-fyrir-hvalfjardarsveit/",
       "summary": "Fjársýslan (kt. 540269-7509), fyrir hönd Hvalfjarðarsveitar (kt. 630606-1950), óskar eftir tilboðum í útboð nr. 23401 – Hreinsun rotþróa fyrir H...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -618,7 +550,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-30",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -627,8 +559,8 @@
       "first_seen_evidence": "retained_git_feed:816f5313b532186e5f60457798332b1ceffe7bf8:data/tenders.json:2026-11-02T07:00:27.458232+00:00",
       "published_at": "2026-10-30T09:37:23+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "26-072",
@@ -643,7 +575,7 @@
       "modified_at": "2026-10-26T10:38:13+00:00",
       "url": "https://www.utbodsvefur.is/almenningssamgongur-a-landi-a-austurlandi-2027-2028/",
       "summary": "Vegagerðin ókar hér með eftir tilboðum í almenningssamgöngur á landi á Austurlandi 2027-2028. Þjónustuverkefninu er skipt tvo hluta; annars vegar lei...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -652,7 +584,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-26",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -661,8 +593,8 @@
       "first_seen_evidence": "retained_git_feed:9629b56733f44ef3d24ae8bdadd0c98ee562513e:data/tenders.json:2026-10-27T11:55:54.824750+00:00",
       "published_at": "2026-10-26T10:34:07+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "26-130",
@@ -677,7 +609,7 @@
       "modified_at": "2026-10-29T13:18:47+00:00",
       "url": "https://www.utbodsvefur.is/bustadavegur-418-temporary-borgarlina-link-via-nesbrautarbru-arnarhlid-burknagata-preliminary-and-detailed-design/",
       "summary": "Vegagerðin ásamt Veitum ohf. óskar eftir tilboði í for- og verkhönnun á bráðabirgðatengingu Borgarlínu um Nesbrautarbrú í Reykjavík ásamt breytingum o...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": true,
@@ -686,7 +618,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-29",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -695,8 +627,8 @@
       "first_seen_evidence": "retained_git_feed:0c70eac3dec7a063ec72ce4e08cd7319f3ad0dd7:data/tenders.json:2026-10-30T07:00:27.199147+00:00",
       "published_at": "2026-10-29T13:18:16+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "26/19",
@@ -711,7 +643,7 @@
       "modified_at": "2026-11-13T11:01:29+00:00",
       "url": "https://www.utbodsvefur.is/markadskonnun-rfi-vakta-og-vidverukerfi/",
       "summary": "Fjársýsla ríkisins óskar eftir upplýsingum frá markaðsaðilum um hugbúnaðarlausnir fyrir viðverustjórnun, tímaskráningu og vaktaskipulag hjá ríkisstofn...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -720,7 +652,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-13",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -729,8 +661,8 @@
       "first_seen_evidence": "retained_git_feed:88aca51e324a659d8043752471c7946d4a7c03db:data/tenders.json:2026-11-16T07:00:24.937305+00:00",
       "published_at": "2026-11-13T11:01:29+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "23426",
@@ -745,7 +677,7 @@
       "modified_at": "2026-11-23T11:45:45+00:00",
       "url": "https://www.utbodsvefur.is/9809-2/",
       "summary": "Fjársýslan fyrir hönd Náttúruhamfaratryggingar Íslands (NTÍ), kt. 520276-0259, stendur fyrir rammasamningsútboði fyrir matsstörf vegna náttúruhamfara....",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": true,
@@ -754,7 +686,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-28",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -763,8 +695,8 @@
       "first_seen_evidence": "retained_git_feed:705d6219433be9892415fa3838fb1ef8556f39a1:data/tenders.json:2026-10-28T14:36:04.272425+00:00",
       "published_at": "2026-10-28T09:06:00+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "Hönnun á lengingu Sundabakka",
@@ -779,7 +711,7 @@
       "modified_at": "2026-11-02T13:10:45+00:00",
       "url": "https://www.utbodsvefur.is/honnun-a-lengingu-sundabakka/",
       "summary": "Faxaflóahafnir sf. óska eftir tilboðum í hönnunarverkið „Hönnun á lengingu Sundabakka“ í Sundahöfn í Reykjavík. Útboðið tekur til verkfræðihönnunar og...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": true,
@@ -788,7 +720,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-02",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -797,8 +729,8 @@
       "first_seen_evidence": "retained_git_feed:81f3d547d9b13090ad0f99c6e0e8d6523d963c3a:data/tenders.json:2026-11-02T17:17:04.043750+00:00",
       "published_at": "2026-11-02T13:10:45+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "2026-52",
@@ -813,7 +745,7 @@
       "modified_at": "2026-11-02T14:04:36+00:00",
       "url": "https://www.utbodsvefur.is/rekstur-utstodva-og-notendathjonusta/",
       "summary": "Landsvirkjun, hér á eftir nefnd kaupandi, óskar eftir tilboðum í þjónustuna: 2026-52 Rekstur útstöðva og notendaþjónusta. Kaupandi óskar eftir þjónust...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -822,7 +754,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-03",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -831,8 +763,8 @@
       "first_seen_evidence": "retained_git_feed:358e0d27dc116f45ef87aff0f03b1e66e96510d6:data/tenders.json:2026-11-04T07:00:26.963272+00:00",
       "published_at": "2026-11-03T08:03:26+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "23270",
@@ -847,7 +779,7 @@
       "modified_at": "2026-11-10T14:49:34+00:00",
       "url": "https://www.utbodsvefur.is/raesting-fyrir-stjornarrad-nokkrar-byggingar/",
       "summary": "Fjársýslan, fyrir hönd Ríkiseigna, kt. 690980-0259, óskar eftir tilboðum í ræstiþjónustu fyrir Stjórnarráðið. Um er að ræða skrifstofuhúsnæði Umbru, e...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -856,7 +788,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-01",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -865,8 +797,8 @@
       "first_seen_evidence": "retained_git_feed:76b66caf5a59d3c241bf67b3ec2a50cdedf4c210:data/tenders.json:2026-10-05T07:00:26.624068+00:00",
       "published_at": "2026-10-01T09:31:05+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "2026-11",
@@ -881,7 +813,7 @@
       "modified_at": "2026-10-29T14:32:29+00:00",
       "url": "https://www.utbodsvefur.is/floating-pontoon-marina-system-skarfagardur/",
       "summary": "The project entails the manufacture and installation of 3–5 concrete pontoons in Reykjavík Harbour. The pontoons and moorings must be manufactured in ...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": true,
@@ -890,7 +822,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-02",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -899,8 +831,8 @@
       "first_seen_evidence": "retained_git_feed:816f5313b532186e5f60457798332b1ceffe7bf8:data/tenders.json:2026-11-02T07:00:27.458232+00:00",
       "published_at": "2026-11-02T00:00:33+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "202652",
@@ -915,7 +847,7 @@
       "modified_at": "2026-11-18T16:49:01+00:00",
       "url": "https://www.utbodsvefur.is/markadskonnun-vegna-nys-ithrottahuss-a-eskifirdi/",
       "summary": "Consensa, fyrir hönd Fjarðabyggðar, óskar eftir upplýsingum og sjónarmiðum áhugasamra markaðsaðila vegna fyrirhugaðrar uppbyggingar nýs íþróttahúss vi...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -924,7 +856,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-18",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -933,8 +865,8 @@
       "first_seen_evidence": "retained_git_feed:a7f860579d60ac01458a19920bd445273b25845c:data/tenders.json:2026-11-19T07:00:23.815531+00:00",
       "published_at": "2026-11-18T16:48:23+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "16356",
@@ -949,7 +881,7 @@
       "modified_at": "2026-11-23T13:43:56+00:00",
       "url": "https://www.utbodsvefur.is/fossvogsblettur-lodarframkvaemd-utbod-nr-16356/",
       "summary": "F.h. Umhverfis- og skipulagssviðs Reykjavíkurborgar er óskað eftir tilboðum í eftirfarandi verk: Fossvogsblettur – Lóðarframkvæmd, útboð nr. 163...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": true,
@@ -958,7 +890,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-28",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -967,8 +899,8 @@
       "first_seen_evidence": "retained_git_feed:705d6219433be9892415fa3838fb1ef8556f39a1:data/tenders.json:2026-10-28T14:36:04.272425+00:00",
       "published_at": "2026-10-28T11:56:53+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "767630-2026",
@@ -983,7 +915,7 @@
       "modified_at": "2026-11-10T09:57:39+00:00",
       "url": "https://www.utbodsvefur.is/vatryggingautbod-grundarfjardarbaejar-2027-2029/",
       "summary": "Grundarfjarðarbær og tengdir aðilar óska eftir tilboðum í vátryggingar fyrir tímabilið 2027-2029 Um er að ræða lög- og samningsbundnar tryggingar auk ...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -992,7 +924,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-10",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1001,8 +933,8 @@
       "first_seen_evidence": "retained_git_feed:bdba1ebafffcc6b6d26a1f47c34298b28d3b6ac8:data/tenders.json:2026-11-11T07:00:23.576553+00:00",
       "published_at": "2026-11-10T09:57:39+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "2603214",
@@ -1017,7 +949,7 @@
       "modified_at": "2026-11-20T13:54:17+00:00",
       "url": "https://www.utbodsvefur.is/hnodraholt-sudur-haholt-gatnagerd-og-lagnir/",
       "summary": "Garðabær óskar eftir tilboðum í verkið: Hnoðraholt suður – Háholt – Gatnagerð og lagnir Verkið felst í uppbyggingu gatna og veitna ...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -1026,7 +958,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-20",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1035,8 +967,8 @@
       "first_seen_evidence": "collector_run:2026-11-23T09:58:29.889020+00:00",
       "published_at": "2026-11-20T13:45:55+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "16354",
@@ -1051,7 +983,7 @@
       "modified_at": "2026-11-05T09:52:18+00:00",
       "url": "https://www.utbodsvefur.is/kaup-a-tryggingum-fyrir-starfsemi-og-starfstodvar-sorpu-bs-og-dotturfelaga-ees-utbod-nr-16354/",
       "summary": "Skrifstofa fjármálaþjónustu og innkaupa (hér eftir nefnd skrifstofan), f.h. SORPU bs (hér eftir nefndur kaupandi) óskar eftir tilboðum í kaup á tryggi...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -1060,7 +992,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-05",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1069,8 +1001,8 @@
       "first_seen_evidence": "retained_git_feed:64be404d648e49e509f6479e00dd0baad013f6bc:data/tenders.json:2026-11-06T07:00:23.933578+00:00",
       "published_at": "2026-11-05T09:51:52+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "GB-26-001",
@@ -1085,7 +1017,7 @@
       "modified_at": "2026-11-02T01:43:18+00:00",
       "url": "https://www.utbodsvefur.is/utbod-a-thjonustu-radgjafarteymis-verkkaupa-client-side-support-team-csst-fyrir-gong-og-bru-ohf/",
       "summary": "Göng og brú ohf. býður áhugasömum aðilum að taka þátt í útboði á þjónustu ráðgjafarteymis verkkaupa (Client Side Support Team – CSST). Félagið óskar e...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -1094,7 +1026,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-02",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1103,8 +1035,8 @@
       "first_seen_evidence": "retained_git_feed:816f5313b532186e5f60457798332b1ceffe7bf8:data/tenders.json:2026-11-02T07:00:27.458232+00:00",
       "published_at": "2026-11-02T01:43:18+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "16342",
@@ -1119,7 +1051,7 @@
       "modified_at": "2026-11-17T16:14:57+00:00",
       "url": "https://www.utbodsvefur.is/rafraen-undirritunarlausn-fyrir-reykjavikurborg-rammasamningur-ees-utbod-nr-16342/",
       "summary": "F.h. Reykjavíkurborgar er óskað eftir tilboðum í eftirfarandi verk: Rafræn undirritunarlausn fyrir Reykjavíkurborg. Rammasamningur, EES útboð nr. 1634...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": true,
@@ -1128,7 +1060,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-22",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1137,8 +1069,8 @@
       "first_seen_evidence": "retained_git_feed:2be8d73ffadacd1f0c7a594d0f29f5b916902b13:data/tenders.json:2026-10-22T22:40:39.752223+00:00",
       "published_at": "2026-10-22T12:44:53+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "115 - 2026",
@@ -1153,7 +1085,7 @@
       "modified_at": "2026-11-24T16:11:34+00:00",
       "url": "https://www.utbodsvefur.is/markadskonnun-husnaedi-fyrir-nytt-framleidslueldhus-landspitala/",
       "summary": "Markaðskönnun – Húsnæði fyrir nýtt framleiðslueldhús Landspítala Landspítali óskar eftir upplýsingum frá fasteignaeigendum, þróunaraðilum og öðr...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -1162,7 +1094,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-24",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1171,8 +1103,8 @@
       "first_seen_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
       "published_at": "2026-11-24T16:11:34+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "26-152",
@@ -1187,7 +1119,7 @@
       "modified_at": "2026-11-24T16:23:09+00:00",
       "url": "https://www.utbodsvefur.is/vestmannaeyjar-gjabakki-uppsetning-fendera-2026/",
       "summary": "Hafnarstjórn Vestmannaeyja óskar eftir tilboðum í verkið „Vestmannaeyjar – Gjábakki, Uppsetning fendera 2026“. Helstu verkþættir eru: Setja upp 21 st...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": true,
@@ -1196,7 +1128,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-24",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1205,8 +1137,8 @@
       "first_seen_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
       "published_at": "2026-11-24T16:23:09+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "20261112329",
@@ -1221,7 +1153,7 @@
       "modified_at": "2026-11-18T11:13:04+00:00",
       "url": "https://www.utbodsvefur.is/utbod-a-verkstaedi-vid-fiskitanga-2b/",
       "summary": "Hafnasamlag Norðurlands óskar eftir tilboðum í að byggja verkstæði (stálgrindarhús), með milligólfi, húsið er klætt samlokueiningum. Verkið felst í f...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -1230,7 +1162,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-18",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1239,8 +1171,8 @@
       "first_seen_evidence": "retained_git_feed:a7f860579d60ac01458a19920bd445273b25845c:data/tenders.json:2026-11-19T07:00:23.815531+00:00",
       "published_at": "2026-11-18T10:55:34+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "2026-62",
@@ -1255,7 +1187,7 @@
       "modified_at": "2026-11-18T17:59:46+00:00",
       "url": "https://www.utbodsvefur.is/endurnyjun-inntaksloka-i-burfellsstod/",
       "summary": "Landsvirkjun óskar eftir birgjum til að endurnýja inntaksloka í Búrfellsstöð. Endurnýja þarf alla sex lokana og skal valinn birgi hanna, smíða, setja ...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -1264,7 +1196,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-19",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1273,8 +1205,8 @@
       "first_seen_evidence": "retained_git_feed:982176fee38bc4e51cb237ab7c88abf56396e44a:data/tenders.json:2026-11-19T10:05:03.285621+00:00",
       "published_at": "2026-11-19T08:00:20+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "115050",
@@ -1289,7 +1221,7 @@
       "modified_at": "2026-11-06T10:11:34+00:00",
       "url": "https://www.utbodsvefur.is/stofnlogn-vatnsveitu-fra-kaldarbotnum/",
       "summary": "Ductile lagnaefni fyrir vatnsveitu Hafnarfjarðar Hafnarfjarðarbær óskar eftir tilboðum í útvegun og afhendingu ductile lagnaefnis fyrir stofnlögn vat...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -1298,7 +1230,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-06",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1307,8 +1239,8 @@
       "first_seen_evidence": "retained_git_feed:6e9d4f5d8602f9528256a8e77c8b0ca03d12c077:data/tenders.json:2026-11-10T07:00:23.509098+00:00",
       "published_at": "2026-11-06T10:11:34+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "16359",
@@ -1323,7 +1255,7 @@
       "modified_at": "2026-11-09T11:46:30+00:00",
       "url": "https://www.utbodsvefur.is/rekstur-hledslustodva-i-bilahusum-serleyfissamningur-ees-utbod-nr-16359/",
       "summary": "F.h. Umhverfis- og skipulagssviðs Reykjavíkurborgar er óskað eftir tilboðum í eftirfarandi verk: Rekstur hleðslustöðva í bílahúsum. Sérleyfissamningur...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": true,
@@ -1332,7 +1264,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-09",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1341,8 +1273,8 @@
       "first_seen_evidence": "retained_git_feed:6e9d4f5d8602f9528256a8e77c8b0ca03d12c077:data/tenders.json:2026-11-10T07:00:23.509098+00:00",
       "published_at": "2026-11-09T11:46:30+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "TZS26002",
@@ -1357,7 +1289,7 @@
       "modified_at": "2026-10-13T10:39:51+00:00",
       "url": "https://www.utbodsvefur.is/thotugildrur-a-keflavikurflugvelli/",
       "summary": "Utanríkisráðuneytið, varnarmálaskrifstofa og Landhelgisgæslan, varnarmálasvið, vekja athygli á auglýsingu innkaupastofnunar Atlantshafsbandalagsins (N...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -1366,7 +1298,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-13",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1375,8 +1307,8 @@
       "first_seen_evidence": "retained_git_feed:ee94999575b6d7a6dc2b2e186ebf552713d785c8:data/tenders.json:2026-10-14T07:00:24.291356+00:00",
       "published_at": "2026-10-13T10:38:49+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "I4086",
@@ -1391,7 +1323,7 @@
       "modified_at": "2026-11-12T08:28:37+00:00",
       "url": "https://www.utbodsvefur.is/rafkerfi-fyrir-medferdarkjarna-nlsh/",
       "summary": "Nýr Landspítali ohf. óskar eftir tilboðum í almennu útboði á rafkerfum frá kjallara K2 til 4. hæðar meðferðarkjarna ásamt stýringum og endabúnaði á 5....",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -1400,7 +1332,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-12",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1409,8 +1341,8 @@
       "first_seen_evidence": "retained_git_feed:3244d5493143352df26d3e81059b4fe28ff3a561:data/tenders.json:2026-11-13T07:00:25.698533+00:00",
       "published_at": "2026-11-12T08:28:37+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "20261111422",
@@ -1425,7 +1357,7 @@
       "modified_at": "2026-11-19T10:08:37+00:00",
       "url": "https://www.utbodsvefur.is/raesting-i-skogarlundi/",
       "summary": "Akureyrarbær auglýsir eftir tilboðum í ræstingar og aðra vinnu í Skógarlundi.   Samningstími er frá 1.4.2027 – 31.3.2029, með framlengingarmögule...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": true,
@@ -1434,7 +1366,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-17",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1443,8 +1375,8 @@
       "first_seen_evidence": "retained_git_feed:e620e988e0cccc6ac7b38b362df56bd4283b5cc2:data/tenders.json:2026-11-20T07:00:24.699742+00:00",
       "published_at": "2026-11-17T09:59:20+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "U26025",
@@ -1459,7 +1391,7 @@
       "modified_at": "2026-11-12T20:50:03+00:00",
       "url": "https://www.utbodsvefur.is/kerrusofnun-a-keflavikurflugvelli/",
       "summary": "Isavia leitar að öflugum og áreiðanlegum þjónustuaðila til að annast kerrusöfnun og tengda þjónustu á Keflavíkurflugvelli. Um er að ræða fjölbreytt og...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -1468,7 +1400,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-13",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1477,8 +1409,8 @@
       "first_seen_evidence": "retained_git_feed:88aca51e324a659d8043752471c7946d4a7c03db:data/tenders.json:2026-11-16T07:00:24.937305+00:00",
       "published_at": "2026-11-13T12:00:02+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "35061",
@@ -1493,7 +1425,7 @@
       "modified_at": "2026-11-16T09:20:40+00:00",
       "url": "https://www.utbodsvefur.is/spect-ct-og-pet-ct-myndgreiningarkerfi/",
       "summary": "Landspítali (LSH) og Nýr Landspítali ohf. (NLSH) óska eftir tilboðum í SPECT/CT og PET/CT myndgreiningarkerfi, eins og nánar er lýst í útboðsgögnum. U...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -1502,7 +1434,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-16",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1511,8 +1443,8 @@
       "first_seen_evidence": "retained_git_feed:ab5c4873b981898b67d3913b5a020d9173b3579b:data/tenders.json:2026-11-17T07:00:25.650766+00:00",
       "published_at": "2026-11-16T09:20:40+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "35071",
@@ -1527,7 +1459,7 @@
       "modified_at": "2026-11-16T15:07:35+00:00",
       "url": "https://www.utbodsvefur.is/ymis-lyf-92-lyf-vid-fabry/",
       "summary": "Landspítali óskar eftir tilboðum í lyf við Fabry-sjúkdómi. Um er að ræða lyf í eftirfarandi ATC flokkum: A16AB03, A16AB04, A16AB20, A16AX14, Nánari up...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -1536,7 +1468,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-16",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1545,8 +1477,8 @@
       "first_seen_evidence": "retained_git_feed:ab5c4873b981898b67d3913b5a020d9173b3579b:data/tenders.json:2026-11-17T07:00:25.650766+00:00",
       "published_at": "2026-11-16T15:07:35+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "2026-58",
@@ -1561,7 +1493,7 @@
       "modified_at": "2026-11-09T12:46:12+00:00",
       "url": "https://www.utbodsvefur.is/steel-tubes-and-fittings-for-thg-19/",
       "summary": "Landsvirkjun seeks a supplier for manufacturing and delivery of the following: PART A: Steel tubes as described in Vol 2, Sub-Clause 1.3 [Specific Req...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -1570,7 +1502,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-09",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1579,42 +1511,8 @@
       "first_seen_evidence": "retained_git_feed:6e9d4f5d8602f9528256a8e77c8b0ca03d12c077:data/tenders.json:2026-11-10T07:00:23.509098+00:00",
       "published_at": "2026-11-09T12:46:12+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
-    },
-    {
-      "reference": "RARIK 26023",
-      "project": "RARIK 26023 – Forval vegna reikningagerðar- og gjaldskrárkerfis fyrir Rarik ohf.",
-      "buyer": "Rarik",
-      "notice_type": "Vörukaup",
-      "deadline": "20.12.2026 kl. 23:59",
-      "deadline_local": "2026-12-20T23:59:00+00:00",
-      "deadline_utc": "2026-12-20T23:59:00+00:00",
-      "deadline_confirmed": true,
-      "posted_at": "2026-11-20T08:19:42+00:00",
-      "modified_at": "2026-11-20T08:19:42+00:00",
-      "url": "https://www.utbodsvefur.is/rarik-26023-forval-vegna-reikningagerdar-og-gjaldskrarkerfis-fyrir-rarik-ohf/",
-      "summary": "Forval vegna reikningagerðar- og gjaldskrárkerfis fyrir Rarik ohf. Rarik ohf. óskar eftir umsóknum um þátttöku í forvali vegna kaupa á nýju reikningag...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
-      "sector_tags": [],
-      "sector_eligibility": {
-        "iceland_project_evidence": false,
-        "facility_relevance": false,
-        "project_eligible": false,
-        "eligibility_reason": "no_material_sector_evidence",
-        "current_dated_signal": false,
-        "source_date": "2026-11-20",
-        "assessed_on": "2026-11-25",
-        "new_milestone_verified": false,
-        "newsletter_ready": false,
-        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
-      },
-      "first_seen_at": "2026-11-23T07:00:23Z",
-      "first_seen_evidence": "offline_current_replay",
-      "published_at": "2026-11-20T08:19:42+00:00",
-      "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "2608-5801",
@@ -1629,7 +1527,7 @@
       "modified_at": "2026-10-26T09:22:57+00:00",
       "url": "https://www.utbodsvefur.is/leiga-a-tjaldsvaedinu-i-kalmansvik-2/",
       "summary": "Akraneskaupstaður óskar eftir tilboðum í leigu á tjaldsvæðinu í Kalmansvík. Svæðið þar sem tjaldsvæðið er staðsett er tæplega 2,2 ha að flatarmáli og ...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -1638,7 +1536,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-14",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1647,8 +1545,8 @@
       "first_seen_evidence": "retained_git_feed:f182fdf6ca26e67114c61a983d31bf3d8b444400:data/tenders.json:2026-10-21T07:00:26.038404+00:00",
       "published_at": "2026-10-14T11:36:19+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "ONU-2611-0020",
@@ -1663,7 +1561,7 @@
       "modified_at": "2026-11-20T08:06:00+00:00",
       "url": "https://www.utbodsvefur.is/hellisheidarvirkjun-verkstaedis-og-lagerbygging-lod-taeknikerfi-og-innanhusfragangur/",
       "summary": "Verkið felst í fullnaðarfrágangi nýs lager- og vélaverkstæðis við Sleggju á Hellisheiði. Um er að ræða heildstætt framkvæmdaverk þar sem ljúka skal by...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -1672,7 +1570,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-20",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1681,8 +1579,42 @@
       "first_seen_evidence": "offline_current_replay",
       "published_at": "2026-11-20T08:06:37+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
+    },
+    {
+      "reference": "RARIK 26023",
+      "project": "RARIK 26023 – Forval vegna reikningagerðar- og gjaldskrárkerfis fyrir Rarik ohf.",
+      "buyer": "Rarik",
+      "notice_type": "Vörukaup",
+      "deadline": "22.12.2026 kl. 14:00",
+      "deadline_local": "2026-12-22T14:00:00+00:00",
+      "deadline_utc": "2026-12-22T14:00:00+00:00",
+      "deadline_confirmed": true,
+      "posted_at": "2026-11-20T08:19:42+00:00",
+      "modified_at": "2026-11-25T20:59:29+00:00",
+      "url": "https://www.utbodsvefur.is/rarik-26023-forval-vegna-reikningagerdar-og-gjaldskrarkerfis-fyrir-rarik-ohf/",
+      "summary": "Forval vegna reikningagerðar- og gjaldskrárkerfis fyrir Rarik ohf. Rarik ohf. óskar eftir umsóknum um þátttöku í forvali vegna kaupa á nýju reikningag...",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
+      "sector_tags": [],
+      "sector_eligibility": {
+        "iceland_project_evidence": false,
+        "facility_relevance": false,
+        "project_eligible": false,
+        "eligibility_reason": "no_material_sector_evidence",
+        "current_dated_signal": false,
+        "source_date": "2026-11-20",
+        "assessed_on": "2026-11-26",
+        "new_milestone_verified": false,
+        "newsletter_ready": false,
+        "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
+      },
+      "first_seen_at": "2026-11-23T07:00:23Z",
+      "first_seen_evidence": "offline_current_replay",
+      "published_at": "2026-11-20T08:19:42+00:00",
+      "posted_at_source": "source_published",
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "U26024",
@@ -1697,7 +1629,7 @@
       "modified_at": "2026-11-23T09:32:28+00:00",
       "url": "https://www.utbodsvefur.is/pqq-airpot-surveillance-radar-asr/",
       "summary": "Þessi spurningalisti vegna forvals („PQQ“) vegna innkaupa Avians ehf. („Kaupandinn“) á hönnun, afhendingu, uppsetningu, prófunum, gangsetningu og viðh...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -1706,7 +1638,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-23",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1715,8 +1647,8 @@
       "first_seen_evidence": "collector_run:2026-11-23T09:58:29.889020+00:00",
       "published_at": "2026-11-23T09:30:50+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "ORU-2609-0009",
@@ -1731,7 +1663,7 @@
       "modified_at": "2026-11-24T08:15:33+00:00",
       "url": "https://www.utbodsvefur.is/thjonusta-idnadarmanna-fyrir-orkuveituna/",
       "summary": "Kaupandi óskar eftir tilboðum í þjónustu iðnaðarmanna, í viðhaldsþjónustu, endurnýjun, breytingar og viðbætur á fasteignum í eigu kaupanda. Gerðir ver...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -1740,7 +1672,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-24",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1749,8 +1681,8 @@
       "first_seen_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
       "published_at": "2026-11-24T08:15:33+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "VEU-2611-0074",
@@ -1765,7 +1697,7 @@
       "modified_at": "2026-11-20T08:37:32+00:00",
       "url": "https://www.utbodsvefur.is/rennslismaelar-i-fraveitu/",
       "summary": "Kaupandi óskar eftir tilboðum í rennslis- og hæðarskynjara til notkunar í fráveitukerfum, í samræmi við útboðsskilmála.",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -1774,7 +1706,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-20",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1783,8 +1715,8 @@
       "first_seen_evidence": "offline_current_replay",
       "published_at": "2026-11-20T08:37:32+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "2026-57",
@@ -1799,7 +1731,7 @@
       "modified_at": "2026-11-18T11:34:18+00:00",
       "url": "https://www.utbodsvefur.is/tht10-gufuveita/",
       "summary": "Landsvirkjun býður hér með út verk vegna smíði gufuveitu fyrir virkjun toppþrýstings á Þeistareykjum. Verkið felst meðal annars í lagningu háþrýstra s...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -1808,7 +1740,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-18",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1817,8 +1749,8 @@
       "first_seen_evidence": "retained_git_feed:a7f860579d60ac01458a19920bd445273b25845c:data/tenders.json:2026-11-19T07:00:23.815531+00:00",
       "published_at": "2026-11-18T11:34:18+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "VEU-2609-0060",
@@ -1833,7 +1765,7 @@
       "modified_at": "2026-10-23T13:35:11+00:00",
       "url": "https://www.utbodsvefur.is/veu-2609-0060-fodrun-fraveitulagna/",
       "summary": "Veitur ohf. óskar eftir þátttekendum í rammasamning Veitna vegna verkefnis: „VEU-2609-0060 Fóðrun fráveitulagna“ Með útboðinu hyggst Kaupa...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -1842,7 +1774,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-23",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1851,8 +1783,8 @@
       "first_seen_evidence": "retained_git_feed:f4c0b2fe03b848fe5d88bd952a43fb32b502e864:data/tenders.json:2026-10-26T07:00:25.058039+00:00",
       "published_at": "2026-10-23T13:34:32+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "VEU-2601-0019",
@@ -1867,7 +1799,7 @@
       "modified_at": "2026-11-13T12:29:39+00:00",
       "url": "https://www.utbodsvefur.is/veu-2601-0019-12-kv-rofabunadi/",
       "summary": "Veitur óska eftir tilboðum í rammasamnings vegna kaupa á 12 kV rofabúnaði Um er að ræða rammasamning vegna útvegunar og afhendingar á 12 kV rofabúnaði...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -1876,7 +1808,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-13",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1885,8 +1817,8 @@
       "first_seen_evidence": "retained_git_feed:88aca51e324a659d8043752471c7946d4a7c03db:data/tenders.json:2026-11-16T07:00:24.937305+00:00",
       "published_at": "2026-11-13T12:29:39+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "2026-06",
@@ -1901,7 +1833,7 @@
       "modified_at": "2026-11-20T12:35:24+00:00",
       "url": "https://www.utbodsvefur.is/2026-06-kvislatunguvirkjun-mannvirki/",
       "summary": "Kvíslatunguvirkjun – Mannvirki | Útboð nr. 2026-06 Orkubú Vestfjarða ohf. óskar eftir tilboðum í verkið Kvíslatunguvirkjun – Mannvirki. Verkið tekur t...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -1910,7 +1842,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-20",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1919,8 +1851,8 @@
       "first_seen_evidence": "retained_git_feed:e620e988e0cccc6ac7b38b362df56bd4283b5cc2:data/tenders.json:2026-11-20T07:00:24.699742+00:00",
       "published_at": "2026-11-20T12:41:27+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "6330273",
@@ -1935,7 +1867,7 @@
       "modified_at": "2026-11-13T09:47:07+00:00",
       "url": "https://www.utbodsvefur.is/honnun-og-verkframkvaemd-jardraektarmidstodvar/",
       "summary": "Framkvæmdasýslan – Ríkiseignir (FSRE), fyrir hönd Landbúnaðarháskóla Íslands (LBHÍ), óskar eftir tilboðum í hönnun og byggingu á Jarðræktarmiðstöð við...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": true,
@@ -1944,7 +1876,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-11-13",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1953,8 +1885,8 @@
       "first_seen_evidence": "retained_git_feed:88aca51e324a659d8043752471c7946d4a7c03db:data/tenders.json:2026-11-16T07:00:24.937305+00:00",
       "published_at": "2026-11-13T09:47:07+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "2026-35",
@@ -1969,7 +1901,7 @@
       "modified_at": "2026-10-19T15:54:49+00:00",
       "url": "https://www.utbodsvefur.is/hvm10-mannvirkjagerd/",
       "summary": "Landsvirkjun býður hér með út verk sem felst í byggingu Núpstíflu, þar með talið yfirfallsmannvirkjum með lokum og brúm, fiskvegum, aðrennslisskurði, ...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -1978,7 +1910,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-19",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -1987,8 +1919,8 @@
       "first_seen_evidence": "retained_git_feed:caa0bc3c8444a91b510dd9d09feabd47b6729342:data/tenders.json:2026-10-19T19:50:01.868838+00:00",
       "published_at": "2026-10-19T15:54:49+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "2024-54",
@@ -2003,7 +1935,7 @@
       "modified_at": "2025-04-22T13:21:11+00:00",
       "url": "https://www.utbodsvefur.is/gagnvirkt-innkaupakerfi-vegna-bifreidakaupa/",
       "summary": "Landsvirkjun óskar eftir birgjum til þátttöku í gagnvirku innkaupakerfi vegna kaupa á bifreiðum fyrir Landsvirkjun. Um er að ræða útboð nr. 2024-54. G...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -2012,7 +1944,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2024-10-31",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2021,8 +1953,8 @@
       "first_seen_evidence": "retained_git_feed:76b66caf5a59d3c241bf67b3ec2a50cdedf4c210:data/tenders.json:2026-10-05T07:00:26.624068+00:00",
       "published_at": "2024-10-31T13:46:17+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "VEGK-2024-01",
@@ -2037,7 +1969,7 @@
       "modified_at": "2024-03-05T12:36:13+00:00",
       "url": "https://www.utbodsvefur.is/vegk-2024-01-veitulagnir-jardvinna-og-yfirbordsfragangur-gagnvirkt-innkaupakerfi/",
       "summary": "Veitur ohf. óska eftir þátttakendum í gagnvirkt innkaupakerfi fyrir verkefni vegna veitulagna, jarðvinnu og yfirborðsfrágangs. Undir gagnvirka innkaup...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -2046,7 +1978,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2024-03-05",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2055,8 +1987,8 @@
       "first_seen_evidence": "retained_git_feed:76b66caf5a59d3c241bf67b3ec2a50cdedf4c210:data/tenders.json:2026-10-05T07:00:26.624068+00:00",
       "published_at": "2024-03-05T12:36:13+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "I0083",
@@ -2071,7 +2003,7 @@
       "modified_at": "2024-07-16T15:01:06+00:00",
       "url": "https://www.utbodsvefur.is/gagnvirt-innkaupakerfi-ut-radgjof-fyrir-nlsh-dps-for-it-consulting-services-for-nlsh/",
       "summary": "The New National Hospital (NLSH) project reg.nr. 500810-0410 hereby invite applicants to participate in this Dynamic Purchasing System (DPS): DPS for ...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -2080,7 +2012,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2024-02-07",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2089,8 +2021,8 @@
       "first_seen_evidence": "retained_git_feed:76b66caf5a59d3c241bf67b3ec2a50cdedf4c210:data/tenders.json:2026-10-05T07:00:26.624068+00:00",
       "published_at": "2024-02-07T14:27:25+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "U23036",
@@ -2105,7 +2037,7 @@
       "modified_at": "2023-09-13T13:45:58+00:00",
       "url": "https://www.utbodsvefur.is/led-skjalausnir-fyrir-isavia-ohf-og-dotturfyrirtaeki/",
       "summary": "Isavia ohf. ásamt dótturfélögum óskar eftir aðilum til þátttöku í gagnvirku innkaupakerfi vegna kaupa á LED skjálausnum. Gagnvirkt innkaupakerfi er t...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -2114,7 +2046,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2023-07-28",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2123,8 +2055,8 @@
       "first_seen_evidence": "retained_git_feed:76b66caf5a59d3c241bf67b3ec2a50cdedf4c210:data/tenders.json:2026-10-05T07:00:26.624068+00:00",
       "published_at": "2023-07-28T11:14:23+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "U22016",
@@ -2139,7 +2071,7 @@
       "modified_at": "2022-12-01T11:02:11+00:00",
       "url": "https://www.utbodsvefur.is/gagnvirkt-innkaupakerfi-okutaeki-fyrir-isavia/",
       "summary": "Isavia óskar eftir aðilum til þátttöku í gagnvirku innkaupakerfi (DPS) vegna kaupa á ökutækjum fyrir Isavia. Í upphafi gagnvirks innkaupakerfis skila ...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -2148,7 +2080,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2022-12-01",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2157,8 +2089,8 @@
       "first_seen_evidence": "retained_git_feed:76b66caf5a59d3c241bf67b3ec2a50cdedf4c210:data/tenders.json:2026-10-05T07:00:26.624068+00:00",
       "published_at": "2022-12-01T11:02:11+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "I0210",
@@ -2173,7 +2105,7 @@
       "modified_at": "2025-04-04T09:50:24+00:00",
       "url": "https://www.utbodsvefur.is/gagnvirkt-innkaupakerfi-fyrir-sjukrahusapotek-og-gmp-radgjafarthjonustu-fyrir-nlsh-dps/",
       "summary": "The New National Hospital (NLSH) project reg.nr. 500810-0410 hereby invite applicants to participate in this Dynamic Purchasing System (DPS): DPS for ...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -2182,7 +2114,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-04-02",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2191,8 +2123,8 @@
       "first_seen_evidence": "retained_git_feed:76b66caf5a59d3c241bf67b3ec2a50cdedf4c210:data/tenders.json:2026-10-05T07:00:26.624068+00:00",
       "published_at": "2025-04-02T15:50:02+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "I0099",
@@ -2207,7 +2139,7 @@
       "modified_at": "2025-05-15T14:04:51+00:00",
       "url": "https://www.utbodsvefur.is/birgjalisti-fyrir-ut-verktaka/",
       "summary": "Nýr Landspítali ohf., kt. 500810-0410, Vatnsmýrarvegi 22, 101 Reykjavík, (hér eftir nefndur „verkkaupi“) óskar eftir þátttakendum á birgjalista fyrir ...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": true,
@@ -2216,7 +2148,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-05-15",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2225,8 +2157,8 @@
       "first_seen_evidence": "retained_git_feed:76b66caf5a59d3c241bf67b3ec2a50cdedf4c210:data/tenders.json:2026-10-05T07:00:26.624068+00:00",
       "published_at": "2025-05-15T14:04:51+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "35036",
@@ -2241,7 +2173,7 @@
       "modified_at": "2025-06-03T08:01:37+00:00",
       "url": "https://www.utbodsvefur.is/gagnvirkt-innkaupakerfi-landspitala-thjonusta-vid-hugbunadarthroun-dps/",
       "summary": "Innkaupadeild Landspítala, fyrir hönd deildar stafrænnar framþróunar á Landspítala, óskar eftir þátttakendum í gagnvirkt innkaupakerfi, (DPS, Dynamic ...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -2250,7 +2182,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-06-03",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2259,8 +2191,8 @@
       "first_seen_evidence": "retained_git_feed:76b66caf5a59d3c241bf67b3ec2a50cdedf4c210:data/tenders.json:2026-10-05T07:00:26.624068+00:00",
       "published_at": "2025-06-03T07:50:16+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "DPSENG",
@@ -2275,7 +2207,7 @@
       "modified_at": "2022-09-29T16:50:22+00:00",
       "url": "https://www.utbodsvefur.is/gagnvirkt-innkaupakerfi-vegna-verkfraedithjonustu/",
       "summary": "Landsnet óskar eftir aðilum til þátttöku í gagnvirku innkaupakerfi um verkfræðiþjónustu sbr. 55. gr. reglugerðar nr. 340/2017. Verkfræðiþjónusta er ná...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -2284,7 +2216,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2022-10-05",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2293,8 +2225,8 @@
       "first_seen_evidence": "retained_git_feed:76b66caf5a59d3c241bf67b3ec2a50cdedf4c210:data/tenders.json:2026-10-05T07:00:26.624068+00:00",
       "published_at": "2022-10-05T14:00:05+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "ORGK-2025-01",
@@ -2309,7 +2241,7 @@
       "modified_at": "2025-03-18T19:18:01+00:00",
       "url": "https://www.utbodsvefur.is/8157-2/",
       "summary": "Kaupandi óskar eftir þátttakendum í gagnvirkt innkaupakerfi (GIK) fyrir laus húsgögn fyrir höfuðstöðvar Orkuveitunnar í samræmi við útboðsgögn. Umsókn...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -2318,7 +2250,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-03-18",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2327,8 +2259,8 @@
       "first_seen_evidence": "retained_git_feed:76b66caf5a59d3c241bf67b3ec2a50cdedf4c210:data/tenders.json:2026-10-05T07:00:26.624068+00:00",
       "published_at": "2025-03-18T19:13:56+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "DPSRF",
@@ -2343,7 +2275,7 @@
       "modified_at": "2023-12-05T14:47:52+00:00",
       "url": "https://www.utbodsvefur.is/gagnvirkt-innkaupakerfi-vegna-reglunaraflstrygginga-og-flutningstapa/",
       "summary": "Landsnet óskar eftir aðilum til þátttöku í gagnvirku innkaupakerfi vegna reglunaraflstryggingar og flutningstapa sbr. 55. gr. reglugerðar nr. 340/2017...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -2352,7 +2284,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2023-11-02",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2361,8 +2293,8 @@
       "first_seen_evidence": "retained_git_feed:76b66caf5a59d3c241bf67b3ec2a50cdedf4c210:data/tenders.json:2026-10-05T07:00:26.624068+00:00",
       "published_at": "2023-11-02T11:20:05+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "21616",
@@ -2377,7 +2309,7 @@
       "modified_at": "2024-08-27T10:01:40+00:00",
       "url": "https://www.utbodsvefur.is/dps-leiga-a-netabatum-fyrir-hafrannsoknastofnun/",
       "summary": "Fjársýslan fyrir hönd Hafrannsóknastofnunar (kt. 470616-0830) óska eftir bjóðendum í gagnvirkt innkaupakerfi (DPS) til leigu á netabátum til að stunda...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -2386,7 +2318,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2021-12-27",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2395,8 +2327,8 @@
       "first_seen_evidence": "retained_git_feed:76b66caf5a59d3c241bf67b3ec2a50cdedf4c210:data/tenders.json:2026-10-05T07:00:26.624068+00:00",
       "published_at": "2021-12-27T09:21:45+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "DPSRAF",
@@ -2411,7 +2343,7 @@
       "modified_at": "2024-02-02T09:53:42+00:00",
       "url": "https://www.utbodsvefur.is/gagnvirkt-innkaupakerfi-vegna-thjonustu-rafverktaka/",
       "summary": "Landsnet óskar eftir aðilum til þátttöku í gagnvirku innkaupakerfi vegna þjónustu rafverktaka sbr. 55. gr. reglugerðar nr. 340/2017. Innkaupakerfinu e...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -2420,7 +2352,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2023-11-29",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2429,8 +2361,8 @@
       "first_seen_evidence": "retained_git_feed:76b66caf5a59d3c241bf67b3ec2a50cdedf4c210:data/tenders.json:2026-10-05T07:00:26.624068+00:00",
       "published_at": "2023-11-29T16:08:02+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "DPSOHL",
@@ -2445,7 +2377,7 @@
       "modified_at": "2024-02-13T13:41:12+00:00",
       "url": "https://www.utbodsvefur.is/gagnvirt-innkaupakerfi-bunadur-og-efni-fyrir-loftlinur/",
       "summary": "Landsnet óskar eftir aðilum til þátttöku í gagnvirku innkaupakerfi vegna kaupa á búnaði og efni fyrir loftlínur sbr. 55. gr. reglugerðar nr. 340/2017....",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -2454,7 +2386,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2024-01-03",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2463,8 +2395,8 @@
       "first_seen_evidence": "retained_git_feed:76b66caf5a59d3c241bf67b3ec2a50cdedf4c210:data/tenders.json:2026-10-05T07:00:26.624068+00:00",
       "published_at": "2024-01-03T09:40:49+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "DPSTR",
@@ -2479,7 +2411,7 @@
       "modified_at": "2024-10-09T11:10:42+00:00",
       "url": "https://www.utbodsvefur.is/gagnvirkt-innkaupakerfi-spennar-og-spolur/",
       "summary": "Landsnet óskar eftir aðilum til þátttöku í gagnvirku innkaupakerfi vegna kaupa á spennum og spólum sbr. 55. gr. reglugerðar nr. 340/2017. Nánari upplý...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -2488,7 +2420,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2024-02-15",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2497,8 +2429,8 @@
       "first_seen_evidence": "retained_git_feed:76b66caf5a59d3c241bf67b3ec2a50cdedf4c210:data/tenders.json:2026-10-05T07:00:26.624068+00:00",
       "published_at": "2024-02-15T16:23:56+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "2025-10",
@@ -2513,7 +2445,7 @@
       "modified_at": "2025-09-19T15:03:27+00:00",
       "url": "https://www.utbodsvefur.is/2025-10-gagnvirkt-innkaupakerfi-dps-bifreidar/",
       "summary": "Orkubú Vestfjarða ohf. óskar eftir birgjum til þátttöku í gagnvirku innkaupakerfi vegna kaupa á nýjum bifreiðum. Í upphafi gagnvirks innkaupakerfis sk...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -2522,7 +2454,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2025-09-19",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2531,8 +2463,8 @@
       "first_seen_evidence": "retained_git_feed:76b66caf5a59d3c241bf67b3ec2a50cdedf4c210:data/tenders.json:2026-10-05T07:00:26.624068+00:00",
       "published_at": "2025-09-19T15:02:21+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "2026-17",
@@ -2547,7 +2479,7 @@
       "modified_at": "2026-10-01T15:14:52+00:00",
       "url": "https://www.utbodsvefur.is/consultancy-for-geothermal-development-resources-dps-dynamic-purchasing-system/",
       "summary": "The DPS is intended to provide an electronic, continuously open procurement route for recurring consultancy assignments for Landsvirkjun within the lo...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -2556,7 +2488,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-08-27",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2565,8 +2497,8 @@
       "first_seen_evidence": "retained_git_feed:55e68619cf5fa2132c29677fccdebe58bf504985:data/tenders.json:2026-08-31T07:00:12.931795+00:00",
       "published_at": "2026-08-27T13:51:55+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "21775",
@@ -2581,7 +2513,7 @@
       "modified_at": "2024-10-29T09:44:13+00:00",
       "url": "https://www.utbodsvefur.is/vaccines-for-the-icelandic-vaccination-programme-dps/",
       "summary": "Ríkiskaup, fyrir hönd sóttvarnalæknis vegna heilbrigðisráðuneytisins, kt. 521218-0530, óska eftir þátttakendum í gagnvirkt innkaupakerfi (DPS) fyrir b...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -2590,7 +2522,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2022-11-04",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2599,8 +2531,8 @@
       "first_seen_evidence": "retained_git_feed:76b66caf5a59d3c241bf67b3ec2a50cdedf4c210:data/tenders.json:2026-10-05T07:00:26.624068+00:00",
       "published_at": "2022-11-04T10:57:46+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "23355",
@@ -2615,7 +2547,7 @@
       "modified_at": "2026-06-10T09:03:13+00:00",
       "url": "https://www.utbodsvefur.is/dps-taeknithjonusta-fyrir-haskola-islands/",
       "summary": "Fjársýslan fyrir hönd Háskóla Íslands (HÍ) kt. 600169-2039 óskar eftir aðilum til þátttöku í gagnvirku innkaupakerfi (DPS) um þjónustu sérfræðinga í u...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": true,
@@ -2624,7 +2556,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-06-10",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2633,8 +2565,8 @@
       "first_seen_evidence": "retained_git_feed:845739b6e67cd3ba31919e5b3e244de202a77288:data/tenders.json:2026-08-04T12:44:29.589047+00:00",
       "published_at": "2026-06-10T09:03:13+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "U24020",
@@ -2649,7 +2581,7 @@
       "modified_at": "2024-07-08T13:26:18+00:00",
       "url": "https://www.utbodsvefur.is/dps-no-u24020-runway-de-icing-chemicals/",
       "summary": "Isavia ohf. is establishing a Dynamic Purchasing System (“DPS”) of qualified suppliers for the supply of runway de-icing chemicals, both solid and liq...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -2658,7 +2590,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2024-07-08",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2667,8 +2599,8 @@
       "first_seen_evidence": "retained_git_feed:76b66caf5a59d3c241bf67b3ec2a50cdedf4c210:data/tenders.json:2026-10-05T07:00:26.624068+00:00",
       "published_at": "2024-07-08T13:13:39+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     },
     {
       "reference": "U25041",
@@ -2683,7 +2615,7 @@
       "modified_at": "2026-10-05T11:10:20+00:00",
       "url": "https://www.utbodsvefur.is/dps-lifdisill-fyrir-isavia-ohf-u25041/",
       "summary": "Kaupandi hyggst koma á fót gagnvirku innkaupakerfi („DPS“) hæfra birgja fyrir afhendingu á hreinni lífdísil olíu (HVO) til notkunar á vinnuvélum og öð...",
-      "listing_last_seen_at": "2026-11-25T07:00:25.741326+00:00",
+      "listing_last_seen_at": "2026-11-26T07:00:28.275235+00:00",
       "sector_tags": [],
       "sector_eligibility": {
         "iceland_project_evidence": false,
@@ -2692,7 +2624,7 @@
         "eligibility_reason": "no_material_sector_evidence",
         "current_dated_signal": false,
         "source_date": "2026-10-05",
-        "assessed_on": "2026-11-25",
+        "assessed_on": "2026-11-26",
         "new_milestone_verified": false,
         "newsletter_ready": false,
         "editorial_review": "required; evidence tags do not verify project identity, stage or a new milestone"
@@ -2701,8 +2633,8 @@
       "first_seen_evidence": "retained_git_feed:d2c8e16cb47dc5ae4b4d89e8b2e7c6fcc32d06b7:data/tenders.json:2026-10-06T07:00:26.972926+00:00",
       "published_at": "2026-10-05T11:10:20+00:00",
       "posted_at_source": "source_published",
-      "publication_evidence": "collector_run:2026-11-25T07:00:25.804094+00:00",
-      "publication_observed_at": "2026-11-25T07:00:25.804094+00:00"
+      "publication_evidence": "collector_run:2026-11-26T07:00:28.337084+00:00",
+      "publication_observed_at": "2026-11-26T07:00:28.337084+00:00"
     }
   ]
 }
